@@ -1,0 +1,450 @@
+{
+    "title": "The 'Russian Tail' in Election Data: A Red Flag or a Bigger Threat?",
+    "author": "Alone-Sky-2086",
+    "subreddit": "PoliticalDiscussion",
+    "rank": 24,
+    "score": 144,
+    "upvote_ratio": 0.92,
+    "num_comments (reported by reddit)": 68,
+    "url": "https://www.reddit.com/r/PoliticalDiscussion/comments/1ik1v6w/the_russian_tail_in_election_data_a_red_flag_or_a/",
+    "id": "1ik1v6w",
+    "selftext": "\nI recently came across a video explaining something called the 'Russian tail' in election data analysis, and it got me thinking\u2014how often does this pattern appear in elections worldwide? If it's been documented in contested elections before, could it be a sign of deeper systemic issues? And more importantly, could similar anomalies have influenced past U.S. elections\u2014or even shape future ones?\n\nA Russian tail is a statistical anomaly often observed in elections with suspected fraud. Normally, vote distributions follow a smooth bell curve, but in some cases, an extra spike appears\u2014suggesting that votes may have been shifted in specific precincts. This pattern has been documented in Russian elections, Georgia elections and and some watchdog groups claim to have seen similar anomalies in Romania most recently. There were independent journalists and analysts that reported they noticed the same anomalies in the November 2024 U.S election.\n\nWith all the concerns about election integrity and foreign interference\u2014especially disinformation campaigns aimed at making people distrust results\u2014do you think statistical anomalies like this could impact public confidence in the U.S. electoral process? Even if fraud isn\u2019t proven, does simply showing these data patterns create enough doubt to destabilize democracy?\n\nCurious to hear what others think! Have you seen any credible research on this in U.S. elections? Could this be a real issue, or is it just another layer of political chaos?\n\n",
+    "comments": [
+        {
+            "author": "AutoModerator",
+            "body": "[A reminder for everyone](https://www.reddit.com/r/PoliticalDiscussion/comments/4479er/rules_explanations_and_reminders/). This is a subreddit for genuine discussion:\n\n* Please keep it civil. Report rulebreaking comments for moderator review.\n* Don't post low effort comments like joke threads, memes, slogans, or links without context.\n* Help prevent this subreddit from becoming an echo chamber. Please don't downvote comments with which you disagree.\n\nViolators will be fed to the bear.\n\n---\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/PoliticalDiscussion) if you have any questions or concerns.*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ghostpoints",
+            "body": "Here's a description of the Russian tail:\n\nhttps://www.rferl.org/a/georgia-election-manipulation-russian-tail/33183374.html\n\nHere's what has been found in Clark County NV data. Same pattern, just a different way of depicting the data:\n\nhttps://electiontruthalliance.org/clark-county%2C-nv",
+            "score": 64,
+            "replies": [
+                {
+                    "author": "AmusingMusing7",
+                    "body": "Might be the most convincing evidence I\u2019ve seen so far. More people need to be aware of this.",
+                    "score": 42,
+                    "replies": [
+                        {
+                            "author": "lurker1125",
+                            "body": "Once you see the difference in voting patterns comparing mail-in, early voting, and election day, you can't unsee it. It's plain as day - something is clearly impossibly wrong with early voting totals.",
+                            "score": 28,
+                            "replies": [
+                                {
+                                    "author": "ghostpoints",
+                                    "body": "In Clark County, yes. It may be at the voting machine level though. Maybe the machines there tabulating early voting were altered but others were not.\n\nIt might look different in other places.",
+                                    "score": 7,
+                                    "replies": [
+                                        {
+                                            "author": "lurker1125",
+                                            "body": "They've been looking at other places, and other swing states show the same anomalies.",
+                                            "score": 4,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "notapoliticalalt",
+                            "body": "I wouldn\u2019t say I\u2019m convinced by it, but I am intrigued and would support further inquiry. \n\nBasically, for anyone wondering, the case lies in two primary points:\n\n* **\u201dDrop-Off\u201d Votes:** Essentially, \u201cdrop off\u201d votes are people who only vote for president (the so called \u201ctop of the ticket\u201d) and don\u2019t vote down ballot (so numbers \u201cdrop off\u201d after that). They note that Harris-Rosen drop off votes for early votes is especially low, less than 100 in fact, whereas the differential in every other category on the order of magnitude of thousands (or more). This in particular is used as a launching point for the next analysis. \n* **Clustered Proportions of Vote Shares:** This one was more tricky to understand initially, but the basic case is that the probability of a given machine collecting a certain proportion of votes cast for each candidate should roughly follow a normal distribution centered around the final proportion of vote share. However, for the early votes, this was not the case and the number of machines seemed to be bifurcated. \n  * It\u2019s kind of hard to explain this in text only, but let me try to explain: in theory, the machine you would use should be random. In a perfect 50/50 race, you would expect on average each machine would get exactly the same number of votes from Rs and Ds. However, in real life, there would be some variation because not every machine would have exactly a 50/50 split. Some would be 40/60, others 55/45, and so on. Considering nothing else, we would expect more results around 50/50 than 90/10 or 10/90. Those and anything in between are possible, but they become less likely as you get further from the result (ie, 50/50). Alternatively, for this 50/50 scenario, you could assign a bunch of people to flip a coin a bunch of times and record the number of times it was heads and the number of times it was tails. Not everyone would get exactly equal numbers, but if you add up all of the heads and tails, you\u2019d probably get roughly 50/50 and if you looked at the distribution of the number of people who got heads (or tails a certain number of times), it would probably look like a normal distribution. While theoretically possible, you would find it highly suspicious if everyone only reported getting heads for every flip or getting tails for every flip, because while this could average to 50/50, it is a highly improbably scenario. One last note: as voting and geographic data aren\u2019t so simple, there can be confounding and explanatory factors, but the purpose here is just to demonstrate the basic probability theory. \n  * What makes this point more compelling is that they show that the same strange distribution is not reproduced in Election Day voting. One would expect if a shift had occurred, it would at least be able to be faintly seen in Election Day data, but that\u2019s not the case. The Election Day machine proportion values look more like what you would expect. This is also even more unlikely given that large samples will tend toward normality and more people voted early than on Election Day. \n\nIt is of course entirely possible that this is simply how the chips fell and nothing nefarious took place. Stochastic phenomena can sometimes just produce weird results. However, it seems very unlikely. It is also possible that there is an explanation that is simply unknown to the analysts, such as some kind of geographic or demographic effect. However, this also leaves open the possibility that something else happened to early vote totals. \n\nAgain, I wouldn\u2019t say this is a smoking gun, but it is definitely something that merits some level of additional consideration.",
+                            "score": 25,
+                            "replies": [
+                                {
+                                    "author": "ghostpoints",
+                                    "body": ">Stochastic phenomena can sometimes just produce weird results. However, it seems very unlikely. It is also possible that there is an explanation that is simply unknown to the analysts, such as some kind of geographic or demographic effect. However, this also leaves open the possibility that something else happened to early vote totals. \n\n>Again, I wouldn\u2019t say this is a smoking gun, but it is definitely something that merits some level of additional consideration.\n\nYou said it far more eloquently than I could. I fully agree. These findings need to be replicated to be taken seriously, but if they are seen elsewhere then WHOA",
+                                    "score": 11,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "ghostpoints",
+                            "body": "Spread the word, friend.",
+                            "score": 7,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "BelicaPulescu",
+                    "body": "You can look at the numbers how much you want, but Trump is not at all favorable to Russia / Iran/ China so it would not make any sense for them to interfere to prop up trump.\nIf anything Iran tried to assasinate trump, possibly with the help of Russia, and Trump already implemented all possible sanctions against Iran. He also increased tarrifs against china and is planning to start drilling for petrol which will make it cheaper on the global market and thus hurting Russian economy. \nTrump policies are very agresive against Russia, China, Iran, definatelly more agressive compared to the Democrat admin. \nThus, it would make no sense for them to support trump, instead they actually tried to kill him.",
+                    "score": -19,
+                    "replies": [
+                        {
+                            "author": "phoenix1984",
+                            "body": "- Iran, yes. They hate him.\n- Russia, heh, no. Watch what he does, not what he says. For whatever reason, he will bend over backwards to not seriously offend or damage Putin.\n- China looks more like a trade. Unfortunately he punishes China publicly while privately extracting gifts and financial gains.",
+                            "score": 13,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "alanbdee",
+            "body": "Seems like a lot of effort for Russia when a simple meme is enough to trick the average American.",
+            "score": 72,
+            "replies": [
+                {
+                    "author": "Your__Pal",
+                    "body": "Why commit a bunch of small crimes when you can just fund right wing news legally?\u00a0",
+                    "score": 26,
+                    "replies": []
+                },
+                {
+                    "author": "wigglex5plusyeah",
+                    "body": "Right. As an election worker, what I saw were stupid people voting for this. I didn't see them actually vote this way, but they were announcing their intentions and I had to ask them to cover up their fucking hats.\n\nThis kind of stuff doesn't convince me at all without further evidence explaining how it was done after a recount. It might be a reason to pursue a recount...but it's a bit like the drones recently, we're probably looking for something bad and finding it somewhere so we can scream about it...\n\nI didn't work in that area, but the machines have air gaps, when you vote, it literally prints how you voted right fucking there for you to review on a paper ballot. Any manipulation would show up different from a hand count. When a machine is closed out, one copy of it's data summary gets stuck on the front door so that you could personally go total up a precinct yourself, if you desired. Another copy goes to the election bureau, another copy goes to a safe storage place to be held for a duration in case it needs reviewed.\n\nI believe it's pretty damn secure. Everything you do requires opposing parties to do it together, you sign your name to it, if there are any inconsistencies then someone's going to be looking at you after following the paper trail.\n\nThe election manipulation that I see is out in the open. Republicans denying ballots, changing rules, gerrymandering, fraud and fucking lying 24/7 on TV/print/YouTube/social and dummies repeating that at work and In non political society so that it penetrates to people that aren't paying attention at all. \n\nWith all that going on, I wasn't able to change one mind of one person that loves me, in hours long debates where we literally watch what I'm saying happen.\n\nThis was exactly how it looked. Billionaires bought it through corrupt legislators, corrupt judges, broken enforcement/judiciary, an apocalyptic flood of lies, and a stupid electorate.",
+                    "score": 9,
+                    "replies": []
+                },
+                {
+                    "author": "lalabera",
+                    "body": "https://youtu.be/F9gCyRkpPe8?si=TE2TwNLO_vN2NrUB\n\nTrump admitted it.",
+                    "score": 13,
+                    "replies": []
+                },
+                {
+                    "author": "GabuEx",
+                    "body": "One thing I've noticed is that if you just say something, people might or might not believe you, but if you say something *as the caption of a picture*, people are almost guaranteed to believe you.  After all, there's a picture!  Pictures don't lie!",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "Powerful_House4170",
+                    "body": "What has Russia have to do with something clearly only in the US?  It's American nonsense. Not Russian.",
+                    "score": -9,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "satyrday12",
+            "body": "I would entertain that Trump and his billionaire buddies would definitely want to do it, but I just can't wrap my head around him being able to mess with several different states, all running their own elections independently, many with Dems running the show.",
+            "score": 28,
+            "replies": [
+                {
+                    "author": "Hanjaro31",
+                    "body": "You'd be surprised what the religious would be willing to do in their battle of \"good and evil\" thinking they're the good guys.",
+                    "score": 14,
+                    "replies": []
+                },
+                {
+                    "author": "Foolgazi",
+                    "body": "Some voting machines have wi-fi and/or Bluetooth connectivity, which theoretically makes them vulnerable to hacking without an \u201cinside man\u201d so to speak. I think it\u2019s unlikely that actually happened in 2024, but if there was any year where it would have, it\u2019d be that one.",
+                    "score": 14,
+                    "replies": [
+                        {
+                            "author": "kingjoey52a",
+                            "body": "Do you have a source for the WiFi thing? I was under the impression they were a closed system with no way to access it except physically.",
+                            "score": -1,
+                            "replies": [
+                                {
+                                    "author": "Foolgazi",
+                                    "body": "Here\u2019s one article about Colorado\u2019s machines as an example.\n\nhttps://www.cpr.org/2024/10/15/voting-equipment-wifi-election-safety-security/\n\nNote many states use a variety of machines, not all of which produce a paper ballot for auditing. Also FWIW it\u2019s assumed Trump\u2019s team has been in possession of the source code for the type of machines he paid that fly-by-night company to \u201caudit\u201d in 2020. Not saying there\u2019s any evidence he did anything with it, but there\u2019s only one reason why he\u2019d want it.",
+                                    "score": 13,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "lalabera",
+                    "body": "https://youtu.be/F9gCyRkpPe8?si=TE2TwNLO_vN2NrUB\n\nWe should look at Pennsylvania.",
+                    "score": 8,
+                    "replies": []
+                },
+                {
+                    "author": "None",
+                    "body": "One of Elon's doge staff worked on a ballot generating program at a hackathon and his sweepstakes targeted swing states with an attached petition to gather voter data",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "No-Wrongdoer-7654",
+            "body": "The Russian Tail is meant to show that ballot stuffing occurred by showing that some polling places have anomalously high turnout and anomalously high vote totals for one candidate. \n\nNo-one seems to have actually produced this data for anywhere in the US in 2024. Several people have produced graphs that are supposedly showing something similar, but they all appear to be showing something different and to have deficient labeling that makes it all but impossible to figure out what the author actually did. This doesn\u2019t inspire confidence in their results.",
+            "score": 10,
+            "replies": [
+                {
+                    "author": "No-Wrongdoer-7654",
+                    "body": "I\u2019m going to stick this here because it\u2019s moderately important, although it\u2019s really a response to the heavily downvoted thread below. \n\nThe analyses I\u2019ve seen that claim to replicate some kind of Russian Tail are using number of votes per tabulator as a substitute for turnout per polling station, because in the US voters are not usually allocated to particular polling places. This isn\u2019t valid. Anomalous turnout indicates ballot stuffing. An unusually large number of votes on one tabulator could just mean it was close to the door, or had a more productive operator.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "milimji",
+                            "body": "Regardless of per-station or per-tabulator, you would still expect to see a normal distribution of frequency, no?",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "No-Wrongdoer-7654",
+                                    "body": "No, I wouldn\u2019t, and that\u2019s not the only problem.\n\nThe central limit theorem mostly applies when you\u2019re looking at turnout per station. The samples (stations) aren\u2019t the same size, but we can normalize them, and we can plausibly say that the underlying random variable, whether each voter turns out or not, is fairly independent of which station they are assigned to. It\u2019s not completely airtight. Certainly in the US whether people turn out is not independent  of where they vote or who they would vote for. But it\u2019s close enough that if you see a bimodal distribution it needs to be explained. \n\nThe central limit theorem doesn\u2019t apply when you\u2019re looking at numbers of votes per tabulator. You can\u2019t normalize the samples, and we don\u2019t know how the underlying variable, which voting machine people use, is distributed or what it might depend on.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "lurker1125",
+                    "body": "Nope, [the data has all been laid out. ](https://electiontruthalliance.org/clark-county%2C-nv)There is no mistaking that early voting was altered once you see it.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "No-Wrongdoer-7654",
+                            "body": "Yeah \u2026 I tried to read that. But my brain crawled out of my ear and tried to strangle me to make me stop.\n\nI\u2019ve never read such an incoherent, meaningless, statistically incompetent mess in my life. At least the first five pages before I had to stop to avoid involuntary suicide.",
+                            "score": -2,
+                            "replies": [
+                                {
+                                    "author": "Sirvolker757",
+                                    "body": "? Has reading xomprehension become that difficult for people? this took like 5 minutes to get through and the findings were pretty darn clear. No causal relationship but something is definitely off with early voting numbers",
+                                    "score": 6,
+                                    "replies": [
+                                        {
+                                            "author": "No-Wrongdoer-7654",
+                                            "body": "Its not that there\u2019s no causal relationship, its that there\u2019s no serious effort to consider the null hypothesis. What would this data look like like if there was no problem? How actually does this data differ from that? What is the probability of the differences? What donee think that indicates?What are the possible alternative  explanations?\n\nThis is really on the level of \u201cwe put the data in Excel and made up tests until we found something we thought was odd\u201d. The Republican complaint in 2020 that Trump seemed to be winning in the early returns and then lost is more valid (although still wrong) because at least it\u2019s a real observation that can be countered.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Sirvolker757",
+                                                    "body": "They state that the data is supposed to align with a Normal Distribution which it clearly fails to do. A simple bootstramp resampling trying to mathmch up the correct averages would prove this null to be false.They went into some of the alternate explanations which mostly turned out to be false leads. This clearly shows some odd behaviour, especially whe. the article talks about how lower serial number voting machines behaved differently than high serial number machines, so these suspicions should be investigated further.",
+                                                    "score": 6,
+                                                    "replies": [
+                                                        {
+                                                            "author": "No-Wrongdoer-7654",
+                                                            "body": "But that's exactly the problem - why would they expect the data to be normally distributed? I explain in a reply to the highest visible comment in this thread, the samples they're using (votes on a given tabulator) don't meet the criteria for the central limit theorem to apply - they're not the same size and can't really be normalized, and we have no idea how the underlying random variable (what machine someone votes on) is distributed. \n\nFor my own sanity, and because the alternative was working on my taxes, I read the entire thing to the end, resisting the temptation of sweet merciful death. What they are seeing in the early voting data is regression to the mean, and the skew in the distribution you would expect to see if one candidate is winning.\n\nFirstly, regression to the mean. If I have variably sized samples, as the samples get bigger they more accurately represent the underlying data. This explains the \"unusual pattern\" shown in the plots of vote percentage against number of votes. With a very small number of votes in the tabulator, you can get all kinds of different vote percentages with fairly high probabilities. Consider the extreme case where you just have one vote on each machine and 100 machines - you'd expect roughly 60 machines that were 100% Trump and 40 machines that were 100% Harris. You can model what that plot would look like if the underlying voting pattern were perfectly random with a 60/40 distribution, and while I haven't done that, because I don't hate doing my taxes that much, its roughly the shape they show. \n\nSecondly, skew.  They plot the number of machines with percentages of Trump (or Harris) votes on a histogram. You would not expect this to be normally distributed if one candidate has more votes. You expect there to be skew, that is to say one tail will be longer than the other, because you can't get more than 100% or less than 0% of the vote. To see this, consider if all the votes were for one candidate - there is obviously no way to get a normal distribution. Now consider if all but one vote ... There is obviously a continuum as the results get closer to 50:50 they become less skewed.\n\nThis is precisely what I meant when I said I didn't think the authors had adequately considered the null hypothesis. They didn't model what they expected to happen if there was no problem, and in fact had they done so they'd have gotten something very like the results they actuallly saw.",
+                                                            "score": 3,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Sirvolker757",
+                                                                    "body": "Looking at your explanation and how the authors presented their findings, it does seem like they made some definite missteps with the data representation. I still do find the discrepency between early voting and election day voting pretty odd, and the drop off rate stuff is pretty weird too, but im a lot less convinced of the  >250 votes trend. Still I do feel that there are suspicions to be confirmed with this election concerning comments made about \"voting computers\" and the general waves of foreign and domestic intrusion into voting equipment.",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "lalabera",
+                    "body": "Look at the bullet ballots in every swing state. You really believe that millions of people voted for trump and then filled the rest of the ballot out for democrats?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "None",
+                            "body": "To be fair, the percentages for democrats down ballot were way better also because there were tons of people who went to vote for Trump and did not even bother to vote for the other candidates. Something something cult following.",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "james_d_rustles",
+                            "body": "Knowing just how unfathomably stupid a large portion of the country is, it really wouldn\u2019t shock me at this point, especially given Trump\u2019s unique cult of personality that doesn\u2019t extend to downballot republicans.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "No-Wrongdoer-7654",
+                            "body": "That\u2019s not what a \u201cbullet ballot\u201d even is.",
+                            "score": 0,
+                            "replies": [
+                                {
+                                    "author": "lalabera",
+                                    "body": "There were abnormal amounts of bullet ballots and down-ballots.",
+                                    "score": 0,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "lalabera",
+            "body": "Trump admitting that elon rigged the vote counting machines:\n\nhttps://youtu.be/F9gCyRkpPe8?si=TE2TwNLO_vN2NrUB",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "mxracer888",
+                    "body": "How exactly is \"he knows those computers better than anybody\" any sort of admission of guilt. \n\nSeriously though, like... How? And I'm not even asking about the level of guilt required for the court of law, I'm fine with the edgy conspiracy theory take on this. \n\n\nTo me it just sounds like a typical DJT speech where he rambles on about whatever and finally moves on to a new topic",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "lurker1125",
+                            "body": "So, the reason that the election integrity community jumped on this so hard - *prior* to Trump's comment, data analysts came up with this analysis that shows [votes were altered during early voting using code injected on tabulators.](https://electiontruthalliance.org/clark-county%2C-nv) Quite specifically, data analysts were red-flagging the tabulators, aka 'the vote-counting computers'. Trump, being Trump, and more or less unintelligent, should not even have the phrase 'vote-counting computers' in his head unless someone else put it there. His comment, stating that he won because Musk knows those 'vote-counting computers' was a huge confirmation of what the analyst community already flagged.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "mxracer888",
+                                    "body": "A man that spent 4 years contesting the results of the 2020, many of the very valid arguments being centered around data manipulation on the vote counting computers can't have the phrase \"vote counting computers\" in his head lol how regarded do you need to be to have this take? \n\nAnd did you agree with the analysts that took issue with 2020? Or do you only agree with them now when the election didn't go your way? Awful convenient to have such high levels of selection bias",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "lalabera",
+                            "body": "What\u2019s \u201che knows the voting computers\u201d supposed to mean if not election interference?",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "mxracer888",
+                                    "body": "The burden of proof doesn't lie on DJT (or me in this conversation) to prove that's not what he meant, it's your burden to prove that *is* what he meant. \n\nSo give me something unobjectionable that proves that's what he meant or get your hair brained conspiracy theories out of here",
+                                    "score": 0,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "platinum_toilet",
+            "body": "I thought election deniers were the problem and no different than people trying to overthrow the government.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "AddendumBrilliant259",
+            "body": "I believe this is a red herring because the \"trends\" actually do not exist, because \"trend\" generally implies time. At least in the US, and probably also in Russia, all the votes come in at the same time, or in an order you can't derive from the reports. Instead, it is better to compare results with characterized precicnts. See this analysis  \n[https://substack.com/home/post/p-154291476](https://substack.com/home/post/p-154291476)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Important_Bid_783",
+            "body": "Now you know why Musk is infiltrating all of our databases\u2026.getting rid of the evidence!!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "lurker1125",
+            "body": "Once you've seen their data, it's unmistakable that the early voting phase had its votes altered in the swing states. This is essentially a coup on the process of democracy, an invisible one, and we'll never be free of it if it isn't fixed.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "aarongamemaster",
+            "body": "... a bigger threat, my friend. Welcome to the world of memetic warfare, where what amounts to be thought plagues are the new weapons. I could post a link to a 'layman's intro video to memetic warfare,' but just saying memetic warfare around here tends to get you downvoted faster than lightspeed.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "frisbeejesus",
+            "body": "Because I want to believe that the institutions running our elections are (or were before the fascism started) effective in ensuring free, fair, and accurate contests, I continue to attribute the election results 100% to misinformation/disinformation campaigns run across multiple platforms, by multiple groups, targeting several crucial demographics and regions. These campaigns were simply highly effective in making American voters believe things that aren't true or misunderstand reality completely. That's all that went on. \n\nI've seen some of the starkink stuff or voting machine vulnerability, but that would be so hard to coordinate across several states with no one spilling the beans or slipping up. Much easier to just buy engagement on social media and influence voters in massive, highly targeted misinformation campaigns online.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "lurker1125",
+                    "body": "It did not require a massive conspiracy, just altered code on a popular brand of tabulator.\n\n[It's all explained here](https://electiontruthalliance.org/clark-county%2C-nv)",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Sammonov",
+            "body": "As far as am aware, no one has alleged voter fraud in the Romanian elections?",
+            "score": -1,
+            "replies": [
+                {
+                    "author": "addicted_to_trash",
+                    "body": "They were annulled by the Romanian supreme court because of allegations of Russian interference.\n\n Turns out tho the 'interference' was due to the major parties boosting fringe candidates, like I shit you not, the financing all traces back to the major parties. The boosting worked too well and a fringe candidate was elected, hence the push to anul. \n\nhttps://www.dropsitenews.com/p/romania-calin-georgescu-voided-tiktok-election",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "Powerful_House4170",
+                            "body": "Yeah well, he's about to win their next election.  He's leading in all the polls.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "ChaosRainbow23",
+                                    "body": "The rise of fascism globally is extremely concerning. \n\nI never thought I'd live to witness this bullshit. 46 years into my existence, and here we are.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Powerful_House4170",
+                                            "body": "I don't understand your comment totally, do you mean with the candidate in particular? Or the powers currently trying to stop him? I'm only asking because of all this \"Trump is a fascist\" nonsense.  I swear words lose all meaning with these incompetents.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "ChaosRainbow23",
+                                                    "body": "Let's define fascism, shall we? \n\nThis was written by Lawrence Britt long before Trump became political. \n\n14 Traits of Fascism\n\n(Spoiler. The GOP is blatantly following the fascist playbook like it was a step by step instruction manual at this point)\n\n1. Powerful and Continuing Nationalism\n\nFascist regimes tend to make constant use of patriotic mottos, slogans, symbols, songs, and other paraphernalia. Flags are seen everywhere, as are flag symbols on clothing and in public displays.\n\n2. Disdain for the Recognition of Human Rights\n\nBecause of fear of enemies and the need for security, the people in fascist regimes are persuaded that human rights can be ignored in certain cases because of \u201cneed.\u201d The people tend to look the other way or even approve of torture, summary executions, assassinations, and long incarcerations of prisoners.\n\n3. Identification of Enemies/Scapegoats as a Unifying Cause\n\nThe people are rallied into a unifying patriotic frenzy over the need to eliminate a perceived common threat or foe: racial , ethnic or religious minorities; liberals; communists; socialists, terrorists\u2026\n\n4. Supremacy of the Military\n\nEven when there are widespread domestic problems, the military is given a disproportionate amount of government funding, and the domestic agenda is neglected. Soldiers and military service are glamorized.\n\n5. Rampant Sexism\n\nThe governments of fascist nations tend to be almost exclusively male-dominated. Under fascist regimes, traditional gender roles are made more rigid. Opposition to abortion is high, as is homophobia and anti-gay legislation.\n\n6. Controlled Mass Media\n\nSometimes the media is directly controlled by the government, but in other cases, the media is indirectly controlled by government regulation or by sympathetic media spokespeople and executives. Government censorship and secrecy, especially in war time, are very common.\n\n7. Obsession with National Security\n\nFear of hostile foreign powers is used as a motivational tool by the government over the masses.\n\n8. Religion and Government are Intertwined\n\nGovernments in fascist nations tend to use the most common religion in the nation as a tool to manipulate public opinion. Religious rhetoric and terminology is common from government leaders, even when the major tenets of the religion are diametrically opposed to the government\u2019s policies or actions.\n\n9. Protection of Corporate Power\n\nThe industrial and business aristocracy of a fascist nation often are the ones who put the government leaders into power, creating a mutually beneficial business/government relationship and power elite.\n\n10. Suppression of Labor Power \n\nBecause the organizing power of labor is the only real threat to a fascist government, labor unions are either eliminated entirely, or are severely suppressed.\n\n11. Disdain for Intellectuals and the Arts\n\nFascist nations tend to promote and tolerate open hostility to higher education and academia. It is not uncommon for professors and other academics to be censored or even arrested. Free expression in the arts is openly attacked, and governments often refuse to fund the arts.\n\n12. Obsession with Crime and Punishment\n\nUnder fascist regimes, the police are given almost limitless power to enforce laws. The people are often willing to overlook police abuses and even forego civil liberties in the name of patriotism. There is often a national police force with virtually unlimited power in fascist nations.\n\n13. Rampant Cronyism and Corruption\n\nFascist regimes almost always are governed by groups of friends and associates who appoint each other to government positions and use governmental power and authority to protect their friends from accountability. It is not uncommon in fascist regimes for national resources and even treasures to be appropriated or even outright stolen by government leaders.\n\n14. Fraudulent Elections\n\nSometimes elections in fascist nations are a complete sham. Other times elections are manipulated by smear campaigns against or even assassination of opposition candidates, use of legislation to control voting numbers or political district boundaries, and manipulation of the media. Fascist nations also typically use their judiciaries to manipulate or control elections..",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "addicted_to_trash",
+                                    "body": "Apparently he wants to nationalise a bunch of resource industries, Romania already has a pretty good healthcare & education system as far as I've heard. If the courts let democracy prevail, Romania could be the first to buck the neo-liberal slide into oligarchy",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Powerful_House4170",
+                                            "body": "100% with you on that brother. I guess we will see eh.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "None",
+                    "body": "There is some fraud happening, usually in the countryside, but its not Russia-level, the ruling parties might get 2 or 3 more % off the cheating in the worst case. The election last year was cancelled because far-right pro-Russian candidate Calin Georgescu broke the law by declaring he had 0 campaign funds while receiving money from Russia to fill TikTok with an army of bots to inundate the FYPs of romanians with content promoting him.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Powerful_House4170",
+            "body": "Frankly speaking, this so called \"Russian Tail\" is a bona fide gaslight. To indoctrinate whoever reads into this nonsense too much. Discrimination is the objective here. And obviously getting the reader to as well. By associating a negative process to a certain race or culture. Similar for example to the \"American toilet bowl\". Just dressed up slightly fancier. It's not a thing, I've never heard of said bs term. Nor will I allow myself to be indoctrinated by such a shallow attempt. But it might work on someone here, what do I know.",
+            "score": -4,
+            "replies": [
+                {
+                    "author": "Sirvolker757",
+                    "body": "There's no race or culture associated with the term. It's a geopolitical association related to specific actions of a certain governmental body",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Powerful_House4170",
+                            "body": "100% there is. What's the first word regarding that term? Its \"Russian\". That is a race and culture. Followed on by a negative association. Obviously its that. Lol. They could have named it anything else. Except that they are racist and that's what's permeated their minds at that moment. Each to their own. But I won't buy what they're selling.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Powerful_House4170",
+                    "body": "As for the down votes.  Obviously, you would support a racist term and downvote someone that points it out. And this isn't that bs kindergarten racism you see everywhere in the US today. But the fancy indoctrinating kind. You casually associate everything negative with Russia or Russians. This attempt is neither novel or even a biggie. Since most normal people wouldn't fall for that nonsense. So down vote in favour of racism at your will. Be my guest.",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}
