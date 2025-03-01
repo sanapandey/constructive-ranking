@@ -1,7 +1,7 @@
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import pandas as pd
 
-def defection_list(json_data, neutral_threshold=0.5):
+def defection_list(json_data, neutral_threshold=0.3):
     ''' 
     For each branch, returns the depth of the first defection point,
     or the length of the branch if no defection point is found.
