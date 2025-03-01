@@ -252,7 +252,7 @@ def create_authors_reputation_df(comment_forest):
 
 # MAIN FUNCTION 
 
-def credibility(comment_forest, valid_words = VALID_WORDS):
+def get_credibility_score(comment_forest, valid_words = VALID_WORDS):
 
     reputation_df = create_authors_reputation_df(comment_forest)
     investment_df = create_author_investment_df(comment_forest, valid_words)
