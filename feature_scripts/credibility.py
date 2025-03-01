@@ -26,7 +26,7 @@ def get_comment_has_links(comment_body):
 
     tokens = ['www.', '.com', 'http://', 'http://']
 
-    return any(token in 'comment_body' for token in tokens)
+    return any(token in comment_body for token in tokens)
 
 
 def get_n_spelling_mistakes(comment_body, valid_words):
