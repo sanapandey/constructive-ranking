@@ -17,7 +17,7 @@ def get_sentiment_tag(sentiment, alpha = 0.5):
         return 'neutral'
     return 'positive' if sentiment >= alpha else 'negative'
 
-def reciprocity_defection_list(json_data):
+def defection_list(json_data):
     ''' 
     Returns the average defection point TODO: does average make sense? 
     '''
@@ -58,9 +58,9 @@ def reciprocity_defection_list(json_data):
 
     return defection_lengths
 
-def reciprocity(comment_forest):
+def defection(comment_forest):
 
-    defection_lengths = reciprocity_defection_list(comment_forest)
+    defection_lengths = defection_list(comment_forest)
 
     if len(defection_lengths) == 0: 
         return pd.NA
