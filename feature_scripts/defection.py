@@ -1,64 +1,48 @@
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
-from nltk import tokenize
-import nltk
-# nltk.download('all')
-import os, json
 import pandas as pd
-import matplotlib.pyplot as plt
 
-import re
-import numpy as np
-
-def get_sentiment_tag(sentiment, alpha = 0.5):
-    '''
-    Returns a string in ['negative', 'neutral', 'positive'] according to the value of the variable sentiment.
-    '''
-    if abs(sentiment) < alpha:
-        return 'neutral'
-    return 'positive' if sentiment >= alpha else 'negative'
-
-def defection_list(json_data):
+def defection_list(json_data, neutral_threshold=0.5):
     ''' 
-    Returns the average defection point TODO: does average make sense? 
+    For each branch, returns the depth of the first defection point,
+    or the length of the branch if no defection point is found.
+    Neutral comments (comments with abs(sentiment) < neutral_threshold)
+    inherit the parent comment sentiment.
     '''
 
     sid = SentimentIntensityAnalyzer()
 
     def process_node(node, parent_sentiment, depth):
-
         comment_body = node['body']
-        sentiment = sid.polarity_scores(comment_body)['compound']
-        defection_lengths = []
-
-
-        # TODO: When done at root node does it compare sentiment with itself?
+        raw_sentiment = sid.polarity_scores(comment_body)['compound']
+    
+        # Inherit parent's sentiment if this comment is neutral.
+        if abs(raw_sentiment) < neutral_threshold:
+            sentiment = parent_sentiment
+        else:
+            sentiment = raw_sentiment
         
-        if sentiment*parent_sentiment < 0: # this detects a defection TODO: hoping sentiment is rarely exactly 0 but I should check stuff. 
-            #TODO also, when sentiment is pretty close to 0, whether pos or neg, it seems weird to call it a defefection. 
-            # Maybe everything with abs(sentiment) < 0.3 or something should be considered "neutral" and not cause a defection? 
+        # Check for defection (sentiment flip relative to parent's sentiment).
+        if sentiment * parent_sentiment < 0:
             return [depth]
         
+        # If this node is a leaf, return the depth (No defection occured, so we return branch length).
+        if not node['replies']:
+            return [depth]
         
-        
-        # if it hasn't detected a defection yet it should keep going
-
+        defection_lengths = []
         for child in node['replies']:
-
-            defection_lengths.extend(process_node(child, sentiment, depth+1))
-
+            defection_lengths.extend(process_node(child, sentiment, depth + 1))
         return defection_lengths
     
-    # renaming these so they work in the recursion (root node has different names for these unfortunately TODO: should fix the scraping with this in mind)
+    # Adjust keys so they match the expected names for recursion.
     json_data['body'] = json_data['selftext']
     json_data['replies'] = json_data['comments']
     
     root_sentiment = sid.polarity_scores(json_data['body'])['compound']
-    
     defection_lengths = process_node(json_data, root_sentiment, 0)
-
     return defection_lengths
 
-def defection(comment_forest):
+def get_defection_score(comment_forest):
 
     defection_lengths = defection_list(comment_forest)
 
