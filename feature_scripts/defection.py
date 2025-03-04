@@ -25,9 +25,9 @@ def defection_list(json_data, neutral_threshold=0.3):
         if sentiment * parent_sentiment < 0:
             return [depth]
         
-        # If this node is a leaf, return the depth (No defection occured, so we return branch length).
+        # If this node is a leaf, return the depth + 1 (No defection occured, so we return branch length).
         if not node['replies']:
-            return [depth]
+            return [depth + 1]
         
         defection_lengths = []
         for child in node['replies']:
