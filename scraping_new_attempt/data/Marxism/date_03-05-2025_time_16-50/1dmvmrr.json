@@ -1,0 +1,34 @@
+{
+    "title": "Is this correct understanding of the marxist theory of crisis?",
+    "author": "None",
+    "subreddit": "Marxism",
+    "rank": 489,
+    "score": 5,
+    "upvote_ratio": 0.78,
+    "num_comments (reported by reddit)": 4,
+    "url": "https://www.reddit.com/r/Marxism/comments/1dmvmrr/is_this_correct_understanding_of_the_marxist/",
+    "id": "1dmvmrr",
+    "selftext": "Ok so the thing that I've been struggling to understand about marxism for the longest time is how marx saw capitalist crisis unfolding and how it connects to the TRPF.\n\n  \nSo I think I got it, but I wanted to check with y'all given that you guys probably understand it better than I do. I read this article to understand it better, but I could be misunderstanding, hence me checking: [https://www.marxist.com/underconsumption-and-marxist-theory-of-crisis.htm](https://www.marxist.com/underconsumption-and-marxist-theory-of-crisis.htm)\n\n  \nOk, so.\n\n  \nThe TRPF in and of itself does not CAUSE capitalist crisis. What it reveals is that the PRODUCTIVE CAPACITY of capitalism is constantly growing because the organic composition of capital is continually shifting towards constant capital concentration (c/v is constantly growing, which means that s/(c+v) is constantly falling).\n\nThis continual productive capacity growth leads to a greater volume of commodities being produced than can be absorbed by the market.\n\nWithin capitalism, the bulk of production is geared towards MOP (department 1). However, the MOP is purchased in order to produce either more MOP or consumer goods.\n\nHowever, consumption of commodities is limited. This is because worker wages are fixed at the level of subsistence due to the iron law of wages. This is not a problem so long as the volume of commodities is close to the level needed for subsistence.\n\nThis does become a problem when the volume of commodities produced becomes much greater than what is needed for subsistence. Sure, a portion has been consumed by the capitalists as well in luxury, but how much luxury as actually possible for them to consume?\n\nThe fundamental problem here is the continual reinvestment of surplus value into production, thereby increasing productive capacity. The more you invest, the greater the productive capacity, the greater the consumption needed to dispose with all of production. As productive capacity expands, the income of the rich grows faster than their ability to spend it, and this is where the crisis really gets going because now you can no longer recoup all of your investment in the market, it is too saturated. This prevents Say's law from operating, and therefore the circuit M-C-M' is disrupted.\n\nThis, then causes a recession as capitalists are forced to lower prices below cost in order to offload industry, driving many into bankruptcy and effectively concentrating capital in fewer hands or removing it from overall production. This leads to layoffs and the like.\n\nThe fundamental problem here isn't under-consumption because even if consumption were greater, you'd still continually be reinvesting in ever greater productive capacity. You only realize the crisis once under consumption kicks in but it isn't the fundamental cause. This also explains the bubble and burst structure of the capitalist economy.\n\n\n\nIs this a more or less accurate understanding of the marxist theory of crisis? Thanks!",
+    "comments": [
+        {
+            "author": "idareet60",
+            "body": "TRPF is more of a long term trend which can have certain counteracting forces (six to be precise as per Marx) but some scholars have added more to them. But it's a cause of capitalist crisis in the long term. Because the rate of profit declining means that there won't be any more capital accumulation or investment. Hence the engine of growth stops working. \n\nTo your point about crises in a more short term period, there's a thing called crisis of proportionality. It's because capitalism needs to have a fixed proportion of surplus value consumption in both Department I and II. If not, there'll be a problem of overproduction.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "None",
+                    "body": "Why would investment stop? So long as r > 0 doesn't it make sense to invest? Surplus value is always going to be > 0 so r > 0 cause s/(c+v) = r\n\nAnd why does there have to be a fixed proportion of surplus invested in departments 1 and 2.\n\nIs the rest of my explanation correct?",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "idareet60",
+                            "body": "So higher the profitability, the higher is the investment. Similarly, if the rate of profit is low the \"animal spirits\" of capitalists will be low. Which means they'll have a lower inclination to invest. Or propensity to invest in more standard economics terms. \n\nThere has to be a fixed proportion because if that doesn't happen then there'll be an over accumulation of surplus value in one of the two departments. Remember that this surplus value is used to invest in the constant capital also. So, if there's a case of expanded Reproduction or in other words, if an economic system has to grow then there must be an increasing amount of surplus value invested. If the proportion gets messed up then there's a chance that there's overproduction in one of the two Departments because they've invested more in their capital than what's expected. Also, if we introduce technical change, then we are interested in the rate of profit and compare it to wage growth. There's of course a trade off between the two. To understand TRPF, it's extremely important to understand this trade off. I highly recommend a book called Logic of Capital by Deepankar Basu. Check out Chapter 6 there.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

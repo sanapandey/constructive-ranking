@@ -1,0 +1,322 @@
+{
+    "title": "FOSS and Anarcho-capitalism",
+    "author": "Snipe_Quantum",
+    "subreddit": "Anarcho_Capitalism",
+    "rank": 61,
+    "score": 18,
+    "upvote_ratio": 0.82,
+    "num_comments (reported by reddit)": 46,
+    "url": "https://www.reddit.com/r/Anarcho_Capitalism/comments/1j1nuob/foss_and_anarchocapitalism/",
+    "id": "1j1nuob",
+    "selftext": "I've seen a lot of debates on whether FOSS (Free and Open Source Software) is inherently socialist or capitalist. Some argue it's a pure expression of socialism, while others say it's the pinnacle of capitalism.\n\nOne comment that stood out to me was:\n\n>FOSS embodies what's called Socialist Competition, where good ideas are spread freely, so everyone can benefit as quickly as possible.\n\n>Capitalist competition, so-called by Schumpeter as \"Creative Destruction\" involves keeping one's ideas to one's self, in order to obtain competitive advantage. Think 'Trade Secrets'.\n\nThis completely misunderstands how FOSS works and why it thrives. FOSS isn\u2019t some rejection of capitalism\u2014it\u2019s a product of market forces. The difference is that instead of capturing value through direct sales, open-source projects monetize through services, donations, and reputation.\n\nThe biggest reason FOSS is viable is the nature of software itself. It's an infinite resource. Unlike physical goods, software has zero marginal cost. Once written, it can be copied and distributed infinitely without additional production costs. This is why open-source models work so well\u2014there\u2019s no scarcity in the product itself, only in the expertise, labor, and infrastructure around it.\n\nFOSS succeeds because it aligns with market incentives. It allows companies and individuals to build on existing work rather than reinvent the wheel, accelerating innovation while still allowing for monetization through support services, enterprise solutions, or dual licensing. There\u2019s no contradiction here\u2014open-source software is leveraged by massive corporations (Google, Microsoft, Amazon) because it provides real value.\n\nI ran into this philosophical problem myself while developing software that I want the public to use for free. But for certain features that require cloud hosting, computing power, or other finite resources, I need to charge a subscription\u2014purely because those resources cost *me* money to provide. The software itself remains free, but the infrastructure to run some of its coolest features isn\u2019t.\n\nWhat many people miss is that FOSS is still a product of capitalism\u2014just not in the traditional \"sell a product for money\" way. Beyond direct monetization, one of the biggest incentives for FOSS development is **credibility**. Developers who create successful FOSS projects gain reputation, which can later be monetized through job offers, consulting, sponsorships, or launching their own businesses. The idea that FOSS is somehow detached from capitalism ignores the fact that the market rewards those who contribute to it\u2014even if the value isn\u2019t captured immediately.\n\nRather than being a rejection of capitalism, FOSS is an example of how voluntary cooperation and market incentives can coexist. It\u2019s not about government intervention or forced collectivism\u2014it\u2019s about people freely choosing to share their work because they recognize the long-term benefits. In that sense, FOSS isn\u2019t anti-capitalist at all\u2014it\u2019s just another way the free market allocates value.",
+    "comments": [
+        {
+            "author": "mesarthim_2",
+            "body": "Yeah, fully agree. FOSS is refutation of at minimum two arguments that are often being made *against* free markets\n\n1) Products will only be produced if there's a monetary benefit\n2) Copyrights and patents are necessary to motivate creators to produce\n\nObviously, there is a profit, as you correctly pointed out, it's just not monetary. Note that for the Socialist Competition argument to hold there would have to be no profit whatsoever. And that's not happening, as can be shown by countless FOSS projects that have disappeared because they didn't get traction or the creator decided to invest their time in more *profitable* things.",
+            "score": 20,
+            "replies": [
+                {
+                    "author": "ILikeBumblebees",
+                    "body": "> Note that for the Socialist Competition argument to hold there would have to be no profit whatsoever.\n\nWhich makes the entire argument nonsensical.  All human activity is for-profit in the sense that everyone does everything in the hope of increasing their subjective utility, however measured.  Money is just a way of quantifying utility for the purpose of exchange.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "badmotornose",
+            "body": "It should be noted that major corporations make major financial contributions to open source projects. This doesn't make or break your point, but it's important to convey (in a non-software sub) that 'open source' doesn't mean that a bunch of people volunteering their time to contribute. 90% (guestimate) of all Linux kernel contributions are made by corporate workers. The Linux foundation, which pays Linus' bills, is nearly all funded by corporations. Corporations have all just realized that developing a common platform is beneficial for them financially.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "old_guy_AnCap",
+            "body": "Calling open source \"socialism\" ignores the fact that IP is state granted privilege.",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "ILikeBumblebees",
+                    "body": "FOSS is essentially a workaround to IP.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "luckac69",
+            "body": "It\u2019s a pure expression of being against IP monopoly grants. And that\u2019s based.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "GunkSlinger",
+            "body": "Socialists are desperate to claim any sort of not-for-monetary-profit cooperation for themselves. The primary reason I do PR's on bugs I've fixed in software I'm interested in using is because it's less of a hassle than having to fix the bug again and again in every new release. Incorporating the fix into the code base lets you move on and not think about it any more.\n\nLinus Torvalds has said that the vast majority of Linux devs make one or two PR's and then are never seen again. Although I'm not aware of any surveys to back it up, it makes perfect sense that this majority of one shot devs are doing the same thing as me, and it's purely out of self-interest, not for any altruistic reasons.\n\nThere is also a hierarchy in every FOSS project I've seen, with the originator of the project making the final decision on code inclusion and the direction of the project. The position can be handed off to someone else but it's not done democratically. As far as I'm aware socialism and monarchy are mutually exclusive.\n\nAll of that is not to say that there aren't socialists that write FOSS for socialist reasons, but socialism is certainly not intrinsic to FOSS. Sorry socialists, but you don't own cooperation.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "BobertGnarley",
+            "body": "If it were truly a socialist model, the \"f\" in foss would stand for \"forced\" instead of free.\n\nMaybe they would allow personal code but they could certainly not allow private code lol",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "ILikeBumblebees",
+            "body": "> What many people miss is that FOSS is still a product of capitalism\u2014just not in the traditional \"sell a product for money\" way.\n\nWhich makes sense, because software itself is intangible and non-rival.  Once developed, there is zero marginal cost to reproduce it and obtain value from it.  \n\nAttempting to monetize it in the manner of a physical product never made a lot of sense in the first place -- it worked early on because the distribution of software was via physical media, and when that was coupled with copyright laws, we had a situation where the only legal way to obtain a copy of a software product was to purchase a physical boxed copy.  \n\nThat model has declined, and as a result, new methods to earn a profit on the initial capital investment of developing software have evolved.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Fantastic-Alfalfa-19",
+            "body": "It's voluntary communism on a relatively small scale, the only kind of communism that can work",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "BullyMcBullishson",
+                    "body": "This is like making the statement, *sharing is communism* which of course it is not.",
+                    "score": 9,
+                    "replies": [
+                        {
+                            "author": "Fantastic-Alfalfa-19",
+                            "body": "Well the foss movement is pretty much \"From each according to his ability, to each according to his needs\" which is the basis of communism according to Marx",
+                            "score": -4,
+                            "replies": [
+                                {
+                                    "author": "BullyMcBullishson",
+                                    "body": "Interesting. I did not know the FOSS community said this.\n\nIn my opinion, the ultimate FOSS project, bitcoin, was a group of freedom fighters (cypherpunks) fighting communism (central control). This unlocked a kind of property rights that had never quite existed before.\n\nI'll stop there... thoughts?",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "Banned_in_CA",
+                                            "body": "The FOSS community is absolutely riddled with socialists these days.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "BullyMcBullishson",
+                                                    "body": "The folks I follow on NOSTR have never shown any of this type of ideology.",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "DifferentPirate69",
+                                    "body": "It's abolishing private property, stateless, classless, and moneyless society where everyone contributes according to their abilities and take as much they need, keeping in mind other people exist.",
+                                    "score": 0,
+                                    "replies": [
+                                        {
+                                            "author": "Fantastic-Alfalfa-19",
+                                            "body": "On a big scale yes",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "DifferentPirate69",
+                                                    "body": "Scale doesn't matter, the economy is what people decide to follow or externally indoctrinated into, naturally\u00a0humans have always lived like this before. Capitalism is a reminice of colonialism.",
+                                                    "score": -1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Snipe_Quantum",
+                    "body": "Linux is nowhere near small scale",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "Fantastic-Alfalfa-19",
+                            "body": "It's on a small scare compared to society",
+                            "score": -1,
+                            "replies": [
+                                {
+                                    "author": "Snipe_Quantum",
+                                    "body": "Linux is the leading operating system on servers (over 96.4% of the top one million web servers' operating systems are Linux)\n\nAs of December 2024, Android, which uses the Linux kernel, is the world's most popular operating system, with 47% of the global market\n\nSmall scale?",
+                                    "score": 8,
+                                    "replies": [
+                                        {
+                                            "author": "Fantastic-Alfalfa-19",
+                                            "body": "It's small scale in the sense it's 15k people contributing to the Linux Kernel and it's only a small part of their lives not their whole existence",
+                                            "score": 2,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "TorturedChaos",
+                                            "body": "While Linux has a fair number of users, most are only users or deploying Linux, not contributing to the development of Linux \n\nWhat percentage of the population contributes to a Linux operating system or the Linux kernel?  I would guess a very small percentage.   So on a societal scale it is fairly small.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "DifferentPirate69",
+            "body": "Capitalism needs a lot of free things and bailouts to work.\n\n\nWithout FOSS, there's no software industry.",
+            "score": -6,
+            "replies": [
+                {
+                    "author": "mesarthim_2",
+                    "body": "Without software industry, there's no FOSS. Most of the people contributing and maintaing linux, for example, have a for profit jobs.",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "DifferentPirate69",
+                            "body": "No, making tools/utilities is not an invention of capitalism. Without these tools, there is no for-profit software industry.\n\n\nThey have jobs to survive, which is how this system is. They could be much more productive if they were not beholden to a parasitic system that funnels money upwards.",
+                            "score": -1,
+                            "replies": [
+                                {
+                                    "author": "mesarthim_2",
+                                    "body": "Well, sure, we both agree that they'd be more productive if they weren't beholden to the parasitic system that is state and it's taxes, but obviously, free market capitalism is literally what makes it possible for them to exchange their labor for goods and services at such a rate that they have also free time to invest into FOSS development.\n\nSo, while free market capitalism didn't invent making of tools, it certainly is the only system that enables this level of division of labor that makes it possible for FOSS to exist.",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "DifferentPirate69",
+                                            "body": "Create a boogyman out of the state and taxes all you want. The ground reality is, this is a parasitic system that is overdue change. Inequalities should be addressed. It will further not be addressed in the absence of a government, where wealthy will dictate terms.\n\nDivision of labor is also not an invention of capitalism.\n\nFOSS is created by people who don't give a crap about profits.",
+                                            "score": 0,
+                                            "replies": [
+                                                {
+                                                    "author": "mesarthim_2",
+                                                    "body": "The ground reality is that calling a system where you're literally forced go give up part of your labor under threat of force 'boogeyman' while also calling a system based on voluntary exchange 'parasitic' is delusional and detached from reality.",
+                                                    "score": 4,
+                                                    "replies": [
+                                                        {
+                                                            "author": "DifferentPirate69",
+                                                            "body": "Paying taxes i.e. contributing to collective initiatives is good but the corruption in it is again a feature of capitalism where the goal is maximizing wealth.\n\n\nIt's not voluntary, it's like the idea of having someone kidnapped and you have to do what you are told to free them, but internalized.\n\n\nAnyone advocating for no government and more capitalism amidst the vast inequalities is delusional.",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "mesarthim_2",
+                                                                    "body": "Sure, pointing a gun at someone and telling them, give me portion of what you made, or you go to jail or we kill you if you resist is 'contributing to collective initiatives' and 'is good'\n\nWhereas volutarily choosing to pay for goods and services is 'like the idea of having someone kidnapped and you have to do what you are told to free them'.\n\nOk :-D",
+                                                                    "score": 4,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "DifferentPirate69",
+                                                                            "body": "By involuntary exchange, I meant the employer-employee labor dynamic which almost everyone who have no capital have to go through to survive.\u00a0\n\n\nYes, taxes are good in a non-capitalist system.",
+                                                                            "score": 1,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "mesarthim_2",
+                                                                                    "body": "Can you explain to me what's the difference between exploitation of labor as Marx understands it and taxes?\n\nAt minimum, they're both involuntary, no?",
+                                                                                    "score": 2,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "DifferentPirate69",
+                                                                                            "body": "In a capitalist sense, surplus value of labor appropriated by capitalists as profit - not voluntary, labor exploitation.\n\n\nAssuming it's still a system with money, taxes are not profits, it exists to address any needs and collective needs like public infrastructure and services. It is an obligation.",
+                                                                                            "score": 1,
+                                                                                            "replies": [
+                                                                                                {
+                                                                                                    "author": "mesarthim_2",
+                                                                                                    "body": "Right?! Now it makes sense.\n\nThings you want from others, that's an obligation, so it's prefectly justified to take it from them and even kill them if they resist.\n\nBut things you don't feel like doing, that's exploitation.\n\nHow convenient. No wonder that this ideology keeps creating paradises on Earth.",
+                                                                                                    "score": 3,
+                                                                                                    "replies": [
+                                                                                                        {
+                                                                                                            "author": "DifferentPirate69",
+                                                                                                            "body": "There's a difference between collective labor enriching a few on basis of capital coercion and collective labor going to the collective without coercion but normal human society. \"Resisting\" is the act of protecting capital, it's purely a learnt behavior in capitalism.",
+                                                                                                            "score": 1,
+                                                                                                            "replies": []
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Banned_in_CA",
+                                    "body": "> They could be much more productive if they were not beholden to ~~a parasitic system that funnels money upwards.~~ physics.\n\nBecause the need to acquire and process food into energy is somehow capitalism's fault.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "DifferentPirate69",
+                                            "body": "Everyone works for food and survival ever since the dawn of living beings. What strawman is this? The parasitic system blocks access to food and resources, paywalled with private property and increasing inequalities as wealth funnel upwards.\u00a0The onus of adopting to conditions is on workers and not capital.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Banned_in_CA",
+                                                    "body": "Capitalism is why you can buy every food from around the world out of season shipped fresh and nutritious for a tiny fraction of your daily energy expenditure instead of spending 100% of your time scratching the ground yourself subsistence farming while your children slowly starve to death.\n\nThe poor today live with amenities unavailable to the \"robber barons\" of the Gilded Age, and we're within reach of lifting all of humanity out of poverty for the first time in history.\n\nAnd the only onus is your life isn't getting quite as unimaginably opulent as some other guy's?\n\nTalk about not seeing the forest for the trees.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "DifferentPirate69",
+                                                            "body": "Are you describing trade? No, trade is not an invention of capitalism lol.\n\n\nPoverty only became a thing with the rise of private property and still exists after many centuries of pillaging, plundering and modern day neoliberal unequal exchange.\n\n\nI'm talking about moving further than a system born out of colonialism to a system where there's no employer-employee dynamics. You keep what you do, you organize like minded people in a group for specific project and not just rabidly trying to hoard wealth despite the effects.\n\n\nEverything you're saying is from the POV of liberalism, to make sense you should change your perspective.",
+                                                            "score": 0,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Banned_in_CA",
+                                                                    "body": "Okay, you've devolved into word salad without meaning.\n\nWe're done here.",
+                                                                    "score": 1,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "DifferentPirate69",
+                                                                            "body": "Typical",
+                                                                            "score": 1,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "author": "PengellysTaig",
+                                                                    "body": "What do you trade if you have no private property?",
+                                                                    "score": 1,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "DifferentPirate69",
+                                                                            "body": "Labor debit and credit, skills, resources. (Private as in workplaces and land which is an investment, not your home)",
+                                                                            "score": 1,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "PengellysTaig",
+                                                                                    "body": "I see you're using your own definition of private property. Plus usually most commies aren't happy with resources being held by individuals either. Or, for example, healthcare skills being withheld until the doctor is happy with the reimbursement.",
+                                                                                    "score": 1,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "DifferentPirate69",
+                                                                                            "body": "That's not my definition, that is private property officially. There's been enough fear mongering to conflate it with personal property - belongings and your home, things that don't generate value but can be traded like barter according to needs.\n\n\nRent seeking behavior for the sake of wealth maximization is purely a learnt behavior in capitalism. It's understandable why they aren't happy, treating people differently based on wealth inequalities, when every job is essential.\n\n\nHealthcare workers are anyway severely underpaid and understaffed despite being very important. Cost cutting by the management for profit maximization.",
+                                                                                            "score": 1,
+                                                                                            "replies": []
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

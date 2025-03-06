@@ -1,0 +1,40 @@
+{
+    "title": "What does Marx mean by improvement of machines? Are these 3 situations correct?",
+    "author": "complainingrobot",
+    "subreddit": "Marxism",
+    "rank": 235,
+    "score": 3,
+    "upvote_ratio": 0.8,
+    "num_comments (reported by reddit)": 6,
+    "url": "https://www.reddit.com/r/Marxism/comments/1hatwwi/what_does_marx_mean_by_improvement_of_machines/",
+    "id": "1hatwwi",
+    "selftext": "[https://www.marxists.org/archive/marx/works/1847/wage-labour/ch08.htm](https://www.marxists.org/archive/marx/works/1847/wage-labour/ch08.htm)\n\n\u201cThe improvements of machinery, \u2026\u00a0 make it possible to produce in a given period of time, with the same amount of labour and capital, a larger (PHYSICAL) amount of products, but in no wise a larger amount of exchange values. \u201c\n\nAre the following 3 situations correct or realistic?\n\nAlso, is my analysis of what happens to\n\nAlso, based on the above quote, Marx must be talking about the 2nd situation below (the siutation where c\\_new = c\\_old but number of products produced now in 1 hour is greater than number of products produced in 1 hour before the improvement, simply because the machine wastes less of the raw materials)\n\nIf the improvement of the machine makes it produce a higher Quantity of products per hour than before:\n\n* c\\_old = 100 $ of raw materials and waste of machines\n* c\\_new = 100 \\* (N\\_new / N\\_old) $ = 150 $\n* N\\_old = 50 products are produced in 1 hour\n* N\\_new = 75 products are produced in 1 hour\n* v\\_old = 50 $\n* v\\_new = v\\_old = 50 $\n* s\\_new = 40 $\n* s\\_old = 40 $\n* Assume that s\\_new/v\\_new = s\\_old / v\\_old\n* THEREFORE:\n   * Price of 1 product has DECREASED from (100 + 50 + 40) / (50 products) or 3.8 $ per product TO (150 + 50 + 40 ) / (75 products) or 3.2 $ per product\n   * Total price of products produced per hour has INCREASED FROM BEFORE: From (3.8 \\* 50) or 190 $ to (3.2 \\* 75) or 240 $\n\n  \nIf the improvement of the machine makes it waste less raw materials than before produce the same number of products with less raw materials as before (FOR EXAMPLE, by reducing the waste of part of the raw materials):\n\n* More likely example (I THINK): If the machine produces now a higher quantity of products in 1 hour but with the same raw materials (c)\n   * c\\_old = 100 $ of raw materials and waste of machines\n   * c\\_new = c\\_old = 100 $\n   * N\\_old = 50 products are produced in 1 hour\n   * N\\_new = N\\_old \\* 1.333, BECAUSE THE MACHINE NOW WASTES LESS OF THE c (RAW MATERIALS) = 67 products\n   * v\\_old = 50 $\n   * v\\_new = v\\_old = 50 $\n   * s\\_new = 40 $\n   * s\\_old = 40 $\n   * Assume that s\\_new/v\\_new = s\\_old / v\\_old\n   * THEREFORE:\n      * Price of 1 product has DECREASED from (100 + 50 + 40) / (50 products) or 3.8 $ per product TO (100 + 50 + 40 ) / (67 products) or 2.84 $ per product\n      * Total price of products produced per hour has REMAINED THE SAME AS BEFORE: From (3.8 \\* 50) or 190 $ to (2.84 \\* 67) or 190 $\n* Less likely example: If the machine produces now the SAME quantity of products in 1 hour but with a smaller amount of raw materials (c)\n\n   * c\\_old = 100 $ of raw materials and waste of machines\n   * c\\_new = 75 $\n   * N\\_old = 50 products are produced in 1 hour\n   * N\\_new = N\\_old\n   * v\\_old = 50 $\n   * v\\_new = v\\_old = 50 $\n   * s\\_new = 40 $\n   * s\\_old = 40 $\n   * Assume that s\\_new/v\\_new = s\\_old / v\\_old\n   * THEREFORE:\n      * Price of 1 product has DECREASED from (100 + 50 + 40) / (50 products) or 3.8 $ per product TO (75 + 50 + 40 ) / (50 products) or 3.3 $ per product\n      * Total price of products produced per hour has DECREASED FROM BEFORE: From (3.8 \\* 50) or 190 $ to (3.3 \\* 50) or 165 $",
+    "comments": [
+        {
+            "author": "C_Plot",
+            "body": "Those all look like plausible examples flowing from Marx\u2019s fuller analysis. I agree that the example you list keeping all conditions ceteris paribus except for the quantity produced is most likely what Marx is thinking in the quote you provided. \n\nKeep in mind that the new machine can be cheaper than the old machine and it can also be more durable. So the depreciation it imparts on each particular commodity, or during each hour, can also be lower than the old production conditions (in addition to better conservation of raw materials).",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Available_Remove452",
+            "body": "Marx is saying that when machinery is used for need and not profit, the efficiency will rise enormously, maybe exponentially. This is because the best engineers will make the best machines according to the (democratic) requirements of society.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "None",
+                    "body": "This gets to the entrepreneurship question.\n\nThe best engineers are not being inspired to make the best machines. Each engineer is going to be payed, say, $50/hour either way, right?\n\nAlso, someone somewhere is going to decide how many bicycles are needed per year. And, this is how many will be produced, with the required labor. If that Central Planning Committee is wrong by 20%, and they produce 20% too many, what do you do with the extra 20%?\n\nIf you fall short by 20%, you have caused some segment of society to fail to benefit from that 20% of bicycles.\n\nEither way, you get 20% inefficiency. the Central Planners have to be very accurate, or you have 20% inefficiency in tractors, bicycles, cars, airplanes, sinks, manhole covers, light switches, etc.\n\nThis rivals the hypothetical efficiencies in the noted production equations.\n\nWhat to do? Another Committee is needed to figure out how to address inefficiencies as they become apparent.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Available_Remove452",
+                            "body": "It depends on your definition of efficiency. As I said, the best engineers will make the best machines, but we haven't started yet. They will do that with the least harm to the environment, with no crime as the machines are free, and there's no money, because labour vouchers are no longer needed. Because society has transcended so highly by now, any over production will be coped with, recycled etc.  \n\nThe thing is, this isn't capitalism or something like capitalism but nicer. It's a new paradigm. The beginning of human history.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

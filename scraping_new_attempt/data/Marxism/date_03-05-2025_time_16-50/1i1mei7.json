@@ -1,0 +1,60 @@
+{
+    "title": "I\u2019m looking for help really understanding use-value better",
+    "author": "ambuehlance",
+    "subreddit": "Marxism",
+    "rank": 148,
+    "score": 8,
+    "upvote_ratio": 0.91,
+    "num_comments (reported by reddit)": 10,
+    "url": "https://www.reddit.com/r/Marxism/comments/1i1mei7/im_looking_for_help_really_understanding_usevalue/",
+    "id": "1i1mei7",
+    "selftext": "Hey, decided to re-read Capital and take it slow, doing notes and making sure I\u2019m comprehending everything. In Vol. 1 Ch. 1 I\u2019m specifically stuck on the sentence: \u201cThis property of a commodity is independent of the amount of labour required to appropriate its useful qualities.\u201d\n\nIt goes on to say, \u201cUse-values become a reality only by use or consumption\u201d which suggests to me that use-value is a calculation of what a user gets out of it. Or is it that use-value is what something is worth to a person when they purchase it regardless of what they get in return from using it?\n\nI guess I\u2019m asking if the commodity were a chef\u2019s knife, what is its use-value?\n\nThanks comrades!",
+    "comments": [
+        {
+            "author": "DialecticalEcologist",
+            "body": "examples: the use value of a lightbulb is providing light. the use value of gloves is keeping your hands safe/warm. maybe three pairs of gloves is worth one lightbulb. the question arises, how can such different commodities be equalized for exchange? they must have something in common. answer: they\u2019re both products of human labor.",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "ambuehlance",
+                    "body": "So value is everything it costs to make something, exchange value is what it is sold for, surplus is the difference, and use-value specifically denotes what the user does with it? In my example the use value of a chef\u2019s knife is its ability to chop?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "DialecticalEcologist",
+                            "body": "Yes to all except surplus value is the value generated after a laborer has produced value equivalent to what they are being paid for their labor time.\n\nSo (as a simple example) if I make candlesticks valued at $2 each and get paid $10 per day, I have created value equivalent to my wage after making 5 candlesticks. But say I make 20 candlesticks in a day (while still only making $10), that additional labor will generate surprise value. This is the origin of profit, the exploitative fulcrum of capital.\n\nEdit: spelling.",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "theInternetMessiah",
+            "body": "Use-values are not something that can be calculated. It is the qualitative aspect of the commodity. The use value of apples is that they are nourishing when eaten, can be made into cider, etc and apples would still have this quality regardless of how much or how little it costs to produce them. Conversely, no amount of production or other calculation will make something that isn\u2019t a use-value into a use-value, e.g. a mud pie, a kick to the shin, etc. \n\nIt might help to think about it like this: in every capitalist exchange of a commodity, one party walks away with the exchange-value and one party walks away with the use-value. I can either have the use-value of my apple, i.e. by consuming it, or I can have its exchange-value (say $1) by selling it on the market to someone else who wants to eat it \u2014 but I cannot under normal circumstances have both the use- and exchange-value of the apple. Or in other words, I cannot have my cake and eat it too. The apple has both use value and exchange value and, as a result of the commodity relation, these two values become separated. According to the simple example, in every act of the exchange of apples, as commodities, the use-value is realized by the people eating the apples and the exchange value is realized as $1 in the pockets of the apple sellers.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "Bolshivik90",
+                    "body": "This. I like to think of product recalls because of a fault or defect. It doesn't matter how much labour went into making those, or how much their nominal exchange value is: the fault or defect has made them worthless and they can't be sold.\n\nIn that sense, I think it can actually be calculated somewhat. In that I think a use-value is a multiplier of either 1 (useful, it serves its purpose) or 0 (useless, it doesn't serve any use).\n\nIf it's zero, the exchange and labour values are irrelevant, as its overall value becomes zero.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "theInternetMessiah",
+                            "body": "And that\u2019s where subjective utility value people get confused \u2014 it\u2019s not labor per se that is the origin of value but *socially necessary* labor and so it doesn\u2019t matter how many hours you put in making mud pies, the mud pies still represent use-values of zero.",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "prinzplagueorange",
+            "body": "Use value is not a calculation nor is it really anything in the consumer's head. It is a property of the commodity. A commodity's use value is what it is used for. So a chair is used for sitting, a bicycle for transportation by peddling, etc. Different commodities are different use values because they are used for different things. Use value is a qualitative aspect of the commodity, itself.\n\nThe marginalists in the 1870s realized that if they assumed that Bentham was correct to assume that individuals were pleasure maximizers, then they could claim that all commodities had the same use value (to bring pleasure to a consumer) and that they could thus represent the decision to consume as a quantitative increase in pleasure. \n\nMarx does not make that assumption, nor did any economist before Jevons. Instead, Marx regards use value as a property of the commodity, not of the consumer. Consumers buy commodities because they desire those commodities as use values, but those consumers are not necessarily pleasure maximizers and use value cannot be represented mathematically in the way that exchange value and value can be.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

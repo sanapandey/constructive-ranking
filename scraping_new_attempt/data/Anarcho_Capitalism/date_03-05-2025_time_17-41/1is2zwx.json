@@ -1,0 +1,1140 @@
+{
+    "title": "Am I the only one noticing this COBOL gaslighting",
+    "author": "SkillGuilty355",
+    "subreddit": "Anarcho_Capitalism",
+    "rank": 261,
+    "score": 257,
+    "upvote_ratio": 0.87,
+    "num_comments (reported by reddit)": 169,
+    "url": "https://www.reddit.com/r/Anarcho_Capitalism/comments/1is2zwx/am_i_the_only_one_noticing_this_cobol_gaslighting/",
+    "id": "1is2zwx",
+    "selftext": "The NPC programming today is to talk about how Musk doesn't understand how COBOL works. Evidently it defaults to 1875 when a field is blank. This is supposed to explain the 150 year-olds listed as still alive in the SS database.\n\nHowever, there are, according to DOGE, many born before 1875 listed as alive. COBOL doesn't explain this, and when I point out that COBOL doesn't explain this, I get crickets.",
+    "comments": [
+        {
+            "author": "Numinae",
+            "body": "Cool, so it's a COBOL error... is the goverment aware of that and still paying \"them?\"",
+            "score": 138,
+            "replies": [
+                {
+                    "author": "SkillGuilty355",
+                    "body": "No, someone who actually wasn't a drone just told me that they cut you off automatically at 115. Everyone else was just insulting me for asking questions\ud83d\ude02",
+                    "score": 70,
+                    "replies": [
+                        {
+                            "author": "Numinae",
+                            "body": "Seriously though, 115? How many people live to 115?!",
+                            "score": 38,
+                            "replies": [
+                                {
+                                    "author": "SkillGuilty355",
+                                    "body": "It's actually a good point\ud83d\ude02\n\nI hadn't considered that",
+                                    "score": 21,
+                                    "replies": [
+                                        {
+                                            "author": "Numinae",
+                                            "body": "Well, drinking wild turkey and climbing a few flights of stairs apperently confers immortality... or at least 100 years! They made them tougher back then. My dad was born before and grew up during WW2 and I'm technically a \"Millinial\" (not that I claim that dubious distinction). My family has extremely long generational times compared to the \"norm.\"",
+                                            "score": 13,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "MaineHippo83",
+                                            "body": "They probably chose a date that makes it extremely unlikely for anyone to actually cut off while cutting off errors.\n\nThe numbers are so high on the list probably because 8lits based on birthday and isn't a list of those receiving benefits currently",
+                                            "score": 5,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "MaineHippo83",
+                                    "body": "Approx 100k over 100 in the US and 60 to 70 over 110",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Numinae",
+                            "body": "Btw, aren't we still paying benefits to Civil War veteran's spouses?",
+                            "score": 7,
+                            "replies": [
+                                {
+                                    "author": "SkillGuilty355",
+                                    "body": "Lol are we",
+                                    "score": 7,
+                                    "replies": [
+                                        {
+                                            "author": "Numinae",
+                                            "body": "Are they kids or spouses?",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "human743",
+                                                    "body": "Someone who was 17 in 1865 could marry a 17yr old in 1938 when they were 90 and that spouse would be 87 today.",
+                                                    "score": 13,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Numinae",
+                                                            "body": "That being said there's a difference between 3 outliers and a cohort large enough to be statistically significant...",
+                                                            "score": 13,
+                                                            "replies": []
+                                                        },
+                                                        {
+                                                            "author": "Numinae",
+                                                            "body": "I remember hearing about this 10 years ago (or more) and there were only something like 2-3 left. If that. Iirc, it was a drummer boy in the Civil War who was 14 at the cessation of hostilities and married a woman in his 60s.... I don't recall the other two.\u00a0",
+                                                            "score": 8,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "calmbill",
+                                    "body": "The last person receiving civil war dependant benefits died a few years ago.\n\n\n\n\nhttps://en.m.wikipedia.org/wiki/Irene_Triplett#:~:text=Irene%20Triplett%20(January%209%2C%201930,an%20American%20Civil%20War%20pension.",
+                                    "score": 9,
+                                    "replies": [
+                                        {
+                                            "author": "Roro_Yurboat",
+                                            "body": "That was dependent benefits, but the last widow receiving benefits died in December 2020.\n\nhttps://en.m.wikipedia.org/wiki/Helen_Viola_Jackson",
+                                            "score": 8,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Kurtac",
+                                    "body": "The last one died in 2020.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Numinae",
+                            "body": "\"How dare you be ageist my dude!?!?! Elon is clearly a Not See (my opinion)!\"",
+                            "score": 13,
+                            "replies": []
+                        },
+                        {
+                            "author": "Ok-Section-7172",
+                            "body": "Interesting, so sounds like dbdate.min, null or empty, or more than 115 is part of the cutoff. Makes sense actually. This would allow millions of records to be filtered much quicker and with way less memory.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "Lenin_Lime",
+                            "body": "\"Everyone else was just insulting me for asking questions\ud83d\ude02\".  Deserved considering your title says - Am I the only one noticing this COBOL gaslightingAm I the only one noticing this COBOL gaslighting.",
+                            "score": -4,
+                            "replies": [
+                                {
+                                    "author": "AgainstSlavers",
+                                    "body": "Commie",
+                                    "score": 8,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Penultimate-anon",
+                    "body": "Not an error in COBOL. That\u2019s just how it works. Most newer systems use January 1st, 1970. I would say the error lies in how the system is used.",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "Numinae",
+                            "body": "Wait, year 0 according to COBOL is 1/1/70?!",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "Penultimate-anon",
+                                    "body": "No. I don\u2019t know what it is for COBOL. Epoch time, or Unix time, is that. Same for newer Microsoft systems and their applications. The time is stored as a single integer of the number of seconds since the epoch time - January 1, 1970. This why sometimes you\u2019ll hear about the \u201cnext y2k\u201d happening in January 19, 2038, which is when 32bit systems will reach their maximum value for a signed integer.",
+                                    "score": 11,
+                                    "replies": [
+                                        {
+                                            "author": "Numinae",
+                                            "body": "I remember that being an issue for Linix. I'm not sure about Unix or it's predecessors. I thought\u00a0 1/1/1900 was chosen for dating systems as the idea it would still be around in 30 years was inconceivable to them.\u00a0",
+                                            "score": 4,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "SpeakerOk1974",
+                                            "body": "As far as I know, Linux and all the other Unix-like OSes (All of Apple's OSes and the BSDs notably) have already patched this if they are not running on 64bit. \n\nI may be wrong though.",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "Penultimate-anon",
+                                                    "body": "The main issue is maintaining backwards compatibility.",
+                                                    "score": 3,
+                                                    "replies": [
+                                                        {
+                                                            "author": "SpeakerOk1974",
+                                                            "body": "The patch is just making it an unsigned integer as far as I remember. But don't quote me on that. Since it's positive, the extra bit of previous integer values were 0 anyways since signed ints on all modern architecture are 2s complement.\n\nEdit: also endianess doesn't matter either. And there is no need to store a system time predating 1970. Unix time isn't really used for many things other than OS time.",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "Throwaway__shmoe",
+                                                    "body": "Up the app devs to use that standard (no good reason they shouldn\u2019t) but you\u2019d be very surprised what kind of shit actually happens in the real world.",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Ltholt25",
+                                    "body": "If I remember correctly that\u2019s the UNIX epoch time code. UNIX systems consider time in their relation in seconds to that date",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "Numinae",
+                                            "body": "Yeah but UNIX post dated earlier systems.... I think it was called VACs or / VAX.. maybe Univac? I honestly don't know when the goverment switched to digital systems but I'm pretty sure it was in the 60s... My dad had a computer that required an air-conditioned room in the 60s that did nothing but accounting and required punch cards to program and enter data into...",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "GunkSlinger",
+                                                    "body": "According to DeepSeek-r1:14b running on my local machine\\[1\\] the predecessor to Unix was Multics. Unix was developed in 1970 and its Epoch is 1/1/70. Multics was first developed in 1964. Multics' Epoch was Nov. 23, 1965 for some reason. \n\nAs an aside, I also asked it what the default value is for COBOL numeric fields, and it says that numeric fields are initialized to 0 as one might expect.\n\n\\[1\\] Please do not take this as being authoritative. IMO all AIs are janky and should not be trusted (I run it out of curiosity). Having said that the response doesn't sound wildly nonsensical, and I've been running and writing software for various forms of Unix at home since the mid-eighties so I can confirm 1/1/70 as the Unix/Linux epoch.",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "bilcox",
+            "body": "Yeah, it's some bullshit narrative that someone made up and everyone started parroting.  It could have even been the DOGE people that started it to make their critics look stupid eventually.",
+            "score": 100,
+            "replies": [
+                {
+                    "author": "SkillGuilty355",
+                    "body": "3d chess haha",
+                    "score": 25,
+                    "replies": [
+                        {
+                            "author": "westphac",
+                            "body": "Bruh, that\u2019s just chess.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "SkillGuilty355",
+                                    "body": "Hey Ludwig, I didn't know that you had finally abandoned minarchism.",
+                                    "score": 9,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "WishCapable3131",
+                                    "body": "Chess the *board* game takes place in 2 dimensions.....",
+                                    "score": 8,
+                                    "replies": [
+                                        {
+                                            "author": "westphac",
+                                            "body": "I thought about this while I wrote my last comment but then I remembered we are on Reddit so facts and nuance don\u2019t matter",
+                                            "score": 11,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ElderberryPi",
+            "body": "About 1/3 of the people you are arguing with are bots (conservative estimate).",
+            "score": 53,
+            "replies": [
+                {
+                    "author": "Ifyouwant67",
+                    "body": "That could explain why they came up with the same 5 bullshit explanation.",
+                    "score": 14,
+                    "replies": []
+                },
+                {
+                    "author": "divinecomedian3",
+                    "body": "The rest are NPCs",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "trufin2038",
+                            "body": "Wet bots or dry bots, it's the same programming",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "jakethemongoose",
+                                    "body": "\u2018Wet bots\u2019 that\u2019s great! That needs to catch on.",
+                                    "score": 6,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "fata1w0und",
+            "body": "Naw. COBOL uses Lilian Date. That begins on October 14, 1582. Someone at some point decided to default empty dates to a particular value. Better question, why is birthdate not a required field?\n\nhttps://www.ibm.com/docs/en/zos/2.4.0?topic=services-date-limits",
+            "score": 33,
+            "replies": [
+                {
+                    "author": "Lenin_Lime",
+                    "body": "not all cobol uses the same starting dates",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "DarkUnable4375",
+            "body": "Forget the 150 yr olds. How about 130 year olds. Are there really several million 130 year olds living in America?  What's the explanation from these COBOL experts?",
+            "score": 35,
+            "replies": [
+                {
+                    "author": "SkillGuilty355",
+                    "body": "Yeah that was my question. Everyone was ignoring it until this one dude said that they automatically stop sending you money at 115.",
+                    "score": 16,
+                    "replies": [
+                        {
+                            "author": "DarkUnable4375",
+                            "body": "So looking at the numbers at 70-120 yr olds, maybe 15 mil checks are to dead people?",
+                            "score": 7,
+                            "replies": [
+                                {
+                                    "author": "SkillGuilty355",
+                                    "body": "Lol that seems to be the conclusion.",
+                                    "score": 8,
+                                    "replies": [
+                                        {
+                                            "author": "MFrancisWrites",
+                                            "body": "Let's assume that's true. And I think that's not a great assumption, but I'll grant it for sake of my point:\n\nDo you know how little that is in the grand scheme of things? They're getting ready to cut the government programs that many people rely on, so they can give themselves yet another tax break, while our debt continues to balloon.\n\nThey're \"hunting\" out millions and taking back literal trillions, and leaving us holding the bag.\n\nWhy would you trust the richest man in the world when he posts spreadsheets with no headings or data source? If I trusted something Soros posted, a screenshot, and parroted it as reality without question or skepticism, what would you call me?",
+                                            "score": -15,
+                                            "replies": [
+                                                {
+                                                    "author": "DarkUnable4375",
+                                                    "body": "That's 15 mil * $1600 (average monthly ss check) *12 = $288 Bil a year.   So basically SS won't really be bankrupt for a while, once we get rid of the fraudsters. \n\nOr as you are suggesting, the rest of us should pay more and real recipients should gets less benefit, so the fraudsters could get their $288 Bil a year. $2.88 Trillion over 10 years.",
+                                                    "score": 17,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "SkillGuilty355",
+                                                    "body": "What programs? Are you sure you're in the right sub?",
+                                                    "score": 7,
+                                                    "replies": [
+                                                        {
+                                                            "author": "MFrancisWrites",
+                                                            "body": "Yeah I mean I get it, but eliminating Medicaid will leave poor people to suffer and die. No matter how shitty and how awful that is currently being run, those people do not have the income to afford any additional household expenses, no matter how dire.\n\nSo the question right now isn't \"is Medicare good or worth saving\", it's \"does it provide a value beyond giving someone worth $200B an additional $40B?\"\n\nAnd if your answer to that question is no, I guess why you'd explain why, with all the wealth in this nation, the people you're empowering to save you have not already done so.\n\nIf they have you fired up about $12M, how can you not admit that's a *little bit* misdirection, and then ask why they feel the need to misdirect you?",
+                                                            "score": -8,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "AgainstSlavers",
+                                                                    "body": "There wasn't an epidemic of people being kicked out to die in the street before Medicaid, and there won't be after. There are enough decent people who do pro bono work to keep that to a minimum. I know you are projecting tho, as you do no charity and only rob people to get money.",
+                                                                    "score": 7,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "MFrancisWrites",
+                                                                            "body": ">keep that to a minimum.\n\nWhat is an acceptable number of people that can perish in the richest nation to ever exist, you think?\n\n>you do no charity and only rob people to get money.\n\n\"Everyone that offers dissent must be a lazy thief\" is a tired trope, and typically, you guys are \"I'd do all the charity if only they gave me back my (tiny) federal tax withholdings\"",
+                                                                            "score": 0,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "AgainstSlavers",
+                                                                                    "body": "How many people have you saved?\n\nAll taxes combined, the government has robbed me of about 60% of my earnings.",
+                                                                                    "score": 2,
+                                                                                    "replies": []
+                                                                                },
+                                                                                {
+                                                                                    "author": "AgainstSlavers",
+                                                                                    "body": "\"I want to rob people so that I don't have to work myself and can give some of the money out to others so I'll finally have a friend\" is an exhausted trope that I did expect from you, and you delivered.",
+                                                                                    "score": 2,
+                                                                                    "replies": []
+                                                                                },
+                                                                                {
+                                                                                    "author": "AgainstSlavers",
+                                                                                    "body": "Let's assume you want a system like Canada's. The number of deaths on the street is not zero.  So what is the acceptable number for you?",
+                                                                                    "score": 1,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "MFrancisWrites",
+                                                                                            "body": "I mean you keep moving in the direction towards zero. People dying because they cannot afford insulin in the richest nation to ever exist seems to point out it's not a wealth problem, but access and distribution.\n\nI think most things are best served with two tiers.",
+                                                                                            "score": 0,
+                                                                                            "replies": []
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "LiberalAspergers",
+                                    "body": "This is a list of numbers that old, not a list of people receiving benefits. THAT would be an actually interesting and useful list, and not the query Musk ran, which is why everyone who has ever used a database is mocking Musk as an incompetant clown.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "WadeBronson",
+                                            "body": "One of two things is true. Either they published the full query, along with supporting runtime lookups, and the code is redundant at best, incomplete at worst, or you\u2019re guessing on what the query was so that you can fulfill your narrative that elon bad.",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "LiberalAspergers",
+                                                    "body": "Neither. The Congressional Record Service reports that as of March 2024 67.5 million people receive Social Security benefits. They presumably have people who know how to write a query. \n\nGive that Musk found a wildly larger number, it is fairly easy to conclude that his query is for all individuals in the database, not all people receiving beenfits. \n\nAlso, they number of records returned for lower ages does not even vaguely resenble the age profile one should see for people receiving benefits.\n\nLearn to interpret data.",
+                                                    "score": 2,
+                                                    "replies": [
+                                                        {
+                                                            "author": "WadeBronson",
+                                                            "body": "Yeah ok so it was the second thing, got it",
+                                                            "score": 4,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "LiberalAspergers",
+                    "body": "The explanation is that the alive field defaults to TRUE, and if the SSA is never told of their death, it remains that way. If an 8 year old dies, no one ever tells the SSA, and his number remains at true forever. \n\nSame for immigrants who get a TIN, work for 6 months, and go home. Their number remains in the system, and no one ever informs the SSA of their death. I suspect basically everyone who died before receiving benefits is still flagged as ALIVE=TRUE.",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "Ok-Section-7172",
+                    "body": "Doubt it but I know there are millions of records that are not complete for people born 130 years ago. Looks like it's this way to accommodate missing data.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Tandoori7",
+            "body": "Truth is, probably on one is checking/updating those entries.",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "BoinkChoink",
+            "body": "For all the people talking about COBOL keep in mind about 0 actually understand it. It\u2019s an extremely old and specific programming language used almost exclusively by ancient systems for commerce and banking essentially",
+            "score": 23,
+            "replies": [
+                {
+                    "author": "MaelstromFL",
+                    "body": "Stop calling me old and a relic!\n\nAnd, yes, I can actually program in COBOL...",
+                    "score": 19,
+                    "replies": []
+                },
+                {
+                    "author": "XDingoX83",
+                    "body": "The dark arts of COBOL pay well because so few understand it.",
+                    "score": 9,
+                    "replies": [
+                        {
+                            "author": "BoinkChoink",
+                            "body": "I like to think COBOL developers shuddering in fear thinking about the complete lack of rules in JavaScript",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "SpeakerOk1974",
+                                    "body": "JavaScript is a complete dumpster fire of a language. I refuse to use it for anything. If I want a dynamic interpreted language, I'll choose a Lisp, Python, Lua or literally anything else over it. It's a shame it's the one language in the web browser. Maybe WASM will save us.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "Ok-Section-7172",
+                                            "body": "WASM for the win! It's been my hero this last year.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "SpeakerOk1974",
+                                                    "body": "I might actually learn web dev since I don't have to write JS now! I do numerical computing/data science/engineering automation at my job. So luckily I never touch JS. The grossest language I have to touch is C#. It's not too terrible, if the code I worked on in it wasn't refactoring a legacy application with things like 6 nested do whiles and 15 levels of conditionals to parse a simple text file format I might actually enjoy it.",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "SpeakerOk1974",
+                    "body": "It's always confused me why COBOL was never really updated much over the years. Fortran is a nice programming language in 2025 if I do say so myself. But it's changed alot and gotten rid of alot of the baggage from the punch card era.\n\nEdit: I stand corrected, they have updated the language! Still a dumpster fire as far as I know. Also that doesn't mean institutions using it have actually migrated to newer versions of the language. I mean even with modern languages, look how much stuff is still in Python 2.7 and that was released 15 years ago and has been unsupported for 5 years now.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "BoinkChoink",
+                            "body": "as far as i know they haven't updated much because they like it the way it is, certainly not user friendly. But its interesting seeing such a highly specific language that is designed to do basically one thing.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "SpeakerOk1974",
+                                    "body": "I just don't think it's a very good DSL if that's the intention unfortunately. But I get the sentiment. \n\nI don't think Grace Hopper was wrong that businesses need a language business people can understand that's in plain English and easy on symbols though. I do wish we had invented it when teletypes were the input device just a few years later and not when punch cards were the input. \n\nI do think that languages from that era are often overlooked as \"outdated\" and I can see leveraging that criticism to COBOL but maybe I am biased as a numerical computing guy that I like Fortran and I am absolutely a Lisper so I love Lisp.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Lenin_Lime",
+                    "body": ">For all the people talking about COBOL keep in mind about 0 actually understand it. It\u2019s an extremely old and specific programming language used almost exclusively by ancient systems for commerce and banking essentially \n\nHow much do you work with it?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "BoinkChoink",
+                            "body": "Don\u2019t work with it but studied for 3 years in school learning it, COBOL not my favourite. Most people don\u2019t even know what it is",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "MindOverManner69",
+                                    "body": "Cobol is hideous and tedious and terrible.\n\nI remember in my programming classes we did the same reports in RPG vs Cobol. Cobol was like 1000 lines of code, RPG for the same report was about 60.\n\nFILLER FILLER FILLER FILLER FILLER.... fuck me with the filler ffs.",
+                                    "score": 2,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Lenin_Lime",
+                                    "body": "like elon",
+                                    "score": -1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Penultimate-anon",
+            "body": "You get crickets because they just want to attack musk because they hate Trump. They aren\u2019t looking for the truth - they are trying to stop it.",
+            "score": 20,
+            "replies": []
+        },
+        {
+            "author": "JackHoff13",
+            "body": "It doesn\u2019t default to 1875. That is a load of shit and people are just assuming when it was originally setup they defaulted to May 20 1875. \n\nIt doesn\u2019t auto default to any date. If this was so common it should be pretty easy to find evidence COBOL defaults to 1875.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "Ok_Ebb_5201",
+            "body": "Rule number 1 still applies. Don\u2019t trust anything the government tells you.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "AgainstSlavers",
+            "body": "We're all arguing with bots. USAID money is still floating around a lot of NGOs. Elon hate is so in right now.",
+            "score": 12,
+            "replies": []
+        },
+        {
+            "author": "bluefootedpig",
+            "body": "I actually looked this up and explained it as it is my field, but NTFS systems, and cobols systems went farther back than that, and that is the default. Also not being said is many of these are not collecting, it is just never notified of death. So if you paid into SS, died, and your children (or lack of) didn't report you dead, you are still listed as alive in this database. \n\nHave you noticed that they have not come up with the details of how they got to it? if they were paid? etc?",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "SkillGuilty355",
+                    "body": "The default is 1875. There are people in there listed as born before 1875.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "bluefootedpig",
+                            "body": "That is the default of most cobol systems, not all.\n\n  \nUnix timestamps are usually either seconds or milliseconds since midnight on 1 January, 1970.\n\nAdd to this lack of specificity the fact that\u00a0[a couple dozen other epochs](https://en.wikipedia.org/wiki/Epoch_(computing)#Notable_epoch_dates_in_computing)\u00a0have been used by various software systems, some extremely popular and common. Examples include January 1, 1601 for NTFS file system & COBOL, January 1, 1980 for various FAT file systems, January 1, 2001 for Apple Cocoa, and January 0, 1900 for Excel & Lotus 1-2-3 spreadsheets.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "The_Atlas_Broadcast",
+            "body": "That makes no sense at all. Why would 1875 be the start date for COBOL's calendar? Why would something default to 150 if it's blank -- why not 128 or 256, values which might actually arise in a computer program?\n\nAnd *even if* those things are true, why are there also 130 and 140 year-olds in the payout system? Surely they would also be 150 if that's just the \"stand-in value\"?\n\nThis is the laziest lie I've ever heard.",
+            "score": 9,
+            "replies": []
+        },
+        {
+            "author": "Midnight-Bake",
+            "body": "Annual reports say there are <1% payments made in error.\u00a0\n\n\nEven if there are errors in this dataset, I'm wondering if there are additional checks to prevent it, or if this is an unexploited vulnerability, or if previous reports are wrong.\n\n\nSimilar to the limestone mine retirement system, it could be possible this is a known problem that Congress has opted to not fund fixes for, especially if the reported relatively low number of payments in error are true. Guess we will find out, although I'll be shocked if Musk ever blames the root cause if it turns out to be lack of funding from Congress.\n\n\nHe has said this is fraud, so hopefully he goes about showing some actual evidence of fraudulent payments.",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "AgainstSlavers",
+                    "body": "Why do you believe the \"annual reports\"?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Midnight-Bake",
+                            "body": ">I'm wondering if there are additional checks to prevent it, or if this is an unexploited vulnerability, or if previous reports are wrong.\n\n\nI said pretty early in the comment the old reports being wrong (intentionally or not) is a possibility.\n\n\n>He has said this is fraud, so hopefully he goes about showing some actual evidence of fraudulent payments.\n\n\nI'm willing to hear out any evidence of fraudulent payments, but the existence of entries in a database doesn't mean there are no other checks in place or that those errors have lead to significant mispayments.\n\n\nThat's why I said hopefully he produces evidence of the actual fraud he said is happening, evidence which should be easy to check through payments being made which his team has supposedly requested and gotten access to.\u00a0\n\n\nIf he doesn't show that evidence I'd be inclined to think it isn't happening the way he says it is.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "AgainstSlavers",
+                                    "body": "Even if he's wrong, I hope they all get fired.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Midnight-Bake",
+                                            "body": "The vast majority of taxes are collected without IRS agents. It's a bit of a show, really. If he's lying about there being fraud I'd be more interested in the motive.\n\n\nRight now it seems Musk+Trump are more interested in deflecting blame to the agencies despite the agencies seemingly adhering to standards and behaviors dictated by Congress and the President and less of a deep state conspiracy to defraud the US. Wasteful? Yes. Fraud? Not so much.\u00a0\n\n\nThe concern is that we are treating some of the symptoms as a scapegoat to distract from the actual disease.\n\n\nIf we keep printing money and keep running a deficit and keep taxing people the problem isn't really solved, so there is no reason to just trust the process at this point. We don't have Milei in office and shouldn't pretend we do.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "AgainstSlavers",
+                                                    "body": "If they didn't enforce it, nobody would pay. That's the important part. I don't care if they only have to make examples of some because we're all rightly afraid of prison.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Midnight-Bake",
+                                                            "body": "Okay, but cutting even half the jobs doesn't mean they can't or won't enforce things with prison. Especially when a lot of these jobs are call center or junior roles which would be processing returns not busting down doors.\n\n\nYour employer or bank will likely happily agree with the government and not give you a say in taking tax from your pay and even if they don't it doesn't mean the armed men with guns have lost their jobs or won't be coming. It just means your refund for taxes that were removed before money even reached your hand will take longer.\n\n\n\"No, we shouldn't worry about accountability or transparency because they might abolish the enforcement of taxes!\" Is a fucking wild take. If Trump ends the enforcement of tax collection all together let me know, until then maybe don't go around liberterian spaces if you want to blindly trust the government.",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "AgainstSlavers",
+                                                                    "body": "Yes, cutting half the jobs will reduce their ability to project force. It takes effort to file court documents, show up to court, arrest people, investigate people.  The fewer agents they have, the better.",
+                                                                    "score": 1,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Midnight-Bake",
+                                                                            "body": "I get that this seems increasingly difficult for you to think about:\n\n\nNot all IRS agents are the same.\n\n\nCutting the people who take your tax payment information over the phone does not reduce the ability to arrest snd prosecute you for not paying it just makes it harder to pay.\n\n\nCutting the people who process refund payments doesn't affect investigations or enforcement it just makes it longer for you to get your money back.\n\n\nCutting 10% of the IRS is not going to lead to a 10% lower enforcement rate, and even if it does what is the chance that Walmart or Google or Tesla are going to stop withholding income tax from their employees voluntarily?\n\n\nI get that you don't want to ask questions about what's going on behind the curtains because you blindly trust the government, but I think it's important to understand long-term plans and motives and trying to shut down questions about how and why the government is doing something is anti-liberty.",
+                                                                            "score": 1,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "AgainstSlavers",
+                                                                                    "body": "It's not difficult for me at all. I think you're projecting again.  Any time an IRS agent is fired, that's a great thing.",
+                                                                                    "score": 1,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "Midnight-Bake",
+                                                                                            "body": "Firing the people who return your own money to you from the government is not great enough to justify shutting down advocating for transparency and accountability in the government.",
+                                                                                            "score": 1,
+                                                                                            "replies": [
+                                                                                                {
+                                                                                                    "author": "AgainstSlavers",
+                                                                                                    "body": "They don't return my money to me.  They rob me.",
+                                                                                                    "score": 1,
+                                                                                                    "replies": [
+                                                                                                        {
+                                                                                                            "author": "Midnight-Bake",
+                                                                                                            "body": "When you're employer or bank withhold money from you, you've been robbed. No IRS agents is necessary for that. Now maybe you personally don't have withholding but maaaany people do.\n\n\nWhen you send a piece of paper to the IRS it is called a tax return because you are getting money which was stolen out of your pocket by people who are not the IRS. The return is examined and part of the money stolen from you is returned.\n\n\nSo yes, there are parts of the IRS which directly steal from people, and then there are parts which work on returning a portion of that stolen money.\u00a0\n\n\nIf you move toward sales tax and tariffs those are all taxes which are going to inevitably come out of your pocket without a single IRS agent ever even thinking about you.\n\n\nI get that it's easy to think \"IRS is thief, drr\", but that's why the show of cutting 5000 jobs or 10000 jobs from the IRS works. The actual impact on its power could be quite marginal.\n\n\nAnd yet you continue to deflect toward this instead of the other issues I raised, proving how valuable of a distraction a superficial change in the IRS can be.",
+                                                                                                            "score": 1,
+                                                                                                            "replies": [
+                                                                                                                {
+                                                                                                                    "author": "AgainstSlavers",
+                                                                                                                    "body": "The employer wouldn't withhold if IRS didn't force them to.",
+                                                                                                                    "score": 1,
+                                                                                                                    "replies": [
+                                                                                                                        {
+                                                                                                                            "author": "Midnight-Bake",
+                                                                                                                            "body": "And again: will a 10% drop in IRS employment inspire Walmart, Apple, Tesla, etc. to stop withholdings?\u00a0\n\n\nEspecially if those cuts might be made from the people returning the portion of withholding instead of the people with guns enforcing their rules?\n\n\n\n\nThe answer is no.\n\n\nEdit: Bro really blocked me because he couldn't comprehend that giving up the fight on government accountability isn't worth a \"marginal\" drop in IRS activity.",
+                                                                                                                            "score": 1,
+                                                                                                                            "replies": [
+                                                                                                                                {
+                                                                                                                                    "author": "AgainstSlavers",
+                                                                                                                                    "body": "It will marginally reduce IRS power, yes, which is better than nothing.",
+                                                                                                                                    "score": 1,
+                                                                                                                                    "replies": []
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "I-wanna-GO-FAST",
+            "body": "https://oig.ssa.gov/assets/uploads/a-06-21-51022.pdf\n\nThis is a 2023 report that was posted in Fednews. It tries to explain why all these old people are in the system but not labeled as deceased, but most notably it states that 44,000 born before 1920 are still receiving benefits (footnote 7 on page 2). According to [this list](https://gerontology.fandom.com/wiki/List_of_oldest_living_people_in_the_United_States), there are only 15 known people in the US over the age of 112.\n\nSo it doesn't seem like there's millions of people fraudulently receiving benefits, but it does look like there's at least 44,000.\n\nEDIT: People born in 1920 would only be 102 at the time of this report, and there are actually a lot more 100 year old people than I thought. There were 80,000 in 2020. So that 44k doesn't seem that wrong now.",
+            "score": 10,
+            "replies": [
+                {
+                    "author": "SkillGuilty355",
+                    "body": "So why does DOGE have the number much higher",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "EconGuy82",
+                            "body": "So just because someone isn\u2019t labeled as deceased doesn\u2019t mean they\u2019re receiving benefits. Musk shared screenshots of the database where people weren\u2019t listed as deceased even though they should be. But that doesn\u2019t mean they\u2019re still being paid (it also doesn\u2019t mean they aren\u2019t).",
+                            "score": 10,
+                            "replies": [
+                                {
+                                    "author": "SkillGuilty355",
+                                    "body": "It does though. That's basically the only way they know to stop sending you benefits. There's that, turning 115, and some other technicality that can cause you to lose benefits.",
+                                    "score": -2,
+                                    "replies": [
+                                        {
+                                            "author": "EconGuy82",
+                                            "body": "Right, and if you\u2019re 150, then you\u2019re over 115. So these folks probably have died, aren\u2019t getting benefits, and their deaths were just never reported. Why change the status in the system if it doesn\u2019t affect anything?\n\nI would think DOGE has access to *who\u2019s* getting paid. So they ought to be sharing that.",
+                                            "score": 8,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "I-wanna-GO-FAST",
+                            "body": "Those are the number that simply aren't labeled deceased, which is exactly what Musk stated in his tweet, he did not claim anything more.\n\nThe report I linked says 18 million people born before 1920 weren't filed as deceased, which lines up with the DOGE report.",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "SkillGuilty355",
+                                    "body": "Ok but that's how they decide whether to send you money or not.",
+                                    "score": -5,
+                                    "replies": [
+                                        {
+                                            "author": "I-wanna-GO-FAST",
+                                            "body": "You are assuming that, and I believe you are incorrect.",
+                                            "score": 9,
+                                            "replies": [
+                                                {
+                                                    "author": "SkillGuilty355",
+                                                    "body": "Nah man I actually looked it up. How else would they?",
+                                                    "score": -3,
+                                                    "replies": [
+                                                        {
+                                                            "author": "I-wanna-GO-FAST",
+                                                            "body": "You think that if someone is in the social security database, over 70 years old, and not labeled deceased, they are automatically receiving benefits? Where did you get that info?",
+                                                            "score": 5,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "SkillGuilty355",
+                                                                    "body": "Here's this. Maybe I missed something, but it seems like there is plenty of room for things to continue after someone dies.\n\n[https://www.ssa.gov/OP\\_Home/cfr20/404/404-1596.htm](https://www.ssa.gov/OP_Home/cfr20/404/404-1596.htm)",
+                                                                    "score": 0,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "I-wanna-GO-FAST",
+                                                                            "body": "Lmao did you even read that? For one, it's mostly talking about disability benefits, and also I don't see where it answered my question.",
+                                                                            "score": 7,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Lenin_Lime",
+                            "body": ">So why does DOGE have the number much higher \n\nWhy is a known liar like Elon posting numbers about a million 150 years old getting SSI money, that doesnt match with previous reports.  I dont know, its a mystery OP.",
+                            "score": -6,
+                            "replies": [
+                                {
+                                    "author": "I-wanna-GO-FAST",
+                                    "body": "Did Elon claim somewhere that all those people were receiving money? The tweet i saw simply stated how many people weren't recorded as deceased. Those numbers do also match previous reports.",
+                                    "score": 10,
+                                    "replies": [
+                                        {
+                                            "author": "Lenin_Lime",
+                                            "body": ">\\>Did Elon claim somewhere that all those people were receiving money? The tweet i saw simply stated how many people weren't recorded as deceased. Those numbers do also match previous reports.\n\n\"As an example of his work so far, Musk cited some \"crazy things\" that had emerged in just the \"cursory examination of Social Security\" his team was undertaking.\"\n\n\"We've got people in there that are 150 years old,\" Musk said Feb. 11. \"Now, do you know anyone who's 150? I don't, OK. They should be in the Guinness Book of World Records. \u2026 I think they're probably dead, is my guess, or they should be very famous, one of the two.\"  [https://www.politifact.com/article/2025/feb/17/are-150-year-old-americans-receiving-social-securi/](https://www.politifact.com/article/2025/feb/17/are-150-year-old-americans-receiving-social-securi/)",
+                                            "score": -2,
+                                            "replies": [
+                                                {
+                                                    "author": "I-wanna-GO-FAST",
+                                                    "body": "Oh so you can't read. He didn't say they're collecting benefits, he said they're not recorded as deceased in the database. You should be correcting the people inferring that they're all getting paid instead of calling him a liar.",
+                                                    "score": 10,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Lenin_Lime",
+                                                            "body": ">Oh so you can't read. He didn't say they're collecting benefits, he said they're not recorded as deceased in the database. You should be correcting the people inferring that they're all getting paid instead of calling him a liar.\n\nHe said Social security thinks that over a million people are 150 years old.  By which a large chunk of those 150 y/o people would be still allowed to collect checks.  As social security thinks they are alive.\n\nFrom Fox News \"In another post, Musk said \"there are FAR more \u2018eligible\u2019 social security numbers than there are citizens in the USA. This might be the biggest fraud in history.\"\"",
+                                                            "score": -2,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "I-wanna-GO-FAST",
+                                                                    "body": "That's not how it works and you are making incorrect assumptions like everyone else. Click on the report I posted in this thread, missing death information for 18 million people born before 1920 has been a known thing since 2015, the social security office simply decided it would be too costly to fix and would be of little benefit. Just because they are in the database and haven't been marked deceased does NOT mean they are automatically getting paid. According to the 2023 report I posted, \"most\" aren't getting money, but it's still up in the air exactly how many. So it's not millions of cases of fraud, but it's also probably not zero.",
+                                                                    "score": 5,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Lenin_Lime",
+                                                                            "body": ">That's not how it works and you are making incorrect assumptions like everyone else. Click on the report I posted in this thread, missing death information for 18 million people born before 1920 has been a known thing since 2015, the social security office simply decided it would be too costly to fix and would be of little benefit. Just because they are in the database and haven't been marked deceased does NOT mean they are automatically getting paid. According to the 2023 report I posted, \"most\" aren't getting money, but it's still up in the air exactly how many. So it's not millions of cases of fraud, but it's also probably not zero.\n\nWhy is Elon bringing up how a million people are 150 according to SSI, if they aren't taking money from SSi.  Why bring up a fluke of SSi databases that SSI is aware if not to say a million plus people are stealing from SSI.  \n\nAnd how  \"there are FAR more \u2018eligible\u2019 social security numbers than there are citizens in the USA. This might be the biggest fraud in history.\"\"-Elon. On top of the condoms to Gaza lie.\n\nYou seem to think I agree with President Elon, but I'm simply going off of what this idiot says on Twitter and what he is quoted as saying.  I know he is full of shit.",
+                                                                            "score": 2,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "I-wanna-GO-FAST",
+                                                                                    "body": ">Why is Elon bringing up how a million people are 150 according to SSI, if they aren't taking money from SSi.\n\nBecause this information is new to him and he wants to draw attention to the shoddy record keeping of the social security office. He also likely thinks any one of them could potentially be collecting checks.\n\n>Why bring up a fluke of SSi databases that SSI is aware if not to say a million plus people are stealing from SSI. \n\nHe thinks more people should know about it and wants to make sure there's zero fraud going on.\n\n>You seem to think I agree with President Elon\n\nWhat? You are obviously calling him a liar because you hate him, and not because you are understanding exactly what he's saying. Is he heavily implying there could be a lot of fraud going on? Absolutely, and if you want to critique him for that by arguing he's misleading others, by all means go ahead. But he never once directly claimed that all those millions are collecting fraudulent checks, that's what you and others are inferring.",
+                                                                                    "score": 4,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "Lenin_Lime",
+                                                                                            "body": ">Because this information is new to him and he wants to draw attention to the shoddy record keeping of the social security office. He also likely thinks any one of them could potentially be collecting checks.\n\nSo fraud he thinks\n\n>He thinks more people should know about it and wants to make sure there's zero fraud going on.\n\nUhhhhh Might be the biggest fraud in history he says.  \n\n>What? You are obviously calling him a liar because you hate him, and not because you are understanding exactly what he's saying. Is he heavily implying there could be a lot of fraud going on? Absolutely, and if you want to critique him for that by arguing he's misleading others, by all means go ahead. But he never once directly claimed that all those millions are collecting fraudulent checks, that's what you and others are inferring.\n\nElon points out how a million people over 150 according to SSI, a how this might be the biggest fraud in history.  \n\nAnd you are mad at me.",
+                                                                                            "score": 2,
+                                                                                            "replies": [
+                                                                                                {
+                                                                                                    "author": "I-wanna-GO-FAST",
+                                                                                                    "body": "Why do you think I'm mad at you? I simply disagree that Musk was lying about this. He did not say there IS fraud, simply how much there COULD BE based on the information that was presented to him. You dont want to admit the difference now because you would be admitting you were mistaken. The only reason I responded to you in the first place was because I thought you might have read something I hadnt.",
+                                                                                                    "score": 3,
+                                                                                                    "replies": [
+                                                                                                        {
+                                                                                                            "author": "Lenin_Lime",
+                                                                                                            "body": ">Why do you think I'm mad at you? I simply disagree that Musk was lying about this. He did not say there IS fraud, simply how much there COULD BE based on the information that was presented to him. You dont want to admit the difference now because you would be admitting you were mistaken. The only reason I responded to you in the first place was because I thought you might have read something I hadnt.\n\n\"Maybe Twilight is real and there are a lot of vampires collecting Social Security \ud83e\udd23\ud83e\udd23\"\n\n\u201cthere are FAR more \u2018eligible\u2019 social security [sic] numbers than there are citizens in the USA. This might be the biggest fraud in history.\u201d\n\nBoth elon",
+                                                                                                            "score": 2,
+                                                                                                            "replies": [
+                                                                                                                {
+                                                                                                                    "author": "I-wanna-GO-FAST",
+                                                                                                                    "body": "I already understood your reading comprehension is lacking, you don't have to remind me you don't know what the words \"maybe\" and \"might\" mean.",
+                                                                                                                    "score": 2,
+                                                                                                                    "replies": [
+                                                                                                                        {
+                                                                                                                            "author": "Lenin_Lime",
+                                                                                                                            "body": ">I already understood your reading comprehension is lacking, you don't have to remind me you don't know what the words \"maybe\" and \"might\" mean.\n\nSo Elon isn't pointing out fraud, when showing how a million people are considered not dead by SSI?",
+                                                                                                                            "score": 2,
+                                                                                                                            "replies": [
+                                                                                                                                {
+                                                                                                                                    "author": "I-wanna-GO-FAST",
+                                                                                                                                    "body": "Yes, he's pointing out there is POTENTIALLY fraud going on and that it should be looked into further. Why does that upset you? You don't want to make sure government money isn't being misused?",
+                                                                                                                                    "score": 3,
+                                                                                                                                    "replies": [
+                                                                                                                                        {
+                                                                                                                                            "author": "Lenin_Lime",
+                                                                                                                                            "body": ">Yes, he's pointing out there is POTENTIALLY fraud going on and that it should be looked into further. Why does that upset you? You don't want to make sure government money isn't being misused?\n\nYou might potentially be a rapist.....  Does that make you mad that I said that?  Potentially?  This isn't a claim of fact not accusation, just potentially that you might be the biggest rapist in history.  Potentially.  Does that make you mad?",
+                                                                                                                                            "score": 2,
+                                                                                                                                            "replies": [
+                                                                                                                                                {
+                                                                                                                                                    "author": "I-wanna-GO-FAST",
+                                                                                                                                                    "body": "If someone said they didn't know if many of the women they had sex with were dead or alive, you'd be right to start asking a lot of questions.",
+                                                                                                                                                    "score": 3,
+                                                                                                                                                    "replies": [
+                                                                                                                                                        {
+                                                                                                                                                            "author": "Lenin_Lime",
+                                                                                                                                                            "body": ">If someone said they didn't know if many of the women they had sex with were dead or alive, you'd be right to start asking a lot of questions.\n\nYour avoidance of my question is noted",
+                                                                                                                                                            "score": 1,
+                                                                                                                                                            "replies": [
+                                                                                                                                                                {
+                                                                                                                                                                    "author": "I-wanna-GO-FAST",
+                                                                                                                                                                    "body": "Anyone would be offended if you called them a rapist, or accused them of any crime, regardless of how guilty they are. The SSA can be offended all they want, what's more important is ensuring fraud, waste, and abuse is uncovered. If they want to clutch their pearls over being under scrutiny, then they shouldn't leave around such obvious signs of negligence. How I would feel, or how they feel for being under investigation is of no importance to justice being found.",
+                                                                                                                                                                    "score": 2,
+                                                                                                                                                                    "replies": [
+                                                                                                                                                                        {
+                                                                                                                                                                            "author": "Lenin_Lime",
+                                                                                                                                                                            "body": ">Anyone would be offended if you called them a rapist, or accused them of any crime, regardless of how guilty they are.\n\nCool, though a guilty person would be scared not offended.",
+                                                                                                                                                                            "score": 1,
+                                                                                                                                                                            "replies": [
+                                                                                                                                                                                {
+                                                                                                                                                                                    "author": "I-wanna-GO-FAST",
+                                                                                                                                                                                    "body": ">a guilty person would be scared not offended.\n\nYou know this from experience, or what?\n\nI watch a lot of criminal interview analyses on youtube, and there is no shortage of indignation from the accused in the interrogation room.\n\nThat's besides the point, though. The point is that the feelings of the accused should have no impact on suspicion or an investigation. So asking me how I would feel if I was accused of a crime is completely irrelevant to the discussion we were having, and you are just grasping at straws. What makes it even more clear you had no coherent point was when you responded hours later after your initial response, trying to bring up a completely different topic. You're not trying to argue for truth anymore, you're just desperately looking for a way to one up me to feed your ego.",
+                                                                                                                                                                                    "score": 1,
+                                                                                                                                                                                    "replies": [
+                                                                                                                                                                                        {
+                                                                                                                                                                                            "author": "Lenin_Lime",
+                                                                                                                                                                                            "body": ">That's besides the point, though. The point is that the feelings of the accused should have no impact on suspicion or an investigation.\n\nOk from here on our you will be officially known as potentially the biggest rapist on earth.",
+                                                                                                                                                                                            "score": 1,
+                                                                                                                                                                                            "replies": []
+                                                                                                                                                                                        }
+                                                                                                                                                                                    ]
+                                                                                                                                                                                }
+                                                                                                                                                                            ]
+                                                                                                                                                                        },
+                                                                                                                                                                        {
+                                                                                                                                                                            "author": "Lenin_Lime",
+                                                                                                                                                                            "body": "I'd bet you think Elon didn't totally do a Hitler salute too.",
+                                                                                                                                                                            "score": 1,
+                                                                                                                                                                            "replies": []
+                                                                                                                                                                        }
+                                                                                                                                                                    ]
+                                                                                                                                                                }
+                                                                                                                                                            ]
+                                                                                                                                                        }
+                                                                                                                                                    ]
+                                                                                                                                                }
+                                                                                                                                            ]
+                                                                                                                                        }
+                                                                                                                                    ]
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "kapitaali_com",
+                                                    "body": "they are vampires, millions of vampires in the US",
+                                                    "score": 3,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Lenin_Lime",
+                                                            "body": "Ok elon",
+                                                            "score": 0,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "oldsmoBuick67",
+            "body": "I don\u2019t remember there being that anomaly in COBOL personally, but that was a lot of whiskey ago. Had a full year of it over 20 years ago and was in the last class of it ever taught at my college. \n\nIt\u2019s not extraordinarily difficult of a language, just very verbose. I wrote designed and wrote ATM software for a project that had screen outputs even. Each menu item basically called an entirely new program until you drilled down far enough to get to\u2026payroll or inventory lol.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "Mojeaux18",
+            "body": "I pointed this out on a post. It\u2019s unclear to me if they\u2019re being paid or just in the database.  I\u2019m guessing they are paid just by the democrats writing whole articles to obfuscate.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "LiberalAspergers",
+            "body": "I am not familiar with the SS database, but do have experience with databases. I would assume the ALIVE field defaults to TRUE. So if the SSA is never notified someone dies, it would remain at true. \n\nGiven that TIN are issued to all imigrabts with work permits, I would assume that basically everyone who has worked in the US as an expat is listed as alive, as is basically anyone who died before they were old enough to receive SS, as I doubt anyone is informing the SSA of their debts. \n\nThe important question is how many of these people are receiving payments or paying FICA taxes. \n\nA well written query would have included that question",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Secure_One_3885",
+                    "body": "> do have experience with databases. I would assume the ALIVE field defaults to TRUE\n\nI would assume that if someone had experience with databases, they wouldn't create a boolean \"alive\" field.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "LiberalAspergers",
+                            "body": "Boolean fields were common in COBOL databases, which I am told is what the SSA database runs on. A one bit field of 1 or 0 was very efficient in an era when efficiency of storage mattered, and the convention was to display the output as a boolean. But I am notably older than Musk, and I suspect most people on this sub.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "Secure_One_3885",
+                                    "body": "Boolean fields are common in all databases. So are things like \"start dates\" and \"end dates\" to determine state, rather than filling tables with silly booleans. Cobol is not a database technology, it's a programming language. \n\nYour age isn't in question here, it's your experience.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "LiberalAspergers",
+                                            "body": "In the era when COBOL was a commonly used language, storage and memory were very limited. It was not at all uncommon to use boolean fields, especially when porting over from old paper or punchcard data, which SSA was. \n\nMy database experience was from 1979 to 1985, when I changed fields. So, limited, but relevant. \n\nNo one was using start and end dates to determine states on punchcards, way too intensive. So it seems likely that a database that old has a boolean ALIVE field.",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "Secure_One_3885",
+                                                    "body": "> In the era when COBOL was a commonly used language, storage and memory were very limited. It was not at all uncommon to use boolean fields, especially when porting over from old paper or punchcard data, which SSA was. \n\nNot to store object state that can be derived from existing fields.\n\n> My database experience was from 1979 to 1985, when I changed fields. So, limited, but relevant. \n\nCompletely irrelevant to the conversation.\n\n> No one was using start and end dates to determine states on punchcards, way too intensive. So it seems likely that a database that old has a boolean ALIVE field.\n\nThey had a birth date and needed to store the date of death. Do you think they only realized they needed to capture a deceased date *after* they started writing the software? Or do you think they just had a birthdate and a boolean if the person were ALIVE and just guess at when they died? Do you also believe they had something like \"eyeColorBlue?\" set to FALSE and \"eyeColorGreen?\" set to FALSE and \"eyeColorBrown?\" set to TRUE? Or do you think it's more likely they would use a varchar to set \"eyeColor\"? It seems far more likely you're just grasping at straws than having the capability to say \"I made a mistake\".",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "LiberalAspergers",
+                                                            "body": "I think there were likely paper forms that held data like date of birth and date of death, and the early database just returned the location of the paper file, telling you where to find the relevant file by building, room, shelf and drawer. \n\nYou do not seem to grasp the limits of punch card and magnetic tape based databases.",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Secure_One_3885",
+                                                                    "body": "I'm just marveling at your journey from thinking cobol was a database to now claiming it's stored on magnetic tape and *that's* the reason why someone would use a boolean for the state of an object instead of looking for a date of expiry.",
+                                                                    "score": 0,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "d_101",
+            "body": "When I've seen it first I though that Elon could do this mistake. When I saw the exact same argument word by word on another platform I knew it was some kind of psyop",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Smug_Son_Of_A_Bitch",
+            "body": "How could that explain over 390,000,000 recipients of Social Security in the US?",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "denimdan1776",
+            "body": "\u201cAccording to Doge\u201d mean I read a tweet somewhere. Bring out actual numbers with evidence.\nI mean fuck if they have the info put it out there but they don\u2019t they are just cutting shit and making up excuses.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Away_Note",
+            "body": "This was my first thought. They listed multiple people who were older than those born before 1875. How are we supposed to now believe people who have been lying to us 100% of the time for as long as any of us can remember.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ColorMonochrome",
+            "body": "According to the numbers I saw there were over 5 million people in the system which were more than 100 years old.  The U.S. doesn\u2019t have 5 million centenarians, not even remotely close.  It\u2019s pure propaganda.  There\u2019s a reason for the problem and my guess is that the reasons are many:\n\n* Corruption\n* Stupid lazy government leeches\n* Fraud\n\nThe only question is, how much of it is attributable to each.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "mspgs2",
+                    "body": "Even worse, according to the initial reported numbers, every  person per the census under the age of 18 are receiving benefits?",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "SkillGuilty355",
+                    "body": "All three baby!",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Yveskleinsky",
+            "body": "I wonder how the system accounts for spouses or children who get their parents' social security. Do the dates add together? Because if they do, I could see that accounting for a good portion of the 100+.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "SkillGuilty355",
+                    "body": "It\u2019s a good point",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "kvakerok_v2",
+            "body": "COBOL as a language doesn't default to anything when storing date, the SS system would need to have specific programming to default to that.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "jonpress",
+            "body": "I didn't know about this 1875 COBOL bug; it sounds insane when you consider that this language is used mostly in banking systems which require extreme reliability... JavaScript gets a bad wrap for some of its weirdness around certain edge cases but this COBOL bug is actual insanity.\n\n\nMaybe it explains why banks have been reluctant to move off of COBOL. They don't want the bugs to be fixed, maybe this bug is creating money out of nothing.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "girly_girls",
+            "body": "It's amazing how many people are jumping on either side because \"THEY KNOW FOR SURE!\"\n\nBut it's an incomplete set of data and the DOGE kids could be trolling. Either way, time will tell.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ok-Section-7172",
+            "body": "The details aside, it is pretty clear that Musk doesn't understand data and programming fully. I work with stuff like this for a living and there's way more to this story than we are being told.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Alexzander00",
+            "body": "The issue I am more concerned about is Musk\u2019s assertion that there are more people considered eligible for SS benefits than there are US citizens.  What\u2019s that about?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "myadsound",
+            "body": "Its great that you're willing to put on a dunce cap so publicly on this topic",
+            "score": -4,
+            "replies": [
+                {
+                    "author": "SkillGuilty355",
+                    "body": "Help me understand",
+                    "score": 6,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "AllHailTheSnakeLord",
+            "body": "\u201cThey\u201d are NPCs for parroting information they just found out about and using that to justify their worldview. Not like us. We are parroting talking point we just found out about to disprove their worldview. Which is way smarter. Plus we have much stronger feelings and are way more certain than they are. Cause we are smart. They are NPCs.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "s3r3ng",
+            "body": "Having worked on COBOL systems long ago I have seen much more stupid shit that actually was embedded in such systems.   DOGE is not what you think it is.  Think about it.  All the data about everyone and everything in all Agency databases.  In the hands of a major AI developer in cahoots with DB King who things full data and surveillance on everyone is a good idea.  What better way to build the old TIA (Total Information Awareness) system and have everything you need for a full Social Credit System.  All before much of the \"checks and balances\" can do squat.    \nAmong other things it is near total loss of privacy for every person in the country.\n\n  \nSo YUK it up.  You are being had.   Something very EVIL this way comes.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "HairyTough4489",
+            "body": "I guess the US government has never heard of NULL values",
+            "score": -2,
+            "replies": []
+        },
+        {
+            "author": "pcvcolin",
+            "body": "I thought the forms were on paper in a limestone mine? What's true here?",
+            "score": -2,
+            "replies": [
+                {
+                    "author": "Ressulbormik",
+                    "body": "That's retirement papers for federal government employees. Not social security.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

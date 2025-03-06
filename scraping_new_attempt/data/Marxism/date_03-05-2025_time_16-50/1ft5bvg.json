@@ -1,0 +1,361 @@
+{
+    "title": "Why do only humans create value? ",
+    "author": "JonnyBadFox",
+    "subreddit": "Marxism",
+    "rank": 341,
+    "score": 17,
+    "upvote_ratio": 0.61,
+    "num_comments (reported by reddit)": 89,
+    "url": "https://www.reddit.com/r/Marxism/comments/1ft5bvg/why_do_only_humans_create_value/",
+    "id": "1ft5bvg",
+    "selftext": "I'm a Marxist and read a fair amout of Marx and his theory of the capitalist system in Capital Vol. 1-3. \n\nBUT: I still don't get it, why only humans create value according to him. I had a few thoughts about it like that only humans can generate more than they need, because of our ability to work with our intelligence. Or because our calorie intake is so low in comparison to what we can do with our muscles or intelligence. \n\nWhen it comes to machines and why they can't create value I thought about the second theorem of thermodynamics. It basically says that a machine can never produce more energy than what it uses up when in use (perpetuum mobiles are impossible). In the long run machines will always cost more than what they can produce for sale, as kind of analogy of value to energy. \n\n\nThis point is important, because Marx says that the profit rate goes down after capitalists replace workers with machines. This would mean that after the replacement of workers by AI and robots then capitalism would even further go into a general economic crisis with very low growth and low demand because of high unemployment. \n",
+    "comments": [
+        {
+            "author": "AbjectJouissance",
+            "body": "My suggestion is to abandon the idea of energy expenditure, calorie intake, or the second law of thermodynamics, etc. Value not a physiological product or unit, it is the product of a social relation. It works the same way as other social relations work, such as language. That is, there is no \"inherent\" meaning to a word, nor do we collectively decide what words mean. Words are endowed with meaning in sort of indirect way, without anyone actually establishing a fix meaning. Even if words might mean or connote different things to different people, groups, subcultures, etc., there is still a general understanding of what words mean. We do not realise we are doing it, but our day to day partaking in language is the only thing that sustains the meaning of a word, and we all act as if a word has a specific meaning because the assumption is that everyone else believes it has that meaning.\n\n\nValue works in a similar way. There's no physical unit such as energy expenditure which defines value. Value exists only insofar as the social relations that will sustain it continue to exist. No one person decides the value of a commodity, but the general principles of the market, which acts as if of its own accord, despite being constituted by the acts of real people, determines the value.\u00a0\n\n\nOnly humans can create value because it's a human, social relation. Although it's entirely true that animals are part of production process and their energy expenditure can be way higher than humans', we simply act as if they don't count, and therefore when the market values the commodity, the animal labour isn't recognized. This however would change if our social relations changed. So to answer your question in short: value is only created by humans because we *act* as if that's the case, and value is nothing other than a concretised form of our social relations.",
+            "score": 69,
+            "replies": [
+                {
+                    "author": "YavuzCaghanYetimoglu",
+                    "body": "This is exactly what I was writing. All of them stem from the fact that production actually originates from a social relationship process that arises from human needs, and all other tools and equipment are an extension of this.\n\n[Besides this commetn I also recommend this text](https://www.marxists.org/archive/darcy-jim/1974/socecon4machines.htm#:~:text=During%20the%20productive%20process%2C%20the,it%20in%20the%20first%20place.)",
+                    "score": 13,
+                    "replies": [
+                        {
+                            "author": "AnonymousRedditNinja",
+                            "body": "What happens when, or how does any of this change, when AI can replace human labor and produce it's own tools and machines for the production of commodities to satisfy human needs / use values? Does the value created by the human labor to produce such a self-sufficient AI just carry over into the output of that AI? What if it takes human much less labor power to create a copy of that AI? Also, what happens if that AI can create copies of itself and or improve itself? (I guess I'm posing these questions under the assumption that the AI is able to gain access to raw material without human labor.)",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "YavuzCaghanYetimoglu",
+                                    "body": "No machine can replace human labor. \n\nLet's say 100 years ago, 20 people were weaving the shirts a person needed. If today this number drops to 5 workers using machines, it does not mean that the machine produces the labor of 20 workers. Rather, it can only be said that the necessary social production time required to satisfy a need has decreased; in other words, these workers have become more productive with the aid of the machine.\n\nAs you mentioned, even when everything is produced by machines, these machines will have a lifespan and will require regular maintenance. Therefore, even if a shirt is produced by a robot that performs every task, it will only reduce the social production time necessary to meet the demand.\n\nBut let's assume that robots provide their own maintenance and reproduction, as you suggest, and no human is involved in the production process. In that case, the human labor transferred into producing the first robot would determine the social production time needed for production. After that, labor would continue to be transferred until each subsequent robot copy further reduced the required social production time for producing the good. Ultimately, due to the law of diminishing returns, it would be impossible to produce more than a certain number of robots while maintaining efficient production. The labor embodied in the production of the first robot would be transferred to every copy and approach zero as the process continued indefinitely, and the robots would reproduce themselves. Therefore, the value would approach zero indefinitely.\n\nHowever, it should be remembered that in a capitalist economy, the value of a good is not equal to its price. The price is influenced by various factors, such as scarcity or consumer preferences.",
+                                    "score": 10,
+                                    "replies": [
+                                        {
+                                            "author": "AnonymousRedditNinja",
+                                            "body": "Thank you for this response. I believe it's made some things click for me. So in the scenario where socially necessary labor time approaches zero with the self-maintaining self-reproducing robots that produce shirts, it's effectively the same as finding an apple on a tree outside or being on a strange mechanical planet whose natural envirobment produces shirts. The production of the apple or shirt both occur independent of human/sentient social relations. So does nature not create value? Or does it just create natural resources that can be used as is or transformed by human labor? In the case of the former, wouldn't using something as is be a use value?",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "YavuzCaghanYetimoglu",
+                                                    "body": "You're welcome, of course this is just my opinion, there are definitely more satisfactory answers.\n\n>necessary labor time approaches zero\n\nYes,\nlim \nn->\u221e f(\ud835\udc59) = 0\n\nHowever, the value does not disappear because it is not equal to 0 under any circumstances.\n\n>So does nature not create value? Or does it just create natural resources that can be used as is or transformed by human labor?\n\nExactly by definition nature has no economic value unless included in production relations transformed by human labor.\n\n>In the case of the former, wouldn't using something as is be a use value?\n\nYes, if you put something into production relations, it has value. \n\nFor example, you found a piece of stick. If you catch a fish by using this stick as a harpoon, you will have put this stick into production relations as a tool of fixed capital. \n\nThe fish you are holding in your hand is the result of the combination of two different capitals. One is the fixed capital tools you use to catch the fish, namely your stick; the other is the labor put into catching the fish, namely the circulating capital. \n\nAssume that the stick has a lifespan, it will transfer its value to the fish every time you hunt until its broken. Then again, the social production time required to obtain this stick determines the value of this stick.",
+                                                    "score": 5,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "AbjectJouissance",
+                                    "body": "In a hypothetical fully automated society, there would be no value in the same sense that it has today. But a fully automated society would also be incompatible with capitalism, so it would entail completely different social relations and, therefore, no value in the Marxist sense. Basically, once we are talking about an automated society, the entire terrain of discussion changes. We can no longer talk about value in the same way.\n\n\nErnest Mandel discusses this briefly in one of the final chapters of Introduction to Marxist Economics.",
+                                    "score": 7,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "None",
+                                    "body": "If machines were to completely replace human labour, all we are left with is the tranferrable value from the machines. The total value of the machines cashed out on the produce. If we were to generate \"profit\" from here, all we could do is fiddle with pricing. But since no exess value can be created, this fiddling would be direct inflationary",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "ResponsibleRoof7988",
+                                    "body": "Even the most hyped AI cannot replace human labour. All that will happen is that instead of 10,000 workers in a production process, there will be one worker who pushes a button thus starting the AI. The act of pushing the button *is still labour*. At some point, a system as complex as an actual AI will require correction/maintenance when it inevitably stops doing the things humans want it to do. This is not to mention the subsidiary systems required like servers, power sources, raw materials for power sources etc.\n\n\\*edit: when it inevitably starts to deteriorate, breakdown or stop doing the things etc....",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "lola_spring",
+                    "body": "This is a good explanation. Just want to add that it is specifically the \"freedom\" of the labourer in capitalism which allows him to sell his own labour as a commodity on the market which gives rise to the capitalist value form (alongside the freedom of the purchaser of that labour, ofc). Animals and machines cannot sell their labour. They do not take part of the commodity market as \"free\" buyers/sellers, and this is an important point in why they cannot create value. Also for AI.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Ok_Writing2937",
+                    "body": "I mostly agree with everything you\u2019ve said here, but I\u2019ll also add that there are people who made strong arguments that the use of animal labor is also an exploitive at. In fact it may be more exploitative given that animals, like children, lack the capacity for comprehensive consent.",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "IncipitTragoedia",
+                            "body": "The type of exploitation which arises out of the extraction of surplus value is not moral but economic. Animal labor is more akin to machines I suppose, except that machines are stored *dead* labor",
+                            "score": 5,
+                            "replies": []
+                        },
+                        {
+                            "author": "YavuzCaghanYetimoglu",
+                            "body": "Yes, but these are completely ethical issues. However, it is not possible to talk about an animal being exploited as labor. Because animals are not laborer. They are tools in the social production relations established to meet human needs. In short, a cow or a horse driven into a plow is not a farmer's worker, but a living tool he uses to reduce the necessary social production time required for that work, that is, to increase his productivity. Their difference from children is not their cognitive level, but their position within social production relations.",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "Ok_Writing2937",
+                                    "body": "\"Living tools\" is exactly how capital treats *all* labor, though.\n\nThere are branches of Marxism that do consider the social relations of animals. There are many arguments that the normalization of the exploitation of non-human animals is a fundamental basis for the normalization of the exploitation of humans.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "razor6string",
+                                            "body": "I don't think the poster above you is suggesting an animal is unworthy of consideration, just that from a cold analytical perspective they're a tool.\u00a0\n\n\nWe can all agree there are situations where animals are mistreated.\u00a0\n\n\nIf we decided to recognize horses as persons then the analysis would change.",
+                                            "score": 6,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "0ctach0r0n",
+                                            "body": "The point of capital is to service needs, the needs of the living tool, so the living tool is central to the process, however stripped of dignity it is. So the living tool cannot be completely diminished as it cannot be extracted from the process.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "Ok_Writing2937",
+                                                    "body": "The point of capital is to return a profit. All other considerations, including those of service, and human or animal rights, are only valued if they affect profits. \n\nWar, for example, is massively profitable, despite the massive impact it has on \"living tools.\"",
+                                                    "score": 0,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "YavuzCaghanYetimoglu",
+                                            "body": "Indeed, I respect your opinion. I think that we have moral responsibilities towards animals unlike our inanimate tools within the relations of production as conscious beings.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Appropriate_Pop_2157",
+            "body": "value is a purely economic concept in Marx's work, being that which is universal in commodities and can thereby determine exchange value.\n\nHuman labour is the only input that creates value because it is the only input where the value of the commodity (labour-power, or our capacity to work) can be reproduced for less value than it can be sold for. For example, it only takes a half days wage for me to meet my needs, but I produce a full day's wage in value during the working day (this is why Marx refers to the use-value of labour-power as the expenditure of labour, or the creation of value). This remainder I do not receive as a wage is surplus-value, value generated in the circuit of production that does not go to me, the worker, but to capital.\n\nFor machines, these are merely dead labour, and are thereby subject to the laws of competition for price determination, they are no different from a tractor in their ability to create value because they will be sold at an exchange value equal to their value (i.e., the amount of social labour it takes to produce them). Dead labour (constant capital when used in production) can never generate surplus value \n\nHe sketches this out more in depth in chapter 4-6 of volume 1, and the stuff on relative/absolute surplus value is a little later in the same text.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Narcissus_Child",
+            "body": "Marx never said this and even said the opposite. Take a look at the critique of the gota program, where he critics this view. [https://www.marxists.org/archive/marx/works/1875/gotha/ch01.htm](https://www.marxists.org/archive/marx/works/1875/gotha/ch01.htm)",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Comprehensive_Lead41",
+            "body": "Because society is made of humans and value is a regulator of social production. If we traded with animals/machines it would be different, but because the exertion of an animal/machine is of no consequence to humans, it does not regulate production.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Ognandi",
+            "body": "Value is a social relation. Society is a human construct. Additionally, machines don't create value, but they transfer the value they contain when used in the process of production. But this is because of the way that society relates to the function of these machines.\n\nThe deeper point is that value is something which alienates society from itself, and would eventually be overcome in a sort of production where people engage in production understanding its social character from the start (therefore not needing a mediating value relation to facilitate it).",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Sourkarate",
+            "body": "There is no surplus value to expropriate from machines. It doesn't generate surplus *value* in the Marxist sense, because it does not labor to maintain itself and then generate additional value which is then taken. \n\nIn a sense, everything it produces is already taken.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Every-Nebula6882",
+            "body": "Machines cannot create value on their own. Human input is always required. Every machine needs a human to either operate it, maintain it, design it and/or manufacture it. Machine increase the value of human labor. For example heavy farming equipment meant that 1 farm worker could suddenly do the work of dozens of farm workers. The machine increased the value of the human labor but human input was still required. \n\nThere might come a point where AI can is designing, maintaining, operating, and manufacturing machines (including itself) all on its own. This would remove all human input from the equation. I don\u2019t think Karl Marx could imagine that future over 150 years ago, so some principles of Marxism might not hold true once human labor can be completely removed from commodities markets. That future might not even be possible. It might not be possible to make an AI that is completely self sufficient and does not need any human input. In that case AI is just a machine which makes the value of human labor (AI scientist labor) more valuable. The AI still requires human input. It could take the work which used to be done by billions and make it doable by a handful of computer scientists. Even in that scenario there is still human input.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Public_Utility_Salt",
+            "body": "Here's my humble take:\n\nShort answer is that, only humans create value because value is what humans create.\n\nThe point of this short tautology is to direct your attention to the somewhat complicated web of concepts that Marx weaves. I'll try to weave this web in my own way, but it's not going to be exactly what Marx says:\n\nMachines are made by humans, so what ever is produced by the machines, are produced by the people who worked on the machine. This is not, however, the point of why value is bound to humanity. Bees (as some suggest), cannot create value. The reason value is, as a concept, tied to being a human, is because only that which is valued by someone else can have value. And no, I'm not misunderstanding Marx here, I'm not saying the subject preferences endows the value, merely, as Marx says, without such endowment, there cannot be anything like value. In other words, it is a relationship. In this limited sphere we are here talking about, it is a relationship between work, in the form of the amount of time used to produce something, and someone wanting it.\n\nThere is much more to this, but I'll limit myself to this, for now. The point being: the reason only humans can produce value is because value is a relationship between the one producing, and the one consuming (buying). And those things only exist between humans.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Ugly-titties",
+            "body": "Basically you can have enough raw materials in a pile to make, say, a phone. However the raw materials need human labour to assemble the phone, so without human labour the raw materials are useless.\n\nSame can be said about copper that is in the earth. Without labour to mine and refine the copper the coppers use-value (qualities that make the copper useful like conduction etc.) can\u2019t be realized without human labour.\n\nIf you want to think about it in terms of chemistry, non-spontaneous reactions require energy (human labour in our case) to be inputted into the equation to get the desired reaction (extraction of the objects use values).\n\nI hope this helped, if you want to do more reading it\u2019s explained in the first few pages of chapter 1: the commodity in Marx\u2019s capital volume 1.\n\nEdit: as for robots n shit they need to be attended to by humans so until they are fully sentient like humans I would say they are means of production.\n\nFor the increasing unemployment rate all that means is that the capitalists have a larger reserve army of labour that they can (and need) to choose what to do with them, so new industries or a transfer of workers into already existing industries.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "I guess you could give a screwdriver a paycheck. Or you could give a cow a paycheck.\n\n\nNot sure what the screwdriver is gonna do with a paycheck, but I'm guessing nothing. Cow might eat it, at least.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Aurelian23",
+            "body": "Because we are humans.\n\nMarxism is nothing if not utilitarian in its reading of history. Until a creature other than humans can put labor into creating commodities, only humans can create value from time spent in labor.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "None",
+                    "body": "Cattle, horses and dogs been putting labour into creating commodities for thousands of years.\n\nSurely the real answer is that humans are the only beings around that have the faculties to appreciate this, not because we're the only things that do this.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "None",
+                            "body": "Cattle requires human labor. You can't just take an ox and say to him \"plow the field\" and watch him doing that from the side. Human use animal's power to augment the human's labor.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "Aurelian23",
+                            "body": "Cattle, horses, and dogs cannot value the things they put labor into. They do not understand the concept of labor nor commodities nor production.\n\nThis is a silly conversation, comrade.",
+                            "score": -5,
+                            "replies": [
+                                {
+                                    "author": "Mablak",
+                                    "body": "Chickens put labor into creating eggs, and they clearly value their eggs in many cases. They can become broody and protective over their eggs (although selective breeding has also bred this instinct out of many chickens).",
+                                    "score": 0,
+                                    "replies": [
+                                        {
+                                            "author": "Mediocre-Method782",
+                                            "body": "That is the subjective theory of value, which calls forth just the sorts of sentiment and mystification that the Marxist critique of political economy rejects. Surely there must be a less perverse way of recognizing animal subjectivity than to play into the the neoliberal reflex of projecting economic relations and petit-bourgeois agency onto every discernible thing.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Mablak",
+                                                    "body": "Are animals exploited under capitalism or not? Seems obvious they are. If they are exploited, then something is being exploited from them.\n\nJust as the slave owner captures all the surplus value generated by the slave's labor, so too do farmers capture all the surplus value generated by chickens who are forced to suffer brutally and die by the billions as they produce eggs. It's not necessary for chickens to think in language: 'damn my labor is being exploited' for this to be the case. There are humans who might not be able to think this, and yet they're still being exploited.",
+                                                    "score": 0,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ThuBioNerd",
+            "body": "Because value is a social construct, defined as the amount of socially necessary labor time embodied in a use value.\n\nAnimals and machines don't create value, because our society does not operate on a basis under which they are supposed to create value. Even if people don't \"believe in\" the LTV, capitalist society still operates on its principles, just as it (very loose analogy incoming) operates on the principles of racism even if you claim there's no racism anymore. But to claim that machines produce value is like claiming that mice are racist - it's just not how society works.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Maximum_Poet_8661",
+                    "body": "I\u2019ll start by saying I\u2019m not Marxist so I don\u2019t know all the nuances. But nothing in your definition of \u201cvalue\u201d excludes animals. what is the addendum to that definition of \u201csocially necessary labor time\u201d that would 1) include a human pulling a wagon but 2) exclude a horse pulling the exact same wagon?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "ThuBioNerd",
+                            "body": "Because the laws of capitalist accumulation and economy simply don't count those as values. If we called it value, it wouldn't reflect the world accurately, no matter how much it might make us feel ecologically conscious.\n\nAnimal labor, like slave labor, is extracted \"gratis\" - that is, unpaid for beyond the initial outlay of funds to procure the laboring body, just like a machine.\n\nMachines, animals, slaves are all paid for in full upfront; any value they impart is simply a transference of the labor embodied in them when they were purchased, or reinvigorated in them through upkeep. This is markedly different from the way \"free\" laborers impart value.\n\nThis is not to say that slaves and animals don't produce use values in excess of the cost of their upkeep - on the contrary, both are often worked to death - but this is does not become value - a social thing that can only be realized in exchange - on the market, and the beast-farmer relationship is not a market. Then, and only then, does the product acquire *exchange* value. Eben then, however, the amount is greater than, say, the product of a non-enslaved worker or better-treated beast only by comparison. Use value =/= (exchange) value.\n\nIt is like how the serf who produces food for their lord directly doesn't produce a commodity (a value on a market), because there *is* no market.\n\nYou can also check out the idea of a \"pseudo-commodity,\" which is big in eco-marxism - things that seem like commodities because they have exchange value (price), but are not because they lack value. This includes rent.\n\nP.S. the definition of socially necessary labor time, as given in Capital, does exclude animals, for the reasons given above.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Narrow-Reaction-8298",
+            "body": "As others have said, its an entirely social distinction. It (arbitrary division between man and nature, classification of some people as nature) lies at the basis of the value form. Imo, the section of Capital where Marx discusses \"differences\" between human and nonhuman labour is complete bullshit verging on metaphysical idealism",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "505backup_1",
+            "body": "Because that's not true. Marx specifically addresses this in the critique of the gotha program by showing that nature also produces use-values and is the starting place of all use-values",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "loserboy42069",
+            "body": "animals create value and are commodified, exploited, sold for profit. idk if marx ever got into that but theres a bunch of animal rights literature out there that go off the framework established by marx. rather than marx\u2019s work (or any theory book) being the bible with all the facts, you can think of it as a book of frameworks that you can apply to other situations.\n\nif you think about commodification, its almost like turning a living being into an \u201cengine\u201d of sorts. under capitalism, cows become an engine for producing milk and beef. likewise, machines are an \u201cengine\u201d for human labor. conveyor belts and factories make human labor go faster. what happens when those engines overtake the human labor and can remove humans from the production line? then that is the full commodification of human labor, that machine is the fully commodified version of human labor. it is the labor without the human. \n\nAI is still just the embodied commodification of human labor, it requires human input to learn. the controversy of AI art is that it consumes and reproduces authentic art made by humans. so the value of AI similarly depends on human intervention. \n\nSO, Human intervention is needed to produce value. a cow in the wild does not produce bottled, FDA-approved milk ready for mass consumption. a machine in the wild is just a hunk of metal. AI without human intervention is just a blank canvas, a mass of code. \n\nidk what the hell ur saying about thermodynamics and calorie intake but to answer your question, only humans create value because value is a man-made concept and human intervention is needed for these machines / \u201cengines\u201d to produce value.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Steampunk_Willy",
+            "body": "Marx didn't argue that value only comes from labor (otherwise known as the labor theory of value), but that (socially necessary) labor is the primary determinant of value. His point about profit margins diminishing as you replace human labor with machine labor is basically his theory of the law of diminishing marginal utility. In other words, he's attempting to explain why mass production schemes result in lower prices and reduced profit margins over time despite apparently cheaper costs of production. Marx argues that machine production is much more easily replicated than human labor, and markets approach a state of \"perfect competition\" (where the best a producer can do is break even) the more similar producers' products are. Human labor is much more variable in quality because human talents and skills tend to be much more unique, and markets are less competitive when certain producers disproportionately possess higher quality labor and, therefore, produce higher quality products. The less competitive a market is, the less incentive a producer has to pay labor what they're worth. Thus, the producer's profit margin is derived from the surplus value of human labor.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "InternationalFig400",
+            "body": "Value, briefly defined, is simply \"units in which social labour is measured\". It is under capitalism that human labour power is commodified, for the first time in recorded history. This has implications for the productive process, and the concept of exploitation. Labour's daily costs must be incorporated or \"buried\" into each product created every day. Consequently, exploitation is premised upon a working day being split in two different parts: that part of the day dedicated to creating value equal in product to those specific costs (relative surplus value), and the balance of the work day producing value for \"free\" (absolute surplus value). \n\nAs capitalism is premised on competition, there is the goal of maximizing market share through cheapening the cost of production, and a utilizes labour displacing technology to achieve cost savings at the level of relative surplus value. However, this is contradictory.\n\n\"In order to produce surplus value it is necessary to have working workers, and this being the case, the fraction of the workday in which the worker reproduces \\[their\\] own wage cannot fall to [zero.It](http://zero.It) can be reduced from 8 hours to 7 hours to 7, from 7 hours to 6 \\[etc., etc.\\] from 1 hour to 50 minutes. It would already be a fantastic productivity which would permit the worker to produce the counter-value of \\[their\\] entire wage in 50 minutes. But \\[they\\] could never reproduce the counter-value of \\[their\\] entire wage in zero minutes and zero seconds. There is a residual which capitalist exploitation can never suppress.\"  Ernest Mandel, \"Introduction to Marxist Economic Theory\", pp. 50.\n\nTHAT is why only humans can create value.\n\nThis has important implications for the law of the falling rate of profit, as well as the transition to a socialist economy if we examine Hegel's concept of \"the other\":\n\n\"To understand the nature of the being \\[in this case, a commodity\\] which we have in any particular instance, we must know, not only in a general way what kind of being it is, but we have to know definitely at just what point a variation in its quality will subject it to a complete transformation into some other kind of being altogether. It is impossible to conceive of a limit which would be the boundary of only one thing, for while it bounds one, it separates at the same time from something else. Therefore, every determinate being necessarily implies that something lies beyond its limit; this something Hegel calls its *other* \\[...\\] The other is that which not only lies outside the sphere of some definite being, but at the same time it must lie within the boundaries of some common system to which both may be referred. For instance, a true example of another in the Hegelian sense, would be that of the ellipse, which is naturally related to the circle as its other.\" John Hibben, \"Hegel's Logic:  An Essay In Interpretation\", 95-96, italics original.\n\nHope this helps.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Raginbakin",
+            "body": "doesn\u2019t Marx say in the Critique of the Gotha Program that Nature is also a creator of use-values? \nI suppose you mean Value in general, as a commodified combination of use-value and exchange-value?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ronalpinhos",
+            "body": "Hmm, I feel this is more a philosophical concept than anything else.\n\nBees definetely create value with their work, if they were to be given \"human\" or \"sentinent being\" rights same rules apply I guess.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "cylongothic",
+                    "body": "Not strictly true, because bees are not part of the social relation in which value is realized. Bees do not produce honey to be brought to market and sold - the very act of producing honey is one of the several activities bees undertake to exist. Human labor purloins the honey from the bees for human benefit. If humans stopped beekeeping tomorrow, there would be ecological consequences for the bees (and beeyond), but not because the bees are suddenly unemployed and not being paid a wage necessary to reproduce their labor. In evaluating honey, we are only concerned with the labor of the beekeeper. The labor of the bees is supposed to be a natural process like the formation of gemstones in the earth. We may feel uncomfortable talking about it in this way, but bees are the same as any other material investment within capitalism. They are machines which pollinate plants and produce honey, at least insofar as \"The Economy\" is concerned. \n\nThe concept of value arises from the subordination of use-value to exchange-value. [This article](https://critisticuffs.org/texts/david-harvey), linked to me in another thread just this morning, I think gives an excellent explanation.",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "silverking12345",
+                    "body": "Yeah, the conversation doesn't really matter unless one considers the ethical question of whether animals should be included as conscious actors\n\nIn extent, it also raises the question of whether humans are obligated to treat animals within a moral framework in a way similar to humans?",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "ResponsibleRoof7988",
+                    "body": "Bees only create value (presumably here honey) if and when a human intervenes to collect that honey. *The collection is what creates the value.* The bees are simply following an instinctive process of their own life cycle.\n\nUntil there is human intervention the 'product' of the bees does not even have use value, much less any other type of value.",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Plenty-Climate2272",
+            "body": "Machines improve productivity only up to a certain point, after which it plateaus. Even if profits increase, the *rate* of that increase will drop once productivity reaches that plateau.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Teawhymarcsiamwill",
+            "body": "I think it's because it's in the context of a human socioeconomic trading system and referencing items that are made to be valuable to humans.\n\nI see what you are saying though.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TheBigRedDub",
+            "body": "You're over thinking it.\n\nIn order to produce something of value you need the factors of production, those being raw materials, tools, and labour. Tools have value but a person had to make that tool using raw materials, tools and labour. And the tools they used to make those tools had to be made using raw materials, tools and labour. Follow the chain back far enough and you eventually get simple prehistoric tools made by hand, i.e. just raw materials and labour. So any value created by a tool is ultimately created by hundreds of generations of labour.\n\nThen for raw materials, what value does a chunk of Iron ore sitting in the ground have? Basically none. In order for it to become valuable, it needs to be dug out of the ground and smelted into an ingot of Iron or steel. That is also value created by labour.\n\nAlso because I'm nitpicky, conservation of energy is the 1st law of thermodynamics. The 2nd law is that enclosed systems tend towards thermal equilibrium.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "GeologistOld1265",
+            "body": "A big part of confusion come from mixing up 3 different meaning of Value.\n\nThere is Value to society. How much it cost to society in order to produce something. That what Marx mean under \"Value\" most of the time. Then there is exchange value, that what pro Capitalism economists mean under \"Value\" most of the time, because that they interested in. And finally there is use value. How much consumer benefit from commodity. This three meaning of value are in depended from each other, except in rare cases.\n\nLets demonstrate that.\n\nImagine a futuristic society where everything produced by self replicating robots. What Value what they produce have? Zero, as no human labor involve, there is no cost to society. Do they produce use value? not really, they produce potential, I will explain later. What exchange value (again, a different variable, as exchange value exist only in market economy) that has? Again Zero, as you can have anything you want at all time.\n\nIn a way, we have such machine, Nature. It produce air with out which we can not live. It use value is infinite, it Value is zero - no human labor used. It exchange value is zero, again, in normal condition it is abundant and available at any time.\n\n[https://www.marxists.org/archive/marx/works/1857/grundrisse/](https://www.marxists.org/archive/marx/works/1857/grundrisse/)\n\n\"Production is consumption, Consumption is production\" - dialectical nature of production. What we can take from this? No value created with out consumption. If no one use air - no use value is created. If no one use commodity - no production value is created. It is pointless to produce something which no one use. Same true about exchange value.\n\nBut how we should understand value of an art? What I will discuss does not apply only to art, but it is just much more clear in case of an art.\n\nWe establish that with out consumption there is no value. But does value depends on consumption? Yes.\n\nLets introduce labor of consumption. Consumption is not free. Some one need to spend time and often his mind, his imagination, his mental abilities in order to extract value.\n\nIf you read scientific book, use value you extracted from it depends on how much time you spend, how well you prepared to understand and your imagination, looking how you can use this information, potentially. Same apply to art, Art effect as because we relate it to as, We do emotional labor trying to understand art. And when we do, quality of art effect how much it effect as, how much use value we get from it.\n\nAn other example, a well prepared dinner. If you have time to sit down in a nice place and enjoy your dinner - you will get much more use value, You are not only get better physical enjoyment, but your body will process food better. On other hand you can stuff this food why jingling children or try to finish work. You still will get something, but much less. Consumption is not free, it cost is labor of consumption. Why do you think your mother wanted you to sit at table and enjoy food she prepare, socialize with your family? She wanted for you to extract max value from her food, from your time with family and get value form you. She loved to see you enjoy her cooking, talk to her. In a way she consumed a family dinner she prepared. That is not a market value, but it is use value of her labor for her.\n\nEvery moment of life has value. When you stop to enjoy a view, listen to birds songs you perform a labor of consumption, which actually create value, not nature. Not self replicating machine. Nature, self replicating machine create a potential, not realized value, but your labor is necessary for value to be created, realized. So, at the end of the day, there no use value with out human labor.\n\nIn Capital Max did try to unite production value with exchange value. It does not actually work. Exchange value come from markets, which is a human construct. But there are some limitations on independence of exchange value and production value. For example, if Labor not paid enough to eat, then you hit bottom line from labor side. Same true about exchange value of commodity. If it fall below \"bottom line\", not profitable to produce, then you hit bottom line from commodity side.\n\nSo, then if society does not produce much excess, then exchange value will stay close to production value. That what Marx observed. But if Society produce big excess, then Social construct of market play bigger role. Example, effect of monopolies, patents, trademarks, exchange values of currencies, et, imposed by all means , including military. Ideal market Market Capitalists imagine can not exist, as actors do not have equal power.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "NilsvonDomarus",
+            "body": "So if you take a look where the value Codes from you could also see it as their payment. Human need payment to sustain their Life. \n\nAnimals and maschine don't need something equal. Wikd animals sustain them. Domesticated animals create value, but it works differently. \n\nSo if you look at a very early stage of profit making. You would have a Smith. He sells nails, you buy those nails, to build a fence. So the price for the nails includes the cost of living from the Smith but also includes the cost for the iron ore the Smith had to pay to the mine worker. So this iron ore is basically free. Nobody has to buy anything it's just there. You only need to invest human time to reach it, and this time or the cost of living for this time is basically the price of the iron ore. So if you pay for the nail, you also pay for the mineworker. \n\nBut this is all without any capitalist. \n\n>This would mean that after the replacement of workers by AI and robots then capitalism would even further go into a general economic crisis with very low growth and low demand because of high unemployment. \n\nSo the growth can't grow anymore because everything or almost everything is capitalist by now. So there is no new demand coming from anywhere it's just shifting from one source to another source. Also, because the people don't have more money, then before. \n\nThe unemployment rate will not generally rise. Because it could be that unemployed people. Will find work if there are new cooperations looking for highly skilled workers. Also, this process is very slow, so it won't happen simultaneously in every company. \n\nIf you get high unemployment rates, this will crash the economy because the people won't have money to spend, so nobody will buy stuff, which leads to more unemployment, and then it goes on. Capitalism will then kill itself in the one way or another.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "adjective_noun_umber",
+            "body": "Its not the capitalists job to be anything other than competitive in its pricing and revenue. To extract the the greatest profit possible. This ranges from selling and aquiring debt, market share manipulation, to simple retail.\n\n\nSince investment capital runs everything at current. The state can only manage this crises capitalism in the immediate.\n\n\nAs a marxist, I agree with the idea that Therefore the state becomes a result of capital. Not the other way around.\n\n\nYour example is a perfect example of this.\n\n\nLook at the cost of ai, at current you need someone to prgram and maintain ai, you need someone to QA that tech etc. All of which takes 3-4 employees.\n\n\nWhat you dont see, in 2024, is the vast degree of an army of class conscious proletariates that we after the industrial revolution in the west.\u00a0\n\n\nEspecially when you couple this with low pay and overhead in the global south that produces these commodities.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "makhnovite",
+            "body": "Creating value requires social organisation, language and rules, the only other social animals on par with humans are insects and clearly they lack the biological complexity to establish social relations like value.",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "Ill-Software8713",
+            "body": "A favorite intuition of mine is this:\n\nImagine a kind of automated production where it\u2019s all machines. So we get a bunch of use-values out of factory entirely operated by machines. Who is getting paid? They would just be acquired and used. They don\u2019t struggle to be recognized for a greater wage. Such objects would be practically be free because they are so readily produced.\n\nTo emphasize the social relation of value.\nhttps://kapitalism101.wordpress.com/tag/money/\n\u201cWith each successive revolution in robotics more and more types of activity are removed from the list of \u201cexclusive human activities\u201d, leaving less and less options for those who want to point to an essential aspect of human labor that differentiates it from machines.  In the above passage Marx brings out probably the most essential difference between human labor and the work of machines: that the worker imagines the product and process before she commences production. However, in this age of rapid advances in computing and artificial intelligence I believe it is dangerous to hinge our argument on an aspect of human work that is directly under attack by the artificial intelligence industry. I think it is much more fruitful to find a unique property of human labor that holds even if robots one day can do every task that humans can do.\n\nCaffentzis makes, in my opinion, the only possible argument: \u201cif labor is to create value while machines do not, then labor\u2019s value creating capacities must lie in its negative capability, its capacity to refuse to be labor.\u201d [\u201cWhy Machines Cannot Create Value\u201d Caffentzis 1997 in \u201cCutting Edge\u201d ed. Jim Davis] In other words, what makes humans different than machines is that humans can refuse to work. This makes human labor a social relation. Humans must be coerced/convinced to do work. They do not operate like machines that can be just turned on and off. This distinction brings out the coercive side of value relations. Feudal society had knights and the Catholic Church to make the serfs work the land. Capitalism has value relations which are their own form of coercion.\n\nOf course if robots ever evolved to the point in which they could refuse to work then their work would also become a social relation and thus would be value creating. Of course, if this ever happens we might have more important problems on our hands\u2026\u201d",
+            "score": -1,
+            "replies": []
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "title": "Question and Thought Experiment about the Labor Theory of Value",
+    "author": "ScalesGhost",
+    "subreddit": "Marxism",
+    "rank": 220,
+    "score": 4,
+    "upvote_ratio": 0.67,
+    "num_comments (reported by reddit)": 18,
+    "url": "https://www.reddit.com/r/Marxism/comments/1hgdwuc/question_and_thought_experiment_about_the_labor/",
+    "id": "1hgdwuc",
+    "selftext": "note: I am not talking about use-value, or exchange value, or price, etc. but specifically about \"Value\" that Marx says, finds its origin in \"socially necessary labor time\"\n\n\n\nI'm reading Capital right now, and I have been thinking about the Labor Theory of Value that Marx uses, specifically, about whether the Value in a commoditiy can change, and whether 2 identical commodities (e.g. 2 chairs) can have drastically different values. \n\nI've come up with the following thought experiment: Marx says that the Value of a commodity depends on the \"socially necessary labor time\" needed to produce it. \n\nLet's say I'm examining the Value of a CPU. Let's presuppose that you need a really advanced and extensive factory to produce that CPU. Let's also say, for simplicities sake, that there's only a single CPU factory on earth, which pumps out thousands of CPUs a day. Now, it still takes a lot of combined labor time to produce a single CPU, but its not \\*that\\* much for each additional CPU, once you've set everything up. \n\nLet's now say I drop a nuclear bomb on that factory. \n\nShortly after dropping the nuclear bomb, I realize that I need a new CPU. So I buy a shit-ton of materials, hire a huge amount of workers, rebuild the factory, and manufacture 1 (one) CPU.\n\nQuestion: The Value of that first CPU I manufacture, does it include not only the \"normal\" socially necessary labor time, e.g. the Value CPUs had before I dropped that nuke on the factory, but also the labor time that was spent in rebuilding the factory? Also, as soon as I drop the nuclear bomb on the factory, does the Value of already existing CPUs go up, since it would at that point take a lot more labor time to produce another one?",
+    "comments": [
+        {
+            "author": "None",
+            "body": "\u201cInstruments of production properly so-called, such as tools, machinery, buildings, serve again and again for longer or shorter period during repeated processes of production. If they were used up at once, like the raw material, their whole value would at once be transferred to the commodities they assist in producing. But as a spindle, for example, is but gradually used up, an average calculation is made, based upon the average time it lasts, and its average waste or wear and tear during a certain period, say a day. In this way we calculate how much of the value of the spindle is transferred to the yarn daily spin, and how much, therefore, of the total amount of labour realized in a pound of yarn, for example, is due to the quantity of labour previously realized in the spindle.\u201d\n\n- Value, Price, and Profit (Marx)",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "ScalesGhost",
+                    "body": "This is a quote that deals exclusively with value transfer from constant capital, i.e. not labor. I was asking about the variable capital (labor), and specifically whether if the means of production to do not exist, i.e. the necessary labor time to produce a specific commodity includes the time needed to first create the tools, that increases the Value of the finished commodity. Can you elaborate on your answer?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "studio_bob",
+                            "body": "You are mixing up variable and constant capital, which is making your question a little confusing, but here are a few points:\n\n* the necessary labor time to produce the means of production (constant capital) is passed onto the final product through the production process, so it is not correct to say that it \"increases the value\" of the commidity. Only labor can do that.\n* yes, the value embodied in the means of production (i.e. the necessary labor time required to produce them) is contained in the final product as it is passed on but *only in part*\n\nsince your machinery is built to produce not just one CPU, but hundreds or thousands, the capital costs of constructing the factory are not contained in or recouped by the sale of the first CPU. those will be recouped overtime through the aliquot part of the machinery's value that gets passed on to each chip your factory produces",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "None",
+                            "body": "I guess I\u2019m not sure if I fully grasp your question. You\u2019re asking if the building/setup costs of building a second factory and the labor they represent will increase the price of the chips from the second factory relative to the chips from the first?\n\nIf that\u2019s the case, then I suppose it would increase the average cost of the CPUs since the capitalist would need to recoup on what they lost in the bombing of the first factory. The amount of the increase would depend on the average of the extra materials/tools and added labor costs. The amount of cost the added labor would add to the commodity would depend on the rate of profit, I think. So it wouldn\u2019t necessarily be a doubling in price.\n\n\nI could be wrong, someone can feel free to correct me.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "ScalesGhost",
+                                    "body": "\"You\u2019re asking if the building/setup costs of building a second factory and the labor they represent will increase the price of the chips from the second factory relative to the chips from the first?\"\n\nno, I am not asking about price. I am asking about Value, which Marx says in the first chapter of Capital is determined by socially necessary labor time.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "None",
+                                            "body": "Ah, my mistake. Value would be the same as before then, I\u2019d think. In practice, price would go up to compensate for the loss. But rebuilding the same factory would require the same socially necessary labor time as before.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Reasonable-Towel-414",
+            "body": "Hey, the value theory only applies if industrial produced commodities are traded under free market competition. So this theory doesnt really apply to such out of reality thought experiments.\n\nIts a liitle bit like the water/diamond thought experiment. Whats the value of a diamond if youre in a desert and dying of thirst, and whats the value of water in the same situation? would you trade the diamond for water? And is the labor put into those things relevant in this situation?\n\nIf there are suddenly no new CPUs, the price of the existing CPUs would skyrocke. And nobody would create a factory to produce a single CPU. They would create a factory to produce many CPUs..\n\nAt the point when cpus are again industrially produced under market competition the theoy of value would start to determine the value of the commodity.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "SoftBeing_",
+            "body": "Once you destroyed the only factory that produces CPU, and rebuild a different one (less eficient or whatever), the socially necessary time will count the time to produce CPUs with the newer factory. And even CPUs that were produced by the older factory are now accounted with the newer price that is the time to produce CPUs in the new factory (probrably a lot higher, as it is less efficient).\n\nAll prices account for the time spent in the building of the factory they are built in. Even in the older fabric a small portion of the price of each CPU would be for the depreciation of machines, the building, etc. In the new Factory that would still be the case.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "Marx\u2019s labor theory of value is based on socially necessary labor time\u2014the average time it takes to produce a commodity under normal conditions, with standard tools, skills, and productivity. What counts as \"socially necessary\" is socially determined: it reflects the average across society at a given time, not any one producer's effort. If a single factory takes longer because it\u2019s inefficient or, in your example, has to be rebuilt, that extra labor doesn\u2019t add to the value of the commodity.\n\nIn your example, the time and effort spent reconstructing the factory wouldn\u2019t raise the value of the CPU; value is still determined by how long it *normally* takes to produce one in an already-functioning factory. At the same time, the destruction of the factory would create scarcity, which would cause the exchange value (price) of existing CPUs to skyrocket. But this isn\u2019t because their intrinsic value has changed\u2014it\u2019s a market-driven reaction to limited supply.\n\nIn short, Marx would say that exceptional labor inefficiencies don\u2019t determine value, while market scarcity reflects itself in exchange value, not the value of the commodity itself. Your scenario underscores a tension in Marx\u2019s theory between the abstract concept of value, which ignores temporary disruptions and inefficiencies, and the practical realities of scarcity and market dynamics, where price can deviate sharply from value.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "ScalesGhost",
+                    "body": "\"In your example, the time and effort spent reconstructing the factory wouldn\u2019t raise the value of the CPU; value is still determined by how long it\u00a0*normally*\u00a0takes to produce one in an already-functioning factory.\"\n\nwith respect, what does \"normal\" mean here? How do you determine whether a circumstance is normal or not? I understand that the conditions immediately after the nuclear impact are \"abnomal\" in a colloquial sense, but what if I, for example, wait 20 years before rebuilding the factory? Would that just be a 20 year period of \"abnormality\", and what would happen to the value of already existing CPUs during those 20 years?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "studio_bob",
+                            "body": "> How do you determine whether a circumstance is normal or not?\n\n\"We\" don't make such a determination. What's \"normal\" here is not a subjective judgement. It's a material fact of the current state of development of the productive forces. What is \"normal,\" in this sense, will be realized in the real functioning of the economy.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "ScalesGhost",
+                                    "body": "Ok then, how do you objectively determine that, after the nuke is dropped on the factory, that this, a world without the CPU factory, is not the new \"normal\" circumstance?",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "studio_bob",
+                                            "body": "I'm not sure what you're asking. how do you objectively determine what? in a world without a CPU factory there is no real amount of necessary labor power which produces CPUs so the rules of commodity production, which is what Marx is discussing, no longer apply",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Reasonable-Towel-414",
+                            "body": "\"what does \"normal\" mean here?\"\n\nThats one problem with your thought experiment. You inventend a situation, which isnt \"normal\" in the sense, that it isnt plausibly possible, that such a case could in reality happen in our market economy. \n\nValue is primarly a social relation and not a material one, you cant find any atoms of \"labor value\" in a commodity, so on the market a commodity of a certain quality is indistighisuable from any other commodity of the same quality, doesnt matter how much labor was put into it to get to the result.\n\nIn your thought experiment you also say that you want one cpu. Value only comes into existence when you trade with another person, a social exchange. if you build the one cpu for you the cost for the cpu is simply evertyhing you have to pay to get it.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "ScalesGhost",
+                                    "body": "\"Thats one problem with your thought experiment. You inventend a situation, which isnt \"normal\" in the sense, that it isnt plausibly possible, that such a case could in reality happen in our market economy.\"\n\nsomething like this could plausibly happen, not with CPUs, but there are for example very specialized machine parts that are only created in a few factories.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Reasonable-Towel-414",
+                                            "body": "yes, but if a special machine part is only manufactured by very few producers and there is very few demand, theres no commodity massproduced under market competition anymore and therefore the value theory isnt that precise anymore. to get a good average value/price you need enough transactions under market competition",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "comradekeyboard123",
+            "body": "The \"normal\" socially necessary labor time (SNLT) needed to make a CPU (ie the SNLT neede to make a CPU before the nuke is dropped) already includes a portion of the socially necessary labor time needed to build the factory.\n\nFor example, if it takes 1000 hours to build the factory, and if it takes 5 hours to make a CPU, and the factory will break down and become unusable after it has been used to make 200 CPUs, then the SNLT needed to make a CPU is:\n\nSNLT(CPU) = (SNLT(Factory) / 200) + 5 = (1000 / 200) + 5 = 5 + 5 = 10\n\nAssuming that the same factory will be rebuilt after the nuke is dropped (meaning the SNLT needed to build the new factory will be the same as that of the old factory), then the SNLT needed to build the first CPU after the nuke is dropped will be the same as that of every CPU before the nuke is dropped.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "C_Plot",
+            "body": "> Let\u2019s now say I drop a nuclear bomb on [the only] single CPU factory on earth\u2026?\n\nXi Jinping, is that you?  You don\u2019t have to do that. China can match Taiwan without such drastic measures.",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}

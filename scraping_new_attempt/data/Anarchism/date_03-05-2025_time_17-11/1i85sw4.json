@@ -1,0 +1,98 @@
+{
+    "title": "Learning FOSS Tools is Really Relevant Now",
+    "author": "DemonicsGamingDomain",
+    "subreddit": "Anarchism",
+    "rank": 485,
+    "score": 96,
+    "upvote_ratio": 0.98,
+    "num_comments (reported by reddit)": 13,
+    "url": "https://www.reddit.com/r/Anarchism/comments/1i85sw4/learning_foss_tools_is_really_relevant_now/",
+    "id": "1i85sw4",
+    "selftext": "FOSS? Free-Open-Source-Software, for instance instead of any number of services that are password managers, KeepassXC is 100% private and can even store attachments with OTP and passkeys.  \nHas android with local/cloud support for your vault and works flawlessly - see \"KeePassXD\" for andoid, no ads 100% private.\n\nWho know how fast data could shift hands.\n\nAs someone that's house-bound I can't really do much so I've been trying to teach myself tools and learn as much as I can as quick as I can - so that I might help in a different way.\n\nWorks exactly like proton but everything's stored in a vault that's encrypted, uses 256 and can modify security of each vault.\n\nThis is actually awesome because if someone gets the vault, it would take them ages to brute -  \nBut you can just sync it from any cloud at the same time.\n\nI recommend burning a vault into a DVD+USB to ensure you're covered.\n\n# A.I\n\nIf you're going to use A.I, use an LLM if you can afford a beefy enough PC.  \nThere are still smaller models that some older pc's can use.\n\nBesides the popular LLMS etc, there's also the need to organize your knowledge privately.\n\nThis is where you can privately use a light-weight LLM inside obsidian, like \"Smart Connections\".\n\nOnce/if you setup linux, look into a private voice-assistant like mycroft or SEPIA Framework - literally a 100% private AI like alexa but worth it.\n\n# Obsidian\n\nBe weary now of services like notion/evernote etc more than ever, obsidian as is - your data is only yours and local.\n\nYou can zip your obsidian and attach to a keepass vault to keep it secure on a to-go USB.\n\nObsidian has a feature called canvas that allows you to map out notes in a virtual whiteboard, you can embed videos and basically anything using what's called an iframe.\n\nMake a control center canvas for different things, like learning linux.\n\n# Learn Linux to what degree you can.\n\nI only started learning very late in life, and linux has always confused me.  \nI personally like mint 22 - but have had a lot of trial and errors before getting my own as a custom ISO.\n\nI've been learning enough with AI like Brave's free and private temporary chats ontop of my private gpt, you can even connect your own LLM directly into the browser and it can read anything you want it to.\n\nStart copying tutorials into Obsidian with an extension like MarkDownload, which allows you to scrape a page/selection and deliver it directly to your Obsidian - this will allow you to have references if you lose internet.\n\nAfter learning some basics and having python packages installed and apts like fsearch/gedit etc.  \nAfter getting your ideal updated distro, use something like Cubic to make your linux with your own files included into a larger ISO.\n\nYou now have a complete rescue USB that has your keepassvault and any files you want etc.\n\nI haven't gotten far enough to see about encrypting the usb, so more research is needed, otherwise could store the iso in a passworded zip or vault etc.\n\nSetup your own private cloud (NextCloud), you can host it on your linux with some setup that will require time, but is literally your own cloud service.\n\nCan also repurpose old phones to act as servers (pseudo raspberry-pi's).\n\n# Brave (Browser)\n\nI started using Brave since it has TOR built-in and uses a unique way to sync devices, not using a typical password method but a set of phrases that change.\n\nIt still has sync, it's private AI leo can also be switched with your own LLM.\n\nJust a ton of features I never knew existed before I switched.\n\nDue to how secure their sync method is, if you lose all your devices, you won't be able to login to a new device, you have to be logged into one to be able to sync.\n\nA workaround is just copying your brave files into a keepassXC vault.\n\nYou'd be surprised what you can learn when developing an ARG \ud83e\udd23",
+    "comments": [
+        {
+            "author": "entropy_is_madness",
+            "body": "Peopleeeee noobie Anarchist here, don't be alarmed. I know a lot of people are that tech savvy, and it would be wrong to throw a lot like this at anybody.\n\nFirst things first, FOSS is better and safe, if you're using something and there is a FOSS alternative and you really wanna try that go for it( will recommend). \nIf you're aren't that savvy, just look up some videos of it on YouTube, and search it up. If ya like it and it gives you something extra go for it, and you're confident and curious to know it go for it.\n\nBut yeah don't worry about running local LLMs, just do the basic stuff like using a Password manager, even if not a FOSS one, atleast something from a reputed company like Proton(Will absolutely recommend Protonmail and ProtonVPN)\n\nIf you are interested and curious about running a local LLM, you can take the help of the Hugging Face community, there are a lot of Models the community puts there, all FOSS.\n\n\nA local model means instead of using ChatGPT, and their AI model running on their servers and providing you results, it  means you download a FOSS AI model and configure it to run and process your info and data on your computer. Mind that, you need a lot of computational power to run models beyond certain parameters. \n\n\nFirst ever comment on the sub!!\n\nAlso credits to the OP. It's actually a great idea to let people know about small and basic things on FOSS, and FOSS programs. But let's make it curious and fun!!\nAlso OP check out org mode on Emacs, it's way more powerful than Obsidian, but has one of the highest learning curves, but obsidian is good too won't deny.",
+            "score": 23,
+            "replies": []
+        },
+        {
+            "author": "el_extrano",
+            "body": "At one point free software was commonly called \"copy left\" (in contrast with copyright) because people intuited that a community holding software in common is a socialist idea.\n\nNow the scene is more confusing that ever. You also have tech companies and right libertarian types heavily involved with FOSS.\n\n\nI think in general anarchists should be using FOSS for OPSEC reasons. On the philosophical side, it's obviously preferable to for-profit software driven by unaccountable corporations. That said, we need tech to control less of our lives not more, so I think it's very important that we not buy I to the \"tech -first\" attitude toward solving problems promulgated by our current system.",
+            "score": 15,
+            "replies": [
+                {
+                    "author": "clickrush",
+                    "body": "I agree with you. I work in software, but I\u2019ve come to appreciate simpler tools over the years.\n\nHowever\u2026 Right libertarians and companies being involved in FOSS is a good thing. It shows that a collaborative, free and open principle of creating and maintaining valuable things is useful and powerful beyond political affiliation.\n\nThis is _real_ progress. It invalidates the prevalent economic ideology from the ground up, with real results.\n\nLet\u2019s think about finding more, not fewer examples like this and expand on them.",
+                    "score": 7,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Floomfery",
+            "body": "I hate to be a shill: but me and a couple of my friends are working on hosting a properly private and \"as secure as we possibily can\" alternative to google's suite. We are anarchist nerds. We want to help others with this. We will and can help you \n\nhttps://omada.cafe is our project, signal chat links are posted there",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "u02b",
+            "body": "As much as I love obsidian, it\u2019s not FOSS",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Thromocrat",
+                    "body": "There are some FOSS \"alternatives\" to obsidian like Zettlr or emacs with org mode, however, those couldn't really compete with Obsidian UX or versatility -wise.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Hopeful_Vervain",
+            "body": "FOSS? who needs that when r/piracy got you?\n\nbut yeah I mean internet privacy and basic security is good. I'd rather go with Firefox than Brave tho, don't especially like their homophobic CEO... also that guy literally invented javascript, would you really trust the *javascript* creator with your data? hard pass for me",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "28thdayjacob",
+                    "body": "'Free' as in freedom - piracy might eliminate the money cost, but it doesn't default allow you to control your software. Argument for truly free software is that if you can't control your software, your software is controlling you - whether you paid for it or not.",
+                    "score": 11,
+                    "replies": [
+                        {
+                            "author": "Hopeful_Vervain",
+                            "body": "there's always a way to control and modify proprietary softwares with enough time and knowledge. Everything is free if you make it free, don't need to be granted freedom by the devs. Now I'm pretty sure discussing *how* would be against the TOS and all so... look it up idk lol",
+                            "score": 0,
+                            "replies": [
+                                {
+                                    "author": "Jimmeh1337",
+                                    "body": "I don't think that's realistic and also ignores some other potential problems. It's a ton of work to take a piece of existing software and make it so that the original developers have no control over it or your data. You also don't have the source code, so it's very hard to tell if there might be something in the code that could already lead to compromising your security. I guess you could try to decompile it and sort it out yourself, but again that's a *lot* of time and effort. You're also opting out of any future updates to the software unless you write them yourself, which is a security risk itself. \n\nDon't get me wrong, pirate whatever you want and use cracked software, but I don't think piracy is the best solution for maintaining privacy and security. A known and trusted open source project is going to be a much less risky option when possible.",
+                                    "score": 8,
+                                    "replies": [
+                                        {
+                                            "author": "Hopeful_Vervain",
+                                            "body": "sure, open source is more convenient, and yes it can take time and effort, in many cases it's just not worth it and it's better to just start from scratch and make your own software... but if you *want* to hack something in order to have control over it, there's certainly a way. freedom is created, not granted.",
+                                            "score": 0,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "28thdayjacob",
+                                    "body": "Proprietary software was designed with the intent to manipulate and control us for profit. Even for people with the knowledge and resources to deconstruct that, there's a limit to escaping that fact. Free software exists for many use cases that not only bypasses the effort & investment needed for the level of deconstruction you're describing, but also has a design foundation of working for the user rather than exploiting them.\n\nThat's the crux of the argument - it's not to dissuade piracy, it's to say that there's a fundamental difference in means and ends between free software and pirated software.",
+                                    "score": 4,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "thinkstopthink",
+            "body": "TOR/Tails",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}
