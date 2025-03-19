@@ -1,0 +1,335 @@
+{
+    "title": "First Submission",
+    "author": "FullMetal2803",
+    "subreddit": "homelab",
+    "rank": 6,
+    "score": 509,
+    "upvote_ratio": 0.98,
+    "num_comments (reported by reddit)": 50,
+    "url": "https://www.reddit.com/gallery/1je0lct",
+    "id": "1je0lct",
+    "selftext": "My HomeLab is a culmination of orphaned servers from companies I worked for and others I got for good deals. \n\n\n\nStarTech 42U Rack - [https://www.microcenter.com/product/683303/4-Post\\_42U\\_Mobile\\_Open\\_Frame\\_Server\\_Rack](https://www.microcenter.com/product/683303/4-Post_42U_Mobile_Open_Frame_Server_Rack)\n\n\n\n\\--Supermicro SYS-5019C-L (i7-8700k, 32GB DDR4, 1TB NVMe, 2x 4TB IronWolf)\n\n\\--Pi4 8GB\n\n\\--Apple Mac Mini (A1347) upgraded with a 2TB Samsung 870 Evo and 16GB DDR3 (this machine is for DVD/Blu-ray intake for my media server)\n\n\\--Ubiquiti UISP-S-Pro (got for $120 at Micro Center)\n\n\\--Cisco Catalyst 3560 PoE-48 (got this from my university back in 2013)\n\n\\--My Unraid Sandbox Build (https://pcpartpicker.com/user/FullMetal2803/saved/#view=q99QGX)\n\n\\--Supermicro AS- 1014S-WTRT : upgraded with a EPYC 7402P, 128GB DDR4, 4TB 980 Pro, 4x 4TB IronWolf HDD\n\n\\--Dell EMC PowerEdge R730xd : 2x Xeon 12core, 64GB DDR4 ECC, 1TB 870 EVO, 10x 1TB  Dell 7.2K SAS HDD\n\n\\--Dell PowerEdge R630 : 2x Xeon 6core, 64GB ECC, 1TB 870 QVO\n\n\\--Dell PowerEdge R410 : IDK Spec\n\n\\--Dell PowerEdge R520 : 2x Xeon 12core, 64 GB ECC, 6x 6TB IronWolf HDD\n\n\\--Dell PowerEdge R610 : IDK CPUs, 128GB ECC, 4x 1TB Inland SATA SSD\n\n\\--Dell PowerEdge R720 : IDK CPUs, 64GB DDR3 ECC\n\n\\--Dell PowerEdge R720 : IDK CPUs, 64GB DDR3 ECC\n\n\\--HP Proliant DL360 : IDK Specs. This was my first sandbox server in college. I bought it used for \\~$200\n\n\n\n\n\n3D Printer Cart:\n\n\n\n\\-Creality K1 Max : upgraded with Unicorn HotEnd and a textured PEI build plate\n\n\\-Anker Solix C800 : battery backup for the 3D printer for long prints, used for camping when applicable.\n\n\\-GPUs on cart: ASUS Strix GTX 1070, ASUS Strix 1080 Ti, AMD Radeon 6950XT\n\n\n\nCyberPower 9U Rack (under desk) - [https://www.cyberpowersystems.com/product/racks/wall-mount/cr9u61001/](https://www.cyberpowersystems.com/product/racks/wall-mount/cr9u61001/)\n\n\n\n\\--Unifi UDM Pro\n\n\\--Unifi UNVR\n\n\\--Linkway 24port Patch Panel\n\n\\--Unifi Aggregation (USW)\n\n\\--Unifi 8port 150W PoE (US-8-150W)\n\n\\--Dell OptiPlex 7040 : i5-6500T, upgraded with 32GB DDR4, 120GB Inland SATA SSD, 1TB 980 NVMe\n\n\\--Unifi Pro Max 24 (USW-Pro-Max-24)\n\n\\--Unifi Standard 24 PoE \\[USW-24-POE (95W)\\]\n\n\\--Unifi Standard 16 PoE \\[USW-16-POE (42W)\\]\n\n\n\nDesk (AKA Main Rig):\n\n\\-- Main PC - [https://pcpartpicker.com/builds/edit/partlist/?userbuild=78ZZxr](https://pcpartpicker.com/builds/edit/partlist/?userbuild=78ZZxr)\n\n\\--- GPU on top of PC : EVGA FTW3 3090\n\n\\--HP Prolian DL385 G5 (under main rig) : IDK Specs. This server was gifted to me by my boss when I worked for campus IT in college\n\n\n\nThe Monoliths\n\n\\--Media Vault (Black Case) - [https://pcpartpicker.com/builds/edit/partlist/?userbuild=78ZZxr](https://pcpartpicker.com/builds/edit/partlist/?userbuild=78ZZxr)\n\n\\--Games Server (White Case) - [https://pcpartpicker.com/builds/edit/partlist/?userbuild=78ZZxr](https://pcpartpicker.com/builds/edit/partlist/?userbuild=78ZZxr)",
+    "comments": [
+        {
+            "author": "caniskipthispartplea",
+            "body": "ultrawide off to the side is demonic",
+            "score": 65,
+            "replies": [
+                {
+                    "author": "AlistairMarr",
+                    "body": "Its making me unexpectedly uncomfortable\n\nWhat kind of psychopath does this?",
+                    "score": 25,
+                    "replies": [
+                        {
+                            "author": "FullMetal2803",
+                            "body": "When I put my feet up at my desk, there is a small Ottoman under my desk, then I am facing the ultra wide for my favorite games and movie watching. It is also there because I have a portable driving sim setup that can be placed down near my desk and the arm reaches the sim very well.",
+                            "score": 16,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "NC1HM",
+            "body": "OK, but... where's the cat? `:)`",
+            "score": 18,
+            "replies": [
+                {
+                    "author": "FullMetal2803",
+                    "body": "Right here (https://www.reddit.com/r/cats/s/DPql6blhTc)",
+                    "score": 9,
+                    "replies": [
+                        {
+                            "author": "NC1HM",
+                            "body": "Awwwww... You named your kitteh after Power over Ethernet... `:)`",
+                            "score": 12,
+                            "replies": [
+                                {
+                                    "author": "FullMetal2803",
+                                    "body": "Thank you, so many of my friends didn't understand. The main reason I agreed to name him Edgar Allen Poe, So I could call him PoE. Lol",
+                                    "score": 9,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Ok-Secret5233",
+            "body": "What do you use this for?",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "FullMetal2803",
+                    "body": "Desk Rig\n- gaming, work (Network Engineering and management), and AI / Deep learning dev\n\n42U\n-It is mainly my sandbox for trying out stuff before implementing it at client sites. New programs, VMs, Dockers and such. I can mimic most of my clients setups with mine.\n-The Unraid Sandbox is to specifically test new Dockers and apps for my Media Vault and Reverse Proxy box (Dell 7040 in 9U)\n\nThe Monoliths\n- Media Vault hosts my Plex server that is currently serving 125+ active users (roughly 12 users at any moment)\n-Games Server is hosting my favorite games and games people pay me to host for them. It also houses my Steam Caching server (Saw it on LTT and thought why not). \n\n9U Rack\n- this is the brains of my whole home network. It will move to the top empty section of the 42U in a few months after I move to a new house. \n\n\nHopefully this answers some questions.",
+                    "score": 9,
+                    "replies": [
+                        {
+                            "author": "Ok-Secret5233",
+                            "body": "Thanks for sharing.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "TheMinistryOfAwesome",
+            "body": "please post this to r/battlestations and show them how to do it correctly.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "FullMetal2803",
+                    "body": "Will do. Thank you for the nice words",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "_vaxis",
+                    "body": "This is a full on command center imo",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "zipeldiablo",
+            "body": "Your poor neck though :(",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "FullMetal2803",
+                    "body": "There is a foot rest under the desk where the ultra wide is so I mainly just shift to the monitor I need.  The Vertical one is because I got tired of scrolling for discord messages for work and friends. Plus it has my Sidebar Diagnostics readout. \n\nIt is surprisingly comfortable.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Antique_Wolverine_73",
+            "body": "hot",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "FullMetal2803",
+                    "body": "Thank you",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Trhowuuu",
+            "body": "You got tons of cool hobbies, nice setup :)",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "FullMetal2803",
+                    "body": "Yeah, I stay busy. I would love to get into cars more but the budget is getting thin.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "AffectionateBus672",
+            "body": "I think that's too much. If you could organize everything in 1 rack, I would look better, a lot better if you ask me.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "FullMetal2803",
+                    "body": "That is the plan later this year. I will be moving to a new house. At the moment I am unable to take my main network offline long enough to be able to condense to the 42U rack. \n\nThe plan is to move everything in the 9U to the top of the 42U where I left 10U of space open. The 9U will then go to a friend's house to help cleanup his setup and the 12U under the Monoliths that is currently empty will then house 5 New servers that have been sorry in my closet plus the 45Drives I am purchasing to replace the Media Vault. Media Vault will then become a remote gaming server for friends and family to use (put rtx 5000 in 45Drive and the 3090 in old media Vault)",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "lev400",
+            "body": "Love the 9U under desk unit. I\u2019ve put a few of these into client sites.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "FullMetal2803",
+                    "body": "It was my first rack and she has served me well over the past few years. Soon she will serve my friends home network, once I consolidate all network gear to the 42U.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Loya1ty23",
+            "body": "Man.. i really just need to get started with messing with the scraps I have at home. I could see myself getting up to about half of this scale with some projects i have in mind. paying for cloud infra is stopping my progress.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "mkp0x",
+            "body": "How is the noise ?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "FullMetal2803",
+                    "body": "Surprisingly my ceiling fan and box fan are much louder.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Matt51Official",
+            "body": "Glad I scrolled to the end; best not to disturb the sleeping beardo \ud83d\ude34",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "FullMetal2803",
+                    "body": "Smaug loves to nap all the time. He especially loves to go to the pet shop.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "CyberShellSecurity",
+            "body": "Saved this post so I can copy this one day in the future. Good job!",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "FullMetal2803",
+                    "body": "Thank you. If you ever need help with finding parts. Let me know",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "RayneYoruka",
+            "body": "So messy tbh",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ratman431",
+            "body": "Let me guess, it all started with Lego\u2019s?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "FullMetal2803",
+                    "body": "How did you know about the Legos andy cripple addition?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Professional_Wear131",
+            "body": "awesome! this is what i like to think my setup would look like if i didn\u2019t have to pay rent",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "FullMetal2803",
+                    "body": "Piece by piece, slowly over time. Baby steps and you'll get there my friend.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "KalistoCA",
+            "body": "I don\u2019t understand how people in this space .. enterprise equipment is loud as hell \n\nMy office is two down from our small server room at work and it gives me a headache \n\nAnd there is no way that replacing all the fans with quieter fans makes that much of a difference or people actually do that",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "FullMetal2803",
+                    "body": "Surprisingly enough, my ceiling fan is louder than the server rack. Most have been fan modded with noctua and better thermal paste and coolers. \n\nThis rack is just for Sandboxing. The main Servers are the Meshify 2 Monoliths. They run 24/7",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "FullMetal2803",
+                    "body": "Surprisingly enough, my ceiling fan is louder than the server rack. Most have been fan modded with noctua and better thermal paste and coolers. \n\nThis rack is just for Sandboxing. The main Servers are the Meshify 2 Monoliths. They run 24/7",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Sufficient-Radio-728",
+            "body": "Wow that's a lot of pieces man..",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Diligent_Ad_9060",
+            "body": "That looks messy, loud, but also fun :)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "mirssfollow",
+            "body": "It's looks like my dream homelab, you should keep it, it really cool.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Cosmic-Pasta",
+            "body": "I see multiple Rx10 and Rx20. What's the power bill look like?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "FullMetal2803",
+                    "body": "Power bill is usually between $225 - $320. So not bad.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "PM_ME_UR_ROUND_ASS",
+                    "body": "With that many R710/R720s running 24/7, probably looking at $200-300/month depending on your electricity rates - those old Xeons are power hungry beasts!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Mental_Tea_4084",
+            "body": "Ultrawide users be like \"this is so amazing and immersive\" then proceed to put them to the side of their setups with 16:9 content either pillarboxed or stretched. Every single time.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "imnotgruut",
+            "body": "Desk mats are washed once a year bro, otherwise nice rig",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Wildsideace",
+            "body": "she kinda thicc tho, I approve brubber",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Gloomy_Goal_5863",
+            "body": "Classic Battle Station With Accessories: Love The Breakdown of Hardware",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "FullMetal2803",
+                    "body": "Thank you. I need to write down the specs of all the Dells so I will know them better.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "FullMetal2803",
+            "body": "Noticed the links to some things are the same. Here are the fixes:\n\nMain Rig - [https://pcpartpicker.com/list/6rKN2x](https://pcpartpicker.com/list/6rKN2x)  \nMedia Vault - [https://pcpartpicker.com/list/gsjCgn](https://pcpartpicker.com/list/gsjCgn)  \nGames Server - [https://pcpartpicker.com/list/h4ppFZ](https://pcpartpicker.com/list/h4ppFZ)",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}

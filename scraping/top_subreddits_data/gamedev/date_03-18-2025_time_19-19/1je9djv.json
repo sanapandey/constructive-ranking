@@ -1,0 +1,639 @@
+{
+    "title": "Why do so many character designs now look so\u2026 toothy?",
+    "author": "Golem_of_the_Oak",
+    "subreddit": "gamedev",
+    "rank": 7,
+    "score": 20,
+    "upvote_ratio": 0.68,
+    "num_comments (reported by reddit)": 95,
+    "url": "https://www.reddit.com/r/gamedev/comments/1je9djv/why_do_so_many_character_designs_now_look_so/",
+    "id": "1je9djv",
+    "selftext": "When I was growing up, I could have never expected the graphics that we have now. The detail and scale is remarkable. But there are also these really common things among character designs that I just can\u2019t quite grasp, and that really make me think that lower quality would be better.\n\nHave you noticed this toothiness? When a game has really good graphics, the characters also have really visible teeth, as though the actors were told to do more \u201clip action.\u201d\n\nI sometimes looked at the graphics in older games when I played them when they came out and thought that they weren\u2019t great, but man I think something like Morrowind has significantly better character design than something like the newer Mortal Kombat games. It\u2019s like everything became more realistic, except for the mouths, and they\u2019re so off putting to me that I\u2019d 100% accept them just not moving at all, and having to imagine them moving.",
+    "comments": [
+        {
+            "author": "dangerousbob",
+            "body": "Probably because a handful of tools now dominate basically all game development.",
+            "score": 53,
+            "replies": [
+                {
+                    "author": "Golem_of_the_Oak",
+                    "body": "Right. Yeah that makes sense.",
+                    "score": 7,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "theGoddamnAlgorath",
+            "body": "The consumer base has gotten more mouthy, so I have to say its an industry thing\u00a0",
+            "score": 44,
+            "replies": []
+        },
+        {
+            "author": "Dangerous_Jacket_129",
+            "body": "Do you have any examples of games that are \"toothier\"? I don't exactly see it",
+            "score": 25,
+            "replies": [
+                {
+                    "author": "Golem_of_the_Oak",
+                    "body": "The newer mortal kombat games, DEFINITELY the newer injustice games, avowed, the new Indiana jones game\u2026 they\u2019re still good games but man those mouths are inhuman.",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "KaelusVonSestiaf",
+                            "body": "Oh, that's easy, that's the facial motion capture. It has become more accessible and prevalent, so you're seeing it a lot, and this is one of the kinks that hasn't been fully ironed out yet.",
+                            "score": 47,
+                            "replies": [
+                                {
+                                    "author": "Golem_of_the_Oak",
+                                    "body": "Wow I thought I was crazy. I\u2019m stunned nobody else knew what I was talking about up to this point.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "KaelusVonSestiaf",
+                                            "body": "Tbf I had no idea what you were talking about until you mentioned those examples bahaha.",
+                                            "score": 16,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "CorruptedStudiosEnt",
+                                            "body": "You've never noticed this in movies/TV? It's just a thing in acted media. Now that facial motion capture is being used, we're seeing it in games too.\n\nWatch pretty much any hosted reality TV show for 10 minutes and take note of the unnatural way they show their teeth when the host speaks. It also has partial cause in the way they over-annunciate.",
+                                            "score": 6,
+                                            "replies": [
+                                                {
+                                                    "author": "Golem_of_the_Oak",
+                                                    "body": "I see it sometimes in movies and TV, but now I\u2019m going to actively look for it.",
+                                                    "score": 3,
+                                                    "replies": [
+                                                        {
+                                                            "author": "CorruptedStudiosEnt",
+                                                            "body": "I can't say why they do it, but yeah, it's definitely a thing. Always just looked unnatural and unnecessary to me, personally.",
+                                                            "score": 2,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "tcpukl",
+                                            "body": "I'm still not sure. Can you post a screenshot?\n\nIt's probably just clean materials especially modelling American teeth which always looked bleached.",
+                                            "score": 6,
+                                            "replies": [
+                                                {
+                                                    "author": "Golem_of_the_Oak",
+                                                    "body": "So I have to say that screenshots don\u2019t typically look as toothy as the animated models do. I would recommend checking out videos of Mama in Death Stranding, Superman in Injustice 2, and even sometimes Indiana jones in the new game. It isn\u2019t EVERH movement, but man there are some teeth that look like they\u2019re trying to compete with lips.",
+                                                    "score": 5,
+                                                    "replies": [
+                                                        {
+                                                            "author": "InvidiousPlay",
+                                                            "body": "I totally see what you are saying. [https://youtu.be/jD251kWCAJ4?feature=shared&t=96](https://youtu.be/jD251kWCAJ4?feature=shared&t=96)\n\nI think it's two things:\n\n1 - The mouth animations just aren't very good so their mouths have an uncanny valley quality going on. The lips also don't meet enough or compress together at all which makes them look a bit like they're always keeping their mouths too open all the time, so the teeth are too prominent, and\n\n2 - It looks like they're just not shadowing the mouth sufficiently. The teeth are far too well lit.",
+                                                            "score": 10,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Ambitious_Air5776",
+                                                                    "body": "Dang, this is a great example.  OP should add it to the main post, I had no idea what he was going on about until I watched the clip.",
+                                                                    "score": 5,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "author": "tcpukl",
+                                                            "body": "That makes zero sense. How can teeth look different in a screenshot compared to animated? \n\nThis is on your head. \n\nYou sure it's not just American white teeth?",
+                                                            "score": -4,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "InvidiousPlay",
+                                                                    "body": "Take a look at the cutscenes in Injustice 2. The mouth animations aren't very good and the mouths are too well-lit so it just looks like their teeth are very visible and their mouths are too open all the time. They're too *toothy.*",
+                                                                    "score": 4,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "tcpukl",
+                                                                            "body": "Why don't you show me a screenshot? \n\nI don't know what I'm looking for. You do!!!!!!!\n\nYou didn't even address my question.",
+                                                                            "score": -3,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "Golem_of_the_Oak",
+                                                                                    "body": "Again, it isn\u2019t the same in a screenshot. It\u2019s the context of an animation.\n\nHere: https://www.youtube.com/watch?v=jD251kWCAJ4 that\u2019s Superman in injustice 2.",
+                                                                                    "score": 2,
+                                                                                    "replies": []
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "author": "Golem_of_the_Oak",
+                                                                    "body": "What? People already look different in photos compared to videos. Everyone and everything looks different in movement compared to being still. That\u2019s how you get people that look bad in photos but great in real life.\n\nAnd no it isn\u2019t in my head. I saw it once and now I can\u2019t unsee it.",
+                                                                    "score": 6,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "mizzurna_balls",
+                            "body": "You're not crazy. Avowed definitely uses auto-generated mouth shapes for dialogue phonemes, which is fine, but for some reason it looks like they cranked the blend shapes up to like 150%. I can't stop staring at people's gaping mouths while playing this game.",
+                            "score": 8,
+                            "replies": [
+                                {
+                                    "author": "Golem_of_the_Oak",
+                                    "body": "Hahhahahahaha yeah huge open mouths, highly contrasted teeth. That\u2019s how you know a game cost a lot to make.",
+                                    "score": 5,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Newbie-Tailor-Guy",
+                            "body": "Minister Hunter Wilds is pretty egregious regarding what you mentioned. Your character can look pretty good, but then they start talking and it\u2019s like their mouth expanded several yards and all I get is a full set of chompers. A lot of modern character models move their mouths like people with veneers too big for their mouth do. I know exactly what you\u2019re talking about, OP.",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "Golem_of_the_Oak",
+                                    "body": "Can I also just say that I love your typo of \u201cminister hunter wilds\u201d? I would definitely at least check out a game where the plot is that you hunt giant, wild ministers.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "Newbie-Tailor-Guy",
+                                            "body": "LOL autocorrect came in clutch as always. I mean, isn\u2019t that kind of the plot of Bloodborne? Feels at least tangential.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Golem_of_the_Oak",
+                                                    "body": "Hah! That is basically Bloodborne. Well done.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Golem_of_the_Oak",
+                                    "body": "Right! It\u2019s like they put all of their effort into the rest of the model and animation, and then they got to the mouth and they were like \u201cbig and bright. That\u2019s all I want.\u201d",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "reddit_MarBl",
+                            "body": "Mama in Death Stranding had some absolute units",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "Golem_of_the_Oak",
+                                    "body": "Teeth for dayyyys",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "tetheredinasphault",
+                                            "body": "She's played by Margaret Qualley - she has big teeth irl. Looks just like the character.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Golem_of_the_Oak",
+                                                    "body": "I actually pointed that out when someone else brought her up, but I disagree about that being what\u2019s going on. In real life, yes, she has big teeth, but she doesn\u2019t use them like lips when she talks. They show up, and we\u2019re aware of them, but they aren\u2019t the main character.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Dangerous_Jacket_129",
+                            "body": "Most of them are mo-cap, you'll see something similar in Until Dawn. It's causing some uncanny valley effect and the teeth stuff often is a part of that. Bad rigging can stretch a face too much even when using mo-cap.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "Golem_of_the_Oak",
+                                    "body": "Oh yeah I forgot Until Dawn! That is by far one of the toothiest games I have ever played.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "HorsieJuice",
+                                            "body": "All of their games (which I like fwiw) also have something weird going on with the way the ears are lit. Any light through the outer ears makes them glow red.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Seek_Treasure",
+                    "body": "People were talking about models in Cities Skylines 2 having teeth",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "loftier_fish",
+            "body": "OP is on the prowl for toothless grandmas for... reasons...",
+            "score": 17,
+            "replies": [
+                {
+                    "author": "Golem_of_the_Oak",
+                    "body": "I\u2019m so surprised that nobody else is seeing this. I swear to god to me it looks like these actors are being told to lead with the tooth.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "reddit_MarBl",
+                            "body": "You know what they're gonna say by the shape of their teeth before a sound emerges, lol",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "Golem_of_the_Oak",
+                                    "body": "Yeah it\u2019s like the teeth are programmed like lips.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "reddit_MarBl",
+                                            "body": "Wacky waving inflatable teeth flailing tooth man!",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "Golem_of_the_Oak",
+                                                    "body": "\u201cThat delivery was great, but listen, I need more tooth.\u201d",
+                                                    "score": 2,
+                                                    "replies": [
+                                                        {
+                                                            "author": "reddit_MarBl",
+                                                            "body": "We paid for the whole teeth were getting the whole damn teeth",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Golem_of_the_Oak",
+                                                                    "body": "We\u2019ve got Margaret booked for another 3 hours and it\u2019s non refundable. Just have her do some tooth stuff, and we\u2019ll edit it in as needed.\n\nAfter editing:\nOk it\u2019s mostly tooth stuff. That works.",
+                                                                    "score": 2,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "reddit_MarBl",
+                                                                            "body": "Grab the extrude tool babe, its time to give this mocap the human touch",
+                                                                            "score": 1,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "Golem_of_the_Oak",
+                                                                                    "body": "Warner bros didn\u2019t approve the final cut. Call everyone back in. It needs to be 40% toothier.",
+                                                                                    "score": 2,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "reddit_MarBl",
+                                                                                            "body": "Alright action *snaps giant dentures shut*",
+                                                                                            "score": 1,
+                                                                                            "replies": [
+                                                                                                {
+                                                                                                    "author": "Golem_of_the_Oak",
+                                                                                                    "body": "Hahahahahaha it\u2019s just an all encompassing culture of teeth.",
+                                                                                                    "score": 2,
+                                                                                                    "replies": [
+                                                                                                        {
+                                                                                                            "author": "reddit_MarBl",
+                                                                                                            "body": "*oh my god.. get back to the ship.. EVERYTHINGS ON A COB!* \ud83e\udd2f",
+                                                                                                            "score": 1,
+                                                                                                            "replies": [
+                                                                                                                {
+                                                                                                                    "author": "Golem_of_the_Oak",
+                                                                                                                    "body": "Hahahahaha when all that\u2019s left of us is video game media, aliens will think humans had huge gaping mouths and high tooth contrast.",
+                                                                                                                    "score": 2,
+                                                                                                                    "replies": [
+                                                                                                                        {
+                                                                                                                            "author": "reddit_MarBl",
+                                                                                                                            "body": "It's the shrink-wrapped dinosaur skulls all over again",
+                                                                                                                            "score": 1,
+                                                                                                                            "replies": [
+                                                                                                                                {
+                                                                                                                                    "author": "Golem_of_the_Oak",
+                                                                                                                                    "body": "Florg Flarg, check out what I found. Looks like those lips you were talking about were not important.",
+                                                                                                                                    "score": 2,
+                                                                                                                                    "replies": []
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "EquineChalice",
+            "body": "I\u2019ve noticed it too, I think it tends to be a lighting issue, where the teeth are bright white and are not being shadowed by the lips properly, so they really pop out and look like every character is wearing cheap dentures.",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "Golem_of_the_Oak",
+                    "body": "That\u2019s it!! To me it also looks kind of like an acting direction. Like actors are told to inhale through gritted teeth a lot or something. Or maybe it\u2019s just that the teeth are so contrasted that they stand out more.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "EquineChalice",
+                            "body": "You\u2019re right, I think it might be an animation thing too. Where they really rig up the mouth to get those phenomes, but then the rest of the face isn\u2019t expressive enough and it draws a lot of focus to the mouth and teeth.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Golem_of_the_Oak",
+                                    "body": "Yeah that\u2019s it. Well put. The mouth does all of the emotional work and the rest of the face stays flat.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "TheOtherZech",
+            "body": "There's two facets here to consider, and I personally attribute what you're seeing to the second one:\n\n1. The face rig/shape keys the performance capture is being applied to.\n2. The lighting received by the mouth and teeth.\n\nChances are, the actors weren't told to exaggerate their lip movement beyond what's needed to provide good source data. Yes there is a degree of exaggeration involved, but not to any excessive extent. What you're likely seeing is a combination of limited facial rigs and lighting systems that don't do anything special for lighting the characters' mouths. \n\nEven with raytraced shadows and bent normals and all the bells and whistles, mouth shadows are hard. Lighting shortcuts that help everywhere else (ambient lighting boosts, capsule shadows, etc) tend to make mouths brighter; you can kinda-sorta lean on ambient occlusion to shadow the mouth, but the dimensions of your average mouth doesn't play nicely with screen space AO and the speed of speech doesn't play nicely with temporally sampled raytraced AO. You can cheat a bit in cutscenes by culling background content and spending more compute on high-sample-count cinematic shadow casters, but that introduces inconsistencies between cutscenes and gamplay. \n\nYou're noticing something real, but it's also something small enough that it often isn't worth solving outside of narrative-heavy games that can justify writing a compute shader for facial shadowing.",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "Golem_of_the_Oak",
+                    "body": "Yeah\u2026 which means that it will be one of the last things to get solved as other elements\u2019 quality improves. We\u2019ve just got toothy stuff for a while.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Venerous",
+            "body": "I know what you mean. I just finished my third playthrough of Death Stranding and every time I get to Mama (portrayed by Margaret Qualley) and [she's a perfect example](https://youtu.be/Do6vblO3EH8?si=1fwxLXXp9p-HUgCE&t=462). To be fair she has prominent teeth in real life but she's not the only example.\n\nI know that some lip actions need to be exaggerated sometimes during motion capture or else it's harder for the software to capture their lip movement and accurately match with the reference model. Also because a lot of the time the lower face is not fully synchronized with the eyes and forehead, so it looks weird. The technology has been significantly improved over time though.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Golem_of_the_Oak",
+                    "body": "I love that actress. She\u2019s great. She is kind of toothy in real life, but man\u2026 she doesn\u2019t talk with her teeth. That character, though, is all teeth.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Guardians_MLB",
+            "body": "Next time post some pictures. I don\u2019t want to go looking for them.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "Golem_of_the_Oak",
+                    "body": "If you didn\u2019t know what I was referring to, you didn\u2019t have to answer, but I do appreciate the recommendation.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Guardians_MLB",
+                            "body": "Reddit etiquette",
+                            "score": 0,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Devoidoftaste",
+            "body": "Real answer - more polys, better lighting, bad art direction/feedback, and not enough time. \n\nIn the old days, teeth were just a curved bit of geometry and a hand painted texture. There wasn\u2019t complex lighting with self shadowing and ambient occlusion textures. So it was just an artist painting something that tried to look good in lighting that was hard to make it look too bad. \n\nNow, there are geo budgets high enough that every tooth can be individually modeled. Or if not modeled,  the normal map makes the gap between the teeth strong enough to look \u201creal\u201d. And in lighting now makes the distinctions between the teeth more clear.   \n\nFaces are more commonly scanned now, but mouths and teeth are not an easy part to scan. Usually there is a single set of teeth already modeled that gets \u201ckit bashed\u201d into every head. If there is time, an artist will attempt to make them look unique to the face/match the concept. But good luck convincing a producer to budget time to something as small as teeth. \n\nAnd many art directors and/or executives with enough power only want to review models in perfect lighting and zoomed way in. So you get \u201cmake the teeth more white\u201d feedback - which makes them look more unrealistic.   \n\nSo it\u2019s not really that they are \u201cdesigned\u201d to look that way, it\u2019s just the end result.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "KamiIsHate0",
+            "body": "I didn't noticed it at all. Can you have some character or scenes example?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Golem_of_the_Oak",
+                    "body": "Look at Superman in Injustice 2. He bares his teeth all the time, for seemingly no reason, or to express an emotion that wouldn\u2019t require gritting your teeth. And the teeth are a sharp contrast to the rest of the model.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "katterwog",
+            "body": "I\u2019ve heard when actors are doing motion capture they have to over enunciate to make sure the facial movements are recorded. The earlier dead by daylight games seemed guilty of this. That could account for some teeth flashing.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Golem_of_the_Oak",
+                    "body": "Yeaaaah it seemed like a programming thing and an acting direction thing. That leads to a lot of teeth gritting animations.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "RiftHunter4",
+            "body": "I think it's the lighting. In games where lighting is good and animations are grounded, I see less teeth.\n\n[Example: Dragons Dogma 2 has good lighting](https://youtu.be/j-9zBqYNDCw?feature=shared)",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Golem_of_the_Oak",
+                    "body": "I think you\u2019re right. Those mouths look fine to me. Their teeth are there, but the teeth aren\u2019t the main character.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "RockyMullet",
+            "body": "I think it's mostly that the advance in technology mad character having teeth or just simply opening their mouth is easier that it used to be, specially now that they do facial motion capture, when they used to only do it for the movement of the body.\n\nFor a long time character would eider never open their mouth and didn't really have a \"inside\" modeled, or the teeth where like a big curved bar with some texture over it.\n\nSo the use of technology makes devs want to show it of.\n\nA good exemple of that is Monster Hunter Wilds who have pretty cool and advance technology for fur and hair and there's some character where the hair movement is weird and \"too much\" just so we see the hair technology.\n\nThe problem with trying to go for realism, is that real life is a bit boring and understated, so often stuff are turned to 11 and kind of clash with the realism.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "El_Falk",
+            "body": "I take it you've never played Jedi Knight 2, Deus Ex, Morrowind, etc?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Golem_of_the_Oak",
+                    "body": "I literally mentioned morrowind.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "El_Falk",
+                            "body": "https://static.wikia.nocookie.net/elderscrolls/images/1/10/TES3_Morrowind_-_Character_-_Gnaw_Tooth.png/revision/latest?cb=20130615004101\n\nor\n\nhttps://elderscrolls.fandom.com/wiki/Gnaw_Tooth\n\nif the link is broken",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "The_Joker_Ledger",
+            "body": "Yeah, definitely not just you. I think it because of the motion capture tech, the actor have to be more expressive and exaggerate to capture the expression accurately, hence the toothy feeling and people face start to have more and more open mouth look to them or the smile is just too wide sometimes.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "muppetpuppet_mp",
+            "body": "Yeh i see this , just like the horrible photoreal color grading in colourful fantasy settings that makes everything seem overly grey and washed out.\n\n\nBad art directing\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BurtIsAPredator123",
+            "body": "I get the impression that there\u2019s a lot of relatively untalented artist and developers who go to the same colleges and learn the same techniques",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Golem_of_the_Oak",
+                    "body": "The rest of the characters are always incredibly impressive. It\u2019s just that fucking mouth\u2026",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "HorsieJuice",
+            "body": "I\u2019m legit surprised at the number of people who haven\u2019t noticed this. I find it really obvious.\n\nAnyways, in addition to the other reasons people mentioned, it looks to me like there\u2019s often too much space between the lips and teeth. I\u2019m not an animator, so idk why that would be, but it gives me the same feeling as somebody with a fan blowing into their mouth.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "David-J",
+            "body": "You have any actual specific examples?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Golem_of_the_Oak",
+                    "body": "I mentioned the newer mortal kombat games. I\u2019ve also seen it in the new Indiana jones game, avowed, and a lot of others. It seems to be a serious norm among AAA games, with the exceptions being rare. God of War 2018 is one of my favorite games of all time, and most of the characters weren\u2019t designed with excessive lip action, but some were, and it was off putting when it happened.",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "David-J",
+                            "body": "I think you are just seeing something that's not there. Unless you point a specific character vs another specific character, it seems is more a you issue, than an actual issue.",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "ImHughAndILovePie",
+                                    "body": "I feel like I have definitely seen what OP is talking about. Devil May Cry 5 is a good example. When nero is just talking normally he weirdly bears his teeth a lot. It\u2019s like the animation hangs on the closed teeth shape your mouth makes with certain enunciations for too long. It looks pretty unnatural",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "Golem_of_the_Oak",
+                                            "body": "Thank you! It\u2019s like they tell the actor to inhale through the teeth a lot.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Fluid_Cup8329",
+                                    "body": "Nah dude I definitely see what op is talking about. It's not just him.",
+                                    "score": 0,
+                                    "replies": [
+                                        {
+                                            "author": "David-J",
+                                            "body": "Any specific examples? Like this character vs this character?",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Fluid_Cup8329",
+                                                    "body": "Sorry my comment got deleted for using bad urls.\n\nThe Helena redesign from Ark Survival Ascended instantly comes to mind:\n\nhttps://www.reddit.com/r/ARK/s/QMS5vi9oRc\n\nOld vs new comparison:\nhttps://www.reddit.com/r/ARK/s/qA3r2ErIrt",
+                                                    "score": 0,
+                                                    "replies": [
+                                                        {
+                                                            "author": "David-J",
+                                                            "body": "Totally different expression. Also you were saying like it was a trend of several examples.",
+                                                            "score": -2,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Fluid_Cup8329",
+                                                                    "body": "Mfer i gave you an example of the \"toothy\" trend and that example took me all of 4 seconds to realize. \n\nI'm not about to sit here for 30 minutes feeding you example after example. The fact that OP pointed something out and I've definitely noticed it enough to come up with a great example instantly should say enough. \n\nBut Mr. Reddit over here can't take evidence for what it is lmao. I don't know why it's so hard for the average redditor to admit they're wrong.\n\nAnyway, another example right from my head is Lady Dimitrescu from Resident Evil.\nhttps://cdn.mos.cms.futurecdn.net/w7Rw8TdQ5SyAWfoxKisTFo-1024-80.jpg.webp\n\nHow about Forspoken lol\nhttps://9gag.com/gag/aZD0R3V\n\nEDIT this clown blocked me after this comment. Fucking weak lmao",
+                                                                    "score": 5,
+                                                                    "replies": []
+                                                                },
+                                                                {
+                                                                    "author": "Golem_of_the_Oak",
+                                                                    "body": "You seriously don\u2019t see it after seeing it once? My god, just look at Mama in Death Stranding, or Superman in Injustice 2. It\u2019s like the actors were directed to talk with their teeth.",
+                                                                    "score": 2,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "David-J",
+                                                                            "body": "It's like you've never seen teeth before. It's not a trend, buddy.",
+                                                                            "score": 0,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "Golem_of_the_Oak",
+                                                                                    "body": "Alright bud. I\u2019m glad you don\u2019t see it. I wish I didn\u2019t.",
+                                                                                    "score": 0,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "David-J",
+                                                                                            "body": "I don't see what's not there. Cheers",
+                                                                                            "score": 1,
+                                                                                            "replies": []
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "Golem_of_the_Oak",
+                                            "body": "I\u2019m not crazy. That feels good\u2026",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Golem_of_the_Oak",
+                                    "body": "Interesting.",
+                                    "score": -2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

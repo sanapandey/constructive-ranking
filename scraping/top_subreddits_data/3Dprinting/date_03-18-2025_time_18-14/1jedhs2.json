@@ -1,0 +1,796 @@
+{
+    "title": "I hate supports :(",
+    "author": "Professional-Paper75",
+    "subreddit": "3Dprinting",
+    "rank": 3,
+    "score": 461,
+    "upvote_ratio": 0.94,
+    "num_comments (reported by reddit)": 126,
+    "url": "https://i.redd.it/s637g19p1ipe1.jpeg",
+    "id": "1jedhs2",
+    "selftext": "Relatively new to adjusting settings in Creality- I thought I had turned down support strength but man these were a pig to take off, and the finish is rough. I might try and smooth over with some polymer clay or something..\n\nAny advice or tips on supports would be much appreciated ",
+    "comments": [
+        {
+            "author": "MOS95B",
+            "body": "Angle the model to minimize supports and/or try normal instead of tree supports.",
+            "score": 343,
+            "replies": [
+                {
+                    "author": "Professional-Paper75",
+                    "body": "Thanks - yeah I used the \u201cauto orient\u201d setting to minimise supports. Tree supports do seem sturdier, so will try that. Thanks",
+                    "score": 82,
+                    "replies": [
+                        {
+                            "author": "j01101111sh",
+                            "body": "Minimizing support volume isn't necessarily the same as minimizing supports. It might be doing 20 tiny supports instead of 3 big ones but that means 20 spots that need to be separated instead of 3.",
+                            "score": 57,
+                            "replies": []
+                        },
+                        {
+                            "author": "LewdTateha",
+                            "body": "You do not understand the purpose of auto orient\n\nAuto orient focuses on two things, flatest part of model goes on the bed, and it may consider reducing overhangs\n\nSupport is generated after",
+                            "score": 22,
+                            "replies": [
+                                {
+                                    "author": "Professional-Paper75",
+                                    "body": "https://preview.redd.it/guvur7485ipe1.jpeg?width=3024&format=pjpg&auto=webp&s=8e59df30a8febd20454c6fc202bd46e3b6b7cad5\n\nUnless I\u2019m misinterpreting",
+                                    "score": 69,
+                                    "replies": [
+                                        {
+                                            "author": "usernamesaregreat",
+                                            "body": "Optimizing for minimum support volume seems like an odd choice for a model whose only job is to look good.  With a model like this I'd optimize for.... Looking good\n\nEdit: Sorry. Took the opportunity to sass you without offering actual advice which is something I try to avoid doing in general so I wanted to fix it.\n\nFor all the figurines that I've printed I've found that vertical or slightly angled works best.  For this one I'd probably just have gone with it standing on its feet and used tree supports.  What I've done in the past is start by letting it auto-generate supports and then start going in and paint out the ones that are clearly unnecessary until I'm happy with what I've got.  Putting this thing on a bit of an angle might work, but you'd probably be sacrificing a nice flat surface on the bottom of the feet which is going to be important unless you decide to add a plinth.  If you add some kind of flat surface beneath the feet then you could angle this model 35 degrees or so and probably improve the strength of some areas but it'll also probably give marginally worse print quality.",
+                                            "score": 43,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "LewdTateha",
+                                            "body": "That is new, never seen that",
+                                            "score": 38,
+                                            "replies": [
+                                                {
+                                                    "author": "LeftEyedAsmodeus",
+                                                    "body": "That's the newest update, I installed it yesterday, idk how old it is.",
+                                                    "score": 12,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "Dornith",
+                                            "body": "Support volume has no relationship to interface surface area which is what you really care about.\n\nMinimizing support volume is for reducing the amount of filament used. It can result in a lot of really small supports as it seems to have in your case.",
+                                            "score": 6,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Dirtydeagle101",
+                                            "body": "Fuckin\u2019 GOT EMM",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Professional-Paper75",
+                                    "body": "There\u2019s literally a setting that orients the model to require the minimum supports. I might be new, but I\u2019m not stupid",
+                                    "score": 26,
+                                    "replies": [
+                                        {
+                                            "author": "BoletaBola",
+                                            "body": "Perhaps this function is based on the amount of material that will be used, not fewer contact points, which would be ideal.",
+                                            "score": 16,
+                                            "replies": [
+                                                {
+                                                    "author": "Dornith",
+                                                    "body": "That's exactly what it is. It's minimizing \"support volume\" which has nothing to do with support interface.",
+                                                    "score": 11,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "stupefy100",
+                                            "body": "I think this is like a brand new feature which is why a ton of people are confused lol",
+                                            "score": 22,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "c4pt1n54n0",
+                                            "body": "But you want to adjust the interface gap as well as size, and maybe extruder temp and/or speed when troubleshooting support interface issues.\nSlicing for least support volume is good to save money, but that's about it.\n\nFor that to be helpful here it would need to also consider total support interface area, and would have to be a slicer setting that is dependant on support settings. You can change your support settings after orienting the part, so it has no idea what would be best.\n\nOf course printing with the flattest side down will use less support, but if it's not perfectly flat that whole side is going to have a thin bed of support that's possibly even stronger than normal since it sits at basically the same temp as the bed for the entire print. If you orient it standing up or some other more vertical position you'll minimize the total area that the support is touching the model, meaning bigger chunks wasted but they'll each come away more easily",
+                                            "score": 5,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Norgur",
+                                            "body": "Eealo? Cool. Which slicer has that setting?",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "Professional-Paper75",
+                                                    "body": "Creality",
+                                                    "score": 12,
+                                                    "replies": [
+                                                        {
+                                                            "author": "LewdTateha",
+                                                            "body": "You may have a unique setting, my bad, you said \"auto orient\" which by default in most slicers does not minimize supports\n\nOrca doesnt have that, nor prusaslicer, no bambu slicer, i just checked",
+                                                            "score": 5,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "snkdolphin808",
+                                                                    "body": "Bambu slicer does have auto orient, it's been there for a while now: https://wiki.bambulab.com/en/software/bambu-studio/auto-orientation",
+                                                                    "score": 1,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "LewdTateha",
+                                                                            "body": "No shit sherlock.... my comment even said \"most slicers only have default auto orient and not mimize support\"\n\nWe are SPECIFICALLY TALKING ABOUT the auto orient SUB-OPTION that allows reduced support, which is a CREALITY NEW FEATURE\n\nplease read entire comments?",
+                                                                            "score": 0,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "author": "Wisniaksiadz",
+                                                                    "body": "autoorient have couple of different setting for bassicly all but FDM printers",
+                                                                    "score": 0,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Norgur",
+                                                                            "body": "So for the majority of printers discussed here and the printer used by OP. Idk if fdm printers are the majority of printers in use overall, but if they are or not, they are a massive chunk of the 3d printing world., The words \"all but\" are doing some pretty heavy lifting in your sentence there.",
+                                                                            "score": 3,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "Wisniaksiadz",
+                                                                                    "body": "I just think its weird it is used for all but FDM printers while they could use it as well",
+                                                                                    "score": 1,
+                                                                                    "replies": []
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "Beware_the_silent",
+                                            "body": "And yet....",
+                                            "score": 1,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Beware_the_silent",
+                                            "body": "And yet....",
+                                            "score": 1,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "SoftwareSource",
+                                            "body": ">There\u2019s literally a setting that orients the model to require the minimum supports\n\nThis is incorrect, it has nothing to do with supports, it aligns to get the flat part on the bed, supports are generated after you orient it.\n\nIt's a rookie mistake a ton of people makes.",
+                                            "score": -56,
+                                            "replies": [
+                                                {
+                                                    "author": "lilrow420",
+                                                    "body": "Creality slicer literally has the option to do this and they posted it 10 minutes before you made a comment lol",
+                                                    "score": 24,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "Wisniaksiadz",
+                                                    "body": "its always funny when people are so sure about something that is just plain wrong",
+                                                    "score": 7,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Wisniaksiadz",
+                                    "body": "one of the basics for any printing software, if anything I am surprised its added to FDM's soo late",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Professional-Paper75",
+                            "body": "Thankyou everyone for the responses! I\u2019m learning a lot",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "No_Calligrapher8203",
+                            "body": "Try to set the distance of the spacing between support and object wider",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Hunter62610",
+                    "body": "Also cut up the model if possible. If the choice is between a seam and the support marks, i always choose the seam.\n\nYou can try torching the bad parts, the melting smoothes out somewhat.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "porkyminch",
+                    "body": "If you've got a printer that can do multi material printing (or a lot of patience and a model with only a few filament changes required) you can do PETG for PLA support interfaces and PLA for PETG support interfaces, too. I've gotten some really nice results with that trick. \n\nI've had decent luck with same-material support interfaces, though. Whatever settings Bambu uses by default seem to free up the model really easily.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "GettinGritty",
+            "body": "You can split the print in the slicer too and then glue it together after like a model kit too",
+            "score": 94,
+            "replies": [
+                {
+                    "author": "Professional-Paper75",
+                    "body": "Thats a good idea",
+                    "score": 16,
+                    "replies": [
+                        {
+                            "author": "applesap87",
+                            "body": "I find if you dip the part you're gluing in baking soda then a drop of super glue, hold it tight for a few seconds, that bond will never break",
+                            "score": 12,
+                            "replies": [
+                                {
+                                    "author": "Gullex",
+                                    "body": "I apply the super glue first, then sprinkle baking soda anywhere it's visible. Then light sanding.\n\nBut yeah baking soda and super glue are a combo made in heaven",
+                                    "score": 4,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "o_legolas",
+                                    "body": "Tell me more. Dip it in baking soda plus water?",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Gullex",
+                                            "body": "No. Just baking soda. It's an accelerant for super glue and also serves as a matrix to provide more structure and reduce brittleness.",
+                                            "score": 6,
+                                            "replies": [
+                                                {
+                                                    "author": "o_legolas",
+                                                    "body": "Awesome can't wait to try it!",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "-LeftHand0fGod-",
+                    "body": "https://preview.redd.it/g9qx4kugjipe1.jpeg?width=320&format=pjpg&auto=webp&s=4640e7b321c42f7a4af22c18c53d337810bcbbbb\n\nHappy cake day!",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "overclockedslinky",
+                    "body": "always slice models before slicing, as slicers do better with extra slices to slice",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "HaleyToast",
+            "body": "Is this print a dark souls \"green\" joke?",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "GtrDrmzMxdMrtlRts",
+                    "body": "Praise the sun",
+                    "score": 7,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "JTBBALL",
+            "body": "I support this post",
+            "score": 20,
+            "replies": []
+        },
+        {
+            "author": "fredl0bster",
+            "body": "r/FDMminiatures go here",
+            "score": 16,
+            "replies": [
+                {
+                    "author": "museolini",
+                    "body": "Is this some kind of support group?",
+                    "score": 21,
+                    "replies": [
+                        {
+                            "author": "maggotses",
+                            "body": "I see what you did there \ud83d\ude05",
+                            "score": 7,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "EvilDom001",
+            "body": "Could also try changing the z offset to 0.28 and just fiddle with that setting till they almost break off on the bed plate but support the model still.",
+            "score": 12,
+            "replies": [
+                {
+                    "author": "May0naise",
+                    "body": "As someone only starting to do the more advanced slicing stuff I have to ask, I assume you don't mean the bed leveling Z offset or is there a specific \"support: Z offset\" option? I also hate supports and that sounds like a nice solution",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "techmaster242",
+                            "body": "Yeah there's a setting for how much distance should be between the support and what it's supporting. It takes some tweaking to get it just right.",
+                            "score": 8,
+                            "replies": [
+                                {
+                                    "author": "May0naise",
+                                    "body": "Appreciate you!",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "DoDzilla_AI",
+                            "body": "Top z distance is the setting name. It adds a distance between the model and the support. If you set it to 0.2 mm, there will be a 0.2 mm wide empty space between the model and the support. This may help you to remove the supports easily but in some cases the support may never support the model ( due to empty space, this means your machine is actually printing on midair).",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "GoldSatisfaction8390",
+            "body": "I have had luck with a chistle. Use it to get under the lip of support interfaces and pry off chunks... CAREFULLY",
+            "score": 10,
+            "replies": [
+                {
+                    "author": "mrpbeaar",
+                    "body": "Same with an exacto",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "GoldSatisfaction8390",
+                            "body": "Exacto works good, but the edge is more brittle and the blade can snap",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "pruneman42",
+                    "body": "chisel\\*",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "halt-l-am-reptar",
+                    "body": "A sharp chisel is also great for cleaning layer lines.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "CaseFace5",
+            "body": "get yourself a little reciprocating sander. Its been a godsend for me cleaning up figurine and smaller detailed prop prints and is so much better than trying to sand by hand.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "teo----",
+                    "body": "Do you have maybe have recommendations for any? I looked at them but only saw ones that were 90 bucks or above.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "CaseFace5",
+                            "body": "There are some on amazon for around $30-$50 The red handled ones. Pretty sure they are all the exact same model but being drop shipped by different accounts. I got one of those and its not the most powerful thing but it definitely helps with smaller nooks and crannies. The one I purchased was from ANSAI for 52 dollars right now.",
+                            "score": 0,
+                            "replies": [
+                                {
+                                    "author": "GtrDrmzMxdMrtlRts",
+                                    "body": "Ebay*",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "matrix8369",
+            "body": "In your support settings, look for the number for \"Top contact Z distance\", I have good luck with always using \"0.25\" or \"0.28\", This should allow for supports to just break away cleanly. Do a few test prints and see what you think. This settings is the distance from the top of the support to the bottom of the printed object.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "postbansequel",
+            "body": "Then stop summoning phantoms and spirit ashes.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "DeepSoftware9460",
+            "body": "Supports work best at angles like 45 degrees, they are really bad once that angle gets steep enough. I also swore off tree supports, I've had the same issue numerous times but regular supports have helped me a bit.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "R-Dragon_Thunderzord",
+            "body": "https://preview.redd.it/5euuy6x3cipe1.jpeg?width=267&format=pjpg&auto=webp&s=6c836ca1ed20ac76e0c5b3a783b8a4573ba3a7d9",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "suyai91",
+            "body": "If you have a multifilament printer, try printing the supports in PETG. PETG doesn't adhere to PLA, but it will provide a support surface for the filament.\nI did it with the Wandaho D12 and the results were very good.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "MrFartyStink",
+            "body": "Set your top z distance for your supports. Look it up on youtube. i found .28 makes mine super easy but you gotta find what your printer likes with what filament",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "AroTheGoose",
+            "body": "If u print a lot of detailed figures, maybe a resin printer is the right call for you",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Jedi748",
+            "body": "Yeah I do 3 interface layers with the interlaced grid setting. (Orca slicer and these settings work best with normal supports)",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Exact_Rooster9870",
+            "body": "We've all been there, it sucks. It's also so hard to file or sand it away",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Jonhinchliffe10",
+            "body": "In prusa and orca theres the ability to have your supports a certajn distance (max 0.2mm) from the part, have you got the soluble supports setting on?",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "AcidicMountaingoat",
+            "body": "Organic tree supports have been really good for me in CP 6.  I get very little left behind.  I also tuned the filament and printer very carefully.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Xenuite",
+            "body": "I've actually had good luck printing miniatures (without bases) upside down. They tend to be more self-supporting that way, and you end up using less supports overall.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "SameScale6793",
+            "body": "For my supports I also set Top Z Distance (use Bambu Studio) to 0.275 and that helps a ton. I also have Bambu's Support for PLA I have the AMS switch to which makes them come off perfect.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "MasterBossofBoss",
+            "body": "Its a dps diff",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "_Mega_Zord_",
+            "body": "Do you have the Stl file?",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Altruistic-Map-2756",
+            "body": "This post is traumatizing-reminds me of the days before tree supports and before I learned to dial on the support gap!  Go away nightmare!!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "rire0001",
+            "body": "I've been testing/playing/wasting filament by printing the same goofy little dwarf figure over and over with different support structures. Never pleased",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "CheesePursuit",
+            "body": "Download orca slicer and watch Teaching Tech\u2019s video about it. Then never look back",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Mehdals_",
+            "body": "I know its a pain but continue to play with the advanced settings.  I finally got mine dialed in decent after following some of these tips [https://www.reddit.com/r/ender3/comments/e01p7c/some\\_tips\\_for\\_printing\\_supports\\_that\\_are\\_easily/](https://www.reddit.com/r/ender3/comments/e01p7c/some_tips_for_printing_supports_that_are_easily/)",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "wrenchandrepeat",
+            "body": "https://preview.redd.it/d9jwzh3slipe1.jpeg?width=1440&format=pjpg&auto=webp&s=8e4427dc3beb043864d0093aa1ab2dd79ca4f5f6\n\nThis guide has been AMAZING for supports. This user specifically created it for printing miniatures like this too. I've had the best luck with snug organic supports for this but I think with some tweaks to the base support layer and brims, trees would work just as good. I know a lot people swear by trees and in some cases they are way better but normal snug supports are my go-to. They print quicker too.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Relevant_Principle80",
+            "body": "Poor bastard got leprosy",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ValiumD",
+            "body": "Painted4combat and once in a six dice on YouTube is currently making some great progress in the FDM printing community. Check them out",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ppeterka",
+            "body": "There should be a support group for this.\n\nNo need, I'll show myself out...",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Pudi_Pudi",
+            "body": "There's been some videos lately about using resin support with FDM for printing minis, perhaps something to look into for your issue?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "YellovvJacket",
+                    "body": "You need to actually know what you're doing and manually support for that to work. \n\nThey're resin style supports, but not resin supports. They need to be as straight as possible (whereas resin supports are often angles multiple times) and significantly larger than the supports you'd typically use for a resin print.\n\nThey would help with OPs issue here, but it's a bit high of a barrier of entry.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "Pudi_Pudi",
+                            "body": "You're right, op does say he's pretty new \n\nAnd honestly I haven't tried yet, so can't say how hard it is, i mostly took a mental note to have a serious look when I get the time",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Cpt-Bean",
+                    "body": "This guy has made a tool for converting resin supports for use with FDM printers https://youtu.be/zZp-CLhH1Ao?si=MzfVj4yzSTJ2ZtmX",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "cheezit8926a",
+            "body": "I really haven't had this issue, I set my supports to be pretty thin where they connect to the model. Most medium-large models I don't even have to cut the supports I can just peel them off the model.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "gringo1980",
+            "body": "This link helped me: https://youtu.be/gd4eb8lDi5M?si=LgJmJ213i_wD5Pgf",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "RadishRedditor",
+            "body": "Supports aren't supposed to ruin the finish that much. Something is wrong with your printer and/or slicer settings.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "thegreatdecay406",
+            "body": "I would angle the model 20\u00b0 back and 20\u00b0 sideways and change your top Z height for supports.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Swipewary",
+            "body": "Sanding is the way to go\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Jack_Void1022",
+            "body": "Try changing the top z distance of the supports to 0.3 mm or just under that. they should just pop off",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Destroyer_742",
+            "body": "I found doubling the Support Z Distance makes them just pull off effortlessly.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Roskott",
+            "body": "After you minimize the support, try the sharpie trick!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "OriginalName687",
+            "body": "Try OrcaSlicer I\u2019ve had great experience with their default tree supports",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "flavioramos",
+            "body": "Looks like the new Bambu Lab H2D will have 2 extruders, so it will be able to print supports with different materials. I think that will make supports much easier to deal with.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Unmotivated_Brick",
+            "body": "Settings I use:\n\nExample of a character print like yours:\n\n[https://www.reddit.com/r/Warframe/comments/1jcfs9b/infes\\_3d\\_printed\\_aoi\\_and\\_a\\_mega\\_eleanor/?utm\\_source=share&utm\\_medium=web3x&utm\\_name=web3xcss&utm\\_term=1&utm\\_content=share\\_button](https://www.reddit.com/r/Warframe/comments/1jcfs9b/infes_3d_printed_aoi_and_a_mega_eleanor/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)\n\nHope it helps you\n\n(Support wall is 0.6mm)\n\nhttps://preview.redd.it/qg8cl6r1cipe1.png?width=492&format=png&auto=webp&s=8e1ac2223fc7ad063ed9a94440ec6241fc0c6127",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "t4nkstar",
+            "body": "I got a resin printer specifically for complex models like these. The amount of times I was left physically bleeding after taking off those stupid FDM supports\u2026 never again.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Aggressive_Peach_768",
+            "body": "You could just grab a hairdryer and maybe it smooths out a bit",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "cmuratt",
+            "body": "From what I can see, supports hate you too.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ScubaSteve131",
+            "body": "You can also make the support density 0% if you haven\u2019t already. Should break off easier",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MarvelTheSpaceWing",
+            "body": "I think the printer just hates you, should have printed it on the original orientation",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Chevey0",
+            "body": "Check out the sub r/FDMminatures they have some great support settings for printing high detail small prints",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Max_E_Padd",
+            "body": "I would most likely print this like he is standing using tree supportd.  That way any support that touches his body would likely be in an inconspicuous area.  99 percent of the time you'll be looking down at the model and not up.  Use that to your advantage to hide imperfections.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TaxesAreConfusin",
+            "body": "r/FDMminiatures",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "RepulsiveManner1372",
+            "body": "Lot of supports = ass in fire",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "katubug",
+            "body": "Don't give up, skeleton",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "guska",
+            "body": "Thought I was in the Overwatch subreddit when reading the title and though \"yep, must be Wednesday\"",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "JOSHasorus",
+            "body": "I'm not sure what that filament is, but if you're using PLA, you can use PETG as just the interface layer, and it pulls right away. Switch it if you're printing with PETG, and use PLA as the support interface layer. You will maintain the same filament for model and support. Only the interface layer will be different.\n\nThey won't merge completely at the interface layer, and you can separate that incredibly easily. Makes finishing the surface afterward trivial, compared to this, if you still want to finish it.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Professional-Paper75",
+            "body": "Thankyou for all the responses! I am learning A LOT",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Excellent-Tadpole-70",
+            "body": "You can also increase the support interface material so that it comes off as one piece",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "jgilbs",
+            "body": "PLA as support interface material for PETG. Or vice versa",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "JranZu",
+            "body": "I like to align them upside down - hair down - gives me the best results with supports usually",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "FractalDoom",
+            "body": "Using a blow dryer or heat gun can soften the supports and make breaking them away a tiny bit easier. Just be careful to soften them and not melt the plastic! Done that before haha",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Millerboycls09",
+            "body": "The replies on this post are engaging in some jolly cooperation",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SSJ_Tyler_27",
+            "body": "Could always sand/use filler and then paint",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Family_Hashira117",
+            "body": "For supports I always have the top Z distance at 0.275 instead of default. The supports come off with minimal force and barely leave a mark on the print. Maybe that will help you out",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Capzien89",
+            "body": "Soak it in warm water for a few minutes, they peel right off.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Bad_Mechanic",
+            "body": "Is this SLA or FDM?",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "Aggressive-Finish368",
+            "body": "just saying, i recently made the switch from a modified ender 3 pro FDM printer to a elegoo saturn 3 ultra resin/SLA printer and it's awesome. supports in resin are much less painful. and if they're problematic, i sand what remains of the support down pretty easily. i primarily use it for prototyping components as an engineering student, but i know people love doing figurines with them too... consider it!",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "CplHicks_LV426",
+            "body": "Your interface layer is bad and you should feel bad.",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "TWGAKGUY",
+            "body": "Im assuming this was a PLA print, when it comes to fine detail like figures or models like that I always do resin, if you do PLA make sure it's large enough, and use tree or hybrid supports, and print with the feet to the plate, i myself love Orca slicer, and it will even show you if it has a high chance to fail or you can add support blockers to minimize that issue",
+            "score": -1,
+            "replies": []
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "title": "Apple No Longer Hiding Apple Intelligence Storage Space Info in macOS 15.4",
+    "author": "Fer65432_Plays",
+    "subreddit": "MacOS",
+    "rank": 15,
+    "score": 97,
+    "upvote_ratio": 0.95,
+    "num_comments (reported by reddit)": 13,
+    "url": "https://www.macrumors.com/2025/03/17/apple-intelligence-storage-space-macos-15-4/",
+    "id": "1jdmuu8",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "darkbug3",
+            "body": "can we uninstall it ? i need those 5GB :)",
+            "score": 34,
+            "replies": [
+                {
+                    "author": "Magsec5",
+                    "body": "lol, never happening.",
+                    "score": 9,
+                    "replies": []
+                },
+                {
+                    "author": "W4ta5hi",
+                    "body": "Does timemachine reverse OS updates?",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Dry-Satisfaction-633",
+                            "body": "From memory yes but possibly no. I\u2019m not sure regarding Silicon-powered Macs and the \u201cmodern\u201d versions of macOS post-Catalina with regards to booting from cold into an installer, wiping the drive in Disk Utility and then running the restore from TM option. It used to work on Intel machines but obviously much has changed in the last few years and Apple seems to prefer the route of installing the latest macOS build via Internet Recovery and then subsequently restoring user data from a TM backup rather than restoring both user data *and* the OS to an earlier state, as you are essentially asking.    \n\n\nAs I said, a lot has changed in a few short years and we\u2019re a long way from the old days of replacing or upgrading storage before installing the OS version *you* wanted rather than Apple mandating that you use the latest build, ostensibly as much for security purposes as anything else, and not making it easy to simply rewind the whole computer to a previous state. At the end of the day it\u2019s how Apple operates and while the AI stuff should be optional it\u2019s here to stay so we\u2019re going to have to get used to it sooner or later, unless you plan on never updating your machine again of course.",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "DarthSilicrypt",
+                            "body": "Not on its own. You need to downgrade macOS manually (erase then install old version), then import your old backup.",
+                            "score": 6,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Hefty-Cobbler-4914",
+            "body": "I wish each app that required LLMs could dip into unified libraries rather than having to store several potentially identical packages on limited storage simultaneously. Have limited space on your HD? Delete apps with AI dependencies.\n\nWill Apple Intelligence be user-ready to justify consuming space by the time we reach the next major OS goalpost? What\u2019s the use case if users can\u2019t trust the results (at least I don\u2019t)?\n\nThis hype cycle has been such a disappointment.",
+            "score": 10,
+            "replies": []
+        },
+        {
+            "author": "Electronic-Duck8738",
+            "body": "Things that would be nice to know *before* I downloaded it.",
+            "score": 17,
+            "replies": []
+        },
+        {
+            "author": "tavarestudio",
+            "body": "14GB? I am downgrading...",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "Wizzythumb",
+            "body": "So an instant disable for me.\n\nNow if only there was a way to delete those default system background pictures that use even more gigabytes than Apple Intelligence...",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "overnightyeti",
+                    "body": "Do you mean the anumated ones? Most have to be downloaded. And then I noticed they had to be downloaded again if I wanted to use them. They probably get deleted in an update if not in use. Not sure though",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Mr_Gaslight",
+            "body": "That thing that doesn't work? Here's how much space it takes.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "overnightyeti",
+            "body": "I have always been able to see how much space it takes. How is this new?",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

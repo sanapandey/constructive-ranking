@@ -1,0 +1,92 @@
+{
+    "title": "NotW: Timer",
+    "author": "Bird_of_the_North",
+    "subreddit": "godot",
+    "rank": 10,
+    "score": 50,
+    "upvote_ratio": 0.94,
+    "num_comments (reported by reddit)": 11,
+    "url": "https://www.reddit.com/r/godot/comments/1jebwnb/notw_timer/",
+    "id": "1jebwnb",
+    "selftext": "**Node of the Week:** *A weekly discussion post on one aspect of the Godot Engine.*\n\nThis week's node: [Timer](https://docs.godotengine.org/en/stable/classes/class_timer.html)  <- *hyperlink to timer's docs*\n\nBring up whatever on the Timer node, but since this is the first post in this series let me offer some leading thoughts.  \n\\- When should you use await get\\_tree().create\\_timer(var\\_float).timeout instead of creating a Timer node?  \n\\- Ever find a Timer property work differently than how the docs described?  \n\\- Find any unique ways to utilize the aspects of Node and Object to make Timer better?",
+    "comments": [
+        {
+            "author": "m4rx",
+            "body": "Timers are great, but I learned the hard way timers are in real time, **not** frame time.\n\nI was using a timer node to spawn waves of enemies for the player, only *during my NextFest* demo watching players stream the game on Twitch I noticed that some players had ***waaay*** more enemies than others. This was because they were playing at a lower frame rate (30fps- vs 60fps+) and the timer kept counting in real time, but enemies kept moving in delta time.\n\nPlayers with performance issues had 2x more enemies than players with a stable 60fps frame rate.\n\nThe solution was to create my own timer using delta time as per forum [this answer](https://forum.godotengine.org/t/set-timer-wait-time-in-frames/14823/2).\n\nBut, the timer node is ***incredible*** and super useful, I use timers for ability cooldowns, invulnerability frames, and a handful of `await get_tree().create_timer(time_var).timeout`\n\nMy only proposal would be to allow a wait\\_time config variable to wait for frame\\_time or real\\_time\n\n**Also,** remember timers need to be added to the scene tree to start \ud83d\ude09",
+            "score": 25,
+            "replies": [
+                {
+                    "author": "baz4tw",
+                    "body": "Does changing the timer to physics processing (top option) sync it more with frames?",
+                    "score": 8,
+                    "replies": []
+                },
+                {
+                    "author": "SilvanuZ",
+                    "body": "WAIT WHAT \ud83d\ude25 I thought they are in frame time... omg nooo",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "SagattariusAStar",
+                    "body": "> kept moving in delta time\n\nIsn't delta not there to make enemies move the same regardless of the frame rate? \n\nAnd what should frame time even be? There is only one time, based on the internal timer. It's not that one second is different from the other. \n\nI think you made some conversion error somewhere else or used delta wrong, but otherwise, there should be no difference",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "m4rx",
+                            "body": "To clarify, enemies were moving half speed at half frames correctly because of Delta time. But the spawn rate essentially doubled because the timer node was real time not frame/Delta time.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "SagattariusAStar",
+                                    "body": "Enemies move 100 px per second, that's should be constant based on your delta time as your movement gets handled per frame. And if your timer spawns every second. There should be no difference.",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "m4rx",
+                                            "body": "As an example:\n\n>Enemies move 10px per frame, enemies spawn every 3 second.\n\n60fps (Stable):\n\n`180 frames = 180px moved at 3s`\n\n30fps (Unstable):\n\n`90 frames = 90px moved at 3s`\n\nUnstable framerates would have more enemies clumped up closer together greatly increasing the difficulty of [my game](https://store.steampowered.com/app/2862660/SurvivalScape/)",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "None",
+                                                    "body": "[deleted]",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "m4rx",
+                                                            "body": "The issue is movement *is* delta time based, but the timer was not.",
+                                                            "score": 2,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "medson25",
+                    "body": "Welp,, its time to refactor my spawning too, im glad i opened this thread lmao",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Future_Viking",
+            "body": "Love Timers.\n\nI usually use timers for debouncing if player input can risk being spammed (i.e a button press)\n\n```\nvar debounce_timer = Timer.new()\ndebounce_timer.wait_time = 0.5\ndebounce_timer.one_shot = true\nadd_child(debounce_timer)\n\nfunc _on_button_pressed():\n    if debounce_timer.time_left == 0:\n        print(\"Button Pressed!\")\n        debounce_timer.start()\n```\n\nThis would prevent player input from being registered within a 0.5s cooldown.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "baz4tw",
+            "body": "From my time with timers on [our game](https://store.steampowered.com/app/1927360/Mira_and_the_Legend_of_the_Djinns/):\n\n- await timers can be dangerous with state machines. If you leave a state while its timing out, it will run the remain code of the previous state afterwards (atleast with State Charts)\n\n- timer.start(1) to set a new wait_time (i think thats what its called), but it will set that as the new time until you change it back. So if you set wait time via code, don\u2019t count on the inspector setting anymore if it\u2019s needed\n\n- we particularly use an animation timer, where we set it with the length of the animation when we play a new anim. It provides some good conditions, i use it a ton",
+            "score": 5,
+            "replies": []
+        }
+    ]
+}

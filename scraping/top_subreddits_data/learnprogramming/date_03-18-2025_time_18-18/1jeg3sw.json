@@ -1,0 +1,440 @@
+{
+    "title": "Why do people enjoy programming",
+    "author": "Vivian-Heart",
+    "subreddit": "learnprogramming",
+    "rank": 3,
+    "score": 18,
+    "upvote_ratio": 0.75,
+    "num_comments (reported by reddit)": 70,
+    "url": "https://www.reddit.com/r/learnprogramming/comments/1jeg3sw/why_do_people_enjoy_programming/",
+    "id": "1jeg3sw",
+    "selftext": "I'm not a programmer but I am trying to learn enough so that I can make own website. I'm mostly a creative person who enjoys writing and art. Learning programming is hard, but what is the appeal of those who actually enjoy it? I guess I'm just trying to understand because I have a friend who codes and actually enjoys it which is interesting to me. ",
+    "comments": [
+        {
+            "author": "TsunamicBlaze",
+            "body": "I like solving logic puzzles. Coding/Debugging is just a big logic puzzle when you think about it. You just need to know the context before hand. \n\nIf you\u2019re trying to learn code, you need to start smaller, than scale. If your goal is too big, you\u2019re gonna burn yourself out before you get there.",
+            "score": 47,
+            "replies": [
+                {
+                    "author": "What_eiva",
+                    "body": "Did you say you enjoy debuging? Wanna debug my app \ud83d\ude22?",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "DrShocker",
+                            "body": "I like solving puzzles, I don't like untangling spaghetti. \ud83e\udd23",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Etheon44",
+                    "body": "Exactly my same reasoning, and why I moved from Marketing/Advertisement.\n\nI like challenge in my every day, and even tho some days can be too challenging/difficult, it is rewarding nonetheless.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "garciawork",
+            "body": "Its mostly constant problem solving, with some lovely dealing with difficult people and meetings thrown in. But the problem solving is really enjoyable.",
+            "score": 13,
+            "replies": []
+        },
+        {
+            "author": "NazzerDawk",
+            "body": "I'm probably a good person to answer this since I'm a hobbyist who programs for fun and not a professional. \n\nProgramming is a very pure form of creation. When you are engineering in actual materials, there are a lot of things you have to account for in real-world physics that get in the way, like materials, costs, production speed. But in programming, you can get instant results that behave exactly as defined. The only limitations are your own skill and imagination. Even moreso today, now that computers are so powerful that there's no real ceiling to what you can create except your own skill level and how much time you have. \n\nI'm a game developer, so for me any game I am making is an opportunity to imagine how things interact, what properties different things can have. I can take an existing idea and just alter it however I want. It's simultanously freeing, and a little bit scary, since truly there are no limits and that means that committing to any ideas can mean abandoning others. \n\nIt's also a very pure form of problem solving: computers do exactly what you tell them do. EXACTLY. To a fault. That means that if you tell it\n\n     do x until y = 0 \n\nthen it will. And if y never equals 0... then it will just loop that command endlessly. \n\n\nThere are hard parts, absolutely. Really, the whole thing is hard. Until it gets easier, and then suddenly you realize you can do something a bit differently and then... it's hard again. \n\nDon't get discourged, though. We live in a real golden age for programming. \n\nIf I can offer you a bit of advice: never copy paste code from anywhere and don't let AI do any work for you until after you are already mastering programming. Always type it out. That way you spend time really \"touching\" every part of the code, because while there are some things that you might not understand yet and that you can safely ignore for now, all of it (except comments) ultimately matters in the end to how the program runs and its presence or absense can be detrimental.",
+            "score": 12,
+            "replies": []
+        },
+        {
+            "author": "GusSLX",
+            "body": "Telling a bunch of silicon and metal to do exactly as you say is the closer we are to playing God.",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "d0rkprincess",
+                    "body": "I was literally thinking that I feel like a God when my code finally behaves.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Sad-Sympathy-2804",
+            "body": "Some people really enjoy solving problems",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "meisvlky",
+            "body": "the joy in programming is similar to the joy of making music. and i imagine drawing too. first you have to learn a little so you have something to work with, but from that point you have a lot of space for creativity. and as you learn more and more, you\u2019ll have better and better ideas.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "VALTIELENTINE",
+            "body": "Some of us are just masochists",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "sb4ssman",
+            "body": "For me: it\u2019s problem solving, it\u2019s building, and it\u2019s seeing computers do work. What\u2019s not to love? Is it continual and endless frustration? Sure, it\u2019s that too, but those fleeting moments where the computer does what you want are really rewarding.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "bink923",
+            "body": "It literally makes you feel like a wizard. Especially interfacing with hardware...\ud83d\udca6",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "wosmo",
+            "body": "Some food for thought - I really don't enjoy the stuff you'd consider creative. I really, really don't like when there's no correct answer, there's no right way to do it, etc.  What they called 'creative writing' at school makes me genuinely uncomfortable, I just agonize over everything because how am I supposed to find the right answer, when there isn't one?\n\nThere's every possibility you'll never find joy in programming, the same way I don't find joy in what you do.  Doesn't mean either of us are wrong, just that we'll find different ways to pass time.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "mjpcoder_type",
+            "body": "Def problem solving.\u00a0 It's like having a new puzzle to work out....every single day.\u00a0 You get sucked into it and you wonder how you ever functioned without it.\u00a0\u00a0",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "SensitiveBitAn",
+            "body": "Its pain when I dont know how to code or repair bug. Its heave when I finally know :D its just great satisfaction when you create somethink. \nCurrently I work on mobile app. Over 10k lines of code. Not that much for app, but still I'm proud when I see that it works :D",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "caatfish",
+            "body": "Because it lets me be extremely creative in many aspects. Taking an idea from start to finnish. I get to model the db, set up apis, design the frontend, even marketing, and everything inbetween. Its a great outlet for all my creative energy i so miserable failed putting into other hobbies.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "pixel293",
+            "body": "The joy/satisfactions of completing the task or solving the problem.  \n\nWhy do people do puzzles? For the pictures? Why do people knit? Do they really need more socks?\n\nHow much of rock climbing is for the view at the top?  I suspect it's more to be able to look at the cliff and say \"I conquered that!\"  Granted for rock climbing there is also the adrenaline of hanging off a cliff face.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Logical_Strike_1520",
+            "body": "I just like making stuff tbh. If I had the space and money for a shop I probably would have gotten into carpentry or something instead but alas, a computer and a dream was what I had and I worked with it lol",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "are_number_six",
+            "body": "I like solving problems and learning how to make things work the way I want them to. At this stage in my education, I have a never-ending flow of problems to solve.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Fickle_Bathroom_814",
+            "body": "What can I say?.. some of us just love to suffer",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "bink923",
+            "body": "It literally makes you feel like a wizard. Especially interfacing with hardware...\ud83d\udca6",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "bostonkittycat",
+            "body": "I see it as a game. Like a puzzle. I have to solve the puzzle and make it work. There is a satisfaction to completing puzzles.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "PotemkinSuplex",
+            "body": "I don\u2019t make sites, that stuff if more visual. \n\nI do simple python and a program is a big problem to be solved. You separate it into a lot of small problems - and then solve them. Solving them and getting the results you expect feels rewarding. Then you get a program, which consists of smaller parts, and something doesn\u2019t work right. You tinker with how they connect to each other and test them by themselves, isolate the part that doesn\u2019t work right and then everything works - and you can move to another big problem. That\u2019s rewarding too.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "cosmic_animus29",
+            "body": "For me, its problem solving which includes the frustration when getting stuck, persistence when somebody belittles you (there are a lot of cocky assholes in the tech world) and motivating yourself to learn more despite failing (spite is a very powerful motivator btw. LOL).",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Suspicious-Bar5583",
+            "body": "Just logic and organizing. It's the only zone I can be a pedantic lil shit without repercussions.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "yyellowbanana",
+            "body": "Like playing puzzle. \nThe feeling when you solve a problem is sweet\u2026\nThe feeling when you see something work without knowing \u201cHOW\u201d???\nThe knowledge of understanding how entire systems works",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "bbrother92",
+            "body": "I see 500 unsorted files, I write program it goes binary boom boom - I am happy - no work all play - me happy",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "simonbleu",
+            "body": "Like with cooking, I don't enjoy the task, I enjoy the results",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Daily_Code",
+            "body": "Solving puzzles, problem solving. Knowing what I make, other people are using to get necessary jobs done.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Early_Economy2068",
+            "body": "I consider myself to be a more \"liberal arts\" minded person as well but I really enjoy programming. It feels like trying to solve a puzzle, where I'm competing against my own intellect. Not super thrilled when it intersects with mathematics but that's just how it be sometimes.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TizianoGecko",
+            "body": "Make a website HTML/CSS (and libraries) is not programming, it's drawing. Programming is making business logics, declaring behavior in a wider sense. Then, for your question, it depends. Programming is reasoning and acting, like other hobbies. Working as a programmer is another completely different story...",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "neuralengineer",
+            "body": "Being lazy. I am lazy so I code to solve some problems without moving my couch. Also I don't want to do repetitive tasks so I write small snippets for automating them.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "csabinho",
+            "body": "Because my drawing skills didn't improve since the age of 4. And my coordination is quite bad as well. So that's the only nice way to be really creative.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "leastproestgrammer",
+            "body": "Programming is an art form to me cause everyone has the same materials, yet we all do it differently. It's a healthy challenge and you can basically create anything. That's why it's fun to me, it's virtually limitless.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "CuriousSystem4115",
+            "body": ">Learning programming is hard\n\nThat makes it fun. \n\nI am stupid but programming makes me feel smart.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Iowa50401",
+            "body": "I like the idea of having a problem I want solved and have the power to create the solution.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ponchoacademy",
+            "body": "Jumping on the problem solving train.... I think it's a lot of fun, I love the challenge, the more frustrating and difficult the problem is, the more satisfying it feels when I finally figure out a solution.\n\nWhen I come up against a challenge, not just coding... anything... I get excited for the chance to solve the mystery and figure it out. Oh and on that note, I love a good mystery. Also, before settling on tech, I seriously considered forensics.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Zesher_",
+            "body": "So everyone is saying problem solving, and yeah that's a thing, but for me I just like making cool shit. Many millions of people use the software I wrote every day, and I think that's awesome. I wrote some software that only my friends and I used to do some planning for games, and that was awesome too.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "notislant",
+            "body": "Solving issues for some.\n\nJust creating solutions to problems for some. I like having an issue or something to automate on pc.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "superwavyman",
+            "body": "i like programming because of the high it gives me when i solve a problem. however that high isn\u2019t enought to keep me going. what brings me joy is being able to code the ideas in my head. ive always wanted to write an anime/cartoon. even though ive been told by friends, family and  professors I was a good writer, it didnt bring me joy. my guess is because when im done writing all i see is words. so then i pivoted to coding and turning my cartoon/anime into a game. i figured that when im done writing some code, i would be able to actually see the images i imagine in my head. i figured right. now ofcourse i still need to make pixel art to perfect my vision but even a world of simple shapes is inspiring to me. thats why i enjoy programming.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "captainAwesomePants",
+            "body": "For me, it's about solving puzzles, the joy of figuring out how to make the computer do stuff, the act of creation, and the creativity of deciding how I want things to work and how to make them do those things. It's like regular creativity except there are logic puzzle minigames, which makes them way more fun!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Beginning-Fig-1279",
+            "body": "I've never really asked anyone else the question, so interested to see what ofher people write.  I knew I wanted to major in CS and code when I finished my first linked list assignment in C++ and it worked (and no I am not a savant when it comes to coding).  The euphoria was better than any drug.  I will still occasionally get this, but only when building something that I view as truly complex.  There is something about taking an abstract idea and making it real that just pulls me in.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "zoharel",
+            "body": ">I'm mostly a creative person who enjoys writing and art. Learning programming is hard, but what is the appeal of those who actually enjoy it? \n\nYou already understand and just don't realize it yet.  Learning to play an instrument is hard.  Learning to draw or paint is hard.  Learning to write is hard.  Why do people enjoy it?  In some sense, software can be just another medium for your art, or artisanship at least.  Yes, it takes skill or at least a good bit of practice.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Much-Tea-3049",
+            "body": "the same reason one would feel joy at having created the plans for a building and seeing its construction completed. The same way you feel when a piece of art is complete.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "FrIedSushii",
+            "body": "building small stuff that work together in big, complex ways makes me feel a certain type of way",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Kezyma",
+            "body": "The actual development process isn't particularly enjoyable to me. The results certainly are though, I really struggle sometimes to imagine how people can live without it.\n\nWhenever I'm curious about something, I can just go solve it. for example recently I've been curious about how good MotoGP riders are when separated from bike performance, so I threw together a web scraper to grab results, implemented a rating system to separate performance and ran it. Excluding the fact I already had libraries written for some of this stuff, it only took an evening and I had a 'good enough' answer to my curiosity.\n\nIf I didn't know how to do this, I don't really know what I could have done to answer that question. Maybe slowly crawling through wikipedia, copying results into excel and then a liberal use of formulas to calculate some kind of simple ratings? It'd have taken ages just to manually extract that data though and is far more effort than it's worth.\n\nI also do a 'picks league' for UFC events with a few friends, with our own points system. Because I know how to, I was able to put together a little web app that presented all our picks, results, breakdowns by event, individual stats and records, and pop it up for everyone to be able to look at. Something like that wouldn't have been possible if I'd never become a developer.\n\nThere's also more practical stuff, whenever there's a particular repetitive task I need to perform, I always have the option to write something to automate it so I can do something else with my time instead. I couldn't tell you how many times I've written quick one-off command line apps to do a job for me.\n\nConsidering how easy it is to learn, and the numerous practical uses, I can't imagine what life would be like without it.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "RolandMT32",
+            "body": "For me, the enjoyment is solving puzzles, as well as making something that performs a useful task, makes a task easier, etc..  I think it's similar to any other job that requires making something.  I like seeing that I've made something that performs a useful/enjoyable task for someone.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Aggravating-Okra-318",
+            "body": "It's a sliver of the world that I have control over.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "KimballOHara",
+            "body": "The joy of getting something useful to work (particularly when you care about the application and doing it for free / unpaid) is pretty great. When things click and you made something give you an answer from another part of the world, feels cool man",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "gm310509",
+            "body": "I like the challenge of it.\n\nBut there is also some weird sense of power  or satisfaciton (im not sure exactly) being able to control a complex machine to do what you want it to do.\n\nEspecially large machines like thousands of nodes in a big data cluster operating on trillions of data points to produce some meaningful insights into whatever the data is representing or controlling a robot or better yet, setting it up to operate semi-autonomously.\n\nOf course there is often plenty of \"Panedol moments\" leading up to those - which makes the \"success\" moment all that more special.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Sol33t303",
+            "body": "It's solving puzzles, but your actually doing something useful when you solve them.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "pidgezero_one",
+            "body": "23 years hobbyist, 10 years professional: it makes me feel like a god to know i can just make cool stuff by myself whenever i want",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "IncognitBrave",
+            "body": "programming is like to learn another language, so is difficult, but it\u00b4s the enjoy part",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Then-Boat8912",
+            "body": "Problem solving. With AI now it\u2019s more about system and design problem solving.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "sproots_",
+            "body": "It's a different kind of itch to creative work. It's a series of puzzles. The types of puzzles range too, from something closer to a sudoku all the way through to an escape room.\n\nFWIW I constantly struggle with design, and coming up with unique visuals for my coded work (react / react native). What I mean by this is a lot of people have the inverse struggles that you mention - they're deep in the coding trenches and struggle with the create, artistic side.\n\nStick with it for a little bit, and see if it starts to click for you. Something I still remember about when I started coding is the mentality shift; Prior to coding, there were problems in my professional life that just couldn't be fixed (e.g. a journalist doesn't want to cover your story). In the coding space, most anything can be done - it's on you to learn it. A fun challenge :)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "michiel11069",
+            "body": "i like making stuff, nothing about programming before has ever interested me enough to keep learning, except modding minecraft, which requires java.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Kpow_636",
+            "body": "Becarful maaan, \n\nI too was a creative, working in the film and VFX industry as a character animator, and one day I too, decided I wanted to try build a website, well, it became an addiction, and 4 years later I suddenly work as a software developer, trying to build a website changed my career trajectory, and I discovered a new passion, building stuff! The interesting thing is that creativity also exists in programming,\n\nIn a weird way it sometimes makes me feel like I am playing moded minecraft, building little systems and automations, it's fun, and frustrating, and extra fun when you finally get things to work, like tonight at 1am, I finally got push notifications to work on my mobile app, and it feels good to watch it all work and finally make sense.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Vastroy",
+            "body": "I\u2019m also similar where I wanted to be a graphic designer but decided to go into cs because I was under the impression that the ability to create anything means that you can express creativity. \n\nIt\u2019s mainly more problem solving tho and it kinda sucks because I want to turn my brain off or be able to go auto pilot. I hate thinking hard.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "exploradorobservador",
+            "body": "Problem solving and creating. You can build something that is used around the world in a way that is pretty hard to do in any other medium.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BobbyThrowaway6969",
+            "body": "If you enjoy sandbox games like factorio or minecraft, that's what programming feels like to me. Building stuff and making it work efficiently is a lot of fun, and to get paid for it... amazing.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "kikazztknmz",
+            "body": "Some of us just love numbers, logic, and are masochists. It beats us over and over again, and we just aren't able to stop until we figure it out. But when we finally figure it out....holy fucking shit! Such a rush. Then we torture ourselves all over again, lol.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Blissextus",
+            "body": "It's solving problems and/or building. Some treat programming like a puzzle while others use their time to build something new, or cool. Programming is no different than creating art. Even learning programming can be fun. Play around with the code. See what your code can and can't do. Discover what it takes to break code. Discovery can be fun too!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Samantha-Saladfork",
+            "body": "It's fun to figure out how to accomplish a task with the toolset at hand",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Delicious-Hair1321",
+            "body": "Learn enough to make your own website? Huge waste of time.",
+            "score": -4,
+            "replies": [
+                {
+                    "author": "AMIRIASPIRATIONS48",
+                    "body": "How, why?",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "jaqualan",
+                    "body": "elaborate",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Delicious-Hair1321",
+                            "body": "Didn\u2019t even want to waste me time explaining. But here you go.\n\nFor her to learn enough programming to make his website it might take 50-100h being very conservative. If his salary for whatever job he does right now is 20$ per hour, that means that website would cost her 2000$. With that amount of time(money) you better pay 200$ for someone to make you a good website and spend your time somewhere else.\n\nThis is considering that the whole purpose of learning programming is making his own website.\n\nSame way when you want to buy a burger you don\u2019t learn how to raise cows and make bread just to end up spending 10k making a burger. Instead you would go to a burger shop and pay 5$.\n\nIf someone doesn\u2019t even thought about this, they aren\u2019t worth me wasting my time explaining it to them. That\u2019s why I didn\u2019t even bother elaborating.",
+                            "score": -2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "None",
+                    "body": "[deleted]",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Delicious-Hair1321",
+                            "body": "Didn\u2019t even want to waste me time explaining. But here you go. \n\nFor him to learn enough programming to make his website it might take 50-100h being very conservative.\nIf his salary for whatever job he does right now is 20$ per hour, that means that website would cost him 2000$. \nWith that amount of time(money) you better pay 200$ for someone to make you a good website and spend your time somewhere else.\n\nThis is considering that the whole purpose of learning programming is making his own website.\n\nSame way when you want to buy a burger you don\u2019t learn how to raise cows and make bread just to end up spending 10k making a burger.\nInstead you would go to a burger shop and pay 5$.\n\nIf someone doesn\u2019t even thought about this, they aren\u2019t worth me wasting my time explaining it to them. That\u2019s why I didn\u2019t even bother elaborating.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1239 @@
+{
+    "title": "If AI can code better than humans, why are Anthropic/OpenAI still hiring software engineers?",
+    "author": "Key_Effective_7504",
+    "subreddit": "learnprogramming",
+    "rank": 4,
+    "score": 124,
+    "upvote_ratio": 0.74,
+    "num_comments (reported by reddit)": 194,
+    "url": "https://www.reddit.com/r/learnprogramming/comments/1je0wau/if_ai_can_code_better_than_humans_why_are/",
+    "id": "1je0wau",
+    "selftext": "I keep seeing interviews with Anthropic\u2019s CEO and OpenAI\u2019s CTO saying their models will soon code better than human software engineers. Cool, right? But then I go to their career pages, and they\u2019re\u00a0*still*\u00a0hiring loads of software engineers.\n\nSo, what gives? If AI is about to replace human coders, why do they need to hire more of them right now? Are they just trolling us?\n\nI\u2019d love to hear your thoughts. Let me know if I\u2019m missing something here.",
+    "comments": [
+        {
+            "author": "apro-at-nothing",
+            "body": "it's bullshit lmao\n\nit's faster than humans at creating things that have been done many times before, but whenever you ask it to make something new it starts breaking down. and that's exactly what software engineers at those companies do. they're making breakthroughs and making something new, not trying to redo the same project for the billionth time with features people have seen before.",
+            "score": 491,
+            "replies": [
+                {
+                    "author": "Legitimate_Plane_613",
+                    "body": "Shit, I ask it to code quick sort and it gives me something that doesn't even compile.",
+                    "score": 85,
+                    "replies": [
+                        {
+                            "author": "gm310509",
+                            "body": "LOL Maybe that is a punctuation thing that is too sophisticated for its \"I\" to process\n\n\nPerhaps It quickly (and thus erroneously) coded a sort (i.e. code quick: sort), rather than carefully coding a \"quick sort\" (i.e. code \"quick sort\")! \n\n\ud83d\ude09\ud83d\ude0a",
+                            "score": 7,
+                            "replies": [
+                                {
+                                    "author": "Veggies-are-okay",
+                                    "body": "This this this THIS. People take note. For better or worse, the LLM does EXACTLY what you prompt it to do!",
+                                    "score": -4,
+                                    "replies": [
+                                        {
+                                            "author": "not_a_bot_494",
+                                            "body": "A LLM very specifically doesn't do exactly what you prompt it to do. It does what is the most probable response to your prompt.",
+                                            "score": 6,
+                                            "replies": [
+                                                {
+                                                    "author": "Veggies-are-okay",
+                                                    "body": "GPT-2 did this. There\u2019s an attention layer that tends to smooth out the different phrasings in your question. \u201cPredict the next token\u201d is the exercise I did in grad school half a decade ago.",
+                                                    "score": 0,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "HolyPommeDeTerre",
+                                            "body": "Can you ask him to code slowly a quick sort?",
+                                            "score": 5,
+                                            "replies": [
+                                                {
+                                                    "author": "Veggies-are-okay",
+                                                    "body": "Probably not with that phrasing.\n\nMuch better: \u201cCreate the \u2018quick sort\u2019 algorithm step-by-step [I.e. \u2018slowly\u2019] and explain how each part of the algorithm is relevant to each concept implemented.\u201d",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "HolyPommeDeTerre",
+                                                            "body": "That's not what I want. I want it to write slowly :). \n\nWhen I ask for a \"quick sort\" there is no way for it to write it more quickly. There is no \"quick\" as there is no time for it. It can't understand the meaning of what I am saying even if it has all the definitions of time. So the only possible answer contextually is that I am asking for a specific kind of sort. Not for it to try to be smart with 60 IQ... Knowing its own limits is very important.",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Veggies-are-okay",
+                                                                    "body": "I\u2019d also argue that you\u2019re anthropomorphizing the LLM with that request. My version of \u201cslow\u201d is conveniently at the pace of the LLM. In my interpretation, \u201cslow\u201d is also considered as taking frequent breaks.\n\nYou can\u2019t just say \u201cdo xyz\u201d expecting it to have your experience. I guess we\u2019re arguing the same here thing now?",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Cephalopod_Joe",
+                            "body": "I've had it completely hallucinate nonexistant linraries for me lol",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "MissinqLink",
+                    "body": "People still telling me that engineers are on the verge of being replaced.",
+                    "score": 33,
+                    "replies": [
+                        {
+                            "author": "SakanaToDoubutsu",
+                            "body": "The rise of \"AI\" has to be one of the greatest marketing campaigns of all time. *\"Experts warn our AI model is on the verge of collapsing governments and ending democracy as we know it, just think what it can do for your marketing stack!\"*",
+                            "score": 12,
+                            "replies": []
+                        },
+                        {
+                            "author": "apro-at-nothing",
+                            "body": "yeah maybe if the engineers in question are just trained monkeys but if you're able to make your own code without copy-pasting code you don't understand from stack overflow then you're good",
+                            "score": 39,
+                            "replies": [
+                                {
+                                    "author": "Popular_Brief335",
+                                    "body": "lol you don\u2019t make you\u2019re own code though everything you have done has been done one way or another. You just implement it differently\u00a0",
+                                    "score": -6,
+                                    "replies": [
+                                        {
+                                            "author": "VokN",
+                                            "body": "And that\u2019s the part that ai can\u2019t do, optimisation to niche use cases is the entire job",
+                                            "score": 20,
+                                            "replies": [
+                                                {
+                                                    "author": "Popular_Brief335",
+                                                    "body": "lol 99.99% of devs can\u2019t do it. Ai can allow the other .01% to actually do shit\u00a0",
+                                                    "score": -16,
+                                                    "replies": [
+                                                        {
+                                                            "author": "VokN",
+                                                            "body": " I\u2019m a lawyer and statistician (in house tax so I wear lots of hats) so not exactly the same but 90% of my coding is making the most twisted up nonsense infrastructure or data sets work and having to rework tools and macros as a result\n\nAI is practically useless outside of the most vanilla test beds in my experience, useful for feeding me ideas of unique implementations if I\u2019m stumped but not really able to deliver anything final",
+                                                            "score": 14,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Popular_Brief335",
+                                                                    "body": "I\u2019ve done dev work for over 15 years. I\u2019m a principal security engineer by trade.\u00a0\n\nI can make AI shit out high quality products in no time.\u00a0\n\nWhile 99.99% of devs don\u2019t even pin GitHub action commit hashes and just use floating version tags. It\u2019s a skill issue using ai at the end of the day\u00a0",
+                                                                    "score": -7,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "DeathByExisting",
+                                                                            "body": "So... you're telling me, it requires a knowledgeable and trained human to pull out good code from AI?",
+                                                                            "score": 9,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "Veggies-are-okay",
+                                                                                    "body": "Well yeah but that\u2019s just like the ways card used to be\u2026 a mechanic had to take apart the engine to figure out what happened. Then we got a little more autonomous with the \u201ccheck engine\u201d light and code reader, and now we\u2019re at a point where mechanics are clacking away at computers to troubleshoot a car\u2019s problems. There\u2019s always gonna be a human in the loop. BUT the ways we interact with our code (cars) will change as technology gets better. Better start learning how to use our check engine reader before we end up making another jump!",
+                                                                                    "score": 4,
+                                                                                    "replies": []
+                                                                                },
+                                                                                {
+                                                                                    "author": "Popular_Brief335",
+                                                                                    "body": "Trained human to understand how ai works to tell ai what to do. A valid useful makefile goes a long way to guide an ai agent in the correct direction.\n\nThe real problem is most ai models are trained on GitHub code \ud83d\ude02",
+                                                                                    "score": -1,
+                                                                                    "replies": []
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "author": "NationsAnarchy",
+                                                            "body": "?",
+                                                            "score": 3,
+                                                            "replies": []
+                                                        },
+                                                        {
+                                                            "author": "apro-at-nothing",
+                                                            "body": "i'd just like to interject here for a second, my gf recently got a job at a server hosting startup where they try to use extremely bleeding edge technology, and despite all of it being out in the public and available to learn and use for free, their entire team has basically agreed that for all their work AI is basically just a fancy rubber ducky.\n\ni've worked with some of the technologies they use in my free time too, and it's honestly kinda funny seeing AI try so hard to understand Nix code while obviously grasping at straws and not knowing jack shit about it lmao",
+                                                            "score": 2,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Popular_Brief335",
+                                                                    "body": "Why on earth does the ai agent not have search abilities and important context + rag in use?\u00a0\n\n\nSounds like a skill isssue\u00a0",
+                                                                    "score": 1,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "apro-at-nothing",
+                                                                            "body": "trust me. they've tried all the most popular AI development tools with most effort I believe put into Cursor/Zed x Claude. it did not go well. i don't know what skill issue there is, i don't know what sort of... presumably legacy tooling you use at your job, but for anything even remotely modern AI is really not there yet lmao",
+                                                                            "score": 2,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "Popular_Brief335",
+                                                                                    "body": "Cursor is super trash so that checks out.\u00a0\n\nTry roo code or cline (more noob friendly)\u00a0\n\nConfirmed: skill issue\u00a0",
+                                                                                    "score": 0,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "apro-at-nothing",
+                                                                                            "body": "sure i'll try it once i get home and see how much it shits the bed lmao",
+                                                                                            "score": 3,
+                                                                                            "replies": [
+                                                                                                {
+                                                                                                    "author": "Popular_Brief335",
+                                                                                                    "body": "Correction how much you shit the bed. It\u2019s working for many people so if it doesn\u2019t work for you. It\u2019s a you problem. Just another skill gap among many. As if software engineers needed more things they lack skill in but here we are.\u00a0",
+                                                                                                    "score": 0,
+                                                                                                    "replies": [
+                                                                                                        {
+                                                                                                            "author": "apro-at-nothing",
+                                                                                                            "body": "idk bestie, all my friends have had the exact same experience as me and many of them are pretty well respected and skilled coders that actually get shit done and it's usually the AI that holds them back\n\ni remember trying to draft a very basic idea using AI for the first time in a while and it took me like half an hour until i gave up and tried to come up with an idea myself (i literally just wanted to write an effect for my personal website that kinda mimicked the macOS dock for my socials, though, admittedly, asking AI to make visual effects like that is probably incredibly stupid, even though it's been done a billion times before)\n\nalso consider dropping that attitude you seem like an unbearable human being to be around",
+                                                                                                            "score": 5,
+                                                                                                            "replies": [
+                                                                                                                {
+                                                                                                                    "author": "Popular_Brief335",
+                                                                                                                    "body": "I attempted the passive nice approach for a long time. It doesn't work people will just ignore it and move on with their echo chamber. Facts and data rarely matter on Reddit. \n\nI would expect most programmers to struggle. They typically lack the cross domain knowledge to be successful. Hence why most people's github code is horrifically bad. \n\nDo you understand Assembly? Do you understand how memory works on Linux, Windows and Mac? Do you understand file systems in depth? Do you understand networking in depth? It's a super long list of skills you need to be successful. If you have any weaknesses AI will go off on it's own because you don't guide it with a proper end to end plan and structure. The code base is trash and has duplicate shit every where with zero comments and shit docs and shit tests.",
+                                                                                                                    "score": 0,
+                                                                                                                    "replies": [
+                                                                                                                        {
+                                                                                                                            "author": "apro-at-nothing",
+                                                                                                                            "body": "well yeah because your only \"facts and data\" are, in this argument, your own experiences, and so i'm arguing with mine. i don't know what kind of ancient low level crack you're injecting into your veins over there but i don't think most software engineers in the modern day and age need to know those things. most apps and programming languages nowadays rely on fairly standardized cross-platform languages and technologies that i've never ran into an issue with ANY of the things you've just mentioned with. i genuinely wonder what you consider bad code.",
+                                                                                                                            "score": 4,
+                                                                                                                            "replies": [
+                                                                                                                                {
+                                                                                                                                    "author": "Popular_Brief335",
+                                                                                                                                    "body": "Bad code would be code written without a risk factor involved. \n\nStep 1: make it work  \nStep 2: make it look nice etc\n\nNow everything has a business factor or type of cost. So generally you accept some risk to output something. Even a lot of planning etc for a new product features will have to be picked and other things set like code standards etc. \n\ngood code = does the job  \nwell written code may or may not do the job  \nbetter code = does the job and is written well  \ngreat code = documented, secure code, mock test design driven, no duplicate code, efficient use of resources, CI/CD, User friendly design and easy to use. Good logging etc, best in class for use case  \nperfect code = doesn't exist because everything has vulnerabilities and doesn't have everything else above already going for it. 100% coverage unit/integration etc (which time/money make basically impossible without AI helping) \n\nNow a lot of people get lost in this process. Some engineer teams will decide they need 80% code coverage in unit tests over everything, no matter what. Despite google having research that it depends on the languages and core use of them. Important things need to work but the business needs to make money and not go down. So it's a balance. \n\nDeepkseek is a good example of a team that did good engineering but deployed the website without proper database protection causing major issues and more trust impact. \n\nHowever that doesn't mean all teams need to have Voyager 1 level code that can run for 40 years without touching it either. That's an expensive process to plan out and a lot for stability over everything else. \n\nI've seen security people make similar mistakes and forget it's a business and you can't spend 1 million dollars to make 1 million dollars. \n\nI could go on with more examples of how it's a balance of risk but I think you get the point.",
+                                                                                                                                    "score": 1,
+                                                                                                                                    "replies": []
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "TDVapoR",
+                                            "body": "yes but we also have the ability to check whether it actually fucking works",
+                                            "score": 7,
+                                            "replies": [
+                                                {
+                                                    "author": "Popular_Brief335",
+                                                    "body": "So does my Ai agents \ud83d\ude02 but I trust that verification about as much as I trust developers to do it. It\u2019s just a lot cheaper and faster for Ai to do it\u00a0",
+                                                    "score": -8,
+                                                    "replies": [
+                                                        {
+                                                            "author": "TDVapoR",
+                                                            "body": "but it's not cheaper or faster because you have to actually spend time checking whether things work the way they're supposed to",
+                                                            "score": 10,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Popular_Brief335",
+                                                                    "body": "no I don't. Sounds like a you problem.",
+                                                                    "score": -2,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Tdude179",
+                                                                            "body": "As an actual software engineer, id love to pick apart your supposedly complex, secure, working AI generating code.",
+                                                                            "score": 10,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "Popular_Brief335",
+                                                                                    "body": "You know they have tools and automation that does that better than you right? That's not AI?\n\nSecurity checks static and Dynamic? Check  \nLint and formatting? Check  \nCode Style? Check  \nCode maintainability? Check  \nCode Duplication? Check  \netc...\n\nWhat do I need you for?",
+                                                                                    "score": -3,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "gmes78",
+                                                                                            "body": "lmao",
+                                                                                            "score": 1,
+                                                                                            "replies": []
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "pixel293",
+                            "body": "Same story, different day.",
+                            "score": 6,
+                            "replies": []
+                        },
+                        {
+                            "author": "navis-svetica",
+                            "body": "AI helps engineers be more productive, but given the choice between hiring fewer engineers to do the same amount of work or hiring more engineers to do even more work than ever before, most big companies will opt for the latter.",
+                            "score": 6,
+                            "replies": []
+                        },
+                        {
+                            "author": "moonluck",
+                            "body": "In reality the same thing that has been happening in many industries is happening to engineers. Make them fear for their jobs and make them work the job of 2 or 3 people until they burn out then hire one of the other people who was laid off before cheaper.\u00a0",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "grantrules",
+                            "body": "> People still telling me that engineers are on the verge of being replaced.\n\nPeople say all sorts of shit.",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "Mike312",
+                                    "body": "Yeah, turns out you can just get in front of an audience and say shit.",
+                                    "score": 3,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "PeanutButterPorpoise",
+                                    "body": "The problem isn't that LLMs are better than people, it's that people who make these decisions believe it. \n\nIf they believe they can replace a chunk of their workforce with these models, they'll do it, overwork the people that are left to make up for it, give the credit for savings to AI, and repeat the process until something breaks.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Yapnog2",
+                            "body": "You're the type that will get replaced first if you believe that lol",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "Milky_Finger",
+                            "body": "The bottom half, the Manchester United of SWEs, are the ones at risk.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "froli",
+                            "body": "There are. But wrongfully so. Senior management that know jack shit about IT are eating up the hype and will soon regret it",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "shrodikan",
+                            "body": "I have been a Software Engineer for 25 years. It's affecting junior developers and new graduates right now. They can't replace senior engineers yet. Malls still exist in the age of Amazon but it is a slow death. Once GPT o(4?) exists our death will be hastened. I look at it as a matter of time.",
+                            "score": 0,
+                            "replies": []
+                        },
+                        {
+                            "author": "Procrastin8_Ball",
+                            "body": "Why do people arguing with this? Engineers are bring replaced which drives up unemployment and wages down.\n\nEdit: you guys down voting are straight up delusional",
+                            "score": -11,
+                            "replies": [
+                                {
+                                    "author": "Far_Broccoli_8468",
+                                    "body": "I don't know what your background is or how many years of experience you have in programming or software engineering...\n\nbut i can tell it's not much. Anyone i know who ever used the tools generative AI provides eventually came to the same conclusion. It's good for basic cases but utterly useless for anything complex.",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "snmnky9490",
+                                            "body": "You mean like everything junior programmers would be doing?",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Far_Broccoli_8468",
+                                                    "body": "please, gen AI could barely even function properly in my university assignments outside repetitive tasks and generating testing data",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "angry_noob_47",
+                                            "body": "So far.... The hype around AI is strong enough where management is eating it up and driving out engineers/programmers. Check the Google 60 hour week offer, meta and msft firing people last 3 months. Don't be so confident because a 3 year experienced person with moderate working knowledge and good theoretical background CAN do at least 2 engineers job now in terms of productivity. No one expects a fresh graduate to have the experience so life is much harder for new people",
+                                            "score": 0,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Procrastin8_Ball",
+                                            "body": "I can tell you don't understand that removing the bottom from an industry puts downward pressure on the wages of the higher skilled people.\n\nGood Lord the arrogance",
+                                            "score": -2,
+                                            "replies": [
+                                                {
+                                                    "author": "Far_Broccoli_8468",
+                                                    "body": ">removing the bottom from an industry\n\n1. removing the bottom of the industry is not possible\n2. if you remove the bottom of the industry, the top of the industry wouldn't exist in several decades\n3. AI is not nearly good enough to actually replace human software engineers, likely never will be in its current embodiment of a glorified statistics model",
+                                                    "score": 2,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Procrastin8_Ball",
+                                                            "body": "Are you people being thick on purpose? Nothing about anything I've said suggests complete elimination of the job, just that there will be a lot fewer jobs. I don't know if it's sheer ego or just willful sticking your heads in the sand. Tech bros love to look down on other white collar jobs that obviously are getting disrupted.\n\nThere is zero doubt that AI is making programmers a lot more efficient. Even a 10% improvement is a lot of lost jobs. MAYBE they'll be some crazy tech boom but it seems like a ton of existing tech jobs are already another shittr.io that's not producing any real economic utility.\n\nAnd yes you're right that removing the bottom is very bad for the future. When has thinking of the future ever been a priority for business leaders ever focused on quarterly returns?",
+                                                            "score": 0,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "ijblack",
+                    "body": "this is true, but it should also be noted like 80% of employed SWEs get paid to redo the same project for the billionth time with features people have seen before",
+                    "score": 13,
+                    "replies": []
+                },
+                {
+                    "author": "Frosty-Ad4572",
+                    "body": "When asked to look into existing systems (which could be very large) or out of sample distribution these versions of AI break down. I think they're betting that things will get better and trying to hype things up with the expectation that if they get investment for it, it will get better.\n\n\nIt might, but it might not. Evidence is pointing towards possibly not getting better.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "apro-at-nothing",
+                            "body": "yeah with how destructive the whole idea of \"vibe coding\" has been as of recent i really don't think it has that much potential.. especially considering that we've slowly but surely been plateauing in terms of AI performance.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Mike312",
+                    "body": ">not trying to redo the same project for the billionth time with features people have seen before.\n\nWait, you mean the entire internet isn't built on Snake and To-do apps?",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "WhompWump",
+                    "body": "At best AI is a nice tool to help get work done but it's nowhere near what they try to sell it as. In fact I think it should only be used in a topic you're well-versed in because of the fact it will just make shit up and you need to be able to say \"hey wait a second\"",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Savassassin",
+                    "body": "Claude 3.7 is better tho",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Chowder1054",
+                    "body": "Exactly. And even then I\u2019ve seen many times it spat out utter nonsense.  It\u2019s something I would never solely depend on. Rather I would use it to help me build stuff or help debug.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Virtual-Candle3048",
+            "body": "ai can't code better than humans \n\nthis is a fact known by techies, not by people who are funding them ig\n\nit's all hype-farming\n\nthis is just means I have to be better than ai now, and I can't half-assedly learn any topic",
+            "score": 152,
+            "replies": [
+                {
+                    "author": "Scrug",
+                    "body": "I find the best way to think of AI in it's current state is a really powerful search engine. There are a lot of code solutions online. AI can modify these slightly based on your needs, but it's not great at that because logic and design details are well out of it's scope of abilities.\n\nIf you are learning a new topic, or new language, I find AI so much better than watching a youtube video or doing an intro course because you can ask very specific questions to fill in your knowledge gaps without wasting time covering content you already understand. It's way more useful if you already understand common programming paradigms and design already, because you can get answers on if/how they are implemented in the language you are trying to learn.",
+                    "score": 25,
+                    "replies": [
+                        {
+                            "author": "Virtual-Candle3048",
+                            "body": "I still don't refer AI to learn something *new*\n\nbecause I wouldn't know what I should know to learn\n\nI use ai for existing knowledge that I already know\n\nyeah basically a search engine",
+                            "score": 12,
+                            "replies": []
+                        },
+                        {
+                            "author": "K41Nof2358",
+                            "body": "AI is actually great at asking it to summarize or explain static existing documentation",
+                            "score": 5,
+                            "replies": []
+                        },
+                        {
+                            "author": "TheMathelm",
+                            "body": "Even when ChatGPT got popular 2 years ago; it was essentially a better version of StackOverflow.  \nAnd it's added more functionality where a starting point can be generated.   \nYour perspective is correct, as long as students are learning and not offloading too much onto the AI, it's as good or better than YT videos.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Seaguard5",
+                    "body": "Or executive leadership or managers \ud83d\ude44",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "K41Nof2358",
+                            "body": "If the only point of leadership is to make judgment calls on what would be best for the business, they should be ripe for replacement by AI, because that's just a mathematical formula and data review set",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "HuckSauce",
+                                    "body": "Have you ever worked for a company? Do you believe that leadership is just business decisions? Wow",
+                                    "score": -3,
+                                    "replies": [
+                                        {
+                                            "author": "K41Nof2358",
+                                            "body": "when I refer to leadership I'm talking more the corporate level, where in many cases  \n  \n(*Yes that I have first hand experience because I've worked in an office environment for over a decade, not that it matters for what I'm saying*)  \n  \nThe actual decisions that have to be made by directors and higher management boils down to just being able to look over statistical sheets and picking which is the better option for promoting growth or stability within the company  \n  \nonce you get into leadership, more of your job is just reviewing statistical generated reports and charts to visually understand how the department or company is doing and make a judgment call, which often just boils down to address the thing that is in red or promote the thing that is in green  \n  \nIf AI as a statistical analysis tool could do anything, it would be suited to do that  \n  \nPeople who are in leadership are pretty much on par with the old saying that,  \n  \n> \"those who can't teach, teach Gym, and those who can't teach Gym, become Cops\"  \n  \nexcept now I've learned there's a lot more respect to be had for gym teachers,  \n  \nand yet most managerial executives are just the definition of pencil pushers and doing whatever they can to safeguard their paycheck livelihoods at the expense of others who are doing the actual work  \n  \n> **The people who make the company valuable are the workers that are actually generating the product, and in many cases leadership is just there to keep them on track**",
+                                            "score": 5,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "WilsonMagna",
+                    "body": "Yeah, I can confirm, as a big user of chatbots like ChatGPT, they make a shit ton of mistakes, and still require lots of guidance, and even then, there are things it simply doesn't know how to do, so you have to do yourself. And if you don't know shit, you won't be able to spot when the chatbot make mistakes. Software engineers will still be needed, but companies will be able to do more with less people, and the good software engineers will be significantly more productive.",
+                    "score": 9,
+                    "replies": [
+                        {
+                            "author": "Jackoberto01",
+                            "body": "The also just combine concepts and patterns that don't make sense together as most AI currently doesn't have enough context or doesn't use the context like a human would.\u00a0A human usually puts consideration and intention into their decisions.\u00a0\n\n\nMost AI is like a Junior Developer that knows a bit of everything at surface level and tries to piece it together without context. But they are so confident that it's correct even when they write gibberish.",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "HappyHarry-HardOn",
+                    "body": "\\> this is just means I have to be better than ai now, and I can't half-assedly learn any topic\n\nDoesn't it mean you CAN half-assedly learn any topic?",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Savassassin",
+                    "body": "Claude 3.7 is pretty good tho",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "dajoli",
+            "body": ">If AI can code better than humans...\n\nYour premise is not correct. It can't.",
+            "score": 86,
+            "replies": [
+                {
+                    "author": "JamzTyson",
+                    "body": "Haha - I should have read this before posting my (almost identical) comment. Upvoted because you got there before me :-)",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "Savassassin",
+                    "body": "Claude 3.7 is pretty good tho",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "cheezballs",
+                            "body": "Its pretty good at technologies that have lots of discussion and documentation available online. Ask it something about Godot 4.4 or something remotely \"new\" - it will utterly fail and will even gaslight you into thinking you are the one who is wrong.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "Savassassin",
+                                    "body": "But entry level/junior devs aren\u2019t assigned to work with new technologies are they. They won\u2019t replace all devs, but it\u2019s safe to say there will be even fewer openings for junior devs as AI gets better",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "cheezballs",
+                                            "body": "Strongly disagree. Also, new devs should work with new tech. If you're a new dev and they toss you into a Java 8 legacy app, then I'd just leave.",
+                                            "score": 3,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Fragrant_Gap7551",
+                                            "body": "Which will eventually bite them in the ass because no Juniors = no Seniors.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "kidfromtheast",
+                    "body": "Empirically AI can be better than human if the task is verifiable. Coding is, verifiable. So, it\u2019s just a matter of time.",
+                    "score": -37,
+                    "replies": [
+                        {
+                            "author": "ifandbut",
+                            "body": "For an AI to replace a programmer \n\nThe customer must first know what they want.\n\nCoding is probably one 60% of the job. The rest is wrangling cats, be those cats subordinates or customer representatives.",
+                            "score": 25,
+                            "replies": [
+                                {
+                                    "author": "s-e-b-a",
+                                    "body": "For AI not to replace programmers, programmers need to have unlimited angelic patience to make as many dumb changes as the customer demands from them, and do it for very cheap.",
+                                    "score": 3,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "BroaxXx",
+                                    "body": "Even then. The code is subpar most of the time and you need to give the LLM pretty accurate and objective instructions. Might as well just program it yourself at that point.",
+                                    "score": 6,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Wise_Cow3001",
+                            "body": "Not always. There are plenty of cases where the code can be \u201ccorrect\u201d but the result is not ideal.",
+                            "score": 9,
+                            "replies": []
+                        },
+                        {
+                            "author": "beingsubmitted",
+                            "body": "Most people responding to you are incorrect. You have a well reasoned argument, but the premise is mistaken. Coding often isn't verifiable.\n\nIn isolation, specific algorithms are verifiable, but also these things aren't taking up the time of a lot of programmers. If I have a problem that's well defined with a consistent structure of inputs and outputs then I have... probably a library. Probably many libraries, in fact. No one writes quicksort anymore. The entire history of coding is encapsulating well defined problems so we don't have to write them anymore. We write functions so we don't need to write blocks of code anymore, etc.\n\nBut eventually, these well defined problems come up against unverifiable design decisions, which are the behavior you want the software to have. That's not a verifiable problem. A piece of software like \"Facebook\" isn't verifiable. You can't train an AI to make the most quantifiably facebooky facebook. The choice of behavior isn't verifiable, only the implementation of that behavior is.\n\nBut again, all of the history of programming has already been to abstract away the well-defined implementation details so that code focuses primarily on the behavior itself. Like, most of us don't allocate memory anymore. That's a well defined implementation detail we've abstracted away already. AI can further bridge that gap so that more of what we do focuses only on the non-verifiable creative output of defining behavior, but as professionals get more experienced, the implementation details get easier and more and more of our thought and energy is focused on behavior decisions.\n\nWhen you're learning, you're typically recreating solutions like a basic to-do app, where there are few behavior decisions to make, and they're not emphasized, so you can focus on implementation, so a beginner might think coding is almost entirely implementation, but that just isn't so.\n\nFull disclosure, I think short term AI will definitely suppress jobs and wages, and I think it explains at least a significant portion of the losses we've already seen there. It can make developers more productive, so you need fewer to create the same amount of work. Long term, though? We often say that most companies see developers as a cost-center, and it's often constrained by budget, rather than need. That's a situation where induced demand is likely. As programmers become more productive, I think we'll find companies eventually just bring back their budgets or even increase them eventually as they get more bang for their buck.",
+                            "score": 6,
+                            "replies": []
+                        },
+                        {
+                            "author": "Un_Original_name186",
+                            "body": "The confidence with which you say something that is empirically verifiably false is truly inspiring. What you said is only true in very niche cases where you need 10k monkeys to do something good enough. A first year comp sci student who wrote their first line of code in a UNI class is able to, after about 6 months of schooling, do things that a LLM won't be able to do for years to come, provided they actually try. Also comp sci or coding in general is far more than just writing a webapp using a framework (it can't even get that right beyond the cookie cutter stuff). An LLM is only as good as the data it's trained on and the good stuff isn't accessible to it in large enough quantities to outscream the amount of middling code it has access to.",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "kidfromtheast",
+                                    "body": "You are right. I just realized that I am biased since my research direction is LLM.",
+                                    "score": 0,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Significant_Bar_460",
+                            "body": "Isn't it that, in theory, the only way to verify the code is to run the code with every possible input? And on some inputs the code may run forever?\n\nIt's been a while since I was at college, so I don't remember the halting problem very well.",
+                            "score": 5,
+                            "replies": []
+                        },
+                        {
+                            "author": "Miserable_Double2432",
+                            "body": "\ud83d\udcdeSir, I have misters Church and Turing on the line. \n\nThey seem to strongly disagree something you said?",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "cheezballs",
+                            "body": "Wow you used big words wrong AND you fucked up commas. Impressive.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "SV-97",
+            "body": "These interviews are essentially ads for the companies.\n\nLLMS aren't even close to handling just the coding aspects (you can give it a full spec, tell it what to do and it'll still mess up and be unable to fix it), let alone handling everything else a developer does. They can definitely be useful, but they don't replace developers in any way, and won't do so in the near future",
+            "score": 20,
+            "replies": []
+        },
+        {
+            "author": "ToThePillory",
+            "body": "Most AI companies are really only making the claim that AI can replace junior or maybe mid software engineers, and that in itself isn't 100% unbelievable, simply because we have pretty forgiving standards at the lower end of software development.\n\nBear in mind a lot of developers can be replaced with a WiX account. Lots of developers were basically replaced by Excel (or spreadsheets in general). Lots of people made their own software in things like HyperCard.\n\nTo replace the lower end of software developers with software has been happening for decades, I don't think it's that big of a deal to think that the next iterations of Copilot and so on are going to be doing much of the work of a junior developer.\n\nThat's not bad, or insulting or anything like that, it's just like any other profession. I don't hire a builder to put up some shelves, but I'd hire a builder to build me a garage.",
+            "score": 15,
+            "replies": []
+        },
+        {
+            "author": "Little_Elia",
+            "body": "because AI absolutely can't code better than humans, lol.",
+            "score": 11,
+            "replies": []
+        },
+        {
+            "author": "Fyren-1131",
+            "body": "It can't. That's what you're missing :)",
+            "score": 17,
+            "replies": [
+                {
+                    "author": "alien-reject",
+                    "body": "Yet. That\u2019s what everyone is missing.",
+                    "score": -7,
+                    "replies": [
+                        {
+                            "author": "heresyforfunnprofit",
+                            "body": "Not \u201cyet\u201d. You can\u2019t take a spec and fully implement it because software itself IS a spec. The blueprint and the product are in many ways (and the most important functional ways) the exact same thing. \n\nIf you give an AI a pic and tell it to upscale it, it can do a good first pass. But imagine a pic that needs to be upscaled 100 to 1000 times - very quickly, the hallucinations or simple random infills will overwhelm the picture and distort it beyond recognition. \n\nNow imagine that with a product spec - designing a system from an spec is very much the same process as up scaling - taking in the general idea, filling in gaps, adding resolution, making inferences on missing areas, etc. \n\nHow many interactions does it take before the AI\u2019s internal distortions turn the system into an unusable mess completely divorced from the original intent? Currently, we\u2019re sitting at step uno, and even humans have trouble moving it forward without constant feedback.",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "alien-reject",
+                                    "body": "You said a bunch of nothing congrats. But how does that disprove my point",
+                                    "score": -7,
+                                    "replies": [
+                                        {
+                                            "author": "chao77",
+                                            "body": "\"I don't understand metaphor and that's somehow *your* fault\"",
+                                            "score": 7,
+                                            "replies": [
+                                                {
+                                                    "author": "alien-reject",
+                                                    "body": "It\u2019s very simple, sorry everyone is having a problem understanding how advancements in technology works",
+                                                    "score": -4,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "heresyforfunnprofit",
+                                            "body": "My bro, many people here can explain this to you, but nobody here can understand it for you.",
+                                            "score": 5,
+                                            "replies": [
+                                                {
+                                                    "author": "alien-reject",
+                                                    "body": "Please understand how tech evolves and have some sort of vision instead of dismissing it as \u201cit won\u2019t happen\u201d. I know people are coping because we are in learn programming subreddit but come on",
+                                                    "score": -3,
+                                                    "replies": [
+                                                        {
+                                                            "author": "heresyforfunnprofit",
+                                                            "body": "Tech evolution has always accelerated the \u201chow\u201d, never the \u201cwhat\u201d or the \u201cwhy\u201d. That is what you are failing to see. There\u2019s a old Charles Babbage quote that I think is relevant here: \n\n> *On two occasions I have been asked, 'Pray, Mr. Babbage, if you put into the machine wrong figures, will the right answers come out?' I am not able rightly to apprehend the kind of confusion of ideas that could provoke such a question.*\n\nThere is no version of our universe in which we can create a machine which can tell us what we want it to do more accurately than we can ourselves. We can tell an LLM and Cursor to deploy a website. We cannot tell the LLM to figure out what website to deploy. Even if it is responding to user metrics, it is STILL responding to our input.\n\nThis is not a problem which is solvable by any conceivable AI.",
+                                                            "score": 3,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "alien-reject",
+                                                                    "body": "Don\u2019t be in denial my son",
+                                                                    "score": -1,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "heresyforfunnprofit",
+                                                                            "body": "For someone who accuses people of saying too little with too many words, you\u2019re quite skilled at saying exactly nothing with even fewer words.",
+                                                                            "score": 3,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "alien-reject",
+                                                                                    "body": "Denial is strong here",
+                                                                                    "score": 0,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "heresyforfunnprofit",
+                                                                                            "body": "I\u2019m getting from this that you don\u2019t actually know what \u201cdenial\u201d means either. All luck to ya",
+                                                                                            "score": 1,
+                                                                                            "replies": [
+                                                                                                {
+                                                                                                    "author": "alien-reject",
+                                                                                                    "body": "Thanks enjoy the denial !!!",
+                                                                                                    "score": 0,
+                                                                                                    "replies": []
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "EtjenGoda",
+            "body": "You are missing that you should never trust the person trying to sell a product about his opinion on the product. And that isn't a statement about the quality/potential of llms. Those guys are just the wrong people to listen to about the capabilities of AI.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "Lime_Dragonfruit4244",
+            "body": "Unlike natural languages where you can get by with tons of mistakes and the user will still piece it together into something coherent, formal languages like programming languages have a defined structure which is not how current language models work, sequence to sequence modeling cannot model the language like earlier npl models worked so you cannot fully guarantee if the generated string of code is syntactically correct let alone semantically correct and compiler won't forgive you, the nature of sequence to sequence modelling and deep learning being a black block renders it unpredictable so you need to wrestle with the generated code and by that point you might as well write it yourself. But they can be useful for doing boilerplate stuff and chatbots. So they can't really replace real people yet, even more so what most people don't realise is that doing normal everyday tasks is actually even more computationally intractable than structured tasks like sorting or object detection.\n\nThe main point is that humans are extremely smart and can handle unexpected circumstances whereas current machine learning systems are vary fragile and most demos you see are done in a very controlled environment.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "Kal88",
+            "body": "Certain benchmarks for competitive coding*\n\nHe was very specific with pointing this part out",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "aallfik11",
+            "body": "It can't. It can spew out code faster, but it can't deal with complex issues. Being a programmer is 80% thinking and 20% writing code. AI is incapable of doing the first 80%",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "localghosting",
+            "body": "They\u2019re capitalist executives who are trying to appeal to ultra rich investors who love the idea of not paying workers. Of course they\u2019re going to oversell the value of their product.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "VodkaMargarine",
+            "body": "Fuel. LLMs need to consume approximately 1.5 software engineers per day in order to function.",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "PM_ME_UR_ROUND_ASS",
+                    "body": "and thats why their offices have those suspiciously large \"server rooms\" with meat grinders disguised as ping pong tables.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "VodkaMargarine",
+                            "body": "Indeed. Let's just say they don't have to purchase the balls for those",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Frequent_Fold_7871",
+            "body": "Maybe it can output \"code\" better than SOME humans, but not the rest of us. AI can't write code, it can only copy code that already exists and repurpose it. Just like how it works with AI images, it can't create images, it can literally only take existing images and mash-em-up based on text tags associated with those images. \n\nWhat you're basically asking is, \"If AI is so good at art, why do they still need to hire artists and pay for art to train and improve the model?\"\n\nAI doesn't know what \"code\" is, it just takes copy/pastes from Stackoverflow answers, like a real developer, but instead of learning what that code means, it just saves \"THIS text code is associated with THIS text topic\". \n\nI think you're under the impression that AI is intelligent... It's 99% if/else statements tied to a dataset. Anyone who thinks it's not has never seen how AI is wrangled. Don't want Swastikas randomly added to your AI generated images? Well, you can't exactly explain to AI why that's not really kosher. Instead, an OpenAI programmer is hired to write \" if( $MAGA ) { return Elon.jpg ) } else { return trigger\\_warning( palestine.webp )}",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "CyberDaggerX",
+                    "body": ">if( $MAGA ) { return Elon.jpg ) } else { return trigger\\_warning( palestine.webp )}\n\nI'm fucking dying here.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ninhaomah",
+            "body": "Who says AI can code better than ALL the humans NOW for companies to stop hiring ALL LEVELS of DEVELOEPRS?",
+            "score": 10,
+            "replies": []
+        },
+        {
+            "author": "rishi2o2o",
+            "body": "Because they are hiring SEs that can do much more. They hire people who can do system design, research, math, analysis and not just trivial coding and debugging. \n\nImo, going forward the demand from SEs will be to formulate problems, design solutions and implement them all by themselves in a short period of time. So, the people who can see the bigger picture and can implement the solutions themselves using AI might be the only SEs who will still be in demand.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "Low_Level_Enjoyer",
+                    "body": "\n\n>Because they are hiring SEs that can do much more. They hire people who can do system design, research, math, analysis and not just trivial coding and debugging. \n\n\nThis is copium. You can check their job requirements. You don't need to be a researcher or know high level math to work as a webdev at OpenAI or Anthropic.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Far_Broccoli_8468",
+            "body": ">If AI can code better than humans\n\nWhen your premise is incorrect, you can draw any conclusion.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "NanoYohaneTSU",
+            "body": "Because it's a giant tech scam.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "lqxpl",
+            "body": "Because it can't.  AI doesn't actually *understand*.  It is super-fancy multivariate linear interpolation.  If it were art, it would be an artist that makes mosaics, but isn't able to cut their own tiles.\n\nFor small, well-documented tasks, AI is great.  Perfect for pushing out boiler-plate stuff that has been widely documented all over the internet.  \n\nI was in a role where they let us use copilot.  The code was responsible for controlling high-end cameras that get strapped to the bottom of airplanes by routing a number of digital signals and controlling very expensive linear actuators.  At a high-level, copilot was useful.  Once you got down into the weeds, it did batshit things and generated code that would have leaked memory everywhere and lost hardware references.  Flight time is expensive, so having a system freeze or crash while the plane is in the air is a fucking expensive mistake.\n\nBut it *looked correct*.  That's the scary thing about working with AI-generated code:  it always generates code that *looks right*.  This is distinct from code that *is right*.   As a human developer that understands what's going on, I could look over the AI generated code and say, \"hold on, that's a bad idea,\" and then go fix things.\n\nThere's a lot of hype and great marketing about AI's capabilities.  It is kind of scary seeing how many decision makers are buying into the hype.  I guess as long as they stick to producing inconsequential apps we'll be ok, but if someone who oversees important infrastructure or medical systems gives this a whirl, people are going to get hurt.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "dreyfus34",
+            "body": "Theoretically speaking\u2014If they needed 100 engineers before the advent of AI facilitated coding; they might now need 5. These 5 folks are those whose adverts you\u2019re seeing. This number might reduce further until only a very small team, of experienced folks, is needed for oversight and governance.",
+            "score": 10,
+            "replies": [
+                {
+                    "author": "Kytzer",
+                    "body": "So now it takes 5 engineers to be as productive as 100. If that's the case why not hire 100 engineers and be as productive as 2000 (Pareto principle aside)?\n\n\nIt isn't like there isn't enough coding to be done. Wouldn't a company be more competitive if they're more productive? If engineers are now a better \"bang for your buck\" why wouldn't you hire more of them? Jevons paradox basically.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "MonochromeDinosaur",
+            "body": "It can\u2019t, it can code faster and create a general structure for what you tell it which is convenient but I\u2019ve **never** produced a piece of code from copilot/gpt/claude that I didn\u2019t have to correct/optimize sometimes slightly sometimes completely.\n\nIt\u2019s definitely a multiplier if you have a lot of boiler plate code or you don\u2019t care about performance and just need to get something up and running quickly, but if you want **good** code you\u2019ll have to review it all thoroughly.\n\nI find Code review AIs on site like GitHub more useful, it can catch bugs before merging changes.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "UnderstandingVast409",
+            "body": "When it comes to solving complex problems, making high-level decisions, designing scalable systems, or even thinking creatively and innovatively, AI still relies heavily on human guidance.\n\nThink about it: AI tools themselves require constant improvement, optimization, monitoring, and specialized integrations, all performed by engineers. These companies don't hire developers just to write basic code; they hire them to build the next generation of these same tools and to manage the complexity of scaling them.\n\nAI won't replace developers; it will transform their role. The developers you hire today aren't being replaced; they're the ones building and perfecting the next generation of AI-powered tools. Human developers and AI are collaborators, not competitors.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Nu11us",
+            "body": "I feel like the curve is going to flatten and that it\u2019s hard to separate the investor hype from reality. AI makes a lot of cool things possible but the technology will eventually settle in as a tool. It will change programming but not replace software engineers. And we aren\u2019t going to reach AGI. It\u2019s like the 50s hype about the future.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "s-e-b-a",
+            "body": "Such clickbait title. You then proceed to contradict yourself in the post. Title says AI can code better than humans now, then you say they will code better that humans later. \n\nIf AI can't code better that humans now, but the companies need engineers now, then guess what, they have to hire engineers now. How is this even a question?\n\nIt's like asking someone who's starting to grow a fruit tree now, why are they buying fruit at the supermarket now if they will have fruit in the future.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "TheFumingatzor",
+            "body": "It can't code better. It needs guidance. It's as dumb as a rock otherwise.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "BoltKey",
+            "body": "LLMs can code better than most humans, sure.\n\nKeep in mind though that OpenAI would never hire most humans, or most software engineers for that matter. Some of the top software engineers and computer scientists work on these projects.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "TanmanG",
+            "body": "The primary reason which a cocerning amount of the comments seem to be missing, is that software engineers are not programmers- yes, it's a part of the job, but the majory of the valuable work done is *engineering*.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "canadian_viking",
+            "body": "> If AI can code better than humans\n\nIf",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "CyberDaggerX",
+                    "body": "We got ourselves a Spartan here.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "WillAdams",
+            "body": "There was a classic science fiction short story on this --- lots of robots, and robots to repair robots --- except that for the robots which repaired robots there had to be a \"Master Robot Repairman\".\n\nSo, since Vernor Vinge's \"Singularity\" is not yet here, we need programmers to improve AI which can then write other programs (but not write new AI itself).",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "sam0x17",
+            "body": "junior devs are in danger, but that is a pre-existing condition from before AI as over the last 10 years startups and even large software companies have stopped the time-honored tradition of hiring juniors fresh out of college and training them up, instead opting for only hiring seniors. Now it's getting worse because one senior with gpt can do the job of several juniors",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "JamzTyson",
+            "body": "> If AI can code better than humans\n\nFalse premise. It can't.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "captain_obvious_here",
+            "body": "Pure CEO sales pitch bullshit.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "WaterNerd518",
+            "body": "AI can\u2019t code better than humans. So far, there is no indication it ever will. AI can code much, much faster than humans. But the results are always inferior.  With AI you get a poorly organized, inefficient code instead of what a (proficient) human produces, optimized code that is efficient and able to handle most foreseeable exceptions.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "cybertheory",
+            "body": "AI isn't all that good, I have a lot of problems using it with new APIs and stuff that has old documentation. It's why I am building [https://jetski.ai](https://jetski.ai) \\- already at 5k waitlists! If you are having similar problems check it out!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "gm310509",
+            "body": "If AI can code better than humans, why are there so many posts like this?\n\n>  \"I used AI to do my <insert task here e.g. homework> and now it doesn't work! Can someone be my AI substitute and fix it for me please?\"\n\nDon't get me wrong, AI, like Google, can and is a great productivity aid, but IMHO we need to be clear about reality and marketing.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "SensitiveBitAn",
+            "body": "AI cant write anythink new. Only code that exist in other repo. So yea simple stuff AI can code easy, but more complex (like creating better ai) require human.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "EsShayuki",
+                    "body": "Where does this misconception come from? AI can generate original code. It doesn't copy/paste.\n\nFor example, even if the AI hasn't been trained on any data on some new language feature, you can give it the definition and syntax and it can generate original code that makes use of that language feature.",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "Wise_Cow3001",
+                            "body": " No\u2026 it comes from reality. Yes it might generate something \u201cnew\u201d from the point of view of a line for line comparison. But the code is similar to all the training data that lead to that result.\n\nThe issue comes when you say \u201coh\u2026 I have a problem that requires a unique approach\u201d. And now you\u2019re stuck trying to explain in English a problem that the model wasn\u2019t trained to solve - and now you\u2019re in hallucination territory.\n\nI get this relatively frequently because a lot of code I write is based on proprietary code bases and uncommon code that doesn\u2019t appear in the training data very often.",
+                            "score": 4,
+                            "replies": []
+                        },
+                        {
+                            "author": "VokN",
+                            "body": "The issue is that it makes shit up or doesn\u2019t really know what to do with novel cases, which is the part of dev that actually matters, accountability, troubleshooting, optimisation etc\n\n\u201cOriginal code\u201d in your case being an amalgamation of previously \u201csolved\u201d use cases it\u2019s been fed and thinks are close enough rather than solving from first principles",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "WystanH",
+            "body": ">If AI can code better than humans\n\nIt can't.  Anyone telling you otherwise is selling you... AI.\n\nTo be \"better than\" you must have some way to improve upon what you have.  Since generative AI only works by exploiting human creations, it will always be a distillate of that source.  By its nature, it can never surpass its training set.\n\nThe best it could hope for is an optimal choice from a training set.  AI has no way to rank quality, only frequency.  A human might come up with enough metrics to allow that choice to be closer to optimal, someday.  However, it will be forever limited by this derivative nature.  Indeed, the current AI issue is that it can't tell human product from AI product, so it's effectively poisoning its own training set.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Subnetwork",
+                    "body": "Agentic AI is already in the early stages.",
+                    "score": -6,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "RangePsychological41",
+            "body": "Let's say they are right in what they say, which is debatable.\n\nRegardless of that, did you think AI coding better than humans would mean companies creating AI won't need humans? You're literally looking in exactly the wrong place for open positions.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "FewEstablishment2696",
+            "body": "There are levels of developers. There is a world of difference between coding the front end of a web site, real time missile guidance systems or cutting edge AI.\n\nI worked as a web dev for almost a decade and never once used a binary tree.\n\nOne is very susceptible to being replaced by AI right now, the other not so much.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TrinityF",
+            "body": "Because someone has to train the ai with their independent thoughts and atackovRerlfow.\n\nAI is smart at recognizing and predicting patterns that make it look like it came up with an original idea but in reality it just went thought a whole bunch of answers and chose the most likely answer.\n\nIt's artificial intelligence a reason and not just 'intelligence'.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "RenaissanceScientist",
+            "body": "Who says AI is better at programming? If I need a regex to parse/validate emails ChatGPT is great. It can\u2019t give me a novel, creative way of solving a problem",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "InsideResolve4517",
+            "body": "AI can write code only code human can do programming.\n\ntl;dr;\n\nRecently I was using cursor with 3.7 thinking to solve some problems like 2\\~3 ladder condition (if else) involved. AI done it properly it was working 92%\\~95%.\n\nSo what I generally do is before using ai I stage/commit all previous code and let ai write code completely then I review each lines throughly and test properly.\n\nSo I did review and tested that's why I understood 92% work done and working.\n\nNow I only needed to complete it by just tweaking 5%\\~7%. But here I stucked and I am not able to solve that  problem with ai written code. And AI also not able to solve that problem because that was rare problem.\n\nSo after lots of tweaking manually and with AI finally I discarded all changes. I wrote all core logics manually then did some tweakings etc by using AI. After that code finally worked as expected.\n\nWhen human?\n\nRare problems, while building base (don't ask ai to completely write from scratch to end it's good for fun project but in future you will fail to indentify from where bugs are coming). Logical problem solving.\n\nWhen AI?\n\nshallow work, boilerplate, type safetly, code review, finding bugs, solving bugs you or ai identified.\n\n  \nCurrently it's pair programmer not self full stack. But very powerful.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "EsShayuki",
+            "body": "AI can't code better than humans.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Subnetwork",
+                    "body": "Currently *",
+                    "score": -4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Complex-Ad-9317",
+            "body": "AI can make code that usually works. It does not make efficient code thay accounts for errors. A lot of AI code is very \"I spent a week watching beginner tutorial videos\" tier. Likely because it sources from a lot of beginner projects and tutorials.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ECmonehznyper",
+            "body": "only for codes that has been done hundreds of times before already because AI needs something to train on(unless there's new technology that i don't know where they don't need a dataset)\n\nwhat AI can't do is to code a solution for something that isn't really done much before like new technology hence why they need software engineers to do that.\n\nwhat its killing is the junior/entry level software engineering market",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BroaxXx",
+            "body": "Because AI can't code better than humans. That's just investor talk. There is no way in hell current generative models will be able to have any measurable impact on the software engineering workforce. If anything there will be even more jobs.\n\n\nPerhaps someday some new technology comes along that might replace engineer but it definitely won't be one of these large language models or any variant of it. It simply makes no sense.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "KRLAN",
+            "body": "and calculator is better than humans at doing taxes",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Glum-Atmosphere9248",
+            "body": "AI can code better than *some* humans",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Hannizio",
+            "body": "You have to consider the job of the people saying this. Their job is nit to make accurate predictions of the near future, their job is to make a line go up. And when people think AI will take over the world, the line goes up, so they say things like this, because it's their job to do so",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "kuzekusanagi",
+            "body": "AI can\u2019t code better than humans. Writing software is not some concrete science that yields the same results for every problem. \n\nCurrent \u201cAI\u201d is just a computer making educated guess at the speed of modern day computers to mimic (poorly) what humans do intuitively. \n\nLLMS don\u2019t have the ability to easily acquiesce as humans can. \n\nThe problem with LLMS is that they are modeled after what capitalists wish humans would do. they want loyal, autonomous slaves to compete tasks that serve only their agendas without question for little to no money. They also don\u2019t want the general public to have this type of resource for themselves. \n\nThat\u2019s why it\u2019s being pushed so hard. It\u2019s not to actually help society advance. It\u2019s literally just a grift to get the general public to fund electronic, thinking slaves to lower the cost of human labor enough to get us to do more for less",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "bigtoaster64",
+            "body": "They can code faster with humans guiding them and adding road blocks to make sure it stays on track and goes to the objective (so basically having an ai assistant completing your lines, but not deciding what to write). Let the AI go alone for a while, and it's gonna jump of the cliff, soon or later, and who's gonna have to fix the spaghetti monolith it has created? Humans.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Mr_vort3x",
+            "body": ">If AI can code better than humans\n\nit doesn't",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "nhgrif",
+            "body": "EVEN IF it became true that AI consistently and reliably wrote code better than humans, as a software engineer, writing code is such a tiny fraction of my day that it wouldn\u2019t really be that noticeable. In the end, my day would be telling AI what to code instead of just writing the code myself.\n\nMy job isn\u2019t actually to write code. My job is solving problems. That\u2019s what it means to be an engineer. A software engineer generally solves problems by writing some code, but it\u2019s not the writing of code that\u2019s the most valuable skill you possess as a software engineer, so eliminating the need for people to have that skill doesn\u2019t eliminate the need for software engineers.\n\nWhen AI is good enough to take the non-technical description of a feature from a product owner as input and provide a compiled, distributed binary (or deployed server, website, whatever equivalent), and handles asking the product owner about all the edge cases they didn\u2019t consider, then you can start worrying about things.\n\nUntil then, I\u2019ll be waiting for Atlassian to get their shit together and make a JIRA AI to automate away the most tedious and frustrating parts of my job.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "VALTIELENTINE",
+            "body": "Because one of those things is marketing jargon and the other is actual business\n\nThey are trying to sell their product, after all",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "beattyml1",
+            "body": "It\u2019s better at doing decent subset of the tasks you hand off to junior engineers than junior engineers, when compared to senior engineers doing senior engineer things it falls flat on its face",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "evergreen-spacecat",
+            "body": "This is my proof that there is no such thing as an AI replacing most of human engineers (helping for sure, but that\u2019s another thing). If Anthropix, OpenAI any other party had such a tool, or even close to have it, they would not sell it to you and me for small amounts, rather taken over the entire global software industry in a heart beat making unlimited amout of money",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "sir_sri",
+            "body": "Because real software development is not just writing code to some specification, it's knowing what code to write and designing and planning how all of that code needs to work together.\n\nAI for software development is like having a calculator that is wrong at least 1% and possibly 50% of the time to try and do your taxes with. One part of the problem is the maths, but most of the work is knowing which maths to do, and then being sure it was done correctly.\n\nImagine something simple like the posting interface on reddit. You could ask an generative AI to mock up the interface.  But then you still need buttons for add, post, a text input box, showing the comment you are replying to, that's the mobile UI.  OK maybe it gives you an ok mockup, if you ask an AI write a text input box, will it support formatting, links, security checks (so someone doesn't inject malicious code), will that box correctly connect to *your* database.  Which is the next problem, how do you organise the stuff in the database, how do you even choose which database tech to use?  For all the work you see on the front end there is a lot more work on the back end to make it all work too. \n\nAnd if you can list each thing you want, and clearly specify what it's supposed to do, and you go and ask an AI to build each part you still need to test it all. And then if you need your database to handle more transactions per second, well.. How do you do that?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SoftEngin33r",
+            "body": "AI is more targeted at reducing the frontend coders and less for the rest because they have less training data in other fields",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "mxldevs",
+            "body": "They're going to replace you, your colleagues, and every other company's coders, using the coding product their coders have built.\n\nMany companies want to downsize and cut out the reliance on coders.\n\nThey only need their AI to be better than you to get a contract with your employer.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MoonQube",
+            "body": "You have to remember that CEO's are basically using any interview to talk positively about their product. It's advertisement.\n\nThey make software that can create code. So of course they wanna say that, so that they can sell more.\n\nYou'll be hard pressed to find a CEO that don't do this.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "RegularTechGuy",
+            "body": "They want software engineers for building their models and they think other tech companies that rely on them won't need engineers\ud83e\udd23\ud83e\udd23\ud83d\ude02\ud83d\ude02. This is called true elitism and charity of AI companies and their gazillionare owners.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "PrestigiousBank6461",
+            "body": "someone needs to code the coders lol",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "itspinkynukka",
+            "body": "It has its uses, but it still isn't there. Forget coding, ask it to do something very basic, like giving it a list of words, and then remove the words that end in vowels. I tried this a month ago, and I had to correct it 3 times before it got it right. The only thing that I liked was when it pointed it out it said, \"You're correct. This word does end in a vowel.\"",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ebayusrladiesman217",
+            "body": "Ai is really really good at boilerplate. That makes engineers more efficient, as it means less time worrying about exact syntax sugar, and more time designing from the upper levels. It's just a tool, and for the next couple years, that's all it will be. Don't get me wrong, it's getting really damn good, but it's still not even close to replacing someone with at least 2 years of real experience, especially because it tends to suck when it comes to edge cases where it must make an absolute decision.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "YSC02",
+            "body": "U can prob code 80% of a code with AI, the rest 20% needs to be a human looking for mistakes, making it better and such things... I use AI for work to do most work and the last 20% takes the most work lol",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "nonlinear_nyc",
+            "body": "It\u2019s BS. That\u2019s their value proposition, \u201cfire professionals and hire us instead\u201d.\n\nIt doesn\u2019t need to be true. It needs to be *enticing*.\n\nRealize cryptobros are now AI-bros. They DGAFFFFF!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Jack_Harb",
+            "body": "I am a full time software engineer with couple of years experience.\n\nI am using different AIs as part of my job and privately every day. The times I can copy over code 1:1 on a day is 0. and even IF the code would work, coding is a lot about architecture, performance, extensibility and maintainability. And the AIs can\u2019t deliver on that aspect yet.\n\nIt\u2019s not to say they aren\u2019t useful. Hell I love working with it and get rid of tedious or boring tasks. Simply writing down code is a thing from the past. But completely replacing a dev is at least not happening right now. Maybe the future, but not at the moment for sure.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "bunker_man",
+            "body": "Because it still needs a person to look over what it is doing. You aren't going to have everything be automated.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Deathcyte",
+            "body": "It\u2019s for the hype. They create a lot of model to make you think that AI grow fast but I see no difference since got 3\u2026\n\nI think they create something they have no clue how to evolve it\u2026",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "cheezballs",
+            "body": "AI is not AI. That's the problem. People are conflating actual AI with LLMs, which are nothing more than word-guessing games based on lots of math.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ramzeez88",
+            "body": "Ofcourse they code better then 'normal' humans but not programmers.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Dameon_",
+            "body": "It's simple. If a sugar company tells you sugar is good for you and soon everybody will be eating nothing but sugar...they might be trying to sell you their product.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MarcosNews",
+            "body": "Wait till the end of this year",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "brightside100",
+            "body": "if X car race company have the fastest car, why they need the best driver ? same\n\n  \nit's like being the best at A but to get to C you need more things than just \"A\" - or... you can be the best chef in the world but if someone ask you to cook for 200 people you'll flop \n\n  \nanother example would be, if tech company are all about software why aren't the best developers are onwers of tech company ? \n\n  \nit's binary question to a spectrum answer",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "bravopapa99",
+            "body": "AI \\*cannot\\* code better than humans as it lacks true understanding and the ability to even \"know\" wat the fuck it is working on, really, it's just numbers, it hasn't got the foggiest if it is writing a video game or creating an API call to some ancient RSS feed.\n\nIt is high volume, large input, silicon assisted statistical number crunching, that's ALL it is, expect no original artistic output, no original creative output. It is all HYPE for fund raising.\n\nAI will not replace humans for a century at least, they do not have \"human reasoning\", if they did that poor woman hit by a self-driving car would probably still be alive.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

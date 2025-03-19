@@ -1,0 +1,26 @@
+{
+    "title": "Help with Ethernet",
+    "author": "AutomaticRanger44",
+    "subreddit": "HomeNetworking",
+    "rank": 16,
+    "score": 2,
+    "upvote_ratio": 0.67,
+    "num_comments (reported by reddit)": 2,
+    "url": "https://www.reddit.com/gallery/1jefmyi",
+    "id": "1jefmyi",
+    "selftext": "Hey, I am trying to figure out why the Ethernet ports in my house are not working. I plugged an Ethernet into the router from this splitter but it isn\u2019t connecting. Any help would be greatly appreciated ",
+    "comments": [
+        {
+            "author": "Crazygamer1232",
+            "body": "It says phone, you need to reterminate those wires into a patch panel made for Ethernet and then use a switch",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "groogs",
+            "body": "That whole black block is obsolete. Wired only for telephone (everything connected together). I'd bet even the coax part isn't rated for current 1218Mhz needed for DOCSIS 3.1, plus having unconnected ports/cables just introduces noise. If you don't have cable internet this is irrelevant.\n\n\nDo your cables say Cat5, Cat5e or Cat6 on them? If so you can rewrite as ethernet. You'd want a patch panel that can fit there (try \"structured cabinet patch panel\" or \"mini patch panel\") with enough ports. Make sure it's rated the same as cable or better.\n\n\nYou'll probably also have to rewrite every jack, you need an RJ45 keystone jack, again same or better Cat rating.\n\n\nYou can get all this stuff \"toolless\" but the ones with 110 punchdown (same style as your current telephone panel) are way easier and better, but do require buying the punchdown tool. I'd also recommend a cheap ethernet tester; they have 8 lights that check each wire and make sure everything is connected properly, and can save hours of frustration.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

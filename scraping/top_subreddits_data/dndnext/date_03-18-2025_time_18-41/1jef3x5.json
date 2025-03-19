@@ -1,0 +1,38 @@
+{
+    "title": "Is this too powerful for a homebrew class?",
+    "author": "tearnImale",
+    "subreddit": "dndnext",
+    "rank": 14,
+    "score": 0,
+    "upvote_ratio": 0.5,
+    "num_comments (reported by reddit)": 4,
+    "url": "https://www.reddit.com/r/dndnext/comments/1jef3x5/is_this_too_powerful_for_a_homebrew_class/",
+    "id": "1jef3x5",
+    "selftext": "I'm making a class based on the Pathfinder Alchemist (I'm aware of the artificer subclass, I mean an entire class built around the idea) and wanted to know if this ability for one of the sub classes is too powerful or not. While I'd like opinions on the whole ability right now, is it a \"kosher\" thing in 5e to allow an attack to have a choice between dexterity or intelligence to hit? Field is what the subclasses are called.\n\n\n\nWhen you select this field at 1st level, you prepare a number of experimental bombs each day equal to 1 plus half your alchemist level plus your Intelligence modifier (at least 3). These bombs have a range of 30/60 and deal 1d6 damage plus your Intelligence modifier, and you may use either your Dexterity or Intelligence modifier on attack rolls with them. In addition, creatures adjacent to a creature hit by a bomb must make a Dexterity saving throw against your spell DC or take your bomb\u2019s minimum damage. If you miss an attack with a bomb, the DM determines where it lands and if any creatures need to make a Dexterity save or suffer your bomb\u2019s minimum damage (if any). You regain 1 plus your Intelligence modifier (at least 2) bombs after a short rest, and all of your bombs after a long rest. You can retrieve, prepare and then throw a bomb all in a single action; you do not need to be holding a bomb in order to use one.\n\n\tYou choose what damage type your bomb deals when you throw a bomb, and you start with your bombs being able to deal fire damage. In addition, at 1st, 6th, 10th, 14th and 18th levels, you choose one damage type from the following list that you can deal with your bombs:\n\n\n\n* Acid\n* Bludgeoning\n* Cold\n* Lightning\n* Necrotic OR Radiant (must be at least 10th level)\n* Piercing\n* Poison\n* Slashing\n* Thunder\n\n\n\nYour bombs are considered magical for overcoming resistances and immunities. Everytime you choose a new damage type, you can switch a damage type you already know for another; you cannot switch out fire.\n\n\tFor every 3 alchemist levels you have, your bomb damage increases by 1d6. You add \u00bd your non-alchemist levels to your alchemist level to determine your bomb damage.\n\n\n\nThere's a 6th level class feature that grants the ability to throw two bombs in a single action.",
+    "comments": [
+        {
+            "author": "Lorathis",
+            "body": "Sounds like something easily done with reflavor instead of building from the ground up. \n\nLike, print out artificer and search and replace \"cantrip\" with \"alchemical bomb\". Especially poison spray. Then search and replace \"artificer\" with your class name.\n\nNo reason to build new mechanics that are almost exactly like current mechanics.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "GoatedGoat32",
+            "body": "Doesn\u2019t seem particularly OP, though i see no reason not to use int since you\u2019d be invested most in that anyway for damage+number per day. Dex you\u2019re throwing less per day and less damage with each.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Zaddex12",
+            "body": "You should also check out the 5e alchemist class from Valdas spire of secrets",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "drmario_eats_faces",
+            "body": "I think the missed explosion is a little overcomplicated\u2013I'd recommend borrowing the wording from Ice Knife instead. I also think the damage scaling is a little too strong. Generally damage boosts only happen at 5th/6th, 11th, and 17th. I'd say make the first damage increase happen at 11th.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

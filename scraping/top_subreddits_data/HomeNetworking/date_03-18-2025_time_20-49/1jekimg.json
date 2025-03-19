@@ -1,0 +1,38 @@
+{
+    "title": "Gaming House with Lots of Gaming Going On - Dead Spots in house / Connectivity Issues",
+    "author": "Thump1t",
+    "subreddit": "HomeNetworking",
+    "rank": 8,
+    "score": 3,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 4,
+    "url": "https://www.reddit.com/r/HomeNetworking/comments/1jekimg/gaming_house_with_lots_of_gaming_going_on_dead/",
+    "id": "1jekimg",
+    "selftext": "Ok, so we have upwards of 5 PC's, 4 TV's, multiple phones, etc connected to our internet. We live in a roughly 3k square ft home, multi level (Basement, mainfloor, and 1 floor above). We have dead spots in the house causing connectivity issues in the basement and upstairs. \n\n  \nWhat router setup would you all recommend to push our gaming devices and still be able to reach the entire house?\n\n  \nI love ASUS, but I'm open to hear all suggestions.",
+    "comments": [
+        {
+            "author": "JuicyCoala",
+            "body": "Run ethernet across the home. At least one access point per floor, wire all PCs, consoles and TVs.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "PoisonWaffle3",
+            "body": "With five PCs (and actively gaming) and 4 TVs, you should really consider hardwiring as many of these devices (particularly the computers) as you can. \n\nThink of WiFi like walkie talkies: only one person/device can be transmitting at a time. WiFi works because the devices take turns really quickly, but the more devices/traffic there is, the longer other devices have to wait for their turn to talk. This causes the latency/lag you're experiencing.\n\nIf you can hardwire any gaming PCs, this takes WiFi out of the equation for them and they no longer need to wait for their turn to talk, because they have their own cable. If you can hardwire several devices, the remaining devices that stay on WiFi at least don't have to wait as long for their turn to talk. \n\nHow close are these computers to each other (all in a gaming den, or spread throughout the house)? How close are these to your modem/router? Do you have any existing phone or ethernet jacks on the walls?",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "rws98",
+            "body": "Honestly, you are best off spending money to hardwire as many devices as you can. Then also put some Ethernet drops in for a couple of access points throughout the home.\n\nWould avoid mesh in this scenario as you will probably have lots of headaches with it. At a minimum, you should hardwire some access points. (I like Ubiquiti, personally).\n\nAdditionally, if you do not want to spend the money to run Ethernet and you already have coax cables throughout the home, do some research on MoCA.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "wiretail",
+            "body": "Going to pile on and say that if you are not hardwiring these, it's not going to work well. I have three kids, two adults wfh, and two servers. Every device that can possibly be connected by Ethernet has it (TVs, streamers, PCs, NAS, etc). My kids Nintendo too. Zero problems ever. I push hundreds of GB of data up/down for work while my wife is on Teams, kids on games and we never have issues. WiFi is for iot, phones, and roaming laptops. I use an OPNsense router, a POE switch, and two Ruckus APs. But honestly, my performance was great when I used a single Google WiFi and the same \"wire everything\" philosophy. My network hardware was <$200 so you don't need to spend thousands .",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

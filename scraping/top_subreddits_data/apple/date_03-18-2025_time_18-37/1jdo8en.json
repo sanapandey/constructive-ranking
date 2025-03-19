@@ -1,0 +1,300 @@
+{
+    "title": "Apple No Longer Hiding Apple Intelligence Storage Space Info in macOS 15.4",
+    "author": "chrisdh79",
+    "subreddit": "apple",
+    "rank": 10,
+    "score": 462,
+    "upvote_ratio": 0.94,
+    "num_comments (reported by reddit)": 43,
+    "url": "https://www.macrumors.com/2025/03/17/apple-intelligence-storage-space-macos-15-4/",
+    "id": "1jdo8en",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "PeakBrave8235",
+            "body": "It was a bug, as MacRumors tacitly points out in the *middle* of their post",
+            "score": 200,
+            "replies": [
+                {
+                    "author": "bigmadsmolyeet",
+                    "body": "the article says it could have been a bug. we really won\u2019t know unless apple themselves say. at this point , I\u2019d believe either is true and won\u2019t think much of it.",
+                    "score": 35,
+                    "replies": [
+                        {
+                            "author": "Aarondo99",
+                            "body": "No, it pretty obviously was a bug. It worked if you had SIP disabled, which just most likely meant it was some kind of access issue where settings couldn\u2019t read/see the size of the Apple intelligence files.\n\nIf it didn\u2019t work AT ALL, I\u2019d buy into the idea it was to obscure the storage size.",
+                            "score": 11,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "loosebolts",
+                    "body": "Got to get that sweet sweet ad revenue",
+                    "score": 17,
+                    "replies": [
+                        {
+                            "author": "Suspicious_Radio_848",
+                            "body": "They\u2019re a rumours blog whose sole purpose is to pump this stuff out every single day of the week. It\u2019s not like they\u2019re a journalistic institution here.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "KickupKirby",
+            "body": "How funny the article states at the every end \u201cDisabling \u200cApple Intelligence\u200c is the only way to keep the feature from using up space on a Mac\u201d when we know it\u2019s false. You can turn it off, but it will continue to use 7gb+ of storage space.",
+            "score": 23,
+            "replies": []
+        },
+        {
+            "author": "Spskrk",
+            "body": "It\u2019s 14.17GB",
+            "score": 41,
+            "replies": [
+                {
+                    "author": "flux8",
+                    "body": "That much storage just to say \u201cUse ChatGPT\u201d??",
+                    "score": 14,
+                    "replies": [
+                        {
+                            "author": "beryugyo619",
+                            "body": "aPpleinTellgents is rumored to be 3B, and 15GB for complete 3B model + inference framework isn't too absurd, and anything below 7B is basically useless, added up yeah it wouldn't be an absurd amount with current tech to make it say \"sorry I'm dumb try ChatGPT\".",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "NecroCannon",
+                    "body": "Holy fuck, my 256GB MB don\u2019t need that shit chilling on there. I already regret going with the base as is",
+                    "score": 33,
+                    "replies": [
+                        {
+                            "author": "z6joker9",
+                            "body": "With all of the cloud features these days, I can\u2019t remember the last time hard drive space was an issue on a phone or computer. I used to spend tons of time managing storage. It\u2019s been great to never have to think about it.",
+                            "score": -10,
+                            "replies": [
+                                {
+                                    "author": "NecroCannon",
+                                    "body": "I\u2019m one of the types that prefers locally stored stuff (found that out after getting it though) I\u2019m setting up a local server to back up my art content in, and to me, the cloud is just an emergency back up kind of thing.\n\nNice to be able to pull stuff from out and about but ultimately, I\u2019m tired of putting my full trust in corporations and being let down later, especially with something that sensitive",
+                                    "score": 6,
+                                    "replies": [
+                                        {
+                                            "author": "z6joker9",
+                                            "body": "I do have a Time Machine local backup, and while I don\u2019t trust big corporations in full, I find that they keep up with people\u2019s files much better than most people do themselves, especially when they have a financial incentive to do so.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "NecroCannon",
+                                                    "body": "Financial incentive is holding a lot of weight, if companies are willing to fold to add backdoors and it seems completely in the realm of possibility that they could use AI to update their terms and sort out \u201cjunk\u201d to save server space, they will.\n\nI trust iCloud enough to backup my art projects right now, but I feel like people are way too comfortable handing the keys to corporations for a lot of things in their lives. Especially US corporations that are too big to really care about outliers. A service could decide to label my nude art as porn and flag it to get deleted if they start to decide \u201cwe don\u2019t want to have that content stored on our services to protect our users\u201d or something like that. Until there\u2019s direct regulation, I just can\u2019t put my full trust in it, Apple is just enough that I don\u2019t mind it temporarily",
+                                                    "score": 0,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "DontBanMeBro988",
+                                    "body": "If you're cool uploading everything you want to work on to the cloud and not being able to access your files without internet access and some company's servers, that's cool, but I'm storing my files on my computer.",
+                                    "score": 6,
+                                    "replies": [
+                                        {
+                                            "author": "z6joker9",
+                                            "body": "I mean, I still have local copies for basically anything relevant. And internet access is so ubiquitous these days that you might as well say to keep everything in pen and paper in case you don\u2019t have access to electricity.",
+                                            "score": 0,
+                                            "replies": [
+                                                {
+                                                    "author": "DontBanMeBro988",
+                                                    "body": "> I mean, I still have local copies for basically\n\nlol",
+                                                    "score": 2,
+                                                    "replies": [
+                                                        {
+                                                            "author": "z6joker9",
+                                                            "body": "I mean this isn\u2019t unusual, right? They just sync with the cloud and anything older gets archived there. Anything newer, recently accessed or frequently accessed is still on my computer.",
+                                                            "score": 0,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "vmachiel",
+                    "body": "Wish you could delete it.",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Jimstein",
+            "body": "Just checked my storage and half my computer is full of only macOS and SystemData. \n\nI think Apple should normalize marketing their storage as ACTUAL storage. In other words, either every Apple device should have a dedicated SSD for the OS and other stuff (like Apple Intelligence if it's system data you can't remove), and then have the actually marketed storage size be completely available to the user. \n\nI understand that this would be a huge difference from normal tech practices across the industry, but I think it would be nice and it would avoid a lot of negative user sentiment concerning issues like this, even if the solution is putting a 512 GB into a marketed 256 GB system and the 256 OS/System partition is completely hidden to the user.",
+            "score": 30,
+            "replies": [
+                {
+                    "author": "audigex",
+                    "body": "I think Apple should normalise not charging me \u00a3200 for a 250GB->500GB SSD upgrade that costs them an extra \u00a320\n\nPut 2TB in my \u00a32300 laptop like it should have in the first place and I\u2019m not gonna give a shit if they use 50GB of disk space for this nonsense",
+                    "score": 56,
+                    "replies": [
+                        {
+                            "author": "Jimstein",
+                            "body": "Good point, yes to this",
+                            "score": 8,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "CreepyZookeepergame4",
+                    "body": "I think Apple should normalize moving all non-essential apps to the Mac App Store instead of forcing them to be part of the base OS, just like what they do with iWork: apps come bundled with the Mac but can be deleted because they are actually MAS apps and not part of the OS",
+                    "score": 16,
+                    "replies": [
+                        {
+                            "author": "cuentanueva",
+                            "body": "They should do it for the sake of updates alone. For all their OSs including iOS.\n\nIt's ridiculous that you need an OS update because the mail app or whatever had a bug.\n\nNot only that, but it would offer support and patching of the vulnerabilities of the apps even after the OS cannot be updated anymore.\n\nThat's one thing Android does massively better. It's more convenient, more secure, and more reliable. Not to mention faster.",
+                            "score": 8,
+                            "replies": [
+                                {
+                                    "author": "drygnfyre",
+                                    "body": "IIRC Windows does this now. The store can update things like the Mail app without an OS update.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "_-Kr4t0s-_",
+                            "body": "Which app can\u2019t you delete? Everything is in /Applications and you can do whatever you want with them.",
+                            "score": 0,
+                            "replies": [
+                                {
+                                    "author": "CreepyZookeepergame4",
+                                    "body": "Not built-in apps though.",
+                                    "score": 6,
+                                    "replies": [
+                                        {
+                                            "author": "_-Kr4t0s-_",
+                                            "body": "Like what",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "CreepyZookeepergame4",
+                                                    "body": "Try to delete apps like stocks, automator, freeform, podcasts, tips, passwords. You won\u2019t be able to do it. Not to mention that you won\u2019t save much anyway since these are often thin fronted for system components.",
+                                                    "score": 6,
+                                                    "replies": [
+                                                        {
+                                                            "author": "_-Kr4t0s-_",
+                                                            "body": "You can find those in /System/Applications and delete them from there. Finder plays tricks on you to make you think they\u2019re in /Applications but they\u2019re not. All are deletable.",
+                                                            "score": 0,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "CreepyZookeepergame4",
+                                                                    "body": "You need to disable SIP and SSV breaking updates and reducing security.",
+                                                                    "score": 3,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "BingoBody",
+                                                    "body": "Apple TV",
+                                                    "score": 2,
+                                                    "replies": [
+                                                        {
+                                                            "author": "_-Kr4t0s-_",
+                                                            "body": "You can delete it from /System/Applications",
+                                                            "score": 2,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "BingoBody",
+                                                                    "body": "Tried that but not allowed, tells me it's read only. Turned off the system protection in recovery etc but still no luck.",
+                                                                    "score": 2,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "_-Kr4t0s-_",
+                                                                            "body": "You did \u2018csrutil disable\u2019 and it still doesn\u2019t work? Very odd. I\u2019ve done this before but maybe a newer update changed something. I\u2019d look into it again but honestly I don\u2019t care to delete anything lol.",
+                                                                            "score": 0,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "chrisdh79",
+            "body": "From the article: With the second beta of macOS 15.4 that was released earlier in March, Apple changed System Settings to hide how much local storage space Apple Intelligence takes up on a Mac.\n\nMaking the change led to accusations that Apple was trying to hide the size of \u200cApple Intelligence\u200c, and so with the fourth macOS 15.4 beta that came out today, Apple made \u200cApple Intelligence\u200c\u2019s storage requirements easy to find once again.\n\nTo see \u200cApple Intelligence\u200c storage space, you can go to System Settings > General > Storage and click the info button next to the macOS listing. That brings up a popup that shows the version of macOS installed and the storage space taken up by \u200cApple Intelligence\u200c and it\u2019s the same way that System Settings works in the current release version of macOS Sequoia, 15.3.2.\n\nIt is possible that the missing \u200cApple Intelligence\u200c storage feature in the earlier macOS 15.4 beta was a bug. Users who had System Integrity Protection (SIP) disabled were able to see the information without issue, and Apple appeared to have made the \u200cApple Intelligence\u200c storage assets unavailable to anyone with SIP enabled.",
+            "score": 10,
+            "replies": []
+        },
+        {
+            "author": "MatthewWaller",
+            "body": "Interesting. Checked mine and it's a humble 7.02 GB, as opposed to the 14.17 GB in the pic. Seems variable. Maybe counting generated metadata for photos or some such.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "T-Nan",
+                    "body": "Yeah mine is 10.67GB, and I do play with image cleanup sometimes",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Technical_Anteater45",
+            "body": "Great...now they should be made to show how much RAM it eats while sitting there doing nothing useful.",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "MultiMarcus",
+                    "body": "Nothing? It only seems to use ram when engaged and used. Not just when turned on. They only load the model when needed.",
+                    "score": 16,
+                    "replies": [
+                        {
+                            "author": "Palamania",
+                            "body": "Out of interest, does anyone know how much ram it does use when actively being used? Is it all or nothing? It doesnt put the 14gb into ram, does it? 16gb is the minimun spec. Not that this matters, ram is there to be used",
+                            "score": 0,
+                            "replies": [
+                                {
+                                    "author": "Jophus",
+                                    "body": "They released a research paper a few months ago talking about being able to utilize models twice as large as the amount of RAM. Someone in this thread mentioned their models are about 14GB, meaning Apple can get away with using just 7GB of RAM.",
+                                    "score": 3,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "cake-day-on-feb-29",
+                                    "body": "> Out of interest, does anyone know how much ram it does use when actively being used?\n\nWhen I had it enabled I never saw anything in activity monitor or iStat menus. Wouldn't surprise me if either Apple's reporting is jacked up or they're just hiding it.\n\n> It doesnt put the 14gb into ram, does it?\n\nThe largest model is only 4GB. There are multiple models.\n\n> Not that this matters, ram is there to be used\n\nRepeating this ad nauseam doesn't make it true. If someone has their web browser open consuming 4GB, WindowServer consuming 2GB, the rest of macOS consuming 4GB, and a VM consuming 2GB, they only have 2GB left for their editor, terminal, etc. \n\nSo no, it *does* matter. Your statement you're repeating is only true for file cache, which can be evicted at (basically) zero cost.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

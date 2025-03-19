@@ -1,0 +1,73 @@
+{
+    "title": "Pyroquickness Hat + Illithid Powers build",
+    "author": "DarthOrmus",
+    "subreddit": "BG3Builds",
+    "rank": 15,
+    "score": 17,
+    "upvote_ratio": 0.95,
+    "num_comments (reported by reddit)": 9,
+    "url": "https://www.reddit.com/r/BG3Builds/comments/1je25mf/pyroquickness_hat_illithid_powers_build/",
+    "id": "1je25mf",
+    "selftext": "I tried this on a recent playthrough where I fully embraced illithid powers and (act 3 spoiler) >!eventually went full mind flayer!< and it was incredibly fun and powerful so wanted to share. One thing to note is you really need to pass all the checks at the Zaithisk for this build to work since it lets you use illithid powers as a bonus action.\n\nI went Rogue 3 Thief for extra bonus Action, and Wizard 9. For Feats I used Elemental Adept (Fire) and Dual Wielder (dual wield legendary staff + Rhapsody or another staff). The only really core item to the build is the\u00a0[Pyroquickness Hat](https://bg3.wiki/wiki/Pyroquickness_Hat). Other than that I took anything that gave me Spell DC. The hat gives you an extra bonus action when you damage something with a Fire spell, so essentially every turn you can have 3 bonus actions, which can use used on Illithid powers thanks to the Zaithisk. And chug Elixir of Vigilance every Long Rest so you always go first.\n\nEvery fight would be basically using black hole twice to pull in as many enemies as possible, then cast Fireball on the big group of enemies, giving me another bonus action. Then I'd either Mind Blast to stun them all, or use the bonus action to use a potion of Speed for another fireball or other spell, or use another black hole to group the remaining enemies closer together. I also had a level 12 Ranger Hunter in my party so they would fly into the middle of whoever was left alive and Whirlwind them. I felt like I was playing DoS2 with setting up groups of enemies to AoE nuke them, it was super fun, and worked in pretty much every act 3 battle!\n\nIt was not only one of my most fun runs but also one of the easiest as this combo was insanely powerful. (act 3 spoiler) >!It gets even more insane\u00a0when you become full illithid because they get the upgraded black hole, and can use actions and bonus actions interchangeably when they have mind sanctuary up, meaning you essentially get 4 actions (5 if hasted).!< \n\nOne thing to note is that Pyroquickness Hat is bugged with Scorching Ray, if you use your last action/bonus action to cast that it won't give you another bonus action, it will just give you an \"empty\" bonus action, so beware of that. If you use Scorching Ray at the start of a turn it works as expected and you'll get the bonus action. From my experience it also didn't work with Wall of Fire, so the most reliable spell was Fireball.\n\nTLDR; Pass all checks at Zaithisk in act 1, go Thief + Wizard, get Pyroquickness Hat, have fun grouping and AoE nuking your enemies with 3 bonus actions every turn. Highly recommend this build to anyone who wants to try illithid powers or have an easy and fun time clearing act 3!",
+    "comments": [
+        {
+            "author": "_Melissa_99_",
+            "body": "Add the reverse rain cloak, gain immunity to burning condition (aka. the drawback of pyroquickness hat) and enjoy the benefits of wall of flame + black hole, no more worrying about concentration cancelling via burning damage",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "DarthOrmus",
+                    "body": "I never knew about that cloak lol that's interesting, should work with Helldusk Armor too. Unfortunately it didn't seem like Wall of Fire works with Pyroquickness Hat",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Yundex7",
+            "body": "There is a mod that fixes the issue with pyroquickness hat.",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "DarthOrmus",
+                    "body": "Oh nice, I never thought to look for a mod for that! Will keep that in mind. I also sent a bug report about it, not sure if they will get around to fixing it or not but we'll see :P",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Yundex7",
+                            "body": "https://mod.io/g/baldursgate3/m/betteritems-fixes",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Free-Big9862",
+            "body": "Curious if searing smite counts as a fire spell? that would lowkey broken with the hat !",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "DarthOrmus",
+                    "body": "Unfortunately it doesn't seem to work (I just happen to be on a Paladin playthrough atm and have the hat so I tried it) :( I didn't get the bonus action on cast or when the damage triggered on their turn.\n\nI read somewhere that flame blade works though every time you hit something with it, so you can off-hand dual wield it and hit them with it to get 2 off-hand attacks every round. I'm definitely going to try that out on a bladesinger when patch 8 comes out",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "Free-Big9862",
+                            "body": "Larian, please, patch 8 .. NOW !",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "Cocohomlogy",
+                            "body": "Interesting.  I tested this a while back and it did work for me.\n\nhttps://www.reddit.com/r/BG3Builds/comments/1h8npag/searing_smite_pyroquickness_hat/m0vaw7g/",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

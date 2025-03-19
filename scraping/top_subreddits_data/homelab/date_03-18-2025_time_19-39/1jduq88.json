@@ -1,0 +1,96 @@
+{
+    "title": "rate my fire hazard",
+    "author": "daganov",
+    "subreddit": "homelab",
+    "rank": 16,
+    "score": 76,
+    "upvote_ratio": 0.93,
+    "num_comments (reported by reddit)": 13,
+    "url": "https://www.reddit.com/gallery/1jduq88",
+    "id": "1jduq88",
+    "selftext": "this is a metal bar cart. the booze has been replaced. i started acquiring bits of gear with a vague notion that i would clean it up one day. other than it looking hellish (though i actually like the post-apocalypse look!), am i doing anything wrong here from a safety perspective? things seem to have airflow, there are wires, the ups battery is new...\nthanks reddit",
+    "comments": [
+        {
+            "author": "Virtual_Historian255",
+            "body": "Every time you do laundry there\u2019s a thin layer of lint that accumulates on your dryer\u2019s filter. If you collect that stuff and pack it around your homelab it\u2019ll deaden the sound. \n\nThis trick is 100% fire department approved. \n\n(/s for anyone who doesn\u2019t get it. Don\u2019t sue me when your house burns down).",
+            "score": 15,
+            "replies": [
+                {
+                    "author": "kulind",
+                    "body": "![gif](giphy|12zgyJya7QwQKI)",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "velhoon",
+            "body": "So more curious about whose ID is on the framed photo on the wall and how many times you've read True Grit.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "daganov",
+                    "body": "0.4 times. i liked it but moved on to something else and never picked it back up to finish. failure!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Cybasura",
+            "body": "It probably wont burn down the house, but it sure as hell singed my eyeballs",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Wildsideace",
+                    "body": "![gif](giphy|84BjZMVEX3aRG)\n\nThis is appropriate here eh? u/Cybasura",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "RayneYoruka",
+            "body": "Yours a fire hazzard? My rack and my proxmox server are right below my clothing closet, Like barely a few cm away. I got a camera and a fire alarm in case something happens lol. It's already been like that for 5 years and no issues so far!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "FullMetal2803",
+            "body": "I love the USG Pro just sitting in the stack chilling.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Left-Confidence7278",
+            "body": "Ngl...kinda hot \ud83d\ude0e",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "fitzingout",
+            "body": "And from the past few days I'm scared of fires and battery leaks \ud83d\ude14",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "silentstorm45",
+            "body": "Just curious cause I\u2019m on the same boat fire hazard wise. Like 99% chances of fire are due to the UPS right ? Or can a pc legitimately blow up in flames ?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "daganov",
+                    "body": "that is my estimation of the risk, too...but i am ignorant and want some expert to weigh in on risk or general mitigation (eg put it in a proper closed rack, put a fire extinguisher ball over it, move the books dummy). i like my house without fire",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Zealousideal_Brush59",
+            "body": "3 alarms\n\nSource: not a firefighter",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

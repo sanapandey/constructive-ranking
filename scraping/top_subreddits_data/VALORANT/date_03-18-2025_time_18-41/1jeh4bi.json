@@ -1,0 +1,39 @@
+{
+    "title": "why valorant is the only game that i have ping spikes on?",
+    "author": "sPy_tf",
+    "subreddit": "VALORANT",
+    "rank": 17,
+    "score": 5,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 4,
+    "url": "https://www.reddit.com/r/VALORANT/comments/1jeh4bi/why_valorant_is_the_only_game_that_i_have_ping/",
+    "id": "1jeh4bi",
+    "selftext": "i'm close to the servers (it says 44 and 55 on the closest servers to me) but when i join a game the ping goes from that to 1000 ( only my team mates can see it for some reason) i lag i cant do anything but die in a split sec, idk if it's me or the game or the servers or god hate me. valorant is the only tactical shooter that i can play bc the servers are super close, i heard it's a bug from some people but idk",
+    "comments": [
+        {
+            "author": "baelyrae",
+            "body": "I experience the same thing. I have GB internet that works flawlessly for everything else, but every now and then I get a day where my ping spikes in the game make it nearly unplayable. Causes me to lose rounds for sure. For some reason, it\u2019s typically fine before the round starts, but as soon as it starts, my ping starts spiking. Very weird",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "iHatePcProblemsLol",
+                    "body": "I'm just speaking from experience so this might not help. But setting your DNS to the closest server and then port forwarding the valorant game port fixed this issue for me.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Anishx",
+                    "body": "Hey, i found this tutorial, wanted to share, ( i pinged it on another comment )   \n[https://www.reddit.com/r/VALORANT/comments/1jeh4bi/comment/miinwjq/?utm\\_source=share&utm\\_medium=web3x&utm\\_name=web3xcss&utm\\_term=1&utm\\_content=share\\_button](https://www.reddit.com/r/VALORANT/comments/1jeh4bi/comment/miinwjq/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Anishx",
+            "body": "Oh oh i have a tutorial i found for this. [https://www.youtube.com/watch?v=RCO9zuUb12U&list=PL2Yub5bfRT0FMJji4NRMxAwG07YBPgqSi&index=14&t=303s&pp=gAQBiAQB](https://www.youtube.com/watch?v=RCO9zuUb12U&list=PL2Yub5bfRT0FMJji4NRMxAwG07YBPgqSi&index=14&t=303s&pp=gAQBiAQB)\n\nPersonally i thought this shit won't work, But it did and boyy did it work, i went from 70 ping to 40 for one server. and 28 to 15 on the closest one to me.\n\nAdding to this, also port forward the riot server TCP UDP ports on your router page.\n\n1. Drop your graphic settings to low and see if that has any effect on this.\n2. Turn off (disable) windows update in Services.msc\n3. Turn of Game mode\n4. In your Display settings in windows, you should see \"Advanced graphics settings\", inside that you should see \"Hardware accelerated GPU scheduling\", DISABLE that.\n5. Turn off Gsync, Vsync.\n\nif none of these work, talk to your ISP for forwarding the riot ports and try again.  \nIf that doesn't' work, clean your system of unwanted programs and reset windows as a last resort.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

@@ -1,0 +1,400 @@
+{
+    "title": "[OC] Crime maps in Boston",
+    "author": "ironpiggy44",
+    "subreddit": "dataisbeautiful",
+    "rank": 10,
+    "score": 336,
+    "upvote_ratio": 0.84,
+    "num_comments (reported by reddit)": 66,
+    "url": "https://www.reddit.com/gallery/1jdnzc0",
+    "id": "1jdnzc0",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "iwantawolverine4xmas",
+            "body": "Must be where the super mutants and raiders are stepping up their attacks",
+            "score": 96,
+            "replies": [
+                {
+                    "author": "muntaqim",
+                    "body": "It's near that fucking church where the guy with the rocket launcher and the mutant rottweiler always respawn \ud83e\udd23",
+                    "score": 16,
+                    "replies": [
+                        {
+                            "author": "iwantawolverine4xmas",
+                            "body": "Totally know which one you mean",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Fancy-Plankton9800",
+                    "body": "Shhh it's because they stopped enforcing the law.",
+                    "score": -14,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "daiquiri-glacis",
+            "body": "I realized that when I looked at the crime heat maps in my city that it's pretty much just a population density map.",
+            "score": 296,
+            "replies": [
+                {
+                    "author": "Teban54_Transit",
+                    "body": "Not quite. [Here is a population density map of Boston that I made.](https://www.reddit.com/r/mbta/s/iw16ycvdTX) You'll see that even though South Boston is denser than Roxbury and Dorchester, the region in South Boston east of the label on OP's map isn't highlighted as much on the heat map as most parts of Roxbury and Dorchester.\n\nNote: \"South Boston\" is actually at the *northeast* corner of the map.",
+                    "score": 79,
+                    "replies": [
+                        {
+                            "author": "cazbot",
+                            "body": "My grandfather, who grew up in Southie in the 30\u2019s, would be so happy and confused by this.",
+                            "score": 23,
+                            "replies": [
+                                {
+                                    "author": "TonyzTone",
+                                    "body": "Southie got wildly gentrified right after The Departed came out. In 2007, it was still a \u201crough\u201d and blue collar neighborhood, even if it wasn\u2019t outright violent.\n\nBy 2015, it was tech workers.",
+                                    "score": 34,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "alphagusta",
+                    "body": "When I look at crime maps its somehow always red in places I've been\n\nUnrelated but I have 17 PS5's",
+                    "score": 38,
+                    "replies": [
+                        {
+                            "author": "Uncle_Hephaestus",
+                            "body": "I got a place, you will know it cause it's the pawn shop with 30 kids bikes out side in a row.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "The_JSQuareD",
+                    "body": "https://xkcd.com/1138/",
+                    "score": 12,
+                    "replies": []
+                },
+                {
+                    "author": "ertri",
+                    "body": "In mine the really granular maps are just \u201chow close are you to a major road?\u201d",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "lolllolol",
+                    "body": "maybe also convolved with the density of police. Where there's lots of police officers they're likely to find crime",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "UnblurredLines",
+                            "body": "Or they\u2019re more likely to increase police in areas that have a higher preponderance for criminal activities",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "lolllolol",
+                                    "body": "yes, and then it becomes a self-strengthening cycle",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "rectal_warrior",
+                    "body": "So, Boston has been massively depopulated over the last decade?",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "intertubeluber",
+                            "body": "Also convoluted with higher density areas may correlate to higher poverty areas. More desirable areas may have more room.\u00a0",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ironpiggy44",
+            "body": "I previously lived in Boston and have since moved to LA. Recently, I was in a conversation with someone and they said the thing about how all big cities are overwhelmed with crime. That led me down a rabbit hole where I found the LA data visualizations of crime and the numbers that showed it wasn't true.   \nBut then I got curious about Boston and there isn't an analogous set of visualizations available to the public. The photos are made from a visualization I made with the publicly accessible data available [here. ](https://data.boston.gov/)\n\nThe visualization is also available [here.](https://jerrying123.github.io/crime/boston.html)\n\n**References for the map were:**   \n[https://controller.lacity.gov/](https://controller.lacity.gov/)  \n[https://hermionewy.github.io/crime/](https://hermionewy.github.io/crime/)  \n**Tools used:**   \nHosting: Github Pages  \nMap tool: OpenStreetMap",
+            "score": 55,
+            "replies": [
+                {
+                    "author": "RAF2018336",
+                    "body": "I\u2019m pretty sure Boston is one of the top safest cities in the US for big cities",
+                    "score": 31,
+                    "replies": [
+                        {
+                            "author": "KP_Wrath",
+                            "body": "If you do Memphis, it looks like someone got stabbed while on top of the map.",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "columbinedaydream",
+                    "body": "do u have a link for the visual for LA as well?",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "vicelordjohn",
+            "body": "Having visited Boston a few times I always assumed the following:\n\nRoxbury is scary. Your maps refute that. I also didn't feel that when I was walking from the train station to Sam Adams, there weren't any people. \n\nBoston doesn't really have crime. Your maps sort of support that.",
+            "score": 13,
+            "replies": [
+                {
+                    "author": "alhirt",
+                    "body": "The map is of crime reports, not crimes.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Spill_the_Tea",
+            "body": "Very powerful depiction that gives substantial credibility to Boston Mayor Michelle Wu's statements at the Sanctuary City hearing several weeks ago.\n\nQuestion: Is the data normalized, where peak value in one image (year) is equivalent to the next? Or is it scaled per image?",
+            "score": 31,
+            "replies": [
+                {
+                    "author": "ironpiggy44",
+                    "body": "Yes, the heat values are equivalent. Each incident report is given the same nominal value.",
+                    "score": 11,
+                    "replies": []
+                },
+                {
+                    "author": "Fleshwound2",
+                    "body": "I imagine this has lots to do with the number of people that have left Boston and little to do with the actual crime rate.",
+                    "score": -39,
+                    "replies": [
+                        {
+                            "author": "floodisspelledweird",
+                            "body": "That cant explain it all. Bostons population actually grew up until 2020 and only reduced by 3% since then- and that\u2019s for the city proper. This map shows a lot of the burbs as well.",
+                            "score": 25,
+                            "replies": [
+                                {
+                                    "author": "Fleshwound2",
+                                    "body": "I'm not going to dig tons of data out to disprove at what this is depicting. It was a quick guess based on how many people left new york in 2020 and so on. \n\nThere is no doubt that reducing population would cause many data points to show a decrease.",
+                                    "score": -28,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "wise_garden_hermit",
+                            "body": "Most cities saw their crime rate skyrocket during the pandemic. Boston was just about the only major city to see a decrease.",
+                            "score": 9,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "iamamuttonhead",
+            "body": "You left out Charlestown and Eastie and Hyde Park (although everyone forgets about Hyde Park)",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "NighthawK1911",
+            "body": "Another settlement needs your help",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "JaJaJalisco",
+            "body": "Don't the criminals not know the rich people live in Seaport?",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "RussChival",
+            "body": "What's going down in Downtown Crossing?",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "ironpiggy44",
+                    "body": "It's a heat map, so blue means lower number of incidents and red means higher. This is fairly standard in STEM for visualizing activity in a given state space.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "andrewdoesreddit",
+                            "body": "That depends which color map you're choosing. I work in STEM and for data I show, I prefer black to be zero using a linearly distributed color map.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Reaniro",
+                                    "body": "Anything with a red green scale has also broadly fallen out of favor because it\u2019s not colorblind friendly",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "andrewdoesreddit",
+                                            "body": "Agreed, and maps such as jet can lead to bias during interpretation. This data would also benefit from an added color bar with units",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "shnooey",
+                    "body": "I think it\u2019s pretty intuitive when you toggle non-violent vs violent crimes (or have both on), it\u2019s just like any other heat map",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "SuccotashShot121",
+            "body": "damn I've got a friend in Boston, I should share this with him.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "nicht_ernsthaft",
+            "body": "According your maps, the area around this park consistently has about the highest crime.  Never been to Boston, but it looks like a pretty nice area, why is that?\n\nhttps://preview.redd.it/7to4x56u2cpe1.png?width=1468&format=png&auto=webp&s=e3a84cea41c9978cfe4ee970a001b6ebbb8a3383",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "193X",
+                    "body": "It's just a downtown area. More people live in and travel to that area than anywhere else on tha map.",
+                    "score": 15,
+                    "replies": []
+                },
+                {
+                    "author": "CougarForLife",
+                    "body": "it\u2019s really just a single block- between park street station and downtown crossing.\n- center of the subway network so a lot of people congregate there, especially if you have nowhere to go. think like port authority in nyc if you\u2019ve ever been there.\n- high foot traffic for pan handling\n- there are a few services for homeless people in the area. and it\u2019s more preferable to be homeless in the park than in the streets. \n- there used to be an entire red light district extending southeast from this spot but it\u2019s been gentrified down into this one block. A few shuttered storefronts in this area also contribute to the vibe.\n- an old super run down indoor mall is located there along with a massive Primark (ultra-cheap clothing). These both attract irascible youths shall we say. \n- if you go even a block or two away from this area it\u2019s significantly better. Across the park northwest is one of the nicest neighborhoods in the country, beacon hill. If you were walking along that side of the park you would have no idea that park street is sketchy.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "iamamuttonhead",
+                    "body": "That's two parks: Boston Common on top and Public Gardens below. Part of Frederick Law Olmstead's Emerald Necklace.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "LongfellowGoodDeeds",
+                    "body": "On my one and only trek on foot into Boston, I thought I'd do the Freedom trail which starts right in that park. Right out of the subway station it was just filthy. The streets and sidewalks everywhere around that were riddled with trash. There were not encampments or anything that I passed, but I could tell it was a really rough spot. About the dirtiest non-encampment place I have ever seen. Went a few blocks on the trail though and it was night and day difference. Really enjoyed myself after the shocking start.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Fancy-Plankton9800",
+            "body": "Turns out if you give enough welfare, they stop stealing and shooting each other.",
+            "score": -13,
+            "replies": [
+                {
+                    "author": "Cyraga",
+                    "body": "And the interesting thing is it didn't immediately pick back up after 2020 ended. It's stayed subdued. There's a sociology Phd thesis there somewhere",
+                    "score": 8,
+                    "replies": [
+                        {
+                            "author": "ironpiggy44",
+                            "body": "This is probably the big takeaway. When looking at the LA report numbers, it also stayed subdued after 2020. There's also no correlation with the timing of \"defund the police\" becoming popular in the area.",
+                            "score": 11,
+                            "replies": [
+                                {
+                                    "author": "72j0",
+                                    "body": "My understanding is that there's no one root cause, which is why it's hard to narrate (a pretty common problem of public policy): government and community organizations coordinated a set of targeted interventions and it actually worked, unlike the many times where it has historically not. Going deeper than that is beyond my current knowledge.",
+                                    "score": 4,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "jackdevight",
+                    "body": "Turns out if you help enough settlements, the raiders and gunner stop shooting settlers.",
+                    "score": 11,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": -10,
+            "replies": []
+        },
+        {
+            "author": "porterpottie",
+            "body": "In 2018 [Boston stopped prosecuting low level crimes](https://www.vera.org/news/what-happened-when-boston-stopped-prosecuting-nonviolent-crimes) and your data on crime seems to start \"improving\" exactly that year... Crazy coincidence!",
+            "score": -19,
+            "replies": [
+                {
+                    "author": "MagePages",
+                    "body": "If you looked at the data source, you would see it was reported crimes, not prosecuted crimes.",
+                    "score": 26,
+                    "replies": []
+                },
+                {
+                    "author": "davisfarb",
+                    "body": "Correct me if I'm misreading your tone here, but it seems like you're implying that crazy progressive politicians are undermining public safety by redefining what constitutes a crime. Is that right?",
+                    "score": -5,
+                    "replies": [
+                        {
+                            "author": "Pleasant_Boat5816",
+                            "body": "ding ding ding",
+                            "score": -11,
+                            "replies": [
+                                {
+                                    "author": "davisfarb",
+                                    "body": "Ok just checking because the source they linked gushes about how well not prosecuting misdemeanors has worked in Boston, so I wanted to know if they thought it was bad or not first.\n\n\"The research is unmistakable: shrinking the reach of the criminal legal system by not prosecuting nonviolent misdemeanor cases is a net positive for community safety.\"",
+                                    "score": 6,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "goldentone",
+                                    "body": "What do prosecutions have to do with this map?",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "madscientistman420",
+            "body": "Look at this map, what a \"coincidence\" that the area of the most crime belongs to a certain demographic. The North end is easy to exclude as an outlier due to its massive tourism focus. \n\n[https://www.reddit.com/r/MapPorn/comments/1gocub/race\\_and\\_ethnicity\\_in\\_boston\\_and\\_cambridge\\_mass/](https://www.reddit.com/r/MapPorn/comments/1gocub/race_and_ethnicity_in_boston_and_cambridge_mass/)",
+            "score": -38,
+            "replies": []
+        },
+        {
+            "author": "JOHNTHEBUN4",
+            "body": "now overlay the black population",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "cpm32",
+            "body": "KC\u2019est kook\u00f4\u00f4\u00f4o ok\u00f4ono\u00f4ooo\u00f4\u00f4 gf getting o \u00f4\u00f4\u00f4o posts in in o k\u2019okoonoo\u00f4\u2019\u00f4\u00f4\u2019\u00f4\u00f4\u00f4\u00f4\u00f4o \u00f4o\u00f4\u00f4\u00f4\u00f4\u00f4",
+            "score": -14,
+            "replies": []
+        }
+    ]
+}

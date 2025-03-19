@@ -1,0 +1,97 @@
+{
+    "title": "4K titles in own group",
+    "author": "-HankThePigeon-",
+    "subreddit": "PleX",
+    "rank": 2,
+    "score": 5,
+    "upvote_ratio": 0.86,
+    "num_comments (reported by reddit)": 13,
+    "url": "https://www.reddit.com/r/PleX/comments/1jekpjc/4k_titles_in_own_group/",
+    "id": "1jekpjc",
+    "selftext": "Most of my movies I keep in 1080, but there\u2019s a handful I wanted in 4K and was wondering if there\u2019s a way to make a group or category for the library to see like an \u201cavailable in 4K\u201d tab or group. ",
+    "comments": [
+        {
+            "author": "skip-bo",
+            "body": "Not as spiffy but I made a separate library for 4k movies",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "Hey_im_miles",
+                    "body": "Same. And I don't have fiber yet so it's private until I get the requisite upload speed . Then I'll pop it into existence for my users.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Simple-Purpose-899",
+                            "body": "Exact situation for me. Fiber will be here next month, then I'll at that library for them and turn off my 20Mbps limit.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "honeybadger2012",
+            "body": "Yeah, just create another movies folder in Plex and name it 4k or whatever. Lots of people do that when they don't want outside viewers using transcoding for 4k content.",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "-HankThePigeon-",
+                    "body": "Okay, that would work. Do you know if adding a 4Kmovies root folder to radarr would correctly separate or would I need to set that up differently?",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Odd-Gur-1076",
+                            "body": "I found it easier to just set up a second radarr instance dedicated to 4K/HDR",
+                            "score": 5,
+                            "replies": []
+                        },
+                        {
+                            "author": "SupermanKal718",
+                            "body": "4k movies are in their own folder already?",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "KuryakinOne",
+            "body": "Option 1: Smart Collection\n\nUsing Plex Web, choose the desired library, then select the Library tab at the top.\n\nOn the right of the window, click on the \"Add to\" icon.  Looks like horizontal lines with a + in upper left corner.\n\nChoose \"Create Smart Collection.\"\n\nFor the Match, choose Resolution is 4K.\n\nSave as a Smart Collection with desired name.  The collection will be listed on the Collections tab.  Depending on the library settings, the collection may or may not be listed in the library itself.\n\nOption 2:  Separate Library\n\nPlace the media in a separate directory and a separate library.\n\nFor example, if your movies are in /movies, create a second directory /movies-4K.  Move the 4K movies to the 4K directory.  Create a new library, Movies-4K\" and add the /movies-4K directory.",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "-HankThePigeon-",
+                    "body": "Yes option 1 is exactly what i was looking for, thanks friend \ud83e\udd1c\ud83e\udd1b",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "DrApplePi",
+            "body": "You can create a smart collection where the resolution is 4k - that's what I do.\u00a0",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Smooth-Lie-3906",
+            "body": "Separate library with 4K movies also edit the \u201cedition\u201d label on the 4K movies to something like \u201c4K DoVi/HDR10\u201d etc..\n\nDoing this helps so that when you watch the 1080p version the 4K version won\u2019t show up as a duplicate in \u201ccontinue watching\u201d. Also helps to have a separate 4K poster but that a preference really.\n\nThis is how I setup mine:\n\nhttps://preview.redd.it/whxbuoi7qjpe1.jpeg?width=1179&format=pjpg&auto=webp&s=e080ba53decb9fc0c61b1eedc4ad5bc42295e7a5",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "SupermanKal718",
+            "body": "You either make 4k its own library but you need the 4k movies to be in their own folder, or you can do a collection. Something like Kometa is very powerful for that. If you choose to go the Kometa way you can even add overlays so you know which are 4k when not viewing in the collection.\n\nhttps://preview.redd.it/34bk7vsnpjpe1.png?width=3870&format=png&auto=webp&s=f351e07da0e68c627afd15361e8c3f9c51fe00aa\n\nKometa is testing out a [QuickStart](https://kometa.wiki/en/nightly/kometa/scripts/quickstart/)",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Iamn0man",
+            "body": "You can just create a 4k genre and manually tag the movies you want to identify as such. Then 4k will show up in the Categories list in the interface.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

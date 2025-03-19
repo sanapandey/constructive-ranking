@@ -1,0 +1,13 @@
+{
+    "title": "Graphical issues, RTX 3080, flashing lights, strobe lights",
+    "author": "Perfektionist",
+    "subreddit": "techsupport",
+    "rank": 18,
+    "score": 2,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 0,
+    "url": "https://www.reddit.com/r/techsupport/comments/1jebqkr/graphical_issues_rtx_3080_flashing_lights_strobe/",
+    "id": "1jebqkr",
+    "selftext": "I have a strange graphic problem. When setting some modern titles to the highes settings i sometimes get graphical bugs (flashing lights, strobe lights). The strange thing is, i cant really say why/when its happening because different games proc this problem at different times. But it usually always happens when i use DLSS mode. \n\nMy Specs:\n\nASUS TUF Gaming RTX 3080 10GB (current driver)\n\ni7-9700KF \n\n32 GB DDR4, 3000 MHz (2x16) G.Skill Aegis RAM\n\nPlaying from a M2 SSD\n\nI just picked up BF2042 and noticed, that i get these graphical glitches no matter the settings. They just get less aggressive when on lower settings.\n\nHere is a video of how these glitches look. (Warning Flashing Lights; They look similar in other games if they happen)\n\nNotice, how the effect gets different and much worse when i activate DLSS.\n\n[https://youtu.be/otQdiJpkB2M](https://youtu.be/otQdiJpkB2M)\n\nHere is a screenshot of stats of the GPU after running the game:\n\n[https://imgur.com/a/X55ji5j](https://imgur.com/a/X55ji5j)\n\nIn other games when these glitches happen, lowering the post processing from highes to one lower usually does the trick. Here in BF it didnt help.\n\nWhat could trigger this or is there something i can do?\n\nMy take is that I have a broken GPU core that is very rarely accessed and is always used when DLSS is on. Does that sound plausible?",
+    "comments": []
+}

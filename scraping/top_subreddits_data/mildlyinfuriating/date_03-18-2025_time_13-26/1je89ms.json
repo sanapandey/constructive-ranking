@@ -1,0 +1,354 @@
+{
+    "title": "32GB card only has 4GB",
+    "author": "ksguitardude2020",
+    "subreddit": "mildlyinfuriating",
+    "rank": 17,
+    "score": 113,
+    "upvote_ratio": 0.88,
+    "num_comments (reported by reddit)": 56,
+    "url": "https://www.reddit.com/gallery/1je89ms",
+    "id": "1je89ms",
+    "selftext": "Either I\u2019m missing something dumb or it\u2019s a scam. The card is an onn. ",
+    "comments": [
+        {
+            "author": "joerice1979",
+            "body": "Not an uncommon scam, https://www.grc.com/validrive.htm can help you verify what the capacity actually is.\n\nAlso, check it's not formatted as FAT16, which has (I think) a maximum capacity of 4GB.\n\nTry exFAT or FAT32 formatting instead, though be aware your data will be overwritten.",
+            "score": 124,
+            "replies": [
+                {
+                    "author": "MarkSparkles",
+                    "body": "If it was this type of scam I'd be surprised if the real size was more than 512MB or maybe 1GB. I'd say this is more likely a formatting issue",
+                    "score": 13,
+                    "replies": []
+                },
+                {
+                    "author": "Kooky-Bandicoot3104",
+                    "body": "FAT32 is limited to 4gb per file if you did not know.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "joerice1979",
+                            "body": "Quite right.  Forever causes problems when copying films to a USB stick....",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "ChefArtorias",
+                    "body": "A long time ago my grandfather gave me a \"flash drive\" that was more like an external but it was 32g and named FAT32. Until I read your comment I thought that was just a cheeky joke by my grandfather.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Uverus",
+            "body": "Did you format it as FAT-16 or something?",
+            "score": 51,
+            "replies": [
+                {
+                    "author": "One_Anything_2279",
+                    "body": "This. Reformat it.\n\nIf you formatted it incorrectly the max size would be 4 GB with Fat-16 using 64KB clusters.",
+                    "score": 37,
+                    "replies": []
+                },
+                {
+                    "author": "zerbey",
+                    "body": "That would require considerable effort to do on a modern Windows. Although, Microsoft do artificially limit FAT32 volumes to 32GB for some stupid reason.  More than likely is a scam.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ThingFuture9079",
+            "body": "Did you check disk management and make sure there's not a hidden unused section with the remaining space?",
+            "score": 17,
+            "replies": [
+                {
+                    "author": "Rand_alThor4747",
+                    "body": "Yea it could be a 4GB partition and some empty space.\n\nI made a install drive for Windows the other day using an old portable hatddrive and it made me like a 4 gig partition and the other 1TB or so was unused space.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "jaypalmer2000",
+            "body": "Have a look in disk manager, might not be formatted properly.",
+            "score": 13,
+            "replies": []
+        },
+        {
+            "author": "That-one-dude111",
+            "body": "onn is an electronic brand owned by Walmart, so it would be very weird for a giant corporation to scam people. My guess is a previous owner partitioned the flash drive, returned it, and never deleted the second partition",
+            "score": 13,
+            "replies": [
+                {
+                    "author": "ElSupremoLizardo",
+                    "body": "Who partitions flash drives?",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "That-one-dude111",
+                            "body": "If you want to create a bootable flash drive to install an operation system or such, you sometimes will need to partition it.",
+                            "score": 11,
+                            "replies": []
+                        },
+                        {
+                            "author": "Flaky_Risk4075",
+                            "body": "Common practice when running an OS from a thumb drive",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "stephen_neuville",
+                    "body": "> it would be very weird for a giant corporation to scam people.\n\nyou haven't been on amazon in the last three years, have you",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "9J000",
+            "body": "Scam",
+            "score": 16,
+            "replies": [
+                {
+                    "author": "FurballVulpe",
+                    "body": "Could be but I\u2019d make sure it\u2019s not formatted in FAT 16 first",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Flaky_Risk4075",
+            "body": "If it\u2019s actually Onn brand then it\u2019s probably just formatted wrong. \nIf you got it on Amazon or temu it could be a scam",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "90sDemocrat",
+            "body": "You need to format it.\n\nEveryone yelling scam is dumb when OP bought it from Walmart.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Jyster1804",
+            "body": "Temu more likely",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "ksguitardude2020",
+            "body": "I got it straight from Walmart a few months ago. Haven\u2019t used the card much other than to take a few pictures on an old camera. I\u2019m now trying to take some old home movies that I recently digitized from VHS and put them all on this card to take to my brother. I tried formatting the card and it changed nothing",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Crazyguy945E",
+                    "body": "Did you format it as something other than fat 16?\nMy 512 gb SD card is formatted as ntfs",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "ksguitardude2020",
+                            "body": "I think I got it? Not sure though. I went into disk manager, and somehow most of the SD card was unallocated. I formatted in there and now the entire card is unallocated and I can no longer format or use it at all. Did I screw up..",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "FluffyBiscuits",
+                                    "body": "In Disk Manager, delete all partitions so it's all unallocated, then right click the unallocated space and create a new primary partition with a FAT32 filesystem, that should give you the full capacity.",
+                                    "score": 2,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Crazyguy945E",
+                                    "body": "Formatting shouldn't unallocated the whole card. Now I'm inclined to think that this might be a fake or defective. Maybe someone better than me might have some insight...",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "ksguitardude2020",
+                                            "body": "I was poking around and found something to put \u201cnew volume\u201d on the card, and that seemed to work. I now have 29 GB apparently",
+                                            "score": 6,
+                                            "replies": [
+                                                {
+                                                    "author": "Crazyguy945E",
+                                                    "body": "Noice! That looks about right. Approx 10 percent of space can end up taken by file managemnt parts of sd, ssd, hdds. So you don't really get the pure advertised space anyway.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "Newmaniac_00",
+                                                    "body": "well done!",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "IllRadish8765",
+            "body": "Reformat as exfat that should make it correct.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Hisham2k5",
+            "body": "My dad also bought a tv card that says 8/128 but in reality it is 2/8!! They even say 8/128 in the settings",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BWebCat",
+            "body": "Twenty-ate the rest.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Embarrassed-Weird173",
+            "body": "Could be a scam. But that said, are you trying to copy a file larger than 4gb?\u00a0 It's a common glitch with FAT that prevents it from handling files larger than 4gb.\n\n\nYou'll have to get NTFS if this is the case.\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "obog",
+            "body": "As others have said, check formatting. There's a windows tool called \"create and manage hard drive partitions\" or something like that, it can tell you if the partitioning is messed up. If it is, delete the current partition (this will erase all data on it so make sure anything important is backed up) and then create a new partition. I'd personally recommend exFAT for the filesystem because it has very good cross platform compatibility but doesn't have the 4gb file size limit that FAT32 has, but there are other options as well.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MissFreeHope",
+            "body": "its why i only buy usbs in person",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MissFreeHope",
+            "body": "its why i only buy usbs in person",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ThePhabtom4567",
+            "body": "Don't listen to everyone saying it's a scam. It's more than likely got some weird formatting. Open disk partition on your PC and see what it says. There may just be a 4gb partition with a bunch of unallocated space.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "PoutinePiquante777",
+            "body": "Got a few \u201dfree\u201d drives from Aliexpress a while back. Easy to prove, full refund, always.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Rozenor",
+            "body": "Did you buy it from amazon?",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "DubSket",
+            "body": "Scam",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "CabooseFist",
+            "body": "Let me guess, you bought the card in Amazon, thinking you had a good deal and realized you have just been scammed...",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "Just_Here_So_Briefly",
+            "body": "You got conned.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "FreshQuam",
+            "body": "This is a common scam you find in loads of SD cards from temu/Chinese marketplace stores. There's a good YouTube video of someone buying loads of these scam ones and opening them up to compare the electronics against a genuine memory card of the same size.",
+            "score": -1,
+            "replies": [
+                {
+                    "author": "_Jack_Back_",
+                    "body": "I bought one off of Amazon like this.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "FallenAngelII",
+                            "body": "That's why only buy brand items straight from the manufacturer or other trustworthy stores on Amazon and not randos from China.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "FreshQuam",
+                            "body": "Loads of Amazon is now just people drop shipping the stuff straight from Temu",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "LickMyOrc",
+                            "body": "Amazon is on the verge of becoming part of the Chinese online marketplace/conglomerate, along with the garbage that is Temu.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "FreshQuam",
+                    "body": "![gif](giphy|enqnZa1B5fRHkPjXtS|downsized)",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "EphemeralLurker",
+                            "body": "If this were a scam, it would not report that it only has 4 GB. The controller on these scam cards is changed to report the advertised size, so the buyer doesn't realize it until it's too late.\n\nI also don't think a scammer would bother turning a 4 GB card into a 32 GB card, the price/cost difference between the two is too small to bother.\n\nThis is most likely a formatting issue",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ItsAllGoneCrayCray",
+            "body": "ONN.\n\nThere's your problem, idiot.",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "MissFreeHope",
+            "body": "its why i only buy usbs in person",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "rumdumpstr",
+                    "body": "It's an SD card and OP bought it in person.\u00a0\u00a0https://www.reddit.com/r/mildlyinfuriating/comments/1je89ms/comment/migoju3/",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "MissFreeHope",
+            "body": "its why i only buy usbs in person",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MissFreeHope",
+            "body": "its why i only buy usbs in person",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

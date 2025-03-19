@@ -1,0 +1,170 @@
+{
+    "title": "This is my latest model that I am proud of, I am still learning and very new. What should I do from this point to texture/animate it?",
+    "author": "ke2uke",
+    "subreddit": "blender",
+    "rank": 12,
+    "score": 104,
+    "upvote_ratio": 0.99,
+    "num_comments (reported by reddit)": 25,
+    "url": "https://i.redd.it/ke8aef2qxhpe1.png",
+    "id": "1jecys6",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "HusbandMaterial1922",
+            "body": "You can either start with texturing it, or rigging it. Both of which can be a big experience. I\u2019d suggest looking up about UV mapping and texturing first.",
+            "score": 10,
+            "replies": [
+                {
+                    "author": "ke2uke",
+                    "body": "it feels very overwhelming, I think I want to start with texture but have no clue where to start.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "djuvinall97",
+                            "body": "From here you need to UV unwrap your model. You will add seams to the mesh to tell it where to unwrap from. You are basically trying to get it to project into a 3D surface with the least amount of stretching possible.\n\nOnce you have a UV Map you can start painting in the model or setting up procedural materials or a combination!",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "ke2uke",
+                                    "body": "Thank you for all your information, I will go learn about the things you said so I can work on it.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "NotYour_Cat",
+                                            "body": "I'd recommend [this video](https://youtu.be/WjS_zNQNVlw?si=vVEPdEn60gXnWcth)",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "ke2uke",
+                                                    "body": "thanks",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "OlKingCoal1",
+                                                            "body": "He has one about animating a low poly rabbit too. I think it would be an easy one to apply to your beautiful elephant.\u00a0",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Toph1nator",
+                            "body": "One cool thing you can do for texture is to get a nice image of elephant skin from Google. Just use paint or Photoshop to crop a good sized square, then you can zoom the polys out in uv editor to get the size right. I'm certain this is bad practice, but I do this for fun and it can turn out pretty decent, might be easy to see repeating squares tho depending on the image you use. It's a fun thing to do just for the giggles \ud83d\ude01",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "MissGaufrette",
+                    "body": "First year in 3D here! In our class what we do is the create the UV in maya, after that we do our texture in substance painter! Very fun to use",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Noizyb33",
+            "body": "Just go bananas with it, it's peanuts.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "AutoModerator",
+            "body": "Please change your post's flair to Solved once your issue has been resolved.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/blender) if you have any questions or concerns.*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Suspicious-Name4273",
+            "body": "You could also make a real-like paper model from it \ud83d\ude42\n\nhttps://tamasoft.co.jp/pepakura_designer/",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BraxxIsTheName",
+            "body": "You could do Shapekeys to make it look like it\u2019s moving.\n\n\nMake a Shapekeys where the tail sways, another where the head turns, another where the trunk goes up, ears flap, eyes blink, etc.\n\n\nIt\u2019s really simple and when you got a lot of them it look cool.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Any-Company7711",
+            "body": "how does it look with sub-d modifier? if it doesn\u2019t look good try optimizing for that",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Roscoe_P_Trolltrain",
+            "body": "Ryan King Art has really good tutorials. I remember one about UV unwrapping that helped a lot. If I\u2019m watching a tutorial from an older version of blender, the shortcuts might have changed. There will often be someone in the comments that corrects it. And if not, I ask ChatGPT what the new shortcut or command location is.\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "HusseF1",
+            "body": "Very great job. As many have said the next part should be UV unwrapping, texturing, rigging etc. Might seem overwhelming at first, but essential skills that must be learnt (maybe the hard way even).",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "misawcz",
+            "body": "I have nothing to say other than that it's a pretty cool elephant.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "wanielderth",
+            "body": "This is excellent. Great job!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Pix3lstate",
+            "body": "Pretty good job..  echo the recommendation of looking at Ryan\u2019s tutorials.. they are beginner friendly\u2026 would be fun to lean to rig it.. but suggest lighting and textures would be a start.. again.. Ryan is great with textures.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "khaledhaddad197",
+            "body": "You can add some sub surface modifier",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DifficultyAble5864",
+            "body": "Other people had good comments, I just wanted to stop by and say great job it looks great.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "luddens_desir",
+            "body": "that looks like a friggin elephant, good job",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Armadillo-Overall",
+            "body": "Subdivide areas that you want to have greater texture detail while leaving other parts. https://docs.blender.org/manual/en/latest/render/materials/introduction.html You need to build a library of different types of materials for different parts like skin, tusks, eyes, hair,... Materials are how the light is affected like shiny metal vs a dull rubber ball. Textures are added later on the material like a logo on the rubber ball.\n\n Also add subdivisions in the areas where the joints for your animation. https://docs.blender.org/manual/en/latest/animation/index.html The less each section squishes and stretches, the less your texture will look deformed.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "begoniapansy",
+            "body": "just a quick tip for animating: you may want to add a few more edge loops around some of the joints like the knees. itll keep it from getting distorted when they bend",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Careful_Size_8467",
+            "body": "texturing is really cool but if you want to animate that you might need few loop cuts and reshapes in the ankles knees and such, so if you are not overwhelmed by it, i would suggest to look around topology tips.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

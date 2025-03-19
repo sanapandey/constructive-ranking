@@ -1,0 +1,97 @@
+{
+    "title": "Capture and create 3D models of real-world objects in Mixed Reality",
+    "author": "isaac_szpindel",
+    "subreddit": "virtualreality",
+    "rank": 4,
+    "score": 96,
+    "upvote_ratio": 0.96,
+    "num_comments (reported by reddit)": 13,
+    "url": "https://v.redd.it/9n6d8r3kqgpe1",
+    "id": "1je78rw",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "isaac_szpindel",
+            "body": "[Source](https://x.com/thorikawa/status/1901545245944455409)\n\nThe name of the app is [EchoTheReality](https://sidequestvr.com/app/38455) and was created by Takahiro Poly Horikawa. Great to see developers already getting to work on the Quest Passthrough API.\n\n>This app uses frame access on the Meta Quest 3 combined with AI to capture and replicate real-world objects. You can copy many objects around you by holding up the classic \u201cphoto capture\u201d hand gesture. The AI API can identify and separate the object from the background and create a 3D model from the image.",
+            "score": 12,
+            "replies": [
+                {
+                    "author": "VRModerationBot",
+                    "body": "**Linked tweet content:**\n\nMeta Quest\u306ePassthrough Camera API\u304c\u516c\u958b\u3055\u308c\u305f\u306e\u3067\u3001\u4ee5\u524d\u4f5c\u3063\u305f\u73fe\u5b9f\u306e\u7269\u4f53\u30923D\u3067\u8907\u88fd\u3059\u308b\u30a2\u30d7\u30ea\u3082\u66f4\u65b0\u3057\u3066\u307f\u305f\u3002\u30ef\u30fc\u30eb\u30c9\u5ea7\u6a19<->\u30b9\u30af\u30ea\u30fc\u30f3\u5ea7\u6a19\u306e\u8a08\u7b97\u3068\u304b\u304c\u3084\u308a\u3084\u3059\u304f\u306a\u3063\u305f\u306e\u3067\u3001\u6307\u30ab\u30e1\u30e9\u306e\u9818\u57df\u30af\u30ed\u30c3\u30d7\u3092\u5730\u5473\u306b\u5b9f\u88c5\u3057\u305f\u306e\u30673D\u30e2\u30c7\u30eb\u306e\u54c1\u8cea\u304c\u3061\u3087\u3063\u3068\u3060\u3051\u6539\u5584\u3055\u308c\u305f\u3002 Updated my \"Echo the Reality\" app using Passthrough Camera API !\n\n*Contains 1 video*\n\n[View on FxTwitter](https://fxtwitter.com/thorikawa/status/1901545245944455409)\n\n^(I'm a bot for the VR community that helps you view content without visiting Twitter/X directly. | )[^(We're using fxtwitter)](https://github.com/FixTweet/FxTwitter)",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Rene_Coty113",
+            "body": "Insane",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "DataPhreak",
+            "body": "Nintendo just filed seven lawsuits.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Fluffy-Anybody-8668",
+            "body": "Woah!",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Applepieport",
+            "body": "Might want to be careful with the Charizard. Nintendo might sue you.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "FastLawyer",
+            "body": "This is really cool. I would pay for this app with a bit more features like a full 360 rendering, higher resolution, etc.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "CMDR_Arnold_Rimmer",
+            "body": "What usefulness can this achieve in practice?",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "FastLawyer",
+                    "body": "Real world objects that you can easily recreate for your own MR game? If you don't see the usefulness, then I don't know what to tell you. The tech will only get better.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "CMDR_Arnold_Rimmer",
+                            "body": "Because you say so?",
+                            "score": -4,
+                            "replies": [
+                                {
+                                    "author": "jupe69",
+                                    "body": "what's wrong with you? lol, ignore this guy",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "CMDR_Arnold_Rimmer",
+                                            "body": "I thought I was asking a polite question.\n\nI can't think of a usefulness but I bet others could",
+                                            "score": -3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "theillustratedlife",
+                    "body": "If they did a good job, it would be useful to have an easy way to scan household objects to 3D print accessories for them.  Recreating in CAD is a pain in the ass.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

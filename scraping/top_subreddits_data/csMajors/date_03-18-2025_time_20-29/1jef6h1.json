@@ -1,0 +1,53 @@
+{
+    "title": "This girl said she uses arch, thinkpad, and neovim. Am I in trouble?",
+    "author": "Vivid_Search674",
+    "subreddit": "csMajors",
+    "rank": 10,
+    "score": 19,
+    "upvote_ratio": 0.81,
+    "num_comments (reported by reddit)": 6,
+    "url": "https://www.reddit.com/r/csMajors/comments/1jef6h1/this_girl_said_she_uses_arch_thinkpad_and_neovim/",
+    "id": "1jef6h1",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "Sorgair",
+            "body": "they have a penis",
+            "score": 72,
+            "replies": [
+                {
+                    "author": "Vivid_Search674",
+                    "body": "LMFAOOO",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "Sorgair",
+                            "body": "and their name is lily",
+                            "score": 10,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "random_throws_stuff",
+            "body": "(i know you\u2019re joking but still) vim key bindings are great, but setting up vim just isn\u2019t worth the effort. \n\nvs code with the vim plugin and some custom keybindings gets you 95% of the way there (only gap is when you have to switch windows) with far, far less setup time.\n\nai tools like cursor and copilot are also built atop vscode natively, whereas with vim you\u2019ll either go without them or go through config hell to get them to work.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "tevs__",
+                    "body": ">with vim you\u2019ll either go without them or go through config hell to get them to work.\n\nhttps://github.com/zbirenbaum/copilot.lua\n\nhttps://github.com/zbirenbaum/copilot-cmp\n\n~15 lines of config, copy pasted from the docs",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "KanzakiYui",
+            "body": "nope, until she uses ny dick",
+            "score": -8,
+            "replies": []
+        }
+    ]
+}

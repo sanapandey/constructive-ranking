@@ -1,0 +1,40 @@
+{
+    "title": "Prime subs used without my knowledge?",
+    "author": "RedRoronoa",
+    "subreddit": "Twitch",
+    "rank": 8,
+    "score": 0,
+    "upvote_ratio": 0.5,
+    "num_comments (reported by reddit)": 4,
+    "url": "https://www.reddit.com/r/Twitch/comments/1jeh5je/prime_subs_used_without_my_knowledge/",
+    "id": "1jeh5je",
+    "selftext": "So I have 2FA active on my Twitch account for years now, and just today I noticed my Prime sub wasn't going to renew until April 18th- weird, I haven't been on twitch for over a week so this puzzles me. I look through my sub history and come to find my prime has been used twice on two separate accounts that I have never interacted with, they had no VODs or clips either.\n\nNo clue how I was comprised either, I've only ever connected my Twitch to Amazon and Streamlabs. Nothing else- and I double checked if my amazon had other twitch accounts connected to it, nope just the one.\n\nAnyway I've changed my password and thankfully I've long removed any payment methods long ago (can't remember why but THANK god). I'm annoyed my prime couldn't be used on streamers I do watch but I understand this could have gone much worse, I'm more curious (and extremely anxious) how it got through the 2FA.",
+    "comments": [
+        {
+            "author": "ShannonBruce",
+            "body": "Do you have anyone in your family linked to your Amazon account? They would have access to use your prime sub on their account. Or if anyone has access to your computer or phone, they could have used it.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "RedRoronoa",
+                    "body": "I do not and I double checked just in case. Other than my relatives (who do not use twitch), no else has access to my PC and my phone is with me at all times. \ud83d\ude14",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "madpew",
+            "body": "There are 2 very big problems at play here:\n\nFirst, twitch only uses 2FA to authorize logins. Purchases (bits, subs, giftsubs) and their use (using the prime-sub, spending bits) are not protected by an additional 2FA step (probably for convenience).\n\nSecond, it only takes an attacker to hijack your twitchsession (cookie) either by stealing it or maybe even by guessing to get full control of your session. They can then use your saved paymentmethods to buy bits, use your prime-sub or follow channels.\n\nMost if not all of the illegal \"buy subs/bits/follows for your channel\" services work that way. Needless to say, twitch customer support will refund and remove those so the desperate buyers gets scammed as well.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "RedRoronoa",
+                    "body": "Thank you for the insight, I recall I used 2FA on streamlabs official site early this year (have used it beforehand in the past for alerts, etc) but nothing else comes to mind. I've went ahead and sent a support ticket to twitch, thank you again.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

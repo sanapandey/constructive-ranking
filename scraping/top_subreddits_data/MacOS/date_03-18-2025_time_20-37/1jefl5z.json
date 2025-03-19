@@ -1,0 +1,13 @@
+{
+    "title": "Time Machine directory restore completed, but I can't find it!",
+    "author": "Cloudster47",
+    "subreddit": "MacOS",
+    "rank": 17,
+    "score": 1,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 0,
+    "url": "https://www.reddit.com/r/MacOS/comments/1jefl5z/time_machine_directory_restore_completed_but_i/",
+    "id": "1jefl5z",
+    "selftext": "This is a little complicated.  I have two machines, the backup source is a 2015 Intel iMac with the latest MacOS, the destination machine is a '24 M2 Max laptop running 15.3.2.  I have a photo directory with 800 gig of photos going back a good 20 years from the iMac that I wanted on the M2.\n\nI think the problem is that I had to change my normal user account on the iMac: several years ago it went weird and I couldn't fix it (I don't remember *how* it started misbehaving, it just did) and I changed it, let's call the account name UserB.  On my '24 laptop there is no such account, I'm running my normal UserA login as admin.\n\nWhen I did the restore, it completed after a couple of hours and my available space was reduced by about 800 gig, but I can't find the photos!  I didn't have the UserB account on my laptop, and a directory appropriate to it wasn't created by the restore process.\n\nAny thoughts where the files could have gone, or a suggestion for a good tool to spelunk for them might be?\n\nThanks!",
+    "comments": []
+}

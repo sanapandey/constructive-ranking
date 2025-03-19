@@ -1,0 +1,45 @@
+{
+    "title": "Mistral Small 3.1 performance on benchmarks not included in their announcement",
+    "author": "jordo45",
+    "subreddit": "LocalLLaMA",
+    "rank": 19,
+    "score": 17,
+    "upvote_ratio": 0.91,
+    "num_comments (reported by reddit)": 6,
+    "url": "https://i.redd.it/egmm33owjipe1.png",
+    "id": "1jeg10y",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "windozeFanboi",
+            "body": "That's a mixed bag.",
+            "score": 11,
+            "replies": []
+        },
+        {
+            "author": "ForsookComparison",
+            "body": "1. Gemma3 has to be benchmaxing some of these..\n\n2. I guess the theory is right that they borked it in some ways to make it a better MultiModal model with more languages",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "Expensive-Apricot-25",
+                    "body": "Ya, I have a feeling OpenAI did the same thing with the 4o models, it was a series downgrade from GPT4.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "HugoCortell",
+            "body": "Petition to ban all benchmarks except the factorio one",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "h1pp0star",
+            "body": "I like how the Gemma 3 release announcement shows charts of it on par with gpt 4o mini (in coding) yet this one shows gpt 4o significantly ahead. Guess benchmark charts are meaningless these days.\n\nLiveBench shows the opposite where Gemma3 performs better than Mistral Small \\[[Reddit](https://www.reddit.com/r/LocalLLaMA/comments/1jeh199/gemma_3_27b_and_mistral_small_31_livebench_results/)\\]",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}

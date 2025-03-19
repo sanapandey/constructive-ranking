@@ -1,0 +1,499 @@
+{
+    "title": "Smite Shadow Singer (SSS) || 10/2 Wizardin || Honor Mode Spellblade Complete Guide",
+    "author": "c4b-Bg3",
+    "subreddit": "BG3Builds",
+    "rank": 4,
+    "score": 116,
+    "upvote_ratio": 0.98,
+    "num_comments (reported by reddit)": 74,
+    "url": "https://www.reddit.com/r/BG3Builds/comments/1je59xl/smite_shadow_singer_sss_102_wizardin_honor_mode/",
+    "id": "1je59xl",
+    "selftext": ">**WARNING #1:**\u00a0This guide is meant for advanced players and contains\u00a0spoilers\u00a0of the game.\n\n>**WARNING #2**:\u00a0This theorycrafing guide is based on the Patch 8 preview, which is still in testing and subject to change. Given the current state of the Stress Test, I believe it's safe to publish; however, I will update this article as new information becomes available.\n\n**------------------------------------**\n\n# Index\n\n*Chapters and subchapters in this article are numbered for quick consultation. Press Ctrl+F (Windows) or Cmd+F (Mac) and search for your desired (sub)chapter's number, then press the down arrow button to get there. This article is particularly long, just like all my other guides: if you're feeling especially lazy, search for the number \"seven hundred\" (in figures, not in letters) and jump straight to the chapter called TL;DR for a concise summary of the build.*\n\n**100 The build at a glance**  \n110 Introduction  \n**200 Developing your character**  \n210 Class contribution  \n220 Character Race  \n230 Playing the early game as Bladesinger  \n240 Alternatives  \n250 Entering the build  \n260 Stats and Feats  \n**300 Spells and abilities**  \n310 Bladesong and Climaxes  \n320 Wizard Spells  \n330 Channel Oaths and Smite  \n340 Paladin Spells  \n**400 Equipment**  \n410 Act 1 Items  \n420 Act 2 Items  \n430 Act 3 Items  \n440 Final Build  \n450 Consumables  \n**500 Smite Shadow Singer Heuristics**  \n**600 Variants**  \n610 Class variants  \n620 Gear variants  \n630 Feat variants  \n**700 TL;DR**  \n**800 Math Dump**  \n**900 Conclusions**  \n910 FAQ  \n920 Credits\n\n**------------------------------------**\n\n# 100 The build at a glance\n\n**The Smite Shadow Singer (SSS for short):**\n\n* Is a Spellblade Carry build with double attack and almost full caster progression;\n* Has a huge variety of utility and spell selection by virtue of being a Wizard;\n* Can burst exceptionally well with Smite + forced Critical Hits;\n* Provides reliable sustained damage thanks to Shadow Blade and Resonance Stone;\n* Casts very effective Crowd Control thanks to Arcane Acuity + Band of the Mystic Scoundrel.\n\n**------------------------------------**\n\n[What's the title of the \\(Blade\\)song?](https://preview.redd.it/mdk0pmnjcgpe1.jpg?width=571&format=pjpg&auto=webp&s=7dfff742077b683715c3e39bf503368865b46995)\n\n**110 Introduction**  \nPatch 8 of Baldur's Gate 3 is in test and it will shake the metagame with many a new feature. Among the most notable additions are the 12 new subclasses (one for each class), several new cantrips and particularly [Booming Blade](https://bg3.wiki/wiki/Booming_Blade), which empowers melee Gish builds, and the ability to cast and upcast [Shadow Blade](https://bg3.wiki/wiki/Shadow_Blade) without relying on the [ring](https://bg3.wiki/wiki/Shadow_Blade_Ring) obtainable in Act Two.\n\nOne of the subclasses that has caught the attention of Baldur's Gate 3 players during the anticipation for the patch is the [Bladesinger](https://bg3.wiki/wiki/Bladesinging), the wizard subclass focused on melee combat. Functionally, the Bladesinger can operate as a standard wizard but it also gains the ability to make two martial attacks per turn at level 6. Additionally, this subclass can activate [Bladesong](https://bg3.wiki/wiki/Bladesong), a powerful magical litany that improves Armor, Constitution Saving Throws and Movement Speed, empowering the Spellblade combat style \u2014 provided the wizard is equipped like a rogue (light armor, light weapons) rather than a heavily armored knight.\n\nI seriously believe that, in the future metagaming landscape, the Bladesinger has the potential to emerge as a carry class for Honor Mode parties \u2014 particularly thanks to the synergy between Shadow Blade, Booming Blade and the Bladesinger chassis. The sheer amount of dice stacked by this combination is considerable, especially when critting, and further enhanced by a light dip in the Paladin Class for Smite, it makes Savage Attacker a reasonable alternative to the evergreen GWM Bhaalist setups.\n\nBy wielding high level Shadow Blade in tandem with powerful items and lategame features, the Smite Shadow Singer can excel in both single target damage and battlefield control, making it a competitive alternative to builds like [Sorcadin](https://www.reddit.com/r/BG3Builds/comments/1huwcyp/the_swiss_army_knife_sorcadin_the_complete_guide/and) and [Smite Swords Bard](https://www.reddit.com/r/BG3Builds/comments/18pxoy9/honor_mode_102_smite_swords_bard_ssb_complete/). Enough for now, Lord forbid I get accused again of writing too much (and rightfully so).\n\n**------------------------------------**\n\n# 200 Developing your character\n\n**210 Class contribution**\n\n|10 [Bladesinger](https://bg3.wiki/wiki/Bladesinging) Wizard|2 [Oath of the Crown](https://bg3.wiki/wiki/Oath_of_the_Crown) Paladin|\n|:-|:-|\n|Full spellcaster progression provides a large pool of spell slots, which can be used to fuel Divine Smite (similar to how Swords Bard does)|Divine Smite greatly enhances melee damage and synergizes with forced crits from Hold spells and the Savage Attacker feat, maximizing burst potential.|\n|Has access to a vast array of control, damage, and utility spells, ensuring adaptability in various combat scenarios.|Oath of the Crown provides the best level 2 Channel Oath for this multiclass, granting a scaling bonus to attack rolls based on proficiency, further boosting accuracy and damage output.|\n|Bladesong is a unique class feature that boosts AC, movement speed, and concentration checks\u2014reinforcing the Spellblade playstyle by making the wizard more durable in melee.||\n|Level 6 capstone allows the Bladesinger to make two attacks per turn, significantly improving sustained melee damage.||\n|As a full spellcaster, the Bladesinger can easily upcast Shadow Blade, increasing its damage and making melee combat even more effective.||\n\n*What is the thought process behind this class split?*\n\n* You want at least six levels in the Bladesinger class for extra attack;\n* You don't want more than two levels in a non-full spellcaster class, because you need as many spell slots as possible in order to upcast Shadow Blade, control spells and Smite;\n* You want at least two feats (Savage Attacker and ASI +2 Intelligence);\n* Bladesinger's level 9 feature grants one extra Bladesong per day (total: 4) and while this is not stricly needed to play the game, I feel like it is a very good quality of life improvement. You want to Bladesong as often as possible. Bladesinger's level 10 feature is redudant with the Shield spell and overall not really amazing, but it is still okay and can spare some damage here and there;\n* 10 Levels in Wizard ensure that you can learn, scribe and prepare as many INT-based spells as possible, staying true to Wizard's versatility.\n* Oath of the Crown is the best Paladin class to dip for this build. The choice is based on the Channel Oath Ability, which is just about the only thing provided by Paladin 2 other than Smite. [Vengeance](https://bg3.wiki/wiki/Oath_of_Vengeance), [Ancients](https://bg3.wiki/wiki/Oath_of_the_Ancients) and [Oathbreaker](https://bg3.wiki/wiki/Oathbreaker) Paladins have Channel Oaths that will perform based on your Charisma Stat (which you are going to dump to 8) and therefore are not recommended. Oath of [Devotion](https://bg3.wiki/wiki/Oath_of_Devotion)'s Channel Oath is not based on Charisma, but it is worse than Crown's.\n\nPossible alternatives to this class split are discussed in the *Variants* chapter.  \n**------------------------------------**\n\n**220 Character Race**  \nNo race or companion is considered mandatory for this build, but since it is going to be a melee character, you can't go wrong with races that have [extra movement speed](https://bg3.wiki/wiki/Fleet_of_Foot), such as [Wood Elf](https://bg3.wiki/wiki/Elf#Wood_elf) or\u00a0[Wood Half Elf](https://bg3.wiki/wiki/Half-Elf#Wood_half-elves).\n\nPlaying this build on a companion, [Astarion](https://bg3.wiki/wiki/Astarion) has an\u00a0extra 1d10 necrotic damage per attack in act III, if you opt for the plot choice of making him the [Vampire Ascendant](https://bg3.wiki/wiki/Vampire_Ascendant).\n\nOrigin [Gale](https://bg3.wiki/wiki/Gale) is also an excellent choice due to his [extra spell slot](https://bg3.wiki/wiki/Consumed_Shadow_Weave), given how spell hungry this build is.\n\nFrom a Lore/RP standpoint, [Shadowheart](https://bg3.wiki/wiki/Shadowheart) gets a mention because many players don't like playing without her due to how essential she is to the story.  \n**------------------------------------**\n\n**230 Playing the early game as Bladesinger**  \nThis build comes online at level 8 and needs one respec; until then, you have a few solid options for progression. One possibility is to level up as a full Bladesinger, staying true to the spirit of the class.\n\nLevels 1-5: Play as a classic ranged caster, buffing yourself with Mage Armor, banking on powerful reaction spells such as Shield and Counterspell and use Bladesong primarily to maintain concentration on your AOE Crowd Control spells such as [Web](https://bg3.wiki/wiki/Web) and Hypnotic Pattern. You won\u2019t be in melee much at this stage, so focus on spellcasting. However, I do wanna mention that early Bladesinger Gish playstyle is possible but takes a bit of extra work, as showcased in [this example](https://www.youtube.com/watch?v=u4B7-_3BY2c).\n\nLevel 6-7: Things start to shift. You gain the ability to multiattack, so you can start casting level 3 Shadow Blade once per long rest. At this point, you can begin incorporating melee into your gameplay loop. Equip the Acuity Helm, drink [Potion of Speed](https://bg3.wiki/wiki/Potion_of_Speed) and attack+CC.\n\nThis already starts to feel like a proper Spellblade playstyle. When you transition to melee, start consuming [Elixir of Hill Giant Strength](https://bg3.wiki/wiki/Elixir_of_Hill_Giant_Strength) to maximize damage (see *Stats and Feats*).  \n**------------------------------------**\n\n**240 Alternatives**  \nIf you don\u2019t want to play as a Bladesinger without double attack, early on you have a few solid alternatives:\n\n* Divination Wizard (e.g., my [Arcane Controller](https://www.reddit.com/r/BG3Builds/comments/1axg648/the_arcane_controller_84_divination_wizcerer/) build) is an effective battlefield mastermind who allows you to influence the fate of the battle in your favour. The linked guide also contains various indications on how to play a ranged controller: check it out even if you want to stick to Bladesinger until level 6.\n* A pure Vengeance Paladin, if you want more melee action early, is going to give you a decent feeling of how the build is going to operate when fully online. 8/16/14/X/X16. Drink Elixir daily to bring Strength to 21 and take [GWM](https://bg3.wiki/wiki/Great_Weapon_Master:_All_In) at level 4.\n* You can also play any strong early-game build if you want to breeze through Act 1 and get to level 8 ASAP \u2013 [TB Monk](https://www.reddit.com/r/BG3Builds/comments/171kt8r/the_best_sustained_single_target_damage_optimal/or) or [TB Throw](https://www.reddit.com/r/BG3Builds/comments/18eguld/honor_mode_tb_throw_complete_build_guide/) work well in that regard.\n\nWhichever route you take, just make sure to pick the correct Hag Hair (+1 Intelligence) for your eventual respec (see *Stats and Feats*).  \n**------------------------------------**\n\n**250 Entering the Build**  \nWhen you hit level 8, take whatever build you\u2019ve been playing to [Withers](https://bg3.wiki/wiki/Withers) and respec into Paladin 2 (Oath choice covered in *Class Contribution Chapter*) but with an Intelligence-focused stat allocation (covered in *Stats and Feats*). Take [Defence](https://bg3.wiki/wiki/Defence) as fighting style (wear Light Armour with it, see *Items*) and choose the proficiencies you like. By making Paladin your base class you ensure that your Scrollcasting will scale with Intelligence (as the game will count Wizard, the last new class added, for that), hence optimizing the build\u2019s full potential.\n\nAfter Paladin 2, multiclass and take 6 Bladesinger levels, reaching the 3 Bladesong per day capstone (level 5) and [Extra Attack](https://bg3.wiki/wiki/Extra_Attack) (level 6). Congratulations! Your initial setup is now complete. From now on, the easiest and suggested build is simply to keep on leveling up Bladesinger until you reach the 10/2 configuration.  \n**------------------------------------**\n\n**260 Stats and Feats**  \nWhenever you decide to enter the build (be it at level 1, level 8, or anywhere inbetween), start with the following stats:\n\n|Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma|\n|:-|:-|:-|:-|:-|:-|\n|8|16|14|17|10|8|\n\n* At level 4, if you have started the game as Bladesinger, take an [Ability Score Improvement](https://bg3.wiki/wiki/Abilities) to raise your Intelligence stat to 19. Whenever you respec your character, be it level 8 (as advised) or any other point in time (see *Entering the build*), take [Savage Attacker](https://bg3.wiki/wiki/Savage_Attacker) as your first feat instead of the aforementioned Ability Score Improvement.\n* Between level 4 and level 8, make sure to farm a good amount of [Elixir of Hill Giant Strength](https://bg3.wiki/wiki/Elixir_of_Hill_Giant_Strength) by buying or stealing them from Ethel (Sword Coast) or Derryth (Underdark). An amount of 20 or so should suffice for a while, until you get the better Elixir. You won't need them right away, but when you start to transition to a melee playstyle, you have to start consuming one of them after each long rest (see *Wizard Spells*).\n* After defeating [Auntie Ethel](https://bg3.wiki/wiki/Auntie_Ethel), which should happen around level 5 or 6 in Honor Mode, take her [Hair](https://bg3.wiki/wiki/Auntie_Ethel%27s_Hair) to get a +1 boost to Intelligence, reaching 20 (pre-build) or 18 (post-respec).\n* Around level 7, when you visit the [Cr\u00e8che Y'llek](https://bg3.wiki/wiki/Cr%C3%A8che_Y%27llek), you may give your Smite Shadow Singer the [Awakened](https://bg3.wiki/wiki/Awakened) buff. This is optional and can be situationally strong as you are an Acuity Character (read: Acuity Bonus Action [Black Hole](https://bg3.wiki/wiki/Black_Hole)); however do bear in mind that your Bonus Action is going to be rather busy and your risk clogging it by taking Awakened.\n* At level 10, you will get your second feat. Take an Ability Score Improvement, finally reaching 20 Intelligence.\n* In Act III, if you are able to benefit from the [Mirror of Loss](https://bg3.wiki/wiki/Mirror_of_Loss) buff, take +2 Intelligence, reaching a final score of 22.\n\n**------------------------------------**\n\n# 300 Spells and abilities\n\n**310 Bladesong and Climaxes**  \n[Bladesong](https://bg3.wiki/wiki/Bladesong) is what transforms the Wizard into a true Spellblade. It\u2019s a free action that boosts AC, movement speed, Acrobatics, and Constitution saving throws, making it crucial for maintaining concentration on spells. You start with two uses per long rest, increasing to three at level 5 and four at level 9, allowing you to activate it in almost every meaningful fight. By level 9, you may never need to enter combat without it.\n\nHowever, Bladesong comes with some key restrictions\u2014you can\u2019t use it while wielding a shield, wearing medium or heavy armor (not even [Helldusk Armor](https://bg3.wiki/wiki/Helldusk_Armour)), and you have to use certain types of weapons. These limitations explain all the build choices in this thread, so keep them in mind.\n\nWhile in Bladesong, casting non-melee attack spells builds [damage charges](https://bg3.wiki/wiki/Bladesong_Damage_Charge_(Condition)), while taking the Attack action generates [healing charges](https://bg3.wiki/wiki/Bladesong_Healing_Charge_(Condition)). As a Bonus Action, you can activate [Climax](https://bg3.wiki/wiki/Bladesong_Climax), spending all accumulated charges to damage enemies and heal allies in a small radius (1d6 per charge).\n\nThe healing aspect is particularly useful, as you already have plenty of damage. It can even bring downed allies back into the fight at a crucial moment. That said, if you execute your crowd control strategy correctly, you won\u2019t come around to using it often. It\u2019s a nice perk, but nothing that will leave you breathless afterwards. Think of it as the satisfying finish to a long and arduous battle, rather than the main event.\n\n**------------------------------------**\n\n**320 Wizard Spells**  \nFirst, a quick aside on minor spells. As a Wizard, you can learn every scroll you come across, so make sure to exploit that to expand your spell arsenal. Long-term camp buffs like [Longstrider](https://bg3.wiki/wiki/Longstrider) are always useful, while nukes like [Fireball](https://bg3.wiki/wiki/Fireballand) and [Chain Lightning](https://bg3.wiki/wiki/Chain_Lightning) can be situationally strong, especially if your team revolves around setups like Wet conditions + [Conjure Elemental](https://bg3.wiki/wiki/Conjure_Elemental:_Water_Elemental). Lastly, [Globe of Invulnerability](https://bg3.wiki/wiki/Globe_of_Invulnerability) (for combat) is essentially a legalized cheat codes for BG3. Enough about that. Let\u2019s move on to the spells you\u2019ll be casting the most. These should always be prepared.\n\n* [Shadow Blade](https://bg3.wiki/wiki/Shadow_Blade) (Level 2+) is the core spell of this build. It summons a magical shortsword dealing 2d8 psychic damage, which scales when upcasted (3d8 at level 3, 4d8 at level 5). Psychic damage is doubled by [Resonance Stone](https://bg3.wiki/wiki/Resonance_Stone), an Act 2 item that skyrockets your psychic damage. The sheer number of dice rolled with Shadow Blade (plus Smite) makes [Savage Attacker](https://bg3.wiki/wiki/Savage_Attacker) an incredible feat choice. Also, remember that this weapon adds your STR or DEX modifier to its rolls, so daily Strength Elixirs are mandatory for optimal damage. This setup competes with GWM + [Bhaalist](https://bg3.wiki/wiki/Bhaalist_Armour) \\+ Piercing builds (see *Math Dump*), while also leaving room for an offhand weapon. Make sure to cast and equip Shadow Blade after every long rest.\n* [Booming Blade](https://bg3.wiki/wiki/Booming_Blade) and [Minor Illusion](https://bg3.wiki/wiki/Minor_Illusion) as cantrips. The first is absolutely essential to your damage gameplan, as it will enable [Arcane Synergy](https://bg3.wiki/wiki/Arcane_Synergy_(Condition)) (see *Items* chapter). The second one is just an all-star move to distract and group NPCs in preview of important thefts and fights.\n* [Hypnotic Pattern](https://bg3.wiki/wiki/Hypnotic_Pattern) (Level 3) is your go-to crowd control spell, capable of disabling multiple enemies at once. Since it's an Enchantment spell, you can cast it as a Bonus Action with Band of the Mystic Scoundrel, making it one of the most efficient control options available. When enemies are grouped together, it typically outperforms Hold Spells in effectiveness. On the other hand, [Sleet Storm](https://bg3.wiki/wiki/Sleet_Storm) (also level 3) is a high-impact battlefield control tool that can shut down fights with a single cast, especially when combined with Arcane Acuity. It requires a full action, but its ability to disrupt enemy positioning, spellcasting, and movement in a wider area makes it a powerful alternative when Hypnotic Pattern isn't the best option.\n* [Hold Person](https://bg3.wiki/wiki/Hold_Person) (Level 2) and [Hold Monster](https://bg3.wiki/wiki/Hold_Monster)  (Level 5) disable multiple enemies and massively boost your damage because attacking a held target in melee forces a critical hit. This makes hold spells highly synergistic with Shadow Blade and high-level Smites. However, hold spells scale inefficiently (+1 target per spell slot), so don\u2019t overcommit to upcasting them\u2014use with caution (see *Heuristics*). Hold Monster is kind of necessary in the Act3 as Steel Watchers are immune to your Shadowblade.\n* Finally, [Shield](https://bg3.wiki/wiki/Shield_(spell))  (Level 1) & [Counterspell](https://bg3.wiki/wiki/Counterspell) (Level 3) are essential reaction-based spells that improve your action economy, keep you alive, and protect your concentration on CC spells. Never leave home without them.\n\n**------------------------------------**\n\n**330 Channel Oaths and Smite**  \nChannel Oaths are abilities that you can use expending one of your Channel Oath charges. In general, those abilities aren't too powerful and should be used sparingly, trying not to diverge from your standard gameplay. For this build, [Righteous Clarity](https://bg3.wiki/wiki/Righteous_Clarity) \\-Oath of Crown's channel ability- is decent and the best one among all the Oaths. Later in the game, your Bonus Action is going to be rather busy, but until you get Band of the Mystic Scoundrel, it is going to be a decent option that will help you land your Shadow Blade attacks.\n\nAbout Smites:\u00a0[Divine Smite](https://bg3.wiki/wiki/Divine_Smite)\u00a0is just about the only smite that's worth considering, as the others have far worse cost-opportunity in terms of how many actions and bonus actions they take away from you. A lot of new players make the mistake of smiting too much, running out of spell slots in no time.\u00a0Smite only when it guarantees a kill, when the target is held, or when you score a natural critical hit.  \n**------------------------------------**\n\n**340 Paladin Spells**  \nAs a Paladin, you're a Prepared Spellcaster\u2014your magic doesn't come from innate talent or study but from the Oath you've sworn. This means you have access to all the spells for your available levels at all times. However, you can only prepare a limited number of spells for each encounter. To change your prepared spells, press 'K' and navigate to the Paladin tab.\n\n[Bless](https://bg3.wiki/wiki/BlessI)\u00a0is good if you can cast it pre-combat. I want to highlight\u00a0[Divine Favour](https://bg3.wiki/wiki/Divine_Favour)\u00a0and\u00a0[Shield of Faith](https://bg3.wiki/wiki/Shield_of_Faith), since both can be cast as bonus actions. In the early levels, this allows you to both cast a spell and make a weapon attack in the same turn. Also, keep\u00a0[Command](https://bg3.wiki/wiki/Command)\u00a0in mind: you won't have a ton of charisma to make it work, but later in the game, with Acuity stacking, maybe if can sometimes be substitute for Hold spells.\n\n**------------------------------------**\n\n# 400 Equipment\n\n**410 Act 1 Items**  \n*Temporary Items*  \nSince I haven\u2019t laid out a clear leveling path for Act 1, it's tough to pinpoint which temporary items will benefit you the most. Let's say you leveled up as a Bladesinger though, here are some items that could make your early game smoother: [Ring of Protection](https://bg3.wiki/wiki/Ring_of_Protection) (as a prize for stealing the Idol of Sylvanus in the Grove); [Bow of Awareness](https://bg3.wiki/wiki/Bow_of_Awareness) (sold by Roah in the Shattered Temple); [The Shadespell Circlet](https://bg3.wiki/wiki/The_Shadespell_Circlet) (sold in Ebonlake Grotto); [Underdogs,](https://bg3.wiki/wiki/Gloves_of_the_Growling_Underdog) [Dexterity](https://bg3.wiki/wiki/Gloves_of_Dexterity)  \nor [Wondrous](https://bg3.wiki/wiki/Wondrous_Gloves) as gloves; [Knife of the Undermountain King](https://bg3.wiki/wiki/Knife_of_the_Undermountain_King) (Cr\u00e8che) or [Sussur Dagger](https://bg3.wiki/wiki/Sussur_Dagger) (Blighted Village) as offhand fillers since there is nothing better in act 1. As for your armor, any common [Leather Armor](https://bg3.wiki/wiki/Studded_Leather_Armour_%2B1) will do.\n\n*Key Build Items*  \nAct 1 offers a strong pair of boots that could end up being your final choice: [Disintegrating Night Walkers](https://bg3.wiki/wiki/Disintegrating_Night_Walkers) (dropped by Nere in Grymforge) are my go-to pick, offering mobility and survivability.\n\nIn Act1 you also need to get [Ring of Arcane Synergy](https://bg3.wiki/wiki/Ring_of_Arcane_Synergy) from Gish Far'aag in the Cr\u00e8che. This item is key to the build. As of now, Spellblade builds often equip [Diadem of Arcane Synergy](https://bg3.wiki/wiki/Diadem_of_Arcane_Synergy) instead, as the Ring forced them to cast suboptimal cantrips and cut them off Acuity Helmet. In P8, with [Booming Blade](https://bg3.wiki/wiki/Booming_Blade)  available, you will be able to have both Arcane Acuity and Synergy.\n\nSlay Khaga for [Broodmother's Revenge](https://bg3.wiki/wiki/Broodmother%27s_Revenge). This can be skipped as it is an alternative for a hyper damage focused version of Smite Shadow Singer which sacrifices control capability to pursue damage (see *Variants*).  \n**------------------------------------**\n\n**420 Act 2 Items**  \n*Temporary Items*  \nUpgrade your torso equipment by buying something like [Studded Leather Armor +2](https://bg3.wiki/wiki/Studded_Leather_Armour_%2B2). To fill your second ring slot, something like [Ring of Mental Inhibition](https://bg3.wiki/wiki/Ring_of_Mental_Inhibition) or [Snowburst Ring](https://bg3.wiki/wiki/Snowburst_Ring) (in tandem with Drakethroat Enchant) can be a replacement for Ring of Protection if you feel like it. [Cloak of Protection](https://bg3.wiki/wiki/Cloak_of_Protection), sold at Last Light Inn, can be an addition to your gear, improving your defenses.\n\n*Key Build Items*  \nWhen you get to Reithwin, you can find [Helmet of Arcane Acuity](https://bg3.wiki/wiki/Helmet_of_Arcane_Acuity) in the Stone Mason Guild. This is your best in slot Helmet, allowing your spells to become basically unresistable, and you won't change it anymore.\n\nAlways at Last Light Inn, if you convinced the three Act1 thiefling adventurers to stay with their people, you will be able to buy [Evasive Shoes](https://bg3.wiki/wiki/Evasive_Shoes) from the thiefling kid. I like those shoes: they can be a decent alternative to Nightwalkers.\n\nAt Moonrise Towers, buy [Drakethroat Glaive](https://bg3.wiki/wiki/Drakethroat_Glaive) from shady vendor Roah Moonglow. Use this to enchant your weapon daily (drop it on the ground, equip drakethroat, enchant the weapon, pick it up) and get a nice extra d4. Lightning or Frost enchants usually work well with items (such as Reverb items or Snowfrost Ring).\n\nIn the ending sequence of Act 2, don't miss the hidden [Resonance Stone](https://bg3.wiki/wiki/Resonance_Stone). This item is your Bhaalist Armor. It doubles your psychic damage and should be carried at all times. I repeat: do not miss this item.\n\n**------------------------------------**\n\n**430 Act 3 Items**  \n*Key Build Items*  \n**Rivington**: Trick the Djinn (well-known method) for the [Band of the Mystic Scoundrel](https://bg3.wiki/wiki/Band_of_the_Mystic_Scoundrel) , a major powerspike alongside Resonance Stone. Steal or buy alternative items [Hellrider Longbow](https://bg3.wiki/wiki/Hellrider_Longbow) and [Robe of Supreme Defences](https://bg3.wiki/wiki/Robe_of_Supreme_Defences) from Ferd Drogher\u2014just keep Shadowheart away, or he won\u2019t trade.\n\n**Lower City**: Steal [Amulet of the Devout](https://bg3.wiki/wiki/Amulet_of_the_Devout) from Stormshore Tabernacle (distract the priest to access trapdoor). Be cautious\u2014the item is cursed and summons a raging Deva when Remove Curse is cast.\n\n**Jaheira\u2019s Hideout**: Find [Belm](https://bg3.wiki/wiki/Belm), a Scimitar that grants bonus action main-hand attacks. Not your BiS offhand, but great for a high-damage variant.\n\n**Sorcerous Sundries**: Buy or steal [Armour of Landfall](https://bg3.wiki/wiki/Armour_of_Landfall) (your best armor option).\n\n**Devil\u2019s Fee**: Steal or buy [Cloak of the Weave](https://bg3.wiki/wiki/Cloak_of_the_Weave) from Helsik\u2014requires persuasion or corruption to unlock. Complete Raphael storyline to get [Gauntlets of Hill Giant Strength](https://bg3.wiki/wiki/Gauntlets_of_Hill_Giant_Strength). This item is key, as it makes you stop consuming Strength Elixirs (Bloodlust elixir instead). Noteworthy, this item can be beelined (read:stolen) without actually finishing the Raphael Arc, but that requires a little ingenuity.\n\n**Murder Tribunal**: Side with the cult for [Vicious Shortbow](https://bg3.wiki/wiki/Vicious_Shortbow), enhancing Hold Person + Shadowblade + Smite. Also grants access to [Bhaalist Armor](https://bg3.wiki/wiki/Bhaalist_Armour), ideal if you have archers.\n\n**Counting House**: Complete *Retrieve the money* Arc (Minsc's) to unlock [Elegant Studded Leather](https://bg3.wiki/wiki/Elegant_Studded_Leather) in Vault #9\u2014another solid armor choice.\n\n**Cazador\u2019s Palace**: Kill Cazador for  [Rhapsody](https://bg3.wiki/wiki/Rhapsody), arguably the best offhand weapon in the game and a perfect fit for this build.\n\n**------------------------------------**\n\n**440 Final Build**\n\n|Slot|Item|Alternative|\n|:-|:-|:-|\n|`Head`|Helmet of Arcane Acuity|Key Item, but you can play Helmet of Grit (see *Variants*).|\n|`Shoulders`|Cloak of the Weave|Cloak of Protection|\n|`Torso`|Armour of Landfall|Robe of Supreme Defences, Bhaalist Armor, Elegant Studded Leather|\n|`Hands`|Gauntlets of Hill Giant Strength|Key Item|\n|`Feet`|Disintegrating Night Walkers|Evasive Shoes|\n|`Main hand`|Shadow Blade|Key Item|\n|`Off hand`|Rhapsody|Key Item, but you can play Belm instead (see *Variants*).|\n|`Ranged`|Vicious Shortbow|Hellrider Longbow|\n|`Neck`|Amulet of the Devout|Broodmother's Revenge|\n|`Finger #1`|Band of the Mystic Scoundrel|Key Item|\n|`Finger #2`|Ring of Arcane Synergy|Key Item|\n|`Carry in the bag`|Resonance Stone, Drakethroat Glaive|Key Items|\n\n**------------------------------------**  \n**450 Consumables**  \nBuy or steal as many\u00a0[Elixirs of Hill Giant Strength](https://bg3.wiki/wiki/Elixir_of_Hill_Giant_Strength)\u00a0as you can. From level 6 to level 9, you need to drink one of these every day, as soon as you wake up. This consumable will give you a significant power-up\\*.\\*\n\n[Elixir of Cloud Giant Strength](https://bg3.wiki/wiki/Elixir_of_Cloud_Giant_Strength)\u00a0replaces Hill Giant; as soon as you hit level 9, this improved version starts appearing in merchants' tab. As with the above, drinking one of these per day is mandatory to optimize this build.\n\n[Elixir of Bloodlust](https://bg3.wiki/wiki/Elixir_of_Bloodlust)\u00a0is the final step of the build. As soon as you hit 23STR Gauntlets, you can switch from drinking Cloud to drinking Bloodlust, and this is yet another incredible damage boost in the latter stages of the game.\n\n**------------------------------------**\n\n# 500 Smite Shadow Singer Heuristics\n\n*Each morning when you wake up at camp:*\n\n1. Buff your whole party with **Longstrider**;\n2. If you're wearing Cloth (instead of Light Armor as I advise) cast **Mage Armor**;\n3. If you're level 6 or higher, consume **Strength Elixir**; if you already have the Strength Gloves, then drink **Bloodlust Elixir**;\n4. Cast level 5 **Shadow Blade**. If you can't, then cast level 3 Shadow Blade instead. If you can't cast level 3 either, then cast level 2 Shadow Blade. Never cast level 6 or 4 Shadow Blade.\n\n*In combat:*  \nTOP PRIORITY\n\n1. Have somebody throw **Potion of Speed** at your feet;\n2. Use **Shield** (spell) and **Counterspell** to negate damage to yourself and nasty enemy spells;\n3. Activate **Bladesong** if you can afford it (important fight and/or you have charges);\n4. Kill something to proc **Bloodlust Elixir** and use that action to swing Shadow Blade (or, more rarely, cast a Spell);\n5. Use the attack action to cast **Booming Blade** \\+ one extra **Shadow Blade Attack**: this will trigger your items and stack/maintain both Arcane Acuity and Arcane Synergy;\n6. Use **Potion of Speed's** extra action to attack even more with Shadow Blade (or, more rarely, cast a Spell);\n7. Use **Band of the Mystic Scoundrel** to cast a Bonus Action Enchantment Spell to concentrate on. **Hypnotic Pattern** instantly wins fights with clumped up enemies, while a (upcasted) **Hold Person** or **Hold Monster** can take care of isolated or scattered enemies. If you are already concentrating, you can skip this step;\n8. If you are already concentrating, you can use your Bonus Action for **Righteous Clarity**;\n9. **Divine Smite** under the conditions discussed in *Channel Oaths and Smite.*\n\nBOTTOM PRIORITY\n\n**------------------------------------**\n\n# 600 Variants\n\n**610 Class variants**  \n*Oath of Vengeance, Oath of the Ancients, Oath of Devotion, Oathbreaker*  \nArguably, you won't have much room for the Channel Oath ability in your action economy, especially in the latter stages of the playthrough (see the *Heuristics* chapter) and therefore, while I have explained why Oath of the Crown is the theoretically better Oath, I don't have a strong stance on it. I think that if you want to play another Oath (e.g. because it fits your RP ideas better) or if you break Oath by mistake, your character won't be ruined. So, basically, play the Oath you want.\n\n*Sorcerer*  \nSorcerer often comes up in the community in the pre-patch Bladesinger discourse. Many people are expecting the 6/4/2 setup to be the best Bladesinger build. I also expect some people in the future to come up with a (rather ugly, but effective) 9/2/1 configuration. I believe these are valid alternatives to the 10/2 setup. Here's my take on them:\n\n* 4 Sorcerer / 2 Paladin / 6 Bladesinger \u2013 This setup offers Metamagic through Sorcery Points and an additional proficiency bonus to Constitution Saving Throws, which stacks with Bladesinging. However, it comes at the cost of four prepared INT-based spells and one fewer Bladesong per day.\n* 1 Sorcerer / 2 Paladin / 9 Bladesinger \u2013 This alternative leverages Draconic Sorcerer\u2019s passive AC bonus, allowing you to skip Mage Armor when wearing cloth while still gaining Constitution proficiency. It also preserves 4 Bladesongs per day.\n\nWhile these options offer some advantages, my argument against them is that concentration checks are already well-covered in the 10/2 setup thanks to Armor of Landfall, Bladesong, and Shield. Losing four prepared INT spells and -perhaps- a Bladesong charge for some extra Metamagic and CON saves might not be worth the tradeoff, as Wizards thrive in versatility. Ultimately, it\u2019s up to you to decide if these setups fit your playstyle better.\n\n*Circle of the Stars Druid*  \nThe ever-present u/Salmonaru points out that 8 Bladesinger / 2 Stars Druid / 2 Paladin is also an alternative path to a good build, because the Dragon form is going to help immensely keeping concentration on crowd control spells, while also retaining 2 more intellect spells from Bladesinger 8, plus all the druid utilities.  \n**------------------------------------**\n\n**620 Gear variants**  \n*Belm and Helmet of Grit*  \nSkybullet07 points out that if your Bladesinger isn't tasked with the Smite Swords Bard-like gameplay of controlling the battlefield (e.g. if you have another caster to spam Hold Person), you can build your it to maximize damage. Go Bladesinger into Vengeance Paladin (not the opposite) and dump intellect, going 22 CHA instead. Equip Belm instead of Rhapsody and Helmet of Grit instead of Acuity Helmet. Obviously you have to be at half health. For your Wizard spells, learn only utility spells that dont scale off of intellect.\n\n*Alternative Armors*  \nInstead of Armor of Landfall, you can use the Robe of Supreme Defenses, which also boosts CON saves. Landfall is slightly worse for concentration but offers +1 Spell DC and a free Plant Growth per short rest. With the robe, you lose Paladin\u2019s Defense Style and must cast Mage Armor daily to match Landfall\u2019s AC, costing a level 1 slot you could use for Shield.  \nAnother option is Bhaalist Armor. While you won\u2019t benefit from its bonus as a Psychic damage dealer, it\u2019s worth considering if you're the only melee character and can act as a Murder Aura Totem for an archer in party.  \nLastly, Elegant Studded Leather, a hidden Act 3 armor, provides +1 more AC than Landfall, a free Shield cast per short rest, and a valuable +2 initiative bonus, making it a strong contender.  \n**------------------------------------**\n\n**630 Feat variants**  \n*Great Weapon Master*  \nGWM can be taken as a second feat with the aforementioned Belm+Grit Setup, instead of ASI +2 INT. You obviously do not get the +10 to damage, but you do get the extra BA attack when you kill a target. This will make you effectively outdamage GWM setups in any condition. Obviously, given that you won't be the one casting hold spells.\n\n**------------------------------------**\n\n# 700 TL;DR!\n\n|What|How|\n|:-|:-|\n|**Build**|Crown Paladin 2 >>> Bladesinger Wizard 10|\n|**Stats**|8/16/14/17/10/8|\n|**Feats and enchancements**|Hag's Hair +1 Int; Savage Attacker; +2 INT; Mirror of Loss +2 Int|\n|**Respecs**|Yes, play Bladesinger (or any build) until level 8, then respec|\n|**Elixir**|Drink STR Elixir daily until you get 23 STR Gloves, then Bloodlust|\n|**Key Items**|Helmet of Arcane Acuity, Band of the Mystic Scoundrel, Ring of Arcane Synergy, Gauntlets of Hill Giant Strength, Resonance Stone|\n|**Buffs**|Self buff yourself by casting level 1/3/5 Shadowblade after each long rest|\n|**Gameplay**|Attack stuff or Booming blade to build up acuity and Synergy. Cast bonus action Hypnotic Pattern or high level Hold spells. Smite held targets for max damage.|\n\n**------------------------------------**\n\n# 800 Math Dump\n\nComparing two identical characters, one with Shadow Blade + Resonance Stone + Savage Attacker, one with the classical setup of Great Weapon Master + Savage Attacker + Bhaalist Armor + Shar's Spear of Evening. I know the second setup can attack once more per turn, but this can be taken care of (see *Variants*). It is just to showcase Shadow Blade's damage holds up fairly well.\n\n**On hit:**\n\n|SA/RS/SB|Average DMG (+SA)|GWM/SA/BH/Shar's|Average DMG (+SA)|\n|:-|:-|:-|:-|\n|Lv5 Shadow Blade|18 (+5.256)|Shar's Spear|4.5 (+1.314)|\n|23 STR Gloves Mod|6|Shar's Blessing|3.5 (+0.976)|\n|Arcane Synergy Mod|6|Shar's Spear Legend|3|\n|Rhapsody|3|23 STR Gloves Mod|6|\n|Resonance Stone|x2|Arcane Synergy Mod|6|\n|||GWM|10|\n|||Bhaalist Armor|x2|\n|**TOTAL**|**76.512**|**TOTAL**|**70.58**|\n\n**On crit:**\n\n|SA/RS/SB|Average DMG (+SA)|GWM/SA/BH/Shar's|Average DMG (+SA)|\n|:-|:-|:-|:-|\n|Lv5 Shadow Blade|36 (+10.512)|Shar's Spear|9 (+2.628)|\n|23 STR Gloves Mod|6|Shar's Blessing|7 (+1.946)|\n|Arcane Synergy Mod|6|Shar's Spear Legend|3|\n|Rhapsody|3|23 STR Gloves Mod|6|\n|Resonance Stone|x2|Arcane Synergy Mod|6|\n|||GWM|10|\n|||Bhaalist Armor|x2|\n|**TOTAL**|**123.024**|**TOTAL**|**91.148**|\n\nYou can add as many additional dice to those calculations (e.g. Broodmother's Revenge, Drakethroat) but this is just a baseline. Just for the sake of theorycrafting, here's a Shadow Blade Crit max level Smite:\n\n\\[Shadow Blade (36+10.512) + STR (6) + Synergy (6) + Rhapsody (3)\\] x2 (Reso Stone) + Max level Smite (45+13.04) = **181 Average Damage.**\n\n**------------------------------------**\n\n# 900 Conclusions\n\n**910 FAQ**  \n*Can I dip fighter?*  \nAvoid the temptation of going 8/2/2 with Fighter, as [Action Surge](https://bg3.wiki/wiki/Action_Surge) isn't worth losing two high level spell slots that you can use to fuel your Shadow Blade, Smites and Crowd Control spells. This build needs to be as close as possible to Full Caster Progression. As for your action economy, Potion of Speed, Bloodlust Elixir and Terazul are going to take care of that just fine.\n\n*Is this really better than* \\[insert your favorite build\\]*?*  \nI think this build is very strong and a reasonable alternative to every other well established Spellblade build. As for it being better or worse than other builds, I don't think it's a fruitful discussion to have. Try it when the patch is out and decide for yourself!\n\n*What's up with the picture at the beginning?*  \nI finally found a really talented artist and he was literally dying for my buck.\n\n**920 Credits**  \nThanks to u/Salmonaru, Skybullet07 and K4 from Larian Discord Server for feeding me countless ideas and putting up with my nonsense. Those are real theorycrafters, I'm just a science popularizer.\n\nThanks to u/Prestigious_Juice341 for the major inspiration in writing about the game. I know you've been off BG3 for a while, but I mean, this post is clearly inspired by the Bardadin build, I cannot avoid tagging you.",
+    "comments": [
+        {
+            "author": "OrganicWebsAreValid",
+            "body": "The goat is back!!!\n\nCurious if you\u2019re not using arcane synergy items is it better to just go 16 intelligence and focus on Dex instead?",
+            "score": 15,
+            "replies": [
+                {
+                    "author": "c4b-Bg3",
+                    "body": "Strength elixir is kinda free and math-wise it's convenient, but if you don't want to consume elixirs, yeah, max dex. 16 int with acuity and a couple of items should normally be enough for CC to stick.",
+                    "score": 14,
+                    "replies": [
+                        {
+                            "author": "OrganicWebsAreValid",
+                            "body": "I think I\u2019m too worried about having low AC and maybe underestimating bladesong I still need to try the patch to see how I\u2019ll go",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "c4b-Bg3",
+                                    "body": "It's 17+Bladesong, going over 20 at 12. Plus shield, plus Hypnotic Pattern cuts enemy actions!",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "SnooDoodles4787",
+            "body": "Arcane acuity helm is not from the ox, thats fire acuity if nothings changed with the patch. Its found in the mason building, cellar im pretty sure. But as always, very solid guide. Gonna use it for first patch 8 playthrough. Thanks for putting the time in for this",
+            "score": 12,
+            "replies": [
+                {
+                    "author": "c4b-Bg3",
+                    "body": "Ah sorry true its from mason's guild.\u00a0 Gonna edit as soon as i get home!",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "Skrimyt",
+                            "body": "> [Shadow Blade (36+10.512) + STR (6) + Synergy (6) + Rhapsody (3)] x2 (Reso Stone) + Max level Smite (22.5+6.57) = 152.094 Average Damage.\n\nI think you're also missing one set of Smite dice for that crit damage calculation. Should be 181ish total.",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "c4b-Bg3",
+                                    "body": "Yes obviously. I calculated plain 5d8 for max level smite, instead of, clearly, 10d8 critical. Edited already.",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Azanit",
+            "body": "Best builder out here",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "Kastorev",
+            "body": "With gwm you can pop on a cheeky offhand dolor for a bit more damage against held/paralyzed",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "c4b-Bg3",
+                    "body": "Belm!",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Kastorev",
+                            "body": "GWM ba isnt 1/turn so when specifically tunneling damage you can use it to enable all your BA swings",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Exos_VII",
+                    "body": "uoahhhhh dolor offhand + vicious shortbow for +28 damage on crit...",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Skrimyt",
+            "body": "I'm honestly wondering if they're gonna keep Shadow Blade like this, unlimited duration and no Concentration. They restricted Booming Blade and fixed Reaper, Larian's eye is clearly on Patch 8 features right now.\n\nIt's quite possible that they'll revert Shadow Blade to the ring implementation (needs Concentration, so severely hurts the control capability of Bladesinger), or give it a Flame Blade style implementation (needs to be recast every fight, so it burns through your high-level spell slots). I don't think they'll nerf it into the tabletop version.\n\nI really like the idea of a non-GWM melee weapon option that is competitive with the best though, so I kind of hope it stays as it is or at worst gets the Flame Blade treatment (no Conc, 10 turn duration).",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "Encaitor",
+                    "body": "Homebrewing Shadow Blade to not use concentration when resonance stone is a thing is truly wild, especially when they already had the ring which worked like RAW.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "Skrimyt",
+                            "body": "It was already better than RAW, the ring version had no duration limit.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Salmonaru",
+            "body": "That is outstanding art, who drew that? ehe",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "c4b-Bg3",
+                    "body": "Skibidi.",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "deathadder99",
+            "body": "Virtually identical to what I've theorycrafted, which is reassuring.\n\nJust small note. \n\nIf you're critfishing, Dolor Amarus in the offhand is a decent option. With acuity and 20 int, you don't *really* need the +3 DC from Rhapsody. You can also go 16 int (or 18 with Hag Hair), natural Dex and take craterflesh gloves for more shenanigans.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "anon9801",
+                    "body": "If you\u2019re going for crits and you\u2019re using high DC strategies with CC casters, the damage dealer should be wearing craterflesh gloves and at least one of vicious bow and/or dolor knife.  I feel like you\u2019re leaving damage on the table otherwise",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "deathadder99",
+                            "body": "Well in theory you can self set up crits with hold person and band of the mystic scoundrel so you can kind of do it all here. The CC caster and the damage dealer are the same person.\n\nYou don\u2019t have GWM so your accuracy is pretty good too.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "TimothyN",
+            "body": "As always, cannot wait to try this out.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Divinitybagon",
+            "body": "4 Sorcerer dip is probably worth mentioning - Quickened Spell allows you to cast Booming Blade as a bonus action, allowing you to make 3 attacks/turn on turns you aren't using your bonus action for Mystic Scoundrel (or when you have another Mystic Scoundrel user in the party.)",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "c4b-Bg3",
+                    "body": "Chapter 600 - Variants.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Divinitybagon",
+                            "body": "I will say I think you undersell it - you don't actually lose 4 INT prepared spells because you move some amount of those spells over to your Sorcerer spell list instead. Shield, Enhance Ability, Invisibility and Shadow Blade can all be taken on your Sorcerer levels since they don't use spell save DC, off setting the spells you lose from not taking Wizard levels.",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "c4b-Bg3",
+                                    "body": "Yes that's what I mean - you do recuperate those prepared spells with your sorc levels, but you do lose the ability to put an INT based spell there. Only utility spells with the sorcerer levels.\u00a0",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Divinitybagon",
+                            "body": "oh hey I'm blind",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "BigFatKAC",
+            "body": "I cant wait for patch 8 to drop soon enough.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "_msb",
+            "body": "> and Enhance Ability (out of fights) \n\np sure wizards don\u2019t get enhance ability",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "c4b-Bg3",
+                    "body": "dnd memory kicking in.",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "grousedrum",
+            "body": "There it is, bravo!!  Wonderful clear guide, very informative and inspiring work as always.  The combat heuristics section does a really great job of illustrating how to play this.  Quite excited for this one (at least whenever patch 8 makes it to Mac).\n\nOne tiny correction - the Acuity Helm is in the basement of the Reithwin Town Mason's Guild.  Strange Ox at Last Light has the Hat of Fire Acuity (which does of course also work here, if you use Flawed Helldusk in the glove slot pre-Frost Giant STR).\n\nAlso worth mentioning that by all reports Elven Chain (purchased from the Rivington General at the start of Act 3) is the one medium armor that does allow the use of Bladesong, which may be a small homage/callback to BG1/2.  It has the same initiative bonus as Elegant Studded Leather (edit: with potentially 1 point worse AC, see below) and also grants advantage on DEX saves.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Skrimyt",
+                    "body": "Elven Chain has Exotic Material? I thought it limited DEX bonus to +2 like normal Medium Armor.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "grousedrum",
+                            "body": "ah shoot you may be right - in that case, it's in its own strange category :) it also has the bug where it receives +2 AC from the Defense fighting style, which with 16 DEX does balance this issue out.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "c4b-Bg3",
+                                    "body": "yes sorry, edited already!",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Nanami-chanX",
+            "body": "I think I might try this",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Real_Rush_4538",
+            "body": "Looks solid. Some notes:\n\nSentinel provides 2 extra attacks per turn, which are almost certainly going to be more impactful than +2 INT. Alternately, if you're favoring crowd control over raw DPR, the extra feat may have to go to Alert so that you can lock down enemies before they can act, unless no one in the rest of the party needs initiative gear so you can hog it. Savage+Sentinel+gear seems the ideal setup for feats, since it's not a huge ask to take the +3 initiative shield and then hair DEX instead of INT (Graceful Cloth optional) to hit your initiative benchmark. 17+1 DEX, 14 CON, 16 INT is totally fine in a game where Arcane Acuity gives you all the spell save DC you could ever want. Frankly, I'd actually prefer that, wearing the Graceful Cloth and scaling my Shadow Blade off of 20 DEX rather than the gloves' 22 STR, as that frees up my glove slot.\n\nAdditionally, Metamagic is too important to give up, especially considering how scribing works in this game. Extended Command is the reason to go Sorcadin normally, and you can gain it here at an almost entirely negligible cost. 6/4/2 Sorc seems very obviously stronger than 10/2 Wizard, preparation slots be damned (and do you *really* need more than nine?) but there's also the option of going 6/2/2/2 with both Extended Spell from Sorcerer and Starry Form Dragon from Stars Druid, if one values the unbreakable concentration higher than the non-Savage-Attacker feat.\n\nAll that aside, though, it really doesn't matter that much - Hold Person + Vulnerability + Divine Smite + Savage Attacker is the recipe for massive single target damage, and the rest is fluff.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "c4b-Bg3",
+                    "body": "We can kind of agree in disagreement I think - I prefer the more straightforward 10/2 (mainly because of bladesongs per day; that's also the reason why, of the two alternative setups, i like the weird 1/2/9 more) but still, if either build is stronger than the other, imho it's by a very small fraction. The important thing is, as you say, build your acuity, hold that Flaming Fist and Shadowblade smite them for triple the damage than their health. Overkill is the only thing that matters!\n\nEdit: also the most important thing for me, as a guide writer, is that I obviously mentioned 6/4/2, so people can discuss it and know it exists and it is a valid alternative.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Real_Rush_4538",
+                            "body": "> Overkill is the only thing that matters!\n\nObjection. There is no \"Overkill.\" There is only \"Open fire!\" and \"Reload.\"",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "wild_man_wizard",
+            "body": "Wouldn't Minthara also be rather good for this build?  \n\nSoul Branding gives both damage and an extra movement boost, and then a bunch of illithid powers already suited to melee gish.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "c4b-Bg3",
+                    "body": "For sure, why not!",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Reddit-SFW",
+            "body": "I saw the title...blinked twice...saw the OP...couldn't click fast enough!!!!!  Let's fn gooooo....",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "reverne",
+            "body": "I realize dropping Shadow Blade puts this somewhat outside the scope of your build, but since you already brought up Bhaalist Armor in the gear alternatives, I'd like to mention:\n\nIf you're using Bhaalist Armor, there's quite a reasonable argument for Duellist's Prerogative. Between Smite AoO (especially if Sentinel), Shield, Counterspell, Absorb Elements, and Song of Defense, Bladesingeradin has possibly the best array of options to spend a Reaction on in the entire game.\n\n(For context, my priorities are a bit skewed by being the author of a mod that throws monsters with Meteor Swarm and such at you, but I believe this kind of utility is still generally applicable.)",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "petting2dogsatonce",
+            "body": "Wake up honey, it\u2019s time for a new c4b build",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "maegol",
+            "body": "There is a slight mistake in the introduction. When explainning Bladesong you correctly explain that you can only activate It while wearing equipment a Rogue would be proficient in but when getting into details you say that It can be activate wearing medium armor which is incorrect.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "c4b-Bg3",
+                    "body": "I'm sorry, are you sure you have read it correctly? It says you *can't* activate it while wearing a shield, medium or heavy armour...",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "maegol",
+                            "body": "I am. Here is the fragment of text I'm refering to: provided the wizard is equipped like a rogue (medium armor, light weapons) rather than a heavily armored knight.\n\n  \nDon't worry I work on reasearch and I know how these things go spetially pieces as extensive as you do. Your work is still impresive, is just as small edit.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "c4b-Bg3",
+                                    "body": "Ah, there! F... gonna edit. Thanks!",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "DarkUrinal",
+            "body": "I think infernal robe should be included in act 1 equipment since it is pretty much bis for casters with mage armor at that point in the game.\n\nAdditionally, I've been overthinking Bladesinger and came up with another weird variant: 6 Bladesinger/2 Paladin/4 Gloomstalker.  You trade level 6 spellcasting for Dread Ambusher and all the stuff that comes with it.  The bonus damage alone should make up for the lost smite slots per long rest, but the obvious draw is the additional attack and initiative.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Trerech",
+            "body": "\"You can\u2019t use it while wielding a shield, wearing medium or heavy armor (not even [Helldusk Armor](https://bg3.wiki/wiki/Helldusk_Armour)), or using a heavy weapon.\"\n\nThe armour part is correct, but the weapon part is not. The restriction applies to all weapons except Daggers, Sickles, Shortswords, Rapiers, Scimitars, and Longswords. However, you can use any weapon in your off-hand. So, if you want, you can take [Dual Wielder](https://bg3.wiki/wiki/Dual_Wielder) and use a staff in your off-hand.\n\nThe [Knife of the Undermountain King](https://bg3.wiki/wiki/Knife_of_the_Undermountain_King) is not found in the underdark but in [Cr\u00e8che Y'llek](https://bg3.wiki/wiki/Cr%C3%A8che_Y%27llek).\n\n\"As for your armor, any common [Leather Armor](https://bg3.wiki/wiki/Studded_Leather_Armour_%2B1) will do.\"\n\nMage Armour will provide the highest AC all the way up to late Act 2, since [Studded Leather Armor +2](https://bg3.wiki/wiki/Studded_Leather_Armour_%2B2) only appears after level 9. Especially since you can get [The Graceful Cloth](https://bg3.wiki/wiki/The_Graceful_Cloth) in Act 1, the only armor that might be worth using over Mage Armour is [Spidersilk Armour](https://bg3.wiki/wiki/Spidersilk_Armour) for the advantage on Constitution\u00a0Saving throws.\n\nThere is a problem with the [Helmet of Arcane Acuity](https://bg3.wiki/wiki/Helmet_of_Arcane_Acuity) and the [Helmet of Grit](https://bg3.wiki/wiki/Helmet_of_Grit), both are light armour, so if you're not using [Armour of Landfall](https://bg3.wiki/wiki/Armour_of_Landfall) or any other light armour for your torso, your base AC will be 10 because Mage armour will notwork.\n\n\" GWM can be taken as a second feat with the aforementioned Belm + Grit setup instead of ASI +2 INT. You obviously do not get the +10 to damage, but you do get the extra Bonus Action (BA) attack when you kill a target. This will effectively make you outdamage GWM setups in any condition\u2014obviously, given that you won't be the one casting Hold spells. \"\n\nWouldn't a 1 lvl dip into War cleric work better instead? The leveling would be very awkward, but you would get to keep the extra feat while still being able to attack with your bonus action.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Exos_VII",
+                    "body": "If you want to use Mage Armour for your AC, but still benefit from Acuity, you can buy the Drakethroat Glaive and Hat of Storm Scion Power from Moonrise Towers in Act 2. \n\n\nHold the Shadow Blade in your main hand, and have another character equip Drakethroat Glaive and cast Draconic Elemental Weapon: Thunder on your Bladesinger while they are holding Shadow Blade in mainhand.\n\n\n This will enchant your blade with 1d4 Thunder damage on hit, which means every weapon attack gives +2 stacks of Acuity with the Storm Scion Hat - which is clothing and not Armour, so you can wear a robe and still use Mage Armour.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "c4b-Bg3",
+                            "body": "That is indeed an alternative!",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "c4b-Bg3",
+                    "body": "Hi and thank you for your comments. \n\n1) The \"heavy weapon\" part is inaccurate, but not in intent: while technically incorrect, I don't think any staff wield as offhand would be better than Rhapsody, Belm, or perhaps dolor amarus. but i'll make sure i edit.\n\n2) Knife: already edited.\n\n3) As for cloth + mage armour:  \n13+4 dex mod (16 natural + graceful) = 17  \nLight Armour   \n13 + 3 dex mod + 1 [Defence](https://bg3.wiki/wiki/Defence) = 17\n\nNot only that, this build wants light armor pieces as soon as early act 2. So yeah, imho light armour all the way. Spidersilk is good, but only 12 base. I'd rather have 1 more.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "bright_night_2000",
+            "body": "Great and detailed guide! I am currently preparing a new solo honour mode run after gloomstalker archer and this build looks very promising. Now - given the nature of solo runs I will need to put out all the damage myself and thus I am toying with an even more martial-oriented 11 EK / 1 hexblade, also focussing on shadowblade. Compared to the smite shadow singer I think the EK has:\n\npros: \n- action surge\n- war caster allows another shadow blade attack via booming\n- eldritch strike makes landing hold spells (via scrolls even easier)\n- 3attacks \n-  more hp \n- SAD (CHA)\n- hexblades curse\n- can wear all armors / shields if wanted\n- one more feat\n- short-rest dependent instead of long-rest dependent\n\nneutral:\n- con-save proficiency / blade song\n\ncons:\n- most spells only via scrolls (however there are a lot of them)\n- no smites\n- no paladin spells / abilities\n- shadow blade can only be upcasted by one level via elixir of arcane cultivation and not by two levels\n- no blade singing AC bonus\n\nto me the pros outweigh the cons - any thoughts??",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "c4b-Bg3",
+                    "body": "I think you laid it out pretty well yourself. If you consistently scrollcast, it's harder to beat EK.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "theawesomescott",
+            "body": ">Steal\u00a0[Amulet of the Devout](https://bg3.wiki/wiki/Amulet_of_the_Devout)\u00a0from Stormshore Tabernacle (distract the priest to access trapdoor). Be cautious\u2014the item is cursed and summons a raging Deva when Remove Curse is cast.\n\n\n\nAre these workarounds no longer true for this?\n\n* Destroying the chests will cause the items to fall out, picking up the items afterward allows you to avoid becoming cursed.\n* The curse will only affect items taken out of the offering chests and placed in the current party's inventory. Sending the items to camp or to a character in camp will result in the curse being avoided.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "c4b-Bg3",
+                    "body": "Frankly, I have no idea! I usually steal the item, immediately decurse the characters, and slay the Devas as I don't mind fighting them at all. LOL",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Real_Rush_4538",
+                    "body": "Sending the items to camp directly from the chest does still work to skip the Deva fight on patch 7; this may or may not be changed in patch 8.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Tzilbalba",
+            "body": "Awesome work man, I had a similar build idea but in the 6/4/2 vein, can I suggest if this is smite focused to use belm instead of rhapsody?  The extra main hand attack using shadowblade far outwiegh the bonus of rhapsody (edit: missed your callout to sky here)\n\nAlso not sure what you mean by 6/4/2 only have 4 int spells, maybe that you miss put on 4? If you pump int to 22 and take wizard last it should be 12 with full 6th level spells, but you make it up with sorc spells, plenty imo. Losing one bladesong and song of defense is worth the flexibility of quicken, extend and twinned spells.\n\nAlso craterflesh gloves was tested and the riders still work and do ridiculous dmg on crit especially with booming and smite combo, Morgana Evelyn on her vid hit Raphael for something like 240 dmg in one crit (unoptimized I believe). I would take those over str gloves and just use cloud giant elixer. Or straight up pump dex to 22 over int (16 is still viable since you are really only using spell slots to smite but your holds will suffer)\n\nYou can also wear helmet of grit for more actions since your defenses wil be very high with RoSD (imo bis if you go high int). Terazul when available that's something like 4 actions 1 ba.\n\nI tried to theory craft this with 3 theif, 2 paly, 7 bs to see if I could get 4 actions and 2 ba (terazul, haste, grit and theif, 5 with bloodlust elixer) but you end up either losing smite or lvl5 shadowblade and less smite spell slots (shadowblade being easier on dps to let go down to 3d8), sneak attack helps cushion it a little but I haven't crunched the numbers to be sure, however feeling it will be less dps its all about that craterflesh, resonance stone crit.\n\nAlso something people miss, shadowblade allows you to attack WITH advantage on enemies that are ibscured which is really easy with a shadowsorc or even normally, this coincidentally.also synergizes with the shadow ring that gives 1d4 extra dmg.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "c4b-Bg3",
+                    "body": "Hi! I haven't read all of your post because i'm out right now, but it seems to me that part of what you're talking about is covered in chapter 600!",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Tzilbalba",
+                            "body": "No worries, same here lol. Mostly more stuff for chapter 600 about the 6/4/2 split and how craterflesh gloves is goat",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Remus71",
+            "body": "Disappointing.\n\nBladesinger has so much potential levels two to six as a hit and run gish that to just say 'play as a wizard casting spells form the backline' is a travesty. Bladesinger is online as a melee gish at lv 2, and I'm surprised there's nothing here to showcase that potential.\n\nI don't see how not leaning into the entire class fantasy until the halfway point of the game, and then respeccing and slapping on the worst offenders in terms of broken items is a build at all to be honest.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "c4b-Bg3",
+                    "body": "Hi! I'm sorry you didn't like that part of the build - or the whole build, for all that matters.\n\nI see your critique has merits, even though expressed strongly. It possibly has to do with personal preferences: I personally do not see much worth of gishing there - it's a bit of extra armor and movements speed. All good tools, but nothing that wows me, whereas the CON proficiency improvement makes me think I have a good edge in spellcasting.\n\nFor what it's worth, I didn't even like the very much celebrated Smite Swords Bard before double attack, and neither do many people I've talked with. If I have to \"gish\" in the early game, just like pure paladin more, not counting levels 1 to 5 fly away with very little fighting in my runs. \n\nAs a possibility, keep in mind you can play Bladesinger the way you want, and then catch up with the proposed setup at level 8, but again, you do you.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "Remus71",
+                            "body": "Sorry for steaming in dude - I'm terrible for it. \n\nI've done a little showcase on what you could potentially do as early as level 2 - Bare in mind I don't have the stress test:\n\n[Early Game Bladesinging Showcase](https://www.youtube.com/watch?v=u4B7-_3BY2c)\n\nI just think with your visibility and the amount of new players coming to the game a guide on one of the new subclasses really should be getting the core playstyle online as early as possible. Let's be honest - This post will likely be the gold standard for Bladesingers for new & returning players.\n\nIgnoring keystone features of the subclass until mid-game doesn't move the needle. I consider it particularly problematic here because the ceiling on a well executed bladesinger is exceptionally high early game.\n\nThe overwhelming majority of players aren't speed running to five and actually, If your build can't handle all content at it's intended level with it's intended playstyle it's probably not that strong. I also think promoting this play style harms the new player experience.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "c4b-Bg3",
+                                    "body": "I think i'll do some social constructivism and mention that in the guide! The leveling up path has been slightly tweaked.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Remus71",
+                                            "body": "Yeah I think it would he helpful. It takes practice to execute any builds gameplay loop well so I do think it important to get it locked in early.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "c4b-Bg3",
+                                                    "body": "Done already.",
+                                                    "score": 3,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Salmonaru",
+                    "body": "The 8 bladesinger/2 star druid/2 paladin that mentioned there might be more to your fantasy :)\n\nthe main action is just valuable to do shadow blade bonks once you have an extra attack.  \nI had some ideas in mind to make it more gish-y, with the level spread mentioned above:\n\n1. main action bonk 2 times -- 2 healing charges.\n2. bonus action: Cast the control spell once you get the BOMS ring, OR use it to cast luminous arrow that you got from Star Druid. -- 1x damage charges.\n3. for your additional action, you could cast call lightning. it's cheaper to be precast, and recasting it would also grant you damage charges. -- 1x damage charges.\n\nonce your damage charges are high, you can use the bladesong climax as a finishing touch. every damage charge that you got would be a 1d6 force area dmg on the climax.\n\nand as mentioned, above since you're using call lightning., your concentration slot would be taken. Thankfully you had access to the command spell from Paladin, which is not a concentration for the control spell, though it would be charisma-based XD. thankfully you got arcane acuity.\n\nat the early game, casting call lightning is a good idea as it can generate damage charges. and help conserve your spell slot at the earlier game.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "bright_night_2000",
+                            "body": "how do you cast chain lightning in the early game?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Salmonaru",
+                                    "body": "whoops XD i mean call lightning",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "theawesomescott",
+                    "body": "I wish it leaned into elemental weapons somehow. Like how Paladin and now Hexblade can cast elemental weapon on the fly.\n\nI'm no game designer (well, at least I haven't in many years) but it feels underutilized. The popularity of Booming Blade shows unique elemental based weapon attacks are desired",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "VannguardAnon",
+            "body": "What's the reasoning behind using wondrous gloves over gloves of dexterity for act 1? \n\nI imagine gloves of dex would be key, considering Shadow Blade is finesse and you also use dex for your AC.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "c4b-Bg3",
+                    "body": "I haven't put that much thought about act1 temporary items, as you can see the guide says something like \"You may benefit from...\". The main reason why I'm not focusing on dexterity is that [Shadow Blade](https://bg3.wiki/wiki/Shadow_Blade) being a finesse weapon means it scales with your higher stat, STR or DEX, meaning chugging elixir produces better results. TBH in act1 you can use wondrous, can use dexterity (mainly for +1 armor, +1 initiative, +1 attack rolls) or even Growling Underdogs. If you're not using elixir, then Dexterity gloves are probably best in slot at that point in the game. \n\nEdit: actually, Dex gloves are a good suggestion. I'll edit.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "VannguardAnon",
+                            "body": "I always forget about elixirs. \n\nYou're right!",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "V3ISO",
+            "body": "Sigma player",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}

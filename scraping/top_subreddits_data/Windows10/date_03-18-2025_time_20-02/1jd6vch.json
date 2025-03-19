@@ -1,0 +1,44 @@
+{
+    "title": "At what stage can BitLocker be enabled on Windows?",
+    "author": "dekoalade",
+    "subreddit": "Windows10",
+    "rank": 18,
+    "score": 7,
+    "upvote_ratio": 0.78,
+    "num_comments (reported by reddit)": 5,
+    "url": "https://www.reddit.com/r/Windows10/comments/1jd6vch/at_what_stage_can_bitlocker_be_enabled_on_windows/",
+    "id": "1jd6vch",
+    "selftext": "Is it possible to enable BitLocker during the initial Windows installation process or must it be activated only after the installation is complete?",
+    "comments": [
+        {
+            "author": "sparkyblaster",
+            "body": "Why would you need it earlier? There is nothing to encrypt that isn't available from Microsoft. Not to mention risks of not backing up the keys.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "CodenameFlux",
+            "body": "- Windows 10: Only after installation\n\n- Windows 11: During installation, although it won't be completed until the user signs in with a Microsoft account",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "cschneegans",
+            "body": "I sometimes run commands like \n\n`manage-bde.exe -On C: -RecoveryPassword \u2026 -UsedSpaceOnly -Synchronous` \n\nas a custom script during the *Specialize* phase of an [unattended installation](https://schneegans.de/windows/unattend-generator/).",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "tom_fosterr",
+            "body": "You can enable bitlocker after windows install\n\nMake sure to Print recovery key and keep safe place\n\nand save key to usb\n\nand save recovery key to microsoft account",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Longjumping_Line_256",
+            "body": "I reinstalled windows 11 on a PC with their MS account and it started right after the PC got to the desktop.\n\nI personally disable it on my machine, I don't like the extra mess it adds or how it does it and keeps track of the key, epically when you got a ton of HDD's and SSD's like I have.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

@@ -1,0 +1,431 @@
+{
+    "title": "Why is it tracking achievements like this ?",
+    "author": "GarrettFromThief",
+    "subreddit": "Steam",
+    "rank": 7,
+    "score": 2116,
+    "upvote_ratio": 0.94,
+    "num_comments (reported by reddit)": 65,
+    "url": "https://i.redd.it/uq03alxbdbpe1.jpeg",
+    "id": "1jdnn75",
+    "selftext": "I\u2019ve seen other games do it properly what is the reason for Rockstar to make it count achievements like this ?",
+    "comments": [
+        {
+            "author": "mr_friend144",
+            "body": "I think its doing it by percent? So 2 out of 5 events is 40",
+            "score": 1184,
+            "replies": [
+                {
+                    "author": "Ph0X",
+                    "body": "Whoever ported it to Steam API probably did a lazy job. Maybe other platforms like PlayStation or Xbox use percentages, and they just dumb ported it, even though Steam API expects different numbers.",
+                    "score": 71,
+                    "replies": [
+                        {
+                            "author": "iwenttothelocalshop",
+                            "body": "true classic Rockstar, they have never cared really about Steam integration. no inventory, no workshop, but at least we have achievement support now\n\ndoes anyone remember GTA 4 Games For Windows Live edition on Steam? it didn't have Steam achievements back then, only later when they removed Grand Theft Auto IV Episodes From Liberty City and then re-added it as Grand Theft Auto IV The Complete Edition\n\nthe achievement list still differentiated from the old one though. in the Steam edition, it doesn't have \"Let the Sleeping Rockstars Lie\" in the list",
+                            "score": 21,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "t_sarkkinen",
+                    "body": "But that's too hard for OP.",
+                    "score": -1053,
+                    "replies": [
+                        {
+                            "author": "GarrettFromThief",
+                            "body": "The question isn\u2019t how, it\u2019s why",
+                            "score": 800,
+                            "replies": [
+                                {
+                                    "author": "Hotax",
+                                    "body": "The how is all anyone here can tell you. For the why you need to ask Rockstar developers who probably don't remember or even noticed this small detail.",
+                                    "score": 275,
+                                    "replies": [
+                                        {
+                                            "author": "GarrettFromThief",
+                                            "body": "I just hoped someone could get an answer, figured if it\u2019s the case in this game (as well as others that works like this too) a reason would somewhere out there, but indeed, not looking for an exact reason to why Rockstar especially did that",
+                                            "score": -191,
+                                            "replies": [
+                                                {
+                                                    "author": "IanL1713",
+                                                    "body": "Well, it's Rockstar that makes the achievements, not Steam. Not sure why you expected random people on a gaming subreddit to have an answer to why Rockstar did something a certain way",
+                                                    "score": 109,
+                                                    "replies": [
+                                                        {
+                                                            "author": "GarrettFromThief",
+                                                            "body": "I think you got it wrong, I should\u2019ve written \u201cwhat could be the reason\u201d instead of what I\u2019ve wrote.\n\nI\u2019m getting face value answers, obviously, but I didn\u2019t mean it that way !",
+                                                            "score": -82,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "MoobooMagoo",
+                                                                    "body": "It's easy to just program things as a percent? Maybe whoever was in charge of achievements likes it this way? Maybe they were going to program it with the exact values instead but a crazed, super intelligent duck broke into the office and threatened to murder their daughter if it wasn't a percentage?",
+                                                                    "score": 46,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Protheu5",
+                                                                            "body": "> It's easy to just program things as a percent?\n\nNope. It's a bit more complicated to do percents. Marginally so, but when you try doing calculations with integers as percents instead of fractional numbers, your code is statistically more error-prone. The more robust way is to do calculations with real numbers and only apply \"percent\" formatting at the visualisation.\n\nIn this case it would've been simpler to do /20 and /5, but only if you add achievements manually. It is not unfeasible that they probably had a universal achievement class that adapts progress to percentage, so they didn't bother with specifying how it should show progress, and it shows percentage by default. Maybe another reason, inattentiveness, other platforms' requirements or whatever else could that be.",
+                                                                            "score": 15,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "author": "IanL1713",
+                                                                    "body": ">I think you got it wrong, I should\u2019ve written \u201cwhat could be the reason\u201d instead of what I\u2019ve wrote.\n\nSo then ***you*** got it wrong, not me. Don't try to scapegoat me for not understanding that you meant something entirely different from what you asked",
+                                                                    "score": 5,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "UnacceptableUse",
+                                    "body": "rockstars internal achievement system probably tracks progress as a percentage, and as a quick compatability with steam they just made every achivement need 100 and track the percentage",
+                                    "score": 25,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "HighMagistrateGreef",
+                                    "body": "Why is 'lazy achievement programming'",
+                                    "score": 12,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "sopedound",
+                                    "body": "Why does it really matter?",
+                                    "score": 3,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "KingGorillaKong",
+                                    "body": "It's a UI issue. Most trophies/achievements are tracked in a % completed. However, the UI is suppose to calculate that into a tangible value. IE 7 out of 10 for the Gun For Hire and 2 out 5 for the Eventful one.\n\nSomeone might have fixed an issue with Steam tracking achievements and forgot to enable the math to convert percentage to X of Y value.",
+                                    "score": 2,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Opetyr",
+                                    "body": "It is Rockstar.  They were lazy when making the achievements.  Complain to them. Heck they could have made them all blank so you would see no peogress or just not have achievement.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Astrophan",
+                                    "body": "Well, it's pretty simple. It's to see your progress! Glad I could help.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Fullerbay",
+                            "body": "All the guy did was ask a genuine question and you decided to be genuinely rude.",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "iloveeeeemycat",
+                            "body": "It's too hard for all of us. No one wants to do math while focused on achievement hunting",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "levajack",
+                                    "body": "Counting by 10s is hard?",
+                                    "score": -14,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "MemesAreMyOxygen",
+            "body": "weird way of doing it but this is probably the percentage amount of progress you've made in those achievements",
+            "score": 155,
+            "replies": []
+        },
+        {
+            "author": "gameboy716",
+            "body": "It\u2019s a percentage bar.",
+            "score": 120,
+            "replies": [
+                {
+                    "author": "Cootshk",
+                    "body": "The question isn\u2019t how, but why",
+                    "score": 43,
+                    "replies": [
+                        {
+                            "author": "iwenttothelocalshop",
+                            "body": "might be lazy coding for less code. the steamworks API doesn't have any limitation saying that you can only supply percentage based achievements. it doesn't even stand for that. it is just a numeric tracker on steam's side with 2 arguments: achievement ID, and current amount\n\non rockstar's side, they probably thought it's better to just throw in 1 function that calculates the percentage for all progression based achievements, instead of separating them individually. like if you view any open source game that has steam achievement support in it, you will see that most achievement calculations are differ on their own. if you just go with percentages, you don't have to worry about all of that.\n\n[https://github.com/ValveSoftware/source-sdk-2013/blob/master/src/game/shared/tf/achievements\\_tf\\_engineer.cpp](https://github.com/ValveSoftware/source-sdk-2013/blob/master/src/game/shared/tf/achievements_tf_engineer.cpp) (line 383 and its surroundings for example)\n\n[~~https://partner.steamgames.com/doc/api/ISteamUserStats#IndicateAchievementProgress~~](https://partner.steamgames.com/doc/api/ISteamUserStats#IndicateAchievementProgress) ~~(IndicateAchievementProgress() )~~\n\nedit: [https://partner.steamgames.com/doc/api/ISteamUserStats#SetStat](https://partner.steamgames.com/doc/api/ISteamUserStats#SetStat) (this is the one that sets the currently tracked steam achievement)",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Advanced_Dumbass149",
+                    "body": "It\u2019s a percentage bar.",
+                    "score": 14,
+                    "replies": [
+                        {
+                            "author": "Izanaginagi",
+                            "body": "A bar it's percentage",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "Character_Cheetah884",
+                                    "body": "It's bar a percentage",
+                                    "score": 6,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "InitRanger",
+            "body": "I can only guy based off of how other platforms do it.\n\nI don\u2019t know about XBox but on PlayStation trophies can be tracked by percentage so even if there are only 10 things to do for achievement it will show 50/100 because it\u2019s at 50%. Most likely what happened is the developed who was working on the achievements set them up the same way.",
+            "score": 23,
+            "replies": []
+        },
+        {
+            "author": "PhantomTissue",
+            "body": "I\u2019m willing to bet it\u2019s a holdover from how they implemented the achievements on console.",
+            "score": 14,
+            "replies": [
+                {
+                    "author": "Ph0X",
+                    "body": "Absolutely, they probably store is as percentages, and instead of properly calculating the numerator and numerator, they just lazy ported percentages over",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "The_MAZZTer",
+            "body": "My guess is Rockstar's internal awards system or whatever RDO uses (never played it) probably uses percentages internally and they made a simple translation layer to also award Steam achievements.",
+            "score": 9,
+            "replies": []
+        },
+        {
+            "author": "Low_Specialist520",
+            "body": "Could be wrong, but I am guessing all the cheevos would be out of 100 instead of the 10 & 5.",
+            "score": 34,
+            "replies": [
+                {
+                    "author": "Low_Specialist520",
+                    "body": "Obv not sure why they would do that, maybe it could be changed if there is ever an achievement overhaul",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "corree",
+                            "body": "there wont be lol",
+                            "score": 7,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Moist-Pickle6898",
+            "body": "It's going by percentage",
+            "score": 12,
+            "replies": []
+        },
+        {
+            "author": "IllegalFishButt",
+            "body": "No definite reason, but I\u2019d say to standardize how achievements are tracked universally, and because the percentage math is easy to apply to every tracked achievement at once.\n\nThe game calculates (Progress/Milestone)* 100.\nAll they have to communicate to Steam is the resulting percentage, and when that said value reaches 100% achievement is achieved.\n\nThere are definitely other ways to go about it, but I can see why this is an easy method.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "rubiconsuper",
+            "body": "Given these two numbers, it\u2019s percentage of completion.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "Xeadriel",
+            "body": "I guess they wanted it to be consistent by making it all percentage based",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Next_Chip_7503",
+            "body": "Tracking by percentage of the total achievement completed",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "MrSly0",
+            "body": "I think the people who are missinterpreting OP's question are dumber than they think OP is \ud83d\ude02",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "GarrettFromThief",
+                    "body": "Got downvoted for making myself clear \ud83d\ude2d",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Anubis17_76",
+            "body": "The reason is probably that R* counts their achievements in percentages on their launcher and didnt bother adjusting the numbers for steam achievments.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "georgehank2nd",
+            "body": "\"the reason for Rockstar\"  Well, there's your problem, this isn't a Steam question.",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "GarrettFromThief",
+                    "body": "This is a Rockstar question, I see where you\u2019re coming from but in this case it\u2019s Rockstar using Steam\u2019s tools to program their cheevos",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Entegy",
+                            "body": "Rockstar decided to calculate a percentage instead of the logical way of tracking an \"complete X tasks\" achievement. Even if it is stupid, it's doing its job. There is nothing in SteamWorks that prevented Rockstar from implementing this \"properly\".\n\nValve can't and shouldn't trying to police dumb ways of achievement tracking anyways.",
+                            "score": 11,
+                            "replies": [
+                                {
+                                    "author": "GarrettFromThief",
+                                    "body": "Not Valve\u2019s job obviously, just curious",
+                                    "score": 9,
+                                    "replies": [
+                                        {
+                                            "author": "JakeRedditYesterday",
+                                            "body": "Your curiosity has made its way into the wrong subreddit as this really isn't a Steam question. You should try the GTA subreddits.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ccbil654_",
+            "body": "that\u2019s just their weird way of doing it i guess",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Rebatsune",
+            "body": "Some Steam games can have achievements that displays your progress eg. how many of a certain item you have collected. But these apparently aren\u2019t Steam achievements I\u2019m looking at am I right? They could work similarly on Steam\u2019s end however.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Entegy",
+                    "body": "They _are_ Steam achievements, Rockstar just decided to implement them as a percentage instead of the more logical 1/10, 2/10, 5/10, etc. tasks completed for such an achievement.",
+                    "score": 10,
+                    "replies": [
+                        {
+                            "author": "_RRave",
+                            "body": "Yeah a fair few AAA games seem to do the 100% system it seems, not sure if it's just how they also programme it for consoles too. Whereas PC exclusives seem to have the full counter down to the number.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "Entegy",
+                                    "body": "I definitely wonder if it has something to do with multiplatform support and their codebase/game engine generalizing things a bit too much. \n\nFor example, I know a looooong time ago PlayStation did not support account-level achievement progression tracking like Steam and Xbox did which likely changed how the game had to handle achievements meant to show progression on the player's profile.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "InitRanger",
+            "body": "I can only guy based off of how other platforms do it.\n\nI don\u2019t know about XBox but on PlayStation trophies can be tracked by percentage so even if there are only 10 things to do for achievement it will show 50/100 because it\u2019s at 50%. Most likely what happened is the developed who was working on the achievements set them up the same way.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "FoamToaster",
+                    "body": ">I can only guy based off of how other platforms do it.\n\nSounds like a reasonable guy",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "InitRanger",
+                            "body": "lol. I posted that after work. It was a long day, but he is indeed a reasonable guy.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "samlii",
+            "body": "My guess would be they had some intern add the cheevos at the very end and they forgot to change the display value back to x of y instead of the percentage that the program has to send steam to show the bar properly.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Shredded_Locomotive",
+            "body": "Rockstar couldn't be bothered to set it up correctly",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Gwongering",
+            "body": "It's probably just cuz its easier to make everything a percentage achievement than putting in the numbers for each one",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Darkchamber292",
+            "body": "Of all the things we can complain about, a percentage bar is what you pick? Really? No wonder Devs are burnt out.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ooooPHoooo",
+            "body": "final fantasy 9 is a good game?",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "Sea-Log994",
+            "body": "This is the amount of how many items you have collected or how many activities you have entered, for example. Quite convenient.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "Hlidskialf",
+            "body": "Ain\u2019t the sharpest tool in the shed, huh",
+            "score": -6,
+            "replies": []
+        },
+        {
+            "author": "Accomplished-Bid8866",
+            "body": "Tell me you are bad at math without telling me.",
+            "score": -3,
+            "replies": []
+        },
+        {
+            "author": "EmergencyLavishness3",
+            "body": "just stop crying and cheat your achievements with the achievement manager, why do you want to do all this to yourself",
+            "score": -7,
+            "replies": []
+        }
+    ]
+}

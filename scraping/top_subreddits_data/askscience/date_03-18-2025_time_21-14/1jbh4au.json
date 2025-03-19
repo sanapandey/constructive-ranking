@@ -1,0 +1,627 @@
+{
+    "title": "Why are saturns rings seen as \u201cflat\u201d and not debris all around the planet?",
+    "author": "Flame_Knife",
+    "subreddit": "askscience",
+    "rank": 5,
+    "score": 1023,
+    "upvote_ratio": 0.9,
+    "num_comments (reported by reddit)": 161,
+    "url": "https://www.reddit.com/r/askscience/comments/1jbh4au/why_are_saturns_rings_seen_as_flat_and_not_debris/",
+    "id": "1jbh4au",
+    "selftext": "B",
+    "comments": [
+        {
+            "author": "auraseer",
+            "body": "A random cloud of orbiting debris will naturally settle into a ring over time. \n\nThe reason is that as the bits of debris interact with each other, they trade momentum. \n\nImagine two chunks of rock are orbiting in different directions, like one at a \"northeast\" angle and the other \"southeast.\" When they bump into each other, they both get deflected. Both wind up going more directly east, not moving as far north or south anymore. \n\nNow, expand that same idea to a whole cloud of millions of rocks and dust particles. Let it run for a hundred million years. Over all those trillions of trillions of collisions and interactions, the orbital momentum of those particles eventually start to average out. You wind up with most of them traveling in similar orbits, all in about the same direction, whatever was about average for the original cloud as a whole. \n\nIf you were able to watch it happen, you would see the cloud flatten out and develop into a ring structure. \n\nSaturn's rings are especially thin because they are close in orbit to a couple of its tiny moons. The gravity of those moons tends to keep the particles in a more stable orbit and stop them from drifting away from the ring.",
+            "score": 1466,
+            "replies": [
+                {
+                    "author": "Edgefactor",
+                    "body": "Add to that that most of the rings started as moons and got torn apart either by each other, or by Saturn's gravity.  So the stuff the rings are made of is in a mostly planar band to start.  As opposed to Saturn just randomly collecting dust from the universe",
+                    "score": 323,
+                    "replies": [
+                        {
+                            "author": "FightOnForUsc",
+                            "body": "But couldn\u2019t the moons rotating in different planes around the planet? For example some could be going over the poles? Would it even be possible to have moons orbiting in different directions?",
+                            "score": 42,
+                            "replies": [
+                                {
+                                    "author": "Jeb_Stormblessed",
+                                    "body": "Generally not. Due to the above mentioned reason about stuff averaging out to orbit in the same direction. \n\nSomething can get captured and start orbiting in a random direction. But then it will be subject to the same forces that subject everything else to orbit in the same direction and will be unstable (and is likely to either eject back out of orbit or fall back into the body it's orbiting. It may during the process impact the orbit of other stuff but once it's stabilised (which can take millions of years) everything will generally be in the same plane again)",
+                                    "score": 89,
+                                    "replies": [
+                                        {
+                                            "author": "AndreasDasos",
+                                            "body": "To add to this, it seems likely that Saturn\u2019s rings have been in a cycle alternating between moons and rings many times over",
+                                            "score": 8,
+                                            "replies": [
+                                                {
+                                                    "author": "Riotboiiii",
+                                                    "body": "Could you explain more? Saturn\u2019s rings do not become moons. What do you mean by an alternating cycle?",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "auraseer",
+                                    "body": "It would be very difficult for that situation to arise. If it did happen it would not last long.\n\nPlanets and moons form out of a big cloud of gas and dust, which collapses into bigger objects. Because of the interactions I mentioned above, you would not have different parts of the cloud moving in opposite directions from each other. Moons all tend to go in the same direction. \n\nIt would theoretically be possible for some outside body to be captured into orbit and become a moon orbiting the other way. But that would not be a stable situation, again for the same reasons. Those moons would have to pass near each other at some point in their orbits. They would exchange momentum, and wind up averaging out, and eventually all moons that remain in orbit would be going in similar directions again.",
+                                    "score": 46,
+                                    "replies": [
+                                        {
+                                            "author": "MakesUsMighty",
+                                            "body": "If there weren\u2019t another orbiting moon but a single rogue body captured, could it enter a stable orbit going the opposite direction as the planets rotation? Or would tidal effects or something else want to drag it the other direction?",
+                                            "score": 9,
+                                            "replies": [
+                                                {
+                                                    "author": "auraseer",
+                                                    "body": "That's called a \"retrograde satellite.\"\n\nThis does indeed cause tides. In this direction, the orbital effect is tidal deceleration. The moon's tides pull at the substance of the planet, at the same time the tidal bulges pull at the moon. The interaction slows down the moon's orbit and also, less noticeably, slows the rotation of the planet. \n\nWe know of one retrograde satellite where we can watch this happening: the moon Triton, which orbits Neptune in the opposite direction that Neptune rotates. We do think Triton was originally an independently orbiting object that wound up being captured by Neptune. \n\nTriton's orbit is very, very gradually slowing and shrinking because of this effect. We predict that about 3.5 billion years from now, it will get so close to Neptune that the planet's gravity will overcome Triton's own gravity. Tidal forces will pull the whole moon right apart. Some of the bits will fall into the planet and the rest will form a large debris ring. \n\nI imagine it will be spectacular.\n\nThere are other retrograde satellites in our solar system, but all those are much smaller and much further away from their primaries. That means tidal effects are too small to cause deceleration on a timescale we can measure.",
+                                                    "score": 47,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Rolebo7244",
+                                                            "body": "Phobos is slowly falling into Mars and should reach its roche limit between 30 and 40 million years from now. Imagine Mars with a ring system. I bet that would be a sight to see",
+                                                            "score": 10,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "tashkiira",
+                                                                    "body": "It wouldn't be much of a ring system.  Phobos is tiny, only 11km across.  Still, it would be interesting to see, especially along the lines of confirming the physics actually works.",
+                                                                    "score": 10,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "author": "HealenDeGenerates",
+                                                            "body": "I\u2019m sorry if this is an obvious question, but why doesn\u2019t the moon crash into the planet? I see that you say it gets pulled apart and I would love to know why. I have a strong feeling that my intuition is wrong.",
+                                                            "score": 2,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Thunder-12345",
+                                                                    "body": "It's still oribiting at the same velocity, which is why it doesn't fall into the planet.\n\nDisintegration happens because of the difference in gravitational force between the near and far sides of the moon. When the moon gets close enough (inside the Roche limit,) this tidal force is stronger than its own gravity, and the moon can no longer hold together.",
+                                                                    "score": 4,
+                                                                    "replies": []
+                                                                },
+                                                                {
+                                                                    "author": "auraseer",
+                                                                    "body": "The moon gets broken up by tidal forces. \n\nTides happen because gravity is affected by distance. Gravity pulls more strongly on nearby things. On Earth, the tides from the moon happen because the moon pulls most strongly on water directly beneath it, compared to water that is further way. \n\nThe way the math works out, tides are stronger when the bodies are closer together. That is, the force of gravity is stronger, but also the *difference* in gravity is proportionally larger. If the moon becomes half as far away from the planet, tidal force is 8 times greater. \n\nThe force doesn't just affect water. It affects rock and air and everything else. And it goes both ways, with the planet and moon both affecting each other. \n\nIn the case of Triton, Neptune's gravity is pulling most strongly on the parts of the moon that are closest to the planet. It pulls least strongly on parts furthest away. As the distance between the bodies shrinks, that force difference is always getting bigger and bigger. \n\nThere's a distance limit, where the planet's tidal force pulling away at the rock becomes greater than the moon's own gravity trying to pull it together. That is called the Roche limit. Once the moon passes inside that limit, its gravity can no longer hold it together against the tidal forces, and it disintegrates. \n\nThe pieces don't fall straight to the planet because they are still traveling the same velocity as the moon was. That means they are moving sideways too quickly to fall straight in, so they stay in orbit.",
+                                                                    "score": 3,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Edgefactor",
+                                                                            "body": "You can think of the planet like a dirt clod.  Sometimes when you throw a dirt clod, it disintegrates on release, but all the dirt still goes the same direction.  \n\nMoon hits the Roche limit, it becomes that useless dirt clod and gradually spreads into a ring",
+                                                                            "score": 3,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "author": "SaulsAll",
+                                                            "body": "> Tidal forces will pull the whole moon right apart. Some of the bits will fall into the planet and the rest will form a large debris ring. \n\nHow long would that take?  Going from \"large telescopes on Earth can see the shape of Triton decomposing\" to \"there is a new ring\" - would that be decades? centuries? millennia?",
+                                                            "score": 3,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "auraseer",
+                                                                    "body": "That appears to be an open question. The best guess I've found is that it would take something in the millions of years. \n\nThe disintegration event could happen in a matter of hours to days. That would be the change from Triton to a new orbiting cloud of rocks and stuff. Then that cloud slowly, slowly spreads out in its orbit, and eventually achieves the ring shape.",
+                                                                    "score": 10,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "BraveOthello",
+                                                                            "body": "It would be so cool to see a rocky body hit it's Roche limit, assuming you were very far away and got to just watch.",
+                                                                            "score": 6,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "auraseer",
+                                                                                    "body": "Good news! Phobos, the smallest moon of Mars, is thought to be extremely close to its Roche limit already. \n\nIt could break up almost any time within the next 50 million years.\n\nWe can't make a more accurate prediction yet because we don't know enough about its internal structure. If it were made of liquid or dust, it would have come apart already. If it's a completely solid rock, it will have to approach a lot closer. But it may be more like a loose pile of rubble, which means it could begin to fracture and come apart more easily.",
+                                                                                    "score": 2,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "BraveOthello",
+                                                                                            "body": "Well yes, but the odds it will be in our lifetimes is next to 0, so I doubt we'll get to watch.",
+                                                                                            "score": 1,
+                                                                                            "replies": []
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "TheSkiGeek",
+                                    "body": "Yes, but if the planet+moons formed out of the same initial \u2018cloud\u2019 of spinning mass then they\u2019d be very likely to be rotating in more or less the same direction/plane.  If the moons were captured objects that arrived later, theoretically they could be in any sort of orbit.",
+                                    "score": 3,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "None",
+                                    "body": "[removed]",
+                                    "score": 4,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Edgefactor",
+                                    "body": "They can! But it's less common because most everything in the solar system formed by the sun yeeting matter in its direction of rotation.  All our planets are in the same plane within 7\u00b0, which extends to moons.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "SuccessfulSquirrel32",
+                                    "body": "Orbital bodies have what is called a plane of ecliptic. If you look at the solar system from the side view, all the planets and their moons orbits are roughly contained around the suns equator. The orbits above and below their solar poles are generally pretty empty compared to the space in the ecliptic. This exists because the planets formed when the sun was still a rotation disc of solar mass, and not the spherical star we know it as. This is also part of why Pluto was down graded to dwarf planet, because it's so far out it has a non-ecliptical orbit.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "rrtk77",
+                                            "body": "> This is also part of why Pluto was down graded to dwarf planet, because it's so far out it has a non-ecliptical orbit.\n\nThat's not really why. It's mostly because Charon and Pluto are about the same size and rotate about a point outside of Pluto, meaning that Pluto does not have enough mass to successfully clear its neighborhood in its orbit, instead forming a binary system with Charon.\n\nThe qualifications for \"planet\" are:\n\n* You orbit a star, but are not a satellite\n\n* Have enough mass to be nearly spherical\n\n* Have successfully cleared the neighborhood of your orbit.\n\n\"Clearing the neighborhood\" is the actual terminology (though, dynamical dominance is also used so we can have actual technical terminology) is where you have enough mass that you are basically the dominant object in your orbit--everything either orbits you (the barycenter of the orbit is within your body) or is in your Lagrange points (at least temporarily stable areas in your orbit). This is the criteria that determines a dwarf planet from a \"regular\" planet.\n\nThe exact shape of your orbit isn't a criteria. Indeed, Pluto's orbit is still elliptical, it's just eccentric, meaning it's very elliptical, whereas for instance the Earth's orbit is basically circular, and inclined, meaning it orbits at a noticeable angle relative to the Sun's rotation). Pluto's orbit is actually so eccentric it is closer to the Sun than Neptune in parts of the orbit.",
+                                            "score": 8,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "maineac",
+                            "body": "Why do they not coalesce into another moon?",
+                            "score": 7,
+                            "replies": [
+                                {
+                                    "author": "Woodsie13",
+                                    "body": "Same reason that it disintegrated in the first place.  \nThe debris closer to the planet is moving faster, since it is in a lower orbit, and the debris further from the planet is likewise moving slower, which pulls everything out into a ring over time.  \n\nIf the gravitational pull of the cloud is strong enough to pull it back together, then it is strong enough to prevent the moon from disintegrating in the first place.",
+                                    "score": 7,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Clara09v",
+                                    "body": "\u00a0it seems likely that Saturn\u2019s rings have been in a cycle alternating between moons and rings many times over",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "King_Jeebus",
+                    "body": "Does the ring eventually dissipate outwards into space or fall down to the planet? (If neither, are the particles in the ring altitude-graded depending on their mass?)",
+                    "score": 13,
+                    "replies": [
+                        {
+                            "author": "bryoda12",
+                            "body": "They are slowly falling towards the planet, estimates are in the low 100s of millions of years when they will disappear",
+                            "score": 51,
+                            "replies": [
+                                {
+                                    "author": "coolguy420weed",
+                                    "body": "Is this a general trend for planetary rings, or can they be constant or even slowly escape? Or do we just not have enough examples we know about to make predictions like that?",
+                                    "score": 8,
+                                    "replies": [
+                                        {
+                                            "author": "EBtwopoint3",
+                                            "body": "To avoid clumping together, the rings need to be orbiting within the planets Roche limit. If they are outside this limit, over time you would expect the rings to form into a moon rather than remaining diffuse. \n\nGiven that the rings are inside the Roche limit,  there will be significant tidal forces on them. The gravity of the ring system pulls on the planets atmosphere much like the tides on Earth, and depending on direction this either adds angular momentum or subtracts it. So they could be pushed away or pulled in, but I don\u2019t believe long term stability would be possible without a mechanism for replenishment.",
+                                            "score": 26,
+                                            "replies": [
+                                                {
+                                                    "author": "BrocktreeMC",
+                                                    "body": "I thought I heard that one of Saturn\u2019s moons has been observed ejecting water vapor and ice particles into space where it ends up in the ring. I wonder if it\u2019s enough to sustain?",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "None",
+                                            "body": "[deleted]",
+                                            "score": 7,
+                                            "replies": [
+                                                {
+                                                    "author": "DrunkFishBreatheAir",
+                                                    "body": "This isn't true, they can also spread outward. The dissipation of energy beings them to a flat and circular orbit, but angular momentum prevents dissipation beyond that, and then tides take over. Saturn's rings spread both ways, inner material spreads inward inward and outer material spreads outward.\u00a0",
+                                                    "score": 6,
+                                                    "replies": [
+                                                        {
+                                                            "author": "ParagonRenegade",
+                                                            "body": "When I was in university they mentioned what you\u2019re saying, but that rings did not escape unless they were ejected by a third body or were ejected in a high energy scenario, and that all material ultimately de-orbited or reached equilibrium with constant pressure i.e solar wind.\n\nIf that\u2019s not the case or I\u2019m misremembering, I apologize and defer to your greater understanding.",
+                                                            "score": 2,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "DrunkFishBreatheAir",
+                                                                    "body": "The material that spreads outward ends up clumping into small moons which continue spreading outward. With infinite time they might get lost from the system? I'm not sure, but on reasonable timescales they'll just drift a bit. But yeah anything that doesn't fall into the planet is stable until other things perturb them.\u00a0",
+                                                                    "score": 3,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "DrunkFishBreatheAir",
+                                    "body": "They spread in both directions toward and away from the planet, and when material gets too far from Saturn it clumps back into moons.\u00a0",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "thunderling",
+                                            "body": "How big does a clump have to be before it's considered a moon?",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "auraseer",
+                                                    "body": "There is no formal astronomical definition of what makes a moon. \n\nTechnically, the astronomical term for any small object orbiting a bigger object is \"natural satellite.\" Using that term depends more on the stability of the orbit than the size of the object itself. But I believe the smallest thing we call a natural satellite is Aegaeon, which orbits Saturn and is about one-half kilometer in diameter.",
+                                                    "score": 4,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "DrunkFishBreatheAir",
+                                                    "body": "That's a fun question, and I'm not sure how it gets officially defined, but how I see it: if you took a rock and put it in orbit around Saturn, it'll just happily keep orbiting Saturn. BUT if you took a pile of rocks (so, no internal strength), whether it keeps orbiting or gets ripped apart into ring material will depend on how close it is to saturn and how strong the tides it feels are. The distance where that switches is called the \"Roche limit\" and marks the outer edge of the rings. Outside of it, piles clump back together.\u00a0\n\n\nSo my definition is probably something that's held together under its own gravity, not just internal strength. But I haven't given this much thought.\u00a0",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "auraseer",
+                            "body": "A ring is a temporary phenomenon. Small particles are slowly robbed of orbital momentum by things like gravitational interactions, the solar wind, and the planetary magnetic field. As particles become too slow to stay in orbit, they very slowly rain down onto the planet. \n\nSaturn's rings are thought to be relatively short-lived by planetary time scales. We think they may be only visible for about 100 million more years.",
+                            "score": 19,
+                            "replies": [
+                                {
+                                    "author": "zanillamilla",
+                                    "body": "What I find curious though is that Jupiter, Uranus, and Neptune also have rings; they are nothing like Saturn\u2019s rings, but thinking about planetary time scales, is it a coincidence that all four large planets have rings at the same moment in time?",
+                                    "score": 9,
+                                    "replies": [
+                                        {
+                                            "author": "auraseer",
+                                            "body": "It's not entirely clear. \n\nMy understanding is that if a planet is large enough and has multiple moons, it will probably have some faint rings most of the time. It will tend to capture tiny particles like interplanetary dust, fragments from meteorites hitting the moons, and ejecta from any moons' own activity. \n\nFor example Jupiter's moon Io has volcanos that spray ash and dust so high that the stuff can escape Io's weak gravity, and enter orbit around Jupiter. There it will naturally contribute to any ring structure the planet has. \n\nBecause rings dissipate so very slowly, it wouldn't take much material input to maintain a faint ring for a very long time. But again, I don't know if that part of the science is very well understood yet.",
+                                            "score": 15,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Ethan-Wakefield",
+                                    "body": "How long ago were they formed?",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "DrunkFishBreatheAir",
+                            "body": "They spread in both directions toward and away from the planet, and when material gets too far from Saturn it clumps back into moons. It's not by mass though, it's just by where they are in the rings. If their orbit takes longer than 1 saturn-day, they spread outward.\u00a0",
+                            "score": 5,
+                            "replies": []
+                        },
+                        {
+                            "author": "Astrex72",
+                            "body": "Saturn\u2019s rings neither dissipate outward nor collapse inward en masse. Instead, they\u2019re a dynamic, self-sustaining system with particles colliding, fragmenting, and recycling\u2014all confined to a razor-thin plane by orbital mechanics.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "effective_lambda",
+                    "body": "So if the Kessler Syndrome situation occurs. Would the debris eventually become manmade rings of junk around earth?",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "Kered13",
+                            "body": "If there were enough junk in a high enough orbit, yes. However I don't think we have nearly enough junk, and most of it would deorbit before it could form a ring.",
+                            "score": 11,
+                            "replies": []
+                        },
+                        {
+                            "author": "redpandaeater",
+                            "body": "Most of our satellites still suffer enough atmospheric drag or other perturbations that their orbit decays relatively quickly.  I couldn't tell you the expected lifetime for all of the GPS and communications satellites in semi-synchronous orbit though I imagine it's still tens of thousands of years, but it's only really once you get way out to geosynchronous orbits and beyond that they'd potentially last millions of years.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "ZenPyx",
+                                    "body": "yeah some of the expected lifespans of geostationary orbits are insane. There's very little out there to actually affect the satellite, so it could potential stay up there for something like a billion years. They likely wouldn't form rings though, they don't really have the right angular momentum and they aren't likely to hit anything before the orbit decays",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "thomasxin",
+                    "body": "This is an interesting concept because it seems to take longer with larger structures; for instance, formation of star systems.\n\nDo elliptical galaxies ever coalesce back into spiral ones? I would imagine they have very few collisions, and gravitational influence between neighbouring objects would mostly balance out.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "auraseer",
+                            "body": "Elliptical galaxies do not collapse back into spiral ones. \n\nYou're right that the issue is lack of interaction between objects. \n\nWhen a spiral galaxy forms from its primordial cloud, most of the interactions involve gas and dust. There are skrillions of particles and many collisions and therefore many opportunities for momentum exchange. You start with a rotating blob but it flattens out into a pancake.\n\nAn elliptical galaxy forms when a spiral galaxy collides, merges, or interacts at close range with another. That messes up the spiral structure and also blows away most of the gas and dust. In the resulting galaxy, there aren't enough particles or enough collisions anymore, and so the mechanism for collapsing into a disc or ring does not occur anymore.",
+                            "score": 12,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "n8udd",
+                    "body": "Is this the same reason the planets in the solar system appear to be on the same plane?\n\nAnd the systems in the galaxy for that matter!",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "auraseer",
+                            "body": "Yes! Everything in space started out as clouds of gas and dust. They all spin at least a little bit, which always makes a cloud flatten out into a disc. Then when parts of that disc coalesce to make solar systems or planets or moons, their orbits continue to maintain the disc shape.",
+                            "score": 7,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Big-Hearing8482",
+                    "body": "Have we found any planets that have debris clouds like this yet! Cool to see the end product but would love to see it form",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "Bearded_Hobbit",
+                    "body": "To this dudes point. Gravity, Gravity does some some awesome things when you start to break down the math.",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "raendrop",
+                    "body": "What about the reason for solar systems and galaxies being flat(-ish)? Is it the same/related/similar reason or is something else going on?",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "GetsBetterAfterAFew",
+                    "body": "Ok question please - Why do larger clumps of debris not form rings but instead goes thru accreation to form a body that becomes a planet?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "-Interceptor",
+                            "body": "because they rotate too slow to be in orbit or escape. \n\nThere are only 3 options:\n\n1 - rotate too slow - \"fall\" into center of gravity.\n\n2 - rotate just fast enough to balance gravity - rotate around the planet on disk plane. Can be at different range from the planet. \n\n3 - rotate fast - escape gravity and drift off to space.",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "Woodsie13",
+                            "body": "It\u2019s not necessary about how large the clump of debris is, it\u2019s more about how far away it is from the planet/star that it is orbiting.  \n\nThe speed at which an object orbits depends on how far away it is from the center. Closer objects orbit faster, further objects orbit slower.  \n\nThis means that the side of a planet that is facing the sun will be trying to orbit slightly faster than the side of the planet facing away from the sun, and this difference tries to pull the planet apart.\nThis effect gets stronger the closer you get to the sun.\n\nPlanets are all far enough away from the sun that their own gravity is far more than enough to overcome this force, and they stay intact.  \nMoons, on the other hand, move around a lot more, are more common, and can get a lot closer to their planets than planets can get to the sun, which is why that moons are much more likely to disintegrate after forming than planets are.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "EatDiveFly",
+                    "body": "I understand the principle and the math of this, but then I wonder why gas giant planets don't similarly coalesce into large disks.  Don't  they start as a sphere of disconnected gas molecules?  Why do they maintain the sphere instead of the disk?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "auraseer",
+                            "body": "Once the cloud collapses enough and becomes dense enough, the inward force from gravity begins to overcome the outward force from the rotation. That accelerates the collapse which increases the density further. As that continues, stuff in the center of the disc gets pushed upward and downward because of the outer stuff that is pushing in by the equator. And eventually you wind up with a ball.\n\nPart of the definition of a planet is that it has enough mass for gravity to make it round.\n\nI suppose if the cloud were rotating very extremely fast in the first place, there might be some case where it could stay disc shaped, and never actually coalesce enough to make a planet. But I don't think there is any mechanism for a gas cloud to acquire that much spin.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "EatDiveFly",
+                                    "body": "Very cool, thanks.  So presumably there is a constant that describes this?  Like some diameter to density ratio that says \"above this ratio, you will coalesce to a planet. below it, you will be a disc.\"",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "auraseer",
+                                            "body": "That concept is Jeans instability, named for the British astronomer who developed the equation. Any given cloud has a \"Jeans mass\" that depends on its density and temperature. \n\nIf the actual mass of the cloud is greater than that limit, it is not stable as a cloud, and will collapse.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Calling-Shenanigans",
+                    "body": "I\u2019d love to see this happen in a simulator like Universe Sandbox. I wonder if it would do it.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Anaxagoras126",
+                    "body": "Is it possible we\u2019re missing something about gravity? I don\u2019t know what I\u2019m talking about, but could gravity perhaps have some sort of influence around the equatorial plane? If not then why is the ring directly between the polls, not just on Saturn, but all planets with rings? Even our moon is in the disc directly between our polls. Even Uranus, on its side, has its disc in its side.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "auraseer",
+                            "body": "Moons located in that fashion are like that because of how they form. \n\nA planet and its moons generally form at the same time, out of the one rotating cloud of dust and gas. That cloud first collapses into a disc. Then the middle of the cloud coalesces into a planet, whose equator lies in the plane of the disc. Outer portions of the cloud coalesce into moons and perhaps rings, which continue their orbit in the plane of the disc. \n\nThere is nothing special about gravity that attracts moons to the equator.\n\nA moon or ring that doesn't form in the same way will not be located above the equator. A good example is Triton, moon of Neptune.  Triton didn't form from the same cloud as Neptune did. It started out as a separately orbiting object and was captured by Neptune's gravity. So, its orbit is very different, being titled significantly off Neptune's equatorial plane and moving in the opposite direction from the planet's rotation.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Federal-Software-372",
+                    "body": "Isn't it just rotational gravity being highest at the equator?",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "future_lard",
+                    "body": "In your example with the pieces colliding, doesn't that mean they both lose some velocity and will start dropping towards the planet?",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "None",
+                    "body": "[deleted]",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "auraseer",
+                            "body": "Each object is being pulled inward by gravity, but at the same time, is also moving sideways. If an object is moving fast enough, it moves so far sideways that it misses the planet. \n\nBecause gravity keeps pulling on the object, it takes a curved path that bends around the opposite side of the planet. \n\nThat process continues. Gravity pulls inward, but the object is moving fast enough that it always swooshes past and around the planet, never actually hitting it. \n\nThat's about how orbits work.",
+                            "score": 5,
+                            "replies": []
+                        },
+                        {
+                            "author": "Canaduck1",
+                            "body": "It does. That's why they're in orbit rather than flying away into space.\n\nAn orbit is when your \"forward\" velocity matches your freefall accelleration. All objects in orbit are in freefall. But they don't drop in altitude because the planet curves away from them due to their velocity at the same rate that they are being \"pulled down.\"\n\nIn the words of Douglas Adams, \"the main thing that flying requires is the ability to throw yourself at the ground and miss.\"",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "-Interceptor",
+                    "body": "It doesn't matter if they bump into each other or not. \n\nIt has to do with center of gravity and rotation axis. \n\nImagine there is a box around the palent. Now imagine a particle rotating at one of the edges (ie not anywhere around the center). \n\nThere are two forces at work  - one is gravity, a centripetal force which pulls the particle to the center of the planet - diagonally. and a centrifugal as a result of the rotation speed of the particle. We can break that diagonal gravitational force into 2 perpendicular parts  - one towards the axis, and one towards the middle (if its the top corner - straight down).  \n\nThere is a force that cancels the pulling towards the axis part - the centrifugal force which is \"pushing\" outwards  perpendicular to the axis of rotation. But there is nothing to cancel the part of the gravity that goes to the \"middle\". Since it balances in the middle (in the center of gravity perpendicular to the rotation axis) all rotating particles around the palent will find themselves there eventually.\n\n\nHere's a paint diagram to help visualize. \n\nhttps://imgur.com/qmCrfuI",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "garrettj100",
+            "body": "Everything in the solar system starts out with some sort of nonzero **net** angular momentum, dating back to its early \u00a0formation as a pre-solar nebula. \u00a0While collisions & friction (which is just collisions on a smaller scale) will eventually cancel out all the angular momentum in any direction save in the rotational plane of the solar system\u2019s disk, the remaining rotation will all end up in one direction, and therefore also one flat plane.\n\nThe exact same process is happening with Saturn. \u00a0A spherical cloud of debris would collide until all the remaining angular momentum is in one direction. \u00a0The provenance of Saturn\u2019s rings are not known for certain but best theory right now is the collision of two moons, which would likely have already been nearly in the same plane.",
+            "score": 60,
+            "replies": [
+                {
+                    "author": "Astrex72",
+                    "body": "The moon-collision theory is still the frontrunner for the rings\u2019 origin, and you\u2019re right\u2014if those moons were already orbiting in Saturn\u2019s equatorial plane (as most moons do), their debris would inherit that orderly alignment.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "garrettj100",
+                            "body": "It\u2019s also highly likely a collision \u2014 if it did occur\u2014 would have been between two moons in similar orbits. \u00a0After all in different orbits it\u2019s far less likely they\u2019d intersect. \u00a0With nearly identical orbits most of the angular momentum is preserved.\n\nI would imagine \u2014 **imagine**, \u2018cuz I\u2019m in speculation territory \u2014 that they weren\u2019t exactly the same, that at least **some** of the moons\u2019 angular momentum must have been lost in the collision. \u00a0Thats the most plausible way to my mind that the debris ends up inside the Roche limit.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "severoon",
+                    "body": "Regression to the mean, in this case, the mean is net angular momentum, and the things regressing toward it are all of the particles.\n\nIt would be neat to see someone work out the statistical mechanics of some starting system to show the probability distribution of different possible configurations.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "grahampositive",
+            "body": "There's a nice PBS spacetime video that explains this effect. Though the \"disc\" structures they discuss there are mostly galaxies, solar systems, and quasar gas clouds, the principle holds for rings\n\nEssentially (and to paraphrase) equilibrium between forces and symmetry of forces are the dominant effects that determine shape. If pressure (eg between adjacent bits of the material) is the dominant force, then the symmetry is 3-dimensional and the structure formed is spherical. If orbital rotation is the dominant force (as in a planetary ring) the symmetry is circular (around the axis of rotation) and the resulting structure is a disc\n\nhttps://youtu.be/Aj6Kc1mvsdo?si=a1wVlzXdc4D34225",
+            "score": 16,
+            "replies": []
+        },
+        {
+            "author": "Mavian23",
+            "body": "Imagine two rings going around Saturn at different angles. Where they cross, the rocks and stuff will bump into each other. When they bump into each other, the direction they are moving will change. Over lots and lots of time, the direction of movement will change to the point that the rings no longer cross paths. Then you just have one ring going around in one direction.",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "ZenPyx",
+                    "body": "This doesn't really talk about why an orbiting ring is maintained - it's more about the conservation of angular momentum initially present if anything.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "thput",
+                    "body": "Less bumping and more of the combined gravity and momentum of the debris moves all items orbiting a body to the same or similar orbit.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Mavian23",
+                            "body": "If there were no bumping, then there would be nothing stopping two rings from having different angles. It's the bumping that causes the trading of angular momentum, which causes the angular momentum of the particles to tend towards an average.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "thput",
+                                    "body": "Gravity would. And there is bumping.l of objects, there is just much more space between those rocks than you would think.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Mavian23",
+                                            "body": "No, gravity would not stop two rings from having different angles. Why would it? Imagine two rings going around the planet at right angles to each other. Why would gravity cause one of the rings to change its orientation?",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "thput",
+                                                    "body": "Galaxies operate I the same manner. Do suns bump into each other and bounce into different directions? No, they would combine into one body. \n\nThe gravity of each object while moving past other object pull slightly and change the orbit of both bodies. This happens very slightly over millions/billions of years until they are all traveling in a similar orbit.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Mavian23",
+                                                            "body": "Not all galaxies are disks. Some are spherical (not literally spherical, they are called elliptical galaxies).\n\nIt's the bumping. Imagine two rings going around Saturn, one vertically and one horizontally (so they are at right angles to each other). When a rock from the vertical ring hits a rock from the horizontal ring, the rock from the vertical ring will be given some horizontal momentum, and the rock from the horizontal ring will be given some vertical momentum. Let this go on for millions of years, such that every rock in both rings has collisions, and the end result is that all the rocks will end up with both vertical and horizontal momentum, such that the final, coalesced ring will be somewhere between the two original rings.",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "None",
+                                                                    "body": "[removed]",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "kingbane2",
+            "body": "for a really dumbed down answer, think of every piece of debris as having a plus and minus velocity going east - west and north - south. well if all of the debris keeps bumping into each other you can consider that like each piece of debris plus and minus velocities combining. so think of all of that debris is 1 long string of pluses and minuses and over time as all of the debris bumps into each other all of those pluses and minuses get added up, eventually you just get 1 final direction of east or west and north or south. thus all of the debris seems to just be traveling in 1 direction in that flat disc.",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "peterattia",
+            "body": "Remember tether ball? Where a ball was on the end of a rope attached to a pole and you hit it back and forth? Imagine if that pole had lots and lots of strings and each one had balls on the ends of different weights and sizes. If you hit all the balls with the same force, they would spin at different heights around the pole. The lightweight balls would spin at the end of the tether and the heavy ones would spin lower. However, if you spun them all as fast as you could, they would spin at the exact same height because that is the limit of the tether",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "AlmightyK",
+                    "body": "But the pole is an object with a clear up and down direction relative to a stronger gravitational pull. Why would a planetary body follow the same restrictions?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ezekielraiden",
+            "body": "The top comment gives a partial explanation for the effect, but not all of it. It explains that momentum is involved, but not *why* the momentums always end up cancelling out on average to result in rings.\n\nThe fact is, this happens primarily because we live in three dimensions, and that has mathematical consequences which then have physical consequences.\n\nIn three dimensions, there are two important and relevant mathematical facts. 1: Every plane can be described by a single vector perpendicular to that plane. 2: You cannot have two planes in 3D space that do not intersect.\n\nThe first is important because it turns out that angular momentum can be represented as a vector perpendicular to the plane in which the rotation occurs. The second is important because this means we can now add up the rotation vectors of a *collection* of objects to get their *total* rotation...and that total rotation vector will always uniquely define a specific plane of rotation unless it is the zero vector (since it has no defined direction), but the odds of that happening in nature are essentially zero.\n\nThe net result of these two facts is that all collections of rotating objects have a net angular momentum which shares specifically a *plane*, not a *sphere.* If we lived in 2D this would also be true but trivial because everything lives in that plane (objects can only rotate CW or CCW in 2D spaces.) if we lived in 4D, this would NOT be true, as it IS possible in 4D and higher spaces to have two planes that do not intersect, but also aren't parallel. This is exactly the same as how lines in (flat) 2D space must either cross or be parallel, but lines in 3D space can be neither crossing nor parallel.\n\nNow, add in the final critical ingredient from physics: gravity. Under gravitational attraction, the particles orbiting the planet (or star, or anything really) are bound to a sphere around the planet. But, as we just observed, there is a net angular momentum for all of those things. Things that collide and get angular momentum changes *away* from the plane of rotation will either get that change cancelled out later, or will get ejected from the orbit, removing angular momentum that might oppose this process. Hence, over time, the combination of how momentum is transferred, the attractive force of gravity, and the nature of 3D space, *all* rotating things eventually \"flatten out\" into a disk shape, not a sphere, usually with a big mostly-spherical lump in the center. That's why solar systems are (mostly) flat, why galaxies are (mostly) flat, why large moons tend to all orbit in a common plane around gas giants, etc. Physics and math *force* this result to occur.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "PM_ME_UR_ROUND_ASS",
+                    "body": "Great explanation, but to simplify it even further - in 3D space, angular momentum acts like an arrow pointing perpindicular to rotation, and when multiple objects interact, these arrows try to align, which is why everything settles into a single flat plane instead of a sphere.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "darthy_parker",
+            "body": "You need to start early and with the big picture. Planets and the moons around them coalesced out of the same rotating cloud of material as the sun. During this process, the cloud \u201cpicks\u201d a rotational axis from gravity pulling on all of the components: there\u2019s a net final rotation. \n\nDue to conservation of momentum, they shared angular momentum, so as the individual planets got pulled together by gravity, they spun faster but in the same orientation (ice skater pulling in their arms is a common example). So all the planets (and the asteroids between Earth and Mars) now orbit on the same plane. \n\n(The fact that Pluto has an out-of-plane orbit is one strike against it being called a planet. The fact that many comets and other objects farther out have eccentric orbits suggests their origin is extra-solar, or at least that they have been disturbed by passing extra-solar objects in the past.)\n\nSo what about the moons? While they typically coalesced out of the same materials there can be some variation in angle of the orbital plane with moons because they are light enough to be easily disturbed, but the gravitational pull of the generally bulkier equatorial girth of planets tends to pull them back towards an equatorial orbit. So even \u201ccaptured moons\u201d which might be stray asteroids or Oort Cloud denizens will end up in approximately the orbital plane.\n\nRings are thought to be caused by an impact between orbiting moons, or a moon that has gotten too close to its massive planet that gets pulled apart. These would already be in the orbital plane, so the fragments would tend to be on average in that plane, and over time get pulled by the other fragments into a thin disc.",
+            "score": 2,
+            "replies": []
+        }
+    ]
+}

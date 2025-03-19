@@ -1,0 +1,505 @@
+{
+    "title": "Old Employer Locked Out - How Much to Charge",
+    "author": "Sgt_Ogre",
+    "subreddit": "sysadmin",
+    "rank": 12,
+    "score": 186,
+    "upvote_ratio": 0.94,
+    "num_comments (reported by reddit)": 78,
+    "url": "https://www.reddit.com/r/sysadmin/comments/1jdqlo3/old_employer_locked_out_how_much_to_charge/",
+    "id": "1jdqlo3",
+    "selftext": "TLDR - IT Rescue operation w/ 12 hour time crunch. Need to gain admin access to network gear. How much to charge? \n\nHey all,\n\nTo keep it simple an old employers building got bought and the VP of operations for the new compwny needs access to the network. They called me and I'm pretty sure I can get them in. Heading there in 2 hours. They are facing a reset of their whole network stack otherwise. Firewalls to APs.\n\nThey were dumb and open the building tomorrow and need internet. I got fucked by my old employer money wise. Looking to make sure I get my moneys worth on this one. How much do I charge? Probably 3 hours of work for me honestly. I built the damn thing.  ",
+    "comments": [
+        {
+            "author": "joecool42069",
+            "body": "$500/hour.  5 hour minimum.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Stryker1-1",
+                    "body": "Cash up front or held in escrow. I don't trust anyone",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "joecool42069",
+                            "body": "cash in the hand is worth two in the bush....  i might have that one wrong.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Weak_Jeweler3077",
+                                    "body": "No, no, I think I heard it told like that. Regional dialect aside, it might have been \"cash in the hand is worth two in the bank\", but hey....",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "flyguydip",
+                            "body": "I don't either. The first thing I thought was that this is a trap to see if he has a secret backdoor or saved creds from back when he was employed there. Or if he, and only he, just happens to miraculously know the magic fix they might accuse him of causing the damage in the first place just to get an insurance payment or something.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "joecool42069",
+                                    "body": "Knowledge of local accounts in devices is not some secret back door.  If the org doesn\u2019t have a way of tracking those, thats a failure within the org. \n\nYou could argue OP **should** have documented those password when he was employed there.  But if that documentation only existed on his laptop and no one audited, well\u2026. That\u2019s a business failure.  A single sysadmin can\u2019t be singularly responsible for all IT knowledge. Well, he can.. but then don\u2019t be all shocked when they leave and no one knows wtf about anything.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "nerdyviking88",
+                    "body": "plus travel/expenses",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "dracotrapnet",
+                    "body": "Considering you are not getting no monthly retainer, no benefits, no weekly check, and possible irregular reoccurring calls becoming expensive is best.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "joecool42069",
+                            "body": "How much time, money, and effort will it take for them to recover the their entire network stack?  If you charge even half, they are still ahead. \n\nDon\u2019t sell yourself short when doing contract work just because you could get it done in an hour.  How much time and money will it take them to do it without you?",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "anonpf",
+                    "body": "Agree to your fee before even starting the drive. All in writing.\u00a0",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Puzzleheaded_You2985",
+            "body": "If you\u2019re already headed there, it\u2019s too late.\u00a0",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Bogus1989",
+                    "body": "my man loves to work for free",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "1a2b3c4d_1a2b3c4d",
+            "body": "You are not prepared legally to do this and protect yourself.  You can be sued in the future by this VP's replacement.  It happens.   You should also get paid \"upfront\".  Else you risk NEVER getting paid.  \n\nYou should research IT contracts and download a template and fill something out before you touch anything and before you agree to anything, and then, first, you get paid because you DON'T trust them.\n\n>  Probably 3 hours of work for me honestly.\n\nThen you bill for a min of 4 hours.  $250/hr.  Upfront only.\n\nYou also really need to set the expectations of what you will and won't do.  The scope of work.  Goals, Objectives, Scope, Assumptions, Risks, Constraints, time frames, etc.\n\nElse you risk getting called tomorrow, and the next day, and the next.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "42andatowel",
+                    "body": "Bill for travel time too!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "TotallyNotIT",
+            "body": "If you don't get a very clear scope of work plus a liability waiver, it won't matter what you charge, your best case scenario is getting nothing. Worst case, shit goes wrong and you get sued.\n\n\nThere's more at stake than money.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "iceph03nix",
+                    "body": "Yeah, reading this and all I hear are alarm bells where OP gets tied up in litigation about what was proper or improper.  May not end up being anything, but just the lawyers fees alone could eat up any reasonable rate.  I'd absolutely push for getting the new hiring company to sign a contract saying they take all legal responsibilities, but I'd want a lawyer going over that first.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "yourPWD",
+                    "body": "READ THIS! Liability waiver before you touch a thing.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Bogus1989",
+                    "body": "LLCs exist bud. protections and all that. good well written up contracts.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "TotallyNotIT",
+                            "body": "Just forming an LLC doesn't get you paid, bud. You still need to complete an agreed upon scope and a company with enough money for buyouts can swing enough legal dick to drag out a payout for years if they wanted to.\n\n\nI've spent a long time in consulting and have seen all manner of way companies will avoid paying up. It's better to avoid the situation altogether.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Bogus1989",
+                                    "body": "yeah. i know\u2026.\n\nmy bad. I get the point you were tryna get across now.\n\napologies\u2026.no idea why i assumed your statement the way i did.\n\n\ud83e\udd23ima go to bed now.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Old-Olive-4233",
+                                    "body": "Also, to expand on what you're saying, an LLC also doesn't ensure it'll actually protect you either!\n\nThere are laws around LLCs/businesses in general (can vary by state as well) and you'd need to make sure you're adhering to them ... things like monthly meetings with notes/minutes, rules around how you get paid, etc... can also play into whether it'll hold up to protect you.\n\nIf you don't do everything right, there is the very real possibility that the courts will \"pierce the corporate veil\" and make you fully responsible for your companies actions.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Anticept",
+                            "body": "LLCs don't magically make you immune. Laws vary state to state, but NO state grants total immunity to negligence or wrongdoing no matter what name you do the work as.\n\nThe mistake people make is forming an LLC and then going out and doing the work themselves and thinking its a magic shield. LLCs protect you from liabilities from the LLC *exclusively*, there is no such thing as a shield that protects you from negligence or wrongdoing if YOU are the one doing it, no matter how you sign the contract or claim to be an employee of \"LLC Inc\".\n\nThere is a reason D&O (Directors and Officers) insurance exists; not even big corporations get immunity. D&O protects them personally.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "These-Maintenance-51",
+                    "body": "People like you are why I would just laugh and hang up. I wouldn't even attempt to help... actually, I probably wouldn't even pick up the phone and see what was up if my old manager was like you in assuming help was obligatory.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "xxdcmast",
+                            "body": "It sucks but that is reality. And a company probably has a lot more money to spend on lawyers than you do. \n\nAgreement, llc, and other protections are the only way to keep yourself safe. \n\nBut also I probably wouldn\u2019t help a previous employer regardless.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "These-Maintenance-51",
+                                    "body": "If I really had to, I'd just pretend to try to help and cooperate but say I forgot whatever important details since I was let go. Not my fault at all they ended our relationship and I happened to forget everything.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "TotallyNotIT",
+                            "body": "No idea what you think I'm talking about. Perhaps you'd like to remove the shit from your eyes and read it again.\n\n\nIf someone is asking you to do work outside of an employment agreement, you are a consultant/freelancer. No competent consultant should ever accept a gig without a clear contract.\u00a0",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "gakule",
+                            "body": "I think you need to re-read the comment. No one is saying they're obligated to help, they're saying don't help without clear compensation and scope (the things you agree to do) agreed upon in writing.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "rynoxmj",
+            "body": "$250/hr, double time because it's an after-hours call out. \n\nMin 4 hours, plus mileage and a meal charge.\n\nCover your ass though, if something goes wrong, it's on you.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Regular_Prize_8039",
+            "body": "The answer was simple, \n\nSorry I don\u2019t have any details these were all handed over when I left and I have no personal copies. Good luck with the rebuild.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Adhonaj",
+            "body": "So...how did it go?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "mautobu",
+            "body": "They need it in 12 hours? $25 000.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "prodsec",
+            "body": "Are you trying to get sued?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Consistent_Photo_248",
+            "body": "I wouldn't touch this.\u00a0\n\n\nThey would get a \"wow that sucks, good luck tho\"",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "QPC414",
+            "body": "Sign and date this contract agreeing to all terms first. Second have a cashier's check on hand for $minimum_amount with remainder due within xx hours by cashier's check.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TheOGgeekymalcolm",
+            "body": "For something like this, my rate used to be $250.00 an hour, minimum 3 hours billed.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "smares21",
+                    "body": "In 2004? Buying the cure is always more expensive than buying the prevention. This is a $500-600/hr minimum job. If the company cost of being down is REALLY high, like 6-fig/hr, your rate becomes upwards of $1500/hr.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "TheOGgeekymalcolm",
+                            "body": "Funny you said that. I forgot to add that it was from the 2006 to 2009 era.  Haven't done that work in a few years now.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "gehzumteufel",
+                                    "body": "LOL a few is like 4-5. Not 20 years ago.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "TheOGgeekymalcolm",
+                                            "body": "I'm old. Or at least my wife tells me that. I still think of the 90s as a few years ago.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "OcotilloWells",
+                                                    "body": "It was, the 90s were only...oh.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "ScriptMonkey78",
+                                                            "body": "That shit hits HARD doesn't it?",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "gehzumteufel",
+                                                    "body": "haha that's like when I am like `just get a 10 year old beater from the 90s` in talking about cars I have to be reminded they aren't anywhere near 10 years old anymore.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Chazus",
+                            "body": "Yeah. 229/hr is our *normal* rate for on-site clients.\n\nDouble that for weekend/emergency.\n\nDouble that for non-contract/one-off instances\n\n\\+Driving time/distance/gas \n\nMinimum 2 hours.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Barbarian_818",
+                    "body": "And the clock starts as soon as you pick up the car keys.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "SufficientDegree1994",
+                            "body": "The phone call*",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Penultimate-anon",
+                    "body": "Plus an admin fee (taxes don\u2019t file themselves).",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "malikto44",
+            "body": "Never.\n\nAbsolutely never.\n\nI worked for a really shitty MSP that fired a co-worker.  Then they hired him back for consulting work.  A day after that, they sued him into the ground.  Thankfully the co-worker had E&O insurance and the insurance company put the MSP in its place to the point where they dropped the suit.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "mini4x",
+            "body": "I wouldn't touch this with a 10 foot pole.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "realdlc",
+            "body": "$5000 upfront in cash or bank check. If the work takes longer than 8 hours, then $500/hr thereafter. Also be sure to have a standard agreement limiting liability and all the other good T&C's. \n\nDo they need ongoing IT support? If so, and you aren't in a position to do it, refer an MSP or other shop and have them pay you a monthly commission or finders fee.  Then the gift keeps giving the whole year through. :-)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "No_Resolution_9252",
+            "body": "3000 dollars for work sessions of up to 4 hours to be taken in one day. The deliverable is up to 4 hours of contract labor only, all liability waived, each session must be paid in full with a check that is acknowledgement that the contract terms have been delivered.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Rhythm_Killer",
+            "body": "Sounds like a minefield to me, I would pass.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "NoAd7364",
+            "body": "Had that happen with Hostess foods. 6hour min. 500.00 an hour. 4 hour travel and 2 hour work",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Frothyleet",
+                    "body": "Fair, but if it was Little Debbie's they could probably talk me down to $400/hr plus whatever I could carry out",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "NoAd7364",
+                            "body": "It smelled like heaven for the first 10min then hell \ud83e\udd23\ud83e\udd23\ud83e\udd23",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "NoAd7364",
+                            "body": "Turned out they deleted a desktop short cut to their delivery software. Had to recreate it. 2.5 min lol",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Daneyn",
+            "body": "I had something similar happen many many years ago. There are Some Bridges you don't want to burn. If your case... maybe helping them will \"encourage\" them to fix the money situation. In my case, I didn't want to Burn the bridge, I wanted to carpet bomb the bridge, and all of the surround roads, I refused to help them, I left of my own accord after dealing with their stuff long enough, and I wanted to be FAR removed from that place.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "UnexceptionableHobby",
+            "body": "Whenever a prior employer who fucked me wants me to rescue them I charge $500/hour with a 5 hour minimum and cash in hand before starting.\n\nIf there is a specific amount of money they shorted you that you were entitled to - add that on top.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "floswamp",
+            "body": "So this new company does not have any IT support? That\u2019s wild! \n\nGood luck and take pics.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "HuthS0lo",
+            "body": "$10,000 seems like a good price",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "rcp9ty",
+            "body": "If an old employer fucked me.  $500/hr minimum 8 hour days.  Hourly contact and paperwork first.  I want everything required in writing with assigned prices per the job requested of me.  For what it's worth I work a fraction of this for my regular job but I'll need to burn PTO at my day job to fix their stuff or work on a weekend which I used to do a lot and it sucks.  All documentation is going to hit my lawyer as well along with leadership signatures when tasks are completed.  So there is no issues come payment time. \nOne employer who fucked me in the past tried to get me to come back full time after they fried the person who threw me under the bus and I'm like if you couldn't afford me at 60k and this was years ago what makes you think you can afford me now.  I mean hell my 401k matching plan alone can make me any sort of raise I want.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "a60v",
+            "body": "No doubt, it's too late. but...wow.  A company moved into the building and was just planning to use the existing network hardware that was installed by and configured for an entirely different company?  That's insane.  They shouldn't trust the hardware, and certainly shouldn't trust the old configuration (that it will meet their needs, not be trojaned or otherwise compromised, and even work at all).\n\nUnless I knew and liked the new business owners personally, I wouldn't touch it.  You don't know what, if any, changes were made to the configuration after you left, and a company this clueless will no doubt blame you for every IT problem that happens from now until forever.  I would probably flat-out tell them \"I really don't want to do this, but, as a favor, I would do it on a best-effort basis for $10k, cash, for one day (up to 12 hours) of my time.  No guarantees, no follow-up support, and no documentation provided.\"  Not because I want to screw them over, but because I really wouldn't want to do it.  If I knew someone in that business whom I thought was competent enough to do the work, I would, of course, recommend that person or company.\n\nPossible exception:  if you want a job there and/or want to get into the consulting/MSP business yourself, this might be an opportunity to help someone, make money, and get a good customer reference.  In that case, charge them a more reasonable fee ($X/hour for your time, plus $Y if you actually solve the problem).",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "RubAnADUB",
+            "body": "personally no amount of money would make me help them. let them burn.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "wrt-wtf-",
+            "body": "$2500 - Day rate for a senior consultant.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Superb_Raccoon",
+            "body": "Whatever the market will bear...",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Obvious-Water569",
+            "body": "$500 to attempt it. Up front.\n\nA further $1500 if successful within their timeframe. Payable immediately.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Obvious-Water569",
+                    "body": "Plus travel and expenses of course.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "steveatari",
+            "body": "So, what happened dude. Where's the update?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BarefootWoodworker",
+            "body": "The proper answer is \u201csucks to be you. I hope things work out.\u201d\n\nThen hang up.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "blue_canyon21",
+            "body": "Seeing as it's not your old employer asking, I see no need to rake the new people over the coals for it. I'd make it reasonable but still profitable for you.\n\nIf it were me, I double my hourly wage rate and then add some for travel.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "usa_reddit",
+                    "body": "And add a clause that you are held harmless for anything that goes wrong.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "embrsword",
+            "body": "Set your day rate and since you are going to be using your day on this, charge them a days work\n\nBecause lets be real here, once you are there they will likely ask you to do some other stuff and make use of you, hell they might use you for a few more days, weeks, or just have you keep turning up if they feel like they can use you.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Different-Hyena-8724",
+            "body": "$5-6000 imo sounds fair for a drop everything and restore our network services.  Seriously, not messing around with the numbers. If you have the solutions, that's what they are worth.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Key-Brilliant9376",
+            "body": "I would tell them at least $5,000. You're saving them far more than that.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "woemoejack",
+            "body": "Need an update on this, curious how it went down.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DeadStockWalking",
+            "body": "Because the previous company screwed you I would say \"Not my problem, I hope you have a wonderful day.\"\u00a0\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Laidoffforlife",
+            "body": "250 an hour in 4 hour blocks.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Frothyleet",
+            "body": "Anyone considering doing freelance work like this for a former employer should be setting up an LLC, having a lawyer draft appropriate engagement contract and liability waivers, and optimally also pursuing E&O or similar insurance coverage.\n\nWhich is a lot of PITA if you are talking about a one-off engagement where you are hoping to make a quick grand or whatever. And I agree, which is why I'd never do it unless the money was real nice and/or there was going to be long term work in the pipeline.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "CountGeoffrey",
+            "body": "i'd make it reasonable. it's not that big a deal to reset all the network.\n\n8 hours @ $250/hr plus full indemnity guarantee.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

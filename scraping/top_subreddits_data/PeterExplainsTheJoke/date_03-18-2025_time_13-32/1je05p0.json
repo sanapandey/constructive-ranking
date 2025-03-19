@@ -1,0 +1,1048 @@
+{
+    "title": "Petah why are they sad?",
+    "author": "fra_poco",
+    "subreddit": "PeterExplainsTheJoke",
+    "rank": 4,
+    "score": 5894,
+    "upvote_ratio": 0.94,
+    "num_comments (reported by reddit)": 166,
+    "url": "https://i.redd.it/di2yuvaarepe1.png",
+    "id": "1je05p0",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "AutoModerator",
+            "body": "Make sure to check out the [pinned post on Loss](https://www.reddit.com/r/PeterExplainsTheJoke/comments/1472nhh/faq_loss/) to make sure this submission doesn't break the rule!\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/PeterExplainsTheJoke) if you have any questions or concerns.*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MrFireWarden",
+            "body": "So many different device widths to design for. Probably not a joke.",
+            "score": 4055,
+            "replies": [
+                {
+                    "author": "AWildNome",
+                    "body": "AKA \"responsive design\" and it's a huge pain in the ass",
+                    "score": 1383,
+                    "replies": [
+                        {
+                            "author": "beegtuna",
+                            "body": "I feel like I\u2019m one of the very few who loves CSS and building UI. Sure, foldables are uncharted territory, but stick to convention and it will fall into place.",
+                            "score": 359,
+                            "replies": [
+                                {
+                                    "author": "SojournerTheGreat",
+                                    "body": "yeah the whole point of responsive design is that you don't have to worry about this. as long as you keep phone, tablet, and desktop in mind, it's....responsive... dynamic.... buncha people in here who have never made a webpage",
+                                    "score": 189,
+                                    "replies": [
+                                        {
+                                            "author": "furomaar",
+                                            "body": "Yeah, responsive design sounds good, but wait until your <p> doesn't fit. Now you have one more device to test for.",
+                                            "score": 81,
+                                            "replies": [
+                                                {
+                                                    "author": "Dookie_boy",
+                                                    "body": "My p never fits",
+                                                    "score": 27,
+                                                    "replies": [
+                                                        {
+                                                            "author": "ava_the_cam_op",
+                                                            "body": "it's a cylinder",
+                                                            "score": 17,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "polymathicManiac",
+                                                                    "body": "It goes in the square hole!",
+                                                                    "score": 10,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Bard_and_Barbell",
+                                                                            "body": "Splains why this here star is tighter'n fort knox",
+                                                                            "score": 3,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "SojournerTheGreat",
+                                                    "body": "it will always fit, because the design is responsive, it's not about testing individual devices, it's about scaling between minimum and maximum screen sizes.",
+                                                    "score": -44,
+                                                    "replies": [
+                                                        {
+                                                            "author": "furomaar",
+                                                            "body": "\"It's about scaling\"\nThis is so wrong. How do you scale from landscape to portrait mode? Do you scale the font size? Do you scale the div width? Oh now you cannot visualise two columns at the same time, the user needs to scroll. Wait, to what image does that paragraph refer to? \nResponsive design is about user experience, and there is nothing automatic about it. For a real product, you'll have to test test test.",
+                                                            "score": 66,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Oligode",
+                                                                    "body": "Is this why some web pages act like garbage fires when you go from portrait to landscape?!",
+                                                                    "score": 34,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Rhaeno",
+                                                                            "body": "Yeah. Ive come across so many sites that have basically only desktop and portrait mode phones taken into account. When you go landscape it handles like the desktop version and is a total shitshow to use on a phone. Then you have stuff like the top bar not adjusting with zoom, so it takes half the fucking screen. Designing these things is a pain in the ass and is one reason why custom web apps are so expensive to build.",
+                                                                            "score": 17,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "author": "Mr_White_III",
+                                                                    "body": "It is easy! now do it for safari, internet explorer, FF, chrome, avasta, and this new Chinese Webbrowser! - the boss",
+                                                                    "score": 14,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "No-Compote9110",
+                                                                            "body": "TBH web engines are not nearly as painful to adjust for, they both work almost the same nowadays and there's only three major ones \u2013 Gecko, Chromium and WebKit.",
+                                                                            "score": 5,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "Nadril",
+                                                                                    "body": "Yeah IE was the only one that even was a pain point and support for it has been dropped for ages. Safari, FF, Chrome are all real similar. Really the only thing that still gives potential issues for me is Safari now and then.",
+                                                                                    "score": 2,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "te_un",
+                                                                                            "body": "This made me check our company websites analytics and somehow we still have 8 users in the last 28 days who used internet explorer. Most of the rest of desktop users are indeed chrome, Edge, safari and Firefox.",
+                                                                                            "score": 2,
+                                                                                            "replies": [
+                                                                                                {
+                                                                                                    "author": "No-Compote9110",
+                                                                                                    "body": "Probably bots or some automatic calls, IE is still used under the hood for a few Windows network functions.",
+                                                                                                    "score": 1,
+                                                                                                    "replies": [
+                                                                                                        {
+                                                                                                            "author": "te_un",
+                                                                                                            "body": "Honestly we are a specialized shop that sells to a very traditional market so wouldn\u2019t be surprised if they actually still had PCs with explorer in their offices",
+                                                                                                            "score": 2,
+                                                                                                            "replies": []
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "author": "SacrilegiousOath",
+                                                                    "body": "Yeah, dev tools and exact min max pixels view is easy enough to accomplish the testing side of css / sass.",
+                                                                    "score": 5,
+                                                                    "replies": []
+                                                                },
+                                                                {
+                                                                    "author": "mrsuperjolly",
+                                                                    "body": "You use break points to change what css effects different screen widths and screen heights. \n\nInstead of telling boxes to fit a fit amount of width and height or font sizes to be a set amount, you get them to dynamically scale along as the screen size changes. \n\nElements in webpages are also typically designed to be responsive. You don't often set things to an absolute position if you, have a row of blocks as the screen gets narrower, you can set them to wrap a bit like how text does. So on a wider screen it would look like a 2 colum grid and on a narrower one a single column. Always dipslaying all the content. \n\nLike code in general is very automatic, you just need to know how to describe the behaviour you want and then you can typically abstract out the complex thing into simple lines of code.\n\nAlso what the commenter youre replying to means when they say it will always fit is like content set to display on the screen will typically resize to always display on the screen. The worst case is it like is off screen with a scrollbar and that's called overflow. Html css is literally designed to always display all the content by default by automatically scaling the size and adding scrollbars etc",
+                                                                    "score": 2,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "furomaar",
+                                                                            "body": "Well done, you used a row of blocks and now your navigation sidebar is at the end of your 5000 words blog post on medium res mobile phones.",
+                                                                            "score": 2,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "mrsuperjolly",
+                                                                                    "body": "I mean for navigation you'd often just have them fixed relative to the edge of the screen.\n\nBut if your sidebar is taking up x amount width on the left and you have a block on the right for the page content taking up the remaining right hand size. Then yes you can have a row of two blocks that no matter how wide or narrow they will never stack into one column. Aka sidebar and page content. They're only going to wrap if they're wider than the screen size hence the use of measurements relative to the screen width.\n\n It's all about desired behaviour , but you don't need any breakpoints for things like that.\n\nLike there's lots of ways to achieve it but flex-box is super common or css grid for layouts \n\nhttps://css-tricks.com/snippets/css/a-guide-to-flexbox/\n\nhttps://www.w3schools.com/css/css_grid.asp\n\nLike everything in a webpage is a block or a block inside a block, though container is the more accurate word.",
+                                                                                    "score": 0,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "furomaar",
+                                                                                            "body": ">t's all about desired behaviour\n\nThat's my point. New device form factors impose new rules to your design. \n\nIt's stupid to use two columns on mobile. It's stupid to use single column on desktop. There is an inherent conflict between the two media. We say it's responsive design, but everything is \"mobile-first\" now, so you have infinite scrolling desktop web sites. So much space wasted, so many fingers hurt. A flex box doesn't solve that problem.\n\nI don't know why you keep posting basic css knowledge.",
+                                                                                            "score": 2,
+                                                                                            "replies": [
+                                                                                                {
+                                                                                                    "author": "mrsuperjolly",
+                                                                                                    "body": "Because that's clearly the level you're at lol \n\nWhen you design a responsive website, you want it to display correctly on any window size.\n\nLike when someone opens a website in a tab it could be thousands of specific combinations of heights and widths that's already the world we live in. \n\nSo if someone comes out with a new device with weird proportions that's not going to effect much if it still wants a 2d ui with a height and width.\n\nThe only thing I could see being different is if where the crease is on foldable, you'd want something specific, or the state of being folded or not, but that's like just another breakpoints really.\n\nYou say flexbox doesn't solve the problem, but find me a website that dosent use some form of flexbox or similar when implementing their responsive design.\n\nRelative measurements, breakpoints, different layouts. The 3 core things. And yes they're basic fundamentals of responsive design, but they're definietly rows of blocks lol",
+                                                                                                    "score": 0,
+                                                                                                    "replies": []
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "author": "bukhrin",
+                                                                    "body": "Yeah some people think that responsive design happens automagically to fit whatever UI/UX the app need to cater to \ud83d\ude2d\ud83d\ude2d",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "author": "Snoo9648",
+                                                            "body": "Phones are so small, sure you can scale down but eventually it becomes hard or impossible to use when scaled down enough.",
+                                                            "score": 3,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "Snoo9648",
+                                            "body": "Responsive design is great for tablets and computers but you almost always have to do a separate design for phones. They are so much smaller and narrower. There's a reason Facebook and reddit have apps. Try those in your browser.",
+                                            "score": 10,
+                                            "replies": [
+                                                {
+                                                    "author": "TimMensch",
+                                                    "body": "Responsive design can go right down to ancient low res phones. It's not that hard, even. \n\nIf a site doesn't work well in a browser it's because the developers either suck or they're intentionally making the sites suck on phones to force you to download the app. (Looking at you Facebook--and LinkedIn). \n\n99% of sites should never require an app. The app exists entirely to nag you with notifications. That's it. Most of the time the app is actually worse than the web experience.",
+                                                    "score": 2,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "celestialfin",
+                                                    "body": "okay but reddit and meta have yet to keep anyone who is good at coding instead of randomly laying them off after a random amount of time, so maybe that's the real reason",
+                                                    "score": 1,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "caspy7",
+                                                    "body": "> There's a reason Facebook and reddit have apps.\n\nYes. To siphon as much data from you and your phone as possible.\n\nDon't need an app to make your site work on phones.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "Goronmon",
+                                            "body": ">as long as you keep phone, tablet, and desktop in mind, it's....responsive... dynamic\n\nThe person \"keeping phone, tablet, and desktop in mind\" absolutely does have to \"worry about this\".\n\nScaling is barely 'responsive'. Responsive is all about flexible page elements and breakpoints. And unless your design is dead simple a lot of work can go into that.",
+                                            "score": 6,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Meltyas",
+                                            "body": "If you think responsive design just magically fixes everything, you probably haven\u2019t built many interfaces. UX isn\u2019t just about slapping some breakpoints on and calling it a day you actually have to test across different screen sizes to make sure everything works smoothly. Every new device width means more work checking that layouts, interactions, and readability don\u2019t break.\n\nIf you care about making a good experience, you put in the effort. If not, sure, just design for one mobile and one desktop and pretend that\u2019s enough.",
+                                            "score": 4,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "RealZordan",
+                                            "body": "Websites that are fully flex just end up looking bad at any resolution. Also UI Libraries steer more towards specific breakpoints which are currently at 5-6 resolutions already.",
+                                            "score": 3,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Cybernaut-Neko",
+                                            "body": "HTML 1.1 rules !",
+                                            "score": 4,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "corialis",
+                                            "body": "Until users making content come to you continually asking what size they need to make their images and you try to explain to them aspect ratios and they keep asking 'but how many pixels does it need to be?!'",
+                                            "score": 2,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "WhereAmIPleazHelpMe",
+                                            "body": "Yeah but now if you have to add 4 other dimensions to have to adapt to, it makes it a lot harder. Thats the joke here",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "Lopsided_Afternoon41",
+                                                    "body": "Pretty sure folding phones still display on 2D!\n\nJokes aside, isn't a folding phone just a 2 on 1 tablet/phone? Web Devs already need to develop for tablets and phones that come in varying sizes.\n\nIf the folding phone came in the form of a triangle or circle that would be a bigger issue.",
+                                                    "score": 7,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "velthari",
+                                                    "body": "It's even worse, every phone has different pixel width so you have to design with in a certain pixel width that majority of the population will use. Then there is also scaling the website with in the screen real estate so it's not too small or too big because of the phones pixel difference between phones. Some phones don't like certain scaling compared to other phones. It's completely ass.\n\nI wish it was just a flick of switch and boom all done.",
+                                                    "score": 2,
+                                                    "replies": [
+                                                        {
+                                                            "author": "mrsuperjolly",
+                                                            "body": "Pixel measurements in css are actually dynamic behind the hood so 50px has roughly the same width regardless what ppi you're looking at.\n\nhttps://www.w3schools.com/cssref/css_units.php",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        },
+                                                        {
+                                                            "author": "NwahsInc",
+                                                            "body": ">every phone has different pixel width so you have to design with in a certain pixel width\n\nThis is why we avoid exact pixel measurements and use relative units instead. This is UI design 101 at this point. It's the same as using delta time for logic in games rather than the number of frames or clock cycles.",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "lacexeny",
+                                            "body": "Sure you can make everything responsive, doesn't mean it will still actually look good. Aspect ratios that are far off from what you've tested for will result in maybe a usable website but a very suboptimal experience and design.",
+                                            "score": 1,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "FitForce2656",
+                                            "body": "Based on how ass the mobile/ tablet experience still is with a bunch of major websites, it seems responsive design isn't always very well executed. Things look \"right\" for me on desktop, and in purpose built mobile apps, but using a mobile browser always feels like a roll of the dice if things will be framed correctly, or if settings/ options will be cut off entirely/ touch scrolling doesn't work on certain parts of webpages. I know that's probably not all responsive design related, but always boggles my mind that in 2025 things still feel as janky as they do.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "showmethething",
+                                    "body": "Step 1: flex\n\nStep 2: hope",
+                                    "score": 9,
+                                    "replies": [
+                                        {
+                                            "author": "Ridibunda99",
+                                            "body": "Next how to center a div in steps please",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "showmethething",
+                                                    "body": "Easy \n\n1: Google\n\n2: get redirected to the w3 page you saw when you first started years ago\n\n3: stare in disbelief as you've managed to mess things up so badly the default solution doesn't work",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Careful_Passenger_87",
+                                    "body": "No, no! There are DOZENS of us. I love it too! I find it like a fun puzzle, getting everything to snap together neatly.\n\nI barely deal with it anymore, though. Mostly architecture and backend plumbing. I swear if I lost my job tomorrow I'd go back to doing responsive design for fun (which to be fair, is exactly how I got into programming, so that make sense for me).",
+                                    "score": 2,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "TEKC0R",
+                                    "body": "I love building UI\u2019s too, but phones have made it suck. Every design devolves into a hamburger menu. I\u2019ve seen a couple decent alternatives, like a floating navigation bar at the bottom\u2026 which expands into the menu when you click the hamburger. So yay\u2026 it doesn\u2019t slide in from the side! How daring.\n\nThe narrow viewport has sterilized design. We essentially are just picking colors, padding, border radius, and fonts.",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "ContributionMost8924",
+                                            "body": "Ah that time where I create a sick Ui and then have to adopt it mobile where it goes to die.\u00a0",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "RealZordan",
+                                    "body": "Problem is that you have to do more work over more hours and you have to sell that to a customer.\n\nOr just aim for desktop and some general phone resolutions and ignore the rest (like I do.)",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "CodNo7461",
+                                    "body": "I like it, too.  \nBut responsiveness specifically is often an somewhat optional feature, which gets descoped or a low priority, just to little by little get complaints by the users AND the client/supervisor. There are multiple of those topics, but I just fucking hate the game of \"not important right now and we don't have time for it\" and \"why is this not working cleanly and please fix that small aspect quickly without using actual time for it\". Literally went through this in the last week, and that client is actually a really good one.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "InteractionOk7085",
+                                    "body": "I am planning to learn CSS. Is MDN web docs a good place to start?",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "aimlessdart",
+                                    "body": "Css is the best",
+                                    "score": 0,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "OHEP7",
+                            "body": "Can confirm, we have a few \"exotic\" devices in our department for QAs and one of our testers recently started testing our apps on her smart fridge for fun \ud83d\udc80.\n\nThat woman is fucking bonkers.",
+                            "score": 6,
+                            "replies": []
+                        },
+                        {
+                            "author": "AlfieHicks",
+                            "body": "Honestly it's hilarious how a big long page is really just the easiest and simplest solution to \"responsive design\" years before anyone ever uttered those words. Give me a white strip that you scroll through with blue text that lets you go to other places.",
+                            "score": 5,
+                            "replies": []
+                        },
+                        {
+                            "author": "YimveeSpissssfid",
+                            "body": "Responsive design is incredibly simple though: content is constrained by a wrapper. Wrappers respond to containers. Containers respond to the viewport.\n\nNow, are there tons of poorly-understood responsive design implementations out there? Oh god yes.\n\nBut the fundamentals are simple enough.\n\nSource: 30+ years of web dev here with a background in UX/UI including wire framing.",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "Dazzling-Whisper22",
+                            "body": "Exactly the point.",
+                            "score": 4,
+                            "replies": []
+                        },
+                        {
+                            "author": "AbsolutelyNotMatt",
+                            "body": "We call that job security in my field.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "Nowin",
+                            "body": "Is it though?",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "Ok-Transition7065",
+                            "body": "Was now days its pretty doable with tge current frameworks      \n\n\nBefore....... Oh boy",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "Kaaskaasei",
+                            "body": "Flex",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "i-Like-boobs69420",
+                            "body": "Responsive design is the easyest to do. I love it! One ui for all platforms. :)",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "StockAL3Xj",
+                            "body": "A huge pain in the ass for inexperienced web developers. This \"joke\" is similar to the \"javscript bad\" narrative that new developers like to parrot.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "Sinkopatedbeets",
+                            "body": "Why bother tho? Every site is just ads cluttering up the screen with hidden x\u2019s. Not like anyone can browse on mobile anyway.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "mmbtc",
+                            "body": "That's a word I learned with my first digitization project the hard way.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "GrunkleP",
+                            "body": "Just \u201cdesign\u201d is hard enough usually fam",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "MrBlaTi",
+                            "body": "Eh, I'm decidedly against pixel tossing, but responsive Design really isn't that bad.\u00a0\nMedia queries and css grids solve 90% of the problems.\u00a0\n\n\nThe bigger issue imo is that the line between \"optimize for touch' and \"optimize for mouse/keyboard\" gets increasingly blurry and the transition is where most of my headaches lie (that and render stacks, animations and friggin selector priority, but they weren't special to responsive Design)",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "YimveeSpissssfid",
+                    "body": "It\u2019s a meme from someone who really doesn\u2019t know what they\u2019re doing with responsive design.\n\nIt\u2019s simple as hell if you understand it, and a new form factor does NOTHING if your site is designed properly\u2026 but sure, lots of developers don\u2019t have a properly designed site - but they can only blame themselves for not building it right to begin with.\n\nI posted this elsewhere but at its core responsive design is this: content is constrained by a wrapper. Wrappers respond to containers. Containers respond to the viewport.\n\nThat\u2019s literally all you need for a website to be available and usable at numerous resolutions.",
+                    "score": 19,
+                    "replies": [
+                        {
+                            "author": "Eic17H",
+                            "body": ">they can only blame themselves for not building it right to begin with\n\nYeah that's why I'm sad",
+                            "score": 8,
+                            "replies": []
+                        },
+                        {
+                            "author": "TemporaryUpstairs289",
+                            "body": "Responsive design is easy.\nAdaptive design is hard.\nIts not just reflowing content, but redesigning layouts because on small screens, users want app-like experiences and that means totally different approaches to things like menus. You have to figure out how to keep intuitive interfaces with less space.\n\n\nAnd thats just the design. On the coding side, different platforms have different apis. Chrome and safari dont support the same javascript and apps have their own apis for all device specific stuff (camera, tilt, notifications, etc).\u00a0",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "SPACKlick",
+                                    "body": ">on small screens, users want app-like experiences \n\nBiggest lie in the industry. (Ok not the biggest but still a lie)",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "WeAteMummies",
+                            "body": "Yeah, [Twitter figured this out a long time ago](https://getbootstrap.com/) and shared that knowledge with the world.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "YimveeSpissssfid",
+                                    "body": "Bootstrap is beyond a simple responsive framework though (components, etc).\n\nIt\u2019s ubiquitous as a result but also heavy-handed.\n\nI know why everyone uses it, but it\u2019s the gap between \u201cthis is why bootstrap does what it does and this is how\u201d which results in the meme feeling valid even though it\u2019s not actually difficult.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "nujuat",
+                    "body": "Yeah. I remember the early days of mobile games where the cool thing about Apple was the small number of screen sizes and aspect ratios. It's also why console games are more optimised than pc: everyone has the same hardware",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "Nickboi26",
+                    "body": "Can ai some how help in this it's good at pattern recognition so it should be good at scaling and editing images to work properly \n\nWell we do have ai editors now so it's would be pretty easy in future of we develop an agent focus on that",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "YimveeSpissssfid",
+                            "body": "Don't need AI. There have been recognized paradigms accounting for this in web design/development[ for close to 15 years](https://alistapart.com/article/responsive-web-design/)",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "Nickboi26",
+                                    "body": "thanks, I have not studied cs or web development so just asked",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "nwayve",
+                    "body": "NGL, I have no sympathy for web developers over this.  Responsive design has been a concept for so long that it should be getting taught in kindergarten at this point.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Zeveneno",
+                    "body": "Not really an issue since 2010\nBut funny meme though.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "GrunkleP",
+                    "body": "Funny, but indeed not a joke",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Monkmastaa",
+                    "body": "I have a fold and many sites just suck to use it unfolded. Reddit for example",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Basquens",
+                    "body": "And if all phones were like that, it's OK. But no, it would be a very small amount of people with this phones, that will complain a lot",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "PM_ME_YOUR_TITS80085",
+            "body": "UI scaling for That is a nightmare, so many resolution and scaling options....",
+            "score": 903,
+            "replies": [
+                {
+                    "author": "mrking_vii",
+                    "body": "Oh it's you again random internet stranger with a funny username XD",
+                    "score": 137,
+                    "replies": []
+                },
+                {
+                    "author": "mrgeekguy",
+                    "body": "https://preview.redd.it/rsf1mwoeegpe1.jpeg?width=660&format=pjpg&auto=webp&s=c905527db4f8491789503261fd2811d4b172aec7",
+                    "score": 40,
+                    "replies": [
+                        {
+                            "author": "ethernate",
+                            "body": "You are gonna want the memory expansion pack.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Anonymous_21193478",
+                    "body": "Yo! It is you again lmao!",
+                    "score": 35,
+                    "replies": []
+                },
+                {
+                    "author": "zeekerfren",
+                    "body": "r/rimjobsteve",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "fkinDogShitSmoothie",
+                            "body": "Sup",
+                            "score": 4,
+                            "replies": []
+                        },
+                        {
+                            "author": "Turbulent_Pass11",
+                            "body": "r/rimjob_steve",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Gloomy_Appointment94",
+                    "body": "Can you share your bounty with me?",
+                    "score": 23,
+                    "replies": [
+                        {
+                            "author": "PM_ME_YOUR_TITS80085",
+                            "body": "Of bad UI scaling? \ud83e\udd23",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "fibstheman",
+            "body": "The web design guy has to make a single page layout that adjusts itself to fit properly on all those different screens.\n\nThat said, the guy designing the UI for a video game would already have his gun in his mouth. Web design uses languages like HTML and CSS that are effectively solely for UIs and are fantastic & easy to use in that role. The guy working on a video game UI doesn't have that luxury, he's working in a clumsy piece of shit engine that can display UIs as one of its many, passable but not great functions, yet he has the same Herculean task the web design guy does in making the UI adjust to the player's screen.",
+            "score": 249,
+            "replies": [
+                {
+                    "author": "WahooSS238",
+                    "body": "Viseo game guy can just say \u201cno, we don\u2019t support that screen type\u201d. Web guy can\u2019t.",
+                    "score": 80,
+                    "replies": [
+                        {
+                            "author": "fibstheman",
+                            "body": "yes he can, if he wants to alienate a customer base and kneecap his project, the same as would happen to the video game guy",
+                            "score": 24,
+                            "replies": [
+                                {
+                                    "author": "NewSkoe",
+                                    "body": "That's why games get ported. Same assets, same design, rebuilt solely to work on other platforms.",
+                                    "score": 10,
+                                    "replies": [
+                                        {
+                                            "author": "fibstheman",
+                                            "body": "You're talking about a console game, which only has 2 or 3 highly standard screens to account for\n\nA PC or mobile game has all the exact same screens to worry about as any web page",
+                                            "score": 12,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "WeslomPo",
+                                    "body": "3 customers from around 10.000.000? Gladly.",
+                                    "score": 11,
+                                    "replies": [
+                                        {
+                                            "author": "ucla_lover",
+                                            "body": "All good till this becomes the most used screen , but we\u2019ll cross that bridge when we get there.",
+                                            "score": 4,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "cocogate",
+                                            "body": "If its going to be the next apple flagship there's going to be plenty of people thatll buy it just because they can.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "3np1",
+                                    "body": "It's already not common for a game to work in both landscape and desktop, so it's a pretty well established pattern and users won't be as alienated because they are used to the limitation.\n\nIn web dev people expect to browse on everything from their 60 inch TV to a folded-in-half smartphone.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "RoyalWigglerKing",
+                                    "body": "Gamedev guy can just tell apple user to unfold their tablet first and they will do it. It's pretty easy.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "JiuJitsuCatholic",
+                                    "body": "They already do this to everyone that uses a Mac, a large amount of people that they don't even bother building for",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Smexy_Zarow",
+                            "body": "Webdevs don't need to. You can just set max and minimum dimensions for the body of the website itself if really needed, but it's generally bad practice.",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "love-em-feet",
+                            "body": "Yeah just playing monster hunter rise on my 16:10 display it's solution is just adding black bars so the game is 16:9",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "253ping",
+                            "body": "Or just keep some aspect ratio and add black bars if necessary",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "gameplayer55055",
+                    "body": "```css\n.protip\n{\n  max-width: 1600px; \n  margin-left: auto;\n  margin-right: auto;\n}\n```",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Smexy_Zarow",
+                            "body": "Why not just `margin: auto;`?",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Hanhula",
+                    "body": "Hilariously, there's multiple ways for video game UI to be done with web tech. It's my day job as a game dev! Feels bizarre CSSing in a game, but it works pretty well.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "Dasky14",
+                    "body": "While I kinda agree, I also gotta say that Unity's UI tools are pretty solid for these kinds of things IMO. Obviously gonna have to make sure that the buttons are large enough for every kind of resolution and screen size combination, but overall I don't think it's too bad unless you have ridiculously complicated UI.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "FormerlyGruntled",
+                    "body": "Nah, the game dev would lock it to one aspect ratio, MAYBE two, and leave it at that. You're either landscape, or portrait mode, fuck off with these multiphasic duploscreen whatchamawhozits.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "NiNoXua",
+                    "body": "A lot of games reimplementing their ui level to use html and css from their specs",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Matsunosuperfan",
+            "body": "If you've ever so much as used squarespace to make a website for your tutoring services and yes that is the most I know about \"web development,\" this is relatable af",
+            "score": 26,
+            "replies": []
+        },
+        {
+            "author": "Smexy_Zarow",
+            "body": "Peter's browser extension here. They're saying web developers who make websites have more work cut out for them as they need to make the website in more dimensions. This is kinda stupid though cause legitimate web designers make their websites responsive and adaptive to begin with anyway, so I highly doubt this makes any difference.",
+            "score": 22,
+            "replies": [
+                {
+                    "author": "SterbenSeptim",
+                    "body": "As a web developer, yeah... And often our designers don't care enough about \"Mobile First\", or responsive, and we end up having to do our responsive ad-hoc.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Playful-Ad4556",
+            "body": "Nah, outdated joke. These days we use flexible column based css frameworks. The website will addapt in realtime to whatever size you give it, like Tim Bernads Lee intended.",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "flabbybumhole",
+                    "body": "Yeah I don't get this meme.  There's been solutions to this problem for a long time now.  It's only difficult if you haven't bothered to learn how / are working with some weird legacy bullshit.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Playful-Ad4556",
+                            "body": "Facebook memes / people reposting old memes for karma",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "dhnam_LegenDUST",
+            "body": "One device, Three alignments of pages!",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "killustkillust",
+            "body": "People hate on bootstrap. But I think this is the particular place that it shines the most.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Spiritual_Freedom_15",
+            "body": "The designers that make web pages look good on many devices now will have to take in account all of that.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ThatsRobToYou",
+            "body": "Responsive design isn't as fun as you think it is.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "KevinDecosta74",
+            "body": "Every web page and web applications they develop has to look according to the display. So with so many display sizes and widths, they would need to make sure every webpage they build looks good and no information on the web page is out of position.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Loose_Mail_786",
+            "body": "BlackBerry OS remember \ud83d\ude22",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "traplords8n",
+            "body": "Web developer here\n\nEvery single one of us would have a tremendously better life if we only had to make designs for one standard size screen.\n\nIncreasing or decreasing this size is a pain in the ass, but at least the dimensions stay the same.\n\nElongating the screen size, or changing its shape in weird ways, is an absolute nightmare because of the tech we use to come up with page designs.\n\nIt's called CSS, and it's infamous for completely breaking the entire page for trying to make one little logical change from what you had earlier.\n\nThis meme expresses our frustration when dealing with NORMAL variable screen sizes. Changing the shape makes our job almost impossible.\n\nhttps://preview.redd.it/7i0xh9em6gpe1.jpeg?width=750&format=pjpg&auto=webp&s=7ceac90957d349b0250f7fa825ed55999d7431a2",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "vlad_kushner",
+            "body": "Do you know how hard it is to develop a web app for every different phone/tablet design that exist?",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "frakc",
+            "body": "It is incredibly hard to make designes and layout for all those cases which are used by tiny portion of clients",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "m0mchilo",
+            "body": "Web developer Peter reporting in: It' impossible to make web pages look good on widely different screen resolutions. Mobile apps are usually just minimalist web browsers (like chromium or safari lite) with re-arranged UI components and search bar is just hidden from the user. The thought of implementing responsive design on foldable mobile devices makes me feel better about losing my job to AI.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Diogeneezy",
+            "body": "Responsive web design is hard.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "getstabbed",
+            "body": "Just skip the foldable phone market honestly. How many people use them anyway, like 100?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "AHunkOfMeatyGlobs",
+            "body": "Sand or literally any dirt https://youtube.com/shorts/LnR6W6ec1V8?si=OI-u5KHJndzDtbke",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BigBrainXx",
+            "body": "These are tears of joy bc they can finally try to center a div for multiple screen dimensions at once!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "WarDue5524",
+            "body": "Making web designs gets significantly harder as you're almost forced to create a fully responsible design",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TruYoungblood",
+            "body": "Is this a phone or a tablet? The hell is this?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "taratoni",
+            "body": "Not a web developer problem, it's more of a designer problem.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "roti_sabzi",
+            "body": "I only code for desktop size , fucc you mobile and tab users.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DatCheekyHeretic",
+            "body": "Web developers don't care anyway, not in a useful sense anyway. Take your drop down scrolling dd/mm/yyyy and hide in a hole you freaks.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "HateBoredom",
+            "body": "The end user expects the phone to fold and their favorite app to resize and respond to the layout. It\u2019s not going to be done by magic. Some UI developers will have to spend sleepless nights to make that happen.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Insektikor",
+            "body": "It's going to be frustrating for developers who don't do (or know how to do) proper responsive design. It's not like it's some new thing, web design and dev sites have been talking about this for at least a decade.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "HentaiSeishi",
+            "body": "As long as the surface isn't glass I'm never gonna buy a folding phone. I don't want to accidentally scratch it with a fingernail or something",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Kjufka",
+            "body": "It's already hard to do responsive design for desktop and mobile.\n\nFoldable phone looks like it requires entirely different design and it's giving web developers headaches just thinking about it.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "GregLittlefield",
+            "body": "Not just web: games and apps too.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "xsubo",
+            "body": "its just media queries, nothing scary there",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "N0bb1",
+            "body": "Each configuration needs to look good. Orginally you had Rectangle Landscape. Everything iust had to look good in Landscape, Rectangle. Then came the phones, now 2 Designs, one for Landscape one for portrait. Now it has to look good in Landscape, Portrait, Square, Small Square, Small Landscape, larger Portrait etc.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "WoppingSet",
+            "body": "This is literally why I got out of web design.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "FeaturePotential4562",
+            "body": "as a developer, if you\u2019re the one with the stupid phone, it\u2019s on you our UI looks bad",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "datfurryboi34",
+            "body": "They have to take in consideration of the width of the phone and make there UI respond to it",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "AVAVT",
+            "body": "Bad meme. Web is the one single platform that fully support dynamic resolution now.\n\nThe people who would be cry are game & app developers, where responsive design is an alien term for most.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "aaaaargZombies",
+            "body": "yeah that ship sailed a long time ago ... https://viewports.fyi/",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Financial_Article_95",
+            "body": "If you are a web/app/game developer and people are using folding devices, then you have to make sure the product looks right on all possible screen configurations. So, big sad.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Dotaproffessional",
+            "body": "\"Don't you guys have ~~phoned~~ *bootstrap*?\"",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "KernelSanders1986",
+            "body": "I mean, in the end is it only really 2 different aspect ratios? One for small and one for unfolded?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "salacious_sonogram",
+            "body": "Don't worry there's AI now that can rewrite frontend to arbitrarily fit any screen situation.\n\n\nAs for the joke. Aligning shit with html and css is a fucking nightmare not even including the situation where the screen is doing trifold yoga. This has been marginally fixed by new web dev tools but is still a pain.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "LokTharOga",
+            "body": "as a Web Designer & Developer i agree... RIPonsive Design.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Minute_Attempt3063",
+            "body": "Do you know how hard it is to make proper UIs work on all devices?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Archemades",
+            "body": "They have to make the same website for different aspect ratios",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ThisboyisNOTonfire",
+            "body": "But for real, what kind of phone is that?!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ixidor_92",
+            "body": "Short version:\n\nWhen you are developing websites you generally use a certain type of script to make the pages look presentable and readable in whatever browser you are using.\n\nAs more devices with different screen sizes are added, it becomes more of a pain. You ideally need to design your website in such a way that it remains readable no matter what screen is being used, and it's a multiplicative problem.\n\nThis is not a joke, this is genuinely a pain in the ass",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "whistlar",
+            "body": "Man. I originally thought it was Loss. \n\nI      Ii \n\nII     I _\n\n\nMissed opportunity",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Media_Dunce",
+            "body": "With foldable screens, there will be brand new (and possibly more complicated) UI standards they have to account for",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "k9krid",
+            "body": "Unrelated but what phone is this?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Kamillahali",
+            "body": "cause wed have to design the software to work on all those different screen sizes",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "A_H_S_99",
+            "body": "When a web developer creates a website, they create a version for PCs and laptops, make slightly different layouts for different screen sizes, probably make completely different versions between mobile and tablet and different devices. It's usually an annoying and a mostly thankless job because some consider it the bare minimum for a good app.\n\n\nNow a new layout is introduced, and it's a nightmare to develop around.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "WahooSS238",
+            "body": "Plenty of games aren\u2019t available on mobile at all, and I\u2019m sure the grandma scammers can figure it out.",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}

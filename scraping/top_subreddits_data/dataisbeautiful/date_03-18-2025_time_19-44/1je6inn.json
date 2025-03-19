@@ -1,0 +1,45 @@
+{
+    "title": "[OC] Incidence Rates of Missing Persons in Mexico by Municipality of Ocurrence",
+    "author": "-Montse-",
+    "subreddit": "dataisbeautiful",
+    "rank": 6,
+    "score": 35,
+    "upvote_ratio": 0.9,
+    "num_comments (reported by reddit)": 5,
+    "url": "https://i.redd.it/hz51mcxkmgpe1.png",
+    "id": "1je6inn",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "OkMuffin8303",
+            "body": "Does black mean no data available or there are no missing persons?",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "-Montse-",
+                    "body": "yes, municipalities in black mean there are no records of actively missing persons in that time period",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "-Montse-",
+            "body": "tools: Plotly for Python\n\ndata source: https://consultapublicarnpdno.segob.gob.mx/consulta\n\nMexico is currently experiencing a major security crisis.\nA conflict within the Sinaloa Cartel has led to a rise in both homicide rates and missing persons, particularly in the top-left area of the map.\n\nAdditionally, territorial disputes in central Mexico and the southern region near the Guatemalan border have further contributed to instability.\n\nThis map displays only actively missing persons from January 2024 to the present, with more than 120,000 people currently unaccounted for.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "AuggieGemini",
+            "body": "De hecho, me sorprende que la tasa de incidencias no est\u00e9 m\u00e1s alta en Jalisco y Coahuila.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "the-great-tostito",
+            "body": "Mazatlan is a popular cruise destination - this is the area in red on the coast. Stay sober and stay aware in Mazatlan!",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

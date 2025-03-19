@@ -1,0 +1,430 @@
+{
+    "title": "Something we took for granted",
+    "author": "Meteorstar101",
+    "subreddit": "tumblr",
+    "rank": 11,
+    "score": 12224,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 67,
+    "url": "https://i.redd.it/3oesjinl8loe1.png",
+    "id": "1jawe40",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "APansexualMess",
+            "body": "I still try that everytime my video buffers why won't it work anymore? \ud83d\ude2d",
+            "score": 2343,
+            "replies": [
+                {
+                    "author": "Whatsapokemon",
+                    "body": "To save bandwidth, both for you and their content delivery network.\n\nBasically, they keep stats and probably found out that the majority of times people did this they'd close the video before finishing it, resulting in a lot of wasted download.\n\nSo instead, they now only preload the next few seconds of video so that a bunch of unnecessary data isn't transferred. The fact that internet speeds are much much faster than in the past also made it less necessary to buffer a whole video.\n\nI suppose the best alternative in a pinch is just downloading the video as an mp4 file using software like jdownloader",
+                    "score": 1807,
+                    "replies": [
+                        {
+                            "author": "kdlt",
+                            "body": "I remember years ago when I was still partying in people's basements, and we started the evening by opening like 10 tabs, so we could listen to the music an hour later.   \n\nWhat I would have given for yt-dl back then.",
+                            "score": 628,
+                            "replies": [
+                                {
+                                    "author": "DroneOfDoom",
+                                    "body": "You mentioned tabs, so maybe it wasn't possible anymore by then, but I remember that early YouTube videos could be downloaded by inspecting the source of the page and downloading the flv file that was the video. This trick still works for knockoff porn sites, you just replace the flv with an mp4.",
+                                    "score": 213,
+                                    "replies": [
+                                        {
+                                            "author": "Purpleclone",
+                                            "body": "The ancient one has arrived",
+                                            "score": 101,
+                                            "replies": [
+                                                {
+                                                    "author": "DroneOfDoom",
+                                                    "body": "For real, I was like \"that wasn't so long ago\" and then remembered that I was doing that on my winxp machine in 2007, while I downloaded music off Ares and weirdly compressed pirated movies off Taringa (is that site still a thing?). \n\nAfter writing the comment, my back cracked and I wished for a cane.",
+                                                    "score": 73,
+                                                    "replies": [
+                                                        {
+                                                            "author": "ShankMugen",
+                                                            "body": "People born in 2007 are legal adults",
+                                                            "score": 15,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Teredere",
+                                                                    "body": "To be fair, only people within less than the first three months of 2007.",
+                                                                    "score": 13,
+                                                                    "replies": []
+                                                                },
+                                                                {
+                                                                    "author": "DroneOfDoom",
+                                                                    "body": "I know. My sister turned 18 this year.",
+                                                                    "score": 12,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "jzillacon",
+                            "body": "Also another huge factor is that videos just take up way more bandwidth in general now. Most videos today are between 1080p and 2160p with 60fps being common, but back then most videos were between 480p and 720p with 60fps not even being an option.",
+                            "score": 130,
+                            "replies": [
+                                {
+                                    "author": "pretentious_couch",
+                                    "body": "I don't think that's a factor. Server costs per data volume went down and compression got better (or at least more aggressive). Probably still cheaper nowadays.",
+                                    "score": 32,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Spready_Unsettling",
+                                    "body": ">back then most videos were between 480p and 720p\n\nOh you sweet summer child. This was *years* before HD streaming was a thing, and 480p was the supreme \"HQ\" option for those with cutting edge internet connections.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "techno156",
+                            "body": "It would also save memory on weaker devices, since they don't need to store the whole video, just bits of it.",
+                            "score": 31,
+                            "replies": []
+                        },
+                        {
+                            "author": "sanzako4",
+                            "body": "Or just disable the automatic reproduction of the next video, turn the volume off and let it play whole while you are in another tab, so you don't get spoiled or something. Once it has been \"seen\" once, the whole video is now available at your leisure, unless you recharge the page.\nI don't know if this still works, but I have used it before.\u00a0",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "readmyhair",
+                    "body": "Ads",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ShrimpBisque",
+            "body": "Why the hell is this not a thing anymore?",
+            "score": 490,
+            "replies": [
+                {
+                    "author": "MetaCrossing",
+                    "body": "I think it\u2019s because it\u2019s easier on the server. It doesn\u2019t know when you\u2019re going to click off the video, so why bother using resources to load stuff that might not even be seen?",
+                    "score": 578,
+                    "replies": [
+                        {
+                            "author": "ShrimpBisque",
+                            "body": "\ud83e\udd14 That makes sense, but I still don't like it, lol.",
+                            "score": 248,
+                            "replies": [
+                                {
+                                    "author": "wolf96781",
+                                    "body": "Former nettech here, the benefits are negligible even for a mega corp like youtube. \n\nEnshittification is a feature, not a bug",
+                                    "score": 156,
+                                    "replies": [
+                                        {
+                                            "author": "bread-dreams",
+                                            "body": "huh? at Youtube's scale a tiny decrease in bandwidth or cpu time or whatever transforms into a large cost decrease. i'm sceptical of your claim",
+                                            "score": 108,
+                                            "replies": [
+                                                {
+                                                    "author": "wolf96781",
+                                                    "body": "They're worth billions and make billions by the hour. It's a drop in the bucket",
+                                                    "score": -45,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Ruvaakdein",
+                                                            "body": "Not everyone has infinite internet caps, so it can also help the users that only end up watching a small part of the video.",
+                                                            "score": 55,
+                                                            "replies": []
+                                                        },
+                                                        {
+                                                            "author": "N0ob8",
+                                                            "body": "Except they don\u2019t. YouTube very famously didn\u2019t make a single dollar in profits for the first decade and a half of its existence. It was entirely freeloading off the back of Google cause they knew it would be a good asset in the future.",
+                                                            "score": 41,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "wolf96781",
+                                                                    "body": "Ok I'm gonna sound like a Troll, but that's skill issue. If a billion dollar corpo can't figured out how to make money without being painful to use then it sounds like they need to figure themselves out imo",
+                                                                    "score": -31,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "N0ob8",
+                                                                            "body": "Breaking news: man who knows nothing about business tries to tell thousands of businessmen how to conduct business. More at 10",
+                                                                            "score": 30,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "wolf96781",
+                                                                                    "body": "https://preview.redd.it/zn35c98obnoe1.jpeg?width=626&format=pjpg&auto=webp&s=5d4b46f06d6e75635d0c2af552df36183608c55a",
+                                                                                    "score": -22,
+                                                                                    "replies": []
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "author": "TheGhostDetective",
+                                                                            "body": ">Ok I'm gonna sound like a Troll, but that's skill issue. If a billion dollar corpo can't figured out how to make money without being painful to use then it sounds like they need to figure themselves out imo\n\nIt's the standard across the board for tech. Almost every website and app has operated at a massive loss, going all-in on growth and investors. Many *to this day* struggle to make a profit (reddit, for example) and most only manage it very recently by becoming significantly worse for the users (such as Uber, Amazon, etc).\n\nNow I'm not saying I have sympathy for these companies, half of them outright shouldn't exist and had unsustainable business models, while the other half rely on simply not complying with the regulation the rest of the industry has to (such as airBNB ignoring all short-term rental and hotel regulations everyone else must follow by saying \"we're just an app, teehee\"). \n\nBut turns out there's almost no money in most good sites and apps. They either get way worse to use to start breaking even, are still in their growth phase and operating at a loss, or die off. It's a big part of why we have a fraction of the sites we did 15+ years ago.",
+                                                                            "score": 18,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "zthe0",
+                                            "body": "Honestly its much more likely a system that makes it less easy to download a video. If you get the whole thing you can just save it but a stream like that wont exist fully on your system",
+                                            "score": 6,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Mynnugget",
+                                            "body": "Though a lot of people seem to believe you're wrong about this, I do love the word \"enshittification\".",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "FireHawkDelta",
+            "body": "This is why I cancelled my Crunchyroll subscription years ago. Not sure how much was on my end vs the server's, but when the video player was changed to only buffer seconds into the future it became completely unusable. It constantly crashed, forcing me to reload the page, and trying to skip back to the point at which it crashed would just make it crash again.",
+            "score": 177,
+            "replies": [
+                {
+                    "author": "Cyaral",
+                    "body": "I have a recurring similar issue with YouTube Premieres and Livestreams - my Internet IS shitty but it seems those two and Twitch suffer most from it, maybe buffer differences?",
+                    "score": 28,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "theemptyqueue",
+            "body": "I remember we would queue up a few tabs of videos, pre-load them and grab a soda and make snacks and binge for a good 30 minutes before needing to do it again from the top.",
+            "score": 70,
+            "replies": []
+        },
+        {
+            "author": "Mountain-Resource656",
+            "body": "THEY DON\u2019T DO THIS ANYMORE?!?!\n\nThat explains so much, but holy fluff, I hate it when it becomes a problem",
+            "score": 78,
+            "replies": [
+                {
+                    "author": "EarthToAccess",
+                    "body": "The difference between then and now is that, back in the day, internet fast enough to stream just didn't exist, as I'm sure you know, so they were actually basically downloading the content when it buffered. When streaming became possible they switched to that method, which, while it makes videos start faster, also means that poor connections either don't start or lose the video midway through.",
+                    "score": 51,
+                    "replies": [
+                        {
+                            "author": "Waffletimewarp",
+                            "body": "But those ads sure as hell load at lightning speed.",
+                            "score": 34,
+                            "replies": []
+                        },
+                        {
+                            "author": "Josselin17",
+                            "body": "the internet is not faster for everyone though",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "EarthToAccess",
+                                    "body": "Oh, no def not. The issue is it's far more mainstream though, so",
+                                    "score": 5,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "abbzeh",
+            "body": "I remember being like thirteen years old on holiday and taking my shitty little netbook out to a place with wifi and opening about thirty tabs so I watch all of the Star Wars og trilogy (in the old school ten minute YouTube video chunks) later on in the wifi-less place we were staying. I miss those days lmao.",
+            "score": 32,
+            "replies": []
+        },
+        {
+            "author": "LittleMissScreamer",
+            "body": "As someone who's currently having internet issues where my router will regularly lose connection for minutes at a time, this hurts extra bad rn :')",
+            "score": 17,
+            "replies": []
+        },
+        {
+            "author": "Toxic_Puddlefish",
+            "body": "Irony that I waited for this to load and it's a fucking repost I've seen a billion times this past week\n\nhttps://preview.redd.it/jj3p5wzhdmoe1.jpeg?width=2048&format=pjpg&auto=webp&s=99d9c2a42ad51292e59343292af8dff4b930ce5b",
+            "score": 21,
+            "replies": []
+        },
+        {
+            "author": "OrbitalCat-",
+            "body": "YouTube hasn't done this for almost 15 years now, why is everyone acting surprised as if it's a new change? Feels like a bunch of bots reacting to an old repost.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Evixitiz",
+            "body": "I took it for granted, PLEASE I MISS YOU",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Gaenn",
+            "body": "You still can if you use the right extension\nedit:\"smart-video for youtube\"",
+            "score": -64,
+            "replies": [
+                {
+                    "author": "Confused_Rabbiit",
+                    "body": "You can't just say that and not provide the extension in question.",
+                    "score": 113,
+                    "replies": []
+                },
+                {
+                    "author": "Pixelpaint_Pashkow",
+                    "body": "Which is what",
+                    "score": 63,
+                    "replies": []
+                },
+                {
+                    "author": "mysteryo9867",
+                    "body": "Tell us your secrets",
+                    "score": 38,
+                    "replies": []
+                },
+                {
+                    "author": "brigadoon95",
+                    "body": "WHAT EXTENSION?!?",
+                    "score": 36,
+                    "replies": []
+                },
+                {
+                    "author": "PassengerNew7515",
+                    "body": "You can't just leave us hanging like thus u/Gaenn",
+                    "score": 30,
+                    "replies": []
+                },
+                {
+                    "author": "goodmandan111",
+                    "body": "Dawg what's the extension",
+                    "score": 22,
+                    "replies": []
+                },
+                {
+                    "author": "dangerousdicethe3rd",
+                    "body": "WHAT EXTENSION? I ASK OF YOU PLEASE!",
+                    "score": 14,
+                    "replies": []
+                },
+                {
+                    "author": "ImEagz",
+                    "body": "Get yo ass over here man",
+                    "score": 14,
+                    "replies": []
+                },
+                {
+                    "author": "Independent-Fly6068",
+                    "body": "https://i.redd.it/mwdc6qjheloe1.gif",
+                    "score": 12,
+                    "replies": []
+                },
+                {
+                    "author": "Withercat1",
+                    "body": "Come on man fork over the extension",
+                    "score": 9,
+                    "replies": []
+                },
+                {
+                    "author": "DeadEyesSmiling",
+                    "body": "https://i.redd.it/rd6a466egloe1.gif",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "boklasarmarkus",
+                    "body": "Thank you for sharing \ud83d\udc4d I hope you get lots of upvotes",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "Gaenn",
+                            "body": "lesson learned : never post before a lecture",
+                            "score": 12,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "rheactions3",
+                    "body": "what is it called?",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "rheactions3",
+                            "body": "nvm, found it",
+                            "score": -30,
+                            "replies": [
+                                {
+                                    "author": "asterophiliac",
+                                    "body": "What is it??",
+                                    "score": 8,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "BlueZ_DJ",
+                                    "body": "This is the funniest possible reply considering the rest of the thread",
+                                    "score": 7,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "weirdo_nb",
+                                    "body": "Tell Us",
+                                    "score": 4,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": -80,
+            "replies": [
+                {
+                    "author": "AgentBrian95",
+                    "body": "Well newsflash, internet speeds are still ass in a lot of places. Having that option at the very least would make sure people there could watch a video without youtube showing you each frame for a few seconds.",
+                    "score": 106,
+                    "replies": []
+                },
+                {
+                    "author": "APansexualMess",
+                    "body": "Tbf, lots of peoples internet speeds are still ass. Myself included lol.",
+                    "score": 41,
+                    "replies": []
+                },
+                {
+                    "author": "Buetterkeks",
+                    "body": "Believe it or not Internet still ass. I live in a first world country in the capital city, choosen most worth living at least twice or some shit and my internet fluctuates between 10 and 0,3 mb/s",
+                    "score": 17,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

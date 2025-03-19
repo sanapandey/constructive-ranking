@@ -1,0 +1,63 @@
+{
+    "title": "<200\u20ac iCloud/Google Replacement Project - 6 months update + GitHub docs and guide",
+    "author": "Shot-Chemical7168",
+    "subreddit": "homelab",
+    "rank": 11,
+    "score": 386,
+    "upvote_ratio": 0.98,
+    "num_comments (reported by reddit)": 8,
+    "url": "https://www.reddit.com/gallery/1jdszij",
+    "id": "1jdszij",
+    "selftext": "I shared this project 6 month ago, with the goal of achieving independence from Google and Apple without monthly fees or expensive hardware.\n\nI'm happy to share that I\u2019ve successfully achieved my personal goals, as well as notes from the old post - requesting a written guide, and concerns about security. Thanks for the input, everyone!\n\n* **iPhone sync**: photo sync and gallery, with external photo sharing.\n* **Drive replacement**: web files upload, browse, sharing and download.\n* **Cheap**: Built entirely on a refurbished Dell 7050 Micros.\n* **Free**: No monthly payments. Runs free \\`DDNS\\` providers and open-source software.\n* **Minimal setup**: No racks, no loud fan noise, and no dedicated server room needed.\n* **Travel-Friendly**: Compact, 1-liter machines that fit in a backpack if needed.\n* **Multi-Tenant**: Easily extensible to add photo storage instances for family members.\n* **Platform Independent**: All photos are stored in a single folder with embedded GPS data and readable dates for file names, making it easy to replace Immich, Proxmox, or Linux in the future.\n* **Dumb access backup:** Everything is backed up to a Windows machine so anyone with physical access and password or recovery key can plug a USB to copy things without terminal knowledge.\n* **Biometric 2 Factor Authentication**: Convenient access with FaceID or fingerprint on phones.\n* **0 Setup Remote Access**: Encrypted, publicly accessible URLs with no need for Tailscale or VPN on clients.\n* **Remotely maintainable:** Accessible remotely via Remote Desktop on the backup machine and Out of Band access on the main machine.\n* **Documented setup**: All service configuration files and setup is documented for easier replication and historical debugging and restore. Serves as a guide for replication.\n\n**Documentation / Config / Demo / Guide:** [**https://github.com/MahmoudAlyuDeen/diwansync**](https://github.com/MahmoudAlyuDeen/diwansync)\n\n# Future plans - Help and input are welcome:\n\n* **Provide an 1-step script deployment**: For newcomers and non tech savvy people.\n* **More config-file setup:** Replace Nginx/Authentik dashboard setups with YAML/config files for easier replication and setup recovery with no manual work.\n* **Remote backup node**: Adding a node in my home country so my family can access their photos and my files in emergencies.\n* **Documentation polish**: Simplify Proxmox storage / mountpoints setup for first-timers.",
+    "comments": [
+        {
+            "author": "gdegondas",
+            "body": "Wow thanks for the detailed guide. Priceless work being shared for free. Are you using any additional NAS or DAS?",
+            "score": 34,
+            "replies": [
+                {
+                    "author": "Shot-Chemical7168",
+                    "body": "No, just the 2 machines in the photos for now.  \n  \nActually I got the second machine to serve as a basic cheap NAS.  \n  \nI occasionally - every couple of months - manually sync things over to an external PC I'm no longer using for extra redundancy.",
+                    "score": 8,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "reneil1337",
+            "body": "great job and fantastic documentation. well done mate!",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "moepser",
+            "body": "Love it :)",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Jolly_Spinach_8807",
+            "body": "Wow this is a nice clean setup. Do you run any offsite backups?",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "chrizzeh",
+            "body": "amazing work! I want to transition from these services as well. I'll have a deep look it to your guide. Thanks!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "guyfromtheke",
+            "body": "Great job with documenting your homelab! Though Wondering if I'm the only one in this sub who's stores every link and connection in my brain front matter \ud83e\udd72",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "_Arelian",
+            "body": "Is each person\u2019s storage private with this solution?",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

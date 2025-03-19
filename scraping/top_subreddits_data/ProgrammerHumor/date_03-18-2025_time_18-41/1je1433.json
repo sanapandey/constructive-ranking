@@ -1,0 +1,157 @@
+{
+    "title": "thanksCopilot",
+    "author": "Most_Option_9153",
+    "subreddit": "ProgrammerHumor",
+    "rank": 15,
+    "score": 1329,
+    "upvote_ratio": 0.98,
+    "num_comments (reported by reddit)": 22,
+    "url": "https://i.redd.it/dc268err4fpe1.jpeg",
+    "id": "1je1433",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "cyranix",
+            "body": "You know what the sign of a good programmer is?\n\nThey think they're not a good programmer.\n\nThe corollary here: If someone tells you they're a master programmer, they're not.",
+            "score": 226,
+            "replies": [
+                {
+                    "author": "Most_Option_9153",
+                    "body": "I dont agree. I am still in highschool, and I absolutely suck at programming, and that's just a fact. I dont have tons of experience, so I guess its normal.\n\nMaybe you are only talking about senior devs? It would make more sense\n\nOr I am not considered as a programmer yet. Would also make sense",
+                    "score": 41,
+                    "replies": [
+                        {
+                            "author": "cyranix",
+                            "body": "Well, I don't mean to say that everyone who says they're not a good programmer is a good programmer. But inexperience doesn't mean you're a bad programmer. You may suck at programming now, but thats just because you have a lot to learn, doesn't mean you're going to suck at it forever.\n\nWhen a senior developer tells you they're the best programmer on the team, its dangerous. Languages are changing all the time, operating systems are changing all the time (yes, even Linux). Devices are changing all the time. Most of the time, a senior developer has that title because they've been around the longest, not because they have the best code. Right now, theres a debate going on even in Linux because newer coders want to use memory safe languages like Rust, while older, more senior developers don't want to give up C. The dichotomy here is because if those senior developers wrote code that was memory safe to begin with, there wouldn't be a need for languages like Rust. On the other hand, Rust binaries are huge, and those newer programmers don't understand what its like to write code for, e.g., embedded systems where memory is precious and you can't take binary size for granted.\n\nThe best programmer isn't necessarily the oldest one, or the one with the most experience, or the one who knows the most languages. Somewhere in the middle is the guy who recognizes that theres a right tool for the job, and its not about preference. Sometimes that tool is C, sometimes that tool is Rust. Usually, thats a coder who doesn't know one or the other, but is smart enough to say \"This code needs to be memory safe\", or \"We're not worried about memory safety here, we need to keep this fast and small\". Senior developers almost always hate that guy, which is why that guy rarely ever gets promoted to senior developer. Usually, he drops out of programming and goes for system administration, or becomes a technician.",
+                            "score": 20,
+                            "replies": [
+                                {
+                                    "author": "Most_Option_9153",
+                                    "body": "OK make more sense. Thanks!",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Phlm_br",
+                    "body": ">You know what the sign of a good programmer is?\n\n\nThey know how to take a screenshot?",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Most_Option_9153",
+                            "body": "Real",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "EuphoricCatface0795",
+                    "body": "A guy said \"I know all of C++ grammar\"\n\nI asked \"which version?\"\n\nHe could not answer.",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "cyranix",
+                            "body": "I have a little test I like to give to people who tell me they're confident in their C skills. Write a simple program that uses libjpeg to load a jpeg.\n\nYou'd be amazed how humbling that task is, even to people who know C fairly well.",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "SeagleLFMk9",
+                                    "body": "You never specified where to load it to\n\n\n\nProceeds to dump the binary jpg into the console",
+                                    "score": 9,
+                                    "replies": [
+                                        {
+                                            "author": "cyranix",
+                                            "body": "You win! Most common response is \"this library sucks\", and second to that is \"I'm going to write my own library\". Every once in a while though you do get someone who has done it before and can do it, but even they aren't happy about it.",
+                                            "score": 4,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "BellacosePlayer",
+                    "body": "We do a self-reported familiarity list as part of our recruitment process and more juniors with 0 job experience will call themselves masters in [Language]/[Tech] than people with 10 years of experience will.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "selventime",
+            "body": "Skills should be a ul",
+            "score": 37,
+            "replies": []
+        },
+        {
+            "author": "susanthenerd",
+            "body": "Photo of the screen again",
+            "score": 25,
+            "replies": [
+                {
+                    "author": "Most_Option_9153",
+                    "body": "Yea the prompt disappeared when I tried to take a screenshot. Sry",
+                    "score": 29,
+                    "replies": [
+                        {
+                            "author": "ShogothFhtagn",
+                            "body": "YouAreJustifiedThen",
+                            "score": 14,
+                            "replies": [
+                                {
+                                    "author": "Acrobatic_Click_6763",
+                                    "body": "thisSubUsesCamelCaseNotPascalCase",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "ShogothFhtagn",
+                                            "body": "\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "doomslice",
+            "body": "Hey guys, look at this. He\u2019s \u201ccomfortable\u201d.\n\nGet him!!!",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Mr_Meta314",
+            "body": "ThinkPad?",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "kvakerok_v2",
+            "body": "Truth hurtz",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "MaximumCrab",
+            "body": "scrub all ai comments to hide your shame",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Vallen_H",
+            "body": "This is exactly what it means to be a Linux programmer... This shit is just for uni students... People tend to grow up someday.",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}

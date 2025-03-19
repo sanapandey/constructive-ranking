@@ -1,0 +1,552 @@
+{
+    "title": "Do you tell the players if they are prevented from regaining hit points immediately or after the first attempt to heal fails?",
+    "author": "ForDnDOnly",
+    "subreddit": "DnD",
+    "rank": 9,
+    "score": 174,
+    "upvote_ratio": 0.94,
+    "num_comments (reported by reddit)": 87,
+    "url": "https://www.reddit.com/r/DnD/comments/1je5eel/do_you_tell_the_players_if_they_are_prevented/",
+    "id": "1je5eel",
+    "selftext": "Basically the title. For example, the character is hit by Death Cultist's Dread Scythe attack and he \"can't regain Hit Points until the end of its next turn.\" Do you tell this to the player that was hit, do you let the healer in the party know, is the healer metagaming if you tell only the character that was hit, or do you wait until the healer tries to heal before letting them know the spell failed to restore Hit Points.",
+    "comments": [
+        {
+            "author": "RdtUnahim",
+            "body": "I would say something like \"A layer of dark, necrotic energy remains clustered around and over the wound. It doesn't appear to be causing further damage, but it's immediately evident to an experienced eye that it may interfere with restorative magics.\"\n\nI think it's unlikely these effects would not have visual tells, and I also think it's unlikely a healer would be unable to recognize these tells, but I frame the information from the perspective of those visual tells, rather than dropping straight into RPG speak. I likely would not betray the duration however; they will learn the duration when the visual effect fades and I describe that.",
+            "score": 420,
+            "replies": [
+                {
+                    "author": "artvandalayy",
+                    "body": "Yeah this is the way. It might be nice to throw in a passive perception or passive wisdom check (with a pretty low DC) just so the information isn't given entirely for free.",
+                    "score": 64,
+                    "replies": [
+                        {
+                            "author": "AlarisMystique",
+                            "body": "Yeah there's a lot of leeway here for the DM to decide how much experience and investigation is needed to understand the effect. It might be undetectable until you attempt to heal. It might leave a necrotic veil with unknown effects. It might be recognizable by someone trained in healing or necrotic magic. It might require arcane rolls.\n\nAll these are valid options imo, but generally I prefer to give players more information than less. Rolling an ability is a good idea too.",
+                            "score": 21,
+                            "replies": []
+                        },
+                        {
+                            "author": "GrnHrtBrwnThmb",
+                            "body": "Along the same line of thinking, you could ask for an Arcana or History check. If they pass, then they recognize the spell or powerful weapon and know a little bit about it.",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "AwakenedSol",
+                            "body": "Probably a Medicine check?",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "SXTY82",
+                    "body": "I only mention this sort of detail if they have seen it before, and if they don't see it regularly, I might ask for a perception roll. I'll occasionally ask for a perception roll randomly and make stuff up if they are successful. Maybe they find a trap door with provisions or gold inside a small compartment. This so they don't automatically think \"Perception roll = Danger\". I want my players thinking while playing. If I hand them every bit of information, what are they doing beyond reacting? The game should be more challenging then 'There is a bad guy, roll to hit.'",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "RevenantBacon",
+                    "body": "So you fall into the camp of \"you would tell them right away.\"",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "Baba_D_Dragon",
+                    "body": "This with a medicine check would add a lot of flavour.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "vbrimme",
+                    "body": "I do like the style of \u201chey, something important just happened, [player name] make a perception check to see if you notice it or an arcana check to see if you know what it is,\u201d or \u201c[character name], you immediately recognize this as [effect name], which you know causes [effect description]\u201d. This way the players get the information they need, but it feels more grounded in the story rather than just being a game mechanic.\n\nAlso, it gives the DM a chance to sometimes say \u201cyou know there\u2019s an effect, but you don\u2019t know what it is,\u201d so they can give the players that scare of using a healing spell and finding that it doesn\u2019t work, but also makes it so they don\u2019t always have to do that and most of the time the players don\u2019t feel like they were cheated out of a spell slot and an action, and the players kind of feel like they\u2019re learning about the world along with their characters rather than using their own knowledge and not having their characters\u2019 knowledge.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "DruneArgor",
+                    "body": "This ^^",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "DarkHorseAsh111",
+            "body": "Immediately.",
+            "score": 53,
+            "replies": [
+                {
+                    "author": "MarcieDeeHope",
+                    "body": "Yes. Always tell a player about any effects that are actively applied to their character.\n\nEveryone might choose to RP it as them not knowing or understanding, but out of character they should understand what is going on. RP and mechanics are two different things and players should know about any changes to the mechanics around their character even if their character doesn't know what it going on.",
+                    "score": 25,
+                    "replies": [
+                        {
+                            "author": "FallenDeus",
+                            "body": "Damn, cursed items are just lame if you do that.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "MarcieDeeHope",
+                                    "body": "On the contrary - if you do that, they become an epic prompt for some amazing RP from everyone at the table!\n\nIf you don't do that, then a cursed item is just the DM's own person bit of lore. I strongly belive you should share the fun with everyone.",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "RPope92",
+                                            "body": "Personally I like it when the person being cursed knows the full deal, but the party does not. Had a few cool cursed items like a Dagger of Jealousy lead to whole new player quests because the cursed player was working with the curse.",
+                                            "score": 8,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "FallenDeus",
+                                            "body": "How would the character know what the player knows? The characters are going to RP metagame information?",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "MarcieDeeHope",
+                                                    "body": "The RP opportunity comes from playing the characters' growing realization of the curse. They get to actively participate in telling how the come to know about it. A player might choose to keep and continue to use a cursed item for the story opportunities it offers, where if they didn't know it was cursed, they might just think it's not a very good item because it doesn't work the way they expect and get rid of it.",
+                                                    "score": 3,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Manowaffle",
+                                                            "body": "Also, not knowing about it sabotages RP and is generally just frustrating. All the player has to go on is your descriptions of the thing, and if you're being vague or obtuse then they're just getting a debuff for no reason.",
+                                                            "score": 2,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Loktario",
+            "body": "Yeah, D&D is too wargame still, even in 5e, to try to RP things like enemy effects.\n\nNot being able to heal is enough for the tension, without the added layer of wasting a turn that is rarely if ever going to feel good for the player, imo.",
+            "score": 121,
+            "replies": [
+                {
+                    "author": "Resafalo",
+                    "body": "This. Healing already doesn\u2019t feel great and going \u201esike, you wasted your turn\u201c is extra shitty.",
+                    "score": 39,
+                    "replies": [
+                        {
+                            "author": "Manowaffle",
+                            "body": "I hate surprising players in that way or getting surprised as a player. You already waited 15 minutes for your turn to come around. I find it\u2019s almost always better to err on giving players more information. They\u2019re looking at static minis on the table and trying to remember my conditions/HP updates, most of these things their characters would be able to see or infer.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Manowaffle",
+                    "body": "More DMs need to recognize this. Movie villains almost always immediately tell the heroes what their spell/trap/plan is doing because that\u2019s way more dramatic than not telling them.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Icy_Sector3183",
+            "body": "Do you need the double-whammy of the PC not getting healed AND the healer wasting the attempt?",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "BluetoothXIII",
+            "body": "is the Death Cultist's Dread Scythe attack well kown? your anser to this is my answer to your first half, if they didn't investigate the effect should be obvious on the first healing try.\n\nmy PCs get a knowledge check to know any none obvious effects of cas spells, if they don't know the effects of \"chill touch\" and don't bother with a knowledge check it is their fault.",
+            "score": 12,
+            "replies": [
+                {
+                    "author": "ForDnDOnly",
+                    "body": "I believe it's a new monster added to MM so they wouldn't know. It's their first encounter with these cultists, and he is the final boss. They are somewhat under-levelled but he is wounded to balance it out. It would also be the first time for them in this campaign that their healing is being prevented.\n\nI see your point and I agree. I'm looking for input here because there is a lot of variables for me to consider but most importantly this would set the precedent similar effects going forward.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "BluetoothXIII",
+                            "body": "you might wanna give a visuell clue like \"the wound is covered in smoke\"",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "bastion_six6six",
+            "body": "As a DM and a player I'm generally against strategies that cause a player to lose their turn or burn their action just to learn something. If you get hit with a spell that prevents healing, that's already a debuff that player has to work with. Adding on \"Oh you tried to heal? haha, you blew your turn and a spell slot/potion\" just doesn't make the game more fun for anyone in my opinion. Depending on how many players are in the party, they could already be waiting 20 minutes for their turn to come up in combat. When their turn finally comes up and you let them try to heal and then tell them it doesn't work, you more or less skipped their turn and now their waiting another 20 minutes before they can attempt to do anything. That is a recipe for boredom and frustration at any table I've ever played at.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "scottulu4776",
+            "body": "You should let them know. It\u2019s just the nice thing to do. Players aren\u2019t wasting their time or resources, but it doesn\u2019t change the effect of the hit.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "NapolenV",
+            "body": "Hint it, but don't tell straight away, if the fight is high stakes already without a wasted action or bonus action let them know fully.",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "ChuckleNut445",
+            "body": "For me, I\u2019d give them a clue, something like \u201ca lingering shadow persists in the wound.\u201d\n\nAt my table, my players would probably ask. I\u2019d prompt an arcana check. Then their roll would determine if I tell them or not.\n\nThat way they have a fair chance to not waste an action trying to heal, or could potentially reasonably guess that was the case, but I don\u2019t just give them all the answers immediately.",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "TE1381",
+            "body": "I tell them. I make sure to be very clear on any mechanical changes or anomalies they might not expect. I don't think they would find it fun to waste spell slots when they might not have before. I don't worry much about metagaming, it's a game and we all want to have fun. My players are great and respectful though, so I could see maybe another table doing it differently based on other factors.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "BisexualTeleriGirl",
+            "body": "Immediately. It feels dickish to wait for them to waste the spell slot.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Waffleworshipper",
+            "body": "Always be explicitly clear about game mechanics.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "MalibuPuppy",
+            "body": "I'm going to say from a \"fun\" perspective alone I'd tell immediately.Because wasting a turn trying to heal and failing is a double wammy: you probably just lost your action and a spell slot (or a potion which means they actually finally used a consumable for the first time ever and it didn't work).  And having that happen without any forewarning would not feel good as a player.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "jeffjefforson",
+            "body": "Honestly I think it adds MORE tension to tell someone - on low HP - that the enemies attacks prevent them from healing, than it would to surprise them with it.\n\nIt's the difference between building dramatic tension and a jump-scare.\n\nYour players will get super paranoid about a fight they can't heal in, even if the fight itself is relatively easy.\n\nJust the idea being in their head that they *can't heal if they NEED to* is so much more threatening than than the effect *actually is*.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "WiseAdhesiveness6672",
+            "body": "Do not waste a players turn and action and time by not telling them about something like this right away. The DM trying to hide it until later is just a dm that wants too much control.\n\n\nBut not only their time but yours. You have a lot on your plate during combat, you may forget something as simple as \"15 turns ago that one player was cursed and can't heal, it's his turn finally so now I'll tell him if he tries..... If he didnt try, I'll have to remember to tell him in 15 more.... 15 more..... Ect. It's something for the player to remember so the dm can focus on themselves.\n\n\nUnless you established in session 0 that this is how you would handle debuffs/afflictions, it's dickish.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "sirshiny",
+            "body": "My old dm used a concept that I have since stolen and use all the time. It was \"your knowledge as an adventurer tells you ______\" and it was reverse meta gaming in a way. We used to relay information that a character would likely know, but the player may not. \n\nAn example would be the mundane oil item. It's cooking oil, not fuel oil and while it eventually can burn it won't behave how you expect. Or kinda give a nudge that they definitely can't make a jump. \n\nIt's not really used in combat or puzzles so it's mostly harmless flavor that helps everyone have a good time.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ChrisTheWeak",
+            "body": "I usually tell players immediately because they'll help with the bookkeeping. It's helpful when the players remember what status conditions are affecting who because the scale of combats are such that I need the extra hands to keep track of everything",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ProdiasKaj",
+            "body": "One of these options requires me to remember an extra thing until a specific circumstance occurs.\n\nI like to make it easier on myself to dm, not harder",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "very_casual_gamer",
+            "body": "Unless research has been made on the enemy, I don't tell them anything. My NPCs don't approach the party with their skills in mind, as they don't know them; it works the same in the opposite direction. Knowledge is gained by experiencing everything firsthand.",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "jeffjefforson",
+                    "body": "I do get this to an extent, but when it's something that's directly affecting what the PC can and cannot do, I think it's something they should know.\n\nWhere's the line, right?\n\nIf you hit a player with an attack that reduces their movement speed to 10ft - do you not tell them this until they try to move 15? Or if you use an effect on a player that blinds them, do you not tell them until it's their turn and seeing becomes relevant?\n\nDoubtful. If something affects a player directly, I think they should generally be told.\n\nPlus, it's just more dramatic to be told \"You are no longer able to heal.\" And have that running through your players heads. They might not even have NEEDED to heal in that fight, but just the thought that they *can't*? That'll put a good bit of terror into them. Whereas using it as a jump-scare might not even come up, and even if it does, you've probably missed out on a lot more tension than if you told them immediately and let the dread set in.\n\nBut milage may vary, all players & tables are different - I'm glad your way works for you!",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "very_casual_gamer",
+                            "body": ">If you hit a player with an attack that reduces their movement speed to 10ft - do you not tell them this until they try to move 15?\n\nabsolutely - I'd let them take their turn normally, and stop them at 15' and narrate how they realize the wound is deeper than they thought, and cannot make another step. to me, it adds much more drama rather then telling them before.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "jeffjefforson",
+                                    "body": "Fair enough!\n\nI can't and won't argue with that, it's a completely different way of DMing to mine, but if it works for you I'm stoked - I'd definitely be intrigued at a table like that for sure!\n\nEdit: I really don't get how telling someone who DMs differently to myself that their style is valid and sounds fun and intriguing earned me downvotes.\n\nWhat a world.",
+                                    "score": -1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "FallenDeus",
+                            "body": "Slippery slope fallacy at its finest...",
+                            "score": -1,
+                            "replies": [
+                                {
+                                    "author": "jeffjefforson",
+                                    "body": "I'm not saying it's a slippery slope as if one will lead to the other, I'm comparing one situation to another and *genuinely* asking where the line is.\n\nBecause personally I see all of these as roughly equal, unlike when people use the slippery slope thing for drugs, ie Drinking leads to -> Weed -> Cocaine -> Heroin. Not being able to heal and having your move speed reduced are pretty integral parts of how your character plays.\n\nFor me the line really depends on the *type* of effect that is effecting the player. I'd tell a caster if they walked into an Antimagic Field, but not if they walked into a Forbiddance unless one of the characters had a specific connection to another plane of existence.\n\nBecause magic in general is way more integral to your player than being able to teleport or conjure things is.\n\nBut this is largely because of how I personally like to build tension, more than anything concrete. As I said in the previous comment, whatever works for each table and DM will be different.\n\nPs. The guy I replied to *literally* said he *would* do those \"slippery slope\" examples I brought up, so I guess I kinda hit the nail on the head eh? He sees healing & move speed similar to each other, and treats them consistently. Which is exactly what I was asking about xD\nAnd honestly, good for him, that does sound like an interesting way to DM",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Televaluu",
+            "body": "Immediately, unless it\u2019s like a cursed item. Optimized players are going to have fun because they don\u2019t waste a spell slot, and heavy role players are gonna have fun because the drama of the wasted spell slot I mean inability to heal!",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Faux-Foe",
+            "body": "The game is a living story book. Describe the wound to them. A dread scythe isn\u2019t going to leave normal wounds. \n\nDoing any less is failing in the duties of storyteller/DM.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "thisisthebun",
+            "body": "I tell them because while it is more immersive to wait, if you\u2019re running a fight with 4 players and 4 enemies, each player only gets 12.5% of the time as their turn. When you put it that way, losing an action to something silly feels far worse.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Fire_is_beauty",
+            "body": "I would tell them.\n\nI am not that much of a monster.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "thechet",
+            "body": "They will learn when they try to heal. Or let someone take an action to \"study\" the effect with arcana or whatever to determine what it is. Still costs an action but not a spell slot.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "lamp0114",
+            "body": "Let the players find out themselves. Those lessons stick. \n\nI once had a tempest cleric who had just learned call lightning. The DM threw a Shambling Mound at us. You don\u2019t forget those encounters.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Drinking_Frog",
+            "body": "Identifying a magical effect is an Arcana check when it's not apparent.  How far you want to take that is up to you and your table dynamic.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "NotEnoughBookshelves",
+            "body": "It depends on the situation - our DM recently gave us a battle where while in a monster's aura healing wouldn't work. We discovered this when a player used a potion of healing (just a small one) and it didn't do anything. When the cleric was going to use mass cure wounds on the next round, the DM did the \"are you sure you want to do that?\" As the hint/reinforcement that it wouldn't work, and let them keep the spell slot. It was a rough fight until we finished off those particular monsters, and we appreciated both the discovery of the mechanics and not letting us waste spells. Not sure what would have happened if the cleric tried to heal before the potion failed, but I'm guessing the DM would have asked for an arcana check to spot it.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "CuriousText880",
+            "body": "Leaving aside the fact that honestly, it's not overly efficient to healing PCs after each hit unless the hit knocks them down to 0 HP. So your \"healer\" probably has a better action to take that round anyway. What would be gained by *not* telling the PC as part of the description of the hit? \n\nIt might technically be \"metagaming\", but so what? For the \"healer\" in this case, I'd imagine it feels a lot better to \"metagame\" than waste an action and a spell slot trying to heal a player who can't be healed until the next round.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Ripper1337",
+            "body": "Only after they try to heal. Or if they make a knowledge check to figure out the effect of whatever I decide the scythe looks like.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "DuckbilledWhatypus",
+            "body": "I'd be annoyed if our healer was made to waste a turn finding that out or if I burnt a potion pointlessly. You don't have to blank state 'You got hit now you can't heal for a turn' you can flavour it. Have the enemy say something or ask the player to make an arcana or medicine check and whatever they roll tell them that they realise there will be a delay in their wounds healing because of how the cut looks, then clarify as DM that means they'll need to wait a turn. It's also way scarier to hear 'you can't heal for a set amount of time' and have to work out how to avoid the issue than it is to hear 'that thing you tried to do failed'. \n\nI don't really think you can say telling them is metagaming in this scenario because it doesn't change anything big for your players to know not to waste a turn. Isn't metagaming is more telling them exactly the thing needed to do the thing without reasonable cause for them to have that knowledge?\n\n(This is context dependent though - if the Barbarian takes a hit with a good chunk of HP left then they're unlikely to need to heal within the time limit so there's no real need to tell them. Save the reveal for someone closer to death and tell them that their knowledge came from being lower health to add flavour to why you're only just revealing it).",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Neonsharkattakk",
+            "body": "If I auto-fail a spell for lore reasons, I wait until a player tries to use that spell before I tell them. I explain it thematically that the spell failed, and if they would know, I tell them why it failed (i also encourage players to investigate the why themselves sometimes). Because there was no player agency in that decision, I'll usually also say that player still has that spell slot even though they already technically casted the spell. If the spell is counterspelled, the slot is lost.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "bluetoaster42",
+            "body": "I'm a big fan of telling players the mechanics, but I'm very much a Crunch person rather than a Fluff person. I also tell players the AC (once they've successfully hit a creature) and the HP (approximately, so I can fudge it if need be).\n\nThe way I play, it's a game first and a story second, and it's no fun playing a game if you don't know what's happening mechanically.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "AinaLove",
+            "body": "I just let them know after describing the effect or make sure they do not waste any resources like the spell lot is retained etc..",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "bullyclub",
+            "body": "No.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DMShevek",
+            "body": "Telegraph the effect with visual descriptions, let them find out on the first cast of healing, similar to how the first time an attack that is resisted or immuned hits.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Manowaffle",
+            "body": "Yes. It ups the drama and changes the tactical situation. This is more fun.\n\nIf you don't tell them, they get to waste a spell AND their turn. This is less fun.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Soft-Pear-9953",
+            "body": "I do it before. I do a description of what happens for the flavor, but I don't want to waste my players' spell slots potentially and make sure they can have an effective next turn in combat. It would make their time and thought they put into supporting their team feel wasted. So after giving the description, especially if I have newer players at my table, I tell them, \"so what that means from a mechanical standpoint, you can't regain HP for so and so long\". Just so there are no misunderstandings",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Independent-Car9218",
+            "body": "I mean if you flavor it they might try to investigate and discover the effects. I've done both depending on the situation, as a DM you have a lot on your mind and a status effect that the player doesn't know about might suddenly disappear in stressful games. So if you can just give it descriptive flavor and then say the effect.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Hexxer98",
+            "body": "Depends if they know what affects them or not\nIf an enemy casts a chill touch on player and there is a player with a chill touch then even if the casting has been flavoured differently I will just say that it's chill touch\n\nIn case like you present I would describe that some kind of lingering effect has taken hold but what it is needs to be figured out",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "HDThoreauaway",
+            "body": "I might have the player and/or healer roll an Arcana check. Or if players are trying to spend resources on something when they don\u2019t understand there is an effect preventing it, I\u2019ll simply say \u201cyou try but you can\u2019t get the spell to cast.\u201d So, leave it mysterious and interesting but don\u2019t make it cost any resources.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "e_pluribis_airbender",
+            "body": "Depends. If it's a serious or high stakes game, no, let them find out. If it's more lighthearted, I'll sometimes just read the description. Middle ground is to give them a check to see if they are familiar with this (legends or rumors, past encounters, etc) or if they recognize the magic.\n\nI like what others have said about narrating it though, so that they at least have a clue to work with if they choose to. But I don't think spelling it out is usually best, major exception being when playing with kids.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "GMDualityComplex",
+            "body": "I would describe any visual effects, and the duration they will be under the effect, the specific effect would not be disclosed until an action is done that would trigger said effect.  So your can't regain hit points, the very first spell cast that would regain hit points, I would say something along the lines of your spell fails to take effect you are fairly certain that your healing spells will not work while that effect is present.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Andoverian",
+            "body": "Has the campaign already introduced the concept of being prevented from regaining hit points, or is it just this specific attack that is new to them?\n\nIf the concept itself is new and/or unfamiliar I'd give the effect a special description as part of your narration of the action. Then give the players a skill check (Medicine, Arcana, etc.) to see if they recognize the effect, and only tell them that it prevents healing if they pass the check. Depending on how harsh you want to make it this skill check could be a free action they all make, an optional bonus action, or even an optional full action. That tacitly communicates to your players that choosing not to heal after failing the check would be metagaming (assuming they would have tried to heal otherwise).\n\nIf they've encountered the concept before but not the specific attack effect, I'd just make it clear that this is similar to the other times they've seen healing prevention. You can still add a skill check to see if the characters remember the details, but that starts to feel too \"gamey\", in my opinion, since it blurs the line between character memory and player memory.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Accomplished_Crow_97",
+            "body": " knowledge checks exist so that the DM can give out meta information like that.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "zzzzsman",
+            "body": "I do it after if they fail to recognize the effect by way of arcana or experience. It's only fair to have some way to recognize it, but it's also fair to gate information behind knowledge checks",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "BobaLerp",
+            "body": "Depends on the situation. Is it a monster they've encountered before ? Do I have someone with the healer feat. Is it an ability similar to a spell they use regularly, chill touch for example. \n\nI will adapt what information I give and at one point my players gets on with it. \"Remember Wights prevent me from healing you if you get hit !\"",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "CheesecakeSpirited",
+            "body": "I let them fail first. After that, if they forget, I have them roll a history check before it happens. \nI don\u2019t do it 3 times. If player not paying attention, not my problem.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "HsinVega",
+            "body": "I describe the spell but won't say that it prevents healing, then when they try to heal, I'll say it doesn't work. Unless they already fought with similar magic/did research/ask to do a check.",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "lipo_bruh",
+            "body": "I would let them know in a RP way first. If they try to heal, I would explain to them the mechanic after they consumed a resource to do so",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "Ejigantor",
+            "body": "Depends on context.\n\nA warlock I played in a campaign did a lot of Chill Touch purple nurples, which has the same effect of preventing healing until my next turn, so he - and to a lesser extent his partymates - would be familiar with the effect through their own experience.\n\nI also hold that status effects are not imperceptible unless explicitly mentioned as such in the text of the spell; you might not know all the details of what you've been whammied with, but you know you've been whammied with something, and you remember the different feelings of the different whammies you have survived in the past.",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "DalmarWolf",
+            "body": "I'm thinking that it's a good opportunity to let the Medicine skill matter some. \n\n\"I cast cure wounds on Bob.\"\n\"As you lean into do so, roll a medicine check.\"\n\"15, what's up?\"\n\"You realize the wound you see would not be mended by magical healing.\"\n\nOr anything like that.",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "ehaugw",
+            "body": "I prefer to not be tell anything the first time they encounter it. If they recognise the effect in character, I tell them what\u2019s going on",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "BafflingHalfling",
+            "body": "I normally base it off a player's passive Wisdom (Medicine) score. An 11 gets you basic things like a rough idea how wounded somebody is. For something like inability to regen, I'd make that a 13. If it's an effect of a spell, I might also allow a passive Intelligence (Arcana) score and set the DC at 10+ spell level.",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "Unlikely-Nobody-677",
+            "body": "After the first, unless they have experience with this type of attack",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "WordsUnthought",
+            "body": "I'd give the healer a skill check of some kind.",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "Mestoph",
+            "body": "I base it on the character's experience. If they've encountered similar effects before I'll make it more obvious what it does, but if not they don't really get much of a hint until they make an Arcana/Healing roll. When in doubt, roll it out.",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "LicentiousMink",
+            "body": "depends on their level and experience/check",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "Ok-Film-7939",
+            "body": "Sounds like a good use of an arcana check",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "RoastHam99",
+            "body": "Depends on difficulty of the fight. If you need the players to use resources, only let them know when healing is attempted. If they're already looking rough, tell them straight away/hint and allow arcana/medicine check bonus action to determine effect",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "Svartrbrisingr",
+            "body": "Hint at something going on. Don't explain it until they try to heal or use arcana to try and figure out what's going on",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "--0___0---",
+            "body": "You tell them when the first heal fails it's the best way of building tension, telling them before hand essentially means there's no consequence.\nYou could describe a dark aura lingering on the wound or something to hint but do not outright tell them till they either spend an action to investigate with arcana or they attempt to heal.",
+            "score": -1,
+            "replies": []
+        }
+    ]
+}

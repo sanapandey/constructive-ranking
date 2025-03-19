@@ -1,0 +1,499 @@
+{
+    "title": "A current list of games that are playable that aren\u2019t verified!",
+    "author": "Inevitable_Try577",
+    "subreddit": "SteamDeck",
+    "rank": 15,
+    "score": 30,
+    "upvote_ratio": 0.67,
+    "num_comments (reported by reddit)": 76,
+    "url": "https://www.reddit.com/r/SteamDeck/comments/1je3r6b/a_current_list_of_games_that_are_playable_that/",
+    "id": "1je3r6b",
+    "selftext": "What are some games that play decently that aren\u2019t verified in steam??\n\nI\u2019ll start with ready or not. I was surprised with how smooth it was. ",
+    "comments": [
+        {
+            "author": "AnotherInsaneName",
+            "body": "That list would be massive. ProtonDB is a better source than Reddit comments.",
+            "score": 177,
+            "replies": [
+                {
+                    "author": "FairEngineering2469",
+                    "body": "I'd like to add that proton DB is full of users that don't notice or report issues. They run the game for 10 mins and give it a thumbs up. It's better than the steam badge, but I still don't think it's all that reliable tbh. \n\nFor example: https://www.protondb.com/app/2246340\n\nLook at the absolutely shocking amount of people giving monster hunter wilds on the steam deck a thumbs up \ud83d\ude2c",
+                    "score": 28,
+                    "replies": [
+                        {
+                            "author": "AnotherInsaneName",
+                            "body": "I can't speak to Monster Hunter, but that's why proton averages multiple responses. You can even see on the badge that it got a silver so clearly some stuff doesn't work correctly.",
+                            "score": 12,
+                            "replies": [
+                                {
+                                    "author": "FairEngineering2469",
+                                    "body": "Whole game is unplayable, it doesn't even deserve bronze. It will crash every 30 mins and it runs at 15fps, and looks a complete mess.\n\nGod of war Ragnarok: https://www.protondb.com/app/2322010\n\nSomehow gold + verified on steam despite really horrible audio issues, that have no fix. Some users do allude to the audio issues here but it's still all thumbs up for some reason.\n\nFinal fantasy XVI:\nhttps://www.protondb.com/app/2515020\n\nMany thumbs up again for steam deck, awarded a silver. The game is horrendously unplayable on the deck like MHwilds. \n\nI do think there is a need for a more in depth dedicated resource to steam deck compatibility and game issues. Proton DB and steam are simply not reliable.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "Galifrey_stands",
+                                            "body": "I played the entirety of ragnarok on the steam deck and had no audio issues. It ran surprisingly well.",
+                                            "score": 6,
+                                            "replies": [
+                                                {
+                                                    "author": "FairEngineering2469",
+                                                    "body": "It did, you just didn't notice it. It is an issue with Linux pulse audio. Every steam deck will have this issue. If you go and reinstall it and actually pay attention you will hear it. \n\nI'm glad you didn't notice it though. I wish I didn't. It kills it for me.",
+                                                    "score": -5,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "Cergorach",
+                                            "body": "You need to realize that ProtonDB isn't just for the Steam Deck, it's for all PCs running Proton. So that 15fps is on the SD, not on a Linux machine running a far more powerful GPU. Yes there are still issues, but it all depends on who runs how on what and with which settings. Sound issues in a Sony game, look at the actual text... It distorts heavily when the fps is very low, obviously that's performance related.\n\nProton, when not working out of the box can require a LOT of tinkering, some people tinker better then others. AND what one finds unacceptable someone else finds acceptable...",
+                                            "score": 0,
+                                            "replies": [
+                                                {
+                                                    "author": "FairEngineering2469",
+                                                    "body": ">You need to realize that ProtonDB isn't just for the Steam Deck, it's for all PCs running Proton. So that 15fps is on the SD, not on a Linux machine running a far more powerful GPU.\n\n\nWrong: I am specifically referring to the steam deck players  section of the pages which are separate. You might see that if you click on the links I have posted.\n\nHere's another, Dragons Dogma 2:\n\nhttps://www.protondb.com/app/2054970\n\nApparently silver and a thumbs up from quite a few people, despite being horrendous with all those tweaks.",
+                                                    "score": 4,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Cergorach",
+                                                            "body": "\\*facepalm\\*\n\nThe ProtonDB 'medals' are for how well it runs on Proton, not specifically on PC *or* SD. The comments per section, like Steam Deck do matter! IF your read them. There are also thumbs up from people that played the game for tens of hours...",
+                                                            "score": 3,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "FairEngineering2469",
+                                                                    "body": "I have played those games on steam deck aswell, and done the same tweaks. That's why I chose those games. They are unplayable and those \"reviews\" are completely unreliable and shouldn't contribute towards this games badge on steam deck which IS separate. Those pages have way too many people claiming \"playable\" with the kind of issues and performance they display on the deck. \n\n>! IF your read them. There are also thumbs up from people that played the game for tens of hours...\n\nWhy are you saying this when I am the one that read them and posted them? My point is that these reviews are completely unreliable and the standards of those people running games at 25fps with frame gen giving the game a thumbs up are completely untrustworthy. \n\nIf you don't believe me, go and try those games yourself. With those \"tweaks\" (most of them add frame gen to try and get a 20fps game to 30) or simply add FSR 3 that makes the image slightly less blurry but make your game crash more often. \n\nWhat's your point or argument? I don't really know why you are disagreeing with me. I've said it's better than steam badge and you can use it, but I simply feel it has way too many unreliable sources. \n\nThere's nothing wrong with setting people's expectations accordingly regarding that.\n\n>There are also thumbs up from people that played the game for tens of hours...\n\nThey can do this and still be wrong. 15fps with crashes and artifacts is not a thumbs up regardless of you spent 100 hours doing it.",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Kovarian9",
+                            "body": "but you can fix wilds, im hitting 30 no framegen with enough mods and it doesnt look that bad",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "FairEngineering2469",
+                                    "body": "That's just your rock bottom standards. I've tried it myself with REframework and tweaks just to test. I disagree with you. It does not perform like that. The frame time graph is horrendous the entire time and the input delay is unbearable and it looks horrendous. \n\nI don't mean that in a nasty way. It's okay for you to personally play like that. But there's no way it's acceptable and deemed playable on the deck. It's just that you have an extremely high tolerance for those things.",
+                                    "score": -2,
+                                    "replies": [
+                                        {
+                                            "author": "Kovarian9",
+                                            "body": "for me its at 30, no drops, no crashes, and i only installed the thing that fixes direct storage, the steam deck config, lite environment, reframework, and the performance remodel. On the new preview version i hit 30 no framegen and its very stable.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "FairEngineering2469",
+                                                    "body": "I've done the same and that is simply not the performance i was getting. \"30fps no drops\" is simply not true. If you can post a capture of yourself playing on oilwell basin with a frame time graph on, and fps counter, and it does as you say. I'll happily eat my words and send you gifts on steam. It's not stable. \n\n\n\nHere's a vid of the game all on low with the highest performance settings possible latest patch:\n\nhttps://youtu.be/ThlCSpa1-Fk?si=-5Vj62TXT7P9WFyt\n\nCouldn't find a vid with the tweaks from Nexus mods. But they don't magically drag the game out of this state. I know because I tried.",
+                                                    "score": 2,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Kovarian9",
+                                                            "body": "i have not tested on oilwell yet to be fair, but zoh shia and jin dahaad ran fine so. I just havent had a hunt in oilwell in a while tbf",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Human-Equivalent-154",
+                    "body": "it is the same. apex is rated gold and also battlefield is gold",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "sovitin",
+                            "body": "I thought Apex changed their anti cheat. Does multiplayer work on SD?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Human-Equivalent-154",
+                                    "body": "no thats what i am saying the site has the same issue",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "sovitin",
+                                            "body": "Oooooooh. Got it.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "ExtentComfortable",
+                            "body": "Lol, but how to skip EA Launcher?",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ScientificKindness",
+            "body": "Check out ProtonDB's list. [https://www.protondb.com/explore?selectedFilters=whitelisted](https://www.protondb.com/explore?selectedFilters=whitelisted)",
+            "score": 17,
+            "replies": [
+                {
+                    "author": "Inevitable_Try577",
+                    "body": "Sometimes Protondb can be a hit or miss as some games haven\u2019t had an updated review in months/years :(",
+                    "score": -14,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "WVAviator",
+            "body": "KCD and KCD2 both run great on mine. Hardly any issues.",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "DramaLifeNy",
+                    "body": "Same, i play docked and i get pretty good gameplay, i can notice it slightly chugging in some more heavily populated areas or dense forests but it very minor and still playable",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "DaskielWinterwing",
+            "body": "The Batman Arkham games (don't own origins) all run with proton GE and smooth, MAY encounter audio crackling and delay after using the SD to power down/resume",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "Goliath_TL",
+                    "body": "I can report that Origins runs great, too. It just hasn't been remastered like the Arkham Trilogy, so it hasn't aged as well.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Swimming_Zombie_5876",
+            "body": "Ghost of Tsushima runs great at 40fps",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "NECooley",
+                    "body": "Technically the unplayable tag is accurate because the multiplayer doesn\u2019t work. But yea, if you don\u2019t care about that then it\u2019s all gravy",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "DaskielWinterwing",
+                            "body": "Funnily enough there is SD button mapping and support directly by the devs, and the NPC on the map for Multiplayet is removed entirely from the SD version (guessing linux in general)",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "NECooley",
+                                    "body": "The most well supported unsupported game ever, lol",
+                                    "score": 10,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "GfrzD",
+                    "body": "I completed the main game solely docked",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "Safe_Temperature_367",
+                    "body": "Got it on the weekend was surprised how good it runs it\u2019s an awesome game to",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "punkmunke",
+                    "body": "Duuude yes it does. Absolutely loved playing it on the deck. On the oled I was getting roughly 3 hours of play time too. This hand held is so cool!",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Severity911",
+            "body": "V rising is very underrated by the steam deck community and runs flawlessly",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Massive-Bear1788",
+                    "body": "Bro v rising is a pixel  shitstorm on the deck , how do you play it like that",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "FlashyZucchini4994",
+            "body": "Remnant 2 plays fine on SD",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "Mike_or_whatever",
+                    "body": "what settings do you use ingame, because i would like to play Remnant 2 on my steam deck.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "pigpentcg",
+                            "body": "Everything set to low and DO NOT turn on frame Gen. it would cause insane spikes. It USED to work fine, but not anymore \ud83e\udd37",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "Mike_or_whatever",
+                                    "body": "i shall do so then.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "robreras",
+            "body": "Fuck that, actually tell me what games does not have any launcher whatsoever and you don't have to do some shenanigans to play offline.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "battlerumdam",
+            "body": "Probably 80-90% of all games?",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Long_Night3907",
+            "body": "Islets.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Minute_Spray",
+            "body": "Ive been playing both Kingdom Come Deliverance games- over 250 hours of content. both run effortlessly on my OLED",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "mauie1337",
+            "body": "The Bioshock Remastered series + Infinite",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Weak-Champion8966",
+            "body": "The steam deck is pure gold for anyone who wants to live a remastered fantasy of all their child hood games. I play mostly games from 2016 (ps4/ pro era) and before and most games run incredible on high 45 plus fps, no frame gen. (apart from red dead 2 lol) the RTGI got me..",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Now_you_Touch_Cow",
+            "body": "Normally I find this subs speed to just say Protondb is annoying. This is absolutely a case of just use Protondb. They are the list you want",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "NotQfThisWorld",
+            "body": "Minecraft Dungeons lists as Unsupported but works with Proton GE. It does have quite a bit of lagspikes from time to time, but nothing too serious...",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Egan-J",
+            "body": "F.E.A.R. and it's dlc's run without any issues. And it performs well.\nMy W11 PC can not longer properly launch quite a few games from before 2010, but I'm so happy I can play it on the steam deck.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "pratsmavrick31",
+            "body": "F1 2023",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "StayAtHomeDadVR",
+            "body": "Splinter cell and sleeping dogs run superbly.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "amillstone",
+                    "body": "Which Splinter Cell? Blacklist works well but wondering if you meant one of the others",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "StayAtHomeDadVR",
+                            "body": "Black list is the one I\u2019m playing right now. The first on is fine too after some controller mapping. I\u2019m gonna get conviction next",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "zarakatja",
+            "body": "Shockingly Nier Automanta , I havent had an issue with it yet",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Alternative_Tank_139",
+            "body": "The Forest",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "The_Senate15",
+            "body": "Batman Arkham Asylum, City, and Origins\n\nTeam Sonic Racing\n\nStar Wars the Force Unleashed \n\nSonic and Sega All Stars Racing\n\nSonic Adventures 1 and 2\n\nHalo the Master Chief Collection\n\nHalo Infinite \n\nForza Horizon 5",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Organic_South8865",
+            "body": "Star Wars Battlefront (2015) runs fine with proton experimental.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Thekarens01",
+            "body": "Personally I like to check YouTube to see examples of games running to get an idea of how they run. It\u2019s not perfect because you\u2019re not seeing the whole game, but it gives you a general idea.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Known_Ad_3451",
+            "body": "The Witcher 2: Assassins of Kings\nI fail to understand its \"Unplayable\" designation.  My experience was entirely positive; I completed the game successfully and enjoyed it thoroughly.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "aaron10905",
+            "body": "Minesweeper Classy",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Fragrant_Two_8962",
+            "body": "For Honor is perfect for the Deck.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BtotheDon",
+            "body": "First game I completed on the deck was Sleeping Dogs which isn't verified but runs great. \n\nI just bought Ready or Not and tried it on the deck but wasn't big on how it ran. Had to lock it at 30 fps and it felt kinda sluggish. What settings are you using?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Inevitable_Try577",
+                    "body": "Got my settings from the first half of this [video](https://youtu.be/cSmU3VHm3zc?si=YRu-LW0viTNEpco7)",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "new_start01",
+            "body": "The Yakuza games",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "FrierenKingSimp",
+            "body": "Ghost of Tsushima isn\u2019t verified or even playable, but it runs like a dream on Deck",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "andylonn",
+            "body": "Devil May Cry HD Collection",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "NotTheSun0",
+            "body": "The only game I've played that just refuses to work is Catherine. That's probably mainly because the PC port is atrocious.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "eestionreddit",
+            "body": "Forza Horizon 5 can be made to run quite well if you're okay with sub-60 FPS, but the UI looks terrible, textures look bad (with the settings I had to use), and on occasion chunks of the map fail to load properly.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Trenchman",
+            "body": "Doom 3 BFG",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "No_Tour_8086",
+            "body": "Helldivers 2 \nRed dead redemption 2 \nCallisto protocol \nFactorio",
+            "score": -3,
+            "replies": []
+        },
+        {
+            "author": "No_Tour_8086",
+            "body": "Helldivers 2 \nRed dead redemption 2 \nCallisto protocol \nFactorio",
+            "score": -3,
+            "replies": []
+        },
+        {
+            "author": "No_Tour_8086",
+            "body": "Helldivers 2 \nRed dead redemption 2 \nCallisto protocol \nFactorio",
+            "score": -3,
+            "replies": []
+        },
+        {
+            "author": "JoeMorgue",
+            "body": "People actually play games on their Deck?\n\nI thought people just bought Decks, installed games, and went \"LOL that plays like crap\" and then come here to mock people who play games on the Deck.",
+            "score": -30,
+            "replies": [
+                {
+                    "author": "Aggressive_Neck_9765",
+                    "body": "Are you ok dude?",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "objectionmate",
+                    "body": "If I had a nickel for every dumbass shit responses like yours I\u2018d be a millionaire.",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "dingdongbannu88",
+                    "body": "So you?",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "GfrzD",
+                    "body": "In over 2 years I've never seen that",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

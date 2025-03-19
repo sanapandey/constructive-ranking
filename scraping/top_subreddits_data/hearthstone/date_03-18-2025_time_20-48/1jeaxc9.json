@@ -1,0 +1,575 @@
+{
+    "title": "32.0 - Known Issues",
+    "author": "HearthstoneTeam",
+    "subreddit": "hearthstone",
+    "rank": 0,
+    "score": 78,
+    "upvote_ratio": 0.98,
+    "num_comments (reported by reddit)": 89,
+    "url": "https://www.reddit.com/r/hearthstone/comments/1jeaxc9/320_known_issues/",
+    "id": "1jeaxc9",
+    "selftext": "Hello everyone,\n\nYou can find some of the bugs we're currently tracking in [this post](https://us.forums.blizzard.com/en/hearthstone/t/320-known-issues/143315); the thread will be regularly updated, thus keep an eye on it.\n\nIf you'd like to report a bug, you can do it either here or on the thread linked - we'll be monitoring everything!",
+    "comments": [
+        {
+            "author": "Key_Drama_7590",
+            "body": "I\u2019m on mobile and it won\u2019t let me open my mega bundle packs do I still have to wait longer? I thought we could open them starting today for the tavern brawl.",
+            "score": 27,
+            "replies": [
+                {
+                    "author": "No_Opportunity_9561",
+                    "body": "you need the new patch, should be out soon for mobile too.",
+                    "score": 13,
+                    "replies": [
+                        {
+                            "author": "Key_Drama_7590",
+                            "body": "Oh okay thanks \ud83d\udc4cwas confused cause saw the updated tavern brawl and thought the patch went through already.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "HearthstoneTeam",
+                    "body": "Please wait for your client to be updated to the 32.0.",
+                    "score": 17,
+                    "replies": []
+                },
+                {
+                    "author": "TheNickman85",
+                    "body": "I had to go to the play store and manually update the game. Then it worked fine",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "HearthstoneTeam",
+                            "body": "Thanks for letting us know!",
+                            "score": 7,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "FuhzyFuhz",
+                    "body": "New patch is on the play store.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Pleasant-Top5515",
+            "body": "You going to give dusts for the duplicate Marlorne?",
+            "score": 33,
+            "replies": [
+                {
+                    "author": "HearthstoneTeam",
+                    "body": "We'll update on the resolution as soon as possible.",
+                    "score": 25,
+                    "replies": []
+                },
+                {
+                    "author": "hosker2",
+                    "body": "Same boat.  Got the normal Malorne but no reroll option.",
+                    "score": 15,
+                    "replies": [
+                        {
+                            "author": "Umbrella_merc",
+                            "body": "Same",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Rare-Ad9248",
+                    "body": "i got golden malorne \ud83e\udd72",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "minotaur-02394578234",
+            "body": "So, I started the tavern brawl without realising I wasn't supposed to, left the client, it updated, and now I can't play [the deck I cobbled together](https://imgur.com/X3hYIpE.jpg) - do I have to retire? [edit] - I'm on PC, I see on the bug list it suggests the brawl being available early is a mobile bug?",
+            "score": 14,
+            "replies": [
+                {
+                    "author": "MrBigShotDota",
+                    "body": "I made a deck and 3-0 so far with old zerg cards before the nerf. It's locked me out now. No QA from blizzard of course. Should've just gone straight 6-0 without exiting the app.",
+                    "score": 10,
+                    "replies": []
+                },
+                {
+                    "author": "Lurker-1983-12",
+                    "body": "Same and I can't retire",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "HearthstoneTeam",
+                            "body": "If you hover over the deck banner at the top, you should see a \"Retire\" option. If you don't have it, it would be great if you could post a screenshot of what you see there.\n\nFor mobile, the option will be visible upon clicking on \"View Deck\" - the \"Retire\" button will be right under the Hero portrait.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "walldewd",
+                    "body": "same on pc https://imgur.com/a/V9akCXk",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "RicoZorro",
+                    "body": "I've got the same problem, are there any updates?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Elitist_Daily",
+            "body": "I don't know if this is actually a bug, but if the new paladin divine shield legendary guy dies, your other DS minions will have divine shield reapplied... I think. trying to reproduce this after seeing it in a brawl\n\nok, yeah, I did confirm this behavior. again, unsure if it's intended, but any ***OTHER*** friendly minion with the divine shield keyword that has had the divine shield popped, will have a new divine shield reapplied/refreshed after [[Toreth the Unbreaking]] dies",
+            "score": 11,
+            "replies": [
+                {
+                    "author": "RidiculousHat",
+                    "body": "i just tested this: righteous protector+toreth, moonfire the righteous protector three times, then kill the toreth. i didn't get a divine shield back. are you sure the other minion had the divine shield hit **three times?**\n\nif the divine shield is only *partially* broken before toreth dies, the shield will reform at its normal one hit status. that's expected",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Elitist_Daily",
+                            "body": "\\> only partially broken\n\noh, huh. guess I was thinking that it would've taken it away after toreth dies as long as you've hit the shield once. kinda awkward templating, then, given how this aura effect works in practice. I'm aware that \n\n>\"**Deathrattle:** give any friendly minions which didn't have their divine shields broken while this was alive a normal divine shield\"\n\nis nowhere close to fitting in the text box, but I feel like there has to be some kind of indication that the cumulative hits on a toreth-enabled DS don't \"carry over\" to apply to the original divine shield effect once it dies.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "RidiculousHat",
+                                    "body": "think of it this way - a regular dshield can only take one hit but toreth adds two extra layers. cracking through those outer layers doesn't pop the regular dshield.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "Elitist_Daily",
+                                            "body": "In that case - at the risk of backseating Team5 - the card text should read:\n\n>Friendly **Divine Shields** take an additional two hits to break *(up to three)*",
+                                            "score": 0,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "CitizenDane27",
+            "body": "Aw, keep Drakkari Enchanter. he's not hurting nobody",
+            "score": 16,
+            "replies": [
+                {
+                    "author": "HearthstoneTeam",
+                    "body": "Intruders shall be dealt with.  \nRules are rules. :(",
+                    "score": 16,
+                    "replies": []
+                },
+                {
+                    "author": "thgril",
+                    "body": "I'll have you know that I died to a drakkari enchanter doubling a protoss priest's archon",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Laviatan7",
+            "body": "Started Playing Brawl ( Free Entry ) and wasn\u2019t able to open Emerald Packs cuz of the patch not being yet on Mobile.\nCan\u2019t change Deck now after the Patch in order to use Emerald Cards :(",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "Laviatan7",
+                    "body": "also: some people are somehow able to play the StarCraft Heroes & Cards even tho the Website says u can\u2019t Play any StarCraft Cards, only the regular Dark Beyond Cards.",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "Laviatan7",
+                    "body": "also: some people are somehow able to play the StarCraft Heroes & Cards even tho the Website says u can\u2019t Play any StarCraft Cards, only the regular Dark Beyond Cards.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Ervaloss",
+            "body": "Battlegrounds bug. Rerolling a hero removes the extra armor of the tier 7 anomaly. This is an old bug that had been corrected.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "HearthstoneTeam",
+                    "body": "We're looking into it; in the meanwhile, the armor issue has been added to the Known Issues.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "sudo_apt_purge",
+            "body": "What about the missing Twitch rewards? I got the 3 Dark Beyond packs but not the 3 Emerald Dream pack although I have claimed 6 packs on Twitch.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "idivashik",
+                    "body": "So far 3 out of 10 packs for me as well",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "MysticKohi",
+            "body": "I'm also missing packs from the twitch drops. Only got 4/6 of them, and they were oddly the wrong sets - claiming the emerald dream packs gave great dark beyond and vice versa.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "vudang0112",
+            "body": "# Bug \"Dreamplanner Zephrys\"\n\n  \nAfter choosing a travel tour, the other 2 options are still on the screen (not disappear)",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "andrewshi910",
+                    "body": "Genie be feeling generous today",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "AcceptableDoggo",
+            "body": "So is my brawl deck just bricked forever since I had Drakkari Enchanter in it?",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "wiffofpiff",
+            "body": "Anyone else not receive their twitch drop packs? I claimed on twitch but haven\u2019t received them in client",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "sudo_apt_purge",
+                    "body": "I only got 3 out of 6 packs.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "wiffofpiff",
+                            "body": "Yeah I\u2019m scared to claim the 4 hours drops cause I never got my GDB packs lol",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "sudo_apt_purge",
+                                    "body": "Glad I'm not the only one having this issue. It seems that many people are affected. Hopefully they fix it soon.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "itsKevv",
+                    "body": "Also having this issue :( along with other twitch viewers from a stream",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "otz23",
+                    "body": "I claimed 6 packs on Twitch and only got GDB packs and nothing else, although 3 of them were supposed to be Emerald Dream packs :/",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "PureBerserker7",
+            "body": "Watched a couple streams for the twitch drop, got the first one but when I went into the client afterwards, it only gave me one pack instead of the three",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Ok-Conversation7815",
+            "body": "I didnt get Signature Legendary when i loged on (on mobile) despite i buy the mega bundle? I only got the regular golden legendary.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "race-hearse",
+                    "body": "It\u2019s already in your collection.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Holdingdownback",
+                    "body": "Same here.  I got the golden legendary, but not the signature.  I checked my collection and didn\u2019t have an Emerald Dream signature aside from the free one everyone got",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "DistortedNoise",
+                            "body": "Everyone didn\u2019t get a free signature legendary, only the people who bought the mega bundle did.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Holdingdownback",
+                                    "body": "Oh I\u2019m a dummy, I saw a few people with the same one and thought it was free",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "macjoj",
+            "body": "After returning Wallow, the Wretched from hand to top of deck via discovering dark gift, he lost all other Dark gift bonuses (charge, divine shield and windfury). Only had bonus +4/+5",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Desperate_Panic7168",
+                    "body": "this is right",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "macjoj",
+                            "body": "Wait, returing him to deck resets the buffs? Is that intended?",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "AwarenessGullible470",
+                                    "body": "Only traded minions keep their buffs when shuffled back into your deck. (Technically, there's a couple of non-trade minions that do, but they either say that they do so on their card text, or are cards that shuffle in a copy with a buff that also says so on the card text.)\n\nSo with Wallow, it seems you definitely don't want to pick the dark gift to put it in back in your deck once you have drawn it.\n\nIt is very annoying though, since the wording on Wallow makes you think that it should continue to have the buffs. \n\nIf you look more closely though, it is only when the card is in your hand or deck, that it gains the buffs. \n\nSo what happens is, as it re-enters your deck, all the other buffs are wiped from it, leaving only the last +4/+5 on top of deck dark gift, and then, from then on, any dark gift you pick will be added back onto to Wallow, until either, you play it, or you pick the +4/+5 buff that will put it back in the deck.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Ocvius",
+            "body": "I'm pretty sure you just added the bug i posted about but just in case yeah, tavern brawl pre-patch is sad to play :( also sad that my ticket got wasted",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Impossible-Cry-1781",
+            "body": "Definitely not opening my packs until I see stuff get patched",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "vudang0112",
+            "body": "# Bug \"Dreamplanner Zephrys\"\n\n  \nAfter choosing a travel tour, the other 2 options are still on the screen (not disappear)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DJ_Illprepared",
+            "body": "I bought the non mega bundle will I be able to open the packs after the patch as I can\u2019t seem to open them yet?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "HearthstoneTeam",
+                    "body": "You should be, once your client is updated to the 32.0.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "DJ_Illprepared",
+                            "body": "Yeah opened my packs ty for the clarification",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "HearthstoneTeam",
+                                    "body": "Cheers, thanks for letting us know!",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Raipho45",
+            "body": "iOS : I opened the tavern brawl. But didn\u2019t play any game with it yet. Because I can\u2019t open any pre order yet. I also didn\u2019t get the nerfs. Will this be fixed or should I sign out or delete and re download the app",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Massive_Following125",
+            "body": "Opening the store crashes the game on mobile so I can\u2019t get the pre order :(",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Nheo15",
+            "body": "Played a tabern brawl on Mobile without realizing I havent updated yet. Went 6-2 and the packs it gave me were from The Great Dark Beyond and not from Emerald Drem.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Cervantes176",
+                    "body": "Same here, I got rolled by Protos Mage, but the packs I got where Great Dark Beyond and Perils in Peridice. Then I got prompted to update an hour later.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Aby55walker",
+            "body": "I am on PC and couldn't find my mega bundle packs, perhaps yall forgot to send me a code, please look into it.\n\n/s",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Kekkiem",
+            "body": "The pixel mobile is still in the game MONTHS later. Please sort it out - Hat mentioned it would get fixed a while ago",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "RidiculousHat",
+                    "body": "it's fixed this patch",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "urgod42069",
+            "body": "Imbue animation triggers twice whenever you play an imbue card",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SebasGN",
+            "body": "Login loop bug in Xiaomi 14t pro. Can't get into my account. It is not yet at 32.0 but really doubt it will be addressed there, so I will still report it",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "SebasGN",
+                    "body": "Issue still persists after updating from the play store",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "RoastedChesnaughts",
+            "body": "Opponent played Briarspawn Drake (end of turn, attack an enemy minion, and excess damage hits the enemy hero) while I had out Freezing Trap. At end of turn, it went to attack a minion, trap went off, and it was returned to hand... but the excess damage that would have occurred still got dealt to my face.\n\nI don't *think* that's intended, and very weird if it is.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "JShadowH",
+            "body": "Are achievements bugged or are they not supposed to work until next week?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "546robo1",
+            "body": "When you pick the dark gift the shuffles to the top of your deck it resets the dark gifts in the warlock legendary I don\u2019t think this is intended",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "dbogajo",
+            "body": "I opened a Regular Malorne but I already owned the Signature one from the Megabundle, will I be getting the reroll option once the set is released?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "cbijeaux",
+            "body": "Treacherous Tormentor didnt add the card to my hand, just to my deck",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ouija-Board",
+            "body": "Unable to launch a brawl match keep getting an error",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Emrakuls-Fav",
+            "body": "Not sure if this is actually a bug, but if Aegis of Light summons a dormant minion, it won't have taunt when it wakes up. Happened with Slumbering Sprite.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "NoxiousMentos",
+            "body": "If you discover/pick wallow and give it the gift that puts it on top of your deck it will also shuffle the one in your hand and remove all previous dark gifts given.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "endark3n",
+            "body": "Please allow [[Snake Oil Seller]] to be eligible for refund!",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "EydisDarkbot",
+                    "body": "[Snake Oil Seller](https://hearthstone.wiki.gg/wiki/Special:FilePath/File:WW_332.png) \u2022 [^(Wiki)](https://hearthstone.wiki.gg/wiki/Snake_Oil_Seller) ^(\u2022) [^(Library)](https://hearthstone.blizzard.com/en-us/cards/100103) ^(\u2022) [^(HSReplay)](https://hsreplay.net/cards/100103)\n\n- Neutral Rare ^Showdown ^in ^the ^Badlands\n\n- 4 Mana \u00b7 4/5 \u00b7 Naga Minion\n\n- **Deathrattle:** Shuffle 2 **Tradeable** Snake Oils into your opponent's deck.\n\n---\n\n*I am a bot.* \u2022 [About](https://www.reddit.com/user/EydisDarkbot/comments/1hs3wyx/eydisdarkbot_about/) \u2022 [Report Bug](https://www.reddit.com/message/compose/?to=EydisDarkbot&subject=Bug+report&message=Original+comment:+https://www.reddit.com/r/hearthstone/comments/1jeaxc9/320_known_issues/miijxw9/%0A%0ADescribe+the+bug:)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "tultommy",
+            "body": "I've played 4 games in battlegrounds and they've all been missing rerolls entirely, including the BP+ freebie.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "HearthstoneTeam",
+                    "body": "Hero rerolls are temporarily disabled.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "FelixTwitch1",
+            "body": "https://preview.redd.it/7vr7vsbv7jpe1.jpeg?width=2436&format=pjpg&auto=webp&s=2f772323cddcbd8a969ad98db7a0bb669e6215d0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ChocoPlayzReddit",
+            "body": "I too didn't receive some of the Twitch drops. I only got the first great dark beyond packs",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DistortedNoise",
+            "body": "With the tavern brawl, after confirming a deck, I cancelled the finding opponent wheel and went back into the edit deck option. This crashed the client, and when I reopened a minute later I had a loss, no reconnecting attempt or anything.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Additional-Bees",
+            "body": "twitch drops either taking a very long time or I'm not getting them. only got 3 out of the 10 promised packs. also, there were no sign of year of the pegasus packs, weren't they supposed to be in the drops?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "philzy101",
+            "body": "I had a slightly bizarre bug on the PC client where by when opening one of my regular ITED packs I was able to reveal 4/5 of the cards but one of the cards was frozen out, hovering over it showed no colour background, and clicking on it did not reveal the card. After restarting the client I found I had a signature copy of Shaladrassil which I am chuffed to have but it feels weird not being able to confirm that I obtained the card. It seems there may be a bug with signature cards possibly? Or maybe a server issue (games and such performed fine afterwards so no overall server issues aside from this for me)? This was about 20 -30 packs into the bundle and other packs with regular cards and legendaries opened fine with no issues.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "dungabunga69",
+            "body": "prophet velen did not double the damage of mage's imbued hero power.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

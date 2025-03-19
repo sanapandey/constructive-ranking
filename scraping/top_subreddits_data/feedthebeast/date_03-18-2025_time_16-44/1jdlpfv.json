@@ -1,0 +1,303 @@
+{
+    "title": "Any fix? This happened after teleporting back to my base using a waystone",
+    "author": "Ok_Hunter_607",
+    "subreddit": "feedthebeast",
+    "rank": 14,
+    "score": 326,
+    "upvote_ratio": 0.99,
+    "num_comments (reported by reddit)": 44,
+    "url": "https://i.redd.it/tctu3bh6zape1.png",
+    "id": "1jdlpfv",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "Ok_Hunter_607",
+            "body": "Alright guess there's no getting my stuff back and all, time to accept it and move on. Lesson learnt - make backups",
+            "score": 148,
+            "replies": [
+                {
+                    "author": "benjathje",
+                    "body": "World corruption in your storage system makes sense, you probably overloaded it. Some modded items are poorly programmed and have too much NBT data in them and the game can't handle too many.",
+                    "score": 99,
+                    "replies": [
+                        {
+                            "author": "Ok_Hunter_607",
+                            "body": "Thing is there are multiple of these sticking out around nearby surroundings, even chunks I haven't touched previously, so I don't know\n\nit just happened to choose parts of my underground base as well I guess",
+                            "score": 31,
+                            "replies": [
+                                {
+                                    "author": "benjathje",
+                                    "body": "A chunk corrupts when it fails to save or be loaded. It may happen for many reasons including too much data in a single chunk",
+                                    "score": 28,
+                                    "replies": [
+                                        {
+                                            "author": "HeavensEtherian",
+                                            "body": "This usually shouldn't happen. The default behaviour would be either the game crashing when you interact with it (or getting kicked from the server, even if it's a singleplayer internal server) or failing to save chunk state (so it stays at the latest non-overflowed state).",
+                                            "score": 6,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "_ThatD0ct0r_",
+                            "body": "Could you get around this by spreading the storage capacity out across multiple chunks?",
+                            "score": 7,
+                            "replies": [
+                                {
+                                    "author": "benjathje",
+                                    "body": "Yes",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "pcfan86",
+                    "body": "most modpacks do have integrated backups.\n\nCheck your instance folder for a backup folder and maybe you can just roll back half an hour or so.",
+                    "score": 11,
+                    "replies": []
+                },
+                {
+                    "author": "Millan_K",
+                    "body": "I've do backups always when I don't anything bigger in save. Wish Microsoft can make the game more mod friendly, old players like me aren't interested in vanilla and modded is the only option to have fun.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Giecio",
+            "body": "![gif](giphy|W307DdkjIsRHVWvoFE)",
+            "score": 262,
+            "replies": [
+                {
+                    "author": "Ok_Hunter_607",
+                    "body": "Took me a second but lol'd despite the situation",
+                    "score": 39,
+                    "replies": [
+                        {
+                            "author": "endorstick",
+                            "body": "I was going to comment something similar but didn\u2019t want to get banned",
+                            "score": 16,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Cyynric",
+                    "body": "Every time I think of a funny joke I rush to the comments to see that someone has beat me to the punch.",
+                    "score": 14,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "kanekipro",
+            "body": "keep going, lore goes hard",
+            "score": 45,
+            "replies": [
+                {
+                    "author": "Ok_Hunter_607",
+                    "body": "Lol, maybe one day actually. This only happened in one region",
+                    "score": 9,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "smbarbour",
+            "body": "So... two things:  1) it appears that you have added (or removed) one or more mods that alter the generation of terrain and biomes.  This is why these chunks are so tall.  2) You mentioned your storage was obliterated... This is a chunk reset, which typically happens when there is too much data stored in a chunk, and rather than crash the game entirely, it just deletes the chunks that failed to load and allows the game to regenerate them.",
+            "score": 35,
+            "replies": [
+                {
+                    "author": "Ok_Hunter_607",
+                    "body": "I would understand #2, but there are more of these sticking out around multiple previously untouched parts of the world, so idk",
+                    "score": 11,
+                    "replies": [
+                        {
+                            "author": "smbarbour",
+                            "body": "This suggests that mods were added or removed after the world was created.  Any chunks that had not been generated when that change was made could (and more likely will) have vastly different terrain.",
+                            "score": 11,
+                            "replies": [
+                                {
+                                    "author": "Ok_Hunter_607",
+                                    "body": "I have added other mods since creating the world, but nothing that changes terrain/structures since before that. I think this was a saving issue which corrupted stuff within 32x chunks, as these popped up throughout my render distance",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "haydenhayden011",
+                                            "body": "I had the same thing happen on my server recently - it duplicated nearby chunks and replaced them. What mods are you using?",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Ok_Hunter_607",
+            "body": "Spent a godly amount of time on this hardcore world, got the \"failed to load chunks at X, Y\" error, and now suddenly have these chunks sticking out the ground all over. All my underground work & storage is obliterated. I'm devastated and hoping there's a fix. Unfortunately my curseforge backups folder is empty.",
+            "score": 15,
+            "replies": [
+                {
+                    "author": "MrPlautimus468",
+                    "body": "Did you by ay chance teleport home from someplace tall, like a mountain? \n\nMaybe its trying to use the chunks from there when loading your current ones.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "Ok_Hunter_607",
+                            "body": "Not really, the place was somewhat flat. Do you think the original chunks have been permanently overwritten?",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "BodiwNz",
+                    "body": "Open the instance folder and search for a backups folder there\n\n\n\nOtherwise, delete the erroring chunks with nbtedit, and repair in Creative by opening to lan with cheats on\n\n\nIf you dont know how to open the instance folder, open the resourcepack folder from inside the game and go one folder up",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "Ok_Hunter_607",
+                            "body": "Unfortunately the backups folder in my curseforge profile is empty :( I guess that's an option though. Do you know if the original chunks are permanently gone?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "BodiwNz",
+                                    "body": "Again, not curseforge's backups, the instance's backups.\n\n\nPlease check the instance folder by following the third paragraph. Theres a chance for a backup folder to be there",
+                                    "score": 6,
+                                    "replies": [
+                                        {
+                                            "author": "Ok_Hunter_607",
+                                            "body": "The explorer path is: (user) > curseforge > minecraft > instances > (Profile) > backups\n\nAnd it's empty, is this the right one? I followed the steps in the third paragraph and ended up here",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "BodiwNz",
+                                                    "body": "Usually, It is.\n\n\nMods like FTB and Aroma's backup store them there, which afaik are always included in modpacks.\n\n\nOnly reason I see for the folder to be empty, is that whatever you're playing has no backup mods (check mods folder)\n\n\nSo yea, best option now seems to be getting the chunk coordinate for the chunks corrupted, deleting them with help of NBTedit, and restore the builds from memory.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Ok_Hunter_607",
+                                                            "body": "Thanks for the tips. Yeah this is \"immersed with shaders\" on curseforge with 50-100 extra mods I chose, so I guess it didn't come with an auto backup function/mod. \n\nSince this is a hardcore world, I'd rather just relocate to another location in the future if I ever feel like returning to the game rather than edit/open to lan and stuff, but thanks for the idea",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "kingcirce",
+                                                                    "body": "Find the world save file itself and in that file will be some form of backup that may be usable but it may also just have the same issue. Good luck. I know how much it hurts to lose a lot of progress to corruption.",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "questionable_fish",
+            "body": "I have a suggestion but the Americans aren't going to like it...",
+            "score": 12,
+            "replies": [
+                {
+                    "author": "idontgotgoodname",
+                    "body": "https://i.redd.it/w2l5k6xo3epe1.gif\n\nwe're waiting.",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "questionable_fish",
+                            "body": "You start by putting tariffs on your economic neighbours, they stop sending you materials and eventually those two towers will crumble by themselves because you won't be able to fix them",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "KazumaSakai420",
+            "body": "Hear me out, i dont know if it would work but couldnt you use the Cut paste gadget from Building gadgets to cut out the pieces and put them back in their spots?",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "Ok_Hunter_607",
+                    "body": "I didn't know that was a thing, looks cool\n\nI don't know where these chunks came from or where the originals are though. these are of different biomes and spread out throughout the world",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "vRyanLevi",
+            "body": "Welcome Back Twin Towers!",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "essJay800",
+            "body": "Refined storage has ruined a couple good worlds of mine. Not sure if that\u2019s even relevant but it does suck",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "essJay800",
+                    "body": "Unfortunately a back up seems to be the only way, which mods can do that for you automatically. It\u2019s the only downside with RS, your world can just be snapped out of existence",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ItsTheo_",
+            "body": "Two planes oughta fix that",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "MattiDragon",
+            "body": "This is probably chunks resetting due to data overload, but it could also be a disk space issue. Minecraft breaks a lot when there isn't enough disk space to save chunks correctly.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Responsible_Leg_577",
+            "body": "I mean, just make a backup now that its there so it doesn't happen again. you could probably make some cool builds with it either way",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "7Bebber",
+            "body": "Yo what shader?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Ok_Hunter_607",
+                    "body": "Complementary shaders: reimagined on unbound mode",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Past_Ad_1577",
+            "body": "just watchout for planes",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

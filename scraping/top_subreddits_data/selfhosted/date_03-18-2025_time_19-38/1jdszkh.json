@@ -1,0 +1,201 @@
+{
+    "title": "<200\u20ac iCloud/Google Replacement Project - 6 months update + GitHub docs and guide",
+    "author": "Shot-Chemical7168",
+    "subreddit": "selfhosted",
+    "rank": 13,
+    "score": 166,
+    "upvote_ratio": 0.97,
+    "num_comments (reported by reddit)": 29,
+    "url": "https://www.reddit.com/gallery/1jdszkh",
+    "id": "1jdszkh",
+    "selftext": "I shared this project 6 month ago, with the goal of achieving independence from Google and Apple without monthly fees or expensive hardware.\n\nI'm happy to share that I\u2019ve successfully achieved my personal goals, as well as notes from the old post - requesting a written guide, and concerns about security. Thanks for the input, everyone!\n\n* **iPhone sync**: photo sync and gallery, with external photo sharing.\n* **Drive replacement**: web files upload, browse, sharing and download.\n* **Cheap**: Built entirely on a refurbished Dell 7050 Micros.\n* **Free**: No monthly payments. Runs free \\`DDNS\\` providers and open-source software.\n* **Minimal setup**: No racks, no loud fan noise, and no dedicated server room needed.\n* **Travel-Friendly**: Compact, 1-liter machines that fit in a backpack if needed.\n* **Multi-Tenant**: Easily extensible to add photo storage instances for family members.\n* **Platform Independent**: All photos are stored in a single folder with embedded GPS data and readable dates for file names, making it easy to replace Immich, Proxmox, or Linux in the future.\n* **Dumb access backup:** Everything is backed up to a Windows machine so anyone with physical access and password or recovery key can plug a USB to copy things without terminal knowledge.\n* **Biometric 2 Factor Authentication**: Convenient access with FaceID or fingerprint on phones.\n* **0 Setup Remote Access**: Encrypted, publicly accessible URLs with no need for Tailscale or VPN on clients.\n* **Remotely maintainable:** Accessible remotely via Remote Desktop on the backup machine and Out of Band access on the main machine.\n* **Documented setup**: All service configuration files and setup is documented for easier replication and historical debugging and restore. Serves as a guide for replication.\n\n**Documentation / Config / Demo / Guide:** [**https://github.com/MahmoudAlyuDeen/diwansync**](https://github.com/MahmoudAlyuDeen/diwansync)\n\n# Future plans - Help and input are welcome:\n\n* **Provide an 1-step script deployment**: For newcomers and non tech savvy people.\n* **More config-file setup:** Replace Nginx/Authentik dashboard setups with YAML/config files for easier replication and setup recovery with no manual work.\n* **Remote backup node**: Adding a node in my home country so my family can access their photos and my files in emergencies.\n* **Documentation polish**: Simplify Proxmox storage / mountpoints setup for first-timers.\n\nOld post: [https://www.reddit.com/r/selfhosted/comments/1fqyewc/200\\_icloud\\_replacement\\_project](https://www.reddit.com/r/selfhosted/comments/1fqyewc/200_icloud_replacement_project)",
+    "comments": [
+        {
+            "author": "umakantsc",
+            "body": "very nice set up .   \n\n\nI am on my way to do this , I am using the following , may expose some services to web via cloudflare tunnels . \n\nHost machine Linux Mint with dual screen connected to a old dell precision laptop, casaos running docker containers ( not all apps works well with casaos \n\nJellyfin - over 50 % of media consumption ( fantastic for TV series , Movies and Music.) used by entire family \n\nNavidrome , ( same media library shared with jellyfin ) \n\nFresh RSS for most online news updates .\n\nRSS bridge for websites which does not have rss out . \n\nKavita , for all kids ebooks ( its really nice for reading books \n\nAudiobooksshelf for kids audiobooks for now ( you can use android app to cast in the entire house ) \n\nGopeed and qbittorrent for torrents , \n\nHome assistant for some of my IOT devices not every thing works i think its normal \n\nStirling PDF as adobe elements alternative \n\nLinkwarden , for local storage of webpages and links \n\nPhoto Prism for photo backup \n\nmany apps i was not able to set up properly on casaos .",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "SaltResident9310",
+                    "body": "I tried CasaOS and went neck to Runtipi. Just enough GUI for me.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "HedgeHog2k",
+                    "body": "I was looking to maybe migrate my docker-compose stack from my synology nas to a nuc running ubuntu-server + casaos (see my post on r/casaos)\n\nBut you got me worried there, care to share what problems you have with casaos?\n\nFrom wat I saw most apps I use are available on it.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "LotusTileMaster",
+            "body": "If you want to have YAML for your reverse proxy, might I suggest traefik? It integrates with Docker using labels and handles all the networking with Docker networking.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "Shot-Chemical7168",
+                    "body": "Hmm interesting. I\u2019m curious how docker networks would work with how isolated I currently have my docker deployments? Each serves is hosted within a dedicated lxc container with its own IP in separation from other services.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "rmath3ws",
+                            "body": "I was under the impression that docker containers are isolated in itself. No?  \nWhy do you set each up in their own lxc?",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "Shot-Chemical7168",
+                                    "body": "You're right, docker containers are isolated enough. I use Proxmox containers mainly to take advantage of Proxmox 1 click backup and restore in case something goes wrong with 1 service - after an update / change. It's saved me some hassle a couple times already.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "rmath3ws",
+                                            "body": "that is something I am working on as well. To set up a back up plan.  \nBut even with multiple dockers, the back up works. \n\nthe main advantage is that I have gpu pass through to a VM in proxmox and I use that GPU for immich and ollama .. and few other services. I think GPU can be added to only one VM. so keeping almost all services in a VM is beneficial that way. Plus it reduced multiple lxc/docker overhead, which isn't that much.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "LotusTileMaster",
+                            "body": "You can achieve the same level of separation if you move them to one VM, then have each service be in its own stack with its own network and have the UI as the only container connected to the traefik network and the service network.\u00a0\n\nBut if they are all in separate LXCs, you can still have traefik do it, it would just have to be with a config file instead of Docker labels.\u00a0",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "se7entynine",
+            "body": "How did you manage to integrate faceid and passkey in authentik?",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "boatboatboaotoasaajd",
+                    "body": "authentik supports passkeys. ios just protects its stored passkeys with faceid",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "zezimeme",
+                    "body": "Yeah its built in",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Accurate_Mulberry965",
+            "body": "RemindMe! in 5 days",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "RemindMeBot",
+                    "body": "I will be messaging you in 5 days on [**2025-03-23 06:24:26 UTC**](http://www.wolframalpha.com/input/?i=2025-03-23%2006:24:26%20UTC%20To%20Local%20Time) to remind you of [**this link**](https://www.reddit.com/r/selfhosted/comments/1jdszkh/200_icloudgoogle_replacement_project_6_months/mie9u0t/?context=3)\n\n[**CLICK THIS LINK**](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5Bhttps%3A%2F%2Fwww.reddit.com%2Fr%2Fselfhosted%2Fcomments%2F1jdszkh%2F200_icloudgoogle_replacement_project_6_months%2Fmie9u0t%2F%5D%0A%0ARemindMe%21%202025-03-23%2006%3A24%3A26%20UTC) to send a PM to also be reminded and to reduce spam.\n\n^(Parent commenter can ) [^(delete this message to hide from others.)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Delete%20Comment&message=Delete%21%201jdszkh)\n\n*****\n\n|[^(Info)](https://www.reddit.com/r/RemindMeBot/comments/e1bko7/remindmebot_info_v21/)|[^(Custom)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5BLink%20or%20message%20inside%20square%20brackets%5D%0A%0ARemindMe%21%20Time%20period%20here)|[^(Your Reminders)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=List%20Of%20Reminders&message=MyReminders%21)|[^(Feedback)](https://www.reddit.com/message/compose/?to=Watchful1&subject=RemindMeBot%20Feedback)|\n|-|-|-|-|",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "OperationFree6753",
+            "body": "Damn man that just awesome, pure satisfaction!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Cyberpunk627",
+            "body": "looking at the screenshots, it looks like to me thtat you're using biometrics / passkeys as authentication method fo autentik instead of 2FA. If I'm correct, can you please direct me to a guide on implementing it? The TOTP field is not picked up by Apple's Password nor other password managers that I use and it's quite irritating, a passkey would be a nice addition... thanks!",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Shot-Chemical7168",
+                    "body": "authentik has built in support for webauthn passkeys, if I store them in apple keychain, it requires TouchID/FaceID to use them.\n\nThe best part is that they're synced between MacBooks and iPhones.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ReallySubtle",
+            "body": "I personally use authentik but something like this wouldn\u2019t pocketid be better?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "weilah_",
+            "body": "Still going through the docs but already wanted to say thank you. This looks very professional and curated. Well done!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "57uxn37",
+            "body": "Where is your storage? Do you have harddisks in the dell micro PCs or do you have a NAS?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Shot-Chemical7168",
+                    "body": "No NAS.\n\nThe second OptiPlex was bought specifically to serve as a cheap NAS, with a simple samba share on the Windows installation it ships with.\n\nEach node has 1 small nvme boot drive and one mass ssd drive: Currently 1 & 2 terabytes.\n\nThis currently gives me plenty of legroom over the 15gb on Google drive + 200gb of iCloud I replaced with this setup.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Bestcon",
+            "body": "Any detailed guide for a noob like me?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Shot-Chemical7168",
+                    "body": "Yep! Check the repo for the noob guide with no new hardware.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Bestcon",
+                            "body": "Thanks. I checked. But it all looks Greek to me \ud83d\ude02. I am new to this home server thingy. So which part of your guide should I follow? Atm I do not have a need for Home Assistant OS. But I am looking at others.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Shot-Chemical7168",
+                                    "body": "Hmm greek eh \ud83d\ude04 been there!\n\nWell, I would start with docker desktop, which has a GUI and can be installed on any computer.\n\nYou'll find in my repo and online everywhere \"docker compose\" config files which can be used with docker desktop to deploy 1 or more services by copying and pasting, and access it locally on your home network - with little to no terminal usage need.\n\nPick 1 service you want to use and tinker with it, for me it was immich for example - who maintain a great beginner friendly step by step guide themselves.\n\nTake it easy, and have fun. Follow up questions are welcome.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Gurgelurgel",
+            "body": "Nice collection of useful tools.\n\n\n\n\\- As Backup you use syncthing. Syncthing is no backup. I recommend you use some proper backup tool to get incremental backups with version control. And then you have to put your backup in a different location, else is doesn't make sense. And you shouldn't make the backup target accessible from your backup source. \n\n\\- I don't get why you send Home Assistant Backups over samba. I just backup the whole VM daily.\n\n\\- You expose your network to the internet. I would put all the internet services in a DMZ and not in the same network, as you did. I also miss some WAF or other protection.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Shot-Chemical7168",
+                    "body": "\\> I don't get why you send Home Assistant Backups over samba. I just backup the whole VM daily.\n\nI also backup the VM in my weekly backup job.\n\nHowever the VM backup is 3-5gb, so I only keep a few. But the \"full\" HA OS backup I export via samba, which restores full functionality, connections, devices, scenes, automation, and dashboards is around 20mb, so I keep months of weeklies with no grooming even in place yet.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Shot-Chemical7168",
+                    "body": "\\> As Backup you use syncthing. Syncthing is no backup. I recommend you use some proper backup tool to get incremental backups with version control. And then you have to put your backup in a different location, else is doesn't make sense. And you shouldn't make the backup target accessible from your backup source.\n\nAs far as I understand, Syncthing does have file versioning support, but I don't configure it yet. Might also look into this or another specialized tool also.\n\nI also need to be hyper targeted in exactly what I back up too, to enable a remote node in another country to optimize bandwidth - since right now I back everything up. Including these pretty useless 3-5gb VM weekly backup.\n\nValid concern. I don't have the strictest backup policy fully in place yet, and I count on manual backups from time to time on offline media until I address these concerns one by one as my free time allows.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Shot-Chemical7168",
+                    "body": "\\> You expose your network to the internet. I would put all the internet services in a DMZ and not in the same network, as you did.\n\nGiven my current living arrangement, and except for my work MacBook / iPhone / smart tv, which each have own protections in place - the server is pretty much the only thing on my network really, so my entire home is in effect the DMZ.\n\nRight now I'm not even home for some months now, so the server is the only thing there.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

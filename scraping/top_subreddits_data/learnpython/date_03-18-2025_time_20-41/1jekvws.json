@@ -1,0 +1,46 @@
+{
+    "title": "Working on a project, need advice",
+    "author": "76darkstar",
+    "subreddit": "learnpython",
+    "rank": 3,
+    "score": 3,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 5,
+    "url": "https://www.reddit.com/r/learnpython/comments/1jekvws/working_on_a_project_need_advice/",
+    "id": "1jekvws",
+    "selftext": "I work in the medical field and was tired of asking \u201cwhen will someone do or make\u2026.\u201d So I started learning Python  a couple weeks ago with the intention of writing a small program to help with what I do and learn something new.  I\u2019m hooked, the small program I wanted to do has turned into a pretty big idea and I\u2019m not sure at this point what I need to do.  A little insight I\u2019m trying to run a program with diagnosis codes, this will be a large bit of data for imputing. So while trying to keep it lean and clean what do you do when you have large amounts of data you need imputed without having to line it all out?  Is there a way to do it without it looking so large and confusing?  I\u2019m still learning so I haven\u2019t gotten to far along, was having issues with my columns so had AI help with that but really want to do it myself.  \n\nWhat is the best way to input large amounts of data?  Is this something I\u2019m just gonna need to pound out or is there an easier way?  \n\nThanks in advance for your insight. ",
+    "comments": [
+        {
+            "author": "Phillyclause89",
+            "body": ">What is the best way to input large amounts of data?\n\nWhat is a \"large amount\" of data in your use case?  Where is this data located (files, databases, in your head?..) What is the memory capacity of the machine you are running the script on? \n\nP.s. your question is likely too generalized to get useful answers from us.  This sub is more for questions about specific code problems, see the sidebar links --> \n\n[https://en.wikipedia.org/wiki/Wikipedia:Reference\\_desk/How\\_to\\_ask\\_a\\_software\\_question](https://en.wikipedia.org/wiki/Wikipedia:Reference_desk/How_to_ask_a_software_question)\n\n[https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/](https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/)",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "76darkstar",
+                    "body": "Great question, my idea of large amount is probably a drop compared to what others see and do. So while not needing the entire Medicare list of diagnosis codes I would need to input an overwhelming majority of it( over time) I\u2019m starting a little smaller at first.  I would also be using a list of billable Medicare codes for diagnosis. So far I did a trial run with just a few of the codes and it works the way I want and intended. I ran it through AI just to see if there was a way to \u201cclean\u201d it up, I liked what it suggested as it was better than what I knew.  Had it explain the few changes to make sure I know what it did to learn for the future.  Unfortunately or fortunately I don\u2019t want AI to do it as I really want to learn this as I go.  I\u2019m not thinking of career change but one of my old bosses works for me now and he absolutely loved the idea and thinking of incorporating it into what I already do. I guess due to how new I am with this I\u2019m just wondering how that works.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Phillyclause89",
+                            "body": "So your asking how to read in something like ICD10 codes from a excel file like this? [https://www.cms.gov/medicare/coordination-benefits-recovery/overview/icd-code-lists](https://www.cms.gov/medicare/coordination-benefits-recovery/overview/icd-code-lists)\n\nPandas lib seems to do just fine with that spread sheet: [https://gist.github.com/Phillyclause89/8e8c4c828928303708f832027c26ca4a](https://gist.github.com/Phillyclause89/8e8c4c828928303708f832027c26ca4a)\n\n[https://pandas.pydata.org/docs/](https://pandas.pydata.org/docs/)\n\nedit: Sorry the amount of text in your last comment blurred together and I didn't take the time to read it all.  As for working with AI, what I do is I try to write the code for what I want first and then I give the code to AI and ask it to document it for me. I tell it not to recommend any changes, just describe to me exactly what it thinks my code does.  The Ai then either confirms my expectations of my own work and I'm satisfied, or it doesn't and I go back to googling things.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "panatale1",
+            "body": "Best ways to take in large data sets:\nRead CSV files\nUse a database",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "rja9003",
+            "body": "If you can source the codes in a file somewhere you can use the file like a database that you write a look up function for or worse case use it to write a file that you can copy and paste out of in a single block.\n\nI wrote a script to read an excel file of products and prices,  hold each product in a temp variable then once all the products were read in i wrote out a csv to allow the products to import into our shopify database.",
+            "score": 2,
+            "replies": []
+        }
+    ]
+}

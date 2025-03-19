@@ -1,0 +1,66 @@
+{
+    "title": "Correct size rack mount bracket",
+    "author": "Ok-Contact5867",
+    "subreddit": "homelab",
+    "rank": 12,
+    "score": 7,
+    "upvote_ratio": 0.72,
+    "num_comments (reported by reddit)": 8,
+    "url": "https://www.reddit.com/gallery/1jeewgo",
+    "id": "1jeewgo",
+    "selftext": "I bought the switch on eBay and they came with these network rack mounts, not only do they not fit to the switch, they\u2019re also too big for the network rack.\n\nWhere do I find the correct brackets that\u2019s fit the switch as well as ones that fit the rack. Tried putting the switch on a tray, it\u2019s too big.",
+    "comments": [
+        {
+            "author": "kevinds",
+            "body": "Wrong ears for the switch..\n\n\nComplain to the seller..\n\n\nCheck the datasheets and manuals to find the correct part number and order it",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "GyroTech",
+            "body": "Try them the other way around: long side against the switch, short side out to the rack.",
+            "score": -1,
+            "replies": [
+                {
+                    "author": "flangepaddle",
+                    "body": "Look at the holes on them",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "jameso781",
+                    "body": "Good thought, but that won't work.  The holes are different sizes and drilled to accommodate only one direction.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Ok-Contact5867",
+                    "body": "https://preview.redd.it/79uorpyqdipe1.jpeg?width=3024&format=pjpg&auto=webp&s=4744b01ca78c206100de36c15c9b807245b044a5\n\nAnd drill holes into the existing bracket?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "jameso781",
+                            "body": "Have you tried contacting the seller to ask if they have the correct mounting brackets?  They may have sent you those by mistake.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "Ok-Contact5867",
+                                    "body": "Fill give that a try I guess before I get the drills out",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "kevinds",
+                                            "body": "I strongly suggest you not try and drill your own holes in the switch.",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

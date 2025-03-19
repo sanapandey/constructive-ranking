@@ -1,0 +1,184 @@
+{
+    "title": "For how secure certificates are supposed to be, why the hell do CRLs feel useless?",
+    "author": "AlligatorFarts",
+    "subreddit": "sysadmin",
+    "rank": 8,
+    "score": 8,
+    "upvote_ratio": 0.83,
+    "num_comments (reported by reddit)": 27,
+    "url": "https://www.reddit.com/r/sysadmin/comments/1jeefws/for_how_secure_certificates_are_supposed_to_be/",
+    "id": "1jeefws",
+    "selftext": "From Chrome's GPO template: \n\n    Setting the policy to True means online OCSP/CRL checks are performed.\n    \n    Setting the policy to False or leaving it unset means Google Chrome won't perform online revocation checks in Google Chrome 19 and later.\n    \n    Note: OCSP/CRL checks provide no effective security benefit.\n\nIt's to my understanding that a CRL is one of the only ways to \"alert\" services to a compromised CA, yet I've found many instances where programs simply do not check CRLs whatsoever. How are we supposed to keep things secure when any certificate not past it's expiration will continue to work even when revoked?",
+    "comments": [
+        {
+            "author": "Nisd",
+            "body": "This is why let's encrypt is moving towards 6 day certificates.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "AppIdentityGuy",
+                    "body": "You mean you have reissue certs every 6 days \ud83e\udd37\ud83e\udd26",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Azimuth64",
+                            "body": "I mean, the whole point of LE is automation. If your stuff is set up properly, it literally won't matter.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "AppIdentityGuy",
+                                    "body": "You wouldn't believe the number of customers I've dealt with who refuse to do that level of automation",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "jimicus",
+                                            "body": "Apple and Google are both talking about refusing to recognise any certificate lifetime beyond 90 days; your customers won't have an awful lot of choice in the matter.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "AppIdentityGuy",
+                                                    "body": "Well its currently a year if I recall correctly.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Snowmobile2004",
+                                                            "body": "Yes but 90days is planning to be implemented fairly soon, within 3-5 years",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "AbolishIncredible",
+                                                                    "body": "Sounds like a problem we can park for at least 6-7 years \n\n/s",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "mkosmo",
+                                                    "body": "Not just apple/google, but the CABF will be updating the standards accordingly.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "techw1z",
+                                            "body": "thats just one more reason to shorten the lifetime. make people suffer until they start doing it the right way.",
+                                            "score": 1,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "crossedreality",
+                                            "body": "Ive been trying to deploy proper automated PKI for years and several of my Dev teams act like it\u2019s literally impossible.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "patmorgan235",
+                            "body": "If it's automated why do you care if it's reissued every 6 days or every 6 seconds?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "danekan",
+                                    "body": "Quota limits is the only answer here",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "mkosmo",
+                                            "body": "Quota limits can and will change to go with.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "BPDU_Unfiltered",
+            "body": "The APNIC podcast where Geoff Huston speaks about revocation is really good. https://blubrry.com/ping_podcast/84229309/certificate-revocation-is-broken-long-live-certificate-revocation/",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "KittensInc",
+            "body": "The problem is **online** OCSP/CRL checks - which means the browser sending a validation request to a CRL every single time you open a new connection. Besides being a massive privacy risk, it's incredibly user-hostile. Either you add a massive delay to every connection (wait until CRL check has finished to proceed), or you're left with an insecure mechanism (proceed as usual, hope CRL returns in time to abort if needed). In practice CA's aren't even able to keep their CRLs available to everyone with very low latencies, so that's a dealbreaker.\n\nOCSP stapling was supposed to fix some of those issues, but web servers had a lot of trouble to implement it correctly, and unless the certificate had \"Must-Staple\" set (barely anyone bothered) it was fairly trivial for an attacker to strip the OCSP response from the connection. \n\nIn the end online OCSP/CRL checks didn't provide any real security, caused unintended downtime, and was costing a lot of money to operate. It has been replaced by [browser-provided bloom filters](https://letsencrypt.org/2022/09/07/new-life-for-crls/#browser-summarized-crls), which are essentially a really fancy way of compressing dozens of CRLs into an easy-to-distribute format which is now shipped to every browser. All of the revocation checks, none of the hassle!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "placated",
+            "body": "You should start transitioning to very short lived certificates.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "jess-sch",
+            "body": "The backstory of this is basically:\n* CAs were bad at keeping their CRL/OCSP servers reliably online\n* So browsers had to treat unreachable CRL/OCSP as passing\n* An attacker could probably also make the CRL/OCSP server appear to be unreachable\n* End result: CRL/OCSP is pretty much useless\n\nThe solution: Stop revoking and just do short lived certs",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Jacmac_",
+            "body": "I'm not sure I would agree that CRLs are totally usless. It's like Mike Tyson says \"Everyone has a plan 'till they get punched in the mouth.\" If you go without a CRL check and then a trusted CA is revoked, everyone with this kind of policy will be scrambling.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "jimicus",
+                    "body": "Apparently, Chrome does go without a CRL check by default.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "patmorgan235",
+                            "body": "Chrome doesn't do ONLINE CRL checks by default. It does ship with a compress file containing the CLRs that it checks locally, it just doesn't reach out on each connection to see if the cert has been revoked.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "No_Resolution_9252",
+            "body": "\\>From Chrome's\n\nThere is your problem.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "AlligatorFarts",
+                    "body": "That's the thing - Firefox also has the same behavior by default. Revoke one of your web server's certificate and watch how it continues to serve clients like nothing even happened.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "anxiousinfotech",
+                            "body": "Yeah. We had someone accidentally revoke a cert while issuing a new one, know they did so, and refuse to admit it. This behavior, and the mistake of taking a dev at their word, made what should have been an easy fix a complete fiasco.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "No_Resolution_9252",
+                            "body": "Firefox is not an enterprise browser either and is really probably even worse than chrome.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "AlligatorFarts",
+                                    "body": "What's considered an enterprise browser to you then?",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1210 @@
+{
+    "title": "After 3 years of macbook I was forced to type on Windows.",
+    "author": "AmbiDenxter3",
+    "subreddit": "mac",
+    "rank": 0,
+    "score": 2043,
+    "upvote_ratio": 0.85,
+    "num_comments (reported by reddit)": 186,
+    "url": "https://i.redd.it/v0201ekl4gpe1.png",
+    "id": "1je4d8c",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "Visesh-Kedarisetty",
+            "body": "switched to mac after windows. Im so confused about the shortcuts. CMD key is the universal shortcut key",
+            "score": 473,
+            "replies": [
+                {
+                    "author": "DoctorRyner",
+                    "body": "MacOS generally follows shortcut guidelines, that's why you can do cmd + , in pretty much any app.\n\nWhat is really confusing, is trying to understand what shortcuts a Windows app has and how to open the settings with your keyboard",
+                    "score": 205,
+                    "replies": [
+                        {
+                            "author": "lord_pizzabird",
+                            "body": "Also the taskview / workspace switcher is pure chaos, with certain windows being displayed twice (or more) if they're grouped.\n\nI'm not sure what Microsoft is thinking, but it's pure visual overload.",
+                            "score": 17,
+                            "replies": []
+                        },
+                        {
+                            "author": "Legitimate_Mission70",
+                            "body": "Settings is win+i",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "Small_Editor_3693",
+                            "body": "Whose guidelines and where are they? Switched to Mac and still can\u2019t use shortcuts cause it\u2019s so confusing",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "GreaseHeadD",
+                                    "body": "A quick google [https://support.apple.com/en-us/102650](https://support.apple.com/en-us/102650)",
+                                    "score": 7,
+                                    "replies": [
+                                        {
+                                            "author": "Small_Editor_3693",
+                                            "body": "So they follow the guidelines they made\u2026. Not useful at all",
+                                            "score": -24,
+                                            "replies": [
+                                                {
+                                                    "author": "Dethronee",
+                                                    "body": "...Who do you expect to make the guidelines? I find these shortcuts to be pretty well respected in just about every app I use too. I don't understand what your point is.",
+                                                    "score": 8,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Small_Editor_3693",
+                                                            "body": "That\u2019s why I was asking. The person above said they follow guidelines. If they make the guidelines, that doesn\u2019t really mean anything. They can just do whatever they want. It\u2019s not a standard they are following.",
+                                                            "score": -11,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Dethronee",
+                                                                    "body": "But it is still a standard, just one that they made. Microsoft has their own standards for Windows too, that they made. And the same goes with other standards like Human Interface Guidelines. Of course Apple will make the standards for Apple products.\n\nIn fact, I think it's far better that Apple has their own guidelines, created and maintained by themselves, because it means every single developer has a singular point of reference to make their app integrate correctly with Apple's own OS.\n\nWhat do you expect the alternative to be? For Microsoft to make Apple's guidelines? For 1000 independent developers to make a standard? Why would Apple *not* have standards for their own product?",
+                                                                    "score": 8,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Small_Editor_3693",
+                                                                            "body": "They implied it was a global standard they followed like ascii or IEEE standards. The same shortcut should work on windows Mac or Linux",
+                                                                            "score": -9,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "Gabgilp",
+                                                                                    "body": "What they mean is that Apple made the standards and app developers follow those standards not just Apple themselves so you can use any app, first or third party and expect the same shortcuts to work meanwhile on windows the same won\u2019t happen. You have to memorize a set of shortcuts for each app.",
+                                                                                    "score": 7,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "Small_Editor_3693",
+                                                                                            "body": "I highly doubt random Mac apps use the same shortcuts. How would that make any sense? They would interfere with the OS",
+                                                                                            "score": 0,
+                                                                                            "replies": [
+                                                                                                {
+                                                                                                    "author": "Gabgilp",
+                                                                                                    "body": "Clearly they won\u2019t use the shortcuts specific for the os but rather shortcuts that make sense to use within their apps",
+                                                                                                    "score": 2,
+                                                                                                    "replies": []
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "author": "adnep24",
+                                                                                    "body": "macos does actually follow a bunch of unix keyboard shortcuts for moving the cursor, like ctrl-n/p/f/b/a/e which are standard across unix shells including on linux",
+                                                                                    "score": 2,
+                                                                                    "replies": []
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "gg_allins_microphone",
+                                                    "body": "Who else do you think would make the guidelines for shortcuts on MacOS?",
+                                                    "score": 3,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Small_Editor_3693",
+                                                            "body": "I thought they were talking about a regulation body like IEEE or ASA or ANSI",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "gg_allins_microphone",
+                                                                    "body": "A regulatory body for computer keyboard shortcuts?",
+                                                                    "score": 3,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Small_Editor_3693",
+                                                                            "body": "That\u2019s literally why I asked. If it\u2019s just Apple no reason to even bring up they follow standards. They aren\u2019t standards if you just invent them on the fly",
+                                                                            "score": -1,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "DoctorRyner",
+                                                                                    "body": "Every standard is invented \ud83d\ude44\n\nWindows and Windows developers don't follow ANY standards for, this is the most confusing thing ever where you have to awkwardly look for settings in application GUI, at least on Mac you have menu bar that is always at top with \"Settings\" button in the exactly same place for every app",
+                                                                                    "score": 1,
+                                                                                    "replies": []
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "DoctorRyner",
+                                                    "body": "Lol, is it crazy to follow macOS guidelines on macOS? Most developers follow it, and even Microsoft team that made VS Code added ctrl + , shortcut to mirror cmd + , on Mac. That's because Apple and macOS is the ONLY desktop operating system with shortcut guidelines, at least with guidelines that developers do actually follow. Finding an app that doesn't support cmd + , is a quest, lol. I can't think of any tbh. cmd + shift + \\[ or \\] also works to switch tabs in pretty much every app, I just tested it in apps I use. I know for sure that on Windows this shortcut is different, like Mozilla Firefox on Windows does ctrl + arrow keys or some shit and cmd + shift \\[ or \\] on Mac, like any other app.\n\nI repeat, macOS is simple the only operating system with at least somewhat reliable predictability and consistency of shortcuts. In Linux/Mac/FreeBSD, guessing is nearly useless, some thing like ctrl + w seem to become popular nowadays, but it's influenced by Mac too, lol. I'm pretty sure Windows and Windows devs don't follow any guidelines that would result in every app having alternative of cmd + , shortcut (and other shortcuts too)",
+                                                    "score": 0,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Small_Editor_3693",
+                                                            "body": "You really need to work on reading comprehension",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "A-Delonix-Regia",
+                            "body": "Windows and any Microsoft-created software that runs OS-level tasks (PowerToys is an example of this, Microsoft Office is not) will use the Win key always and depending on the action, may require Ctrl or Alt or Shift as well to be pressed. Settings uses Win+I.\n\nThird party software will never use the Win key.\n\nThe only important OS-level shortcut that does not use the Win key is Ctrl+Alt+Del (to open the Windows Security Screen for getting Task Manager or signing out and guaranteeing that some malware isn't impersonating Windows login screens and other important stuff).",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Tramagust",
+                    "body": "Command is just spicy windowsCTRL\n\nMacControl key is windowsALT\n\nMacOption is windowsKey",
+                    "score": 14,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Akostol",
+            "body": "Command + shit + 5 \ud83d\uddff",
+            "score": 207,
+            "replies": [
+                {
+                    "author": "TheLandOfConfusion",
+                    "body": "Do I have to keep command pressed while I shit?",
+                    "score": 239,
+                    "replies": [
+                        {
+                            "author": "c4ttskillzz",
+                            "body": "Well sometimes you command shit, sometimes it commands you\u2026",
+                            "score": 44,
+                            "replies": []
+                        },
+                        {
+                            "author": "Akostol",
+                            "body": "Obviously you have to!",
+                            "score": 28,
+                            "replies": [
+                                {
+                                    "author": "pyfinx",
+                                    "body": "\ud83d\ude02",
+                                    "score": 0,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "DeliciousSTD",
+                            "body": "U have to push while pushing\n\nNo hernia needed",
+                            "score": 6,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "cultoftheilluminati",
+                    "body": "That\u2019s because most of the other shortcuts are actually used- \u2318+\u21e7+3 for a simple full screen screenshot \u2318+\u21e7+4 to quickly select a region (or if you press space, choose a window) and \u2318+\u21e7+5 brings up the gui to choose manually which one you would want to do. \n\nI personally use \u2318+\u21e7+1 and 2 for cleanshot X shortcuts.",
+                    "score": 8,
+                    "replies": []
+                },
+                {
+                    "author": "dukeoblivious",
+                    "body": "Windows + shift + S is pretty close. Use it all the time on my work laptop.\u00a0",
+                    "score": 9,
+                    "replies": []
+                },
+                {
+                    "author": "Superb-Hawk-3338",
+                    "body": "I swear there was a print screen button. \ud83e\udd23",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "TucosLostHand",
+                            "body": "logitech combo touch for ipads has screenshot shortcut built in. the case looks and performs well for my ipad.\n\nedit. period...",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Interesting-Bass9957",
+                    "body": "\u2318 + \u21e7 + 5*",
+                    "score": 6,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "spudds96",
+            "body": "Doesn't the windows key also operate as a similar type of key",
+            "score": 30,
+            "replies": [
+                {
+                    "author": "DanielP0808",
+                    "body": "The [WINDOWS] key is basically the [COMMAND] key in macOS/iPadOS. I only find the [WINDOWS] key useful with specific Windows keyboard shortcuts, like [WINDOWS] to open the Start menu or [WINDOWS] [TAB] to open the Task View app changer.",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "penguinchem13",
+                            "body": "Windows + L locks the PC",
+                            "score": 9,
+                            "replies": []
+                        },
+                        {
+                            "author": "Small_Editor_3693",
+                            "body": "Windows +shift + s is snipping tool. Way better than the stupid numbers for screenshots in mac",
+                            "score": 14,
+                            "replies": [
+                                {
+                                    "author": "nemesit",
+                                    "body": "The numbers have a meaning though and allow for basically any kind of screenshot",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Small_Editor_3693",
+                                            "body": "They don\u2019t have any meaning. They could be in any order and require you to memorize them. S = snipping",
+                                            "score": 7,
+                                            "replies": [
+                                                {
+                                                    "author": "nemesit",
+                                                    "body": "I meant you can do different kind of screenshots (whole screen or selection etc), clip directly to clipboard (holding ctrl), move the selection (holding space) and so on and so on with windows you have do bother with another app for no reason. Hell you can even integrate it in applescript. Like paste whatever you clipped directly to latex or markdown syntax into the frontmost text window",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Small_Editor_3693",
+                                                            "body": "What? Just windows shift s and snip it. It goes directly to your clipboard. You can do all that other stuff with power toys and it\u2019s pretty integrated. Text extraction is pretty intensive and wouldn\u2019t want any system to be able to just do that without consent for privacy",
+                                                            "score": 0,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "nemesit",
+                                                                    "body": "You misunderstood, while you could do text extraction too if you wanted i meant you can process those clips directly put them in a subfolder of your project and insert a text link to them varying by document type etc. ;-p",
+                                                                    "score": 1,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Small_Editor_3693",
+                                                                            "body": "And you do all that with keyboard shortcuts? Please no",
+                                                                            "score": 0,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "nemesit",
+                                                                                    "body": "Actually i trigger such things via text shortcuts but yeah you could do keyboard shortcuts too hell you could even change the default shortcut to your beloved win/cmd + s ;-p",
+                                                                                    "score": 1,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "Small_Editor_3693",
+                                                                                            "body": "If you\u2019re doing that, might as well write a PowerShell script in windows. Same thing.",
+                                                                                            "score": 1,
+                                                                                            "replies": [
+                                                                                                {
+                                                                                                    "author": "nemesit",
+                                                                                                    "body": "Not even close ;-p",
+                                                                                                    "score": 0,
+                                                                                                    "replies": []
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "Juice805",
+                                                    "body": "What\u2019s the key combination to record",
+                                                    "score": 0,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Small_Editor_3693",
+                                                            "body": "Windows shift R for record",
+                                                            "score": 5,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Juice805",
+                                                                    "body": "That's on me, I set the bar too low",
+                                                                    "score": 5,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "your_evil_ex",
+                                    "body": "Or Windows+PrintScreen",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Pisford",
+            "body": "Hiding embarrassment with command button",
+            "score": 82,
+            "replies": [
+                {
+                    "author": "Aidian",
+                    "body": "CMD+h",
+                    "score": 11,
+                    "replies": [
+                        {
+                            "author": "felipebarreiros",
+                            "body": "Gold",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "SterquilinusC31337",
+            "body": "Um... for the love of shit this meme is idiotic.\n\ncmd+tab, then cmd+\\~ -vs- alt+tab (which also tabs through minimized windows)\n\ncmd+globe+cursor to move a window to a tile zone -vs- win+cursor to snap to tile zones AND move a window to another monitor.\n\nWith that... I liked the actions of cmd+cursor so much I added to my autohotkey script back in 2015. \n\nIf anyone knows of a native mac keyboard command to move a window to another monitor please speak up. \n\nShould be noted, that those keys are just part of a full sized keyboard, and that there are keyboards used on windows that lack those keys and require fn+something.",
+            "score": 92,
+            "replies": [
+                {
+                    "author": "AStringOfWords",
+                    "body": "Not respecting the \u201chome\u201d and \u201cend\u201d keys is the worst thing that macOS does.\n\nCommand and left? wtf?",
+                    "score": 35,
+                    "replies": [
+                        {
+                            "author": "ImHughAndILovePie",
+                            "body": "It sucks - they sell full width keyboards with buttons that don\u2019t do anything lmao",
+                            "score": 11,
+                            "replies": [
+                                {
+                                    "author": "AStringOfWords",
+                                    "body": "Oh they do stuff alright, just not the stuff you would want.",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "WearyAffected",
+                                            "body": "Gets me every time. I\u2019ll be in a text box typing, I\u2019ll make an edit to the text somewhere and press End on macOS and it\u2019ll take me to the end of the webpage instead of the end of the text. I don\u2019t think I\u2019ll ever get used to that.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "SterquilinusC31337",
+                            "body": "Meh. I have to disagree. I hate the mac, but when editing cmd+cursor is how it should have been across the board for all families of computers starting with the original trinity, with cmd replaced with whatever modifier.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "AStringOfWords",
+                                    "body": "Should have been is great, but that\u2019s not what happened.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "SterquilinusC31337",
+                                            "body": "Sadly, no. {modifier key1-3} + ASDW for cursor keys, paging, home, end, beginning of line and end of line also would have been good. \n\nInstead we had everyone doing their own thing.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "T3a_Rex",
+                    "body": "I don\u2019t know of a native way to move windows between monitors, but for me Rectangle works well for that\n\nhttps://rectangleapp.com",
+                    "score": 11,
+                    "replies": [
+                        {
+                            "author": "SterquilinusC31337",
+                            "body": "I find the window management on the mac to be the worst I have experienced on any OS.",
+                            "score": 23,
+                            "replies": [
+                                {
+                                    "author": "jspikeball123",
+                                    "body": "You mean you don't like 100 windows floating randomly on top of each other with no discernable way to organize them easily?",
+                                    "score": 15,
+                                    "replies": [
+                                        {
+                                            "author": "SterquilinusC31337",
+                                            "body": "I do not. Does OSX ever have any kinda cascading of windows? Is this really what most mac users like? Are they actually all single taskers? I dont get it.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "wallaka",
+                                                    "body": "Yes, Mission control has existed since 2011 and does all the window grouping, cascading, etc that you could think of",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "SterquilinusC31337",
+                                                            "body": "Watched a few educational videos on mission control and outside of scripting I'm not seeing any kinda cascade option. It's also not an option in the window/resize or full screen tiles. Google searches seem to confirm there is no cascade, with people looking for solutions. What's pretty funny is the number of people giving answers having nothing to do with the original question all over the place. Lol.",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "FuggaDucker",
+                                    "body": "That UI was designed pre 1984 and doesn't seem to understand that people use more than one app at a time.  This is perpetuated by the lie that it is simply better so whats to fix?",
+                                    "score": 7,
+                                    "replies": [
+                                        {
+                                            "author": "shotsallover",
+                                            "body": "The Mac used to be way ahead. Especially with multiple monitor support. Then Windows got tired of people complaining about theirs was and actually solved it. Now the Mac is a little behind.\u00a0",
+                                            "score": 6,
+                                            "replies": [
+                                                {
+                                                    "author": "zupobaloop",
+                                                    "body": "This is a complete lie. There has never been a moment in which macOS had better multimonitor support. Windows 95 quite literally had better multimonitor support than OS9.  Is took OS X to get half way decent dual monitor support. Mac has always been at least 5 years behind.\n\nEven now, M series Macs have their bus so \"optimized\" that anything beyond two screens is a struggle. Meanwhile a comparably priced Windows machine handles 4 displays without breaking a sweat.\n\nWhat's weird about this lie is Jobs was explicit about it. Next and Mac were both design to be single task oriented.  He repeatedly talked down about Windows bending toward multitasking.",
+                                                    "score": 3,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "DidiHD",
+                    "body": "i haven't tried yet but didn't they finally introduce window snapping with macOS 15? Also does alt+tab now finally work wihtout 3rd party apps? lol",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "SterquilinusC31337",
+                            "body": "if you want alt-tab features on the mac you still need to install alttab or another 3rd party piece of software.\n\nThey introduced tiles/snap zones, they are limited, but the point was in windows you move the windows around tiles and monitors with one key combo -vs- 87.",
+                            "score": 0,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "maratc",
+                    "body": "> If anyone knows of a native mac keyboard command to move a window to another monitor please speak up.\n\nJust [add your own App Shortcut](https://www.linkedin.com/pulse/mac-keyboard-shortcuts-arranging-app-windows-mohsen-vaziri/) and be done with it.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "zupobaloop",
+                            "body": "That's a long winded way of saying \"no.\"",
+                            "score": 0,
+                            "replies": [
+                                {
+                                    "author": "CarretillaRoja",
+                                    "body": "No, it\u2019s a way of saying \u201cyou can accommodate the shortcuts that works best for you\u201d. \n\nIn general terms, you can define your own Shortcuts. Let\u2019s say that in your favorite app you have a menu item which is \u201cFormat -> All Items -> Left\u201d. You go to MacOs Settings app, keyboard and define a new shortcut: cmd + shift + L and assign it to \u201cLeft\u201d within your app. Boom! Next time you just press cmd + shift + L and you have it. \n\nNow compare that to windows.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "zupobaloop",
+                                            "body": "The question was for a native keyboard command.  So the answer was no.\n\n>Now compare that to windows.\n\nWindows is rated *much* higher for accessibility by advocacy groups.  One reason is *every* accessibility concern like this can be addressed with a keyboard or the mouse out of the gate (many functions in Apple require one or the other).\n\nSo 3 comparisons:\n\n* Windows can already do this without any modification at all.\n* Powertoys allows the remapping of any key.\n* AHK is a free 3rd party solution that would easily let you create these sorts of shortcuts and assign them to whatever hotkey you wanted.\n\nI'm not sure how you want to compare that.  3 to 1?  1 to 0?  Maybe give Apple a half point?  Anyway, Windows is objectively better on this front.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Disastrous_Fee5953",
+            "body": "I prefer the dedicated buttons and use them daily on my Mac with an external keyboard. I don\u2019t think using four shortcuts on one key is inherently better.",
+            "score": 28,
+            "replies": []
+        },
+        {
+            "author": "cupboard_",
+            "body": "i still prefer the dedicated buttons when i have an external keyboard, but it\u2019s also nice to have these functions when using the laptop keyboard",
+            "score": 30,
+            "replies": []
+        },
+        {
+            "author": "baqirabbas404",
+            "body": "there is no substitute for page up/down. scrolling through pages  without needing to touch that mouse,",
+            "score": 27,
+            "replies": [
+                {
+                    "author": "stiggg",
+                    "body": "It\u2019s fn + up/down",
+                    "score": 9,
+                    "replies": [
+                        {
+                            "author": "baqirabbas404",
+                            "body": "both keys are on the opposite ends, you have move both hands to do what was supposed to be with one",
+                            "score": 15,
+                            "replies": [
+                                {
+                                    "author": "ha_nope",
+                                    "body": "i remapped globe on the left to an extra command( bonus I can use ctrl c like windows. Then I put globe on right option so I can page down with one hand.",
+                                    "score": 2,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "sameera_s_w",
+                                    "body": "Me laughing having capslock WASD as arrow keys. :D",
+                                    "score": -2,
+                                    "replies": [
+                                        {
+                                            "author": "AStringOfWords",
+                                            "body": "Dumb solution to a dumb problem",
+                                            "score": 5,
+                                            "replies": [
+                                                {
+                                                    "author": "sameera_s_w",
+                                                    "body": "That's not a solution, that's called a macro. quite similar to HJKL.  \nI use a 60% that's why but it got me used to this macro so much now I always prefer it :)",
+                                                    "score": -1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "TheMAINKUS",
+                            "body": "Yeah and this shortcut has different behaviours in the terminal in PyCharm, in VSCode or in the Terminal. It's so annoying. That's for me the only weakness of Mac keyboard, the absence of these 4 keys.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "TheMAINKUS",
+                            "body": "Yeah and this shortcut has different behaviours in the terminal in PyCharm, in VSCode or in the Terminal. It's so annoying.  \nThe absence of these 4 keys is for me the only weakness of Mac keyboard,",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Skelly1660",
+            "body": "So pressing two buttons is better than just having a dedicated button to do it? This meme is so dumb.\u00a0",
+            "score": 25,
+            "replies": [
+                {
+                    "author": "AStringOfWords",
+                    "body": "Not just two buttons, but two buttons you can\u2019t reach with one hand.",
+                    "score": 13,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "conte360",
+            "body": "Reddit is getting so bad at memes, it's painful",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "poncho5202",
+            "body": "i will say that the biggest thing i missed when switching from windows to mac (and never going back) was the option to backspace OR delete",
+            "score": 26,
+            "replies": [
+                {
+                    "author": "Whole_Sheepherder_97",
+                    "body": "you can though, you just need to hold fn + delete",
+                    "score": 18,
+                    "replies": []
+                },
+                {
+                    "author": "12Peppur",
+                    "body": "You can hold function n do delete for the in front erase",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "jspikeball123",
+            "body": "I had to use macOS for the first time recently and I nearly pulled my hair out at many of the design decisions. There may or may not be ways to fix these things but they are so incredibly basic that I don't think you should have to for an OS that's on its 15th(?) version. \n\nMaximizing window fullscreens it. No, bad. \n\n3rd party apps required to do functional window snapping, and no, what apple has built in is not functional. \n\n5 pixel gap around maximized windows. Truly insane choice.\n\nSettings for apps are sometimes within the app and sometimes in settings.\n\nThere are multiple touchpad gestures to do nearly the same thing. \n\n3rd party mouse buttons (forward, back etc.) are functionally useless without 3rd party software. \n\nStupid, non standard screen resolutions and scaling so hooking up to any monitor that is not a $1k XDR display  is gonna be a bad time. \n\nWorst of all, the geniuses at Apple think their way is the only way and you basically just have to get used to their design. At least Microsoft knows they have shit design and you can change it to work how you want.\n\nI have never had something \"just work\" for me less.",
+            "score": 12,
+            "replies": [
+                {
+                    "author": "DoctorRyner",
+                    "body": "Tell me what is the shortcut to open settings on a non Mac system",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "levy4380",
+                            "body": "Win + I",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "DoctorRyner",
+                                    "body": "I meant app settings. This is such a basic thing, you just press a shortcut and see you app's settings. In EVERY application, just press and poof, the same shortcut works everywhere",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "levy4380",
+                                            "body": "I'll give you this one. But let me ask you: How do you close an app on macOS? And i mean completely closed",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "cape2cape",
+                                                    "body": "App\u2019s menu -> Quit\n\nOr Cmd-Q",
+                                                    "score": 2,
+                                                    "replies": [
+                                                        {
+                                                            "author": "levy4380",
+                                                            "body": "And clicking the red button doesn't work? That's seems like bad design and counterintuitive",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "cape2cape",
+                                                                    "body": "An application and a window are different things.",
+                                                                    "score": 5,
+                                                                    "replies": []
+                                                                },
+                                                                {
+                                                                    "author": "JuDGe3690",
+                                                                    "body": "The window/app distinction is one of the things I actually really liked about OS X when I started using it more than a decade ago, in graphic design. Being able to have an application open (i.e. fully initialized and in memory) even without an open window was a productivity game-changer, e.g. when working on a layout in Adobe InDesign and needing to occasionally edit images in PhotoShop. On Windows, having the application close when its last window was closed meant that if I accidentally closed PhotoShop's application frame I would have to wait a minute or two for it to relaunch when I went to edit another photo (this happened rather frequently on my old Windows computer). \n\nWith OS X, I could have whatever applications I needed fully open and ready to use, even if I didn't have any active windows in those applications.",
+                                                                    "score": 4,
+                                                                    "replies": []
+                                                                },
+                                                                {
+                                                                    "author": "DoctorRyner",
+                                                                    "body": "Red button is cmd + W. When you close a window you can still see application running in Dock. The only reason why it can be confusing at start is because you are used to other operating systems. But if you work on Mac, it makes sense and it actually is part of convenient mechanics that Mac users are used to",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "whytakemyusername",
+                                                    "body": "Cmd + Q",
+                                                    "score": 2,
+                                                    "replies": [
+                                                        {
+                                                            "author": "levy4380",
+                                                            "body": "Having to learn a shortcut to close an app is bad designing in my books",
+                                                            "score": 2,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "whytakemyusername",
+                                                                    "body": "You don\u2019t have to learn a shortcut to do that. Go to file and quit. Or right click in the dock and quit. It\u2019s just another option. Keyboard shortcuts will always be faster and power users will always want them.\n\nOn windows it\u2019s alt + f4.",
+                                                                    "score": 1,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "levy4380",
+                                                                            "body": "No. On windows you have a lovely cross that kills the mayority of apps",
+                                                                            "score": 1,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "DoctorRyner",
+                                                                                    "body": "I know for sure that lots for app just hide in trey and trey, in contrary to dock, can be hidden from the user and it's really confusing. On Mac nearly every app isn't closed with red button, so you can expect the behavior. And if it's closed completely, you see the animation in the Dock right away, menu bar with app's name also disappears. But when cross doesn't close the app you are usually aren't even aware of it, you need to explicitly go to another menu to check it. Razer Synaps works like this for instance",
+                                                                                    "score": 1,
+                                                                                    "replies": []
+                                                                                },
+                                                                                {
+                                                                                    "author": "whytakemyusername",
+                                                                                    "body": "If it doesn\u2019t minimize them to the system tray - dependent upon the app - like macOS\u2026",
+                                                                                    "score": 1,
+                                                                                    "replies": []
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "DoctorRyner",
+                                                    "body": "cmd + Q, because cmd + W closes a window. There is a bit of inconsistency where cmd + W can close some single window applications. And sometimes you can close app by mistake because Q and W are neighbors.\n\nThe other way that works for sure is to click the app's name in the menu bar which is always on top and at the bottom you'll see \"Quit {APPLICATION\\_NAME} {SHORTCUT}\"",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "ocean55627",
+                    "body": "\\>3rd party apps required to do functional window snapping\n\nUpdate your Mac, they fixed this on Sequoia \n\n\\>5 pixel gap around maximized windows.\u00a0\n\nThis is a setting you can simply disable it in the settings menu\n\n \\>Settings for apps are sometimes within the app and sometimes in settings.\n\nVery true this is UX hell and very different from the rest of Apple's operating systems\n\n\\>3rd party mouse buttons (forward, back etc.) are functionally useless without 3rd party software.\n\nThis is true but a ton of hardware these days requires apps on windows too so uh.... The only OS you can avoid this crap on is GNU/linux",
+                    "score": -2,
+                    "replies": [
+                        {
+                            "author": "user7532",
+                            "body": "> very different from the rest Apple's operating systems\n\nPlease, in iOS it's even worse. Not only do some apps have all their settings in the app and some in settings, sometimes an app has different settings both in-app and in settings!!!",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "penguinchem13",
+                                    "body": "Biggest thing I hated coming from android",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Erodagon",
+                            "body": "> Update your Mac, they fixed this on Sequoia \n\nIt's still pretty limited. You can't natively change the keyboard shortcuts to something more sane, an application has to have the 'Window' menu bar option implemented or else it won't work (looking at you Amazon Workspaces and many other apps), there is no API to interact or set/get the state of snapped windows (finding info about undocumented functions that implement these has been limited)",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Organic_Rip1980",
+                    "body": "I always appreciate when Windows users insist that Windows is better. \n\nThat\u2019s how you know they\u2019ve *really* been worn down.\n\nBut\u2014where\u2019s my friendly Windows where I already know how to change it??\n\nI forgot to add: \u201cI don\u2019t _want_ to learn something new!\u201d \ud83d\udc76 \ud83d\udc76",
+                    "score": -3,
+                    "replies": [
+                        {
+                            "author": "crustyrat271",
+                            "body": "I always appreciate when macOS users insist that macOS\u00a0is better.\n\n\nThat\u2019s how you know they\u2019ve really been worn down.\n\n\nBut\u2014where\u2019s my friendly macOS\u00a0where I already know how to change it??\n\n\nI forgot to add: \u201cI don\u2019t want to learn something new!\u201d \ud83d\udc76",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "GrandPriapus",
+            "body": "Lose Control, Gain Command",
+            "score": 15,
+            "replies": []
+        },
+        {
+            "author": "Over_Variation8700",
+            "body": "I generally use Windows computers and always when i get to use a Mac, i press CTRL + C and wonder why isn't the text copying. Mac having both CTRL and CMD keys is so confusing",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Kiwithegaylord",
+            "body": "I\u2019m a former Mac user, the way I like my commands is to have the super (windows/command) key bound to combos dealing with the desktop (eg: moving windows, opening apps, etc) and the ctl key mapped to the ibm CUA definitions",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Chuck_Loads",
+            "body": "Dedicated home/end keys are clutch, though",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "jzr171",
+            "body": "I miss when it was the Apple key. Back when they asserted dominance!\n\nAnd for the older users, back when there was Open Apple and Closed Apple",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "johnnybgooderer",
+            "body": "I use a Mac and have for decades. I still miss all those keys. They\u2019re way easier to use quickly.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "TrekChris",
+            "body": "I'd rather have separate keys for functions, but that's just me.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "JerkOffToBoobs",
+            "body": "I like dedicated buttons so much I have programmable macro keys that do more complicated keyboard shortcuts with one button. Screw using Ctrl+shift+v for paste without formatting, I'm using one button.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Djimi365",
+            "body": "Just to counter this, using a Mac after a lifetime of using Windows I couldn't believe I had to learn shortcut combinations to do things I could do with a single key on a full size keyboard \ud83d\ude02\n\nI guess it comes down to what you are used to. The mac made infinitely more sense to me when I used modifier keys to switch control and command keys around...",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "TrickStudio2494",
+                    "body": "He knows he knows! # key.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "D3F3ND3R16",
+            "body": "Me hitting space key on windows at work 10x a day trying to launch apps\u2026",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "SituationGloomy3098",
+            "body": "How to move around the composition using a touchpad in AE? Well, except for approach and distance",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "finobi",
+            "body": "Whats the deal with control+c but then command+v for paste?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "DidiHD",
+                    "body": "huh?",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "finobi",
+                            "body": "In some apps like TextEdit Command+C does not work and instead I need to copy text with Control+C?",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "AStringOfWords",
+                                    "body": "Then you open up office 365 and control+c and control+v work like they did on windows, and you\u2019re in a word document for juuuuust long enough to forget about the command key.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "zupobaloop",
+                                            "body": "Office has its own clipboard system. It does in Windows too.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "CarretillaRoja",
+                                                    "body": "And it\u2019s pure garbage",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Interesting-Bass9957",
+            "body": "\u2318 *",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "strcy",
+            "body": "I use a full size Mac keyboard with page up/down all the time to move between keyframes in After Effects \n\nI\u2019m sure there\u2019s another way to do it but I won\u2019t go back lol",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "mexus37",
+                    "body": "CMD + Arrow keys",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "crusoe",
+            "body": "Just don't try an show two unrelated app windows on the screen at the same time. Ugh Macos.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Ashtrim",
+            "body": "This ain\u2019t it chief",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "crustyrat271",
+            "body": "I'm in love with my MB Air M1, so much that I get myself another one after 03 years when the old one can't handle my work anymore (basically 8GB of RAM to 16GB of RAM).  \nBut only the hardware is lovely, not the software.  \n03 years and I can't even say I love macOS, not even liking it\n\nWith Linux, it's however you want.  \nAt least with Windows you have the option to change the default.\n\nWith macOS, it feels like they want to \\`Think different\\`, always; but only for the shake of being different, not being the right choice.\n\nSo I need to install noTunes, Rectangle, UnnaturalScrollWheels,... just to make it bearable  \nAnd still the fans keep swearing it-just-works",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "zupobaloop",
+                    "body": "It does just work... It just doesn't do half of what you can do on Windows. Most of the user base is blissfully unaware.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "demoman1596",
+                    "body": "I mean, it does just work if you aren't demanding one operating system to be another.  I'm not defending Apple here by any means, and I agree that they could and should absolutely add more customization options, but I would for sure also argue that you are demanding two completely different pieces of software by (in some cases more than) two completely different companies that have existed in one manner or another for around 40 years should work the same.  That's not exactly the most reasonable demand, to be honest.  Nor does it take into account intellectual property law, which is not the most consumer-friendly entity we have to deal with, it turns out.\n\nAnd Linux is not \"however you want\" unless the customization option exists in the distro you use.  Otherwise, you may have to do an incredible amount of work to get it to be just the way you want, and that is also potentially problematic for people.  I've spent days on end numerous different times over the years trying to get some Linux distro or other to work the way I want, and it is not nearly as straightforward as some suggest.\n\nI'm not trying to say your opinion or concerns are wrong, by any means, but you're coming at this from what appears to be a rather incomplete perspective.  Maybe I am, too.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "crustyrat271",
+                            "body": "thank you for the polite reply and not blindly down vote my comment.\u00a0\u00a0\n\n\nI can get used to the OS differences, but not the quirks:\n\n\nI don't have very good eyes, and for that I need bigger buttons, bigger text and bigger everything; it's 2025 and god forbid if my screen doesn't fit what the system prefers.\n\n\nI don't understand the decision to have separate tabs for track pad and mouse, but apply the same natural scroll configuration to both devices.\u00a0\n\n\nI'm not a fan of Windows, I'm stuck with it because of its backward compatibility (there for the huge range of applications).\u00a0\u00a0\n\n\nI'm a fan of Linux, and I know it's not as easy as other OSes for newbies, but I also know popular distros don't require any additional step to be able to scale up the UI and font, or to snap windows to the edges.\u00a0\n\nOr keep guessing what double clicking on title bar would do to the Finder\n\n\nThese are not just missing features or differences in behavior, many are accessibility issues.\n\nI know that all the OSes are shitty, but at least when I raise my concerns, I hope the only reply I get wasn't \"you're holding it wrong\"",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "demoman1596",
+                                    "body": "I hear what you're saying about accessibility issues.  I might be wrong, but as far as I know you totally can scale macOS to any size you want, though in some cases you might need the help of a third-party tool like BetterDisplay to dial in certain exact resolutions if the default options don't work for you (which you can see in the Displays pane in System Settings if you enable the option to \"Show List\" of resolutions: [Change your Mac display\u2019s resolution - Apple Support](https://support.apple.com/guide/mac-help/change-your-displays-resolution-mchl86d72b76/mac)).  macOS is weird in that it doesn't specify scaling as a percentage, like you normally see in Windows or Linux these days, but rather as a \"looks like\" resolution.  Maybe there's something about it that I'm missing.\n\nOne thing that it helps to remember is that Apple really had been on the vanguard of high-resolution consumer displays, so they came up with a fairly clean way of doing it (especially for their first \"Retina\" displays) that worked for most of their customers, in particular for 2D graphics and desktop publishing.  It just turns out that way has some fundamental differences from the ways Windows and Linux have later chosen.  Frankly, both Windows and Linux seem to have scaling issues to this day for displays with high pixel densities, and I run into little problems multiple times a week in Windows on my 4K displays at work.  I run Ubuntu in a virtual machine on my Mac with a 5K display and it has its share of issues as well.  macOS doesn't ever seem to have scaling issues anymore where text or buttons or other interface elements are cut off (like Windows and especially Linux do have).  But none of the solutions by any developer, Microsoft or Apple, have been perfect in my opinion, and I'm continually frustrated that Apple removed subpixel antialiasing in macOS back in 2018 or so (so that text now looks more blurry on non-\"Retina\" displays).\n\nUltimately, I do think Apple makes plenty of odd decisions when it comes to what the defaults are, like the way scrolling direction can't be independently selected between mice and trackpads (as you mentioned), and other stuff like that.  And there are tons of other issues, like Apple removing \"old\" features too quickly from macOS or from their devices.  I just tend to think we spend too much time acting like Windows is the default and that things should therefore work the specific ways Microsoft has chosen over the years.  Maybe sometimes they really should, don't get me wrong, but a lot of the ways each system works are simply matters of historical accident or necessity (for instance, a full-fledged solution didn't really exist yet to deal with scaling on high-PPI displays, so one had to be invented when Apple decided to sell \"Retina\" displays en masse).",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "OmegaNine",
+            "body": "my god i miss being able to hit delete and page up and down with one hand.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "mattincalif",
+            "body": "I love Macs. I hate the fact that on the built in laptop keyboard I can\u2019t do page up and page down with one hand! (Since the function key is at the far left and arrow keys are at far right) (and yes, I created a workaround for myself using Karabiner, but that\u2019s kind of a pain.)",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "PixelHir",
+            "body": "hot take, I miss those buttons on Mac, I hate hitting and remembering key combinations. I guess just a matter of habit.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "AySeaDee_",
+            "body": "I actually think windows shortcuts are easier. And i have a pc that dual boots mac and windows, and i use both regularly",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "FuckingStickers",
+            "body": "I don't get it. What are the shortcuts with command? I use the emacs ones, ctrl+a and e.\u00a0",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "SterquilinusC31337",
+                    "body": "Those are standard on many terminal devices. That combo works on switches and routers and all kinda things.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "mexus37",
+                    "body": "CMD + Arrow Keys",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "plasmatech8",
+            "body": "CMD is a pretty nice way to give millions of people carpel tunnel",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "IdoitsAreIdoits",
+            "body": "mac is pure garbage in terms of shortcut",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "balthisar",
+            "body": "I use those keys on my authentic Apple keyboard all the time.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "RaspberryDistinct222",
+            "body": "There's only one answer autohotkey once u get a hang of it u can do way more things than just remapping keyboard shortcuts",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Delicious-Setting-66",
+            "body": "Hold my FN + arrow keys",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "LeftHanded2004",
+            "body": "My favorite part of this is that Ive never used either. On my macbook or my old windows laptop.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "radioactive-tomato",
+            "body": "I work on Windows machine on my job. I often instinctively go for command instead of control and it is infuriating.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Previous-Foot-9782",
+            "body": "I can so see Apple putting a charging port on top of the command key.....",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "WOWSuchUsernameAmaze",
+            "body": "On windows if you don\u2019t want to use the actual keys you can use Fn+[arrow] for all of these.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Legitimate_Mission70",
+            "body": "I don't think I have ever used home,pg up,pg down or end ever and I use a lot of shortcuts",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "0rsted",
+            "body": "https://en.m.wikipedia.org/wiki/Apple_Extended_Keyboard\n\n1987\u2026   \nThe year after IBM introduced the Model M that's the standard today\u2026\n\nThose exact four buttons\u2026\n\nhttps://en.m.wikipedia.org/wiki/Magic_Keyboard_(Mac)\n\nThey also happen to _still_ be on the keyboard today, just with icons instead of words.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "phulton",
+            "body": "The only thing I hate about windows using ctrl is the location of the key. \n\nThe cmd key is right by my left thumb, easily pressed. Ctrl key is in the next county and requires bending my pinky in a way that causes carpal tunnel.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "MBSMD",
+                    "body": "HHKB would like to speak with you.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Absorbe",
+            "body": "I mean I like cmd button too but some shortcuts are dumb as shit and I\u2019d love a pg up pg down button near the arrow keys. There are two perfect spots for them.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "fermatgoulag",
+            "body": "After 10 years of macOS for me, recently was forced to type on Windows for work",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "stoic_alchemist",
+            "body": "Just FYI, some CMD shortcuts can be just replaced by Ctrl or Alt, yeah, it's more confusing but it's still there.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Footyjr552",
+            "body": "After 5 months since switching MacBook, I now know how to use these functions thanks to a meme I saw on Reddit. Thank you!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "sassinyourclass",
+            "body": "Text navigation on macOS is GOATed (assuming the app I\u2019m using doesn\u2019t break it like Slack)",
+            "score": -4,
+            "replies": [
+                {
+                    "author": "motram",
+                    "body": "Eh, it has a real problem with too many keys. \n\nThere is no real design architecture between control, option and command that I understand. Add fn and shift to the mix, and you have a mess of keys, and they aren't in great keyboard position to press while typing. \n\nWindows is consistent.  Control keys are for your basic commands, it controls the content (text). Alt is rarely used, but it controlls the app itself (menu bars), and windows is for the windows UI.\n\nMeanwhile I have to contort my fingers to select word by word with the keyboard on Mac.  Command + shift + q is Lock Screen?   Why?  Whyyyyyy?   \n\nOn windows that would be windows key (because you want a OS level command + L (for lock)).  Simple.  Easy.  memorable. \n\ninstead of shift + q, where you are a mistaken keypress away from closing your app.",
+                    "score": 14,
+                    "replies": [
+                        {
+                            "author": "MBkufel",
+                            "body": "The fact that alt is barely used for in-text commands in Windows is extremely important for people who type on standard keyboards in languages that use more letters than English does. Alt is the standard modifier for special characters.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "MBkufel",
+                            "body": "The fact that alt is barely used for in-text commands in Windows is extremely important for people who type on standard keyboards in languages that use more letters than English does. Alt is the standard modifier for special characters.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "JuDGe3690",
+                            "body": "> Meanwhile I have to contort my fingers to select word by word with the keyboard on Mac.\n\nWhat do you mean? It's Option+Shift+Left Arrow (or Right arrow), which is a slight move of the thumb from the Command key. I typically use my thumb on Option and my ring finger on Shift in that case.\n\nSimilarly, when navigating text, Command+Left/Right arrows moves to home/end of line, and Option+Left/Right arrows moves the cursor by word, so with barely a move of the thumb you can move around quickly.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "motram",
+                                    "body": "> What do you mean? \n\nThe problem is that 1) it's not memorable and 2) option is the middle key 2 rows down. \n\nWindows works because control is bottom left, easy to find on a keyboard. \n\nMac makes that key fn For some reason, even though whenever you're going to be pressing the function key you're going to be pressing the F keys as well which means that you're not actively typing. No design thought given to that.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "shikkaba",
+            "body": "I love mac, but my main computer is now pc for money reasons. Haven't had to use any of those buttons. Idk maybe I'm weird.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "locololus",
+            "body": "I don't use mac but when I do I go ctrl+c and ctrl+v to copy and paste and then realize that mac commands are different from windows commands.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "LubieRZca",
+            "body": "I hate this about Mac, even after a year I still can't get used to it, and also you should add Delete key, as it's not included in MacBooks as well.",
+            "score": -2,
+            "replies": [
+                {
+                    "author": "Paiger__",
+                    "body": "What the hell are you talking about? My MacBook Pro has a delete button.\n\nhttps://preview.redd.it/qbokal5gthpe1.jpeg?width=3024&format=pjpg&auto=webp&s=834ebf91e74d754167c409dc6a56cdafd4d36c40",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "crustyrat271",
+                            "body": "what they mean is probably delete-to-the-right",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "marmaladestripes725",
+            "body": "No kidding.  I was forced back to Windows for my job this year, and trying to figure out how to screenshot in Windows 11 was so dumb.  Give me my command+shift+3/4!!",
+            "score": -3,
+            "replies": [
+                {
+                    "author": "MBkufel",
+                    "body": "Ah yes, using an arbitrary number instead of a letter referring to the functionality being called. Also - having to remember which number to press instead of going into a menu that allows you to pick the kind of screenshot you want to take (they may have fixed it, but in the old days MacOS had different shortcuts for different screenshots. All using some random ass numbers).\n\nTruly genius",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "marmaladestripes725",
+                            "body": "There\u2019s two options in MacOS.  One takes a sceeenshot of the entire screen.  The other is a capture tool.  It then pops up with a little window so you can decide what to do with it.  I\u2019ll take that over Windows where I can\u2019t figure out how to save the image to my drive.  I was forced back to Windows for work after not using it regularly since XP.",
+                            "score": 0,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

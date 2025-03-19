@@ -1,0 +1,259 @@
+{
+    "title": "EXAONE-Deep-7.8B might be the worst reasoning model I've tried.",
+    "author": "LSXPRIME",
+    "subreddit": "LocalLLaMA",
+    "rank": 17,
+    "score": 28,
+    "upvote_ratio": 0.81,
+    "num_comments (reported by reddit)": 39,
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1jeepw8/exaonedeep78b_might_be_the_worst_reasoning_model/",
+    "id": "1jeepw8",
+    "selftext": "https://preview.redd.it/jvufke0w9ipe1.png?width=1920&format=png&auto=webp&s=0601e794d69e361d0b791fa4faf137825a7b6f2a\n\nhttps://preview.redd.it/j6j9cibw9ipe1.png?width=1920&format=png&auto=webp&s=23357dc6f56aac238d6d5963368fbf97abcb74b1\n\nhttps://preview.redd.it/db7datlw9ipe1.png?width=1920&format=png&auto=webp&s=47c9eedef3a64625d991524b6b3039304301cde3\n\nWith an average of 12K tokens of unrelated thoughts, I am a bit disappointed as it's the first EXAONE model I try. On the other hand, other reasoning models of similar size often produce results with less than 1K tokens, even if they can be hit-or-miss. However, this model consistently fails to hit the mark or follow the questions. I followed the template and settings provided in their GitHub repository.\n\nI see a praise posts around for its smaller sibling (2.4B). Have I missed something?\n\nI used the Q4\\_K\\_M quant from [https://huggingface.co/mradermacher/EXAONE-Deep-7.8B-i1-GGUF](https://huggingface.co/mradermacher/EXAONE-Deep-7.8B-i1-GGUF)\n\nLM Studio Instructions from EXAONE repo [https://github.com/LG-AI-EXAONE/EXAONE-Deep#lm-studio](https://github.com/LG-AI-EXAONE/EXAONE-Deep#lm-studio)",
+    "comments": [
+        {
+            "author": "You_Wen_AzzHu",
+            "body": "I can probably create one that's shittier than this.",
+            "score": 34,
+            "replies": []
+        },
+        {
+            "author": "tengo_harambe",
+            "body": "wait till you try their washing machines",
+            "score": 12,
+            "replies": []
+        },
+        {
+            "author": "Barubiri",
+            "body": "Sigh the strawberry question of fucking course",
+            "score": 14,
+            "replies": [
+                {
+                    "author": "Many_SuchCases",
+                    "body": "And I'm willing to bet it's a configuration error. It doesn't randomly switch languages for me, for starters.",
+                    "score": 8,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "GigsTheCat",
+            "body": "It seems to reason even longer than QwQ while giving worse results. I guess it depends on your use case, but I'm not really impressed.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "soumen08",
+            "body": "Can confirm the issue is q4. I tried with q4 and q8, and the q8 model gets both questions right. I'm using it via an ollama and using an app called Msty.",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "Admirable-Star7088",
+                    "body": "I wonder if this is because this particular Q4 is broken, or if it's just that much quality loss for this quant level? \n\nBenchmarks done in the past testing different quants has showed there is little to no noticeable quality loss on Q4. May this no longer hold true for some reason?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "soumen08",
+                            "body": "Reasoning LLMs work very poorly with low quants I think?",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "random-tomato",
+            "body": "**Try setting repeat penalty to 1.0**\n\nA lot of people had the exact same issues with the previous EXAONE release.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "remixer_dec",
+                    "body": "This. I tried it, repeat. penalty breaks it a lot, turning it off gives better results, also they recommend to use temperature at 0.6 and a custom [system prompt](https://huggingface.co/LGAI-EXAONE/EXAONE-Deep-7.8B/discussions/1#67d96806a0c0f3a68bd06a4e)",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "hannibal27",
+            "body": "Sim horr\u00edvel, testei com o maior e tamb\u00e9m tive problemas",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "LSXPRIME",
+                    "body": "I used the official prompt template from their repo, using yours actually gave me \\`Failed to parse Jinja template: Parser Error: Expected closing statement token. OpenSquareBracket !== CloseStatement.\\`",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "TitwitMuffbiscuit",
+                            "body": "Then it has nothing to do with the model, I mean:\n\n.\\\\llama-server.exe -m .\\\\EXAONE-Deep-7.8B-Q8\\_0.gguf -t 7 --prio 3 -ngl 99 -fa --no-mmap -c 32768 --jinja --chat-template \"{% for message in messages %}{% if loop.first and message\\['role'\\] != 'system' %}{{ '\\[|system|\\]\\[|endofturn|\\]\\\\n' }}{% endif %}{% set content = message\\['content'\\] %}{% if '</thought>' in content %}{% set content = content.split('</thought>')\\[-1\\].lstrip('\\\\\\\\n') %}{% endif %}{{ '\\[|' + message\\['role'\\] + '|\\]' + content }}{% if not message\\['role'\\] == 'user' %}{{ '\\[|endofturn|\\]' }}{% endif %}{% if not loop.last %}{{ '\\\\n' }}{% endif %}{% endfor %}{% if add\\_generation\\_prompt %}{{ '\\\\n\\[|assistant|\\]<thought>\\\\n' }}{% endif %}\"\n\n\n\nhttps://preview.redd.it/065yv7m3ejpe1.png?width=1918&format=png&auto=webp&s=ac512efa21ee467fcf6b27823b16323b8d1b4558\n\n\n\nedit: in the webui I used their system message \"Please reason step by step, and put your final answer within \\\\boxed{}.\", temp 0.6, top\\_k 20, top\\_p 0.95, min\\_p 0.05, max\\_tokens -1\n\nedit 2: let me guess , you pasted my comment in markdown like -p  \\[...\\] ich is bigger,9.9 or 9.11?\"\\` <- see that last \\` ? Those are tags in Reddit's comments for code and shouldn't be included.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "thebadslime",
+                    "body": "Deepseek coder answers that correctly also",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "TitwitMuffbiscuit",
+                            "body": "Yeah, there's a bunch that fit on 12 gb of vram. Just to name a few:\n\n\\- gemma-3-12b-it.Q6\\_K\n\n\\- phi-4-Q5\\_K\\_M\n\n\\- metastone-l1-7b-q8\\_0\n\n\\- llama-3.1-nemotron-nano-8b-v1-q8\\_0\n\n\\- DeepSeek-R1-Distill-Qwen-7B-Q8\\_0\n\nBut for code I'd rather use open-r1\\_OlympicCoder-7B-Q8\\_0 that will fail at the strawberry \"test\". Small models are not jack of all trades.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "SOLOMARS212",
+            "body": "bro its not supported yet on lm-studio , i dont know how you made it respond ,  \ni tried so many templates , it gives random stuff, we need to wait for lm-studio update",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "LSXPRIME",
+                    "body": "I followed their LM Studio instructions [https://github.com/LG-AI-EXAONE/EXAONE-Deep#lm-studio](https://github.com/LG-AI-EXAONE/EXAONE-Deep#lm-studio)",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "EstarriolOfTheEast",
+                            "body": "I tend to avoid official quants, their expertise is concentrated in pytorch and the huggingface transformers library, other frameworks are not that much of a priority for them. Wait for unofficial quants from those like bartowski, who specialize in making them and staying on top of subtleties and nuances of engines and their upgrades (making good quants is not actually as simple as one would guess). Or unsloth, who often uncover many careless mistakes and uncommunicated param settings in official quants.",
+                            "score": 0,
+                            "replies": [
+                                {
+                                    "author": "LSXPRIME",
+                                    "body": "that's not official quant, it's done by mradermacher, which is one of the most trusted.",
+                                    "score": 0,
+                                    "replies": [
+                                        {
+                                            "author": "EstarriolOfTheEast",
+                                            "body": "Ah, that the quant is done by a specialist changes things a bit, but the possibility of improper defaults, some other minor bug or some specific issue with LM Studio still remains. Those results seem anomalously bad, given you're seeing positive reception for the smaller model and another poster in this thread seems to be getting better results for this model.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "noneabove1182",
+                    "body": "the uploads on lmstudio-community work:\n\nhttps://huggingface.co/lmstudio-community/EXAONE-Deep-7.8B-GGUF",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "segmond",
+            "body": "I wasn't impressed with the original.  I expect the same, but I'll be downloading the 32B-Q8 and giving it a try, hope it can keep up, it has tons of competition.  gemma3-27, mistral-small-24b, qwen\\_qwq, reka, etc.   \n\nDeepSeekR1 is the new llama70B, everyone is claiming to crush it.  Qwen72b never got such disrespect...",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "LSXPRIME",
+                    "body": "While having 16GB of VRAM makes running 32B models a nightmare, I am very impressed with the Reka-3 model.\n\nAnd let the newcomers claim to crush R1, benchmaxxing might be a talent too.",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Massive-Question-550",
+            "body": "Wow that's actually terrible. Did you try the q8 version? Maybe this model doesn't quantize well.\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SomeOddCodeGuy",
+            "body": "That's ok, because the license is absolutely atrocious so I don't really want to use it. I'd have been sad if it was the best model available lol\n\n**EDIT**: for those downvoting who may not know what the license says: **LG owns all outputs.** It is the one of the most strict licenses that I've seen.\n\n[https://github.com/LG-AI-EXAONE/EXAONE-Deep/blob/main/LICENSE](https://github.com/LG-AI-EXAONE/EXAONE-Deep/blob/main/LICENSE)\n\n>4.2 Output: All rights, title, and interest in and to the Output generated by the Model and Derivatives whether in its original form or modified, are and shall remain the exclusive property of the Licensor.  \nLicensee may use, modify, and distribute the Output and its derivatives for research purpose. The Licensee shall not claim ownership of the Output except as expressly provided in this Agreement. The Licensee may use the Output solely for the purposes permitted under this Agreement and shall not exploit the Output for unauthorized or commercial purposes.",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "soumen08",
+                    "body": "Op is actually wrong. q4 is screwing them up. q8 answers the questions just fine.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "TitwitMuffbiscuit",
+                    "body": "Yeah, yeah, LG owns all my modified outputs and it's derivatives until I ask for permission otherwise they will totally enforce it. Maybe I should ask at [contact\\_us@lgresearch.ai](mailto:contact_us@lgresearch.ai) if I get their permission to post my \"strawberry test\" output on reddit.\n\nDid you know their contact was [contact\\_us@lgresearch.ai](mailto:contact_us@lgresearch.ai) ? Maybe if coincidentally there's a bunch of people asking for permission at the same time at [contact\\_us@lgresearch.ai](mailto:contact_us@lgresearch.ai) they'd change their license, who knows.\n\nI think I might create a new post on reddit the 2025-03-20 at 13 PST so everybody can post their \"strawberry test\" output on reddit, but not before every one of them send an email at [contact\\_us@lgresearch.ai](mailto:contact_us@lgresearch.ai) ofc. We're good people.\n\nIf I can't reach them that would be an issue, I know where to find their github repo it's at [https://github.com/LG-AI-EXAONE/EXAONE-Deep/issues](https://github.com/LG-AI-EXAONE/EXAONE-Deep/issues) so it's all fine I guess and can just open a ticket and keep sending emails in the hope that I'd get a quick response because I have a lot of \"strawberry tests\" to post.\n\nI won't do all that but that would be funny.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ResearchCrafty1804",
+            "body": "I hope that this performance is a result of bad configuration, because it is honestly abysmal.\n\nAccording to their benchmarks it should on par or better with o1-mini. That\u2019s not even close.\n\nLet\u2019s wait and see when the inference engines officially support it.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "nuclearbananana",
+            "body": "I tried 2.4B at q6_k for a simple physical/logical riddle. ~7K tokens of thinking, mainly just repeating the same two methods over and over again and double guessing itself constantly. Took 13 minutes on my laptop. But it got the right answer in the end I guess.\n\nI really wish  someone would RL train a model on the shorter reasoning methods, like CoD or SoT",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "soumen08",
+                    "body": "You know what's right and what's wrong. Sadly, the AI doesn't. That's why long CoTs are what works. One of the many ways we are using the speed of computers to compensate for the stupidity of our algorithms.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "nuclearbananana",
+                            "body": "We have no idea whether they work, no one has tried them. The papers just came out. And the papers showed they do work about 95% as good. \n\nAlso as I said, one of the main issues is a ton of repetition. That doesn't really help the ai",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "soumen08",
+                                    "body": "See, when I tried the OP's prompt, this is what I got:\n\n**Final Answer**\u00a0The bigger number is \\\\boxed{9.9}.\n\nTo determine which is bigger between 9.11 and 9.9, we can break down the numbers as follows:\n\n1. **Whole Number Part**: Both numbers have the same whole number part, which is 9. Therefore, we only need to compare their decimal parts.\n2. **Decimal Parts**:\n   * The decimal part of 9.11 is 0.11 (which is 0.1 tenths and 0.01 hundredths).\n   * The decimal part of 9.9 is 0.9 (which is 0.9 tenths).\n3. **Comparison**:\n   * Comparing the tenths place: The tenths digit of 9.11 is 1, while the tenths digit of 9.9 is 9. Since 9 is greater than 1, the decimal part of 9.9 is larger.\n   * Even when considering hundredths place (if we extend 9.9 to two decimal places as 9.90), the comparison remains clear: 0.11 (from 9.11) vs. 0.90 (from 9.9) shows that 0.90 is larger.\n4. **Fraction Conversion**:\n   * Converting both numbers to fractions with a common denominator:\n      * (9.11 = \\\\frac{911}{100})\n      * (9.9 = \\\\frac{99}{10} = \\\\frac{990}{100})\n   * Comparing the numerators, 990 (from ( \\\\frac{990}{100} )) is greater than 911 (from ( \\\\frac{911}{100} )).\n5. **Subtraction**:\n   * Subtracting 9.11 from 9.9 gives a positive result of 0.79, confirming that 9.9 is larger.\n\nThus, the bigger number is (\\\\boxed{9.9}).  \n  \n  \nA lot of the thinking was about these methods and a whole lot of \"Wait, but..\"s. You might think this is repetition, but it is just double checking because the critic part of an LLM is dumb af. What are these papers you speak of though? Super interested.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "nuclearbananana",
+                                            "body": "chain of draft: https://arxiv.org/abs/2502.18600\nsketch of thought: https://arxiv.org/abs/2503.05179",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "TitwitMuffbiscuit",
+                    "body": "Way better than GPT-3 175B and it's 2048 tokens of context. That was five years ago when nvidia released the RTX 20 series. Not bad for just 2.4B, I guess.\n\nEdit: yeah I guess you could start an unsloth GRPO notebook and play with the answer size reward for 500 or 1000 steps. It might end up lobotomized tho.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "soumen08",
+                    "body": "You know what's right and what's wrong. Sadly, the AI doesn't. That's why long CoTs are what works. One of the many ways we are using the speed of computers to compensate for the stupidity of our algorithms.",
+                    "score": 0,
+                    "replies": []
+                },
+                {
+                    "author": "thebadslime",
+                    "body": "Deepseek coder passes the logic riddles I've thrown t it, and wastes no tokens \"thinking\"",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "thebadslime",
+            "body": "I asked it to make a calculator, ten minutes of \"thinking\" at 6 tps and I exited.\n\n  \nNot even worth testing.",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}

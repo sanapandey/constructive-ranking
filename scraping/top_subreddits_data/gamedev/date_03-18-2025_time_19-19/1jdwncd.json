@@ -1,0 +1,307 @@
+{
+    "title": "Are roguelike deckbuilder keywords like \u201cExhaust\u201d and \u201cInnate\u201d copyrighted?",
+    "author": "No-Attempt-7906",
+    "subreddit": "gamedev",
+    "rank": 15,
+    "score": 56,
+    "upvote_ratio": 0.76,
+    "num_comments (reported by reddit)": 46,
+    "url": "https://www.reddit.com/r/gamedev/comments/1jdwncd/are_roguelike_deckbuilder_keywords_like_exhaust/",
+    "id": "1jdwncd",
+    "selftext": "I\u2019m making a Roguelike Deckbuilder game and I\u2019m wondering if I can use these keywords (with same effect) directly? \nAnd can I use spell names such as \u201cfrost nova\u201d and \u201cfireball\u201d?\nThank you for answering.",
+    "comments": [
+        {
+            "author": "j-dag",
+            "body": "Are they copyrighted?  No.\n\nWill people side-eye you if every single term in your game is taken from another game?  Yeah, probably.  It conveys unoriginality.\n\nShould that stop you from re-using a few familiar words in pursuit of a new game?  Nahh.  There's only so many words in the English language, and people get sick of relearning new words for familiar, simple mechanics.  The \"Draw\" and \"Discard\" piles are industry staple terms, and have been for ages; give it a few more years, and I'd bet people will think of the \"Exhaust\" pile the same way.  It's evocative of \"something that gets used up\" without being too wordy.  There's not really that many words that do that, and I guarantee that any synonym you pick, someone else is already using it, too.\n\n...Maybe this is just me projecting because I designed Cobalt Core and we used \"Exhaust\" too, haha.\n\nAnyway.  I would be a lot more concerned with making sure your mechanics, as a whole, add up to something meaningfully different, at a core level.  Use familiar elements as a vehicle to get to a new destination, not as the destination themselves.",
+            "score": 210,
+            "replies": [
+                {
+                    "author": "pdpi",
+                    "body": "One important caveat: In some cases, it's worth going for a weird/unconventional word, if it strengthens the theme.\n\nA great example IMO is MtG's discard pile. Discarding isn't a super-common mechanic in that game, creatures go to the discard pile when they die, and cards that interact with the discard pile are very often themed around necromancy, so calling it \"graveyard\" instead of \"discard pile\" makes thematic sense. Of course, that name would make absolutely no sense in Cobalt Core.\n\nIncidentally: Cobalt Core stands as a perfect example of how you only need on or two very simple mechanics (ship movement, in this case) to make your roguelike deckbuilder not feel like a Slay the Spire clone.",
+                    "score": 61,
+                    "replies": [
+                        {
+                            "author": "j-dag",
+                            "body": "Graveyard's a good example!  Funnily, then Yu-Gi-Oh also called it that.  I wonder if they called it that for similar thematic reasons, or to stay familiar to MtG fans?  Hard to say.",
+                            "score": 19,
+                            "replies": [
+                                {
+                                    "author": "Madlollipop",
+                                    "body": "Their magic effect card were called magic cards but they... Changed that ;)",
+                                    "score": 8,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Pur_Cell",
+                            "body": "And the Deck in MtG is called the \"Library,\" because it reinforces the theme of wizards having a spell duel.",
+                            "score": 10,
+                            "replies": []
+                        },
+                        {
+                            "author": "WishboneNo1936",
+                            "body": "Same for health, mana, stamina, speed, or blue bar, red bar, etc. Renaming stats should be more than renaming for the sake of renaming. I heard a ways back that MTG did trademark, 'tap' but besides that I dont think anything else is... \nSometimes games come along and bring a new concept,or element like Wasteland, sometimes games come along and perfect a game like Monstertrain or Xcom. Its okay to make fun playable game with the pieces that are already availalble.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "i_dont_wanna_sign_up",
+                    "body": "If you're making a card game that uses the exact same keyword mechanics as other popular card games, I'd say fuck it and just use the same names. I hate having to see some obtuse, absurd term used just so that they are different from other games.",
+                    "score": 23,
+                    "replies": [
+                        {
+                            "author": "Treestheyareus",
+                            "body": "I will now draw one c...*Tablet* from my d... *Resource Depot*. I have six... *Tablets* in my h\u2014my *Waiting Zone*. Now I'll play one of my cr\u2014that is\u2014one of my *Soldiers* by paying three black mana... I mean three *triangle energy*. \n\nSince my *Soldier* has four... *Ferocity* and three... er... *Fortitude*, it will be able to survive attacking... um... *Assaulting* your smaller creature\u2014*Soldier*. \n\nOh shit, you played your instantly effective card, which is called a *Blitzkrieg Active Ability Card*! What? This one gives your *Soldier*... what's that? *Annihilation*? That means Deathtouch right? \n\nCurses! My *Vitality Score* is almost zero! I might lose this *Bout* if I can't topdeck that new *Hyper Esoteric* card that I added to my *Resource Depot* from my *Suplementary Tablet Area* between *Bouts*!",
+                            "score": 59,
+                            "replies": [
+                                {
+                                    "author": "42_flipper",
+                                    "body": "My grandpa's resource depot has no pathetic tablets!",
+                                    "score": 25,
+                                    "replies": [
+                                        {
+                                            "author": "joethebro96",
+                                            "body": "-has no pathetic tablets, Kabito!",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Gaverion",
+                                    "body": "You know, while you are poking fun, some of these could be good depending on how your game it themed.\n\n\nSolider instead of summon/creature is totally reasonable. Similarly, energy is probably a more common term than mana!",
+                                    "score": 7,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "soulscythesix",
+                                    "body": "It's giving \"JRPG explaining it's own systems\"",
+                                    "score": 3,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Anoalka",
+                                    "body": "What's a topdeck?\n\nHow is it related to drawing tablets from your resource deposit?\n\nAlso annihilation let's you deal vitality points when desintegrating enemy soldiers.\n\nYou are thinking of \"deadly grasp\" which let's you instantly desintegrate an enemy soldier after it suffers a fortitude decrease.",
+                                    "score": 3,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Bomaruto",
+                                    "body": "You joke, but trying to come up with different names can motivate different mechanics.\n\n\nWaiting zone while not the most snappy could be a zone where you deploy creatures, but they can't attack/defend and can't be interacted with by normal means, but get into the main zone with haste the next turn.\u00a0\n\n\nShapes for mana could let you combine different cards to pay for a shape cost.\u00a0\n\n\nAnd more expensive shape generators could create shapes that can pay for more than one card's shape cost and give bonuses if all the cast cards can be paid with just that shape.\n\n\nResource depot could be a mechanic seperate from deck.\u00a0\n\n\nEach turn you draw two cards, put one in hand and one in your resource depot and then you can have cards that can draw from your depot or interact in other ways.\u00a0\n\n\nThis can limit the power of extra draw cards by only drawing from your resource depot. A turn one pot of greed can only draw one card as that's all in your depot.\u00a0",
+                                    "score": 3,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "i_dont_wanna_sign_up",
+                                    "body": "Perfection",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "beta_1457",
+                            "body": "I was thinking the same thing. StS created the genre. You can't really make a Spire-like game with our copying some mechanics.\n\nIn reality it's not the mechanics that make the game original. At least with this genre I think if you did a copy but had completely original classes, cards, events, exc. It would play completely differently\n\nI think you should add some original features to differentiate your game, but it's not really necessary..",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "i_dont_wanna_sign_up",
+                                    "body": "My thoughts exactly. If you're making a unique game, go for it.\n\nIf you're making a StS or MtG clone, with 90% of the same mechanics but your own spin to it, what's the point? Guess who's your target audience?",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "HayesSculpting",
+                            "body": "If I have to read another word for haste, I\u2019ll lose my mind.\n\nI know you haven\u2019t used the word haste but it\u2019s the same ability but now slightly harder to remember because you decided to call it \u201cundeterred\u201d.\n\nIt\u2019s similar in ability based games where they\u2019ll have specific names which interact with other parts of the kit. Rivals doesn\u2019t show the keybind that it\u2019s referring to so instead of \u201cright click resets cooldown on left click\u201d it\u2019ll be \u201cantagonising beam resets cooldown on soul destruction.\u201d Now I have to look through the list to work out which one is soul destruction.\n\nThis is a big personal annoyance. I definitely get why it\u2019s done but I think it makes the ux a little bit more difficult than it really needs to be.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "PixieGoosie",
+                    "body": "Oh you helped design cobalt core?! I loved that game, even 100%ed it",
+                    "score": 10,
+                    "replies": []
+                },
+                {
+                    "author": "No-Attempt-7906",
+                    "body": "Thank you for your answer and showing the example in your great game!",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "Nykidemus",
+                    "body": "I had not heard of cobalt core, thanks for bringing it to my attention. It has a super clever usage of movement! I have been spitballing a space-based deckbuilder and threw out the entire concept of movement as unworkable in a deckbuilder style and I sit very corrected.",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "Rainbow_Plague",
+                    "body": "Cobalt Core is fantastic! Y'all made a great game :)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "DarkIsleDev",
+            "body": "If it's normal English words it's fine, maybe don't take names that are very specific like Expelliarmus.",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "Madlollipop",
+            "body": "Note that exhaust is exile in mtg, was remove from game was before, I've also seen this card becomes void, so even if the words are not copyrighted, you can if you want to, change them to have slightly different meanings or different words describing the same things",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "PiersPlays",
+                    "body": "I've seen \"destroy\" as well.\n\nThere's a finite number of short single word ways to express \"make this thing unusable for the rest of the game\". Every possible variation will be used by someone somewhere at sometime so the only really important thing is that the term you use is the one that best fits your mechanic and theme (and that you aren't using the exact same full set of terms from another game of course, but if you aren't actually copying them that should come up if you've done the work to chose good terms.)",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "caboosetp",
+                            "body": "Destroy in mtg means send to graveyard rather than exile. So just pointing out in context of your post that you need to be careful what words you pick. Some words sound similar but have very different effects in different games.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "SuperMonkeyJoe",
+            "body": "A few keywords should be okay, but looks into the lawsuit Wizards of the Coast launched against Cryptozoic for their TCG Hex:Shards of Fate, if I remember rightly Cryptozoic had to change a few of their keywords, but then Hex was almost 1:1 with MtG with its keywords.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "PiersPlays",
+                    "body": "IIRC Hex was mechanically pretty close which was the real reason WotC felt the need to go after them.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "LazyOrangeGames",
+            "body": "If it makes you feel any better, the keyword Scry gets used in Slay the Spire which seems to be taken from Magic The Gathering (although funnily enough Surveil would probably have been a closer match from a mechanical perspective).",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "loftier_fish",
+            "body": "Ah fuck, someone else used \u201cthe\u201d in a sentence. Guess I can never do it again.",
+            "score": 11,
+            "replies": [
+                {
+                    "author": "square-map3636",
+                    "body": "*Ah fuck\u2122",
+                    "score": 9,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "voxel_crutons",
+            "body": "Your best option when not sure it's the thesaurus",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ledat",
+            "body": "> wondering if I can use\n\nAsk your lawyer for specific legal advice.\n\nIn general: you cannot copyright keywords or names. They can be trademarked though.\n\nAlso, once upon a time, Wizard of the Coast held patents on basically all the mechanics in Magic the Gathering. We joked at the time about the absurdity of a patent on rotating a piece of cardboard 90 degrees, but it is what it is. Those patents have since expired of course, but I would be surprised if there are no others lurking. For guidance on specific cases like the ones you cited, ask your lawyer.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Colin_DaCo",
+                    "body": "I feel like if someone told me \"ask your lawyer\", I'd have to stare at them with a blank face for at least 30 seconds before asking \"what\"",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "ledat",
+                            "body": "I mean, that's totally fair. But there are reasons.\n\nThere is a lot of bad legal advice on the internet. As a general rule, asking the internet for legal advice is a bad idea. Also, depending on your particulars, if you give someone legal advice and they act on it, you *may* expose yourself to liability. I personally go to some length to avoid giving specific advice.\n\nThen there's the fact that free games on itch made by a guy in his underwear in 3 hours for Trijam are treated the same as big corporate games. Remember that time that Chooseco LLC [went after tiny games](https://www.gamesindustry.biz/choose-your-own-adventure-publisher-cracks-down-on-itch-io-devs) for using \"choose your own adventure\" in their copy? Happens more than you might imagine.",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "TigerBone",
+            "body": "Proposal to mods: Have a link in the sidebar that explains what copyright is and what it's not. So we don't have questions like this every single day.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Agzarah",
+            "body": "Some phrases and even colours become THE terms to use.\n\nJust look at gearing.\nAlmost everything now uses\nCommon - white\nUncommon - green\nMagic/rare - blue\nEpic - purple\nLegendary - orange\nUnique - gold\n\nSure there's some variation, diablo started the trend but WoW cemented those as the go to depictions\n\nNoone bats an eyelid for copying those, if anything you confuse people by having purple common cards/gear.\n\nSame goes for other industry standards. Diacard/draw for example.\n\nEveryone knows what a fireball is. It is the most iconic spell. Frost nova etc not so much, play around with those to your hearts content",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "PiersPlays",
+            "body": "Literally don't think about it.\n\nCome up with whatever term best works for that mechanic in the context of your game. Invariably that will match how some other games have done it. But your unlikely to be an exact match for any other specific game.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "greenflame15",
+                    "body": "Except tapping was literally patented, the patent has expired, but double check on copy right is often a good idea",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "DTux5249",
+            "body": "You can't copyright real words. You can trademark some names, but otherwise, no legal problem. \n\nBut like... maybe still get ur own names? They're words. There are dozens of synonyms to choose. At least try to vary them for the sake of originality. \n\nCreation is about copying previous works, editing them, AND not making it obvious. That last part is key.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "LuanHimmlisch",
+            "body": "Are they copyrighted?  No.\n\nWill people side-eye you if every single term in your game is taken from another game?  Also no. Gamers are not game designer snobs.\n\nUsing terminology used in other games is usually better than invent a new name that will confuse your players.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Dracon270",
+            "body": "Fireball is 100% not copyrighted, and I doubt Frost Nova is.  When in doubt, yahoo it. (I refuse to use the G engine or use it as the go-to term anymore).",
+            "score": -20,
+            "replies": [
+                {
+                    "author": "No-Attempt-7906",
+                    "body": "Thanks. I will yahoo it.",
+                    "score": 9,
+                    "replies": [
+                        {
+                            "author": "euodeioenem",
+                            "body": "Thanks. I will Bing it.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Idiberug",
+            "body": "While you *can* use \"Frost Nova\", it is much less generic than \"Fireball\" because it is strongly associated with Blizzard. If you add it to your game, people may assume you are copying Blizzard.\n\n\"Nova\" is also a Blizzard invention but seems to have become a generic term for PBAE spells with limited range, so you can just use \"Ice Nova\" instead and be fine.",
+            "score": -2,
+            "replies": [
+                {
+                    "author": "Ravek",
+                    "body": "Nova, Latin for \u2018new\u2019, refers to a new star seeming to appear in the sky (cf. supernova). For example Golden Sun used it for explosion spells.\n\nSeems that Diablo 1 used it for a lightning spell? How quaint.",
+                    "score": 6,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

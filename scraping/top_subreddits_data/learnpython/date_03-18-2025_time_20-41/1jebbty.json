@@ -1,0 +1,32 @@
+{
+    "title": "Scrollable GUI tk",
+    "author": "Apprehensive-Egg2643",
+    "subreddit": "learnpython",
+    "rank": 17,
+    "score": 2,
+    "upvote_ratio": 0.76,
+    "num_comments (reported by reddit)": 3,
+    "url": "https://www.reddit.com/r/learnpython/comments/1jebbty/scrollable_gui_tk/",
+    "id": "1jebbty",
+    "selftext": "Hi all, I'm still learning python but would say I've got the fundamentals. However, i am currently working on a bit of a passion project of a F1 history manager like game. And I'm currently having issues with making my GUI scrollable. I've tried looking online but nothing is helpful. I would particularly like this when the race results are displayed and on the display race history page (I know this page needs working on alot). Please have a look at my project on my github: [github.com/EdLack](http://github.com/EdLack)",
+    "comments": [
+        {
+            "author": "FrangoST",
+            "body": "By default you can only make specific widgets scroll with a scrollbar, such as tree lists, lists, multiple-lines entry boxes and canvas...\n\nOne trick to make multiple widgets scrollable is to make a canvas, make it scrollable then put a frame in it, then you can scroll through the widgets within that frame, but it's a little iffy... You also have to use binds for that, instead of just setting the scrollbar as the scroll of the canvas... it's pretty macguyverism, and in the end you're almost programming the scroll effect from zero, but at the end it works...\n\nI wouldn't recommend doing it without some experiencs, and you'll be knocking your head against a hard wall while learning it.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "woooee",
+            "body": "Only the Canvas, Entry, Listbox, and Text widgets can be scrolled.  It unreasonable to ask people to search through a lot of code to try and guess where the \"race results are displayed and on the display race history page\" is.  Post some example code that demonstrates what you want to do either here or on pastebin.com (automatically preserves indents).",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "socal_nerdtastic",
+            "body": "If you are just wanting a scrollable text field that's built into tkinter already. \n\n    from tkinter.scrolledtext import ScrolledText\n\nYou would use it like a normal Text with `insert` and then `see` to set the scroll position. \n\n    obj.insert(tk.END, data_to_add)\n    obj.see(tk.END)",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

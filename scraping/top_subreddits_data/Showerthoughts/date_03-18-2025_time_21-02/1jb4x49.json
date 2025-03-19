@@ -1,0 +1,656 @@
+{
+    "title": "In our lifetimes, we've watched technological developments go from \"make life easier\" to \"make life harder (unless you pay for the latest technological development)\".",
+    "author": "Happy_Da",
+    "subreddit": "Showerthoughts",
+    "rank": 16,
+    "score": 3417,
+    "upvote_ratio": 0.97,
+    "num_comments (reported by reddit)": 116,
+    "url": "https://www.reddit.com/r/Showerthoughts/comments/1jb4x49/in_our_lifetimes_weve_watched_technological/",
+    "id": "1jb4x49",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "Showerthoughts_Mod",
+            "body": "/u/Happy_Da has flaired this post as a **casual thought**.\n\nCasual thoughts should be presented well, but may be less unique or less remarkable than [showerthoughts](https://www.reddit.com/r/Showerthoughts/wiki/requirements).\n\nIf this post is poorly written, unoriginal, or rule-breaking, please report it.\n\nOtherwise, please add your comment to the discussion!\n\n&nbsp;\n\n^^This ^^is ^^an ^^automated ^^system.\n\n^^If ^^you ^^have ^^any ^^questions, ^^please [^^use ^^this ^^link](https://www.reddit.com/message/compose/?to=/r/Showerthoughts&subject=Question%20About%20This%20Post&message=I%20have%20a%20question%20regarding%20a%20recent%20post.I%20understand%20that%20I%20may%20be%20banned%20if%20my%20question%20has%20already%20been%20addressed%20by%20the%20rules.) ^^to ^^message ^^the ^^moderators.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Next_Researcher_3983",
+            "body": "I somewhat agree. I think it really started going downhill just a couple of years ago.\n\nThere is an app for everything, and if you are not a regular user it just makes your life more difficult. For example, in my city we have multiple apps just for parking. You need to find out what parking area you are in, find the app and hope that your credit card details are still valid. It makes it even more difficult for tourists that only stay here for a week. And it's also pretty irritating when you are traveling and have to download 5 apps just for a weekend trip to be able to go to the concert you booked, pay for parking and even pay for oranges at the farmers market.\n\nIt's the same with appointments, many businesses only allow you to book through an app, but they use 2-3 different ones and don't take bookings over the phone. It's so frustrating.\n\nAlso, all of the supermarkets have different apps. To be able to get a discount you have to use their app, and you feel super frustrated when you don't bother and miss out on the discount.\n\nAnd don't get me started on all of the different streaming services. It was very convenient, but now it's ridiculous.",
+            "score": 425,
+            "replies": [
+                {
+                    "author": "ToddTheDrunkPaladin",
+                    "body": "My girlfriend is insistent that everything needs an app. She only buys smart stuff, air purifiers, door lock, light bulbs(wtf) heaters and ac, even a label maker. It's irritating as fuck. I feel like a boomer but it's getting out of hand.",
+                    "score": 151,
+                    "replies": [
+                        {
+                            "author": "rukioish",
+                            "body": "my friends dad has all his lights wired to alexa, and they have no manual switch. To turn them on or off you HAVE to talk to Alexa to do it.",
+                            "score": 96,
+                            "replies": [
+                                {
+                                    "author": "guto8797",
+                                    "body": "He's begging to sit in the dark when power or internet or anything else goes out",
+                                    "score": 45,
+                                    "replies": [
+                                        {
+                                            "author": "SlickSwagger",
+                                            "body": "I think most people sit in the dark when power goes out :p",
+                                            "score": 99,
+                                            "replies": [
+                                                {
+                                                    "author": "orbital_narwhal",
+                                                    "body": "Yeah, but few people sit in the dark when the power fails at the data centre that hosts their home light switch.",
+                                                    "score": 42,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "sumphatguy",
+                                            "body": "I don't think you need internet to manage a local network (assuming you lost internet because of an issue unrelated to your router). Alexa should still work in that situation.",
+                                            "score": 10,
+                                            "replies": [
+                                                {
+                                                    "author": "xstrawb3rryxx",
+                                                    "body": "For now.",
+                                                    "score": 3,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "polopolo05",
+                                    "body": "I have smart lights and dumb lights.  smart lights are great when they work and have atuomation... now dumb ligths for when they dont.\n\nI wish they had localized smart home hub... that will talk to my lights if I have internet or not.",
+                                    "score": 7,
+                                    "replies": [
+                                        {
+                                            "author": "The-Real-Mario",
+                                            "body": "I have the \"clap on\" , it was 10$ on Amazon",
+                                            "score": 5,
+                                            "replies": [
+                                                {
+                                                    "author": "Racspur1",
+                                                    "body": "Love this . LOL.  BTW Its called The Clapper",
+                                                    "score": 4,
+                                                    "replies": [
+                                                        {
+                                                            "author": "supluplup12",
+                                                            "body": "You're not getting name brand The Clappers for $10 on Amazon",
+                                                            "score": 5,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "reddits_aight",
+                                            "body": "They do. Phillips hue works locally with the hub, I'd imagine other zigbee based hubs work similarly, same with z-wave. You may need internet for initial setup and updates, but they should work if you just have an internet outage but still have power. \n\nIf they're some cloud-based devices, then you're out of luck.",
+                                            "score": 2,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "SocketWrench",
+                                            "body": "https://www.home-assistant.io/",
+                                            "score": 2,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "MultiFazed",
+                                            "body": ">I wish they had localized smart home hub... that will talk to my lights if I have internet or not.\n\nThey do. Phillips Hue lights work fine with no Internet. The only requirement is that your local network still works.\n\nThe only problem I've ever had was a perfect storm of hardware failure and purposefully-bad settings on my part.  My router died which killed my local network, and I had taken the lights off on the default \"come back on at full brightness after a power outage\" setting to \"revert to the previous state after a power outage\". So I lost voice/app control, and flipping the light switch off and back on, which would have brought them back to full brightness under the default settings, instead brought them to their previous setting . . . which was \"off\".",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Tak-and-Alix",
+                                                    "body": "If you flip the switch again, they default to an 'incandescent' color as a backup.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "ArtOfWarfare",
+                                    "body": "I\u2019d like to hear from the dad\u2026 I find it hard to imagine they\u2019ve actually done exactly what you say they have.\n\nI can easily imagine all the physical backup switches are located in a closet somewhere which isn\u2019t convenient, but it achieves the aesthetics he\u2019s going for while leaving him in control of his own house if Alexa ever goes haywire (and might leave him with a setup where it\u2019s relatively easy to switch to a completely different home automation setup.)",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "That-Maintenance1",
+                            "body": "Character flaw",
+                            "score": 16,
+                            "replies": []
+                        },
+                        {
+                            "author": "creggieb",
+                            "body": "Definitely not a boomer thing. My parents are boomers, and im offended by the idea that a thing that works fine without an app, should be required to use one. Most recently, infound out the free Google Bluetooth speaker I got, wouldn't pair with my phone to play music. Because I didn't download some stupid app. So the product went in the trash because if it doesn't need an app/internet connection, it shouldn't have one. I don't play that game, and I make sure to hold up the line and obstruct whatever process is trying to require me to use one.",
+                            "score": 6,
+                            "replies": []
+                        },
+                        {
+                            "author": "d0rkprincess",
+                            "body": "The bulb is the least strange\u2026 you get to adjust colour and intensity, you can put the light on a timer, and you have the option to control it from your phone or the switch.",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "dustojnikhummer",
+                            "body": "I mean I kinda understand the label maker. At work we have a bluetooth connectable Brother labelmaker. A few weeks ago I was laying in the back of our server rack, sending labels from my phone to the lablemaker and my colleague was handing them to me.\n\nIt's also not WiFi, just BT soooo",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "slog",
+                                    "body": "I got a pretty shitty BT label maker and it's streets ahead of the non-connected ones. Do you have one you recommend?",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "dustojnikhummer",
+                                            "body": "We have a Brother PT-D460BT",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "ToddTheDrunkPaladin",
+                                    "body": "The label maker is weird to me because it's useless without the app, only allowing for 2 things without an app, the date and 1 programmable custom button that you program with the app.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "dustojnikhummer",
+                                            "body": "Yeah we got one with a keyboard and just an optional BT. I know there are many that require a phone app, you can't even use them over USB.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "elmz",
+                            "body": "It's irritating to have to deal with a lot of apps, but in many cases I agree. My AC is from just before app control was a thing, and I have to control it with this huge remote. The unit itself has no display, the remote has a small display with minimal info. To set stuff like timers I have to refer to a huge instruction sheet, press a long sequence of buttons, and only way I get feedback is through beeps from the ac unit.\n\nThe ac unit and remote aren't synced, so if I press a button and the IR bulb or sensor are obscured the units are out of sync. So I can end up in a situation where the AC unit is set to a different temp than the display on the remote. The only way to get them in sync again is to change the temp to the min or max temp until I hear the AC unit double beep, to indicate it rejected the command to change temp.\n\nHow much easier it would be to have an app that shows me everything, lets me change things with a simple touch, instead of resetting the entire weeks schedule with a million button pushes if I want to change the setting of one hour of one day.\n\nSame goes for my electric heaters, my new app controlled ones are so much better than the old ones, and my light timers. Come to think of it, all my complaints are with setting week schedules through terrible button interfaces :P",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "GriffinFlash",
+                    "body": "try being someone who doesn't carry a phone everywhere. It's frustrating.\n\nAt walmart last week, and ask someone to open the display cabinet. \"Oh, just go on the app and scan the QR code and someone will come help you\". Then having to explain I didn't have a phone on me, and being looked at like I'm some unicorn or something.",
+                    "score": 21,
+                    "replies": [
+                        {
+                            "author": "Raider_Scum",
+                            "body": "What....? But how do you use reddit while driving?",
+                            "score": 13,
+                            "replies": [
+                                {
+                                    "author": "GriffinFlash",
+                                    "body": "I only really use reddit at home. On my desktop.",
+                                    "score": 2,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Inspector7171",
+                                    "body": "Very carefully......budump tsssst",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "TrumpImpeachedAugust",
+                            "body": "I didn't even have a smartphone until relatively recently, and I'm increasingly considering upgrading back to a dumb phone.",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "creggieb",
+                                    "body": "Watch out. Depending on how the OS handles text messages this can end poorly. The only reason I tolerate a \"smart\" phone, is that I'm not interested in receiving text messages one at a time, in an inbox, in reverse chronogicsl order. Or having the phone lag when a message is coming in, cuz the memory is so slow.\n\nLast dumb phone I had also had a physical keyboard. I had to stop using it once people decided texting should be constant, and that it wasn't necessary to condense the conversation into one message.\n\nTry getting 10 messages, each lagging the phone, while you are typing a response. And not being able to see what any of those texts said, unless you exit the compose portion of the program, saving your current text to a draft.",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "iHateReddit_srsly",
+                                            "body": "I know I'm an old man, but this generation has really messed up how they talk to each other. It really wasn't like this back in the 2010's",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "creggieb",
+                                                    "body": "Being middle aged, I can assure you that you have to go back to about 2001, when text messages cost money, in order for things to be actually civilized. The phone cost 100 dollars  and the battery lasted anywhere from 1-4 days, depending on how much of a chatterbox one was, and what sorta phone plan one had.  Agent Smith was very much correct when he described that time as the peak of human civilization. Even the internet became a cesspool of advertising around that time, when the intelligence required to access the internet effectively needed to be lowered to the average level. I remember when it was understood to be a negative thing to need a computer in order to get a date, and that it was understood to be weird to have such a thing as a personal web page  with pictures and thoughts shared with a world.",
+                                                    "score": 5,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "AutoModerator",
+                                                    "body": "/u/iHateReddit_srsly has unlocked an opportunity for education!\n\n------\n\nAbbreviated date-ranges like \"**\u201990s**\" are contractions, so any apostrophes go before the numbers.\n\nYou can also completely omit the apostrophes if you want: \"The **90s** were a bit weird.\"\n\nNumeric date-ranges like **1890s** are treated like standard nouns, so they shouldn't include apostrophes.\n\nTo show possession, the apostrophe should go after the S: \"That was the **\u201990s\u2019** best invention.\"\n\nThe apostrophe should only precede the S if a specific year is being discussed: \"It was **1990's** hottest month.\"\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Showerthoughts) if you have any questions or concerns.*",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "BigMax",
+                    "body": "Yeah, the apps are really great in some ways obviously.  It's just not so great when you install one to pay at some parking meter, and it takes 10 minutes because you forgot your password for that account that you havent used in a few years, so you need to reset your password, typing in awkward info for a new password after going through the password reset cycle, then re-entering your credit card because the last one expired, and now you've spent 10 minutes on your phone trying to pay for parking.\n\nIf you come back the next day... super easy! But you might not, maybe the next time it's a parking garage with it's own app.",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "sapphicsandwich",
+                    "body": "Restaurants have started that bad. Not long ago I walked into a sit-down restaurant and I didn't have a cell phone on me. For the menu, the waitress pointed at a QR code. I told her I didn't have a phone or a way to look that up and asked if they had a paper menu. She said they do not have paper menus anymore and there is no way for her to show me the menu. All I could do was leave. No sign on the door or anything to let you know they have weird cell phone possession requirements to order there. Wtf you can't even function in society anymore without everyone making sure you have your phone on you.",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "creggieb",
+                            "body": "Thats just a shit restaurant. I've gotten up to leave immediately when being pointed to the QR code  and a real menu appeared almost instantly. And menus aren't acceptable on an app. Unless they provide a tablet, the siE of an average restaurant menu, it doesn't have value. The ability to see, scroll scan and compare ALL the information is what reading is about. Scrolling is for memes, and little else.",
+                            "score": 6,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "mowauthor",
+                    "body": "I outright, fucking refuse to download apps just to do a basic fucking task.\n\nSupermarkets, I shop at one specifically now because all the rest where I am do bullshit schemes.\n\nWent to buy a jacket for my wife once, (not an app) but listed for $350 Retail or $150 if your a member (Free to sign up on the spot but still). I threw a huge ass fit over this, and gave them a 1 star google review which they probably have removed by now.\n\nCan't even go to a concert with tickets in my email now. They HAVE to be shown via the app, which pisses me off.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "Cotterisms",
+                            "body": "I can understand the rest of the complaints, but you just sound like a whingy prick",
+                            "score": -2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Talmadge_Mcgooliger",
+            "body": "[Enshittification](https://en.wikipedia.org/wiki/Enshittification#:~:text=Enshittification%2C%20also%20known%20as%20crapification,decline%20in%20quality%20over%20time.) pretty much sums it up.",
+            "score": 163,
+            "replies": [
+                {
+                    "author": "orbital_narwhal",
+                    "body": "Here's the short essay that coined the term: https://pluralistic.net/2023/01/21/potemkin-ai/#hey-guys. But it wasn't the first to describe the phenomenon.",
+                    "score": 15,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "PersonofControversy",
+            "body": "Yup, and this was always inevitable. It's the natural result of any technological development - the only thing that's really changed is the *pace* of that development.\n\nThe clearest example of this is probably the Car:\n\nWhen the car was invented, it was a technological miracle that empowered the average person to travel further and faster than they ever had before. Within a single generation, owning a car became something that made your life significantly easier and more awesome than it would have been without one.\n\nBut as more and more people got cars, we started designing our societies around the expectation that everybody had one. For a moment, think about how crazy the term \"walkable city/town/etc...\" actually is. Walking is the default mode of human motion. So why is \"walkable\" even a common adjective we apply to our communities? Shouldn't every human settlement be \"walkable\"? But they're not, because more and more we are designing our living spaces around the expectation that you have a car.\n\nAnd if you don't have a car, there are entire communities you can't take part in. For example, the average Suburb is so \"stretched out\" that trying to live in one without a vehicle can be nearly impossible. Grocery stores, schools, places of work - all of those things are too far away to walk or bike to, because the entire community was built around the idea that everybody living in it would have a car.\n\nIt's not the \"cars\" have directly made life harder for people. Its that the *expectation that everybody should have a car* can make life very hard for pedestrians. Hell, its gotten so bad that the governments are thinking about implementing \"15 minute cities\" (intentionally walkable and mostly self contained urban communities) in order to push back against this trend.\n\nCars are far from the \"latest technological development\", but I think they're a good illustrative example of this concept.\n\nIt's not the technology actively makes life more difficult. Its that designing a society around a new technology can often make life very difficult for those who cannot or will not adopt it.",
+            "score": 132,
+            "replies": [
+                {
+                    "author": "entropy_bucket",
+                    "body": "Really well written. I agree  the pace of change is pretty overwhelming. I still pinch myself that the iPhone was introduced only in 2008. \n\nBut it feels like software make subscription models so much easier, locking specific features etc.",
+                    "score": 18,
+                    "replies": []
+                },
+                {
+                    "author": "thematicwater",
+                    "body": "This is starting to be an issue with smartphones. If someone doesn't have one, but whatever they need to do requires an app, what the hell do they do?!",
+                    "score": 13,
+                    "replies": []
+                },
+                {
+                    "author": "bert93",
+                    "body": "This is country dependent. In the US this is definitely the case but for example in the UK you can live in most towns and cities absolutely fine without having a car.",
+                    "score": 9,
+                    "replies": [
+                        {
+                            "author": "Timbo1994",
+                            "body": "And in much of western Europe its even better than the UK",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Hamster-Food",
+                    "body": "I agree more or less completely. However, I do have one small correction. It's not that there is an expectation that everyone will have a car. That implies that there isn't any awareness that many people don't have a car.\n\nThe problem is that people with cars are prioritised over everyone else. The people making the plans don't expect everyone to have a car. They just don't care about people.who.don't. g",
+                    "score": 8,
+                    "replies": []
+                },
+                {
+                    "author": "TheChickenReborn",
+                    "body": "I'm not disagreeing with what you are saying, I think it's all perfectly valid.  But I also think that new technology also kinda resets what we consider normal or difficult in everyday life.  Yeah, communities where you have to walk an hour to get to a store are not considered \"walkable\" now.  But I live on an old ranch homestead that is a good 15 miles from the nearest small town.  It has been here since before cars were a thing.  Back then that was considered walkable, because if you didn't have a horse that was your only option.  You walked for hours or days to get where you wanted to go.  Those people would look at our suburbs and see a luxurious amount of convenience and access. \n\nSo yeah, we could do much better on our city design.  But it's still a net improvement.  We've just gotten so used to the convenience that walking a few hours into town seems like a major thing, when for much of human history it was just normal if you lived outside a city.",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "MaleSeahorse",
+                            "body": "Your homestead would absolutely be walkable if you need to get to the market by Sunday.  But not if you need to get to work by 8am.",
+                            "score": 6,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Milk_Man21",
+                    "body": "Real societal issue. The lack of exercise and lack of dopamine. Think about it: what are humans...or any living creature, designed to do? Explore and take in the scenary. Preferably for food or shelter but \"cool stuff\" is also good. A lot easier to take in that cool scenary and vibe, to enjoy a sunny day, when you're not focused on the road.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "AzelsoKiraly",
+                    "body": "to add to this, I dont think it was all that unintentional. We could have had walkable cities. I think cars were pushed for economic gain. building roads, etc. there's a really good 99 percent invisible podcast on the topic recently.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "RamsesThePigeon",
+            "body": "\"Dave, where the hell are my shoes?\"\n\n\"Next to the door. Duh.\"\n\n\"Those aren't my shoes; those are are bear-traps with crude logos drawn on them.\"\n\n\"Technically speaking, they're *electronic* bear-traps.\"\n\n\"With crude logos drawn on them.\"\n\n\"Everyone's a critic.\"\n\n\"*What did you do with my shoes, Dave?!*\"\n\n\"I replaced them with better ones. You're welcome, by the way.\"\n\n\"How are electronic bear-traps *better?*\"\n\n\"Ugh, Steve, look... everything requires an app now, right?\"\n\n\"Shoes don't.\"\n\n\"These do. It keeps them from gouging your ankles.\"\n\n\"Uh huh. So why would anyone ever put them on, exactly?\"\n\n\"Well, you're not allowed in most establishments without shoes.\"\n\n\"You do know that normal shoes still exist, right?\"\n\n\"Pfft, come on. That isn't allowed. You have to have Bluetooth-enabled shoes.\"\n\n\"Or else what?\"\n\n\"Or else you can't shop there or whatever. They don't accept 'normal' shoes anymore.\"\n\n\"*What?*\"\n\n\"It's like how a lot of places don't take cash now.\"\n\n\"... Is all of this some kind of twisted commentary on credit cards?\"\n\n\"No. I can't even use *your* credit card. It's maxed out.\"\n\n\"What did you buy, Dave?\"\n\n\"I bought you some shoes. Duh.\"\n\n\"...\"\n\n\"You're welcome, by the way.\"",
+            "score": 41,
+            "replies": [
+                {
+                    "author": "Real_Tea_Lover",
+                    "body": "peak",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "tomatomaniac",
+            "body": "Nah, the technology part is still doing the same, making life easier. Its the business part that is supposed to extract value out of it. And when the business overtakes the technology, it tries to extract more value than the technology is providing, and goes the opposite way.",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "vaneedrifit",
+                    "body": "Your post describes a one-sided friendship where you gave everything and got nothing back. NTA. Time to upgrade your friend circle!Your post describes a one-sided friendship where you gave everything and got nothing back. NTA. Time to upgrade your friend circle!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "theWitchhunterX",
+            "body": "We buy things we don't need---with money we don't have--to impress people we don't like.\n\nas said in fight club.",
+            "score": 34,
+            "replies": [
+                {
+                    "author": "KingGorilla",
+                    "body": "It's even worse now, we *subscribe* to things we don't need.",
+                    "score": 12,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Narrow-Height9477",
+            "body": "Make the choice that you don\u2019t need the latest and greatest? Think of what you could do with that saved money in the future? Find something else to do with your time? Remind yourself that you\u2019re not alone?",
+            "score": 9,
+            "replies": []
+        },
+        {
+            "author": "nanotasher",
+            "body": "Here's another shower thought..\n\nEven the water for your shower is a paid monthly subscription.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "saltpeppernocatsup",
+            "body": "You put it that way, I say they\u2019ve gone from \u201cmake life easier\u201d to \u201cgive you superhuman abilities for a price\u201d.  The fact that we all quickly accept these superhuman abilities as normal is the problem you\u2019re describing.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "heliocentric_cactus",
+            "body": "I couldn\u2019t disagree more!",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Psychedelic_Color",
+                    "body": "Same",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Bwizz245",
+            "body": "That definitely did not start in our lifetime",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "gandraw",
+                    "body": "In 2019, Google told its search team to make the algorithms worse because people didn't spend enough time on the website.\n\nhttps://www.wheresyoured.at/the-men-who-killed-google/",
+                    "score": 8,
+                    "replies": []
+                },
+                {
+                    "author": "Happy_Da",
+                    "body": "Printers.\n\nSmartphones.\n\nApplications *on* smartphones.\n\nCars.\n\nComputers.\n\nWatches.\n\nAppliances.\n\nAnd so on.\n\n------\n\nNot to be rude, but did you even think about it before commenting?",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "None",
+                            "body": "[removed]",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "Errorboros",
+                                    "body": "Dude, did you read the thought?\n\nCars and smartphones make your life easier.\n\nAll of the garbage being pushed *to make those work how they should* means that they make your life harder unless you pay more money.\n\nI was joking when I said that you had ChatGPT thinking for you, but damn, learn to read or something.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Happy_Da",
+                                            "body": "Yep.\n\nJust to follow up on that, think about how much of our society actually requires you to have a smartphone now.\n\nOh, you don't want to buy a smartphone, pay for a data plan, and be constantly tethered to the Internet? Good luck buying a bus ticket, accessing your bank account, or whatever else is now application-dependent.\n\nOh, you have a car? Great. In order to pay for parking, download an application. If you don't, have fun getting a ticket. No, we don't offer any other way to pay here. Drive somewhere with a dedicated machine, then walk three kilometers.\n\nOh, you *did* buy a smartphone and pay for a data plan? Well, this application only works on the latest models.\n\nNo, we don't have another option for you. Pay up, schmuck.",
+                                            "score": 5,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Errorboros",
+                            "body": "They're clearly on the \"OpenAI Super-Plus 'Think For You!'\" plan.\n\nOnly $59.95 a week!",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "TieCivil1504",
+            "body": "I updated to digital appliances while replacing microwave oven and conventional oven (GE), 2 garage door openers (LiftMaster), and an HVAC controller (Carrier). Discovered each one was setup to fail on a timed schedule, using CRAM chips.\n\nFigured out how to do a forced reboot on GE ovens. Discarded my new LiftMaster garage door openers and replaced with new European ones. Discarded my new Carrier 'smart' controller and replaced with Carrier's last plain controller, NOS from eBay.\n\nI read installation manuals for a couple American-made 'smart' appliances (driveway gate opener and solar array controllers) and found they refuse to work unless they're WiFi connected.\n\nI will not install any American-made 'smart' appliances. I was able to get around their early \"designed to fail\" digital appliances. I wouldn't be able to block company-monitored remote sabotage commands.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "The-Real-Mario",
+                    "body": "The day my garage door brakes I will replace it with a manual one, just a big sheet of plywood",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "KingGorilla",
+            "body": "Technology has made it easier but the basic non technological stuff has gotten more expensive so life overall is harder. Software and gadgets are infrequent and one time purchases but housing and healthcare is expensive and that overshadows tech.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Sorryifimanass",
+            "body": "In the business world we've gone from implementing new technologies to gain a competitive advantage to implementing existing technologies in order not to be at a disadvantage. \n\nIf we don't upgrade our tech at a similar rate to the rest of our sector we won't survive long.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Samus388",
+            "body": "This is not exactly true. \n\nFirst, I assume you're talking specifically about convenience tech and/or home appliances. Industrial tech is obviously not designed like the stuff you're talking about.\n\nSecond, tech is still improving things and making them easier, they've just locked away the \"advanced\" features that would make things MUCH easier.\n\nYou don't buy tech that \"makes life harder.\" If the tech literally just made your life harder, you would just live without it. \n\nAs for tech that is a necessity, the same is true. It is frustrating that I can't physically open the back of my smart phone and remove a micro SD card or battery, but my phone is still significantly better than the older models which allowed that in every other way.\n\nYou could even argue this is a good thing, due to the risk of somebody damaging their phone, or doing something dangerous with a battery.\n\nStill though, the fact that companies will sell you a physical product with advanced features, but lock them behind a paywall/subscription is not something that should be legal, in my opinion.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "wiibarebears",
+            "body": "Me still using iPod and ripping mp3s from YouTube instead of Napster",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Spanky2k",
+            "body": "That is the nature of all technological and industria development; new tech comes along that makes life or the job easier. This frees up time and effort for other stuff. The new tech is now mandatory for a normal life. This is why most of the population no longer needs to be farm hands (or going back further, hunter gatherers) and can actually do other things with their lives.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Scherzophrenia",
+            "body": "They\u2019re out of ideas. Enshittification is all they have left.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "engine312",
+            "body": "When they make stuff that is free, get you used to it... and then with enough popularity they start charging you for it more and more. Even youtube now has 1 billion ads per one hour, but where you gonna watch videos if not there? I'm ok with with a reasonable amount of ads, but it has gotten out of control. The type of phone I'm using has ads when I access my files, or look at photos.. Wtf is that",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SRV87",
+            "body": "What were some technological advancements in our lifetime that that are examples of \u201cmake life easier\u201d and we didn\u2019t need to pay for?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "El_Sjakie",
+            "body": "Technology has now made me obsolete, it will do that to you too someday.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "charredchord",
+            "body": "It's not the tech that's getting worse, its the people behind it and what motivates them. \n\nNew businesses always make their products as appealing, cheap, and easy to use as possible, and then slowly walk all that back once enough people are in their system in the name of sucking as much money up as possible. It's only when a competitor comes in with their own shiny new system that the cycle begins anew.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "NemoKozeba",
+            "body": "Thoreau said that in the time and effort it took to pay for a train ticket, you could walk the same distance. It's still true. We have a car to get to a job that barely pays for the car. We labor as slaves to our possessions.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "GodSpeedMode",
+            "body": "It\u2019s wild to think about, right? I mean, technology was supposed to eliminate hassle, but now it feels like if you don\u2019t keep up with the latest and greatest, you\u2019re left struggling with outdated stuff. Just look at smartphone upgrades\u2014every year, they have new features that are more about keeping you subscribed than actually making life easier. It\u2019s like we\u2019re caught in this cycle of constant consumption just to keep up, and it's exhausting. Sometimes I miss the days when a simple phone was enough!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "CleverGirlRawr",
+            "body": "My teen couldn\u2019t buy a coffee at a shop last weekend because they don\u2019t take cash and that\u2019s all she has.\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Mobile-Ad-2542",
+            "body": "While facing total worldwide anhialation from said technology, and evil power thirsty fascists and dictators.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Idkusermane00",
+            "body": "Yeah like I can\u2019t even use cash at many places anymore",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "StormyHex8",
+            "body": "Basically! It is used to be about everyone's convenience and advancement, but these days, it seems like technology is made to cause issues in order to sell you the answer.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "1vehaditwiththisshit",
+            "body": "It's death by a thousand cuts.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Necroluster",
+            "body": "When a job gets twice as easy due to technology, you're expected to work twice as much as a result.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "could_use_a_snack",
+            "body": "A person could make a good case that technology has never made life easier. \n\nThe loom made it easier to manufacture textiles faster, but the loom operator is now working more hours than the weaver ever did. \n\nThe dishwasher appears convenient but just allows you to use more dishes each day. Instead of using a single cup for your daily liquid consumption, you now use 5, and have to load 5 times as many in and put 5 times as many away, instead of just rinsing the one you use. \n\nThe car. Now you can take a job that is 30 miles away, and takes 60 minutes to get to because of traffic. And the reason you took that job is so you can afford that car? \n\nThese are just examples, but please feel free to give an example of a technology that hasn't created more work.",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "CaseyDaGamer",
+                    "body": "I agree you with for the most part, I just think its also important to consider that those extra hours worked (for your loom example) aren\u2019t just wasted. More clothes are produced per hour, meaning the same population of, say, 10000 people needs fewer loom workers than weavers, allowing the people who would\u2019ve been weavers to do something else that isn\u2019t a need, like writing or art.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "could_use_a_snack",
+                            "body": "Sort of. The problem is now that people can buy less expensive clothing, the will buy more. Instead of one $10 shirt, washed once a week. You now own seven $5 shirts that you wash once a week but take longer because there are more of them. And you spent more than 3 times what you would have on shirts, so you need to work more to afford them. \n\nAnd now that you have so many clothes, and you are working all the time you need to buy a washing machine. Which you need to work even more to pay off etc. ect. And since you have the washing machine you might as well do more loads of laundry each week instead of just once.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "moderngamer327",
+                    "body": "Average working hours have gone down not up",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "OddballOliver",
+                    "body": ">The loom made it easier to manufacture textiles faster, but the loom operator is now working more hours than the weaver ever did. \n\nAnd clothes are far, far cheaper.\n\nSorry, but your examples are asinine. Increasing productivity is a good thing. It increases our standard of living by increasing supply, making the goods cheaper.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "could_use_a_snack",
+                            "body": ">Increasing productivity\n\nLiterally means making more work. Doing more work in less time. My point is that all technology creates more work than it saves. It's just distributed differently.",
+                            "score": 0,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "RainbowHoneyPie",
+            "body": "\"You will own nothing and be happy\" is the way of life now.",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}

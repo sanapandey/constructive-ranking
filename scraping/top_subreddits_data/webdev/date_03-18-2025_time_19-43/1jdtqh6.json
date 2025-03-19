@@ -1,0 +1,338 @@
+{
+    "title": "How to prevent spammers in contact form?",
+    "author": "Suspicious_Role5912",
+    "subreddit": "webdev",
+    "rank": 12,
+    "score": 44,
+    "upvote_ratio": 0.79,
+    "num_comments (reported by reddit)": 51,
+    "url": "https://i.redd.it/zkmpsjt4qcpe1.jpeg",
+    "id": "1jdtqh6",
+    "selftext": "I get like 5 of these a day to my contact form.",
+    "comments": [
+        {
+            "author": "tayjin_neuro",
+            "body": "Honeypot, reCAPTCHA",
+            "score": 152,
+            "replies": [
+                {
+                    "author": "MrButak",
+                    "body": "Added to this I reject a submit if the form was submitted in under 2 seconds.",
+                    "score": 39,
+                    "replies": [
+                        {
+                            "author": "andy_a904guy_com",
+                            "body": "Most of these spam form fills don't even use a browser that executes javascript. A honeypot that is checked on the server is the answer to like 99.99% of these. Captcha's are being broken easily by AI these days.",
+                            "score": 7,
+                            "replies": []
+                        },
+                        {
+                            "author": "DiddlyDinq",
+                            "body": "That's a good idea. Shame it doesnt work for login attempts since a lot of browsers do autofill",
+                            "score": 9,
+                            "replies": [
+                                {
+                                    "author": "Calien_666",
+                                    "body": "if (passwordCorrect && firstTry) {\n    Return false;\n}\n\nHope, this helps.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "chesbyiii",
+                            "body": "Adding to this I like to delay subsequent submissions, too.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "andy_a904guy_com",
+                                    "body": "Just make it seem like it was successful, they'll move on to their next target.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "wisdomoftheages36",
+                            "body": "Have a link to the script?",
+                            "score": -22,
+                            "replies": [
+                                {
+                                    "author": "d-signet",
+                                    "body": "I5s one of the most basic scripts you could write. Why not try it yourself",
+                                    "score": 27,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "AnuaMoon",
+                                    "body": "Sure bro, here you go:  \nhttps://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout",
+                                    "score": 20,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Immediate-Country650",
+                                    "body": "vibe code it",
+                                    "score": -21,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "andy_a904guy_com",
+                    "body": "Put a input field called \"message\" or similar in the form, don't \"hide it\" but move it offscreen by like 90,000 pixels.\n\nIf any text is submitted in that field, ignore the submission, but let the submitter think it went through successfully (reverse shadow ban).\n\nCaptcha's are being broken left and right these days with local AI.",
+                    "score": 8,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "TheOnceAndFutureDoug",
+            "body": "I do three things:\n\n1. Create a honeypot field that's hidden one level up via a `display: none;` and a `tabindex=\"-1\"` so it's hidden from accessibility tools. If that field is filled in it's a bot.\n2. When the user requests the page add a HTTP-only cookie with a UNIX timestamp. It'll get sent along with the contact submission. If the submission is within a certain time I don't send it forward.\n3. Anything caught by the endpoint gets a proper 200 status returned. No reason to let people know.\n\nThat's enough for anything scripted that's just scraping the web for things to spam. If you want to protect yourself from a dedicated spammer you need to log their device somehow and do submission timeouts and all that jazz.\n\nStart with the above and then move on to something beefier if it becomes an issue.",
+            "score": 48,
+            "replies": [
+                {
+                    "author": "InvaderToast348",
+                    "body": "To build on point 2 about request timing, you could store the time the page was sent server side against a user id then check against that on form submission. Cookies are ok, but very easy to workaround. Server side ensures the user/bot MUST wait x time since they requested a page. Never trust anything that touches the client.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "TheOnceAndFutureDoug",
+                            "body": "Agreed, it's just a question of exactly how complex you're willing to build. Sending a cookie with a request is pretty trivial where creating a key in a database that is cleaned up after X amount of time isn't complex but it does require more infrastructure.\n\nIf you're building a simple personal website and just want to filter out casual spam a cookie is probably Good Enough\u2122. If you're building a robust SAAS platform you need much stronger security. If you're somewhere in between so is your approach.",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "AUX_C",
+            "body": "Use turnstile. Captchas aren't that great anymore a\nIMO.",
+            "score": 16,
+            "replies": [
+                {
+                    "author": "TxTechnician",
+                    "body": "I got like 500 new users in a day from a failed recaptcha.  \n\nSwitched to turnstyle.  Then decided, eh fuck it.\n\nIf you go to sign up for an account on my site you now have to fillout a request form that is manually vetted.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "AUX_C",
+                            "body": "As in, too much trouble to set up?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "TxTechnician",
+                                    "body": "No,setup was ez.  I just run a small E com and decided to gi with manual verification.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "AUX_C",
+                                            "body": "Ahhh gotcha. It's read a little cryptic when you said \"fuck it\". Still to have a ton of bots signing up cluttering the DB would be annoying. Surprised you didn't do more.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "marigold303",
+                    "body": "+1 for Turnstile (Cloudflare)",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ryanknol",
+            "body": " what we need is some jail time for spammers. Even honey pots dont work as good anymore, and most recaptcha doesnt do too good either with AI around.",
+            "score": 24,
+            "replies": [
+                {
+                    "author": "TheOnceAndFutureDoug",
+                    "body": "The fun part about captchas is while they aren't as good at stopping spam anymore they're still just as good at blocking assistive tech. So that's neat...",
+                    "score": 14,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Fitbot5000",
+            "body": "Plenty of recaptcha recommendations here. Specifically I prefer v2 for simplicity and cost. \n\nhttps://developers.google.com/recaptcha/docs/display",
+            "score": 9,
+            "replies": []
+        },
+        {
+            "author": "nklvjvc",
+            "body": "try implementing honeypot and google captcha / cloudflare turnstile",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "enemyradar",
+            "body": "Some variety of captcha.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Boiiiiii23",
+            "body": "I used botpoison",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "DiddlyDinq",
+                    "body": "Stuggling to understand how it works based on their landing page. Are they tracking the ip of every single vistor",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Double-Intention-741",
+            "body": "99.99% of hackers/bots are not MANUALLY filling out form fields... casue they LAZY LITTLE ..... so what you gotta do is make a special form feild for them... make that field invisible display: none or maybe absolute top: -9999999px.\n\nThen anyone little beach that fills that field in DENIED",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "_unorth0dox",
+                    "body": "They're called honeypot fields.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "AlFender74",
+            "body": "An internet where you need a license to participate.",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "wisdomoftheages36",
+                    "body": "They have this\u2026. In China \ud83c\udde8\ud83c\uddf3",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "TheOnceAndFutureDoug",
+                    "body": "People forget how important anonymity on the internet is...",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "felipeizo",
+            "body": "if it's a human: you can't  \nif it's a bot: a captcha",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "TheOnceAndFutureDoug",
+                    "body": "You can't stop a human the first time. You can stop them after that by timing out their submissions.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "TxTechnician",
+            "body": "Cloud flair turnstyle",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "anus-the-legend",
+            "body": "I replaced the contact form on my personal/professional site years ago and replaced it with links to professional spaces. That works so much better for my needs and offloads the work.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "VastVase",
+            "body": "First day?",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "techdaddykraken",
+            "body": "Use something like FormBasin. It analyzes the content of the entire form to identify spam.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "FalseRegister",
+            "body": "Cloudflare Turnstile \n\nForget google's captcha",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "_unorth0dox",
+                    "body": "Why?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "sharyphil",
+            "body": "\"Best regards, Daniel Edwards\"\n\nRiiigghhht. I am 100% certain his name is nowhere near that :D",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "magenta_placenta",
+            "body": "For those using cloudflare's turnstile, what are you paying for it and what is it based on?  For their enterprise plan, their site just says \"contact sales\".\n\nWhat's the integration like?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "dakotapuppynose",
+            "body": "The way I have done this is to make the form multi-step. We have a 3 step form and haven\u2019t got a single bot in 2 years. We used to get multiple a week.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SteroidAccount",
+            "body": "If they ever put a real domain, report them to the registrar and/or host.  I\u2019ve had a couple suspended for spamming and it feels amazing.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ssnepenthe",
+            "body": "Among other things I've been checking the message body against a word/phrase block list...\n\nThe terms \"seo\", \"search engine optimization\", \"search ranking\", \"search term\" make a huge dent in the type of spam I usually see.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ardicli2000",
+            "body": "Do bots use mouse/cursor? If not, then a cursor tracking could be a solution",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "hawkida",
+                    "body": "Goodbye assistive technology users who keyboard navigate. Farewell mobile users...",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "queen-adreena",
+            "body": "A Captcha will get most of them.\n\nThen you can also implement a spam-list before processing the submission.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "Immediate-Country650",
+            "body": "use ai to see if its spam or not!",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "OSINT_IS_COOL_432",
+            "body": "I would say hCaptcha, but in my experience these are humans in third world countries\u2026.",
+            "score": -5,
+            "replies": []
+        }
+    ]
+}

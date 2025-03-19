@@ -1,0 +1,118 @@
+{
+    "title": "It fits like a glove",
+    "author": "Alkounet",
+    "subreddit": "godot",
+    "rank": 3,
+    "score": 798,
+    "upvote_ratio": 0.99,
+    "num_comments (reported by reddit)": 16,
+    "url": "https://v.redd.it/y6ycduhn7gpe1",
+    "id": "1je4pcw",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "MakkusuFast",
+            "body": "I suggest adding a little effect, like clouds squeezing from the sides and a little bump sound. Other than that, nice animatiom, really satisfying!",
+            "score": 48,
+            "replies": [
+                {
+                    "author": "Alkounet",
+                    "body": "Yeah I'm still struggling with pixel art, I'm not sure how to do cloud dust effect (for the block sliding also). It's on my todo list!",
+                    "score": 15,
+                    "replies": [
+                        {
+                            "author": "Informal_Bunch_2737",
+                            "body": "Create a scene with only an animatedsprite2d with the dust cloud. Make it queue_free itself when the animation ends.\n\nCreate a new instance and call it when you need dust. \n\nI use it all the time as floating text or FX.",
+                            "score": 8,
+                            "replies": [
+                                {
+                                    "author": "Alkounet",
+                                    "body": "Well I meant pixel art -wise but thanks for the tips though I do the same!! XD",
+                                    "score": 5,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "beautiful_trash09",
+            "body": "That's right! In the square hole.   \nNow where does the triangle piece go?",
+            "score": 90,
+            "replies": [
+                {
+                    "author": "gaker19",
+                    "body": "r/beatmetoit",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "Icyenderman",
+                            "body": "r/nobodysayit",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Responsible_Gift1924",
+            "body": "![gif](giphy|tp4dm1ptNnQ76)",
+            "score": 20,
+            "replies": [
+                {
+                    "author": "bbgun142",
+                    "body": "exactly what I was thinkin",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "_Rushed",
+            "body": "oddly satisfying",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "Responsible_Gift1924",
+            "body": "looks nice do you have a link?",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "Alkounet",
+                    "body": "Let me finish the game and I'll post you the Steam page link yeah :D",
+                    "score": 9,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Unlucky-Association5",
+            "body": "it goes in the square hole",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Important-Following5",
+            "body": "Extremely cool and good looking!",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Alkounet",
+                    "body": "Thanks!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Aoclaf",
+            "body": "This is so satisfying",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

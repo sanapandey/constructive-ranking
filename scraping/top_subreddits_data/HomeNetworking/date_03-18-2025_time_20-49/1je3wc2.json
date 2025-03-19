@@ -1,0 +1,78 @@
+{
+    "title": "Is my home networking journey at its end?",
+    "author": "Physical-Use1005",
+    "subreddit": "HomeNetworking",
+    "rank": 12,
+    "score": 9,
+    "upvote_ratio": 0.81,
+    "num_comments (reported by reddit)": 10,
+    "url": "https://www.reddit.com/r/HomeNetworking/comments/1je3wc2/is_my_home_networking_journey_at_its_end/",
+    "id": "1je3wc2",
+    "selftext": "It\u2019s been 9 years since we built this house, out in the sticks. We had GPRS mobile signal and a WiFi coming from local masts designed to serve wind farms. We got about 8mbps up and 1 Mbps down. \n\nSo I\u2019ve always worked to improve it. Early adopting anything I could find to give us a better network. Eventually we got a decent 4G signal in the area and we moved to that. At the time it was a game changer. 50 down, 20 up. But latency wasn\u2019t great. Gaming wasn\u2019t great. I installed mesh to try to help with the Sky Q. Tried Powerlines etc and always got small incremental improvements but never satisfaction. \n\nI was the first person in our area to get our names down for 900 fibre and eventually it came. It was much better but my mesh system was cheap Mercusys WiFi 5 and Sky Stream struggled with it. Then a few months ago I was able to upgrade to WiFi 7 and 1.6gb connection. Sky Stream improved instantly, and has been perfect ever since. \n\nI built a garage last year with a room above for my office/mancave and had cat 6A installed underground from by cupboard at the back door. But there was one missing piece - I was relying on WiFi backhaul up to the point where that CAT 6A was situated. \n\n10 days ago here I was talked through a way of using my redundant coax cable in my house to complete this final piece of the puzzle. \n\nNow I have WiFi of as much as 1.9gb throughout the house and garage and never below 1gb.  everything that needs to be hardwired is hard wired. And I know I can split hardwired connections to anywhere else, should I ever need to. 1.6gb connection, WiFi 7 and 2.5gb switches, Ethernet and coax all in place.\n\nI am finally, after 9 years, completely satisfied with my home network and I feel it is good for years to come. It feels great. \n\nBut it also feels a bit odd that it is now effectively over. . There is no longer that thing to strive for. Does that make sense? ",
+    "comments": [
+        {
+            "author": "xaqattax",
+            "body": "Now you can focus on your services. NAS for backup, local steaming box, iot devices, rack cleanup. Tons of fun to be had!",
+            "score": 11,
+            "replies": [
+                {
+                    "author": "Physical-Use1005",
+                    "body": "I will take a short breather and then beginning exploring all of that! Probably!",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "TheEthyr",
+                            "body": "If you get into VLANs, you can have fun replacing all of your consumer gear with business-class!",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "duiwksnsb",
+            "body": "But have you replaced your copper with fiber?\n\nIn home fiber is the only way you'll ever feel complete",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "Physical-Use1005",
+                    "body": "Stop!!!! \ud83d\ude02",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "doll-haus",
+                    "body": "I know you're being factious, but fiber LAN, outside of specific scenarios, is generally undesirable.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Tnknights",
+            "body": "You know you aren\u2019t done. No one is ever done. Next comes fiber for your backbone. Every time SFPs get cheaper you \u201cneed\u201d to buy new ones. Eventually other technologies will get cheaper and faster. So much stuff, so little time, even less money. LOL!!\ud83d\ude02",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Waste-Text-7625",
+            "body": "First, congratulations. If you want to feel you are done, stop reading this subreddit and definitely don't read subreddits like r/selfhosted, r/datahoarder, or r/homeserver. \n\nAfter I had my network built out, i focused more on learning how to improve it, make it more secure, and that led down rabbit holes like IPS/IDS, VLANs, implementing dual stack IPv4/IPv6, etc. That led to graduating from off-the-shelf consumer equipment to prosumer equipment, etc.  It also led to a homeserver/fileserver and a host of VMs and containers running various different things from home automation to my personal cloud. Once you go down the rabbit hole... there is no going back.\n\nSo if you are still reading this... please open your wallet now.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Physical-Use1005",
+                    "body": "Eeek",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ReadFree444",
+            "body": "The networking journey never ends.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

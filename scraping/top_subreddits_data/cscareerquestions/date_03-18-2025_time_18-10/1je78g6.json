@@ -1,0 +1,582 @@
+{
+    "title": "Chronically unemployed?",
+    "author": "Joethepatriot",
+    "subreddit": "cscareerquestions",
+    "rank": 3,
+    "score": 116,
+    "upvote_ratio": 0.89,
+    "num_comments (reported by reddit)": 88,
+    "url": "https://www.reddit.com/r/cscareerquestions/comments/1je78g6/chronically_unemployed/",
+    "id": "1je78g6",
+    "selftext": "At what point do you give up? Pick a different career or just accept living in destitute poverty for life.\n\nI worked at a prestigious FAANG company straight out of high school. 2 years I was there on an apprenticeship program.\n\nI've now been unemployed for 18 months.\n\nI've sent out over 1000 applications and had 3 interviews (2 from references)\n\nOct 2024: JPM SWE III (failed bad)\nDec 2024: Google L3 (near hire)\nFeb 2025: Barclays (near hire)\n\nI've been treading water doing tutoring and national guard duties to break even on expenses (I live with my parents) \n\nWill I get another shot at interviewing, or am I now chronically unemployed \n\nEdit: Anonymised resume: https://docs.google.com/document/d/e/2PACX-1vTNEJOIbNGi6sbfXXykLnrTXnBeILziqVWGzrJDDG-h2Dzbz7pYBhuiB7VuN9Y2Qzxc5BS8zkKMUAuV/pub",
+    "comments": [
+        {
+            "author": "PewPewDesertRat",
+            "body": "That\u2019s a pretty long time to not have a coding responsibility, but I\u2019ve seen friends snag jobs after a year off. \n\nAre you also applying to nonFAANG/finance positions? I hate to say \u201cbeggars can\u2019t be choosers\u201d but there are probably development jobs in the $60-80k salary band for less desirable companies that you would be competitive for.. as long as your technical skills are up to snuff.\n\nEdit: just saw that you\u2019re in the UK. Honestly idk anything about that market and this might not apply.",
+            "score": 67,
+            "replies": []
+        },
+        {
+            "author": "AlexGrahamBellHater",
+            "body": "I really don't mean to be harsh or come off as it but.....\n\nDude this sounds like a case of you're applying to positions you are in no way qualified for by experience. Like WAY out of your league. \n\nYou worked with a FAANG for 2 years on an APPRENTICESHIP program straight out of high school. You might've done super well there but here's the thing. \n\nYou have 2 years of experience applying to jobs that require a MINIMUM of 7 years of experience. \n\nYou're 20-22 with no college degree when most your peers already have one or are in progress getting one. \n\nYou're applying to jobs and skipping way too many steps. \n\nGet a college degree, get an ENTRY-LEVEL position, work there a few years, and THEN start trying for those jobs you described. \n\nI'm honestly SHOCKED JPM even entertained an interview with you. Seems like they wanted to rule out the possibility you were a Coding Savant or something.",
+            "score": 93,
+            "replies": [
+                {
+                    "author": "terrany",
+                    "body": "Eh I do agree OP is out of his depth due to the lack of CS degree but as far as I know L3 is entry level at Google, and JP Morgan SWE III lists 3+ YoE on all their postings which seems more mid-level than senior or 7 YoE. \n\nThat being said, OP should definitely just apply for internships (and also revamp the resume formatting) while doing his degree as he's competing vs Waterloo students who have done 6 co-ops/internships and have a highly regarded CS degree and are still struggling to get into those same roles.",
+                    "score": 25,
+                    "replies": [
+                        {
+                            "author": "DorianGre",
+                            "body": "Apprenticships don't count for YoE. He is basically brand new with no real experience and no degree.",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "Iannelli",
+                                    "body": "That is not a blanket rule. It completely depends on what the duties were during the apprenticeship. \n\nIf you're a member of a team and doing actual work in accordance with your role... it all counts toward YoE.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Joethepatriot",
+                    "body": "Hey, thanks for your feedback, I appreciate the forwardness.\n\nI'm applying to jobs which really should require 0-3 years of experience. On the contrary, some other apprentices have jumped ship to places such as JPM or Vanguard in the past.\n\nMy apprenticeship qualification is worth roughly 1 year of college education (at least thats what the UK government say). I'm also studying maths part time, mainly because no good college would accept me with my current A levels (high school grades)",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "ThingsThatMakeMeMad",
+                            "body": "> no good college would accept me with my current A levels\n\nWith google on your resume, an average college would suffice. Are you unable to get admitted to mid-tier universities?",
+                            "score": 16,
+                            "replies": [
+                                {
+                                    "author": "SwitchOrganic",
+                                    "body": "Or even just grind out a degree on WGU. OP already has Google, they just need a degree to check the box now.",
+                                    "score": 7,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Joethepatriot",
+                                    "body": "Which mid tier universities would you recommend?",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Nothing_But_Design",
+                            "body": "Idk how it works in the UK, but in the US\n* Some companies don\u2019t count internship/co-op/apprenticeship as experience. The job description usually says this or the hiring manager says it\n* If you\u2019re applying for jobs that require a degree you can still be skipped even if you have experience but don\u2019t have the degree\n\nAlso, what the job should really require doesn\u2019t always matter. If the job description says x and you don\u2019t have x they can still skip over you. You aren\u2019t the one who gets the decide that, the company does",
+                            "score": 5,
+                            "replies": []
+                        },
+                        {
+                            "author": "DorianGre",
+                            "body": "No it isn't. I look at the apprentice on a resume as either 1) you were a good high school student or 2) your family knew someone. Either way, I am not counting that as experience. So, you are a high school graduate with no experience and no college degree. Apply to internships and to any college that will take you.",
+                            "score": 5,
+                            "replies": []
+                        },
+                        {
+                            "author": "Bot12391",
+                            "body": "Do the postings say they require 0-3 years of experience or is the person who can\u2019t get a job and only has 2 years of apprenticeship experience + no college degree saying they SHOULD only require 0-3 years despite asking for more? Major difference..",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Joethepatriot",
+                                    "body": "Depends on the job description, but Google L3 typically advertises as \"having a bachelors or equivalent work experience\" and \"1 year of experience in software development\"",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Bot12391",
+                                            "body": "I may be wrong but apprenticeship experience is equivalent to internship experience from what I\u2019ve seen. You mention no college degree (bachelors is about 4 years of college) as well which means you don\u2019t qualify, surely don\u2019t have experience equal to the degree. I think you\u2019d see better results if you applied for less qualified positions.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "SilentDonkey6140",
+            "body": "Post an anonymized resume. 3 interviews from 1000 apps is bad, especially with your bg. Do you get contacted by recruiters? Is your linkedin solid? What have you been doing the past 18 months? I know people's experience varies (+ this sub went full emo since '22), but I've had like 95% callback rate over the last 3 years.",
+            "score": 61,
+            "replies": [
+                {
+                    "author": "Joethepatriot",
+                    "body": "my \"anonymized\"\u00a0resume: [https://docs.google.com/document/d/e/2PACX-1vTNEJOIbNGi6sbfXXykLnrTXnBeILziqVWGzrJDDG-h2Dzbz7pYBhuiB7VuN9Y2Qzxc5BS8zkKMUAuV/pub](https://docs.google.com/document/d/e/2PACX-1vTNEJOIbNGi6sbfXXykLnrTXnBeILziqVWGzrJDDG-h2Dzbz7pYBhuiB7VuN9Y2Qzxc5BS8zkKMUAuV/pub)",
+                    "score": 8,
+                    "replies": [
+                        {
+                            "author": "zeros-and-1s",
+                            "body": "Formatting is atrocious, if you can't line up columns for dates and company names, why would I hire you to debug software?  \n\n- Inconsistency: Google has a department title (Android Google Search App) but Nazare doesn't.\n- Weird spacing after `Languages, Tools, Techs` in `Tech Skills`\n- Missing closing bracket in Hackathon point\n- Move tech skills under work experience\n\nI prefer simple and straightforward like [this](https://app.enhancv.com/resume-templates-landing?template=predefined-DuL0GzrjhjZHr0mwbwgPitMJ3Z20hVmYHQciz6rm).\n\n\nNobody cares about this, \n\n> Tutoring and mentoring students and early-career professionals, along with my service in the Army Reserves, have provided me with valuable experience and additional income.\n\nit just adds distraction to your actual experience, if you must include it, remove \"have provided me with valuable experience and additional income.\" and move it somewhere lower\n\n\n\nOn a more macro note, the market in the UK sucks as far as I can tell (Canadian-UK dual citizen living in Canada, considered a move to the UK but the tech scene there is just way too shitty).  Come to North America, or move to the EU might be better bets.",
+                            "score": 70,
+                            "replies": [
+                                {
+                                    "author": "Joethepatriot",
+                                    "body": "That looks really good. Thanks for the suggestion, I'll definitely start using this instead. \n\nI might make the jump to Canada in the next few years. Its easy for me to get a visa, and I might be able to get an army reserves rank transfer because they're commonwealth.",
+                                    "score": 12,
+                                    "replies": [
+                                        {
+                                            "author": "Antique_Pin5266",
+                                            "body": "Canadian dev market sucks supreme ass too from what I've seen around here",
+                                            "score": 7,
+                                            "replies": [
+                                                {
+                                                    "author": "zeros-and-1s",
+                                                    "body": "From my experience Canadians can make 60-80% of US salaries.  UK makes <50%",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Standard-Net-6031",
+                                    "body": "It does suck but he worked for google, even though he was an apprentice he should be getting more offers.",
+                                    "score": -1,
+                                    "replies": [
+                                        {
+                                            "author": "zeros-and-1s",
+                                            "body": "I don't care who you worked for.  If you can't close a bracket and line up columns on the most important 1 page document of your life, what can I expect your PRs to look like?  What happens when you need to write up a tech spec?  \n\nNo thank you, I'll look for the next guy.",
+                                            "score": 42,
+                                            "replies": [
+                                                {
+                                                    "author": "Joethepatriot",
+                                                    "body": "Valid advice.",
+                                                    "score": 6,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "Noeyiax",
+                                                    "body": "Purely an anecdotal and personal preference.\nNow my opinion is that, your analogy to say a resume to a PR is a bad example. \ud83d\ude02 \n\nEven if you were the last guy to give life advice because you're a \"senior\" or whatever high-ego you have, I would rather pick a corpse.\n\nTo OP: this person gave terrible advice in a rude and condescending manner. Keep trying different resume formats and work on wide projects to boost your resume and network with similar individuals in your experience. You can also try to build an app together, no matter how simple, and learn new technologies along the way and improve your DSA, etc",
+                                                    "score": -5,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "No-Yogurt-In-My-Shoe",
+                            "body": "Your resume is dog doodoo. You\u2019re very poorly marketing yourself, put your Google experience first and languages at the bottom. I can share a resume w you if you pm me! You should be getting more call backs especially since you\u2019re DEI by being in the military and that you have Google on your resume",
+                            "score": 17,
+                            "replies": []
+                        },
+                        {
+                            "author": "Far_Function7560",
+                            "body": "I do think the formatting could use cleaning up as others have mentioned. Other notes that I haven't seen touched on.\n\n-I'd try to flesh out your projects section.  At your current level of experience, those are the biggest sign of your ability that you have, and I'd like to see more details on what the projects did and what you accomplished.  If there are common languages/frameworks you see a lot at places you're applying to that you don't have experience in, this can be a good opportunity to show you can work in those technologies.  \nMore visibility into your projects too can be nice.  You may have removed that in obfuscation, but a way to see the gameplay for your game or a link to click around on your personal site would be a nice touch to let people really see something you've built.\n\n\n-I feel like this second role you have after your apprenticeship might be doing you more harm than good.  It makes me wonder why you couldn't hold that position for longer than a couple of months.  Unless you have good reason for that you can add in to the description, I think I'd try removing that position entirely and letting your Google experience and projects do the heavy lifting for you.",
+                            "score": 8,
+                            "replies": [
+                                {
+                                    "author": "Joethepatriot",
+                                    "body": "Hmm okay. I'll think about it. The main reason I left was they weren't paying me.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Turbulent-Week1136",
+                            "body": "Besides the advice from zeros-and-1s, do you not have a degree? It looks like you're starting your undergraduate degree this year.\n\nAlso get rid of your supermarket and swimming experience.",
+                            "score": 8,
+                            "replies": [
+                                {
+                                    "author": "Joethepatriot",
+                                    "body": "I'm doing an undergraduate in Maths part time.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "mothzilla",
+                            "body": "Take any \"CV template\" and work with that. If you have a personal website, you should link to it; recruiters love that stuff. Not sure if you removed it during anonymisation.",
+                            "score": 5,
+                            "replies": []
+                        },
+                        {
+                            "author": "ZestyData",
+                            "body": "It's hard to put into words how atrocious that CV is man. No wonder you only heard back for 3 out of 1000 applications.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "Joethepatriot",
+                                    "body": "Only way is up right \ud83d\ude2d",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "None",
+                            "body": "[removed]",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "AutoModerator",
+                                    "body": "Sorry, you do not meet the minimum sitewide comment karma requirement of **10** to post a comment. This is comment karma exclusively, not post or overall karma nor karma on this subreddit alone. Please try again after you have acquired more karma. Please look at the [rules page](https://old.reddit.com/r/cscareerquestions/w/posting_rules) for more information.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "PLTR60",
+                    "body": "I know a few things about a good LinkedIn profile, but would you mind dropping some pointers on how to make your profile solid? I could use some advice. Much appreciated! Thanks!",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "SilentDonkey6140",
+                            "body": "Correct and up-to-date information, have a bio that gives a good overview of your domain and skill set. Don't be conservative with keywords, but don't make it look like you're an SEO bot (use human language).\n\n\nAlso make your profile public, include a photo, add a bunch of people, respond to recruiters (reject or accept, but at least respond, don't ghost, you'll get recommended less to recruiters if you do that).",
+                            "score": 7,
+                            "replies": [
+                                {
+                                    "author": "PLTR60",
+                                    "body": "Thank you! \ud83e\udd42",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Successful_Camel_136",
+                                    "body": "Do you think it matters if your profile is verified. Would rather not send LinkedIn my ID",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "SilentDonkey6140",
+                                            "body": "I don't know, probably wouldn't hurt. But if you feel uncomfortable doing KYC, just don't do it. It's probably negligible.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "None",
+                            "body": "[deleted]",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "PLTR60",
+                                    "body": "I'm in the same boat as you, so I don't think my resume will help you at all! :( \nI hope someone with a hitter resume sees this thread and responds!",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "stocksandvagabond",
+                    "body": "You should post an anonymized resume if you really have a 95% callback rate lmao, that is utterly bonkers",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Legitimate-School-59",
+                    "body": "95% call back rate??? Wtf. Some people really do live in completely different reality.\n\nWhat's ur background?",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "No-Yogurt-In-My-Shoe",
+                            "body": "His resume is ASs, that\u2019s why",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Chlodio",
+                                    "body": "People keep shitting on his resume, I don't why.",
+                                    "score": 0,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "ArkGuardian",
+                    "body": "Would you mind sharing your anonymized resume? I feel like my resume is very competitive and I\u2019m nowhere near 95%. Are these all from cold applications?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "justUseAnSvm",
+            "body": "Go to college. Do that, and your guard work, and settle in to spend 2-3 years on your degree.",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "Jedisponge",
+            "body": "Sounds like you have very distorted expectations of what a career in software development is because you got a FAANG internship right away.\n\nYou're a junior dev with no work experience outside of an internship. Why are you applying for level III positions?",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "Joethepatriot",
+                    "body": "One of my army reserve friends referenced me, the lowest role they had on offer was SWE III so I thought why not try,",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "fake-bird-123",
+            "body": "Something is wrong with your resume and/or your networking approach.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "AdUsed4575",
+            "body": "No degree is rough",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "ThinInvestigator4953",
+            "body": "I would look for positions lower on the totem pole, if your only work experience is a 2 year apprenticeship at a FAANG company, you might just be lacking some of the real world experience a lot of employers look for. Try going for a SWE I or Google L1 or L2, you technically only have 2 years of experience in IT, which isn't a lot, and you might just have to take a lower level position which isn't the worst thing especially for someone who is just starting their career. 18 months while looking for a job isn't unheard of, I worked at an MSP for 8 years, and started looking for a new position 6 years in, it took 2 years for me to finally get hired elsewhere as a systems administrator. I went through probably 6 interviews in person and multiple assessment tests, some I passed, others I failed, but it took a lot of NOs before I got a YES with 6 years of IT experience.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "mrchowmein",
+            "body": "It also sounds like you don\u2019t have a degree? If that is correct, I dunno if you considered going back to school. If you want to do this for the long haul, there isn\u2019t much downsides to a degree or two as you ride out the current market.  In this market, you need to tick more check marks to even be considered for an interview.",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "Joethepatriot",
+                    "body": "I'm studying maths part time. I spoke to a few universities, but no good ones would accept me full time, and ideally I'd prefer to be working.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "csanon212",
+            "body": "After 18 months you need to pivot.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "PapaMario12",
+            "body": "apply to entry level positions tbh",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "cashfile",
+            "body": "Agree with other comment, 1000 applications and only 3 responses even in this market is probably more indicative of your resume.",
+            "score": 9,
+            "replies": []
+        },
+        {
+            "author": "a_username_is_born",
+            "body": "A few things:\n\nRun your resume through the ai scanner:\nhttps://resumefromspace.com/resume-scanner\n\nthen adapt your resume to be more like Jakes Resume: (Don't download anything, just start a word doc and replicate the formatting)\nhttps://www.overleaf.com/latex/templates/jakes-resume-anonymous/cstpnrbkhndn\n\n\n\nRun it through scanner again - and keep modifying until you get a score above 80-85\n\n\nJust my 2 cents also: \nDrop Interests - \n\nAdd measurables to a few of your experience points\n\nProcessing and displaying relevant financial data using Pandas, Dash (HTML/CSS) and Flask (Python)\n\nhow much financial data? 100s of lines? 1000s of lines?\n\nhow many users? 10? 20? 100? 1000?\n\nCreated a system to replicate mission-critical data to a backup database (Postgres, SQL, docker)\n\nWhy kind of system? \n\nhow much data?\n\nGo through each item and ask yourself how you could add measurables to it.\n\nNot sure School and Budgens supermarket are relevant to CS jobs- maybe drop them\n\nexpand on your projects\n\nYou basically need to add more details and expand.\n\nEasiest for me was to write as much detail as i could about a single project and then feed it to ChatGPT and ask to summarize it for a resume into 1 or 2 lines focusing on the technology.\n\n\nand as others have said - better formatting, but that should come using Jake's Resume.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Joethepatriot",
+                    "body": "Thanks, these points are really useful and succinct",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "BansheeBomb",
+            "body": "ATS will simply delete your resume if you don't have a degree, no one is seeing it.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "coinbase-discrd-rddt",
+            "body": "You have no degree and 2 internships (I\u2019m struggling to even consider Google one since you had no experience at all before this and actual SWE interns have more impact than what you listed) and applying for experienced roles.\n\nEither start applying to new grad roles (very high supply of candidates/low demand) or get an actual degree and get internships",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Joethepatriot",
+                    "body": "No impact? I had ownership of a whole project end to end, and assisted on 2-3 other ones. \n\nMoreover, they invited me back for an L3 interview (after a year) which I almost passed.",
+                    "score": -2,
+                    "replies": [
+                        {
+                            "author": "coinbase-discrd-rddt",
+                            "body": "Never said no impact, just that teaching you how to code and working on a project thats scoped like a personal project is NOT 2 yoe at all and im struggling to even call it an internship. And why didn\u2019t you get a return offer from this? Headcount has been clearly open for a while for L3",
+                            "score": 6,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Joethepatriot",
+                    "body": "No impact? I had ownership over 1 feature, and assisted heavily on 2-3 others ones.",
+                    "score": -2,
+                    "replies": [
+                        {
+                            "author": "Nothing_But_Design",
+                            "body": "Just because you owned a feature and assisted in other features doesn\u2019t mean it\u2019ll be valued. \n\nAnother aspect, which your resume is missing, is the impact the work that you did had on the company. \n* How much money did it save/generate?\n* How many users did it have?\n* etc\u2026\n\nYour resume should have metrics & data points to backup the impact/value it had.\n\n\nEx: \n* Implemented duplicate image detection for Amazon.com merge image requests by sellers, resulting in **$350k+/yr savings**",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Ok-Obligation-7998",
+            "body": "You will need to embrace poverty. All of us will have to eventually.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "patheticadam",
+            "body": "are you able to relocate for a job in person? There are non-tech companies who have issues with IT recruiting due to them having strict in office policies and being located in rural-ish areas. They definitely don't pay faang salaries but it's better than being unemployed\n\nalso have you considered short term contract work? I get messages on linkedin from staffing firm recruiters all the time about 6-12 month contract jobs\n\nI feel like if you have faang on your resume you could land either of these\n\nAlso you said you worked straight out of highschool. Did you go to finish undergrad? Maybe you could use the GI bill to go back to school for undergrad or masters. It's way easier to land an internship or an entry level full time job if you're still a college student as you have access to exclusive career fairs and many companies have yearly quotas for their college recruiting. If you go back to school, you could also try to work on a research project with one of your professors, it's great for your resume and you may be able to get paid to do it. Maybe the job market would be better after school too",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Joethepatriot",
+                    "body": "I'm a reservist in the UK, so there is no GI bill or anything like that here, sorry for the confusion.\n\nI didn't go to College. I briefly looked at some, but basically my high school grades weren't good enough for any good university here, and they wouldn't take into account my work experience or apprenticeship diploma.\n\nI forgot to mention, I did work unpaid at a startup for 3 months, but they never paid me so I left.\n\nI'm currently doing a degree in maths part time, but it will take me 6 years to get.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "patheticadam",
+                            "body": "ahh i see. I don't know much about the european market for tech people \n\nalso why a math degree as opposed to computer science? Not saying math is a bad degree but comp sci gives more practical skills for this industry",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "Joethepatriot",
+                                    "body": "I'd like to say that my programming / computer skills are already pretty good. I don't want to be taking out debt for \"introduction to Java\", \"Data structures and Algorithms\", \"Web technologies\" etc.\n\nI also read somewhere the quote \"you can teach a mathematician how to code easily, but you can't teach a programmer complex maths easily\" or something along those lines. \n\nI guess it gives my work / studying variety too. Spend a lot of time doing leetcode / side projects anyhow, wanted some different problems to work on whilst it still being productive.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "patheticadam",
+                                            "body": "while I agree you might be a little bored in some of these intro classes if you already have a few years of programming experience, but that's also the reality for a lot of comp sci students in college.. they take the easy intro classes because they are required prerequisites for the more advanced classes like AI/ML, Operating Systems, Networking etc\n\neven if you're a good programmer, a lot of companies may never even look at your resume simply for not having a comp sci degree",
+                                            "score": 5,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "AutoModerator",
+                    "body": "Sorry, you do not meet the minimum sitewide comment karma requirement of **10** to post a comment. This is comment karma exclusively, not post or overall karma nor karma on this subreddit alone. Please try again after you have acquired more karma. Please look at the [rules page](https://old.reddit.com/r/cscareerquestions/w/posting_rules) for more information.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "AutoModerator",
+                    "body": "Sorry, you do not meet the minimum sitewide comment karma requirement of **10** to post a comment. This is comment karma exclusively, not post or overall karma nor karma on this subreddit alone. Please try again after you have acquired more karma. Please look at the [rules page](https://old.reddit.com/r/cscareerquestions/w/posting_rules) for more information.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "bwainfweeze",
+            "body": "When inflation is high, invest in skills and tools that pay for themselves. It\u2019s better to improve yourself and your surroundings than to try to sit on the money. \n\nGo to school.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "tjdavids",
+            "body": "just stop doing drugs for a couple of months and get a basic union job in a factory.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Tourist__on__earth",
+            "body": "Are you tailoring your CV for each position you apply to?\n\nYour CV would benefit from a thorough revision to clearly demonstrate your value to potential employers. Focus on quantifiable achievements - for example, include specific metrics like \u201cincreased KPIs by 20%\u201d, \u201cmanaged 3 key projects\u201d, or \u201cimpacted 3,000 users\u201d.\n\nConsider working with a professional CV writer or recruiter for guidance. While some services can be expensive, there are affordable options available. LinkedIn\u2019s Services marketplace is a good place to find CV writers and reviewers.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "gsmumbo",
+            "body": "> Tutoring and mentoring students and early-career professionals, along with my service in the Army Reserves, have provided me with valuable experience and additional income.\n\nThis needs to come off of your resume, or at least be buried somewhere. If a company wants to hire a software engineer, and the first thing they read in your experience is tutoring and mentoring, you\u2019ve already lost.\n\nAdd quantifiables where you can, and remember - everyone applying for these jobs should be able to do the basic job requirements. That means their history is going to list the same skills, the same job responsibilities, etc. If that\u2019s all you have, it\u2019s going to be tough getting an interview. You need to show them what impact you actually made. You used these skills, what came out of it? You made something? How successful was it? etc. You have to give them a reason to pull yours out of the pile.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "03263",
+            "body": "Keep pushing, talk to recruiters. I get nothing from applying to jobs, I've applied to hundreds. I replied to some recruiters and one had a job that was perfect for me.\n\nEven ones that don't have a job I'm qualified for, I still reply to say I'm good at x,y,z if you find anything like that keep me in mind. The benefit of using a recruiter is they already have a line in at the company and can get you an interview right off the bat, no application needed. Maybe not a real interview but at least a screening call with someone there. They are all over linkedin searching for profiles and sending messages, make sure your settings are open to that so they can find you. Yes you'll get a lot of spam, but it's only a few minutes to delete it.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "sneeze-slayer",
+            "body": "You need to do something different. Go to local events, talk to people. Applying into the void clearly isn't working",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "in-den-wolken",
+            "body": "You're 22/23 years old? Much too young to \"give up.\"\n\nSounds like your parents are willing to support you. So, finish that degree. That's a priority. Outside of school, build some projects, deploy them, get users. Perhaps collaborate on some open-source projects - preferably in a domain that interests you. Enter some hackathons to network and get visibility. Just in case, keep practicing Leetcoding.\n\nIn a 2-3 years, when you finish your degree, you'll be as well-positioned as anyone.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Joethepatriot",
+                    "body": "The degree is online and part time, so it will take me 4-6 years to finish :( I'll keep trying though!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "maz20",
+            "body": "Sounds like you had a good run cashing in on [investment-friendly central banking](https://www.reddit.com/r/cscareerquestions/comments/1avadgm/comment/kr9rq96/) back in the day!\n\nUnfortunately, these days the public banks + government have [quite the opposite mentality...](https://www.reddit.com/r/cscareerquestions/comments/1jbc5gu/comment/miel0qw/)\n\n\\*Edit: are you based in the UK? What are your thoughts on traveling abroad to work ***elsewhere*** in Europe? (Where, perhaps, the \"job climate\" might be friendlier?? Just speculating...)",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "Ok-Pop2689",
+            "body": "honestly you need to start lying then\nbut what happened with the apprenticeship is my first question? \n\nmaybe swe is not for you in this current market",
+            "score": -1,
+            "replies": [
+                {
+                    "author": "Joethepatriot",
+                    "body": "Finished it, got a distinction on the qualification, consistently met expectations, bonuses etc etc.\n\nNo headcount at the end for a full time position so I had to leave.",
+                    "score": -1,
+                    "replies": [
+                        {
+                            "author": "Ok-Pop2689",
+                            "body": "hmm then it\u2019s straight up the market, you will most likely have to lie about your experience to get an offer\n\nfor reference i have 8 yoe in big tech and even then the best offer i have gotten is like smaller companies and that\u2019s after like 50+ interviews \n\neven if you get interviews you need to pass it 100% and beat out other candidates..\n\nalso you are in the UK which is even worse than US market unless you are open to relocating to the US",
+                            "score": -1,
+                            "replies": [
+                                {
+                                    "author": "Joethepatriot",
+                                    "body": "Unfortunately, one does not simply \"relocate to the US\"",
+                                    "score": 5,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

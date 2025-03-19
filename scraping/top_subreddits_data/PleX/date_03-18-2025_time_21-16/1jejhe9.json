@@ -1,0 +1,20 @@
+{
+    "title": "Need help and tips for Plex Home Media server",
+    "author": "navykiko",
+    "subreddit": "PleX",
+    "rank": 12,
+    "score": 1,
+    "upvote_ratio": 0.6,
+    "num_comments (reported by reddit)": 1,
+    "url": "https://www.reddit.com/r/PleX/comments/1jejhe9/need_help_and_tips_for_plex_home_media_server/",
+    "id": "1jejhe9",
+    "selftext": "I have made my research, and I am aware of similar posts to mine, but I still have some questions and felt the need to make this post.  \nI have been using Plex for the past year and a half, and I absolutely love it, but I have a very small use case. Basically I obtain my media (movies and TV shows) place them in the respective directory on my working/gaming PC and click \"update libraries\" on Plex. I use a small 1TB HDD for some games and my Plex library, and as you can imagine, it's not enough and I find myself deleting large and old movies to get space for newer stuff I want to watch. The media client for 99% of the streams is my Chromecast 4k with googleTV on a 4k TV, and very occasionaly stream to my girlfriends house on a 4k samsung tv.\n\nMy needs (want really) are as follows:\n\n1. A lot more storage space. Maybe 3x8Tb HDD (1 drive for parity)\n2. dedicated server instead of work PC, for better power consumption\n3. Setup ARR apps for better automation\n4. Server to be used as automatic phone gallery backup for about 300Gb (currently paying google one 100eur/year, would love to cancel this)\n\nI am thinking the best course is to buy a used workstation, remove the motherboard and place it in an older ATX I have stored that has space for 8 3.5' drives (I dont mind the large case, got a a place to hide it). I prefer this over a sinology or similar as I want to get into HexOS (maybe TrueNAS later down the line).\n\nQuestions are:\n\n1. Given the low demand the server will have (1 stream at a time), I believe this option is enough right? I always direct play, no transcoding, usually 20-30Gb movies are the most I obtain.\n2. Are refurbished NAS HDDs a good option? would love to save some \u20ac\u20ac\u20ac on drives\n3. Is my plan a viable option for my needs? Should i go some other route?\n\nOverall thoughts and tips are very welcome, sorry if this is too much of a newbie post, try to begin my home server journey.\n\nAlso, based in Portugal, not America, as that sometimes influence prices.",
+    "comments": [
+        {
+            "author": "Aacidus",
+            "body": "Not similar, but identical questions have been highly discussed on this sub. I'm sure there are a multitude of helpful responses already available.\n\nFor 4), you'd probably need to go down a rabbit hole and check out r/selfhosted. I use immich for photo backup and can access it from anywhere remotely.",
+            "score": 2,
+            "replies": []
+        }
+    ]
+}

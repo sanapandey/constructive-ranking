@@ -1,0 +1,32 @@
+{
+    "title": "[Request] what dimensions, ideally in inches, would i need to print this map at for it to be accurate?",
+    "author": "ditzbby",
+    "subreddit": "theydidthemath",
+    "rank": 15,
+    "score": 0,
+    "upvote_ratio": 0.4,
+    "num_comments (reported by reddit)": 3,
+    "url": "https://i.redd.it/ohpbdcelnhpe1.jpeg",
+    "id": "1jebio1",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "AutoModerator",
+            "body": "###General Discussion Thread\n\n---\n\nThis is a [Request] post. If you would like to submit a comment that does not either attempt to answer the question, ask for clarification, or explain why it would be infeasible to answer, you *must* post your comment as a reply to this one. Top level (directly replying to the OP) comments that do not do one of those things will be removed.\n\n---\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/theydidthemath) if you have any questions or concerns.*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Lonely_District_196",
+            "body": "A quick Google Maps check says that area is about 410 miles x 520 miles. If we divide by 250,000 and convert to inces we get ...\n\nActually, I'll let you google that part \ud83d\ude0f \ud83d\ude09",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "CptMisterNibbles",
+            "body": "Define accurate. Maps are inherently simplifications that are ideally accurate to a specified precision.\n\nThe information on the map is fixed. Printing it larger doesn\u2019t make it more accurate, it only changes the scale of the measuring tool you work with in taking readings, unless you want to get into discussions of rasterization for display or print composition.\u00a0\n\nIf you want to know what size a map would have to be drawn at initially to be perfectly accurate, the common answer is \u201cfull scale\u201d; look into the coastline problem. I\u2019m not sure this is the only possibility, we could discuss entirely implausible nonsense ideas like holography, but we are getting a bit afield from \u201cmap\u201d at that point",
+            "score": -1,
+            "replies": []
+        }
+    ]
+}

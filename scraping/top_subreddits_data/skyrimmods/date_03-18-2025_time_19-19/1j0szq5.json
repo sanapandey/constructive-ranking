@@ -1,0 +1,977 @@
+{
+    "title": "[March 2025] Simple Questions, Simple Answers",
+    "author": "GNSasakiHaise",
+    "subreddit": "skyrimmods",
+    "rank": 0,
+    "score": 15,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 150,
+    "url": "https://www.reddit.com/r/skyrimmods/comments/1j0szq5/march_2025_simple_questions_simple_answers/",
+    "id": "1j0szq5",
+    "selftext": "If you're not sure your topic deserves an entire thread, it likely belongs here. Questions that can be answered with a Google search or a read of the mod's content page will be redirected here. Any question not requiring a full modlist should also go here. Finally, any questions you think could be answered in under 25 words should go here.\n\nQuestions that belong in this thread might include:\n\n* Any good Ulfric replacers?\n* Is MO2 better than Vortex?\n* What is a crash log?\n* My faces are all potato colored in game. What's that about?\n* What mods are essential for a new player?\n\nIf you're hungry for more discussion, hop on over to our Discord, linked in the sidebar. If you want to talk general Skyrim, head on over to r/Skyrim. For any other questions, comments, or concerns, feel free to message our modmail.\n\nLink to [Previous Thread](https://www.reddit.com/r/skyrimmods/comments/1ihwj1f/february_2025_simple_questions_simple_answers/).",
+    "comments": [
+        {
+            "author": "Careful_Pension_2453",
+            "body": "[https://www.nexusmods.com/skyrimspecialedition/mods/60363](https://www.nexusmods.com/skyrimspecialedition/mods/60363)\n\n  \nI'm unclear on whether the problem this is meant to correct was inherited by Pandora given that it seems to work in place of Nemesis, and whether this fix is still needed on that platform? Does anyone here know?",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "No-Cash-2792",
+                    "body": "The mod author says in the posts that it is not needed for Pandora.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Captain-Beardless",
+            "body": "This is an obvious question that I already know the answer to, but I just need to hear someone else say it so my defective brain will listen to me.\n\nUncommon, one-off crashes that only happen once and never again are fine and will still occasionally happen to almost ANY game, modded or not modded, and it's fine, and I don't need to jettison my entire modlist and start over, right? ...Right?",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "GNSasakiHaise",
+                    "body": "Yes, depending on frequency. If you're crashing every single time you play, that's a problem. For example Marvel Rivals had an issue where playing Ranked would cause the game to crash, which was a problem.\n\nBy contrast, if your game crashes when you walk into the Bannered Mare, then you reload the game and walk back in to no crash, you are probably fine. If it crashes every single time you do something specific (boot the game up, equip a weapon, open a door, talk to a specific NPC, etc) then that is a problem you should look into.\n\nEven if your modlist is causing the crash, though, there's usually a reason for that. It's usually not something you need to jettison your modlist for. Rather, usually you just have to fix or update one mod or one mod in particular isn't playing nice with the others. There are a few tools you can use to figure out what might cause it, but getting a crash log is usually best.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "Captain-Beardless",
+                            "body": "Im talking like one crash every 2 weeks at most, im just being paranoid lmao.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "f3h6SUKiqCP5wKCMnAA",
+                                    "body": "That's what some authors (and some people in Skyrim-related Discord chats) call as \"Skyrim being Skyrim.\"",
+                                    "score": 2,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "GNSasakiHaise",
+                                    "body": "Yeah for sure!",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "archangel_mjj",
+            "body": "I'm confused about how to use skypatcher alongside mo2; all the instructions are for devs. Do I need to run it within mo2, like wyre bash? Or as a chained executable like skse?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "SmileProfessional524",
+                    "body": "you just install it through MO2 and that be that. Very simple. \n\nThose instructions are for people that want to make a mod that uses skypatcher to distribute their items.",
+                    "score": 8,
+                    "replies": [
+                        {
+                            "author": "archangel_mjj",
+                            "body": "Okay, thanks",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "th3rm0pyl43",
+                    "body": "SkyPatcher is a .dll-based framework that makes changes at runtime like Base Object Swapper, SPID etc. and should be installed like any regular mod in MO2. The articles are for creating .ini files telling SkyPatcher what changes to make like similar frameworks.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "archangel_mjj",
+                            "body": "That's clear, Thanks",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "archangel_mjj",
+                            "body": "Oh - if it's dll based, does it have any Proton requirements separate to Skyrim itself?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "th3rm0pyl43",
+                                    "body": "I'm afraid I have no idea, I'm not a Linux user. I'd look through the comments to see if anybody has had issue with it on Linux, and otherwise just go ahead and test it.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Golvellius",
+            "body": "Did I just disintegrate my playthrough?      \n\nI was having a crash in Labyrinthian and started deactivating a couple of 'big' mods like USSEP, racemenu and lux to see if they were the culprit. I reactivated them but now when I load a save game (any save game) Skyrim tells me some unrelated .esp are not there anymore (random stuff like Ars Metallica or Deadly Dragons). Note because I know what I'm saying sounds stupid, but I DID NOT  save my game when I was fucking around activating and deactivating mods, so I assume as long as I revert to a save where everything is identical I should be good?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "JoeBagadonutsLXIX",
+                    "body": "Did you check the plugins tab on the right for the specific esp? Make sure it\u2019s activated there as well. Just because the mod is activated doesn\u2019t mean the plugin is.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Golvellius",
+                            "body": "Damn. I guess because I ran the game with USSEP deactivated, it deactivated the .esp that need it by default (I didn't think about it because I knew I had some USSEP patches but those are saved as individual mod / patches in my load order). I never even needed to look at the plugin tab before. Thanks! I hope I can salvage the playthrough",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "JoeBagadonutsLXIX",
+                                    "body": "You should be fine. Most plugins will activate once their mod is activated, but sometimes they won\u2019t. Plugins from patch collections will almost never activate on their own once installed. After you run the patch collections FOMOD, you then need to go to the right pane and make sure all of the patches that were just installed have their boxes ticked.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "avosimus",
+            "body": "How hard would it be to create my own Paragon Gem display holders for a vanilla/hearthfire house? I've looked up and down for a player home mod that includes them but any that do seem to be geared towards a completionist collector, or there's just far too much extra stuff in a player home that I'm not looking for.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ZaranTalaz1",
+            "body": "Somehow I broke my installation of Scrambled Bugs. It's loading, but it's ignoring my config settings. e.g. I set \"powerAttackStamina\" to true to make power attacks only happen with the required stamina, but in Scrambled Bugs' log file it's still set to false and in-game I can still power attack regardless of how little stamina I have.\n\nI know I had Scrambled Bugs working before, so what could possibly break it like that?\n\n**Update:** After reading Scrambled Bugs' bug page, it seems to be an issue with Windows 11.\n\nI had my custom config for Scrambled Bugs in a separate mod in MO2. This worked fine back when I was on Windows 10. With me currently on Windows 11, I resolved my config bug by putting my custom config right in Scrambled Bugs' main folder. And now I'm paranoid by other plugin mods that can't find my custom configs because of Windows 11.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "PHILtheCANADIAN",
+            "body": "New to modding, just started a couple months back.\n\nMy Windows PC updated and now Skyrim crashes upon start up, it loads the Bethesda logo and then shuts down.\n\nI am starting it via MO2. Anyone got advice?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Pino196",
+                    "body": "I'd guess missing masters; you may have installed a mod without installing its requirement(s). In MO2, top left, there is a warning icon, it will tell you if this is the case.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "PHILtheCANADIAN",
+                            "body": "Thank you going to go through it tomorrow and check if I need to download anything! Hope this works",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "ILive66Failed",
+                    "body": "You can add me on Discord (ILivew66Failed) and we can take a quick look at it if you want. Usually it's pretty simple when you're only in the beginning stages.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ZaranTalaz1",
+            "body": "How feasible would it be to configure Experience to make all of your experience come from just killing enemies and clearing locations?\n\nI don't want experience to come from just discovering locations since I use Atlas Map Markers, and I want to make quests optional in my playthrough so I don't want to have to rely on the experience gained from quests either (it's been a decade there are several quests I don't want to do again).",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "PelagiusWing",
+                    "body": "This is feasible. On the Experience page, look at how the INI works - there\u2019s a section specific to clearing locations. Set those how you would like in your own file and zero out the others (don\u2019t delete, set them to zero). Then, run the Experience Synthesis patcher on your load order, which will generate a CSV of XP values for any modded creatures or NPCs so they give XP too. \n\nI use Atlas with Experience as well, and I always zero out XP for almost all location discovery. I can probably track down the ini file I used if you\u2019d like.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Interchanger_",
+            "body": "Is it possible for MO2 to display a mod as uninstalled even if it wasn't? For example, if it is overridden by another mod?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Interchanger_",
+                    "body": "I think I figured it out, I downloaded the main mod, installed it, then downloaded and installed a fix by the author, which had the same ESP as the original download inside it. So now MO2 thinks only the second download is installed I guess, even though when I click on the enabled mod, and open it in the explorer, all the files from the first download are there. But this is still very confusing to me, so if anyone who understands MO2 better could help me clear thigns up, I'd appreciate it.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Pino196",
+                            "body": "When you installed the fix, did you choose the same name as the main file? If so, did you choose to merge or replace? Because if you chose replace, the files from the main download got deleted, and that's why the mod got marked as uninstalled in the download list. If this is the case, you may want to install the main file again, then install the fix by choosing the merge option when prompted. Otherwise I have no clue, it could be just a display error.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "Interchanger_",
+                                    "body": "No, I added a - Fix at the end to separate both. I think its just a display error, since all the files are still in the game, I just wish I knew why it happened, so I could avoid doing it again. But now that you pointed it out, my theory doesnt make sense, since I have both the original ESP and the fix ESP in separate folders inside my MO2 folder, when I choose \"show in explorer\".",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Wakabala",
+            "body": "I eventually want to mod the game a lot, and only own the base/original game on steam. Would it be better to get the Special Edition, or the Anniversary Edition?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Pino196",
+                    "body": "If the price difference doesn't matter to you, definetly Anniversarsy Edition: the additional content it provides is kinda meh, but if you plan on installing modlists either from Nexus or Wabbajack, a lot of those require the additional content. Otherwise, if you plan on downloading mods manually, Special Edition is perfectly fine.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Wakabala",
+                            "body": "Yeah mod packs/lists are definitely on the agenda, and both versions I think are the same price too, so I'll snag AE, thanks",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "Pino196",
+                                    "body": "Heads up: the Anniversary Edition is an upgrade for the Special Edition, so if you don't have it you need to buy both.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "OverFjell",
+                    "body": "Anniversary. It's more future-proof, and most mods that I can think of nowadays are either AE, or have patches for AE (or in a lot of cases, it doesn't matter either way)",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Wakabala",
+                            "body": "I saw a friend of a friend using an AI mod, but he's a bit of a gooner weirdo so I didn't want to ask him what version of the game he's running. Looking into it again now I think it requires AE\n\nSounds like AE is the way to go and they're both $10 right now so I'll pull the trigger on that one, thanks",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Unusual-Fault-4091",
+            "body": "Coming back to modding after a while and missed the development in the last 2 years. \n\n1. Is this Community Shader thing way better than ENB ? Or at least easier to handle ? Find it annoying to have like 10 enb mods and fixes. \n\n2. Some better way to get decent LODs nowadays than messing with the whole DynDo-process ? \n\n3. Has anyone followed this guide yet ?\nhttps://www.sinitargaming.com/skyrim_se.html\nConsidering to give it a try. I like that it\u2019s extensive but maybe a little bit too much ? Can see like 10 minor fixes for every mod.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "OverFjell",
+                    "body": "Can't answer the first one, but DynDOLOD is still the best thing for generating good LODs. \n\nAs for three, it's pretty much common opinion in the community to never follow anything Sinitar does. [Here's a writeup by Phoenix](https://www.reddit.com/r/skyrimmods/comments/o3h3b3/so_why_is_sinitars_guide_so_terrible_anyway_an/) (a well respected guide maker and wabbajack list creator) detailing everything wrong with Sinitar's \"guide\"",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Unusual-Fault-4091",
+                            "body": "Ok, thanks a lot. \nNever heard of this guy before. Guess I will do a STEP-guide thingy. Want it heavy modded but good and don\u2019t have the time to learn everything again.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "OverFjell",
+                                    "body": "Yeah STEP guide is good from what I've heard (I use it a fair bit for stuff like DynDOLOD), as is Phoenix's guide and Lexy's LOTD (used this one for instructions on cleaning masters that DynDOLOD requires), though I've never followed a guide from start to finish. What I can recommend, that I did as a good base is to download Phoenix's Skyrim Modding Essentials wabbajack list. Downloads all the essentials, ussep, skyui, fixes etc, and gives you a proper stock game folder setup, along with all the tools you need already installed on MO2, as a really good, stable base for a bigger mod setup.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Unusual-Fault-4091",
+                                            "body": "Looking through the Wabbajack gallery at the moment. Basically I only want a good visual overhaul and bug fixes. Aurora and NGVO look like that but the first is quite old by now and the second is like 250GB ?! I mean that\u2019s like having 4k textures for stuff you see once^^",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "OverFjell",
+                                                    "body": "Yeah I wouldn't know which complete wabbajack list to suggest tbh since my favourite one (Tsukiro) went offline. I only mention Skyrim Modding Essentials as it's a base for you to do your own modding off, with all the grunt work of installing the bare essentials already done for you.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Unusual-Fault-4091",
+                                                            "body": "Yes absolutely, makes a lot of sense and gonna look into that definitely. thanks again",
+                                                            "score": 2,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Kindread21",
+            "body": "Haven't played Skyrim in forever (I think 4 years after the first release). \n\nI want to start a new run and looking at building a mods list. I have the latest release/version of Skyrim on Steam I think (Anniversary edition?). Is there anything I need to lookout for with regards to mod compatibility. IE, I know to make sure I have the full dependency for mods that depends on other mods (and the right version of script extender), but is there anything I need to look out for where a mod will work with one version of Skyrim, but not the other?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "OverFjell",
+                    "body": "Usually, anything that worked with SSE will work with SAE, if it doesn't, the author will usually specify what the latest version of Skyrim you can use with their mod is, and sometimes there will be patches for later versions either on the mod author's page, or in the 'requirements' tab. That's been my experience anyway.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "ennervation",
+                    "body": "First, find out [what version of Skyrim you have installed](https://www.reddit.com/r/skyrim/comments/ypjx2b/how_can_i_find_my_game_version/). Commit this to memory or write it down on a sticky note somewhere.\n\nNext, [understand Skyrim's game file versioning](https://www.reddit.com/r/skyrim/comments/18da0c9/comment/kcg35c5/?utm_source=share&utm_medium=mweb3x&utm_name=mweb3xcss&utm_term=1&utm_content=share_button). The most current Steam version is `1.6.1170`.\n\nPay the closest attention to the third number in that sequence, a.k.a. 1170. You'll want mods that explicitly say they're for version 1170 or that are compatible with, for example, \"629 and above\" or \"640 and above\". (Basically, the lower the third number = the older the version. 629 is lower than 1,170, therefore it's the older game version).\n\nWhen downloading SKSE plugins (usually these are requirements for other mods), try to see if there's an \"NG\" version. \"NG\" basically means that mod will work with whatever Skyrim version you have, even if you update the game in the future*. One example I can think of is Mfg Fix and Mfg Fix NG. Also, pay attention to the instructions as the original mod may be required by the NG version.\n\n* = As long as your {{Address Library for SKSE Plugins}} is updated",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "modsearchbot",
+                            "body": "Search Term | LE Skyrim | SE Skyrim | Bing\n:-:|:-:|:-:|:-:|\nAddress Library for SKSE Plugins | No Results :( | [Address Library for SKSE Plugins](https://nexusmods.com/skyrimspecialedition/mods/32444) | Skipped[^Why?](https://github.com/RallerenP/modsearchbot/blob/main/docs/SEARCH.md#why-was-my-search-skipped)\n\n\n---\n\n^(I'm a bot |) [^(source code)](https://github.com/RallerenP/modsearchbot) ^| [^(about modsearchbot)](https://reddit.com/user/RallerenP/comments/pg2lqj/modsearchbot_about/) ^| [^(bing sources)](https://reddit.com/user/RallerenP/comments/pg2l0g/modsearchbot_bing_search/) ^| ^(Some mods might be falsely classified as SFW or NSFW. Classifications are provided by each source.)",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Left-Night-1125",
+            "body": "Botox for mzn includes a great looking Ulfric replacer.\n\nYes Mo2 is better and easier than Vortex.\n\nFor faces not to be Todd approved potato you require npc overhauls and skin mods, botox is a good foundation for this, for skins, check youtube and pick what you like. I use bijin skin myself.\n\nEssential mods: skse64, Engine fixes, simplicity of sea, dar/oar, papyrus script extender and some more that others will probably reccomend. (I guess Ussep as well but not for its function but for how many mods require it).\n\nEventually you will get loot, bodyslide& outfit studio and a behaviour engine (Fnis or Pandora or Nemesis) as well.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "blairmen",
+            "body": "hey, trying here since this seems appropriate. i tried to manually install olenvald like my friend instructed, including extracting the files and copy pasting them into the data file for skyrim. the game does register them in my creations, but i cant activate the mod for some reason. its doing the same thing for the beyond skyrim roscrean blade mod i downloaded as well.\n\n  \nany ideas what im doing wrong. i even took the programs out of their files to more directly add them to the data folder.\n\n  \nim not use to adding mods like this (use to use mod manager before my current system where i started using the in game mod system.)",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Blackread",
+                    "body": "You should definitely use a mod manager. The ingame mod system is garbage.",
+                    "score": 10,
+                    "replies": []
+                },
+                {
+                    "author": "scriptifex",
+                    "body": "I personally recommend using MO2, but Vortex also does well. You want to use a mod manager because you want to avoid touching your game folders and files as much as you can. It\u2019s very easy to break something when using mods, and a mod manager allows you to add mods without altering anything about your base game install. It\u2019s also a lot easier than manually installing mods, which means fewer chances to mess up.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "ILive66Failed",
+                    "body": "I don't know what planet your friend has been living on but there is no way you should be installing Skyrim mods manually in 2025. I personally (and emphatically) recommend Mod Organizer 2, especially when compared to Vortex.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Sgtwhiskeyjack9105",
+            "body": "Pardon my ignorance, I'm not a mod author, but with something like [SkyPatcher](https://www.nexusmods.com/skyrimspecialedition/mods/106659), would it now be possible to be able to combine multiple weather mods and allow them to run alongside the vanilla weathers?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DAGilligan",
+            "body": "Longtime player and modder here, unfortunately had to reinstall Windows recently and my mods didn't survive any backing up attempts. \n\nAs a result I've thought that with a new blank sheet (and given that I'm a Vortex user) I should make use of Collections. Two questions really:\n\n1) Are there any Collections that people would recommend, and why?\n\n2) Let's say you install 2 collections that have some mutual mods (USSEP for example) will it attempt to download those mutual mods twice, or simply recognise they're already installed and skip them?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "scriptifex",
+                    "body": "I don\u2019t use collections at the moment myself so I can\u2019t answer your second question, but I\u2019d recommend taking a look at Jayserpa\u2019s Gate To Sovngarde (GTS). It\u2019s a good vanilla+ gameplay overhaul with active support and a lot of users. It doesn\u2019t really touch graphics, though, so you\u2019ll want to pair it with a graphics-only collection or just assemble your own list of graphics mods.",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "tylerchu",
+            "body": "Just to make sure I'm not crazy, the glaives and spears from [Heavy Armory](https://www.nexusmods.com/skyrimspecialedition/mods/6308?tab=description) are supposed to have unique first person animations right? Because they just look like greatswords swinging. The 3-P works just fine though.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "ILive66Failed",
+                    "body": "Per the description halberds, spears, and staves should have new animations via OAR.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ResolveSea9089",
+            "body": "Can anyone help me understand how openanimation replacer works? I downloaded: https://www.nexusmods.com/skyrimspecialedition/mods/45799?tab=description\n\nMy folder structure looks like this:\n\nC:...MO3\\mods\\Smooth Magic Casting Animation\\meshes\\actors\\character\\animations\\OpenAnimationReplacer\\_CustomConditions\n\nInside the CustomConditions folder, there are a series of subfolders, each one with a _customConditions text file. \n\nWhen I launch OAR it's not being recognized, I'm likely missing something obvious, wondering if anyone can help out. I'm relatively new to OAR, I'm wondering if my folder structure is wrong.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "hickoryandlemon",
+            "body": "I have LofF modlist and was interested in starting a new save and looking into the new Kaidan CE mod. However, when I put it in mm2 and played through til I can get to the Abandoned Prison, nothing has changed and he's not there. Does anyone know if this might be because of where I put it in load order? I usually put new mods right above realistic water, which I think I was told to do year ago.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ombrazur",
+            "body": "Hi,\nI have a ton of questions,but i'll ask only for those about ENB,I am so confuse.\n\nFor what I understand,there is the two enb series basic files,with those two files I can open the interface in game,and change some options,and those two files are always needed for all the presets/plugins.\n\nThen we have the ENB presets,if I understand correctly it is a custom preset,easy to understand\n\nThen there is ENB plug in... I'm not sure,but I think it adds more options in the basic ENB files,and then other people can create a custom preset with the correct plugin? \nSo for example,enb Cabbage is a PRESET, it need the enb NAT III weather PLUGIN to work (not the regular nat III preset) do I understand it correctly? And why don't we have only one big plug in with all the visual effect available?\n\nAnd sometimes I see 'ENB reshade files' does that mean it's a preset that is loaded in both the enb files and reshade? \n\nI hope everything is understandable,I know there is some video guide on youtube,I watched them,but english isn't my native language,so sometimes it's hard to understand everyrhing",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "ILive66Failed",
+                    "body": "Don't worry about any plugins, and don't worry about reshade. Stick with just the enbseries/enblocal files and maybe try a preset or two and start tweaking them to your liking. The rest may overwhelm you and it's not essential stuff.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Sgtwhiskeyjack9105",
+            "body": "Any new mods that simply add more guards to each of the cities? I particularly find Markarth's entrance to be woefully undermanned.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TallMusik",
+            "body": "I'm on Ps5! Any good visual mods that don't make nights/dungeons super dark? Playing with a projector and even in a totally dark room I cant see anything at niht and in dungeons. Thanks!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "JhaerosTheGreat",
+            "body": "Best version of skyrim ae to download? For most mod support? Haven't played in years but I want to get back into it",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "thechristoph",
+                    "body": "Steam. Learn how to use MO2 (Mod Organizer 2). It's really easy once you get used to the interface.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "JhaerosTheGreat",
+                            "body": "What version number though like update?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Captain-Beardless",
+                                    "body": "I'd suggest just sticking with the most up-to-date version (1.6.1170 atm?) since it's been nearly 5 years since the whole AE debacle. Most new mods are designed for the current version, and most old mods have been updated or have modern replacements.\n\nUltimately, it comes down to whether or not there is a specific mod you KNOW you want that requires 1.5.97 (the old pre-AE patch that most people who revert to an old version use). I can't tell you which mods do or don't as none of the mods I have require the old version.",
+                                    "score": 4,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "ILive66Failed",
+                    "body": "You'll be best off just sticking with the current version.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "thechristoph",
+            "body": "Whiterun in my game is underwater! High above the city there is a giant square of water, which is making it so you have to swim through the city. I have More Informative Console installed but when I bring it up and click the water surface, it does not tell me which mod is responsible for this (last changed by: unknown). What else can I look at to find the guilty party?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "No-Cash-2792",
+                    "body": "Look at the base form Id. The first 2 digits will say from which mod (index in load order) the water comes from. Try disabling the mod. You may also want to look at the ref form id.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "thechristoph",
+                            "body": "It's FF. From what I have looked up, that means it's not from a mod, but it's in my save file itself. I wonder if I broke something using ReSaver to troubleshoot something else... I can't disable the water from the console. I guess I'll go back through some older save files to see what happens.\n\nEdit: Going back through saves didn't reveal anyhting; it's as if the water has always been there. The Markfordelete command gets rid of the water...at least for now.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "StroopWafelsLord",
+            "body": "Does someone have a way to check the Vokriinator perk trees? I wanted to check if everything is in order and well installed to avoid having to recheck everything later. I'm talking of normal Vokrinator, i know black has a tree checker for sure.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "ILive66Failed",
+                    "body": "Check in what way? The simplest answer is to open it up in SSEEdit and go through the list. If you mean in-game, are you unable to see it in yours?",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "DFisBUSY",
+            "body": "Hi All,\n\nDoes anyone recognize what UI mod is used by Syn Gaming on Youtube?\n\n**https://i.imgur.com/6Oos9Q7.png**\n\nAfter poking around, I think moreHUD or trueHUD can do the player bars at top left; but how about the lvl, gold, carry weight icons? Is the enemy indicator Name (level) also done by either moreHUD/trueHUD?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "ILive66Failed",
+                    "body": "It's at least partially TrueHud, so I'd grab it and explore its options and see how much that answers.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "DFisBUSY",
+                            "body": "ty!",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Triials",
+            "body": "Anyone familiar with mihailmods know the best place to find the snowrays? I have the mod installed but I haven\u2019t come across one yet by wandering around south of Dawnstar.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "teeeabee",
+                    "body": "I consistently get my butt kicked by them on the main road outside of winterhold, if you\u2019re still looking. Just before the mine, iirc.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Triials",
+                            "body": "I am, so cheers haha I\u2019ll have a look tonight",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Ombrazur",
+            "body": "Hi,can someone explain to me how a 'reshade preset for community shader' works?\n\nThose shaders are loaded into reshade,so what does 'for community shader' mean? I have installed CS with all the add ons,but I don't understand how they are supposed to interact with each other",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "f3h6SUKiqCP5wKCMnAA",
+                    "body": ">how a 'reshade preset for community shader' works?\n\nIt means the Reshade preset values (effects, etc.) were adjusted to match with how things look in CS. It takes into account the various features that CS enables (e.g., Skylighting, etc.).",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Ombrazur",
+                            "body": "Oh thanks,I thought I need to load the preset inside community shader,but I just need to test it myself,thanks again for the answer",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "AzraelIshi",
+            "body": "Hello there! So, my console (the commands one) suddenly stopped working (as in, it doesn't even pop up). Yesterday everything was working fine, today I return from work, load the game and wanting to check something I notice it isn't working. I tried uninstalling mods, doing a file verify on steam, doing a full clean reinstall which included deleting everything from the documents folder to ensure all inis are recreated, restarted computer. Still nothing.\n\n Anyone has any idea what it could possibly be? Thanks in advance!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "angrysunbird",
+            "body": "What\u2019s the best collection on nexus (or wabberjack) for me? I don\u2019t mod Skyrim much but have a hankering for a mod that is lore friendly, makes people and everything look prettier (but not melt the laptop pretty) adds some cool stuff (quests, dungeons, equipment, followers) . Not looking for huge gameplay overhauls. I want prettified Skyrim, not Skysouls.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "th3rm0pyl43",
+                    "body": "I've heard very good things about the Gate to Sovngarde Nexus collection, though I haven't given it a try myself (yet?) and neither have I looked closely into what it adds on top of refining what's already there. Another list I've seen a bunch of recommendations for is Nordic Souls.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "LainRilakkuma",
+            "body": "Does anyone by any chance have a copy of the companion mod Raeza available for SSE? Seems to have been deleted off of nexus recently but I'm not sure why.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "f3h6SUKiqCP5wKCMnAA",
+            "body": "Is it a \"known\" issue with vanilla followers to somehow forget that they carry weapons they can use (usually those I gave them) & just revert to using their fists when fighting?\n\nI've been using follower mods because I keep seeing [Erik](https://en.uesp.net/wiki/Skyrim:Erik_the_Slayer) reverting back to fists (and making the requisite motion of putting his fists up) during combat, regardless of what kind of weapon I provide him (usually a 1H weapon + shield). Even Uthgerd the Unbroken exhibits the same behavior.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "skywardswedish",
+            "body": "Looking for feedback, what's an easy-to-access yet lore and vibe appropriate early-game place to put a snow elf npc?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Necius14",
+                    "body": "Maybe Shimmermist cave?",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "skywardswedish",
+                            "body": "Funny enough I \\*did\\* think about Shimmermist Cave but had doubts because it's very \"modern\" falmer and I'm doing \"ancient\" falmer like Gelebor. Thanks for the feedback tho!",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Consistent-Spare-807",
+            "body": "Hi everyone,  \nI'm using the community shader with all the plug in available,But in cloud shadows,there is nothing,same for subsurface scatteting and water effect.  \nAlso in the core feature,I have the volumetric lightning,and there is nothing in it (I can see the settings button with the arrow,but nothing else)  \nDo you have any idea of what I did wrong? I even try to install the vanilla game with only the community shader,and I have the exact same problem  \nLastly,what the numbers like (1-0-0) or (2-0-0) mean?   \nThanks for reading,and if there is a discord server available for community shaders,I can't find it :/",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "colday",
+            "body": "Should I play this save with val serano or taliesin as one of my followers? The other is going to be Orpheus, and I don't want too many followers.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "th3rm0pyl43",
+                    "body": "I haven't tried Taliesin, but I really like what little I've seen of Val and Orpheus so far.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "teeeabee",
+            "body": "I\u2019m not a beginner. But I swear to g od I\u2019m losing my mind.\n\nContext: I had a mostly working build with these mods before I took a 6 month break, so I\u2019ve checked for updates and am rebuilding from scratch. I have all the requirements where needed.\n\nI enable 3-6 mods. Usually no conflicts to resolve bc I\u2019ve used all these mods before (vortex user). Run LOOT, deploy. Try game. Game doesn\u2019t boot. Therefore, disable new mods. Run LOOT, deploy. Game should be right back to the working state I had prior to the new mods, right? \n\nBUT NO. \n\nAt least three times now, I add in even just a few super innocuous mods (think Jayserpa\u2019s dialogue expansions), take them out again\u2026.and the dang game still won\u2019t boot. I\u2019ve had to remove like 10 mods I previously had working just to get the game running.\n\nDoes anyone has ideas what could be changing in between adding and taking away a mod that wrecks my build, please? Am I doing something wrong here?\n\nI haven\u2019t noticed any LO changes from running LOOT, but I admit I haven\u2019t cross checked every single plugin. I\u2019ve tried not running LOOT when I remove the new mods just in case, but that doesn\u2019t seem to help. The game doesn\u2019t actually launch, so there\u2019s no crash log to reference either.\n\nIt\u2019s doing my head in ngl that I haven\u2019t made progress in five days because I keep going one step forward, two steps back.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "th3rm0pyl43",
+                    "body": "I'd check the following:\n\n* Not going over the limit of 254 non-ESL-flagged plugins\n* Using {{Backported Extended ESL Support}} if you're on any game version earlier than 1.6.1130\n* Making sure Vortex is properly cleaning up after itself when purging and redeploying.\n\nThe latter is the main reason I recommend MO2 to people over Vortex, really. Sometimes it apparently fails to remove stuff and/or trips over itself when creating its symlinks - it may be rare, but the handful of times I've tried to help somebody troubleshoot and it turned out to be Vortex itself breaking their stuff, it had just about driven them nuts by the time we finally figured it out. Whenever MO2 is even remotely borked in a similar way, it tends to actually be on the user's end in a way they can fix, like changing antivirus settings, (re)installing dependencies or fixing a previously unnoticed issue with their hardware or OS.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "teeeabee",
+                            "body": "I\u2019m definitely at 165 non-ESLs, I\u2019m running .1130 so no need for BEES\u2026.so the next thing is purging and redeploying to see what that does.\n\nGood news; game boots! Thank you very kindly, at least I feel validated now.\n\nNgl I was already contemplating MO2. This build is on a handheld console - I still don\u2019t want to try figuring out a new software on the teeny screen with relatively less storage. But it is getting severely old not being able to manually control the LO, never mind this nonsense. Sooo maybe it\u2019s time to boot up my big PC and start learning.\n\nThanks again!",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "th3rm0pyl43",
+                                    "body": "MO2 has a steep learning curve, but I like the extremely fine control over both plugin load order and mod priority that it offers. Easy dragging and dropping for file conflicts; no 'load X after Y but before Z unless W is present' spider web rules nonsense. Good luck!",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "modsearchbot",
+                            "body": "Search Term | LE Skyrim | SE Skyrim | Bing\n:-:|:-:|:-:|:-:|\nBackported Extended ESL Support | No Results :( | [Backported Extended ESL Support](https://nexusmods.com/skyrimspecialedition/mods/106441) | Skipped[^Why?](https://github.com/RallerenP/modsearchbot/blob/main/docs/SEARCH.md#why-was-my-search-skipped)\n\n\n---\n\n^(I'm a bot |) [^(source code)](https://github.com/RallerenP/modsearchbot) ^| [^(about modsearchbot)](https://reddit.com/user/RallerenP/comments/pg2lqj/modsearchbot_about/) ^| [^(bing sources)](https://reddit.com/user/RallerenP/comments/pg2l0g/modsearchbot_bing_search/) ^| ^(Some mods might be falsely classified as SFW or NSFW. Classifications are provided by each source.)",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "shoukko",
+            "body": "Any shield mods that have kite shields? Immersive Armours is the only one I have found that gives me what I want, but I don't want all those armours - just the shields!",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Drag-oon23",
+                    "body": "You could strip out the shields from the esp with xedit and grab the meshes from the bsa with {{Bethesda archive extractor}}",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "modsearchbot",
+                            "body": "Search Term | LE Skyrim | SE Skyrim | Bing\n:-:|:-:|:-:|:-:|\nBethesda archive extractor | No Results :( | [Bethesda Archive Extractor (BSA and BA2)](https://nexusmods.com/skyrimspecialedition/mods/974) | [Bethesda Archive Extractor (BSA and BA2) - Nexus Mods](https://www.nexusmods.com/skyrimspecialedition/mods/974)\n\n\n---\n\n^(I'm a bot |) [^(source code)](https://github.com/RallerenP/modsearchbot) ^| [^(about modsearchbot)](https://reddit.com/user/RallerenP/comments/pg2lqj/modsearchbot_about/) ^| [^(bing sources)](https://reddit.com/user/RallerenP/comments/pg2l0g/modsearchbot_bing_search/) ^| ^(Some mods might be falsely classified as SFW or NSFW. Classifications are provided by each source.)",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "shoukko",
+                            "body": "Yeah, this is basically what I\u2019ve done so far (and it works!) but just wondered if there were any more \u2018polished\u2019 mods than my botch job.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "SultanHalil-IV",
+            "body": "Any way to get unlimited arrows for followers with NFF? The use up all the ammo I give and then use iron arrows",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ap6y3bl4",
+            "body": "Please recommend a ready-made Skyrim build.\n\nHello everyone! I haven't played Skyrim for a long time, but I would like to play the build. My PC is not very powerful, but it\u2019s not a potato either. Gtx 1660 super, i5 9600k, 16gb ram. Recommend a build that has beautiful textures. And redesigned characters. New weapons, armor, magic added. New movement animations. And so that it would be convenient to play from the 3rd person.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Pandainthecircus",
+            "body": "What mods can I use with [survival mode improved](https://www.nexusmods.com/skyrimspecialedition/mods/78244) to get the rested/well rested bonus while sleeping outside?\n\nThere was [sleep under the stars](https://www.nexusmods.com/skyrimspecialedition/mods/20548?tab=description) but it says it modifies script file which is a no for the improved mod.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "PelagiusWing",
+                    "body": "Does the [Camping AE creation](https://en.m.uesp.net/wiki/Skyrim:Camping) not fit the bill? There\u2019s also {{ Camping Plus Plus - A CC Camping Overhaul }} which I just discovered yesterday, which adds some features. I believe both work with Survival Mode Improved. \n\n{{ Starfrost - A Survival Overhaul }} (SimonRim) is also based on SMI if you haven\u2019t looked at that yet.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "modsearchbot",
+                            "body": "Search Term | LE Skyrim | SE Skyrim | Bing\n:-:|:-:|:-:|:-:|\nCamping Plus Plus - A CC Camping Overhaul | No Results :( | [Camping Plus Plus - A CC Camping Overhaul](https://nexusmods.com/skyrimspecialedition/mods/122554) | Skipped[^Why?](https://github.com/RallerenP/modsearchbot/blob/main/docs/SEARCH.md#why-was-my-search-skipped)\nStarfrost - A Survival Overhaul | No Results :( | [Starfrost - A Survival Overhaul](https://nexusmods.com/skyrimspecialedition/mods/97536) | Skipped[^Why?](https://github.com/RallerenP/modsearchbot/blob/main/docs/SEARCH.md#why-was-my-search-skipped)\n\n\n---\n\n^(I'm a bot |) [^(source code)](https://github.com/RallerenP/modsearchbot) ^| [^(about modsearchbot)](https://reddit.com/user/RallerenP/comments/pg2lqj/modsearchbot_about/) ^| [^(bing sources)](https://reddit.com/user/RallerenP/comments/pg2l0g/modsearchbot_bing_search/) ^| ^(Some mods might be falsely classified as SFW or NSFW. Classifications are provided by each source.)",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "Pandainthecircus",
+                            "body": "I actually later noticed that survival mode improved does give you the rested bonus, so no additional mod is needed.\n\nAlso, in that camping creation, notice this line: \n\n>In Survival mode, sleeping in your camp will still leave you Drained, as it counts as sleeping outdoors.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "PelagiusWing",
+                                    "body": "Ha, I guess reading comprehension isn\u2019t my strong suit. Thanks for the heads up.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Pandainthecircus",
+                                            "body": "I mean I was the one who originally missed the survival mode improved one \ud83d\ude06",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "businesssocks101",
+            "body": "I'm trying to figure out which mod adds a location marker titled \"To the Thalmor Embassy\". It's near Solitude, almost right on the location of the Tall Mast Tavern from Helgen Reborn. Anyone recognize?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "GNSasakiHaise",
+                    "body": "I'm not sure what it is, but have you tried using More Informative Console to check what's modifying the area?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Mattdoss",
+            "body": "Any mods that allow you to permanently buy a room at inns for a bit more gold?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Necius14",
+                    "body": "https://www.nexusmods.com/skyrimspecialedition/mods/78177\nNot permanently really, but you can atleast rent the room for longer",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "PelagiusWing",
+                    "body": "{{ Candlehearth - An Inn Overhaul }} from the SimonRim suite also has extended stays for up to a month, and a safe-storage feature at inns.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "modsearchbot",
+                            "body": "Search Term | LE Skyrim | SE Skyrim | Bing\n:-:|:-:|:-:|:-:|\nCandlehearth - An Inn Overhaul | No Results :( | [Candlehearth - An Inn Overhaul](https://nexusmods.com/skyrimspecialedition/mods/97542) | Skipped[^Why?](https://github.com/RallerenP/modsearchbot/blob/main/docs/SEARCH.md#why-was-my-search-skipped)\n\n\n---\n\n^(I'm a bot |) [^(source code)](https://github.com/RallerenP/modsearchbot) ^| [^(about modsearchbot)](https://reddit.com/user/RallerenP/comments/pg2lqj/modsearchbot_about/) ^| [^(bing sources)](https://reddit.com/user/RallerenP/comments/pg2l0g/modsearchbot_bing_search/) ^| ^(Some mods might be falsely classified as SFW or NSFW. Classifications are provided by each source.)",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "Mattdoss",
+                            "body": "Cool, thank you!",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Yamayashi",
+            "body": "I have a lot of followers that spawn in a specific location, I can't go near them without the game freezing. Is there a mod or a way to stop this from happening? At least until I can get in there and reduce the amount",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Comprehensive-Day242",
+            "body": "Hello :D\n\nI need help guys, i\u2019m pretty sure i\u2019m losing my mind searching for this but i can\u2019t find anything.\n\nI am looking for one of two things; either a dragon priest mask visual replacer that eliminates the lower half of the mask (so for Konahrik for example it would be the eyes and tusks) and that is beard compatible. Alternatively maybe a nee boy that adds carnival-like masks that cover the top half of the face and is also beard compatible. \n\nThank you in advance",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Heimerdinkledorf",
+            "body": "As long as all dependencies and compatibility patches are acquired, does it really matter what order you install mods in?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Necius14",
+                    "body": "Yes.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Hello_GeneralKenobi",
+                    "body": "If you have two mods that edit the same record, the one that's loaded second will override the one that's loaded first. So load order matters.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "BringMeBurntBread",
+                    "body": "No, it doesn't matter.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "DeneralVisease",
+            "body": "How the hell do I make Ostim SA work with Pandora? SL works, even OARE works. But anything else animation wise just results in the pair clipping into each other. Sound plays, etc., but they stay clipped inside each other and no animation happens. For example, you click \"kneel down\" or \"stand up\" the menu will go to the next segment but the character is still just standing there like a statue.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "angrysunbird",
+            "body": "Is Skylighting worth it? I want my game to look better but every time I try and mod in Skyrim I come up against the fact that everyone has been doing this for so long that every mod has five dependencies that have their own dependencies and some of these are recursive and I get overwhelmed and go back to Fallout 4.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "HunniePopKing",
+            "body": "good male companions with romance but dont center around that romance?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Interesting-Creme937",
+            "body": "Hello everyone,\n\nI've recently entered this world of Skyrim mods and would like to know which Wabbajack guides or lists I should use. I have an RTX 2060 Super with a Ryzen 5 5600X and 16 GB of RAM . I'm looking for good graphics, content and animations . I've tried to do it myself a few times, but the result was never good, neither graphically nor in terms of performance. My game always looked different from what I saw in the videos, and it always felt like something was missing.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Infinite-Lime2558",
+            "body": "I modded my game too much and want to revert my npc clothes back to normal. Anyone knows how?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "OverFjell",
+                    "body": "Probably gonna struggle if you want to keep your current save. Otherwise just uninstall the mod and any patches (and anything else that depends on it) and start a new game.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "PurpleKneesocks",
+            "body": "Any chance anyone's got an ID on what mod [this](https://i.imgur.com/pWLsOxp.jpeg) hairstyle is from?\n\nContext is that I'm playing with the Lorerim modpack, and that's Njada Stonearm. I *believe* it's the look she's given from the mod Nithi NPC Enhancement - The Companions, but I can't really double-check 'cause the mod has been hidden on the Nexus and can't find the exact esp in my loadout.\n\nThe hair seems to be from the mod itself rather than one of the additional hair mods because I can't find it on the customization list, so I'm wondering if it's included in a separate mod.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Veyran17",
+            "body": "I've been running into an issue with a constant crash near Orphan's Tear in Haafingar. Crashlogger seems to be indicating an error with a skeleton and I saw something else indicating that area can have problems due to clearing it before doing a quest called The Restless from AE. \n\nAny ideas on how I'd approach trouble shooting with regards to this?\n\nEDIT: For the sake of clarity, this seems to be the only area that crashes I've found in ~145 hours on the save so I'm assuming it's something location specific.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "slowxzy",
+            "body": "hello, I am new to skyrim and wanted to ask which mods are perfect to first time players. \n\nI don't want any over the top mods, I only need mods that fixes some bugs or improve quality of life and maybe some of your favourite mods. \n\np.s. I am currently playing the game on a low end device so I hope the mods won't be power hungry.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "tylerchu",
+                    "body": "https://www.reddit.com/r/skyrimmods/wiki/essential_mods \n\nhttps://www.reddit.com/r/skyrimmods/wiki/begin2\n\nPlay vanilla first (with all its bugs and glitches),  then play vanilla+ (basically the fixes described in the links), then figure out what you want to improve. Then come back and ask. Otherwise you'll get a huge donkey kong disjointed modlist and it won't make any sense why you have crabs cussing you out, random big titty anime npcs next to rotting bodies, and some dude in Master Chief armor beating what appears to be a medieval knight with a gigantic spoon.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "tylerchu",
+            "body": "In our ini files, some options start with a b and others with an f. What do these mean?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Kindread21",
+                    "body": "b = boolean. Basically means its a toggle, the setting can only have a value of 0 or 1. I think it's actually 0 or not 0, as in you could put in 2 and it would be treated the same as putting 1, but I always use 1 so not entirely sure.\n\nf = float. It can have a number value with decimals\n\ni = integer. number value, but whole numbers only.\n\ns = string. Can have a text value (you'd still need additional context for the setting to know what text is valid).\n\n\nBasically they tell you the format of the value for the setting, but not necessarily enough to know what all valid values are. A setting starting with f will accept float values, but the 'f' doesn't tell you what the valid range is.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "tylerchu",
+                            "body": "Interesting. Thanks very much.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Infinite-Lime2558",
+            "body": "I batch built everything using BodySlide, now my npc looks nothing like I wanted. Is there a way to return their looks back to normal?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Unusual-Fault-4091",
+            "body": "Is there an easy way to compare the major texture packs ? Like grounds, rocks, mountains etc.  \nOnce there was site to do that but I guess it's long gone.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "TildenJack",
+                    "body": "You could compare them by installing multiple mods in MO2 and then checking the conflict tab, though in the case of objects, it might be better to look directly at the meshes by installing the NIF Preview plugin for MO2. Not all mods contain meshes of their own, however, so in those cases you'd have to install the base game meshes as a mod first. But then you'd also have to switch between the texture mods to see how it affects the appearance of the mesh.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Unusual-Fault-4091",
+                            "body": "I mean just a general comparison of the style without having to download and install all those GBs. Something a little bit more than that:\nhttps://imgur.com/a/skyrim-texture-compare-2022-6g5Hv1W\n\nGuess I watch some videos then.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "OverFjell",
+            "body": "Having a weird issue, I think it's related to either MCO, Eldenrim or one of my animation mods, whenever I have magic drawn, if I get hit by an enemy, I start slow walking, making casting in melee range basically impossible, as I just get constantly staggered. It doesn't happen with anything else drawn, and goes away if I 'sheathe' my hands\n\n[My plugins](https://pastebin.com/tZF69xNZ)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "8lu-bit",
+            "body": "Came back to modding a little while ago, but the last time I ran a modded Skyrim file was in 2022, so I'm not completely up to date with modern alternatives.. Wanted to check:-\n\n1. What's the cut-off point for mods that haven't been updated but can be safe to use? Like, if a mod's not been updated since 2020, is it still good to use or should I look for more recent alternatives?\n2. {{ Immersive HUD }} / iHud's not been updated since 2017 - is it still okay to use in 2025 with 1.6.1170? If not, is there a more modern alternative of hiding the UI like iHUD does?\n3. I used {{ Undergrowth Hollow }} as my character's home in my last playthrough, but likewise it's not been updated for a few years. Just in case that one doesn't work, does anyone have any recommendations for similar grotto/cave homes?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "modsearchbot",
+                    "body": "Search Term | LE Skyrim | SE Skyrim | Bing\n:-:|:-:|:-:|:-:|\nImmersive HUD | [Immersive HUD - iHUD](https://nexusmods.com/skyrim/mods/3222) | [Immersive HUD - iHUD Special Edition](https://nexusmods.com/skyrimspecialedition/mods/12440) | [Immersive HUD - iHUD Special Edition - Nexus Mods](https://www.nexusmods.com/skyrimspecialedition/mods/12440)\nUndergrowth Hollow | [Undergrowth Hollow](https://nexusmods.com/skyrim/mods/110711) | [Undergrowth Hollow](https://nexusmods.com/skyrimspecialedition/mods/62588) | Skipped[^Why?](https://github.com/RallerenP/modsearchbot/blob/main/docs/SEARCH.md#why-was-my-search-skipped)\n\n\n---\n\n^(I'm a bot |) [^(source code)](https://github.com/RallerenP/modsearchbot) ^| [^(about modsearchbot)](https://reddit.com/user/RallerenP/comments/pg2lqj/modsearchbot_about/) ^| [^(bing sources)](https://reddit.com/user/RallerenP/comments/pg2l0g/modsearchbot_bing_search/) ^| ^(Some mods might be falsely classified as SFW or NSFW. Classifications are provided by each source.)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "HunniePopKing",
+            "body": "Started playing a modded game i was making a few months back again after taking a break, however 1 or 2 mins after loading a save i had about 30 hours in the game would go completely black. The UI was still present, I could still hear sound, and I could still move my character and interact with the world. I assumed it was a gpu driver issue but after updating and reinstalling a few times nothing changed. I checked if the same happened with a fresh save and tried to recreate what i was doing when the screen would go black, but it seemed to be working fine, so the only thing i can think of now is that the save is corrupted. Thoughts? Its not a big issue for me and I dont really mind starting a new save but Its a bit annoying.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "catwithacough",
+            "body": "Spent hours trying to figure this out and the game will not start with mods. I\u2019m at the point of just giving up but I can\u2019t uninstall MO2 how do I get this program off of my pc?\n\nEdit: I found the uninstall file. I wish there wasn\u2019t like 30 different guides on YouTube that show 30 different ways to do this.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Phantvmyt1",
+            "body": "Downloaded RuBy ENB yesterday, for cathedral weather. works fine but I want to add other texture mods and lighting mods to it without breaking it, to make it somewhat comparable to Lorerim in visuals, without being well... 500 GB. is there a specific way I can approach this?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "EvilEthos",
+            "body": "When am I supposed to create mod groups using The Method? Am I supposed to create one for every mod I patch? Or am I supposed to make one mod group and add mods to it as I patch?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "HunniePopKing",
+            "body": "have there been any significant updates for that project that was going to greatly add to the main quest? i forgot what it was called",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Altruistic-Job5086",
+            "body": "Is there a place to submit ideas for Verified Creator Program mods?",
+            "score": -1,
+            "replies": []
+        }
+    ]
+}

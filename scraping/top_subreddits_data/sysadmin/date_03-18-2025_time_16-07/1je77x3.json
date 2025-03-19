@@ -1,0 +1,213 @@
+{
+    "title": "For those in manufacturing, what\u2019s your experience been using an MSP vs in-house?",
+    "author": "DoTheDishesDude",
+    "subreddit": "sysadmin",
+    "rank": 14,
+    "score": 9,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 32,
+    "url": "https://www.reddit.com/r/sysadmin/comments/1je77x3/for_those_in_manufacturing_whats_your_experience/",
+    "id": "1je77x3",
+    "selftext": "Howdy folks! I\u2019ve been in manufacturing IT for a few years now, with a company that has almost all of its IT org in-house. IMO it\u2019s well structured with clearly defined teams and roles, with limited siloing because we all need a little help from each other to complete work. After my first few years here, I\u2019ve really been thinking about how bad of a decision it would be to transition to managed services and the nightmare that would ensue. I\u2019m curious, what has your experience been in the manufacturing industry? Would love to hear some pros and cons from both sides of the fence.",
+    "comments": [
+        {
+            "author": "-Shants-",
+            "body": "IMO manufacturing needs onsite and dedicated IT employees. If a manufacturing line goes down because of an IT issue, it\u2019s going to take the MSP a lot longer to determine the root cause than dedicated staff and that\u2019s going to cost a ton of money per outage. \n\nHowever, I\u2019ve seen successful MSP contracts where they manage portions of the estate (backups/patching/firewalls) and it seems to go OK.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "occasional_cynic",
+                    "body": "manufacturing environments are also more complex, and have numerous heterogeneous systems which may or may not talk to each other.  MSP's are usually incapable of doing that remotely.  That past two MSP's I talked to were not even comfortable with Active Directory powershell commands.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "tankerkiller125real",
+            "body": "I got replaced by an MSP when I worked in manufacturing. Last I heard the company spent 3x my salary in the span of 6 months for shit I had been asking to do for a long time. And then continued paying 2x my salary until they realized that shit wasn't working out because the MSP couldn't figure things out like the DNC software and other specialty tooling and software. Plus, they also got hit by a hack that took out several of their machines (because the MSP connected the regular network to the originally separate OT network for \"ease of remote monitoring\").\n\nI'm sure there are MSPs that actually know what the hell their doing in manufacturing environments, but this one was the \"recommended\" one by several other local manufacturing businesses. So, uh... Yeah...",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "DoTheDishesDude",
+                    "body": "Dear god, that network consolidation example is the stuff of nightmares!",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "pdp10",
+                            "body": "Having a degree of connectivity is the right thing for the business. It's just that it needs an intentional, safe approach. Probably a conventional app-level gateway or firewall, but perhaps a more exotic [data diode](https://en.wikipedia.org/wiki/Unidirectional_network).",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "veratek",
+            "body": "I worked in-house IT for manufacturing for many years. I definitely don\u2019t think switching to managed services would be a good idea in the instance you described here. There are a lot of MSP-involved people here in sysadmin though so I\u2019m sure there will be people trying to convince you otherwise. From my experience, in-house IT is always a better option when the company reaches a certain size if management can put the right people in charge of IT. For very small companies, or if solid IT hires are not possible then an MSP makes sense.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Different-Hyena-8724",
+                    "body": "Also, if you're dealing with those DC powered industrial application switches.....MSP's never touch those.  They sell and resell the bread and butter products which you're already seeing on PR Newswire.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Specialist-Light4430",
+            "body": "In short, yes, it's a shitshow. \n\nI've been in IT for nearly 20 years and worked in a variety of industries. I just joined a manufacturing company about four months ago. Historically, this company has seen in-house IT as the printer-and-phone fixers. Anything larger would get offloaded to an MSP or consultant. I've seen things here that legitimately boggle my mind. \n\nOn the extreme end: within my first month, a user asked me if we had a power converter for their laptop cable. Turns out they had been given a laptop power supply with a UK-style plug. Mind you, we are a Midwest-based manufacturer, we do not sell products in the UK, and none of our users has a need to travel to the UK regularly.\n\nOur documentation is non-existent. We've got guys who have been here for 20+ years, so I'll ask them why something was set up the way it was. \"Oh, that's just how <MSP> decided to do it.\" There seems to have been a lot of do-it-as-quickly-as-possible-without-thinking-about-the-long-term-tech-debt type work done here. Part of my job is unraveling that; it's a bit aggravating at times.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "DoTheDishesDude",
+                    "body": "Godspeed my friend, sounds like a helluva web to untangle. Appreciate the perspective!",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Key-Brilliant9376",
+                    "body": "Nobody cares about your house as much as you do. For most MSPs, they just want to close the ticket and get paid. It's not really about making things better.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Gazornenplatz",
+            "body": "Been on both sides, and in-house is usually miles ahead for productivity and cost. In-house was a good experience overall, started in helpdesk and worked my way to sysadmin, but then got a new job doing more for a smaller company and realized that MSPs are just an annoying waste of time for the most part. Tickets take too long when a single employee can walk over there, reboot the system in front of the user, and it works again. Users need their hands to be held, and over the phone doesn't do the trick.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "8Ross",
+            "body": "It's almost always a bad idea to hire a MSP for a manufacturing company. Too many things require on-site work and there are too many proprietary/legacy processes/software. Not to mention that half these companies love lean manufacturing methodology and try to push that methodology on other departments that don't necessarily jive with it, making many things cheaply rigged up and waiting to fail.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "DoTheDishesDude",
+                    "body": "Your point of proprietary and legacy systems is really the biggest road block in my mind. This industry has opened my eyes to the true variety of solutions there are to create our products, it\u2019s unbelievable.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "MostMediocreModeler",
+            "body": "I used to work for an MSP and we supported multiple manufacturers but our model was fairly different than most so we had regularly scheduled onsite visits.  I would argue that if it's a 1-2 person IT shop then an MSP *might* be able to support it.  If the company is large enough to have an internal IT team then probably not.\n\n  \nAnd from what I've seen of most other MSPs, no.  They don't spend any time understanding the business, much less the software and equipment they have to support.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Key-Brilliant9376",
+            "body": "I've been more on the distribution and warehousing side for a lot of companies over the years, so similar to manufacturing as a lot of those also had some light manufacturing. There's no way that you could get quality service out of an MSP, mainly because they are all very custom environments with specialized machines and, in a lot of cases, regulated in specific ways. What we've had better success with is more siloed type MSP solutions. For example; we have an MSP that \"helps\" with our network if anything crazy happens, but 99% is handled in house. It's a cheap contract that's really only there to support a very lean onsite team... more of a supplement than a true MSP type relationship. But since we are very lean, we do look for these types of solutions, where we can pay someone to help us.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "I_Want_Waffles90",
+                    "body": "This is the kind of setup we had; a mix of both. In-house IT that worked mainly on the proprietary legacy system, and an MSP for the network/backups/firewalls, run-of-the-mill stuff. It worked for us because I could focus on making sure the production software was running without having to deal with the headache of patching exchange and running ethernet cables.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "DoTheDishesDude",
+                    "body": "I like that type of supplemental approach, our apps and data teams are starting to utilize that much more. Infrastructure could really benefit from this to fill the gaps where we\u2019re lean but that\u2019s a perpetual battle of budget approval.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "TyberWhite",
+            "body": "I would not recommend a complete transition. There's nothing inherently wrong with using an MSP in manufacturing, but they should always be supported by internal IT, who can address immediate issues and keep production going.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "topher358",
+            "body": "What MSPs often call a co-managed environment is often a good fit for manufacturing companies.  \n\nIn house IT does some of it (especially manufacturing floor support) and then leverages the expertise and additional manpower of the MSP for 24/7 monitoring, project work, etc.\n\nThis requires a close and good working relationship between the MSP and the company.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "THE_PROCRASTINAT0R",
+            "body": "My previous position was for an MSP that provided support to two different manufacturing companies. Both had under 200 employees. Our office was within 1hr driving distance to them and had a 24/7 on call rotation. \n\nSupport was fairly routine, however there\u2019s limitations that match what a lot of others have already commented. Any manufacturing specific software had to have vendor support and an internal SME on staff, as we could only provide very basic support for that portion. The hardware and physical tools that interfaced with any IT systems that was used for the manufacturing also had to have a SME and accompanying vendor support. \n\nEach of the clients I\u2019m describing had production-halting level issues within the last 12 months; one was backup related and the other was AD related. Surprisingly, the AD related one is the one that had the most downtime. I honestly feel as though the MSP could not have responded to the issue any faster than an onsite team could, considering we were aware of the issue before the end users were. However, these are smaller companies and they certainly paid a pretty penny to have all of the monitoring tools that we had available. \n\nI completely agree with you that, at a certain size, it only makes sense to have in-house IT. However, you don\u2019t always have to have the MSP handle everything; it was fairly common for clients to utilize only our network monitoring and security tools, while they handled everything else and looped us in when needed. Just depends.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BlackWicking",
+            "body": "inhouse for 24/7 manufacturing, you can calculate, the 24/7 readiness, 30 min delay for pickup , remote talk, something does not want remote, etc. Will they pick up at what ungodly hour for that one loose cable, profit overhead for them , why would you love to hear about it? i mean certain things are in-house only",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Zahrad70",
+            "body": "Outsourcing has its place.  Anything customized or highly industry-specific is usually not a good fit.\n\nYou want the front office (including engineering and design) and maybe the warehouse to be managed by an MSP, you\u2019ll probably be fine.\n\nThe manufacturing floor?  I really don\u2019t see that working out well.  Most places I\u2019ve consulted have had separate VLANS fire walled off from one another with very narrow limited connections.  I\u2019ve seen at least two air-gapped setups in the days before wi-fi that I recall.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "n0t1m90rtant",
+            "body": "depends on how big your it dept is and how specalized of it you need.\n\nIt makes sense to use an msp for larger tasks where downtime would be needed to accommodate those people.\n\nDoes it make sense to hire a msp to run a line 50ft, no.  But it would to bring them in to upgrade all your lines.\n\n  \nusually it is around 50 people per low level, 150 per mid level, and 250 per high level and 500-1000 per senior.  If the numbers skew in one direction it usually means there needs more or less experience on the team.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "HoosierLarry",
+            "body": "Regardless of the industry, your experience with an MSP is only going to be as good as the in-house management team that oversees it. There's a mistaken notion by many \"IT leaders\" that all they really have to do with an MSP is manage the contract. What really happens is that it becomes a situation where the tail is wagging the dog. In other words, the MSP drives the agenda, and the in-house team becomes their resource. The MSP needs to be treated like an in-house team that is managed by your organization.\n\nOne of the organizations that I was working with had outsourced everything to an MSP, MicroIntegration. MicroIntegration hadn't patched a single server in more than three years. All of the VMware licenses were in their name, which put the organization I was working with out of license compliance. It cost over $60K to correct. The organization was operating a Windows 2003 FTP Server in the DMZ. Server 2003 had been out of support at that point for multiple years. As far as I could tell, MicroIntegration was just caching the checks and only showing up when something went wrong. That's not a managed service.\n\nI could give other examples of incompetence from other MSPs like modIT and NetGain. The bottom line is that you can't disengage from IT operations once you've signed a contract with an MSP.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "HoosierLarry",
+            "body": "Regardless of the industry, your experience with an MSP is only going to be as good as the in-house management team that oversees it. There's a mistaken notion by many \"IT leaders\" that all they really have to do with an MSP is manage the contract. What really happens is that it becomes a situation where the tail is wagging the dog. In other words, the MSP drives the agenda, and the in-house team becomes their resource. The MSP needs to be treated like an in-house team that is managed by your organization.\n\nOne of the organizations that I was working with had outsourced everything to an MSP, MicroIntegration. MicroIntegration hadn't patched a single server in more than three years. All of the VMware licenses were in their name, which put the organization I was working with out of license compliance. It cost over $60K to correct. The organization was operating a Windows 2003 FTP Server in the DMZ. Server 2003 had been out of support at that point for multiple years. As far as I could tell, MicroIntegration was just caching the checks and only showing up when something went wrong. That's not a managed service.\n\nI could give other examples of incompetence from other MSPs like modIT and NetGain. The bottom line is that you can't disengage from IT operations once you've signed a contract with an MSP.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Prudent-Blueberry660",
+            "body": "So I work in house IT in mfg along with my co-worker and boss. We have one guy who we contract out our security, BU/DR, and heavy duty server work to, and it works well enough for us. But yeah having myself and my co-worker definitely has to be much better for the company as were able to handle issues that a MSP either wouldn't bother to take care of, or wouldn't know how to take care of. Plus it's a pretty laid back gig so I don't mind it honestly even though that tech wise we are really behind the ball.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Site-Staff",
+            "body": "A manufacturer of any volume should always in house IT.  The difference in a few minutes/hours compared to hours/days of response time during an outage should make the decision easy.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TechSupportIgit",
+            "body": "Myself, I'm part of the OT department for an industrial automation environment. Since Automation basically glues everything together, you have jacks of all trades that may have their primary job as programming/maintaining the PLCs assisting in the field with IT.\n\n...then we have our runt of the litter business unit (seperate from the team I'm in) that outsources everything under the sun. It's a fucking trainwreck.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "illicITparameters",
+            "body": "Absolute disaster waiting to happen.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Affectionate-Race901",
+            "body": "My experience with manufacturing IT is a bit different of a scenario. I am the solo IT person for a manufacturing company; I do however have an MSP that supports behind me. When I came in there was nothing in place for anything IT related. They had a \"does it for fun\" IT guy for a while but then didn't have one and relied solely on the MSP till me.\n\n\n\nAll PCs were 5-8 years old running 12 year old versions of office.\n\nIDF Cabinet was so congested with every daisy chained switch that the firewall was standing resting against the door.\n\nNo ticketing system or RMM software.\n\nNo naming conventions about anything. (Computers in AD with DESKTOP- as their name)\n\nUN & PW taped on the monitors\n\n\n\nThere are 100ish office employees and another 200-300 shop guys based on demand. Sometimes I wonder how they functioned before the changes that I have made.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "3rd_Shift_Tech_Man",
+            "body": "What the hell happened here?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "3rd_Shift_Tech_Man",
+            "body": "What the hell happened here?",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "title": "PyQt5 won't work on VSC",
+    "author": "Time_College1653",
+    "subreddit": "learnpython",
+    "rank": 16,
+    "score": 0,
+    "upvote_ratio": 0.5,
+    "num_comments (reported by reddit)": 7,
+    "url": "https://www.reddit.com/r/learnpython/comments/1jehpy9/pyqt5_wont_work_on_vsc/",
+    "id": "1jehpy9",
+    "selftext": "hello, i'm trying to use pyqt5 to make a project but despite typing \"pip install pyqt5\" and \"pip install pyqt5-tools\" multiple times in the commands prompt its still wouldn't work on VSC, please help.",
+    "comments": [
+        {
+            "author": "JeLuF",
+            "body": "Any error messages when running the pip commands? Which error do you get when you try to use it?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Time_College1653",
+                    "body": "it says \"ModuleNotFoundError: No module named '_distutils_hack' \"",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "JeLuF",
+                            "body": "Try this:\n\n    pip install -U pip setuptools",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Time_College1653",
+                    "body": "after that it says \"Remainder of file ignored\" and \"Requirement already satisfied\"",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Time_College1653",
+            "body": "setuptools were installed but pyqt5 still doesn't  work",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "JeLuF",
+                    "body": "Same error message?",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Time_College1653",
+                            "body": "yes",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

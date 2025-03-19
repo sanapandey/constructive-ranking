@@ -1,0 +1,557 @@
+{
+    "title": "why is my 79 pen ammo (ap lapua magnum) getting absorbed by armor?",
+    "author": "chriptec",
+    "subreddit": "EscapefromTarkov",
+    "rank": 12,
+    "score": 525,
+    "upvote_ratio": 0.96,
+    "num_comments (reported by reddit)": 86,
+    "url": "https://v.redd.it/2kacyh4vobpe1",
+    "id": "1jdp7p0",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "Auralius1997",
+            "body": "AP Magnum does 115 damage while Scav Raiders (according to the Tarkov Wiki) have 160 Torax health\n\nAP Magnum can't one-shot them except to the head",
+            "score": 370,
+            "replies": [
+                {
+                    "author": "chriptec",
+                    "body": "wait wtf I never knew raiders had that much hp, straight up double thorax hp, perhaps im not witnessing a bug here and the damage absorbed by armor is actually damage absorbed by the backplate? Like it pens the front plate, hits the thorax and then gets absorbed by backplates maybe?? Because my big issue is still that its getting absorbed at all but perhaps its the backplate that is bumping that number up?",
+                    "score": 141,
+                    "replies": [
+                        {
+                            "author": "Auralius1997",
+                            "body": "Yes. Raiders share the 35 head HP but every else is way higher HP Wise. They have a total of 745 HP\n\nI wouldn't pay much attention to the damage absorbed statistic\nSince the armor rework that seemed always off on how it calculated it",
+                            "score": 107,
+                            "replies": [
+                                {
+                                    "author": "Slightly_Unethical",
+                                    "body": "This happens regularly on low-level, normal scavs. BSG bugged the hell out of the most difficult to obtain weapon in the game.",
+                                    "score": 27,
+                                    "replies": [
+                                        {
+                                            "author": "Auralius1997",
+                                            "body": "While I won't deny that it could be possible that it's bugged, most people also don't seem to know that we have three different Scav HP Pools ingame\n\n80, 85 and 100 Torax HP\n\nIt can happen that you get unlucky and hit a scav with AP Magnum at distance and due to them wearing some armor it barely was enoth to survive with 100 Torax HP\n\nThat's also the reason some scavs feel so incredibly tanky",
+                                            "score": 23,
+                                            "replies": [
+                                                {
+                                                    "author": "Whistler-the-arse",
+                                                    "body": "I play pve and run 338 a lot cuz why the fuck not fmj works better except against killa fucking killa me and a buddy tested the ap vs fmj and fmj out shines it most cases  they really need to look into m882 and y it 1 taps u thru lvl 4-6 in the thorax",
+                                                    "score": 2,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "Slightly_Unethical",
+                                                    "body": "I'm well aware of that. .338 AP is 79 pen and 115 damage. No regular PMC or Scav should ever be able to tank a thorax shot. Raiders, rogues, guards, and bosses have the health pools to tank one, but that's about it.",
+                                                    "score": 2,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "TheeNegotiator_",
+                                                    "body": "They change the scav health pools quietly all the time, they actually all had the same health pool a little while ago. \n\nRip terminator scav with like 42 head hp",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Auralius1997",
+                                                            "body": "I mean it was in the patch notes that they adjusted the head HP of all normal and sniper scavs to 30HP but didn't change any of the body HP to my knowledge",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "TheeNegotiator_",
+                                                                    "body": "This is one of the first times they have openly stated they changed scav hp, that being said, they were made to be 30hp across the board a month or two ago iirc, maybe that was temporary and they changed it back, or actually are announcing it now. \n\nI\u2019m just glad they are being more transparent with these changes. as fun as it was to see what was changed as the patches dropped, this is much better",
+                                                                    "score": 2,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "TheMediumEagle",
+                    "body": "This is likely the correct answer, but I'll be honest I had no idea raiders had that much thorax HP. That explains a lot actually",
+                    "score": 15,
+                    "replies": [
+                        {
+                            "author": "Shamorin",
+                            "body": "Raiders are kinda broken. That is why you don't run an MP7 on labs if you don't go for headshots only. I suggest running 7.62x51 M80 or 7.62x39 PP and going for headshots only with one time .5 seconds angle peaks and repositioning after each peak. That's how farming raiders in PVE is the most safe and efficient.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "No_Interaction_4925",
+                    "body": "That is a straight up ridiculous amount of health for a single body part. \n\nIn my opinion, the raiders should have the same health but have better gear and smarter AI. I hate RPG style health pools in RPG\u2019s let alone a shooter",
+                    "score": 32,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "killaho69",
+            "body": ".338 AP is actually not good for AI, as they all have more HP than a PMC (not sure if this goes for AI PMC, they may have the same value). But yeah except for the MK18, it\u2019s a good way to unexpectedly get rekt. \n\nGoons, bosses, guards, etc won\u2019t be one tapped unless it\u2019s to the head. \n\nNow it IS good for killing the dudes on the lighthouse peninsula. But not AP. I used Tac-X and it was pretty good on their heads. I think it\u2019s like 190 damage, before whatever the distance drop off might be.",
+            "score": 44,
+            "replies": [
+                {
+                    "author": "ihavenoarms",
+                    "body": "RIP or quake 9mm, 50 rounders, vector or g18 and go legs lol they fold instantly",
+                    "score": 11,
+                    "replies": [
+                        {
+                            "author": "EmpathOwl",
+                            "body": "Man that strategy has been around for years hahah I\u2019m glad it\u2019s still working",
+                            "score": 7,
+                            "replies": [
+                                {
+                                    "author": "useurname123",
+                                    "body": "unless some new tech for armor pants gets released in real life and BSG copies it, Leg Meta will never fade.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ImNotaBrooo",
+            "body": "As others have said in the comments, you're not going to one tap raiders in the thorax with .338 since they have much more HP than regular scavs & PMCs.\n\nWhat's more troubling here (and has been for a long time now with .338) is the arms bug completely deleting the efficiency of this caliber by tanking the shot and not making it a one hit thorax kill.\n\nThis is very common when shooting a PMC from the side, bullet will hit the arm and do propagated damage to the rest of the body and either not penetrate the arm to kill them thorax or lose too much damage to do so.  \nAlso happens a lot when the guy is just facing you, bullet touches the arms and doesn't do the expected damage to the thorax to kill.\n\nVery fun to use, but is going to be considered as a meme caliber for as long as the arms exist in this game !",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "TommyTwoHanks",
+            "body": "Did you not buy the $250 penetrator edition?",
+            "score": 36,
+            "replies": [
+                {
+                    "author": "LELO_TV",
+                    "body": "Wasn't it the penetrated edition?",
+                    "score": 17,
+                    "replies": []
+                },
+                {
+                    "author": "chriptec",
+                    "body": "meanwhile im still out here rocking the alpha case, guess I should have known better",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "TommyTwoHanks",
+                            "body": "Bruh your lapua rifle essentially a blicky :(",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "Gold-Ad-3877",
+                            "body": "Glad i aint the only one",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Launch_Angle",
+            "body": "This might be one of the clearest  clips ive seen of .338 AP being clearly bugged tbh. You can actually see sparks fly off the raider on the 2nd shot which is kind of weird. It probably hit both the 2nd and 3rd raider in the arm first, but even then AP should still 1 tap them. Arm bug back in the game after this update, for the 50th time...?",
+            "score": 91,
+            "replies": [
+                {
+                    "author": "chriptec",
+                    "body": "thats the craziet thing about the sparks, the shot penetrated THROUGH the raider, through his thorax and then hit the medal poll behind him which released sparks, but he doesnt die? these shots do 100+ damage, the shot clearly penetrated both his front and back plate and then hit the medal poll behind him, but he doesn't die lol",
+                    "score": 34,
+                    "replies": [
+                        {
+                            "author": "Carpet-Background",
+                            "body": "the game STILL has the bug where if you hit someones arm first, their torso takes 0 damage. they removed it for one patch, then readded it, and havent removed it since",
+                            "score": 16,
+                            "replies": [
+                                {
+                                    "author": "doxjq",
+                                    "body": "I believe this was apparently patched two weeks ago wasn\u2019t it? I\u2019m sure I saw it in the patch notes. \n\nWouldn\u2019t surprise me if it is still in the game though lol.",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "SPYDER0416",
+                                            "body": "Changes in Tarkov patches seem to work the same as its boss spawn logic. There's a chance they'll be in, its not guaranteed, but you might have better luck the next time.",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Sesleri",
+                    "body": "> This might be one of the clearest clips ive seen of .338 AP being clearly bugged \n\nIma need you to google \"tarkov raider\" and look at their chest HP sir",
+                    "score": 12,
+                    "replies": []
+                },
+                {
+                    "author": "ProcyonHabilis",
+                    "body": "Raiders have way more health than a PMC everywhere except the head, AP does not 1 tap their thorax.",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "doxjq",
+                    "body": "I had it two wipes ago I took a mk18 to labs and thoraxed a guy three times with lapua AP and he didn\u2019t die. Had something like 300 absorbed by armor and only 80 to body. \n\nMy mate killed the guy after I died and the guy was wearing a redut with standard level 5 plates. Made no sense to me because as far as I was concerned even if he was wearing a fresh zabralo with level 6 plates he should just he dead as dead can be.",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "VGxMurderer",
+                    "body": "you should check raider hp and .338 stats before saying its bugged, js",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "BrobaFett",
+                    "body": "Didn't bug. It penned. First raider was hit in the head. Second took two shots. Third raider was hit.\n\nAP does 115 damage. Raider Thorax has 160 HP.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "theyork2000",
+                    "body": "So which is right? You or the top comment that says people are misunderstanding how much HP raiders have?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "SJ_LOL",
+                            "body": "HP one is right. The arms thing is situational and doesn't count here",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Luc1dNightmare",
+                    "body": " Im not discounting the game being bugged, but It actually looks like it hits his gun.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Repulsive-Wealth-378",
+                    "body": "yup  \n[https://www.youtube.com/watch?v=BcgtrP3mHQI](https://www.youtube.com/watch?v=BcgtrP3mHQI)",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "MAKENAIZE",
+                            "body": "That video came out on feb 24th and an update fixed the arm bug feb 28th. The recent update could've broken it again, but that video is outdated and not proof.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Franklin_le_Tanklin",
+            "body": "Tis bugged.\n\nAlso, why would you bring a boltie to labs? Lol",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "Appropriate-Dog-5553",
+                    "body": "because boltie",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "chriptec",
+                    "body": "because this ammo 1 shots to the thorax or head through any armor, as long as ur aim is good its an insane weapon",
+                    "score": -2,
+                    "replies": [
+                        {
+                            "author": "Franklin_le_Tanklin",
+                            "body": "Well, PMC\u2019s yes but not raiders.. they have higher hp",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "errorsniper",
+            "body": "Cuz they are raiders. They cant be 1 tap thoraxed even by .338.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Accomplished_Emu_916",
+            "body": "Arms",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "Ballerbarsch747",
+                    "body": "Didn't they claim that they fixed it like two patches ago?",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "Carpet-Background",
+                            "body": "yeah they claimed",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "CreamAny1791",
+                    "body": "There\u2019s a reason it\u2019s called arm-or. Arms are a main part of your protection.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "chriptec",
+                    "body": "bullets go through arms into the thorax brother",
+                    "score": -2,
+                    "replies": [
+                        {
+                            "author": "Loud-Contract-2109",
+                            "body": "Only in theory, but we are in tarkov",
+                            "score": 16,
+                            "replies": []
+                        },
+                        {
+                            "author": "evboy101",
+                            "body": "Arms are currently bugged. Lapua is bugged. You are fighting 2 bugs with one 2k rouble shot",
+                            "score": 4,
+                            "replies": []
+                        },
+                        {
+                            "author": "Repulsive-Wealth-378",
+                            "body": "[https://www.youtube.com/watch?v=BcgtrP3mHQI](https://www.youtube.com/watch?v=BcgtrP3mHQI)",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "chriptec",
+                                    "body": "wow  this game is shit lmao",
+                                    "score": 7,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Inevitable-Stage-490",
+            "body": "Why does it say \u201cTRAINING\u201d next to OPs build version of the game?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "chriptec",
+                    "body": "I was doing a offline raid to get practice with this weapon since I had never used it before and I am unfamiliar with the labs layout so I wanted to learn that too before sending an online raid",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "hevea_brasiliensis",
+            "body": "Lapua is broken in this game. The bad way, not the good way.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Pliskin_Hayter",
+            "body": "I love how the last guy you shot spontaneously spawned another AI out of thin air instead of dying.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "CreamAny1791",
+            "body": "Arm-or. Wouldn\u2019t have arm in the name if arm wasn\u2019t part of the armor",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "colesym",
+            "body": "My SNB has been getting blocked by armor at 62 pen, it's silly.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "MindGroundbreaking51",
+            "body": "Tarkov",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "JZs13907",
+            "body": "That shit is 100% bugged and has been for a bit.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Puggravy",
+            "body": "There has been a bug where If a bullet goes through an arm even if it should have the remaining penetration to do damage to the thorax it will not. BSG has tried to fix this multiple times only to have it reoccur.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Defiant-Glass-5436",
+            "body": "Obviously he has tier 8 armour \ud83d\ude44",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Equivalent-Web-1084",
+            "body": "Because Nikita",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Illustrious_Diamond2",
+            "body": "Because this game is depressing lol",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Shad0XDTTV",
+            "body": "Because it's tarkov and tarkov is forever bugged",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "russeljones123",
+            "body": "Why are you running a bolty on labs?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "GizmosisYT",
+            "body": "Any tips for finding .338 AP. I\u2019m about to unlock the Sako but I\u2019ve only been able to find about 20 rounds this wipe ;(",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "chriptec",
+                    "body": "The btr exclusive area on woods usually has a lot of rare ammo, would recommend trying there, I\u2019ve found about 60 .338 AP",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "CreamAny1791",
+                    "body": "Any ammo spawn",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "MrBlyates",
+            "body": "bsg just needed u to free up the server since u were probably alone when looking at the amount of raiders that pushed you this hard",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DarkPhoinix",
+            "body": "Because you are not a streamer and sell game",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Kaaos2004",
+            "body": "I\u2019ve been out of the game for years, with the start of my tarkov career being in 2019 and ending in 2023. I\u2019ve logged well over 3000 hours, and after hearing that death screen music, I got flashbacks. Tarkov never really leaves you. There is no escape.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "mr_scourgeoce",
+            "body": "Another case of \"give the a.i more health to make it fair even though they know your pinpoint location at all times.\"",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "JstylezZ_91",
+            "body": "Because you dont hit",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BlazingShadowAU",
+            "body": "That first shot that didn't kill went straight into the guys gun, lol. I don't even know how the game handles that in terms of penetration or whatever.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "3Foss",
+            "body": "Because you have music enabled",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Sad_Song9333",
+            "body": "I\u2019ve been having this problem on arena I don\u2019t use .338 on eft very much so I can\u2019t say if it\u2019s just an arena thing or not but I\u2019ve been hitting people for nothing but armor on arena with the axmc with ap",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TheOnedeadpixelone",
+            "body": "\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "doSethEpLanet",
+            "body": "Use the other sight at that range, you bought it for a reason.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "GanjiMayne",
+            "body": "Put away the bolt action",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ex0-",
+            "body": "More importantly why are you zoomed to 4x for enemies stood a few meters in front of you?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "LELO_TV",
+            "body": "Hi, bsg dev here.\n\nAfter further inspection, it seems like we have a clear case of \"fk u lmao welcome to Tarkov\".\n\nkind regards",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ize30",
+            "body": "1-6 shots missed,7-9 poor recoil control \nGet a better gaming chair",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Kerlhawk",
+            "body": "Because this game sucks",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Frago420",
+            "body": "T6 front plates i already checked this with my friend and we were as shocked as you are",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "umpekakana",
+            "body": "Ppl still playing this game? \ud83d\ude06",
+            "score": -1,
+            "replies": []
+        }
+    ]
+}

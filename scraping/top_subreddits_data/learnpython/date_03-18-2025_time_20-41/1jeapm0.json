@@ -1,0 +1,324 @@
+{
+    "title": "If-if-if or If-elif-elif when each condition is computationally expensive?",
+    "author": "MustaKotka",
+    "subreddit": "learnpython",
+    "rank": 1,
+    "score": 22,
+    "upvote_ratio": 0.84,
+    "num_comments (reported by reddit)": 48,
+    "url": "https://www.reddit.com/r/learnpython/comments/1jeapm0/ififif_or_ifelifelif_when_each_condition_is/",
+    "id": "1jeapm0",
+    "selftext": "# EDIT: Thank you for the answers!\n\nLooks like in my case it makes no difference. I edited below the structure of my program, just for clarity in case someone stumbles upon this at a later point in time.\n\n`------------------------`\n\nIf I have multiple conditions that I need to check, but each condition is expensive to calculate. Is it better to chain ifs or elifs? Does Python evaluate all conditions before checking against them or only when the previous one fails?\n\nIt's a function that checks for an input's eligibility and the checking stops once any one of the conditions evaluates to True/False depending on how the condition function is defined. I've got the conditions already ordered so that the computationally lightest come first.\n\n`------------------------`\n\nHere's what I was trying to ask. Consider a pool of results I'm sifting through: move to next result if the current one doesn't pass all the checks.\n\nThis if-if chain...\n\n    for result_candidate in all_results:\n        if condition_1:\n            continue\n        if condition_2:\n            continue\n        if condition_3:\n            continue\n        yield result_candidate\n\n...seems to be no different from this elif-elif chain...\n\n    for result_candidate in all_results:\n        if condition_1:\n            continue\n        elif condition_2:\n            continue\n        elif condition_3:\n            continue\n        yield result_candidate\n\n...in my use case.\n\nI'll stick to elif for the sake of clarity but functionally it seems that there should be no performance difference since I'm discarding a result half-way if any of the conditions evaluates to True.\n\nBut yeah, thank you all! I learnt a lot!",
+    "comments": [
+        {
+            "author": "KreepyKite",
+            "body": "There is a fundamental difference between if - if and if - elif:\nWhen you chain if statements, python will check every if statements, no matter what is the outcome of the previous one. \nWith if-elif, the elif statement is evaluated ONLY if the first if statement evaluates to False. \nElif literally mean else if, so if the IF statements evaluates to true, python will ignore the elif statements.\n\nIf you chain elif statements, same story. The outcome of the first if determines if the rest of the conditions are checked or not.",
+            "score": 75,
+            "replies": [
+                {
+                    "author": "CptMisterNibbles",
+                    "body": "As such, consider the order in terms of frequency: if there is a conditional that is significant less common, bury it, particularly if it\u2019s computationally expensive. It doesn\u2019t make sense to *always* check the expensive, odd case first or early.\n\n\u00a0 \u00a0\u00a0",
+                    "score": 29,
+                    "replies": [
+                        {
+                            "author": "Nexustar",
+                            "body": "But, in every language - weigh premature optimization against readability. More than anything you usually want code to be readable in 6 months or 4 years time, perhaps by someone else. You want bugs to express themselves, the code to explain itself and make sense, be easy to follow.\n\nSo, optimize when you have to, and skip it when it doesn't matter in favor of laying out the program so a human (future you) can read it.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "DNA-Decay",
+                                    "body": "Oh man, I\u2019m just starting and my first still small thing is a mess.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Temporary_Pie2733",
+                    "body": "Just to note: there\u2019s no such thing as an elif statement: every elif clause is *part* of a single if statement, with an elif condition only being evaluated if the preceding condition is false.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "KreepyKite",
+                            "body": "Yes, very true, I should have say \"chaining elif conditions\"",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "F5x9",
+                    "body": "There are a couple of other cases to consider. If you are at the start of a function, and you want to bail under certain conditions, put those first:\n\n\u00a0 \u00a0 def do_stuff(a):\n\u00a0 \u00a0 \u00a0 \u00a0 if not a:\n\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 return\n\u00a0 \u00a0 \u00a0 \u00a0 # do stuff\n\nA lot of flow control can be written in a way that the if statement puts all flow on the same path:\n\n\u00a0 \u00a0 if not isinstance(a, list):\n\u00a0 \u00a0 \u00a0 \u00a0 a = [a]\n\u00a0 \u00a0 # do list things\n\nIf you have several elifs, op should consider using match, dependency injection, or something else to keep it easy to read.\u00a0\n\nFinally, op should avoid nesting if blocks because they quickly get confusing.\u00a0",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "MustaKotka",
+                    "body": "Thank you! I am indeed breaking execution between the (el)if statements, in case a check doesn't pass. So just confirming: in my case it makes no difference, right? (See code example I edited to my post!)",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "SweetNatureHikes",
+                    "body": "Is that still true if your if-ifs each have a return statement?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "idrinkandiknowstuff",
+                            "body": "obviously not. return ends the function, so nothing after it is evaluated.",
+                            "score": 10,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Zeroflops",
+            "body": "Ppl have answered about the if elif \n\nBut you mention that you have ordered them by computational complexity. You may want to also consider based on likelihood. \n\nIt can be less expensive if you do a highly likely but costly test first rather than doing several less costly and working your way up.",
+            "score": 17,
+            "replies": [
+                {
+                    "author": "MustaKotka",
+                    "body": "Thank you! I don't know the frequency and there's a lot of data to go through (practically the same as executing the program - the irony) so I will keep it this way for the time being; cheapest being first.\n\nI will take a note of this for the future, though. It makes sense because it's not about the complexity of a single task, it's about the cumulative complexity of all tasks the item goes through.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "thuiop1",
+                            "body": "I don't know your use case but it could be the case that you actually should use something like a DataFrame and do the filtering with that instead of doing a for loop (but it depends on the nature of your conditions).",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "MustaKotka",
+                                    "body": "Pointers for doing filtering through pandas?\n\nI have lists of integers as the input and I'm iterating over that. The input intergers are unique IDs (placeholders) for other objects and my if-conditions require me to go and get the object itself from a static data structure so that I get access to its values which in addition to the integer itself are used to compute the final bool state of the condition.\n\nThe objects themselves are a bit cumbersome and I noticed that it's faster to use the ID as a placeholder and only get the object itself if needed (which it isn't every time).",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "thuiop1",
+                                            "body": "I am mostly a polars man myself.\n\nBut ideally I would construct a DataFrame containing enough data from the data structure to do the conditions; but the core of it is to have your data in a nice enough format to begin with (e.g. a CSV). And the most you can operate on the whole batch at once, the faster it will be.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "FrangoST",
+            "body": "one variable can resolve to True in multiple if statements, so these two are not the same and it depends on your intended behavior...\n\nexample:\n\n```\nx = int\n\nif x > 8:\n    print(\"It is bigger than 8\")\nif x > 6:\n    print(\"It is bigger than 6\")\nif x > 4:\n    print(\"It is bigger than 4\")\n```\n\nif x = 10, this will result in:\n```\n> It is bigger than 8\n> It is bigger than 6\n> It is bigger than 4\n```\n\nnow, if you code it like this:\n\n```\nx = int\n\nif x > 8:\n    print(\"It is bigger than 8\")\nelif x > 6:\n    print(\"It is bigger than 6\")\nelif x > 4:\n    print(\"It is bigger than 4\")\n```\n\nif x = 10 it will result in:\n\n```\n> It is bigger than 8\n```\n\nAnd if x = 7 it will result in:\n\n```\n> It is bigger than 6\n```\n\nSo check if your outcomes should be mutually exclusive or not.",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "glad-k",
+            "body": "Elif is generally better as it will only check the next conditions if the previous if was false, else it should just skip it",
+            "score": 9,
+            "replies": []
+        },
+        {
+            "author": "hexwhoami",
+            "body": "The answer is either; it doesn't matter or use if-elif-elif.\n\nThe reason for it doesn't matter: if your code looks like this:\n```\nif condition1:\n    return False\nif condition2:\n    return False\n...\nreturn True\n```\nThen the `return` statement will prevent evaluation of the following conditions.\n\nOtherwise if you are not returning or breaking out of the loop, you should use if-elif-elif, otherwise every conditional statement that evaluates to true will have its clause executed. \n\nSome food for thought -- you want your conditionals to be ordered by *likelihood of execution* in the best case scenario. That means if condition 1 is computationally heavy, but is also the executed case 90% of the time, it should be first in your conditional chain. That way 90% of the time, it's the only case executed instead of \"every less computationally heavy case, then this case\" being executed.\n\nYou may not know which case will be the most executed, so your ordering would make sense as an initial release - then tracking which gets executed the most, to make a future performance commit.",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "MustaKotka",
+                    "body": "Yeah this is exactly what my code looks like! I'm sorry I didn't include that in the original post until just now that I edited it.\n\nI don't know the frequency of each case but luckily one of the common cases is cheaper than others so at least I know to put that first. I see it now: it's not about how expensive a check is; it's about how expensive the cumulative check chain is until it fails/passes. Definitely makes sense to put the most common case first.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "crashorbit",
+            "body": "If-elif-elif when the conditions partition the behavior cleanly.\n\nIf-chains when subsequent actions may be needed on the results of the previous condition.\n\nNested-if when there are distinct sub conditions. But use this sparingly.\n\nFor performance reasons it's often a good strategy to do a cheap check to partition the behavior so that the expensive checks are not done on all the data.",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "MustaKotka",
+                    "body": "Got it. Thank you!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Adrewmc",
+            "body": "       if something:\n            do.this()\n       else:\n             if other_thing:\n                 do.that()\n             else:\n                 if that:\n                     do.other()\n\nBut as you can see once we get much more we have made something terrible looking, \u2018nested\u2019 deeply. \n\nBut it Is the same as \n\n        if something:\n            do.this()\n        elif other_thing:\n            do.that()\n        elif that:\n              do.other()\n\nBut as you can see once we get much more we have made something terrible looking, \u2018nested\u2019 deeply. \n\nChaining elif if won\u2019t check anything past the first one that passes, while chaining if, will check everything individually. They fundamentally do different things.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "GirthQuake5040",
+            "body": "odd one out here i guess, try match case\n\n    for val in calculations:\n      match (val):\n        case <val1>:\n          <do the thing>\n        case <val2>:\n          <do a different thing>\n        ...\n        case _:\n          <default action>",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "carcigenicate",
+                    "body": "Although, for reference, this is basically like a chain of `elifs`. It's just slightly nicer to look at in some cases.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "GirthQuake5040",
+                            "body": "Yep, much more readable though. I prefer to go the route of readable.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "JamzTyson",
+                    "body": "`match / case` is for **structural pattern matching**, not a substitute for `IF/THEN/ELSE`. Your example will work if `<val1>` / `<val2>` are literals, but will fail if they are variables.\n\nTo make it work where <val1> / <val2> are variables you would need to use guard clauses, for example:\n\n    match some_value:\n        case _ if some_value == val1:\n            print(\"Matched val1\")\n        case _ if some_value == val2:\n            print(\"Matched val2\")\n        case _:\n            print(\"No match\")\n\n\nthough it is more straightforward to write:\n\n    if some_value == val1:\n        print(\"Matched val1\")\n    elif some_value == val2:\n        print(\"Matched val2\")\n    else:\n        print(\"No match\")",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "GirthQuake5040",
+                            "body": "You can match with variables. Sure it's for structural pattern matching, and I'm also assuming he doesn't need to check if val1 is greater than val2, didn't consider it tbh, but sure it can be checked in the match case as well. Bit ugly to do it that was though.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "jpgoldberg",
+                            "body": "True, but your conditions are combinations of condictions you can do things like\n\n```python\nmatch(some_boolean_expression, another_boolean_expressions):\n    case (True, True): ...\n    case (True, False): ...\n    case (False, True): ...\n    case (_, _): ...\n```\n\nof course you can do\n\n```python\ncond1 = ... # some boolean expression\ncond2 = ... # another boolean expression\nif cond1 and cond2:\n   ...\nelif cond1 and not cond2:\n   ...\nelif not cond1 and cond2:\n   ...\nelse:\n   ...\n```\n\nIn that simple case it doesn't really matter, though even there the `match` construction is going to make it harder for you to omit a combination that needs testing. But in more complicated cases (such as when the match tuple contains things other than booleans, or when you need additional `if` guards on cases, the match structure really will help prevent errors and better communicate the logic of what should happend under which conditions.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "commy2",
+            "body": "The expression after elif is only evaluated if the preceeding (el)if expression was falsy.\n\nWith a sequence of if statements it depends. Are they nested or on the same level? If they are at the same level, every one of them will be checked, unless of course there are other control statements inside those if suits like `return` or `break`.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "MustaKotka",
+                    "body": "Same level, I break execution if a single check (if/elif statement) fails and move on to the next one. Based on your answer and the others' answers it makes no difference in my case; see my example code edit in the original post!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Mellowindiffere",
+            "body": "If elif elif allows you to stop immediately if the condition is true at an early stage. It does not evaluate all if clauses.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Some-Passenger4219",
+            "body": "I'm a bit of an idiot, sorry. What is meant by \"computationally expensive\"?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "schoolmonky",
+                    "body": "It means it takes a long time for the computer to compute the condition.",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "carcigenicate",
+                    "body": "Something that requires a lot of processor time to compute. \"Expensive\" in this context typically means \"requires a lot of resources\".",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "sinceJune4",
+            "body": "is the computationally expensive calculation the same in each if/elif, but just checking for different values?  \nIf so, either calculate it before the first if, or use the walrus := to capture it so you don't have to do it again:\n\n    if (calc_res := 1 + 2 + 3) == 7:\n    \u00a0 \u00a0 print('it was 7')\n    elif calc_res == 5:\n    \u00a0 \u00a0 print('it was 5')\n    else:\n    \u00a0 \u00a0 print(f'it was {calc_res}')",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "MustaKotka",
+                    "body": "What is this walrus? Hadn't seen that before! (No worries, I can Google this one unless you want to give me an ELI5-in-a-nutshell rundown...)",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "thuiop1",
+                            "body": "It is the operator `:=`. What it does is that the expression `(x := 3)` equals to 3, so in effect you can set x AND use its value in the same expression. Many people don't really like it, but it is fine if you do not abuse it.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "MustaKotka",
+                                    "body": "Cool! I shall investigate what cool stuff I can and subsequently should do with it. Thanks!",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "sinceJune4",
+                                            "body": "I think walrus was added in Python 3.8.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "sinceJune4",
+                                                    "body": "Named because it kinda looks like a walrus!",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Decent_Repair_8338",
+            "body": "If (the irony) you are within a function that returns a value, you can use if - if. If (the irony again) the condition does not break the path, i.e. it will flow to another condition that will ALWAYS be false, you should either use a switch or elif. If - if is best use when you might hit multiple conditions that might add value to a result, although you would be better using \"and\" within the if condition, unless there are multiple pairs with one side of the and leading to a specific logic irrelevant of the other side.\n\n\n\nExample, menu options would best use switch or elif.\n\n\nEdit: Also, to improve performance, always put the leading conditions as the ones which have the highest probabbility of being true.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "MustaKotka",
+                    "body": "Thank you. This makes total sense - my code does indeed break execution if a single one of those conditions fail. So... In my very particular case it makes no difference. (See my edit in the original post for reference!)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "TabsBelow",
+            "body": "Depends if the other ifs exclude each other or define the cases further in detail.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "NaCl-more",
+            "body": "In your case they are identical.\u00a0\n\nHowever, I would probably prefer the first because it makes it easier to read IMO, and makes adding new conditions take a few fewer keystrokes\u00a0\n\nIt\u2019s called the early guarded return pattern (or something similar)\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "supercoach",
+            "body": "You may as well chain them together with `or`. Put the most common one first to save a little CPU and you're done. \n\n    if not (a or b or c):\n        code goes here",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ausmomo",
+            "body": "Are you SURE the conditions are expensive to evaluate? Quite often I will favour readability and maintainability over performance, because the performance hits are trivial.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "eavanvalkenburg",
+            "body": "To throw in my 2cts, I always prefer to put this in a separate function and then do if return, if return, in my mind that makes the code easier to understand no matter, you can then also do things like @lru_cache if possible! The order for ifs, indeed a mix of expense and likelihood as other people have noted",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "FrangoST",
+            "body": "one variable can conform to True in multiple if statements, so these two are not the same and it depends on your intended behavior...\n\nexample:\n\n```\nx = int\n\nif x > 8:\n    print(\"It is bigger than 8\")\nif x > 6:\n    print(\"It is bigger than 6\")\nif x > 4:\n    print(\"It is bigger than 4\")\n```\n\nif x = 10, this will result in:\n```\n> It is bigger than 8\n> It is bigger than 6\n> It is bigger than 4\n```\n\nnow, if you code it like this:\n\n```\nx = int\n\nif x > 8:\n    print(\"It is bigger than 8\")\nelif x > 6:\n    print(\"It is bigger than 6\")\nelif x > 4:\n    print(\"It is bigger than 4\")\n```\n\nif x = 10 it will result in:\n\n```\nIt is bigger than 8\n```\n\nAnd if x = 7 it will result in:\n\n```\nIt is bigger than 6\n```\n\nSo check if your outcomes should be mutually exclusive or not.",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}

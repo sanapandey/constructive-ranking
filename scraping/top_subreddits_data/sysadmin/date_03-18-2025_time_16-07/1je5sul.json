@@ -1,0 +1,303 @@
+{
+    "title": "best \"task tracker\"",
+    "author": "worthlessgarby",
+    "subreddit": "sysadmin",
+    "rank": 13,
+    "score": 11,
+    "upvote_ratio": 0.83,
+    "num_comments (reported by reddit)": 47,
+    "url": "https://www.reddit.com/r/sysadmin/comments/1je5sul/best_task_tracker/",
+    "id": "1je5sul",
+    "selftext": "I'm constantly given tiny tasks like \"start a trial of x product\".  \"spin up vm x\", \"reply to email chain y with explanation\", \"fix problem c for sales\".  \n\nI've been very lazy about organizing them and just literally open a notepad and put them in line by line and then remove as I do them, lol.  We have plenty of fancy paid products for all kinds of purposes, but I've not bothered with organizing my own stuff.  \n\nI have Outlook with it's to do list, onenote, etc.  Is there something better than these or something you do to keep little tasks all day straight and check off etc?",
+    "comments": [
+        {
+            "author": "_Blank-IT",
+            "body": "Microsoft to-do/planner is pretty good gives me notifs too.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "mini4x",
+                    "body": "Which will also show you things you flagged in Outlook too.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "tvveeder84",
+                    "body": "This is exactly what I was going to say. To-do is a game changer for items that aren\u2019t tracked by projects and don\u2019t fall under incidents in your service management tool.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "HairyMechanic",
+            "body": "I might be going against the grain, and certaintly didn't used to do this, but I put all of these things into our ticketing system. I want to evidence what's going on if anyone were to ever challenge what I do. It's also easy to manage within workloads - all of my work is in one place.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Happy_Kale888",
+                    "body": "I would agree with this always nice to have 1 central spot to go to look for this stuff. But I have a smaller environment I can see orgs that have many tickets this would get lost...",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "RCTID1975",
+                            "body": "A great way around this is to have a \"personal tasks\" category/ticket type.\n\nRestrict it so people can only view the ones they're assigned to, and auto assign them to the creator. \n\nThis allows everyone to keep their tasks in one single location, and makes it easy for managers to review, prioritize, and assist if necessary.\n\nIt can also help facilitate communication and team work.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "HairyMechanic",
+                            "body": "If they expanded it out to an internal ticket type or category and were comfortable flicking between two different queues then even then it might be possible to avoid that.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Mr_ToDo",
+                    "body": "I would agree with that, our system even has task and project classes.\n\nBut management hates seeing open tickets. Wild really, considering that what got it put in place way back exactly because tasks were falling between the cracks",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "kg7qin",
+                    "body": "2nd for using the ticketing system.  A good one will let you link things the tasks and any tickets you generate or change requests (if you have a formal system and the software supports it).  Makes it easier for layer reference and/or documentation and auditing.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Hotshot55",
+            "body": "A notepad and a pen.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "loveandbs",
+                    "body": "Seriously. I have tried a lot of technology items and yet my trusted pen and notepad is where it is at. I do sometimes scan my notes into OneNote though.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Lonecoon",
+                    "body": "Gridded notepad and pen. You can make a task, then the next level is indented one square with the subtasks. Fill in the squares off as you complete them, until all the sub tasks are done, then you fill in the square next to the task to show completion. Keeps your tasks and subtasks visible, gives you visual conformation things are done, and allows you to nest tasks.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Sunsparc",
+            "body": "I use Trello. I have a Today, Tomorrow, This Week, and Next week column in my board. Each task gets a card and all information for the task goes into it. Due date, checklist, info about the task or info I need to use to complete the task. I have automation set up so that every day at 5pm, anything in the Tomorrow column gets moved to Today so that I can re-prioritize daily. At 5pm on Friday, This Week and Next Week get moved into Today so that I can re-prioritize on Monday morning.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "steveatari",
+                    "body": "I like this. What automation does it for you? Script or something within trello?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Sunsparc",
+                            "body": "Built-in Automation rule.\n\n>every friday at 5:30 pm, move all the cards in list \"This Week\" to list \"Today\"\n\n>every day at 5:30 pm, move all the cards in list \"Tomorrow\" to list \"Today\"\n\n>every friday at 5:30 pm, move all the cards in list \"Next Week\" to list \"Today\"\n\n>every friday at 5:30 pm, move all the cards in list \"Tomorrow\" to list \"Today\"",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Party_Worldliness415",
+                    "body": "The automation assumes that you were able to achieve everything that you had under each bucket though.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Sunsparc",
+                            "body": "It assumes I *didn't* achieve anything on those tasks and puts them back into Today so that I can re-prioritize. Maybe that Tomorrow needs to be a Next Week instead.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "No_Vermicelli4753",
+            "body": "I did the same. Then went to a startup with a real scrum culture. Hated it at first; creating tickets for things felt like I could have already solved it by the time everything was written down. Planning epics, jotting down the to dos, dependencies, all that stuff.\n\nTurns out doing all that stuff (to a degree) helped me a lot. I could keep track of my work, get a good feeling closing stuff, be transparent with how I use my time, and also show the 'very important people' why their issue was not that high on my list; I'd simply tell them: check my board and tell me that your task is more important than what's on there.\n\nI've left that startup, but I still like how it changed the way I organise my work. I even set up Vikunja at home for recurring stuff I need to so.\n\nSo; Jira, Vikunja, there are some good scrum tools out there. It's mosly about how you use them though.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "cammontenger",
+            "body": "Teamwork is pretty dope",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Tap-Dat-Ash",
+            "body": "Microsoft Planner may work for you.\nCan add and cross off tasks easily, set due dates, etc.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "junkie-xl",
+            "body": "While planner/todo are the usual goto's these days and I use these on a team level, for personal task tracking I prefer OneNote.  It has a robust tagging/Todo engine, the ability to turn items into calendar reminders and hyperlink to a another note page where I can take notes, make tables add images straight from my phone etc.   So whether I'm working on an issue at my desk, the data center or onsite at a conference I can quickly access and update tasks.\n\nI often remember to add tasks when away from a computer so the mobile app is handy to add to my task list so ideas stop rattling around in my head.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BuffaloRedshark",
+            "body": "I like the portable version of Task Coach",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "worthlessgarby",
+            "body": "Thanks all for the suggestions!  Will look in to these.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ZAFJB",
+            "body": "* Ticket in ticketing system\n\n* Kanboard",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MrHaxx1",
+            "body": "I've created my own system in Notepad++. It has comments, formatting, time stamps, shortcuts for moving finished tasks to the bottom, links to related notes and everything.\n\n\nIt's lightweight, easy and transferable.\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "wasdthemighty",
+            "body": "I use both to-do and tick tick",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Suaveman01",
+            "body": "Microsoft To Do is great, even shows emails you\u2019ve flagged in Outlook",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "98723589734239857",
+            "body": "microsoft's To-Do app, find it in the store",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "shmightworks",
+            "body": "I use this sticky note program:\n\n[https://www.zhornsoftware.co.uk/stickies/index.html](https://www.zhornsoftware.co.uk/stickies/index.html)\n\nYou can add checkboxes in the stickies.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Xambassadors",
+            "body": "For me, notepad++ lmao",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DeifniteProfessional",
+            "body": "I have a big list of \"things on my radar\" in MS Loop",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "StyxCoverBnd",
+            "body": "I was using Microsoft To-Do, now I use Microsoft Loop with a Task List. In the lists you can assign people to the tasks, set a due date and you get notifications on it. Loop is really nice, if you can also run projects from it with the Kanboards it has",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Clcsed",
+            "body": "Asana because drag/reorder.\n\nI don't know why no other task tracker has that style UX/ interface. It is the easiest way to prioritize and assign 100 open tickets.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "steveatari",
+            "body": "The best system is the one you use. I'm terrible about this also. We're using Gsuite/Google Workspace and the \"to-do\" list via Gmail is often what i use. You can create different lists, check off and they clear out visually. \n\nIf you set up via a form/ticket system or anything that can pull from your emails automatically, you can work from those lists directly.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Chanw11",
+            "body": "Onenote with tasks tagged as \"to-do\" so you get a check box.\nPut those tasks in a table to whatever you like.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "s_schadenfreude",
+            "body": "MS Planner works pretty well for me. I'm already in teams all day, so...",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "thebetterbeanbureau",
+            "body": "I use SimpleNote. It's simple and syncs to all my devices quickly.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "HistoricalSession947",
+            "body": "Monday.com\n\nAsana \n\nAre two great paid for ones",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DariusWolfe",
+            "body": "For simple to-do lists on a personal level I like Google Keep's checklists.\n\n\nFor something more complex, products like Trello or Planner are really good for that, with different buckets you can use to organize tasks. You can assign buckets to people, stages or statuses, whatever works best for what you've got going on.\n\n\nI also use a variation on the Zero Inbox concept. Nothing stays in my Inbox unless it's unread or I put a follow-up flag on it. Everything else is moved to a categorized folder, a general \"read items\" folder or deleted.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "singulara",
+            "body": "Vikunja perfect self hosted option.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "gsatmobile",
+            "body": "Trello\nOr\nAtlassian Plans and Goals\nOr\nMicrosoft To do planner\n\nDepends on the existing subscription you have and how much you are willing to spend on tool both time and money to set it up right",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TouchComfortable8106",
+            "body": "Planner in Microsoft is fine for small scale individual or small team stuff, and it links up with To Do which will show you Planner tasks plus flagged emails\n\nhttps://planner.cloud.microsoft/\nhttps://to-do.office.com/tasks/",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "EchoPhi",
+            "body": "Planner/To-Do since you seem like you are already on Microsoft.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "PaidByMicrosoft",
+            "body": "I use the dev kanban board in azure",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "giovannimyles",
+            "body": "I have the same issue. The fancy app sprawl makes it a hassle to log into them and use them. I just use what I\u2019m in all day which is mostly Notepad++ or email. I have a recurring meeting request where I add my tasks so that it reminds me daily so I don\u2019t forget.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "nowildstuff_192",
+            "body": "I use monday.com. I have the paid tier because I've rigged it up to be our ticketing system and a bunch of other stuff, but the free tier works fine as a task list.\n\nI've seen OpenProject as a FOSS alternative if you want to go that route.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Refresh98370",
+            "body": "I wrote my own, and track everything in 15 minute increments.  I've been using it since 2011, across four companies, and my own projects.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

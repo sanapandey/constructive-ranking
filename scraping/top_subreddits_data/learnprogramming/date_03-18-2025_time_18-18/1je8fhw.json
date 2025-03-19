@@ -1,0 +1,33 @@
+{
+    "title": "FLEX vs GRID",
+    "author": "Southern_Dust_4695",
+    "subreddit": "learnprogramming",
+    "rank": 16,
+    "score": 3,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 3,
+    "url": "https://www.reddit.com/r/learnprogramming/comments/1je8fhw/flex_vs_grid/",
+    "id": "1je8fhw",
+    "selftext": "ok so im still relatively new to the programming world. and i know html and css arent really high ranked in the programming community but im curious what everyones opinion is on flex display vs grid display. ive done a good bit of both. whats everyone's go to and why?",
+    "comments": [
+        {
+            "author": "Benand2",
+            "body": "I use flex for one direction and grid for two directions.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "boomer1204",
+            "body": "This is a great quick video on what the 2 do well [https://www.youtube.com/watch?v=vO-1eseQ-kc](https://www.youtube.com/watch?v=vO-1eseQ-kc)",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Southern_Dust_4695",
+                    "body": "Great video. Thank u.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

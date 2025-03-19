@@ -1,0 +1,1072 @@
+{
+    "title": "Updated patent shows Nintendo Switch 2 could be using upscaling technology",
+    "author": "KelvinBelmont",
+    "subreddit": "GamingLeaksAndRumours",
+    "rank": 12,
+    "score": 577,
+    "upvote_ratio": 0.91,
+    "num_comments (reported by reddit)": 167,
+    "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1jcrmxe/updated_patent_shows_nintendo_switch_2_could_be/",
+    "id": "1jcrmxe",
+    "selftext": "https://xcancel.com/MikeOdysseyYT/status/1901107300581937596#m",
+    "comments": [
+        {
+            "author": "blackthorn_orion",
+            "body": "Not really surprising. It's Nvidia tech, so almost certainly they'll be using some form of DLSS. Monolith also has their own upscaler they used in Xenoblade 3, and certain EPD titles have dabbled in using FSR\n\nThere really wasn't any scenario where Nintendo wasn't going to use upscaling on Switch 2",
+            "score": 444,
+            "replies": [
+                {
+                    "author": "sil3nt_gam3r",
+                    "body": "didn't Tears of the Kingdom use FSR?",
+                    "score": 79,
+                    "replies": [
+                        {
+                            "author": "blackthorn_orion",
+                            "body": "that's one of them, yeah. IIRC TotK, Splatoon 3, and Switch Sports all used some form of FSR",
+                            "score": 75,
+                            "replies": []
+                        },
+                        {
+                            "author": "ScrungulusBungulus",
+                            "body": "Yeah FSR 1.0 like most of them. It's a much different upscaling method than FSR 2.0 and up or DLSS",
+                            "score": 37,
+                            "replies": [
+                                {
+                                    "author": "sxh967",
+                                    "body": "Would be insane if Switch 2 uses DLSS4, given the image seems to be fantastic with the transformer model.",
+                                    "score": 21,
+                                    "replies": [
+                                        {
+                                            "author": "ScrungulusBungulus",
+                                            "body": "The transformer model is very costly, even on the latest high end cards. But you never know",
+                                            "score": 23,
+                                            "replies": [
+                                                {
+                                                    "author": "Plenty-Ad-2566",
+                                                    "body": "I notice maybe 10-15 fps difference, although I guess that is huge for a console. The nice thing, is you can switch to performance and it looks like quality or balanced.",
+                                                    "score": 6,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "RealisLit",
+                                                    "body": "The tradeoff with image quality and stabilization makes it worth it tho",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "work-school-account",
+                                                            "body": "IIRC the cost of the Transformer model, at least with last gen and older GPUs, is that you get similar FPS as the CNN model one setting higher. So DLSS Transformer Balanced and DLSS CNN Quality get similar FPS, for example.",
+                                                            "score": 4,
+                                                            "replies": []
+                                                        },
+                                                        {
+                                                            "author": "Mukigachar",
+                                                            "body": "I'd be more worried about whether a mobile chip will have the VRAM and oomph needed for the latest beefiest model. Idk if these specs exist yet for Switch 2",
+                                                            "score": 2,
+                                                            "replies": []
+                                                        },
+                                                        {
+                                                            "author": "Travis_TheTravMan",
+                                                            "body": " Not if that trade off is 30fps instead of 60...",
+                                                            "score": -2,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "RealisLit",
+                                                                    "body": "It doesn't cut the performance in half compared to dlss3, it is still better performance than native, if they can't reach 60 they can go lower preset and it equal out and still have a more stable image. If they need ultra performance to reach 60 the game would be better of locked at 30, upscaling or not",
+                                                                    "score": 4,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "joe1up",
+                    "body": "wait you're telling me monolith built a software based upscaler from scratch? Whilst developing XC3? god what can't they do?",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "RJE808",
+                    "body": "I'd assume it'll be sort of their own version, kind of like Sony with PSSR?",
+                    "score": 9,
+                    "replies": [
+                        {
+                            "author": "Eruannster",
+                            "body": "Well, Switch 2 is using an Nvidia SoC so it's not completely unlikely that it's based on DLSS.\n\n\nPSSR was made from scratch by Sony (and then later AMD) as they didn't have a starting technology to go from.",
+                            "score": 10,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Declan_McManus",
+            "body": "It\u2019s got a diagram where the arrow in says \u201c540p image\u201d and the arrow out says \u201c1080p\u201d image. \n\nWe\u2019re in the endgame now",
+            "score": 344,
+            "replies": [
+                {
+                    "author": "infamousglizzyhands",
+                    "body": "Finally developers have learned to go from resolution == 540 to resolution == 1080",
+                    "score": 108,
+                    "replies": [
+                        {
+                            "author": "OperativePiGuy",
+                            "body": "Developers love this ONE simple trick!",
+                            "score": 8,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Chuckles795",
+                    "body": "Damn, that means Xenoblade 2 can finally be upscaled from 360p to 840p!",
+                    "score": 133,
+                    "replies": []
+                },
+                {
+                    "author": "yesitsmework",
+                    "body": "Isn't upscaling from a low resolution notoriously terrible?",
+                    "score": 47,
+                    "replies": [
+                        {
+                            "author": "KMoosetoe",
+                            "body": "It'll look terrible on your TV.\n\nIn handheld mode I don't it'll be that bad.",
+                            "score": 91,
+                            "replies": []
+                        },
+                        {
+                            "author": "Ok-Confusion-202",
+                            "body": "... Yes... Now idk how recent DLSS/FSR4 improvements help that, but yes it usually looks pretty cheeks.",
+                            "score": 35,
+                            "replies": [
+                                {
+                                    "author": "Kimbita09",
+                                    "body": "DLSS 4 performance mode looks almost native at 1080p, I test it and is really impressive\u00a0",
+                                    "score": 42,
+                                    "replies": [
+                                        {
+                                            "author": "KonradGM",
+                                            "body": "People said the same about DLSS 3, hell they said it looked better than native.\n\nIt all depends on game TAA implementation. Generally spekaing FSR with DLSS input is sharper than DLSS, it had more stability problems though.",
+                                            "score": 12,
+                                            "replies": [
+                                                {
+                                                    "author": "Shootzilla",
+                                                    "body": "The transformer model is legitimately a game changer. So much better than DLSS 3. Especially in motion. The transformer model looks better in performance mode than DLSS 3.5 did in quality mode. It's nuts.",
+                                                    "score": 20,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Fogforevery",
+                                                            "body": "Yes this ! I hope they use it even if they still consider it in beta. But knowing Nintendo theyll go with DLSS 1",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        },
+                                                        {
+                                                            "author": "GooberActual",
+                                                            "body": "no it really just looks the same",
+                                                            "score": -10,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Shootzilla",
+                                                                    "body": "That's just untrue. Hardware Unboxed went into great detail about it.\n\nhttps://youtu.be/I4Q87HB6t7Y?si=8QKqCrHI-GD5h4SO",
+                                                                    "score": 12,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "GooberActual",
+                                                                            "body": "that's cool, im not watching a video about something you couldnt even be bothered to explain to me, though. \n\nalso, ive used both and they both look like shit :)",
+                                                                            "score": -21,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "Shootzilla",
+                                                                                    "body": "K",
+                                                                                    "score": 12,
+                                                                                    "replies": []
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "ConflictPotential204",
+                                            "body": "What did you test? I thought DLSS4 was the new multi-frame generation tech, not a new upscaling method.",
+                                            "score": -1,
+                                            "replies": [
+                                                {
+                                                    "author": "pizzaman5555",
+                                                    "body": "Theirs a new upscaling method for DLSS 4 as well and you can change it to make it based on the transformer model (harder to run by little bit but almost native quwlity), and cnn model which is what the old dlss\u2019s used.",
+                                                    "score": 10,
+                                                    "replies": [
+                                                        {
+                                                            "author": "ConflictPotential204",
+                                                            "body": "I'm asking what game you tested, though? Does this need to be patched in to any given game or is it a driver setting?",
+                                                            "score": 0,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "pizzaman5555",
+                                                                    "body": "Some games(literally like 2 or 3 games) like cyberpunk already have it implemented with the new super resolution, but you can brute force it in every game with the transformer model from the nvidia app(you can change a lot of games on this with DLSS sr override now it\u2019s a new feature). And if you want to change it for every game use DLSS swapper and nvidia profile inspector. DLSS swapper swaps the DLSS to the whatever iteration you want it. Profile inspector can change the preset of DLSS Nvidia has made, so for example profile j and k have the transformer model while the rest I believe have the cnn model.",
+                                                                    "score": 6,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "ConflictPotential204",
+                                                                            "body": "Huh intersting. I'll check it out. Are there any videos demonstrating the quality/performance differences between this and previous DLSS models?",
+                                                                            "score": 0,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "pizzaman5555",
+                                                                                    "body": "There should be videos, but this new transformer model of DLSS is absolutely a gem. It\u2019s so good especially on games like rdr2. \nhttps://youtu.be/3K0-c3ZDiO4?si=nwLH1VL296sF7pYQ\n\n[DLAA TEST CYBERPUNK](https://youtu.be/K9atevlhH-Y?si=uLzHTHlvHLSLhsYe)\n\n[KCD2 test](https://youtu.be/KBQNeha8CVE?si=EDP2KY8lY6GE3h26)\n\n[rdr2](https://youtu.be/UkpdYq6K9a8?si=VmFInXm-m9UoSB-P)",
+                                                                                    "score": 5,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "Shootzilla",
+                                                                                            "body": "It's awesome with RDR 2. That was stuck with DLSS 2.1 beforehand.",
+                                                                                            "score": 1,
+                                                                                            "replies": [
+                                                                                                {
+                                                                                                    "author": "pizzaman5555",
+                                                                                                    "body": "Yeah which is sad, Fortnite was stuck with DLSS 2.7. The finals which was advertised for DLSS 4 didn\u2019t even have it implemented at the launch of dlss4 I\u2019m unsure if it has it now.",
+                                                                                                    "score": 1,
+                                                                                                    "replies": [
+                                                                                                        {
+                                                                                                            "author": "Maaxxiim",
+                                                                                                            "body": "Nope still on 2.7\nForced it to be on 4 but it's a bit buggy sometimes",
+                                                                                                            "score": 1,
+                                                                                                            "replies": []
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "author": "realmvp77",
+                                                                                    "body": "[this one](https://www.youtube.com/watch?v=I4Q87HB6t7Y) has the best comparisons",
+                                                                                    "score": 1,
+                                                                                    "replies": []
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "Maaxxiim",
+                                            "body": "It looks pretty good\nFps jump is insane and the graphics are fine",
+                                            "score": 0,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "GooberActual",
+                                            "body": "no it doesnt",
+                                            "score": -5,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "frenzyguy",
+                                    "body": "What do you think dlss performance mode is? It looks good on 4k screen, and it looks great on 1080p ones. It is honestly a good compromise for low power device.",
+                                    "score": 7,
+                                    "replies": [
+                                        {
+                                            "author": "Ok-Confusion-202",
+                                            "body": "Maybe it's just me, but upscalers performance modes look absolute cheeks on a 1440p monitor\n\nI would say the lowest I ever go with upscalers (if I have to use them) is quality.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "lemfaoo",
+                                                    "body": "Its just you",
+                                                    "score": 4,
+                                                    "replies": [
+                                                        {
+                                                            "author": "JazzlikeLeave5530",
+                                                            "body": "I feel the same. I have 1440p too and I always play with DLSS on either Balanced or Performance cuz it gives lots of frames with hardly any visible difference to my eyes.",
+                                                            "score": 3,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "a34fsdb",
+                                                                    "body": "What I notice is that balanced or performance give frames without looking much different from native, but quality is actually better looking and noticable.",
+                                                                    "score": 2,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "author": "Ok-Confusion-202",
+                                                            "body": "Maybe, I just don't like using upscalers on PC, but Switch games need them (Pok\u00e9mon games look better at higher resolutions)",
+                                                            "score": 0,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "frenzyguy",
+                                                    "body": "It's  better than no upscaling at all. If you used nvidia dlss it actually looks better most of the time.",
+                                                    "score": -3,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "sturgeon02",
+                                    "body": "It's extremely unlikely that it's going to have upscaling anywhere near as good as DLSS4 or FSR4. Both of those models have a heavy computational cost and use tons of dedicated hardware to get there. Running them on the switch 2 would probably use like 50%+ of your GPU if it's even possible. Instead I'd expect something comparable to maybe FSR3 or DLSS2, which would be perfectly fine for a handheld.",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "lemfaoo",
+                                            "body": "Dlss barely uses 10-20% of the dedicated hardware on the chips..",
+                                            "score": 4,
+                                            "replies": [
+                                                {
+                                                    "author": "sturgeon02",
+                                                    "body": "Yes, on high end discrete GPUs. We're talking about a mobile chipset here. Notice how DLSS4 scales much worse as you go back in generations and have less dedicated AI hardware?",
+                                                    "score": 5,
+                                                    "replies": [
+                                                        {
+                                                            "author": "lemfaoo",
+                                                            "body": "The newest iterations of DLSS3 still looks very very good.",
+                                                            "score": 6,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "sturgeon02",
+                                                                    "body": "Agreed, but I'd still be very surprised if Nintendo managed to squeeze that level of quality out of a $500 handheld with a ~15W TDP. But hey, I'm sure they're working with Nvidia on a custom version of DLSS for the hardware and maybe they will surprise me.",
+                                                                    "score": 3,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "superamigo987",
+                                                                            "body": "The Steam Deck heavily relies on FSR 2/3 upscaling, and it runs perfectly fine despite the similar TDP. DLSS3 actually runs better than FSR3, and who knows what dedicated hardware acceleration they could have implemented in the custom Switch 2 APU",
+                                                                            "score": 6,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "sturgeon02",
+                                                                                    "body": "I mean it's really just dependent on how much of the chip is dedicated to the process, and as far as I know we have no info on the design. DLSS3 is cheaper than FSR3 on a discrete GPU (is that even true for something like an RTX 2060?), but we've never seen it on an APU and don't have much of a frame of reference for how it might run.",
+                                                                                    "score": 2,
+                                                                                    "replies": []
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Jumpster_42",
+                                    "body": "DLSS4 is like the next level. It ups your performance and the fidelity of your game is way better than the result of DLSS3.",
+                                    "score": 0,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Fine-Young8978",
+                            "body": "DLSS3/4 + FSR4 are pretty good now. Not sure specifically any 540p to 1080p though.",
+                            "score": 6,
+                            "replies": []
+                        },
+                        {
+                            "author": "Bhu124",
+                            "body": "It depends. The more photorealistic you go the worse the issues get. Most games on the Switch (Especially most of the Nintendo games) though have more simplistic Art styles/graphics, which won't be so bad. \n\nOn top of that the tech has improved a lot. Converting from 540p to 1080p isn't as bad anymore, issues like Unstable footage and Movement Trails are mostly gone now. The main issue will really be that the image will be pretty Blurry which won't be an issue on a small handheld device......but definitely will be an issue on your TV.\n\nFor most of Nintendo's own games (Maybe not the Zelda and the Pokemon games as those have a lot of Grass), and while playing in Handheld mode, this will likely work perfectly well enough.",
+                            "score": 4,
+                            "replies": []
+                        },
+                        {
+                            "author": "lemfaoo",
+                            "body": "Not with DLSS lol.",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "World-of-8lectricity",
+                            "body": "Not with DLSS 4",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "GooberActual",
+                            "body": "yep!",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "ZXXII",
+                            "body": "Not only a low resolution but also low frame rates on Switch 2 which makes a difference for temporal upscalers.",
+                            "score": 0,
+                            "replies": []
+                        },
+                        {
+                            "author": "mrjasong",
+                            "body": "Take a look at this video. Of course the hardware is better but i think it shows that 1080 dlss. 4 is quite good\n\nhttps://youtu.be/mVyVAhV_YvU?si=Y5ocgdhI5IJBrdiZ",
+                            "score": -6,
+                            "replies": [
+                                {
+                                    "author": "ZXXII",
+                                    "body": "I can tell you for a fact, Switch 2 won\u2019t be using the transformer model of DLSS 4.\n\nThe performance cost is way too big.",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "mrjasong",
+                                            "body": "For a fact? Lmao ok",
+                                            "score": 0,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "yesitsmework",
+                                    "body": "That's the quality setting though, which is 960p as a base iirc. And it already has the distinct vaseline look.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Resident_Bluebird_77",
+                    "body": "That would be revolutionary, pretty much every third party game could run at a decent resolution. Nintendo wouldn't be behind the others anymore ( at least with third party support).",
+                    "score": 11,
+                    "replies": [
+                        {
+                            "author": "shoalhavenheads",
+                            "body": "Upscaling tech is so, so cool. I'm happy Nintendo is using it, because it will generally mean that Nintendo can get all of the latest video games again instead of sad ports.\n\n*Not every game, and some may be sub-30fps, but NS2 will probably have levels of AAA support we haven't seen since GameCube",
+                            "score": 12,
+                            "replies": [
+                                {
+                                    "author": "FierceDeityKong",
+                                    "body": "NS1 games already used low resolution without upscaling because it was acceptable for a handheld, adding DLSS doesn't make it any faster, just look more respectable",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "Dramatic_Mastodon_93",
+                                            "body": "It does make it faster if you compare it to using the same resolution, but native",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "MrMojoRising422",
+                            "body": "how would this be 'revolutionary' if this is tech that has been mainstream in the PC for at least half a decade and even the consoles have it, with the ps5 and xbox series x having FSR and the PS5 Pro having PSSR?",
+                            "score": -2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Kamui_Kun",
+                    "body": "Yikes, that's sad",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "KearLoL",
+            "body": "Nintendo Switch 2 will have Mario Kart",
+            "score": 161,
+            "replies": [
+                {
+                    "author": "Hydrak11",
+                    "body": "Big if true.",
+                    "score": 31,
+                    "replies": [
+                        {
+                            "author": "1AnotherUser_",
+                            "body": "Mario if Nintendo",
+                            "score": 7,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "DennisBaldur",
+                    "body": "Nuh uh bro. Like how do you know?",
+                    "score": 12,
+                    "replies": [
+                        {
+                            "author": "KearLoL",
+                            "body": "My grandfather is Miyamoto. He told me.",
+                            "score": 20,
+                            "replies": [
+                                {
+                                    "author": "DavyDfrmLV",
+                                    "body": "That makes you my uncle who works at Nintendo",
+                                    "score": 4,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "chinchindayo",
+                    "body": "Noooo that's sexist, it has to be called Princess Peach Kart. /s",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "weallfloatdownhere7",
+            "body": "This has been rumored for quite a while hasn\u2019t it?",
+            "score": 30,
+            "replies": [
+                {
+                    "author": "PleaseProvideSupport",
+                    "body": "Literally, why is this even posted. Everyone knows this since ages ago",
+                    "score": 20,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "CarbVan",
+            "body": "This is just an update of legal stuff for a patent from 2020. It's old news and doesn't really mean anything in terms of DLSS support for the Switch 2. For all we know it could be referring to tech used to AI upscale textures in Mario 3D All-stars and later Pikmin 1+2.",
+            "score": 24,
+            "replies": []
+        },
+        {
+            "author": "2Dement3D",
+            "body": "Thought we knew about this since Nintendo were demoing games with DLSS on the Switch 2 at Gamescom 2023.",
+            "score": 50,
+            "replies": [
+                {
+                    "author": "letsgucker555",
+                    "body": "Is that on 100% confirmed to have happened? Since when?",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "2Dement3D",
+                            "body": "At the time, VGC and Eurogamer both reported from their own individual sources that Nintendo were demoing games at Gamescom 2023 behind closed doors, with the former saying they were using DLSS. [Here's an article about it from PCGamer](https://www.pcgamer.com/nintendo-switch-2-reportedly-uses-nvidias-dlss-to-boost-frame-rates/). \n\nObviously, this story is not something Nintendo would have confirmed themselves long before the Switch 2 was even announced, so your question of \"is it 100% confirmed to have happened?\" can't really be answered. I would say it's definitely more trustworthy than not when this info comes from gaming journalists with actual sources and their credibility on the line, rather than random internet leakers.",
+                            "score": 20,
+                            "replies": [
+                                {
+                                    "author": "chinchindayo",
+                                    "body": "That doesn't mean it was on switch 2.",
+                                    "score": -6,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "letsgucker555",
+                                    "body": "For me, most gaming journalist have barely more credibility than any leaker on the internet.",
+                                    "score": -13,
+                                    "replies": [
+                                        {
+                                            "author": "2Dement3D",
+                                            "body": "For what it's worth, the VGC article mentioning DLSS was done by Andy Robinson, who is currently voted Tier 2 (Generally Reliable) on this sub.",
+                                            "score": 11,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "sesor33",
+                                            "body": "Gamergaters in 2025 lol",
+                                            "score": 8,
+                                            "replies": [
+                                                {
+                                                    "author": "letsgucker555",
+                                                    "body": "I didn't mean this in a gamergate way, but more in the clickbait, SE-optimized titels way. Like the news about the SNES overclocking itself, even though it is just the soundchip and has no impact on the games. Or PC Gamer complaining about the Switch 2 trailer not showing them new stuff they didn't know, even if they were also a side covering all these leaks.",
+                                                    "score": -6,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "Avividrose",
+                                            "body": "i think thats based in gamergate more than reality",
+                                            "score": 12,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Ordinary_Duder",
+                                            "body": "What a dumb comment lol. Eurogamer literally broke the news on the OG Switch before anyone else.",
+                                            "score": 4,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "chinchindayo",
+                    "body": "huh? Switch 2 was never demoed",
+                    "score": -3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "iowadae",
+            "body": "No way",
+            "score": 25,
+            "replies": []
+        },
+        {
+            "author": "Taymatosama",
+            "body": "Fork is found in kitchen!\n\n  \nBut really, I hope this upscaler is based around DLSS4's Transformer model, which improves image quality considerably at a relative low performance cost imo.\n\n  \nOn the flipside, I DEARLY HOPE they don't implement any frame generation technology. I would prefer my games to not feel nausea inducing, thanks.",
+            "score": 29,
+            "replies": [
+                {
+                    "author": "ShadowRomeo",
+                    "body": "DLSS 4 is very heavy and requires higher AI Tops to run so, it probably will run the CNN version of DLSS only with Nintendo's own form of Upscaler similar to the likes of PS5 Pro's PSSR being CNN only and FSR 4 being hybrid of CNN and Transformer.",
+                    "score": 24,
+                    "replies": [
+                        {
+                            "author": "FierceDeityKong",
+                            "body": "Maybe on their next console, it can upgrade automatically like DirectSR?",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Ok-Confusion-202",
+                    "body": "Isn't the transformer model harder to run? And would in turn make the device Itself more expensive?\n\nI feel like Nintendo will go with the DLSS CNN model (or their own CNN model)",
+                    "score": 10,
+                    "replies": [
+                        {
+                            "author": "Slabbed1738",
+                            "body": "All rtx cards can do dlss4, so the switch2 should be able to as well. It is a slight performance hit compared to dlss3, but might be necessary at the low resolutions they will be working with\u00a0",
+                            "score": 7,
+                            "replies": [
+                                {
+                                    "author": "ShadowRomeo",
+                                    "body": "And all of them have performance hit even with their much bigger cuda cores and tensor cores compared to the likes of Switch 2. I think it will even be worse there to the point its not going to be enough to use\n\nWe already had this question even with just CNN version of DLSS with Digital Foundry even making a [video](https://youtu.be/czUipNJ_Qqs?t=13m18s) about it being viable to run. They found that 4K output isnt viable at all.\n\nSo, with all of this I think what likely will happen is Nintendo will develop their own light weight upscaler based from DLSS CNN Model instead of Transformer.",
+                                    "score": 16,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "FierceDeityKong",
+                    "body": "Even if it can't have DLSS FG, the FSR version will work and shitty devs *will* abuse it to get 60 fps even though it's not supposed to be used for that",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "frenzyguy",
+                    "body": "It's  going to be dlss 3.6, it's custom made, so it's possible they made frame generation work retroactively.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Schitzl1996",
+            "body": "I don't know if it is technically possible but it would be so awesome if the Switch 2 would automatically upscale Switch 1 games without the need of an update for the game from the devs\n\nSimilar how the XSX upscales some XB360 games (like FF13) to 4K even though Square Enix never released an actual update for the game. Or like the Dolphin emulator can upscale 480p Wii games to 4k\n\n(I don't expect that to happen though)",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "chris2086",
+            "body": "Nvidia chip does nvidia thing tickle me surprised.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "EpicMarioGamer",
+            "body": "I\u2019m shocked\u2026\nnot",
+            "score": 10,
+            "replies": [
+                {
+                    "author": "TemptedTemplar",
+                    "body": "Well think about it, this is a **Nintendo** patent, this is their own up-scaling tech; not DLSS.\n\nThats *kind of* neat, I guess.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "ManateeofSteel",
+                            "body": "Sony has PSSR, Nintendo will have NSSR",
+                            "score": 10,
+                            "replies": [
+                                {
+                                    "author": "TemptedTemplar",
+                                    "body": "Nintendo is more clever than sony, they'll come up with some silly acronym for it.\n\nMatrix Activated Reorganization ^of Image Output, for example.\n\nOr, Matrix Upscaling System ^for Handling Reorganization Of Output Media",
+                                    "score": 6,
+                                    "replies": [
+                                        {
+                                            "author": "ManateeofSteel",
+                                            "body": "PSSR\n\nSSXR\n\nNSSR",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "TemptedTemplar",
+                                                    "body": "> SSXR\n\nIs it tricky? \n\nIf its not tricky, I don't want it.",
+                                                    "score": 4,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "Luis8ustamante",
+                                            "body": "Like the Sega Blast Processing",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "RooeeZe",
+            "body": "damn so like 100% of the industry",
+            "score": 15,
+            "replies": []
+        },
+        {
+            "author": "frenzyguy",
+            "body": "Nothing new here, everybody, their mom, their grandma, knew about this a long time ago.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "ironypoisoned",
+            "body": "Updated patent shows I might drink a beer here in a sec",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "NC_Pits",
+            "body": "Further analysis shows that Mario will be playable on the Nintendo switch!",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "KAYPENZ",
+            "body": "in other news water is wet.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "daymona",
+            "body": "wow what a huge leak",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "_NKBHD_",
+            "body": "I believe this is a patent that is a continuation from one previously discussed in  January. Also i think it's previous obvious it will use some sort of built-in upscaler at this point",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ZXXII",
+            "body": "Well Switch 1 also \u2018used upscaling technology\u2019.\n\nBut yes obviously Switch 2 will have ML hardware for DLSS and 540p will be a common internal resolution.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "DeMatador",
+            "body": "I feel like the earliest Switch 2 rumors were about this. I'm talking like 2 years ago.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Thombias",
+            "body": "We've known this for literal years.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "chinchindayo",
+            "body": "Old news. this patent was postet over 2 months ago and considering they are using an nvidia apu it's very likely anyway.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ametalshard",
+            "body": "could be? we already know it has an nvidia rtx 30-era gpu... it will have upscaling DLSS yes\n\nwe have known this for like 3 years, the console was finished a long time ago",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "peeweeharmani",
+            "body": "After Tears of the Kingdom released someone made a joke tweet that Nintendo was already planning a second Zelda movie, which will retcon the plot of the first. Mike Odyssey made a video about it and said it makes a lot of sense for Nintendo to do that. \n\nYou couldn\u2019t pay me to listen to anything that guy says lol",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "gaurd_x",
+            "body": "I figured this was gonna be the case but I'm curious to see how this actually works in practice. I know a lot of the 'fake frames' are actually hard to notice on P.C so hopefully it's fairly effective on Switch-2. I don't need super impressive graphic but I want more games running at a locked 60, choppy frame rates annoy me way more than poor graphics",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Endersquid123",
+                    "body": "It really depends on the game. MH:Wilds has frame generation on by default, and it\u2019s really bad with heavy effects on screen. Things like rain and lightning are absolutely horrendous when you actually look at them IMO",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "gaurd_x",
+                            "body": "That's fair, it obviously still has to be visibly legible but I do prefer more frames when it's possible without completely fucking things sideways",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Both_Leading_4578",
+            "body": "Maybe switch one games are all getting upscaled\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Hydroponic_Donut",
+            "body": "This isn't really much news - we knew this about a year ago when the leaks started getting really big",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "wilkened005",
+            "body": "Is this Nintendo version of PSSR",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "GoForGroke",
+            "body": "Yeah, we've known this for like a year\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ok_Finger_3525",
+            "body": "Wow\u2026. So shocking\u2026.. will it have a screen too?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "EvenSpoonier",
+            "body": "The screen will use it if nothing else. Modern displays can't truly change resolution the way CRTs could: everything has to be upscaled to simulate that.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "christiangg911",
+            "body": "So u are saying water is wet",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "empathetical",
+            "body": "probably for upscaling switch 1 games and older",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "catinterpreter",
+            "body": "I wonder if it'll tie into a battery-saving mode.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Decimator1227",
+            "body": "Let\u2019s just hope it doesn\u2019t make the games look like goo like a lot of current gen games do",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "otakuloid01",
+                    "body": "current DLSS is so good it\u2019s actually preferable over TAA on native resolutions",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "MadeByTango",
+                            "body": "I\u2019m convinced you guys don\u2019t even know what you\u2019re comparing and just repeat buzzwords.",
+                            "score": -1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "chinchindayo",
+                    "body": "Only FSR on lowest quality looks like goo. DLSS is fine especially on quality mode",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "cadrega-breakdance",
+                    "body": "I'll be honest, I'd rather play at native 540p rather than smeary AI upscaled 1080p goo...",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Final_Amu0258",
+            "body": "I can't stand upscaling technolloooogggyyyyy",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "xplayfan",
+            "body": "hope better then pssr out the gate.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "ZXXII",
+                    "body": "From 540p and at lower frame rates which produces worse results for temporal upscalers, realistically it can\u2019t do miracles.",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "gamer1what",
+            "body": "![gif](giphy|3osxY9bfFvPrMnwIYo)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Renegade_451",
+            "body": "I'm honestly more curious how all of this will be handled once the console is inevitably cracked and we start seeing emulators.",
+            "score": -2,
+            "replies": [
+                {
+                    "author": "MTH1138",
+                    "body": "I hope this happens soon",
+                    "score": -4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "PineappleMaleficent6",
+            "body": "duh...its a 3tflop at best machine. it must use upsacling.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "YoungstownPizza",
+            "body": " Should rename this sub to \u201cgamingspeculationsndtheories\u201d",
+            "score": -4,
+            "replies": [
+                {
+                    "author": "extralie",
+                    "body": "I mean, this is neither speculation or theories, it's just patent.",
+                    "score": 10,
+                    "replies": [
+                        {
+                            "author": "Ok-Confusion-202",
+                            "body": "And basically a fact before this... Did anyone think there wouldn't be any upscaling tech?",
+                            "score": 7,
+                            "replies": [
+                                {
+                                    "author": "frenzyguy",
+                                    "body": "The bot on X.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Ok-Confusion-202",
+                                            "body": "I'm actually so hyped for the Switch 2, but the amount of basic stuff that people are hyping is crazy, well I wouldn't say this is basic... But stuff like WIFI 6, ethernet port etc is kinda crazy lmao",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "frenzyguy",
+                                                    "body": "Yup, each small thing is hyped for minimal interweb clout. OMG, THE SWITCH 2 HAS PHYSICAL BUTTONS, THIS IS CRAZY!",
+                                                    "score": 0,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Ok-Confusion-202",
+                                                            "body": "The only thing I care about now is the UI, will it just be the Switch UI? (that would be dumb imo)\n\nOr will they actually make a UI that gives you info, also just make a store that doesn't lag...\n\nOh and a store that has a dark mode lmao",
+                                                            "score": 0,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "extralie",
+                                    "body": "I think the noteworthy thing here is that this is a Nintendo upscaling tech specifically not DLSS.",
+                                    "score": 0,
+                                    "replies": [
+                                        {
+                                            "author": "Ok-Confusion-202",
+                                            "body": "I'm actually not surprised by this actually, Nintendo would 100% want an upscaler that they can manipulate and do what they want/need with.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "extralie",
+                                                    "body": "I mean, it's not surprising, everyone expected that, but it's still a new info, so I don't see the harm in this post.",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "GooberActual",
+            "body": "ew",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "betteroff19",
+            "body": "I\u2019m still confused on the new Mario kart kit really looking like a next gen game",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "campeon963",
+            "body": "Breaking News: Nintendo becomes a patent troll and stalls all innovation on AI-based temporal upscaling technology for the next 2 decades. /s",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "HerrGronbar",
+            "body": "540p to 1080p ewww",
+            "score": -2,
+            "replies": []
+        },
+        {
+            "author": "MadeByTango",
+            "body": "I hope not; looks terrible and isn\u2019t why what I high end displays for\n\nIf you\u2019re not going to do true HD, don\u2019t fake it Nintendo.",
+            "score": -2,
+            "replies": []
+        }
+    ]
+}

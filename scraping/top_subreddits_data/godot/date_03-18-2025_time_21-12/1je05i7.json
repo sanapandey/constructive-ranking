@@ -1,0 +1,129 @@
+{
+    "title": "Players were getting lost, so I added some shaft lighting to act as a weenie.",
+    "author": "SDGGame",
+    "subreddit": "godot",
+    "rank": 19,
+    "score": 91,
+    "upvote_ratio": 0.98,
+    "num_comments (reported by reddit)": 18,
+    "url": "https://v.redd.it/zds42d6gpepe1",
+    "id": "1je05i7",
+    "selftext": "I'm using technical level design language and wasn't watching any RCE when I should have been devving :)  \nDo you think the lighting helps? [Check out the demo](https://store.steampowered.com/app/3183420/Terminal_Bore/) and let me know!",
+    "comments": [
+        {
+            "author": "lostminds_sw",
+            "body": "The shaft lighting to help players find their way back up is a great idea. But I think you could double down on it and add a more subtle background \"indirect light\" light gradient as well. To help indicate the direction and distance of the exit even where you're not directly below it. That could also make the level lighting a bit more varied and less flat.",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "SDGGame",
+                    "body": "Ooh, that shouldn't be too hard, I'll add it!  \nI already have the lighting on the player and the dashboard rotate towards center, but it's way too subtle",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "dude24760",
+            "body": "This is amazing, reminds me of the motherload flash game",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "shotsallover",
+                    "body": "Or _Super Motherload_ on PlayStation.\u00a0",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "PermanentNight_",
+                    "body": "Came here to say this!",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "SDGGame",
+                    "body": "I played that one a lot as a kid, I really want to capture the atmosphere. The underground environment should be oppressive imo",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "SDGGame",
+            "body": "Did Reddit just change a setting? I was able to add text to a video, I feel like that wasn't a thing a couple of days ago...",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "QuickSilver010",
+                    "body": "What you're allowed to do sort of depends on the subreddit",
+                    "score": 7,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Crazy-Red-Fox",
+            "body": "Nitpick of someone who had Metallurgy classes:\n\n\"[Martensite](https://en.wikipedia.org/wiki/Martensite)\" \"[Bainite](https://en.wikipedia.org/wiki/Bainite)\" \"[Pearlite](https://en.wikipedia.org/wiki/Pearlite)\" and \"[Austenite](https://en.wikipedia.org/wiki/Austenite)\" are micro-crystalline structures that are formed in certain steel alloys after certain heat treatments.\n\nThey are not ores, if that's what you think they are. Just saying.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "SDGGame",
+                    "body": "You're the first to notice :)  \nI thought it would be funny if your boss pays you different rates for them, but I'll probably add an \"alchemy\" recipe later on that lets you convert between them.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ToxicKoala115",
+            "body": "Yoo I love these types of drilling games for some reason, goes so hard. I\u2019ll def try the demo at some point",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "SDGGame",
+                    "body": "Thanks! Trying to go hard, most of the mining games I've played recently go casual instead",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "DeathRuner",
+            "body": "yooo i loved aqua dig as a kid",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "SDGGame",
+                    "body": "Ooh, I haven't played that one, but I'll add it to my list!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "farber72",
+            "body": "Smart!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Latter_Reflection899",
+            "body": "Love motherlode, I think it has potential to have crafting with ores not just straight up sell and buy upgrades but craft, mix, combine, power up, etc. There is also an option to add enemies but that is a slippery slope to becoming terraria",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "SDGGame",
+                    "body": "Right now, I have a simple crafting system - no currency, just turning ores into better drills, hulls, etc. I am planning on adding a cash component too so you can sell ores to buy advanced blueprints",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ZemTheTem",
+            "body": "This looks exactly like that game with Mr. Natas as the opponent",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

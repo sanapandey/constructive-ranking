@@ -1,0 +1,123 @@
+{
+    "title": "What kind of skills do you think makes a \"Good Programmer\"?",
+    "author": "Jediweirdo",
+    "subreddit": "learnprogramming",
+    "rank": 8,
+    "score": 48,
+    "upvote_ratio": 0.93,
+    "num_comments (reported by reddit)": 18,
+    "url": "https://www.reddit.com/r/learnprogramming/comments/1jdyx4c/what_kind_of_skills_do_you_think_makes_a_good/",
+    "id": "1jdyx4c",
+    "selftext": "I was procrastinating on YouTube earlier today, and my recommended gave me a motivational video called \"[Why Every Dev Has Imposter Syndrome](https://www.youtube.com/watch?v=A3IQj0LCocA).\" It provides some reassurance about how \"every real programmer has imposter syndrome\" and how \"senior devs are just better at googling it without looking like they're googling it.\" But this post isn't about the video-- it's about a comment I found in the replies:\n\n>Every dev doesn't have an imposter syndrome. I don't. I'm feeling pretty good about my knowledge and the skills. And when I was bad, I knew I was bad.\n\n>In my experience, most people actually don't know how to code well, it's not the imposter syndrome. Design patterns, data structures, TDD, DDD, Clean Code, Clean Architecture, SOLID principles, GRASP principles, etc.\n\n>Most people don't know any of this stuff. And to call yourself a good software engineer you at least have to know these things. Like, if you can't implement a doubly linked list or a binary tree in your language with TDD without Internet, I wouldn't say you're a good engineer. That's not the metric for a good engineer either, but if you can't do it, 100% you're not good. Like, this is nothing.\n\n>The point is that when you don't know how to do that, you can't write good clean code in real projects, because you don't know those things: you don't have the tool set or a knowledge base to write  well-engineered code. You've learned basic coding, but that's not good engineering. I can build a castle out of sand, but I wouldn't call myself a good construction engineer. I can build legos, but I don't call myself a good mechanical engineer. That's the same thing here basically.\n\n\n\n>The reason why so many people have dev jobs nowadays is because the demand is so high, people will take anyone able to write any code, doesn't matter if you're any good, as long as you can produce a somewhat working code. Imagine, if that's how they hired construction engineers and built real buildings using this approach.\n\nI'm a coding scrub who's only been programming personal projects on and off for a couple of years, so I already know I'm not all that. However, this comment got me thinking: How big is the skill difference between me and someone who people would consider \"good\"? I know it's a pretty subjective question since \"good\" could be as simple as using git or as complicated as posting a question on StackOverflow with positive upvotes, but I'm still curious where *your* line is drawn for the good and the greats",
+    "comments": [
+        {
+            "author": "_Atomfinger_",
+            "body": "Some people view \"good\" as \"anything better than me\", which will always leave them average or poor by comparison - which is a shame.\n\nTo define good, we must first be able to define a baseline. So, what is the worst we can expect from a professional developer? Anything less than \"produces stuff that works\" is inherently not employable nor usable. Therefore, a bad developer can only produce things that work.\n\nThen, we have to draw a line from \"bad\" to \"good\". IMHO, someone disciplined to author code and has some eye towards longevity is good. A good developer can see beyond their current ticket and the upcoming release and adhere to practices that allow them to continue to be productive beyond those \"milestones\". That means writing automated tests, thinking about structuring their code so it is easy to change and so forth. A good developer will continue to evolve their knowledge and practices to ensure the long-term health of the codebase.\n\nBeing a good developer is less about checking boxes that you're doing X, Y and Z, and more about discipline and continuous growth.\n\nGreat developers take it a step further but have an extra nack for soft skills. Here, I will borrow a term from the American military: Force multiplier. A force multiplier is a person who makes everyone around them more effective by being able to gather the team much more effectively to adopt a culture and practices which ensure the long-term health of the codebase and product.\n\nWe can see \"bad, average, good, great\" as zooming out of scope. Bad is only focused on here and now. Good is focused on quality and code health. Average is someone on the journey from bad to good but still lacking some pieces. Great is concerned with the team, product, and code health. \n\nIt is important to point out that this does not mean that all team leads are great, or that a non-team lead cannot be great. This has nothing to do with roles.\n\nSome might point out that I have ignored pure technical prowess. My response to that is deep technical knowledge is great, but if one cannot produce something usable then it isn't worth that much.",
+            "score": 17,
+            "replies": [
+                {
+                    "author": "Ormek_II",
+                    "body": "I agree: To evaluate the required longevity is required to master building in longevity. It is something like identifying premature optimisation from optimisation or using the right data structure for the job.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "rustyseapants",
+            "body": "The echoes of Coolidge's words ring out,\n\n\"Nothing in the world can take the place of persistence, talent will not, nothing is more common than unsuccessful men with talent, genius will not, unrewarded genius is almost a proverb, education will not, the world is full of educated derelicts. Persistence and determination alone are omnipotent.\"",
+            "score": 13,
+            "replies": []
+        },
+        {
+            "author": "kschang",
+            "body": "IMHO? Curiosity, broad base of understanding, so one can find commonalities (oh, I've done something \"kinda like this\", or \"I think I've heard of that, better make sure...\"), with just enough ADHD to follow through learning about it without going \"that's too hard, I quit\" a few minutes into Googling. \n\nThe reason I say that is this person can learn, and wants to learn. So give him (or her) an assignment (a target), give him some directions and nogo zones (define the box limits and destination) and ask for status updates with some pointers. You may be surprised what he came up with. That, IMHO, could become a good coder, if you can manage his curiosity to learn and limit it so he produces results instead of spending all the time learning/exploring.  (much like a writer spending too much time researching, not writing). \n\nHowever, this has a significant problem: this approach tends to create a generalist, i.e. know a little about a lot, a Jack of all trades, master of none. And modern businesses tend to hire specialists, not generalists. \n\nBut IMHO, you can get a generalist to specialize, by giving him focus. It's a bit harder to make a specialize learn something outside his usual niche, as he doesn't enjoy being a neophyte again.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Wachauski",
+            "body": "To be a good programmer you must be lazy. You\u2019re so lazy, in fact, that you will write code flexible and robust enough the first time so that you won\u2019t spend excessive amounts of time and effort to maintain it. Remember: SW is about mostly maintenance, somewhere above 60% of its longevity.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Material-Emotion1245",
+            "body": "Imo a \u201cgood\u201d software engineer knows how things work underneath. How do you know that? Get more experience, build stuff. But that doesn\u2019t mean we should know how to build everything from scratch. It just means you know the steps it takes to build something. Basically problem solving. And the foundation of problem solving is to understand the problem and then do the research to solve it. Thats it.\n\nEg of implementing a linked list without googling is fine but not really necessary. You just need to understand how it works and why it works and what its supposed to be used for. \n\nConsider this, a good mathematician isnt supposed to know what 3618*164 is without using a calculator, but he will know how to calculate it if required.\n\nDont be like the school teachers who said \u201cyou wont have a calculator in real life\u201d. Well we do now! So use all the means necessary to solve the problem, but understand how it works.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "readproject",
+            "body": "stamina and consciousness\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "algebra_sucks",
+            "body": "Critical thinking, problem solving and being able to translate that into a clean maintainable solution. Add in soft skills for being able to work cooperatively with others and that\u2019s about it.\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Mimikyutwo",
+            "body": "Most senior software engineers don\u2019t just \u201cknow how to google things without making  it look like they\u2019re googling things\u201d.\n\nThey\u2019re the google. They have years of experience building software and have developed an intuition for the domains they work in. \n\nImposter syndrome is real. It\u2019s just become misused. If you doubt you have the skills, knowledge or experience and you actually don\u2019t; that\u2019s NOT imposter syndrome.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "FrequentPaperPilot",
+            "body": "Knowing how to avoid problems instead of solving them lol.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Agitated-Switch-39",
+            "body": "Someone who does leetcode, uses react, loads up as many dependencies as possible, forces the user to download them, then talks about performance.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "iOSCaleb",
+            "body": "**Patience** for both yourself and those around you.\n\n**Determination** to see a problem through to the end.\n\n**Analytical thinking**, because without that you\u2019ll have a hard time getting anything done.\n\n**Attention to detail** because that\u2019s where the devil is.\n\n**Communication** \u2014 many, perhaps most, problems that come up in software development can be traced to some form of communication failure.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "chiggamaxx-galician",
+            "body": "They have a willingness to understand how something works underneath, an eye for performance, and don't rattle of stupid mantras to justify their incompetence.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "Discount2020",
+            "body": "good design and good performance",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "Imaginary_Food_7102",
+            "body": " A good gaming chair and adjustable desk for long hours of working and 0 progress.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "PopovidisNik",
+            "body": "A good programmer will complete the task put in front of them. Worry about optimizing later, most higher ups/users don't care how its done, just make it happen first.",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "p90fans",
+            "body": "Good programmer is who can make MONEY by finding the most lucrative project/company to work on. Dat's da gold standard.",
+            "score": -2,
+            "replies": []
+        }
+    ]
+}

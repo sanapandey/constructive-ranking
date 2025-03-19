@@ -1,0 +1,175 @@
+{
+    "title": "[OC] The Hometown of Every American Player in the 2025 Men's March Madness Tournament by County/Parish",
+    "author": "dvd5671",
+    "subreddit": "dataisbeautiful",
+    "rank": 15,
+    "score": 82,
+    "upvote_ratio": 0.77,
+    "num_comments (reported by reddit)": 27,
+    "url": "https://www.reddit.com/gallery/1jdl0wk",
+    "id": "1jdl0wk",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "Snakefishin",
+            "body": "Second graph is a r/graphcrime",
+            "score": 53,
+            "replies": [
+                {
+                    "author": "dvd5671",
+                    "body": "100%.\nI\u2019ll take a 75% success rate though",
+                    "score": 10,
+                    "replies": [
+                        {
+                            "author": "Mason11987",
+                            "body": "I have no idea what the last image is.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "WalrusExtraordinaire",
+                                    "body": "It\u2019s the state (technically Commonwealth) of Virginia",
+                                    "score": 8,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "KAugsburger",
+                                    "body": "I guess they really like Virginia for some reason.  Honestly, I would have trouble reading the county names for most states east of the Mississippi unless the map is blown up quite a bit.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "lart2150",
+            "body": "gonna leave this here [https://www.xkcd.com/1138/](https://www.xkcd.com/1138/)",
+            "score": 21,
+            "replies": []
+        },
+        {
+            "author": "tylermchenry",
+            "body": "First image is r/peopleliveincities",
+            "score": 29,
+            "replies": [
+                {
+                    "author": "UF0_T0FU",
+                    "body": "Yes, but.\n\n\nIts noteworthy in how it deviates from a population map. NYC is very underrepresented. DC suburbs have more participants than other suburban rings. Memphis is a hot spot compared to its size. Around SF, East Bay has way more players than across the bay.\u00a0\n\n\nIf you know any of the teams well, you can pick out the random rural counties specific players are from.\u00a0",
+                    "score": 17,
+                    "replies": [
+                        {
+                            "author": "PointyBagels",
+                            "body": "Not necessarily.   NYC is somewhat unique in that it spans multiple counties.  So it gets broken up, while LA for example gets combined with many of its suburbs.",
+                            "score": 7,
+                            "replies": [
+                                {
+                                    "author": "UF0_T0FU",
+                                    "body": "The individual counties still have 1 - 2 million each. It looks like Manhattan only has one player. Brooklyn and Queens have fewer than other counties with similar populations. The Long Island county east of Queens has 0 players despite having a large population. The New Jersey counties across the river also have very few players compared to other suburban areas.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "burnshimself",
+                                    "body": "The fact you are saying this confidently while being incorrect is evidence the graph isn\u2019t sufficiently conveying the nuance of the information. NY is not underrepresented, it\u2019s just spread across multiple counties.",
+                                    "score": -3,
+                                    "replies": [
+                                        {
+                                            "author": "PointyBagels",
+                                            "body": "Think you're replying to the wrong guy my dude.  That's literally what I said.",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "bionicN",
+                            "body": "then normalize it per capita.",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "prototypist",
+                    "body": "Last image for Virginia more or less follows density as well",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "IndependentBoof",
+                    "body": "So is last one. The populated areas of Virginia are northern VA (DC subsurbs), Richmond (central) and Virginia Beach/Norfolk (south-eastern coast).",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Mason11987",
+            "body": "2nd chart is just bad. It\u2019s wild that people can produce something like that and then think it\u2019s worth sharing.  Like you were in a race to post and had to get it out immediately, every country looks the same?  Whatever, good enough.\n\n1st chart is just a population heat map.  It doesn\u2019t really tell us anything but which counties are heavily populated.\n\nOverall a big miss here.",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "dvd5671",
+                    "body": "I\u2019m so sorry",
+                    "score": 7,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ExternalTangents",
+            "body": "Post it in r/collegebasketball, they\u2019ll probably be more receptive",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "dvd5671",
+                    "body": "\u201cBy county\u201d",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Brian_Corey__",
+            "body": "Wyoming and Hawaii not basketball hotbeds apparently.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Own-Flow-2391",
+            "body": "California and Chicago holding it down",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "dvd5671",
+            "body": "**Sources:** NCAA, Google Maps, ESPN, [statsamerica.org](http://statsamerica.org), Wikipedia for certain cities/towns not listed in Stats America\n\n**Tools:** [Mapchart.net](http://Mapchart.net), Photoshop, Google Sheets\n\n[Here is the Sheets link of all of the hometowns](https://docs.google.com/spreadsheets/d/1oLesrjP5xdEa70zaPemcNPBB0c4-ylxBuruPjxNvyDs/edit?usp=sharing)",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "baroquesun",
+                    "body": "What's it mean when the players name is highlighted orange in the spreadsheet?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "dvd5671",
+                            "body": "Oops haha\nI was going to make a \u201cfavorite player names in MM\u201d post on BlueSky and I guess just  forgot about it lol",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

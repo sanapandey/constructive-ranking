@@ -1,0 +1,957 @@
+{
+    "title": "BG3 Builds Rebalanced: Final",
+    "author": "Phantomsplit",
+    "subreddit": "BG3Builds",
+    "rank": 1,
+    "score": 234,
+    "upvote_ratio": 0.89,
+    "num_comments (reported by reddit)": 144,
+    "url": "https://www.reddit.com/r/BG3Builds/comments/1g820eb/bg3_builds_rebalanced_final/",
+    "id": "1g820eb",
+    "selftext": "# Background\n\nSince Baldur\u2019s Gate 3\u2019s full launch released with Tactician difficulty and the community began their blind playthroughs, complaints have existed that the game becomes way too easy for those familiar with D&D 5e fundamentals (attack rolls, saving throws, skill checks, proficiency, advantage) starting in mid to late Act 2. The game has such strong magic items that after you pay a visit to the merchants in the Creche, Last Light Inn, and Moonrise the difficulty takes a huge nosedive. This lack of difficulty and lack of content for evil playthroughs have been some of the biggest complaints in an otherwise great and generational game. **This post intends to highlight some of the biggest balance shattering mechanics as discussed by this community, inform those looking for more balanced playthroughs on what limits to impose, and also provide mod options to help balance these mechanics or balance enemies.**\n\nA [poll](https://docs.google.com/forms/d/e/1FAIpQLSc6bMfRBA3w2FXwptjMesrMYMB-ZHZjpMu5Vi-1UXf42CPQ5w/viewanalytics) was created to cover some of the most balance shattering mechanics, using community feedback to determine the topics discussed. The following \u201ccommunity opinions\u201d are those where 52.7% of the community decided some restriction should be used to restore a semblance of balance. My goal was 2/3 of respondents agreeing that a restriction needs to be in place, then going with the most popular choice. However some questions (like whether to use Honour mode rules or whether to use camp casting) could be considered \u2018courtesy\u2019 questions. These restrictions absolutely must be in place to reach the goals of \u201crebalanced\u201d when you consider broken combos like DRS which is fixed by honour mode or warding bond camp casting. The 21% of people who voted that ignoring these restrictions is OK are not in tune with the goal of \u201crebalanced.\u201d So the goal shifted to 2/3 of respondents that are sane, informed on what they are voting on, or voting in good faith. As there are some who feel, \u201cWhy is balance necessary in a PvE game?\u201d is a legitimate question. While that is certainly *an* opinion to have, the people with that opinion are not the people who this topic is intended for. People who want to use broken stuff can use broken stuff. This topic is for identifying what stuff is broken, and what self-imposed rules or mods can be used to restore a semblance of balance.\n\n# What is and is not addressed by \u201cRebalanced?\u201d\n\nThis doesn\u2019t cover everything that is OP. Stuff like Gloomstalker Assassin builds that use hit-and-run mechanics are almost a completely different game. It doesn\u2019t cover gimmicks like stacking crates and having an enlarged owlbear jump on enemies over and over and over again. It doesn\u2019t cover powerful but also very tedious builds focused on getting tons of summons and then buffing them. It doesn\u2019t cover things like barrelmancy. The \u201cRebalanced\u201d discussion is focused on turning a normal playthrough which many would not consider to be tedious, addressing some of the balance breaking mechanics such players have access to, pointing out that their relative strength removes fun from the game for many players, and many people may want to avoid these options.\n\n# BG3Builds Rebalanced Restrictions\n\nThe following table is listed in order of most strongly opinionated in need of restriction, to least strongly opinionated. It starts with the most egregious violators and goes to less egregious ones that a large portion of the community feels needs some kind of restriction for a balanced gameplay experience.\n\n|**Topic**|**BG3Builds Rebalanced Restriction**|**Personal comments, not from community**|**Relevant Mods**|\n|:-|:-|:-|:-|\n|Long Rest Spamming|Once a build is \u201conline,\u201d (typically around level 6-8) it should be able to go at least 3 or 4 fights before a long rest. Not including taking a long rest before a boss fight, which is fine.|If you are concerned about missing story points in camp by limiting long rests, then after a long rest take a partial rest (use no food supplies) to see additional camp scenes.|\\-|\n|Honour Mode Rules|Use Honour Mode rules|This includes no builds that focus on DRS bug, no warlock extra attack stacking, no perilous stakes illithid power on enemies. Additionally no extra attack from bloodlust elixirs or haste spell. **While the community did not vote to restrict the use of spellcasting with extra actions granted by haste or bloodlust elixirs this is potentially a polling error on my part, and I STRONGLY recommend avoiding this.**|\\-|\n|Camp Casting|Do not put allies into your party, have them cast buff spells or other effects, then remove them from your party allowing the buffs to persist|\\-|\\-|\n|Elixir Chugging|No builds that depend on elixirs|The most egregious outliers are strength based elixirs, bloodlust elixirs, elixirs of vigilance and elixir of battlemage\u2019s power. Using other elixirs on consistent basis likely will not be as bad as those listed above.|**In Game Mods**: N/a \u00a0 **External Mods**:  [Elixir Rebalance by Benenach](https://www.nexusmods.com/baldursgate3/mods/4499?tab=description)|\n|Consumables Dependence (e.g. scrolls and special arrows)|\\-|This question was left out by accident. However it goes in the same vein as the above elixir question, regarding farming consumables that your build depends on and therefore should be restricted.|\\-|\n|Tavern Brawler|No using Tavern Brawler if you use Strength Elixirs|**I strongly disagree.** This does absolutely nothing to fix TB Throw builds. TB Monks can dip into fighter or cleric for heavy armor proficiency and dump Dex anyways. Tavern Brawler is broken at its core.|**In-game Mods**: N/a \u00a0 **External Mods:** [Tavern Brawler Rebalanced by VoidVigilante](https://www.nexusmods.com/baldursgate3/mods/1267?tab=files). I recommend the \u201cTavernBrawlerFinesse\\_NoAccuracy\u201d version. This is still pretty strong, and even works with dex based monks, but is not balance shattering; [Feats Rebalanced by WoolToque](https://www.nexusmods.com/baldursgate3/mods/14037/?tab=description) has a nerfs only optional file which also makes changes to Sharpshooter, Great Weapon Master, and Alert|\n|Ranged Slashing Flourish|No combining ranged slashing flourish with Arcane Acuity|\\-|\\-|\n|Abjuration Wizard Arcane Ward|No using exploits (such as spamming Warlock\u2019s Armour of Shadows) to refill the arcane ward|The damage resistance provided by Arcane Ward scales exponentially due to Larian\u2019s changes. At higher levels of wizard it is insane, and I am not sure everyone who voted has seen just how much damage it can mitigate. I recommend not using abjuration wizard if going more than 6 or 7 levels in wizard.|\\-|\n\n# Further Topics\n\nThe following are topics which the community did not agree needed restrictions in BG3Builds Rebalanced, but I feel need addressing.\n\n|Topic|My comments|Relevant Mods|\n|:-|:-|:-|\n|Initiative|There may be a polling error behind why 34% of respondents in the previous question said no elixir dependence at all, then only 19% here say no dependence on Elixirs of Vigilance. Regardless d4 initiative makes the turnbased game balance issue known as \u201cRocket Tag\u201d extremely easy to pull off. **The Alert Feat and Elixirs of Vigilance should be approached with caution if you are not using mods to bring initiative back to a d20.**|**In-Game Mods:** [d20 Initiative by Ponsinoumi](https://baldursgate3.game/mods#/m/d20initiative_) \u00a0 **External Mods:** [d20 Initiative by Ponsinoumi](https://www.nexusmods.com/baldursgate3/mods/12024) changes initiative to a d20, which by itself rebalances the Alert feat. Alternatively [Feats Rebalanced by WoolToque](https://www.nexusmods.com/baldursgate3/mods/14037/?tab=description) has a nerfs only optional file which also makes changes to Sharpshooter, Great Weapon Master, and Tavern Brawler but high dex characters will still win initiative far too frequently with this fix.|\n|Vulnerability|It is possible to make enemies vulnerable to lightning, cold, psychic, or piercing damage. With some gimmicks you can also make enemies vulnerable to fire damage. Builds that do outright 2x more damage than they are supposed to be able to do against group of enemies are extremely strong. Oftentimes a little bit of setup is necessary, but doing that little bit of setup and then going all in on your strongest option to do double damage is typically way stronger than other build options. This is especially egregious in Act 3 where you can apply piercing vulnerability with no setup, and a well optimized party can almost all do double damage.|\\-|\n|Duergar Invisibility|Technically the problem here extends beyond Duergar. Having a quasit companion (whether through Pact of the Chain Warlock or just through getting permanent access to Shovel) enables the same problem: start every combat while invisible to get a surprise round and thin enemy numbers before they get to go. Duergar just takes this a step further since you have that option on a playable character, letting you do more powerful things while invisible. If you abuse surprise rounds (and unlimited invisibility is the best way to do so) you will make the game significantly easier.|\\-|\n|Arcane Acuity|There are two popular builds that use arcane acuity: swords bard and fire sorc. The sords bard + arcane acuity has been addressed because it depends on swords bard\u2019s very strong ranged slashing flourish which warranted its own question. Fire sorc depends on building up arcane acuity through Scorching Ray, which is not on its own overtuned like ranged slashing flourish. With the community not wanting to restrict arcane acuity, that means fire sorc arcane acuity builds (one of the top 3 strongest builds in the game) are totally fine in rebalanced. While these two are the most popular Arcane Acuity builds, other builds are certainly capable of it such as niche thunder acuity builds, thief rogue builds, action surging fighter builds, and more. **Arcane acuity needs to be capped at +2 to maintain a semblance of balance. +3 max. If you are consistently going above this, arcane acuity should only be used to cast cantrips with.**|\\-|\n|Radiating Orbs|The strength of radiating orbs has been undermined by how offensively strong you can be. The best defense is a good offense, and if you can kill or crowd control everyone before they get to go then there is limited need to be defensive. If you implement the BG3Builds Rebalanced rules then radiating orbs will become much, much stronger and may still make encounters much easier. **Like arcane acuity, radiating orbs need to be capped at +2 or +3**|\\-|\n|Level 1 Wizard Dip|For the most part this is fine in my opinion. The biggest issues come when mixing with Arcane Acuity, but with that off the table there are a few niche spells to be worried about. Such as playing as a full caster class, taking a level in wizard, scribing the Conjure Elemental spell, and using a 6^(th) level slot to buff it into a Myrmidon.|\\-|\n|Ambush Bard Strategy|The \"Ambush Bard\" build is one that probably is only recalled by those who have been on the sub for a while, and kinda didn't want to give up on it. It's somewhat complicated to explain which is a bit of a letdown, however [this 3 minute video covers it best](https://www.youtube.com/watch?v=dQw4w9WgXcQ). But with Rebalanced in play it can pretty much just run around and cause balance to desert the game.|\\-|\n\n# Still too easy?\n\nEven with all the above changes and restrictions, those who understand the fundamentals of the game may find BG3 to still be too easy to ensure a challenge. PC users have additional difficulty increasing mods available to them. Most notably [Combat extender](https://www.nexusmods.com/baldursgate3/mods/5207?tab=description). While I am a big fan of the default boost to enemy AC, attack roll, saving throws, and damage per attack; I am not a big fan of increasing enemy movement speed or giving some enemies an extra bonus action. And I would actually like to give enemies more health than their default configuration (\\~40%). But that\u2019s the great thing about the mod. You can change all these little numbers to your liking and they apply to enemies across the game, making the game more challenging. I think that if you go with Combat Extender, d20 initiative, and restrict the mechanics mentioned above then the game finally reaches the challenge many people were hoping for at launch.\n\nAnother external mod worth mentioning is [Absolute Wrath](https://www.nexusmods.com/baldursgate3/mods/5552). It adds random abilities to enemies to make combat a bit more challenging and roguelike all-in-one. If you use this with combat extender, you may want to tone down combat extender from the recommended values.\n\nUnfortunately there do not seem to be any big combat overhaul mods on console yet. One option is to implement an item attunement rule of your own, where you limit yourself to something like as many uncommon items (magic items with a green border) but only up to 3 items of rare or above (blue, purple, or yellow border) per character. Your weapons do not count towards this 3 item limit.\n\n# \u201cRebalanced\u201d and this subreddit\n\nWhile the goal existed to make \u201cRebalanced\u201d into a flair, I think given the community\u2019s votes on the topics found in the second table (excluding perhaps the wizard dip) indicates that this wouldn\u2019t change anything. You\u2019d still have fire acuity sorcs. You\u2019d still have radiating orb clerics that win initiative and hit every enemy with a -5 or more to their attack rolls before they even get to go. You\u2019d still have wet+lightning tempest sorcs or Bhaalist Armor + ranged slashing flourish spam. Throwzerker and TB Monks would still exist, just slightly tuned down. So it seems that going through the trouble of implementing a tag or flair is just not worth it.\n\nThis post will go into the hall of fame post to provide a reference for the most overpowered mechanics which players should avoid if they want a challenge, and I will update it with mods if people make them to reign some of these mechanics in.",
+    "comments": [
+        {
+            "author": "QuixotesGhost96",
+            "body": "The issue with the Arcane Acuity cap is that I believe Arcane Acuity is only available on headgear so it's a competing against Hood of the Weave which gives an unconditional +2 DC without any setup. +4 is what makes sense to me.",
+            "score": 90,
+            "replies": [
+                {
+                    "author": "None",
+                    "body": "That is true but i also want to note that the helmet of arcane acuity can be grabbed as early as levels 4 or 5 while the hood of the weave is locked behind act 3\n\nEdit: do you guys not rush the creche, moonrise, last light, and yurgir as soon as you deal with the grove?",
+                    "score": 22,
+                    "replies": [
+                        {
+                            "author": "420_DemonDark_X",
+                            "body": "Who\u2019s getting the helmet of arcane acuity at level 4 or 5?",
+                            "score": 27,
+                            "replies": [
+                                {
+                                    "author": "Significant_Bear_137",
+                                    "body": "Unless you are speedrunning the game I think it's impossible to reach ACT 2 at such a low level.",
+                                    "score": 10,
+                                    "replies": [
+                                        {
+                                            "author": "420_DemonDark_X",
+                                            "body": "I mean you can do it but it\u2019s not even a strong item to go for if you rush into act 2 since it needs the ring to really be effective",
+                                            "score": 14,
+                                            "replies": [
+                                                {
+                                                    "author": "None",
+                                                    "body": "Its still very powerful on EKs, fighter bards, or sorc multiclasses",
+                                                    "score": 7,
+                                                    "replies": [
+                                                        {
+                                                            "author": "420_DemonDark_X",
+                                                            "body": "At level 5? No band of mystic scoundrel?",
+                                                            "score": 5,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Tony_Sacrimoni",
+                                                                    "body": "Yes. A dual-wielding bard can still get 6 stacks in one turn and then shut the enemy down 2nd turn. If you've surprised the enemy, you can still possibly get a control spell off before enemies go. Level 6 can get 10 stacks in one turn.",
+                                                                    "score": 8,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "420_DemonDark_X",
+                                                                            "body": "To each there own I rather have my swords bard focus on damage instead of casting spells before they get the mystic scoundrel I unironically think you would get more out of the diadem at level 5",
+                                                                            "score": 5,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "author": "None",
+                                                                    "body": "I said you could get it as early as 5, not that it's needed. These abilities will still be accessable before act 3, though. At level 8, fighter2/sword6 can stun whole rooms with a bow and the helmet. Nearly all act 2 items are accessable to you from the get-go",
+                                                                    "score": 4,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "420_DemonDark_X",
+                                                                            "body": "Most of the enemies in act 2 are undead so how on earth are you stunning whole rooms?",
+                                                                            "score": 3,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "anagram_of_evil",
+                                                                                    "body": "Confusion works on a lot of undead once you get bard 7. Fear works on some. Hypnotic Pattern or Fear for non-undead until you get Confusion.",
+                                                                                    "score": 5,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "antariusz",
+                                                                                            "body": "And if you\u2019re at level 7 then you aren\u2019t speed running into act 2 at level 4",
+                                                                                            "score": 2,
+                                                                                            "replies": []
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "author": "None",
+                                                                                    "body": "Moonrise towers???",
+                                                                                    "score": 2,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "420_DemonDark_X",
+                                                                                            "body": "So at the end of the act for one fight? You not helping your case\n\nOne of the easiest fights in the game btw",
+                                                                                            "score": 2,
+                                                                                            "replies": [
+                                                                                                {
+                                                                                                    "author": "None",
+                                                                                                    "body": "Its a free item man why wouldnt i get it",
+                                                                                                    "score": 1,
+                                                                                                    "replies": [
+                                                                                                        {
+                                                                                                            "author": "420_DemonDark_X",
+                                                                                                            "body": "What does that have to do with it not being an item that you would rush into act 2 for lol you proved my point it\u2019s good for exactly one fight in act 2",
+                                                                                                            "score": 3,
+                                                                                                            "replies": [
+                                                                                                                {
+                                                                                                                    "author": "None",
+                                                                                                                    "body": "Yeah and thats worth it. I do honour solo runs. Everything has value",
+                                                                                                                    "score": 1,
+                                                                                                                    "replies": [
+                                                                                                                        {
+                                                                                                                            "author": "420_DemonDark_X",
+                                                                                                                            "body": "Ok brother and no need to downvote me because I disagree with you it\u2019s not that serious",
+                                                                                                                            "score": 1,
+                                                                                                                            "replies": []
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "None",
+                                            "body": "Im far from speedrunning. it's just routing. Taking the underdark elevator only affects the grove/goblins and the paladins of tyr. It's easy enough to have done both by levels four or five. From there, just walk your way over to the masons guild. There's two shadow fights along the way if you care, but invisibility scrolls and dashing are free. As soon as i deal with the goblins, i have all non enemy/story gear up till act 3\n\nEdit: If you're wondering about the moon lantern to get into the guild safely, I take balthazar's lantern. Use a torch to get to where rolan usually is and cross into reithwin. You only take one turn of shadow curse damage before you can jump to the moonrise docks",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Phantomsplit",
+                    "body": "I hadn't thought of that but you make a good point.\n\nOn a tangent, say you are a level 12 (+4 proficiency bonus), 20 in your casting stat (+5), Hood of the Weave (+2) and then say some staff that gives a +1. Your spell save DC is 20. Unless enemies have a good stat or are proficient in the save in question, they have a 5% chance to save. I was generous by just limiting it in this way though. Cha based casters can easily get 22 in their main stat, there are many staves and shields that offer more than just a +1 to spell save DC. It is reasonable to assume that a well geared caster can have a flat and passive 23 or 24 spell save DC. Which for many enemies that means 100% crowd control. They literally cannot save. It is an issue that really starts busting out in D&D 5e with most creatures only being proficient in 2 or 3 saves.\n\nSo I'd argue that outside boss fights with Legendary Resistance the issue really is that giving bonuses to spell save DC outside of a staff is really the problem. But that would require sweeping changes on itemization across the game, well beyond the scope of this post. So I think you make a very good point that compared to other items in the game, capping arcane acuity at +4 edit: or +3 seems fair. I was comparing it more to my history with D&D 5e and that isn't the appropriate comparison to make here.",
+                    "score": 10,
+                    "replies": [
+                        {
+                            "author": "BeyondNinja",
+                            "body": "Tying arcane acuity cap to proficiency bonus (or bonus -1) seems like a potential compromise to have it scale with alternative equipment options.",
+                            "score": 12,
+                            "replies": []
+                        },
+                        {
+                            "author": "Pokiehat",
+                            "body": "In 5E, proficiency is represented by an absurdly low number.\n\nYour character's proficiency bonus at 20th level is +6. The difference in skill between a commoner and a demigod is squished into this numerical range.\n\nCombine this with fixed DCs (which I like conceptually) and it means the game cannot hand out many bonuses to spell save DC before it breaks D&D uncertainly/randomness mechanics.\n\nHonestly, I think +4 is still way too much. If Battlemage's Elixir gave you +1 and the acuity hats allowed you to increase this to +2, it would still be an insane buff akin to equipping a 2nd Hood of the Weave. Or akin to equipping a Hood of the Weave approx 100 gameplay hours before you can buy it.",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "Phantomsplit",
+                                    "body": "I agree +4 is too much when looking at things from a 5e perspective. I think +1 is too much from a non-staff item. Your discussion revolves around proficiency but the bigger issue for me is enemies having a *lack* of proficiency. If they don't have proficiency and they are mediocre in a stat then they end up having almost no chance at saving or infact no chance at saving. The saving throw concept with D&D 5e starts breaking down by 9th level and is crumbling apart by 13th level, and this is a huge part of why I don't GM 5e anymore.\n\nIn the context of BG3, is getting a +4 to spell save DC with a little bit of prep powerful? Absolutely. It's extremely strong and will make the game quite a bit easier. Thing is that for an intelligent player the game is already easy. A +3 or +4 nudges the scales further but in my opinion doesn't cause the scales to topple like a +10 does. \n\nIf you were to use mods to buff enemies (e.g. using the Combat Extender mod) to restore balance, accounting for the fact that arcane acuity can go up to +10, then you will buff enemies so much that the only viable strategies are stuff like arcane acuity, tavern brawler, and radiating orb. But if you buff enemies to restore balance accounting for the fact that arcane acuity can go to +3 or +4 then it will still be among the best options in the game, but other options will still be viable.",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": 42,
+            "replies": [
+                {
+                    "author": "_msb",
+                    "body": "I would love this",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "Holmsky11",
+                    "body": "I would always use it",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "SoftComprehensive",
+                    "body": "It would be lovely",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "My_Name_Cant_Fit_Her",
+            "body": "A mod that I don't see get discussed much despite the game's various OP mechanics being popular points of discussion is the [Rebalanced - Nerfs](https://www.nexusmods.com/baldursgate3/mods/5712) mod by Syrchalis. It has (relatively light) nerfs for the most egregious feats (Alert, GWM, Sharpshooter, TB) and effects (Arcane Acuity, Radiating Orb, even Arcane Synergy). \n\nThe nerfs are very much on the conservative side and don't go as far as you would perhaps like, so these mechanics remain extremely strong if not still OP, but it's better than nothing. For example, Arcane Acuity is nerfed to 5 stacks max, with being hit only removing 1 stack instead of 2 stacks. I think ideally, it should be 3 or 4 stacks max, but 5 is still much better than 10.\n\nThere are also many other OP mechanics not covered by the mod, but many of the remaining ones have other mods (e.g., the elixirs and initiative ones you included) that nerf them. When they're used in conjunction together, then I've found the gameplay experience to be greatly improved. Some of the others that I've liked are:\n\n* [Stat Boosting Items Rebalanced](https://www.nexusmods.com/baldursgate3/mods/11443) by Rhonin25: Items that set your attribute to a set number (e.g., Amulet of Greater Health) instead just increase that attribute to prevent completely dumping the attribute.\n\n* [Wet Combo Rebalance](https://www.nexusmods.com/baldursgate3/mods/12145) by Fenrisgod78: Instead of wet granting vulnerability to Cold and Lightning, it instead grants advantage on attacks/disadvantage (+ 1d4 penalty) on saving throws.\n\n\nI like being able to use a mod for these nerfs as it still lets me use these mechanics in my playthrough, just without them being as ridiculous as the game base. I'm not as much of a fan of arbitrary restrictions as they can be awkward to implement in practice, and if you just outright ban items/mechanics then it feels disappointing to restrict yourself from an entire set of items/feats/etc. that are already in-game.",
+            "score": 29,
+            "replies": [
+                {
+                    "author": "Ashamed-Comment-9157",
+                    "body": "We really need a mod that lets you easily configure these numbers yourself.  Most games have this.",
+                    "score": 10,
+                    "replies": []
+                },
+                {
+                    "author": "Key_Coat_9729",
+                    "body": "Wet combo rebalance is a nice touch.",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "Phantomsplit",
+                    "body": "I love these, thank you for sharing! When I get back to my PC I will add them into relevant spots in the post.",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "msp26",
+                    "body": "Rebalanced - nerfs is great I've been using it on my current run.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "nugnacious",
+                    "body": "I only use syrchalis' druid mods but those include the tavern brawler rebalance too, I do believe, since it impacts wild shapes.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Orval11",
+            "body": "Let's keep at this, I think we can make it work for whatever subset of people do want a more balanced game,  without stepping on the toes of those who often so very loudly don't.   \n\nAfter some time to reflect, I suspect the previous polls didn't yield very useful or possibly even accurate results for some specific reasons that could likely be amended in a future poll:   \n\n1. Opt-in:   They weren't explicit enough about essentially wanting to create a new game mode, and set of restrictions that *would not apply to anyone who didn't want to use it*.   This seemed to trigger a loud contingent of \"don't mess with my OP toys\" and \"just don't use it if you don't like it...\"   But it also may have caused people who while they themselves wanted a rebalancing,  voted against their own wishes and interests in the specifics of the polls, either because they couldn't imagine the restrictions being viable in BG3builds or weren't comfortable with potentially pushing their views on a broader community.    \\[Disclosure:   I'm guilty of this voting against my own wishes in the poll...\\]\n2. The polls sought specific rebalancing opinions, even from people who themselves had no interesting in or were actively against rebalancing or restricting OP mechanics and features.   \n\nI'm not sure of the best way to do it, but feels like we should be able to make a poll that amends those key issues, and is able to separate out opinions of those who have no interesting in rebalancing or are even opposed to it if applies to a larger community.    That would leave a contingent of only those that want a rebalancing and are clear the opinions they are voting for would only apply to their rebalanced group.   It feels like that could yield some much more useful poll results, with a greater possibility of reaching consensus on the specifics of how to rebalance.  \n\nIf we're clear in these posts and threads that we intend to create a new modded game mode, rather than wanting to force our vision of \"rebalancing\" on the overall BG3Builds or BG3 communities \"taking away their options and limiting their possible playstyles\"  it should help keep people not interested in game balance away.    Being clear that we're creating something new that won't apply to them, means none of the \"don't mess with other people's fun\" criticisms are applicable.    And instead the argument works in reverse, since Rebalancing is fun for some people, but doesn't affect people who want to continue playing with OP mechanics and features. \n\nOnce we have whittled down to a group of people that are all interested in having a more balanced game, and are making decisions that will only apply to their own rebalanced group,  I think it will be much easier to come to some overall consensus on the specifics of rebalancing that even if we don't all 100% agree on, we should at least be able to get behind.     From that point we can have Flair that's useful for builds and it will be possible to work towards a few mods that implement that rebalancing vision.",
+            "score": 16,
+            "replies": [
+                {
+                    "author": "jbisenberg",
+                    "body": "I think a very effective and simple solution is to have question 1 of the poll be something along the lines of \"are you interested in putting together a rebalance ruleset for BG3?\" And if the answer is no, then the poll ends. Only answering yes opens up the rest of the poll.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Maximum_Wind6423",
+            "body": "I foresee issues with rebalancing and honor mode.  A lot of the act 3 fights are trivial IF you overtune initiative and nuke them in the first round, but if you let them get a turn it can be over just as quickly but not in your favor.  Best cases in point are Lorrorakan and Cazador\u2026these two are incredibly dangerous and can easily TPK if you don\u2019t win initiative due to how closely your party is grouped in the former case and the latter\u2019s legendary action aura that basically fills the entire playable area.  Also, if you\u2019re unfortunate enough to have Astarion get pulled into the ritual\u2026good luck getting him out on honor mode.  On my failed run this happened and a ghast laid a stinking cloud right ontop of him, which literally made it impossible to free him as this requires an action.  Point being: getting difficulty right is hard especially for honor mode rules.",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "foomprekov",
+                    "body": "Gust removes it. Darkness, fog, cloudkill etc might override it.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Gorffo",
+            "body": "Thank you for this post. \n\nI\u2019m one of the players out there that wants a challenge and finds honour mode to be way too easy. \n\nAnd I find that most of my runs now end in Act 1 or early Act 2 because my party has become too powerful. Or to put it another way, the game becomes so easy that I lose interest in playing BG3.\n\nAnd that is while playing with a bunch with self-imposed house rules like no camp casting, no elixirs, no tavern brawler, no character respecs  no illithid power, etc. \n\nBaldur\u2019s Gate 3 actually has a competent tactical AI that can present players like me with a challenge. And would really enjoy that challenge, that gameplay experience. I want to play this game\u2014instead of, you know, go though the motions and phone it in for every fight from the middle of Act 1 to the end of the game. \n\nAll I need to do is figure out what rule set and rebalance is needed to nerf Tav and friends to the point where the party no longer stomps through every encounter.",
+            "score": 13,
+            "replies": [
+                {
+                    "author": "TheSeth256",
+                    "body": "I honestly think that the biggest problem is how explosive the combat is. Whenever fights don't end in 1-2 turns the game seems pretty well-balanced, the issue mostly seems to stem from how snowbally everything is. If you can just crowd control every fight and down the few enemies that are the most dangerous,  then nothing but CC immunity would solve the problem.\n\n\nI've noticed that Githyanki are the best opponents in terms of countering the meta, and they all have high initiative and sometimes also cannot be suprised,  have high mobility with jump and Misty Step, anti-burst protection with parry and pretty diverse tactics that synergise well. Comparatively, no other faction of enemies has anything like that to keep up with what players can do.",
+                    "score": 10,
+                    "replies": []
+                },
+                {
+                    "author": "ex_c",
+                    "body": ">All I need to do is figure out what rule set and rebalance is needed to nerf Tav and friends to the point where the party no longer stomps through every encounter.\n\nby the time you accomplish this you will basically be playing a different game entirely; it isn't one or two mechanics, there are dozens and dozens. you may as well just play one of the pathfinder games or difficult pillars of eternity rulesets if that is actually the experience you want, because bg3 clearly was not remotely designed with it in mind.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "revchj",
+                    "body": "I've been restricting my items (mostly) to straight +1/+2 gear and the game difficulty scales correctly in acts 2 & 3.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Gorffo",
+                            "body": "What is your take on the Titanstring bow? \n\nDo you buy it?",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "revchj",
+                                    "body": "Nope. I experimented with a number of house rules, but didn't like the mental gymnastics around where exactly the OP line was. I settled on the rule that \"any item that sets an ability, grants a castable spell, or implements a variable mechanic including d4 damage riders\" was prohibited. So no hill giant club, no Titanstring, no Armour of Agility.\n\nThis is very, very strict, but if _flat_ bonuses are ok (analogous to +2 armour/weapons) that still leaves a few strong items available, like the Hood of the Weave and the Legacy of the Masters. I also like how certain meh items become suddenly desirable, like the item that adds +2 to heals.\n\nFrom there I make exceptions for fun and/or RP reasons. I allow adamantine _weapons_, just for a reward for defeating Grym (the hard way, of course). I also allow a Sussur weapon, which now persists well into Act 3. Momentum mechanics are fine, because mobility is fun (I'm considering allowing Wrath items for martials, but haven't decided). And I often allow each NPC one story based item: a spear for (Selunite) Shart, Khalid's locket for Jaheira, that sort of thing. Provided that they're non-optimal: for example I think I'm going to prohibit Wyll's rapier again - I allowed it in my last run but that Cambion is damn strong.\n\nThe strict gear limitations also mean I don't worry too much about the OP feats, provided that they make RP sense. Minsc as a 4/8 Ranger/Berserker with GWM and TB is canon, IMO, and it's fun that he's a beast for the few quests that he joins.\n\nI also don't allow acquiring ANY consumables from vendors, which suits my loot goblin playstyle and causes me to use and even hoard my best potions and scrolls for the tough fights. Ansur and the Netherbrain NEED a Globe of Invulnerability, for example, so if I don't have a wizard I'll need two of those scrolls.",
+                                    "score": 5,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "redstej",
+            "body": "I'll be a bit harsh here and apologies beforehand but I think it's warranted.\n\nYou keep asking the same questions, slightly rephrased, every so often, hoping the answers will change. It's clear that the community does not agree with your proposed plan, yet it keeps coming back.\n\nYou go so far as to call people insane for disagreeing with your proposed changes this time. \n\n>The 21% of people who voted that ignoring these restrictions is OK are not in tune with the goal of \u201crebalanced.\u201d So the goal shifted to 2/3 of respondents that are **sane**\\[...\\]\n\nYou keep shifting the goalposts, in an attempt to demonstrate consensus where there is none. The community does not approve. Of this or anything else quite likely.\n\nIf you want a \"rebalanced\" ruleset go for it as a personal initiative. You don't need to legitimize it with polls. Whoever agrees will follow, whoever doesn't, won't.",
+            "score": 20,
+            "replies": [
+                {
+                    "author": "Phantomsplit",
+                    "body": "\"sane\" is probably not the nicest word to use in that context and the criticism is fair there.\n\nI am not asking questions here. This is it. This is final. Hence the title. I only asked these questions twice. **I asked for everyone's vote once**, then honour mode came out and I put the project on hold, then I announced I was starting the project up again and asked what topics should be voted on, **then I put up the vote a second time.** I moved the goalposts once. And I made it clear why and how far I moved the goalposts. I'm not trying to be sly about it, or delude myself into thinking things have gone perfectly.I said \"My goal was X, this happened, now I am changing the goal to Y.\"\n\nAnd large parts of the community are interested in this. As seen by for example over 70% of the community pushing back on elixir spam and camp casting and long resting for each fight. Each time this is discussed there is some pushback of, \"If it's OP in a PvE game then stop complaining and don't use it.\" Ignoring the fact that the whole purpose of this is to identify what the community considers OP and recommending their removal for others interested in non-OP builds or discussing alternate strategies. But here has been some consistent interest in this topic among the community. Discussion on an optional ruleset that reigns in overpowered character options has been around on this sub since before honour mode. Only issue is Honour mode did not go half far enough at controlling OP options.\n\nI could go for it as a personal initiative and have thought to do so. I added my personal comments to the results here on things the community voted on which I strongly disagree with. But seeing the community votes on the topics is what makes it clear that the community wants change on many of these topics. That it is not just me, but you can see where a large group of people stand on these subjects.",
+                    "score": 15,
+                    "replies": [
+                        {
+                            "author": "redstej",
+                            "body": "If you want my opinion, I think the game is plenty challenging for anyone who hasn't been playing it obsessively for 2 years straight. And those of us that have, have formulated their own opinions on what's fair and what's not. Hard to find consensus there.\n\nNow, the reason I'm being skeptic and voicing my criticism of your push for a rebalanced mod or -god forbid- flair, is that these things tend to get pushed aggressively in my experience. It starts as opt-in, eventually becomes opt-out and ostracized. \n\nPeople who are struggling with the game come to this sub to find some cool builds. Wouldn't be nice offering mostly builds for an imaginary game mode that they have no intention of playing and possibly scoffing at them for not being hardcore enough.\n\nNiche builds for extreme challenge modes are welcome but should not be the focus of the sub imho.",
+                            "score": 18,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Phaoryx",
+            "body": "Tavern Brawler and Arcane Acuity aren\u2019t blanket banned, therefore the game is still faceroll easy. I was hoping those two would be banned outright. I\u2019ll still be restricting their use completely in my runs, but I was hoping for more out of this Rebalance than just eliminating elixir use (good) and camp casting (good).",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "Objeckts",
+                    "body": "You are playing a turn based strategy game with the wiki open on a 2nd monitor and no time limit for taking turns. The game isn't going to be hard even if you remove those two mechanics.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "Phantomsplit",
+                            "body": "I put down my first blind playthrough in disappointment due to the lack of difficulty. The only mechanic from the above post I used was abjuration wizard, and once I hit 10 wizard I respecced because the game was so easy. I had a Tav that was an Asmodeus Tiefling Lore Bard 5/Ancients Paladin 7 who mostly cast Moonbeam and cloud of daggers (no sanctuary) and may have used the attack action 5 times all playthrough after the tutorial. Lae'zel as a straight beast master ranger. Gale (later replaced by Jaheira) as a straight Land druid. And Shadowheart as a knowledge cleric 1/abjuration wizard 11, later respecced to evocation wizard.\n\nThese are not OP builds like what is discussed in the post. This was my first playthrough. This was before the wiki was in 5% of the completion state that it now is. Game was still way too damn easy",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "xAcidik",
+                                    "body": "The difficulty of the game is far higher for people not versed in 5e.  I thought it was relatively easy myself, but recently, I went through the game with a friend.  He'd only experienced TTRPGs in a one-off, and was dedicated to not getting any spoilers.  I let him make all the decisions, build his own character, and was mostly just there for combat.  The difference that that made was *extreme.*  I was barred from multiple important missable items, and he got cooked quite often.\n\nMy point is, designing BG3 in a way that someone with no TTRPG experience could get into was pivotal to the success of BG3, and many of your complaints come from a place of \"I am extremely knowledgeable about the system in use in this game and it was too easy\".  Designing the game the way you seem to have wanted it, in my non-expert opinion, would have clipped its wings.\n\nMy concession is; more in-game configurable difficulty would have been nice.  If, in these major patches, issues raised by the community were tossed into the custom difficulty options, that'd be a home run by Larian.  That said, with my limited business knowledge, I would assume that would require a lot of resources and capital in the cases of systems that may need full redesigns, and that'd likely be a net loss in profit.",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "Phantomsplit",
+                                            "body": "Your comment seems to be that these broken mechanics are fun for a player who doesn't really understand what they are doing, even if they are busted for a player who does know what they are doing. And for things like telekinesis and throwing enemies off ledges, or letting 1 level wizard dip scribe spells up to the level of spell slots they have access to, or perhaps even with haste a little bit I can see your point (though the imbalance of Haste is in my opinion a bridge too far). I get what you are saying. But letting arcane acuity go to +10 is nuts. No player who doesn't know what they are doing is going to pull that off, and players who do know what they are doing just won the game. Same with radiating orb. Same with stuff like Bhaalist armor. I wish I could say for Larian's sake  \"Same with Arcane Ward\" or \"Same with Tavern Brawler\" but I can't. A level 10 abjuration wizard even in the hands of a novice player is just too damn tanky. And I am literally watching a let's play of a new and inexperienced player who doesn't have a clue what he is doing but picked Tavern Brawler and discovered pretty fast that giant elixirs and haste potions are a cheat code, and further found the club of hill giant strength and next episode turned up difficulty to Tactician. I expect that after 10 more episodes he is going to respec because his build is OP.\n\nYou mention that it may be too much work to fix this. I made a post on r/BG3Mods asking for a mod that addresses many of these topics. I got a pretty consistent reply of \"looks easy, should be able to do it yourself in a few hours when you learn the mod tools.\" In a manner akin to me telling people to just go to the hall of fame post. So next weekend we'll see if they are correct as I will try to make a mod that does this myself.\n\nBut I also want to bring it back to the comment you are replying to. Because your comment is more addressed to the body of the post, not my above comment. My above comment is basically, \"Even if you remove or nerf all the most broken stuff, and even if you are a new player on your first blind playthrough with no meta-knowledge, the game is still too easy for somebody who understands the core mechanics (for BG3 that is attack rolls, saves, ability checks, proficiency, advantage).\" Before BG3 the most recent I could say statement about would be KotOR2 released almost 20 years prior. Now Owlcat's WH40K Rogue Trader released after BG3 and it had substantial balance issues. But Owlcat put a lot more work into fixing those than BG3 has, and it shows.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Phantomsplit",
+                    "body": "I agree. And it is why I had to make [my rant post](https://www.reddit.com/r/BG3Builds/s/E6YClAx2nv) before I could make this post.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "I love these changes a LOT and it's how I've been playing so far. Personally I like playing around Ice, so I condone Ice and Lightning vulnerability, so I decided to just double the health of bosses and boost the health of enemies by 50% if I do design a party built around it. In Act 3 I made it so they scale up a ton as well.\n\n\nFor personal use the one vulnerability I don't condone is Piercing Invulnerability. It requires no action to be lost at all and encourages parties of 3 or 4 fighters to fighter dip for action surge that just evaporate any form of challenge.\u00a0\n\n\n\nWhat I want to know is - do you find Band of Mystic Scoundrel with no Acuity (or little acuity) inherently broken? Do you find Illithid powers and half-Illithid powers balanced? I'm thinking mostly about Black hole and Cull the Weak.",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "Phantomsplit",
+                    "body": "Mystic Scoundrel is incredibly strong. It is like ranged slashing flourish, or using an AOE heal + whispering promise ring + hellrider's pride gloves, or like the unseen menace. These are all very, very strong. But when I asked for opinions on what should be voted on, the ring did not come up (unlike ranged slashing flourish). And I agree it didn't need to be discussed.\n\nMy viewpoint is that even without these limitations, the game is still a breeze to a knowledgeable player on honour mode. Just taking the Rebalanced mechanics out of the game is not going to make the game challenging for many players. So my overall take is, \"If I can use the mods found in the 'Still Too Easy?' part of this post, do these mechanics still turn the difficulty on its head?\" If the answer is yes, even using mods to substantially increase difficulty is not enough to make the game challenging due to these mechanics, then that mechanic deserves to be in Rebalanced. For that ring enemies would have a +3 or +4 to their saves by that stage in the game over traditional tactician difficulty. And you don't have arcane acuity buffing your DC to insane levels. So while the ring is strong, I don't think it prevents balance from being salvaged unlike the topics in this post.\n\nHonestly the thing not in this post which maybe should be is mass healing word (or life domain cleric channel divinity) + whispering promise ring and hellrider's pride gloves.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "ObesiPlump",
+                            "body": ">My viewpoint is that even without these limitations, the game is still a breeze to a knowledgeable player on honour mode.\n\nI [put a HM party build together](https://www.reddit.com/r/BG3Builds/s/FoQnmn4mgp)with pretty much all of the restrictions listed in your post, but have to concede that the game probably still won't be all that challenging. Still, I think it forces me to \"engage\" with the game a bit more, as opposed to say, having my whole party go first and wet-lighting and arcane acuity everyone. Which isn't very fun. \n\nI'd have been a strong advocate for the Further Topics being excluded in Rebalanced and am a bit sad the community didn't vote to do so. Aside from the question of whether cutting those things would actually make the game more challenging, I think it would have had a wonderful effect of increasing build variety and really livening up discussion about classes, items and mechanics that have been largely ignored or rebuffed for being (relatively) weak.",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "iKrivetko",
+                    "body": "Enchantment spells are too strong to be cast as a bonus action with no limitations. If it were only illusion spells and/or there were a spell level limit and/or it had a per short rest or at least a per battle limit then it'd be okayish but being able to command grovel or hold 3-4-5 enemies every turn while you are pounding them is still extremely strong even if half of them pass their save. Acuity turns it to 11 because it also makes Hold Person/Monster 100% reliable which is essentially a death sentence for anything that isn't immune.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "None",
+                            "body": "I was mainly thinking about a fun and thematic Archfey warlock build. Attack twice and cast greater invis on yourself with your bonus action.\u00a0\nIf you have UA 7 Archfey Warlock mod with disappearing step, you're basically always invisible.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "JonSpartan29",
+            "body": "Call me crazy, but I wish Larian dropped a special dungeon with lots of legendary bosses + enemies and limited resources. Randomize it. Add loot. I'd play that all day and it would give players a challenge despite current rule set.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Phantomsplit",
+                    "body": "Trials of Tav mod?\n\nPC/Mac only.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Cunnin_Linguists",
+            "body": "Wow so I actually enforce these rules on my own playthroughs anyways, almost all the same rules (except elixirs)",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Real_Rush_4538",
+            "body": "It feels a bit silly to ban Slashing Flourish + Arcane Acuity specifically, when any archer Fighter from level 5 can have the exact same turn 1 of 4 shots with a bow into a bonus action scoundrel CC scroll / bonus action speed pot into scroll. Arcane Acuity is the problem child here, and hitting specific combinations that are good with it is not going to render it acceptable. \n\nThe other thing that often doesn't get mentioned is that vendor resetting isn't necessary to accumulate sufficient consumables to dominate the game with them. If you visit each vendor exactly one time, buy what you need, and leave, about the only thing you won't have in sufficient quantity is an arbitrarily large number of elixirs prior to act 3. Banning elixirs is not insignificant, but there just aren't enough fights in the game to place a harsh enough tax on consumables to outpace the rate at which they're acquired from merchants and corpses, even without any farming whatsoever.\n\nBut the biggest issue with this concept, admirable as the idea of increasing the difficulty of the game may be, is that the difficulty of BG3 does not come from mechanics, it comes from lack of knowledge. We know how to trivialize the game because we've been playing it for an extended period of time. A new player with zero prior knowledge can march off the Nautiloid, head to a fight like the Gith Patrol that's higher level than their party is, and promptly wipe out due to not having known they ought to have gone elsewhere first no matter what Lae'zel said. You can't replicate that with nerfs.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Phantomsplit",
+                    "body": "I agree banning arcane acuity specifically in the case of slashing flourish is silly. It is why I added additional comments on the topic of arcane acuity in the second table, and when I saw the results it is one of the things that motivated me to make my [rant post](https://www.reddit.com/r/BG3Builds/s/jZ9ua2L40j), and is one of the reason why I am moving on from trying to implement Rebalanced.\n\nThe consumables is more for people that are buying tons of arrows of many targets and scrolls of chain lightning and stuff, and hinging their build around the regular use of these consumables. Is it possible to get a ton of lightning and cold and fire arrows? Yes. Is it possible to to get a ton of scrolls like see invisibility, protection from evil and good, firebolt, vampiric touch, etc.? Yes Is it likely to get a ton of specifically the best arrows in the game, or scrolls of specifically the best spells in the game, and planning your build around that? Not without refreshing vendors.\n\nYou make a better argument than most on how game knowledge affects difficulty. But as mentioned in the post, it is really midway through Act 2 where the complaints mostly exist. If you are taking on the Gith patrol at level 3 or below and winning, it is because you know the ins-and-outs of the game and are using meta-knowledge. Once you get past Act 1 is where the complaints about balance really take off. Where even rather subdued builds can just start easily winning fight after fight, and builds that use the strategies in this post don't even break a sweat. Some of these strategies require pretty in-depth knowledge. Like spamming armour of shadows to fill Arcane Ward. But some of them don't at all. Does your party consist of two or three characters with 16 Dex or more? Congrats, you made the game way easier. Did you select the haste spell when it was presented to you on the level up screen, or often use those haste potions the game hands out to you? Congrats, you made the game way easier. Did you take abjuration wizard because in tabletop it is a slightly above average wizard subclass? Congrats, Act 3 just became a joke. Did you take one glimpse at Tavern Brawler and immediately realized that the balance train had left the station, and Larian never even bought a ticket let alone got onboard? Congrats because that is exactly right. There is no way Tavern Brawler should have made it into even a testing phase of this game. It is that egregiously bad.\n\nAs I have commented elsewhere in these comments,  I put down my first blind playthrough in disappointment due to the lack of difficulty. The only mechanic from the above post I used was abjuration wizard, and once I hit 10 wizard I respecced because the game was so easy. I had a Tav that was an Asmodeus Tiefling Lore Bard 5/Ancients Paladin 7 who was Cha based and mostly cast Moonbeam and cloud of daggers (no sanctuary) and may have used the attack action 5 times all playthrough after the tutorial. Lae'zel as a straight beast master ranger. Gale (later replaced by Jaheira) as a straight Land druid. And Shadowheart as a knowledge cleric 1/abjuration wizard 11, later respecced to evocation wizard. These are not OP builds like what is discussed in the post. This was my first playthrough. This was before the wiki was in 5% of the completion state that it now is. Game was still way too damn easy.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "DoubleFaulty1",
+            "body": "This mod, Zerd's Rules As Written (RAW), changes haste and perhaps a few other issues you highlight.  [https://www.nexusmods.com/baldursgate3/mods/1329?tab=description](https://www.nexusmods.com/baldursgate3/mods/1329?tab=description) Im planning my first playthrough and appreciate this post since I often find rpgs to be too easy and exploitable.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Wool_Toque",
+            "body": "I've just uploaded a mod people may be interested in: [Feat Rebalance Pack](https://www.nexusmods.com/baldursgate3/mods/14037/). There's a nerf-only version if you're not keen on my changes to the weaker feats. It nerfs:\n\n**Alert**\u00a0\u2013 now +3 Initiative\n\n**Great Weapon Master**\u00a0\u2013 \u2018Great Weapon Master: All In\u2019 has an attack roll penalty equal to your proficiency bonus (-2 to -4). The damage bonus is double your proficiency, minus 1 (3 to 7). In the model I used, GWM was still better than an ASI if you have Advantage, but to a less extreme level than previously, e.g. a Level 12 Barbarian hitting a 16 AC enemy twice will do 13.6 extra damage on average rather than 17.4. It can be a slight buff in Act 1/2 against the very highest AC enemies\n\n**Sharpshooter**\u00a0\u2013 \u2018Sharpshooter: All In\u2019 has an attack roll penalty equal to your proficiency bonus (-2 to -4). The damage bonus is double your proficiency, minus 1 (3 to 7). In the model I used, Sharpshooter was still better than an ASI if you have Advantage or good bonuses to hit rate (Archery Fighting Style etc.), but to a less extreme level than previously, e.g. a Level 12 Ranger, duel wielding with the Risky Ring and hitting a 16 AC enemy 3 times will do 20 extra damage on average rather than 25.6\n\n**Tavern Brawler**\u00a0\u2013 removed +1 Strength/Constitution. Replaced existing bonuses with +1 to unarmed/thrown/improvised attack rolls, and add your proficiency bonus (2 to 4) to your damage. You can use a bonus action to make an unarmed strike if you have an empty off-hand or are using a versatile weapon with no shield. Bonuses will now apply to Wild Shape in Honour Mode, and to Slayer form. Thrown attacks now work normally (preventing duplicate damage, ignored damage reduction etc.)",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Special-Estimate-165",
+            "body": "I agree with the vast majority of this....the only thing that catches my attention is consumables dependency.  Arcane Trickster is already looked down upon as it is....but the class revolves around being a scroll caster.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Phantomsplit",
+                    "body": "If you are using arcane trickster to cast whatever scrolls you find out and about, or occasionally buy from vendors, then that is fine. That line was more focused on people who spam rests or respecs to reset vendors and get a stack of 50 scrolls of chain lightning. Typically you see this with Sorc multiclass characters that shouldn't have access to 6th level spells to get access to them anyway (or use the scrolls to augment their limited number of spell slots), and use quicken meta magic to unleash two chain lightnings in one turn (or three with haste since Larian doesn't seem to think casting spells with haste action is a problem). Arcane tricksters opening up every fight with a surprise chain lightning with disadvantage thanks to the level 7 feature is also a bit nutty. If you get 3-5 chain lightning scrolls naturally, great. If you are farming them to make this a consistent strategy then that is where my objections are raised.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Wool_Toque",
+            "body": "New mod that caps Arcane Acuity at 3: [https://www.nexusmods.com/baldursgate3/mods/14595?tab=description](https://www.nexusmods.com/baldursgate3/mods/14595?tab=description)",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Phantomsplit",
+                    "body": "Thank you, I will add this to the post tonight!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Marcuse0",
+            "body": "At some point, if you're cutting out all these mechanics in order to \"rebalance\" the game, aren't you kind of missing out on the gameplay experience? Shouldn't you just mod out all items and consumables and force everything to be class vs class only?\n\nI agree that BG3 is an easy game once you grasp the mechanics. Hell even I've completed honor mode and I'm a casual scrub. But I think the impetus to make it nintendo hard by excising any mechanic which is even slightly effective or useful is just gutting the gameplay experience in order to tell yourself you're a better gamer by not using what the game has to offer.",
+            "score": 28,
+            "replies": [
+                {
+                    "author": "Ashamed-Comment-9157",
+                    "body": "These broken mechanics cause you to miss out on the gameplay experience.  Not much point interacting with any other game mechanics when you have 95% chance for everything because of TB or Acuity and enemies have 5% because of Radiant Orbs.",
+                    "score": 12,
+                    "replies": [
+                        {
+                            "author": "Objeckts",
+                            "body": "Do these rule changes actually accomplish that goal? Removing a bunch of  [degenerate strategies](https://www.techopedia.com/definition/27042/degenerate-strategy) usually just reveals more.\n\nSanctuary + Moonbeam, invisibility/sanctuary abuse, +10 DC Heightened Spell Confusion, Globe of Invulnerability, etc... all still exist. This ruleset doesn't actually fix the issue with degenerate builds outperforming normal builds, it just removes a few of the fast paced ones.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "slapdashbr",
+                                    "body": "sanctuary abuse is just bug abuse IMO",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Ashamed-Comment-9157",
+                                    "body": "Of course not, they're just an excuse to try other strats.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "TheMightyMinty",
+                    "body": "I personally think the gameplay experience is better when your choices turn-by-turn are meaningful instead of having a build being completely carried by a poorly balanced mechanic, so I'd actually say the opposite. My combat experience is being enhanced with restrictions like these. But I know that's a matter of taste and why this tag is optional.\n\nA lot of discussion around here on off-\"meta\" stuff is drowned out by people in replies saying \"just use X broken mechanic\" and it's a good thing that there's now a tag that specifically says \"I don't want you to tell me to just play with X broken mechanic\" IMO.",
+                    "score": 22,
+                    "replies": [
+                        {
+                            "author": "slapdashbr",
+                            "body": "I'd like to add that JUST using the d20 initiative mod is a massive \"fix\"\n\nthey had d20 init in EA for a long time. I'm not sure why they changed it. I'm not sure they even documented changing it. I don't know why it wasn't fixed. \n\nwith a d4 initiative instead of D20, Alert giving +5 is like if it gave +25 initiative with a d20 roll. You can see why that's beyond unbalanced and straight into broken territory.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "Marcuse0",
+                            "body": "I'm not suggesting people can't play how they want to play. I'm considering a no warlock run because I personally enjoy and find warlocks hard to not use. Conversely I hate bards despite common wisdom calling them OP. I don't want to tell people how to do a single player experience.\n\nBut I do wonder how much of the game you're cutting out by denying all these mechanics and options. Beyond a certain point you're redesigning the game itself, and I think honestly that efforts to make the game \"balanced\" (which seems to mean much much harder) are fighting the basic design of the game itself which doesn't seem to want to challenge the player to the degree people appear to want it to.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "TheMightyMinty",
+                                    "body": "I can only really give my perspective which is this (quotes just for setting up context):\n\n>I don't want to tell people how to do a single player experience.\n\nI don't think these changes amount to telling people how to do a single player run if that's the concern? The tag is optional and anyone who wants to rock tavern brawler + strength elixirs can still do so and find that kind of information here as well.\n\n>I do wonder how much of the game you're cutting out by denying all these mechanics and options\n\nI've played with a fair number of the broken mechanics myself, and tbh I would not even recommend a player use them on their first playthrough period. It causes this really weird wedge between the lore's \"oh shit, this guy is a big bad who almost ended the world a long time ago!\" and reality's \"oh hes dead already ok\". I think you experience more of the holistic picture of the game this way.\n\n>Beyond a certain point you're redesigning the game itself\n\nI think the 5e core is all still there. The goal is moreso removing Larian's more egregious homebrew. \n\n>the basic design of the game itself ... doesn't seem to want to challenge the player to the degree people appear to want it to\n\nThis is completely fair. Larian seems to be thoroughly on the side of \"this DnD campaign is a power fantasy\" and there's nothing really wrong with that.",
+                                    "score": 11,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "iKrivetko",
+                                    "body": "> Beyond a certain point you're redesigning the game itself\n\nWouldn't have to do it if Larian made at least Honour Mode worthy of its name.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "None",
+                    "body": "The aim seems to be nerfing EZ tacs in order to improve balance. Not much is getting removed.",
+                    "score": 23,
+                    "replies": []
+                },
+                {
+                    "author": "Phantomsplit",
+                    "body": "That is part of what I hope to do. Note how I recommend mods that change how elixirs , Tavern Brawler, or initiative works. If somebody made a mod capping arcane acuity at +2 or +3 I'd be more excited to use it. But as it is that is not the case. Hopefully this post is a way to inspire modders to create such mods.\n\nI don't want to see these things removed necessarily. I want to see them usable without breaking the game. But in lieu of official fixes by Larian or mods to do so, limiting yourself is unfortunately necessary if you want a challenge. Even if you give all enemies a +5 to their saving throws and 50% more health, an arcane acuity spammer that goes first thanks to d4 initiative and crowd controls enemies by spending a ton of spell slots, then long rests to get those spell slots back, isn't going to have a challenge. The mechanics characters have access to need to be reigned in for those who know what they are doing and still want a challenge where optimized builds and smart gameplay is necessary, just not allowed to run wild.\n\nAs far as removing stuff that is even \"slightly useful\" I really have to disagree. Rebalanced isn't saying ranged slashing flourish by itself turns off difficulty, even though it basically makes swords bard into a full caster and full on fighter all at once. It isn't saying that Githyanki having proficiency in 5 more skills than every other race and medium armor proficiency is banned. It's not saying Hunger of Hadar or Spirit Guardians is OP and shouldn't be used if you want a challenge. Because that doesn't fundamentally turn the balance of the game on its head. The topics discussed here are not \"slightly useful.\" They are absolutely game changing.",
+                    "score": 16,
+                    "replies": []
+                },
+                {
+                    "author": "yonkzoid",
+                    "body": "Those are heavy words telling them they\u2019re \u201cmissing out in the gameplay experience\u201d when they\u2019re playing the game how they want to.\n\nTo play \u201cadvocatus diaboli\u201d, isn\u2019t making super OP builds that completely trivialize encounters and kill everything on the first round of combat \u201ckind of missing out on the gameplay experience?\u201d.\n\nPlay how you want.",
+                    "score": 11,
+                    "replies": [
+                        {
+                            "author": "Marcuse0",
+                            "body": "I'm all for people playing how they want, but if you're slicing out all this stuff in order to make the game \"balanced\" then I question why bother even playing BG3 at all? The thing you're pushing against at base is the fundamental design of the game. It's like trying to make CoD a platformer by banning gunplay and refusing to use any map but one.",
+                            "score": -9,
+                            "replies": [
+                                {
+                                    "author": "Phantomsplit",
+                                    "body": "We are looking at 1% of the content in BG3 here. Maybe less than 1%. This is nowhere near taking all the guns out of CoD and it is dishonest and misleading of you to imply such.\n\nDex builds winning initiative in most cases outside of boss fights is a serious balance altering mechanic. Nobody here is saying \"no more Dex builds.\" We don't have people saying hag's hair is OP, or chain lightning is OP. Swords bard, light cleric, open hand monk (even without tavern brawler) as a class is way stronger than many other classes, but we aren't saying that playing them will remove all challenge from the game. There isn't anyone saying a 10 swords bard/2 paladin should be restricted.\n\nThis post focuses on a very, **VERY** narrow range of topics which the community indicated should be voted on after an initial post of mine asking for input. And after the vote many topics were not even included as needing addressing. Not a single spell, class, or subclass is outright stated as being incompatible with Rebalanced. I caution folks about abjuration wizard, but the community only said using a bug to exploit abjuration wizard is the problem. Ranged slashing flourish is super duper strong, but only really becomes a problem with arcane acuity where the interest really lies. The only feat that is discussed is Tavern Brawler. Alert is mentioned but that is because Larian made initiative a d4.",
+                                    "score": 16,
+                                    "replies": [
+                                        {
+                                            "author": "Marcuse0",
+                                            "body": ">dishonest and misleading\n\nI'm sorry, but this is taking this video game entirely too seriously.\n\nEdit: You know what, you do you. Clearly I'm not going to have any kind of impact here so go nuts. I have absolutely no interest in talking to you about it further.",
+                                            "score": -9,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "JonSpartan29",
+                    "body": "Agreed. Every game is like this when you master the rule set. I believe we need more challenging fights (perhaps DLC?!) vs rebalance, though Abjuration Ice Wizard is busted lol",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "helm",
+                    "body": "I personally mostly play like this. Haven't even tried TB out since it seems insane. Honor mode is pretty easy anyway. I admit I've abuse radiant orb a little with magic missile.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Jordamine",
+                    "body": "People may as well play the game without leveling too lol. If that's not enough of a challenge then \ud83e\udd37\ud83c\udffe\u200d\u2642\ufe0f",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Infinite-Ad5464",
+            "body": "Once I posted that TB is completely broken and was downvoted to hell. \n\n  \nI mean, it's even RP weird: my monk needs to be a drunk brute chair shattering in order to attack with strenght?\n\n  \nI think that not adding double Str in the To Hit would kinda fix it.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "Phantomsplit",
+                    "body": "It depends what day of the week you ask the sub, and how well spoken the first comment is. If the first comment is against what your post says, is well spoken, and is shorter than your post then many will skip reading your post, upvote the first comment, and downvote your post.\n\nI think a lot of people played with Tavern Brawler. And they don't like people telling them that they substantially reduced difficulty from typical values by using OP builds.",
+                    "score": 7,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "iKrivetko",
+            "body": "I *hate* the ambush bard!",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "Lithl",
+            "body": "> Not including taking a long rest before a boss fight, which is fine.\n\nWhy? 5e's balance is predicated on the notion of an adventuring day that drains resources. Saying it's \"fine\" to long rest before each boss fight isn't fundamentally different from saying it's fine to long rest before every single fight, from a balance perspective.\n\n> No using exploits (such as spamming Warlock\u2019s Armour of Shadows) to refill the arcane ward\n\nArmor of Shadows is not an exploit. It's just how Arcane Ward works. In tabletop, Armor of Shadows works even better than in BG3, because you don't have to equip armor in order to dispel the Mage Armor between each cast. (And in tabletop, it takes 1 minute to put on and 1 minute to take off light armor, 5m/1m for medium armor, or 10m/5m for heavy armor; Cast-Off Armor is magic armor that takes 1 action to remove.) Even if you didn't have Armor of Shadows, an Abjuration wizard in tabletop can just ritual cast Alarm to achieve the same goal.",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "Phantomsplit",
+                    "body": ">Not including taking a long rest before a boss fight, which is fine\n\nThis is mostly because of how Larian stages boss fights. Several boss fights in this game have a rest pod or fountain of rest or angelic reprieve potions before if the boss is located in an area where resting is restricted. One exception to this is the hag's lair, but that only has one fight when you actually get into there. Do I long rest before every boss fight? No. But a big part of that is I know where to get cheap exp to level up and which bosses are easier than others and can plan to go through zones which I know I am ready for. Honestly, I consider people voting this way and thereby removing from the conversation Sorcs that are only strong because of how many Sorc points they can go through in a turn from the Rebalanced discussion to be a win. And I think this spirit of making builds that don't long rest every fight will drive people to conserve resources a bit more.\n\n>Armor of Shadows is not an exploit. It's just how Arcane Ward works. In tabletop, Armor of Shadows works even better than in BG3, because you don't have to equip armor in order to dispel the Mage Armor between each cast.\n\nI agree with all this. But it also leaves out that in Tabletop the most a level 12 wizard's ward would absorb when at max value and without refilling is 29 damage. In BG3 that same ward on that same character could absorb 300 damage. If it starts at full in BG3, you and an ally are targeted by an AOE, and you use your reaction to shield that ally and you protect yourself (which doesn't use a reaction) you have just protected up to 47 damage. Not to mention another damage you may reduce during enemy turns. The exponential damage scaling is insane. At first the armor of shadows interaction worked just like 5e. But instead of fixing Arcane Ward to not scale exponentially, they instead tried to 'fix' Armour of Shadows being used to fill Arcane Ward. So I would say it is an exploit in BG3's eyes which should be restricted because of how nuts Arcane Ward is in this game.",
+                    "score": 10,
+                    "replies": []
+                },
+                {
+                    "author": "JonSpartan29",
+                    "body": "Abjuration ice wizard is the most busted build in this game lol\n\nGale legit *cannot die* by Act 3.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "420_DemonDark_X",
+                            "body": "One shove and your done",
+                            "score": -1,
+                            "replies": [
+                                {
+                                    "author": "Real_Rush_4538",
+                                    "body": "Boots of Striding would like a word.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "420_DemonDark_X",
+                                            "body": "I really wish those weren\u2019t armor",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Real_Rush_4538",
+                                                    "body": "It's fine, wizards want 2 levels in Tempest anyway.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "420_DemonDark_X",
+                                                            "body": "No I mean it would be nice with the robes of supreme defense",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Real_Rush_4538",
+                                                                    "body": "I don't see any reason you can't wear both the Boots of Striding and the Robe of Supreme Defenses at the same time.",
+                                                                    "score": 1,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "420_DemonDark_X",
+                                                                            "body": "Now try not to tank my ac with armor and robes but I\u2019m dumb I forgot your AC doesn\u2019t even matter with abj wizard",
+                                                                            "score": 2,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "Real_Rush_4538",
+                                                                                    "body": "It does matter, in that you want it to be lower, so this is an improvement.",
+                                                                                    "score": 2,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "420_DemonDark_X",
+                                                                                            "body": "I mean it doesn\u2019t matter if it\u2019s low.",
+                                                                                            "score": 1,
+                                                                                            "replies": [
+                                                                                                {
+                                                                                                    "author": "Real_Rush_4538",
+                                                                                                    "body": "It does. When you're provoking opportunity attacks to hit enemies with free Agathys damage, if they miss, you get nothing. That's why Agathys retaliation wizards and Radiating Orb clerics have antisynergy.",
+                                                                                                    "score": 1,
+                                                                                                    "replies": [
+                                                                                                        {
+                                                                                                            "author": "420_DemonDark_X",
+                                                                                                            "body": "Do you just like typing I agree with you that you want your AC low so it doesn\u2019t matter if you wear armor with robes on an abjuration wizard",
+                                                                                                            "score": 1,
+                                                                                                            "replies": [
+                                                                                                                {
+                                                                                                                    "author": "Real_Rush_4538",
+                                                                                                                    "body": "The reason it matters that you have a piece of armor is because that disables the \"free Mage Armor\" that you get from Ice Draconic Sorcerer. This lowers your AC by 3.",
+                                                                                                                    "score": 1,
+                                                                                                                    "replies": []
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Infinite-Ad5464",
+                            "body": "Fire Accuity Sorc bruh",
+                            "score": -1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Athanatov",
+            "body": "It's just a flair, right? I don't see a need to have the community legitimise the use of a single flair. Take your own ideas and some of the community's in the comments, and make a list that avoid the most egregious offenders. There's no way you'd ever get a cohesive list out of some random poll questions (some of which could have been better explained). I'd love to see some discussion of balanced builds without comments like 'why no TB/Arcane Acuity/etc.?'.\n\nAs a sidenote, you really don't need Ranged Slashing Flourish to stack AA. The melee variant is consistent enough and even a single Cleave could get you there. Valor Bard can still do a lot of the busted stuff Swords can.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "realitythreek",
+            "body": "Thanks for collecting this info! I actually did like the idea of tagging builds as rebalanced. But I think it\u2019s hard to do because we still disagree on what\u2019s unbalanced.\n\nFor example, I don\u2019t think ranged slashing flourish is unbalanced but I think using it to get acuity or stack up damage riders is. Lots of people disagree and that\u2019s my point.",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "Phaoryx",
+                    "body": "You don\u2019t think ranged slashing flourish is unbalanced? You think it\u2019s balanced to hit 1 enemy twice with one attack, and each hit gets an extra 1d6+ and triggers effects?? If you enjoy ranged swords bard and its you\u2019re favourite class, fine. But you shouldn\u2019t let bias get in the way of objective discussion",
+                    "score": 8,
+                    "replies": [
+                        {
+                            "author": "realitythreek",
+                            "body": "I think you missed the point. I was purposefully picking an opinion that I knew wasn\u2019t unanimous.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "Phaoryx",
+                                    "body": "No I get that, and I think your main point is totally valid. I just wanted to open the (civil) discussion on your example, \u2018cause I find it pretty polarizing to my own opinion",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "realitythreek",
+                                            "body": "Sure and to stay on topic, since you apparently have a strong opinion on this, how do you make a standard for tagging that people will commit to?",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Objeckts",
+                            "body": "Wait till you hear about a Fighter ~~10~~ 11, they get 3 attacks.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "realitythreek",
+                                    "body": "The complaint people have is that bard is also a full caster. You get 4-5 attacks, full caster progression, and you can even throw in a level of wizard for that whole spell list. It\u2019s a reasonable criticism but it\u2019s also super fun. So there\u2019s opinions on both sides.\n\nAnd also, yeah, fighter is a beast of a class.",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "Objeckts",
+                                            "body": "I'm not a fan of that criticism because scrolls just kinda exist and let anyone be a caster. \n\nThe wizard dip is a bit overrated. It gives shield and 1-2 other upcastable wizard spells, but it also ruins the characters item save DC. Normally it's just better to use the scrolls and skip the wizard dip.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "realitythreek",
+                                                    "body": "You respec and do wizard then bard. And sure you can use scrolls, but you can also be a full caster AND use scrolls.\n\nAnyway, I\u2019m just giving the argument, I think there\u2019s many the other things on the list are much more powerful. The bigger problems are acuity, arrows, elixirs, etc. They just happen to be multiplied by slashing flourish.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "Pokiehat",
+                                            "body": "Exactly. Tabletop Slashing Flourish allows you to roll a Bardic Inspiration die (1d10 at Bard level 10) on a successful weapon attack and then:\n\n1. add it the damage roll against your intended target. e.g. your weapon damage + 1d10.  \n2. 1d10 only against one other target you can see within 1.5m of you.  \n\nBG3's interpretation of Slashing Flourish (both melee and ranged) is very generous. The tabletop version lets you opportunistically gain double the value of your Bardic Inspiration dice if you choose to spend them on damage. \n\nIn BG3 you straight up get 2 weapon attacks in exchange for 1 die. Ranged Slashing Flourish is a de facto Extra Attack and it can be used with the actual Extra Attack you get at Bard level 6 to make 4 weapon attacks in a single turn. \n\nFighters get Improved Extra Attack at level 11 and its *still* one of the best class features any martial can get at that level.\n\nMelee Slashing Flourish is a 2-hit weapon attack with a cone AoE and among other things can trigger Divine Smite twice in a single action.\n\nThis is on a *full caster* with all of the best control spells in the game. I'm a Bard enjoyer, it is fun to pew pew like legolas and it is extremely OP.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Phaoryx",
+                                    "body": "It\u2019s Fighter 11 which is wildly different",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "JRandall0308",
+            "body": "You\u2019re trying to wrap up literally 15 different mechanics into one word. That is never going to work.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "TheMightyMinty",
+            "body": "I love these changes so much, but long rest spamming being considered more often than every 3-4 encounters shocks me. And that's AFTER a build is online? That still seems insanely frequent. I'd imagined 6-8ish would've been the number that was settled on.\n\nAt 3 encounters per long rest do you still even need to resource manage? Like if a combat is over in 2 rounds that's 2 spell slots, and you're already into blow resources on every character every round territory. Like I legit think that only a sorc and some martials can maybe run out of class resources before then XD",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "Ashamed-Comment-9157",
+                    "body": "The problem is that resource managing is boring for a lot of people.  It really sucks to finally get Cone of Cold or Chain Lightning and then not use it in most fights.  IMO the best balance would be if encounters were balanced around you having all your resources.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "DarkHorizonSF",
+                            "body": "I'm quite new to this game, but I'd also say that if I have to go 6\u20138 battles before a long rest with a fixed party of 4, then:\n\n1. I'm going to run short rest characters, and/or\n2. The only 6th level spells that exist to me are Heroes' Feast, Aid and upcast Conjure Elemental, and I'm building so my cantrips hit like a truck.\n\nAs it is I'm right near the end of my first playthrough and I've cast one 6th level spell, once, that wasn't one of the above (Disintegrate \u2013 it was saved). I'm planning to long rest *more* on my next playthrough so it doesn't feel so bad to actually explore the diversity of the spell list! I think I'd enjoy this game more long resting after 3 battles and only allowing myself one short rest in that time, the only thing I'd have to watch out for is not abusing metamagic.",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "TheMightyMinty",
+                            "body": "I know it's all personal preference but I'm the opposite. Saving that spell slot over a grueling day and using it in a key moment that enables a clean win against a would-be hard fight (which, of course doesn't exist in this game in any capacity unless you're resource-restricted in the first place) feels great to me. \n\nThat aside, I don't like full resources on every fight within 5e,. I think it can work really well, but not in this system. There's too many class features baked into the game that are geared towards sustain for it to feel balanced, regardless of what you do with the enemies.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "Ashamed-Comment-9157",
+                                    "body": "5e is just a bad system for a video game tbh.",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "Objeckts",
+                                            "body": "5e combat is filled with even more degeneracy than BG3. The reason 5e works is because of all the social and noncombat situations which can't be solved by tucking the whole party into Rope Trick.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "lkn240",
+                                    "body": "I think the answer is somewhere in the middle.\n\nOne issue is that restricting long rests impacts some classes way more than others.  Warlocks aren't impacted at all (or are barely impacted).  Fighters are lightly impacted, etc.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "-SidSilver-",
+            "body": "I think some rebalancing should probably also including boosting weaker classes, no?\n\nThe Arcane Trickster - for instance - is kind of a joke.\n\nI personally think that the Ring of the Mystic Scoundrel should be changed from proccing on an attack, to proccing when a character is hidden. Not only does it suit the 'style' of the ring more (being an Arcane Scoundrel, rather than an Arcane smasher), but it prevents characters with more attacks (Swords Bards/Thieves using their second bonus action) from doing damage, getting a free bonus action cast and then making another second attack.\n\nIt's much better for the Action Economy.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "kruptah",
+            "body": "Anyone play a gnome as a bard with college or lore? Any tips/advice would be appreciated!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Real_Rush_4538",
+            "body": "I'm curious, are you going to run another poll after patch 8 gives us another dozen subclasses? With the base game changing, it seems like as good an excuse as any.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Phantomsplit",
+                    "body": "If anything is as gamebreaking as something like arcane ward or ranged slashing flourish, maybe",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "lehy",
+            "body": "Should these rules apply in a solo run?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Phantomsplit",
+                    "body": "No. Arguably you may need to exploit d4 initiative in a solo run. If the enemy goes first and hits you with a hold person, that could be game over.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "lehy",
+                            "body": "Any restrictions or none because it's solo?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Phantomsplit",
+                                    "body": "Restricting options for solo playthroughs is not normally a topic discussed on this sub. If playing on tactician or below I think a lot of these restrictions remain fair. But on honour mode where you have single save and bosses have some tuned up mechanics, I think that makes some of these mechanics a bit less egregious. The go-to strategy for solo honour mode is to enter combat from stealth as a gloomstalker assassin, kill half the enemies, since you won initiative you get to go again before everyone else, kill a large chunk of remaining enemies, then use bonus action to hide and leave combat. Rinse-and-repeat. These types of tedious strategies (tons of summons with a lot of buffs for the summons, or owlbear from the top rope everything, barrlemancy, etc.) are not covered by the intent of this topic. If you are doing something other than gloomstalker assassin surprise spam, your solo-honour mode will be 10x more difficult than the average person's.\n\nSo since there isn't too much discussion on this, I'll give my two cents. Ask again in a couple months and maybe my opinion will change. First the restrictions I think need to remain in place. Arcane acuity combined with always winning initiative on a build that is able to build up arcane acuity with their action, then crowd control with their bonus action (e.g. Sorc using hat of fire acuity and scorching ray combined with quicken metamagic) feels like too much to me, even for solo-honour mode. A more tame arcane acuity build is fine. Camp casting also feels like it is too much, even for solo-honour mode. I feel like you should still use honour mode character rules when it comes to haste and DRS. I feel like spamming rests to reset vendors and get scrolls of chain lightning or arrows of many targets should also remain off limits.\n\nNext the restrictions I think can be slackened for solo honour mode. I think tavern brawler becomes more acceptable in a solo honour mode playthrough, though cheesing elixirs along with it seems too much to me.  In this post I recommend against taking abjuration wizard above level 6, but for a solo playthrough I could see a cap of about 9 (or maybe even no cap, it's tough to say with the exponential scaling of this feature and the additional ability abjuration wizards get at level 10). Radiating orbs is not as big an offender as arcane acuity, and I could see lifting any restrictions here. And in fact I think it may be necessary to not restrict initiative and just go all-in with d4 initiative in order to have a chance with solo honour mode.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "lehy",
+                                            "body": "Thanks for your feedback man, appreciate it. I think i know what i'll do next run.",
+                                            "score": 1,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "lehy",
+                                            "body": "Thank you so much for your input!\n\nStarting the run and just wanted to summarize read quick:\nNo arcane acuity\nNo camp casting\nNo haste spell or pots\nNo spamming rests or level to reset vendor (however, you can use any consumables [elixirs, arrows, scrolls,etc.])\nNo TB & Str. elixirs (str. elixir okay withour TB)\nNo Abjuration wizard above 9\n\nAnything corrections or anything else before i start the solo run?",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "TheRainbowpill93",
+            "body": "Personally I don\u2019t think the wet combo needed a rebalance considering that\u2019s just about the only damage casters have that can compete with martial damage.\n\n\nArcane Acuity definitely needs to be rebalanced though. More-so the helmet for martials. They should all be capped at +5 and the fire/thunder capped at +5. \n\nFire acuity is the only thing keeping fire damage on the same playing field as Lightning. If you nerf that , you have to buff heat and personally I think heat should have its cap made infinite with slightly increasing burning damage. That way you\u2019re limited by your spell slots + hp how hard the next fire hit will be.",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "grousedrum",
+            "body": "Thank you for this, great and interesting to see the high level voting results here.  Appreciate reading your additional thoughts and comments as well (both in the voted on areas and the further topics).\n\nReally hoping something similar to combat extender might be possible as an official mod someday (I am on mac, so the script extender based mods are not an option).  Closest currently seems to be setting the in-game Custom difficulty settings to their hardest options (honor rules and stats, -1 proficiency bonus, 3x rest resources, 4x vendor prices) plus the d20 initiative mod and self imposed restrictions like those on this list.  This all combined with three character parties rather than four has added up to a decent boost to the challenge level, while still allowing for the kinds of multi character build synergies and styles that make the game so interesting and varied.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "Ok-Chard-626",
+            "body": "So here are some of my question on how people will do the more ambiguous restrictions. Other people can rate my thoughts too. I'll do another post about second set of rules.\n\n1. LR spamming: obviously, sometimes one particular boss fight can go pretty wrong and you end up exhausting all resources and must do a back to back LR before and after the boss fight. \n   * One way I can think of it is limiting how many LRs you can have in a particular stage. Like how many before you must finish the grove, then how many before you must reach Moonrise, etc. Are there any suggestions on how this can be implemented?\n   * I don't think custom ruleset -> 3x camp supply cost would be enough.\n2. HM rules: no comments. On by default. Though I think not allowing using hasted action to cast may push the caster into Sorc's quicken spell too much? I'll try not to because I think in some previous editions, haste does not allow you to cast two spells in one round either.\n   * Maybe custom ruleset -> hide failed perception roll too. But I guess this will just mean honor players would memorize all traps etc.\n3. Camp casting: one thing I can think of is to restrict mercs as well. Especially if you think wizard dip is fine. Shadowheart or Jaheira for example can now take a level 2 wizard dip in transmutation and double as a herbalist/potion maker which can even be lore acceptable.\n4. Elixir rebalance: no comments. The rebalance mod seems good.\n5. Consumables. I think maybe limit using LR to restock merchants should be sufficient? Or loot only.\n6. TB: mod seems good.\n7. Ranged Slash fluorish: no comments. I think maybe restrict it like Hunter ranger's multi attack ability.\n8. no comments.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "razorsmileonreddit",
+            "body": "The only difficulty mods this game really needs are:\n\n1) let the enemies have access to all the buffs and debuffs you have access to. **And** all the same best-in-slot item/ability combos that players have. You know the ones, OP already pointed them out in detail.\n\nIf nothing else, it would at least begin to justify actually using a broken build when a non-boss enemy has 31 AC, Mirror Image, Blur and a rebuke spell.\n\n2) enemy reaction to invisibility/stealth: instead of one guy running to your last known location to cast Detect Presence (while you crouch in the shadow of a tree six inches away), only for them to forget you exist after literally about 18 seconds, have **every** surviving enemy from the encounter pop See Invisible *permanently* and run a grid search pattern for like 50 turns.  Doesn't need any special AI programming, just have each one walking a square sized to their movement distance while Seeing Invisible.\n\nThey already more or less do this with the Steel Watch in Act 3 so just make it universal. Like the universal Detect Presence they already all do.\n\nWould at least force players to actually exert themselves for stealth. People might actually use Pass Without Trace for something other than the Greater Invisibility cheese.\n\n2b) same as above but for invisibility fight resetting. Gloomstalker Assassin is more than strong enough even if the enemies survive Round 1 and kiting is a valid tactic that actually fits the world.",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "My_Name_Cant_Fit_Her",
+                    "body": ">1) let the enemies have access to all the buffs and debuffs you have access to. And all the same best-in-slot item/ability combos that players have. You know the ones, OP already pointed them out in detail.\n\n>If nothing else, it would at least begin to justify actually using a broken build when a non-boss enemy has 31 AC, Mirror Image, Blur and a rebuke spell.\n\nI'm not a fan of making enemies broken as well because that'd just pigeonhole players further into being forced to use broken builds. In the base game, even not super experienced players can still finish the game just fine on HM using adequate, non-optimized builds and play styles. \n\nAt least for me, a major part of rebalancing (through mods or personal restrictions) is not only to make the game more challenging but also increasing build diversity. Not only do I not find it fun when what should be difficult boss fights are actually a breeze, I also don't enjoy it when there aren't any real choices in feats/spells/items because only a select few are worth using.\n\nThis is why I use the Rebalance suite of mods by Syrchalis (on mobile so too lazy to link but I discuss them in another comment here), which actually gives many (mostly minor) buffs to underpowered or underutilized spells and feats.\n\nI personally instead prefer the approach of mods nerfing these OP mechanics, although buffing enemies through mods like Combat Extender is still needed even with mods. I just don't think it's ideal to buff enemies by an extraordinary amount because you go back to square one of the problem of crowding out so many of this game's cool build options.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "razorsmileonreddit",
+                            "body": "Fair enough, you are making a lot of sense. What are your thoughts on the AI dealing with player stealth?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "My_Name_Cant_Fit_Her",
+                                    "body": "Don't disagree with any of those suggestions. I'll caveat that I have limited experience with stealth/invisibility myself, but I've seen that it does become ridiculous when abused. I've myself seen invisibility break enemy AI even when not abusing it.\n\nAt least for 2b though, I feel that strategies like fight resetting falls into the same category of cheese like barrelmancy and goes beyond the scope of discussions around balancing the game. These mechanics are outside the realm of \"regular\" combat and players that abuse them likely aren't interested in the same balancing ideas that we would be. Players who enjoy using these mechanics may not be interested in such a mod as you have to go out of your way in the first place to abuse the mechanic.\n\nTo be clear, my impression is that players that use invisibility fight resetting often combo with other restrictions such as solo HM runs, and at that point it kind of becomes a different game, so I'm not trying to disparage that playstyle at all.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "title": "My little Cozy homelab",
+    "author": "math394p",
+    "subreddit": "homelab",
+    "rank": 8,
+    "score": 92,
+    "upvote_ratio": 0.98,
+    "num_comments (reported by reddit)": 7,
+    "url": "https://www.reddit.com/gallery/1je8wo9",
+    "id": "1je8wo9",
+    "selftext": "Everything is rack mounted and linked with 2.5gbit ethernet \nSpecs: \n\nMain pc: cachyos and win 11\nCPU: R9 5900X\nRAM: 64GB 3600MHZ\n4tb NVME (cachyos)\n2tb nvme (win 11 for bf4)\nGPU: RTX 3080TI\n\nMain server: Debian 12\nServices: plex, sonarr, radarr, overserr, prowlarr, tautilli, homarrr, qbittorrent, adguard, glances, docmost \nCPU: I7 12700k (quicksync for plex)\nRAM: 64gb 3600MHZ\n2tb nvme\n45TB of assorted harddrives (for \"linux ISO,s)\n\nLab server: proxmox \nCPU i7 9700k\nRAM 64gb\n500gb nvme \n4tb hdd\n\nDL20: no current use just for fun\nXeon E3-1280 v5\n64gb 2400mhz Ecco\n240gb ssd\n3x 500gb hdd\n\n ",
+    "comments": [
+        {
+            "author": "NC1HM",
+            "body": "Um, if it's cozy, then where's the cat? `:)`",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "math394p",
+                    "body": "https://preview.redd.it/zchk9l3h9hpe1.jpeg?width=3072&format=pjpg&auto=webp&s=b80c01550525c8e8f381c93c52ef0b749d827eaa\n\nRight here :)) he was outside playing",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "NC1HM",
+                            "body": "Awww... Kitteh! `:)`",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "Rikka_Chunibyo",
+                            "body": ":D i need a cat",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "cruzaderNO",
+            "body": "Also got a stack of those lanberg cases, love how plain/basic they are (and how dirt cheap they are) for just mobo and AIO heatsink in one of the 120mm front slots.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "math394p",
+                    "body": "Only problem i have is the lack of hdd space. I jerry rigged it so i used two of the hdd brackets and put them together for a total of 12\\~ drives but ended up moving it back to a regular case as it didnt have space for the bigger cpu cooler for the new cpu\n\n(Attached pic of old setup)\n\nhttps://preview.redd.it/zmjes4j9eipe1.jpeg?width=4096&format=pjpg&auto=webp&s=dbe3fadd298a39d6209cd2883a41b9b4180833e5",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "cruzaderNO",
+                            "body": "Using the hdd mounting they started to include in them (was nothing like that in them originaly) just looks like a bad idea unless using something like a itx board or very small cooler.\n\nNot sure why they thought it was a good idea to add them to that case at all with how compact it is.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

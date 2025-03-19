@@ -1,0 +1,421 @@
+{
+    "title": "SmolDocling - 256M VLM for document understanding",
+    "author": "futterneid",
+    "subreddit": "LocalLLaMA",
+    "rank": 10,
+    "score": 189,
+    "upvote_ratio": 0.98,
+    "num_comments (reported by reddit)": 62,
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1je4eka/smoldocling_256m_vlm_for_document_understanding/",
+    "id": "1je4eka",
+    "selftext": "Hello folks! I'm andi and I work at HF for everything multimodal and vision \ud83e\udd1d\nYesterday with IBM we released SmolDocling, a new smol model (256M parameters \ud83e\udd0f\ud83c\udffb\ud83e\udd0f\ud83c\udffb) to transcribe PDFs into markdown, it's state-of-the-art and outperforms much larger models\nHere's some TLDR if you're interested:\n> The text is rendered into markdown and has a new format called DocTags, which contains location info of objects in a PDF (images, charts), it can caption images inside PDFs\n> Inference takes 0.35s on single A100\n> This model is supported by transformers and friends, and is loadable to MLX and you can serve it in vLLM\n> Apache 2.0 licensed\nVery curious about your opinions \ud83e\udd79",
+    "comments": [
+        {
+            "author": "Roger_mudd2",
+            "body": "link or nah?\n\nEdit: [https://huggingface.co/ds4sd/SmolDocling-256M-preview](https://huggingface.co/ds4sd/SmolDocling-256M-preview)",
+            "score": 29,
+            "replies": [
+                {
+                    "author": "futterneid",
+                    "body": "Links :\n\n\nSmolDocling is available today \ud83c\udfd7\ufe0f\n\ud83d\udd17 Model: https://huggingface.co/ds4sd/SmolDocling-256M-preview\n\ud83d\udcd6 Paper: https://huggingface.co/papers/2503.11576\n\ud83e\udd17 Space: https://huggingface.co/spaces/ds4sd/SmolDocling-256M-Demo\nTry it and let us know what you think! \ud83d\udcac",
+                    "score": 12,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "frivolousfidget",
+            "body": "Is it better than full docling?",
+            "score": 13,
+            "replies": [
+                {
+                    "author": "futterneid",
+                    "body": "This model comes from the team behind Docling, it was a collaboration with my team at Hugging Face. The goal is for SmolDocling to be better than full docling, but I'm not sure if it's quite there yet. The team is working on integrating it into Docling and we should have a more clear answer in the next few weeks. On the other side, we are also training new checkpoints improving the model based on the feedback we are receiving!",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "frivolousfidget",
+                            "body": "Thanks! I use docling extensively and this will be an amazing addition! Being that small I imagine that I wont even need a GPU server.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "vasileer",
+            "body": "in my tests involving tables to markdown/html it hallucinates a lot (other multimodal LLMs also do)\n\nhttps://preview.redd.it/q0j8997sggpe1.png?width=1193&format=png&auto=webp&s=fc0e11ac9740f65069bdfd1357f433dc57f0690a",
+            "score": 22,
+            "replies": [
+                {
+                    "author": "asnassar",
+                    "body": "We have a new checkpoint coming that improves tables significantly. We were aiming with SmolDocling to have base on how we aim to do document conversion with VLMs.",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "Ill-Branch-3323",
+                    "body": "I always think it's kind of LOL when people say \"document understanding/OCR is almost solved\" and then the SOTA tools fail on examples like this, which are objectively very easy for humans, let alone messy and tricky PDFs.",
+                    "score": 8,
+                    "replies": [
+                        {
+                            "author": "deadweightboss",
+                            "body": "the funniest thing is that fucking merged columns were always the bane of\nany serious person\u2019s existence and they continue to be with these vllms",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "Django_McFly",
+                                    "body": "It didn't get tripped on the merged column though.  It handled that well.  Cells being two lines made it split the cell into two rows and have one completely blank row (which is kinda a good thing as it didn't hallucinate date or move the next real row's data up).",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "AmazinglyObliviouse",
+                            "body": "It is absolutely insane how bad VLMs actually are.",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "SomeOddCodeGuy",
+                    "body": "It's a bajillion times larger than the smoldocling model, but Qwen2 vl 72b does a pretty decent job. This is a workflow of Qwen2 VL 72b and Llama 3.3 70b, and they captured the numbers well at least. A second pass and then cleanup from a coding model would probably result in a strong workflow if this was your usecase.\n\n**EDIT:** This was first pass, so I don't necessarily expect perfection; the joy of workflows is taking multiple passes at something. Could do similar with a smaller vision model as well. This weekend I plan to do this task with personal docs, and I'd absolutely go for a more elaborate flow for this; it will take longer but likely have a higher confidence level on results.\n\nhttps://preview.redd.it/oobmkq56lhpe1.png?width=3266&format=png&auto=webp&s=897faf3f34bae93b719537621e46691d415bd08d",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "__JockY__",
+                            "body": "Interesting, are you using those big vision models to convert PDFs to HTML?",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "SomeOddCodeGuy",
+                                    "body": "Still something I'm tinkering with, but that's the plan. This weekend I was going to turn this into a pipeline to read through personal documents and categorize them, but I still need to test it more. I only just finished with the current workflow sunday night, so havent had a lot of time to test it carefully yet.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "__JockY__",
+                                            "body": "That\u2019s cool. I\u2019m going to be doing a similar thing and I\u2019ll be comparing those 2 models you mentioned plus Gemma3, which has been pretty good for vision stuff in my limited testing so far. It should be significantly faster than the 70B/72B, too.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Glittering-Bag-4662",
+                            "body": "How are you running Qwen2 VL 72B? Does kobold cop have support?",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "SomeOddCodeGuy",
+                                    "body": "It does! And Im hoping that when the Llama.cpp PR finishes for Qwen2.5 VL, Kobold should be good to go for that as well. So far I really like this model. It's not perfect, but it's close enough that I feel like I can solve the remaining issues with workflow iterations.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "Glittering-Bag-4662",
+                                            "body": "Nice. Now gotta go figure out how to use kobold cpp\u2026",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "vasileer",
+                            "body": "in your example it ignored a header cell entirely (col span issue), I have other tables, all vision transformers are hallucinating at some of them, including gp4o",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "sg22",
+                                    "body": "It also dropped \"Kleinsiedlungsgebiete (WS)\" from the second to last column, which is a genuine loss of information. So not really a fully satisfying result.\n\nI've heard that Gemini is supposedly one of the best models for OCR, does that align with your tests?",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "poli-cya",
+                    "body": "Is that a trick pdf? The \"und\" seems like a trap as it leads the AI to assume the next line is part of that line. Do you think that's what happened?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "vasileer",
+                            "body": "those \"trick pdfs\" that I have are real world tables extracted from pdfs, these are tables with col spans, row spans, or contain some cells with no values",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "poli-cya",
+                                    "body": "I was just curious, not accusing. Do you see my point on how the und seems misplaced and likely led to it combining those rows?",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "Calcidiol",
+                                            "body": "To me it looked at first glance like a clear case of it not dealing with wrapped text in column 1, row 4 of the table.  That cell like the rest clearly has a bordering box.  There is even consistently straight column alignment and row alignment in a grid.  So the layout cell boundaries make it clear it must be treated as a single cell and whatever context is in there interpreted as part of the associated row & column.\n\nWhat the text in the cell says and how it is text-wrapped should be arbitrary other than it maybe being smart about realizing that a text wrap is not here semantically relevant to the meaning and isn't any kind of 'breaking' context separation to the text on line 1 / 2 of the cell.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Chromix_",
+            "body": "Wow, that's indeed Smol.\n\nHere's the link to the full Docling project for all the nice pipelining when testing the model: [https://github.com/docling-project/docling](https://github.com/docling-project/docling)",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "dodo13333",
+            "body": "What languages are supported?",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "g0pherman",
+                    "body": "Good question. I mainly work with Portuguese so usually those tools are a little worst in it",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "futterneid",
+                    "body": "we trained and evaluated on English. Anecdotally, it seems to work well for other languages with the same notation, I think training on so much code and equations made the model very resilient to \u201cfixing\u201d the text, so it pretty much writes what it sees and then the language is less important. But expanding to more multilingual support is definitely the next step if this gets a good reception \ud83e\udd17",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "No_Afternoon_4260",
+            "body": "Won't test it just now, i m in holidays but thank you guys for all this work and these partnerships \ud83e\udd79\nGreat initiative we need such tool",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "futterneid",
+                    "body": "Thank you! IBM was a great partner for this \ud83e\udd17",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "fiftyJerksInOneHuman",
+                            "body": "Really? Was Granite used in any way to produce this?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "asnassar",
+                                    "body": "We used Granite Vision to weakly annotate charts within full pages in some cases.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Mr_Moonsilver",
+            "body": "How does it perform vs the original docling?",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "futterneid",
+                    "body": "This model comes from the team behind Docling, it was a collaboration with my team at Hugging Face. The goal is for SmolDocling to be better than full docling, but I'm not sure if it's quite there yet. The team is working on integrating it into Docling and we should have a more clear answer in the next few weeks. On the other side, we are also training new checkpoints improving the model based on the feedback we are receiving!",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Mr_Moonsilver",
+                            "body": "Thank you man, this is outstanding! I believe this is very, very interesting.\n\nIs it a fair assumption that this is intended to be deployed in specific use-cases and pipelines where the variation of inputs is small enough to create a dedicated fine-tune?",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "vertigo235",
+            "body": "How does it do with CPU only?",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "futterneid",
+                    "body": "The base model is smolvlm. We still haven\u2019t optimised it for cpu only, but I suspect that it could be done and would be good! I have an intern starting next month and this is one of the topics that I will propose that they explore :)\u00a0",
+                    "score": 6,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "futterneid",
+            "body": "SmolDocling is available today \ud83c\udfd7\ufe0f\n\ud83d\udd17 Model: https://huggingface.co/ds4sd/SmolDocling-256M-preview\n\ud83d\udcd6 Paper: https://huggingface.co/papers/2503.11576\n\ud83e\udd17 Space: https://huggingface.co/spaces/ds4sd/SmolDocling-256M-Demo\nTry it and let us know what you think! \ud83d\udcac",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "LiquidGunay",
+            "body": "0.35s per page is with batch size 1? Is it possible to run with a larger batch size? If it is a vlm then can something like vLLM be used for more efficient serving?",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Enough-Meringue4745",
+                    "body": "\ud83d\ude80 Fast Batch Inference Using VLLM\n\n    # Prerequisites:\n    # pip install vllm\n    # pip install docling_core\n    # place page images you want to convert into \"img/\" dir\n    \n    import time\n    import os\n    from vllm import LLM, SamplingParams\n    from PIL import Image\n    from docling_core.types.doc import DoclingDocument\n    from docling_core.types.doc.document import DocTagsDocument\n    \n    # Configuration\n    MODEL_PATH = \"ds4sd/SmolDocling-256M-preview\"\n    IMAGE_DIR = \"img/\"  # Place your page images here\n    OUTPUT_DIR = \"out/\"\n    PROMPT_TEXT = \"Convert page to Docling.\"\n    \n    # Ensure output directory exists\n    os.makedirs(OUTPUT_DIR, exist_ok=True)\n    \n    # Initialize LLM\n    llm = LLM(model=MODEL_PATH, limit_mm_per_prompt={\"image\": 1})\n    \n    sampling_params = SamplingParams(\n        temperature=0.0,\n        max_tokens=8192)\n    \n    chat_template = f\"<|im_start|>User:<image>{PROMPT_TEXT}<end_of_utterance>\n    Assistant:\"\n    \n    image_files = sorted([f for f in os.listdir(IMAGE_DIR) if f.lower().endswith((\".png\", \".jpg\", \".jpeg\"))])\n    \n    start_time = time.time()\n    total_tokens = 0\n    \n    for idx, img_file in enumerate(image_files, 1):\n        img_path = os.path.join(IMAGE_DIR, img_file)\n        image = Image.open(img_path).convert(\"RGB\")\n    \n        llm_input = {\"prompt\": chat_template, \"multi_modal_data\": {\"image\": image}}\n        output = llm.generate([llm_input], sampling_params=sampling_params)[0]\n        \n        doctags = output.outputs[0].text\n        img_fn = os.path.splitext(img_file)[0]\n        output_filename = img_fn + \".dt\"\n        output_path = os.path.join(OUTPUT_DIR, output_filename)\n    \n        with open(output_path, \"w\", encoding=\"utf-8\") as f:\n            f.write(doctags)\n    \n        # To convert to Docling Document, MD, HTML, etc.:\n        doctags_doc = DocTagsDocument.from_doctags_and_image_pairs([doctags], [image])\n        doc = DoclingDocument(name=\"Document\")\n        doc.load_from_doctags(doctags_doc)\n        # export as any format\n        # HTML\n        # doc.save_as_html(output_file)\n        # MD\n        output_filename_md = img_fn + \".md\"\n        output_path_md = os.path.join(OUTPUT_DIR, output_filename_md)\n        doc.save_as_markdown(output_path_md)\n    \n    print(f\"Total time: {time.time() - start_time:.2f} sec\")",
+                    "score": 13,
+                    "replies": [
+                        {
+                            "author": "LiquidGunay",
+                            "body": "Thanks a lot",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "You_Wen_AzzHu",
+            "body": "Thanks \ud83d\udc4d I will deploy to the DEV environment for a quick test.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Glider95",
+            "body": "Does it support structured outputs ? I went through Docling documentation and could only see DoclingDocument to Markdown or HTML.\nAs well, could a document template be used as input to increase key pair value accuracy (Template + Document to extract)?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "asnassar",
+                    "body": "We have plans for Key Value extraction [https://github.com/docling-project/docling-core/blob/7ed4d225b67dd41aa2c3e7c0d4b2b96f9e95114e/docling\\_core/types/doc/document.py#L1504](https://github.com/docling-project/docling-core/blob/7ed4d225b67dd41aa2c3e7c0d4b2b96f9e95114e/docling_core/types/doc/document.py#L1504)\n\nWe just wanted the output when you do document conversion to be as minimal and produce as less tokens as possible, but be compatible with DoclingDocuments so then you are able to utilize all the different features Docling provides. However you are free to parse out the key values as you wish!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "r1str3tto",
+            "body": "This is a very interesting release! A question related to fine-tuning: is it feasible to tune this model to support domain-specific document tags?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "asnassar",
+                    "body": "Yes it is possible to fine-tune or extend, that's why we are open sourcing it. We however encourage you if you think there are extensions that could be made to checkout our package  [docling-core](https://github.com/docling-project/docling-core/tree/main) and contribute this for everyone.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ResearchCrafty1804",
+            "body": "Incredible performance for such a small model!\n\nI am already integrating in a production app that processes financial statements uploaded by the user. It will replace an API used for OCR if it\u2019s proved to be reliable.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "parabellum630",
+            "body": "I have seen aot of small models for Ocr recently, what makes OCR so suited for smaller model sizes, what other type of tasks can be shrunk to smaller models.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "futterneid",
+                    "body": "Small LLMs are basically pretty dumb, and OCR is just reading stuff without reasoning at all. Seems like a match made in heaven. Large LLMs struggle because they want to \"fix\" what they read, ie, they tend to avoid gramatical mistakes that are present in the text.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "parabellum630",
+                            "body": "Huh, that's interesting. Never thought of it like that",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "WackyConundrum",
+            "body": ">Inference takes 0.35s on single A100\n\nOK, thanks, good to know. /s",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Glittering-Bag-4662",
+            "body": "Does it work in ollama? Plug and play gguf?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "futterneid",
+                    "body": "yep!",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Glittering-Bag-4662",
+                            "body": "Do you have the link to the gguf files? Having trouble finding them on hugging face",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "masc98",
+            "body": "multilinguality?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "futterneid",
+                    "body": "People have been reporting good results on European languages, but we didn't properly evaluate it yet.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "JFHermes",
+            "body": "Hey does this mean it's already been implemented into docling as well?\n\nI've been looking forward to this release.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "futterneid",
+                    "body": "The implementation into docling will follow in the next 1-2 weeks.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "JFHermes",
+                            "body": "Nice. I've been trying to get my own ocr pipeline for image summaries so it's really nice that this will be inbuilt.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Glittering-Bag-4662",
+            "body": "How does it compare to qwen2.5 VL?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "futterneid",
+                    "body": "It beats Qwen2.5 VL 7B in all the document understanding evaluations we did! You can check more details in the paper: [https://huggingface.co/papers/2503.11576](https://huggingface.co/papers/2503.11576)",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Glittering-Bag-4662",
+                            "body": "Sick! Now to figure out how to run it in ollama\u2026",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

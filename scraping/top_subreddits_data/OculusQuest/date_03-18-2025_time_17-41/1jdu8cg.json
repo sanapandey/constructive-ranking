@@ -1,0 +1,547 @@
+{
+    "title": "Using a light spatial camera, the Quest makes it easy and quick to relive moments. The viewing experience of spatial videos feels almost identical to the real world.",
+    "author": "forest_lin",
+    "subreddit": "OculusQuest",
+    "rank": 6,
+    "score": 219,
+    "upvote_ratio": 0.95,
+    "num_comments (reported by reddit)": 81,
+    "url": "https://v.redd.it/r4cz7u45ucpe1",
+    "id": "1jdu8cg",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "dEEPZoNE",
+            "body": "Appox how much will this cost ?",
+            "score": 12,
+            "replies": [
+                {
+                    "author": "forest_lin",
+                    "body": "Around $120.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "dEEPZoNE",
+                            "body": "What format will it use ?  And what is the video specs ?",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "forest_lin",
+                                    "body": "Format: mp4, h.265, SBS or MVHEVC (iPhone only). \n\nVideo resolution: 1920x1600 per eye, frame rate: 30fps, FOV: 66\u00b0x55\u00b0, PPD: 29, IPD: 65mm.",
+                                    "score": 2,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "GurDizzy1114",
+                                    "body": "They already have a facebook launch group. I think you can find the detailed specs you need in the group: [https://www.facebook.com/groups/2343753945989429](https://www.facebook.com/groups/2343753945989429)\n\nhttps://preview.redd.it/mo9i994uxgpe1.png?width=1509&format=png&auto=webp&s=c78d6380d4b5a5c4903639283affc3562f7611c0",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "forest_lin",
+            "body": "This is a hardware-software integrated solution.\n\nOur app is called Real Realm, and it\u2019s already available on the Horizon Store : [https://www.meta.com/experiences/real-realm/6573920995994399](https://www.meta.com/experiences/real-realm/6573920995994399)\n\nThe camera is about to launch on Kickstarter : [https://www.kickstarter.com/projects/arealmtech/arealm-one-spatial-camera-for-meta-quest-vision-pro-and-pico?ref=b7odpg](https://www.kickstarter.com/projects/arealmtech/arealm-one-spatial-camera-for-meta-quest-vision-pro-and-pico?ref=b7odpg)\n\nWelcome to join our [Facebook group](https://www.facebook.com/groups/2343753945989429)! We\u2019ll share more details and updates there.",
+            "score": 26,
+            "replies": [
+                {
+                    "author": "thelegendofthefalls",
+                    "body": "How compare with Kandao Qoocam EGO",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "forest_lin",
+                            "body": "Larger FOV, smoother and instant software experience, and a lower price.",
+                            "score": 9,
+                            "replies": [
+                                {
+                                    "author": "2001-Odysseus",
+                                    "body": "What about resolution and overall image quality?\n\nPhoto-centric or video-centric?",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "seanwee2000",
+                                            "body": "should be similar since both are only 4k\n\n8k is the minimum for vr capture imo, with 16k being ideal but that's a long way off portable consumer devices due to processing-storage-battery limits",
+                                            "score": 5,
+                                            "replies": [
+                                                {
+                                                    "author": "2001-Odysseus",
+                                                    "body": "I agree with you. That being said, some 4K with decent bitrate is... Passable. For the right price, I could get into it and give VR capture a go before using something more professional.",
+                                                    "score": 3,
+                                                    "replies": [
+                                                        {
+                                                            "author": "seanwee2000",
+                                                            "body": "I rented the R5C with the dual fisheye for a week and was quite disappointed, 8k split to two eyes and then stretched over 180\u00b0 makes it look like 720p\n\nUpscaling with topaz Ai helps but man, 18 hours to upscale 10 minutes of 8k to 16k on an rtx 4080 is too long",
+                                                            "score": 5,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "forest_lin",
+                                            "body": "1. This product is video-centric?\n2. The video resolution is 1920x1600 per eye, larger than the EGO.\n3. The image quality is on par with the EGO, and we\u2019re still fine-tuning it\u2014we believe it can get even better.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "ginger_beer_m",
+                                    "body": "What's the expected price range? if not too expensive, i'll totally buy it.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "forest_lin",
+                                            "body": "Around $120.",
+                                            "score": 8,
+                                            "replies": [
+                                                {
+                                                    "author": "PrincipleChoice3248",
+                                                    "body": "That sounds good",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "TrailsGuy",
+                    "body": "Is the camera for phones that don\u2019t record spatial, or does it produce better spatial photos and video than, say, a IPhone 16 pro?",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "forest_lin",
+                            "body": "Yep, it lets a smartphone capture spatial videos with accurate stereo effect. It supports mainstream iPhones and Android phones.",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "Open_Bug_4196",
+                                    "body": "I think you missed the second part of the question, does it produce better spatial videos than an iPhone 15/16 Pro?",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "forest_lin",
+                                            "body": "1. \\*\\*Depth Perception\\*\\*: Way better than the iPhone, with absolutely precise depth.  \n\n2. \\*\\*FOV\\*\\*: Larger than the iPhone.  \n\n3. \\*\\*Image Quality\\*\\*: Not as good as the iPhone\u2019s main camera, but on par with its wide-angle lens.  \n\n4. \\*\\*Frame Rate\\*\\*: Same.  \n\n5. \\*\\*Software Compatibility\\*\\*: We offer a rich set of tools, compatible with almost all MR devices.",
+                                            "score": 5,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Defiant-Plantain1873",
+                                            "body": "Probably because the cameras are further apart, they are getting better raw data.\n\nAlthough I\u2019m sure Apple has a big advantage which is unbelievably good software engineers who can make some pretty spectacular stuff out of very little data.\n\nThe 3D effect should be much better just on the basis of camera positioning, but again, Apple are wizards with their camera software.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "forest_lin",
+                                                    "body": "Yes,  the base-line is the most critical factor for stereo. iPhone can\u2019t adjust its base-line, which is why this product has its value.",
+                                                    "score": 3,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "ShortGuitar7207",
+                                    "body": "This looks perfect, the spatial capture on an iPhone 16 Pro is pretty bad - very limited FoV and quite a flat stereo effect because the lenses are so close together.  It is very convenient though since you always have your phone with you. I miss the Insta360 Evo but it had no viewfinder and the '5k' resolution wasn't really good enough. I'll snap this up as it looks like it will address most of those issues.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "forest_lin",
+                                            "body": "Yep, you\u2019re absolutely right\u2014that\u2019s the core value of this product. Plus, its price is way more appealing, around $120.",
+                                            "score": 2,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "TrailsGuy",
+                                            "body": "If it was substantially better, you think they\u2019d offer a comparison, whereas they even avoided the question.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "forest_lin",
+                                                    "body": "My bad, I was just caught up with work. Replied now.  lmao",
+                                                    "score": 3,
+                                                    "replies": [
+                                                        {
+                                                            "author": "TrailsGuy",
+                                                            "body": "Thanks. I don't see anywhere that you provide sample images/video or a comparison yet. Did I miss something? Price seems good though.",
+                                                            "score": 0,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "forest_lin",
+                                                                    "body": "You can check out sample videos in our app, **Real Realm**. For more details, join our FB group \u2014we welcome discussions there!  [https://www.facebook.com/groups/2343753945989429](https://www.facebook.com/groups/2343753945989429)",
+                                                                    "score": 4,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Gregasy",
+                    "body": "The camera looks very good. Is the price already known?",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "forest_lin",
+                            "body": "Around $120.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "GalaxyTimeMachine",
+                    "body": "It looks like it is ready, so why is it only just about to launch on Kickstarter? When will it be ready for production and delivery?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "forest_lin",
+                            "body": "We\u2019re a startup team and need funding for mass production.\ud83d\ude04\ud83d\ude04\ud83d\ude04",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "GalaxyTimeMachine",
+                                    "body": "There was a time when companies used to have to start selling what they could to fund their future plans :D",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "blaedmon",
+            "body": "Fantastic work!",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "whitewolfx94",
+            "body": "I just downloaded it and I'll try it out tomorrow It looks incredible though great work !",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "forest_lin",
+                    "body": "Thanks.  \n\nSince the camera hasn\u2019t been released yet, you can\u2019t experience the full features of this app. But you can still watch content shot by other users.",
+                    "score": 6,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "bingoNacho420",
+            "body": "What app are you watching this on? Watching spatial videos on the default app is quite terrible",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "forest_lin",
+                    "body": "Yep, that\u2019s why we developed our own app called Real Realm,  and it\u2019s already available on the Horizon Store :\u00a0[https://www.meta.com/experiences/real-realm/6573920995994399](https://www.meta.com/experiences/real-realm/6573920995994399)\n\nIt supports wireless connection to the camera, allowing you to instantly view, manage, and even edit spatial videos.",
+                    "score": 13,
+                    "replies": [
+                        {
+                            "author": "bingoNacho420",
+                            "body": "Can I use it to view spatial videos from iPhone?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "forest_lin",
+                                    "body": "Not yet. We are working on it.",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ILoveRegenHealth",
+            "body": "Cool idea. Will give the app a look later on",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Tommy_Andretti",
+            "body": "Black mirror, let's gooooooo!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "overand",
+            "body": "I really wish people wouldn't call stereoptic 3d \"spatial.\" Unless this is something different than what it looks like, this is just \"3d video.\" And, yes - good solutions for 3d video are cool, but they aren't \\*spatial.\\*\n\nIf moving your head around in 3d space - not just turning it - doesn't change what you see, it's not spatial.\n\nAs a result, basically nothing is spatial other than Light Fields, Gaussian Splatting, or other 3d scanning techniques. So, that's not me saying \"this technology you're building isn't good\" - it looks like it's very nicely done! But it's **not** ***spatial***.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "forest_lin",
+                    "body": "Technically, you\u2019re right. Spatial video is 3D video.  \n\nApple\u2019s creation of the term \"spatial video\" has had a huge impact, gradually becoming an industry standard. The slight difference from traditional 3D is that it adds some fading and blurring effects to handle window conflict issues.  \n\nAs for Light Fields, Gaussian Splatting, or other 3D scanning techniques, the industry generally refers to them as  **volumetric video**. Making this kind of video isn\u2019t easy.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "correctingStupid",
+            "body": "Remember when everyone bought 3D TV's?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Trisyphos",
+                    "body": "I have 3D display as my secondary right now.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "MrGrinchx",
+                            "body": "I've still got a 3D camera lens for an old Panasonic camera knocking around somewhere. \n\nIt was this giant monster of a lens that reduced resolution by a half, and completely destroyed the brightness. I still loved shooting 3D to watch at home, even if it was just daft videos of me climbing badly:\n\n[https://youtu.be/Wy7dxcrsiog](https://youtu.be/Wy7dxcrsiog)\n\nThis was the monstrous lens: [https://i.ebayimg.com/images/g/i0UAAOSwdf9nYIXb/s-l1600.webp](https://i.ebayimg.com/images/g/i0UAAOSwdf9nYIXb/s-l1600.webp)\n\nI'd actually love a more modern version to watch in the Quest. I don't have the spare cash to stump up now, but I'll keep an eye out for this hitting Mass Production. Good luck!",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "forest_lin",
+                                    "body": "Your 3D video is awesome!  I\u2019m guessing that monstrous lens + camera is expensive. \ud83d\ude42 \n\nOur product is priced around $120, mainly targeting users who love capturing life in 3D.\n\nWelcome to join our\u00a0[Facebook group](https://www.facebook.com/groups/2343753945989429)! We\u2019ll share details and updates there.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Lightningstormz",
+            "body": "Looks great.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "stanley_nickles",
+            "body": "Nice",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Quantum_Crusher",
+            "body": "So, it doesn't look like fisheye lens, so this is stereoscopic, not VR 180?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "forest_lin",
+                    "body": "It's not VR180. The FOV is  66\u00b0 \\* 55\u00b0",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ShortGuitar7207",
+            "body": "It's not clear from the kickstarter page but I guess this is not full VR180 FoV? Also it's 4k rather than 8k which is kind of considered the minimum for VR180, is there a capability to take higher resolution stills?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "forest_lin",
+                    "body": "It's not VR180. The FOV is 66\u00b0 \\* 55\u00b0",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "ShortGuitar7207",
+                            "body": "So 4k is good resolution then but it\u2019s not really immersive. I think you\u2019d need a minimum of 140 degrees",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "forest_lin",
+                                    "body": "yes, it's not immersive. The equipment for shooting immersive videos is extremely expensive, making it hard to create a consumer-grade product right now. \ud83d\ude05",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Trisyphos",
+            "body": "Am I  missing something? Where is FOV? These cameras doesn't look like fisheyes, how they can record 180FOV content for VR?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "forest_lin",
+                    "body": "It's not VR180. The FOV is 66\u00b0 \\* 55\u00b0",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "maxeeeezy",
+            "body": "RemindMe! 1 month",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "RemindMeBot",
+                    "body": "I will be messaging you in 1 month on [**2025-04-18 14:35:26 UTC**](http://www.wolframalpha.com/input/?i=2025-04-18%2014:35:26%20UTC%20To%20Local%20Time) to remind you of [**this link**](https://www.reddit.com/r/OculusQuest/comments/1jdu8cg/using_a_light_spatial_camera_the_quest_makes_it/mifye5l/?context=3)\n\n[**CLICK THIS LINK**](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5Bhttps%3A%2F%2Fwww.reddit.com%2Fr%2FOculusQuest%2Fcomments%2F1jdu8cg%2Fusing_a_light_spatial_camera_the_quest_makes_it%2Fmifye5l%2F%5D%0A%0ARemindMe%21%202025-04-18%2014%3A35%3A26%20UTC) to send a PM to also be reminded and to reduce spam.\n\n^(Parent commenter can ) [^(delete this message to hide from others.)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Delete%20Comment&message=Delete%21%201jdu8cg)\n\n*****\n\n|[^(Info)](https://www.reddit.com/r/RemindMeBot/comments/e1bko7/remindmebot_info_v21/)|[^(Custom)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5BLink%20or%20message%20inside%20square%20brackets%5D%0A%0ARemindMe%21%20Time%20period%20here)|[^(Your Reminders)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=List%20Of%20Reminders&message=MyReminders%21)|[^(Feedback)](https://www.reddit.com/message/compose/?to=Watchful1&subject=RemindMeBot%20Feedback)|\n|-|-|-|-|",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "maxeeeezy",
+            "body": "Can the view be bigger than the rather small one in the video?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "forest_lin",
+                    "body": "Technically, it\u2019s possible, but to ensure the accuracy of memories, we\u2019re holding off on adding this feature for now.  \n\nBecause zooming in/out would make the stereo feel different from reality, which could mess with your sense of familiarity with the past.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "RichieNRich",
+            "body": "Is this true spatial video (with look around parallax) or just 3d?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "forest_lin",
+                    "body": "Technically, spatial video is 3D video. Viewers can\u2019t walk into the scene. The kind where you can step into the scene is usually called volumetric video.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "GurDizzy1114",
+            "body": "I watched the sample video you posted on your Kickstarter page [https://www.youtube.com/watch?v=H9Wm2Ip9DiM](https://www.youtube.com/watch?v=H9Wm2Ip9DiM) . Looks nice. Can't wait for it to be launched.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "forest_lin",
+                    "body": "Thanks! Feel free to join our [Facebook group](https://www.facebook.com/groups/2343753945989429)\u2014we\u2019ll be posting updates there.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ppkao",
+            "body": "Hey this is a really cool project! I love the simplicity of the hardware plus the integrated software solution.\n\nAs someone who recently did a bunch of research on 3D video recorders, the best I found was a modded QooCam 3 Ultra by /u/AppealMundane5486. For anyone interested, there are lots of info here: /r/Q3UltraVR180 and /r/VR180Film\n\nI personally think 8K is the bare minimum for 3D video capture but a lot of those pixels are wasted in a 180 degree format. I'd much prefer a lighter 8K camera where more pixels go into a smaller than 180 degree FOV. I'd be using the camera to capture my daughter growing up so perhaps 60 FPS would be important too (since I'm capturing an erratically moving live subject \ud83d\ude05)\n\nYour camera gets closer to what I have in mind so I hope you make good progress on this! I'd seriously consider your product if your second version has what I'm looking for above.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "forest_lin",
+                    "body": "Thanks. I know the Q3U VR180\u2014one of its inventors is a friend of mine, and it\u2019s a fantastic piece of work.  \n\nI totally get the product you\u2019re looking for, and it\u2019s something we really want to make. Right now, there\u2019s nothing like it on the market because that product format is tough to monetize. We\u2019re aiming to make it happen in the second or third generation.\n\nFeel free to join our\u00a0[Facebook group](https://www.facebook.com/groups/2343753945989429)\u2014we\u2019ll be posting updates there.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Guyincognito1972",
+            "body": "Looks awesome! Will it have lightning connector for those of us without usb-c?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "forest_lin",
+                    "body": "Yes, we\u2019re working on this.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "PedosVoteTrumpDotCom",
+            "body": "All \"spatial videos\" were on the vision pro was shitty 3D movies. Doubt it's any better on Quest 3.",
+            "score": -4,
+            "replies": [
+                {
+                    "author": "forest_lin",
+                    "body": "Yep, because the spatial videos shot on iPhones have very weak stereo effect. That\u2019s why we developed a spatial camera device\u2014it captures videos with accurate stereo, and when paired with the Quest, it can almost perfectly recreate reality.",
+                    "score": 15,
+                    "replies": [
+                        {
+                            "author": "TrailsGuy",
+                            "body": "Can you provide sample images and videos?",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "MrLetter",
+            "body": "You can already do \u201cspatial video\u201d on current iPhones. Unless the hardware captures a wider range, I don't see much point in it. The only difference in this demo seems to be the application doesn't do a local dimming for playback.",
+            "score": -3,
+            "replies": [
+                {
+                    "author": "forest_lin",
+                    "body": "Hi MrLetter, \n\n1. Compared to the iPhone: This product offers precise stereo effect and a wider field of view. It lets mainstream smartphones (both Android and iPhone) capture spatial videos.\n\n2. Yep, our app supports instantly view, manage, and cut spatial videos right after shooting. Super convenient.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Thejeswar_Reddy",
+            "body": "In my previous post of bashing Quest here, someone was saying Meta made so much progress, poured billions into R&D blah blah, what meta couldn't achieve in their 10+ years of development this developer did, maybe in 5 years?   while Elon and Bezos both have unlimited money resources, only SpaceX excelled where Blue horizon is struggling. It's the passion towards technology that drives the innovation forward. \n\nfor Meta, Quest is hobby side project their business was/is/will be Advertisements.\n\nOP how much time did you spend on this R&D may I know please?",
+            "score": -12,
+            "replies": [
+                {
+                    "author": "forest_lin",
+                    "body": "About 18 months.",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "answerguru",
+                    "body": "Sometimes innovation just requires a different perspective or innovative approaches.    Money isn\u2019t always the deciding factor.",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "GDXRLEARN",
+            "body": "This is cool being able to do 3D pictures but god, take the thing off and enjoy your time with your kid. This is just dystopian and sad if this is what's to come. \n\nYou could have took the picture without the headset on, and at a later time showed it on the headset in a different location. It's so sad.",
+            "score": -7,
+            "replies": [
+                {
+                    "author": "erlonpbie",
+                    "body": "I kind agree with you, but wasn't the video supposed to be just a demonstration of the product comparing the view of his little daughter and the recorded video?",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "GDXRLEARN",
+                            "body": "I agree that it's a demonstration but the idea of posting your kids online while you ignore them with a VR headset where you look at a photo instead is so dystopian. Now do the same demo with a party in the background from the DJs pov or something else would sell it so much better.",
+                            "score": -4,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

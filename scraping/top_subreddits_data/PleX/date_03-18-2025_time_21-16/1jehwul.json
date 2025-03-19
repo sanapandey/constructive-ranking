@@ -1,0 +1,13 @@
+{
+    "title": "Resume Playback issue with 10-bit 4k files",
+    "author": "miller_b_d",
+    "subreddit": "PleX",
+    "rank": 16,
+    "score": 1,
+    "upvote_ratio": 0.66,
+    "num_comments (reported by reddit)": 0,
+    "url": "https://www.reddit.com/r/PleX/comments/1jehwul/resume_playback_issue_with_10bit_4k_files/",
+    "id": "1jehwul",
+    "selftext": "For reference: I have a number of 4k files that I store these as MKVs on 2 4TB SSD, managed in a PLEX server on my Nvidia Shield Pro. And just to be clear these are all files I personally own, on my personal storage for my personal playback in my home theatre.\n\nFirst, does Plex support H.265 10-bit 4k playback?\n\nH.265 8-bit file play back fine, but picture quality isn't great, and often get a reddish tint over-saturation.\n\nSo I started encoding 4k as H.265 10-bit which look and play fine. However they will not \"resume playback\". The buffering wheel just spins and spins. This is consistent across all 10bit 265 movies. I can jump to a specific chapter, but if I jump out of the movie it will not resume. Not the end of the world, but very annoying.\n\nSo I tried H.264 10-bit. This solved the other 2 problems, but the encodes were super slow (5-6 hours) and playback had buffering every so often. Both unacceptable issues.\n\nHas anyone else encountered these issues? Reddish tint on 8-bit 4k encodes, Plex \"resume playback\" issues with 256 10-bit encodes.",
+    "comments": []
+}

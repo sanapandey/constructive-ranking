@@ -1,0 +1,123 @@
+{
+    "title": "What is the best and easiest way to fully factory reset windows 10?",
+    "author": "denjiiikun",
+    "subreddit": "Windows10",
+    "rank": 19,
+    "score": 8,
+    "upvote_ratio": 0.75,
+    "num_comments (reported by reddit)": 17,
+    "url": "https://www.reddit.com/r/Windows10/comments/1jcvxw9/what_is_the_best_and_easiest_way_to_fully_factory/",
+    "id": "1jcvxw9",
+    "selftext": "When i go to settings - reset this pc - remove everything.\nIt tells me: Download from the cloud, or reinstall local. What are the pros and cons?\n\nIt also says: Configuarion: Remove apps and files. Do not clean the drive.\nDownload and reinstall Windows\n\nBut if the drive does not get cleaned, then it's not a full factory reset? I want to make sure everything gets deleted because i think i might have spyware.\n\nI would really appreciate if someone could guide me through this. Thank you.",
+    "comments": [
+        {
+            "author": "manolid",
+            "body": ">I want to make sure everything gets deleted because i think i might have spyware\n\nReinstalling Windows is the best reset.",
+            "score": 15,
+            "replies": [
+                {
+                    "author": "denjiiikun",
+                    "body": "When it gives me the option to reinstall windows, it says it won't clean the drives. So it doesn't seem like a hard factory reset to me.",
+                    "score": -1,
+                    "replies": [
+                        {
+                            "author": "manolid",
+                            "body": "You need to to use the original installation media or create a USB installer. Everything will get replaced.",
+                            "score": 9,
+                            "replies": []
+                        },
+                        {
+                            "author": "IGuessINeedToSignUp",
+                            "body": "Google Windows install media creation tool. It will create a USB key for you that you boot your computer from. During the process delete all the partitions from your hard drive create one new partition install Windows to that. It shouldn't need to be stated but just in case... Back up all your files first.",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "denjiiikun",
+                                    "body": "Thanks!",
+                                    "score": 5,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "act-of-reason",
+                                    "body": "Create no new partitions, select *Unallocated space* and let Windows setup auto-create the partitions.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "frymaster",
+            "body": "best way to completely wipe your PC is download windows 10 again onto a USB drive **from a different, non-compromised PC**\n\nhttps://www.microsoft.com/en-us/software-download/windows10\n\n...then, during the install wizard, select all drives and delete every pre-existing partition, then ask the installer to create new ones\n\nkeep in mind that will **completely** wipe everything.  No files, no settings, no programs, documents, save games etc. will remain.  And if something goes wrong with the licensing (like, it doesn't pick up your motherboard, or you don't have your serial number, or your MS account doesn't have your license - it varies), then you **will** have to phone MS to fix it\n\nAnd certainly I, among others, won't be able to help you with the reinstall",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "denjiiikun",
+                    "body": "So it's a risk. I work from home, so if i don't have access to my PC, i'll have a big problem.\n\nI don't mind losing all the files or settings etc. I don't have anything that needs to be saved on the computer. Thank for you replying!",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ButtoftheYoke",
+            "body": "Here's a helpful guide: https://www.youtube.com/watch?v=l9GnWYKyyYo\n\nMake sure to google how to get into the bios of your brand of pc, as the key to hit to get into bios is different.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "denjiiikun",
+                    "body": "I will watch the video, thank you for the link!",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "No-Plastic-4640",
+            "body": "1. Backup all data you want into someone. \n2. Get Windows iso\n3. Create bootable usb\n4. Wipe disk and install fresh\n5. Reinstall all the software\n6. Out data back where you want it. \n\nYou can close your disk via clonezilla in case you want to restore previous disk.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "denjiiikun",
+                    "body": "Thanks, i'll try it. I appreciate the info!",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "No-Plastic-4640",
+                            "body": "Windows 7 dvd to USB is a good program to make the bootable usb. Or Rufus \u2026 there are many.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Mayayana",
+            "body": "If you have the local option then that's a factory restore, which puts it back tp where it was the day you bought it. That might be best. Otherwise, if you use an ISO, then you'll probably need to find drivers.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ConstructionWest6165",
+            "body": "Depending of your hardware you can do the same but with Windows 11.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "RuffRider972",
+            "body": "Reinstall",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "nodiaque",
+            "body": "format c: /force /yes\n\nInsert windows cd\n\nInstall",
+            "score": -1,
+            "replies": []
+        }
+    ]
+}

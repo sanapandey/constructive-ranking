@@ -1,0 +1,786 @@
+{
+    "title": "*UPDATE* - Somebody made a website for my game???",
+    "author": "SporeliteGames",
+    "subreddit": "gamedev",
+    "rank": 16,
+    "score": 701,
+    "upvote_ratio": 0.95,
+    "num_comments (reported by reddit)": 118,
+    "url": "https://www.reddit.com/r/gamedev/comments/1jdczb1/update_somebody_made_a_website_for_my_game/",
+    "id": "1jdczb1",
+    "selftext": "Hey everyone, here is the update promised - in case you missed it [here ](https://www.reddit.com/r/gamedev/comments/1jbfja2/somebody_made_a_website_for_my_game/)is the original post from a few days ago.\n\nTLDR: the .com domain for my game was taken, but instead of it just being squat on, it was a fully fleshed out website advertising for my game with correct links to the official stuff, but had incorrect and AI generated information about the game - it did not appear to have ads, feature downloads, or be dangerous in any way (which was the part I found strange).\n\nAs it turns out, the responsible party was someone I had prior contact with. They they reached out over Discord to ask about doing marketing for the project, and I had rejected them due to not being financially able and (from what I've learned since, isn't a valid reason) not wanting to market the game when it was still too early in development. \n\nIn the conversation through Discord I was able to verify they made the website and asked them to take it down in the meantime. They are certainly not a native English speaker and refuse to give me a straight answer. I told them I wouldn't negotiate a price for the website or domain until their site was removed to prove they controlled it and I got a \"Please give me a few minutes, I will be back soon\", which was their last message 48 hours ago.\n\nI have remained calm and professional in my communications with this 'person' to hopefully get things in order for a reasonable price, but any advise would be much appreciated. I have reached out to a lawyer, bought some other related domains (I can't buy them in mass due to financials), and am looking into trademarking it.\n\nI really appreciate everyone that responded helpfully to the last post - I've never had to deal with IP law, never owned a domain, and have never published anything. This whole experience, while very annoying, has also been helpful in learning what should be prioritized before going public even when publishing a very small and very in-development indie game\n\nTo those that thought (and still think) this is an elaborate way to farm attention for my game - y'all should visit this sub [r/nothingeverhappens](https://www.reddit.com/r/nothingeverhappens/), it would be a great fit for you.",
+    "comments": [
+        {
+            "author": "StoneCypher",
+            "body": "\u201cHey, I realize that you might have bought the domain in good faith, so I\u2019ll cover your registration fees. \u00a0$25 for the domain. \u00a0There\u2019s really nothing else you can do with it\u201d\n\nJust give him the ability to save face and look like it\u2019s a misunderstanding\u00a0",
+            "score": 632,
+            "replies": [
+                {
+                    "author": "SporeliteGames",
+                    "body": "That's my hope!",
+                    "score": 154,
+                    "replies": [
+                        {
+                            "author": "bieker",
+                            "body": "If that fails check who the registrar is.\n\nI once had an issue where I was tasked with acquiring a trademark based domain for a company I worked for.  I tried to negotiate in good faith for a few weeks but the ask was just unreasonable.  The domain was registered with godaddy and was using a default godaddy 'parking' page that had advertisements on it.\n\nBecause of the domain name, most of those ads were for our competitors.  So I wrote an email to godaddy informing them that the domain was infringing on our trade mark and was generating revenue by advertising for our competitors.  I honestly expected them to tell me to pound sand but they simply assigned the domain to us (we were also a customer of theirs).",
+                            "score": 128,
+                            "replies": [
+                                {
+                                    "author": "PlottingPast",
+                                    "body": "A heartwarming story and a warning against using godaddy.",
+                                    "score": 45,
+                                    "replies": [
+                                        {
+                                            "author": "Ecstatic_Formal4135",
+                                            "body": "What's the experience with godaddy specifically? I am big user.",
+                                            "score": 4,
+                                            "replies": [
+                                                {
+                                                    "author": "sputwiler",
+                                                    "body": "They'll just kind of assign domains to people without really checking like in GP's post. This has gotten several people fucked before, such as hostile email takeovers by stealing the domain. Since most people's logins are tied to an email (or at least a password reset), this is like a nerd's version of a SIM-swap takeover.",
+                                                    "score": 25,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "dan1mand",
+                                                    "body": "Had 3 domains and hosting with them for years. I closed 2 of the 3 domains and could never set it up properly afterwards (one action was just perpetually loading).\n\nNobody ever answered to support emails, direct chat button was grayed out 24/7, I closed everything down and was then harrassed for 2 mounths about that last domain expiring (although I cancelled everything) until I blocked their email.\n\nBasically, cheap and ok if everything works, but first thing that breaks, that's it. (Have seen a similar comment from others when googling)",
+                                                    "score": 8,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Ecstatic_Formal4135",
+                                                            "body": "Appreciate all the comments I am the official buyer of all the domains for my ideas as well as friends. I DO NOT host any with godaddy and they have been parked and locked down from the start. They also started doing free privacy so you can't even see who owns them anymore with contact info, used to pay for that it. Any changes or transfers need a code based on an email i set up on an secure server. ALL on auto renewal unless I don't want them anymore. At this point I own about 30 with a 1/3 active. Friends just zelle me the fees. I'm in the domain club so I get discounts with each purchase without a coupon code. They call me when I turn off auto renewal on multiple domains to make sure it's not a mistake. Yes it's a different vibe when you own multiple domains for sure.",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "dan1mand",
+                                                                    "body": "They, as in Godaddy support, call you?\nJesus, that's literally the opposite from my experience.\n\nBut hey, it did work for years since I had no questions for them.",
+                                                                    "score": 1,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Ecstatic_Formal4135",
+                                                                            "body": "Yes Godaddy will call me directly. To encourage me to use their HOSTING no way. To convert all domains to same exp date or to make sure I really wanted to turn off auto renewal. Or to try a new service or product.\n\nThe cross-sell game is INSANE. I do all my services with another host and immediately change nameserver when a domain is actively being used.",
+                                                                            "score": 1,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "SoMuchMango",
+                    "body": ">Just give him the ability to save face and look like it\u2019s a misunderstanding\n\nSun Tzu - The Art of War",
+                    "score": 6,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "codehawk64",
+            "body": "As a dev, new irrational fear unlocked thanks to this post",
+            "score": 286,
+            "replies": [
+                {
+                    "author": "RHX_Thain",
+                    "body": "It's not irrational. And it's not game dev specific.\n\n\nDomain Campers are a menace for all IP. If they get advanced warning of your intended name they camp on Web domains and even trademark names in the hope you will be forced to buy it from them for hostage rates.\n\n\nIt's a wide spread problem. The AAAs with armies of lawyers can handle it, but often get caught paying the ransom after data/security breaches, too. They're the most lucrative targets and can get caught paying out hundreds of thousands to millions. Smaller developers get targeted individually like this and camped, in the hopes they'll pay, knowing there's little or no risk of retaliation.\n\n\nAlways keep your names private until trademarked and domains are purchased same day, as close to commercial release as possible.",
+                    "score": 178,
+                    "replies": [
+                        {
+                            "author": "noximo",
+                            "body": "> domains are purchased same day, as close to commercial release as possible.\n\nHuh? Buy domain as soon as possible.",
+                            "score": 45,
+                            "replies": [
+                                {
+                                    "author": "WazWaz",
+                                    "body": "Exactly. Getting the domain is *part of the process* of choosing the name of the game. i.e. while you can still change it.\n\nI still laugh at Satisfactory (the game) where the internal files are still called \"FactoryGame\" after release. My WazHack was just called Hack until I came up with the name after a few months of development.",
+                                    "score": 25,
+                                    "replies": [
+                                        {
+                                            "author": "sireel",
+                                            "body": "Changing the project name of an unreal game during development is kind of annoying, I'm not surprised they didn't bother",
+                                            "score": 7,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "dos4gw",
+                                            "body": "Wazhack? Pal, I'm sending you a bill for my time. Bloody great game.",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "WazWaz",
+                                                    "body": "Thanks, glad you like it. I've stopped converting Steam's playtime statistic to entire human lifespans because I can't decide if it's good or evil.",
+                                                    "score": 4,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "mark_likes_tabletop",
+                                            "body": "Check out my latest game: \u201cSandbox\u201d \ud83d\ude01",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "RHX_Thain",
+                                    "body": "If someone is observing your project for hints, early domain purchase can't be kept underwraps, and gives away the game.\n\n\nMore important for AAA than an indie, but if course, it depends on the rabid investigator fan\u00a0base of the indie, which may be its own omen of success and thus need for secrecy.",
+                                    "score": 6,
+                                    "replies": [
+                                        {
+                                            "author": "0xc0ba17",
+                                            "body": "> If someone is observing your project for hints, early domain purchase can't be kept underwraps, and gives away the game.\n\n?\n\nYou can buy a domain, not advertize it, and not put anything on it.",
+                                            "score": 21,
+                                            "replies": [
+                                                {
+                                                    "author": "nikefootbag",
+                                                    "body": "And indies should nearly never keep their game underwraps. The more exposure the better.",
+                                                    "score": 9,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "Waste_Monk",
+                                                    "body": "It'll get indexed pretty much instantly. Browsers such as Chrome and Edge report telemetry back to Googe/Bing respectively - if you're using one of those and visit your site to test it it'll get indexed. As soon as you request a TLS cert it'll show up in certificate transparency logs (can browse using tools such as https://crt.sh/), so it will be publically visible and also I believe the major search engines also use CT logs to find new things to index. \n\nWeb tech isn't my thing, there's probably a bunch of other ways they can be discovered, that's just what I could think of off the top of my head.\n\nYou can certainly avoid putting any content on it, but the existence of a domain should not be considered secret.",
+                                                    "score": 7,
+                                                    "replies": [
+                                                        {
+                                                            "author": "cwlsmith",
+                                                            "body": "I think what is confusing about what you are saying is that if:\n\n- I keep the name of a my game to myself until closer to release\n- I register the domain for the game early\n\nThat someone will be able to glean what my game\u2019s name is from the website. If I register it and am not talking about the name, how would someone know that a random domain registered has anything to do with my game? This to me just seems very paranoid and gang stalking-esque. Like why would anyone care that I registered a domain? Especially if I use domain privacy.",
+                                                            "score": 11,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Waste_Monk",
+                                                                    "body": "I was just addressing the fact that domain registrations can't be relied upon to stay secret. You're right, in 99% of cases no one will  notice or care.",
+                                                                    "score": 6,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "author": "noximo",
+                                                            "body": "> It'll get indexed pretty much instantly. \n\nIf only. Getting Google to index your site is actually pretty annoying, and the \"methods\" you wrote about are nonsensical. \n\nRegistered domains are public record (That's kinda the definition of registering them), so some voodoo stuff about TLS is irrelevant.",
+                                                            "score": 0,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "noximo",
+                                            "body": "You're inventing problems that don't exist for 99% of games.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "returned_loom",
+                            "body": "> Always keep your names private\n\nInteresting point. My project is on github as part of my portfolio. Going to make it private now.",
+                            "score": 18,
+                            "replies": [
+                                {
+                                    "author": "RHX_Thain",
+                                    "body": "Just use a project name.\u00a0\n\n\nAnd as JE Sawyer once had in his blog, choose a names that's OBVIOUSLY not THE name, or can form emotional attachments. Like Project Van\u00a0Buren. Otherwise your team (or investors, or backers, or Audience) may get attached to it permanently. (Which may happen anyway lol.)",
+                                    "score": 11,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "SukaSupreme",
+                                    "body": "Be aware that it will already be part of AI training sets. Try asking CoPilot about your project, see what it says.",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "StrangeOneGamer",
+                            "body": "This happened to me with a potential collaborator a few years back. We decided to not to work with the person, so they responded by holding the website ransom for $1500. We just added \"game\" to the end of the website name and told him to kick rocks. Learned my lesson though.",
+                            "score": 18,
+                            "replies": [
+                                {
+                                    "author": "RHX_Thain",
+                                    "body": "Hard lesson, yes. But vital. Best to know in advance. Probably doomed to discover the hard way, lol.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "codehawk64",
+                            "body": "Good warning. Everyone should be aware of this.",
+                            "score": 9,
+                            "replies": []
+                        },
+                        {
+                            "author": "DOOManiac",
+                            "body": "Well this thread pushed me into going ahead and registering the domain for my game which won\u2019t be ready for at least 2 years. But one less thing to worry about so that\u2019s worth $20.",
+                            "score": 8,
+                            "replies": []
+                        },
+                        {
+                            "author": "TheRealLazloFalconi",
+                            "body": "What's really funny is when they register a lookalike domain and try to sell it back to you.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "RHX_Thain",
+                                    "body": "Yep.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Hotel_Arrakis",
+                            "body": "Or do what I do: Purchase the domains and never develop the product.",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "Festminster",
+                            "body": "The post is not about domain campers. It's about them using his content on a similar address for unknown reasons",
+                            "score": 0,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Tengou",
+                    "body": "Ugh same. I guess this is why projects have bizarre names before they are released",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "Fun_Effect_2446",
+                    "body": "More like new communication trick unlocked, because their game had like 7 eyes on it until the previous post (the famous discord thats advertised here). There's literally 0 chances someone outside the project made a website for the game.\n1) Scammers don't pay a domain in hope to sell something afterward.\n2) Op game had no visibility\n3) there was //english comment in the website code\n\n[New] Why no screenshots of the Discord discussion ? that would have eliminated nearly all suspicions. \n\nI pointed all this out in the previous post.\n\nAnyway the trick worked like a charm, and it has a little name if you are interested \"Astroturfing\".",
+                    "score": 10,
+                    "replies": [
+                        {
+                            "author": "breake",
+                            "body": "Yep this whole post makes zero sense. Totally  made up. Not yours, the OP.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "triffid_hunter",
+            "body": "DMCA takedown wrt your art assets' copyright.\n\nIf sending it to your perpetrator doesn't work, go for their host and DNS providers (cloudflare reverse proxy hiding the real host, cloudflare MX/DNS servers, and spaceship.com DNS registrar)\n\nAfter you've successfully registered your trademark, a trademark infringement notice with (ask your lawyer about this) offer to settle for domain ownership transfer within a reasonable period of time and no further attempts to use the trademark.",
+            "score": 80,
+            "replies": [
+                {
+                    "author": "kkania",
+                    "body": "Just a note - DMCA applies to US-hosted content. Some companies accept standardised DMCA forms, but legally speaking, it\u2019s a US-specific law structure.",
+                    "score": 39,
+                    "replies": [
+                        {
+                            "author": "triffid_hunter",
+                            "body": "Cloudflare is a US company that honours DMCA takedowns last time I checked, and the domain registrar (spaceship.com) also appears to be a US company - so like I said, OP should approach them if communicating directly with their instigator doesn't work.",
+                            "score": 16,
+                            "replies": [
+                                {
+                                    "author": "kkania",
+                                    "body": "It\u2019s just a side note not directed at you or your post.\n\nThe domain registrar might not be tied to the server, in which case only the domain will be supressed.\n\nAdditionally, cloudflare in this case may only be used for routing and ddos protection.",
+                                    "score": 7,
+                                    "replies": [
+                                        {
+                                            "author": "triffid_hunter",
+                                            "body": "> The domain registrar might not be tied to the server, in which case only the domain will be supressed.\n\nIf it no longer points to the server, it doesn't matter that the server thinks it's supposed to serve `shroomland.com` if no-one ever asks it\n\n> Additionally, cloudflare in this case may only be used for routing and ddos protection.\n\nIf they stop routing, then again the server will quietly wait for no-one to ask it for it to serve pages, and the site is functionally offline.\n\nIn my top-level comment, I did note that trademark law would be required to *actually take control of* the domain name, rather than just cease traffic to it.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "kkania",
+                                                    "body": "Yes, but you can just get a non-us domain instead. It all depends on how committed the fraudster is.\n\nIn any case, this is all context. The gist is DMCA may work, but it depends on where the site is registered.",
+                                                    "score": 3,
+                                                    "replies": [
+                                                        {
+                                                            "author": "triffid_hunter",
+                                                            "body": "> you can just get a non-us domain instead.\n\nA lot of non-US registrars will also respond to DMCAs.\n\nSome don't, but are players gonna pay more attention to `shroomwood.net` (and ideally `.com` if OP can wrangle a domain transfer) or `shroomwood.xyz`?",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Sir-Niklas",
+                            "body": "A .com domain is a fully US based domain. Jurisdiction is in the US automatically for this.",
+                            "score": -4,
+                            "replies": [
+                                {
+                                    "author": "kkania",
+                                    "body": "A domain and server hosting are two different things. They often come bundled, but a US domain can point to a foreign server.",
+                                    "score": 9,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "caesium23",
+                                    "body": "It's not really that simple. Plenty of non-US registrars sell .com domains.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "fordominique",
+                    "body": "At least we found a scenario, where it actually can be used as intended. Too often we all heard it being used for the wrong reasons.\n\nOP has a legitimate reason to make use of it. \u2764\ufe0f",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "timwaaagh",
+            "body": "seems a good scam, hold a domain hostage and put up content. that way you cant ignore it. you can either sue to take down or pay to leave up. if you dont it probably start to include harmful content. or maybe change the game's name and get a domain before reaching out.",
+            "score": 24,
+            "replies": []
+        },
+        {
+            "author": "c35683",
+            "body": "Now I'm *very* confused why the same party who approached you also had [a website which looks like it's part of an actual scam network](https://github.com/huang-hub/aiposter/tree/main) on their github profile (it's part of a ring of AI-generated pages containing versions of popular AI apps, registered with similar-sounding names, many of them monetized or containing ads with links to Chinese websites and requiring logging in through Google).\n\nDo they contact developers about legitimate marketing while running a scam website ring on the side? Did someone hire them to generate that website for a scam network, keeping the same style as all the other scam websites? Is the scam not an actual scam but them creating fake websites and then approaching developers with the same proposal as they did with you, except these developers somehow already have their own websites and their websites link to one another?\n\nWhat a bizarre rabbit hole.",
+            "score": 20,
+            "replies": [
+                {
+                    "author": "baronvonpain",
+                    "body": "My guess would be they are using this to boost fake marketing sales for legitimate marketing solutions, that are still filed deep in the scam folder, while using the ads as a backup for siphoning more money. They can contact a company or individual and show them all the work they've done by showing off their thrown together trash sites that are built for real games, then proceed with the business scam. If the company or individual refuses, they just put the site together anyway and use it to sell themselves to other groups. In the meantime, they stick up ads and malware on the site itself just to sweeten the pot.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Rawfies",
+            "body": "This saga teaches me that I will need to claim .com for my upcoming studio and game before they are announced in any way",
+            "score": 13,
+            "replies": [
+                {
+                    "author": "Hehosworld",
+                    "body": "Everything else is honestly extremely stupid",
+                    "score": 6,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "kiwibonga",
+            "body": "Similar thing happened to the website of the indie studio I last worked for; it disbanded (after the owner stole our royalties and ran away like a piece of shit), and the domain registration lapsed.\n\nSquatters immediately grabbed the domain and set up an AI-generated page where only the mean-spirited drug addict turdburglar is credited with working on the game.\n\nThe site is half outdated information about the studio, while the rest is backlinks to online casinos.\n\nKind of infuriating, but at least it's quite obvious that you're looking at an AI zombie website.\n\nThis is probably what you should expect -- if you don't buy back the domain for an exorbitant price, the squatters will likely use it for \"black hat SEO\" purposes, meaning they'll wait a few months for the website to earn legitimacy on search engines and later place links to artificially boost the search engine rankings of other websites, both their own and clients'.",
+            "score": 9,
+            "replies": []
+        },
+        {
+            "author": "Motor_Let_6190",
+            "body": "Best wishes, persevere, perfect and publish !\n\nCheers !",
+            "score": 19,
+            "replies": [
+                {
+                    "author": "SporeliteGames",
+                    "body": "Thanks!",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "chaosTechnician",
+            "body": "> I have reached out to a lawyer\n\nGood. That's probably your best course of action.  \n\nI'm sure you know, but the site is still up as of 9:24 PDT, a good 3 hours after your post.",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "NO_SPACE_B4_COMMA",
+            "body": "Yeah, they are going to hold your domain until you pay the amount they want. They are trying to trap you.\u00a0\n\n\nI'd say... Tell them you want the domain and you'll pay them to transfer it to you, and you'll figure it the website part.\u00a0\n\n\nIf they refuse, cut off contact and email their host, registrar, for making a fake website and hopefully copyright infringement.\u00a0\n\n\nThe thing is, when you start a project - register the domain. It'll avoid this situation.\u00a0\n\n\nGood luck!",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "SnappGamez",
+                    "body": "100% on that last part. Always try to grab the domain when you first start out.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ScrimpyCat",
+            "body": "Is it too late to change the name? You mention the game is still early in development, so a rebranding might only be a minor set back. \n\nAlso I\u2019d just stop communicating with them, as nothing good is going to come out of all this. Scammers will often present themselves as being naive, so you can\u2019t really read much into anything they might say.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "SupaSlide",
+            "body": "Took another look at the site and did they have the fake, non-functional forum and game guide pages earlier?  This is so elaborate for a scam site for a game that's not even out \ud83d\ude33",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "SporeliteGames",
+                    "body": "i believe they did - I've been checking periodically and haven't found any changes since I first found it.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "EverretEvolved",
+            "body": "Man, what an indepth scam\u00a0",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Droggl",
+            "body": "I dont think it can be legal to Marketing your game without your consent. I would threaten to sue for that and give them the chance to avoid that by just giving you the Domain in exchange for the registration cost.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "NightThinkerOfficial",
+            "body": "What is wrong with people?!?",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "jollynotg00d",
+            "body": "for future feference - Secure the Brand, then announce the game.\n\nEdit: Ehehe. Feference.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "DigitalStefan",
+            "body": "If finances are tight, trademarking might not be a move you make right now. You can rely on copyright for most things you imagine a trademark would protect.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Nimyron",
+            "body": "People are still checking a website for a game nowadays ? I understand for online games, but you've got everything you need on a steam page usually.\n\nI haven't checked out a game on a dedicated website in years.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "Bourriquet_42",
+            "body": "Nothing like a good blackmailing to start a healthy fruitful professional collaboration :)",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "breake",
+            "body": "This makes no sense",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "techoatmeal",
+            "body": "If the game isn't released yet then you can also change the name.. may be unpopular",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Poddster",
+            "body": "Something no-one seems to have said in this thread or the next:\n\nIt doesn't matter. You should ignore it.\n\n\nThe fact of the matter is that your game is a low-budget indie game. The only person visiting that website by typing in the URL manually is _you_. Every other person, especially potential players, will simply follow a link from reddit/google/email/whatever. So it can be basically anything, especially as you're using Steam to do all of the transaction and distribution. `Mushroomgame.com`, `shroomwood.game`, `itch.io`, github webpages, whatever. No-one will care or even notice. If you must have the .com, do not pay these people anything for the site, other than covering the hosting and transfer fees. It's not even worth that in the long-run.\n\nThe only time it becomes a problem is if the contents of that page are negative, or if people try to interact with the emails/websites etc and get confused for thinking it's you.\n\nps hurry up and grab /r/shroomwood before I do and I start posting explicit images of AI-generated mushroom people with your game's logo on it ;).",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ramspirit",
+            "body": "I got a message from a Nigerian dude when I posted a small clip of my game in Facebook they wanted a demo and the name of the game for \"marketing\" my game doesn't even have a name or demo when I told him that he stopped replying I guess this is what he wanted",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Double-Common-7778",
+            "body": "Is this how people trojan horse advertise their game nowadays? Through a false sobstory?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": -5,
+            "replies": [
+                {
+                    "author": "Landkey",
+                    "body": "If reasonable people conclude from the website that it is official, could be trademark infringement, passing off, or slander of property depending on where. \u00a0",
+                    "score": 22,
+                    "replies": []
+                },
+                {
+                    "author": "InvidiousPlay",
+                    "body": "They are violating OP's trademark of the game name, they are violating OP's copyright in any of the game assets or marketing assets being used, and they are arguably committing fraud by pretending to represent OP in an official capacity. They also have no good faith interest in the URL they are squatting and so can have it seized by ICANN.\n\nThey're violating a bunch of civil law.",
+                    "score": 19,
+                    "replies": [
+                        {
+                            "author": "dcent12345",
+                            "body": "Is every guide and third party game website violating tm and copyright laws? And it's not squatting if they are using the domain... Why didn't OP buy their domain?\n\nI agree with it looking like it's officially representing the game. But if they change that I don't see anything illegal.",
+                            "score": -5,
+                            "replies": [
+                                {
+                                    "author": "InvidiousPlay",
+                                    "body": "No, reviews and guides are legitimate fair use exceptions to copyright. Making a pseudo homepage for a game that isn't yours does not come under fair use exceptions. And it explicitly *is* squatting if you are occupying it in bad faith. This is a classic example of it.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "dcent12345",
+                                            "body": "I agree. But the owner of the site just needs to change their wording around and it's legal to do",
+                                            "score": -1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "SporeliteGames",
+                    "body": "The illegal part is them hosting copyrighted material on their site, such as the YouTube video and art.",
+                    "score": 15,
+                    "replies": [
+                        {
+                            "author": "loopin_louie",
+                            "body": "Are they hosting the YouTube video or embedding it? Are they hosting the art or linking it? I think that does made a different re copyright violation but I could be wrong. You could remove the capability to embed from your video on YT for now. What a weird thing to have happen! I guess you can take it as a sign that someone thinks your game is gonna be a hit?",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "SporeliteGames",
+                                    "body": "I just turned off embedding - I'll see if it goes down soon and that should answer that question. I didn't realize that was a setting, thanks!",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "tcpukl",
+                                            "body": "Why would you turn off embedding?",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "SporeliteGames",
+                                                    "body": "To see if they are just embedding the YouTube video or to see if they ripped it completely",
+                                                    "score": -1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "tcpukl",
+                                                            "body": "Eh? Just look at their website code?",
+                                                            "score": 2,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "JohnnyCasil",
+                                    "body": "> I could be wrong\n\nYou are.",
+                                    "score": -4,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "TomaszA3",
+                            "body": "Youtube video as in an embed to a video hosted on Youtube, same that has a checkbox for whether you allow it to be embedded?",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "dcent12345",
+                            "body": "There are tons of websites with game material and YouTube videos posted.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "pirate-game-dev",
+            "body": "I would strongly consider renaming your game at this point.  They haven't even shut the site down, and you shutting it down will be complicated without their cooperation, you don't know what else they've registered your name on in anticipation of using either, this problem could hound you for a long time.  You renaming your game is the fastest way to eliminate the problem.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "LordAntares",
+            "body": "But what exactly are you bothered by if he is placing official links on his site? Doesn't this just help you. Reading through this, I thought this was going to be a post thanking someone for their volunteer contribution lol.\n\nIs it the incorrect ai generated text you are concerned about?",
+            "score": -5,
+            "replies": [
+                {
+                    "author": "FirstTasteOfRadishes",
+                    "body": "Because OP does not control the site and at any time it could change to serving content that is harmful to them.",
+                    "score": 16,
+                    "replies": []
+                },
+                {
+                    "author": "SporeliteGames",
+                    "body": "a few things - at the moment, yes, the incorrect information needs to be taken down. the other is out of principal - at any moment they can do a bait n switch and start spreading damaging misinformation about my project, such as disguising malware as game downloads. They are claiming to the official game website, which they are not. If they want to put a disclaimer that they are not associated with the devs, I'm all game.",
+                    "score": 11,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "returned_loom",
+            "body": "> y'all should visit this sub r/nothingeverhappens\n\nI don't doubt your sincerity, and this seems like the right sub for the issue you're experiencing.\n\nHowever, reading through the posts on r/nothingeverhappens and I really don't believe any of those things ever happened.",
+            "score": -12,
+            "replies": []
+        },
+        {
+            "author": "Sorry_Reply8754",
+            "body": "I'm not sure if you can do something about the .com.\n\nFor example, the official website for the WSBK championship is [worldsbk.com](http://worldsbk.com), because [wsbk.com](http://wsbk.com) is already taken and someone is trying to sell it for 10k dollars (clearly they took the name and now are trying to sell it to the officiak championship for a lot of money). I've seen that plenty of times, even with Nintendo games.\n\nI guess your alternative is to make something like [showroomthegame.com](http://showroomthegame.com) or whatever.\n\nAnd yes, the guy can use your art and everything on the website as long as he's not asking for money or spreading false information about. So far what he has is a literal fan website for your game. So I don't think you can do much about it.\n\nContacting the the provider would be a start.",
+            "score": -3,
+            "replies": [
+                {
+                    "author": "SporeliteGames",
+                    "body": "My understanding is that using my art and such violates copyright law",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "Sorry_Reply8754",
+                            "body": "If he's not making money out of it and he's also not using it for illegal activites, then he's not violating any copyright law.\n\nFor example, if you sell a t-shirt with a picture of Pikachu, you're violating copyright law, since are making a profit using the art from Nintendo. If you're using Pikachu of a symbol for some racist/fascist group, you're also violating copyright law.\n\nBut if your Pok\u00e9mon fansite has pictures of Pikachu or if you dress like Pikachu for Carnival or if you post a meme using a picture of Pikachu, you're not violating copyright law.",
+                            "score": -9,
+                            "replies": [
+                                {
+                                    "author": "GlowiesStoleMyRide",
+                                    "body": "This is false. Fansites are usually not subjected to copyright takedown because of optics. But in principle, copyright grants the author (or copyright holder) exclusive right to distribute, copy, adapt, display and perform. There is no monetization clause.\n\nA website masquerading as an official website, using IP of the thing they are masquerading as, is a perfect example of copyright infringement I think.",
+                                    "score": 9,
+                                    "replies": [
+                                        {
+                                            "author": "Sorry_Reply8754",
+                                            "body": "Yeah, you can use that argument. \n\nBut the website is not using the author's art really.\n\nThey are just reposting the trailer and screenshots.\n\nSo I think that alone wouldn't matter.\n\nA stronger case would be if the author showed some evidence of the guy trying to ask for money and proof of his past connections with the owner of the website.",
+                                            "score": -9,
+                                            "replies": [
+                                                {
+                                                    "author": "GlowiesStoleMyRide",
+                                                    "body": "Using screenshots and videos *is* using the art. That would be enough for a copyright violation. (Not legal advice)\n\nI\u2019m not going to go into different subjects aside from plain copyright- that\u2019s the only thing here I have any idea about. OP is best off talking to a lawyer regarding this, even the copyright business.",
+                                                    "score": 10,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "lunarchaluna",
+                                    "body": "This just isn't correct ? Any unauthorized use of something that is copyrighted is against the copyright law inherently, it's simply that most companies just don't care enough to do anything about it unless anything monetary is involved or it's otherwise actively harming their buisiness. It's only not copyright infringement if you have a license or permission to use the copyrighted material\n\nEven if the guy isn't making any money out of it, this can still definitely be argued as copyright infringement",
+                                    "score": 7,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "CaptPic4rd",
+            "body": "This guy is doing everything he can to market your game for you. I would try and see it as an opportunity.",
+            "score": -17,
+            "replies": [
+                {
+                    "author": "TricolorStar",
+                    "body": "Bro what?? This guy stole his .com domain and is basically in the way of him actually controlling his own IP. This is like someone breaking into your home and preheating your oven because you might want to make a pizza later, then not letting you turn it off because they've chained themselves to it. Then every time you want to make a pizza (or any food) you have to go through him. Opportunity where???",
+                    "score": 9,
+                    "replies": [
+                        {
+                            "author": "SporeliteGames",
+                            "body": "lmao love this analogy",
+                            "score": 4,
+                            "replies": []
+                        },
+                        {
+                            "author": "CaptPic4rd",
+                            "body": "It's more like if your house is unfinished, and someone walks by and says \"wow I really love your house. I think I could build a really beautiful wing to finish it for you.\" And you politely decline because you can't afford it. Then you come home one day and find the dude in your kitchen eating your leftovers, and he says \"Look, I finished it!\" And he finished your house for you. Weird? Yes. But he finished your house!",
+                            "score": -11,
+                            "replies": [
+                                {
+                                    "author": "GlowiesStoleMyRide",
+                                    "body": "More like a dude building a shed next to your house, and living in it. Despite telling him he can't do that, and needs to leave.",
+                                    "score": 8,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Polyforti",
+                    "body": "Are you the guy? That's a deluded take",
+                    "score": 8,
+                    "replies": [
+                        {
+                            "author": "CaptPic4rd",
+                            "body": "Dude, marketing games would be a lot easier if it was standard practice for developers to build websites FIRST, then ask if you like it and ask for payment. \n\nGranted, the dude shouldn't have taken the domain name. He should have built it on a dev server and showed it to OP.",
+                            "score": -7,
+                            "replies": [
+                                {
+                                    "author": "Polyforti",
+                                    "body": "I don't deny that would be an ideal world, but we unfortunately live a world very far from ideal",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "CaptPic4rd",
+                                            "body": "So what's your point? We dont live in that world and this crazy dude still did it. Im not so deluded.",
+                                            "score": -2,
+                                            "replies": [
+                                                {
+                                                    "author": "Polyforti",
+                                                    "body": "Thinking that this website is anything but a scam/extortion attempt *is* deluded. I stand by that.",
+                                                    "score": 6,
+                                                    "replies": [
+                                                        {
+                                                            "author": "CaptPic4rd",
+                                                            "body": "I guess that makes me an optimist.\u00a0",
+                                                            "score": -1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": -33,
+            "replies": [
+                {
+                    "author": "SporeliteGames",
+                    "body": "?",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "JackMalone515",
+                            "body": "Probably some kind of scam bot",
+                            "score": 9,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

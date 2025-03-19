@@ -1,0 +1,815 @@
+{
+    "title": "ELI5: How do private equity companies work? What is the point of them buying out businesses and letting them die off?",
+    "author": "44loko",
+    "subreddit": "explainlikeimfive",
+    "rank": 3,
+    "score": 262,
+    "upvote_ratio": 0.84,
+    "num_comments (reported by reddit)": 131,
+    "url": "https://www.reddit.com/r/explainlikeimfive/comments/1jdzp46/eli5_how_do_private_equity_companies_work_what_is/",
+    "id": "1jdzp46",
+    "selftext": "Been seeing a lot of talk about how businesses backed by PE firms are going under - recent example being Joann\u2019s. I\u2019ve also seen people say that a common practice once companies are acquired by PE firms is that they sometimes \u201cstrip them for parts\u201d and then kind of let the companies die off. What is the logic behind that? ",
+    "comments": [
+        {
+            "author": "Crysack",
+            "body": "What you're talking about is asset stripping, and while it does happen in the world of PE, it's only really one specific strategy and requires a situation wherein the PE fund identifies a company whose assets exceed the value of their shares. Joann's is not really an example of asset stripping.\n\nPE funds are usually not trying to kill off businesses deliberately. Most of the time, the ultimate goal is for the fund to acquire the business and exit at a later point at a higher valuation, hence generating profit for shareholders. They usually tend to exit through one of a few main ways:\n\na) They might sell to another PE fund\n\nb) They might sell to a larger company seeking to make a strategic acquisition\n\nc) They might execute an initial public offering or \"IPO\" where they list the company on a major stock exchange where members of the public can purchase shares\n\nThe problems with PE tend to lie in two main issues:\n\n**a) The manner in which they acquire companies.**\n\nPE funds often rely on leveraged buyouts or \"LBOs\". An LBO is simply a method of acquiring a company by borrowing the money to finance the acquisition. Unlike a conventional loan, where the borrower might guarantee the loan with their own assets, in an LBO, the loan is guaranteed against the assets of the company **being acquired**.\n\nIt's a bit like a mortgage where you put down a deposit (which becomes your equity in the house) and your mortgage is secured against the house itself.\n\n**The advantage** for PE funds is much like the key advantage of a mortgage. They get to finance a large acquisition without providing a significant amount of cash upfront.\n\n**The downside** of an LBO is that it burdens the acquired company with a significant amount of debt, which it must pay back over time. This is what happened with Joann's.\n\n**b) The short time horizon of PE funds**\n\nThe way PE funds work is that they raise funds from private and institutional investors which are then invested in a series of companies within the fund (usually structured as a limited partnership) for a fixed period. At the end of the fixed period, the investors will want their money back, hopefully with a significant profit. A typical PE fund investment period will run between 5 and 7 years.\n\nThis means that PE firms are heavily incentivised to rapidly increase cashflow within their portfolio companies, both to improve the book value of the companies and to pay down the debt from the acquisitions, enabling them to exit with a high valuation. This can create perverse incentives and strategies where the long-term financial health of the company is sacrificed for short-term profitability. \n\nPE firms may use a range of strategies to rapidly increase cashflow in the short term. Examples might be selling off all of a company's inventory to generate large amounts of cash prior to listing the company on a public stock exchange (which the company then has to buy back at a later point), or it might involve laying off large numbers of staff to reduce overheads, or it could involve \"lease-back\" agreements where the company is forced to sell off all of its real estate to generate cash, only to lease it back again (as happened with Red Lobster).\n\nThere are plenty of other criticisms to be made about PE, including various financing arrangements, fee extraction, artificial returns, so on and so forth. But these are the main two.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "iwishiwasinteresting",
+                    "body": "Yes, they have a five-ish year investment period, but they then have at least another five years after that, actually often like another 10 years these days with term extensions, to operate and sell the company. It\u2019s not as short of a window as your comment implies. Not criticizing (your answer was great), just clarifying.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Br0metheus",
+                    "body": "> The downside of an LBO is that it burdens the acquired company with a significant amount of debt, which it must pay back over time. This is what happened with Joann's.\n\nThis is the part that's insane to me: that the PE firm can dump the debt on the acquired company, thus extricating themselves from risk. Like, in what universe should this be allowed?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "footyDude",
+                            "body": "> that the PE firm can dump the debt on the acquired company, thus extricating themselves from risk.\n\n\nThey're not really extracting themselves from the risk though.\n\n\nGenerally, leveraged buyouts include at least 20% equity from the investing firm but it can also be higher (50-80% is apparently the 'norm' for LBOs, which would translate to 20-50% equity at risk for the PE firm). \n\n\nThat equity is what is a risk because the PE firm *own* the company that the debt is being 'dumped' on - if that company cannot afford to service the debt and goes bankrupt the PE firm loses 100% of their equity and almost certainly gets nothing in  return (in bankruptcy creditors are paid first and equity holders typically get nothing). \n\n\nThe PE firm can also leave themselves subject to litigation from creditors of the failed business, who can potentially recovers funds directly from the investment firm itself, not just from the assets remaining in the bankrupted business.\n\n\nBasically it's not risk free at all because 100% leveraged buyouts are very rare (why would a bank loan money to a PE firm to buyout a failing business where it's the bank who takes on all the risk and the PE firm none?)",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "weenis_machinist",
+                            "body": "It definitely shouldn't be allowed, and we can thank all the deregulation and underfunding of regulatory agencies for their rise.  \n\nFor example, when Cerberus Capital Management, Sun Capital Partners, and Lubert-Adler Real Estate bought up the Mervyn's department store chain in 2004, they did a sale-leaseback of the properties that Mervyn's owned; that is, Mervyn's sold their properties to the PE firms, who then charged them [more than double their previous rent](https://web.archive.org/web/20231210053652/https://www.privateequityinternational.com/cerberus-sun-capital-named-in-mervyns-lawsuit/).\n\nThe end result? PE made $1 billion and [settled the lawsuit for $166 million in 2012](https://www.reuters.com/article/markets/buyout-firms-pay-166-mln-to-end-suit-over-mervyns-sale-idUSL1E8L8A1G/). So they got to keep 83.4% of their profits by tying the plaintiffs up on costly court battles for 8 years. And the laid off workers got shafted the hardest.\n\nAnd if you want to get into direct community impact, about 20% of healthcare bankruptcies last year were owned by private equity, adding further strain to the overburdened healthcare system in the US.\n\nTL;DR: It's money laundering, but dressed in Brooks Brothers.\n\n[Further reading](https://pestakeholder.org/reports/private-equity-bankruptcy-tracker/)",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "soniclettuce",
+                            "body": ">Like, in what universe should this be allowed?\n\nThe banks/bond holders/etc who are doing the lending agreed to it. Why shouldn't they be allowed to lend money with the company as the collateral, if they want to do it? If they think its a bad idea, they can just not lend the money in the first place.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Br0metheus",
+                                    "body": "Depends whether or not the lenders are getting their money back, I guess. Given how many firms that get acquired by PE seem to go under, having debts on their books would seem like a problem for the banks.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "droppinkn0wledge",
+                            "body": "It\u2019s not insane at all. You just don\u2019t seem to understand how loans work. \n\nBanks can\u2019t just lend out money without some kind of asset collateral. PE firms are not just sitting around with cash on hand. Therefore, the best collateral to use in a buyout is typically the company itself. \n\nThere\u2019s nothing wild or crazy about LBOs. The other option is to just let these failing companies die, which usually just turns over the assets to the fucking banks, or auctioned off to the highest bidder. Why is this preferable to you?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Br0metheus",
+                                    "body": "Because it seems to me that a lot of these companies getting acquired this way aren't \"failing\" *until* PE comes in and strips them for parts. PE manages to buy the company, inflate it's valuation in the short term at the cost of long-term viability, sell off their holdings, and leave the new owners holding the bag.\n\nJust look at what happened to Red Lobster: they got bought up by PE firm GGC, who sold off the land for a quick profit while having the restaurants lease it back from the new owners, which led to their eventual bankruptcy. Of course, GGC had already sold off Red Lobster by the time this happened, so they made a nice dime while an entire brand tanked. I don't know how the debt was structured in this case, but you can imagine if they'd passed it off to RL it seems like a way to rob the place and leave them with a bill for being robbed.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "combat_muffin",
+                                            "body": "> Because it seems to me that a lot of these companies getting acquired this way aren't \"failing\" until PE comes in and strips them for parts.\n\nI think this is a perception problem. Companies don't usually sell to PE unless they are going down. Maybe they're not laying anyone off or closing stores, but those steps are leading to the slow bleed out that the general public doesn't see. PE will then come in and cut stores and employees in an effort to keep the company as a whole afloat. Definitely sucks for those out of a job, but the alternative is the company going bankrupt and everyone getting laid off.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "DrummerEmpty3767",
+                    "body": "Can you also give a short explanation of the \u201cdividend recap\u201d.  I think that may have come into play with some of the failed businesses in the news.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "cgordon581321",
+                            "body": "A company is worth $100. PE firm raises $80 of debt financing backed by the companies assets and cash flow. They in the remaining $20 as equity.\n\n4 years later they have stabilized (or grown) the business and it is now worth $200. The value of their equity is now $200 minus the $80 in debt = $120. Or a 6x gain on their equity \n\nThese are private markets though so selling is the only way to realize a gain. \n\nOR\n\nYou refinance the company. You go to a new (or same) lender and say I want to borrow $160 this time because my company is now worth $200.\n\nYou use $80 of that $160 to pay off your original $80 loan. \n\nWith the remaining $80 you pay out a dividend to equity holders. \n\nThere is nothing inherently wrong with this approach although when it gets criticized it is often because that additional capital could have been put to work in the business instead of distributed.\n\nRegardless, that is a silly criticism because the equity holders have full discretion how to distribute capital",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "MasteringDebating",
+                    "body": "Great answer, but as a five year old, you lost me at \u201casset\u201d",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "uncle-iroh-11",
+                            "body": "A five year old wouldn't be asking about private equity companies buying & killing failing companies.\u00a0",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "MasteringDebating",
+                                    "body": "Fair point lmao",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "blue_shadow_",
+                            "body": "> LI5 means friendly, simplified and layperson-accessible explanations - not responses aimed at literal five-year-olds.\n\nFrom the sidebar:\n\n> LI5 means friendly, simplified and layperson-accessible explanations - not responses aimed at literal five-year-olds.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "CorvairGuy",
+                    "body": "Well stated. More fun to Watch Other People\u2019s Money, though.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "bubba-yo",
+                    "body": "One thing you didn't mention is that the heyday of asset stripping was buying companies that had a lot of equity in worker pensions - a fund the company controlled but was promised to workers - and looting the pension fund to get their returns leaving workers with pensions that were worthless.\n\nAs to the leaseback agreements, companies that had a lot of capital assets (factories, real estate) would sometimes be bought to sell those off and relocate overseas where real estate was cheaper. There's a lot of criticism of moving for cheaper overseas labor, but sometimes it was just to sell off expensive US real estate or a factory that was becoming outdated but still had value. \n\nBottom line these are all financial manipulations of parts of the economy that destroy durable value. The pension looting shifted retirement costs to government, so they were a form of legal and one-step-removed stealing from taxpayers. This was part of the wholesale shift of the US to a rent-seeking economy, where corporations would not invest in durable value (things that have value after they have been paid for - roads, supply chain, worker skills, etc.) and corporations would lobby the government to not invest in those things because they didn't want to pay the taxes to do that.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Prasiatko",
+            "body": "I mean most PE will just buy a company and let it continue to run as before only feeding the profit to them. The type your speaking about do what's called asset stripping. Basically if a company's is so undervalued that it's assets (factories, brands, research labs etc) are worth more than the cost to buy the company then they will buy them up and sell off those parts.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "cgordon581321",
+                    "body": "There is also an in between as well. Often liabilities can be restructured through bankruptcy. \n\nSo it might be that the company owed 100 and the assets were worth 80. Equity value there is zero.\n\nBut maybe there was someone at a PE firm who is a bankruptcy expert and thinks they can restructure the debt so the company only owes 70. \n\nEquity value is now 10.\n\nLayer on the leverage component, ie the PE firm can buy the company worth $10 (made up) for only $5. Now they can restructure the debt, turn around and sell it for $10 making a 100% return.\n\n(Numbers are made up and only directionally accurate). Most PE firms are looking for a 30-40% IRR. Firms that specialize in distressed assets are often looking for much higher given the risk",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "ExcessiveBulldogery",
+                            "body": "Excellent eli5 - thanks!",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "jmlinden7",
+                            "body": "That's not bankruptcy, unless you mean the PE firm buys an already bankrupt company and unbankrupts it.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "cgordon581321",
+                                    "body": "Either. You can buy a struggling firm and declare bankruptcy. Or you can buy a firm already in bankruptcy and work it out of bankruptcy. Bankruptcy is very often not a terminal state",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "IamGimli_",
+                                    "body": "Bankruptcy is a process, not an outcome. You can go through bankruptcy and still have an operating company left after.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "jmlinden7",
+                                            "body": "Yes that's called Chapter 11.\n\nMy point is that what they described doesn't meet the definitions of the process of bankruptcy, unless if the company started out already in the process. Which means what they described is actually the process of un-bankruptcy",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "WhiteRaven42",
+                    "body": "As you say, it bares remembering that the \"tragic\" stories of companies that were bought and stripped are never about companies that were in fact healthy to begin with. Perhaps in some cases they are beloved brands but they are nearly always losing money.\n\nHealthy, valuable companies are expensive to buy and well worth keeping running. One does not \"strip\" a successful enterprise. That would indeed be as shortsighted as OP implies.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "fu-depaul",
+                    "body": "And PE companies don\u2019t kill companies. \u00a0\n\nWhat OP is talking about is distressed buyouts. \u00a0\n\nThis is when companies are facing bankruptcy and so they are sold to a PE firm. \u00a0Sometimes the plan is asset stripping but that is very rarely the case. \u00a0\n\nMore often it is a turn around play where the PE company wants to save the company and turn it around to be profitable again so that they can make a killing by buying it cheap and then selling it when it is profitable. \u00a0\n\nOf course, it is very hard to turn around a dying business. \u00a0\n\nSo there don\u2019t work out a lot. \u00a0\n\nThen people who don\u2019t know anything about the companies say \u201cXYZ was bought by PE and five years later went out of business.\u201d \u00a0 As if that is proof that PE kills businesses. \u00a0But the business was bought by PE because it was worthless in the first place. \u00a0",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Hoo2k8",
+                            "body": "I mostly agree with this, but I\u2019d also add that some of the more controversial tactics involve buying a company that the firm believes is underperforming (but not necessarily failing), loading it up on debt, and taking large risks that often result in either drastically increasing the value or bankrupting the company.\n\nSo a PE firm may buy 5 decently performing companies, take massive risks, drive 4 into bankruptcy, but that 5th one is so successful that from their perspectives, buying all 5 companies was a success. Of course the people that were employed by the other 4 do not feel the same way.\n\nAnd just to be clear - I do think your description is generally how PE firms work. But there are real critiques about the level of risks some PE firms take.\u00a0",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "lluewhyn",
+                            "body": "Yeah, my experience with PE as an employee is that they are more likely to be \"flippers\" rather than \"salvage crew\".\u00a0\n\n\nBiggest concern as an employee is that your company will be ran somewhat lean to get good profit or EBITDA to cash in a good multiples offer, and then after being sold you might get laid off if G&A for \"streamlining\".",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "DevuSM",
+                                    "body": "What I think should be illegal is that they roll the acquisition cost onto the balance sheet of the company.\n\n\nAnd then they start gouging the companies in management fees paid to the PE firm.\n\n\nAt that point, does it really matter all that much that the company succeeds?\u00a0\n\n\nThey are no longer financially affected by failure other than losing the management fee income.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "chrisarg72",
+                                            "body": "You clearly don\u2019t understand how it works because that\u2019s not true - there\u2019s a massive incentive. \n\nPE works on a 2/20 model, 2% management fees, 20% profit sharing. They always make the most money by selling it for a profit. The debt gets added to the company for tax shielding purposes (interest is deductible), as well as minimizing the equity capital at risk, and the company\u2019s profit pays for it.\n\nRemember they get 20% of the profit of the deal, and any debt is subtracted from the proceeds. So if the company has $70 debt on $100 value, they only get $30, if it has $50 debt on $100 value, they get $50. Because they keep 20% of that they\u2019re very much incentivized to reduce the debt, the challenge is when it fails it fails hard because it\u2019s so over levered\u2026",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "DevuSM",
+                                                    "body": "But the debt itself is setting up the company to fail. You're putting them in a far worse financial position and gambling their fate on whether you can pull them out of the nosedive.\n\n\nYour own fate is only how much upside you'll realize.\n\n\nIf the PE firm thinks the current management is so incompetent and they're such hot shit, they should take the whole companies liability onto themselves/the PE firm.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "fu-depaul",
+                                                            "body": "You realize that the reason they are lended the money is because it isn\u2019t onerous.\n\nWho is going to lend money when the business can\u2019t pay it back?\n\nFinancial institutions lend the money because the business should be able to service the debt. \u00a0\n\nThe headlines are filled with the few instances where it doesn\u2019t workout. \u00a0It gets a lot of clicks when you write an article about PE owning a business and it going bust.\u00a0\n\nBut for some reason people don\u2019t like to read the stories about PE making a lot of money after selling a stable business. \u00a0\n\nWhere do you think this debt comes from?\n\nYou realize that there are people who lose their whole investment when a business goes bust, right?",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        },
+                                                        {
+                                                            "author": "chrisarg72",
+                                                            "body": "Only in extreme cases is it setting it up for failure, most deals do not do this and the downside is their initial equity capitalization (which they don\u2019t like losing).\n\nRight so they should give up an easy 50% on each deal through structuring because of vibes? This is like the joke of \u201cturned down the raise because I didn\u2019t want to drop grinding\u201d.",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "droans",
+                            "body": "Yep - for most acquisitions, that is the goal. Companies that are on the verge of bankruptcy will have to make poor long term decisions in order to save themselves in the short term. \n\nWhen people talk about \"asset stripping\", they usually are referring to one of the strategies used. The PE will often acquire the building, land, or other assets from the company they purchased and, in exchange, the acquired company will receive liquidity which helps them survive. This doesn't fix their problems but it does give them more time to attempt a recovery. \n\nThey still have to pay FMV for the assets. If the company does enter bankruptcy, they will have to prove that any transaction between the PE and acquired company was at arm's length. Failure to do so would constitute piercing the corporate veil, a fancy term which means the owners of a company (in this case, the PE firm) can be held personally liable.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "jdl_uk",
+                            "body": "Can also happen when part of a business is split off as its own entity, for example when the affected products don't fit well with other parts of the company's portfolio.\n\nExample: when some Symantec products were split off as Veritas, the new entity was sold to a PE company.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "Dog1234cat",
+                            "body": "Here\u2019s how private equity can make money by bankrupting a business. \n\nhttps://www.cnbc.com/amp/2025/02/25/red-lobster-tgi-fridays-bankruptcies-private-equity.html",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "fu-depaul",
+                                    "body": "Just because people die in hospitals doesn't mean the hospital is the cause of death; it\u2019s more likely that people who are already critically ill go to the hospital. What evidence shows the hospital itself is causing the deaths, rather than the patients\u2019 underlying conditions?\n\nYou\u2019re attributing the death of companies to PE investment.  But you\u2019ve shown no causation.  \n\nThere is significantly more money made by a business surviving.\n\nThe only reason these businesses can be bought so cheaply in the first place is because they are failing and investors are jumping ship.  One of the huge benefits of PE is that they are private and don\u2019t have to deal with market influences.  This means they don\u2019t have to face investor pressures quarterly to quarter and can take a longer term horizon thy gives them a shot at a turn around.  \n\nPE is the last resort of a dying business, just as being admitted to the hospital is a last resort to save a sick person.  The fact there is a death isn\u2019t proof that they are the killer.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Dog1234cat",
+                                            "body": "First off, while I agree that there are times that private equity does a good job of squeezing the last bit of value from a company on the downslope (and that\u2019s frankly ethical and economically a good thing), I would push back on \u201cprivate equity only buys dying companies\u201d (and if I\u2019m misrepresenting your argument then I\u2019m happy to edit/correct).\n\nI\u2019ve worked for multiple companies that were owned by private equity that weren\u2019t taking the vulture approach (just using this as a technical term, not a pejorative). I\u2019ve seen companies made private, increase the business and sell it off (in some cases to other companies, in some instances IPO) and some that create a conglomerate with synergies (Inspire Brands). Some take a company private and hope they can pay the interest on debt and still show a healthy profit for themselves (haven\u2019t worked for that flavor). I\u2019m definitely not in the knee-jerk \u201cprivate equity bad\u201d camp.\n\nBut there are scenarios where they kill off a viable business for a quick buck. \n\n\nFor instance:\nStep 1. Make owners (a seafood company) the sole supplier of shrimp.\n\nStep 2. Bill more for the shrimp. \n\nStep 3. Force them to do an endless shrimp offering, ensure lots of your product must be bought. \n\nStep 4. Declare bankruptcy and restructure.\n\nSure it ain\u2019t the only drag on the company. But it was a conscious and deliberate decision to practically ensure bankruptcy just to make a short term profit.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "BoNixsHair",
+                                                    "body": "You\u2019re assuming that the business was viable.  It wasn\u2019t.  If operating the business for the next three years would have made more money, they\u2019d have operated it.\n\n But the business was dead and the best way to make money was to sell shrimp.  So they did that.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Raven123x",
+                                                            "body": "There's also cases where private equity reduces the quality of the companies' product(s) more and more (raising profits since they don't have to pay for developing as high quality a product), until the customer gets so fed up that they quit getting that product from that company - and at that height private equity sells for what it can and the company fails",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "farmallnoobies",
+                            "body": "Some PE companies do pillage for assets.\u00a0 But so do some publicly traded companies.\n\n\nIt's just not unique to one or the other\u00a0",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "jake3988",
+                    "body": "> The type your speaking about do what's called asset stripping\n\nThat's what's nicknamed 'vulture capitalism'.  For some reason most of reddit confuses private equity with vulture capitalism.\n\nThere's a subtype of PE called 'venture capitalism' and the worst of the worst of those companies are the 'vulture's we talk about.\n\nMost big companies that are private (and there's a lot of those) use PE.  Absolutely nothing wrong with PE.\n\nIt has HUGE benefits over being public.  When you're public you have to constantly expand, to the point of insanity.  PE is not like that.  The company I work for went private like 6-7 years ago and I far prefer working under PE than a public company.\n\nBut they're called 'vultures' for a reason, they gobble up already dying companies (like, for a famous somewhat recent example, Toys R Us) and pick them for parts.  Why do they do it?  It's a way to make money.  Why else?  But they don't really kill them.  Most of them would've died anyway.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "round_a_squared",
+                    "body": "There are basically two PE strategies: 1) asset stripping, or 2) keep it for five years, make it look good on paper, and sell it to a big multinational (who will then dismantle and destroy it themselves within a few years)",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "jgiacobbe",
+                            "body": "Eh, there are a lot of sales between PE groups. Different PE groups specialize in different industry segments and different sizes of companies. Also, I am hearing they are now keeping things longer on average. The model is to buy some companies, do stuff to hopefully make them worth more and then sell for a return. For an example of a large private equity group that has a lot of brands that are commonly known and that don't appear to be going under, check out: https://www.roarkcapital.com/portfolio",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "CorpseJuiceSlurpee",
+                    "body": "PE firms living out their 90s nostalgia too. Wonder if hostile takeovers will make a comeback.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Sitty_Shitty",
+                            "body": "If any of the regulations that were put in to stop them are reduced you can be assured there is some-people exploiting those scenarios.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "platypuspup",
+                    "body": "Isn't that what the rich guy does to get rich in Pretty Woman?\u00a0",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "sadcheeseballs",
+                    "body": "An example of this is Manor Care. Private equity bought a network of senior homes across the country. It then sold all of the homes for profit (which it kept). The elderly people living there had their costs go up because the homes they stayed in had to start paying rent.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "IEatLintFromTheDryer",
+            "body": "Short term profit is the answer. If the parts are more valuable than the company as a whole (One part of the company generates profits while the other part only generates losses) You split the company, sell the valuable asset for more than you originally Paid for the whole company and let the unprofitable part die off.\nThey don\u2019t care about the company only about the profit they can potentially make",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "HawaiianSteak",
+                    "body": "There's a PE buying Willow Springs Raceway.  They'll probably level the land and build houses. =(",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "shotsallover",
+                            "body": "That's exactly what they plan to do with it. Not even secret about it.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "Deep-Teaching-999",
+                            "body": "If I\u2019m not mistaken, this is what\u2019s happening now with Forever21 (just filed for bankruptcy) since they were \u201crescued\u201d by PE group.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Sixnno",
+                                    "body": "It's what happened to red lobster last year. A few years ago they were bought by a PE firm. the PE firm sold all the land red losbter owned (the previous owners often bought the land they built the restraunts on to keep prices low) to a sister company which then started to charge rent to the red lobster restraunts. this caused their prices to skyrocket since they now have to cover rent and it caused them to go under, being sold off to another PE firm.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Deep-Teaching-999",
+                                            "body": "Indeed, and the media portrayed their downfall to \u201call-you-can-eat shrimp\u201d.  I didn\u2019t know PE bought into them though.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "khain13",
+                                                    "body": "Oh, the shrimp was part of it, too, if I remember correctly. Something like the PE forced them to change suppliers to a company that the PE just hapenned to also own and jacked up the cost of shrimp way higher than average market price at the time forcing Red Lobster to sell it at a substantial loss.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Deep-Teaching-999",
+                                                            "body": "The hardest part of all this PE stuff is that it\u2019s a \u201cno risk\u201d investment where the bankruptcy does not touch the PE as per contract.  The CEOs of the collapsing company get a huge payout too.\n\nThe system is fucked up!",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        },
+                                                        {
+                                                            "author": "alohadave",
+                                                            "body": "This is a good video about the situation:  https://youtu.be/f9d9QHP4R2Y?si=6SVBdY6KrYdUVIdM",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "schnurble",
+                            "body": "Gods I hope not. That is a piece of motorsport history. Hopefully California won't let it be destroyed.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Zenning3",
+                                    "body": "Why the hell do we care about a dead raceway, when housing in the state is the most expensive in the country, and in the world.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "RepFilms",
+                                    "body": "Private equity has been destroying the United States for a while now. They try to hide their tracks. I don't know if there is a complete list of all the companies and institutions destroyed by private equity.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "BoNixsHair",
+                                            "body": "It\u2019s called creative destruction and it\u2019s essential to our economy.  Old buildings and old assets get turned into new productive assets.\n\nIf we didn\u2019t have this, Detroit would be full of buggy factories instead of car factories.  Someone had to buy the buggy factory and shut it down and recycle those assets.",
+                                            "score": 1,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Dave1mo1",
+                                            "body": "If the site is more valuable in its current state, why isn't someone outbidding the PE firm to leave it as is?",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Alis451",
+                                                    "body": "History is almost never more monetarily valuable by itself.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Dave1mo1",
+                                                            "body": "So why do we ever let anything change?",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Alis451",
+                                                                    "body": "because sometimes New Progress Value + New Monetary value > Old Historical Value + Old Monetary Value; there is a line, but it not **always** just the dollars and cents.",
+                                                                    "score": 1,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Zenning3",
+                                                                            "body": "There is a line when every single piece of land in California is considered too historical to do anything with.  If people let people build homes, then it would no longer be more valuable to purchase the raceway, sadly, people keep pretending that development is some great evil, and make building harder and harder, for increasingly silly reasons.",
+                                                                            "score": 1,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Ejmct",
+                            "body": "Right this answers the OP\u2019s question. \nThey will buy something we all know (like Willow Springs) and if they can make more money turning into homes or condos or apartments then that\u2019s what they do. It\u2019s simple as that. They do the same with restaurant chains you may like. But if selling the real estate can yield more profit than running the restaurants then they\u2019ll bankrupt the chain and sell off the locations around the country for $$\u2019s.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "NovelideaW",
+            "body": "Private Equity is the same as any industry. It has good actors and bad actors. It's an investment industry though so most aren't buying a company with the intention of destroying it. These firms are looking for ROI (return on investment). Business (not just businesses bought by private equity) often fail due to mismanagement, as such, it is possible for a private equity firm to mismanage an investment. You could argue that this was the case with Joann. The private equity firm that took on Joann extracted to much debt, cut staff in an attempt to cut cost, and also suffered inventory issues due to covid. It wasn't entirely the blame of the private equity group that caused the failure of Joann Fabrics though. It is a brick and mortar store and had already lost a significant amount of market share to online competitors.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "poontong",
+            "body": "Private Equity firms are interested in value, not businesses. PE firms aren\u2019t normally interested in holding a business they acquire on their books forever since they make money by buying businesses at a low price and selling them at a higher price. \n\nSome businesses have a successful business model that generates profit and PE firms acquire those businesses because they go on sale by the former owner (or perhaps by a hostile takeover by acquiring a controlling interest of stock in a publicly traded company). The PE, sort of like a business management consultant, may feel that they can make these successful companies even more efficient and maximize previously unrealized value. Then they can sell this more valuable company for more money to someone else.\n\nPE firms may have another expertise involving failing businesses like JoAnne \u2018s. I don\u2019t pretend to know much about JoAnne\u2019s, but I assume that their costs have gone up in recent years due to their supply chain and they owned too many physical locations that weren\u2019t generating enough sales. As a result, the company likely accumulated massive debt.\n\nWhen a PE firm acquires a business like this, they aren\u2019t going to put in the years of work to fix the business model and make it profitable again. Instead, they will look over all the assets of the company and sell them. They will call other companies that are experts in store closings and have them liquidate the company\u2019s inventory. They will fire all the employees during this period, essentially offering fewer and fewer of them to hold their jobs until the stores can be closed. They will see if they can sell the brand or intellectual property of the business like what happened with Bed, Bath and Beyond. Some businesses have subsidies, real estate, or patents that are valuable that can often be sold. Basically, as a process of buying a failing company, the PE firm is going through their books to see if they think they can make money by buying it and then liquidating it.\n\nOften, especially if they know how to leverage and restructure debt well, PE firms can make lots of profit by liquidating companies. In fact, it can create a perverse incentive where PE firms might acquire a healthy and successful business and they liquidate it anyway (putting the employees out of work). There are lots of movies with this as is part of the plot like \u201cWall Street\u201d and \u201cOther People\u2019s Money.\u201d This can also be a similar mechanism that some larger companies will use to acquire smaller competitors to put them out of business. Unless a company is mostly owned by individuals that are determined to sell the business to another party that wants to keep it going, then there is always the risk that selling to someone else might result in liquidation.\n\nIn the movie \u201cWall Street\u201d Micheal Douglas\u2019 character Gordon Gecko famously has a speech often called \u201cgreed is good.\u201d The speech is delivered to a shareholder\u2019s meeting of a small airline company that is making small annual profits. Gecko is offering the shareholders more money if they will go along with his plan to kill the company under the argument that business is only about profit and no other moral responsibility, thus greed is the only true \u201cgood\u201d of business.\n\nThis mentality is precisely why so many PE firms have a bad reputation. You might also remember Mitt Romney was part owner of Bain Capital which he often pointed to as saving jobs but also liquidated many companies resulting in thousands of people losing their jobs. Fundamentally, PE firm only care about value and selling business for more than they paid for them. If how they get there is always moral or not is in the eye of the beholder.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "phiwong",
+            "body": "Private equity is a large class of business. So first you need to break them down into different types. Not every type does what you're describing so your thinking is a bit superficial. Private equity simply refers to companies that invest in companies with the aim of taking a major stake and sometimes to control a company. In extreme cases, private equity firms buy the company up completely.\n\na) Venture Capital - This kind of private equity that focuses on companies early in their life cycle. Very often before the company is publicly listed. Their aim is to provide capital and expertise to allow the company to grow quickly and profit when the company goes public.\n\nb) Value based capital firms - This kind of private equity looks for firms that are, in their opinion, undervalued. By taking a stake in the firm, they want to influence the company direction and strategy in the hopes that the company can realize that potential. They profit by making the company more valuable and then selling their stake off later. In this process the PE firm might require the company to sell off or shut down unprofitable business units. So this can be ultimately beneficial to company but it can be very chaotic to their employees.\n\nc) \"vulture\" capital firms - This kind of private equity looks for distressed firms who are doing very badly but who might hold valuable assets. For example a firm that might have poor operating business but owns a lot of real estate or perhaps holds valuable IP (patents etc). Here the private equity firm might not be interested in reviving the company as an operating business. Instead it might try to liquidate the company, essentially fire all the employees and sell the underlying assets in the hopes of making a profit. This could be the type of firm you are referring to and why the operate that way.\n\nThis is just a broad overview of PE and how they have different goals and approaches.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "EssayTraditional2563",
+            "body": "Well\u2026 that\u2019s because they don\u2019t intend to buy business to let them die off. That\u2019s usually a consequence of the PE firm doing a shit job.\n\nThe basic idea is, they\u2019ll buy a company with leverage, hold the business for a few years as it grows, then sell the business for more and use the proceeds to pay off the debt and the remainder of the money goes to themselves.\u00a0\n\nThis concept of \u201cPE firms just strip companies for parts\u201d isn\u2019t that common anymore. In the past, valuations were pretty inefficient and there was a huge trend of conglomerate businesses that did a shit ton of different business activities. \u201cCorporate raiders\u201d realized they could spin these off into seperate businesses, with the sum of the parts being worth more than the overly convoluted whole. If you have a business which both has a fast growth software segment and a mature manufacturing arm, people either wanna buy the software arm or the stable industrials arm - as a conglomerate, these businesses suffered from a \u201cconglomerate exposure\u201d as neither type of investor wanted exposure to BOTH kinds of segments.\u00a0\n\nThese inefficiencies have mostly dissipated. This is simply not a common PE strategy anymore; however, activists still push for spin-offs in the public markets. Instead, in PE, the more popular strategy over the last few years has been the roll up strategy (literally the opposite of stripping apart assets). For example, a PE firm might buy a platform HVAC business for 10x EBITDA, and buy smaller HVAC businesses at 7x EBITDA - this results in instant multiples arbritage. The issue is, a lot of PE firms didn\u2019t integrate the rollup acquisitions well, and funded the rollups through copious amounts of debt, so when shit doesn\u2019t work / hits the fan, the portfolio company goes into bankruptcy.\n\nIf a PE firm\u2019s portfolio company goes into bankruptcy, the PE firm takes a massive loss. However, a lot of people confuse a bunch of these concepts and come to the conclusion that driving the firm into bankruptcy benefits the PE firm. That is the exception rather than the norm.\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "M0rphysLaw",
+            "body": "Also, PE firms use debt leveraged financing to take out loans using the company\u2019s assets as collateral.  The company, not the PE firm, has to make payments on the loan to finance the PE firms equity stake.  This places big cash flow burdens on companies that can eventually lead to insolvency.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Practical_Welder_425",
+            "body": "The standard play is to borrow a bunch of money in the company's name.  They then pay themselves exorbitant management fees.  They also will strip down assets and run the thing threadbare, so that's further profit they can pay themselves in the short term.  The company goes belly up, but the debt is only on the company acquired, not the PE firm.  So they are free to acquire other firms and squeeze out the juice and discard the rest.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SvenTropics",
+            "body": "It's called leveraged buyouts, and it's a plague right now. \n\nBasically it works like this, let's say you know of an ice cream shop in town. The owner has it on the market for $50,000. You buy it, but you actually take out a loan against the ice cream shop (your own name isn't on the loan) for 80% of the amount. So, you only had to put up $10,000 in cash. Then you cut everyone's pay, raise the price of ice cream alienating all the customers, cut every benefit to rake in some short term profits, and start selling off all the equipment. The ice cream shop goes out of business in 3 months, and everyone working there is laid off. However, you managed to take in about $20,000 during that time cannibalizing the business. The business goes under, and the bank repossesses what is left. The loan was in the name of the business, so you are unaffected. Then you go and do it with another business, and another, and another. You are double your investment every time in a very short period of time. So, you are happy. This is great money, but you leave a wake of destroyed businesses behind you.\n\nA good example of this happening in the real world was Toys'r'us. This is exactly what happened to them. \n\nThis is a simplified example. You wouldn't actually be able to do what I described because nobody would take out a loan against the business. They would require your personal guarantee on it. However in the world of private equity, they make it work.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "btcll",
+            "body": "Something many comments are missing is that buying an undervalued company (ie the assets are worth more on paper than what you paid) allows the business to raise significant debt using the bought businesses assets as security. This debt can then be used on riskier ventures and if they don't work out it's covered by the assets used as security.\n\nSo, basic numbers. A business worth 1m is bought by private equity for 800k. The 1m worth of business assets are used to secure 2m debt to be repaid over a long time frame. The 2m is used for risky investments. If they work out then the profits are returned to the private equity firm. If they fail then the business is unable to service the interest, defaults on the loans and it is up to the lender to try get their money back by selling the assets used as security.\n\n(I'm not an expert on this so the numbers might be a bit wrong, please correct me if they are. I'm not exactly sure how much they can borrow as a multiple of assets) \n\nIt is kind of similar to what happened with mortgages in 2008~. On paper these loans to established businesses aren't classed as particularly high risk, especially because they've got the security of real assets. But in practise they're very high risk loans because of what the money is being used for and how inconsequential it is for the private equity firm if they can't repay it.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Vito_The_Magnificent",
+            "body": "The model you're describing are essentially salvage operations. You start with a company that's worthless as a profit-generating enterprise. \n\nImagine you own container ship. Your boat sinks in the middle of the pacific ocean full of tvs. \n\nA company comes along and says \"We'll give you $40 million for that boat on the bottom of the ocean.\"\n\nYou run a shipping company, and cannot fathom how you're going to get *any* money out of that boat, much less $40 million, so you accept the offer. \n\nThe salvage company has the equipment and expertise necessary to get to the bottom of the ocean and recover the ship and it's cargo. They know which ship parts they can still sell after they've been underwater. They know how to get the valuable metal out of the tvs. They can make money paying $40 million for it.\n\nSalvage companies aren't buying ships in good repair that are actively making money shipping goods.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "frzn_dad",
+            "body": "They often gut them, spend any brand equity and/or spin off anything profitable while leaving the debt/liability behind for bankruptcy.\n\nIt is a faster/easier way to make money than fix the issues and make a profitable business.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "EssayTraditional2563",
+                    "body": "That\u2019s an insane oversimplification. You can\u2019t buy a business with insane amounts of leverage and sell off valuable assets and keep the cash for yourself and leave the overlevered business to go into BK.\n\nCreditors aren\u2019t stupid, there are asset sale covenants in place in credit docs which would force proceeds from these asset sales to be used to sweep down the outstanding term loans.\u00a0\n\nAlso, let me know where you\u2019re finding deals to buy businesses that are so undervalued you can start chopping up the business like this, because most PE firms of scale struggle to find fairly valued deals, let alone absolute rip offs like that. The market is way too competitive nowadays, most PE firms are forced to overpay to win competitive auction processes.\u00a0\n\nThe whole idea of gutting the businesses is something that was popular decades ago. Private equity companies now are instead focused on snowballing their portfolio company bigger and bigger through poorly integrated rollup acquisitions - the opposite of what you\u2019re describing.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Puzzman",
+                            "body": "Isn\u2019t the proposed takeover for Walgreens literally doing this? Going to split the company into 3 and transfer as much debt as possible to the US retail arm.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "EssayTraditional2563",
+                                    "body": "IDK, I haven\u2019t looked into the WBA deal much. That\u2019s also a bit of a different case, as a public company + whole load of considerations around CoC and portability of the debt. I think as it stands the US retail arm is de facto clinging on to much of the debt and other liabilities (which seem to be the main concern here) - lots of times comes down to whatever the borrowing entity for the debt was. In most cases, when there\u2019s a Change of Control event, you need to pay down existing debt anyways unless it\u2019s expressedly portable, but it seems the real concern for this deal and the transfer of liabilities to one division is less about the actual debt and more about the opioid liabilities (which is a different concept to what I was talking about, which relates more to actual debt).\n\n\nIn other words, the WBA deal situation is a bit different than the strange situation being laid out here by some commenters.\u00a0",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "kore2000",
+                            "body": ">That\u2019s an insane oversimplification.\n\nNot to point out the obvious, but isn't that kind of the point of this sub?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "EssayTraditional2563",
+                                    "body": "Maybe oversimplification was the wrong word. It\u2019s just straight up not possible. Credit docs all have asset sale proceed covenants requiring a cash sweep upon sale - I\u2019ve usually seen a 100% cash sweep. Spin-off of assets would also be tough as there\u2019s typically a requirement to have minimum cash consideration for these assets that get sold - min of 50% or 75% typically.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "RepFilms",
+                            "body": "This is supposed to be EL5. I don't understand your undersimplification. \"Snowballing portfolios\", \"rollup acquisitions\"? I have a strong suspicion that you are outright lying and this institutionalized destruction is still very much going on.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "BalboaBaggins",
+                                    "body": "No, he\u2019s correct. \u201cSnowballing\u201d and rollup acquisitions refers to PEs buying up multiple companies in the same industry and merging them to achieve economies of scale, which is the dominant strategy these days as it\u2019s a lot more profitable and less risky than this sub\u2019s odd notion of \u201cstripping the assets\u201d.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "EssayTraditional2563",
+                                    "body": "No offense but you sound pretty stupid saying that. Anyone who has worked even tangentially within finance, let alone private equity, knows this. Go do some research.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Slytherin23",
+                    "body": "And clueless banks are taking the hit.  You'd think they'd eventually catch on.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Syresiv",
+                    "body": "How does company find a lender for this? If they're about to stop existing, any bank would have to be stupid to lend to them.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "platinummyr",
+                            "body": "It usually doesn't happen overnight, and I think the bank makes money through the interest and at the end when the business has to use any remaining assets to close the debt",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "No-swimming-pool",
+            "body": "Most often this only works because there's nobody interested in buying the company at \"full\" price, which means the price is reduced.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "beaudevanney",
+            "body": "Private equity (PE) is like **flipping houses**, but instead of real estate, they flip **businesses**. Sometimes they **fix them up and sell them for a profit**, but other times they **strip them for parts, take the money, and let the business die**.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "woailyx",
+            "body": "Companies aren't actually run for the good of the company, they're run for the good of the owners (shareholders). \n\nIt's the same with dividends. How does it benefit the company to give away cash or spin off a division? It doesn't, it's bad for the company but good for the people who own the company. \n\nIf you can buy a company to resell it in parts or wind it down and keep the money that's left at the end, you as the owner come out ahead. It's not always possible to do, because companies are usually designed to make more money by continuing to operate, but there are isolated cases that some people are good at identifying, where there's some asset in the company that happens to be worth more today than the share price. \n\nThis is partly because the stock market is an emotional beast, and good companies get overvalued and bad companies get undervalued. If you're losing money, maybe nobody wants your shares, so they drift downward in price even though you have lots of cash or real estate or whatever. It might even be a fair evaluation of the business, because a money losing operation with cash in the bank technically is worth less than just the cash. At some point the market cap can drop to less than the total value of those assets, which isn't an event horizon most traders notice, and at that point a hostile takeover becomes a real possibility.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Slytherin23",
+            "body": "Double prices and cut quality.  It works for awhile but customers slowly depart and don't come back.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "kijim",
+            "body": "I have working automotive for decades. Pretty much the script is always the same. A PE company buys a business. They quickly cut costs by laying off people in engineering, sales,  business management and quality. They cut capital investment to the bone. They replace some of the experienced people they cut with young folks who have barely a clue what they are doing. They become very hard to deal with and try to screw their customers any way they can. After a few years, they start to lose business and then a downturn comes in the industry and they can't compete.  They then sell it and then it goes bankrupt.  The great American way!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "NurgleTheUnclean",
+            "body": "You are describing corporate raiders.  Company buys struggling company, forces struggling company to take out huge loans, liquidate assets, fire employees to pay off new owners.  Then they claim chapter 11, or simply walk away.  It's theft.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "what_comes_after_q",
+            "body": "Private equity is just an investment group with a lot of money under its management. They also have a lot of people with lots of finance knowledge. At their core, they buy low, sell high. So they might invest in a start up early on, and help them grow so they can then sell high. In a case like Joann, they buy up a business that is going bankrupt for little more than the value of whatever inventory they are holding. They might try to turn the company around if they think there is a smart move, but what gets the most attention is when they buy a company and then liquidate it, with the liquidated value being more than what they bought it for.\n\nIt\u2019s like donating a car. Maybe they are going to resell the car you donate to a loving home, but sometimes they are just going to sell it for scrap. It\u2019s sad if that car you donated had lots of sentimental value or was fixable but people decided it wasn\u2019t worth the effort to fix up.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Senshado",
+            "body": "Specifically regarding the move of buying something and letting it die, what they're doing is abusing bankruptcy law.\u00a0\u00a0Bankruptcy rules say that when a\u00a0corporation \"dies\", creditors are no longer allowed to try getting their money back. They must give up on what they're owed.\n\nWhen a business is on the way to failure, it is probably losing money and may owe a lot to creditors.\u00a0 This means the value of the business goes down and it becomes cheaper to buy.\u00a0\n\nSo, a trick the private investors can do is purchase a corporation and instruct it to sell property / assets at a minimal price to other entities the investor controls, and then declare bankruptcy. Even though the investor owns the value of the assets, paperwork trickery has prevented creditors from recovering that money.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "See_Bee10",
+            "body": "They make money by buying dying companies and turning them around to be profitable, then either selling those companies or continuing to operate them for a profit. It is essentially like flipping a decrepit house, except a business. Because you are buying failing companies, sometimes the company fails despite your efforts. In that case you try to recoup your loss by selling any remaining assets.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Firm_Bit",
+            "body": "PE buys companies or stakes in companies and then pushes them to profit. Often this means buying a bunch of dentists offices or similar, letting the doctors handle the care while they consolidate the back office. Because economies of scale come into play the cost goes down - a single entity is handling billing or insurance or IT or whatever else. These efficiencies create bigger margin and the PE firm gets to keep it. \n\nOther times it\u2019s a bit more like what you\u2019ve hear but not exactly the same. There are plenty of times where a company is going to die. And no amount of effort will change that. For example, yellow pages. Bet you don\u2019t even know what those are. \n\nWell if you buy distressed assets like these doomed companies and cut costs faster than revenues decline then it can still be a profitable business. But these costs often mean laying people off. \n\nSo it\u2019s not that they\u2019re letting them die. It\u2019s that they\u2019re restructuring them to get the most out before they die.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Document-Numerous",
+            "body": "Businesses in general, and PE specifically, do not exist just to operate a business. The entire goal is to make money only for the owners/investors, primarily by doing one of two things. 1) In the case of Joanns PE companies run sophisticated financial models to determine whether they can make more money by operating the business and boosting net income by increasing the price of their product or service, and decreasing costs; or, 2) as others have mentioned, stripping to company down to parts and selling those for more than they bought it. Because they are ultimately beholden to the their shareholders and/or investors, they do not care about the amount of jobs that will be lost, whether a town will lose a significant part of its tax base, if the company they\u2019re destroying is an American institution, etc. Literally their only concern is to make the most amount of money. Whether this is unethical, immoral, or just plain wrong is irrelevant because those ethereal concepts do not factor into their decisions.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Prizzle723",
+            "body": "What is the point of PE buying businesses: asset, real property, or market segment control\n\nWhy do they let them die off: may raise the value of other assets in the PEs possession, reclaim land for other purposes, want to restructure (easier to fire everyone if the entire company goes under)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "WindigoMac",
+            "body": "Private equity has major incentives to have the businesses they acquire be \u201cprofitable\u201d in the first few quarters after they purchase them. The primary investor makes huge amounts of money if the company clears what\u2019s called a hurdle. This hurdle is a certain profit margin, and if the company exceeds it a percent of any additional profit goes directly into the pocket of the primary investor (a private equity CEO). So private equity companies will slash staff and sell off equipment and property that the company owns. All of this greatly harms their long term health as a business but it boosts profits in the short term. So the private equity firm clears their hurdle for a few quarters, allows the business to die, is not financially harmed when it does (due to rules that are complicated and should be illegal) and then they rinse and repeat with a new struggling business.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MaytagTheDryer",
+            "body": "Their goal isn't to let them die off, it's to flip the asset for more money. A consequence of that might be the death of the company, depending on what their strategy is and how successful they are. Acquisitions like this aren't passive (buying it, doing nothing, and letting it die) they're usually extremely active. \n\nPeople make the mistake of thinking capitalism works the way we teach it in schools. You produce goods/services that people want, they purchase them, you make a profit. That, however, is as simplistic as thinking all of genetics works like a simple Punnett Square or one gene controlling every trait. It's what we teach children to help introduce them to a complex topic. PE funds are after a profit, but not by selling anything to the public. They either want to sell off the assets and close the company down (what most people think of, but not usually what actually happens) or juice the stock price so they can resell it.\n\nThe stock market is far more \"emotional\" than we like to acknowledge. You want a stock's price to be determined by its business position and promise for future returns, but humans evaluate the likelihood and size of those returns. Convince enough people with enough money that the company will be wildly successful sometime in the future and you can spark a cycle of buying and price increases. Other people see the price going up, and they jump on the bandwagon. If your promises are convincing enough, you can keep this cycle going for a long time. That's Elon Musk's whole business model - wild sci-fi promises, stock price goes up, and every earnings report make the next wild promise. As long as you can keep people believing you, you don't have to actually deliver results. The hype is the result.\n\nFor PE, the goal is usually to convince someone else to buy, by hook or by crook. That might mean legitimately turning the company around with solid business acumen. But that takes time - time when their money is invested in this company instead of others. Time is money. The faster they can flip, the more times they can do it and the more money they can make. So often the strategy is to take wild short term risks that will probably kill the company (in which case you recoup as much as you can selling the assets). But sometimes they manage to sell the risk to other investors as a revolutionary business move that will send the company soaring. They don't need to pull it off, just convince other people that they *could.* Since the upside is massive and the downside is capped at the amount invested minus asset value, they only need it to work a small percentage of the time to make lots of money. It means lots of companies get killed, but a couple of survivors cover the losses and then some.\n\nWhen you see a PE firm buying a company and think they're making crazy decisions, you're not entirely wrong. It will probably kill the company. But they're not trying to make a successful company, they're trying to make the price go up, which is more about marketing to other investors than business fundamentals.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "blipsman",
+            "body": "That's not the only way they operate/deal with acquired companies. They do acquire companies to try and fix their operations, and then re-sell the business or take it public again Or they sometimes choose to operate the company long term. But sometimes they see opportunities to liquidate assets owned by the business and let the business itself die. For example, a retail business might own real estate on which its stores are that is worth more than the company's market cap (for example, Macy's real estate is worth about double the market cap of the company).",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "clintCamp",
+            "body": "I just read about Pepsi buying out sobe and then killing them.  I assume for some reason they wanted to catch and kill a competing product that they would rather just get rid of instead of trying to profit off of. Either that or they though they could actually make the product but accidentally fired the true soul of the product and it fell flat.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ptwonline",
+            "body": "They don't just let the companies die off.\n\nPrivate equity tries to identify underperforming or undervalued companies and start-ups with a lot of potential.  Then they inject capital and often provide better management to try to improve/grow things and be able to either collect increased profits or to re-sell it usually by taking it public again.\n\nIn some cases (like Mitt Romney's infamous Bain Capital) they raid the company's pensions and pay themselves huge management fees and then it doesn't matter if the company fails or not because they got paid.  In other cases they think they can sell off the assets for more than the company cost them.  However they would still prefer it if the company did not fail because then they can sell it again.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BMCarbaugh",
+            "body": "PE firms are run by spinless idiots with little understanding of the industries they put money in, and lacking long-term vision or the courage to fight for it. It's why a lot of them self-sabotage with chronic risk aversion and short-termism: they don'y know how to build, and the concept of sustainable practices is alien to them\u00a0 All they know how to do is suck profits out of a company, like a spider liquifying the innards of a fly.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "pohkfririce",
+            "body": "Private equity firms buy companies, attempt to improve them by making them more profitable, and sell the company to someone else for more than they paid for it.\n\nThey are generally never planning to \u201ckill\u201d a company or strip it for parts, that is a backup plan to salvage some of their investment when the plan to improve the company fails.\n\nThe real problem is that private equity generally takes out a loan to help buy the company, which works like this:\n\nPE wants to buy a company for $50 million. The founder of the company who is selling will get a check for $50 million at the closing of the sale. The PE firm will contribute $10 million of their own money, and borrow the remaining $40 million from a bank.\n\nThe thing is, the company itself is on the hook for the $40 million loan, not the PE firm. The company now has all this debt, and if anything goes wrong it is now at risk of going bankrupt. The debt didn\u2019t actually help the company at all, it was purely to cash out the founder of the company. \n\nSo you\u2019ve taken a good company and made it much more risky by adding in this debt, and the new owners have no emotional attachment to the business and will do whatever they can to salvage some of their investment if things go bad.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "billypaul",
+            "body": "Say you're a venture capitalist.\u00a0 You find a company that is struggling and you buy it.\u00a0 You leverage the buyout, which means most of the money comes from bank loans (sometimes all of it does) , made with the purchased company as collateral.\u00a0 The purchase agreement includes a big bonus to you, which is totally fine because you're the person who is rescuing the company.\u00a0 Once you own the company you make several public statements about how you're planning to turn it around.\u00a0 Wall Street rewards you with an increase in your share price.\u00a0 Since you quietly bought a bunch of the company's stock earlier when the price was low, you get another big bonus by selling those shares to new investors who are buying because the Wall Street analysts recommended it.\u00a0\n\n\u00a0\n\nMeanwhile, the company continues to struggle because you haven't really invested much of this new capital into the business, nor have you bothered to make any changes in company strategy to be more competitive.\u00a0 Those things would cost money, and your priority is not the success of the business but rather the success of your personal investment.\u00a0 The struggle is worse because of all that extra debt the company acquired as the result of your purchase.\u00a0 In any case, hard decisions have to be made.\u00a0 Belt-tightening.\u00a0 You reduce salaries and benefits (not yours).\u00a0 You have to close some locations; you choose those locations whose real estate will command a hefty price.\u00a0 Before you know it, your quarterly numbers reflect this quick cash infusion and your stock rises again.\u00a0 Take another bonus, you deserve it.\n\n\u00a0\n\nMeanwhile your company is getting even worse.\u00a0 Receipts are down and the most profitable stores have either been closed and sold for their real estate value or they're suffering because not only have you failed to improve them, the employees are starting not to care anymore.\u00a0\u00a0 Time for more salary cuts and layoffs.\u00a0 Rotate in a few new executives.\u00a0 Wall Street is optimistic; take a bonus.\n\n\u00a0\n\nEventually there is nothing left to poach.\u00a0\u00a0 The company you bought can no longer sustain its debt so you let it fall into Chapter 11.\u00a0 Stockholders lose their money, the bank takes a beating on those loans, the remaining employees lose their jobs and the surrounding neighborhoods get a little more blighted.\u00a0\u00a0\u00a0\n\n\u00a0\n\nBut hey, you\u2019ve done great.\u00a0 Not only have you enjoyed a fabulous return on your original investment, you got some great paychecks along the way.\u00a0 You take a well-earned vacation\u2026 then return to look for that next troubled company.\u00a0 Who knows, you might want to do a leveraged buyout of whatever's left of the company you just bankrupted and start the process all over again.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "anormalgeek",
+            "body": "Not every PE company does that, but some do. Heres an example. \n\nLet's say you believe that we have a made up company called Joe's Widget emporium. It's been around for decades and makes decent products, but is struggling a bit due to debt and decreased sales. Maybe they need to invest a bunch of money on some modernization efforts, but they just don't have the capital. \n\nSo a PE firm does a value analysis, and finds the following. They have hundreds of stores nationwide. They lease some stores and own some others depending on local deals. The commercial real estate they own can be sold for $200m, or can be held and leased out. Their remaining inventory of widgets can be sold online or via bulk deals for another $1B. Then the brand name itself can be sold off to a startup company for $200m who will pair it with cheap, Chinese made widgets and an Internet only distribution model. The factories, warehouses, trucks and other stuff might sell for another $100m. \n\nSo a PE firm says, we will buy your company for $1.2B. \n\nBut why would Joe accept that price when he could just sell everything off for 1.5b himself? Because the PE firm has the infrastructure and existing connections to move $1b in widgets and effectively market/sell that much commercial real estate.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "jmlinden7",
+            "body": "Private equity companies try to find investment opportunities that are either too niche or too risky for the general public to invest in.\n\nMy understanding is that this is a bit different outside of the US, where sometimes private equity companies will make boring normal investments more often.\n\nBut in the US, if you specialize in making risky investments, then obviously a large percentage of your investments will go bankrupt. That's just the nature of risk.\n\nAsset stripping is a niche investment but that's not what happened with Joann's.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "K_Beezus39",
+            "body": "This is called End Stage Capitalism, all money flows to the richest few.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "weenis_machinist",
+            "body": "I had the same question, and a wonderful Redditor somewhere told me about [Plunder by Brendan Ballou](https://www.plunderthebook.com/). Score a copy of it on Libby or from a local library, it goes in-depth and provides case studies, and (most refreshingly) has a chapter on what we can do about it.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Unasked_for_advice",
+            "body": "People are very creative, they come up with new ways to screw over people all the time, https://www.marketplace.org/2019/06/12/a-look-back-at-kkr-the-investment-firm-that-bought-out-toys-r-us-among-others/\n\nTLDR KKR the investment firm bought out Toys-R-Us and loaded it with debt then made a ton of money from it.\nFor one example",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "eljefino",
+            "body": "They can do things like buy a business with substantial real estate holdings then sell the real estate to a third party only to lease it back.  Sometimes they get all of their money and then some right off the bat!  They might get five years rent for free or a cheap pre negotiated rate then suffer when the term expires and they have to pay market rate.\n\nI worked at a tv station that sold its transmission tower at admittedly the peak of the market.  We then sold our little studio microwave tower for good money as it had all sorts of cellphone antennae on it.  Then our building!  What was left was our intellectual property and of course all the debt, plus the burden of rent for the stuff we used to own.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BigWiggly1",
+            "body": "When a business is struggling and unable to support itself anymore, the owners often look to sell the business. Rather than run it into the ground put all the employees out of work and leave themselves with nothing, selling the business gives it a chance of a positive outcome.\n\nIn very broad strokes, the value of a business can be roughly calculated as the sum of:\n\n1. Estimated value of physical assets (e.g. land, equipment)\n\n2. Estimated value of intellectual property (e.g. patents, trademarks, copyrights)\n\n3. Debts (negative)\n\n4. Projected revenue over next few years\n\n5. Projected costs over next few years (negative)\n\nNotice how most of those are estimates and projections. These are subject to a lot of interpretation, and the value to one buyer might be different for another buyer, and that's where PE firms tend to specialize. \n\nPE firms bid on and buy failing companies when their estimation of the company's value is higher than the asking price.\n\nHere's an example:\nIf I owned a machine shop in a small city that was going under and I wanted to liquidate the business and sell all of my equipment, I might have trouble doing that. The shop down the road might need a lathe and milling machine. But I have 20 machines I need to sell, and there's not much local demand for the equipment, so I'm not going to get a good price. I might be able to scrounge $40,000 for my equipment.\n\nA PE firm reviews my asset list and sees a lot more potential. They are much better equipped to liquidate that equipment. At the bare minimum, they might be able to toss it all on a few trucks and ship it to a warehouse they own where they can catalogue it and list it for sale. Because their storage costs are very low, they can afford to wait for a buyer at a higher price. They may also be able to leverage their shipping networks to move the machines cross-country or internationally to reach more customers. They might be able to sell the same assets for better prices, perhaps $100,000. This is one reason a PE firm might be interested in buying my company.\n\nWhen a PE firm is looking at buying a company, they first look at the expected value of the company if they liquidated everything. When they get farther into purchase negotiations or even after they've purchased, they bring in some of their specialists and try to determine if the company can become profitable enough to justify not stripping it, and what actions may need to be taken in order to accomplish that.\n\nThey will often be ruthless in the process of turning the company around. They bring in new management, manufacturing & engineering specialists, etc. They're often refreshingly up-front with the employees about the state of the company as well, because they need experienced employees to buy-in and work with them on the change. \n\nIf the company isn't worth trying to turn around, or their efforts aren't successful enough, then they close up shop and liquidate the company's assets. They sell physical property, often to other companies that they own and manage. They sell intellectual property rights to other companies under their umbrella. They then sell the land to a third party, OR to another company they manage that's looking to expand. They're very efficient at the whole process.\n\nAs much as PE firms can be very damaging to the employees of the businesses they strip, often those businesses were on their way down anyways. The PE firms are just making a clean cut to keep the books in the black.\n\nTwo shortfalls to PE firms are that they don't understand small niche markets very well, and they don't appreciate business stability.\n\nThey can end up stripping down businesses that had unrealized potential in their niche market, and they can end up stripping down businesses that were not wildly profitable, but were reliable.\n\nPE firms simply see \"How much can I make right now, and if I had that much, how much can that money help me make tomorrow if I invest it elsewhere?\"",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "HungerMadra",
+            "body": "They buy failing businesses at a discount and sell their assets for profit. It's easier to buy and srll then run an active business",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Tomi97_origin",
+            "body": "Private Equity looks for companies who have more assets than their current market value. Mostly due to their business not going well, but still owning valuable assets.\n\nThen they buy them out and strip mine them for all the profitable parts. Like real estate, IP, patents, profitable subdivisions,...\n\nThey sell all these parts for profit and what's left is the husk nobody wants. Then they let the company die after extracting all the value out of it.\n\nJust to be sure this is just one of the options they have. Sometimes they still see potential in the company and so just replace the management team (C-Suit) and try to turn the business around, before selling it again. But that's more of an long term investment, which is more risky on their part.\n\nSo when the stock price is low enough striping company for parts is an easy way to make a quick buck for Private equity.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Loki-L",
+            "body": "One method might be:\n\n1. Buy a struggling business. In the name of cost cutting, cancel all R&D, reduce maintenance to the absolute minimum, fire all the experienced and well paid staff, buy cheaper supplies and switch to less reliable vendors, sell of all inventory at low prices and get rid of warehouses in the name of just-in-time.\n1. This will make it appear as if the business has been turned around. On paper costs are down and profits are up.\n1. Then you sell the business for more than you originally paid for.\n1. Profit!\n1. The business itself will be ruined, because now it has no future.\n\nAnother method might be:\n\n1. Buy a business\n2. Put the debt that you incurred buying it into the business itself. In effect buying it with its own money.\n3. Sell assets like the buildings and real estate the company has to later rent it back.\n4. Spin off successful parts of the company and sell those off too.\n5. Take all the profits you made selling off the companies assets and pay it to the shareholders as dividends or stock buybacks.\n6. Profit!\n7. Leave the company now bereft of its most profitable parts, saddled with the debt of its own acquisition and bleeding money renting and leasing assets it used to own.\n\nThere is more and you can combine parts",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "EssayTraditional2563",
+                    "body": "Your second argument is literally not possible. You can\u2019t just sell off assets and pay dividends back to yourself and leave the debt saddled on the business. Asset sale covenants prevent that, the cash from asset sales is used to pay down debt.\u00a0",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Minister_for_Magic",
+                            "body": "You absolutely can, and this happens all the time. Look at the Red Lobster deal. They came in and started taking \u201cmanagement fees\u201d that sucked profit out of the business while selling off the real estate to related parties, trading fully paid off assets for new OpEx.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "EssayTraditional2563",
+                                    "body": "\u2026 how does that equate to selling off assets and paying the proceeds to the sponsor while saddling the company with debt? You described a sale leaseback transaction and the use of management fees (which practically every private equity firm does), that\u2019s a whole different thing than what I\u2019m talking about.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Geth_",
+            "body": "Instead of a company and profits, think about a teen and fun. Now consider what it takes to be good friends vs good parents as that is the difference between private equity firms vs long term investors. Raising a teenager with the goal of becoming a responsible adult with good values, it's a lot harder to be a good parent.\n\nChoices parents need to make are a lot harder, they have to consider the immediate effects and balance that with future goals. Being a \"good\" friend is much simpler. They only need to consider the immediate. Going to a party instead of studying for a test next week is going to seem like more fun--until next week.\n\nRelating that back, private equity firms will buy a controlling interest in a company. \"Stripping them for parts\" is taking the most valuable assets and selling it off, or lowering costs (like downsizing the company's workforce), regardless of how that might impact the future of the company.\n\nA notable example is Red Lobster, where a private equity firm acquired the seafood chain, sold the real estate under the restaurants worth about 1.5 billion to another company it controlled, and leased it back to Red Lobster. The high rent costs crippled the restaurants' ability to operate profitably. Red Lobster may go bankrupt but the private equity has benefitted greatly: they were paid out dividends from the real estate sale, and can generate income from the newly acquired real estate either from Red Lobster (or the next renters). This strategy a net positive to the investors of the private equity firm while Red Lobster was pushed towards bankruptcy.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "cyberentomology",
+            "body": "PE\u2019s main role is as hospice care to failing businesses. The owner cashes out, and then the PE either tries to keep it running or sells off the parts that are still worth anything.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "GamingBaddie",
+            "body": "ooooo I\u2019m saving this for later! Good question",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

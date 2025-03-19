@@ -1,0 +1,150 @@
+{
+    "title": "aiCode",
+    "author": "mechanic338",
+    "subreddit": "ProgrammerHumor",
+    "rank": 10,
+    "score": 2435,
+    "upvote_ratio": 0.99,
+    "num_comments (reported by reddit)": 22,
+    "url": "https://i.redd.it/jgzvvjxokfpe1.jpeg",
+    "id": "1je2exb",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "You_Paid_For_This",
+            "body": "It's easy, just ask the AI to fix the bugs, code bloat, security, and technical debt.\n\n^(\\s)",
+            "score": 151,
+            "replies": [
+                {
+                    "author": "Daltonikas",
+                    "body": "Want to secure your position till pension i see",
+                    "score": 39,
+                    "replies": []
+                },
+                {
+                    "author": "brandi_Iove",
+                    "body": "while at it, ask for a documentation too",
+                    "score": 17,
+                    "replies": [
+                        {
+                            "author": "Thundechile",
+                            "body": "AI will reply: \"The code is self documenting\"",
+                            "score": 11,
+                            "replies": [
+                                {
+                                    "author": "windinghigh",
+                                    "body": "Usually the opposite actually.\n\n// Set x to 3",
+                                    "score": 9,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Thundechile",
+                    "body": "Just remember to include \"please\" to the prompt /s",
+                    "score": 6,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "fosyep",
+            "body": "Vibe coding 2 minutes and vibe debugging 2 years",
+            "score": 45,
+            "replies": []
+        },
+        {
+            "author": "Tall-Strike-6226",
+            "body": "Vibe coding fr fr.",
+            "score": 18,
+            "replies": [
+                {
+                    "author": "Thundechile",
+                    "body": "We need vibe management too",
+                    "score": 9,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "frogking",
+            "body": "Usually, Technical debt is something that is noticed when John from IT leaves the company without having documented anything for years.\n\nToday, technical debt starts on day one after the new hire has been vibe coding for the entire day.",
+            "score": 10,
+            "replies": []
+        },
+        {
+            "author": "fonk_pulk",
+            "body": "I was going to spend two years doing that anyways \ud83d\ude0e",
+            "score": 16,
+            "replies": []
+        },
+        {
+            "author": "ColoRadBro69",
+            "body": "AI can't actually be very helpful, but you have to use it the opposite of how this meme goes.\u00a0 Small, narrowly focused questions. Think of it like a search engine for documentation, it's good at rephrasing something without adding any new info, it's also good at recognizing when one thing is a rephrasing of another.\u00a0 It's good when you know exactly what you need to do but can't remember the name of the class you need, stuff like that.\u00a0",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "sciences_bitch",
+            "body": "Second panel: same as with code written by humans \ud83e\udd37\u200d\u2642\ufe0f",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "AceHanded",
+            "body": "You'll spend 2 years promptmaxxing.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "BoBoBearDev",
+            "body": "This already happened, we call them, update dependency vulnerability from 3rd party components.\n\n\nWe will soon install another 3rd party components to prevent those vulnerabilities and this component has its own vulnerability, we continue to patch such component until they stopped updating the code for over a year.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ThatGuyYouMightNo",
+            "body": "AI wrote 10k lines of code in 2 minutes, when a person would have completed the same task with 100 lines of code in 20 minutes.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Senior-Ori",
+            "body": "This is work",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ved_s",
+            "body": "And it's just a binary search algorithm",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "WhosYoPokeDaddy",
+            "body": "Amazing, it would take me weeks to amass that kind of tech debt, now I can create it in minutes.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "redballooon",
+            "body": "That\u2019s what, 3000 tokens per second? I don\u2019t think we have that technology yet.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "marc_gime",
+            "body": "I can write 10k lines of code in 2 minutes too.\n\nSure they will all be printing hello world, but it's not like AI does what's asked either",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "kable1202",
+            "body": "So you have a secure job for the next two years. Great job!",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

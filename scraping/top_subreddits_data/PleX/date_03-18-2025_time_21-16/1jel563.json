@@ -1,0 +1,26 @@
+{
+    "title": "A bit of help/advice",
+    "author": "Arialonos",
+    "subreddit": "PleX",
+    "rank": 4,
+    "score": 2,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 2,
+    "url": "https://www.reddit.com/r/PleX/comments/1jel563/a_bit_of_helpadvice/",
+    "id": "1jel563",
+    "selftext": "I\u2019ve been using my plex from my Mac mini and an ssd for the past few years but am interested in getting an external enclosure and a few 12tb HDDs so I can connect any time from anywhere. Cogeco (IP) doesn\u2019t allow connections to Plex so I need to figure out what to do to get a connection that\u2019s allowed. VPN? Domain masking?\n\nI need help. ",
+    "comments": [
+        {
+            "author": "akatherder",
+            "body": "Do you know in what way Cogeco is blocking Plex? It could be cgnat, some ISPs will let you work around that. Do they have any firewall/advanced security junk on your router you can disable?\n\nDid you forward the port 32400 TCP? Maybe try running Plex on a different port (and forwarding it ofc). \n\nYou might be able to change your dns server on your router to get around it.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Aacidus",
+            "body": "You mean ISP? Search this sub for \u201cremote access\u201d.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

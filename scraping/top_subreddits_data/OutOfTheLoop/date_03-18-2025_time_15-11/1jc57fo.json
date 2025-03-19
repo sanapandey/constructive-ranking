@@ -1,0 +1,613 @@
+{
+    "title": "What is up with Project Fivethirtyeight disappearing?",
+    "author": "Time_IsRelative",
+    "subreddit": "OutOfTheLoop",
+    "rank": 15,
+    "score": 1202,
+    "upvote_ratio": 0.95,
+    "num_comments (reported by reddit)": 98,
+    "url": "https://www.reddit.com/r/OutOfTheLoop/comments/1jc57fo/what_is_up_with_project_fivethirtyeight/",
+    "id": "1jc57fo",
+    "selftext": "For years I've gone to project fivethirtyeight for the latest U.S. polling data, including presidential approval ratings.\n\nToday I went to check and found that the polling data appears to have been replaced by a generic ABC News page: https://projects.fivethirtyeight.com/polls/approval/donald-trump/.\n\nSearching for fivethirtyeight returns this data page, which points to some git repositories and links to the same generic ABC page: https://data.fivethirtyeight.com/\n\nHas project fivethirtyeight been taken down? Is this related to the rapid decline of Trump's approval rating over the past month or so?",
+    "comments": [
+        {
+            "author": "AutoModerator",
+            "body": "\nFriendly reminder that all **top level** comments must:  \n\n1.  start with \"answer: \", including the space after the colon (or \"question: \" if you have an on-topic follow up question to ask),\n\n2.  attempt to answer the question, and   \n\n3.  be unbiased\n\nPlease review Rule 4 and this post before making a top level comment:\n\nhttp://redd.it/b1hct4/\n\nJoin the OOTL Discord for further discussion: https://discord.gg/ejDF4mdjnh\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/OutOfTheLoop) if you have any questions or concerns.*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "rewardiflost",
+            "body": "ANSWER: \nShort answer:  they were bought out & shut down. \n\nLonger answer (from [wikipedia](https://www.wikipedia.org/wiki/FiveThirtyEight) ): \n>538, originally rendered as FiveThirtyEight, was an American website that focused on opinion poll analysis, politics, economics, and sports blogging in the United States. Founder Nate Silver left in 2023, taking the rights to his forecasting model with him to his website Silver Bulletin. 538's new owner, Disney, hired G. Elliott Morris to develop a new model. On September 18, 2023, the original website domain at fivethirtyeight.com was closed, and web traffic became redirected to ABC News pages. The logo was replaced, with the name 538 used instead of FiveThirtyEight. On March 5, 2025, the website was shut down by ABC News and its staff was laid off.",
+            "score": 1200,
+            "replies": [
+                {
+                    "author": "mistymystical",
+                    "body": "Wow this absolutely sucks. When we needed fact and stat based reporting more than ever\u2026.fuck these corporations.",
+                    "score": 660,
+                    "replies": [
+                        {
+                            "author": "dkol97",
+                            "body": "Just go to [Nate Silver's website instead](https://www.natesilver.net/)",
+                            "score": 350,
+                            "replies": [
+                                {
+                                    "author": "NotWhatYouPlanted",
+                                    "body": "You say that like it\u2019s the same, but a ton of stuff is behind a paywall now. That\u2019s totally fine and is his right, but it\u2019s not nearly as accessible to everyone as five thirty eight was",
+                                    "score": 409,
+                                    "replies": [
+                                        {
+                                            "author": "CosmoonautMikeDexter",
+                                            "body": "He was charging quite a lot for his model last US election and was his prediected results were way off. \n\nI am not sure I would pay for any of his stuff now.",
+                                            "score": 168,
+                                            "replies": [
+                                                {
+                                                    "author": "f_ranz1224",
+                                                    "body": "Nate silver is not a soothsayer or fortune teller. Thats not how statistics work\n\n\n\n\nIf something has a 99% chance of happening, and a 1% chance it doesnt, it not happening doesnt mean the statistical data was wrong\n\n\n\n\n\nThe general public and social media has a disturbingly low understanding of how predicitive models work. If something is favored to happen but doesnt happen it must be wrong right?",
+                                                    "score": 115,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Dr__Pangloss",
+                                                            "body": "It\u2019s complicated. The product people want is a nowcast, not a forecast, and Polymarket is offering accurate nowcasts for free. People want to pay for a forecast, just not laypeople - imagine if donors could see the future and knew who would win. Very different world.",
+                                                            "score": 12,
+                                                            "replies": []
+                                                        },
+                                                        {
+                                                            "author": "HomeWasGood",
+                                                            "body": "While that's true, it feels unfalsifiable to me - how can you even know in hindsight whether the outcome probabilities were correct?",
+                                                            "score": 12,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "21stGun",
+                                                                    "body": "You can't. It's mostly fughazi, even polling can be fairly subjective with trying to predict turnout, especially among certain groups.\n\nBut it's not like there is anything better we could use...",
+                                                                    "score": 5,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "SanDiegoDude",
+                                                                            "body": "There's a reason Anne Seltzer retired... it's almost all fuhgazi at this point, as pollsters have no really reliable way to actually poll people since most folks don't pick up their phones, don't have landlines, don't respond to texts, and sure, they'll respond to online polls they opt IN to, but that fucks your control. so yeah, polling is as reliable as throwing cards in the air and trying to determine how they'll land. Sure there are additional controls you can put around sample sizes and demographics, but going by the last few elections, none of that really helps either.",
+                                                                            "score": 2,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "RemLazar911",
+                                                                                    "body": "I think before throwing the baby out with the bathwater it's probably worth a really objective audit of polling methodology. It's very clear from the last election that polling massively favors Democrats over what the actual results are. Someone needs to seriously examine why the bias is so far left and what could be done to correct it.\n\nIt might be something as simple as starting the call with \"This is the Make America Great Again polling service\" and then people who are Democrat will happily tell you off, and people who support Trump but don't want to admit it will feel comfortable being honest.",
+                                                                                    "score": 1,
+                                                                                    "replies": []
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "author": "D35TR0Y3R",
+                                                                    "body": "statistical analysis and verification of methodology.",
+                                                                    "score": 11,
+                                                                    "replies": []
+                                                                },
+                                                                {
+                                                                    "author": "CommodoreAxis",
+                                                                    "body": "While I don\u2019t know how they do it - I know for sure that companies spend tons of money based on data from probabilistic models, so they *must* be verifiable in some way.",
+                                                                    "score": 2,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "HomeWasGood",
+                                                                            "body": "I've seen this discussion pop up a lot, especially around elections. And I see that line of reasoning often - if there's a 1% chance of something happening, and it happens, that doesn't mean the prediction was wrong, it's just a very unlikely thing happening. \n\nFair enough, but how does one actually evaluate these models? The only thing I can think of is to see if the models more reliably point towards the most eventual outcome.\n\nIf that 1% prediction happens once, then fine, it was an unlikely event. But if I predict a 1% chance of something happening and it happens every time, then clearly there's something wrong with my model. The chances of a 1% event happening over and over and over are theoretically possible but approach an infinitely small amount.\n\nSame thing, just to a less dramatic degree, with different probabilities. If I predict X has a likelihood of happening 60% of the time and the event occurs 10 times out of 100, then the actual outcomes aren't matching my prediction, and the model is likely wrong.\n\nSo I know that elections have all kinds of crazy variables that can't be quantified. There's also the fact that we can't run the 2024 presidential election 100 times to see what the distribution of outcomes is. I know the actual variables change from day to day and every new election is a unique event that can't be predicted fully from past elections. \n\nBut I also think it's a little disingenuous to slap people down and say that these predictions are not soothsaying - if an unlikely outcome takes place according to the model, it's perfectly valid to criticize the model. And if the models can't consistently give us confidence about the outcomes then they are not worth it. At best, they're the only thing we have - fine, but then people really shouldn't care about them as much as we do.",
+                                                                            "score": 2,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "RemLazar911",
+                                                                                    "body": "The Ann Selzer poll is a great example of this. She predicted Iowa would be 47% Harris, 44% Trump and sent shockwaves through the election and almost certainly had a real effect on the outcome. Seeing those numbers very likely galvanized Republicans to vote and canvas harder, and probably discouraged some Dems from voting or canvassing because the election seemed like a lock.\n\nActual results: Harris 42.7%, Trump 56%\n\nAt a certain point it goes from \"oops my poll was a little off\" to \"oh fuck I completely bullshitted and am potentially responsible in part for Trump's election\"",
+                                                                                    "score": 1,
+                                                                                    "replies": []
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "author": "Picard_EnterpriseE",
+                                                            "body": "A predictive model that can't predict accurately? Where do I sign up to invest $1B in this?",
+                                                            "score": 2,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "putrid-popped-papule",
+                                                    "body": "He had them at essentially a dead heat, but also noted that the swing states\u2019 correlation would tend to a race that isn\u2019t as close as the [big front-page chart](https://datawrapper.dwcdn.net/VK7wA/53/) would indicate to reductionist commenters like you.",
+                                                    "score": 100,
+                                                    "replies": [
+                                                        {
+                                                            "author": "CosmoonautMikeDexter",
+                                                            "body": "I am confused. You are saying he had them \"essentially a dead heat\", and noted a \"correlation would tend to a race that isn\u2019t as close...\".\n\nYou need to explain this to me as something other then covering all your bases. How is it not the same as saying \"I might rain tomorrow, but also it might not\".\n\nPlease use small words when you explain it. I am a reductionist commentators.",
+                                                            "score": 47,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Pillotsky",
+                                                                    "body": "The point Nate Silver kept making (this is from remembering his twitter posts leading up to the election) was that the odds were close but the numbers wouldn't be. The swing states were correlated such that if one fell one way, several others probably would as well. So it was close to 50/50, but either side of that would have an overflow of electoral votes, due to how the electoral college works",
+                                                                    "score": 154,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Mo-shen",
+                                                                            "body": "And that's exactly what happened. \n\nWhy did someone say he was way off?",
+                                                                            "score": 55,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "Krazikarl2",
+                                                                                    "body": "Because people commenting on social media political threads often don't know what they're talking about.\n\nSilver's predictions for elections over the years are all extremely public.  And he has been *extremely* accurate in pretty much all of these elections.  Far more so than conventional wisdom.  This includes the last election when he was basically dead on the money.\n\nThere's also a fair amount of a complete lack of understanding of how statistics work.  For example, people will insist that Silver was \"wrong\" in 2016 because he only gave Trump a ~40% chance of winning.  After all a 40% chance is less than 50%, so it can never happen.\n\nThe nonsense you see here is another example.  Silver had the odds near 50/50, so if you're innumerate, you think that means that he must be predicting that the final margin will be razor close.  But that's not how things work, as Silver carefully explained over and over ahead of time.",
+                                                                                    "score": 47,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "Mo-shen",
+                                                                                            "body": "Yeah we are on the same page. \n\nI never understood the commentary that polling was way off in 16. And to make it worse I still see people claim it today. \n\nSilver said then turmp had a 1 in 3 chance of winning and if you look at the slim upsets he had in states like Wisconsin he was spot on. \n\nPpl are either stupid or they fall for propaganda and can't get over it.",
+                                                                                            "score": 10,
+                                                                                            "replies": []
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "author": "SkellySkeletor",
+                                                                                    "body": "The average person can\u2019t even accurately define the word \u201cstatistics\u201d. People see the numbers and assume that they\u2019re the percentage of the country voting a certain way, not the *chance* of a particular outcome/candidate winning.",
+                                                                                    "score": 7,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "Mo-shen",
+                                                                                            "body": "They certainly can't claim to know what it means.",
+                                                                                            "score": 1,
+                                                                                            "replies": []
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "author": "CosmoonautMikeDexter",
+                                                                            "body": "Thank you.",
+                                                                            "score": 21,
+                                                                            "replies": []
+                                                                        },
+                                                                        {
+                                                                            "author": "Jsamue",
+                                                                            "body": "I\u2019m tired of winner take all swing states. Why can\u2019t we have proportional votes?",
+                                                                            "score": 9,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "WFlumin8",
+                                                                                    "body": "Is this in response to his comment, or in response to the 2024 election? Because if it\u2019s the latter, it wouldn\u2019t have made a difference",
+                                                                                    "score": 5,
+                                                                                    "replies": []
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "author": "Tintoverde",
+                                                                            "body": "I would argue then I it is not useful information or you have the same prediction  from others. What makes it unique ?",
+                                                                            "score": -2,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "Pillotsky",
+                                                                                    "body": "He still writes over at his blog Silver Bulletin.  There's a buncha posts from the election season about methodology, etc, and I think most of em are free.",
+                                                                                    "score": 1,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "Tintoverde",
+                                                                                            "body": "His methodology does not predict very well, since 2016. He does not do any polls but depends on published polls. Given the polls are usually have 3% +/- error . That means the average error might be cumulative or random, either way it is not very reliable. \n\nThe polls themselves has been suspect last few years. The they interview approximately 1000 or less. We should stop using the polls",
+                                                                                            "score": -1,
+                                                                                            "replies": []
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "author": "Draco765",
+                                                                    "body": "The odds of either one winning was basically 50/50 (dead heat). The results (electoral votes) were unlikely to be close, because the swings states (the states that could 50/50 go either way and decide the election) would probably end up voting the same way, whichever way that was (which is to say they were correlated). \n\nBoth had about the same chance of winning, but that doesn\u2019t mean the score was ever going to be close, because whatever gave one side the ultimate advantage over the other was likely to do so in several states at once, making it a big swing in the electoral college. \n\nHopefully that helps.",
+                                                                    "score": 37,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "beachedwhale1945",
+                                                                            "body": "In essence, the election was balanced on a very narrow wedge. You didn\u2019t know which direction the results would fall, but when they fell they\u2019d slide down the slope, ending up pretty far away from the peak.",
+                                                                            "score": 8,
+                                                                            "replies": []
+                                                                        },
+                                                                        {
+                                                                            "author": "CosmoonautMikeDexter",
+                                                                            "body": "Thank you.",
+                                                                            "score": 6,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "author": "InTheThroesOfWay",
+                                                                    "body": "The model has most of the swing states' results correlated. And the model was based on simulations, where he took the average of all the all the results. \n\nOut of all the simulations, half the time, most of the swing states went to Trump, and the other half of the time, most of the swing states went to Harris. When you take the average, it looks like a dead heat. But that's not what it looks like when you look at individual simulation results. \n\nOverall, the nate silver model underrepresented trump's support. But it wasn't quite as bad as you would think, as trumps actual victory margin was represented in the simulations to a reasonable degree.",
+                                                                    "score": 18,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "CosmoonautMikeDexter",
+                                                                            "body": "Thank you.",
+                                                                            "score": 2,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "author": "BLR-3M",
+                                                                    "body": "As I recall it, Silver said that the data showed a very close race. But that the swing states typically correlate with each other. Meaning they would mostly swing toward Trump or to Harris, as opposed to half going for each candidate. Leading to an Electoral College result that doesn\u2019t look as close as the polls.",
+                                                                    "score": 13,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "CosmoonautMikeDexter",
+                                                                            "body": "Thank you.",
+                                                                            "score": 2,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "author": "droans",
+                                                                    "body": "The difference between the popular vote and the electoral vote. \n\nHe was saying the popular vote was going to be close and it was. The electoral vote, however, was not.",
+                                                                    "score": 3,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "CosmoonautMikeDexter",
+                                                                            "body": "Thank you.",
+                                                                            "score": 1,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "author": "DarkSkyKnight",
+                                                                    "body": "So you're literally too stupid to understand Nate Silver and yet you attack his models.\n\nLmao, never change Reddit.",
+                                                                    "score": -2,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "CosmoonautMikeDexter",
+                                                                            "body": "You know there is no reason to be an ass. \n\nYou are right, I had issues understanding his model and asked for clarification. I used an analogy so that the poster could better understand my perspective. \n\nOther posters have very kindly explained to what happened and how the model works and I have thanked them for it. \n\nYou however are rude and ignorant. I misunderstood something and asked for clarification. So tomorrow I will understand the world better. But tomorrow you will still be a rude ass hole.",
+                                                                            "score": 5,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "author": "Positronic_Matrix",
+                                                            "body": "> reductionist commenters\n\nIt sounds like this is spicy but when I look up reductionist it seems to be a compliment.  Did you pick the right word?",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "ryhaltswhiskey",
+                                                                    "body": "I think what that person meant was people boiling down a complex problem to a simple solution. Or ignoring nuance.",
+                                                                    "score": 3,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "MostlyKosherish",
+                                                    "body": "The electoral outcome was his model's modal prediction. It's not accurate to say the predictions were way off.",
+                                                    "score": 4,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "LosingTrackByNow",
+                                                    "body": "His literal #1 most likely prediction was \"swing states 100% vote for Trump, everything else follows expectations\"\n\nWhich is what happened",
+                                                    "score": 3,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "briareus08",
+                                                    "body": "I don't use any of his model stuff, I just like his collection of polls and averaging process.\n\nWe get so many weird headlines from Fox News about Trump approval ratings, for example (apparently the highest they've ever been!), but it usually comes down to a single poll somewhere. In aggregate, the polls kinda make sense (but again, only as a verrry general thumbsuck of public opinion, of people who answer polls), but it's better than nothing.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "Nocturnal_submission",
+                                                    "body": "His most commonly modeled scenario was the one that came to pass. What do you mean by \u201cway off\u201d?",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "CosmoonautMikeDexter",
+                                                            "body": "If you read through the thread. I am wrong. I misunderstood the model.",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "StealthRUs",
+                                                    "body": "> He was charging quite a lot for his model last US election and was his prediected results were way off. \n\nNate Silver was pretty consistently predicting a Trump win.  I don't know how that was \"way off\".  Even in 2016, when he took a lot of shit over Trump's victory over Hillary, he had Trump at 30% odds to win while everyone else had Trump at 5-10%.",
+                                                    "score": 0,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "ManBearScientist",
+                                            "body": "It's one reason the right always wins.\n\nFox News is free. Brietbart is free. Talk radio is free. \n\nIt costs nothing to view a lie.\n\nTruthful media has paywalled themselves to obsolescence.",
+                                            "score": 19,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "SmellGestapo",
+                                    "body": "Nate works for Peter Thiel now and as a result I no longer trust him. He also generally allowed himself to stray from his expertise, which is data analysis, and tried to become a political pundit, which I think he sucks at.",
+                                    "score": 70,
+                                    "replies": [
+                                        {
+                                            "author": "girlyfoodadventures",
+                                            "body": "When he decided that he was Very Qualified, Actually to forecast COVID and then publicly reverse-engineered a lot but *certainly* not all\u00a0of what you would learn in a single course or book on public health, I was STUNNED. I know this, because I'm an academic that studies infectious disease, and I've *taken* that course and I *own* multiple books on the topic.\n\n\nI knew he was smarmy and full of himself, but it was *stunning* to see him be like \"Model update: now I'm taking into account not just recent infections but past infections because I was thinking that people might be immune from previous infection\". Just, jaw on the floor.",
+                                            "score": 18,
+                                            "replies": [
+                                                {
+                                                    "author": "SmellGestapo",
+                                                    "body": "I completely forgot about that, but you're right, that's the moment I really noticed him going the way of Elon.",
+                                                    "score": 8,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Most-Opportunity9661",
+                                    "body": "Nate Silver is a twat.",
+                                    "score": 31,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "strangelyliteral",
+                                    "body": "Ehhhhh, caveat emptor with modern Nate Silver. He\u2019s a serious gambling addict and his current company, Polymarket, is also a gambling site backed by Peter Thiel. The models might still be solid but the commentary around them has taken a distinctly uncomfortable turn.",
+                                    "score": 3,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Pleasant-Regular6169",
+                                    "body": "Natezacant",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Jeff__Skilling",
+                            "body": ">  Founder Nate Silver left in 2023, taking the rights to his forecasting model with him to his website Silver Bulletin.\n\n.\n\n>Wow this absolutely sucks. When we needed fact and stat based reporting more than ever\u2026.fuck these corporations.\n\n\n???",
+                            "score": 6,
+                            "replies": []
+                        },
+                        {
+                            "author": "whatsinthesocks",
+                            "body": "They had a podcast called what\u2019s the point that I loved.  Was sad when it ended.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "appleandorangutan",
+                            "body": "Who needs polling for elections now that the elections are all fixed? There\u2019s no mystery. The foxes are in the hen house. Democracy is dead.",
+                            "score": 0,
+                            "replies": []
+                        },
+                        {
+                            "author": "Most-Opportunity9661",
+                            "body": "It can't have been that important to you if you're just learning about this.",
+                            "score": -11,
+                            "replies": [
+                                {
+                                    "author": "kalam4z00",
+                                    "body": "It was only shut down a little over a week ago and there's no major American elections coming up. I think it's reasonable that they wouldn't have heard about the shutdown.",
+                                    "score": 22,
+                                    "replies": [
+                                        {
+                                            "author": "Most-Opportunity9661",
+                                            "body": "ABC acquired 538 like 6 years ago and for years now it has been a shadow of its former self, barely existing at all including at the last election. They have offered no meaningful commentary or data for years now, with most 538 property redirecting to ABC.",
+                                            "score": -7,
+                                            "replies": [
+                                                {
+                                                    "author": "ryhaltswhiskey",
+                                                    "body": "For what it's worth, I follow politics fairly closely and I didn't know 538 wasn't independent anymore.\n\nI just can't understand when people don't get that other people know things that they don't know and vice versa.",
+                                                    "score": 10,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "I_have_popcorn",
+                    "body": "Why the hell would you buy a website without the model that made it valuable?",
+                    "score": 54,
+                    "replies": [
+                        {
+                            "author": "drinkmorejava",
+                            "body": "We don't know the contract specifics, but to be clear, ABC chose not to renew Silver's contract. They probably had exclusive rights so long as they employed him.",
+                            "score": 51,
+                            "replies": [
+                                {
+                                    "author": "I_have_popcorn",
+                                    "body": "That sounds like a good way to get fleeced.",
+                                    "score": 11,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Meloncov",
+                            "body": "When they bought the site Silver still worked there. Several years later contract negotiations with him broke down and he left.",
+                            "score": 4,
+                            "replies": []
+                        },
+                        {
+                            "author": "Flakester",
+                            "body": "Maybe the point was to kill it.",
+                            "score": 13,
+                            "replies": [
+                                {
+                                    "author": "hybridck",
+                                    "body": "They tried to run it for almost 12 years, first under the ESPN umbrella (which never really seemed like a good fit), and then under the ABC News umbrella. In the end, it turned out that it wasn't profitable to keep going. The only times the site really made much money was during some of the election years.",
+                                    "score": 24,
+                                    "replies": [
+                                        {
+                                            "author": "StealthRUs",
+                                            "body": "> They tried to run it for almost 12 years, first under the ESPN umbrella (which never really seemed like a good fit), \n\nIt was a good fit back when ESPN had Grantland and Bill Simmons.  ESPN back at that time was more of a lifestyle site, and it had a lot of great non-sports content.  Fivethirtyeight also did sports analysis in addition to political analysis.  Their NBA metrics were top-notch.  Letting Bill Simmons go really killed off the non-sports side of ESPN.com which then led to Fivethirtyeight going from a logical fit to a weird fit.",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "hybridck",
+                                                    "body": "Look at my post history regarding my posts to r/billsimmons. I'm with you that 2011-2014 was the apex mountain of ESPN being at the crossroads of sports and pop culture",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "ZCoupon",
+                                    "body": "They never tried to make money from it. Silver blames himself mostly for not creating a monetization strategy from the beginning.",
+                                    "score": 4,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Mrgoodtrips64",
+                            "body": "Name and reputation have value of their own.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Sivart13",
+                    "body": "dang, so this is how I learn that was the last episode of the FiveThirtyEight podcast",
+                    "score": 15,
+                    "replies": [
+                        {
+                            "author": "Catlenfell",
+                            "body": "That was part of my podcast rotation,  too. I was hoping that they'd do a goodbye episode.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "CovenantHeart",
+                                    "body": "If it's any interest, Galen pitched off and has already started the GD POLITICS podcast. I'm going to tune in and see if it still scratches that itch.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Catlenfell",
+                                            "body": "Cool. Thanks.  I'll check it out.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "likeusontweeters",
+                    "body": "Here is Nate Silver writing about it.... \n\nhttps://www.natesilver.net/p/a-few-words-about-fivethirtyeight",
+                    "score": 19,
+                    "replies": []
+                },
+                {
+                    "author": "SpritzLike",
+                    "body": "What a shame.",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "jiggabot",
+            "body": "Answer: FiveThirtyEight was owend by ABC/Disney, who has been gradually been slashing their budget before closing it entirely. \n\nThey canned Clare Malone in December 2020, against wishes of Nate Silver, along with other folks in ABC's news division. Silver left after the end of his contract in April 2023 and said it was because he was unhappy how Disney layoffs had affected FiveThirtyEight. ABC kept it up through the 2024 election before closing it down right after the election.\n\nI don't think it has anything to do with Trump. It's just ABC gradually cutting their budget over the years.",
+            "score": 54,
+            "replies": []
+        },
+        {
+            "author": "WelpSigh",
+            "body": "answer: 538 was shutdown and all the staff were laid off. it's not related to trump's approval rating, abc news just sucks",
+            "score": 277,
+            "replies": [
+                {
+                    "author": "None",
+                    "body": "[deleted]",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "WelpSigh",
+                            "body": "Sorry so are they shutting it down because trump went negative or Democratic favorables went down, can't keep track of which conspiracy is true",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "None",
+                                    "body": "[deleted]",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "WelpSigh",
+                                            "body": "Why not just put out good polls for Democrats instead and skew the average",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "None",
+                                                    "body": "[deleted]",
+                                                    "score": 2,
+                                                    "replies": [
+                                                        {
+                                                            "author": "WelpSigh",
+                                                            "body": "ok well, it seems like abc news and their friends could just order up a bunch of polls that are purposefully biased in order to achieve their ends? if they are trying to influence american opinion by manipulating the perception of consensus, it would seem counterproductive to remove that site rather than simply plausibly manipulating it? or they could use the various house weights 538 employed to give a little extra boost to their favored pollsters",
+                                                            "score": 2,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "bernadetteee",
+            "body": "Answer: Not enough money for the quality and not enough quality for the money. For a deeper, opinionated take on what happened to them, electoral-vote.com did a rundown, here: [https://www.electoral-vote.com/evp2025/Items/Mar07-5.html](https://www.electoral-vote.com/evp2025/Items/Mar07-5.html)\n\nI recommend electoral-vote.com in general as an alternative. It\u2019s written by a couple of professors and I enjoy their daily commentary. If you were looking for the polling data, when the polls start coming, they publish them, and aggregate them.\n\nIt\u2019s (intentionally) an extremely bare-bones website. No ads. But it won\u2019t be responsive to mobile. If you\u2019re using a phone use this link instead:\n\n[https://www.electoral-vote.com/phone.html](https://www.electoral-vote.com/phone.html)",
+            "score": 52,
+            "replies": []
+        },
+        {
+            "author": "sumg",
+            "body": "Answer:  I'm going to look at 538 from a bit of a more wide angle lens.  538 started out as an extremely wonky poll-data analysis blog, independent of any major news organization.  Following Nate Silver making some good predictions of upcoming presidential elections, as well as having gained a reputation amongst politics junkies as a good site to get information on upcoming elections, 538 was bought by ABC News.\n\nThis was inherently a problem for everyone involved.  The big issue is that what 538 did well was very niche, interested in by a narrow group of people, and really only relevant for 6-12 months every presidential election cycle.  That's fine when you're a small number of people running a blog, it's not OK when a major news organization acquires the site for millions of dollars.\n\nOne the things that ABC News did for many, many years following the acquisition was try to to turn 538 into a brand that had more appeal and penetration to a wider audience.  They tried to incorporate it into the national news broadcasts, they tried to simplify the polling data analysis into more easily digestable morsels, and they tried to apply their polling analysis methods into other news spheres (i.e. sports, science news, etc.).  What ABC News found was that the audience 538 initially had was not sufficiently interest in other topics, and there wasn't enough of an audience for those other topics to justify the expense of the site.\n\nThis is all a long way of saying, the amount of interest in what 538 did was enough to support a blog, but maybe not enough to support a division of a major news organization.  It's sad that 538 is going away, but there will be other people doing this type of analysis, though hopefully they will be smart enough to keep it at a small enough scale that it will be sustainable.",
+            "score": 9,
+            "replies": []
+        },
+        {
+            "author": "Multidream",
+            "body": "Answer: \n\nIts simple. Parent company ABC decided they didn\u2019t want it anymore and pulled it down. We don\u2019t know if the decision was political or monetary but it\u2019s gone.",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "RunDNA",
+                    "body": "I stopped visiting/listening the day they got rid of Clare Malone. She was very eloquent.\n\nI don't know what they were thinking with that decision.",
+                    "score": 15,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

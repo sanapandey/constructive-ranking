@@ -1,0 +1,334 @@
+{
+    "title": "The Post Formerly Known as Anything Friday - November 2024 Edition",
+    "author": "AutoModerator",
+    "subreddit": "homelab",
+    "rank": 0,
+    "score": 12,
+    "upvote_ratio": 0.94,
+    "num_comments (reported by reddit)": 49,
+    "url": "https://www.reddit.com/r/homelab/comments/1ggspwg/the_post_formerly_known_as_anything_friday/",
+    "id": "1ggspwg",
+    "selftext": "# Post anything.\n\n* Want to discuss something?\n* Want to have a moan?\n* Want to show something off?\n\nDo it here.\n\n[**View all previous megaposts here!**](https://www.reddit.com/r/homelab/wiki/megaposts)\n\n____\n\nJoin the Offical [Homelab Discord Server](https://discord.gg/homelab) for more!",
+    "comments": [
+        {
+            "author": "bruncky",
+            "body": "Hey there!\n\nI work from home a lot now and I\u2019m trying to put together a setup where I can easily switch between the company laptop and my gaming PC. I\u2019m looking for a KVM switch that fits the purpose (Level1Techs being the top reference right now), but I\u2019m not quite sure which one is the one. Here\u2019s my setup:\n\nDesktop:\n- 1x 21:9 DisplayPort monitor \u2014 3440x1440@100Hz\n- 2x 16:9 DisplayPort monitors \u2014 1920x1080@60Hz\n\nLaptop:\n- 1x HDMI out\n- 2x USB-C out\n\nThe main problem is that the laptop is either HDMI or USB-C. This means that I\u2019d need a KVM switch where I can connect the laptop with a USB-C cable and the KVM switch would output to 3x DP but that still has 3x DP inputs for the desktop. Level1Techs has the [Combo USB-C Power Delivery & DisplayPort 1.4 KVM](https://www.store.level1techs.com/products/p/combo-displayport-usb-c-kvm-with-usb-power-delivery), which is close, but lacks the third DP input for the desktop.\n\nThe other requirement is that I still want to be able to get 100fps at 3440x1440, potentially more when I upgrade my monitor down the line.\n\nIs there any recommended switch that can do what I need?\n\nThanks!",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "pratyathedon",
+                    "body": "Hey, were you able to decide on this? I am stuck on the same problem for months.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "AnomalyNexus",
+            "body": "Bought a N100 setup. Apparently N150s are dropping next month.\n\nClassic me & bad timing",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "mrcandyman",
+                    "body": "tender sulky cooing imagine entertain hat advise slap shelter handle\n\n *This post was mass deleted and anonymized with [Redact](https://redact.dev/home)*",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "aliask",
+                    "body": "I've run into the same thing - I've got three 1L Optiplex PCs but I'm maxed out for storage. I debated getting an external USB disk enclosure or commercial NAS, but I've settled on building a \"proper NAS\" to replace the 3 devices.\n\nMy build is going to be using a Fractal Define R5 case which has 8x 3.5\" bays, but it's a big step up in size from the Optiplex. Silverstone have some reasonable rack mount cases but ultimately I wanted more flexibility, and my baby 6U rack wouldn't fit the type of build I'm hoping to do.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "neil_va",
+            "body": " Have an ancient router and just want to update to something more modern with some questions:\n\n- Fios 300Mbps internet, plan to update to 1Gbps\n- Local LAN has at least 3 devices with 2.5Gbe ethernet (2 miniPC's, 1 NAS)\n- I have a TP-Link EAP245v1 access point i'll keep for now, will update to wi-fi 7 in a couple years\n- Use case: Live alone. However may want to run some services like immich + jellyfin for external users. Also typically may have a miniPC running torrents while i'm browsing on my macbook wirelessly\n\nI'd ideally like to buy only 1 device and not 2 (router + switch) just to keep clutter down.\n\nWhat's the cheapest router that would:\n\n1. Provide security/IDS from internet up to 1Gbps\n2. Provide full 2.5Gbps LAN speeds between NAS, miniPC, etc that are local. Also flexible if these are SFP or faster ports if they can negotiate down to 2.5Gbps\n3. Good SQM to keep data flowing to my macbook prioritized vs torrent or other traffic flowing into miniPCs\n\nI saw the Ubiquiti Max at $200 which was kind of more than I wanted to spend. However I noticed that IDS was limited to 1.5Gbps. Woudl that slow down my internal 2.5gbps LAN transfers as well? Or fine since incoming internet is only 1Gbps?\n\nI do realize I could buy a separate router + switch, but pricing seems like it would end up about the same and I'd just have more clutter and devices. Fine with buying used.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "urbanracer34",
+            "body": "What is an easy way to determine is an IP is in use by something? \n\nI want to put a PlayStation 2 on my network but wanted to make sure the IP isn't already in use.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Chaise91",
+                    "body": "Can you logon to your router or whatever system is handling IP assignments? For example, mine will tell me a list of IPs in use and sometimes what the device is. Could also try pinging the desired address with at least a small level of certainty.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "urbanracer34",
+                            "body": "I can. I'll do some further looking into it.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "ProgressUpper4415",
+                    "body": "nmap",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "NormalPersonNumber3",
+            "body": "So, I've been wanting to expand my internal networking setup, and I had been considering getting more Raspberry Pis, but with what I've been reading lately, they may not be the best value anymore? Like, there are mini-PCs that I could just install Linux onto for cheaper and better than what the Raspberry Pi is capable of, and unless I'm trying to tinker with stuff, those are a better option?\n\nI had set up a simple DNS server (With the Pi-Hole), and I was considering doing more networking tasks with it (Reverse Proxy, DMZ, etc), but if there's a cheaper, better option for small scale networks, I'd love to know about them.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "t90fan",
+                    "body": "I bought a stack of Lenovo ThinkCentre Tiny M625q at 10 for \u00a3300 i.e. \u00a330/each, and they work great for the sort of thigns I used to use PIs for like DNS, LDAP, etc... normal x86, decent NIC, serial port, fanless, low power, and 2 cores/8gb/128gb ssd is good enough for most tasks.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "grawity",
+                    "body": "Honestly I'm much more of a fan of x86 mini-PCs, with a normal boot process, normal NVMe, normal Ethernet, etc. (I have a second-hand Dell Micro 3050 as my home server; sure it cost more than a Pi 5 and isn't 100% quiet and idles at a few watts higher, but it has a normal chassis, a really decent i5, no cooling issues, no power supply issues, no ARM quirks, it's even got a built-in KVM through vPro, etc.) There are tons of them, often fanless and sometimes with multiple Ethernet interfaces specifically for home networking.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "NormalPersonNumber3",
+                            "body": "Yeah, I've been hearing those are pretty good, and that raspberry pi isn't really the best anymore. Thanks for telling me about that one, I'll add it to the list :D",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Jacksaur",
+            "body": "Any recommendations on an Optiplex-size PC to buy with good specs for Proxmox these days? I was looking at a Dell Inspiron with i5 14th gen, but they sold out in my area. And it's a bitch to search for any device in this form factor with their awful site search.\n\nI will be upgrading over time of course, but since the motherboard won't be changeable I'd like a good starting point at least.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "AnomalyNexus",
+            "body": "Purchased hardware for a GPS time server. Don't need one...but was like 10 bucks",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "phillymjs",
+            "body": "I've been wanting to do it for probably a couple years now, but since the holidays I finally made time, sat down most nights after work this month, and made some real progress learning Docker so I can move my home network infrastructure over to services running in containers.\n\nEverything's mostly been a mishmash of services running directly on some Raspberry Pis. There were a couple things I did get running in Docker a couple years ago, when I was just fooling around with it and barely knew what I was doing. I've also only kept up on maintenance to a minimal degree. I'm on top of everything at my IT job, but like the saying goes, the shoemaker's kids go barefoot. \n\nSo far on a test Pi I've got Nginx Proxy Manager, Portainer, PiHole, Unbound, Wireguard, and Uptime Kuma up and running. I have Gitea running but need to reconfigure it to match what I had set up on bare metal and test migrating my repos. I have a wiki spun up that's going to store all my network documentation, because figuring out what past me did or where to find a config file when I need to quickly edit it to fix something has not been fun. Tonight's project was getting Kea DHCP Server figured out, which was a big success in that it works and that I managed to test it without it handing out addresses to anything it shouldn't have.\n\nI still have a lot of work ahead before I'm ready to rebuild all of this for real on a mini PC running Debian and move over to it, and it will likely coincide with a much-needed re-IPing of all my network devices that is probably not going to be enjoyable. But I've come a long way in the last few weeks, I'm feeling good about myself right now, and just needed to [strut](https://www.youtube.com/watch?v=n_Lo2kSaFNQ) a little. This seemed as good a place as any.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "TacticalDonut14",
+            "body": "Hoping for a sanity check. Remember when I said I was 'done with my homelab'? Well, I lied. \n\nI currently have an EX3400-48P for my homelab core, and an EX3400-24P for WAN aggregation. I was considering replacing both of these with a single C9300-24UX-A, with the 8x10G SFP+ module. \n\nSo my main concern, is that this switch would handle all of my internal traffic, and also be at my WAN edge. I don't care about this with the 3400, because the only IP on the system is on the MGT port, which I have configured to hardware lock all of that traffic solely to the MGT port, which is uplinked to my core. But with the 9300 it's not like I have another switch to uplink to (and it is not just going to solely handle WAN traffic), the IP would need to be on an SVI or RVI or whatever Cisco calls it. \n\nI was assuming I would do an identical setup, as I have on the 3400, where the two ports up to my two Palos are on VLAN 201, as well as the uplink out to the WAN. Then the actual internal uplinks up to the Palo are trunked for all VLANs except 201?\n\nOr would it be better to just replace my core and keep the WAN 3400 in place?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SolitaireKid",
+            "body": "I'm loking to start my first home server. Is something like this good ?\n\nhttps://www.oldlappy.com/refurbished-desktops/product/171-4135-dell-optiplex-7050-sff-desktop-7th-generation-wi-fi#/28-ram-16_gb/32-hard_disk-2_tb_hdd/43-cpu-core_i7\n\nI want to basically set up a media server and have a personal netlix. That's the main thing\n\nHere are the specs:\nDell Optiplex 7050 SFF Desktop 7th Generation Wi-Fi\nCore i7 7th Gen 7700\n32 GB RAM\n2 TB HD\n\n\nPrice: INR 24302 which is approximately 300 USD",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "UsernameHasBeenLost",
+                    "body": "Power wise, yeah, that's plenty for a media server. Storage is light though. I have a R720xd that I'm filling in with 1.8TB HDDs (2.5\" SAS, 24 drive bays, so a bit much to fill all at once), and I've filled ~6/14TB so far without even really trying.\n\n\n\n\nI'm not sure if you can even put a graphics card in that, which is important for transcoding (i.e. converting a feed into a compatible format on whatever device you're viewing on). Plex is easier to set up, but you need a lifetime subscription for transcoding IIRC. Jellyfin is harder to set up, but it's FOSS, including transcoding.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "AnomalyNexus",
+            "body": "Neat. Moved some of my crappy USB nvmes to a powered 3.2 gen2 USB hub. Got an easy 2x on throughput on two of them. Hadn't realized they were connecting at 5gbps.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Xamanthas",
+            "body": "Reccomendations for a desktop UPS at 1200VA that has some way of auto shuting down a trueNAS system in a 230V country and isnt completely crap like the APC Back-UPS supposedly are? \n\nThe sheer amount of options is completely overwhelming.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "t90fan",
+                    "body": "budget?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Xamanthas",
+                            "body": "Up to 600 USD is my initial gut feeling but if there is something genuinely better I can be convinced",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "_hephaestus",
+            "body": "I've been back and forth many times over the past few weeks whether to shift from bare metal arch linux boxes I set up for fun to proxmox/openmediavault. The hardware I'm planning to use for the NAS is ancient (Phenom II X4 945) but it's been powering light server stuff for a while, plex and other apps to a recently bought minipc where I'll be using containers responsibly.\n\nBut now I'm wondering if I should also reconfigure my main linux and windows towers. If all the server stuff is on the minipc then switching between a Linux and Windows VM on the main one is probably what I should just be doing? Proxmox can just have the 3090 idle when not in use by either? Though I feel like I should do something with the 1080 Ti too.\n\nWish I knew about proxmox when I first set up these machines it seems to open a lot of possibilities",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "t90fan",
+                    "body": ">  so nowhere near USB 3 speeds \n\nTo be fair, its probably the HDD itself which is the bottleneck not the USB connection\n\nReal world USB3 speeds are about 400 MB/S while real world speeds of a 5200RPM 2.5\" SATA HDD is like 100 MB/S\n\nIf it was an SSD though, it would matter though, as those can hit hit nearer 500 MB/S",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "MGStan",
+            "body": "Any good domain registrars out there that will let me use my own dns name server?\n\nI\u2019ve been using a Nebula overlay network to access my home server from anywhere. I set it up so that each node has a fqdn and the lighthouse can return the overlay network ips in the 192.168.100.0/24 range. I\u2019d like to be able to treat the node names as any normal fqdn. I can manually enter each node as an A record but since the lighthouse can already be queried id like to just automate it. My Google domains got moved to squarespace a while ago and it seems like they don\u2019t have any way of doing that.\n\nAlso it would be nice if I can automatically complete challenges for ssl certs with TXT records. I have web servers that are only accessible through the tunnel but id still like the extra layer of protection.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "prometaSFW",
+                    "body": "If I follow, you want your own DNS servers to be authoritative for your domain? There\u2019s plenty of registrars that allow for that, including squarespace. \n\nBut, if you set the domain up that way, then ACME challenges will have to be entered as records on your own servers, so picking a registrar that supports ACME wouldn\u2019t help you. \n\nHaving run my own domain servers in the past, I\u2019d rather go through the small hassle of adding the relevant A or CNAME records in a commercial provider\u2019s portal once than worry about having to keep a DNS server up. Once you get DNS fully rolled out, it becomes a central part of the home lab such that non resolving queries start to break everything. FMMV, but it\u2019s the one core service I wouldn\u2019t run at home. Gateways are similarly disruptive if they go out of service, but it\u2019s easy to keep a backup consumer router lying around you can plug in if you need to work on your Gateway.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "MGStan",
+                            "body": "The main problem with squarespace was it would only let me delegate authority for the nameserver at the root domain or at specific sub domains, no wildcards. So I'd have to add a NS entry for each of my hosts.\n\n I actually almost got what I wanted by using cloudflare for my namespace. Delegating my nebula lighthouse as the nameserver was pretty neat because the lighthouse automatically adds and updates A records whenever nodes connect to it. So if I spin up a new node all the DNS gets setup automatically for me. The main problem ended up being the lack of automated DNS challenges for let's encrypt. So I'd to have manually update the txt records anyways defeating the entire point.\n\nFor now I'm just manually adding A records on cloudflare so I can use automated DNS challenges like you suggested. It's easy enough to add and delete those as I spin up nodes.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "UsernameHasBeenLost",
+            "body": "Any recommendations for switches? Ideally looking for 2.5g POE, eventually I'll put up some cameras and POE would be preferable. I want to run CAT6 drops in a few areas of the house, thinking 12 port is probably good enough. Currently have 1.2gbps fiber, may upgrade to 2.5gbps or 5gbps eventually",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "neosoul",
+            "body": "Send me your best 10gbe, 8drive sata, with plex hardware video encoding, low idle wattage and truenas capable. Bonus points for ECC ram compatibility :D",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "M1ecz",
+            "body": "Could anyone recommend a cheap-ish, power efficient, and fairly durable nvme ssd? it doesnt have to be fast, preferably 2tb.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ankokudaishogun",
+            "body": "Hello, everybody. I have a couple of questions.  \nThey are quite generic, not sure they deserve a dedicated topic: most likely they have been already answered but I'm horrible at searching stuff.\n\n# Context: \n\nI realized I did end up accumulating half a dozen or so of disks, between mechanical and SSDs. Completely different sizes and all.  \n\nI thus though \"Why, I should use them for a NAS\" which evolved into \"why not a full-on self-hosted multi-services system? I already have my own domain!\"\n\nCurrently plan is to self-host(behind a VPN):\n\n* a PiHole instance   \n* some sort of backup solution?\n* a RSS server\n* something to share\\access files and directories between devices\n* IMAP\\SMTP mail server(s)\n* Newsgroup server?\n* IRC server\n* some ActivityPub instance(mastodon or pleroma?) meant for single-user use\n* probably a Matrix\\Element server  \n* most likely a bittorrent client\n  *     perhaps a emule one as well?\n* a Nextcloud instance(might or might not replace other services), \n* the VPN manager, I guess   \n* probably other stuff to see what I use\\can use\\just to play with it.\n\n# So the questions:\n\n**What would be the cheapest way to do this?**   \n\nI was thinking either buy a pre-made NAS, possibly with enough disk bays, or use a Raspberry Pi4 or 5, though I'm not 100% a raspberry would keep up with all this stuff which, I guess, would end up running on docker.   \nI think the main issue right now is how to manage the disks: a separated DAS perhaps?  \n\nit's kind-of a long-term plan, to be as self-hosting as possible.   \nSo I think accessing the disks might be the first thing to do, I can then attach them to whatever system I might whip out later... and to my current system for now.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "AnomalyNexus",
+            "body": ">Want to have a moan?\n\nSub is a lot of generic pictures of hardware lately. Let's be real here the front of yet another server isn't all that facinating\n\nWould love to see a bit more \"what people do with it\". Or whatever problem they're trying to solve (or failing to solve). Or projects they're contemplating etc.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "OpeningNecessary",
+            "body": "Hi, I'm building/playing with IoT and have bought industrial pc Advantech ARC 1125H [LINK HERE](https://www.advantech.com/en/products/1-2jkbyz/ark-1125h/mod_bc65cf57-e6ae-48e7-bcbb-e1afe4a11c06), it is compatible with B Key 2280 SSD... now i've only found 1 disk on the internet that is compatible (Kingston DC2000B series) that is a bit expensive... can anyone PLEASE help me out and have any idea what to fit into it to make it work? I'm not a hardware person unfortunately :(",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "nyxprojects",
+            "body": "I'm looking for a recommendation which mini pc I should buy. \nI would use it for as a server running PiHole, as a host for some hungry docker containers and a bit of home automation stuff.\nIt would be cool, if it has a low power consumption and a price tag <= 350\u20ac.\n\nIntel or AMD cpu?\n32 Gb of RAM or should I start with 16Gb and upgrade directly to 64Gb later on?\n\n- Beelink EQ14, Intel Twin Lake-N150 (4C/4T), 16GB DDR4, 1TB (249\u20ac)\n- Beelink EQR5, AMD Ryzen 5 5650U (6C/12T), 16GB DDR4, 5ooGB (299\u20ac)\n- Beelink EQR5, AMD Ryzen 7 5825U (8C/16T), 16GB DDR4, 500GB (319\u20ac)\n- Beelink EQR5, AMD Ryzen 7 5825U (8C/16T, 32GB DDR4, 500GB (359\u20ac)\n- Beelink SER5 PRO, AMD Ryzen 7 5850U (8C/16T), 32G DDR4, 1TB (369\u20ac)\n- used M920q Tiny, Intel i7-9700, 32GB, 256GB (359\u20ac)\n- used M920q Tiny, Intel i5-8500T, 16GB, 256GB (179\u20ac)\n- other ideas?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Kornikus",
+                    "body": "I'm using an AC8-N since few month now, it's a NUC totally fanless Intel N100, DDR4.\n\nA totally fanless machine was a non negociable criteria.\n\nI installed Ubuntu, docker (Pihole, plex, Wireguard, etc. ...) and Home assistant is running in a VM.\n\nIt's running fine, nothing special to note.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Schroedingers_Gnat",
+            "body": "So I really like the Minisforum products for a home server, but I have concerns about upgradability and thermals in such a form factor. Can anyone recommend workstation/home server barebones in maybe an ITX or micro-ATX format?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "derKoekje",
+            "body": "Does anyone have experience with the Hancun NAS L8 case? [Taobao link](https://item.taobao.com/item.htm?abbucket=12&id=765982577450)\n\nThere's also an [Aliexpress link](https://www.aliexpress.com/item/1005007078594037.html?sourceType=1&spm=a2g0o.wish-manage-home.0.0) with info in English, though that seems to be for an older version of the case.\n\nIt looks great and I'm about to pull the trigger. I like that it's compact and fits in my electrical closet, yet still accepts an ATX motherboard, power supply, GPU and 8 drives. Good casefan options too.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "johndw2015",
+            "body": "Dell R720; anyone know off hand if I will run into any issues installing an OS off a SATA M.2 Drive on a PCIE adapter?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Elthanyr",
+            "body": "Hi there,\n\nI\u2019ve been wanting to start tipping my toes into homelab-ing, and I figured I should start with getting a 2nd hand miniPC.\nI think for now my goal would be to have a couple VMs, a jellyfin server and a backup solution.\n\nI found this for 100 bucks (I mean CHF, I\u2019m in Switzerland\n\n\u201c HP Elitebook 800 DM G3 i7 24 GB RAM\n\nIntel Core i7-6700 CPU < 3?40 GHz\n\n24 GB RAM\n\n256 GB SSD\n\nWindows 11 Pro\n\nNetwork included \u201d\n\nIs this overkill for a beginner ? The fact that it costs not much makes it appealing\u2026",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Orangexboom",
+            "body": "Hey hey, so I'm not sure if this place is appropriate to ask this question but I'm trying to set up Grocy on my homelab using proxmox and I'm using an LXC container to host Nginx locally, however I want to use HTTPS locally to use some features like the camera barcode scanning. So here's my question::\n\n- Would hosting both the web server and reverse proxy server on the same container be okay or should I separate both of them in two different containers/move them to a single VM and use Docker\n\nI'm new to this whole thing, so I'm not sure what are the best practices to do for my use case.\nThank you!\n\nEdit: removed a simple question",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "recurnightmare",
+            "body": "Hi,\n\nWhat would be the most affordable way to build a NAS hosting nextcloud and immich with about say 10 tbs of storage. It'll be pretty much only for storage purposes so CPU/GPU doesn't need to be great.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "slycoder",
+            "body": "I'm suffering severe burnout career wise. I've been a software engineer for 15+ years and I'm getting to the point where I just don't care anymore. It's absolutely no fun anymore.\n\n\n\nOn the homelab side of things I enjoy playing with network stuff and am reasonably familiar with Mikrotik in an amateur hack and see kinda way.\n\n\nWhat certs are relevant for the US and networks? Is it all Cisco? Can someone recommend some hardware to learn with? My preference would be quiet stuff as I keep everything in my office.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "automathematics",
+            "body": "This is probably a very specific issue but... My tiny 9U homelab is in my primary suite walk-in closet. The closet isn't vented so it gets pretty warm.\n\nThe room is connected to my bedroom, so my bedroom ends up heating up, presumably because the wall it shares with the closet is acting as a \"heated rock\" basically.\n\nHas anyone else experienced this? I'm wondering what my best option would be to keep my bedroom cool.\n\n1) Vent the closet door/above the door so the head can travel. Possibly add fans in the closet to help circulate. I imagine this might heat my bedroom MORE but I'm not a HVAC/physics expert\n\n2) vent the rack INTO the attic. Warm air rises, perhaps?\n\n3) invest in a new AC conduit that cools the closet as well (seems like CLEARLY the most expensive option)\n\n  \nIf anyone has some physics/HVAC/flow-of-air knowledge and can give me their experience that would be great!\n\nLeaning towards #1 so that I think the physics would take the air through the vent and out the window etc... strangely leaving both rooms COOLER but I can't say for sure",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "derekantrican",
+            "body": "Hello all!\n\nRight now my minilab is set up with some port forwarding & IP address reservations on my wifi router. I'd like to change it so I don't have to do any customizations on the wifi router (just provide internet to the minilab via a single ethernet cable). Is something like \"non-wifi router & Cloudflare tunnelling\" the correct approach to this? What sort of \"non-wifi routers\" would you recommend?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "AnomalyNexus",
+            "body": "Was using a zimaboard for router (opnsense).\n\nAlways felt a little flakey for reasons. CPU is acceptable (N3450). 8GB ram. Running off ssd.\n\nHad a bunch of odd issues though. Heisenbug-ish stuff\n\nI recall people saying it's the realtek drivers, but using the plugin official drivers fixes it supposedly\n\nToday decided to add an old x540-T2 and seems to sorted the odd infreqent issues. :D\n\nHad to add a fan cause x540 run hot and expect server airflow rather an passive, but hey. Works better and got a free +100mbit too by the looks of it. Also all the hw offloading not works",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "frobnosticus",
+            "body": "It being Tuesday I don't know if anyone'll see this.  I may make a post about it.\n\nI've tripped over a pair of \"Promise Tech Pegasus 2 R6\" units.  \n\nThey're Thunderbolt 2 drive boxes and, if I can get them up and running on my hardware, exactly what I need.  I'm having trouble resolving the \"Is there a usb-3 external hub/dock/adapter I can use to hook up thunderbolt 2 storage devices to a linux machine\" question.  \n\nThere are just too many keywords in there for normal searches to stay on track.\n\nI'd hate like hell to junk 'em.  But I'm not buying a mac just to use decade + old boxes.\n\nAny ideas?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "JumpAny3556",
+            "body": "*Got tired of dealing with power, heat, and ISP headaches moved my setup to colocation instead. Rock-solid uptime, dirt-cheap power, and way better bandwidth. If you're in the Bay Area, it's a steal at $25/month.* [colocationbayarea.com](https://colocationbayarea.com)",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}

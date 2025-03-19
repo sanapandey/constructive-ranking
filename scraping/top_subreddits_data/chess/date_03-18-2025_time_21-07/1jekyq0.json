@@ -1,0 +1,64 @@
+{
+    "title": "Opponent got greedy and it cost him the game.",
+    "author": "thisisnothelping",
+    "subreddit": "chess",
+    "rank": 11,
+    "score": 21,
+    "upvote_ratio": 0.89,
+    "num_comments (reported by reddit)": 8,
+    "url": "https://i.redd.it/nmi92wsenjpe1.jpeg",
+    "id": "1jekyq0",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "chessvision-ai-bot",
+            "body": "I analyzed the image and this is what I see. Open an appropriate link below and explore the position yourself or with the engine:\n\n> **White to play**: [chess.com](https://chess.com/analysis?fen=1r4r1/p1p1qpbk/1p1p1n1p/3Pp3/1PP5/5bR1/P2QBP2/5K1R+w+-+-+0+1&flip=false&ref_id=23962172) | [lichess.org](https://lichess.org/analysis/1r4r1/p1p1qpbk/1p1p1n1p/3Pp3/1PP5/5bR1/P2QBP2/5K1R_w_-_-_0_1?color=white)\n\n**My solution:**\n\n> Hints: piece: >!Rook!<, move: >!Rxg7+!<\n\n> Evaluation: >!White has mate in 3!<\n\n> Best continuation: >!1. Rxg7+ Kh8 2. Qxh6+ Nh7 3. Rxh7#!<\n\n---\n\n^(I'm a bot written by) [^(u/pkacprzak)](https://www.reddit.com/u/pkacprzak) ^(| get me as) [^(iOS App)](https://apps.apple.com/us/app/id1574933453) ^| [^(Android App)](https://play.google.com/store/apps/details?id=ai.chessvision.scanner) ^| [^(Chrome Extension)](https://chrome.google.com/webstore/detail/chessvisionai-for-chrome/johejpedmdkeiffkdaodgoipdjodhlld) ^| [^(Chess eBook Reader)](https://ebook.chessvision.ai?utm_source=reddit&utm_medium=bot) ^(to scan and analyze positions | Website:) [^(Chessvision.ai)](https://chessvision.ai)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "thisisnothelping",
+            "body": "There was a knight where the bishop now is. I'm glad I found that mate, because I was losing the game big time before that. We're both high 1400s.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "SundayAMFN",
+            "body": "To be fair, the only winning line is to play a defensive move here, which isn't entirely intuitive given the material advantage. Cool tactic though, and higher level players should definitely notice the week kingside defense.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "math-yoo",
+            "body": "If an opponent chooses to play foolishly, the unwritten rules no longer apply.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "TheBlackPaperDragon",
+            "body": "THE ROOOOOOK!",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "thisisnothelping",
+                    "body": "lol, I just realized I missed the opportunity to say that.",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "E_Geller",
+            "body": "Rxg7!",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "thisisnothelping",
+                    "body": "You know it!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

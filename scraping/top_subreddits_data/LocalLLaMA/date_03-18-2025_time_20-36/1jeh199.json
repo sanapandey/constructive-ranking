@@ -1,0 +1,117 @@
+{
+    "title": "Gemma 3 27B and Mistral Small 3.1 LiveBench results",
+    "author": "Vivid_Dot_6405",
+    "subreddit": "LocalLLaMA",
+    "rank": 7,
+    "score": 47,
+    "upvote_ratio": 0.97,
+    "num_comments (reported by reddit)": 15,
+    "url": "https://i.redd.it/ss640j7rripe1.png",
+    "id": "1jeh199",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "NNN_Throwaway2",
+            "body": "Gemma 3 27B is the closest I've come to feeling like I'm running a cloud model locally on a 24G card.",
+            "score": 13,
+            "replies": [
+                {
+                    "author": "NinduTheWise",
+                    "body": "Im running the 12B but the cadence and the way it talks, interacts and does stuff feels a lot more professional if you know what I mean than other local models",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "NinduTheWise",
+                    "body": "Im running the 12B but the cadence and the way it talks, interacts and does stuff feels a lot more professional if you know what I mean than other local models",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Outrageous_Umpire",
+            "body": "It\u2019s beating Claude 3 Opus. I know Opus is an older model now, but at the time it was released it was mind-blowing. Little over a year later a 27b model is beating it.",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "-Ellary-",
+                    "body": "I can assure you that it is not.  \nGemma 3 27b have a lot of problems, especially with hallucinations.  \nIt is a fine model, but it is at Qwen 2.5 level overall.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "_yustaguy_",
+                            "body": "I can assure you that Opus had it's fair share of hallucination problems",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "-Ellary-",
+            "body": "Gemma 3 27b is a fine model, but for now kinda struggle with hallucinations at more precise tasks,  \nbut other tasks are top notch, except the heavy censoring, and ... overusage ... of dots ... in creative tasks.  \nIs it Ideal model? Nope, is it fun? Yes.\n\nAlso, Gemma 3 12b is really close to mistral small 2-3 level (but with same hallucinations problems).",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "zephyr_33",
+            "body": "Mistral 3.1 so far is the smallest model to work well with Cline, so for me that's better.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "Vivid_Dot_6405",
+            "body": "Gemma 3 27B seems to be a very good model, close to Qwen 2.5 72B at almost 3x less params and with vision and multilingual support, coding is significantly worse than Qwen however, as expected.\n\nMistral Small 3.1 is somewhat less performant than Gemma 3 27B, approximately reflecting its smaller size.",
+            "score": 10,
+            "replies": [
+                {
+                    "author": "Admirable-Star7088",
+                    "body": "Gemma 3 27b is my current favorite general-purpose model. It's writing style is nice, it's smart for its size, and it has vision supported in llama.cpp. It really is a *gem*.",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "glowcialist",
+                            "body": "It's creative and has a great writing style, but it's the most \"confidently incorrect\" model I've ever used. I still like it for brainstorming, but I'd worry about using it with any service facing people who don't know to look out for it being a master bullshitter.",
+                            "score": 7,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "sammoga123",
+            "body": "Nothing about Command A?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Vivid_Dot_6405",
+                    "body": "Not yet. I'm sure they will add it within a few days.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Enturbulated",
+            "body": "So far I prefer Mistral's writing style (against my own prompting) over Gemma 3, but Gemma's output is just better otherwise. Add in that in my own testing so far Mistral's model is a bit slower on token generation, and overall I'll prefer Gemma for now.  Your experience and use case may vary.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "--Tintin",
+            "body": "I\u2018m getting confused by the different LLM benchmarks nowadays. Would anybody shed some light on which one is relevant and trustworthy?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "-Ellary-",
+                    "body": "None. Run your own specific tasks, the is the only way.  \nYou can check this guy: [https://dubesor.de/benchtable](https://dubesor.de/benchtable)  \nI found his results kinda, believable.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

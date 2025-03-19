@@ -1,0 +1,46 @@
+{
+    "title": "How to create a lurk command.",
+    "author": "StraightEdge47",
+    "subreddit": "Twitch",
+    "rank": 17,
+    "score": 0,
+    "upvote_ratio": 0.4,
+    "num_comments (reported by reddit)": 5,
+    "url": "https://www.reddit.com/r/Twitch/comments/1je3axh/how_to_create_a_lurk_command/",
+    "id": "1je3axh",
+    "selftext": "I'm a moderator in a friend's stream. They use Stream elements. How do I add a lurk command for them? Google has been most unhelpful.",
+    "comments": [
+        {
+            "author": "eleana_be_happy",
+            "body": "For StreamElements, type in chat\n\n!command add [command name] [command output]  \nex: !command add !lurk Thanks for the lurk, $(user)!\n\nYou can customize the command name or message to whatever you'd like.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "FerretBomb",
+            "body": "What chat-bot do they use? What do you want the lurk command to actually *do*?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "StraightEdge47",
+                    "body": "Is stream elements not the chat bot? I think they just want it to say thank you to the person who uses it.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "FerretBomb",
+                            "body": "Usually StreamElements is an overlay manager; I'm not sure if they have a chatbot. If they do, you'd probably look for something like 'text triggers' or 'chat commands' and just add the command there, as well as the response you want it to say in chat.\n\nAh, yeah. Just looked, they added one.\n\nHave them log into the SE website, then on the left click 'Chatbot', then 'Chat commands'. At the top click 'Custom commands', then the big blue 'Add new command' button.\n\nPut the trigger phrase into the \"!Command name\" box, and the response in the \"Response type\" box at the bottom.\n\nNo idea if there's a way to provide access for a mod to do this, but it's super simple for the streamer to do it.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "TheHolyPug",
+            "body": "I use nightbot for my lurk command i think.",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}

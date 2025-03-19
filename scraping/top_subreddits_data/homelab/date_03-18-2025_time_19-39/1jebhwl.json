@@ -1,0 +1,129 @@
+{
+    "title": "1 month later.....",
+    "author": "thewarmnutter",
+    "subreddit": "homelab",
+    "rank": 4,
+    "score": 155,
+    "upvote_ratio": 0.99,
+    "num_comments (reported by reddit)": 18,
+    "url": "https://i.redd.it/xihbbq5fnhpe1.png",
+    "id": "1jebhwl",
+    "selftext": "\n\nSo after acquiring a hp prodesk g3 800 i7 and a hp microserver gen10 plus a month or so ago.... I've now got all this.... \ud83d\ude02  It's this groups fault I swear. \n\nSmall network cabinet from Facebook market place  \u00a335\nThis came with a free hp2910al-24g and shed load of cat6a patch cables. (yes they could be shorter and when I'm. Confident it all works as it should I'll. Make some shorter ones. \nAnd an extreme networks 210 poe+ switch .....again included. (\u00a335 for two switches and a cabinet!) \n\nCat6 patch panel. \n\nI got a nice 3d print rack mount for the elitedesk \n\nNow that I have poe+ I've bought 2x u6 pros (these will be relocated one upstairs and one downstairs) but I have a stone house to need to channel out for cat6 runs. \nI have hidden this under the stairs.... It was there a week before the wife noticed.\nI'm currently waiting on some IP Cameras to replace my Google nest cams and doorbell and I'll finally be google free...... Typed on my pixel 8 pro. \ud83e\udd26\u200d\u2642\ufe0f \n\nSo what am I running.. \n\nProxmox on both\n\nOpnsense as my router and firewall with unbound \nUnifi Controller for the APs\nPihole as a dns\nTrueNAS as storage (well it's installed and running I've not messed with it yet) \nHome Assistant (migrated from home assistant green)\nPlex \n\nI'm not using the hp2910al-24g procurve yet. But it does have 2 10g sfp ports.... Whixh I would run to my workstation and truenas server I guess.\n\nI'm a Baker by trade and I'm basically self taught in this area not done too badly so far, made my own cables and everything! \n\nNext plan is to teach myself VLANs as my wife's work got hacked by Medusa and she works from home so I don't want to loose anything. \n\nAnyway.... \n\nCheers all great group for inspiration. \nTWN\n\n",
+    "comments": [
+        {
+            "author": "lev400",
+            "body": "All looking good! Now make a diagram while it\u2019s still simple.",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "thewarmnutter",
+                    "body": "Lol this was my project today actually.\n\nListed all ports for the patch panel and switch and where they go.\n\nDid IPs and port numbers for each service/machine \ud83d\udc4d",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "HCLB_",
+                    "body": "Can you show example diagram how should this look like? I have a bit more complex system right now. But still fairly manageable",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Fresh_Dust_1231",
+            "body": "No UPS and not the best place for wireless access point. But if this is for home use, then carry on :0)",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "thewarmnutter",
+                    "body": "Not sure I really need a ups do I?! Or do. I..... \ud83d\udc40\n\nAs said APs will all be moved when I do the next cat6 runs. Then all will. Be tied to patch panel.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "APIeverything",
+            "body": "You have found an interesting place for an access point.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "thewarmnutter",
+                    "body": "As I said in first post it's going to get moved with the next cable run....",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "PM_ME_UR_ROUND_ASS",
+                    "body": "Metal cabinets are basically faraday cages that'll block like 90% of your wifi signal - those U6 Pros are beast APs but even they cant beat basic physics lol.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "darklightedge",
+            "body": "Looks nicely, what's about the air flow?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "thewarmnutter",
+                    "body": "It's pretty cool in this part of the house that's my reasoning for. Location. Think I've heard the fans on the switch and server ramp up.... Once.... Then down to normal again. It's a pretty quiet setup..... Although the hp switch is fairly loud when it's on.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "r4wrgirly",
+            "body": "That bracket for the prodesk looks nice! Did you print it yourself or did you find it online?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "thewarmnutter",
+                    "body": "Ebay to the rescue. \ud83d\udc4d",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "lev400",
+            "body": "All looking good! Now make a diagram while it\u2019s still simple.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "AcceptableHamster149",
+            "body": "shiny :) your wifi might suck a little with all the metal around it -- might help to mount it high up and away from the rack itself. if you can't afford a rackmount ups (they're not cheap) a lot of the amazonbasics upses are rebadged cyberpower ups, and are 100% compatible with NUT, if that's your next thinking for upgrade",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Another_mikem",
+            "body": "Move that poor unifi AP\u00a0outside of the rack, it will thank you. \u00a0",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "thewarmnutter",
+                    "body": "As I said in first post it's going to get moved with the next cable run....",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "15pitchera",
+            "body": "The 2910al is a nice unit esp with the XG modules in the back.. enjoy!",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "thewarmnutter",
+                    "body": "Yeah been a bit of a learning curve that one SSH and no WebGui as it's java based and I've nothing with java.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

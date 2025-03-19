@@ -1,0 +1,139 @@
+{
+    "title": "Is it possible to Enable ONLY SMB3, while disabling SMB1 and SMB2 on Windows 10 21H2?",
+    "author": "Weary_Put6203",
+    "subreddit": "sysadmin",
+    "rank": 10,
+    "score": 9,
+    "upvote_ratio": 0.8,
+    "num_comments (reported by reddit)": 19,
+    "url": "https://www.reddit.com/r/sysadmin/comments/1jecfxr/is_it_possible_to_enable_only_smb3_while/",
+    "id": "1jecfxr",
+    "selftext": "Is it possible to Enable ONLY SMB3, while disabling SMB1 and SMB2 on Windows 10 21H2?  So far, my understanding is that disabling SMB2 using the powershell command 'Set-SmbServerConfiguration -EnableSMB2Protocol $false', will also disable SMB3.  \n\nHow can I force my system to ONLY use SMB3?",
+    "comments": [
+        {
+            "author": "borillionstar",
+            "body": "I think smb2 and smb3 use the same stack so you can't just disable one and not the other, doesn't smb3 support encryption? \n\nYou might be able to limit the connections that way?\n\n\"When you enable or disable SMBv2 in Windows 8 or Windows Server 2012, SMBv3 is also enabled or disabled. This behavior occurs because these protocols share the same stack.\"",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "borillionstar",
+                    "body": "You can now\u00a0*also*\u00a0configure the SMB client to always require encryption, no matter what the server, share, UNC hardening, or a mapped drive requires. This means an administrator can globally force a Windows machine to use SMB encryption \u2013 and therefore SMB 3.x \u2013 on all connections and refuse to connect if the SMB server does not support either.\n\n[https://techcommunity.microsoft.com/blog/filecab/smb-client-encryption-mandate-now-supported-in-windows-insider/3964037](https://techcommunity.microsoft.com/blog/filecab/smb-client-encryption-mandate-now-supported-in-windows-insider/3964037)",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Weary_Put6203",
+                            "body": "Thank you for the response.  The 1st part of your answer backs up what I had believed, in that SMB2 and SMB3 share the same service stack, and that disabling SMB2, would therefore disable SMB3.\n\nThe 2nd part of your answer, pointing to the group policy for encryption, seemed promising, but that group policy was not available on my system.  I wonder if it is a policy in a template that I can add?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "dafino",
+                                    "body": "do you have the most recent admx/adml files?",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Weary_Put6203",
+                                            "body": "I do not.  I guess my next step may be to find them.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Entegy",
+                                                    "body": "https://www.microsoft.com/en-us/download/details.aspx?id=106254",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "No_Resolution_9252",
+            "body": "There are GPOs that can be used to disable SMB 1.0, you may need to get the templates for the microsoft security and compliance toolkit however. I do NOT recommend using the old registry key method to configure that, it is very easy to brick an OS that way.\n\nHave never heard a requirement to disable SMB 2 before so I don't know if there is a way. However, Windows 10 with 2016 domain controllers will ONLY use SMB 3+ and have downgrade mitigations in place that prevent any malware from forcing a downgrade on either side. I am not sure if this mitigation extends to third party SMB3 clients/servers",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Acardul",
+            "body": "It worked for a while for me but not sure if that's still a case. When I installed windows admin center, there was a toggle to run only smb3. It was 1-2 years ago so...",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Virtual_Search3467",
+            "body": "That\u2019s not a matter of the client but of the server \u2014 you want smb3 only, don\u2019t share files via some other protocol version. \n\nThe client will naturally follow if it can\u2019t connect via smb1 or 2. \n\nAny windows that\u2019s supported right now can offer smb3 shares and so does samba, unless you disabled it somewhere.\n\n\nDo note that smb3 may require more of endpoints\u2014 for example, cnames won\u2019t work when signing and or sealing is set to required. \n\nOn a side note\u2026 yes smb1 should basically be disabled everywhere but when it comes to smb2, there\u2019s likely to be much bigger problems than that. Ask pingcastle & co for additional insights.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "boredinballard",
+            "body": "Here's the actual answer:\n\nYou want to control SMB Dialects. We had to do some of this for troubleshooting specific versions of SMB2.\n\nhttps://techcommunity.microsoft.com/blog/filecab/controlling-smb-dialects/860024\n\nHKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\LanmanWorkstation\\Parameters\n\nMinSMB2Dialect: 0x000000300\n\nMaxSMB2Dialect: 0x000000311\n\nThe above regedit will only allow connections with SMB 3.0-3.1.1",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Happy_Kale888",
+            "body": "Isn't that a yesterday problem and you should focus your efforts on getting a supported OS in place?\n\nI am not sure you can only have SMB3....\n\n[https://learn.microsoft.com/en-us/windows-server/storage/file-server/troubleshoot/detect-enable-and-disable-smbv1-v2-v3?tabs=server](https://learn.microsoft.com/en-us/windows-server/storage/file-server/troubleshoot/detect-enable-and-disable-smbv1-v2-v3?tabs=server)",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Weary_Put6203",
+                    "body": "This was a request from 1 of our customers that is using Windows 10 21H2 (LTSC Branch) which has support until 2032.  Their IT department had asked if we could disable SMB1 and SMB2, and force the system to only use SMB3.  I had already read the same article that you had shared.  My understanding now, is that SMB3 is also disabled if you disable SMB2, but I was looking for confirmation as to if that was really true.\n\nUnfortunately I have limited knowledge on all things SMB and haven't been able to find a solid answer.  All I know for sure right now is that once I disable SMB2, I am unable to map drives, which I need to be able to do.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "NuAngel",
+            "body": "Start Menu search for the word \"Features\" and click on \"Turn Windows Features On or Off\"\n\nIn there, ensure the box for SMB1.0 and all of its sub-items.\n\nCheck the box for SMB Direct.\n\nThen to disable SMB2.0:\n\n\u00a0  `1. Open regedit`\n\n\u00a0\u00a0 `2. Navigate to:`\n\n\u00a0\u00a0\u00a0\u00a0\u00a0 `HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\LanmanServer\\Parameters`\n\n\u00a0\u00a0 `3. New > DWORD Value.`\n\n\u00a0\u00a0 `4. Name it: SMB2`\n\n\u00a0\u00a0 `5. Double click it and give it a value of Type 0 (zero),`\n\n\u00a0\u00a0 `6. Restart the computer.`",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "theRealNilz02",
+            "body": "Please upgrade to at least windows 10 22H2. 21H2 hasn't been supported for a long time.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Weary_Put6203",
+                    "body": "We operate on the Windows 10 21H2 (LTSC Branch).  It is supported until 2032, and we have end customers that will continue to use this until at least 2028, unfortunately.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "AlyssaAlyssum",
+                            "body": "..... standard LTSC 2021? Not LTSC IoT 2021?\nBecause 2021 was the edition that dropped LTSC support down from 10 years to 5 years.    \nSo strangely, 2019 is actually supported for longer than 2021",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Weary_Put6203",
+                                    "body": "IoT....",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "AlyssaAlyssum",
+                                            "body": "Ah okay. Carry on then ....\nI just mentioned it as I have seen people get confused with IoT Vs non IoT and the support lifecycles",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Weary_Put6203",
+                                                    "body": "I appreciate the attention to detail!",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

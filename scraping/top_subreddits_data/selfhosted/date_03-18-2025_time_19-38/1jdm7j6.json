@@ -1,0 +1,612 @@
+{
+    "title": "Shoutout to profilarr dev",
+    "author": "FriskyGrub",
+    "subreddit": "selfhosted",
+    "rank": 15,
+    "score": 375,
+    "upvote_ratio": 0.98,
+    "num_comments (reported by reddit)": 91,
+    "url": "https://www.reddit.com/r/selfhosted/comments/1jdm7j6/shoutout_to_profilarr_dev/",
+    "id": "1jdm7j6",
+    "selftext": "profilarr is relatively new on the scene - it trivialises custom formats and profiles for sonarr and radarr.\n\nAs someone who wants to have profiles that \"just work\" that are designed by someone who knows a lot more about profiles than i do, profilarr is leagues beyond the alternatives.\n\nIf you get a chance, i highly recommend checking it out   \n[https://github.com/Dictionarry-Hub/profilarr](https://github.com/Dictionarry-Hub/profilarr)",
+    "comments": [
+        {
+            "author": "ReallySubtle",
+            "body": "For those wondering, it\u2019s essentially a more modern and much more developed alternative to trash custom formats/recyclarr. A ton more release groups etc are included.\n\nIt\u2019s honestly far superior",
+            "score": 103,
+            "replies": [
+                {
+                    "author": "ShaftTassle",
+                    "body": "Thanks. I stood up recyclarr the other day but it\u2019s way too customizable for me - it ls probably great for people that want that level of granularity, but I just want good enough profiles from a list out together by someone who knows what they are doing.",
+                    "score": 11,
+                    "replies": [
+                        {
+                            "author": "ReallySubtle",
+                            "body": "That\u2019s exactly what this does",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "__karsl__",
+                    "body": "Any profile that puts `ZoroSenpai` into Tier 5 is immediately blacklisted.\n\n  \nLike, the guy is GOD in Hybrids.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "ReallySubtle",
+                            "body": "They have an explanation of how they do it and it\u2019s not arbitrary",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Podalirius",
+                    "body": "The king has died. Long live the king.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Sick_Wave_",
+                    "body": "Release groups.\u00a0\n\n\nSo if I'm using Usenet I won't benefit much from it?",
+                    "score": -1,
+                    "replies": [
+                        {
+                            "author": "chunkyfen",
+                            "body": "shit on usenet is still put there by groups lol",
+                            "score": 15,
+                            "replies": []
+                        },
+                        {
+                            "author": "buzzra01",
+                            "body": ">So if I'm using Usenet\n\nAs you should be since that is how Sonarr and Radarr were designed",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "Dan_Wood_",
+                            "body": "Not sure why downvoted I was thinking the same.",
+                            "score": 0,
+                            "replies": [
+                                {
+                                    "author": "None",
+                                    "body": "[deleted]",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Dan_Wood_",
+                                            "body": "Reads fine to me.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "heysantiago",
+            "body": "Thanks for the shoutout! Welcome to all new users :)",
+            "score": 31,
+            "replies": []
+        },
+        {
+            "author": "SeesawIntelligent702",
+            "body": "I hope someone has the idea of singlarr to unify all these apps.",
+            "score": 69,
+            "replies": [
+                {
+                    "author": "samsonsin",
+                    "body": "Honestly there's good and bad with one singular app. The way they are separated makes the ecosystem modular, you can easily swap out apps and services for what you need, and the work is divided between different projects each focusing on different aspects of the experience. Hell, you could make something akin to \"singularr\" using docker-compose already.\n\nAnd on the other end of the spectrum, having one app for it all that just works would be amazing if feasible.",
+                    "score": 27,
+                    "replies": []
+                },
+                {
+                    "author": "ReallySubtle",
+                    "body": "Well they are all one big app in essence. Think of some containers needing a separate database. Well here one app needs another",
+                    "score": 18,
+                    "replies": []
+                },
+                {
+                    "author": "agentspanda",
+                    "body": "I know you\u2019re joking (and I laughed) but I for one prefer the modular approach if only because there are so many specific parts of the stack I prefer(red) alternatives to at one point or another. And because this would be a massive behemoth of a piece of software if the full suite ran under one roof. \n\nThe greatest part is that each module is so set it and forget it that I often forget the Arr stack *isnt* just one big happy family of a project ran by one team. It\u2019s kinda cool that they\u2019re really all their own projects that just connect like Lego.",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "Evening_Rock5850",
+                    "body": "The SingulArrity?",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "Serious_Stable_3462",
+                    "body": "Some people run multiple instances of certain *Arrs or not all of them",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "digitalnomadic",
+                    "body": "Would be great if I could download movies and shows directly within jellyfin",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Gypiz",
+                    "body": "reiverr did this but it seems unmaintained. Organizrr and bobarr too",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Cyph0n",
+            "body": "Interesting. Can someone who migrated from Recyclarr/TRaSH expand on the benefits? Because I have personally found that TRaSH does a good job of picking quality releases across movies, TV, and anime.\n\nTo the maintainers: a migration guide from Recyclarr/TRaSH would be cool, especially if you can provide a database / auto-converter tool that matches (even roughly) the Recyclarr/TRaSH settings.",
+            "score": 14,
+            "replies": [
+                {
+                    "author": "Razorwyre",
+                    "body": "I am wondering this too. As someone who prefers Remux and 4K streaming profiles, not sure how this would benefit me over trash guides profiles.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "heysantiago",
+                            "body": "To be completely frank, it probably doesn't - at least not in a way that is entirely obvious or hugely improved. There are small things like:\n\n* being A/V focused over group focused which improves grab propensity on more varying trackers.\n* including 1080p/SD (and soon to be 720p) fallback\n* Dealing with more focused naming issues (like this BTN atmos cf for example: [https://dictionarry.dev/formats/atmos](https://dictionarry.dev/formats/atmos) )\n\nAmong countless other tiny tweaks/optimisations. They improve the overall profile, but the foundation is still largely the same.\n\nBut, I believe profilarr solves the 'hard problem of updates':\n\n* Our configs are under constant development.\n* Users will never agree 100% to a profile they're given.\n\nSo profilarr bridges that gap and lets you make whatever changes you want (don't want dovi? get rid of it. hate xyz release group? negate them.), but still lets you get those small updates that improve the profile over time. User empowerment - that's the goal. Give the best possible foundation and then let you make whatever changes you want.\n\nMy advice to you is try both and see what works best. We're not trying to replace existing tools, we're just trying to make things easier for everyone. Only you can decide whether Profilarr does that better for you or not :)",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "heysantiago",
+                    "body": "I'll leave the first question for actual users to comment on (too much bias from a dev), but for #2:\n\n- TRaSH devs would have to maintain their own database and/or compilation tool to work with profilarr. I'm quite unfamiliar with their dev workflows but if they have access to their jsons that are being imported, then we can easily repurpose Profilarr's compiler to work backwards :)\n- This isn't something that we (dictionarry/profilarr devs) are actively working on nor will maintain ourselves, but if anyone from that community would like to reach out to us, we'd be happy to help getting that workflow up and running.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "Cyph0n",
+                            "body": "Makes sense, thanks for replying!",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "NoveltyNetwork",
+            "body": "How well does this stack up against notifiarr? I started off using recyclarr myself, but switched to notifiarr for a way to sync the trash guide profiles much more easily than recyclarr.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "therealncg",
+                    "body": "I think that this is the comparison that people should be making instead of Recyclarr.\n\nNotifiarr is more accessible to the wider user base compared to setting up and using a command line tool like Recyclarr. The only downside with Notifiarr is the small donation you have to make in order to get access to Trash guide syncing.\n\nI also like that Notifiarr gives you access to other stuff like notifications to Discord. I like seeing when a new movie or show is downloaded.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "NoveltyNetwork",
+                            "body": "That's my exact thinking.\n\nI guess that's one difference that readily stands out is the initial donation.\n \nI'm going to do a test later today between the two on a test library and see how each of them handle requests/searches through sonarr/radarr.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "diabillic",
+                                    "body": "i'm very curious to see the results as I also use notifiarr as well with no issue...never hurts to see if there's a better tool.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "NoveltyNetwork",
+                                            "body": "Here were the results. I ran a test with the balanced 1080p profile from profilarr and the SQP-1 1080p from Traash guides that was synced with notifiarr.\n\nhttps://imgur.com/a/Xv0W1uW",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "kwiniarski97",
+            "body": "Is it possible to configure it in a way that would download lower profile if the higher up is not available?",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "heysantiago",
+                    "body": "Not exactly, but each profile already has sufficient fallbacks if the better quality is not available. Rest assured that it will grab something if it's available. \n\nFull profile fallback is not possible with the way radarr/sonarr works unfortunately :(",
+                    "score": 6,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "katosen27",
+            "body": "Just as I am about to expand my capacity.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Jeraimee",
+            "body": "Recyclarr hasn't given me a single issue in years.",
+            "score": 25,
+            "replies": [
+                {
+                    "author": "Tred27",
+                    "body": "From someone that used to use Recyclarr, Profilarr is much better with the profiles it has out of the box, I used to\nuse TRaSH guides to setup my stuff, but now just by switching to Profilarr my suite downloaded stuff that I had\nadded long ago that never had any valid downloads available.",
+                    "score": 27,
+                    "replies": [
+                        {
+                            "author": "Whitestrake",
+                            "body": "Profilarr is a little more sane about acceptable quality.\n\nTRaSH guides have incredibly high standards requirements.\n\nI prefer the Profilarr profiles.",
+                            "score": 12,
+                            "replies": [
+                                {
+                                    "author": "chunkyfen",
+                                    "body": "Yeah but shit looks great all the time - in my experience anyway",
+                                    "score": 0,
+                                    "replies": [
+                                        {
+                                            "author": "Whitestrake",
+                                            "body": "Yes, that's the incredibly high standards requirements.\n\nThey accept nothing but \"great\".",
+                                            "score": 4,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Overstay3461",
+                    "body": "If that were the benchmark for measuring whether we should develop new tech we\u2019d be stuck in the 90s.",
+                    "score": 50,
+                    "replies": [
+                        {
+                            "author": "shrimpfanatic",
+                            "body": "maybe that isn\u2019t so bad tbh\u2026",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "Sick_Wave_",
+                                    "body": "Goddamn internet.\u00a0",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Jeraimee",
+                            "body": "Recyclarr wasn't around in the 90s.",
+                            "score": -2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "clintkev251",
+                    "body": "Same, this does look easier to setup though",
+                    "score": 10,
+                    "replies": [
+                        {
+                            "author": "ReallySubtle",
+                            "body": "And it\u2019s a lot more modern and contains a lot more",
+                            "score": 6,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ImprovedJesus",
+            "body": "Holy shit, how have I only found out about this now?",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "TheRealSeeThruHead",
+            "body": "I couldn\u2019t get in with recyclarr at all. Found it incomprehensible. I wonder if this is better.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "marsd",
+            "body": "My issue with Profilarr is they do not intend to consolidate the same for anime.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "heysantiago",
+                    "body": "it's not that we're explicitly choosing not to, it's that I don't have the expertise to build an anime profile that I would personally be happy with.\n\nIf someone comes along  and wants to implement it, we would gladly merge it into the database provided it fits our quality standards.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "marsd",
+                            "body": "I wouldn't mind just using Trash's anime tiers and profiles, it'd be nice to have it built into Profilarr so we don't have to manage them separately. Overall great work!",
+                            "score": 8,
+                            "replies": []
+                        },
+                        {
+                            "author": "darkcyde_",
+                            "body": "This becomes a deal-breaker for me.  I was about to spin up the docker, but I couldn't see any anime profiles in the wiki.  Anime is a big part of my setup, I need some profiles for that.  I'm not totally happy with the Trash/recyclarr setup.  I want to modify things because I prefer certain releases, but recyclarr makes that very difficult.  Profilarr sounds like it solves that kind of thing.\n\nEven if you just copy Trash anime profiles, you need something to serve the anime people out there.  There are _dozens_ of us.  ;)",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "heysantiago",
+                                    "body": "I totally get that and i respect the candid feedback. I'll look into a temporary solution that we can get out a bit faster. \n\nBut i want to say that I fully intend to make proper anime profiles a first party feature of our database, eventually. The when and the how are just undecided ;)\n\nIn the meantime, be on the lookout for database forks! I'm sure someone is gonna work on the same thing. Multi database paradigms are not supported in profilarr (yet), but you can of course just run another instance with other db's.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "darkcyde_",
+                                            "body": "Thanks, happy to know its in the plans.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "og_osbrain",
+            "body": "Thank you very much for sharing. The GUi alone is very inviting when compared to recyclarr. I will definitely give this a spin!",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "ohv_",
+            "body": "Looks good \ud83d\udc4d",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "MonkeyHandCoconut",
+            "body": "Great addition to Self hosting community",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Seraphyzz",
+            "body": "As someone who's been using profilarr the past while I can whole heartedly say it is the absolutely best piece of software for managing your profiles and custom formats. Total custom profile lol",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "wildkarrde",
+            "body": "This thread made me swap over from notifiarr/trashguides and it was so much more straight forward than my previous setup.\n\nThanks for the link!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Few_Barracuda_4012",
+            "body": "Looks interesting, does this have profiles with a focus on german dl releases? I really like recyclarr for that reason",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "heysantiago",
+                    "body": "Not at the moment, but this is something we can look at if people want it :)",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Few_Barracuda_4012",
+                            "body": "That would be huge. I guess it's a bit niche since the german piracy community is small but then again the templates are already there in recyclarr so if you could make an importer like someone else suggested, this would probably work out of the box.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "heysantiago",
+                                    "body": "Absolutely, we'll look into it",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "DoneDraper",
+                                            "body": "Thanx in advance!",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "michael__sykes",
+                    "body": "Using the german trash guides? It's really fire and forget if you ever set them up. They're not as \"controversial\" as the english trash guides seem to be.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Few_Barracuda_4012",
+                            "body": "I am also using them and after a bit of a struggle configuring them they work great now. But an alternative is always welcome to me.\n\nI didn't even know that the english trash guides were so controversial until I read this thread today",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "bambibol",
+            "body": "I've literally started setting up my *arrs last week and got em all working but this was a pain point I hadn't found a solution for, looks awesome and I'll immediately check this out when I have a moment! Thanks for sharing.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "H8Blood",
+            "body": "/u/heysantiago how would one go about creating a dual language profile? \n\nUnder \"Edit Profile - Languages\" I can only specify one line for languages so for example:\n\nAdvanced | Must Include | German\n|--|--|--|\n\n\nI'd like to be able to add lines there so that I could do something like this\n\nAdvanced | Must Include | German\n|--|--|--|\nAdvanced | Should Include | English\n\nSo that it only grabs releases that have at least a german audio track but prefers those that also have an english one.\n\nI hope that was understandable :D",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "heysantiago",
+                    "body": "Makes perfect sense :)\n\nIt's not possible with the current GUI we have, but you can just set it to: Must Include German, then add another CF for english with a score of +5. It should mimic that behavior. \n\nAbstracting this into the GUI is already on the todo list, i just haven't figured out a way to do it that looks nice / makes sense.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "myofficialaccount",
+                            "body": "Great to hear/read, I'm looking forward to this :)",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "N_GHTMVRE",
+            "body": "Looks great but I spent too much time on setting up Notifiarr with TRaSH sync to switch any time soon, lol.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "callofthevoid_",
+            "body": "I would appreciate if someone could ELI5 custom formats & quality profiles. I've been researching how to configure these as optimally as possible but I can't wrap my head around the difference between them and how to best set them (in Profilarr's case, which do I select to automatically sync with Radarr/Sonarr?)",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "heysantiago",
+                    "body": "Hi, our home page has a very quick overview of formats and profiles: https://dictionarry.dev/\n\nand we also have a profile builder that tries to recommend configs based on more quantifiable information (stuff that you should be able to answer without having much technical knowledge) https://dictionarry.dev/builder\n\nHope that helps :) Feel free to come talk on Discord, we'd be happy to help you out! https://discord.com/invite/Y9TYP6jeYZ",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "LeeEunBi",
+                            "body": "is there also a profile that is space efficient? ideally I would like to configure 4k / 1080p movies that look great / okay for as little space as possible, is there a template for that?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "heysantiago",
+                                    "body": "Not yet but there will be very soon, I'm actively working on it :)\n\nI've already finished the metric docs and am just collecting data for the group tiers. Once that's done the profile will go up relatively quickly. You can read more about that here: https://dictionarry.dev/wiki/EEi",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "LeeEunBi",
+                                            "body": "Awesome! would love to use that!  \nI will start using 2160p quality for now, would switching to Efficiency work later on?",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Twisted_Marvel",
+            "body": "Recently discontinued ESO plus. Now, I'm just selling items after crafting or deconstructing. And focusing more on story line. If any sets are required, can just use transmute crystals to recreate.\n\nLet's see how long I can hold off without ESO plus",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "the7egend",
+            "body": "I use Profilarr for my standard Sonarr and Radarr instances, but I still have to maintain recyclarr for my Anime instance of Sonarr since Profilarr is severely lacking in that aspect, I've thought about transferring the Trash custom formats for anime over and building my own profile, just haven't had the time/chance yet.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "AngryDemonoid",
+            "body": "So, if I'm going to switch to this from notifiarr/trash, I'm guessing I should clear out all my profiles and custom formats and start from scratch?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "heysantiago",
+                    "body": "You don't have to - Profilarr will just overwrite stuff with the same name ;)",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "AngryDemonoid",
+                            "body": "Nice, good to know!",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "zenzendesu28",
+            "body": "u/heysantiago hey nice one bud. I really like there's a focus on balanced quality. That and the ability for customization is godsend.\n\nBtw is there a way to import from TRaSH so that I could customize it from there? I would like to do that for anime since profilarr database doesn't have anime specific setup\n\nAlso it's kinda cumbersome to import custom formats by ticking one-by-one during the sonarr/radarr setup. It would be nice to have a button to select them all.\n\nThat being said, this is a solid apps! Thanks for developing it",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "heysantiago",
+                    "body": "> Btw is there a way to import from TRaSH so that I could customize it from there? I would like to do that for anime since profilarr database doesn't have anime specific setup \n\nNot at the moment, but I know people are working on database forks for this very thing. Keep an eye out here: https://github.com/Dictionarry-Hub/database/forks\n\n> Also it's kinda cumbersome to import custom formats by ticking one-by-one during the sonarr/radarr setup. It would be nice to have a button to select them all. \n\nYeah absolutely, here's an issue for this to keep track: https://github.com/Dictionarry-Hub/profilarr/issues/172\n\nAlternatively, there is mass selection functionality if you want to do manual imports. You just shift click to select multiple things at once. \n\n>  That being said, this is a solid apps! Thanks for developing it \n\nYou're welcome, thanks for the feedback ;)",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "auMouth",
+            "body": "Is there a usage guide? I couldn't follow https://dictionarry.dev/wiki/profilarr-setup.  \nWhat git db should be connected? Why would I not use [Dictionarry / Database](https://github.com/Dictionarry-Hub/database) as per the guide?  \nAnd once I've sync'ed/pulled [Dictionarry / Database](https://github.com/Dictionarry-Hub/database) do I just then connect to my Radarr|Sonarr instances? And it will overwrite/replace all my existing quality profiles?\n\nAnd voila, that's all I need to do?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "heysantiago",
+                    "body": ">Is there a usage guide? I couldn't follow https://dictionarry.dev/wiki/profilarr-setup.\n\nIs there anything in particular you would like to see changed here? Too complicated, too simple, etc? We're always looking for more feedback :)\n\n>What git db should be connected? Why would I not use Dictionarry / Database as per the guide?\n\nYou pick whatever DB you want to sync with. If another config db pops up, profilarr lets you use that instead. It's not tied to any one database.\n\n>And once I've sync'ed/pulled Dictionarry / Database do I just then connect to my Radarr|Sonarr instances?\n\nYes, in settings -> external apps\n\n>And it will overwrite/replace all my existing quality profiles?\n\nOnly if you want it to. If you enable import as unique in your app settings, it wont overwrite antyhing you already have. Otherwise, it will rename anything of the same name.\n\n  \n> And voila, that's all I need to do?\n\nYep. \n\nFeel free to ask any outstanding questions on discord, we're happy to help out: [https://discord.gg/Y9TYP6jeYZ](https://discord.gg/Y9TYP6jeYZ)",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "FriskyGrub",
+                            "body": ">Is there anything in particular you would like to see changed here? Too complicated, too simple, etc? We're always looking for more feedback :) \n\nI do remember being confused by the profilarr UI on first boot. Trying to remember in hindsight, i think it came down to the \"database\" being in settings.\n\nThat makes sense from a developer perspective, but from a user perspective the first thing i want to do is add quality profiles. (then connect sonarr, and radarr)\n\nI don't think you need to move database out of settings, but having a button on the landing page when there are no databases linked to \"Add Quality profiles\" (which will redirect to databases tab) will help with onboarding new users.\n\nNote, I think the onboarding should use the term \"quality profiles\" because that is a term new users are familiar with. I like the concept of databases that profilarr uses, but for new users it's an extra barrier to comprehension.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "auMouth",
+                            "body": "The guide is too complicated/obtuse. I found it challenging to understand why I would want to use profilarr in terms of benefit(s) I will get over Trash profiles already setup.  \n  \nWhat DB's exist to sync with? Where/How do I find them?  \n[Dictionarry / Database](https://github.com/Dictionarry-Hub/database)\u00a0is usable? Guide appears to suggest it's only for demo purposes?",
+                            "score": -2,
+                            "replies": [
+                                {
+                                    "author": "heysantiago",
+                                    "body": "I understand your perspective, but this article is not really meant as a critique of existing solutions nor a statement on why you should use profilarr... It's a technical usage guide. \n\nAs for motivation, our goal is not to convince users that our solution is \"better than trash guides\" or anything else, it's the abstraction of complex media information and user empowerment in the existing problem space. This is stated on the home page: https://dictionarry.dev/\n\nWhether our solutions / philosophy allign with whatever goal you have is for you to decide :) \n\n>  What DB's exist to sync with? Where/How do I find them?\n\nThere are no other ones, yet. Gentle reminder that 1.0 is barely a week old - there has been no time for any other database to even start thinking about development yet - we haven't even documented the API.\n\n> Dictionarry / Database is usable? Guide appears to suggest it's only for demo purposes? \n\nIt says that it's using the database for demonstration purposes, not that the DB is a demo itself. It is fully usable and under active development.",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "auMouth",
+                                            "body": "Thanks, appreciate the feedback and viewpoint. I was excited to use profilarr, but think I'll wait until it matures a lot more. I wanted to solve the problem of Trash guides needing manual updates and being very highly weighted to quality, but appears you're saying that's not what profilarr is for.\n\nAdding Sonarr|Radarr, and it says it fails sync \\[profiles?\\], despite adding custom formats to both for \\[Dictionarry\\]. And Tasks has a \"Import for ARR #2 - Sonarr\" tasks, that when I click run says it's an \"Invalid task type\".\n\nThanks to @[FriskyGrub](https://www.reddit.com/user/FriskyGrub/) for the shoutout, but my experience is that Profilarr isn't quite there yet.",
+                                            "score": 0,
+                                            "replies": [
+                                                {
+                                                    "author": "heysantiago",
+                                                    "body": ">  I wanted to solve the problem of Trash guides needing manual updates and being very highly weighted to quality, but appears you're saying that's not what profilarr is for. \n\n- Profilarr has automatic updates and syncing. \n- We are trying to find a middle ground between efficiency and quality that we have explicitly outlined and explored here: https://dictionarry.dev/wiki/EEi. \n\n> Adding Sonarr|Radarr, and it says it fails sync [profiles?], despite adding custom formats to both for [Dictionarry]. And Tasks has a \"Import for ARR #2 - Sonarr\" tasks, that when I click run says it's an \"Invalid task type\". \n\nNot sure what could be causing this but feel free to submit an issue on GitHub with more info: https://github.com/Dictionarry-Hub/profilarr/issues.",
+                                                    "score": 3,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "__karsl__",
+            "body": "Nahh...\n\nWith recyclarr i created custom made profiles that micromanaged my instances. I can setup a new Sonarr/Radarr completely from the groundup with a single command\n\nFor ex. I give +200 to uncensored for animes, custom scores for some CFs, put custom groups in custom profiles, blacklist groups, naming/quality/upgrades/definitions all setup in-code etc etc.\n\nThis seems like a noobs friendly alternative that will go against you when you try to move away from its config.",
+            "score": -3,
+            "replies": [
+                {
+                    "author": "heysantiago",
+                    "body": "I've tried to stay out of critical discourse and only answer technical questions, but I have to interject here and say this is complete misinformation.\n\nProfilarr is quite literally built on top of git to implement it's version control and update system. You can use it with any database you want, make any changes you want to that database and still receive updates. I mean, we go as far as to highlight this as Profilarr's key goal on our home page: [https://dictionarry.dev/](https://dictionarry.dev/)\n\n    Built on top of git, Profilarr treats your configurations like code, allowing you to:\n    \n    - Track changes over time\n    - Maintain your own customizations while still receiving database updates\n    - Resolve conflicts between local / remote changes when they arise\n    \n    The architecture was specifically built like this to put user choice first. We believe that:\n    \n    - Your media setup should reflect your needs, not our opinions\n    - Updates should enhance your configuration, not override it\n    - Different users have different requirements (storage constraints, hardware capabilities, quality preferences)\n    - The ability to customize should never be sacrificed for convenience\n    \n    Profilarr empowers you to use Dictionarry's database (or anyone elses!) as a foundation while maintaining the freedom to adapt it to your specific needs.",
+                    "score": 8,
+                    "replies": []
+                },
+                {
+                    "author": "Seraphyzz",
+                    "body": "Are you a trash mod lol. Nothing of what you said is even remotely true. If you cannot appreciate the hard work of other devs trying to further this community then maybe you shouldn't be here?",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

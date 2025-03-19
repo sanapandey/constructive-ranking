@@ -1,0 +1,460 @@
+{
+    "title": "DGX Sparks / Nvidia Digits",
+    "author": "Temporary-Size7310",
+    "subreddit": "LocalLLaMA",
+    "rank": 13,
+    "score": 49,
+    "upvote_ratio": 0.85,
+    "num_comments (reported by reddit)": 73,
+    "url": "https://i.redd.it/4ydasblh2ipe1.jpeg",
+    "id": "1jedlum",
+    "selftext": "We have now official Digits/DGX Sparks specs\n\n||\n||\n|Architecture|NVIDIA Grace Blackwell|\n|GPU|Blackwell Architecture|\n|CPU|20 core Arm, 10 Cortex-X925 + 10 Cortex-A725 Arm|\n|CUDA Cores|Blackwell Generation|\n|Tensor Cores|5th Generation|\n|RT Cores|4th Generation|\n|^(1)Tensor Performance |1000 AI TOPS|\n|System Memory|128 GB LPDDR5x, unified system memory|\n|Memory Interface|256-bit|\n|Memory Bandwidth|273 GB/s|\n|Storage|1 or 4 TB NVME.M2 with self-encryption|\n|USB|4x USB 4 TypeC (up to 40Gb/s)|\n|Ethernet|1x RJ-45 connector 10 GbE|\n|NIC|ConnectX-7 Smart NIC|\n|Wi-Fi|WiFi 7|\n|Bluetooth|BT 5.3 w/LE|\n|Audio-output|HDMI multichannel audio output|\n|Power Consumption|170W|\n|Display Connectors|1x HDMI 2.1a|\n|NVENC | NVDEC|1x | 1x|\n|OS|^(\u2122)\u00a0NVIDIA DGX OS|\n|System Dimensions|150 mm L x 150 mm W x 50.5 mm H|\n|System Weight|1.2 kg|\n\n  \n[https://www.nvidia.com/en-us/products/workstations/dgx-spark/](https://www.nvidia.com/en-us/products/workstations/dgx-spark/)",
+    "comments": [
+        {
+            "author": "Roubbes",
+            "body": "WTF???? 273 GB/s???",
+            "score": 57,
+            "replies": [
+                {
+                    "author": "taylorwilsdon",
+                    "body": "There\u2019s a delicious subtle irony in the launch press photos all showing it next to a MacBook Pro that can do 550GB/s and be specced to the same 128gb \ud83d\ude02\n\n\u201cBut wouldn\u2019t you like both?\u201d",
+                    "score": 13,
+                    "replies": []
+                },
+                {
+                    "author": "Vb_33",
+                    "body": "That's \"ok\" DGX Sparks is the entry level if you want real bandwidth you get DGX Station\u00a0\n\n\n\n\nDGX Sparks (formerly Project DIGITS). A power-efficient, compact AI development desktop allowing developers to prototype, fine-tune, and inference the latest generation of reasoning AI models with up to 200 billion parameters locally.\u00a0\n\n\n* 20 core Arm, 10 Cortex-X925 + 10 Cortex-A725 Arm\u00a0\n\n\n* GB10 Blackwell GPU\n\n\n* 256bit 128 GB LPDDR5x, unified system memory, 273 GB/s of memory bandwidth\u00a0\n\n\n* 1000 \"AI tops\", 170W power consumption\n\n\n\n\nDGX Station: The ultimate development, large-scale AI training and inferencing desktop.\n\n\n* 1x Grace-72 Core Neoverse V2\n\n\n* 1x NVIDIA Blackwell Ultra\n\n\n* Up to 288GB HBM3e | 8 TB/s GPU memory\u00a0\n\n\n* Up to 496GB LPDDR5X | Up to 396 GB/s\u00a0\n\n\n* Up to a 784GB of large coherent memory\u00a0\n\n\n\n\nBoth Spark and Station use DGX OS.\u00a0",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "uti24",
+            "body": "This is sad, just sad.\n\nThe only good thing we don't have to worry about DIGITS shortage anymore.",
+            "score": 45,
+            "replies": []
+        },
+        {
+            "author": "Lordxb",
+            "body": "Trash better off getting Mac M3 Ultra for same price or Framework AMD AI chips with same ram!!",
+            "score": 41,
+            "replies": []
+        },
+        {
+            "author": "TechNerd10191",
+            "body": "It hurt more reading the 273 GB/s figure than getting rejected from my crush.",
+            "score": 32,
+            "replies": []
+        },
+        {
+            "author": "bick_nyers",
+            "body": "273 GB/s? Only good if prompt processing speed isn't cut down like on Mac.\n\n\nOh well.",
+            "score": 12,
+            "replies": [
+                {
+                    "author": "animealt46",
+                    "body": "Isn't PP speed on mac  the direct result of bandwidth constrains?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Legcor",
+            "body": "Nvidia is making the same mistake as apple by holding back the potential on their products...",
+            "score": 11,
+            "replies": [
+                {
+                    "author": "redoubt515",
+                    "body": "It's fine to do that sometimes *IF* it's done in exchange for being a really good value/price. But in the case of both Apple and Nvidia, the value is pretty poor.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "nderstand2grow",
+                            "body": "I would say it\u2019s never fine to do this thing",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "redoubt515",
+                                    "body": "Maybe I'm just a cheapskate :) I'll accept a lot of tradeoffs if its done in the name of affordability or value (not something Nvidia is known for)",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Legcor",
+                            "body": "Spot on!",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "miniocz",
+                    "body": "They are not making mistake. It is intentional so it does not compete with their datacenter focused and priced products.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "alin_im",
+            "body": "soooooo is the Framework Desktop a good buy now?",
+            "score": 11,
+            "replies": [
+                {
+                    "author": "Calcidiol",
+                    "body": "> soooooo is the Framework Desktop a good buy now?\n\nWell I think it's a question of the other options being so BAD that it almost makes \"less bad\" look good.  In part I'm referring to the entire consumer / SMB desktop perpetually hobbled architecture (128 bit wide RAM bus, no competent mid-range DGPU competitive NPU/IGPU/APU capability) as being included in the other options.\n\nIf the only other options with RAM BW over 200 GBy/s are expensive macs and digits and some bizarre boutique halo APU intended for minipcs then, well, yeah, I guess a miniPC (yet to be released) or framework looks good in value in comparison to the digits low RAM BW at higher cost.\n\nOn the other hand recent news suggested we may be seeing proper AMD64 desktops with 256 bit or wider RAM BW in a year (I suppose CY2026 launch / announcement ?) or so and to me that's at least the most attractive prospect out of all this.\n\nThese halo based minipcs / laptops are (so far) overpriced in comparison to what I'd expect, but the real killer is that they're unicorns \"it is what it is\" without any scalability of RAM size, CPU/IGPU upscaling, no desktop like (and even that's not exactly even adequate in modern enthusiast gamer desktops!) PCIE x16 slots for expansion, no good scalable NVME storage, low performance networking (aside from TB/USB4 which is limited / problematic).\n\nFor similar money as the framework / halo stuff I'm holding out for a proper desktop embodiment at least if not something that's significantly better in terms of modularity and scalability and such.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "alin_im",
+                            "body": "well I have been debating this for the past 2 months since I built my Workstation (no new GPU tho, using my old rtx2060super)....\n\nThe ready out of the box, relatively affordable, and with 24GB+ VRAM, local AI hardware is still in its 1st gen for Nvidia and AMD, 2nd or 3rd gen with Apple. So we are kind of paying the early adoption tax plus the companies test the market to see if there is intrest... digits looked like an amazing product about 3 months ago, no it looks like an overpriced lunchbox...\n\nfor my situation, I have preordered a Framework desktop (still debating if I should cancel or not), butI am really tempted to get a GPU with 24GB of VRAM like a 7900xtx and call it a day with local AI for the next 2-3 years  when APUs will become cheaper and better performance.\n\nTBH, when the 3-4th gen APUs will come out will be amazing for today's standards, but trash for what it will be then... sooo yeah, keeping up with technology is an expensive game...",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "socialjusticeinme",
+                                    "body": "Slow token generation on AI is miserable. Just got for 24GB on a graphics card and enjoy yourself a lot more, plus you can use it for other purposes like games.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "alin_im",
+                                            "body": "i would say 10tps would be a minimum requirement and i don't think a 40gb/70b model will produce that with these APUs.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Calcidiol",
+                                    "body": "Yeah agreed.  It's like there are no great choices today, only \"pick your road and travel it\" choices from basing on DGPU(s) as primary accelerators, using APU mainly/only, buying some 'appliance' mac / digits non PC specialized walled garden thing, or build some kind of really powerful 'server/workstation' class PC for compute.\n\nThe main thing I'm starting to see happen are reportedly better 32B, 72B range models for LLM, VLM use cases, and for some limited(!) sets of use cases they even benchmark pretty well against much larger models (e.g. 100B, deepseek R1, ...).  So I can kind of convince myself that if I can run 32-72B models satisfyingly well for a couple of years I may be able to \"call it a day\" until the world changes and one has maybe much better models / HW to work with in 3, 5, whatever years.\n\nI think they need to come up with factored architecture for models where they don't come up with ever larger ever slower ever more complex / costly models that increasingly are unusable for local inference and only work well on presently unattainable (for consumer / SMB end user) data center class servers.  Obviously the RESULT has to get better / more complex but now we're not making use of general purpose computation programs / SW engineering inside the models, not taking intrinsic advantage of database technology, etc. etc. so really multi-agent / multi-model systems coupled with external tools / resources are probably going to be very effective and let more small models and non-model SW subsystems form a composite of capability better than some 400B, 700B, whatever giant SOTA LLM 'alone' in reasoning, stored knowledge, etc.\n\nSo, yeah, 72B at dozens of TPS... hmm...",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "socialjusticeinme",
+            "body": "Wow, 273G/s only? That thing is DOA unless you absolutely must have nvidia\u2019s software stack. But then again, it\u2019s Linux, so their software is going to be rough too.",
+            "score": 44,
+            "replies": [
+                {
+                    "author": "nialv7",
+                    "body": "yeah at this point why won't i just get Framework Desktop instead?",
+                    "score": 28,
+                    "replies": [
+                        {
+                            "author": "Cergorach",
+                            "body": "You can't, Q3 at the earliest.",
+                            "score": -9,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "SmellsLikeAPig",
+                    "body": "Linux is best for all things AI. What do you mean it's going to be rough?",
+                    "score": 24,
+                    "replies": [
+                        {
+                            "author": "Vb_33",
+                            "body": "Yea that doesn't make any sense, Linux is where developers do their cuda work.\u00a0",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "a_beautiful_rhind",
+                    "body": "I don't want their goofy OS they keep pushing with these.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "Belnak",
+                            "body": "It\u2019s WSL on Windows.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "HofvarpnirAI",
+                                    "body": "no, its Ubuntu with NVDIA software on top, Jetson Jetpack or similar",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "Belnak",
+                                            "body": "When Jensen presented it at CES, he said it would be WSL.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "animealt46",
+                                                    "body": "No he gave a WSL segment right before presenting \"Digits\" with Jensen's trademark lack of segue that confuses people when the new topic started.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "a_beautiful_rhind",
+                                    "body": "You sure? They seem to be pushing some kind of \"Digits OS\" https://preview.redd.it/dp4arygm8joe1.jpeg?width=354&auto=webp&s=9e5096d7247fd0c6fa33185600dc37bbb401b0f9",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Belnak",
+                                            "body": "I\u2019d guess that Digits OS is a selectable WSL instance.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Charder_",
+            "body": "Wow, almost the same bandwidth as Strix Halo. At least Strix Halo can be used as a normal PC. What about this when you are done with it?",
+            "score": 16,
+            "replies": [
+                {
+                    "author": "Temporary-Size7310",
+                    "body": "It is still Ubuntu Linux, DGX Sparks is just alternative to Jetson Thor I think",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Shoddy_Shallot1127",
+                            "body": "Did they release anything about Thor yet?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Temporary-Size7310",
+                                    "body": "No but if we take in account Jetson AGX that is really similar with 64GB, this is a probably similar to what we will get with Thor AGX (FP4 support)",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "nonerequired_",
+            "body": "273 GB/s hurts much",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "h1pp0star",
+            "body": "Best promotion for Apple M3 Ultra I've seen so far. \n\nOnly thing missing is a chart showing M3 Ultra Memory Bandwidth vs Digits, making sure Apple uses the top left quadrant, thicker lines and \"M3 Ultra\" font the top of the dot plot and Digits below",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "RetiredApostle",
+            "body": "273 GB/s",
+            "score": 11,
+            "replies": []
+        },
+        {
+            "author": "Few_Painter_5588",
+            "body": "I'm struggling to see who this product is for? Nearly all AI tasks require high bandwidth. 273 is not enough to run LLM's above 30B. Even their 49B reasoning model is not gonna run well on this thing.",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "Temporary-Size7310",
+                    "body": "It's due to FP4 support, I can see Flux1 dev NVFP4 workflow on it or NVFP4 version of the 49B reasoning model",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "usernameplshere",
+            "body": "273 GB/s bruh, that's as expected - but I'm still let down.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "estebansaa",
+            "body": "What is the price? and then when can you actually get one? My initial reaction is that a Studio makes a lot more sense.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "Temporary-Size7310",
+                    "body": "3689\u20ac all tax included (France)",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "Lordxb",
+                    "body": "3000$",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Kandect",
+            "body": "I wonder how much this will cost:\n[DGX Station](https://www.nvidia.com/en-us/products/workstations/dgx-station/?ncid=no-ncid)",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "wywywywy",
+                    "body": "HBM3e, it's not going to be cheap.\n\nMy guess is start at $25k for the most basic model.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "zra184",
+                            "body": "The old DGX Stations were in the hundreds of thousands of dollars at launch. Why do you think this'll be so much cheaper?",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "wywywywy",
+                                    "body": "Wow my guess was way off then",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "ResearchCrafty1804",
+                    "body": "Many times more, considering this: \n\nGPU Memory: Up to 288GB HBM3e | 8 TB/s",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "TechNerd10191",
+                    "body": "An H200 (141GB HBM3e) costs \\~$35k. Having 1 superchip that corresponds to 2x H200, and having a better architecture, I would be surprised if it was below $50k.\n\nEdit: $50k - not counting almost 0.5TB of LPDDR5x, a 72 core CPU and ConnectX-8 networking. After that, I'd say $80k at least.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Slasher1738",
+            "body": "wack",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "OurLenz",
+            "body": "So I've been going back and forth between the following for Local LLM workloads only: DGX Spark; M1 Ultra Mac Studio with 128GB memory; M3 Ultra Mac Studio with 256GB memory (if I want to stretch my budget). Just as everyone here is mentioning, the memory bandwidth differences between DGX Spark and the M1/M3 Ultra Mac Studios is massive.  From a computational tokens/second point-of-view, it seems that DGX Spark will be a lot slower than a Mac Studio running the same model.  Curiously, even if  GB10 has a more powerful GPU than M1 Ultra, could M1 Ultra still have more tokens/second performance?  I've had an M1 Ultra Mac Studio with 64GB memory since launch in 2022, but if it will still be faster than DGX Spark, I don't mind getting another one with max memory just for Local LLM processing.  The only other thing I'm debating is if it's worth it for me to have the Nvidia AI software stack that comes with DGX Spark...",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "this-just_in",
+                    "body": "As someone else pointed out, it\u2019s possible these things will have much better prompt processing speed than a Mac Studio Ultra.\n\nMy M1 Max MBP has relatively decent token generation speeds for models 32B and under with MLX, but I find myself going to hosted models for long context work. \u00a0Its slow enough that I really can\u2019t justify waiting.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "OurLenz",
+                            "body": "Yeah, I guess I'll just have to wait and see, and possibly perform my own benchmarks if I decide to go through and fully order one.  I did reserve one just in case.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "phata-phat",
+            "body": "Wonder if it supports eGPUs via USB4",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Temporary-Size7310",
+                    "body": "It will probably not, on jetson orin AGX you can't even with PCI x16 on it",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Fun_Firefighter_7785",
+            "body": "Whats about running ComfyUI with Hunyuan making some Videos with this thing? It is good?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Hoodfu",
+                    "body": "A 4090's memory speed is 3.7x this. Maybe sdxl images, but videos would take a looooong time.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Apprehensive-View583",
+            "body": "nice, gonna buy Chinese branded strix halo, which would definitely be cheaper than framework desktop. they might even throw in more ram options",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "siegevjorn",
+            "body": "Looks like mac mini, runs like mac mini, priced like mac pro.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "roshanpr",
+            "body": "Why such bandwidth and the preorder website shows 4k? Did I miss something\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "No_Conversation9561",
+            "body": "So 2 DIGITS (256 GB, 273 GB/s) at $6000 or 1 Mac studio ultra (256 GB, 819 GB/s) at $6000?\n\nMostly, for inference.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "xrvz",
+            "body": "That DGX Station though:\n\n> GPU Memory\tUp to 288GB HBM3e | 8 TB/s\n\n> CPU Memory\tUp to 496GB LPDDR5X | Up to 396 GB/s",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Terminator857",
+            "body": "Much cheaper for running 70gb - 200gb parameter models than a 5090.",
+            "score": -2,
+            "replies": [
+                {
+                    "author": "redoubt515",
+                    "body": "But substantially more expensive (50% more) than a comparably spec'd Framework desktop (also 128GB, comparable \\~256 GB/s memory bandwidth), and roughly equal pricing to a refurb Mac Studio w 3x higher memory bandwidth.\n\nBut I suspect Nvidia isn't targeting this at value/budget conscious consumers (or if they are, they are likely targeting people that are locked in to Nvidia hardware and won't/can't consider Apple or AMD alternatives.",
+                    "score": 8,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Cannavor",
+            "body": "No mention of how fast any of that RAM is. I assume it will be top spec stuff though. I just hope with all these custom AI machines coming out it will finally alleviate some of the demand and make it possible to buy a GPU again.",
+            "score": -3,
+            "replies": [
+                {
+                    "author": "redoubt515",
+                    "body": "According to the OP, 273 GB/s memory bandwidth",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "TheThoccnessMonster",
+                            "body": "Crickets.wav",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

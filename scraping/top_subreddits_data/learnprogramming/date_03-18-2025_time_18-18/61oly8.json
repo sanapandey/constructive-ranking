@@ -1,0 +1,86 @@
+{
+    "title": "New? READ ME FIRST!",
+    "author": "michael0x2a",
+    "subreddit": "learnprogramming",
+    "rank": 0,
+    "score": 825,
+    "upvote_ratio": 0.98,
+    "num_comments (reported by reddit)": 9,
+    "url": "https://www.reddit.com/r/learnprogramming/comments/61oly8/new_read_me_first/",
+    "id": "61oly8",
+    "selftext": "# Welcome to /r/learnprogramming!\n\n## Quick start:\n\n1. New to programming? Not sure how to start learning? See [FAQ - Getting started][faq-start].\n2. Have a question? Our [FAQ][faq] covers many common questions; check that first. Also try searching old posts, either [via google][google] or via reddit's search.\n3. Your question isn't answered in the FAQ? Please read the following:\n\n## Getting debugging help\n\nIf your question is about code, make sure it's **specific** and **provides all information up-front**. Here's a checklist of what to include:\n\n1. A [**concise but descriptive title**][debugging-title].\n2. A [**good description**][debugging-description] of the problem.\n4.  A [**minimal**, **easily runnable**][debugging-posting], and [**well-formatted**][debugging-formatting] program that demonstrates your problem.\n5. The output you expected and what you got instead. If you got an error, include the **full** error message.\n\nDo your best to solve your problem before posting. The quality of the answers will be proportional to the amount of effort you put into your post. Note that title-only posts are automatically removed.\n\nAlso see [our full posting guidelines][debugging] and the [subreddit rules][rules]. After you post a question, **DO NOT** delete it!\n\n## Asking conceptual questions\n\nAsking conceptual questions is ok, but please check [our FAQ][faq] and search older posts first.\n\nIf you plan on asking a question similar to one in the FAQ, explain what exactly the FAQ didn't address and clarify what you're looking for instead. See our full guidelines on [asking conceptual questions][conceptual] for more details.\n\n## Subreddit rules\n\nPlease read [our rules][rules] and [other policies][policies] before posting. If you see somebody breaking a rule, report it! Reports and PMs to the mod team are the quickest ways to bring issues to our attention.\n\n\n  [faq-start]: https://www.reddit.com/r/learnprogramming/wiki/faq#wiki_getting_started\n  [faq]: https://www.reddit.com/r/learnprogramming/wiki/faq\n  [google]: https://www.google.com/#q=site:reddit.com%2Fr%2Flearnprogramming\n  [wiki]: https://www.reddit.com/r/learnprogramming/wiki/index\n  [debugging]: https://www.reddit.com/r/learnprogramming/wiki/index#wiki_getting_debugging_help\n  [debugging-title]: https://www.reddit.com/r/learnprogramming/wiki/index#wiki_writing_a_good_title\n  [debugging-description]: https://www.reddit.com/r/learnprogramming/wiki/index#wiki_writing_a_good_description_of_the_problem\n  [debugging-posting]: https://www.reddit.com/r/learnprogramming/wiki/index#wiki_posting_code\n  [debugging-formatting]: https://www.reddit.com/r/learnprogramming/wiki/index#wiki_formatting_code\n  [conceptual]: https://www.reddit.com/r/learnprogramming/wiki/index#wiki_asking_conceptual_questions\n  [rules]: https://www.reddit.com/r/learnprogramming/about/rules\n  [policies]: https://www.reddit.com/r/learnprogramming/wiki/index#wiki_rules",
+    "comments": [
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": 862,
+            "replies": [
+                {
+                    "author": "Jatacid",
+                    "body": "Can I make good money self educated? ",
+                    "score": 63,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "How about if there's input or output, give an example of what you think should be happening VS what is happening.\n\nI suppose that can be part of the error message if applicable. ",
+            "score": 43,
+            "replies": [
+                {
+                    "author": "Nostradamvs_",
+                    "body": "Shouldn't that always be included?",
+                    "score": 14,
+                    "replies": [
+                        {
+                            "author": "None",
+                            "body": "It should, but it never is. ",
+                            "score": 11,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "michael0x2a",
+                    "body": "Good idea; edited.",
+                    "score": 13,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": 17,
+            "replies": [
+                {
+                    "author": "michael0x2a",
+                    "body": "Unfortunately, post templates aren't a thing on reddit AFAIK :(",
+                    "score": 10,
+                    "replies": [
+                        {
+                            "author": "None",
+                            "body": "[deleted]",
+                            "score": 15,
+                            "replies": [
+                                {
+                                    "author": "michael0x2a",
+                                    "body": "Ooh, I didn't know that was a thing! I'll look into doing that.",
+                                    "score": 13,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "TheFirstSecondBoner",
+            "body": "I think the main reason I haven't been trying to learn to code is because it seems daunting. How do I get past this?",
+            "score": 26,
+            "replies": []
+        }
+    ]
+}

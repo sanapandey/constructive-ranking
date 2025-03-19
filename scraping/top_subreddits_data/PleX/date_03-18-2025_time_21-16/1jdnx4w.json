@@ -1,0 +1,2192 @@
+{
+    "title": "What are your favorite tips or tricks with Plex?",
+    "author": "NotBashB",
+    "subreddit": "PleX",
+    "rank": 6,
+    "score": 264,
+    "upvote_ratio": 0.95,
+    "num_comments (reported by reddit)": 337,
+    "url": "https://www.reddit.com/r/PleX/comments/1jdnx4w/what_are_your_favorite_tips_or_tricks_with_plex/",
+    "id": "1jdnx4w",
+    "selftext": "Fav site to get posters? third party programs to make your life easier? Little known trick that can improve QoL. Let me know!",
+    "comments": [
+        {
+            "author": "N0Objective",
+            "body": "ThePosterDatabase for Movie Posters and MediUX for Title Cards. \n\nPlexamp if you don't already use it, I use it for Audiobooks too, works nicely enough.\n\nPlex also works with Photos if you have the need for it, tested it out and works great as well.\n\nSail the seas if you don't already.",
+            "score": 90,
+            "replies": [
+                {
+                    "author": "ColtKAZ2Y5",
+                    "body": "Plexamp is great for music, dreadful for audiobooks. Audiobookshelf is probably the best self hosted solution.",
+                    "score": 17,
+                    "replies": [
+                        {
+                            "author": "CloudyofThought",
+                            "body": "Audiobookshelf is amazing, way better than Plexamp.",
+                            "score": 7,
+                            "replies": [
+                                {
+                                    "author": "za-ra-thus-tra",
+                                    "body": "can you elaborate? my only problem with plexamp has been remembering to enable Store Track Progress when i switch to the audio book library",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "CloudyofThought",
+                                            "body": "Audiobookshelf can manage audiobooks and even the associated pdfs and printed materials. You can also use several other sources to do track naming, and it will even manage podcasts very well. I haven't looked back....less than 15 minute setup in a container and even has apps. It's still a wip, but it's awesome and the dev is very active on Discord.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "N0Objective",
+                            "body": "Works for me \ud83d\ude42",
+                            "score": 0,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "dannythetwo",
+                    "body": "If you\u2019re on iOS I cannot let you go without recommending Prologue. It makes audiobooks on plex work like a dream. Especially if you can get chapterized m4b files, ugh it\u2019s beautiful",
+                    "score": 33,
+                    "replies": [
+                        {
+                            "author": "N0Objective",
+                            "body": "I stay away from IOS, but thanks for the info.",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "dannythetwo",
+                                    "body": "I\u2019ve heard the best Android alternative is called Chronicle, fwiw but have not used it",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "N0Objective",
+                                            "body": "Plexamp works great for me :)",
+                                            "score": 2,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "BoldUnbold",
+                                            "body": "Personally for Android I prefer Symfonium to Chronicle. Also use it for music rather than Plexamp most of the time.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "NotBashB",
+                    "body": "*allegedly* i have a mini PC just to sail the seas lol.\n\nI only just recently discovered TPDb and going through all my shows and movies getting the right stuff for it lol",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "N0Objective",
+                            "body": "MediUX is great for title cards for individual episodes gives your library a bit more eye appeal, but it becomes extra work when you want everything to have a title card lol",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "Erock2",
+                                    "body": "Is there a way to automate this? Or is it literally going through each one and updating a photo?",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "N0Objective",
+                                            "body": "Read the Plex FAQs. Match the photo filename to the episode name and put in the same folder. Rescan and done.",
+                                            "score": 5,
+                                            "replies": [
+                                                {
+                                                    "author": "Erock2",
+                                                    "body": "Perfect, thank you!",
+                                                    "score": 1,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "G-McFly",
+                                                    "body": "Whew, def tedious but glad the feature is there.  I'm such a spaz that I'm probably gonna do just that...",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "N0Objective",
+                                                            "body": "Once you're caught up with the title cards its easier to keep up. I usually grab title cards as the season or episode is downloading and match the names with filebot. Sometimes the title card is released before the episode is so Ill prename the filename to match and then it'll auto match once plex scans.",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "molachai",
+                                                                    "body": "See my comment above re: TitleCardMaker. Did 20k+ episodes in just a few days. No manual renaming/finding of images needed.",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "ptdata23",
+                                            "body": "I use the Plex Poster Set Helper to make this easier for me:\n\n  \n[Plex Poster Set Helper](https://github.com/bbrown430/plex-poster-set-helper)",
+                                            "score": 5,
+                                            "replies": [
+                                                {
+                                                    "author": "Erock2",
+                                                    "body": "Awesome I\u2019ll take a look at this as well! I was also looking at using it with kometa",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "idontappearmissing",
+                                                            "body": "In that case, Mediux already has support for Kometa.\n\nhttps://kometa.wiki/en/latest/kometa/guides/mediux/?h=mediux",
+                                                            "score": 2,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Erock2",
+                                                                    "body": "Oh this is great! I got it working. I also found titlecardmaker, which seems pretty awesome too.\n\nThank you!",
+                                                                    "score": 3,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "molachai",
+                                            "body": "Yes. There is TitleCardMaker. https://titlecardmaker.com/\n\nBeen using it for a few weeks now and every single one of my episodes (20k+) has a title card now. The whole process only took a couple days. There are even sets (blueprints) of them that will match a style or font throughout. Think Marvel/Star Trek/Star Wars. It's a brilliant app and the Discord is a great place for support.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "DizzyTelevision09",
+                    "body": "I'm using posterdb for shows and tmdb for movies.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "sirchewi3",
+                    "body": "Plex photos doesn't support HEIC which is what I've been using on my phone the past couple years so I only use it for phone videos",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "TheCoolerSalviador",
+                    "body": "What do you use for photos on Plex?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "N0Objective",
+                            "body": "Plex has Photos built in..use it like any other library just choose Photos and point it to your Photos on HDD.",
+                            "score": 7,
+                            "replies": [
+                                {
+                                    "author": "TheCoolerSalviador",
+                                    "body": "Didn't realize it was so easy, I'll have to check it out. Thanks!",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "mo418",
+                            "body": "Plex has an official separate photo app, similar to Plex amp for music. \n\nIt's called....get ready... Plex Photos!",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "gc28",
+                    "body": "I want to automate audiobooks & ebooks this month",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "TCKline01",
+                    "body": "Can you set Plex to auto grab form TPDB or do you do it manually? I've always just done it manually.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "N0Objective",
+                            "body": "I do it manually as well, I'm sure there is a script of some sort. I like to pick and choose.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "DavidTheCollecterOf",
+                    "body": "I was going to say, I tried uploading some audio books to plex and didn't have any luck with them",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "N0Objective",
+                            "body": "Works fine for me.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "DavidTheCollecterOf",
+                                    "body": "Glad it works for you, I just wish it would work for me but I can't seem to get it to work",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "CactusBoyScout",
+            "body": "I somehow only recently learned about the \u201cedition\u201d tag which is super helpful when you want the Plex UI to indicate if a movie is a theatrical cut or directors cut or similar. I also use it for things like \u201c4K restoration\u201d or \u201cremaster\u201d sometimes.",
+            "score": 147,
+            "replies": [
+                {
+                    "author": "VerifyMe",
+                    "body": "BEWARE. I love the editions tag but it seems that movies tagged with an edition will not turn up in searches. Test it out before you add a lot of edition tags and decide if you can live with it until Plex addresses it.",
+                    "score": 40,
+                    "replies": [
+                        {
+                            "author": "CactusBoyScout",
+                            "body": "Huh I\u2019m trying it now and they\u2019re showing up. I added \u201c4K Restoration\u201d to two older movies that recently got restored rereleases and they both show up in search on the iOS app.",
+                            "score": 20,
+                            "replies": [
+                                {
+                                    "author": "VerifyMe",
+                                    "body": "Are there other versions of the movie in your library? Example: if I have Blade Runner (without edition tag) and the Blade Runner Final Cut... Blade Runner will turn up in searches. However, if I only have the Final Cut in my library, Blade Runner does not show up in searches.",
+                                    "score": 7,
+                                    "replies": [
+                                        {
+                                            "author": "CactusBoyScout",
+                                            "body": "I only have one version of the movies with edition tags.",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "nolankotulan",
+                                                    "body": "Movies that have an edition tag also don\u2019t appear when you click on related cast.",
+                                                    "score": 5,
+                                                    "replies": [
+                                                        {
+                                                            "author": "CactusBoyScout",
+                                                            "body": "Interesting. I\u2019m not experiencing the search bug but I do see this one. I never browse that way normally though. I just tested it because you mentioned it.",
+                                                            "score": 6,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "N8ThaGr8",
+                            "body": "They absolutely will what are you talking about",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "ahmedomar2015",
+                    "body": "Please teach me how to do this",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "CyberForest",
+                            "body": "* The Lord of the Rings - The Fellowship of the Ring (2001) {edition-4K Extended}.mp4\n* The Lord of the Rings - The Fellowship of the Ring (2001) {edition-Extended Edition}.mp4\n* The Lord of the Rings - The Fellowship of the Ring (2001) {edition-Theatrical Release}.mp4",
+                            "score": 37,
+                            "replies": [
+                                {
+                                    "author": "Bgrngod",
+                                    "body": "It's neat that it works with *whatever* you put in there. It's not doing anything fancy such as confirming the existence of such an edition.\n\n    Boogie Nights (1997) {edition-2 Hours of Rollergirl Summer Special}.mkv\n\nTotally works.",
+                                    "score": 22,
+                                    "replies": [
+                                        {
+                                            "author": "CactusBoyScout",
+                                            "body": "Yeah realizing I could add anything was quite a surprise. I was thinking like\u2026 should Criterion Collection releases get an edition tag? But I feel like that\u2019s covered by me specifically selecting the Criterion posters so no need.",
+                                            "score": 3,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "brijazz012",
+                                            "body": "Wait, that edition DOESN'T exist? Thanks for nothing!",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Will0w536",
+                                    "body": "Do you keep them in the same folder? I have a few english dub/japanese anime movies and I have them split",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "CyberForest",
+                                            "body": "Yes. Those 3 files are in this folder:\n> /Plex Media/Movies/The Lord of the Rings - The Fellowship of the Ring (2001)/",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "CactusBoyScout",
+                                                    "body": "Does it show up as 3 different movies in Plex then?",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "CyberForest",
+                                                            "body": "No, the 1st one (in alphabetical order) will be the \"default\" one that plays. But on the movie page, where you see the Cast & Crew, Related Movies, etc, there is a new section called Other Editions you can pick to watch instead. When searching for a movie with multiple editions, there will be a little button to select the one you want to watch.",
+                                                            "score": 2,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "mchp92",
+                                    "body": "Do they have to be in same folder?",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "CyberForest",
+                                            "body": "I have mine in the same folder, my 4K content isn't large enough to justify it's own library, but no they do not need to be.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "CactusBoyScout",
+                            "body": "Another reply covered how to do it with file names. If you\u2019re using Radarr, just click the little wrench icon next to the file on a movie\u2019s page then add whatever to the Edition box, save it, click Preview Rename, and then Organize.",
+                            "score": 11,
+                            "replies": [
+                                {
+                                    "author": "MightDisastrous2184",
+                                    "body": "You know radarr actually supports this? It is in the naming section",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "MightDisastrous2184",
+                                            "body": "{Movie CleanTitle} {(Release Year)} {imdb-{ImdbId}} {edition-{Edition Tags}} {[Custom Formats]}{[Quality Full]}{[MediaInfo 3D]}{[MediaInfo VideoDynamicRangeType]}{[Mediainfo AudioCodec}{ Mediainfo AudioChannels]}{[Mediainfo VideoCodec]}{-Release Group}\n\nThis is how mine are named",
+                                            "score": 11,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "CactusBoyScout",
+                                            "body": "Yes. I\u2019m just explaining how to manually add an edition tag in Radarr if it didn\u2019t pick it up from the release info or file info.\n\nBut you\u2019re right you have to also put edition info in the naming scheme.",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "pfhor",
+                            "body": "If the filenames are already unique and added to your library, split the movie in the menu and then for each one go to Edit -> General -> Edition and add the name of the edition to whatever you want.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "thebunnybullet",
+                    "body": "I have a program you might like called [Edition Manager](https://github.com/Entree3k/Edition-Manager), that allows for easy changing of editions",
+                    "score": 10,
+                    "replies": []
+                },
+                {
+                    "author": "m0rfiend",
+                    "body": "i use the edition tag for fanedits too. some of them are better than the other versions of the films.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "HeadBroski",
+                    "body": "I also just learned about this. It\u2019s a really handy feature. For years I had Its a Wonderful Life in B&W and remastered in color and changing between the two was a pain. The edition tag now lets me choose the version to play under the same listing. I don\u2019t know how I always over looked this while reading through Plex documentation.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "sucksfor_you",
+                    "body": ">I also use it for things like \u201c4K restoration\u201d or \u201cremaster\u201d sometimes.\n\nWait, so I could use it for things like keeping the HD version of Buffy separate from the SD version?",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "N8ThaGr8",
+                            "body": "It's only movies for now, but you can do what you're talking about already just by splitting them apart (you'd want to rename one of them though).",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Dragontech97",
+            "body": "Setting up offline auth. Useful for instances where internet drops but server is still on. Will be able to still watch your content on LAN. Gotta set this up while online I believe.\n\nSettings > Server > Network > List of IP addresses and networks that are allowed without auth.\n\nIf you know the DHCP range for your network it\u2019s pretty quick to enter in. i.e. \u201c192.168.0.0/24\u201d=192.168.0.1-192.168.0.254\n\n[support link](https://support.plex.tv/articles/200890058-authentication-for-local-network-access/)\n\nEdit: From the comments, if you use profiles, you will be stuck on the last one used until you restore internet.\n\n[netmask range calc](https://jodies.de/ipcalc)",
+            "score": 153,
+            "replies": [
+                {
+                    "author": "evanbagnell",
+                    "body": "Good to know this. Thanks",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "labelbuddy",
+                    "body": "Important to note if you use profiles you\u2019ll be stuck with the last profile used. Kids profile for a few days made me set up jellyfish backup haha",
+                    "score": 9,
+                    "replies": [
+                        {
+                            "author": "Elfeckin",
+                            "body": "That's why I keep a copy of Kodi around so if that happens I know Kodi/plex will work as I was the last one to use it.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "ObeseSnake",
+                    "body": "Thank you!",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "csninji",
+                    "body": "Any way to test this once setup?",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "SeriesXM",
+                            "body": "Unscrew the coax cable on your modem/gateway?",
+                            "score": 12,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "prodigalkal7",
+                    "body": "Correct me if I'm wrong, but enabling this removes users from the home network correct? So admin user can be accessed locally",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "Morridini",
+                    "body": "I don't get this. My Plex works fine without internet and I've never done that. I have check marked enable local network discovery however, I wonder if that does the same",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "Dragontech97",
+                            "body": "That and maybe DLNA server if you have that enabled in Plex. I don't use it myself but I imagine those two work together as you described",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "Morridini",
+                                    "body": "DLNA server is not enabled. If it matters, my plex server and the TV where I watch Plex are both connected to the same router (server by ethernet and TV by wifi).",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Livid_Pool_8617",
+                            "body": "This is bypassing authentication should prob never need it",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "SleepingLesson",
+                    "body": "Great tip, thank you!",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Elfeckin",
+                    "body": "This has saved my life so many times over the years. For anyone with a newer setup or just hasnt done it. Do it now. \ud83d\ude01",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "autobulb",
+                            "body": "Does your internet go down a lot? If you live in a place where it does this seems like a good idea. I would just tether to my phone to login, hah.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "SurprisedAsparagus",
+                    "body": "I keep a docker for Jellyfin on the back burner for this.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Throbbin_Goblin",
+                    "body": "I learned about this after my Internet went out for a few weeks. Lifesaver!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "hellionzzz",
+            "body": "If you think you have enough storage, you don't.",
+            "score": 133,
+            "replies": [
+                {
+                    "author": "BoulderBadgeDad",
+                    "body": "Bi-annual GoFundMe from users to keep the game going.",
+                    "score": 29,
+                    "replies": [
+                        {
+                            "author": "NotBashB",
+                            "body": "One of my friends offered to send me $180 when I needed a new drive to keep the content coming. \n\n\nNever been happier lol",
+                            "score": 38,
+                            "replies": [
+                                {
+                                    "author": "Ninja-Trix",
+                                    "body": "They paid the subscription fee to your streaming service, lol",
+                                    "score": 17,
+                                    "replies": [
+                                        {
+                                            "author": "NotBashB",
+                                            "body": "Tbf I think $180 is less then a year of Netflix \ud83d\ude02\n\nLet alone if they have multiple",
+                                            "score": 8,
+                                            "replies": [
+                                                {
+                                                    "author": "Ninja-Trix",
+                                                    "body": "Yeah, I'm in the process of negotiations with my brother for an additional 16 Terabytes since I've only got 500gb free and his Babylon 5 DVDs are about to rot.",
+                                                    "score": 7,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "bklyngaucho",
+                            "body": "I should try this",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "MrHaxx1",
+                    "body": "I genuinely don't think I'll need more than my 64 TB (48 TB usable). \n\nIf I start reaching 48 TB, I'll start deleting movies and/or shows.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "akatherder",
+                            "body": "Same, I make do with 4 TB and haven't had any issues.  I keep around 30 TV shows that I might rewatch.  Then I might have 30 more on my \"Watchlist.\"  My TV is nothing special so 1080p (maybe 4k) is plenty.  Even 720p is ok.  \n\nI'll usually delete old seasons if the show is ongoing.  I don't need White Lotus Season 1 if I'm watching Season 3 (unless I plan to rewatch some time in the future).\n\nThen I have 800 movies which I could delete 2/3 of them without any hesitation.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "ForceProper1669",
+                            "body": "Shit.. i have 10 times that, and im always out of space",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "WaffleStompinDay",
+                                    "body": "That just means at least 75% of your library has probably never been watched, more than likely won't ever be watched, and makes it cumbersome to look for something to watch so just search for The Office or a Marvel movie to watch for the twentieth time",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "ForceProper1669",
+                                            "body": "More like 95% has never be, or will ever be watched.\nNot at all cumbersome.. plex is awesome.  As well, i am ocd about my organization",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "xyrgh",
+                    "body": "On the flipside, clean out your collection every now and then. I used to be all /r/datahoarder but now I only keep what is hard to find and what I (or the family) rewatch frequently. I cleaned out over 10TB of movies and TV last year from my 30TB collection. There is no point in me having over 50 years of backlog that I will never watch. Datahoarding is just as bad as real hoarding, especially if it's maintream movies or media that will always be available.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "chargebeam",
+                            "body": "Is there a way to know which shows or movies have 0 min of viewing time in my server?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "xyrgh",
+                                    "body": "Possibly through something like Tautulli. I don\u2019t share my server with anyone anymore so I don\u2019t have much use for tools like that, but I\u2019m sure it could show that data.",
+                                    "score": 0,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "NoDadYouShutUp",
+                    "body": "hmmm",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "hellionzzz",
+                            "body": "If you can't do a one-to-one backup, are you truly safe?",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "racerx255",
+                    "body": "I went from a ds220 to a ds2419 with the expansion. If I run out of space again, it may be time to downsize the stored media.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "PocketNicks",
+                    "body": "My 22tb has been chugging along nicely for a few years now, one day I will need to upgrade though.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "stykface",
+                    "body": "Bro nailed it",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "TCKline01",
+                    "body": "I hear you, there. I'm in the process of transferring and swapping out 3 of my drive right now. It's a pain in the ass. I wish I would have just got large drives from the start.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Pjpjpjpjpj",
+            "body": "Reboot my server before every trip I take. \n\nIf I don\u2019t, invariably something crashes (Sonarr, Radarr, Plex, etc etc) and that always seems to be the magic moment that my remote access also gets jammed up. \n\nProactive reboot is always good for a few months, and perfect for when I\u2019m away and still want access.",
+            "score": 34,
+            "replies": [
+                {
+                    "author": "GabrielXS",
+                    "body": "Install chrome remote desktop or similar?",
+                    "score": 9,
+                    "replies": [
+                        {
+                            "author": "sucksfor_you",
+                            "body": "Is chrome remote desktop still good? I've been getting notifications that the app has been deprecated.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "chargebeam",
+                                    "body": "I still use it.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "DudeLoveBaby",
+                                    "body": "It's not fantastic but it still just works for me, no extra fucking around required",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "TheMediaAcct",
+                            "body": "Rustdesk is a free remote desktop, feels very much like TeamViewer.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Dragontech97",
+                    "body": "For me, VPN into my home network then SSH into the server and restarting the Plex service/entire machine is the on-demand route. I always forget to reboot proactively",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "nighthawk05",
+                    "body": "I do a daily reboot at 6am to be safe",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "Zuxicovp",
+                    "body": "I went international this year for a couple weeks, having remote access to my desktop on the network made all the difference to troubleshoot",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "supermonkeyball64",
+                    "body": "Many products like it, and outside of Plex itself, but I have a SwitchBot Bot hooked up with a Hub (I do use Home Assistant too but not needed). This makes it so I can remotely hardboot my server anywhere I'm at. Mix this with Tailscale integration on your server comp, and you can now manage on/off states both digitally and physically.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "mrcrashoverride",
+                    "body": "Even having a five dollar home automation on off plug to just power cycle your computer remotely is a godsend.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Skeeter1020",
+            "body": "Wizarr drastically simplifies adding new users to Plex. I just generate a link and send it to them.",
+            "score": 35,
+            "replies": [
+                {
+                    "author": "CactusBoyScout",
+                    "body": "I'm confused about what it simplifies from the normal process. It just guides them through the process so you don't have to tell them to create a Plex account and then send them the invite yourself?",
+                    "score": 20,
+                    "replies": [
+                        {
+                            "author": "The_Airwolf_Theme",
+                            "body": "> It just guides them through the process so you don't have to tell them to create a Plex account and then send them the invite yourself?\n\nit sorta 'idiot proofs' it to a degree and lets you not have to explain everything ahead of time to people who are not very tech savvy.",
+                            "score": 5,
+                            "replies": []
+                        },
+                        {
+                            "author": "Skeeter1020",
+                            "body": "Yes. That.\n\nHave you tried to do that yourself over WhatsApp with someone not tech literate? \n\nMy time has value. I can add people to my Plex, starting from absolutely nothing their end at all or even knowing what Plex is, by taking literally 5 seconds to grab a link and send it to them. And done.\n\nIf you want to run it yourself go ahead. But I CBA with that.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Lopsided-Painter5216",
+                    "body": "Thanks. I wanted to invite relatives but they just drop when I ask them for their emails or I have to tell them to create an account first then message me their username. Hopefully this will take the friction out.",
+                    "score": 9,
+                    "replies": [
+                        {
+                            "author": "Skeeter1020",
+                            "body": "It guides you through setting up a Plex account which was the bit I got fed up with too.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "ferry_peril",
+                    "body": "Danke!",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "TCKline01",
+                    "body": "This is right up my alley. I'll have to check it out.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "DeanThaSmurf464",
+                    "body": "I presume you use a domain for wizarr? I got this lastnight and would like some best practices guidance",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "DudeLoveBaby",
+                    "body": "90% of the reason why I wrote an informational website for my plex users is the setup guide I wrote on it lol...this would have been very useful to me a year ago (but I probably wouldn't have learned anything regarding web hosting if I found it then)",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Skeeter1020",
+                            "body": "Nope, that's optional.\n\nAny reason to not use Overseerr? Even if you don't let users in, it's useful for the Plex Watchlist sync alone.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "DudeLoveBaby",
+                                    "body": "Caught me before my edit LOL I figured it was a bit off topic, but maybe not...\n\nI kind of just already have a system in place. Said website includes links to a few Google Forms, one of which being a content request form, that feed into spreadsheets that I can check off manually. I have a really wide variety of content, not just stuff I can get thru how I setup the .arrs, so Overseerr (which I'm pretty sure integrates with the other arrs) just doesn't fit my use case",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "corgi-licious",
+            "body": "Third party items:\n\nOverseerr/Jellyseer for other users to request content.\n\nTautulli for usage data\n\n*arr stack to manage releases and renaming files\n\nBazarr for subs\n\nKometa for collections and customization\n\nTdarr for transcoding (if you don't care too much about changing your media)",
+            "score": 76,
+            "replies": [
+                {
+                    "author": "1nchey",
+                    "body": "Agree with all this, other than bazarr. \n\nI have NO IDEA why. But I just could not get that little bugger to play ball with any of my setup. \n\nEverything else, no worries sweet as a nut. \n\nBazarr was just like, nah, sod off you! And I use literally every other arr no problem. Some may say it's bazarr.",
+                    "score": 26,
+                    "replies": [
+                        {
+                            "author": "gawwagool",
+                            "body": "i just installed it for the first time yesterday and hadnt had any issues tbh. works great with opensubtitles(dot)com",
+                            "score": 8,
+                            "replies": []
+                        },
+                        {
+                            "author": "sevinup07",
+                            "body": "Curious to hear what you've run into specifically with bazarr. I thought it was having issues but it turned out to just be some kind of issue with the UI. It acted like it wasn't finding a lot of subs and was stuck on the same tasks over and over, but it turned out it actually was completing the tasks and it took the UI several weeks to reflect it.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "Kleptos18",
+                                    "body": "My issue with Bazarr is i cna't get it to play with my NAS setup - connected through network share. \n\nI gave up",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "Silverr_Duck",
+                                            "body": "Did you configure the settings to make it talk to sonar and radar?",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "Kleptos18",
+                                                    "body": "that part works fine, but it cant' write the files to my network share.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Silverr_Duck",
+                                                            "body": "It won't do anything unless you create a language profile and set the show/movie to that profile. It's super annoying.",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Kleptos18",
+                                                                    "body": "you guys aren't understanding. \n\nBazaar has issues with writing to network drives unless you setup the connection a specific way. \n\nMy connection is not setup that way and I'm too lazy to figure it out. \n\nSo Bazaar does not work.",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "Krieg",
+                                            "body": "Bazarr talks directly to Radarr and Sonarr",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Kleptos18",
+                                                    "body": "that part works fine, but it cant' write the files to my network share.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "ptdata23",
+                            "body": "For me, it a long time to get it to connect correctly because there is an opensubtitles(dot)com and an opensubtitles(dot)org and I kept trying to login with the other sites credentials. In other words, the error was sitting in front of my keyboard the whole time.",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "frezz",
+                            "body": "I've tried bazaar a few times and it never works. I just rely on plex's auto subtitle fetcher now..works well enough for me",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "Infini-Bus",
+                            "body": "I try getting it to work every now and then, always fail.  I think the problem was that it matches on filename?  Like I could not get it to match items.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "MrLAGreen",
+                            "body": "i wasnt using it for the 1st year and then i realized i hadnt configured it.  when i ran into issues i went to discord and the folks there helped me to get it set up correct;y.  its great once its setup properly.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "RODjij",
+                    "body": "God i love Kometa. Such a powerful app. Took me hours to figure it out but it was a nice learning experience.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "soundbytegfx",
+                            "body": "Did they ever add a GUI?\n\nI set it up years ago and haven't touched it since. And I copied someone's config from here. I know it's powerful but lacking a GUI seemed like the biggest hurdle",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "ppetro08",
+                                    "body": "I remember them posting in their discord about some web gui for configuring the yaml files.\n\nFound it: https://github.com/Kometa-Team/Quickstart never used it tho",
+                                    "score": 6,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Infini-Bus",
+                                    "body": "No, I've been using ChatGPT to do those YAML files for me.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "Just-A-Slapdick",
+                                            "body": "This has been a huge help for me as a beginner. Doesn't always get it right, but usually gets to a starting point where we can dig deeper and figure it out. And I tend to try and enter the command myself instead of copy/paste in hopes of actually learning a little",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Infini-Bus",
+                                                    "body": "Yeah.  Typing helps remember for me too.  It's nice you can ask it to explain why it wrote what it wrote.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "RODjij",
+                                    "body": "I don't think so. I just had mine set up mostly for resolution, ribbon ratings, IMDB & RT scores plus some collections. Other than that I found it started to display too much overlay on the posters.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "c010rb1indusa",
+                                    "body": "Yeah for an app all about Visual presentation of posters, collections, info etc. it\u2019s incredibly ironic that it\u2019s all done with text configs\u2026,",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "anarckie",
+                            "body": "I'm still getting used to the new name - had to Google it",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Ulintlicker",
+                    "body": "For all the newbs that find tdarr too confusing unmanic is a great alternative",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "TkachukDumptruck",
+                            "body": "Or fileflows",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "i_am_fear_itself",
+                            "body": "It's an objectively better user experience that tdarr. Ombi over \"overseerr\" for the exact same reason.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Just-A-Slapdick",
+                    "body": "I see Bazarr mentioned a lot, and I'm new to this, so please forgive my ignorance. But, why do people care about subtitles so much if a video is in your native language? Genuinley curious. Is it for travel scenarios where you cant play the audio?",
+                    "score": 9,
+                    "replies": [
+                        {
+                            "author": "vexanix",
+                            "body": "A lot of movies are never remixed for home audio. So loud sounds are deafening, but you can't hear what people say when they talk. Also lets you keep your tv at a reasonable volume for certain times of day but still be able to see what was said.\n\nOr the biggest reason for me personally is that my brain is absolute shit at understanding spoken word. I'm constantly asking people 'What?\" and then just saying \"uh huh\" after asking them 3 times and still not understanding what words they said.",
+                            "score": 22,
+                            "replies": [
+                                {
+                                    "author": "Just-A-Slapdick",
+                                    "body": "These are the answers I'm looking for and it makes sense! I like seeing how others prefer their media even if it isnt my use case. So far I have seen deaf spouse, shit brain \ud83d\ude02, and different language. Also the American in me admittedly assumes everyone on Reddit is American and that is my fault.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "shr3dthegnarbrah",
+                                            "body": "Even the Americans (me) need english subtitles for an embarrassing number of UK accents.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "Just-A-Slapdick",
+                                                    "body": "Another fair point. I dont actually consume much of this media at all, I just ensure that my wife can, so I suppose I am ignorant to a lot of use-cases.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Accomplished_Ad7106",
+                                    "body": "I have a neighbor that is from El Salvador. He loves being able to enable Spanish subs when he goes home so he can watch with family.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "webghosthunter",
+                            "body": "My wife is deaf, so, subtitles.",
+                            "score": 9,
+                            "replies": [
+                                {
+                                    "author": "Just-A-Slapdick",
+                                    "body": "Ok, fair point \ud83d\ude02. And thank you for that. Im just generally curious! Im glad that there is an application that benefits you!",
+                                    "score": 4,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "MrHaxx1",
+                            "body": "I can't hear what they say over the sound of me eating chips",
+                            "score": 5,
+                            "replies": []
+                        },
+                        {
+                            "author": "CedGyselinck",
+                            "body": "I always watch movies in their original language. I speak French but in the US, they speak English, Japanese in Japan, German in Germany, and so on. So, subs please.",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "dquizzle",
+                            "body": "I used to hate watching anything with subtitles until I met my fianc\u00e9 who insists they\u2019re always on.  I\u2019m just used to them now and also I\u2019m fairly certain I have ADD that seems worse in my 30\u2019s than it was in my teens and 20\u2019s and the subtitles can help me concentrate on what\u2019s  happening.  Without the subtitles sometimes I can watch a movie for ten to fifteen minutes completely zoned out and have no recollection of any of the dialogue I just heard.",
+                            "score": 5,
+                            "replies": []
+                        },
+                        {
+                            "author": "Krieg",
+                            "body": "English is not my native language, and my wife has a different native language, and my kids have another different native language.   We are all fluent in English, and due to my work, I am a master of all sort accents and specially understanding broken English, but there is always a word or expression that I don't get and It is good to have the subtitles available to check it.\n\nThe whole family grew up reading subtitles all the time, so we, like many people from places where movies were not dubbed, have the ability to read the subtitles while checking the whole screen at the same time.",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "Jetlife_bjj",
+                            "body": "It's to grab forced subtitles. Works great!",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "TrueBelievingMoron",
+                            "body": "I\u2019m 55 :)",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "DangerProned",
+                    "body": "What does tdarr do?",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "corgi-licious",
+                            "body": "Transcodes your files. Usually used to reduce the file sizes of your media. Some don't like to do this because it will affect the quality a little. I usually dont notice. Shaved 14tb off my drives doing this.",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "ptdata23",
+                                    "body": "Yep, it's the trade off: Do you want your files about half the size (or smaller) than they were but there might be some blurry scenes (mostly around quick cutting action scenes). If you use the right quality settings, you will hardly notice it but it takes some tweaking.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "c010rb1indusa",
+                            "body": "Simple explanation is it\u2019s an automated media encoder, but really it allows you to setup custom workflows based on rules to do all sorts of custom things like you can remux and mkv to mp4 but make sure you have all the audio tracks exactly how you want them ie aac and ac3 only. Very powerful, but not the easiest to setup.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Even-Witness-209",
+                    "body": "I prefer Omni over overseer",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "vexanix",
+                    "body": "To add on to this for Bazaar. It supports whisper-asr-webservice for AI generated subs, but only if you've got a good gpu in your server or desktop pc. I ran it on my desktop pc because I was missing 400 or so subtitles. The translations it did weren't 100% perfect, but were close enough, it seems to have trouble with euphemisms.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "quantumraiders",
+                    "body": "have not been able to get overseerr to work for the life of me, it just never seems to pick up other plex users watchlists.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "MetsToWS",
+                            "body": "If you can get Plex and the other arr to work you can get overseer going. Get help in their discord.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "JackBauersGhost",
+                    "body": "I can\u2019t for my life get Overseerr or Readarr to work in docker on my synology.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Krieg",
+                            "body": "Readarr is almost dead, it will never work in its current state.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "MetsToWS",
+            "body": "YTDLP. I enjoy watching my YouTube podcasts commercial free. And with sponsor block, remove in the video sponsors",
+            "score": 26,
+            "replies": [
+                {
+                    "author": "MacStainless",
+                    "body": "This is my favorite way to watch YouTube.\u00a0",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "TkachukDumptruck",
+                    "body": "Is this something specific for plex or are you just generally talking using ytdlp on your server?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "MetsToWS",
+                            "body": "I'm running ytdlp on my server, but the net result is a new folder on Plex with all of the youtube videos/sports highlights/podcasts that I would typically watch on YouTube.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "TkachukDumptruck",
+                                    "body": "Ah makes sense. I use metube in a similar manner.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "DudeLoveBaby",
+                    "body": "Podcasts are one of the only things keeping me on Spotify, and like all of the podcasts I listen to also upload onto YouTube. How do you have it configured to grab new episodes from channels you watch?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "MetsToWS",
+                            "body": "I have a batch file that runs on Windows every three hours. The batch file monitors each channel that I tell it, and if it sees something new, it will download it. You are obviously need to adjust the search criteria that it uses within the channel or else you will be downloading everything. \n\nFor instance, I search for MLB Highlights of the Mets and Yankees, including playoffs. \n\necho Downloading Mets...\nc:\\ytdl\\yt-dlp -f \"bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]\" --merge-output-format mp4 --write-description --write-subs --write-auto-subs --sub-format srt --sub-langs en --convert-subs srt --write-all-thumbnails --embed-thumbnail --embed-metadata --match-title \"(Mets|Yankees|NLCS|NLDS|ALCS|ALDS|World Series)\" -ciw --playlist-end 30 --concurrent-fragments 4 --download-archive \"%archive_file%\" -o \"%download_dir%\\%%(uploader)s\\%%(title)s.%%(ext)s\" --sponsorblock-mark all,-preview --sponsorblock-remove sponsor,selfpromo -v https://www.youtube.com/playlist?list=PLL-lmlkrmJamr_QNPS_M8yWiDako963UM >> \"%log_file%\" 2>&1\n\n\nChatGPT helped me build the script. I\u2019m sure it\u2019s not efficient or clean, but it works.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "MetsToWS",
+                            "body": "I have a batch file that runs on Windows every three hours. The batch file monitors each channel that I tell it, and if it sees something new, it will download it. You are obviously need to adjust the search criteria that it uses within the channel or else you will be downloading everything. \n\nFor instance, I search for MLB Highlights of the Mets and Yankees, including playoffs. \n\necho Downloading Mets...\nc:\\ytdl\\yt-dlp -f \"bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]\" --merge-output-format mp4 --write-description --write-subs --write-auto-subs --sub-format srt --sub-langs en --convert-subs srt --write-all-thumbnails --embed-thumbnail --embed-metadata --match-title \"(Mets|Yankees|NLCS|NLDS|ALCS|ALDS|World Series)\" -ciw --playlist-end 30 --concurrent-fragments 4 --download-archive \"%archive_file%\" -o \"%download_dir%\\%%(uploader)s\\%%(title)s.%%(ext)s\" --sponsorblock-mark all,-preview --sponsorblock-remove sponsor,selfpromo -v https://www.youtube.com/playlist?list=PLL-lmlkrmJamr_QNPS_M8yWiDako963UM >> \"%log_file%\" 2>&1\n\n\nChatGPT helped me build the script. I\u2019m sure it\u2019s not efficient or clean, but it works.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "3pears",
+            "body": "QuasiTV.\nEasy just works.  For Google TV.  Makes a grid of \"live\" channels from Plex libraries and collections. Automatic channels are great, but easy to add your own. Wife loves it, she is a channel surfer.",
+            "score": 24,
+            "replies": [
+                {
+                    "author": "sirchewi3",
+                    "body": "This only works for accounts that are part of your Plex home right? Or on the local network? I would definitely do something like this if it were available to my remote users as well",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "chargebeam",
+                            "body": "> I would definitely do something like this if it were available to my remote users as well\n\nSame.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Bgrngod",
+            "body": "Changing the video preview thumbnail interval from the default of 2 seconds to 10 is a HUGE metadata space saver and you barely lose anything for it.",
+            "score": 22,
+            "replies": [
+                {
+                    "author": "aerger",
+                    "body": "I turned VPTs off entirely and haven't missed 'em. I do understand some people like and want them, tho.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "DudeLoveBaby",
+                            "body": "Same lol. There's precisely one thing I watch where I sometimes wish I had them (pro wrestling, when you're fastforwarding large swaths to see a specific person's bit) but they're so not worth the disc space imo",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Sourbreaker",
+                    "body": "I didn't know this was possible.  I'll see what I can find online how to do this.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "NotBashB",
+                    "body": "I\u2019ll have to check that out",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "blueoceanvn",
+                    "body": "How do you do it?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Bgrngod",
+                            "body": "Change the setting from 2 to 10 in the preferences.xml for the time duration the server generates them.\n\n\nGenerateBIFFrameInterval=10\n\n\nIf it's not already in the file, add it. Then restart Plex.\n\n\nYou need to regenerate everything after changing it. Delete all thumbnails and scan/analyze should get it started.",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "JDLKMR",
+            "body": "I get posters from TPDB if good matching ones aren't already provided. I like using Bulk Rename Utility for naming files. I refer to TMDB/TVDB to make sure my episodes are all sorted right.",
+            "score": 14,
+            "replies": [
+                {
+                    "author": "DrewbaccaWins",
+                    "body": "+1 for Bulk Rename Utility",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "Widowshypers",
+                    "body": "Sonarr will auto rename all your content for you if your into that sorta thing",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "TheDaveWSC",
+                    "body": "Bulk Rename Utility is an absolute lifesaver. I'm very picky about how things are named, and it makes it so easy to manage things.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "CallMeGooglyBear",
+                    "body": "What advantage of Bulk Rename Utility over Sonarr/Radarr. I use them to name everything properly",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "JDLKMR",
+                            "body": "This will probably be an unpopular opinion but I prefer more manual work over using arr apps. It's half the joy for me",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "pr1mee1gh7",
+                    "body": "PowerToys PowerRename is also a life saver \ud83d\udedf",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "PocketNicks",
+            "body": "Set up access to your server without an internet connection, while you still have an internet connection. For some weird reason, if you lose internet at home but still have access to your server locally on your WiFi, you can't access your library unless you setup access before hand. Such a bizarre default setting. One day you'll thank me for telling you about this. It really bummed me out when it happened to me, lol.",
+            "score": 13,
+            "replies": []
+        },
+        {
+            "author": "nashbar50",
+            "body": "I really love the watchlist / rss feature.  I use the discovery section, find the show/movie I\u2019m looking for and add it to my watchlist and it tells the *Arr\u2019s to grab it!  Works great and easy to implement with *Arr\u2019s.",
+            "score": 12,
+            "replies": [
+                {
+                    "author": "tinybilbo",
+                    "body": "I love this as well...\n\nAlso if I see a trailer on YouTube, I jump into Plex, goto to search and then use voice input to find the movie which I then add to my watch list (which in turn adds into radarr/sonarr).",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "Redditusero4334950",
+                            "body": "How do you have Plex add to Sonarr and Radarr?",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "gawwagool",
+                                    "body": "you can add your plex watchlist under import lists",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Redditusero4334950",
+                                            "body": "Cool thanks!",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "NotBashB",
+                    "body": "ive seen a lot of people recommending it, ill have to see how I can get it to work",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "csninji",
+                    "body": "Is this a Plex Pass only feature?",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "2BfromNieRAutomata",
+                    "body": "install Ombi and it will check your watchlist every 15 mins instead of the *arrs 6 hours. \n\nOften times I would have people over and they say \"lets watch *movie i dont have*\" so I would add it to my watch list put on an episode of a sitcom and before the end of the episode Ombi would have added it to my server via the *arrs. Very elegant.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "BoldUnbold",
+            "body": "Two things I've not seen listed so far:\n\n1. Plex Auto Languages - automated per show, per user language settings. A user changes the audio and/or subtitle settings on one episode of a show, it changes the setting for all episodes of that show for that user. How Plex should handle it but doesn't!\n \n2. If you use Plex for audiobooks, the Audnexus agent. Installing it is a bit of a pain as it is in the deprecated Plugins feature, but it still works. Grabs audiobook metadata from Audible.",
+            "score": 11,
+            "replies": []
+        },
+        {
+            "author": "PMMeUrHopesNDreams",
+            "body": "Collections! \n\nI don't know if this is \"little known\", but I went a couple years before using it. Group movies together into collections, and by default it sorts them by release date. Nice for series where the titles don't alphabetically sort in the series order. I also like making collections for directors or \"Christmas movies\" or \"Zombie movies\"\n\nI don't really watch movies, I just like curating them...",
+            "score": 11,
+            "replies": [
+                {
+                    "author": "sirchewi3",
+                    "body": "I think collections are a must have if you have more than a couple hundred movies. It saves so much time to make certain groupings of movies than to have to scroll your collection. I have some franchise collections but I also have a documentary collection, musicals, a watch list collection, movie night collection, all-time favorites collection, etc",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "BBQQA",
+                    "body": "I love the collections feature. I use it to pick a movie when I don' know what to watch. I can narrow it down to a category, then use the shuffle button to randomly select one.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "ascagnel____",
+                    "body": "I put Christmas movies into their own library; unpinning it from the sidebar also hides it from suggestions for the other 11 months of the year.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Legitimate_Panda5142",
+            "body": "Kometa for custom collections and poster database for posters especially reconfigured criterion posters",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "TCKline01",
+                    "body": "I really wish I could get Kometa to behave. I'm terrible with the yml syntax. I'll jump over there one of these days and get some pointers.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "DangerProned",
+                            "body": "Hopefully they get webui soon",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "GabrielXS",
+                                    "body": "Here you go [https://github.com/Kometa-Team/Quickstart](https://github.com/Kometa-Team/Quickstart)",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "TCKline01",
+                                            "body": "That what I used to install and get it running. I can get it to work with some presets, I just can't make it work with my own specifics. My movies file never pulls the right movies",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "GabrielXS",
+                                                    "body": "Ah my bad, I've only just used for the first time the other day and worked as intended.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "TCKline01",
+                                                            "body": "Did you use just the default settings from the setup guide or did you modify them to what you were looking for? I got the defaults to work. IMDB top 250 and such, but when I try to search for something like  All missing movies starring one actor, it doesn't find the right movies. Now, it did find me a shit ton of movies, just not the ones I was hoping. I will learn it eventually, just wish I had more time to spend on it...or that I was a little smarter",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "MacStainless",
+                            "body": "Use a linter for yml to easily catch syntax errors. Helps a ton.\u00a0",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "TCKline01",
+                                    "body": "I'll look into that. Thanks",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "ptdata23",
+                            "body": "Someone said it up above but chatgpt does a good job of getting a starting yaml file created and start by pointing it to a small movie library to get the overlays and settings that you like first.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "TCKline01",
+                                    "body": "I tried chatgpt without much luck. I need to revisit it and try again",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "ptdata23",
+                                            "body": "I started with a simple \"Create a kometa yaml for Movies, here's my path to the Movies folder, that add the resolution in the upper left corner of the poster\" and then just had it add items to it one or two at time. Then repeat by adding a simple TV section",
+                                            "score": 2,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "DudeLoveBaby",
+                                            "body": "ChatGPT works better if you really, brutally overexplain what you need help with.\n\n\"I run a Plex server with my own self hosted video content. I am adding Kometa, a program that automatically creates dynamic collections for Plex, grouping my movies or TV shows via parameters that are set with a custom YAML file. I need help creating a Kometa YAML file for my movie library. I want the collection to include...\" ect.\n\nA lot of it feels super redundant but I seem to always get way better results when I give it as many keywords and search terms it can use as possible. Also, turn on the web search feature if it's on the free plan (I have a paid plan thru my work so idk if it's on the free version yet) as it's extremely powerful and cites its sources, allowing you to go directly to the website it's referencing if whatever the AI is telling you isn't working.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "TheGodOfKhaos",
+                            "body": "Omfg, same. It's so mind bending.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "TCKline01",
+                                    "body": "I know. I get the general idea. I just can't quite tweek it how I want...yet",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "TheGodOfKhaos",
+                                            "body": "I'm basically in the same boat. I've shelved the project for now, and went on to work on other things. But, I plan to really study everything one day.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Minimum_Airline3657",
+            "body": "Only let people have access to it that you are close enough to sit on the phone trying settings.  Them Transcoding annoys the hell out of you.",
+            "score": 25,
+            "replies": [
+                {
+                    "author": "spleencheesemonkey",
+                    "body": "I don\u2019t get the obsession with avoiding transcoding. It allows me to avoid sitting on the phone tinkering with settings. It just works for the people who use my server, whatever client they\u2019re using.",
+                    "score": 30,
+                    "replies": [
+                        {
+                            "author": "JDLKMR",
+                            "body": "There are two types of people in this sub. The ones who say never to transcode, ever. And the ones who say it's fine.\n\nJust use what works for you, especially if your system can handle it. Transcoding exists as a feature for a reason.",
+                            "score": 19,
+                            "replies": [
+                                {
+                                    "author": "NotBashB",
+                                    "body": "Yea i always wondered why not transcode. Personally I only have a few close friends on my plex and told them ATM the server isnt very powerful so dont expect much and theyve been cool with the lag.\n\nPlan on upgrading soon though so looking forward to that",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "imJGott",
+                                            "body": "My friends don\u2019t even care what the quality is like, in terms of SD or HD. Just as long as they can see it and it\u2019s not buffering. From this, I believe, most viewers are the same and don\u2019t really care.",
+                                            "score": 9,
+                                            "replies": [
+                                                {
+                                                    "author": "NotBashB",
+                                                    "body": "I personally do care about quality, but I know I have friends that don't see the difference (one of them keeps telling me how 1080p and 4k look the same to them lol).\n\nBut I can see how for the \"average\" person, not buffering would be better over high quality.",
+                                                    "score": 2,
+                                                    "replies": [
+                                                        {
+                                                            "author": "imJGott",
+                                                            "body": "I\u2019m like you, I do care as well! I have a standard of quality on my server. It\u2019s either 1080 (depending on what it is and how old it is) or 4k.",
+                                                            "score": 2,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "NotBashB",
+                                                                    "body": "I always go for 4K, REMUX is *only* if it\u2019s a movie I really want to watch at its best quality. \n\nI\u2019ll \u201csettle\u201d for 1080p for old stuff lol but if it\u2019s recent enough I\u2019ll wait for 4k. \n\n\nDont think I have a single 720p file outside of really really old cartoon shows",
+                                                                    "score": 1,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "imJGott",
+                                                                            "body": "I have a few tv shows and movies that are 720 that are older. Some times I just have to settle for the classic being at what it is haha.",
+                                                                            "score": 3,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "Nolzi",
+                                            "body": "Subtitle burnin cannot use gpu, so it stresses cpu",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "CactusBoyScout",
+                                                    "body": "They fixed that not too long ago with an update. Subtitle burn can happen via GPU now. Biggest quality of life improvement for my server in a while. Can\u2019t count how many times a Roku user would turn on PGS subs and my poor little server CPU would struggle.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Nolzi",
+                                                            "body": "Oh thats good to know, thanks",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "uberbewb",
+                                            "body": "I'd guess this is largely because before the hevc release it was meh quality",
+                                            "score": 0,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "ligerzeronz",
+                            "body": "i have 60 odd users, and half of them transcode. I got a p2000 just for that reason, and really don't find it a hassle. Don't get the hate for transcoding too",
+                            "score": 4,
+                            "replies": []
+                        },
+                        {
+                            "author": "JosephCedar",
+                            "body": "Right? My upload speed is shit and my server is plenty powerful enough to transcode more streams than I'd ever have at one time. If the people watching my stuff don't care enough about the image quality to check and change their own settings, then what does it matter?",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "khavii",
+                            "body": "Agreed, I'll have 11 users transcoding and 2 direct play with no issues, not sure what the problem is honestly.",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "corgi-licious",
+                            "body": "I slapped a GTX 1080 into my plex server. I don't think I'll have to ever worry about it.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "colphoenix",
+                                    "body": "I have a 3060",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "waddlesticks",
+                            "body": "It's most likely because the hardware they're using isn't powerful enough and they want quicksync to handle everything. Or they've over provisioned users for their hardware or just haven't used compatible file types for the devices that would be used.\n\nBut there isn't anything wrong with transcoding in the end, you can barely tell if there has been transcoding to an image unless it's really going at it.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "4O4UsernameN0tFound",
+                            "body": "Power consumption, Wear and tear.",
+                            "score": -1,
+                            "replies": [
+                                {
+                                    "author": "ligerzeronz",
+                                    "body": "wear and tear? Dump the temp files on a ram disk and you're set. \n\nas for GPU's, they are meant to take the brunt of it. Transcoding isn't really a big burden on them!",
+                                    "score": 4,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "racerx255",
+                    "body": "Disable video transcoding on the server if your hardware won't support it. My Intel 630 can transcode 2 4k hdr streams and not buffer. It'll only do 1 if the bitrate is pretty high.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Shavit_y",
+            "body": "Back up your Plex Media Server metadata folder.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "GabrielXS",
+            "body": "I find TinyMediaManager is brilliant for matching film and tv shows and pulling in metadata. I know Sonarr and Radarr do it, but Radar won't see files if they aren't into their own folder, TMM will scan an entire dirctory, match against TMDB or IMDB, gives you multiple optons for what something can be and once you select it, it'll create a folder, move the files, pull in posters/subs and rename everything. TMM's ui and workflow is a lot nicer than either too so it's good for blasting through entire root folders prior to importing.",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "bananapizzaface",
+                    "body": "I run an all Spanish server and TMM is the only program that will work for my setup.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "thebunnybullet",
+            "body": "I have a program I modified called [Edition Manager](https://github.com/Entree3k/edition-manager), shoutout to [x1ao4](https://github.com/x1ao4) for the original, that lets you add extra details to the 'EditionTitle' of movies. It has a lot it can do, but one of my main uses for it is displaying the language of foreign films, but the audio track needs to be named according to the language. For my movies that don't have a named audio track, I rely on another great tool, [mkvtoolnix](https://mkvtoolnix.download/).",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "Ok-Setting-4774",
+                    "body": "I\u2019ve just been through my library fixing all my MP4\u2019s which have \u2018Unknown\u2019 displayed for their audio track in Plex. Took a while as ffmpeg had to rewrite it. Not sure if there would have been a quicker way. For any MKVs, I use mkvtoolnix too.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "thebunnybullet",
+                            "body": "You can use mkvtoolnix with MP4 and it will convert them to MKVs will definitely be faster than ffmpeg",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Ok-Setting-4774",
+                                    "body": "As I was fixing thousands of mp4s, it was really quicker and easier to just script it and let it run. Also, mkvs have issues being imported into iOS photo library for editing. MP4 format is more compatible in general I find so was happier to leave in original format.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "bananapizzaface",
+                            "body": "My server is Spanish language only, so I have this script that checks for unknowns in the directory and changes them to Spanish. If you're primarily working with one language for your unknowns, modifying the language output is easy enough and will help to automate a large collection.\n\n    import os\n    import subprocess\n    \n    # Prompt the user for the directory to scan\n    directory = input(\"Enter the directory to scan: \").strip()\n    \n    # Function to check if the file has a single unknown audio track\n    def has_single_unknown_audio(file_path):\n        try:\n            # Run ffprobe to get the number of audio streams and their languages\n            ffprobe_command = [\n                \"ffprobe\",\n                \"-v\", \"error\",\n                \"-select_streams\", \"a\",\n                \"-show_entries\", \"stream=index:tags=language\",\n                \"-of\", \"csv=p=0\",\n                file_path\n            ]\n            result = subprocess.check_output(ffprobe_command, stderr=subprocess.DEVNULL).decode().strip()\n            \n            # Get list of audio stream languages\n            audio_tracks = result.split(\"\\n\")\n    \n            if len(audio_tracks) == 1:  # Only one audio track exists\n                language = audio_tracks[0].split(\",\")[-1].strip() if \",\" in audio_tracks[0] else audio_tracks[0].strip()\n                if language not in [\"es\", \"spa\"]:  # If it's not Spanish, consider it unknown\n                    return True\n    \n            return False\n        except subprocess.CalledProcessError:\n            print(f\"Error checking audio language for: {file_path}\")\n            return False\n    \n    # Function to update audio language tag to Spanish\n    def update_audio_language_to_spanish(video_path):\n        temp_file = video_path + \".tmp.mkv\"\n    \n        # FFmpeg command to modify metadata\n        ffmpeg_command = [\n            \"ffmpeg\",\n            \"-i\", video_path,               # Input video file\n            \"-map\", \"0:v:0\",                # Keep original video\n            \"-map\", \"0:a:0\",                # Keep original audio\n            \"-c:v\", \"copy\",                 # Copy video stream\n            \"-c:a\", \"copy\",                 # Copy audio stream\n            \"-metadata:s:a:0\", \"language=es\",  # Change audio language to Spanish\n            \"-y\",                            # Overwrite if necessary\n            temp_file\n        ]\n    \n        try:\n            subprocess.run(ffmpeg_command, check=True)\n            os.replace(temp_file, video_path)\n            print(f\"Updated language tag to Spanish for: {video_path}\")\n        except subprocess.CalledProcessError:\n            print(f\"Failed to update language tag for: {video_path}\")\n            if os.path.exists(temp_file):\n                os.remove(temp_file)  # Clean up temp file if the process failed\n    \n    # Scan the directory\n    for root, _, files in os.walk(directory):\n        for file in files:\n            if file.endswith(('.mkv', '.mp4')):\n                video_path = os.path.join(root, file)\n    \n                if has_single_unknown_audio(video_path):\n                    print(f\"Single unknown audio track found in: {video_path}\")\n                    update_audio_language_to_spanish(video_path)\n                else:\n                    print(f\"No change needed for: {video_path}\")\n    \nAlso for MKVs, I love using MKV Optimizer because you can have presets and let that run on a directory too.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "bananapizzaface",
+                    "body": "> I have a program I modified called Edition Manager\n\nThank you so much for this! As someone who runs a Spanish-only server and loves to easily see what countries my movies are from, this has helped so much. I have it set up with TMM where I add country data as a genre and make smart categories based off that, but Edition Manager really helps to easily see [the countries when browsing the catalog](https://i.imgur.com/k3f3Y3h.jpeg). Absolutely genius, thank you.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "polytriks",
+            "body": "If you're asking about pure Plex functionality, turning on push notifications is something I didn't do for the longest time, but it's really nice to be notified when a new movie/show gets added, especially if you have an *arr stack, Overseerr with multiple users adding content, etc.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "N8ThaGr8",
+            "body": "Drivepool, a windows program that lets you \"pool\" together multiple external HDDs so windows/plex sees them as one drive. So even if you have like 5 8TB external drives just for your movies library, drivepool will combine them all into one giant 40TB drive and automatically balance everything out. No more having to figure out which one of your drives a specific file is on.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "bananapizzaface",
+                    "body": "Drivepool is a godsend.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "mikeyvegas17",
+                    "body": "Love this app!!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ligerzeronz",
+            "body": "Third Party Programs I use on my unraid plex server: \n\n- Overseerr (Requests)\n- Radarr (2 instances, one for 4k, one for normal)\n- Sonarr\n- Bazarr\n- ErsatzTV\n- Lidarr\n- MusicBrainz Picard\n- Tautulli\n- Tdarr (Pro version, 3 nodes at home)\n- Wizarr\n\n- Plexamp on my phone",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "ptdata23",
+                    "body": "I have and use most of these but how you use Picard on your setup?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "ligerzeronz",
+                            "body": "It runs in docker with the relevant paths shared to it. Runs the same as when I used it on windows.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "DeanThaSmurf464",
+                    "body": "What you using ersatzTV for episodes or have you got it as an 1PTV",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "CallMeGooglyBear",
+                    "body": "> Wizarr\n\nI don't see what this helps with? Unless it sends out guides on how to configure a user's interface, which I don't see yet, I'm not sure the advantage",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "ligerzeronz",
+                            "body": "Im hardly in the admin menu of Plex. So I can just give them an invite (which is set to expire in 3 days) and just email it to them. It then shows them how to get plex, and get them started with it. I usually don't hear from the user again unless they don't click on the invite link and it expires. \n\nmakes it easier for me to handle my users. and just for clarity, my server is not pay-to-invite, its free and anyone can join. Being in NZ, it just helps us down here.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Tigger1242",
+            "body": "rename my TV series, helps you rename whole seasons of a tv show to a better format",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Khatib",
+                    "body": "I just use Sonarr to do that.",
+                    "score": 12,
+                    "replies": [
+                        {
+                            "author": "Affectionate-Base868",
+                            "body": "Happy cake day. Sonarr can do that? Also, what's *arr or arr stack?",
+                            "score": 0,
+                            "replies": [
+                                {
+                                    "author": "5yleop1m",
+                                    "body": "Sonarr was the original program for renaming and organizing TV shows, then using the same codebase another program was created called Radarr for movies. Since then, a bunch of similar tools have sprung up using the sonarr code base or ideas as the basis. That's the *arr stack. https://wiki.servarr.com/",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "Khatib",
+                                            "body": "Sonarr and Radarr work great -- readarr I have a lot of issues with the metadata, so I rely mostly on calibre instead, but it's still a little helpful.\n\nThe whole system is worth getting into if you're not using.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "Even-Witness-209",
+                                                    "body": "Check out calibre web automated. A lot easier setup than calibre. Or ll. And works better that readarr",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Khatib",
+                                                            "body": "I actually uninstalled calibre web and just use an install of basic calibre to import ebooks to my library, then my library is my audiobookshelf library folder. So I just get a book file, import it to calibre, convert to epub if necessary, update metadata and covers in calibre, then go manually scan the library in audiobookshelf when calibre is all done with it so that it doesn't risk corrupting the calibre database.\n\nI try to use readarr for audiobooks some, but again, it's not the best at metadata for those.\n\nI read a lot, but even then, I'm only in there a couple times a week at most, and often only once every couple weeks, so I don't mind it not being all streamlined.",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Even-Witness-209",
+                                                                    "body": "Calibre web automated is a really easy setup and just a lot cleaner version of calibre. I recommend giving it a spin. But if you got a system that works and isn\u2019t broken, I get not wanting to switch up. I had lazy librarian and calibre setup. Still have lazy librarian but mainly use open books to get books via irc and use calibre web automated to convert, organize, and send the books.",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Bananaman9020",
+            "body": "That it doesn't really support Australia's internet speeds.  I struggled to watch an SD show through the service.  Can't really blame them not many services do.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "BoldUnbold",
+                    "body": "Works fine for me. You sure you weren't going through Relay?",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Bananaman9020",
+                            "body": "Thanks will check",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "colphoenix",
+            "body": "Subtitles in yellow font and no background",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "--Lemmiwinks--",
+                    "body": "Is there a way to change subtitle color on a Apple tv 4k?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Appropriate-Pea-1084",
+            "body": "Set up a combo of Overseerr and Requestrr! Overseerr sets up a request pipeline so you can easily add TV shows or Movies from one place (hooks in to Sonarr and Radarr). Requestrr is a Discord Bot that interfaces with Overseerr, and is incredibly user friendly once it's set up. \n\n  \nAfter it's set up you just add your users to your Discord server, and assign the bot to listen to specific (or all) chats. They can then type '/request' and follow the pipeline that's set up to request a movie or TV show.  They'll then get a DM from the bot letting them know when the download is finished. If you're interested I can screen record a video so you could see how it works.\n\n  \nThe way I set mine up (attaching Discord ID's to each user in Overseerr), Overseerr then logs who requested it. You can also restrict the requesting of 4k video, and set requesting limits, or require approval by you before downloading anything.\n\n  \nI set this up so users could request their own media without my involvement, and without having to open up a port for overseerr for outside connections. If you already have a Sonarr, Radarr, Prowlarr, SABnzbd pipeline set up then it's only a couple more steps!",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "TkachukDumptruck",
+                    "body": "Wish there was something like this for signal, because I'm not teaching my old mother how discord works.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Appropriate-Pea-1084",
+                            "body": "For that use case, you could just use Overseerr. Assuming your mother has a Plex login, you can import that login to Overseerr, and you can turn on a setting that allows Overseerr to monitor her watch list in Plex. \n\n  \nThen, when she wants to watch something she can just search it on Plex, add it to her watch list, and Overseerr will see that and trigger whatever pipeline you have set up. I think if she has notifications turned on from Plex, then it will notify her when it's been added?\n\n  \nI haven't messed around with that feature very much so I can't speak to its limitations, but it might be worth trying out.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Spboelslund",
+            "body": "Chronolist.com for great playlists for Arrowverse, Doctor Who (2005 and forward), and others. \n\nIf you're sailing the seas... Radarr, sonarr, and overlookerr for a whole lot of automation possibilities.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "DudeLoveBaby",
+            "body": "Once I found Tautulli's mobile app and found out that I could send push notifications to my phone via it, my troubleshooting got a lot easier. Now I get told if someone's experiencing a lot of buffering, transcoding, ect. which has really nipped in the bud the folks that experience issues and then don't tell me about it in order to not be a bother or whatever.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "1Large2Medium3Small",
+            "body": "Cloudflare Tunnels or Warp. Stupid Plex Relay\u2026",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "one80oneday",
+            "body": "I love Plex but my storage is a freaking mess with files and folders everywhere \ud83e\udd26 Sonarr was making season and episode folders but stopped and I'm not sure how to fix it now. I've been manually trying to fix it but have 18tb to go through. I've tried reinstalling but it's still not working. Wish there was a file manager that would do it for me and looked like Plex so when I travel I can just drag and drop the posters into the portable drive in case I don't have Internet.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "CallMeGooglyBear",
+                    "body": "There are tools to do it, but Sonarr/Radarr are literally the best for it. No matter how big the mess, it can clean it up. You may have downtime while it sorts stuff, but it works.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "one80oneday",
+                            "body": "Alrighty I'll keep trying, thanks!",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "bui1t",
+                                    "body": "TinyMediaManager works fantastic at organizing/renaming everything.  As long as you can at least sort all the files in separate Movies and TV Show folders, it will take care of the rest.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "one80oneday",
+                                            "body": "I did try that last year but just the free version before I knew how bad it was getting. I'm moving my media to a new server so I'd like to clean it up before then. I also used filebot which helps with episodes. I just need a setup that doesn't get this bad again lol. Thanks!",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "bui1t",
+                                                    "body": "Free version is perfectly capable tbh, thats what I use and I have a massive library.  Just setup your movie folders under Settings > Movies > Data sources, and do the same with TV Shows.  Then scan both folders, select everything and do a search & scrape, then run the rename & cleanup.  When doing the scrape, you can either force a best match or confirm the scrapes manually which is what I do personally, depending on how bad the files are named.  \n\nIf you want content automatically organized for future stuff, you can look into setting up Radarr/Sonarr for grabbing and organizing. But for existing files, I always use TMM.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "autobulb",
+            "body": "Organize less, enjoy your content more.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "CheeseheadDave",
+            "body": "I've been using a certain app for over a decade and only recently looked into what the \"RSS\" tab was there for. An absolute game changer for someone who watches weekly shows.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "cmivxx",
+                    "body": "Say what now?  You have me super intrigued, but have no idea what app has the RSS button.  Help a guy out?",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Romek_himself",
+            "body": "this website https://chronolists.com/\n\neasy creating all important chronological playlists without installing any of this weird docker app voodoo",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "NotBashB",
+                    "body": "How does it work?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Romek_himself",
+                            "body": "just login, click the list you want and it checks what you have on the server, than it creats a playlist in chronological order",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "NotBashB",
+                                    "body": "Is there a way to do with without logging in? I\u2019m always a bit cautious with logging in to 3rd party sites with important accounts lol",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "m0rfiend",
+                                            "body": "if that is a concern, then use a solid vpn while setting up email account and when setting up an account on 3rd party site. afterwards, never visiting either of those two locations without using a vpn.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "f0rgot",
+            "body": "Don\u2019t transcode to your USB thumb drive. \ud83d\udc4d",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Vintage_Karaoke_Nerd",
+            "body": "https://theposterdb.com/ is my go-to for posters. Lots of good custom ones and consistent matched sets for things like Disney animated, James Bond, MCU, etc.\n\nYou do need to create an account (it's free) and you'll need to log in each time you visit, but trust me, you're gonna love it!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "lunchjournals",
+            "body": "Plex + MP3Tag + Prologue app (on iOS) makes an amazing audiobook experience. Over the past 5-8 years, I've probably used Plex more audiobooks than video. \n\nMaking sure everything is tagged properly (especially for multi-book series) is key and learning the mass editing features of MP3tag makes it super easy.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Tangbuster",
+            "body": "I personally feel like the single biggest QoL upgrade anybody can make is to get a streaming stick/box and one that newcomers appear to neglect. This could be because getting a powerful server is more 'sexy' or they actually want to use their TV's Plex app (lots of reasons - simple setup, just one remote, WAF etc). \n\nI like to think of there being several parts to the Plex environment: the server, the client and your network environment. People tend to concentrate on just one, the server and I do think that issues because they neglect the other two parts. \n\nSimple reason for getting a good client - ideally you want or should aim to be Direct Playing on your local network. A good client helps achieve this. It also means you don't necessarily need a powerful server. For years, I used Plex locally only, with a Synology (that wasn't capable of any kind of decent transcoding at all) and an Nvidia Shield. It played 99% of everything via Direct Play, with the 1% problematic files being ASS subs back in those days.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Nate8727",
+            "body": "Audiobookshelf for Podcast fetching, Plex as server.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "MetsToWS",
+                    "body": "Any advantages to this? Does it remove the sponsors?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Nate8727",
+                            "body": "It\u2019s free and it works great.  I also use it to manage audiobooks.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "CoAX",
+            "body": "Any tips for downloading shows and movies for offline mode? Whenever I\u2019ve tried it would always take a thousand years and/or not work at all. Or is sync to offline a lost cause?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "QuadTechy88",
+            "body": "Switching off plex and moving to Jellyfin was my favorite feature.  Now my server isn\u2019t phoning home to it\u2019s corporate overlords anymore",
+            "score": -33,
+            "replies": [
+                {
+                    "author": "murphy052589",
+                    "body": "I don't understand commenting this on the _plex_ subreddit",
+                    "score": 10,
+                    "replies": [
+                        {
+                            "author": "tulipunaneradiaator",
+                            "body": "I on the other hand am happy he commented. I hadn't even heard of Jellyfin. But thanks to him I have.\n\nWth is this obsession in \"defending\" a random company by bashing a guy who shares useful info on internet. Kids these days...\n\nAnyway, thank you u/QuadTechy88 !",
+                            "score": -3,
+                            "replies": []
+                        },
+                        {
+                            "author": "QuadTechy88",
+                            "body": "So maybe it will bring awareness to a Free and open source platform that performs just as good as plex, and when you want to download something local to watch on a plane it actually works!",
+                            "score": -7,
+                            "replies": [
+                                {
+                                    "author": "TheDaveWSC",
+                                    "body": "Downloading to watch locally works fine for me on Plex. Head on back to your own sub.",
+                                    "score": 6,
+                                    "replies": [
+                                        {
+                                            "author": "QuadTechy88",
+                                            "body": "It didn\u2019t work properly on iPhone for the longest time.  Maybe it\u2019s fixed now but I was a plex user for 8 years and it never properly worked",
+                                            "score": 0,
+                                            "replies": [
+                                                {
+                                                    "author": "skiprecon777",
+                                                    "body": "Can't speak on iPhone but I never had a problem on my android phones/tablets \ud83e\udd37\u200d\u2642\ufe0f",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Dirty_Taint_Tickler",
+                                    "body": "Bro get out of here with your Temu Plex, jellyfin UI is blander than a boiled chicken breast.",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "QuadTechy88",
+                                            "body": "lol, you do know you can customize the Jellyfin UI essentially how every you like.  There are a bunch of community skins that you can use.  UI aside functionality is on par with plex and there won\u2019t be any concern that plex decides it no longer wants to host user brought content anymore, or alert the authorities on how you acquired that content.\n\nThose concerns and them moving more features into plex pass is what drove me to Jellyfin.  Never have to pay a subscription it works just as good as plex, and it\u2019s free and open source.  Which is a good thing not a bad thing.",
+                                            "score": -2,
+                                            "replies": [
+                                                {
+                                                    "author": "Son_of_Macha",
+                                                    "body": "Everyone talks about Jellyfin but never the project it was forked from Emby!",
+                                                    "score": 2,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "Dirty_Taint_Tickler",
+                                                    "body": "I paid the one off for a Plex Pass and it's been great value. You guys expect GOOD software Devs to work for free? Lol. Plex also has the money to build apps on every platform and I'm happy to support that. $150 for a lifetime pass which has seen 15 years of use so far seems like a bargain to me",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "QuadTechy88",
+                                                            "body": "When was the last time you tried Jellyfin?\n\nFree and open source software powers the world man.  Reddit itself runs on Linux, whose kernel is free and open source.  Large companies like Microsoft google and so on pay developers to work on FOSS software.  I would put money on most applications and software you use on a daily basis has components that are either FOSS or the dev forked a FOSS app and modified it.\n\nI have never once said plex was bad or that it doesn\u2019t work.  It does work, but the use case for most people in this subreddit it would be questionable if the content your hosting on your plex system was acquired in a legal manner.  With the amount of data the plex can scrape from anything hosted in its libraries it\u2019s not a stretch for them to one day stop being friendly to that, or just outright start reporting it.\n\nGive it a try, spin up Jellyfin in parallel with your plex try them out side by side.  You can complain about the UI sure, but core functionality video playback, grabbing art and data and so on all work, and work extremely well.",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "NoDadYouShutUp",
+            "body": "Using the search bar in the subreddit to find all the threads that are identical to this one before posting a new one",
+            "score": -36,
+            "replies": [
+                {
+                    "author": "TCKline01",
+                    "body": "I'm not saying that you're wrong, but something about finding 4yr old info on a dead thread kinda defeats the purpose of a community driven platform based on technology that's ever-advancing with myriad private devs consistently pumping out new, and exciting, tools and features.",
+                    "score": 13,
+                    "replies": [
+                        {
+                            "author": "NoDadYouShutUp",
+                            "body": "This exact thread is posted all the time. Its been probably 4 days, not 4 years.",
+                            "score": -17,
+                            "replies": [
+                                {
+                                    "author": "TCKline01",
+                                    "body": "Then just keep scrolling. You don't have to engage. Some of us like discussing these topics. Hence all of the other constructive, helpful comments. I really have enjoyed our chat, though.",
+                                    "score": 9,
+                                    "replies": [
+                                        {
+                                            "author": "NoDadYouShutUp",
+                                            "body": "Take your own advice. Ignore my posts. Why are you engaging with me if you don\u2019t like what I have to say? Funny how that works, eh. I\u2019m going to continue to post what I want. That includes telling people to do a modicum of precursory searching before posting.",
+                                            "score": -18,
+                                            "replies": [
+                                                {
+                                                    "author": "TCKline01",
+                                                    "body": "Because I really enjoyed our chat",
+                                                    "score": 10,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "NotBashB",
+                    "body": "I did have a quick look but a lot of the ones i found were pretty old so wanted to see if any new info came up",
+                    "score": 6,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "HiYa_Dragon",
+            "body": "My favorite trick is switching to jellyfin",
+            "score": -10,
+            "replies": []
+        },
+        {
+            "author": "ButCaptainThatsMYRum",
+            "body": "Once you admit that the Plex devs don't actually give a damn about what people want or need anymore, and are only working on features that they think will make them money no matter how inconvenient it is to users, won't be a lot happier.",
+            "score": -6,
+            "replies": []
+        }
+    ]
+}

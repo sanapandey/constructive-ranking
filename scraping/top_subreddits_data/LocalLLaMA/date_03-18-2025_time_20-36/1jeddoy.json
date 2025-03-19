@@ -1,0 +1,99 @@
+{
+    "title": "bartowski/mistralai_Mistral-Small-3.1-24B-Instruct-2503-GGUF",
+    "author": "nicklauzon",
+    "subreddit": "LocalLLaMA",
+    "rank": 4,
+    "score": 106,
+    "upvote_ratio": 0.96,
+    "num_comments (reported by reddit)": 13,
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1jeddoy/bartowskimistralai/",
+    "id": "1jeddoy",
+    "selftext": "https://huggingface.co/bartowski/mistralai_Mistral-Small-3.1-24B-Instruct-2503-GGUF\n\nThe man, the myth, the legend!",
+    "comments": [
+        {
+            "author": "Jujaga",
+            "body": "> Text only conversion, vision isn't supported yet in llama.cpp\n\nIf you're looking for vision support too we'll have to wait a bit longer due to upstream.",
+            "score": 19,
+            "replies": [
+                {
+                    "author": "ParaboloidalCrest",
+                    "body": "I'll use my eyes to identify objects a little longer \ud83d\udc68\u200d\ud83e\uddaf",
+                    "score": 16,
+                    "replies": [
+                        {
+                            "author": "simplir",
+                            "body": "Quite hard but \ud83e\udd37",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Admirable-Star7088",
+                    "body": ">wait a *bit longer* due to upstream\n\nIs work currently being done to add support?",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "emprahsFury",
+                            "body": "yes, but in a more real sense- no.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "Admirable-Star7088",
+                                    "body": ">yes,\n\n\ud83d\ude01 Yahoooo!.....\n\n>no\n\n.... \ud83d\ude14",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "LocoMod",
+            "body": "Absolutely fantastic model. This will be my main going forward. It has not skipped a beat invoking the proper tools in my backend. Joy.",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "TacticalBacon00",
+                    "body": "\n>tools in my backend. Joy.\n\nAh, I can tell you're a fan of Enterprise Resource Planning",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "JohnnyLovesData",
+                            "body": "Or buttplugs",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "maglat",
+            "body": "Thank you!",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "xoexohexox",
+            "body": "Anybody out there comparing this to Dan's personality engine?",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "NNN_Throwaway2",
+            "body": "Is the non-vision portion of 2503 changed from 2501?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "pigeon57434",
+                    "body": "yes the text capabilities are slightly better too",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

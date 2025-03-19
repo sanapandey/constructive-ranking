@@ -1,0 +1,266 @@
+{
+    "title": "Medusa learn to adapt",
+    "author": "Thedawnbeforesun",
+    "subreddit": "CuratedTumblr",
+    "rank": 13,
+    "score": 2221,
+    "upvote_ratio": 0.98,
+    "num_comments (reported by reddit)": 39,
+    "url": "https://i.redd.it/qrgqdnqx8epe1.jpeg",
+    "id": "1jdyvpm",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "MultiMarcus",
+            "body": "Which phones automatically send you to any QR code you scan? For me it just comes up as an option that I can click, but like you can still take a photo of people who have one on. I guess it would be a temptation for people taking a photo, but even then I don\u2019t think a QR code can be executable on basically any modern phone. It would probably have to be a link to a website that then tricks you into downloading a virus.",
+            "score": 250,
+            "replies": [
+                {
+                    "author": "BellerophonM",
+                    "body": "For what it's worth I think some phones will go fetch a QR url in the background in order to get the webmanifest or title and icon to show it to the user on the link, but they'll do so under the highest of security regimes and certainly won't allow things to execute or fetch secondary resources aside from said icon.\n\nSo it might be possible for there to be some novel zero-day compromise on that function, but it would get patched quick as hell for such a major vulnerability,\n\n(If there was going to be a QR code vulnerability I reckon it'd probably be more likely for the exploit to be encoded directly into the bits of the QR code itself and then that would go fetch the fuller malware package, but that would be targeting a specific QR reader vuln and again probably pretty quickly patched given we're mostly all using packages provided by the phone manufacturers)",
+                    "score": 98,
+                    "replies": [
+                        {
+                            "author": "an_agreeing_dothraki",
+                            "body": "just have it be a url so you can use it as a phishing or trojan vector",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "IReplyToFascists",
+            "body": "this is a horrible idea\n\nhaving a qr code on your shirt will prompt people to scan it even if they had 0 intentions of recording you in public",
+            "score": 168,
+            "replies": [
+                {
+                    "author": "InternetUserAgain",
+                    "body": "Ok, I hear your point. Counterpoint: it would be funny",
+                    "score": 41,
+                    "replies": []
+                },
+                {
+                    "author": "neko_mancy",
+                    "body": "well that appears to be a them problem",
+                    "score": 20,
+                    "replies": []
+                },
+                {
+                    "author": "blindcolumn",
+                    "body": "That will be an important lesson.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "MorningBreathTF",
+                            "body": "That some people are stupid and assholes? It'd be like having a shirt with words on it and getting mad that people read them",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "techno156",
+                    "body": "And recording typically switches off QR code recognition.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "BellerophonM",
+            "body": "If it was that easy to compromise a phone people would be doing it for much more profitable reasons already.",
+            "score": 50,
+            "replies": [
+                {
+                    "author": "crimskies",
+                    "body": "No.1 example: cops that don't want to be filmed/documented for \"reasons.\"\n\n(See also: the crooked cops that blasted music during questionable encounters so any videos of the incident that get uploaded get hit with copyright takedowns)",
+                    "score": 22,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "0ogthecaveman",
+            "body": "mmmm and I want a virus that tampers with the lives of anyone who notices that I exist, rendering them incapable of  communicating to anyone else that I exist. What Greek mythical mythical animal is THAT named after?",
+            "score": 64,
+            "replies": [
+                {
+                    "author": "Graingy",
+                    "body": "Sounds like an antimeme to me. I\u2019m sure there\u2019s a MTF that\u2019ll handle it.",
+                    "score": 40,
+                    "replies": [
+                        {
+                            "author": "neko_mancy",
+                            "body": "Is there a lore reason cis people can't deal with them?",
+                            "score": 24,
+                            "replies": [
+                                {
+                                    "author": "Graingy",
+                                    "body": "The Confederacy of Independent Systems is only accessible by another object, one not considered secure enough to risk using in such a manner.",
+                                    "score": 20,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "novis-eldritch-maxim",
+                                    "body": "Mobile task force",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "neko_mancy",
+                                            "body": "i know it's just for the bit",
+                                            "score": 4,
+                                            "replies": [
+                                                {
+                                                    "author": "novis-eldritch-maxim",
+                                                    "body": "sorry can't tell over text",
+                                                    "score": 3,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "camull",
+                            "body": "That's basically the Silence from Dr Who.",
+                            "score": 13,
+                            "replies": []
+                        },
+                        {
+                            "author": "Sh1nyPr4wn",
+                            "body": "Specifically SCP-055 seems to be the best fit",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "Graingy",
+                                    "body": "SCP-what?",
+                                    "score": 6,
+                                    "replies": [
+                                        {
+                                            "author": "Sh1nyPr4wn",
+                                            "body": "The not round one, remember?",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "Graingy",
+                                                    "body": "What are you taking about?",
+                                                    "score": 7,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Successful_Role_3174",
+                    "body": "Oh that's Roko's-oh shit he noticed me. Fuck fuck fuck fuck.",
+                    "score": 13,
+                    "replies": []
+                },
+                {
+                    "author": "Anonymous_coward30",
+                    "body": "There is a Marvel or DC comic character called Forget Me Not. Once he leaves your presence, you forget he exists.\n\nI don't know of any mythological characters or monsters that do that.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "0ogthecaveman",
+                            "body": "it was Roko's Basilisk. I was just making a silly joke",
+                            "score": 8,
+                            "replies": [
+                                {
+                                    "author": "Anonymous_coward30",
+                                    "body": "That's the insane AI that digitally resurrects everyone that did not help create it and then it punishes them in digital hell for eternity. It's a very stupid concept. Something that fucks with my memory is way scarier",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "0ogthecaveman",
+                                            "body": "is that the version of it you read? no that just sounds like a palletswapped Descartes Evil Demon. or the plot of I Have No Mouth and Must Scream.\n\nRoko's would be more like convincing your family and friends that you can't be trusted or that you have delusions. and it's supposed to be mundane, like a homeland security program or a library catalogue that's interpreted its function in a very disastrous way.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Anonymous_coward30",
+                                                    "body": "It's somewhat thematically similar to AM from have no mouth, but a bit different in execution and motivation. AM is a hate machine that was torturing like 6 real life people for dumb reasons. Roko's Basilisk is a different AI that is making digital copies of people that did not help in the creation of said AI and putting these digital souls in digital hell for dumb reasons. It's a stupid thought experiment.\n\nAnd you are definitely mixing up Roko's Basilisk with something else. \n\nhttps://en.m.wikipedia.org/wiki/Roko's_basilisk",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Economy-Document730",
+            "body": "You can just... not follow QR code",
+            "score": 26,
+            "replies": [
+                {
+                    "author": "Can_of_Sounds",
+                    "body": "I bet curiosity would snare 1 in 10 people.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Shadowmirax",
+            "body": "I love when this gets reposted so a new wave of users can clown on how moronic of an idea this is",
+            "score": 22,
+            "replies": []
+        },
+        {
+            "author": "randomnumbers2506",
+            "body": "Alright first of all what kind of camera instantly scans a QR Code and sends you on its own?\nSecond of all putting a big ass QR code on a T shirt qnd going into public with it is an active order to scan that code so that makes the idea not only unpractical but actively malicious",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "1000LiveEels",
+            "body": "This reminded me of when I scanned a QR code for somebody's band somebody posted on my college campus, and then some guy on Discord who was majoring in comp-sci tried to lecture me about the dangers of scanning random QR codes.\n\nLike, sure? I can certainly imagine a ne'er-do-well punk teen posting a QR code to brick my phone but it feels about as likely as razorblades in my halloween candy.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "deadhead_girlie",
+            "body": "Snow Crash?",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "1v0ryh4t",
+            "body": "Like Orion's chapters in Seek, but now! Lovely!\n\n[Seek, by Wildbow](https://seekwebserial.wordpress.com/)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "UncagedKestrel",
+            "body": "So, basically the type of crap Pelant pulls in Bones?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Marinah",
+            "body": "I\u2019d buy this\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "novis-eldritch-maxim",
+            "body": "gorgon shirts are a marketable idea",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "title": "What happened to capacitors in 2002? The Capacitor Plague",
+    "author": "lethargy86",
+    "subreddit": "videos",
+    "rank": 13,
+    "score": 90,
+    "upvote_ratio": 0.86,
+    "num_comments (reported by reddit)": 19,
+    "url": "https://www.youtube.com/watch?v=rSpzAVpnXo4",
+    "id": "1jdzfvm",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "treemeizer",
+            "body": "It was *the* way computers died at the time. Silver lining was that finding/seeing a blown/leaking capacitor was such a fast diagnosis.\n\nHalf the time a dead box would come in, pop the case open, a quick, \"Well there's yer problem right there,\"  and best of all it's something you can show a layperson and they'd understand. (See that little coke-can lookin thing? It's not supposed to be opened. Spilled your mother-soda ya did.)\n\nSolid state capacitors changed the whole damn game.",
+            "score": 76,
+            "replies": [
+                {
+                    "author": "mnwild396",
+                    "body": "In my early days I spent a year doing field work for a small business managed services company. There were so many calls I\u2019d go to where they\u2019d say a workstation died and it would normally be this one type of Dell I think. I became so sure of it at one point I stopped being like \u201cyeah let me take a look and I\u2019ll come find you once I figure it out\u201d to \u201cI already know what\u2019s wrong, watch this\u201d and sure enough a blown capacitor.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "nostradx",
+                            "body": "Dell Optiplex GX270 and GX280.  If you opened the case and saw an Intel D865GBF you almost didn\u2019t even need to look for blown caps, it was pretty much guaranteed.",
+                            "score": 7,
+                            "replies": [
+                                {
+                                    "author": "mnwild396",
+                                    "body": "Yes! Just looked up those and 100% it was those",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "The_Countess",
+            "body": "I've fixed a number of devices just by replacing the caps from around that era. monitors, TV's motherboards.\n\nSometimes the blown caps damaged other things and it didn't work, but more often then not it would function perfectly after a quick soldering job.",
+            "score": 13,
+            "replies": []
+        },
+        {
+            "author": "ibejeph",
+            "body": "Asianometry!\u00a0 One of my favorite channels.\u00a0 He's got some great ones on the history of electronics, CPUs, memory, etc. and so much more.\u00a0\u00a0\n\n\nHighly recommended by me.",
+            "score": 19,
+            "replies": [
+                {
+                    "author": "TaloKrafar",
+                    "body": "His video on Compaq is fantastic, that's the sort of YouTube I love. No talking head, no dramatic music, just a good story told well.",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "G33U",
+            "body": "I had to change almost all motherboards in a small to midrange company. Fun times, at least mobo manufacturers sended us new mobos, no questions asked. they kinda admitted it was an production error.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Flyinace2000",
+                    "body": "I worked at a K-12 district in 2003'ish.  I probably swapped out a hundred dell motherboards and mailed in 100s of iBooks (MacBooks? I forget when it switch).",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "bubbaganoush79",
+            "body": "I was on the front lines at the time. I was with Dell SMB Optiplex support. The video said they shipped over 1 million units with caps that would fail. I'm pretty sure I talked to about 1/4 of those people over 4 years.",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "lethargy86",
+                    "body": "rip\n\nI worked at a university's authorized Dell repair shop at the time myself",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "waterjaguar",
+            "body": "Amazing to see this video. I had a LCD television from that era which began clicking and wouldn\u2019t power on, and it turned out to be bulging capacitors. I took it apart and replaced them myself with a soldering iron. It was very satisfying to be a TV repair man for one night.\n\nI also used paper in oil capacitors in guitars, and I was convinced they sounded better than orange drops.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "sbvp",
+            "body": "I worked at an apple authorized service provider when a lot of these capacitors were coming home to roost. Easy diagnosing and repairs but, man, what a pain in the ass for the customers and also applecare advisors who had to take calls from my customers\n\n  \nedit: I do have several old computers with capacitors that likely need replacing still... why do I collect things",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "qubedView",
+            "body": "Ahh yes, the days when magic smoke containment failed en masse.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "SjurEido",
+            "body": "The year that coined the phrase \"Oh, you let the magic smoke out\".",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "jvin248",
+                    "body": "That was a saying late 70s/early 80s, but useful for the 00s too.\n\n.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "SjurEido",
+                            "body": "I was mostly joking, but still very surprised to hear it was a saying in the 70s! I thought it was very much a home computer era thing.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "vegetaman",
+            "body": "I only repaired a couple things by swapping caps but the issue did come up quite a bit in the early years there",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

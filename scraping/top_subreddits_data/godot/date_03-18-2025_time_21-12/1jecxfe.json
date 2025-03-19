@@ -1,0 +1,601 @@
+{
+    "title": "Trying to get a really good game juice feeling, what can i improve ?",
+    "author": "Jeheno",
+    "subreddit": "godot",
+    "rank": 5,
+    "score": 202,
+    "upvote_ratio": 0.97,
+    "num_comments (reported by reddit)": 91,
+    "url": "https://v.redd.it/y2mia6tqxhpe1",
+    "id": "1jecxfe",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "SpecterCody",
+            "body": "The effects you have are working well. The speed lines are a bit too aggressive, so I would tone that down. Otherwise, the rest of your game having actual assets will make a big difference.",
+            "score": 105,
+            "replies": [
+                {
+                    "author": "Jeheno",
+                    "body": "Yeah clearly having actuel assets would help a lot.\n\nBut i'm always following this motto when making games : \"If it looks smooth and fun to play while in the prototyping phase, he can only be better with graphical assets\".",
+                    "score": 12,
+                    "replies": [
+                        {
+                            "author": "Vachie_",
+                            "body": "Keep going!!\n\nI agree with the movement lines, I like how they emphasize the quick movement but I think they should take more to build up to such an extreme.\n\nFor example, perhaps with the intensity that is shown in the video should only be used if there is an additional speed boost applied. \nWhereas swinging and jumping only brings on a less intense version.\n\nThis is looking great IMO",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "wouldntsavezion",
+            "body": "Not really my type of game but I strongly feel like this should have wall running, it sounds not too relevant but would do wonders to break monotony.",
+            "score": 31,
+            "replies": [
+                {
+                    "author": "AssociateFalse",
+                    "body": "Really, yeah. Would at least get it somewhat up to par for the parkour genre. Right now, this feels less like *Cyber Hook* and more like a time-trial version of *A Story About My Uncle*.\n\nMaybe add some dives and slides as well?",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Jeheno",
+                            "body": "There's alreay slide in the game (though it's not clearly shown in the video), and also, what do you mean by dives ?",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "AssociateFalse",
+                                    "body": "I can kind of see the slide on the second platform, now that you say that. I take it that meter on the right is it's recharge rate?\n\nWhen I think of dives, there are a few I think of. A [dive roll](https://www.youtube.com/watch?v=EJ3rksQHXok), such as to vault over low barriers, maintaining acceleration, or simply as juice when dropping from a higher platform; a [superman dive](https://www.youtube.com/watch?v=uyPMgl6OvdU), for vaulting over medium barriers and slowing (or halting) acceleration. Neither are necessary, but a dive roll makes more sense for your game than a superman dive. That is unless you decide to add barriers and traps where you have to \"thread the needle\".",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Jeheno",
+                    "body": "I added wall running initially, but i screw it from the gameplay because of two things :\n\n\\-the game i'm plan to make have a gameplay that push the player to go really fast, and except to be some sort of bounce screen, i didn't see a lot of interest in this mechanic.\n\n\\-it's damn hard to implement, and i still haven't figured out an optimal way to make this mechanic work, where's always a bunch of issues.\n\nAlso, there are two mechanics that serve the purpose to break the monotony, while also enrich the main gameplay (which is grapple hook + bunny hopping) : ground pound, and slide (you can see them used 1-2 times in the video, it's just that this level isn't well designed to correctly use them).",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "wouldntsavezion",
+                            "body": "You don't have to add it as a huuuuge feature with controls or whatever, simply having walls you can slide off might be enough, as long as you make sure they have low friction so it doesn't bring down the speed. It would make navigating the levels more interesting. I think to me the weirdest part of the gameplay is just the huge freedom you have with the grapple. Tighter and more restrained levels would be better imho, but yeah, that does mean figuring out walls.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Jeheno",
+                                    "body": "You mean, like sliding off a skycraper for a second, before jumping again, and then grapple ?  \nBecause if it's something like that, aah, this could working.",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "wouldntsavezion",
+                                            "body": "Yeah if at some angles walls can reset jumping it's good, but you don't even have to do that if you don't want to ; just adding walls so the player has to be more mindful and control the angle of their grapple swing a bit more if they want to optimize speed would be enough, as long as hitting the walls isn't too punitive.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Jeheno",
+                                                    "body": "I guess it's tome for some experimentation then, thanks for the propositions.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "JoelMahon",
+                            "body": "generally wall running segments just work at speed as a timing check, there are two sets of walls with no floors, gaps, and opposite each other and you just hop between them. I know this is an old unity tutorial but it was a decent example of what I mean in the first 10 seconds:\n\nhttps://www.youtube.com/watch?v=gNt9wBOrQO4\n\nit's fine to not have them ofc, but they can be done at speed, just make the walls 10x longer than in this 10x slower example so humans have the chance to react in time!",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "_Ace_Dev_",
+            "body": "    Maybe it would be great if when you go fast the FOV increased a little",
+            "score": 21,
+            "replies": [
+                {
+                    "author": "Jeheno",
+                    "body": "That the case actually.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "NehalPokeMaster",
+            "body": "Close enough, welcome back Dani",
+            "score": 14,
+            "replies": []
+        },
+        {
+            "author": "Smallsplat",
+            "body": "Game research: Cyber Hook. Currently \u00a32  \n[https://store.steampowered.com/app/1130410/Cyber\\_Hook/](https://store.steampowered.com/app/1130410/Cyber_Hook/)\n\nGo break down and see what you can learn from a successful indy! I'll warn you about the same trap that they ran into though: So many Cyberhook levels are rendered mute by being able to spin in a circle with a grapple and collect an insane amount of speed, making the best method the least fun method.",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "Jeheno",
+                    "body": "Yeah, i run into this issue as well while testing the game, so i came up with a set of rules for each level, allowing to exploit the maximum of the capacity of each movement mechanic, and so not just spam the grapple hook.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Jeheno",
+            "body": "Currently, i have particles effects for running, sliding, and landing, the fov change smoothly depending on your speed, as well as for the speed lines. It probably seems enough, but i fell like there's something missing on the visual side of the game, so what could be improved ?",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "Faubes",
+                    "body": "I think adding limbs would help sell the speed. And help show the direction of grapplinh",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "lase_",
+            "body": "God I hate anime speed lines\n\nlooks like a good controller otherwise",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Jeheno",
+                    "body": "I release this controller as a template on the Godot asset store, if you're interested (the version saw in the video is somewhat different, but it's basically the same structure and code).  \n[https://godotengine.org/asset-library/asset/3475](https://godotengine.org/asset-library/asset/3475)",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "lase_",
+                            "body": "will definitely check this out! I've actually got a first person project in the works right now and I think this would really kick it up a notch over my current implementation, thanks!",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "_OVERHATE_",
+            "body": "Isnt this the template for FPS controller with some addons? i recognize that debug menu",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Jeheno",
+                    "body": "Yeah, i'm the same author.  \nI'm using a different version of the template for this project (version that will probably end up be published on the godot asset store, as an update).",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "_OVERHATE_",
+                            "body": "Damn dude you are incredibly cool and your template taught me so much!!! Huge thanks!",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "SweetBabyAlaska",
+                    "body": "which one?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "_OVERHATE_",
+                            "body": "https://preview.redd.it/wrezff71dipe1.png?width=1789&format=png&auto=webp&s=dfc70f5858da9cc2c0c038ffed29c6546d308952\n\nAdvanced FPS Controller Template  \n[https://godotengine.org/asset-library/asset/3475](https://godotengine.org/asset-library/asset/3475)",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "SweetBabyAlaska",
+                                    "body": "Very cool! Thanks. I'm learning a lot from reading this code. These small things like modifying the FOV, headbob, tight jumping, and leaning while moving, reallyyy sell the effects here. A little bit goes a long way.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "_OVERHATE_",
+                                            "body": "This one particularly has great implementation of smoothing curves that can be tweaked on the editor, it's really good",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "Jeheno",
+                                                    "body": "Ahah, thanks a lot you two, always nice when people really like your work.",
+                                                    "score": 3,
+                                                    "replies": [
+                                                        {
+                                                            "author": "SweetBabyAlaska",
+                                                            "body": "Great stuff! Thanks for open-sourcing it.",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Electrical_Food_1955",
+            "body": "Loot-boxes, you can't make a game without them nowadays.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Jeheno",
+                    "body": "Nah, fuck lootboxes.",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "Electrical_Food_1955",
+                            "body": "Yeah I know, but seriously I don't know what to add, already seems pretty juicy if you want my view.\n\nOh maybe, if you want some inspiration, you could watch the devlogs from the dev of Bloodthief, it would help I think.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Jeheno",
+                                    "body": "Funny, i already watched all his devlogs, and i played the demo of Bloodthief, it's one of my main sources of inspirations, with Brutal Katana and Cyberhook.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Electrical_Food_1955",
+                                            "body": "Oh.. well.. yup.\n\n(didn't know about the two other games, will give them a try thanks)",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "leifiguess",
+            "body": "Change the curve on the intensity of the lines\n Subtle screen shake when going fast\nFov change when going fast",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Dusty_7_",
+            "body": "In my personal opinion, and I have seen it mentioned here already, the speed lines are little bit too strong\u00a0",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "themixtergames",
+            "body": "Kinda generic. I knew there would be a grappling mechanic before it appeared",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "hawk_dev",
+            "body": "looks great, I know its a prototype but the air effects around the screen get annoying.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Jeheno",
+                    "body": "Yeah, i saw that a lot of people don't really like theses \"anime lines\", even me, after rewatching the video some times, i feel like they're a little too invasive on the screen.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "BetaTester704",
+            "body": "Instead of instantly stopping the game after, tween it over something like 200ms",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Jeheno",
+                    "body": "I'll take note, thanks for the suggestion.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "RedPetalBeetle",
+            "body": "looks cool!  \n  \nprobably a more difficult ask, but it looks like currently velocity is fixed vertically? Maybe on those big downswing/upswings you can accelerate and decelerate more dramatically.\n\nagree with others that the speed line / jittering is too intense and doesn't really reflect a feeling of speed - it feels like the lines are pointing \"in\" instead of reflecting wind/motion \"behind\"/across the player's sides.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "wissah_league",
+            "body": "wall running and add a slide",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SaltSpot",
+            "body": "Perhaps some camera shake on hitting the ground, and/or on significant changes in acceleration?\n\nYou'd naturally need to tune the effect, but it felt a bit floaty when you did the ground slam as it currently is.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Jeheno",
+                    "body": "Well actually there is camera shake when the character is landing, but it's probably to subtle to be seen because of the speed the character is at.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "wonsacz_",
+            "body": "I don't want to sound mean but shouldn't you ask that idk, playtesters? The deal with stuff like how something \\*feels\\* is that you cannot be easily explainable via video, you have to experience it yourself.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Jeheno",
+                    "body": "Yeah sorry, i explain it on my commentary that i was only talking about the visual side, but i forget to do the same in the title, and unfortunately, you can't modify you post titles after publication.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "tylert123",
+            "body": "Karlson?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Piebboss",
+            "body": "How did you make that rope swing effect? That shit looks so good. Would kill for a tutorial.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Jeheno",
+                    "body": "The grapple hook base structure has not been done by me, it's an asset on the Godot asset store called \"Destrohook\" : [https://godotengine.org/asset-library/asset/3358](https://godotengine.org/asset-library/asset/3358) .",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Piebboss",
+                            "body": "Thank you very much for the reference! I'll definitely check it out.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "AndrewFrozzen",
+            "body": "OP finna work Karlsson 2.0 and disappear just like Dani \ud83d\ude2d",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ok_Finger_3525",
+            "body": "You\u2019re doing too much.  Juice is about subtlety.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "CodyTheLearner",
+            "body": "This reminds me of that farming game that was floating around a while back.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Isolated_Icosagon",
+            "body": "I would add a bit of a bounce whenever you land.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Jeheno",
+                    "body": "Well actually that's the case, but it's probably to subtle to be seen because of the speed the character is at.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Hans_Olo_1023",
+                            "body": "I was going to suggest something similar, but since you replied to this one I'll put it here. If there is a bounce then I think like you said it's too subtle. I was going to suggest an elastic curve to the landing to give your character a bit more of a weighty feel. Right now the landing feels very static and it needs to have some more \"oomph\", like a vertical dip in the camera height and recovery as if the character's knees are bending under the weight before returning to full height",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "WaddlesTheWaffle",
+            "body": "The speed lines are a little intense so maybe lessen them and also a change in fov would be nice.\n\nSome that could make it better would be increasing the fov in stages, this would add a bit more emphasis.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ShibaElonCumJizzCoin",
+            "body": "Something about the jump feels slightly off\u2026 it feels shallow and hard landing? I would try giving it just a bit more compression to the landing, and maybe tweak the wind up so it spends some more time (100ms?) at the \u201cbottom\u201d before exploding up.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ytumith",
+            "body": "Paraglider maybe",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Jeheno",
+                    "body": "Nah, that will slow down the gameplay too much.\n\nBut what about a wingsuit ...",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Ytumith",
+                            "body": "yeah just to fly forwards for a bit",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "DarkHybrid_",
+            "body": "When jumping/landing make the camera go down a little then up again. It's hard to explain but take a look how it look in fps games.(I recommend something like in CS2/Lethal company. It makes jumping feel alot better)",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Jeheno",
+                    "body": "Well actually that's the case, but it's probably to subtle to be seen because of the speed the character is at.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Optoplasm",
+            "body": "Looks pretty good so far!\n\nAs a general rule of gamedev:\n\nDon\u2019t polish something too early. I advise developing all the pieces of your game to their minimal viable state before you really polish anything. Because inevitably you will need to change something to accommodate another feature",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Aggravating_Floor449",
+            "body": "It looks like you can only grapple onto the red platforms? That seems strange to me. Either all platforms should be able to be grappled or the red platforms should be smaller grapple targets",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Jeheno",
+                    "body": "Only the red platforms can be grappled so that the player know instantly where he can shoot the grapple.  \nAnd concerning their size, it's not definitive yet, but i don't want to make small grapple targets, as i want the levels to be fairly opened and forgivable for the player.\n\nHaving to train 10 hours on AIM trainer just to be able to correctly grapple in this game wouldn't be very fun, see what i mean ?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Aggravating_Floor449",
+                            "body": "You don't have to make them smaller, that was just one idea I thought of but the main point was that  having half your platforms have different grapple properties from the other half seems inconsistent. Just saying that I'd differentiate them more or let the player grapple any platform. Being able to grapple any platformer seems more fun anyway if you aren't using the grapple points as a skill test.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Jeheno",
+                                    "body": "Well, at the start of the project, you could grapple on any surface, but the result was that the grapple was just supplidly overpowered, and you could only use it to finish the levels.\n\nAnd i don't want that for my game, and want the player to learn the skills taught, and combine them to create nice synergies to finish the levels faster and faster (because that's the goal of the game, finish the level the fastest you can), and so i design the levels to be quite free and polyvalent, encouraging the player to use all of the different movement skills.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "BetaTester704",
+                            "body": "Just make the grapple hitbox bigger than it's visual counterpart",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Jeheno",
+                                    "body": "Aah, i hadn't thought of that, but yeah that a nice idea.\n\nI will try it out.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Far-Reach4015",
+            "body": "karlson?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Eyonimus",
+            "body": "Do you already have plans for the level design? I know it's offtopic, but I had to imagine skyscrapers you have to avoid and moving airplanes instead of those boxes.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Jeheno",
+                    "body": "I had an idea of the artistic direction, but i put it aside.\n\nAnd so right now, i don't really know what could be the graphical theme of this game.\n\nBut it's not really bothering for now, as the principal aspect of this game is the gameplay, and so it's the priority to get done good first.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Jeheno",
+                    "body": "Oh, and about your idea, i can see what it would look like in game, and yeah i think there's something to develop, thanks for the share.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Nejura",
+            "body": "Good stuff.  I know speed lines and vision-lensing at the edges creeping inward are the classic \"GOING FASTER!\" goto markers.\n\nOne aspect of the FEEL that a lot of games overlook is the sense of inertia/jerk.  That is, the acceleration curve getting compressed from sudden velocity change, either from going fast and being stopped by the ground or elastic-snapping from other physical things.  Giving your players that sensation of gut-churn and weight shift through visual effect is just as critical to sell them that immersive sensation.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "JoelMahon",
+            "body": "Speed lines lose their oomph the longer they're there in full force.\n\nMaybe have them partially based on velocity and partially based on acceleration rather than just velocity. my suggestion could look like ass in practice mind you.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "GrimmReaperx7",
+            "body": "My only 2 cents is that the camera/pov seems really low to the ground",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "octaviustf",
+            "body": "What are dimensions of that level? Looks good",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TheXIIILightning",
+            "body": "It needs more Titans",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "CodeandVisuals",
+            "body": "I like the effect of the speed lines but I think you need to augment them further at higher velocity. Maybe fade and pull back more. Could introduce a slight fishbowling of the camera to emphasize when they break a higher speed. But this in an open city could become a fun first person superhero game. I\u2019d have to play it to really tell you more about the feel of it but it looks cool.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "vanntasy",
+            "body": "It\u2019s hard to tell if your player is actually moving fast because there aren\u2019t enough other objects in the space to use as points of reference, you need obstacles, things to run through, jump over, duck and slide under, fly past, bounce off of, etc. I think it has potential",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "CodeandVisuals",
+            "body": "Oh and add some wall running of course",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Jack070293",
+            "body": "Speed line could be blurry and more transparent in general. I like it so far though.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Unlockingcube",
+            "body": "Wall running would feel good here as well. As others have said maybe less motion lines. Can shake on landing?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "pocketbadger",
+            "body": "Would implementing some sort of auto target system for the grapple deviate from what you have in mind? Maybe a reticle that paints onto a suitable nearby surface that is on screen and above the player, or above/close to the screen reticle. That way you can set up tighter levels with more flow, without the player having the move the camera as much.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Aurigamii",
+            "body": "Add titans and blades, SASAGEYO",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "esmailelqmdnq",
+            "body": "Bro is dani",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

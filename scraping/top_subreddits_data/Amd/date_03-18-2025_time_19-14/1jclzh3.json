@@ -1,0 +1,1249 @@
+{
+    "title": "ASUS implements another price hike for GeForce RTX 5090 cards, RX 9070 XT now stars at $720",
+    "author": "RenatsMC",
+    "subreddit": "Amd",
+    "rank": 15,
+    "score": 449,
+    "upvote_ratio": 0.98,
+    "num_comments (reported by reddit)": 192,
+    "url": "https://videocardz.com/newz/asus-implements-another-price-hike-for-geforce-rtx-5090-cards-rx-9070-xt-now-stars-at-720",
+    "id": "1jclzh3",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "ReapingRaichu",
+            "body": "Simple solution, buy anything but Asus atp",
+            "score": 189,
+            "replies": [
+                {
+                    "author": "Lakku-82",
+                    "body": "They are literally all doing it, because in the US\u2026 TARIFFS! And then they use that as an excuse to charge everyone high prices",
+                    "score": 33,
+                    "replies": [
+                        {
+                            "author": "mennydrives",
+                            "body": "And of course, the real reason is because $700+ for a 9070 and $800+ for a 9070 XT is still gonna be sold out for months.\n\nThe biggest issue is that B100 is sold out through 2025 and beyond and it uses the same die space/node process (IIRC) as a 5090.\n\nShort of Nvidia or AMD releasing some kind of 3nm refresh of their cards this year that doesn't ALSO slam into a different datacenter AI card (or a metric truckload of Apple orders), I'm not sure we have a good solution for this problem. Everyone is fighting for the same die space and one use case has 10-30x the retail value as the others.",
+                            "score": 9,
+                            "replies": [
+                                {
+                                    "author": "blue_eyes_pro_dragon",
+                                    "body": "CPU is actually more profitable per wafer mm^2 just due to how much area gpu take (300 mm^2 for 5080, 700 for 5090 and 50 for ryzen)",
+                                    "score": 6,
+                                    "replies": [
+                                        {
+                                            "author": "mennydrives",
+                                            "body": "That's another big one.\n\nAMD really knocked it out of the park with CPU chiplets. They basically get the yield advantage of an iPhone SoC for a full-blown x86 desktop CPU. On top of that, they get to re-use that CPU design across desktop and server.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Wolfik_Morgan",
+                            "body": "Im kind of really confused, i thought the US was impacting European GPU prices with the tarifs but its the other way around?...\u00a0\n\n\nAlso i still feel like people forget the first wave was rebated, its not just AMD partners trying to pull extra profit, sure they are trying to maximize profits but theres no telling if AMD is selling the chips cheaper then they used to so they can meet the 600 msrp.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "residenthamster",
+                    "body": "Easy for us to say and do because we are aware of the shit that Asus does to the market.\n\nThe general public though, just see the heavy marketing, advertisements, and bling of Asus and ROG products and buys them despite them being more expensive, the perceived \"more expensive means more better\" mindset.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "kapsama",
+                            "body": "I mean what's the problem? We're not taking about life saving medicine or a important staple of daily life. It's a hobby item and for a small percentage a work tool.\n\nIf you can't do 30 minutes of research before investing into work or a hobby then that's really on you.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "Yeetdolf_Critler",
+                                    "body": "I see this with car purchases all the time. People can't really afford a car, then buy it, they are not even car enthusiasts, so don't know anything and buy really unreliable cars, but like the status/looks/new car brag, then end up 25k under water on a 30k car due to buying it at inflated price.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "TurtleTreehouse",
+            "body": "This is why you don't buy ASUS. I had an opportunity to buy an ASUS XT at $600 and steered clear toward another vendor.",
+            "score": 252,
+            "replies": [
+                {
+                    "author": "ishootforfree",
+                    "body": "Another fall of a once great Republic (of Gamers), RIP",
+                    "score": 87,
+                    "replies": [
+                        {
+                            "author": "soccerman221",
+                            "body": "Don't you mean ROG (Republic of Greed)",
+                            "score": 92,
+                            "replies": [
+                                {
+                                    "author": "waldesnachtbrahms",
+                                    "body": "Ripping off gamers",
+                                    "score": 41,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "ElCasino1977",
+                            "body": "*I am the Republic!*\n\nA$U$ CFO (Probably)",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "reality_bytes_",
+                    "body": "Their bloatware crap that you have to use programs to remove or manually investigate the registry is asinine. \n\nI\u2019ll never buy another Asus product.",
+                    "score": 39,
+                    "replies": [
+                        {
+                            "author": "WeirdoKunt",
+                            "body": "Oh man i still remember the trauma of putting a new Asus motherboard in my build a few years ago and it fucking auto installed this malware ruining my PC. I had no chance as it happened as soon as i booted PC. Took me ages to remove it all fully, was gonna be happy to be gaming on my 5800x3d and suddenly had to instead take 1 day off to remove all that malware.\n\nSince then i havent bought any Asus product nor ever recommend it to anyone even if one has to pay significant extra for another manufacturer i will do so!",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "reality_bytes_",
+                                    "body": "Yeah even if you \u201cuninstall\u201d all the Asus stuff, there will still be Asus processes running in the background, unless you track it all down and delete it. They are the mcaffee virus of hardware manufacturers.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "Lakku-82",
+                                            "body": "No there isn\u2019t, you can literally turn it off in the bios. Y\u2019all just don\u2019t know how to build a computer lol Do you know what bios settings are?",
+                                            "score": 8,
+                                            "replies": [
+                                                {
+                                                    "author": "reality_bytes_",
+                                                    "body": "Do you know that software at the OS level can\u2019t be accessed in the bios? Lol",
+                                                    "score": 0,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Local_Dragonfruit336",
+                                    "body": "i spent $400 on a rog amd board; it fried and i sent it in for repair;  they refused the warranty claim; now i only buy gigabyte boards. I will not buy asus overpriced stuff.  MSI cards all the way.  their msi liquid line up is money; but i see asus prices their liquid cards almost $300 more. i got the rtx 4090 subprime liquid for $1799 and asus was charging 2299 for their!",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "TurtleTreehouse",
+                                    "body": "Yikes. \n\nWindows Plug and Play, or something? They really need to put the screws on vendors.\n\nEvery time someone plugged in a Razer mouse in my company, it lit up Defender like a Christmas tree. We eventually had to deploy this script from Intune to every device just to stop it. We didn't do the registry edit just because Plug and Play is kinda important.\n\n[https://github.com/ChrisTitusTech/block-razer/blob/main/block.ps1](https://github.com/ChrisTitusTech/block-razer/blob/main/block.ps1)\n\nWhy Microsoft give Plug and Play System administrator rights without a UAC prompt is beyond me, lol.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "WeirdoKunt",
+                                            "body": "Its actually in the motherboard bios, they have an option for armoury crate. It is \"supposed\" to be off by default, being asus i found out its not true, many had this issue. Obviously i had no idea of this setting as you first enter bios on a new build or change of hardware. Been building since like 2003. So i just went through the regular stuff of bios settings before boot.\n\nBut upon boot it starts to install armoury crate thing(before OS boots up). I had no idea what it was but was too scared to restart because it was after the initial bios boot and thought maybe they have some initial bios update or something and i dont want to interrupt that if that would be the case. \n\nIt took ages to install and not only was my PC slow as hell but as others mentioned after a long uninstall you have to go through the registry and such to delete all traces because it still has elements that keep going in background even after uninstall.",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "TurtleTreehouse",
+                                                    "body": "If you turn it off in BIOS, does it still install? \n\nI would have turned it off and reinstalled fresh Windows, personally. I have no idea why people try to remove/debloat manufacturer bloatware instead of just installing a fresh copy of Windows, so that you know exactly what's in it. It's probably the same or less amount of work.\n\nSo you actually had measurably better performance after removing Armory Crate?",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "WeirdoKunt",
+                                                            "body": "I dont think it installs if its turned off. But out of the box it was turned on for me. I didnt even know such things can be done via bios now a days.\n\nI had so many things setup that a fresh install would have been a bigger pain at that point.\n\nTheir software was resource hungry. I always have as de-bloated OS setup as i can and even then you could see it was always doing something in background that would affect memory/CPU to the extent it would zap some performance. The worst thing was how sluggish the PC was at startup.\n\nIn some games like Forza and such that were far more GPU heavy it didnt affect too much. But things like Counter-Strike would have a bigger effect. I dont remember what FPS difference and such there was. But stutters were common, the worst thing is if i turned stuff off in task manager that is related to ASUS it would have some things auto-restart after a small period.\n\nI know people use their software and they probably improved many things. But i am also sure that often when people have issues with games like Counter-Strike they will have such programs in background causing issues. MSI afterburner used to cause issues in some games as well, although if i remember correctly that was to do with earliest Ryzen CPUs and memory dumping issues.\n\nIts not the first time hardware manufacturers software causes issues for me. Logitech would make your mouse go all weird when it needed an update. Luckily they have on board memory so you can get rid of their software entirely.",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "FixGMaul",
+                            "body": "Just wait until you try this thing called Windows\n\nI don't know how I got by for so long without Revo Uninstaller",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "mrgreene39",
+                                    "body": "Revo is good, but it doesn\u2019t find/see every application",
+                                    "score": 0,
+                                    "replies": [
+                                        {
+                                            "author": "nesjwy",
+                                            "body": "what\u2019s another one would you suggest?",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Saneless",
+                    "body": "They did the same thing in 2021",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "chazmann",
+                    "body": "Suck it, ASUS. That company has a terrible track record and I will never purchase a product that bears their name.",
+                    "score": 12,
+                    "replies": []
+                },
+                {
+                    "author": "Bdk420",
+                    "body": "It was the only msrp card that i could over here so i took that 9070xt",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Prize-Confusion3971",
+                    "body": "Not to mentions ASUS made things just suck. I've had a bad motherboard and graphics card from them over the last 10 years. God help you if you ever try to deal with their \"customer support.\"",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "sklipa",
+                    "body": "I lost out on my 3080 TUF, because they got rid of the non-OC edition, so I was in stock limbo for good.\n\nAnd now I'm in the same situation with the mythical Prime - because I wanted an FE form factor with a decent design and quieter fans.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Lakku-82",
+                    "body": "So what are you gonna buy? People with zero support Chinese companies also charging the same prices?",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "TurtleTreehouse",
+                            "body": "Sapphire, XFX, Power color? I mean, obviously if the ASUS is the last on the shelf for MSRP, grab it, but if you have a choice or its $700+, turn around and walk out the door.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "PutsiMari69",
+            "body": "When buying amd  card, only buy from sapphire, xfx and powercolor...",
+            "score": 177,
+            "replies": [
+                {
+                    "author": "Cupid_Stool",
+                    "body": "asrock is fine",
+                    "score": 101,
+                    "replies": [
+                        {
+                            "author": "VastCarry",
+                            "body": "Bought an asrock steel legend cause that\u2019s all microcenter had in stock at msrp by the time I got in. It\u2019s such a good card. I was pleasantly surprised.",
+                            "score": 32,
+                            "replies": [
+                                {
+                                    "author": "Jimbabwr",
+                                    "body": "Yeah, I felt the same way but this beefy steel legends cooler doesn\u2019t ever get hotter than 57 C",
+                                    "score": 8,
+                                    "replies": [
+                                        {
+                                            "author": "RChamy",
+                                            "body": "The honeywell zone",
+                                            "score": 2,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Smart-Potential-7520",
+                                            "body": "If your average core  temp is 57\u00b0C you probably have a Hotspot around 87\u00b0C which is why all these cards have such beefy coolers.\n\nIt seems like every card has at least 25-30\u00b0C higher temps on the Hotspot.",
+                                            "score": 2,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "WhoIsJazzJay",
+                                            "body": "my Steel Legend has a hotspot delta of 30\u00b0 C which i\u2019m not a fan of, but otherwise i\u2019ve been loving mine",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Smart-Potential-7520",
+                                                    "body": "As far as i know, they are all like that.",
+                                                    "score": 2,
+                                                    "replies": [
+                                                        {
+                                                            "author": "WhoIsJazzJay",
+                                                            "body": "yeah i\u2019ve read that the only cards that are better at cooling the hotspot and VRAM are the ones with a vapor chamber",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Smart-Potential-7520",
+                                                                    "body": "A lot of cards also runs with a very relaxed fan curve.\n\nI saw that most runs with like 1000-1200 RPM with stock settings, which is really low for small fans. They are probably running at 40% of their max speed.",
+                                                                    "score": 2,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "WhoIsJazzJay",
+                                                                            "body": "yeah i have mine set to max out at 80\u00b0 C on the hotspot. since i have an ITX build, i try to keep the air flowing as much as possible lol",
+                                                                            "score": 1,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "-WallyWest-",
+                    "body": "Add Asrock to that list.",
+                    "score": 43,
+                    "replies": []
+                },
+                {
+                    "author": "Kionera",
+                    "body": "You can't stop me from buying Yeston",
+                    "score": 60,
+                    "replies": [
+                        {
+                            "author": "Symphonic7",
+                            "body": "Waifu cards are the best cards",
+                            "score": 33,
+                            "replies": [
+                                {
+                                    "author": "MK-Ultra_SunandMoon",
+                                    "body": "And that perfume",
+                                    "score": 6,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "thenewvoid",
+                    "body": "The same XFX that wants $869 for its mid tier Quicksilver 9070xt? No thanks.",
+                    "score": 14,
+                    "replies": [
+                        {
+                            "author": "Matthijsvdweerd",
+                            "body": "I got a rx 6600 like 2 years back for msrp. It was surprisingly quiet for being a 2 fan card (its obviously just a 120w card, but I was very happy with the card). It was also built really solidly.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "thenewvoid",
+                                    "body": "I\u2019m sure they are great cards, but addressing a price hike on Asus and ignoring the fact that XFX has done the same. We shouldn\u2019t ignore one company doing it is all I\u2019m saying.",
+                                    "score": 9,
+                                    "replies": [
+                                        {
+                                            "author": "Matthijsvdweerd",
+                                            "body": "Oh damn I didn't even notice. Thanks for pointing that out",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "foundoutimanadult",
+                    "body": "My Gigabyte OC card slaps. Honestly the quality of the build is the most surprising part for me.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "Distinct_Ad3556",
+                            "body": "Gigabyte has good hardware. Not so good software tho",
+                            "score": 7,
+                            "replies": [
+                                {
+                                    "author": "itchipod",
+                                    "body": "Except their PSUs",
+                                    "score": 5,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Yeetdolf_Critler",
+                                    "body": "Not always. I've had some Gigabyte stuff in past that was really mediocre at best.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "democracywon2024",
+                                    "body": "GigaTrash cracks PCBs because they suck. avoid them at all costs.",
+                                    "score": -1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "cognitiveglitch",
+                            "body": "Yep, my Gigabyte Gaming OC card is absolutely blasting through Cyberpunk with RT. Undervolted and VRAM overclocking no problem because the vapour chamber also covers the VRAM.",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "foundoutimanadult",
+                                    "body": "What could you UV to in CP?\u00a0\n\nMine has been on a game by game basis.\n\nAlso recommendations on the VRAM OC?",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "cognitiveglitch",
+                                            "body": "I have one UV because I'm not patient enough to go game by game. Just set the UV using Steel Nomad benchmark, then it will likely be good for most games. \n\nSo I have -70mV and VRAM running at 2760MHz fast mode. But keep an eye on the VRAM temp if you don't have a vapour chamber that covers the VRAM. You don't really want it over 90C.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "MrHyperion_",
+                    "body": "I buy the cheapest and I did, MSRP 9070 Prime OC",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "Yeetdolf_Critler",
+                    "body": "Sapphire dropped the ball a bit this generation but many of their prior cards are great.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Defeqel",
+                    "body": "that's a good rule of thumb if supply is tight, otherwise always check to see if there are reviews or tear downs of the specific cards",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "democracywon2024",
+                    "body": "Asrock and Asus are the best...",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "ASTRO99",
+                    "body": "How do those cards play with Corsair gear? Afaik iCue doesn't have integration for either of those. Or for AMD in general.",
+                    "score": -2,
+                    "replies": [
+                        {
+                            "author": "FakeSafeWord",
+                            "body": "> iCue doesn't have integration for either of those. Or for AMD in general.\n\nOkay and?",
+                            "score": 17,
+                            "replies": [
+                                {
+                                    "author": "myfakesecretaccount",
+                                    "body": "Yeah. Why would your GPU need iCue?",
+                                    "score": 18,
+                                    "replies": [
+                                        {
+                                            "author": "FakeSafeWord",
+                                            "body": "I mean, personal preference and if you can afford to enforce it aside... completely baffles me that people will pay %20-30 more for a GPU, when the prices are already insane, because of the LED colors match. The card is likely within 5% of functionality of every other model on the market as far as performance/power goes.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "mule_roany_mare",
+                            "body": "Have you checked out openRGB?  It's open, has wide compatibility & is generally more powerful than the proprietary options. \n\nI'm not into RGB really, but I did use openRGB & a hardware monitor plugin to tie one ARGB device to my CPU temp, another to GPU temp & the final to CPU activity. \n\nTemperature, power usage, activity whatever. if LibreHardwareMonitor can read a sensory you can map it to a device & color. \n\nIt's actually been useful to keep an eye on what's happening from across the room, see when a task is or get a warning if it's stalled.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "79215185-1feb-44c6",
+                    "body": "Sapphire AKA the company that thinks only 2 Display Ports is acceptable for 2025.",
+                    "score": -11,
+                    "replies": [
+                        {
+                            "author": "Surelynotshirly",
+                            "body": "HDMI was a mistake. I wish we had replaced it with DP a long time ago. At least it's caught up enough in bandwidth now though that they're both mostly interchangeable.",
+                            "score": 19,
+                            "replies": [
+                                {
+                                    "author": "Thisdsntwork",
+                                    "body": "The problem is HDMI has its anti-piracy shit, so it's what you're gonna see on TVs.",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "Surelynotshirly",
+                                            "body": "Yeah I know why, but it just sucks because it doesn't really stop anything lol.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "MagicBoyUK",
+                            "body": "Makes no sense to me. I had to specifically avoid Sapphire cards as I\u2019m running triple screens with DP cables. \ud83e\udd37\u200d\u2642\ufe0f\n\nPowerColor had me covered.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "democracywon2024",
+                                    "body": "Most people use tvs with HDMI",
+                                    "score": -1,
+                                    "replies": [
+                                        {
+                                            "author": "MagicBoyUK",
+                                            "body": "It's a computer, not an Xbox Series X.",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "democracywon2024",
+                                                    "body": "Exactly, a computer, meant to be used with TV's and monitors, ya know HDMI",
+                                                    "score": 0,
+                                                    "replies": [
+                                                        {
+                                                            "author": "MagicBoyUK",
+                                                            "body": "Computers are meant to be used with monitors, hence 3xDP. Which can be easily converted to HDMI if you're unfortunately using a TV.\n\nHDMI is for consumer electronics, like consoles and Apple TVs.",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "puffz0r",
+                                                                    "body": "Don't most monitors have HDMI ports as well now?",
+                                                                    "score": 1,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "MagicBoyUK",
+                                                                            "body": "Why should I use the inferior connection for an RX 9070 XT when I have DisplayPort as well now? HDMI doesn't do 144Hz at 3440x1440.\n\nI've the DisplayPort-less Apple TV plugged into my HDMI.",
+                                                                            "score": 1,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "puffz0r",
+                                                                                    "body": "You need all 3 of your monitors to do 3440x1440 144hz simultaneously?",
+                                                                                    "score": 1,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "MagicBoyUK",
+                                                                                            "body": "No. I have 4 monitors. Just not all in use at the same time.\n\nThree 1080p on the sim rig, one UWQHD on the desk.",
+                                                                                            "score": 1,
+                                                                                            "replies": [
+                                                                                                {
+                                                                                                    "author": "puffz0r",
+                                                                                                    "body": "so... the 1080p monitors are perfectly fine with the \"inferior\" hdmi ports lmao",
+                                                                                                    "score": 0,
+                                                                                                    "replies": [
+                                                                                                        {
+                                                                                                            "author": "MagicBoyUK",
+                                                                                                            "body": "No they're not, the HDMI ports on these monitors don't support Freesync where the DisplayPort does.\n\nIf you need help finding the way out of the hole you've been digging, I've got a ladder and can show you the way out.\n\nObligatory LMAO.",
+                                                                                                            "score": 0,
+                                                                                                            "replies": [
+                                                                                                                {
+                                                                                                                    "author": "puffz0r",
+                                                                                                                    "body": "Wow sounds like your monitors are just shitty then, how about you upgrade from your \"inferior\" hardware",
+                                                                                                                    "score": 0,
+                                                                                                                    "replies": [
+                                                                                                                        {
+                                                                                                                            "author": "MagicBoyUK",
+                                                                                                                            "body": "They're not shitty, they date when from I got my Vega 56.\n\nI have DisplayPort, there's no reason to upgrade as they're not broken.\n\nI can't believe you are advocating creating e-waste in some pathetic attempt to justify an inferior consumer electronics cable? Are you getting a cut of the HDMI licensing fee?\n\nDisplayPort is royalty free, in addition to being technically superior.",
+                                                                                                                            "score": 0,
+                                                                                                                            "replies": []
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "author": "democracywon2024",
+                                                                    "body": "HDMI is for everything, displayport is an outdated standard loser tech dweebs keep insisting should still exist for reasons unknown to man.",
+                                                                    "score": 0,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Razurio_Twitch",
+                                                                            "body": "tf you're smoking? HDMI is both older and has lower bandwidth. You must mean DVI or VGA",
+                                                                            "score": 2,
+                                                                            "replies": []
+                                                                        },
+                                                                        {
+                                                                            "author": "MagicBoyUK",
+                                                                            "body": "HDMI being the lowest common denominator doesn't make it good. \ud83d\ude09\n\nThat you are throwing insults around, just illustrates you know you've lost the argument.",
+                                                                            "score": 1,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Rubadubrix",
+                            "body": "my 7900 XTX nitro has 3 DP ports",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "79215185-1feb-44c6",
+                                    "body": "Sapphire does not sell any 9000 series cards with more than 2 DP Ports.",
+                                    "score": 12,
+                                    "replies": [
+                                        {
+                                            "author": "Defeqel",
+                                            "body": "with three it's a threesome and no longer DP",
+                                            "score": 6,
+                                            "replies": [
+                                                {
+                                                    "author": "DapperFocusQuail",
+                                                    "body": "Do you... know how threesomes work?",
+                                                    "score": 3,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "RChamy",
+                                                    "body": "TP ports",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Andynonymous303",
+                                    "body": "So did my nitro+ 6800xt.. from 2020.. haha",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "aubvrn",
+                            "body": "What's wrong with that? I'd take extra HDMI ports over DP ports any day. Suits my monitor + TV setup.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "79215185-1feb-44c6",
+                                    "body": "I have 3 older monitors that don't support 4k60 over HDMI but do over DP.",
+                                    "score": 7,
+                                    "replies": [
+                                        {
+                                            "author": "aubvrn",
+                                            "body": "Ah that sucks.\n\nAs much as ASUS is overpriced, they're the only ones offering 3 DP + 2 HDMI. Other brands should really do the same.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "mule_roany_mare",
+            "body": "Has any economist done a writeup on the discrete GPU market? \n\nit's wild how expensive the top of the market has gotten while the bottom of the market has virtually disappeared.\n\nBy all accounts most consumers still appear to be price conscious, but prices keep running away even while there is more competition than ever.",
+            "score": 27,
+            "replies": [
+                {
+                    "author": "Symphonic7",
+                    "body": "I think its because for as much as they can make on the low end, the high end is where the biggest profit margins are. For every $2000 card they sell it probably brings in more money than 10 $400 cards do. And since scalpers will always buy stuff up to resell for more, they dont care. I think eventually this won't be able to be sustained, and we will see a considerable readjustment. But while the money is flowing, they will keep selling at these huge prices.",
+                    "score": 13,
+                    "replies": [
+                        {
+                            "author": "Villag3Idiot",
+                            "body": "Eventually we'll hit a point where AAA sales on PC collapses because no one can buy a GPU to run their games.\u00a0\n\nIf this shortage situation isn't resolved, it'll probably happen part way into the next gen console releases when minimum requirements skyrockets.\n\nUpscaling and Frame Gen isn't helping either because it just encourages devs to not bother to optimize and you may need both just to hit 1080p 60fps.",
+                            "score": 9,
+                            "replies": [
+                                {
+                                    "author": "YertlesTurtleTower",
+                                    "body": "And there will still be 100 million PlayStation 5s and a 100 million switch 2s out there so devs won\u2019t care",
+                                    "score": 4,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Temporala",
+                                    "body": "AAA games are very small portion of overall released games anyway.\n\nAlmost all games besides cutting edge run with old hardware or even integrated graphics, especially thanks to those upscalers and external frame generation that allow user to apply it to anything.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "ArmedWithBars",
+                                    "body": "Nah, it's called debt. Retailers will push 0% interest promotions to drive sales if they slumped due to sticker shock.\n\nI was in the furniture industry for over a decade and that's how they mitigate sticker shock. Almost nobody has 5k cash laying around to buy a leather sectional. So we let you pay it off over 24-48 months with financing. 5k sounds like a lot of money, but how does $104/month sound? That's only $26 out of your weekly paycheck. Seems a lot cheaper now right?\n\nThe retailer doesn't even need to do the financing themselves. They partner with a bank or finance company to handle it.\n\n\"Damn they want 3k for a 6090, I can't afford that. Oh wait I can pay it off over 24 months with 0%. That's only $125/month which is $31 out of my weekly paycheck. Okay I'm gonna buy it I don't wanna miss out on dlss 5 and Nvidia Nippleworks in 4k on my favorite waifu gacha game. Can't wait to post a picture of new gpu on reddit.\"",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Ensaru4",
+                                    "body": "I'm not seeing this as a problem, honestly. I could do without the incentive to spend on above PS4-PS5 quality games. I'm already having more fun with indie games anyway... on an RX6800 for christ's sake (not the real Christ).\n\nThis is what the GPU market isn't realising. This will just force devs to make games for the lowest common denominator, in terms of GPU ability. I guess this would mean we'll stop getting so many broken games that ignores optimisation for the majority. Digital Foundry will be disappointed. No more shiny tech to review. I'd be disappointed too.\n\nBut why should I pay attention to things I'm unable to realistically factor into my life?",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "nanogenesis",
+                                    "body": ">Upscaling and Frame Gen isn't helping either because it just encourages devs to not bother to optimize and you may need both just to hit 1080p 60fps.\n\nBut its already happening. You can run into so many ignorant sheep who say mhwilds runs fine but all they're doing is running dlss performance with frame gen.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Smart-Potential-7520",
+                                    "body": "It won't happen, Sony themselves already admitted that:\n\n\"We're at a point now where the innovation curve on the hardware is starting to plateau, or top out.\" Layden said speaking to Eurogamer . \"I think we're at a point where the console becomes irrelevant in the next... if not the next generation then the next\u00a0next\u00a0generation definitely.\"\n-------------------\n\n\nPs6 is coming out in 2-3 years which means that it's already in development and it's using current technologies. It's not gonna be a groundbreaking upgrade, the technology simply doesn't exists. \nPs4 is still getting games, PS5 is gonna last even more and i doubt games are gonna be significantly harder to run. \n\nAnd aside from shitty ports and required Ray tracing, old cards are still doing fine on modern titles. There is a reason why people are still using 10XX cards.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Symphonic7",
+                                    "body": "I hate to admit it, but I think gaming as a whole will disappear in the way we know it. Big AAA games are just not profitable anymore. Small studios making passion games will keep the gaming market alive though. Thinking about it now though, this may not be a bad thing. I loved games way more when things were simple and fun, something made to be enjoyed in the short term. I hate live services games and the constant need to keep paying money to keep up in games. But those are not going away any time soon either, specially in the mobile gaming sphere.",
+                                    "score": 0,
+                                    "replies": [
+                                        {
+                                            "author": "996forever",
+                                            "body": "Nah the gaming market would just be dominated by pay to win/lootbox/gatcha mobile games.",
+                                            "score": 0,
+                                            "replies": [
+                                                {
+                                                    "author": "Symphonic7",
+                                                    "body": "I agree, that is what I meant when I said \"But those [live service games] are not going away any time soon either, specially in the mobile gaming sphere\"",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "996forever",
+                                                            "body": "I think that model will only grow bigger and bigger and might even take a bigger pie of the desktop gaming space too\u00a0",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Symphonic7",
+                                                                    "body": "Definitely. I mean I play last war on PC, and its exactly that.",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "ArmedWithBars",
+                            "body": "I doubt the profit margins at $2000 are as much as you think for the AIB. A 5nm wafer from tsmc is approx 16k usd. 5090 die size is about 40 per wafer, but a wafer isn't 100% viable. For high end chips it hovers around 50% usable silicon per wafer. So that's 16k for approx 20 5090 chips in just silicon alone for nvidia. Thats nearly $800 per gpu right there.\n\nCompare that to the 1080ti built on the 16nm node. Those wafers were approx 4k each. That's a 4x increase in cost in the wafer alone.\n\nSo nvidia then has to manufactere the gpu off of it, then add on margins to make money, probably not small margins either. So then the AIB needs to design and R&D their card including the PCB. Then they have to buy everything needed to make the card then pay to manufactere it.\n\nKeep in mind EVGA dipped from the market after 30 series citing the margins were dogshit and it wasn't worth the effort. The 30 series stuff was basically just as expensive as 40 series.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Symphonic7",
+                                    "body": "That math checks out. I guess thats why Asus is pricing their Astral OC edition at $3359.99. Lots more to be made there than at 2k.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "ArmedWithBars",
+                                            "body": "That's called a luxury tax. An entirely overkill luxury version of a product that nobody buying a 5090 needs to even consider. If that was Asus's only 5090 offered then you'd have an argument, but it's not.\n\nMy wife can buy a functional high quality leather purse for $100. Am I going to cry about Gucci selling their version of that purse for $400? No, it's a high markup luxury item that my wife doesn't even need to consider when buying a purse because significantly cheaper options exist.\n\nHow much is Asus allowed to make on their luxury GPU before you get angry? It's called a free market. If the price is too ridiculous then people won't buy it and then Asus will either have to discount or discontinue the model. If the GPU sells out then it's priced right where it's suppose to be. Asus is under no obligation to kneecap their margins because you think it's too expensive.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Symphonic7",
+                                                    "body": "Sorry you feel that way mate, but it wasnt a personal attack. You're right, it is a free market. I could buy a $4k GPU, but I just prefer to spend my money elsewhere. Like motorcycles, its an expensive hobby but just because someone is buying a Honda navi doesnt make me want a street triple less. You're right in saying just because I think its expensive, that it doesn't matter to the manufacturer or anyone else for that matter.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "sips_white_monster",
+                    "body": "There is less competition than ever. All chips come from TSMC, just like with NVIDIA. And TSMC are operating at maximum capacity. Over 90% of NVIDIA's revenue is now selling chips to datacenters. Corporations pay ten times more than consumers per square mm2. As a result neither AMD nor NVIDIA have an incentive to meet consumer demand, because it's basically just throwing away money. Why sell silicon to consumers for under $1000 when a datacenter is willing to spend ten times that amount per mm2.\n\nMost people including here seem to be completely unaware of just how insane the AI boom has been in the last year. NVIDIA especially, but also AMD to a great extent. NVIDIA's revenue has shifted to such an extreme over the last few quarters that the gaming segment is now below 10% of revenue (I believe it's around 7% now). At this rate gamers will become margin of error. Everything is going straight to the datacenters. Millions of GPU's at a time being ordered by Amazon, Microsoft, Meta, Tesla/X and basically every other tech corporation riding the AI hype train. \n\nAnd don't forget those datacenters GPU's are absolutely huge, which compounds the issue. They eat up all the available wafers, leaving nothing for game-related GPU's. That's why the RTX 5090 doesn't exist for example, nor will it ever (unless the AI hype dies down, which isn't happening either).",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "YertlesTurtleTower",
+                    "body": "The bottom of the market has to compete with consoles so it does make sense.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Defeqel",
+                    "body": "it's just gotten too expensive to make these in either cost or opportunity cost",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "cha0z_",
+            "body": "This is what happens when manufacturers finds out people will pay whatever for something. The prices most likely will go up even more and people will still buy ALL GPUs.",
+            "score": 31,
+            "replies": [
+                {
+                    "author": "Nope_______",
+                    "body": "Just shows they are wildly mispriced. They should just cut the crap and sell them for market price, get it over with.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "ArmedWithBars",
+                            "body": "Market price is this price though....if buyers are willing to pay the $ for it then it's fair game. If buyers don't pay and sales slump the company will be forced to drop their prices.\n\nI don't get why people blame the company and not the buyers. Writing was on the wall when people were spending 2x-3x msrp on GPUs during the covid/crypto boom. Manufacterers saw that and were asking themselves why are we settling for trash profit margins. Trash margins at and around MSRP are why EVGA dipped out of the market.\n\nThe sad part is this will look cheap in 5 years. Remember when people were hating on the 4090 for $1600? Pc gamers would be cheered on reddit for scooping a 4090 at retail today. We have endless posts of people showing their 2k+ 5090, gloating about getting one at retail. Give it 5 years and that 2k msrp for a 90 will be remembered as better days.",
+                            "score": 7,
+                            "replies": [
+                                {
+                                    "author": "Nope_______",
+                                    "body": "Market price is probably best represented by what scalpers are selling for, which is more than what Asus or other stores are selling for. That's what I'm saying, the stores should jack prices until there's some stock that sits for more than 1 second. I don't know what the downside is, maybe they don't want to have to drop prices in the future, but it seems like they're leaving a lot of money on the table.",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "cha0z_",
+                                            "body": "supply and demand is what mostly dictates the market prices. I think manufacturers are artificially creating more demand (the fact that both RDNA4 and nvidia 4xxx stopped being manufactured fully months before even the announcements for new GPUs says it all). Why? Selling more cards in this case for around MSRP will lead to less profits as the prices right now are jacked way too much (+ you don't pay the cost to manufacture another GPU and ship it). Also for future profits it's good as the customers will get used to higher prices.\n\nAnyway, I am not saying something ground breaking here, it's obv that manufacturers love the current situation and prices will go even higher. Same story about supply/demand and the scalpers... you have X number of Y, you just need X people to buy on the announced price to sell all your stock. Ofc as seller/business you will sell at the maximum price to have X customers matching your X stock. It's how it works and always was.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "laselma",
+            "body": "Ok I just implemented a buy ban to Asus.",
+            "score": 9,
+            "replies": []
+        },
+        {
+            "author": "youshouldgetaducky",
+            "body": "In EU it still costs 1200$+ for non XT from AMD's partnered stores",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "zabtcent",
+                    "body": "In Poland we have non XT cards available in stores for around 800$, not exactly MSRP but far from 1200$+.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Chickenchaser122",
+            "body": "Mother fuck these greedy pieces of shit. Stop buying from them. Make them feel the pain.",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "5FVeNOM",
+            "body": "There was already a 0% chance of my being an ASUS customer so this doesn\u2019t bother me as much as it seems to bother others. ASUS does and has sucked in terms of business practices for at least 5 years now.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "Temporala",
+                    "body": "I think Asus wants to pretend they're like Apple, extraordinary and remarkable brand.\n\nBut really, they're just a normal brand with questionable RMA practices and fake bling bling \"halo\" products.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "5FVeNOM",
+                            "body": "It\u2019s not specific to ASUS but I don\u2019t really think AIBs add much value to the space, none of them produce much in terms of real innovation. I wouldn\u2019t call any ASUS product to really be interesting or innovative. That is somewhat to do with how NVIDIA/AMD manage those relationships, in terms of not giving them enough leash to really do much with the product. \n\nI would prefer AIBs go away entirely or let them off the leash and give them meaningful ability to differentiate their product from reference versions and each others. I don\u2019t see how this middle ground deal really works well for anyone.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "AkaliAz",
+            "body": "![gif](giphy|10JhviFuU2gWD6)",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Doimai",
+            "body": "Well, as annoying as this may seem. From a business standpoint. If their inventory sells out completely with each wave they release. Why would they not? \n\nI'm just playing devils advocate here. If their focus is making profit. Then why would they not do this?",
+            "score": 15,
+            "replies": [
+                {
+                    "author": "YertlesTurtleTower",
+                    "body": "And this is why capitalism only works for the rich",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "borden5",
+                    "body": "Yeah. GPU is a luxury item, people can wait it out instead of giving in the FOMO. Simply demand and supply at work.",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "jedidude75",
+            "body": "I was originally planning on getting a 5090 Astral but I'm glad I was able to get a FE instead. The pricing is insane from all the AIB's to be honest, but ASUS is definitely the worst.",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "FakeSafeWord",
+                    "body": "How'd you snag the FE?",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "jedidude75",
+                            "body": "I signed up for the verified priority access program nvidia had and was able to get one last week when they sent that round of emails out. I think right now only people who currently had 4090's are being chosen though.",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "AK-Brian",
+                                    "body": "Mine got buried by my email filter; I only noticed it on the day it had expired.\n\nSome specific oaths were uttered.",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Motor-Platform-200",
+                            "body": "he used his five finger discount",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "FakeSafeWord",
+                                    "body": "He fisted someone?",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "puffz0r",
+                                            "body": "his wallet",
+                                            "score": 1,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "EIiteJT",
+                                            "body": "No, he got fisted",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "FakeSafeWord",
+                                                    "body": "Where do I sign up?",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "jedidude75",
+                                            "body": "https://media.tenor.com/yGJeXau7VekAAAAe/youknowthatsright-imright.png",
+                                            "score": 1,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Motor-Platform-200",
+                                            "body": "I must be showing my age if people are not getting what was commonly used slang as little as a decade ago",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "FakeSafeWord",
+                                                    "body": "I'm intentionally misconstruing your response.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Humding",
+            "body": "I bought a 6700xt from Asus a couple of years ago, ignoring the warning signs, thinking the issues were edge cases. How wrong I was, worst company I have ever had to deal with. I say this without hyperbole, I would NEVER buy anything from them again, even if it was -\u00a3100 under MSRP",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Statertater",
+            "body": "I\u2019m not ever touching asus products. No way no how.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "w142236",
+            "body": "Fuck asus",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "babugz",
+            "body": "I'll gladly help asus with their delusions of 'premium' grandeur by ignoring their products.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "perduraadastra",
+            "body": "Welp, I missed buying a 9070 card on the first day, guess I am waiting a few months for things to become sane.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "unlap",
+            "body": "It was $720 on launch for the 9070 XT when I tried to order on Newegg, but it got cancelled.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Toast_Meat",
+            "body": "At this point I don't even know why news like this matters anymore. I wouldn't be shocked if one day they literally double the MSRP. The main problem is that people still buy them and they keep selling out. These higher prices will once again normalize and become the standard because everyone keep purchasing overpriced products.\n\nIt's scummy that the manufacturers/retailers do this but it's the customers who support this behavior. It's no different than buying from a scalper at this rate and it's sad that a lot of people don't see that because they bought it at a store. Here on Reddit we know better but we're also just a tiny percentage of the general population. Watch these products continue to sell out.\n\nObviously, I hope I'm wrong and these GPU's remain on store shelves until they're forced to come down in price.\n\n/rant",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "phata-phat",
+            "body": "Not surprising. They are running a tight ship with low margins and high inflation eating into their profits.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "demondus",
+            "body": " One with your wallet.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SpaceRangerWoody",
+            "body": "I bought an Asus motherboard for my first PC. It was an overpriced, buggy nightmare. Lasted a year before I replaced it with a much more affordable and stable AsRock.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BaysideJr",
+            "body": "It's a supply problem.  If there were a flood of cards they would sell closer to msrp or at msrp.  \n\nThe problem is we have 1 foundry TSMC, 2 GPU vendors now 3 with Intel but all fighting for TSMC.  There is AI buying all the inventory they can get.  What we need is APUS/SOCs like how Apple does it to take off.  But if its great for server farms and AI we can expect the same thing to happen.  I just want ARM to takeover PC gaming so we have more choice maybe that would help too.   There are no solutions but to ramp up production a ton and they probably wont.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MonaBestWife",
+            "body": "Months after orders arent being bought out as soon as they hit online or shelves, will the price remain the same? As in retailers will never go down to their first promised price?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "F-Po",
+            "body": "All over priced. They do this because people are gullible on costs.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "RVixen125",
+            "body": "Aorus and Strix are both overpriced gimmicks",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SmashesIt",
+            "body": "Price Gouging",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Courtjester1976",
+            "body": "I'll stick with my $900 Sapphire Nitro + 7900xtx",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "AutoModerator",
+                    "body": "Your comment has been removed, likely because it contains trollish, political, rude or uncivil language, such as insults, racist or other derogatory remarks.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Amd) if you have any questions or concerns.*",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "xblackdemonx",
+            "body": "ASUS has been going downhill for the past couple of years. I will not buy their products anymore.\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "AutoModerator",
+                    "body": "Your comment has been removed, likely because it contains trollish, political, rude or uncivil language, such as insults, racist or other derogatory remarks.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Amd) if you have any questions or concerns.*",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ash_ninetyone",
+            "body": "Asus making their best effort to make me buy someone else's product",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "intelceloxyinsideamd",
+            "body": "asuck\n\nglad im a saphhire and asrock chad",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "AutoModerator",
+                    "body": "Your comment has been removed, likely because it contains trollish, political, rude or uncivil language, such as insults, racist or other derogatory remarks.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Amd) if you have any questions or concerns.*",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "olov244",
+            "body": "for the most absolutely basic fanshroud",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Accomplished_Sea3811",
+            "body": "F Asus",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "r4plez",
+            "body": "Republic of Greed",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Rich_Repeat_22",
+            "body": "When buying AMD GPU get Sapphire, Powercolor, XFX, Asrock.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "cybrsrce",
+                    "body": "About that... The pair of Sapphire Pulse 9700 XT that I have on the way were $729.  I know AMD is better about pricing for their AIB partners than NVIDIA but they only planned to undercut the 5070 ti by $50.  If they meant what they said at launch they would reduce the price for them to provide us cards at MSRP.  NVIDIA is selling their FE at cost to hit MSRP but they don't care about their consumer board partners.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Rich_Repeat_22",
+                            "body": "I am with you. We shouldn't pay exuberant prices no matter who they are and there is no need to upgrade all the time. If someone has 12GB+ VRAM from Radeon 6000 / RTX2000 series, looking for upgrade is just because wants to do it, not because needs to do it. \n\nIf my 5700XT AE had 12GB VRAM wouldn't have been forced to replace it last July. However while 90% of the games I play don't need more than 8GB, there are 3 games who needed more VRAM and was getting annoyed. Other than that served me well for best part of 5 years. \n\nThe 7900XT will serve me well for years to come, thought I will be keeping my eyes for a white 7900XTX bargain.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "cybrsrce",
+                                    "body": "Unfortunately, this is my upgrade cycle.  I'm not in love with spending, we'll call it, the January MSRP of the 9070XT but for the 4-5 year lifespan of the cards it is what it is.  I would be more disappointed spending $400 over MSRP for an OC model with 3% more performance.  \n  \nUpgrading from a 3070 and 3070 ti to get more memory for a couple games that dump out at 3440x1440 like Indiana Jones.  Those cards definitely still have the power to provide a decent experience but just can't do the job with 8gb so the kids have been playing at 1080p on a 21:9 monitor, that is no way to live life.\n\nOn the other side of that I feel no need to upgrade my 7900XTX (Which I upgraded from a 7900GRE for AI VRAM) since it if fine for me linux gaming at 1440p.  But if I see a 9090XTX in the near future I'll need someone to lock me in a room until launch inventory is gone.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Rich_Repeat_22",
+                                            "body": "Imho I will wait few months. Prices will level. Look at the 9800X3D is down to MSRP.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "rabaluf",
+            "body": "peoples still buy asus known every product is overpriced?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "NewTim64",
+            "body": "JESUS that's almost 75% extra on the MSRP for the 5090\n\n  \nAsus saw the Scalper Prices and took it as a challenge to be even worse",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Letterstothor",
+            "body": "Yeah no thanks",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Odd-Onion-6776",
+            "body": "ASUS is always pricey",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "EroReaper-69",
+            "body": "Called this as soon as they announced it",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Tricky-Row-9699",
+            "body": "This card wasn\u2019t even all that good at $599, but this is the market we live in now. AMD can take two years to improve performance per dollar by 16% and people just jump all over it.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Bidenwonkenobi",
+                    "body": "Idk I love my 9070 xt coming from a 3080 ti",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "996forever",
+                            "body": "Exactly, that 30% improvement after 3-4 years would not have been considered good a few years back.\u00a0",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "Bidenwonkenobi",
+                                    "body": "I agree wish it was a bigger leap, but I really like the afmf 2.1 and fsr 4 featureset",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

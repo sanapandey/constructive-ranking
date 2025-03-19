@@ -1,0 +1,67 @@
+{
+    "title": "Is it possible to remove all the game information from a GBA cartridge and put a rom into it and have it function as a new game?",
+    "author": "ThatOneOpp",
+    "subreddit": "Roms",
+    "rank": 16,
+    "score": 0,
+    "upvote_ratio": 0.22,
+    "num_comments (reported by reddit)": 8,
+    "url": "https://www.reddit.com/r/Roms/comments/1je8jze/is_it_possible_to_remove_all_the_game_information/",
+    "id": "1je8jze",
+    "selftext": "Title",
+    "comments": [
+        {
+            "author": "AutoModerator",
+            "body": "If you are looking for roms: Go to the link in https://www.reddit.com/r/Roms/comments/m59zx3/roms_megathread_40_html_edition_2021/\n\nYou can navigate by clicking on the various tabs for each company. \n\nWhen you click on the link to Github the first link you land on will be the Home tab, this tab explains how to use the Megathread.\n\nThere are Five tabs that link directly to collections based on console and publisher, these include Nintendo, Sony, Microsoft, Sega, and the PC.\n\nThere are also tabs for popular games and retro games, with retro games being defined as old arcade systems. \n\nAdditional help can be found on /r/Roms' official Matrix Server [Link](https://matrix.to/#/#romz:matrix.org)\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Roms) if you have any questions or concerns.*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "sarduchi",
+            "body": "Not using genuine cartridges, but bootlegs are often just cheap flash carts that can be reflashed with the correct tools (GBxCart RW, etc).",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "ThatOneOpp",
+                    "body": "Dont bootlegs have problems with saving though?",
+                    "score": -5,
+                    "replies": [
+                        {
+                            "author": "gillgrissom",
+                            "body": "Some have battery back up, most wont. So they\\`ll more than likely have games on that dont require you to save your progress.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "sarduchi",
+                                    "body": "Or they'll use patched ROMs to save to flash RAM rather than needing a battery backup.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "gillgrissom",
+                                            "body": "Not without a battery, as the flash would just erase each time system is turned off.",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "Captain_N1",
+                                                    "body": "nand flash does not erase when the power is off. Sram does.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "gillgrissom",
+            "body": "Some bootlegs might be able to with correct tools, but not usually as they are write once bootlegs roms.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

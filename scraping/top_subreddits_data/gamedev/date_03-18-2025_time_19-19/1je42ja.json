@@ -1,0 +1,183 @@
+{
+    "title": "Testing a game idea through a \"fake\" trailer",
+    "author": "glimsky",
+    "subreddit": "gamedev",
+    "rank": 17,
+    "score": 9,
+    "upvote_ratio": 0.72,
+    "num_comments (reported by reddit)": 27,
+    "url": "https://www.reddit.com/r/gamedev/comments/1je42ja/testing_a_game_idea_through_a_fake_trailer/",
+    "id": "1je42ja",
+    "selftext": "Has anyone ever tested the market fit of a game idea through a trailer?\n\nIn my opinion, \\*time\\* is one of the most important resources a solo developer has. It takes a huge amount of effort to ship a game, even a bad one. At the same time, it's possible to build a decent-looking trailer with a non-playable prototype (everything hardcoded) or even solely through an animation tool like Premiere. I've spent close to 2 years on my current game, but I think I could have built a trailer for it on my very first month if I had focused exclusively on the assets needed for the trailer. I might have discovered back then what took me over a year to find out... That my game is just a \"medium\" market fit.\n\nHas anyone considered building a trailer this way to test a game idea before spending years building the actual game?",
+    "comments": [
+        {
+            "author": "MrCrabster",
+            "body": "Publishers of hyper casual games been doing it for ages now.",
+            "score": 40,
+            "replies": [
+                {
+                    "author": "tcpukl",
+                    "body": "That's exactly what I was thinking. But it can only be done with small games.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "vionix90",
+                    "body": "This is true. They design the game to look exactly like the ad to reduce the Cost per install.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "MeaningfulChoices",
+            "body": "Some mobile games (specifically hypercasual) are made this way. First they make a bunch of ads and see which ones get the most clicks and then they build that game only. \n\nYou don't see it much in other games because it both takes a lot of work and gives kind of inaccurate results. However testing concepts, prototypes, art direction, and anything else _is_ very common. That's why often the first thing you do if you need market validation (or a publisher) isn't make a trailer, it's make a vertical slice. You do focus only on the assets needed but you also build the actual game, creating not 30 seconds of video but 5 minutes of gameplay. Then you test that.",
+            "score": 13,
+            "replies": []
+        },
+        {
+            "author": "yesat",
+            "body": "People even made full games about \"Those games\" https://store.steampowered.com/bundle/42936/YEAH_YOU_WANT_THOSE_GAMES_RIGHT_SO_HERE_YOU_GO_NOW_LETS_SEE_YOU_CLEAR_THEM_12/",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "mark_likes_tabletop",
+                    "body": "This is a brilliant idea.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "AgeMarkus",
+            "body": "You can do that to see if people are interested in buying your game idea. But if you do this early on then you have no way to know if your game is actually going to turn out good, and you might end up committing to gameplay that makes no sense and feels terrible to play just because it looked cool visually in the trailer. It makes it a lot harder to iterate on the game's design without lying to your audience with a trailer that won't reflect the final game. Works great for mobile slop that just wants you to download the game for 5 minutes and watch an ad before uninstalling though.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "WeirdSysAdmin",
+            "body": "I\u2019m not a game dev in my career but we do this all the time on the SaaS platform I manage. Mock things up and focus group them. Would basically be the same thing except you would have a pre-rendered video.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "vlevandovski",
+            "body": "I\u2019ve tested web applications that way, buying ads leading to my landing page with screenshots and features of the \u201csoftware\u201d to see how people interact with it.\n\nDon\u2019t see a problem doing the same with games, if done correctly (gameplay clearly shown, so people don\u2019t think it\u2019s something else).",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "justforasecond4",
+            "body": "i'd like to return here later xD",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DreasWasTaken",
+            "body": "Game companies definitely do this. At larger companies it's a good way to \"fail early\". You get valuable data on cost and if people are interested. It does have a upfront cost since you need enough data to make a conclusion and the skill set to make that determination. The important thing would be a polished vertical slice that represents the final product. Clicking the ad could send them to a page with a survey or a email sign up to let them know when the game is out.  \nFor a solo dev I would wonder what you get out of it vs the cost. You could end up spending a lot of time and money testing different ideas and end up with none of them having the data you would like.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SlapstickMojo",
+            "body": "If you haven\u2019t, watch Wil Wright\u2019s GDC talk where he introduced Spore. That video blew people away. Then realize it wasn\u2019t a working game \u2014 it was all pre-animation and simulations. The real game was far less impressive.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "djentleman_nick",
+            "body": "Ninja Theory uses this method, maybe not to judge gameplay viability, but concept viability. They make a cinematic trailer for a game and then start building it. Hellblade is a great example, it's first trailer looks nothing like the actual game, but it conveyed the concept the team wanted to go with.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "David-J",
+                    "body": "YOu have a link to it?",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Live_Length_5814",
+            "body": "Trailers show gameplay now",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "XxXlolgamerXxX",
+            "body": "Yes you can do it. But also if you do it wrong is a recipe for a disaster. For example if you can't deliver a promise people can feel deceived. There are a lot of case where the trailers are nothing related to the final product an people get angry about it.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MartinLaSaucisse",
+            "body": "Big AAA studios use this technique sometimes, they make a fake gameplay trailer for internal use only, to convince the publishers that the game will be good. I've seen this a few times and it's always fun to compare the initial vision with what the game eventually became (unfortunately those kind of trailers are never released to the public).",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Neltarim",
+            "body": "That's basically every crowd funding way of working tho",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SquirrelConGafas",
+            "body": "Don\u2019t go with trailer, focus on short gif",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Hot_Hour8453",
+            "body": "That's basically how Black Wukong was born. Its director wanted to create a game that looks like a movie so he made a movie-like short trailer in UE4. It went viral (12mil views in 1 day!) which made his studio get funded by Tencent to create the game, growing the original team of seven to more than a hundred.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "riley_sc",
+            "body": "This is useful when combined with market research: taking out ads to measure click-through, focus groups, surveys, etc. I think there\u2019s an epidemic in this industry of not validating product market fit early so I think this is a very useful tool.\n\nHowever that\u2019s different than using fake materials to market your game. When used for market testing it should be scrubbed of anything that identifies a specific company or title. Using fake trailers for your actual marketing is scummy and will often backfire.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "JackJamesIsDead",
+            "body": "I might be misremembering the title but I believe The Day Before was an example of this. Beautiful trailer showcasing what they intended to make and (you know the rest, even if you don\u2019t).",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "GlazedInfants",
+                    "body": "You mean the game that showcased an entirely different genre in their trailer and acted shocked when people demanded refunds for being lied to?\n\nI don\u2019t think they intended to make the game in their trailers at all, considering how shifty they were being with showing off actual (not scripted) gameplay and deleting their trailers entirely when people actually saw what the game was like. It was shown off as a multiplayer open world survival game with vehicles (among other things), and it ended up being an empty (quite literally, only two zombies in a single 5 block radius at a time from what I saw) Tarkov-esque extraction shooter with a weird base-building mechanic tacked on. When you have a game that\u2019s completely different than the one you enticed people with in your trailer, and you exploited this hype all the way up to release, I think it\u2019s pretty apparent the trailers were never intended to be their actual product in the first place.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "SuspecM",
+                    "body": "That was a scam more than anything",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "tcpukl",
+                            "body": "Was it though? I just remember thinking it was an indie Dev making an ok looking game that lacked programmers.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Slarg232",
+                                    "body": "They made like three games in the meantime while they were supposedly working on The Day Before, one of which being PropNight, a Prop hunt Dead by Daylight combination.\n\nEven if you want to give them the fullest benefit of the doubt, they were extremely unfocused when it came to making The Day Before",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "tcpukl",
+                                            "body": "They still to me just looked like an indie game rather than any scam. Over ambitious maybe, but that's pretty normal.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

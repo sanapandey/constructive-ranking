@@ -1,0 +1,103 @@
+{
+    "title": "ELI5 When it comes to Hilbert's hotel, why can't you do the 2n solution for an infinite amount of infinite buses instead of the prime number solution?",
+    "author": "Natural_Squirrel_628",
+    "subreddit": "explainlikeimfive",
+    "rank": 7,
+    "score": 17,
+    "upvote_ratio": 0.78,
+    "num_comments (reported by reddit)": 14,
+    "url": "https://www.reddit.com/r/explainlikeimfive/comments/1jeatxp/eli5_when_it_comes_to_hilberts_hotel_why_cant_you/",
+    "id": "1jeatxp",
+    "selftext": "Isn't infinity \u00d7 infinity = infinity? How is the prime number solution and the double solution different, since they both create an infinite amount of spaces?",
+    "comments": [
+        {
+            "author": "Schnutzel",
+            "body": "Because it's not enough to create an arbitrarily infinite number of rooms, you need a way to assign each person a room number. This method is what actually proves that infinity x infinity = infinity (specifically that Aleph0 x Aleph0 = Aleph0, but I won't get into that).",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "FluffyKittiesRMetal",
+                    "body": "Omg please do!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "luxmesa",
+            "body": "Hilbert\u2019s Hotel is about a concept in math called \u201ccountability\u201d. That\u2019s where if you have an infinitely large set of numbers, is it possible to come up with some system to number them, and what would that system be.\n\nFor Hilbert\u2019s Hotel, the guests are the infinitely large set and the hotel rooms are the numbers you\u2019re trying to assign to them. The question isn\u2019t \u201ccan you fit everyone\u201d it\u2019s \u201ccan you figure out what room number everyone should have. For the case of the single bus with infinite guests, if a guest comes up to you and says \u201cI\u2019m passenger 122 from the bus\u201d, you can say \u201cyou\u2019re in room 243\u201d, and you can prove that no one else will be in that room. If someone comes up and says \u201cI\u2019m guest 51 from the hotel\u201d you can say \u201cyou\u2019re now in room 102, and you can prove that no one else is in that room.\u00a0\n\nYou can\u2019t use the same method for an infinite number of buses. You need some system to determine which room guest 143 from bus 27 and guest 143 from bus 4,526 should be in.\u00a0\n\nEdit: clarification\u00a0",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "AlchemicalDuckk",
+                    "body": "> You can\u2019t do the same for an infinite number of buses. You need some system to determine which room guest 143 from bus 27 and guest 143 from bus 4,526 should be in. \n\nThere are methods for doing so, such as the prime powers method.\n\nFor each infinite person *i* currently already in the hotel, they are moved to room number 2^i. So the current guests would go to rooms 2, 4, 8, 16, etc.\n\nFor the first bus with infinite people, for each infinite person on that bus *n*, put them in room 3^n, e.g. rooms 3, 9, 27, etc.\n\nFor the second bus of with infinite people, for each infinite person on that bus *m*, put them in room 5^m, e.g. rooms 5, 25, 125, etc.\n\nKeep repeating this process for infinite buses with infinite people, with each bus getting assigned the next prime number (eg. 2, 3, 5, 7, 11, etc).\n\nThat's the difference with the 2n solution - the 2n solution will only let you assign rooms with one bus with infinite people. The prime power method lets you assign infinite rooms to infinite buses of infinite people.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "luxmesa",
+                            "body": "Yes, you\u2019re right. I misspoke. I\u2019ll edit my comment to clarify that.\u00a0",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Sjoerdiestriker",
+            "body": "The double solution allows you to fit two busses of people into the hotel. You assign the people in one bus to the evens, and tthe people in the other bus to the odd numbers.\n\n  \nBut now a third bus comes along, and the hotel is full. Of course if we start over we can instead fit the first bus into rooms 3n, second bus into rooms 3n+1 and third bus into rooms 3n+2, but this will break again with the fourth bus. For a (countably) infinite number of busses, no one will ever settle on a room number in this way, and you'll instead keep shuffling people around, which is not what we want.\n\n  \nThe prime number solution allows us to assign a room number to everyone from the (countably) infinite number of busses, without having to shuffle people around. That is the difference between the two",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "eloquent_beaver",
+            "body": "> infinity \u00d7 infinity = infinity\n\nYes, assuming both \"infinity\" terms refer to the same infinite cardinal (e.g., aleph null). Although cardinal arithemetic requires you to assume the axiom of choice, but I digress.\n\nThe point of the thought experiment, specifically the \"countably infinite number of busses each with a countably infinite number of passengers show up\" scenaior is how do you *demonstrate* that truth (that c \u00d7 c = c for some countable infinite cardinal c) using your hotel? To do that, you need to demonstrate a bijection, a one-to-one-mapping.\n\nThe n -> 2n mapping only demonstrates a way to make space for a single busload of (countably) infinite passengers. It doesn't go to show that it works for the (countably) infinite number of busses.\n\nAlthough in the end 2c = c^2 = c, and they really are as you say the same (for any infinite cardinal c really), you need to *demonstrate* it. And the n -> 2n mapping by itself doesn't do that.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "My_useless_alt",
+            "body": "Say I'm in room 1 of the Hilbert Hotel, and we try the 2n solution on infinite infinite busses. What room number should me new room be?\n\nInfinity isn't a number. Infinity is a concept, and trying to do maths on it like it's a number will just end you up at contradictions.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "eloquent_beaver",
+                    "body": "> Infinity isn't a number. Infinity is a concept, and trying to do maths on it like it's a number will just end you up at contradictions.\n\nThat's not really true. Infinity is a concept, true, but it can also be a number in the sense that infinite cardinals and ordinals are \"numbers\"\u2014they may not be *natural* or *integers* or *real* numbers, but they are numbers in various well-defined and conssitent number systems, e.g., the surreals.\n\nCardinal arithmetic works perfectly fine and consistently for infinite cardinals, and they correspond perfectly to how you would expect them to behave based on set theory, although you need to assume the axiom of choice to define cardinal arithemetic.\n\nIf X and Y are sets (finite or infinite, countable or uncountable), and x = |X| and y = |Y| are their sizes:\n\n- x + y = |X| + |Y| = |X \u222a Y| = max(x, y), assuming X and Y are disjoint\n- x \u00d7 y = |X| \u00d7 |Y| = |X \u00d7 Y| = max(x, y)\n- x^y = |X|^(|Y|) = |{the set of all functions from X -> Y}|\n  - A famous example of this is 2^y = |P(Y)|, where P is the power set function.\n  - This likewise goes to show that x^n = x for any infinite cardinal x and any finite n, which is exactly the point of Hilbert's \"infinite number of busses showing up,\" which corresponds to x^2.\n\nAnd so on and so forth. It behaves exactly like you'd expect.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "svmydlo",
+                            "body": "Lots of people expect it has properties that it actually doesn't have, like cancellability. That's why it's such a common misconception that e.g. there's more integers than even integers.\n\nPeople who don't know anything about cardinality will argue that there's twice as many integers as evens, thus there's more integers than evens.\n\nThat's wrong, but even some people who know that integers and evens have the same cardinality often don't properly identify why the previous argument is wrong. They think that \"there's twice as many integers as evens\" is wrong.\n\nBoth those groups are making their mistake by intiutively assuming some properties that are not true.\n\nWhat's going on is that both \"cardinality of integers and evens is the same\" and \"cardinality of integers is twice the cardinality of evens\" is correct. It just isn't true that twice as many means there's more.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "hypatia163",
+            "body": "Let's say that you do the 2n method for each of the busses. I can then ask the question: Where will the person who was in Room 1 be after this is over?\n\nWell, after the first bus was unloaded, they were moved to room 2. After the 2nd bus, they were in room 4. After the 3rd bus, they were in room 8. And so on. Because the hotel - presumably - has successfully accommodated everyone, this person must end up in *some* room at the end. Say that they're in room N. But, their room number keeps going up exponentially and so - eventually - their room number will surpass N and never come back down. We must conclude that they are *not* booked at the hotel anymore, even though they have had a room at every step. In fact, there's nothing special about this person, this is true for EVERY guest. If we repeatedly do the 2n method, then the hotel is empty at the end! (This is another famous paradox known as the [Ross-Littlewood Paradox](https://en.wikipedia.org/wiki/Ross%E2%80%93Littlewood_paradox) and has to do with \"[Supertasks](https://www.youtube.com/watch?v=ffUnNaQTfZE)\".)\n\nOne key issue here is that we never are able to say that \"This Guest *ends up* in This Room\". However, with the prime method, I know immediately exactly where everyone is going to end up. The 500th person in the 3129th bus? They're in room 2^(500)\\*3^(3129).\n\nWhen constructing assignments, we need to be careful because wild things can happen when you start counting.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "phiwong",
+            "body": "The solution should be a method that guarantees that no room is double assigned. If you have double assignment (or perhaps an infinite number of double assignments) then you no longer prove that all the guests can get a room. \n\nBecause powers of primes NEVER overlap, this works well. 2\\^m never equals 3\\^n which never equals 5\\^p for any integer m, n or p (except 0 but zero is not a natural number) This way it is guaranteed that the guests will always be assigned an empty room.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "phiwong",
+            "body": "The solution should be a method that guarantees that no room is double assigned. If you have double assignment (or perhaps an infinite number of double assignments) then you no longer prove that all the guests can get a room. \n\nBecause powers of primes NEVER overlap, this works well. 2\\^m never equals 3\\^n which never equals 5\\^p for any integer m, n or p (except 0 but zero is not a natural number) This way it is guaranteed that the guests will always be assigned an empty room.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Xelopheris",
+            "body": "Think of it this way -- you need to assign everyone a specific hotel room as they get off the bus and go into their hotel room, as well as giving everyone in the hotel a new room number.\n\nWhen you have a new bus show up, you can have everyone in the hotel move from room N to room 2N, and everyone in the bus that was in seat N go into room 2N-1. Now everyone has an assigned room number with no repeats. If you have 3 busses, then you are in rooms 3N, 3N-1, 3N-2, and so on.\n\nWhen you have an infinite number of busses show up, the same trick doesn't work. What room does the person who was originally in room 1 go to? You need to give them a specific room number, but no matter what number, there's at least that many busses showing up.\n\nThe prime factors solution works because it's a way of tying two pieces of information together that will never collide. If everyone has an existing Bus and Seat number (or Hotel and Room number, which we can keep distinct), then by moving into room 2^(x) * 3^(y), you can guarantee that nobody will be in the same room. Anyone else with the same Y value has a different 2 value, and anyone else with the same 2 value has a different Y value. The two never intersect.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "title": "Does a MS in CS make sense for me?",
+    "author": "Similar-Vari",
+    "subreddit": "cscareerquestions",
+    "rank": 11,
+    "score": 9,
+    "upvote_ratio": 0.91,
+    "num_comments (reported by reddit)": 13,
+    "url": "https://www.reddit.com/r/cscareerquestions/comments/1je75e8/does_a_ms_in_cs_make_sense_for_me/",
+    "id": "1je75e8",
+    "selftext": "I have 8 years experience as an analyst at a software company. I\u2019m currently a Sr. Analyst with a MBA and an unrelated undergrad degree. I\u2019m currently making ~$170k but this includes about 40k in RSUs that expire in a year. Half my team was laid off last year & I was moved to another team doing different work. I\u2019ve been looking for a new job but haven\u2019t had any success in the last 3 months. To me the writing is on the walls & I really want to arm myself so that I\u2019m able to maintain/increase my salary & be more technical so that I have more career flexibility & options. I want to be able to pivot to data engineering/data science but all the job req I see require CS degrees. My current stack is just SQL & some Python. My job would contribute up to 8k /yr for tuition. Would this make sense to do for someone in my position? ",
+    "comments": [
+        {
+            "author": "BananaNik",
+            "body": "With 8 years of experience it might be a better use of your time to track down former coworkers or friends who can vouch for you at their new company",
+            "score": 12,
+            "replies": [
+                {
+                    "author": "besseddrest",
+                    "body": "i second this, try harder in your job search",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "Similar-Vari",
+                    "body": "Most are still at my current company but different roles. Also important to note that I\u2019ve usually either been the only analyst on my team or the most technical. My team that was dismantled had a bunch of people who didn\u2019t actually know how to do data analytics but were shuffled to our team in a reorg. They\u2019re now doing non-technical work within the company",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "BananaNik",
+                            "body": "If I\u2019m being 100% honest, I don\u2019t see the point in a generic masters unless a job really really requires it. Maybe a certification? I only say that since 8 years is a lot of experience and I\u2019m surprised more companies aren\u2019t interested.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Similar-Vari",
+                                    "body": "I usually would get a lot of traction in previous years. This year nothing. It\u2019s been pretty deflating. I applied for jobs the year before last & the previous year but always decided to stop looking because my current job kept offering RSU & raises so jumping for more money didn\u2019t make sense. I would most likely go for CS or Data Science. Maybe a concentration in DS or Ai/Machine Learning. Not sure yet as I haven\u2019t done a ton of research yet.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "BananaNik",
+                                            "body": "Yeah the market is insane right now globally. Maybe it might be worth talking to any friends and coworkers you know to see what they are looking for when hiring and see if a masters is worth it. It's just a big commitment is all.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "cashfile",
+            "body": "8k is price for Georgia Tech MS in Comp Sci, I would do it just because it free. However, if your sole goal is just landing job and not learning, spending more time networking, going to conferences, etc is probably a better use of your time.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "LoaderD",
+                    "body": "It\u2019s pretty likely that OP would need to pay back tuition if they get a masters and immediately jump ship. That being said, if OP really feels the need to get another degree instead of just properly networking, GT is good for working professionals",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "fake-bird-123",
+            "body": "Because it would likely be free thanks to your company's reimbursement program, do it but don't stop applying in the meantime.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "The_Mootz_Pallucci",
+            "body": "Oh yes - another degree\n\nSmart!\u00a0",
+            "score": -3,
+            "replies": []
+        },
+        {
+            "author": "zninjamonkey",
+            "body": "You should pivot to more data engineering work and then from there.",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "Similar-Vari",
+                    "body": "That\u2019s been the issue so far. I\u2019ve been having a hard time getting those positions. I don\u2019t really have the technical background for those specifically. I\u2019ll keep looking in the meantime though. Also not sure if a cert would make more sense.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "zninjamonkey",
+                            "body": "A scenario my junior has done is to take a job as a business intelligence engineer.\n\nSome companies call it analytics  engineer \n\nIssue with certs is you might get pigeonholed and do another pivot again but at some consulting companies, snowflake certs are in demand\n\nYou probably also want to do some data engineering project using aws, etc",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

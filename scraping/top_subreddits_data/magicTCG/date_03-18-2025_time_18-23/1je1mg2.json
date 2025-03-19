@@ -1,0 +1,577 @@
+{
+    "title": "Daily Questions Thread - Ask All Your Magic Related Questions Here!",
+    "author": "magictcgmods",
+    "subreddit": "magicTCG",
+    "rank": 0,
+    "score": 8,
+    "upvote_ratio": 0.83,
+    "num_comments (reported by reddit)": 86,
+    "url": "https://www.reddit.com/r/magicTCG/comments/1je1mg2/daily_questions_thread_ask_all_your_magic_related/",
+    "id": "1je1mg2",
+    "selftext": "This is a place for asking simple questions that might not deserve their own thread. For example, if you have a question about a rules interaction, want sleeve and accessory recommendations, or suggestions for your new deck, then this is the place for you.\n\nWe encourage that you post any questions that you may have concerning Magic the Gathering here rather than make a separate thread for each question, though for now we won't require that you do so.\n\n**Rules Questions**\n\nRules questions and interactions are allowed to be posted here, but if you need an answer quickly it may be best to use a dedicated resource like the [24/7 Magic the Gathering Rules Chat](https://chat.magicjudges.org/mtgrules/).\n\n**Deckbuilding Questions**\n\nIf you're trying to get help with a deck, it is recommended that you post your decklist to a deckbuilding website so that it is easier to view. Some popular sites are Aetherhub, Archidekt, Deckbox, Deckstats, Moxfield, MtgGoldfish, and TappedOut.\n\nAdditionally, please include some description of what you are trying to accomplish. Don't just give us a decklist with no explanation, and don't ask extremely vague questions such as \"what cards should I add to my deck to make it better?\", because it's hard to give good advice in those cases. Let us know details, the more the better. Are you building with a particular strategy or theme in mind? Are there any non-obvious combo lines or synergies that people should be aware of? Are you struggling with a particular matchup, or are you finding yourself missing consistency in an important area, and need some help specifically for it? Let us know.\n\n**Commonly Asked Questions**\n\n> _I opened a card from a different set in my booster pack, is this unusual?_\n\nDon't worry, this is completely normal. If you opened a set booster, you have a small chance of obtaining a bonus card from a previous set. This is an extra card that does not replace any of the other cards in your pack, and is from a curated set of past hits that Wizards of the Coast has selected, which they call \"The List\".\n\nYou can view the contents of The List on Wizards of the Coast's official website. For example, the contents of The List for Streets of New Capenna boosters can be found [here](https://magic.wizards.com/en/articles/archive/feature/whats-new-list-streets-new-capenna-2022-04-14).\n\n> _My foil card has a shooting start symbol over the bottom left. I can't find anything about it online._\n\nAll old-bordered foils have the shooting star symbol. Most sites that display card images just overlay a generic foil graphic over all foil cards, which doesn't include the shooting star. Your card is normal.",
+    "comments": [
+        {
+            "author": "Skeither",
+            "body": "Gitrog and dredging allows you to loop at the clean up step. I know that combo with salvage and necrobloom etc but I think this is similar:\n\nWith \\[\\[ketramose\\]\\] and either \\[\\[bag of holding\\]\\] or \\[\\[currency converter\\]\\] out does this allow the same thing?  \n8 cards in hand at clean up  \nDiscard 1 to hand size.  \nCurrency trigger to exile the discarded card from your graveyard.  \nKetramose trigger to draw a card and lose one life  \nBack to 8 cards in hand at clean up so the game forces you to discard again  \nRepeat\n\nCorrect?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "MTGCardFetcher",
+                    "body": "#####&#009;\n\n######&#009;\n\n####&#009;\n\n[*All cards*](https://mtgcardfetcher.nl/redirect/mig2qhj)  \n[ketramose](https://cards.scryfall.io/normal/front/c/f/cffae8d0-7b4e-42ed-8124-24a86b38f490.jpg?1738356679) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=ketramose%2C%20the%20new%20dawn) [(SF)](https://scryfall.com/card/dft/209/ketramose-the-new-dawn?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/cffae8d0-7b4e-42ed-8124-24a86b38f490?utm_source=mtgcardfetcher&format=text)  \n[bag of holding](https://cards.scryfall.io/normal/front/2/9/290f4b4f-4f48-4031-b62a-91a0d6716ddd.jpg?1674137722) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=bag%20of%20holding) [(SF)](https://scryfall.com/card/clb/299/bag-of-holding?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/290f4b4f-4f48-4031-b62a-91a0d6716ddd?utm_source=mtgcardfetcher&format=text)  \n[currency converter](https://cards.scryfall.io/normal/front/1/8/187b6719-e5ed-4615-a00b-3313ceca055b.jpg?1673482465) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=currency%20converter) [(SF)](https://scryfall.com/card/ncc/81/currency-converter?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/187b6719-e5ed-4615-a00b-3313ceca055b?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "RazzyKitty",
+                    "body": "That is correct, but you will kill yourself with that loop if you use Bag of Holding, because it's mandatory actions.\n\nCurrency Converter won't kill you because it's a may ability so you can choose to stop.\n\n> Back to 8 cards in hand at clean up so the game forces you to discard again\n\nWhat actually happens is after the stack is empty and priority is passed, a _new_ cleanup step happens. That's what causes you to discard.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Skeither",
+                            "body": "I noticed that with bag as well as \\[\\[planar void\\]\\]. \\[\\[containment construct\\]\\] acts the same as converter though which is nice. \n\nThanks for the clarification!",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "MTGCardFetcher",
+                                    "body": "[planar void](https://cards.scryfall.io/normal/front/b/0/b035c718-ac11-4c97-a9bb-0cd88dc71904.jpg?1562932180) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=planar%20void) [(SF)](https://scryfall.com/card/usg/149/planar-void?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/b035c718-ac11-4c97-a9bb-0cd88dc71904?utm_source=mtgcardfetcher&format=text)  \n[containment construct](https://cards.scryfall.io/normal/front/5/2/520e5505-429b-4da0-b25e-14b8d4e81ce3.jpg?1654568680) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=containment%20construct) [(SF)](https://scryfall.com/card/neo/243/containment-construct?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/520e5505-429b-4da0-b25e-14b8d4e81ce3?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "jam_i_am",
+            "body": "I found an oversized vanguard card in my old collection - Sliver Queen, Broodmother. It's in good condition. Is it worth anything or should I throw it away?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Hmukherj",
+                    "body": "Depends on condition, but it's worth $50+ if you can find a buyer. It doesn't look like it sells quickly though.\n\nhttps://www.tcgplayer.com/product/21625/Magic-Vanguard-Sliver%20Queen%20Brood%20Mother%20Oversize?xid=af8ce8c95-fbad-4b9e-b152-9b84bae8e24f&Language=English",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "TunaImp",
+                    "body": "Check on tcgplayer. Looks like a near mint one can go for ~$50-60.",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Theesambee",
+            "body": "[[Illusionist's Bracers]] and [[Jor Kadeen, First Goldwarden]] if I understand it right would that double his +X/+X and give him 2 cards? \n\nIf it was just Jor and the artifact equipped would he have a total of 4/4 and draw 2 cards? \n\nOr would it behave funny?\n\nThanks :)",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "moe_q8",
+                    "body": "Jor is a triggered ability not an activated one, so you wouldn't get to copy it.  Activated abilities are usually denoted with a colon, and not things that trigger when a specific action happen.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Theesambee",
+                            "body": "Well poo, is there any equipment that works with triggered abilities? Or any card type that's in Boros colours?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "root1331",
+                                    "body": "Not any equipment that I can find but \\[\\[Strionic Resonator\\]\\] and \\[\\[Lithoform Engine\\]\\] will work.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "MTGCardFetcher",
+                                            "body": "[Strionic Resonator](https://cards.scryfall.io/normal/front/b/9/b9edb215-f967-4968-905e-d1dc3b5d3424.jpg?1682210274) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Strionic%20Resonator) [(SF)](https://scryfall.com/card/moc/384/strionic-resonator?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/b9edb215-f967-4968-905e-d1dc3b5d3424?utm_source=mtgcardfetcher&format=text)  \n[Lithoform Engine](https://cards.scryfall.io/normal/front/6/6/6683416a-5820-4cd0-b28a-60a53239e9ef.jpg?1604200767) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Lithoform%20Engine) [(SF)](https://scryfall.com/card/znr/245/lithoform-engine?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/6683416a-5820-4cd0-b28a-60a53239e9ef?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "MTGCardFetcher",
+                    "body": "[Illusionist's Bracers](https://cards.scryfall.io/normal/front/9/d/9dd8d940-a973-4469-bf78-90318d98f3ab.jpg?1702429773) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Illusionist%27s%20Bracers) [(SF)](https://scryfall.com/card/rvr/260/illusionists-bracers?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/9dd8d940-a973-4469-bf78-90318d98f3ab?utm_source=mtgcardfetcher&format=text)  \n[Jor Kadeen, First Goldwarden](https://cards.scryfall.io/normal/front/e/7/e7e4d8f7-874d-4b2a-ad23-afab479784ea.jpg?1675957193) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Jor%20Kadeen%2C%20First%20Goldwarden) [(SF)](https://scryfall.com/card/one/203/jor-kadeen-first-goldwarden?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/e7e4d8f7-874d-4b2a-ad23-afab479784ea?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Dogshoes57",
+            "body": "I'd like help building my first commander deck\nI'd like to make it a 5 color creature deck with the primary goal of generating as much mana and creatures as possible\nSecondary goals would include gaining life, preventing others from gaining life and destroying opponents cards\nMy reason for wanting this is that I got into magic because I'm a Godzilla fanatic and have the entire set and would really like to use all of them or as many as possible to make the deck functional, I just don't think they'd function as great commanders in order to do this.\nSo this is my entire collection (Edit note)  so far, id love help figuring out what combos I don't know about or things of that nature. Any help is appreciated as I really don't have any magic experts in my life who I can readily ask \ud83d\ude0a\n\n(I have a lot of basic lands and such that aren't on the list)\n\nEDIT: finally managed to cut the collection in half thanks for advice from Gredman9 the other day, so this is a Really rough deck list with the considering being the other cards from the collection and the sideboard being, the goji cards and the potential commanders.\n\n[Godzilla Deck](https://moxfield.com/decks/BdS-3iOZQkid-mAKSbuW3Q)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Sparrowfax",
+            "body": "Not really sure this works, so came here to make sure I get this correct.\u00a0\n\n\nIf I attack with [[The Master, Multiplied]] while I have [[Eomer, Marshal of Rohan]] and someone blocks and blocks a Master copy and kills it I understand it triggers Eomer and I untap my creatures and get an additional Combat phase.\u00a0\n\n\nWhen I enter the new combat phase, can I flash in [[Shimmer Myr]] and if that resolves, then flash in [[Cursed Mirror]] and copy Eomer to get another additional combat phase If blocked?\n\n\nIs this all legal, if not what am I doing wrong to correct my intention?\u00a0",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "MTGCardFetcher",
+                    "body": "#####&#009;\n\n######&#009;\n\n####&#009;\n\n[*All cards*](https://mtgcardfetcher.nl/redirect/mifayt1)  \n[The Master, Multiplied](https://cards.scryfall.io/normal/front/7/f/7f734ca0-91bc-4496-9bd7-2d09415e850f.jpg?1696636744) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=The%20Master%2C%20Multiplied) [(SF)](https://scryfall.com/card/who/146/the-master-multiplied?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/7f734ca0-91bc-4496-9bd7-2d09415e850f?utm_source=mtgcardfetcher&format=text)  \n[Eomer, Marshal of Rohan](https://cards.scryfall.io/normal/front/0/b/0bd31ce9-9551-4efe-8bd2-b97d8efbf75e.jpg?1686968857) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=%C3%89omer%2C%20Marshal%20of%20Rohan) [(SF)](https://scryfall.com/card/ltr/120/%C3%A9omer-marshal-of-rohan?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/0bd31ce9-9551-4efe-8bd2-b97d8efbf75e?utm_source=mtgcardfetcher&format=text)  \n[Shimmer Myr](https://cards.scryfall.io/normal/front/4/f/4f61479b-05e1-4c89-bf11-b79c06ace5e2.jpg?1689999808) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Shimmer%20Myr) [(SF)](https://scryfall.com/card/cmm/409/shimmer-myr?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/4f61479b-05e1-4c89-bf11-b79c06ace5e2?utm_source=mtgcardfetcher&format=text)  \n[Cursed Mirror](https://cards.scryfall.io/normal/front/6/7/6768daa5-41b0-49e1-b71a-63f733b4dc3d.jpg?1717013662) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Cursed%20Mirror) [(SF)](https://scryfall.com/card/mh3/279/cursed-mirror?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/6768daa5-41b0-49e1-b71a-63f733b4dc3d?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "chaotic_iak",
+                    "body": "That all is legal, although whether it's what you want is debatable:\n\nNote that The Master says the legend rule only doesn't apply for creature **tokens** you control. If Cursed Mirror copies Eomer, then it and Eomer are not tokens, so the legend rule will apply to them. If you choose the original to go to the graveyard, then after this turn, Cursed Mirror reverts back to being just a Mirror and you don't have Eomer. If you choose Mirror to go to the graveyard, then it's not around to see an attacking creature dying.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Sparrowfax",
+                            "body": "Before the Cursed Mirror resolves, could I then flash in [[Mirror Box]] to remove legend rule altogether and fix that?\n\n\nI believe that works, but want to be sure.\u00a0\nThanks for the fast response by the way.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "MTGCardFetcher",
+                                    "body": "[Mirror Box](https://cards.scryfall.io/normal/front/d/5/d507daa3-3f16-4ab1-81ea-794e5bb488fc.jpg?1654568747) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Mirror%20Box) [(SF)](https://scryfall.com/card/neo/250/mirror-box?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/d507daa3-3f16-4ab1-81ea-794e5bb488fc?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "chaotic_iak",
+                                    "body": "Sure you can. Just make sure Mirror Box resolves and enters first before Cursed Mirror enters.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "mapleuser135",
+            "body": "\\[\\[The Pandorica\\]\\], could I use this at instant speed if one of my creatures get targeted by a removal, saving it?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "gredman9",
+                    "body": "No.\n\n> {1}{W}, {T}: Untap another target nonland permanent, then it phases out. It can\u2019t phase in for as long as The Pandorica remains tapped. When The Pandorica becomes untapped or leaves the battlefield, that permanent phases in. **Activate only as a sorcery.**",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "MTGCardFetcher",
+                    "body": "[The Pandorica](https://cards.scryfall.io/normal/front/c/1/c1642e04-d39a-46dc-8157-549c225c992f.jpg?1696636539) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=The%20Pandorica) [(SF)](https://scryfall.com/card/who/25/the-pandorica?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/c1642e04-d39a-46dc-8157-549c225c992f?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Seraph_8",
+                    "body": "The pandorica can only be activated as a sorcery",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "eighteencarps",
+            "body": "I'm looking for a pre-built red/white deck. I'm a brand new MTG player (only 2 games that were very guided). I'm not looking for a champion deck since I'm currently only playing with one person and we don't play champion. I'd also prefer a prebuilt deck from WoTC. (Although I'm not sure if any normal red/white decks from WoTC exist? I can only find [this one](https://www.amazon.com/Magic-Gathering-Commander-Ready-Play/dp/B08J88XGMD?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A3BUIZ3A0PJ3F1&gQT=2) which isn't actually red/white.) If I have to buy from a third party, that's okay.\n\nCan anyone help me out here? I don't need anything super fancy or optimized :) I'm just looking to have fun.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Hmukherj",
+                    "body": "You don't mention a format. If you're talking about Commander, the Lorehold precon from Strixhaven is R/W and should be relatively cheap.\n\nIf you're talking about casual 60-card formats, the Boros guild kit might be an option if you can find one for a reasonable price. For any other format, WotC-issued precons don't really exist anymore.\n\nThe other thing to consider is that the playstyle you enjoy might be more important than the colors. So if you describe the types of decks you enjoy, we might be able to offer other suggestions even if they aren't strictly red and white.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "eighteencarps",
+                            "body": "Thank you so much for the help! I'm looking for a standard 60-card format. I'll look into the Boros guild kit.\n\nI've only played with one type of deck so far -- a green/white deck. I didn't enjoy green. I'm basing my preference for red/white because I like to be able to play aggressively while having the ability to \"back myself up\" and heal or do buffs to be able to keep the momentum of the more aggressive play up. My play partner told me white tends to be more healing (although I didn't have any healing cards in the deck I played, mostly flying and mana-generation, which I didn't mind) which is why I picked white :) But if anyone has any alternate suggestions, I'd be interested!",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Hmukherj",
+                                    "body": "A couple of things here:\n\n\\- \"Standard\" refers to a specific 60-card format, which only allows for certain sets from the past \\~3 years (Commander cards and sets like Modern Horizons and Lord of the Rings, are excluded, for example). But if you're just playing casually with your friends, then you probably don't need to worry about format legality. I bring this up because the Boros guild kit won't be legal in \"Standard\" format games, but it will get you a 60-card deck you can play casual games with.\n\n\\- There's an inherent contradiction between playing an aggressive deck and trying to gain life to \"keep the momentum up.\" If you like aggressive decks, red is definitely a good place to start, with either white and green as supporting colors. But life gain isn't generally a good secondary theme for these decks - your goal should be to outrace your opponent, not prolong the game. As an example, even though \\[\\[Boltwave\\]\\] and \\[\\[Healing Salve\\]\\] both generate a 3-life swing, Boltwave is the much, much better card in r/W decks. Your goal should be to reduce your opponent to zero ASAP, without worrying about your own.\n\n\\- If you do want to lean into a lifegain deck, white/black is the preferred combination. Black brings with it a number of cards that let you spend life for a number of beneficial effects, or can directly combo with lifegain to drain your opponents.\n\n\\- What should be apparent from the above points is that lifegain on its own is a weak strategy. While it might help you not lose the game, it doesn't help you win either. To put it another way, life totals aren't a score - they're a resource. Spending life, either directly via abilities or indirectly via not worrying about damage dealt to you, is fine as long as you don't hit zero yourself.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "MTGCardFetcher",
+                                            "body": "[Boltwave](https://cards.scryfall.io/normal/front/8/d/8d1ec351-5e70-4eb2-b590-6bff94ef8178.jpg?1730488883) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Boltwave) [(SF)](https://scryfall.com/card/fdn/79/boltwave?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/8d1ec351-5e70-4eb2-b590-6bff94ef8178?utm_source=mtgcardfetcher&format=text)  \n[Healing Salve](https://cards.scryfall.io/normal/front/0/f/0ff82aba-9022-4eff-a6dc-67365360d646.jpg?1561771079) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Healing%20Salve) [(SF)](https://scryfall.com/card/dvd/14/healing-salve?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/0ff82aba-9022-4eff-a6dc-67365360d646?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                                            "score": 1,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "eighteencarps",
+                                            "body": "Thank you so much! This is great to know. I definitely want to stick with red. I do like the defensive abilities of white, so I may still stick with it, especially since I tried and didn't enjoy green much at all. I won't focus on lifegain, though :)",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "BirthdayInner5868",
+                    "body": "What do you mean that deck isn't actually red white?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "eighteencarps",
+                            "body": "Ope, I got this one mixed up with a different deck! It looks like it is red/white. It's just commander, so not what I'm looking for still. My apologies!",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "BirthdayInner5868",
+                                    "body": "One of the decks in the Assassins Creed starter kit is red white if you're into assassins creed",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "uberjack",
+            "body": "Can I react to my own spells and if so, at which point do I get priority?\n\nLet's say I'm casting a \\[\\[Reanimate\\]\\] to put \\[\\[Phage the Untouchable\\]\\] into play. Can I react (and do my opponents get priority before that) to play \\[\\[Angel's Grace\\]\\] to resolve before Phage's ETB trigger kills me?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Hmukherj",
+                    "body": "Yes.\n\nWhenever a player casts a spell or activates an ability, they have the option to hold priority to add additional items to the stack. Note that if you don't explicitly hold priority, you are assumed to be passing it.\n\nIf you do want to respond to your own spell or ability, the only way to guarantee that you can do so is to hold priority and cast your next spell. If you pass priority, and all of your opponents pass in sequence, then the top item of the stack will resolve without you getting another chance to respond.\n\nSo in your example, as soon as Phage's ETB trigger is put onto the stack, the active player gets priority. Assuming it is your turn, you can then immediately cast Angel's Grace before any other opponent has a chance to respond.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "uberjack",
+                            "body": "Okay thanks!",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "uberjack",
+                            "body": "Late followup question: let's say I cast Phage and she resolves. Can I now cast [[Fractured Identity]] targeting her and instantly take priority to cast a split second spell so that no one else can put anything on the stack and it is guaranteed to resolve (and make everyone else lose)?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "MTGCardFetcher",
+                                    "body": "[Fractured Identity](https://cards.scryfall.io/normal/front/b/2/b2f73f5d-1aad-48c2-9e74-5f7bdd87900f.jpg?1562620703) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Fractured%20Identity) [(SF)](https://scryfall.com/card/c17/37/fractured-identity?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/b2f73f5d-1aad-48c2-9e74-5f7bdd87900f?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Hmukherj",
+                                    "body": "Not quite - there's a misunderstanding of how Split Second works in there.\n\nOnce you've put Fractured Identity onto the stack, you certainly can cast something like [[Krosan Grip]] to prevent new spells or abilities from being put on top.\\* But that's only true for as long as the spell with Split Second is on the stack. Once it resolves, there is another round of priority before Fractured Identity resolves, so your opponents would still be able to counter it normally.\n\n\\*Note that even then, triggered abilities and special actions may cause things to be put onto the stack anyway.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "MTGCardFetcher",
+                                            "body": "[Krosan Grip](https://cards.scryfall.io/normal/front/d/3/d3571dee-7b90-4c0c-abc7-59b515ffa129.jpg?1625194563) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Krosan%20Grip) [(SF)](https://scryfall.com/card/c21/198/krosan-grip?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/d3571dee-7b90-4c0c-abc7-59b515ffa129?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "moe_q8",
+                    "body": "Yes, you can react to your own spells. This is how your situation would play out.\n\nYou cast Reanimate, you have a chance to respond then if you don't do anything your opponent has a chance then if both didn't take their chance to respond, it resolves. \n\nPhage enters and her triggered ability to make you lose the game goes on the stack, you get a chance to respond (probably best to cast angel's grace here), then your opponent has a chance to respond.\n\nBasically whenever anything goes on the stack, the turn player gets a chance to do something first, then the non-turn player(s) in order. If none take the chance, the card/ability on the stack will resolve.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "uberjack",
+                            "body": "Okay nice, thanks!",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "uberjack",
+                            "body": "Late followup question: let's say I cast Phage and she resolves. Can I now cast [[Fractured Identity]] targeting her and instantly take priority to cast a split second spell so that no one else can put anything on the stack and it is guaranteed to resolve (and make everyone else lose)?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "MTGCardFetcher",
+                                    "body": "[Fractured Identity](https://cards.scryfall.io/normal/front/b/2/b2f73f5d-1aad-48c2-9e74-5f7bdd87900f.jpg?1562620703) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Fractured%20Identity) [(SF)](https://scryfall.com/card/c17/37/fractured-identity?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/b2f73f5d-1aad-48c2-9e74-5f7bdd87900f?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "MTGCardFetcher",
+                    "body": "#####&#009;\n\n######&#009;\n\n####&#009;\n\n[*All cards*](https://mtgcardfetcher.nl/redirect/mifj9ug)  \n[Reanimate](https://cards.scryfall.io/normal/front/3/6/368b6903-5fc4-43e7-bd44-46b8107c8bb4.jpg?1738000013) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Reanimate) [(SF)](https://scryfall.com/card/dsc/155/reanimate?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/368b6903-5fc4-43e7-bd44-46b8107c8bb4?utm_source=mtgcardfetcher&format=text)  \n[Phage the Untouchable](https://cards.scryfall.io/normal/front/d/4/d497a5a3-65fb-4c12-b3f2-8ce4cf4e0f6f.jpg?1562866889) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Phage%20the%20Untouchable) [(SF)](https://scryfall.com/card/cns/120/phage-the-untouchable?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/d497a5a3-65fb-4c12-b3f2-8ce4cf4e0f6f?utm_source=mtgcardfetcher&format=text)  \n[Angel's Grace](https://cards.scryfall.io/normal/front/e/7/e78e39ea-20be-4196-992c-7ed2cb8150c1.jpg?1619392535) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Angel%27s%20Grace) [(SF)](https://scryfall.com/card/tsr/4/angels-grace?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/e78e39ea-20be-4196-992c-7ed2cb8150c1?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "krstf",
+            "body": "How could I brake [[Ilharg, the Raze-Boar]] as a commander?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "MTGCardFetcher",
+                    "body": "[Ilharg, the Raze-Boar](https://cards.scryfall.io/normal/front/3/d/3d397fc3-fd4e-45ad-ad40-0f8a585c15fd.jpg?1702550832) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Ilharg%2C%20the%20Raze-Boar) [(SF)](https://scryfall.com/card/rvr/113/ilharg-the-raze-boar?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/3d397fc3-fd4e-45ad-ad40-0f8a585c15fd?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "None",
+                    "body": "[deleted]",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "MTGCardFetcher",
+                            "body": "[Flameshadow conjuring](https://cards.scryfall.io/normal/front/a/e/ae113258-288f-47d5-8f79-e2e51b6326de.jpg?1682209337) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Flameshadow%20conjuring) [(SF)](https://scryfall.com/card/moc/280/flameshadow-conjuring?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/ae113258-288f-47d5-8f79-e2e51b6326de?utm_source=mtgcardfetcher&format=text)  \n[full throttle](https://cards.scryfall.io/normal/front/d/9/d91f7cad-89e8-45cb-a78e-b35b0ee64783.jpg?1738356414) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=full%20throttle) [(SF)](https://scryfall.com/card/dft/127/full-throttle?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/d91f7cad-89e8-45cb-a78e-b35b0ee64783?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "krstf",
+                            "body": "Would that work though? Without second combat those tokens just fizzle out, no?\n\nSo far I came up only with copying ilharg himself  with [[helm of the host]] and capitalising on his on attack ability with some strong etbs. \n\nThese two could probably work together",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "MTGCardFetcher",
+                                    "body": "[helm of the host](https://cards.scryfall.io/normal/front/1/d/1d65d20c-09e5-4139-838b-7e0e48eb2b2b.jpg?1666094567) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=helm%20of%20the%20host) [(SF)](https://scryfall.com/card/dom/217/helm-of-the-host?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/1d65d20c-09e5-4139-838b-7e0e48eb2b2b?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "ImperialVersian1",
+                    "body": "You could break\\* Ilharg with creatures that have powerful ETB effects or stuff that really disrupts your opponents' combat plans. The problem is that there's only so much you can do in Mono-Red.\n\nTaking a look at Ilharg's page in EDHRec (https://edhrec.com/commanders/ilharg-the-raze-boar), you'll notice that there's tons of creatures with really high mana values that have some kind of meaningful impact when they enter.\n\n\\- \\[\\[Meteor Golem\\]\\] straight up blows up something an opponent controls.\n\n\\- \\[\\[Thundermare\\]\\] taps all other creatures, which sucks if you want to leave behind any blockers, but also makes sure that it's much more difficult for your opponents to block.\n\n\\- \\[\\[Terror of Mount Velus\\]\\] gives all of your creatures double strike until end of turn.\n\n\\- \\[\\[Breaker of Armies\\]\\] force all creatures to block it, and it's most likely taking down something big while at it.\n\n  \nEtc.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "MTGCardFetcher",
+                            "body": "#####&#009;\n\n######&#009;\n\n####&#009;\n\n[*All cards*](https://mtgcardfetcher.nl/redirect/migehbd)  \n[Meteor Golem](https://cards.scryfall.io/normal/front/d/2/d291ea1e-36bc-46b3-b3ae-084fa0ba69eb.jpg?1733036771) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Meteor%20Golem) [(SF)](https://scryfall.com/card/fdn/256/meteor-golem?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/d291ea1e-36bc-46b3-b3ae-084fa0ba69eb?utm_source=mtgcardfetcher&format=text)  \n[Thundermare](https://cards.scryfall.io/normal/front/7/0/7068c0c3-4ec9-4c02-84db-42b609df545f.jpg?1562736929) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Thundermare) [(SF)](https://scryfall.com/card/9ed/224/thundermare?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/7068c0c3-4ec9-4c02-84db-42b609df545f?utm_source=mtgcardfetcher&format=text)  \n[Terror of Mount Velus](https://cards.scryfall.io/normal/front/3/9/3959a6c7-d615-4524-b94d-65f4164a2656.jpg?1730490687) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Terror%20of%20Mount%20Velus) [(SF)](https://scryfall.com/card/fdn/549/terror-of-mount-velus?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/3959a6c7-d615-4524-b94d-65f4164a2656?utm_source=mtgcardfetcher&format=text)  \n[Breaker of Armies](https://cards.scryfall.io/normal/front/7/8/784e843e-7010-466d-adbd-1dd1595aead1.jpg?1562923386) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Breaker%20of%20Armies) [(SF)](https://scryfall.com/card/bfz/3/breaker-of-armies?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/784e843e-7010-466d-adbd-1dd1595aead1?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "krstf",
+                            "body": "Thank you so much \ud83d\ude4f \nETBs are exactly what I was looking at. I\u2019ve found meteor golem but not the rest. Thanks for the tips. Sunspine lynx can be quite the killer imho. \n\nThat felt like the intended thing though. I was wondering how to take an advantage of ti to maximum so it can stand toe to toe with kalia, slivers, mizzet and such. \n\nMy idea was something like helm of the host or other legendary copying. Dropping multiple high cmc per combat and then multiple combats\u2026  breath of fury sound like gg. \n\nAlso maybe blinking those creatures so they stay for free? Idk. I a\u02c7 just trying to brainstorm.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "tenebrousGallant",
+            "body": "Actually just dropped this in another thread, but what to double check.\u00a0\n\n\nIf I have a board of ten creatures, one of them is [[Brago, King Eternal]] the other is [[Halimar Excavator]], and I've got [[Panharmonicon]] and [[Virtue of Knowledge]], just how many cards do I get to mill?\u00a0\n\n\n\nMy understanding is I'll get one trigger equal the number of creatures for each creature entering, then an additional from Panharmonicon, and an additional one for Virtue of Knowledge, so each creature mills 30 cards, right?\n\n\n*Forgot to mention my Leyline of Transformation making everyone Allys.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "RazzyKitty",
+                    "body": "Halimar Excavator will trigger three (1+Pan+Virtue) times for each creature for a total of 30 triggers. Each trigger will check the number of allies as it resolves.\n\n30 triggers resolving with 10 allies means you mill 300 cards total, 10 at a time.\n\n>so each creature mills 30 cards, right?\n\nEffectively, but Halimar Excavator is the one that triggers. The other creatures aren't doing the milling.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "MTGCardFetcher",
+                    "body": "#####&#009;\n\n######&#009;\n\n####&#009;\n\n[*All cards*](https://mtgcardfetcher.nl/redirect/mig5qt6)  \n[Brago, King Eternal](https://cards.scryfall.io/normal/front/0/a/0ac3fb08-741a-49e5-9fae-b26819677d24.jpg?1631235340) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Brago%2C%20King%20Eternal) [(SF)](https://scryfall.com/card/khc/82/brago-king-eternal?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/0ac3fb08-741a-49e5-9fae-b26819677d24?utm_source=mtgcardfetcher&format=text)  \n[Halimar Excavator](https://cards.scryfall.io/normal/front/d/1/d147dce7-b2dd-426a-9ff7-843d50bb8b01.jpg?1562296656) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Halimar%20Excavator) [(SF)](https://scryfall.com/card/wwk/29/halimar-excavator?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/d147dce7-b2dd-426a-9ff7-843d50bb8b01?utm_source=mtgcardfetcher&format=text)  \n[Panharmonicon](https://cards.scryfall.io/normal/front/9/9/998d0cc8-ca2a-41c3-ab65-d05c26ab8278.jpg?1722108762) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Panharmonicon) [(SF)](https://scryfall.com/card/2x2/310/panharmonicon?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/998d0cc8-ca2a-41c3-ab65-d05c26ab8278?utm_source=mtgcardfetcher&format=text)  \n[Virtue of Knowledge](https://cards.scryfall.io/normal/front/d/f/df606cf5-67dc-46f4-8c79-1d2f1d054391.jpg?1722108809)/[Vantress Visions](https://cards.scryfall.io/normal/front/d/f/df606cf5-67dc-46f4-8c79-1d2f1d054391.jpg?1722108809) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Virtue%20of%20Knowledge%20//%20Vantress%20Visions) [(SF)](https://scryfall.com/card/woe/76/virtue-of-knowledge-vantress-visions?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/df606cf5-67dc-46f4-8c79-1d2f1d054391?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Helpful_Breakfast586",
+                    "body": "Not sure if you already know, but \"Ally\" doesn't refer to any creature you control, only creatures with the specific creature type \"Ally\". You'd need something like \\[\\[Maskwood Nexus\\]\\] to make Brago count as an Ally.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "tenebrousGallant",
+                            "body": "Sorry, yeah, missing context was Leyline of Transformation.",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "MTGCardFetcher",
+                            "body": "[Maskwood Nexus](https://cards.scryfall.io/normal/front/1/2/1246c42d-57c0-4cba-959a-15ad89d8a50b.jpg?1674142652) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Maskwood%20Nexus) [(SF)](https://scryfall.com/card/clb/865/maskwood-nexus?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/1246c42d-57c0-4cba-959a-15ad89d8a50b?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "GoblinTenorGirl",
+            "body": "What time is the Dragonstorm stream?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Fresh_Willie",
+            "body": "I have a question about committing crime with this combo. I have mesmeric orb and deepmuck desperado in play. When an opponent goes to untap each permanent they control will that trigger deepmuck desperado or not? If so would I get a trigger for each untapped permanent?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "gredman9",
+                    "body": "> When an opponent goes to untap each permanent they control will that trigger deepmuck desperado or not?\n\nNo.  You only commit a crime when you target an opponent or anything they control.  You are not \"targeting\" the permanents that your opponent is untapping.\n\n> If so would I get a trigger for each untapped permanent?\n\nEven if you were, Desperado says \"this triggers only once each turn\".  So you will never get more than one Desperado trigger in a given turn.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Sinrus",
+                    "body": "First off, no way would you get a trigger for each untapped permanent, because Deepmuck Desperado says right on it that it only triggers once each turn.\n\nSecond, Mesmeric Orb doesn't say the word \"target\", so it doesn't commit a crime and a doesn't trigger Deepmuck at all.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Fresh_Willie",
+                            "body": "Thank you so much. I am doing some brewing and thought that would be a busted combo to run. \nI did misread the deepmuck desperado, but was confused on the wording of mesmeric orb. But I appreciate your insight.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "raevanacht",
+            "body": "Hi! I\u2019m trying to understand the minutiae about text-changing effects and copies and how those things interact. I have my commander [[Aragorn, the Uniter]] out. I cast [[Trait Doctoring]] and change all instances of \u201cwhite\u201d on Aragorn to \u201cblue\u201d until end of turn. Imagine further that I cipher TD onto a creature that allows me to cast again and change all instances of \u201cred\u201d on Aragorn to \u201cblue\u201d until end of turn. If I then cast [[Spark Double]] targeting Aragorn, does the copy also list the updated colors? Will the copy keep the updated colors past the end of the turn? What about if I use [[Exchange of Words]] targeting Aragorn and a Grizzly Bears\u2019 instead of casting Spark Double? Will the Grizzly Bears switched text box last longer than the turn? Or in either situation would I need to use a more permanent text-changing effect like [[Sleight of Mind]] to be able to copy Aragorn or switch text boxes like this? Thanks!",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "chaotic_iak",
+                    "body": "No. Copy effects only use the copiable values of a card. Most of the time this is just what's printed on the card. (The main exception is if it's copying something else. There are a few other exceptions too, but they are pretty rare.) Text-changing effects do not get copied, whether that's Trait Doctoring or Exchange of Words.\n\nMechanically, continuous effects like this are governed by layers. Text-changing effects are in layer 3. Copiable effects only copy effects up to layer 1, so they will ignore text-changing effects. And also things like giving abilities (layer 6), P/T changes (layer 7), etc.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "raevanacht",
+                            "body": "Thank you for explaining that! I knew some stuff with layers, but I think I\u2019ve only ever really looked at interactions at layer 4 and beyond and so wasn\u2019t sure how text-changing worked that well. If I do want to make copies of Aragorn where \u201call color words are changed to blue\u201d, is having [[Swirl the Mists]] out probably my only option? :3",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "chaotic_iak",
+                                    "body": "I'm not sure if it's the only option, you can try searching the cards. One thing for sure is that you're not going to get a copy of the text-changing effect if you copy Aragorn. Swirl the Mists does affect all copies and lasts forever at least (well, as long as the enchantment stays), so that looks good.",
+                                    "score": 2,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "MTGCardFetcher",
+                                    "body": "[Swirl the Mists](https://cards.scryfall.io/normal/front/2/e/2ea50e09-4ab3-439e-83d7-d584f8af8f16.jpg?1562758889) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Swirl%20the%20Mists) [(SF)](https://scryfall.com/card/chk/94/swirl-the-mists?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/2ea50e09-4ab3-439e-83d7-d584f8af8f16?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "MTGCardFetcher",
+                    "body": "#####&#009;\n\n######&#009;\n\n####&#009;\n\n[*All cards*](https://mtgcardfetcher.nl/redirect/migtm10)  \n[Aragorn, the Uniter](https://cards.scryfall.io/normal/front/e/9/e98d5321-ec09-456c-a9ea-c8ca2cfc6205.jpg?1686969644) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Aragorn%2C%20the%20Uniter) [(SF)](https://scryfall.com/card/ltr/192/aragorn-the-uniter?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/e98d5321-ec09-456c-a9ea-c8ca2cfc6205?utm_source=mtgcardfetcher&format=text)  \n[Trait Doctoring](https://cards.scryfall.io/normal/front/e/2/e21a7981-5940-4b75-907f-7600a742f946.jpg?1562937269) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Trait%20Doctoring) [(SF)](https://scryfall.com/card/dgm/18/trait-doctoring?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/e21a7981-5940-4b75-907f-7600a742f946?utm_source=mtgcardfetcher&format=text)  \n[Spark Double](https://cards.scryfall.io/normal/front/c/4/c41b9ba2-0006-4d8e-b600-efe81ff5e0cc.jpg?1702429420) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Spark%20Double) [(SF)](https://scryfall.com/card/rvr/62/spark-double?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/c41b9ba2-0006-4d8e-b600-efe81ff5e0cc?utm_source=mtgcardfetcher&format=text)  \n[Exchange of Words](https://cards.scryfall.io/normal/front/8/c/8c28cebf-f849-4353-9dd1-c62f05c15d0f.jpg?1673913524) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Exchange%20of%20Words) [(SF)](https://scryfall.com/card/unf/45/exchange-of-words?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/8c28cebf-f849-4353-9dd1-c62f05c15d0f?utm_source=mtgcardfetcher&format=text)  \n[Sleight of Mind](https://cards.scryfall.io/normal/front/3/c/3cdb4f1c-6754-4269-8fac-d4edc02c8e00.jpg?1562590629) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Sleight%20of%20Mind) [(SF)](https://scryfall.com/card/5ed/124/sleight-of-mind?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/3cdb4f1c-6754-4269-8fac-d4edc02c8e00?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Ghinjar",
+            "body": "Hello Planeswalkers,\n\nI have two german bushland cards and I want to sell them on cardmarket. But since those are my most valuable cards I dont want to do any mistakes. So here are my questions:\n\n1. Did I identify the cards right? I used the guide in here but I want to be sure. Am I right that these are unlimited (2ED)?\n\n2. What would you rate the condition of the card based on my picture?\n\n3. Should I let the cards be graded? Since they are not nm I would say no. But does it make sense anyway?\n\n4. Is there a better place for selling high value german cards than cardmarket? Of course I want to try to make the best deal I can get when selling them.\n\n![img](784b2auxlhpe1)\n\nThank you.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Hmukherj",
+                    "body": "1. Unlimited wasn't printed in German. You have the German Revised printing, commonly referred to as \"FWB.\"\n\n2. I'd call it Moderately Played (USA) or Good (EU) but your best bet will be to list it with photos so they buyer isn't surprised.\n\n3. No. You'll only limit your pool of buyers. Anyone looking to buy this card will want to play with it, so slabbing it works against you.\n\n4. CardMarket is the Standard in Europe. You can always try eBay as well, but their fees are higher.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Lionthighs",
+            "body": "Would cards cloaked with [[etrata, deadly fugitive]] count as permanents I control but don\u2019t own for [[staff of eden, vaults key]]\u2019s tap ability?\u00a0",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Zeckenschwarm",
+                    "body": "Yes. They are permanents, you control them, you don't own them.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "chaotic_iak",
+                    "body": "Yes. Ownership never changes during the game. Those permanents came from the opponent's library, they are not owned by you. They presumably are still controlled by you, so they all count.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Lionthighs",
+                            "body": "Word, thanks!",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "MTGCardFetcher",
+                    "body": "[etrata, deadly fugitive](https://cards.scryfall.io/normal/front/4/4/4410db5a-62af-43ac-979d-88a7c975f7bd.jpg?1706242152) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=etrata%2C%20deadly%20fugitive) [(SF)](https://scryfall.com/card/mkm/200/etrata-deadly-fugitive?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/4410db5a-62af-43ac-979d-88a7c975f7bd?utm_source=mtgcardfetcher&format=text)  \n[staff of eden, vaults key](https://cards.scryfall.io/normal/front/3/1/31ce94a9-d6f4-432d-9447-e6d1446c393b.jpg?1721424229) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Staff%20of%20Eden%2C%20Vault%27s%20Key) [(SF)](https://scryfall.com/card/acr/76/staff-of-eden-vaults-key?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/31ce94a9-d6f4-432d-9447-e6d1446c393b?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Mudvaine69",
+            "body": "Hey all, I'm looking for a ruling on Ojer Taq, Deepest Foundation. If I were to equip him with Helm of the Host for instance he would create 3 token copies of himself each combat. Would those token copies then be able to be turned over as a land upon death like Ojer Taq can be or would they be exiled for leaving the field? It determines whether I place Helm of the Host in my Ojer Taq deck. Thanks in advance!",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "RazzyKitty",
+                    "body": ">f I were to equip him with Helm of the Host for instance he would create 3 token copies of himself each combat.\n\nYes.\n\n>Would those token copies then be able to be turned over as a land upon death like Ojer Taq can be\n\nNo. As soon as the token dies, when state based actions are checked, the token disappears. \n\n>would they be exiled for leaving the field?\n\nThey wouldn't _exiled_, they would cease to exist after they enter the graveyard.\n\n>It determines whether I place Helm of the Host in my Ojer Taq deck.\n\nIt's a good card regardless. You _don't have to attack with the tokens_. The land flip doesn't matter if you're making hundreds of tokens a turn.\n\nIf you create 3 Ojers on the first turn, you'll create _81_ Ojer Taq tokens the next turn. 1x3x3x3x3",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Zeckenschwarm",
+                    "body": "A token that leaves the battlefield is removed from the game and can't return to the battlefield. ~~You would need another card that allows you to ignore the legend rule for the tokens to stick around in any way.~~\n\n>**111.8.** A token that has left the battlefield can\u2019t move to another zone or come back onto the battlefield. If such a token would change zones, it remains in its current zone instead. It ceases to exist the next time state-based actions are checked; see rule 704.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "RazzyKitty",
+                            "body": "Helm of the Host makes the token copies nonlegendary.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Hmukherj",
+                    "body": ">If I were to equip him with Helm of the Host for instance he would create 3 token copies of himself each combat.\n\nHe'll create three copies of himself the first time. Each time after that, you'll get 3^x copies, where X is the number of Ojer Taqs you control as the Helm trigger resolves.\n\n>Would those token copies then be able to be turned over as a land upon death like Ojer Taq can be or would they be exiled for leaving the field?\n\nThe tokens will die, then will cease to exist the next time SBAs are checked. The trigger to return them will be put onto the stack, but they won't actually return since they don't exist anymore.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "TheRealOcsiban",
+            "body": "If I use [[llanowar loamspeaker]] to turn a land into a creature and then equip [[helm of the host]] to that land/creature, what happens to the token that gets created? Does it become a token copy of the original land? Does it stay a creature? Does the Helm unequip itself?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "MTGCardFetcher",
+                    "body": "[llanowar loamspeaker](https://cards.scryfall.io/normal/front/b/d/bd5611db-82dd-464d-8b03-70d7619dcefe.jpg?1673307732) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=llanowar%20loamspeaker) [(SF)](https://scryfall.com/card/dmu/170/llanowar-loamspeaker?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/bd5611db-82dd-464d-8b03-70d7619dcefe?utm_source=mtgcardfetcher&format=text)  \n[helm of the host](https://cards.scryfall.io/normal/front/1/d/1d65d20c-09e5-4139-838b-7e0e48eb2b2b.jpg?1666094567) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=helm%20of%20the%20host) [(SF)](https://scryfall.com/card/dom/217/helm-of-the-host?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/1d65d20c-09e5-4139-838b-7e0e48eb2b2b?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Ghinjar",
+            "body": "Hello Planeswalkers,\n\nI have two german bushland cards and I want to sell them on cardmarket. But since those are my most valuable cards I dont want to do any mistakes. So here are my questions:\n\n1. Did I identify the cards right? I used the guide in here but I want to be sure. Am I right that these are unlimited (2ED)?\n\n2. What would you rate the condition of the card based on my picture?\n\n3. Should I let the cards be graded? Since they are not nm I would say no. But does it make sense anyway?\n\n4. Is there a better place for selling high value german cards than cardmarket? Of course I want to try to make the best deal I can get when selling them.\n\nhttps://preview.redd.it/784b2auxlhpe1.jpeg?width=4760&format=pjpg&auto=webp&s=6fdf98c01967d78d91bba3ab3e5fb4820e9f831c\n\nThank you.",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}

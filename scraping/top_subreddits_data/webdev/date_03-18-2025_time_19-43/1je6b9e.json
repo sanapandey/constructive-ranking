@@ -1,0 +1,20 @@
+{
+    "title": "Support for CSS and Baseline has shipped in ESLint",
+    "author": "feross",
+    "subreddit": "webdev",
+    "rank": 13,
+    "score": 5,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 1,
+    "url": "https://web.dev/blog/eslint-baseline-integration?hl=en",
+    "id": "1je6b9e",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "krileon",
+            "body": "Probably too new to ask, but does anyone know if browserslist eslint-plugin-compat works with this or we going to need a new plugin for that? Baseline is a good starting point, but I'd like to be able to target specific browser support for the CSS linting.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

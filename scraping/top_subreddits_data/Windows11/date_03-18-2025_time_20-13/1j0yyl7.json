@@ -1,0 +1,269 @@
+{
+    "title": "Simple questions and Help thread - Month of March",
+    "author": "Froggypwns",
+    "subreddit": "Windows11",
+    "rank": 0,
+    "score": 9,
+    "upvote_ratio": 0.86,
+    "num_comments (reported by reddit)": 40,
+    "url": "https://www.reddit.com/r/Windows11/comments/1j0yyl7/simple_questions_and_help_thread_month_of_march/",
+    "id": "1j0yyl7",
+    "selftext": "Welcome to the monthly Simple questions and Help thread, for questions that don't need their own posts!\n\nBefore making a comment, we recommend you [search your problem on Bing](https://www.bing.com/search?q=Windows+issue) and check if your question is already answered on our [Windows Frequently Asked Questions wiki page](https://www.reddit.com/r/Windows/wiki/faq). This subreddit no longer accepts tech support requests outside of this post, if you are looking for additional assistance try r/TechSupport and r/WindowsHelp.\n\n\nSome examples of questions to ask:\n\n- Is this super cheap Windows key legitimate? (probably not)\n\n- How can I install Windows 11?\n\n- Can you recommend a program to play music?\n\n- How do I get back to the old Sound Control Panel?\n\nSorting by New is recommend and is the default.\n\n----\n\nBe sure to check out the [Windows 11 version 24H2 Megathread](https://www.reddit.com/r/Windows11/comments/1ftpmes/windows_11_2024_update_24h2_build_26100_megathread/) and also the [Windows 11 FAQ](https://www.reddit.com/r/Windows/wiki/faq) posts, they likely have the answers to your Windows 11 questions already!",
+    "comments": [
+        {
+            "author": "Siplexus",
+            "body": "Is 24H2 still an issue? I keep delaying the update but its really annoying having to do that and by now you would expect them to fix the issues",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "AskaLangly",
+            "body": "Anyone figure out why the snipping tool doesn't work proper, especially from the top and bottom extremities of the screen?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "yellowincarnate",
+            "body": "Does anyone have any advice for changing the dark theme so that I can actually read the unselected text in windows explorer?  I like everything else on the theme, but can't figure out how to do so (and search engines are flooded with the same help as the official Microsoft help center, which did not assist me). [See here for example](https://imgur.com/a/J7qDbYK).  Is this just my monitors suck and I need to get new ones, or is there some way to fix these colors and actually make them readable",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Daeelldian",
+            "body": "Is there a fix for the Taskbar popping up when hovering over the bottom of the screen in Fullscreen games? This issue is like 3 years old at this point and Microsoft refuses to fix it by themselves.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MrHackberry",
+            "body": "**Is it possible to save and/or transfer my windows 11 settings?**\n\nI would like to set them on my stationary PC, and then also transfer them to my laptop (after reset) so I don't have to set them up again there. I would also like to have a backup of them in case I need to reset either machine.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "SilverseeLives",
+                    "body": "Check out the Windows Backup app.\u00a0",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "nyse25",
+            "body": "How do I stop Windows 11 23h2 from asking me to update to 24h2? Every day there's an update icon in the system tray that's suggesting me to update to 24h2 since all other updates are installed on my system.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "SilverseeLives",
+                    "body": "The only such notification I am aware of is for pending restarts. If you are seeing it, it means that the update has already been installed, and you have to restart your PC to apply the changes. (You can verify this by visiting the Windows Update page in Settings.)\n\n\nI know of no way to undo that. If this is what you are really seeing, then it is best to just restart to make sure your system is not left in an ambiguous state. (Windows will restart automatically outside of active hours if you neglect to do this.)\n\n\nI find 24H2 to be improved in nearly every way, but if for some reason you don't like it, you have some days to roll back to the previous version.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "nyse25",
+                            "body": "No because in updates it gives me the option to \"download and install\" 24h2 and I've restarted this pc 2 times since I upgraded to 23h2 few days ago. Im trying not not update at the moment since I heard it suffers from many issues - mainly gaming.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "SilverseeLives",
+                                    "body": "Okay, possibly you have not disabled everything in Windows Settings, Notifications, Additional settings. If you want to supress these kinds of tips in Windows, consider turning those settings off.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "nyse25",
+                                            "body": "how do I disable those?\n\nEDIT - Nvm those were all turned off by default",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "SilverseeLives",
+                                                    "body": "If that wasn't it, then I got nothin' sorry. \n\nI tend to upgrade to new versions right away, so I may never have seen precisely what you describe.\n\nGood luck.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "iMotorboathoz",
+            "body": "https://preview.redd.it/p1r9qi2tucme1.jpeg?width=3024&format=pjpg&auto=webp&s=6a465cdad7cf0e5eaa1a394bb1f7f65514c4b5e1\n\nI keep getting this and other random other ones pop up. I\u2019ve used mcafee to scan and it does nothing. I\u2019ve uninstalled it. I\u2019ve searched for updates. Everything I check says it\u2019s running fine with 0 issues. How do I get rid of this? I have a dell with windows 11",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "ktree007",
+                    "body": "I believe it's a push notification in your browser settings. Go into your browser settings > search notifications > within notifications remove all sites allowed to send you notifications.\u00a0",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Longjumping-Fall-784",
+                    "body": "that's a scam, adware, which means you visited suspicious websites, allowed notifications, you actually have the url at the top of that window, so under settings remove it's permissions and it won't bother you again unless you give it permissions again.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "meltingpotato",
+            "body": "Last time I checked (about 6 month ago) Windows 11 was performing the same or worse when it came to gaming (especially on older games). Has there been any significant updates in recently to improve that?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "WolfWarrior001",
+            "body": "I have a notification saying \u201cyour device is missing important security updates. Make sure to keep your device on and plugged in so updates can complete\u201d with a red circle and an exclamation point, but when I go to the windows update page, it says I\u2019m up to date. And there\u2019s a check for updates button but it doesn\u2019t do anything. What do I do?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ho_merjpimpson",
+            "body": "Is there a way to pin a new occourance of a program to the taskbar?  Aka, I have explorer open, I want to open a new one.  I would rather not right click the icon, and click file explorer, I'd rather just click an icon.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "CoolJWR100",
+                    "body": "You can middle click / click in your mouse wheel to do this, if you hover over the icons to see open windows you can middle click to remove windows",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "ho_merjpimpson",
+                            "body": "you rule!  Thanks!  I don't know why I never thought to try that.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "CoolJWR100",
+                                    "body": "Glad I could help!",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Acceptable_Mushroom",
+            "body": "I have my taskbar to group together same windows. I would click on a group on the taskbar and I was able to press arrow keys to select and press enter key to bring up that window until 3 days ago. There was a new update yesterday I think. I think it was a minor one that had only one thing. The problem I'm having started right after previous major(?)  update about 10 days ago.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "LeMushroom",
+            "body": "Ever since the KB5050009 Update (24H2) my Bluetooth headphones won't connect properly to my laptop anymore. Pausing videos or music via touch control on the headphones still works, but the sound is emitted by the laptop's speakers instead of my headphones. Is there a solution to this?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "SilverseeLives",
+                    "body": "Check that the current audio output device is actually set to your headphones. If that isn't the issue, I would try forgetting the device in Windows and then pairing it again.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "96abdulaala",
+            "body": "In the following path: C:\\\\Users\\\\AppData\\\\Local\\\\Telemetry\\\\ACMirage, I found several files with the telemetry format, and their total size was about 30 GB. I deleted them, but they reappeared with different sizes. I researched the matter and found that it is a feature called remote diagnostics. I followed some steps to disable it, but these files still appear every time I use the computer.\n\nKnowing that I have been a Windows 11 user since its launch, this is the first time I have seen these files. Does anyone have an idea about this?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "SilverseeLives",
+                    "body": "Do you have Assassin's Creed Mirage installed?\u00a0\n\n\nThis could be related to the various compatibility issues that have existed with some Ubisoft games on Windows 11 24H2.\u00a0\n\n\nI don't have any more insight than this, but because of these well known problems, some additional diagnostics may be legitimate.\u00a0",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Longjumping-Fall-784",
+            "body": "Anyone with Asus tuf does it still flicker screen when unplug or plugged in? is the screen content still freezing like pixels being stuck while others move normally? is it still increasing the temps with nothing demanding?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "x69pr",
+            "body": "Indexing has suddenly stopped working. I cannot search for file contents (text in docx files mostly). I cannot for the life of me find the solution to get working again. I have tried everything apart from a clean install that is not an option at the moment. Any ideas?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "SilverseeLives",
+                    "body": "Are the files local or cloud synced? If you have them stored in OneDrive you may need to ensure there are offline copies available. If this is your Documents folder, check folder backup status in the Windows Backup app.\u00a0",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "x69pr",
+                            "body": "The files are in my documents folder. Nothing had changed in the computer configuration. After one update, I dont remember which, this problem apprared. I will check what you mention.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "BestDayEvah",
+            "body": "I'm not sure if this is the right place to ask, but ever since I installed, patch version 24H2, I can no longer eject any external hard drives, and Backup and Restore, also won't complete and gets stuck at 97%.\n\nI have tried all the suggestions listed to fix these issues, with no success. My computer is about one and a half years old, and I have never had any of these issues prior to the patch. As a precaution, I have scanned my system with Malware bytes and Bitdefender, but there were no detections. \n\nIf anyone has had similar issues, or can offer up a solution, it would be appreciated.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Gaelfling",
+            "body": "Is there any way to stop OneDrive from backing up your desktop without it deleting everything from your desktop? I looked under Users > NAME but there was no desktop on there. I hate OneDrive but when I told it to stop backing up it deleted all the items I had added locally.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "SilverseeLives",
+                    "body": "All the items are still on your PC, in your OneDrive\\Desktop folder. If you have told OneDrive to stop backing up this folder, then you can simply move the content back to its original location.\u00a0",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Beneficial_Loan_1487",
+            "body": "I can\u2019t take screenshots, prnt screen dosent work, it worked and then I reset my pc after downloading a virus and now it Dosen\u2019t work, I didn\u2019t have to do anything before to make it work so I dunno what\u2019s going on, any suggestions?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TristinMaysisHot",
+            "body": "Anyone know if there are any current bugs in Windows 11 that would cause this to happen?\n\nhttps://i.imgur.com/DUcbK5F.jpeg\n\nI know MS has been working on File Explorer recently and this happen for the first time with in a week ago. It just happen again today on a fresh Windows install as well (Just installed yesterday) updated to 24H2 26100.3476. The fact that MS has been working on File Explorer and this has happened twice now on my taskbar with file explorer tabs only. I'm hoping it is a bug and not malware or something. I think it's like a broken mirror of the actual tab open or something and it shows like a really mini version of it (You can kind of see it in the picture.) If you right click on the broken window, it just disappears.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "HayaMyDog",
+            "body": "https://preview.redd.it/48flri2zyqoe1.jpeg?width=2250&format=pjpg&auto=webp&s=6b543efc9e2388c1622ac438afe99e30ee3a17e7\n\nHelp! My laptop won't open up and I need to put in a bitlocker recovery key",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "0rk4n",
+            "body": "# Is it possible to lower the screen brightness below the minimum level?\n\n#",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "-SpaghettiCat-",
+            "body": "Windows 11 Taskbar Space Usage Make No Sense\n\nhttps://imgur.com/a/fIzex05\n\nThe taskbar bugs and makes no sense. Why are all of these icons only available if I click the three-dot expand icon, when they could just fit on the right? I keep having to click twice when I could click once. It seems like the app I always need to get to is somehow hidden in the expanded section too. I have the grouping option turned off in Settings. \n\nReally appreciate any advice or input if there's a setting I'm missing. To my knowledge all of my screen resolution settings are default / normal.\n\nThanks in advance for any help.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Phone_games_act",
+            "body": "Snipping tool now moves the mouse, closing menues, before taking delayed snips. I know print screen exists but I like the fact that cropping is part of the tool and I can right-click copy without having to go hunting down the image. \n\nIs there any way to fix this so that it actually takes pictures of menus? For example, I went to take a screenshot of the notification settings on discord but when it goes to capture the image, the final menu option collapses. \n\nThis is rendering it nearly unusable when I want to use it for easy walkthroughs. Is there anything I can do to get it to work correctly again?\n\nAdditionally, it has started to produce really warped images on my laptop screen. I'm guessing it's due to the text scaling that I have set up for accessibility purposes. Why doesn't their software play nice with their own accessibility features?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "blueyelie",
+            "body": "I currently run Windows 10 and looking to upgrade. When I run the PC Health Check I get these compatibility issues:\n\nYellow Exclamation: This PC must support Secure Boot\n\nYellow Exclamation: TPM 2.0 must be support and enabled on this PC (TPM not detected)\n\nRed X: The processor isn't currently supported. (Currently have Processor\tIntel(R) Core(TM) i7-3770 CPU @ 3.40GHz, 3401 Mhz, 4 Core(s), 8 Logical Processor(s) based of System Information\n\nSo what is my best approach with this? I am kind of techy-savy but I definelty have lost a bit of my knowledge. I feel like I could get install a new processor but the other two parts I don't even understand. Any help would be apprecaited!",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

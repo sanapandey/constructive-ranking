@@ -1,0 +1,1601 @@
+{
+    "title": "How to Protect Your Godot game from Being Stolen",
+    "author": "VoltekPlay",
+    "subreddit": "godot",
+    "rank": 2,
+    "score": 1490,
+    "upvote_ratio": 0.95,
+    "num_comments (reported by reddit)": 244,
+    "url": "https://www.reddit.com/r/godot/comments/1je90av/how_to_protect_your_godot_game_from_being_stolen/",
+    "id": "1je90av",
+    "selftext": "# Intro\nDespite the loud title, there\u2019s no 100% way to prevent your game from being stolen, but there are ways to make reverse-engineering harder.\nFor me, this is personal - our free game was uploaded to the App Store by someone else, who set a $3 price and made $60,000 gross revenue before I could resolve legal issues with Apple. After that, I decided to at least make it harder for someone to steal my work.\n# How to Decompile Godot Games\nActually, it\u2019s pretty easy.\nThe most common tool for this is [GDRETools](https://github.com/GDRETools/gdsdecomp). It can recover your entire Godot project from a .pck file as if you made it yourself!\n\n\ud83d\udca1Web builds are NOT safe either! If your game is hosted on itch.io or elsewhere, anyone can:\n1.  Use Chrome DevTools to download your .pck file.\n2.  Run GDRETools and recover your full project.\n3.  Modify your game and re-upload it anywhere.\n# How to Protect Your Build\nThere are many ways to make decompiling harder.\nThe easiest and most common method is .pck encryption. This encrypts your game\u2019s scripts, scenes, and resources, but the encryption key is stored in the game files themselves.\nSo, is it useful? Yes! Because it makes extraction more difficult. Now, instead of clicking a button, an attacker has to dump your game\u2019s memory to find the key - something that many script kiddies won\u2019t bother with.\n# How to Encrypt Your Build\nThere are two main steps to encrypting your game:\n1. Compile a custom Godot export template with encryption enabled.\n2. Set up the template in your project and export your game.\n\nIt sounds simple, but it took me hours to figure out all the small things needed to successfully compile an encrypted template. So, I\u2019ll walk you through the full process.\n# Encrypt Web and Windows Builds in Godot 4.4\n\nWe\u2019ll be using command-line tools, and I personally hate Windows CMD, so I recommend using Git Bash. You can [download it here](https://git-scm.com/downloads).\n\n**Step 1: Get Godot\u2019s Source Code**\n\nDownload Godot\u2019s source code [from GitHub](https://github.com/godotengine/godot):\n\n`git clone https://github.com/godotengine/godot.git`\n\n\ud83d\udca1This will copy the repository to your current folder!\nI like to keep my Godot source in C:/godot, so I can easily access it:\n\n`cd /c/godot`\n\n**Step 2: Install Required Tools**\n\n1\ufe0f\u20e3Install a C++ Compiler\nYou need one of these:\n* Visual Studio 2022 (Make sure C++ support is enabled) \u2192 [Download](https://visualstudio.microsoft.com/vs/community/) \n* MinGW (GCC 9+) \u2192 [Download](https://www.mingw-w64.org/)\n\n2\ufe0f\u20e3Install Python and SCons\n\n\u2705Install Python 3.6+\n1. Download Python from here. https://www.python.org/downloads/windows/\n2. During installation, check \"Add Python to PATH\".\n3. If you missed that step, manually add Python to your PATH. Thats very important!\n\n\u2705Install SCons\n\nRun in command line / bash:\n\n`pip install scons`\n\n\ud83d\udca1 If you get errors, check if Python is correctly installed by running:\n\n`python --version`\n\n**Step 3: Generate an Encryption Key**\n\nGenerate a 256-bit AES key to encrypt your .pck file:\n\n*Method 1*: Use OpenSSL\n\n`openssl rand -hex 32 > godot.gdkey`\n\n\ud83d\udca1 This creates godot.gdkey, which contains your 64-character encryption key.\n\n*Method 2*: Use an Online Generator\n\nGo to [this site](https://asecuritysite.com/encryption/keygen), select AES-256-CBC, generate and copy your key.\n\n**Step 4: Set the Encryption Key in Your Environment**\n\nNow, we need to tell SCons to use the key when compiling Godot.\nRun this command in Git Bash:\n\n`export SCRIPT_AES256_ENCRYPTION_KEY=your-64-character-key`\n\nOr manually set it the enviroment variables under the SCRIPT_AES256_ENCRYPTION_KEY name.\n\n**Step 5: Compile the Windows Export Template**\n\nNow, let\u2019s compile Godot for Windows with encryption enabled.\n\n1\ufe0f\u20e3Go to your Godot source folder:\n\n`cd /c/godot`\n\n2\ufe0f\u20e3Start compiling:\n\n`scons platform=windows target=template_release`\n\n3\ufe0f\u20e3 Wait (20-30 min). When done, your template is here:\n\nC:/godot/bin/godot.windows.template_release.exe\n\n4\ufe0f\u20e3 Set it in Godot Editor:\n\nOpen Godot \u2192 Project \u2192 Export \u2192 Windows.\n\nEnable \"Advanced Options\", set release template to our newly compiled one.\n\n**Step 6: Compile the Web Export Template**\n\nNow let\u2019s compile the Web export template.\n\n1\ufe0f\u20e3[Download Emscripten SDK](https://github.com/emscripten-core/emsdk).\n\nI prefer to keep it in /c/emsdk so it's easier to find where it is located and navigate to it in the command line.\n\n`git clone https://github.com/emscripten-core/emsdk.git`\n\nOr manually download and unpack ZIP.\n\n2\ufe0f\u20e3After we downloaded EMSDK, we need to install it, run this commands one by one:\n\n`emsdk install latest`\n\n`emsdk activate latest`\n\n3\ufe0f\u20e3Compile the Web template:\n\n`scons platform=web target=template_release`\n\n4\ufe0f\u20e3Find the compiled template here:\n\nC:/godot/bin/.web_zip/godot.web.template_release.wasm32.zip\n\n5\ufe0f\u20e3Set it in Godot Editor:\n\nOpen Godot \u2192 Project \u2192 Export \u2192 Web.\nEnable \"Advanced Options\", set release template to our newly compiled one.\n\n**Step 7: Export Your Encrypted Build**\n\n1\ufe0f\u20e3Open Godot Editor \u2192 Project \u2192 Export.\n\n2\ufe0f\u20e3Select Windows or Web.\n\n3\ufe0f\u20e3In the Encryption tab:\n\n\u2611 Enable Encrypt Exported PCK\n\n\u2611 Enable Encrypt Index\n\n\u2611 In the \"Filters to include files/folders\" type `*.*` which will encrypt all files. Or use `*.tscn, *.gd, *.tres` to encrypt only scenes, gdscript and resources.\n\n4\ufe0f\u20e3Ensure that you selected your custom template for release build.\n\n5\ufe0f\u20e3 Click \"Export project\" and be sure to uncheck \"Export with debug\".\n# Test if build is encrypted\nAfter your export encrypted build, try to open it with [GDRETools](https://github.com/GDRETools/gdsdecomp), if you see the project source, something went wrong and your project was not encrypted. If you see nothing - congratulations, your build is encrypted and you are safe from script kiddies.\n\n# Conclusion\nI hope this guide helps you secure your Godot game! If you run into problems, check the Troubleshooting section or ask in the comments.\n\n\ud83c\udfae If you found this useful, you can support me by wishlisting my game on Steam: https://store.steampowered.com/app/3572310/Ministry_of_Order/\n\n# Troubleshooting\nIf your build wasn't encrypted, make sure that your SCRIPT_AES256_ENCRYPTION_KEY is set as an environment variable and visible to your command line. I had that error, and solution was to run in bash:\n\n`echo export SCRIPT_AES256_ENCRYPTION_KEY=\"your-key\"' >> ~/.bashrc`\n\n`source ~/.bashrc`\n\nEMSDK visibility problems for command line or Scons compiler: you can add it to your bash:\n\n`echo 'source /c/emsdk/emsdk_env.sh' >> ~/.bashrc`\n\n`source ~/.bashrc`\n\n**Useful links:**\n* [Article on how to build encrypted template, which helped me a lot](https://godot.community/topic/35/protecting-your-godot-project-from-decompilation)\n* [Official documentation on how to build engine from sources](https://docs.godotengine.org/en/stable/contributing/development/compiling/index.html)",
+    "comments": [
+        {
+            "author": "The-Chartreuse-Moose",
+            "body": "Thanks. That seems really useful.\n\n\nThough my method of 'make terrible games' is probably quicker.",
+            "score": 490,
+            "replies": [
+                {
+                    "author": "riotinareasouthwest",
+                    "body": "Mine of never finishing a game is even better!",
+                    "score": 178,
+                    "replies": [
+                        {
+                            "author": "Banned_in_CA",
+                            "body": "People hoping to make a living hate this one simple trick!",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "SluttyDev",
+                            "body": "I'm in this comment...I've been programming games since the 90s but you'd never know it.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "DaWurster",
+                    "body": "Sadly it doesn't really help at all. Google for a minute and you find ready-made tools to spit out the standard Godot keys.\n\nLiterally the second hit in my case:\nhttps://github.com/char-ptr/gdke\n\nIt's just VERY weak obfuscation at this point. The key is always found the same way for each and every Godot binary.\n\nIMHO the option should be removed or the manual should state very clearly that the encryption offers basically no security at all.\n\nIn the best case you now spend half an hour setting up your custom build chain. In less ideal cases you put any trust in this false sense of security. In the worst case someone might be tempted to put something sensitive in a Godot project export...",
+                    "score": 53,
+                    "replies": [
+                        {
+                            "author": "SquidMilkVII",
+                            "body": "I think the idea is to just throw up whatever obstacles you can. Even a minor inconvenience could be enough to stop a scraper bot, for example.",
+                            "score": 41,
+                            "replies": [
+                                {
+                                    "author": "HyperrGamesDev",
+                                    "body": "yes its the same reason a reverse proxy will be more secure than open ports on a router, and adding \"+\" subaddressees to your emails for different stuff, its often just dumb scraper bots",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "BeardedDuck9694",
+                            "body": "This is only what I have heard from others on this topic, but I have heard that even large companies will use something as rudimentary as this process SIMPLY to make the 'obstacle' exist. \n\nThis apparently makes any legal proceeding much easier because they made a clear attempt at making their work encrypted.\n\nThat is all they need. They need a line in the sand that says the entity that stole the work had to do so deliberately and was willing to take the extra step to do so, no matter how minimal that step may be.\n\nGranted, this is probably less beneficial to smaller devs who don't have a team of lawyer attack dogs. But it still should make any discussion with a legal entity pretty cut and dry.",
+                            "score": 23,
+                            "replies": [
+                                {
+                                    "author": "sputwiler",
+                                    "body": "This is exactly it.\n\nI did indie work on contract, and the publisher just want to see that it's \"locked\" in some way. Even if you can break the lock, it has to be there.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "therealcreamCHEESUS",
+                            "body": "> The key is always found the same way for each and every Godot binary.\n\nFrom your link:\n\n>We are still able to retrive this key though as it is obviously used to decrypt, encrypted scripts. and the place where it happens is in a function called gdscript::load_byte_code\n\n\n>Thankfully it's really easy to find functions in ida, or any other modern static analysis program, as godot has verbose error logging. and we can abuse this to easily find the function\n\nWonder what would be the result if you added a load of very similar looking calls to that function to muddy the water.\n\nYou don't have to stop everyone - stopping every tool/guide that can be found from page 1 of google would be sufficient to stop 99% of would be thieves.\n\nSame principle as locking your front door.",
+                            "score": 4,
+                            "replies": []
+                        },
+                        {
+                            "author": "sputwiler",
+                            "body": "Keep in mind encryption serves a very good purpose: telling your client you encrypted it.\n\nYou just don't want to appear to have done nothing.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "furrykef",
+                    "body": "If they're stealing games, I doubt they're going to let quality stop them.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "Mortwight",
+                    "body": "How hard is it to make a terrible game with 0 exp?",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "kaukamieli",
+                            "body": "Very, as you usually get at least a couple during it.",
+                            "score": 8,
+                            "replies": [
+                                {
+                                    "author": "Mortwight",
+                                    "body": "Sweet.  I have ideas and no skills",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "kaukamieli",
+                                            "body": "Don't even need ideas. Just copy something. If you are adventurous, add a twist.\n\nAlso need not to have executive dysfunction. I have skills, but nothing happens.",
+                                            "score": 7,
+                                            "replies": [
+                                                {
+                                                    "author": "Mortwight",
+                                                    "body": "Good to know",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "FeliusSeptimus",
+                                            "body": "To the Chat(GPT) cave!",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "shepx2",
+                            "body": "Actually very hard if we are talking about a finished terrible game. Not the terrible part tho.\n\nSource: I never finished making a game even tho i started several projects over the course of several years. And I know all of them were terrible.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "nonchip",
+                    "body": "seems. isn't tho.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "sputwiler",
+                    "body": "Can't steal my game if I never write it \ud83d\ude0a\ud83d\udc48",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "spHeir",
+            "body": "How did your game get stolen in the first place?",
+            "score": 121,
+            "replies": [
+                {
+                    "author": "VoltekPlay",
+                    "body": "Game was hosted on [itch.io](http://itch.io) with downloadable build for all platforms. Some people just download those free games and upload them to their Google Play  / App Store accounts in hope to earn some money from that. In our case thief was very lucky.",
+                    "score": 223,
+                    "replies": [
+                        {
+                            "author": "spHeir",
+                            "body": "Man, that sucks. Sorry this happened to you.. \nwill definitely think about this if I release a game on itch.",
+                            "score": 56,
+                            "replies": []
+                        },
+                        {
+                            "author": "meneldal2",
+                            "body": "Can you sue them and get all the money they got + damages for copyright infringement? If they made 60k I'd definitely ask a lawyer about it",
+                            "score": 10,
+                            "replies": [
+                                {
+                                    "author": "Smoolz",
+                                    "body": "If they turn out to be from a different country than OP that might be kinda hard, but probably still worth looking into.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "meneldal2",
+                                            "body": "You could probably at least get Apple to hold the money with an injunction if you move quickly enough and get that.\n\n\"this guy stole our shit and I have proof, don't give him money\". Apple is not too likely to just ignore you if you have a case and have a lawyer send the right paperwork.",
+                                            "score": 5,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Origamiface3",
+                            "body": "I'm infuriated for you. They're like porch pirate scumbags of other people's work",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "TheDuriel",
+                            "body": "Encrypting your game doesn't fix this.\n\nPlus the key is embedded anyways.",
+                            "score": -130,
+                            "replies": [
+                                {
+                                    "author": "ysylya",
+                                    "body": "A moderately skilled burglar can pick your door lock. Therefore door locks are worthless.",
+                                    "score": 35,
+                                    "replies": [
+                                        {
+                                            "author": "Bypell",
+                                            "body": "tbh to me it feels like decompiling a game is already like picking a lock. and encrypting your game is like just adding a second identical lock. If someone is gonna go through the trouble of using gdredecomp to decompile your game, why would they not just go through the basic step of using gdke to try to fetch the encryption key effortlessly? this doesn't even deter script kiddies. plus they run no risk of getting caught while doing it like a lock picking thief would.",
+                                            "score": 2,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "TheDuriel",
+                                            "body": "The **quality** of the door lock, is in fact, irrelevant.",
+                                            "score": -25,
+                                            "replies": [
+                                                {
+                                                    "author": "kafkajeffjeff",
+                                                    "body": "tell that to my door lock that just needs a gift card swipe between the bolt and the doorframe to unlock it",
+                                                    "score": 4,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "VoltekPlay",
+                                    "body": "Have you read at least the beggining of the post or you just read the headline and wrote that comment?",
+                                    "score": 114,
+                                    "replies": [
+                                        {
+                                            "author": "TheDuriel",
+                                            "body": "I have read the thread. And nothing you did actually helps. It just means someone has to spend a few minutes fixing the tool to look for the key in its new location.\n\nNot to mention, downloading your game and rehosting it, is still completely possible.",
+                                            "score": -91,
+                                            "replies": [
+                                                {
+                                                    "author": "Alzzary",
+                                                    "body": "Should we dump MFA as a security feature ? People can sometimes bypass it, therefore it's useless. \n\n('m mocking your misunderstanding of what making harder to copy your game achieves : it actually makes it harder, which isn't useless - just like MFA makes it harder too but isn't a 100% protection)",
+                                                    "score": 43,
+                                                    "replies": [
+                                                        {
+                                                            "author": "TheDuriel",
+                                                            "body": "This doesn't make it harder than it already was.",
+                                                            "score": -48,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Alzzary",
+                                                                    "body": "It does, and I will not argue about it. Just like code obfuscation. \n\nWhile security by obscurity is a wrong idea in some cases, in this one it isn't especially if you are aware of the limitations.",
+                                                                    "score": 24,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "TheDuriel",
+                                                                            "body": "No, it doesn't. If you actually were to use these tools you'd find that finding the key at its new location isn't hard. OP literally spelt out how to make it, and thus, how to find it.\n\nAnd OP keeps selling this as some guaranteed golden bullet. Hence my posts.",
+                                                                            "score": -25,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "EmperorPenguine",
+                                                                                    "body": "OP emphasizes this is a deterrent for script kiddies. I take it by your tone you have this magical golden bullet? Or are you just complaining and not actually contributing to devs keeping their IPs protected?",
+                                                                                    "score": 40,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "salbris",
+                                                                                            "body": "Welcome to Duriel. Smart person but generally pretty argumentative for what seems like no other reason but to be a nuisance.",
+                                                                                            "score": 8,
+                                                                                            "replies": []
+                                                                                        },
+                                                                                        {
+                                                                                            "author": "TheDuriel",
+                                                                                            "body": "I am pointing out that their claims that this solves the issue, are wrong. Before people get false hopes.\n\nYes encryption helps. No, hiding the key at a different memory address, doesn't make it any better.\n\nThe actual solution is always online DRM.",
+                                                                                            "score": -11,
+                                                                                            "replies": [
+                                                                                                {
+                                                                                                    "author": "atibus",
+                                                                                                    "body": "It says in the first sentence what it hopes to do.  Protect <> Prevent and they are pretty clear that this just makes it harder.  They never once say \"solve\" - you do.  Did you just wake up and choose violence today?\n\nMaking things harder is a deterrent.  Locks don't prevent people from breaking in; they just make it harder.  Fences don't prevent your dog from escaping; they just make it harder.  Airport security doesn't prevent people from bringing weapons; they just make it harder.  Literally the basis of all security is making things harder for people to do.  And OP is very clear about what this does.",
+                                                                                                    "score": 16,
+                                                                                                    "replies": []
+                                                                                                },
+                                                                                                {
+                                                                                                    "author": "Alzzary",
+                                                                                                    "body": ">I am pointing out that their claims that this solves the issue, are wrong.\n\nAnd those people claiming that... are they in the room with us, right now ?",
+                                                                                                    "score": 21,
+                                                                                                    "replies": [
+                                                                                                        {
+                                                                                                            "author": "TheDuriel",
+                                                                                                            "body": "Yes, but you're not reading the replies I'm getting.",
+                                                                                                            "score": -11,
+                                                                                                            "replies": [
+                                                                                                                {
+                                                                                                                    "author": "Yin117",
+                                                                                                                    "body": "If the amount of effort has increased due to this approach then it has by definition made it harder.\n\nYou might see it as insignificantly harder, but it is greater than zero amount harder.\n\nIf you want to make the argument that the amount of effort invested is dispropotionate to the benefit, that would be a much better talking point.\n\nYour downvotes should highlight how polarising you are being.",
+                                                                                                                    "score": 16,
+                                                                                                                    "replies": []
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "upboats_around",
+                                    "body": "> There are many ways to make decompiling harder. The easiest and most common method is .pck encryption. This encrypts your game\u2019s scripts, scenes, and resources, but the encryption key is stored in the game files themselves. So, is it useful? Yes! Because it makes extraction more difficult. Now, instead of clicking a button, an attacker has to dump your game\u2019s memory to find the key - something that many script kiddies won\u2019t bother with.",
+                                    "score": 48,
+                                    "replies": [
+                                        {
+                                            "author": "TheDuriel",
+                                            "body": "I am aware and made my post fully aware of how to do this.",
+                                            "score": -49,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Ok_Design3560",
+                                    "body": "I don't ever agree with TheDuriel but I'm with him on this. This encryption won't do much to deter people from redownload and posting your game elsewhere.\nImagine this scenario: You spend x amount of hours to encrypt your game and add automate it so that is part of your build pipeline. You only need one person out x thousand of people to download and decrypt your game, that's it.\n\nThere is even a guy that found a git repo that automates finding the keys and decrypting the binary for you.\n\nSo yes let's assume this single person decrypts your game and shares it through a torrent or whatever method unencrypted. Now anyone can download your unencrypted game and re-upload it anywhere.\n\nI think there are other methods you can use to 'minimize' the damage of your game being published elsewhere.",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "EmperorPenguine",
+                                            "body": "I don't think many of us are disagreeing with TheDuriel on their claim that this isn't perfect protection. Their attitude is what I had the most problem with personally. I agreed with them that online DRM might be the best option, but not all devs will be able to deliver that.\n\nOP shared a method that can be a barrier of entry for an uninformed and unexperienced \"script kiddy\". That's it. OP is not touting this as a massive level of protection.\n\nCheers.",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "HokusSmokus",
+            "body": "Easier:\n\n1: Make song\n\n2: Get song copyrighted\n\n3: Add song to game\n\n\nIn case someone steals your game: Cease and Desist the game for copyright infringement of that song. Appstores are super fast in these cases.",
+            "score": 166,
+            "replies": [
+                {
+                    "author": "Groovy_Decoy",
+                    "body": "Okay... But why is it more effective for a copyrighted song than a game? I am genuinely asking here. It isn't intuitive or logical to me, not that laws or policies always are.",
+                    "score": 32,
+                    "replies": [
+                        {
+                            "author": "jaimejaime19",
+                            "body": "Companies caring about devs \ud83d\udc4e\n\nCompanies making sure copyright infringement is stopped \ud83d\udc4d",
+                            "score": 71,
+                            "replies": [
+                                {
+                                    "author": "furrykef",
+                                    "body": "Well, posting someone else's game is also copyright infringement. There really should be no difference.\n\nI'm skeptical that putting your own song in a game is going to make it easier to smite infringers. Now, if you license a song from a big record label, I'll bet those stores will lay the smackdown pretty hard, and the label might even do it for you. Just make sure they don't smack your own game down.",
+                                    "score": 19,
+                                    "replies": [
+                                        {
+                                            "author": "Mr_Skecchi",
+                                            "body": "Its more that the process for claiming/proving a copyrighted song is much more automated, because its a thing that happens way more often. Yes, the game can absolutely be copyrighted, but proving it would require a human preform a review, and go through the process of checking the copyright manually. Given video game companies, especially indie ones, are unlikely to have major legal weight behind them, and the consequences for not preforming a takedown are not expected to be expensive, it is not prioritized. That is not true for music copyright, and so the process has both more humans available, and the pipeline for checking the copyright is more automated and optimized, so it happens faster.\n\n  \nMost of all, you can submit more than 1 copyright violation claim. So you can just do both and claim both for the takedown.\n\n  \ntldr: video game copyright is complicated, and will require a human go through more shit to check, and is not a major economic factor. Music copyright is a bigger economic factor, and much easier to verify quickly and easier to automate.",
+                                            "score": 6,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "dorkyl",
+                                            "body": "\\*should\\* be no difference. However, the difference is big. One difference is that music is easier to uniquely identify. Another difference is that music companies have spent more money to buy more laws and have been building them since personal recording became easy with cassette tapes.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "feralfantastic",
+                            "body": "Under the DMCA hosts have to abide by takedown requests. This is oftentimes streamlined for particular media, which is prioritized based on the risk of litigation for a particular medium. Movies and music have big money to make big lawsuits, so you can assume claims relating to either will be prioritized, whereas claims related to a $5 game that has sold 400 copies in 5 years probably won\u2019t be suing you, and even if you are sued the damages, even statutory damages, are just the cost of doing business because you\u2019re Apple.",
+                            "score": 12,
+                            "replies": []
+                        },
+                        {
+                            "author": "Nico1300",
+                            "body": "Cause the big music studios care more for copyright than game studios.",
+                            "score": 26,
+                            "replies": []
+                        },
+                        {
+                            "author": "blockchaaain",
+                            "body": "RIAA (and MPA) are very powerful and even trillion dollar corporations fear them.  \nThere are no organizations with comparable legal power for other art forms.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "DesignCarpincho",
+                    "body": "This lowkey might work the best. I'm curious if it's possible to just take the song out of the game before it's uploaded and replace it with something else.",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "PM_ME___YoUr__DrEaMs",
+                            "body": "You have access to the project, so you can do anything.",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "DesignCarpincho",
+                                    "body": "I meant from the thief's standpoint. If they can decompile the game, replace the asset and render the copyright strike claim moot.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "vimproved",
+                    "body": "Couldn't the thief just remove the song?",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "pyXarses",
+                            "body": "Yes, but they are low effort folks and probably aren't checking. \n\nYou can use the DCMA claim for the entire work, but the song copyright is much easier to register than the whole work.\n\nEdir:\n\nDCMA strikes also lead to account bans which threatens their whole scraping business. They are likely going to remove the work to avoid a strike",
+                            "score": 12,
+                            "replies": []
+                        },
+                        {
+                            "author": "Haplo12345",
+                            "body": "Sure, but they have to know about it first, and then once they know about it, they have to remove the song manually, and possibly even recompile the game depending on how you built it into the system.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "VoltekPlay",
+                    "body": "Interesting idea, I guess you can hardcode some secret hotkey that will start to play some popular copyrighted song, and than reveal it to Apple if someone will store your build, it would be even easier.",
+                    "score": 24,
+                    "replies": [
+                        {
+                            "author": "furrykef",
+                            "body": "Then your own game would be infringing and be removed too.",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "VoltekPlay",
+                                    "body": "If it free and hosted on [itch.io](http://itch.io) I guess there will be no problems. (that was our case)",
+                                    "score": -2,
+                                    "replies": [
+                                        {
+                                            "author": "nonchip",
+                                            "body": "nope. big labels dont like free copies of their stolen IP either, they call that piracy.",
+                                            "score": 8,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "ccAbstraction",
+                            "body": "That could easily backfire and get your game taken down from your own store pages.",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Pordohiq",
+                    "body": "Genuinely hiw do you do step 2? How do you copyright a song?",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "MoonQube",
+                            "body": "if youre in the US, here: \n\nhttps://www.copyright.gov/registration/",
+                            "score": 8,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "TuberTuggerTTV",
+                    "body": "huh? step 2 isn't a thing. \n\nThe game in it's entirety and all songs you create, are immediately copyright. \n\nAre you thinking of something like a patent? Which you have to register and pay for? Those aren't the same things. \n\nCopyright happens automatically and immediately on anything you create. \n\nBut you still have to litigate and prove it.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Sanakism",
+                            "body": "There are still jurisdictions that allow one to register a copyright - the USA is one, I believe - and in those jurisdictions it's not unheard of for the damages you can seek for infringement to be capped or non-existent if you didn't register it. I wouldn't be surprised to find that a copyright regime that backward would also consider takedown notices ignorable if the copyright wasn't registered.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "sputwiler",
+                    "body": "Step 2 isn't necessary and neither is step 1 on account of your game is already copyrighted.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Interesting-Owl-6032",
+            "body": "Sadly anyone who wants to reupload your game as theirs will have the tools and means to defeat something as easy as godot's encryption.\n\nThe only thing I can think of that will make it difficult is moving some of the game logic to a custom engine build (creating custom nodes for example), this way they need YOUR build of the binaries and just the PCK won't cut it (it probably won't even load on the normal engine). This won't work with GDExtensions because they can just also load the custom library.\n\nWith enough time even this can be circunvented, but it's definitely more time consuming than simply getting the key from the game.",
+            "score": 49,
+            "replies": [
+                {
+                    "author": "VoltekPlay",
+                    "body": "I completely agree that embedding important game logic into a custom engine build makes reverse-engineering very hard. Encryption is first (and easy) step, that can lead to making engine fork. That solution is also described in [Article on how to build encrypted template](https://godot.community/topic/35/protecting-your-godot-project-from-decompilation) from links section, for those who want to go for advanced things.",
+                    "score": 19,
+                    "replies": [
+                        {
+                            "author": "AFR0SHEEP",
+                            "body": "Could you speak more about why the encryption key needs to be within the game files?",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "VoltekPlay",
+                                    "body": "We already discussed that topic here [https://www.reddit.com/r/godot/comments/1je90av/comment/mih07je/](https://www.reddit.com/r/godot/comments/1je90av/comment/mih07je/)",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "AFR0SHEEP",
+                                            "body": "Ah, thank you!",
+                                            "score": 1,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "sputwiler",
+                                            "body": "protip if you link starting with the /r/ then people can stay on their preferred reddit (old or new) like so /r/godot/comments/1je90av/comment/mih07je/",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "furrykef",
+                    "body": "If you want to be particularly devilish: put in a feature that requires a custom engine, but make sure that feature isn't needed in the first (say) 10 minutes of gameplay. If that feature's missing, pop up some kind of piracy notice.",
+                    "score": 11,
+                    "replies": [
+                        {
+                            "author": "vonikay",
+                            "body": "I'm just a beginner, could you explain that in a little more detail as to how that would work in Godot?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "furrykef",
+                                    "body": "There are a million ways to do it. Here's just one:\n\nLet's say your code has the line `get_tree().change_scene_to_file(\"res://levels/Level2.tscn\")`. You could make it so `Level2.tscn` is actually an antipiracy screen and modify the engine's implementation of `change_scene_to_file` to check if the name of the level to load is `Level2.tscn`, and if so, change it to a different file that has the real level 2. This way your code will display an antipiracy screen if it's run on a vanilla Godot engine, but it will continue the game if it's played on your custom engine.\n\nThere are subtler ways of doing things; you can see it taken to extremes in [Chris Crawford's old article on copy protection from in 1997](https://www.erasmatazz.com/library/the-journal-of-computer/jcgd-volume-6/copy-protection-methods.html). Keep in mind, though, the more complex and subtle you get, the more likely you'll end up confusing yourself and creating bugs or even punishing innocent users.",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "vonikay",
+                                            "body": "Ooohhh!!! That's genius!! Thank you so much for the explanation! I'll squirrel this wisdom away for later :)",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "helmet112",
+                    "body": "You can also write your game logic in C++ as a GDExtension, so at least the source isn\u2019t easily readable. This by itself doesn\u2019t solve the problem of someone copying the entirety of the app, or even a light reskinning, and uploading themselves. I\u2019m trying to work some protections into the c++ code but don\u2019t really know how effective that\u2019ll be.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Interesting-Owl-6032",
+                            "body": "Well, I said GDExtension doesn't work for this because then they can load your extension just as easily, a custom engine build ensures your PCK won't work out of the box on official builds",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "helmet112",
+                                    "body": "Yeah, my point is just that I can't really think of how building some game logic into the core engine ends up being much different than using a GDExtension.  If they are willing to just rebuild the iOS or android package using the exact same contents but with a different app name, I think they end up the same mostly.  If I'm missing something let me know, I'd be interested to also do a custom engine build (aside from just encryption) if there's a big benefit.\n\nI've built some checks into my GDExtension to at least make it more difficult, and annoying, to do a straight copy like this.  Things like validating the name of the iOS/Android package name that's currently running, which is mildly helpful assuming the app stores block adding duplicates, but I'm guessing possible to spoof.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "ClownPFart",
+                                    "body": "Even a gdextension built for a pc game can't be reused to reupload as a phone game since it's a different architecture. (And if you're making a phone game they can simply reuse your binary anyway)\n\nAnd that's probably enough of an obstacle to deter most of these people, they are after easy money with minimal effort so they won't bother reversing/rebuilding your custom game logic, they'll probably instead just move on to ripping the next game over.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "sputwiler",
+                            "body": "Hell if you really wanted to you could add\n\n..._Denuvo_\n\n(this is a joke)",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "kodaxmax",
+            "body": "better option is to \"water mark\" it. put your name everywhere you can without disturbing the game play. Add traps where modifying parts of code arbitrarily render essential systems non functioning and begin displaying \"stolen copy\" or something.   \nThats something thats impossible to build an automated tool to circumvent, because evry dev would implement these things differently. They would have to manually understand and untangle all the code with no guarentee they didn't miss something.",
+            "score": 12,
+            "replies": [
+                {
+                    "author": "notpatchman",
+                    "body": "This is an interesting idea, if its possible... and add some kind of delay, so the thief doesnt see it right away. Like it takes a day before the watermarks show up.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "rob5300",
+            "body": "Anyone who cares enough and has the skill can still decrypt the data but it should prevent or discourage most from easily unpacking a build.",
+            "score": 70,
+            "replies": [
+                {
+                    "author": "y0j1m80",
+                    "body": "This is how most security works, down to locks on our cars and homes. Anyone who really wants to can bypass them, but it still discourages and prevents a lot of avoidable theft.",
+                    "score": 33,
+                    "replies": []
+                },
+                {
+                    "author": "Magical_AAAAAA",
+                    "body": "It should at least discourage most Chinese clone companies, which I think is rather important because it can be very difficult to force them to stop since it's China.\n\nI worked for a client and apparently his game had a Chinese copy on mobile that was using their assets, code and mechanics with slight modifications. IIRC it sold for tens of thousands of copies.\n\nIt took over a year to get Google Play Store to remove the game and the official release never took off on mobile, which I think wouldn't have happened if the clone hadn't had so many issues that nobody was intressed in it anymore.",
+                    "score": 21,
+                    "replies": [
+                        {
+                            "author": "TheDuriel",
+                            "body": "Why would it discourage **the professionals**?\n\nThe ones with the most will, resources, and incentive, to actually do it.\n\nThe official docs page on PCK encryption isn't wrong. It discourages casuals, and does not provide any actual protection.",
+                            "score": 18,
+                            "replies": [
+                                {
+                                    "author": "Magical_AAAAAA",
+                                    "body": "It won't, but there is a good amount of companies that only go after a bunch of the low hanging fruit rather than spending a lot of time on fewer games they instead target many easy marks.\n\nAnd it will discourage those who will go for smaller less successful games because it's not worth the effort. And if it becomes successful enough to be targeted by the professionals, then you have other options.",
+                                    "score": 16,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "nCubed21",
+                                    "body": "Neither does a lock on our front door but here we are.",
+                                    "score": 16,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "cheezballs",
+                            "body": "No? You think the professional people doing this for a living dont have tools to just auto-brute-force this kinda stuff? This really is just stopping your average script kiddie from doing it.",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "furrykef",
+                                    "body": "Question is, how many script kiddies are there?",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "cheezballs",
+                    "body": "Yea, I was gonna say, this is just a layer of deterrence and nothing more. You can't really protect your game 100% right? Anything that winds up on a client machine has potential to be stolen with the right skills/tools/time.",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "LVVrunner",
+            "body": "Usefull how I see!",
+            "score": 25,
+            "replies": []
+        },
+        {
+            "author": "DiscombobulatedBat35",
+            "body": "It might be worth including among your scripts and assets indicators of origin that aren\u2019t visible or plainly noticeable - so that should you claim something has been taken you have a smoking gun piece of evidence such as a ownership statement in a comment inside the script or something of that nature, signature built into a sprite on a disused part of a sprite sheet etc, would make it easier to suggest they stole your work if they missed it during the edit. Similarly if they made money off it, there is likely more grounds for legal recourse if you can demonstrate a direct copy this way. An unused /non documented command in game that flashes up an ownership statement etc",
+            "score": 10,
+            "replies": [
+                {
+                    "author": "VoltekPlay",
+                    "body": "Nice and useful suggestions!",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "PeacefulChaos94",
+            "body": "The only true way of protecting your IP is by enforcing your copyright",
+            "score": 39,
+            "replies": [
+                {
+                    "author": "VoltekPlay",
+                    "body": "Sadly it won't work for App Store, but will work for Steam.\n\nOne of thiefs, who uploaded our game to their account had Monster Hunter (sick!) pirate copy under different name. And after all legal dispute their account is still not banned! Apple just removed all their apps (because all of them was stolen games).",
+                    "score": 44,
+                    "replies": []
+                },
+                {
+                    "author": "Anagn0s",
+                    "body": "How one can achieve that?",
+                    "score": 8,
+                    "replies": [
+                        {
+                            "author": "PeacefulChaos94",
+                            "body": "Contact the platform and send a DMCA takedown notice. They have a legal obligation to protect your copyright and remove the stolen product. If they don't, you have a very strong legal case and can sue (depending on your country, ofc)",
+                            "score": 12,
+                            "replies": [
+                                {
+                                    "author": "The-Fox-Knocks",
+                                    "body": "I've also had my game stolen similar to OP. Despite overwhelming evidence in my favor, Apple still demanded I talk to the offending party and sort something out myself. I continued to message Apple that it's their responsibility, in which case I was ignored.\n\nAs OP stated, they eventually got it taken down, but that's the key. Apple are professional feet draggers when it comes to this stuff. By the time it gets taken down, weeks could have passed. I came across another thread of someone complaining about their game being stolen that was posted 3 months ago. In that case, the game they issued a DMCA request on is still up.\n\nWe're talking about a company that really doesn't care about legal recourse in that regard because it's barely a decimal point in their earnings, and as such they do not take it seriously. Simply, you honestly can't rely on Apple to take down offending games.",
+                                    "score": 14,
+                                    "replies": [
+                                        {
+                                            "author": "SweetBabyAlaska",
+                                            "body": "and the reality is that thief still made $60,000 USD (while living in a country where that is double or triple the value) all by downloading a wasm build of a game and throwing it in a web view in an iOS app.\n\nThe people who did this have like 100 plus game \"studios\" that solely push AI slop and stolen games. By the time they are caught, if ever, they have already  made their money... and IF the platform even chooses to act and ban them, they just use a different account and incorporation and do it again.\n\nThe only largely effective solution is to force platforms to act against these people, and have them enforce far more strict banning measures alongside other measures that disallow one or two people of having a million different accounts. I don't see a way around that.",
+                                            "score": 10,
+                                            "replies": [
+                                                {
+                                                    "author": "The-Fox-Knocks",
+                                                    "body": "I've decided that I'll need to hide some kind of message somewhere in my game stating that if you're playing it on mobile, you've been scammed, and attempt to do so in such a way that it's not immediately obvious how it was accomplished for the offending party. At least this way I don't get people coming into my Discord bitching about a version I never uploaded.\n\nSomeone did this with my DEMO and was charging $5 for it, and had the audacity to put \"Copyright The Fox Knocks\" on the app page, and Apple STILL would not take my evidence despite e-mailing them from my official TheFoxKnocks e-mail. It's a joke.",
+                                                    "score": 7,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "Ruebenritter",
+                                            "body": "In your case did you file a DMCA takedown notice with Apple?",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "The-Fox-Knocks",
+                                                    "body": "Yes. That's where I submitted my evidence. They don't care about evidence because they still want to get an opinion from the opposing party. In my case, the opposing party took over 2 weeks to respond and their response was basically asking me to prove I own the game to them, even though I've already done this with Apple.\n\nApple is a very shit company.",
+                                                    "score": 6,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "VoltekPlay",
+                            "body": "I'm preparing a post about legal aspect with App Store, I'll post it tomorrow on r/gamedev",
+                            "score": 16,
+                            "replies": [
+                                {
+                                    "author": "esuil",
+                                    "body": "remindme! 1 day",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "RemindMeBot",
+                                            "body": "I will be messaging you in 1 day on [**2025-03-19 19:54:27 UTC**](http://www.wolframalpha.com/input/?i=2025-03-19%2019:54:27%20UTC%20To%20Local%20Time) to remind you of [**this link**](https://www.reddit.com/r/godot/comments/1je90av/how_to_protect_your_godot_game_from_being_stolen/mihtu18/?context=3)\n\n[**7 OTHERS CLICKED THIS LINK**](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5Bhttps%3A%2F%2Fwww.reddit.com%2Fr%2Fgodot%2Fcomments%2F1je90av%2Fhow_to_protect_your_godot_game_from_being_stolen%2Fmihtu18%2F%5D%0A%0ARemindMe%21%202025-03-19%2019%3A54%3A27%20UTC) to send a PM to also be reminded and to reduce spam.\n\n^(Parent commenter can ) [^(delete this message to hide from others.)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Delete%20Comment&message=Delete%21%201je90av)\n\n*****\n\n|[^(Info)](https://www.reddit.com/r/RemindMeBot/comments/e1bko7/remindmebot_info_v21/)|[^(Custom)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5BLink%20or%20message%20inside%20square%20brackets%5D%0A%0ARemindMe%21%20Time%20period%20here)|[^(Your Reminders)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=List%20Of%20Reminders&message=MyReminders%21)|[^(Feedback)](https://www.reddit.com/message/compose/?to=Watchful1&subject=RemindMeBot%20Feedback)|\n|-|-|-|-|",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "lefl28",
+                            "body": "Lawyers",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "SweetBabyAlaska",
+                                    "body": "sounds good but its not going to work. These groups own a multitude of accounts and incorporation's where the only push AI slop and stolen games, they do this outside of the US and the EU so jurisdiction is going to be a nightmare, and even if you somehow did get them in court the costs would be massive... and you are unlikely to get anything out of them. The more likely outcome is that they nuke their own account and start over and you will have no way of finding out who they are.\n\nYou would have to directly go after Apple for knowingly hosting stolen content or something.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "chriswaco",
+                    "body": "You have to find them, though. Sometimes they'll create clones in markets you haven't hit yet, like China, and if they translate the name and strings you might never notice. \n\nFor apps that use a server you can detect it a lot easier, like passing the bundleID to your server, although it's a game of cat-and-mouse.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "PeacefulChaos94",
+                            "body": "You're not wrong. My point is that if someone wants to crack your source and reupload your game, they're gonna be able to. Even AAA struggles with this. Encryption is nice, but it's not going to deter anyone with actual skill and motivation. Enforcing copyright law is the only way to truly protect yourself...and yeah, that really fucking sucks when the legal systems don't always work in your favor.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "powertomato",
+            "body": "I've had a good experience with gdmaim, for obfuscating gdscript code\n\n[https://github.com/cherriesandmochi/gdmaim](https://github.com/cherriesandmochi/gdmaim)  \n\n\nIf you change the encryption code a bit, then the standard scrapper will not be able to get the key without reverse engineering the executable. \n\nAnother Idea I had:  \nAdd a custom Node types on C++ side. Then even when they get the key, they need to reverse engineer that node. And if you want to go the extra extra mile, just make no-change derivatives of every single node and obfuscate the type names. Make an export plugin and change the types to the obfuscated ones upon exporting.\n\nAt that point it's pretty much cheaper to re-implement the entire code.",
+            "score": 20,
+            "replies": [
+                {
+                    "author": "VoltekPlay",
+                    "body": "Thanks for highlighting this. Both GDMaim and custom engine tweaks are good advices.",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "sputwiler",
+                    "body": "TIL that godot doesn't convert scripts to bytecode on build? Why are the symbol names still intact by default?",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "alabasterskim",
+                    "body": "Good on ya suggesting gdmaim. That should be built into Godot imo.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Emanu1674",
+            "body": "Better yet, make the game impossible to play on mobile so anyone that tries to place it on the store gets rejected by default",
+            "score": 10,
+            "replies": []
+        },
+        {
+            "author": "Exerionius",
+            "body": "Be wary that this most probably disables the conventional ways of modding Godot games like [Godot Mod Loader](https://github.com/GodotModding/godot-mod-loader). So if you want your encrypted game to support mods, you have to write your own modding API and support for it.",
+            "score": 15,
+            "replies": []
+        },
+        {
+            "author": "SomeGuy322",
+            "body": "Thank you for compiling this information, OP. Sometimes when this discussion comes up people dismiss security measures because they believe if you can\u2019t stop theft completely it\u2019s not worth trying. But that\u2019s not true at all. \n\nAnything you can do to delay reverse engineering attempts is beneficial because it filters out the amateurs who try the most common attacks. I hope this is a subject that engine developers can look into in the future as well in order to make theft protection easier, though it\u2019s bound to be tough with the project being open source. There\u2019s still things that could be improved though",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "SimoneNonvelodico",
+            "body": "As is, this sounds like a significant pain. If this is a thing that indeed happens, it would be great if Godot simply included the option with an in-built encryption engine. I can't imagine it would be that hard.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "mmaure",
+            "body": "if the encryption key is stored in the game files, why do you need to dump the memory and not just read the file?",
+            "score": 14,
+            "replies": [
+                {
+                    "author": "VoltekPlay",
+                    "body": "It's not directly accessible as plaintext, maybe it's valid approach to search game files, but from my research it's not that straightforward.\n\nBut it's relatively easy to extract it from game memory, where you can find it in human readable format.",
+                    "score": 14,
+                    "replies": [
+                        {
+                            "author": "DaWurster",
+                            "body": "Sadly, it requires only a minimal amount of tooling. Either you are skilled enough with debugging to find it very quickly or you can use premade tools like this one here:\n\nhttps://github.com/char-ptr/gdke\n\nI don't think it would have stopped anyone that went through the hoops of getting it through the apple review process from stealing your game...",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "Kyrovert",
+                                    "body": "oops",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "AFR0SHEEP",
+                    "body": "Also, why does it need to be stored in the game files?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "mmaure",
+                            "body": "you need to have the key to decrypt and run the game",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Yemesis",
+            "body": "Can we pin this please ?",
+            "score": 34,
+            "replies": [
+                {
+                    "author": "trickster721",
+                    "body": "Seems like it's getting a great response already! Normally we use pinned posts for official news and announcements.",
+                    "score": 9,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Haplo12345",
+            "body": "Encryption is definitely something Godot can improve upon. Is there a feature improvement request (https://github.com/godotengine/godot-proposals) already filed for improving the encryption mechanisms available in Godot already? If not, I suggest someone make one and then share it here so it can quickly get 100+ votes.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "__IZZZ",
+            "body": "Interesting to hear your story. You wouldn't believe how vehemently people have argued against me saying there should be no attempt to protect your work and it is morally objectional to do so.   \n\nMy understanding is that Godot is one of the easiest to effectively 'obtain' the complete source object. And that any further development of protection is discouraged because \"you can never completely protect it\" which is imo a stupid argument.",
+            "score": 11,
+            "replies": [
+                {
+                    "author": "VoltekPlay",
+                    "body": "Thanks, I'll post results of our legal disputes with Apple and thiefs tomorrow in r/gamedev \n\nI agree that you need to protect your work, even if that only will add 5 more minutes of work for those who try to stole it.",
+                    "score": 8,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "The_EK_78",
+            "body": "It's better what I do, making the code unreadable \ud83e\udd75",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "TestSubject006",
+            "body": "There's also a code Mangler/Obfuscator which can be used in conjunction with tokenization and encryption. It makes the code unreadable even after your game has been pulled apart from the tools.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Gplastok",
+            "body": "Thanks for that! \nIll certainly consider doing it!",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "onedevhere",
+            "body": "I didn't even know this was possible, thanks for sharing the information",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "HasbeyTV",
+            "body": "I have 2 questions:\n\nDid you manage to make as much as the thieves in AppStore?\n\nWill AppStore take money from thieves account and give it back to you?\n\nI guess the nice thing about this incident is your games apparently have the potential to make a nice sum of money",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "VoltekPlay",
+                    "body": "We made $0 and already spent $225 (App Store and Google Play accounts + Steam).\n\nSo far App Store just removed pirate apps. I tied to force them refund money to buyers and ban thiefs account, but they stop responding to my emails for a week now.\n\nTomorrow I'll make big post in r/gamedev about legal side of all that situation.",
+                    "score": 13,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "brokolja",
+            "body": "Or just use C# and activate AOT-Compilation. You get a fully precompiled binary, no encryption needed except if you want to encrypt assets but thats totally useless because everybody can get the Assets thanks to the gpu\u2026 example c# config with aot enabled:\u00a0<Project Sdk=\"Godot.NET.Sdk/4.2.0\">\n\u00a0 <PropertyGroup>\n\u00a0 \u00a0 <TargetFramework>net8.0</TargetFramework>\n\u00a0 \u00a0 <EnableDynamicLoading>true</EnableDynamicLoading>\n\u00a0 \u00a0 <!-- Use NativeAOT. -->\n\u00a0 \u00a0 <PublishAOT>true</PublishAOT>\n\u00a0 </PropertyGroup>\n\u00a0 <ItemGroup>\n\u00a0 \u00a0 <!-- Root the assemblies to avoid trimming. -->\n\u00a0 \u00a0 <TrimmerRootAssembly Include=\"GodotSharp\" />\n\u00a0 \u00a0 <TrimmerRootAssembly Include=\"$(TargetName)\" />\n\u00a0 </ItemGroup>\n</Project>",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "moongaming",
+                    "body": "But this wouldn't work with ant GDScript code right ?",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "OneGiantFrenchFry",
+            "body": "It sounds like in your case, the best thing would have been to not upload mobile builds to itch, but to upload to the stores yourself and then post links on itch to the stores. Did you already think about trying that next time?",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "chriswaco",
+                    "body": "It's not terribly hard to take official builds from the App Store or Google Play Store and copy them unfortunately. At one point we wrote a library to hash all of the app code and resources and passed the value to our server to detect clones. The simplest ones would change only the bundleID, signature, and maybe the name.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "SimoneNonvelodico",
+                            "body": "Well but I mean, if Google Play/App Store allow reuploads of builds *downloaded from their own store* and don't even check that quickly then... I guess that means they'd be catastrophically incompetent but I suppose that's not impossible.",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "chriswaco",
+                                    "body": "I haven't tried in 2 years, but we used to demo doing it with a popular banking app in the Google Play store. We would modify a few things like the name and app id, but it wasn't hard. \n\n(We sold a security library to prevent this, so it was part of our sales pitch. Unfortunately our library never caught on)",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "SimoneNonvelodico",
+                                            "body": "As a software engineer I can only keep being amazed that somehow our society's entire digital infrastructure still works despite being plagued by this kind of embarrassingly glaring flaws.",
+                                            "score": 5,
+                                            "replies": [
+                                                {
+                                                    "author": "chriswaco",
+                                                    "body": "https://xkcd.com/2347/",
+                                                    "score": 2,
+                                                    "replies": [
+                                                        {
+                                                            "author": "sputwiler",
+                                                            "body": "Nah, that person's a hero.",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "OneGiantFrenchFry",
+                            "body": "No but it's much easier to get those taken down from the stores since yours would have been uploaded first.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "VoltekPlay",
+                    "body": "I removed all downloadable builds right after we discover the theft.\n\nUnfortenately, I'm still in process of approving my App Store account (2 weeks already, support there is very slow) and I still can't publish my game to Google Play, because for new accounts they require 14 days closed test with 12 testers at least (it's not hard to do, but you always need to wait!).",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "sanstepon5",
+            "body": "What I don't understand is how would encrypting the .pck prevent this? Do they actually modify the build in some ways before uploading them to stores (my guess is they have to modify the credits/copyrights within the game)? Otherwise you don't have to unpack the .pck file to upload the build to App Store if they do no verifications of copyright.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "VoltekPlay",
+                    "body": "In our case we don't had an iOS build on our itch page (because it's useless, iOS users can't just install random app from the web), so they decompiled Android .apk and rebuild it for iOS, and than uploaded it to App Store.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "spruce_sprucerton",
+                            "body": "The sickening thing, if I understand correctly, is that the authentic creator got caught up in technicalities while the criminals had  no trouble uploading to the play store.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "gareththegeek",
+            "body": "I'm confused, why does someone need to decompile the game, can't they just upload it to a marketplace as is?",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "VoltekPlay",
+                    "body": "You need to make new build for every platform you want to support, right? With iOS it's just useless to make a build and share it not on App Store, because no one will be able to install it.\n\nSo if someone want to upload game to new platform, they can take Windows build (for example) decompile it to sources, and compile it for iOS and upload to App Store.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "cheezballs",
+                            "body": "Well, no. YOU need to make the build for the platforms YOU support, then me (as a thief) just steal your platform build, I dont need to re-build it. I cant port it easily to other environments, but I can still stick it out on a clone of your setup and itll run fine.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "meneldal2",
+            "body": "I said it in another thread, but if you want any kind of security that is not trivial to defeat, you need to have your key stored in a weird way.\n\nNot the Godot default.\n\nSomething more interesting like the hash of one of your asset files. Or even (more fun) the hash of the binary itself and you abuse md5 collisions to make your binary work with useless data at the end.\n\nWhat is important is that you make your own janky implementation so that people who want to steal your game need to use their brains a bit",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Jaxster246s",
+            "body": "People saying this isn\u2019t helpful think about it this way. You have locks on your house. They aren\u2019t put on houses to make it impenetrable. It\u2019s done to make it harder to get in. There\u2019s people out here that have equipment made to break locks.  Doesn\u2019t mean you shouldn\u2019t lock your house because it\u2019s hopeless. This is helpful information to shrink the amount of harm that could come to your game by making it more difficult. It\u2019s not that complicated.",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "cheezballs",
+                    "body": "The difference being that in this case, most people who want the game already have the tools to decrypt it. Your average person isn't the one stealing games and re-hosting them, its dedicated people who have the tools to counter your counters.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "Jaxster246s",
+                            "body": "I mean it\u2019s the same with my example. The average person isn\u2019t breaking and entering. Anyone who isn\u2019t an actual full time criminal but for whatever reason might be tempted to rob you, will probably be stopped by a locked door. If you\u2019re saying well if someone wanted to get in then they would\u2026 like sure? Same reason why you put passwords on your computer. If someone made it their job to get passwords they could probs get it with some effort. Doesn\u2019t mean you should just not have a password or not try and improve your passwords so that it takes more time to break.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "__IZZZ",
+                                    "body": "Absolutely agree with you. There is nothing wrong with making it harder where possible. The more time/effort/skill it takes to do it, the more it needs to payout to make it worthwhile, so it becomes a risk/reward type situation.",
+                                    "score": 4,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "VoltekPlay",
+                    "body": "Thank you, I see it the same way.",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Zestyclose_Tax_253",
+            "body": "Can you add an open source license to prevent the sale and distribution of your game as well?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "MrMindor",
+                    "body": "What is enforcing the license? If the thieves are ok with stealing your game and selling it as their own, it seems unlikely how you chose to license it is going to matter to them in the slightest.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Zestyclose_Tax_253",
+                            "body": "That\u2019s true, I just thought that it would be easier to take legal action if you have a proper license.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Conscious_Trash_9974",
+            "body": "Great post! Thank you so much!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "curiouscuriousmtl",
+            "body": "It seems like low hanging fruit for Godot to make this a lot easier and better. I don't have any context but is it much easier to do than it would be with Unity or Unreal?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "deep_froggy_frog",
+                    "body": "Both unity and unreal use compiled languages.  That makes them easier and more effective to obfuscate.  Writing your Godot game in c# provides a bit more protection than gdscript, but ultimately this has to come down to copyright protection, the app stores and steam need to do a better job of promptly removing things that violate copyright.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "Schmelge_",
+                            "body": "And maybe even holding on to the profits until its proven you're the copyright owner.. So that even if someone steals your game the profit goes to the creator/copyright owner",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "curiouscuriousmtl",
+                            "body": "I write mine in swift so I suppose I am a little better off.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "CringeKidy",
+            "body": "Does this also affect APKS (autocorrect being dumb) also?\n\nI would assume that google play protect or whatever it is called would have precautions to stop this?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "VoltekPlay",
+                    "body": "It affect all platforms. You can easily download .apk of any (free) app and decompile it, so if you haven't taken measures by yourself, the best what Google can do - warn user that they run unauthorized copy of app and recommend to download it from Google Play. But it can be easily avoided by changing app package and signature.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "CringeKidy",
+                            "body": "Thank you for the heads up",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "CodeandVisuals",
+            "body": "So if I use Godot to make a game and release it on Steam will users still be able to obtain the pck and steal it? I\u2019ve been thinking of making a game for PC and mobile only.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "VoltekPlay",
+                    "body": "Yes, Steam stores game files here: \\`Steam\\\\steamapps\\\\common\\`. But don't worry about releasing game on Steam, if someone will try to release a stolen copy of your game there, they will receive permaban from Valve, they are really aggressive on those legal issues.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "CodeandVisuals",
+                            "body": "Good to know. Thanks for the reply",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "xmBQWugdxjaA",
+            "body": "Another option is to code a few key pieces in Rust / C++ with GDExtension, as only the compiled libraries will be bundled.\n\nI don't know if this is possible for web export via wasm yet.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "mrpixeldev",
+            "body": "I think that is something that eventually needs to be addressed. Other frameworks usually offer an option that lets you recompile your games to low-level languages such as C++, this can drastically improve the performance of Gdscript for free while still keeping it's ease of use, making it harder to decompile, among other benefits.\n\nSadly, these issues can potentially affect the reception of our games, after all thiefs can sell an unfinished version of our game as it is, filling it with AI shovelware that doesn't align with our current vision and put off potential customers that might have been interested, and not even mentioning using the game as a way for scam.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Fallycorn",
+            "body": "Maybe this is a stupid question, but why do I need a custom encrypted engine build? All the game data is in the *.pck. Why is it not enough to encrypt the *.pck?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "BetaTester704",
+                    "body": "I believe the compiler bakes the key into the editor as well as your template\n\nAnd it's not explained well but you CANNOT encrypt your game without a custom build",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "VoltekPlay",
+                    "body": "It wasn't obvious for me too. \\*.pck is a container for our \"game\", it stores our code, assets, scenes and resources. When we encrypt .pck with some key, we also need to provide that key for engine runtime, so engine can decrypt it and extract our .pck content. It's the reason why we need to compile engine by ourself, so Godot runtime will have our encryption key built in it.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Blaqjack2222",
+                            "body": "If you change how the encryption key is read in the engine, all of the hacking tools stop working, since they assume the default method. Someone will have to guess your method and build their tools to decompile the game. This should already get rid of vast majority of hack attempts.",
+                            "score": 5,
+                            "replies": []
+                        },
+                        {
+                            "author": "Fallycorn",
+                            "body": "Hm, that does not make much sense to me. If the engine is encrypted too, it needs to decrypt itself before it can access the key, right?\n\n\nSo some part of the engine must not be encrypted in order to do it's thing (take the key and decrypt itself plus the *.pck.\n\n\nSo if the key itself and part of the engine is not encrypted anyway, why does it need to be encrypted at all? The dev has no use for an encrypted engine as the engine is the same for all standard godot users, only the *.ck file is unique as you said.\n\n\nSo why not hide the key in the *.pck file, after encryption of the *.pck file? If Godot knows where to look for the key when it is hidden in the *.exe, it should also be able to know where to look when it is in the\u00a0 *.pck file",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Dwarni",
+            "body": "That sucks, only way you can protect your game is to make it dependent on the server you host. But even then ppl could reverse-engineer the server and host it themselves. It is always a factor in how much effort someone wants to invest to benefit from your work.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "VoltekPlay",
+                    "body": "I guess if you \"big\" enough to do that, thiefs will be too scared to mess with you. But after I saw Monster Hunter reuploads on App Store under different names, I wouldn't be suprised.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ibstudios",
+            "body": "Maybe see if you can add this to the godot docs?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "VoltekPlay",
+                    "body": "All that information except for troubleshooting and hints on bash commands and windows specific things is already there! Check out the last link from the post.\n\nI guess if I add section \"How to compile custom export templates on Windows\" it wouldn't be approved, because it's not the subject of the Godot documentation and related to Windows more.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "ibstudios",
+                            "body": "thanks (for the reply and write-up)",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "SweetBabyAlaska",
+            "body": "Ive been considering just releasing all my code as GPLv3 or Apache or something, but making all branding, models, music, art etc... not open source. Sort of like Firefox does. You can rebuild and redistribute it as long as you change basically everything aesthetically. It at least forces people to do some work and others can learn from my code or contribute to it.\n\nThough, no matter what you do, if they platform doesn't want to enforce licensing laws or copyright laws... then what recourse does anyone have? It seems like you need money for them to even entertain listening to you.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "claymor_wan",
+            "body": "It's sad that ppl use the decompiler for this, personally I only do it to build windows games as linux cuz I prefer when they run natively",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "JLJFan9499",
+            "body": "I use RPG In A Box which is currently using Godot 3.1 or so and I was wondering if games made on that could be decompiled? RPG In A Box is not a fork though, just application made using Godot. A game engine inside a game engine. There is a pck file and exe that gets exported from RPG In A Box",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "shibe5",
+            "body": "In your particular case, would that someone be deterred by encryption that you described?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "VoltekPlay",
+                    "body": "I think yes, cause other games, stolen by that person, handn't any secutiry measures on.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Dusty_7_",
+            "body": "Maybe a dumb question, but can be files/project stolen if you export the build as a single file and not the zip?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "VoltekPlay",
+                    "body": "It's reasonable question, but it don't matter how you export your game, with embedded .pck or whatever, it could be opened with tools, mentioned in post.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "RainbowLotusStudio",
+            "body": "Also you need to compile the template from the env target, meaning use linux to compile linux template [https://www.reddit.com/r/godot/comments/1flf03f/compiling\\_with\\_encryption\\_key\\_on\\_different/](https://www.reddit.com/r/godot/comments/1flf03f/compiling_with_encryption_key_on_different/)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "redditfatima",
+            "body": "Let say I modify the source code, so that the key is not stored as a string but need to be recalculated with a function. Will it help? Can we do it with the same method?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "awesumindustrys",
+            "body": "Godot should implement some sort of analogue to Unity\u2019s IL2CPP to directly compile Godot projects into machine language code.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Bamboo--Man",
+            "body": "i wonder if Godot have way to minify the code. Example in js, people can use dev tool to get the js code but all the code is minify to the point it is hard to read or change anything in it. It doesn't prevent the game being stolen but it make thing harder for thelf when the want to edit something in game (add their own name in it,...).",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Electrical-Respect39",
+            "body": "This deserves a pin",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MoonQube",
+            "body": "Sounds like a gigantic design flaw in godot...\n\ni hope they somehow make this impossible. (or at the very least, implement some sorta encryption by default, so the game devs dont have to do all this)",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "deep_froggy_frog",
+                    "body": "It's never going to be impossible to reverse engineer a game, the point is to make it harder so most people will just give up.  That being said, Godot could certainly have a better encryption method than this.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "MoonQube",
+                            "body": "> Godot could certainly have a better encryption method than this.\n\nexactly\n\ni know, all encryption can be broken, but...\n\nit seems like its TOO EASY at this point. And when it's too easy, then people do it. just like movie and music piracy, etc.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "deftware",
+                    "body": "It's not a design flaw, it's just a fact of software. Software is just information, data, and can be duplicated freely - and modified freely, even if you add in checksums and all kinds of detection, people can find all of that and strip it out. You have zero expectation of your software only ever running as you intended because people will tear it apart to make it do what they want. The goal here is just making it difficult enough that they give up on stealing your game and instead move on to one that's easier to rip than yours.\n\nIt's like that saying: I don't have to run faster than a bear to not get eaten, I just have to outrun you!",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "MoonQube",
+                            "body": "> It's not a design flaw, it's just a fact of software.\n\nwell yes but how many de-compiling projects are easily available for other game engines? (And this simple to use)\n\nlets not make it TOO easy..",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ChaoticTech0111",
+            "body": "if you REALLY want to screw with someone, you could make a tool script in your game files that deletes every single one of the assets, than deletes itself using another function hidden in the player script.\nThis serves 3 functions.\n1. if they download and decompile your game, they will think they messed something up and probably spend hours trying to fix it.\n2. if by some chance they suspect that there is a script deleting the assets they will never find it.\n3. if they re-decompile your game you could have a secondary function that deletes every single one of their save files, opens the game 50 times (because if they like it enough to decompile it then they better play it) or one of the worst things you can do next to killing/infecting their pc, you could clog their memory making their pc crash (temporarily).\n\nif every single godot game packages itself with some random custom-made piece of malware, then any bot or thief will have to think twice about decompiling our games.\n\nThe very annoyed.\nChaotic Tech Support.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "benjamarchi",
+            "body": "Ironically, another way of protecting your intellectual property from theft is releasing it under a permissive copy left license, like GPL or Creative Commons share-alike.\n\nGive people access, under the condition that they can't restrict access. Imo, that's a better way of handling this sort of thing, because people who were going to hack your game and release it elsewhere without your permission are going to find a way to do that regardless of what measures you try to implement. Think about all the AAA games that get pirated.",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "DryEntrepreneur4218",
+            "body": "seeing all this talk about encryption and copyright kinda feels like we're just treating symptoms instead of the actual problem. the whole profit-driven system is what creates these issues in the first place.\n\nnot saying \"let companies steal our work,\" obviously. but instead of just trying to build better locks, we could be using licenses like gpl or certain creative commons ones that straight-up prevent corporations from profiting off our work while still letting the community share and build on it.\n\nimagine if we didn\u2019t have to waste time fighting over who owns what, and instead just created for passion, community, and meaning. the way things are now, corporations win no matter what, either by stealing outright or by forcing indie devs to constantly defend their work.\n\nthere are better ways to protect what we make than just playing defense in a rigged system. a better world is possible, or whatever they say lol",
+            "score": -4,
+            "replies": [
+                {
+                    "author": "SimoneNonvelodico",
+                    "body": "They don't really prevent this though. Like, it's possible OP did have a license, the problem is enforcing it. Basically App Store and Google Play being simply unresponsive when pressed to actually take down the game which was violating the license.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "DryEntrepreneur4218",
+                            "body": "yeah 100%. you should be able to enforce the license, that's precisely what it's for. what's the point if it has no legal strength??",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "SimoneNonvelodico",
+                                    "body": "Bringing anything to the actual legal system, especially when crimes are international (since the thieves may as well be doing this from another country), is expensive and complex and often just plain not worth it. The thing is that with online services there should be before that the option of having the hosting platforms and stores settle the matter based on their own Terms of Service... except as said by OP, it seems like they're terrible at doing that too.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "DryEntrepreneur4218",
+                                            "body": "wow, it seems like... this system is rigged in favor of incredibly big corporations and not small devs. I guess we're not rich enough to have rights.",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Norbetw",
+            "body": "Even AAA studios can\u2019t fully protect their games, we shouldn\u2019t be worrying about piracy at our beginning dev stage. If anything more piracies give  you more exposure to your own game, unless your game somehow becomes super popular than piracy is bad, but then again, If you reached that point where everyone knows your game somehow- is is success for you. Even AAA studios can\u2019t fully protect their games",
+            "score": -16,
+            "replies": [
+                {
+                    "author": "DarrowG9999",
+                    "body": "> If anything more piracies give  you more exposure to your own game\n\nIs not just piracy, if it were just people pirating the game to play it, that would be okayish. \n\nBut there are companies that grab free games, slap ads on them and publish them to the playstore.\n\nWorst is that some other companies do flip your assets and post them on steam.",
+                    "score": 15,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Mettwurstpower",
+            "body": "Not worth having the effort. It will be stolen and pirated anyway no matter how much encryption you use. It just makes it more difficult but it will not prevent anything",
+            "score": -18,
+            "replies": [
+                {
+                    "author": "cgbunny",
+                    "body": "Well you reduced the number of people who will bother. Since there is a ton of people stealing projects who are not way too, let\u2019s call them, tech savvy, and just using simple tools to grab a quick buck. It\u2019s worth the effort in my book. Honestly, if fitgirl cracked my game I would be honored but those small stealers are another story",
+                    "score": 8,
+                    "replies": [
+                        {
+                            "author": "Mettwurstpower",
+                            "body": "It just has to be a single person who cracks your game and it will be distributed all over the internet (unfortunately) but in my opinion it most likely will not have a noticable impact in sales or anything else. Most of the players are buying / downloading the game legaly so worrying about your game being cracked should be last thing. Like I said: It definitly will happen no matter how much effort you will put in encrypting it.",
+                            "score": -3,
+                            "replies": [
+                                {
+                                    "author": "cgbunny",
+                                    "body": "For me it's more about not letting some random lazy dude getting money of my work than protecting myself, as you said when it eventually gets cracked a lot of people will have access to it, and if someone wants to support me they will and are my target audience. But if some random dude just gets the code I doubt they will share it because they are greedy. I'm not saying you are wrong, it's just that I would like to sabotage some random greedy mf as much as I can.",
+                                    "score": 2,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "benjamarchi",
+                                    "body": "You're getting down voted, but your take is pretty much logical. People who would steal/pirate your game aren't your potential customers.\n\nAnd if they like the game, there's even the chance they'll buy it officially some day. I've seen this happen multiple times with friends.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Kyrovert",
+                                            "body": "i saw two comments that mentioned what the worst results of this situation can be:\n\n1. if you release a demo, someone might post it as a full game and steal the show and possible customers\n\n2. pirating is not the same as this. pirating is in its core, personal. you pirate a game to play it yourself. this one is straight up theft. they're getting paid off of your work, even before you get a penny. that itself is enough to encourage us to do security hardening.\n\neverything we do in our life is some sort of security hardening. we choose to walk in the walkway even tho it wouldn't definitely save us from a car crash. but it's more logical to decrease the chance of it. it's objectively worth it, it's not a preference.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "benjamarchi",
+                                                    "body": "If you release a demo licensed as GPL and someone makes it into a full game, they are legally bound to release it as GPL too. That's how GPL works. If you wanted, you could take the full game they made, repackage it, and sell it yourself. That would be perfectly legal.\n\nThat's the sort of protection GPL provides: everyone can freely use something, as long as they allow everyone to freely use what they built from said something.\n\nOf course, for commercial products that's kind of a weird and backwards way of thinking, but it protects you from theft: people can't steal something that has to be guaranteed to be freely available for everyone.\n\nAnd if someone violates GPL, you can lawyer up, much like you can with any copyright issue. There's really not much protection to be had from obscuring code, because people will find a way to break it. IMO, throwing your work out there and saying \"this is meant to be freely usable, as long as you make your work built from this freely usable as well\" is a better strategy, because then you get to harness the power of a community.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "SimplexFatberg",
+                    "body": "Yeah, security by obscurity isn't security at all.",
+                    "score": 12,
+                    "replies": [
+                        {
+                            "author": "MelvynAndrew99",
+                            "body": "I think its just making sure you are not an easy target.  If your game is popular enough, you are right, someone with enough skills will be able to get it no matter what you do.  Those decompilations from N64 titles are crazy levels of getting the source code.\n\nLike they say if you can read assembly code, then everything is open source!",
+                            "score": 12,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "superbrian69",
+                    "body": "Just like it's not worth locking your front door. It's too much effort to turn the lock and if anyone wants to break in they will. It won't prevent anything. /s",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Mettwurstpower",
+                            "body": "Comparing two different things which you can not compare",
+                            "score": -3,
+                            "replies": [
+                                {
+                                    "author": "nCubed21",
+                                    "body": "Seems like a 1 to 1 analogy to me. \nDoor locks really only exist to stop casual theft. If a burglar wants in, a lock isn't going to stop them. They can pick the lock or break through a window.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Mettwurstpower",
+                                            "body": "1 to 1 analogy would it be if you have not published the game and it is just on your computer",
+                                            "score": -3,
+                                            "replies": [
+                                                {
+                                                    "author": "nCubed21",
+                                                    "body": "That is not the same. \nYour house doesn't need to be \"published\" for it to be accessible to the public. Unless you live in a gated community or something.\n\nNo one can just steal your build that's locally on your hardware without a decent amount of work.",
+                                                    "score": 5,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Mx_Reese",
+                    "body": "Well, most likely it won't be stolen or pirated at all regardless because nobody will care to.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "eternityslyre",
+                    "body": "Definitely worth the effort. Dissuading an IP thief from stealing your game and assets is important. If someone not only steals your work, but claims it was their own work, you lose any chance of gaining the long term publicity that would have balanced out short term revenue loss.\n\nIt's the difference between someone stealing an iPhone from the warehouse, and someone stealing the manufacturing specifications for the iPhone, and selling knockoffs at much lower cost. (This is a real problem, IP theft in China is selling fake iPhones that steal real parts and features.)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "LayerComprehensive21",
+            "body": "Do similar tools exist for unity that are as effective? I'm guessing godot being open source you can't stop people making these tools unfortunately.",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "deftware",
+                    "body": "I believe there are utilities out there that will encrypt Unity games as well. IIRC one was used on the VR milsim game Onward to combat hacking/cheating.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "LayerComprehensive21",
+                            "body": "Sorry I meant tools to decompile games made in unity",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "mrpixeldev",
+                    "body": "There are tools to decompile a Unity using Mono. However, Unity does have IL2CPP which compiles the whole game to native, making it pretty much impossible to decompile a 1:1 copy of a functional project as if they just used git clone.\n\nThe point of these measures is not make it 100% impossible, but to deter thiefs by making it not worth the time, and effort to decompile the whole project.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "QuickSilver010",
+            "body": "I've always been looking for a reverse engineering tool. Thanks.",
+            "score": -2,
+            "replies": []
+        },
+        {
+            "author": "k0c-",
+            "body": "thanks now i know to use cheat engine to get your encryption key.",
+            "score": -4,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": -43,
+            "replies": [
+                {
+                    "author": "godot-ModTeam",
+                    "body": "Please review Rule #2 of r/godot: You appear to have breached the Code of Conduct.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

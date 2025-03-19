@@ -1,0 +1,97 @@
+{
+    "title": "ATV4K - What am I doing wrong?",
+    "author": "SleepTokenDotJava",
+    "subreddit": "PleX",
+    "rank": 3,
+    "score": 2,
+    "upvote_ratio": 0.58,
+    "num_comments (reported by reddit)": 13,
+    "url": "https://www.reddit.com/r/PleX/comments/1jej7dx/atv4k_what_am_i_doing_wrong/",
+    "id": "1jej7dx",
+    "selftext": "I have all my content as 4K remux files averaging 70-100 mbps bitrates. I have 3 Apple TVs - and I\u2019m able to direct play or direct stream every file. No audio delay, no playback issues. Even remotely.\n\nI always see others complain that they need to use Infuse on their ATVs. What am I doing differently?",
+    "comments": [
+        {
+            "author": "Affectionate-Mark428",
+            "body": "For the most part, it\u2019s fine. Sometimes Plex will transcode flac which would cause some stuttering.",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "SleepTokenDotJava",
+                    "body": "Even when transcoding flac I don\u2019t see issues.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Affectionate-Mark428",
+                            "body": "95% of my library has no issue a few here and there do . Some high quality demo footage I have doesn\u2019t work on Plex .",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "SleepTokenDotJava",
+                                    "body": "Fair. Maybe I just don\u2019t watch often enough and I\u2019ll hit that 5% eventually.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "klue17",
+            "body": "What are your Apple TV video settings? For Match Frame Rate \nAnd\nMatch Dynamic Range",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "SleepTokenDotJava",
+                    "body": "Both set to On",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "M4Lki3r",
+            "body": "I actually switched from a Shield to the ATV. Not had any issues since the switch. I think it's more of a 'vocal minority' that we hear from with issues but the majority are chugging along just fine. \n\nAs with everything on the internet and experiences, YMMV. I could be wrong though.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ProbablyUrNeighbour",
+            "body": "It comes down to the media. If you have TrueHD audio in your movies, ATV will need to transcode. If you switch to the AC3 Steam it will stop transcoding.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "SleepTokenDotJava",
+                    "body": "Transcoding audio never gives me a hiccup or audio delay.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Odd-Gur-1076",
+            "body": "I occasionally have stuttering problems with DV or HDR with the Apple TV Plex app, but it's rare and infuse will play those files just fine.\n\nIt's a great player otherwise.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Tangbuster",
+            "body": "If the Plex app works for you then great, stick with it. \n\nPersonally, I've seen a few files here and there that have had issues with my Plex setup and Infuse definitely plays everything I throw at it. \n\nI also prefer the UI. You do have to setup the favourites (equivalent of libraries) properly and this can definitely seem a little fiddly. \n\nBut the other benefit of Infuse is that I can access my SMB shares in the same app. This means it will act like a network media player when the internet goes down. Actually, it can also access my Macbook's shares as well as webDAV folders for me.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "elijuicyjones",
+            "body": "Yeah it\u2019s all about matching the AV formats to the playback device. Can I ask what settings you target in your remuxing? I just switched from my tv app to an Apple TV and I need to set up tdarr to crawl through everything, but I\u2019m not quite sure what would be best.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "FreddyForshadowing",
+            "body": "The others don't *need* to use Infuse, they just *prefer* it for one reason or another. It's generally best not to question people's superstitions like this. Some of them get angry and defensive about it, some people will take you down a dark path full of magical thinking, some will absolutely insist that they must use this software because one file 5-years-ago wouldn't play with Plex but did with Infuse, and then a depressingly small number will admit that it's either just a preference or they paid for a lifetime sub, so since they paid money for it they feel compelled to use it.\n\nEdit: See, one of the angry defensive people downvoted me.",
+            "score": -1,
+            "replies": []
+        }
+    ]
+}

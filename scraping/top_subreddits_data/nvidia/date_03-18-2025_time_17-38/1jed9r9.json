@@ -1,0 +1,160 @@
+{
+    "title": "Half-Life 2 RTX Demo on an RTX 3060 using the DLSS 4 Transformer Model on Ultra Performance",
+    "author": "splinter1545",
+    "subreddit": "nvidia",
+    "rank": 12,
+    "score": 16,
+    "upvote_ratio": 0.74,
+    "num_comments (reported by reddit)": 24,
+    "url": "https://www.reddit.com/gallery/1jed9r9",
+    "id": "1jed9r9",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "splinter1545",
+            "body": "Performance is around 30+ FPS in my experience on the low render preset, so completely playable if you're okay with 30 FPS. You can technically get 60 FPS if you turn off ray reconstruction, but the image is insanely noisy otherwise and looks really bad. Regardless, I wanted to show off how impressive both DLSS 4 Super Resolution and Ray Reconstruction are for a GPU that isn't in the specs sheet to run this game.\n\nEdit: Not too sure why the first image is really blurry, but the others are just fine. Some graininess is noticeable since it's a still image, but playing in motion it's hardly noticeable other than on fire and smoke effects.\n\nEdit 2: This is actually on the perform preset since Ray Reconstruction can't be used on Ultra Performance. I was mistaken since the option was still selected so I assumed that RR just gave a resolution bump as well.",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "Sioscottecs23",
+            "body": "Avarege fps?",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "splinter1545",
+                    "body": "Around 34ish, never seen it dip below 30 but I haven't finished the demo yet so it's possible (I assume it can dip below 30 at the end of Ravenholm when Grigori walks through all the fire).",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "Sioscottecs23",
+                            "body": "Maxed out settings?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "splinter1545",
+                                    "body": "Nah, this is on the low render preset with all the enhanced textures enabled.",
+                                    "score": 8,
+                                    "replies": [
+                                        {
+                                            "author": "Sioscottecs23",
+                                            "body": "Sigh, I am not going to get that better performance am I",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "splinter1545",
+                                                    "body": "You might since a 3060ti is the minimum GPU required, while my RTX 3060 isn't on the spec sheet. Although they said a 3060ti will be minimum for 1080p 30 fps and that's on DLSS performance, so can squeeze a bit more setting it to Ultra Performance but i doubt it'll hit 60.",
+                                                    "score": 5,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Sioscottecs23",
+                                                            "body": "![gif](giphy|l378giAZgxPw3eO52)",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Sioscottecs23",
+                                                                    "body": "Wait I have lossless scaling\n\n![gif](giphy|xT5LMHxhOfscxPfIfm)",
+                                                                    "score": 0,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "BinaryJay",
+            "body": "Pretty cool for a two generations old, pretty much lowest end GPU.",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "AnthMosk",
+            "body": "Does it use transformer model by default?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "splinter1545",
+                    "body": "For me, no, even with the overrides I set using the Nvidia Profile Inspector. Although you just toggle it in the Remix settings which the hotkey by default is Alt + X.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "AnthMosk",
+                            "body": "Can\u2019t I just turn it on with NVIDIA app? Would be nice to retire profile inspector",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "heartbroken_nerd",
+            "body": "You do realize we can see your DLSS indicator in the corner, right?\n\n540p->1080p is 1080p DLSS Performance \n\nWhy lie about using Ultra Performance?",
+            "score": -3,
+            "replies": [
+                {
+                    "author": "splinter1545",
+                    "body": "For some reason Ray Reconstruction bumps it up to that, with it off it's the usual resolution that Ultra Performance is at but the image is way too noisy.",
+                    "score": 9,
+                    "replies": [
+                        {
+                            "author": "heartbroken_nerd",
+                            "body": "Well, because Ray Reconstruction requires at least DLSS Performance. I think it could still work below that but it certainly wasn't trained for anything less than 50% resolution factor (image being upscaled from 25% of the pixels)",
+                            "score": 0,
+                            "replies": [
+                                {
+                                    "author": "splinter1545",
+                                    "body": "You're correct, I just tested it now and performance on RR is the same as Ultra performance, so it just bumps you up a level instead of greying it out like other options. Sadly I can't edit the title but I'll edit my comment to reflect it.",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "Jellyfish_McSaveloy",
+                                            "body": "Ray Reconstruction is seemingly bugged at the moment. It locks the DLSS level to performance no matter what your setting is.",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Pleasant-Contact-556",
+            "body": "it's interesting how small the visual overhaul is.\n\nseems like the more realistic a game tried to look initially (and hl2 had some of the best baked lighting ever done), the less of an impact adding pathtracing has.\n\nhalf life 2's improvement is so marginal that if you showed me a screenshot I would just recognize it as HL2, not HL2 RTX. meanwhile minecraft is so substantial it may as well be another game",
+            "score": -16,
+            "replies": [
+                {
+                    "author": "heartbroken_nerd",
+                    "body": "I think you need to see a specialist about your vision problems because this looks stunning compared to original Half Life 2.\n\nLook at this video comparison:\n\nhttps://youtu.be/QHRS0TO89UI",
+                    "score": 11,
+                    "replies": []
+                },
+                {
+                    "author": "kelin1",
+                    "body": "This is gonna be the new \u201cthe human eye cannot perceive more than 30 fps\u201d isn\u2019t it? \n\nIt\u2019s not gonna make the game look like a different game. But to argue the lighting differences are \u201cmarginal\u201d (and this is a worst case scenario for the differences bc his card is out of spec in theory) is a little batshit.",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "Seiq",
+                    "body": "I think you'll find the vast majority of people disagree, but really, it's hard to judge something like Path-tracing unless you see it in motion.\n\nThat's obviously impossible to see in a screenshot, and it's hard to see on a low bit-rate YouTube video.",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

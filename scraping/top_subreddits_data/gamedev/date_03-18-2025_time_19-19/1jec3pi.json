@@ -1,0 +1,27 @@
+{
+    "title": "Some resources I've built for making browser games with no frameworks or dependencies",
+    "author": "indeddit",
+    "subreddit": "gamedev",
+    "rank": 18,
+    "score": 3,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 2,
+    "url": "https://www.reddit.com/r/gamedev/comments/1jec3pi/some_resources_ive_built_for_making_browser_games/",
+    "id": "1jec3pi",
+    "selftext": "I've been building browser games from scratch for the past two years and I've built myself a nice little JS toolkit that I thought I'd share with other devs.\n\nMaking stuff with no frameworks or dependencies may sound needlessly hard, but it has honestly brought the joy back to development for me because I spend 0% of my time fussing with config files and builds, and 100% of my time tweaking my game or learning general purpose browser APIs. It's been really fun. Also, no frameworks = very good performance by default.\n\n**How do the games work?**\n\nThe summary is that my games all run in one animation loop in an index file, and everything inside it is encapsulated in closures. So: rendering a spaceship? That's probably in \\`spaceship.js\\` as \\`makeSpaceship()\\` and manages its own state and has a \\`spaceship.draw()\\` function call.\n\n**Here's the good stuff, all closures:** \n\n* [Particles](https://github.com/ehmorris/bubbles/blob/main/particle.js) including collision detection\n* [Springs](https://github.com/ehmorris/bubbles/blob/main/spring.js) for animations, including callbacks for the rest state so you can chain spring animations\n* A handy [animation loop](https://github.com/ehmorris/bubbles/blob/main/helpers.js#L1-L20)\n* [Canvas manager](https://github.com/ehmorris/bubbles/blob/main/canvas.js) including offscreen canvas\n\nI've used this to make two games that are \"complete\" with a modest player base (\\~40k per month combined), and lots of other sandbox experiments or unfinished ideas.\n\n* Complete: [Lander game](https://ehmorris.com/lander/) ([repo](https://github.com/ehmorris/lunar-lander))\n* Complete: [Bubbles game](https://ehmorris.com/bubbles/) ([repo](https://github.com/ehmorris/bubbles))\n* [Vehicle \"shooting\" game](https://ehmorris.github.io/vehicle/) ([repo](https://github.com/ehmorris/vehicle))\n* [Letter game for kids](https://studiomorris.kids/letters/) ([repo](https://github.com/ehmorris/letters))\n* [Spring animation playground](https://ehmorris.github.io/spring-animation-test/) ([repo](https://github.com/ehmorris/spring-animation-test))\n* [E. coli simulation](https://jsomers.net/e-coli-chemotaxis/) ([repo](https://github.com/ehmorris/ecoli-chemotaxis))\n\nLet me know if this stuff is interesting and I can write more.",
+    "comments": [
+        {
+            "author": "WoollyDoodle",
+            "body": "Nice project, although the lander game doesn't work on Android+Firefox (lander falls through the floor) but works on Android+Chrome... Which, to me, sort of highlights the value of engines and frameworks",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "indeddit",
+                    "body": "Oh that\u2019s so weird I\u2019ll have to look into that\u00a0",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

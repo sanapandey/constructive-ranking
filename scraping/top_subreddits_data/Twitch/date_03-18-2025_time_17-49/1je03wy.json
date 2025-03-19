@@ -1,0 +1,20 @@
+{
+    "title": "My network card has overheating issues and causes random connection drops during streams.",
+    "author": "Aceslasherv2",
+    "subreddit": "Twitch",
+    "rank": 16,
+    "score": 2,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 1,
+    "url": "https://www.reddit.com/r/Twitch/comments/1je03wy/my_network_card_has_overheating_issues_and_causes/",
+    "id": "1je03wy",
+    "selftext": "So i have a asus xg-c100c network card, but have noticed that if my room isn't really cold(14\u00b0C or below) it causes connection issues while gaming and streaming. From what I've seen it's a more common issue with that specific card. are there any good alternatives that do work as intended?",
+    "comments": [
+        {
+            "author": "FerretBomb",
+            "body": "Do you really need a 10Gbit NIC?  \nAre you actually running a 10Gbit LAN?  \nMost I know don't bother with that in present-day 2025, and at-best are running 2.5GbE unless it's in a network file-share server, and even then they only bother to do that between the server and switch, not to their workstations aside from video editing rigs wanting to work directly on the network share.\n\nGrab just about any Intel-based PCIe NIC and swap it in. Not really difficult to do; if the card has thermal issues, either replace it, re-do the thermal paste on it, point a little case fan at it to actively cool that heatsink or something similar.",
+            "score": 2,
+            "replies": []
+        }
+    ]
+}

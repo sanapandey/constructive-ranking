@@ -1,0 +1,26 @@
+{
+    "title": "Any way to backup an application's data over the internet?",
+    "author": "ozone6587",
+    "subreddit": "MacOS",
+    "rank": 7,
+    "score": 1,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 2,
+    "url": "https://www.reddit.com/r/MacOS/comments/1jelope/any_way_to_backup_an_applications_data_over_the/",
+    "id": "1jelope",
+    "selftext": "I'm a Linux and Windows guy but my SO uses MacOS. \n\nMost of the apps in Linux store the data in well known places and I can back the folders up with duplicacy or restic and send the data to a remote SFTP server. If I use ZFS snapshots I can backup appdata even while the app is running.\n\nWith Windows, making a backup of \"C:\\Users\\myuser\\AppData\\Roaming\" with duplicacy or Arq allows me to send the data to any cloud storage or my own SFTP server. With Windows Shadow Copy I can backup the appdata even while the app is running.\n\nBut now we come to MacOS. I installed both duplicacy and Arq in her Mac. I discovered Macs have APFS snapshots which solves the issue where the app is running while the backup is also running. \n\nHowever, **I'm not sure what folders I need to backup**. It just seems like the location for appdata is completely random. Is there a way for me to know where Apple notes are being stored? Where Apple mail stores the data? Etc.? Like, in general?\n\nI do not want to rely on iCloud. I don't think Apple notes offers versioning so that would be a reason why I would prefer to backup the apps myself.\n\n**Reasons why Time Machine is not the solution**:\n\n1. My philosophy is that I should be notified when backups fail via email. Time Machine does not do this.\n\n2. Backing up over SMB over a VPN sounds slow and painful. Also, I want the flexibility to backup to cloud storage services directly too.",
+    "comments": [
+        {
+            "author": "ThrustersToFull",
+            "body": "The Library folder in the user home folder is what you\u2019re looking for.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "markw30",
+            "body": "It\u2019s good to have a philosophy. lol. \nTime Machine puts a notification on your Mac screen",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

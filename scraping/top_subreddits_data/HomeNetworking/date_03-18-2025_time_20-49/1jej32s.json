@@ -1,0 +1,89 @@
+{
+    "title": "I want to go away from Unifi, any suggestions?",
+    "author": "arunoruto",
+    "subreddit": "HomeNetworking",
+    "rank": 9,
+    "score": 3,
+    "upvote_ratio": 0.67,
+    "num_comments (reported by reddit)": 12,
+    "url": "https://www.reddit.com/r/HomeNetworking/comments/1jej32s/i_want_to_go_away_from_unifi_any_suggestions/",
+    "id": "1jej32s",
+    "selftext": "For three years now, I have been rocking a Unifi setup, and I have had a mixed experience.\n\nSmall backstory:\n\n* I live in Germany and never much cared about my network setup since the local AVM Fritzbox was bundled with every contract, and they were all around. They were, and still are, quite ugly, but they worked reliably. \n* Then, my Google Fan Boy phase kicked in, and I got myself an \"upgrade\": Google WiFi (Gen 1). They were presentable and had a nice interface to manage them, but they lacked some advanced management features I had on the AVM machines.\n* A friend always talked great about Unifi and how they have great devices. He rarely praises big corp tech, so I researched a bit, and it seemed daunting. I gave in and bought a few Unifi things here, primarily secondhand, to test things. That's when I got kind of trapped...\n\nSomething was always lacking, so I upgraded to the better option to solve the problem, but the number of the issues never really went away. \n\nThere was always some kind of weird problem present. For example, some IoT devices couldn't communicate via 2.4 GHz due to faulty firmware, or the express gateway dashboard was constantly unreachable and had to be restarted to get to the settings until it got stuck somewhere again. I got myself a new U7 to try out WiFi 7, but 6GHz drops the moment I look at the AP the wrong way with all my devices. And now, the best part is that my WiFi is always unstable. Random dropouts on my phone, laptop, and steamdeck take my devices offline, ranging from a few seconds to a minute.\n\nMy frustration was even bigger when I visited my parents for two weeks: I gifted them my Google WiFi setup, and that thing runs rock solid to this day! There are no dropouts, and I have a good and stable connection throughout the house, even when I jump over two devices via wireless mesh.\n\nWhile the Nest Wi-Fi setup is daunting, I still do not like the app-driven control of the setup. I would prefer a web UI where I can control everything, even from my laptop.  \nWhile not mandatory, having a system with a built-in modem would be great to lessen the clutter.  \nHaving some features like encrypted DNS, DynDNS, and Mesh would be important to me, but advanced features like smart traffic blocking, traffic analyzing, and other stuff, which Unifi promotes, are not really important to me, especially since most things are turned off...\n\nI was thinking of switching back to AVM, especially the 5690 Pro, which looks quite good and would cover all my needs now. But a friend of mine (not the aforementioned one) said the Wi-Fi sometimes behaved weirdly. He is pretty nitpicky, so such stuff wouldn't probably bother me much. And to be honest, I would be surprised if it got much worse than the current situation.\n\nDo you guys have any suggestions or tips and tricks on choosing the proper setup for me now? I just want a stable network and some slightly advanced features, but definitely nothing super-expert!",
+    "comments": [
+        {
+            "author": "RedFin3",
+            "body": "Take a look at Firewalla.  They make really good firewall/routers and now offer APs.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "T4Abyss",
+            "body": "Your problems wouldn't be acceptable in an enterprise environment, so clearly you have some issues that you need to overcome, I wouldn't say this is indicative of ubiquity products more so over the configuration and deployment scenario you have. I would advise to keep plugging away at resolving these issues since you are invested already into the ubiquity ecosystem.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Prior_Housing5266",
+            "body": "Openwrt solution? PFSense or OPNSense? Juniper/Mist? Cisco/Meraki? TP-Link/Omada? HPE/Aruba? Netgear SMB?\n\nWhat kind of layout are you working with and square footage?\u00a0\n\nThere is a balance between slightly advanced features and consumer vs SMB. I have avoided wireless backhaul systems and changing systems can often mean new install locations given coverage differences.\n\nSome Asus routers can run Merlin which is nice, but I don\u2019t care for their AIMesh.\u00a0\n\nI also require modern fast handoff as I love in a 2 story home with a basement.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Meganitrospeed",
+                    "body": "No Mikrotik or Rukus?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Waste-Text-7625",
+            "body": "Honestly, it sounds like you will be disappointed with all options as nothing will give you everything you want. The best way is to select individual pieces and build a network with self-hosted services to get done what you want, but you sound like you still need the package tied together with a UI bow. Unfortunately, you will not get that with professional grade networking devices as they are usually lean, mean, and CLI based. Mikrotik is not your speed as it is not as intuitive. Firewalla, OPNsense, etc, are really step downs from Unifi with less capability. \n\nI would post about your issues in the r/unifi or r/ubiquity subs as they can probably help you overcome some of those issues. When you get past the consumer grade systems like you did, things don't just work out of the box. It takes some tweaking and learning to optimize your network. With more power comes more responsibility.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Usernamenotdetermin",
+                    "body": "Nice analysis.  Think Meraki gear would fit the bill?  I use Ubiquiti myself, and had a Synology mesh setup prior to that.  Set up an OPSense box, but never deployed.  Have not used Meraki, but would consider.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Waste-Text-7625",
+                            "body": "That might be a fit. It's kind of Cisco light in a way (as they own them). I've never really looked at pricing and options. I ended up going from Ubiquity Edgerouter... then tried their unifi routers but felt it was a step backward from EdgeOS and ended up with Mikrotik. But I was looking more for feature/price v. UI. I do use Unifi for my APs. I also manage Unifi routers for some of my extended family as it fits the bill for them and easy for me to manage remotely.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ralf1",
+            "body": "if you are ok with spending a few dollars Firewalla for route/firewall and Aruba for access points - very happy with that setup at my place",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Usernamenotdetermin",
+            "body": "Perhaps a Synology RT6600ax  with a wired backhaul WRX560 mesh setup?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "AVGuru904",
+            "body": "Check out Alta Labs",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Meganitrospeed",
+            "body": "I hate Frigzboxes they gave so much trouble at work (we use zScaler and for some reason Fritzbox users could have a lot of VPN issues, the vendor basically said: All clients using Fritzbox will be unsupported, so nobody at work could raise a ticket with a Fritzbox anymore\n\n\n(Probably some setting, but if the Guys from the vendor we pay for such says that its probably for a reason, I figure It was some hardware offloading that did that, never got a unit on my hand to test)\n\n\nFrom your setup I think you have somebsort of configuration error more than a hardware issue, start unplugging stuff.\n\n\n\n\nIf you wanna get away for Router you could use Mikrotik, for AP's Mikrotik itself is fine or you could go with Netgear or Ruckus, although I would probably stay with Ubiquiti if I were you",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Hoovomoondoe",
+            "body": "I've been using Unifi APs for some time, and although I have had a few of the problems you noted in the past (over two years ago), I haven't seen then recently.\n\nSorry you're having so much trouble.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

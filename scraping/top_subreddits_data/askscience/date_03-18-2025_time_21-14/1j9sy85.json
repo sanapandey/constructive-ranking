@@ -1,0 +1,381 @@
+{
+    "title": "Is the \"bubbliness\" of dish soap related in anyway to it's cleaning properties?",
+    "author": "nottherealslash",
+    "subreddit": "askscience",
+    "rank": 10,
+    "score": 301,
+    "upvote_ratio": 0.85,
+    "num_comments (reported by reddit)": 97,
+    "url": "https://www.reddit.com/r/askscience/comments/1j9sy85/is_the_bubbliness_of_dish_soap_related_in_anyway/",
+    "id": "1j9sy85",
+    "selftext": "There's this one advert for washing up liquid which extols how many bubbles it produces.  It annoys my wife because she repeatedly says \"it's not the bubbles that clean the dishes\".  \n\nTo my mind though, the amount of bubbles a given dish soap produces gives an indication of how well it works as a surfactant which surely affects how well it will clean food off the dishes.  \n\nSo who is right?  Do the bubbles matter or not?",
+    "comments": [
+        {
+            "author": "ThalesofMiletus-624",
+            "body": "Actually, you're both kind of right.\n\nAs the other answers say here, the properties that produce bubbles are different than the ones that actually clean the dishes, so your wife is right, making a bubblier soap doesn't make it clean better.\n\nBut your question is whether the bubbliness is related *in any way*, and actually, it kind of is.\n\nHow many bubbles you get is partly related to the soap itself, but partly related to the water quality. \"Harder\" water (meaning water with higher mineral content) inhibits the ability of soap to clean, and also impacts the ability to form bubbles. This is a clear enough effect that early tests for hard water involved adding the water to a soap solution, until the solution wouldn't bubble anymore (more precise methods have since been developed). \n\nSo, it's likely that people have historically noticed that, when their soaps didn't bubble up, they also didn't clean very well. That's because of their water quality, not because a of problem with the soap, but the association became well enough established that dish soap companies deliberately add foaming agents.\n\nOf course, they only add those foaming agents for the soaps you use for hand-washing, because (I can tell you from personal experience) putting that soap into a dishwasher is *not* a good idea. And yet non-foaming dishwasher soap works just fine, because the foaming is an indicator, at best, not something that actually cleans.",
+            "score": 385,
+            "replies": [
+                {
+                    "author": "5YOChemist",
+                    "body": "Just a little additional information for people who are interested (your answer is excellent).\n\nDish soap like dawn uses SDS for the main cleaning agent, and it is foamy. SDS is a really effective detergent on its own. But, when hand washing the bubbles are actually a detriment to cleaning. When you put a dish into the sink and scrub it, soil is dissolved by the detergent and distributed along the air-water interface (And into micells in the bulk solution). The bubbles are a HUGE air-water interface surface and hold a large amount of soil. So, when you remove the dish from the sink you drag it up through a layer of soil that redeposits on the surface of the dish. \n\nBut as you said people associate foam with cleaning power, so the psychological benefit of seeing the foam outweighs the minor problem it causes.\n\nAuto-dish detergent in its simplest form is a base that will turn the fat and oil on your dishes into soap. This is water soluble and will also dissolve more soil, since it is soap. Soap made from fat isn't very foamy (think of ivory soap). As you said, you don't want foam in your dishwasher, but you also can't use dishwasher detergent to hand wash because your hands will also turn into soap at the pH and temperature needed for it to function properly.",
+                    "score": 86,
+                    "replies": [
+                        {
+                            "author": "1stPomegranate",
+                            "body": "What?! Turn your hands into soap? How's that?",
+                            "score": 10,
+                            "replies": [
+                                {
+                                    "author": "5YOChemist",
+                                    "body": "That was a little bit of an exaggeration. Strong bases break animal fats (triglycerides) into free fatty acids (I think it's an SN1 reaction). FFA has a water loving head and fat loving tail, it is a soap. \n\nThe cell membrane in your skin cells is made out of fats. When you touch a strong base it feels slippery, that is the soap from your skin cells getting saponified.\n\nYou would end up with chemical burns in a couple minutes, but it won't turn you completely into soap.",
+                                    "score": 43,
+                                    "replies": [
+                                        {
+                                            "author": "pascee57",
+                                            "body": "The reaction is ester hydrolysis, also called saponification because of its use in making soap.",
+                                            "score": 12,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Forgind1",
+                                            "body": "Correct me if I'm wrong, but I think I (accidentally) got the same effect at one point when I was cooking with baking soda, and I spent a while with pure baking soda on my hands. I noticed at some point that my hands felt oily. I washed them (with soap), and after a bit, I noticed they were still \"oily.\" I now think it was just my skin breaking down.",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "E_Con211",
+                            "body": "Rinsing dishes under clean water after you\u2019ve scrubbed them deals with this. Always grosses me out when people don\u2019t do this.",
+                            "score": 7,
+                            "replies": [
+                                {
+                                    "author": "Spilark",
+                                    "body": "Letting soap dry on the plates?  That's weird.",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "Maxamillion-X72",
+                                            "body": "Had a roommate who did this with her dishes, never rinsed off the dishes after washing, claimed the soap would evaporate. What was evaporating was the water, leaving behind concentrated soap film. \n\nShe also complained of constant diarrhea and stomach cramps, but never really put two and two together.",
+                                            "score": 4,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "fiendhunter69",
+                                    "body": "Some people don\u2019t do this?! I know I shouldn\u2019t be surprised, but damn that\u2019s gross.",
+                                    "score": 4,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "WazWaz",
+                    "body": "More likely people noticed that as you add grease and dirt to soap, it stops foaming. I doubt many people experienced a variety of water hardnesses.\n\nDishwasher powder isn't really soap, it's closer to bleach. The anti-foaming agents are there because the *byproducts* of the chemistry of cleaning the grease off your dishes basically makes soap.",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "YZJay",
+                    "body": "Anecdotally, the soap doesn\u2019t bubble when the thing I\u2019m cleaning is especially dirty. A second wash makes it significantly bubblier.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "Megalocerus",
+                    "body": "Years ago, one of my kids got the spicnspan powder for floors mixed up with the dishwasher detergent, and the bubbling result burst out of the dishwasher and got my kitchen floor remarkably sparkling and new looking.   Dishwasher detergent doesn't make much bubbles.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "shifty_coder",
+            "body": "No, it is not. Foaming agents are added to dish soaps, body washes, shampoos, and other \u2018manual\u2019 cleaning and bathing products because customers *think* \u2018more bubbles\u2019 == \u2018better cleaning ability\u2019.\n\nDetergents used in automatic clothes washers and dishwashers are usually more concentrated, and produce very little suds.",
+            "score": 300,
+            "replies": [
+                {
+                    "author": "SopwithTurtle",
+                    "body": "Minor correction: Detergents used in laundry machines and dishwashers have compounds to knock the foam down. Without those, the detergents would absolutely foam. Concentration isn't a factor.",
+                    "score": 99,
+                    "replies": [
+                        {
+                            "author": "RavingRationality",
+                            "body": "nobody replied to this. If you're right, then all these other answers are mostly wrong.\n\nAnd I know very little about it so I can't say if you're right.",
+                            "score": 26,
+                            "replies": [
+                                {
+                                    "author": "Beliriel",
+                                    "body": "I just know that adding silicone lube (dimethicone) to soap water can prevent foaming to a crazy degree. Which makes washing the lube off tedious af. And yes it's also used for THAT lube.",
+                                    "score": 3,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Artrobull",
+                                    "body": "faomy detergents use anionic surfactant they foam like crazy the good ol normal kind if soap with big ol negative side and water molecule has TIIIIIINY positive charge \n\nHE detergent use non-ionic surfactant (has no + or - side) alkyl polyglucosides or fatty alcohol ethoxylates that do the job but dont foam so much and there are also zwitterionic surfactants that are above my payfrade but its something about having both + side and - side in wierd places\n\n+im absolutely sure you are using too much detergent in your machine\n+fabric softners are a scam \n\nhave a nice day",
+                                    "score": 0,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "RCubeLoL",
+                    "body": "Ive known about this and still hate all soap that does not foam because I simply cannot tell what part of my body/my dishes actually has soap applied to and which do not",
+                    "score": 18,
+                    "replies": [
+                        {
+                            "author": "e-chem-nerd",
+                            "body": "Totally agree. Bubbles give a visual so you can see if you applied soap to the whole surface, and also the absence of bubbles gives a visual so you can tell that you rinsed all the soap off, too.",
+                            "score": 11,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Supraspinator",
+                    "body": "Yes! Detergents for dishwashers are very effective and produce almost no bubbles. Try to load your dishwasher with Dawn - it turns your kitchen into a foam pit (ask me how I know\u2026)",
+                    "score": 42,
+                    "replies": [
+                        {
+                            "author": "None",
+                            "body": "[removed]",
+                            "score": 8,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "waylaid_wanderer",
+                    "body": "It's this right here. There are multiple surfactants in dish soap, and the one responsible for bubbles is not the one that is the primary \"workhorse\" that binds to food and grease. It might do a little something, but it's more about the perception.",
+                    "score": 52,
+                    "replies": [
+                        {
+                            "author": "magithrop",
+                            "body": "from a consumer perspective, do more suds make the same volume of soap last longer though? someone washing dishes will judge how much soap is necessary in part visually, and the volume of suds is part of that.",
+                            "score": 20,
+                            "replies": [
+                                {
+                                    "author": "Hardass_McBadCop",
+                                    "body": "From a consumer perspective, the only reason that it still makes suds is because people quit buying it if it doesn't. That's literally it. The foaming agents are strictly cosmetic to make people feel better. Sorta like how they put crosswalk buttons at busy intersections, even though if they worked traffic would be at a standstill.",
+                                    "score": -4,
+                                    "replies": [
+                                        {
+                                            "author": "xzt123",
+                                            "body": "Croswwalk buttons absolutely function. It is amazing i hear this repeated online.",
+                                            "score": 10,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "magithrop",
+                                            "body": "But \"people feeling better\" in this case has a measurable consequence in terms of how much soap is used. The idea that that kind of feature is useless I think is mistaken.\n\nFor instance, I've known people who put their dish soap for hand washing dishes into a second bottle mixed with 90% water for use, because everyone always overestimates how much is necessary (ie they pour in too much before it suds up). Removing suds in this case would have a wasteful and anti-consumer effect, even if the effect of the suds is purely psychological. What's more practical in the end, adding suds or training humans to not use visual indicators of volume?\n\nI think there's lots of supposedly functionally \"useless\" features from product and industrial design that fall into this category in other words that aren't actually useless because they psychologically mediate our use of them.\n\n>Sorta like how they put crosswalk buttons at busy intersections, even though if they worked traffic would be at a standstill.\n\neven funnier are the people who stand there waiting not knowing many crosswalk buttons work.",
+                                            "score": 16,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "wooq",
+                    "body": "This is the answer. What's foaming is mild surfactants and co-surfactants like alkyl or ammonium sulphates and cocamides. These contribute a bit to the surfactant action, but much to the bubbliness. The stuff you put in your laundry and dishwasher is more concentrated and doesn't bubble (because if it did bubble it would bubble out the machine and all over your floor). It has chemical additives specifically to prevent foaming, just as your hand soap or dish soap has additives to make it foam more.",
+                    "score": 20,
+                    "replies": []
+                },
+                {
+                    "author": "mule_roany_mare",
+                    "body": "I do think that the white frothy bubbles do help *hide* the grime.\n\nDirty dish water & emulsified food goop looks really gross, hide it under some clean white bubbles & people feel like they are doing a good job. \n\n\u2026dishwasher detergent & dish soap both do a good job cleaning food off of dishes\u2026 it would be interesting to try handwashing with dishwasher detergent, I suspect people will feel as if it does a worse job. \n\nOn the subject what is the name of the phenomenon that makes lots of little bubbles & lots of little particles almost always look white?",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "curien",
+                            "body": ">On the subject what is the name of the phenomenon that makes lots of little bubbles & lots of little particles almost always look white?\n\nLight scattering? It's why polar bears look white even though their hair is clear (and their skin is black).",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "kenny2812",
+                    "body": "I would say that it does help indirectly by increasing the surface area of the product so it can reach more places. If you have ever used a cleaning product without a foaming agent you'll likely find that you have to use much more of it to cover the same area.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "CompositePrime",
+                    "body": "Bubbles disrupt many viruses and bacteria\u2019s cell membranes, so bubbles kill them. I would certainly include killing pathogens as a cleaning property.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Foxs-In-A-Trenchcoat",
+            "body": "If you are washing something that cannot be submerged in water, like say a large piece of industrial equipment, the foam physically sticks the detergent to the surface so that it gets more contact time to dissolve grease and dirt.  \n\nLike a car wash.",
+            "score": 15,
+            "replies": [
+                {
+                    "author": "mule_roany_mare",
+                    "body": "Good point. \n\nAnd in a bubble bath they form a nice insulating blanket while stopping evaporative cooling. \n\nI\u2019m pro-bubble",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "donkeyhawt",
+                            "body": "It also picks up the grime and suspends it above the surface, where it can just be washed away. \n\nFoam does have some useful properties for cleaning.\n\n\nAlso I reckon dish soap bubbles because you need a really small amount of it, like a drop or two. If it didn't bubble, it would be very easy to lose or wash away those 2 drops.",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "DarwinTreeBranch",
+            "body": "The amount of bubbles a sink full of water produces is related to the *amount* of surfactant available, not necessarily the effectiveness of that surfactant. \n\nWhat's notable is that surfactant is consumed as it dissolves grease. If the dish soap is being advertised as creating more bubbles it likely means that the soap is more concentrated, therefore you can dissolve more grease with the same amount of liquid.\n\nSo they're not saying the surfactant in their soap is more effective, they're saying you get more surfactant in their soap, which makes the sink full of dishwater last longer before losing its ability to clean dishes. \n\nHopefully that makes sense?",
+            "score": 111,
+            "replies": [
+                {
+                    "author": "Sterling_-_Archer",
+                    "body": "Surfactant and foaming agents aren\u2019t the same. Well, foaming agents are a type of surfactant, but not all surfactants foam, and it is not an indicator of cleaning power. \n\n\u201cFoaming\u201d is a quality of our soap that we expect from good soap, so companies make soaps that foam. That\u2019s it.",
+                    "score": 38,
+                    "replies": [
+                        {
+                            "author": "Sir_Quackalots",
+                            "body": "However, what you'll notice if you have fatty hair or a lot of product in it. You put your normal amount of soap in your hair, it'll clean the hair and you'll get less foam. Apply soap a second time, now it's full of foam. So as described above, the surfactant was used in the first step. In the second we get lots of foam because we have no/less stuff to catch.\n\nSo if you always use the same soap/dishwash product you will know when it foams more, you've cleaned enough.",
+                            "score": 32,
+                            "replies": [
+                                {
+                                    "author": "Flakester",
+                                    "body": "Lol, great point, but \"Fatty hair\" is not a phrase I wanted to see today.",
+                                    "score": 6,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "KeyofE",
+                                    "body": "I like this answer, and I feel everyone who is saying the bubbles are just for marketing have never washed something that\u2019s really dirty, like a sink full of dishes. As the water gets greasier, the surfactants are being used up and the soap is much less sudsy than initially until you are basically just rubbing grease around and not cleaning the dishes.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "SovietMacguyver",
+                    "body": "Bubbles, in a solution that can produce bubbles, indicate the cleaning potential of the solution, right? Ie. as the cleaning potential is used up, the bubbles start to diminish.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "osprey413",
+            "body": "Not directly related to your question, but an interesting factoid. In the fire service, we use surfactants to help us put out fires. Char on wood is actually hydrophobic, which make it difficult to get the water we put on a fire to soak into the material we are trying to stop from burning (or more accurately pyrolyzing). The surfactant changes the surface tension of the water to allow it to penetrate through the char better.\n\nBut, related to the bubbles question you asked, in the fire service we specifically look for foaming agents in surfactants because the bubbles create a barrier between flammable materials and heat and/or oxygen. In smaller fire extinguishers (water cans) we generally use a dish soap like Dawn to supplement the water in the can, which provides some better water penetration into the material, but in larger applications we will intentionally aerate the water/soap solution to create a thick foam which can be applied to burning materials or materials we want to protect from catching on fire. \n\nFoams are also used to fight flammable liquid fires to apply a vapor barrier between the flammable liquid and atmospheric oxygen.",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "nottherealslash",
+                    "body": "Very interesting, thank you for this.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "DystopiaNoir",
+            "body": "More bubbles is marketing. They just add more ingredients with detergent properties because people think that bubbles means it's working better. If the previous formula or competitors brand had enough active ingredients to work, more bubbles isn't going to make it cleaner. If anything it is just going to require more rinsing.",
+            "score": 22,
+            "replies": [
+                {
+                    "author": "ZeikJT",
+                    "body": "Could it be that the bubbles don't help cleaning, but do help you know if you've rinsed off all the cleaning product? As in, if it didn't have the bubbling agent people wouldn't rinse it off as well because they wouldn't know it's still there.",
+                    "score": 14,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Agyro",
+            "body": "Cant comment on dishwasher soap but I know someone who used to work in R&D for Laundry detergent.\n\nThey actively have to add additives or change a working formulation if the liquid/powder etc. doesnt or only foams a little as people would not buy as much.\n\nBubbles are not a direct indicator of cleaning power. Same goes for shampoo etc. If it doesnt foam, people feel like it doesnt clean.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Gandgareth",
+            "body": "I worked making cleaning products, from dishwasher powder and laundry powder, to hand dishwash detergent and hair shampoo, disinfectants, etc.\n\nWe added stuff to increase foaming, because it is perceived as being more effective. \n\nWe also added stuff to stop foaming, which was 99% effective.\n\nAs you wash things the detergent get used up, so foaming CAN be an indicator of how much detergent is left to be effective. \n\nIf you look at the surface of the dishwater and see a film, then your cleaner is all used up.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Realistic-Weird-4259",
+            "body": "No one here has mentioned that there's a difference between detergents and soaps and I'm seeing the terms being used interchangeably. I can speak in layman's terms about soaps and what causes lather, the feeling of 'cleansing/cleanliness', but not for detergents like Dawn, or dish detergents.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "treriksroset",
+            "body": "I don't know what other people here have smoked but on the question:\n\n>\"Is the \"bubbliness\" of dish soap **related in anyway** to it's cleaning properties?\"\n\nThe answer is **clearly yes**. There are ways to make cleaning agents that foam more or less. But surfactants clearly has a big role to play in binding oils to water (the cleaning property) AND causing bubbles.\n\nPeople trying to say anything different are just plain wrong and ignorant of the very basics of soaps.\n\nThere are off course nuances and advanced chemistry the deeper you dive. [Start by looking at the wikipedia page for surfactants](https://en.wikipedia.org/wiki/Surfactant)\n\nEdit: note that it is not the bubbles that clean your dishes, but surfactants that binds oil to water so that you can make fat connect to water and clean it off. Those surfactants properties also make the dish water bubbly if you introduce air.\n\nedit 2. For example fire fighters can use surfactants to mix into the water to create foam (bubbles). Those are specialized surfactants that has been developed to create as good and as strong foam as possible. Those surfactants are probably not the best in the world for cleaning dishes, but are the best in the world at creating foam. So there's **not a 1:1 correlation** of \"bubbliness\" and cleaning properties. But on the other hand those surfactants are better at cleaning dishes than just plain water. So \"bubbliness\" is **related in some way** to cleaning properties.",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "PM_ME_UR_ROUND_ASS",
+                    "body": "Surfactant molecules that make bubbles and the ones that clean dishes are literally the same molecules - they have hydrophilic heads and hydrophobic tails that break up grease, AND create bubbles when agitated with air, so yeah they're defintely related even though manufacturers add extra foaming agents to exaggerate the effect.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "MurseMackey",
+            "body": "Bubbles are basically myceles filled with air instead of water, so I guess if that's an indication of a soap's ability to form myceles, it would also indicate it can bind more grease/oils. I certainly find that poorly-foaming soap tends to leave a lot more grease behind on a dirty pan, dish, etc. Or at least that it takes a lot more effort to scrub it off.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "ShirtedRhino2",
+            "body": "Just to gently probe your hypothesis, why do you think the amount of bubbles on the surface would affect the cleaning power of the solution?\n\nThe amount of bubbles produced is essentially a marketing tool, as consumers have been led to believe that it's indicative of cleaning effectiveness, so manufacturers formulate their products to make more bubbles that last longer.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "nottherealslash",
+                    "body": "It's not that I was wondering if the bubbles had any effect on the cleaning.  More whether the amount of bubbles was an indicator that the soap was \"better\", or if there was more soap in the mixture.  \n\nHowever looking at the comments I see it is soundly 1-0 to the wife this time round!",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "fangeld",
+                            "body": "In a way... lots of bubbles means lots of available surfactant. \n\nI don't of you've noticed, as the water gets dirtier, the fewer bubbles there are as more and more surfactant is \"spent\" to dissolve and encapsule grease.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "pycior",
+            "body": "A soap bubbles if done right, has a hydrophilic and hydrophopic part - it means it can separate water molecules and fat molecules. If a detergent bubbles it means it's able to do the job of cleaning, if it doesn't - it's not cleaning properly.\n\nI'd reverse the statement - if a detergent bubbles in the vicinity of a dirthy dish - iy's working. There might be a catch, that the producers might add foaming agents to pretend the foam is indiced by the detergent interaction, while in reality it's doing sh** xD",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Daninomicon",
+            "body": "It depends on what's causing the bubbles. Some chemical reactions that cause bubbles will help with getting into stuck on stuff. You got a pan with baked on sauce? Bubbles will help get that loose. Although it's not really the bubbles as much as it is the chemical reaction. But you don't find that in most soaps. You get degreaser in dish soap, instead. Laundry detergent has it's own oxidizers that do the same thing without creating the bubbles. But you can take some vinegar and baking soda and pour them into a pan and the more bubbles you get the better it will do at removing the stuck on food.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

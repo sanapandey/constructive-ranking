@@ -1,0 +1,816 @@
+{
+    "title": "Welcome to /r/SelfHosted! Please Read This First",
+    "author": "kmisterk",
+    "subreddit": "selfhosted",
+    "rank": 0,
+    "score": 1669,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 144,
+    "url": "https://www.reddit.com/r/selfhosted/comments/bsp01i/welcome_to_rselfhosted_please_read_this_first/",
+    "id": "bsp01i",
+    "selftext": "#Welcome to /r/selfhosted!\n\nWe thank you for taking the time to check out the subreddit here! \n\n##Self-Hosting\n\nThe concept in which you host your own applications, data, and more. Taking away the \"unknown\" factor in how your data is managed and stored, this provides those with the willingness to learn and the mind to do so to take control of their data without losing the functionality of services they otherwise use frequently. \n\n##Some Examples\n\nFor instance, if you use dropbox, but are not fond of having your most sensitive data stored in a data-storage container that you do not have direct control over, you may consider NextCloud\n\nOr let's say you're used to hosting a blog out of a Blogger platform, but would rather have your own customization and flexibility of controlling your updates? Why not give WordPress a go. \n\nThe possibilities are endless and it all starts here with a server. \n\n##Subreddit Wiki\n\nThere have been varying forms of a wiki to take place. While currently, there is no *officially* hosted wiki, we do have a [github repository](https://github.com/r-selfhosted/wiki). There is also at least one unofficial mirror that showcases the live version of that repo, listed on the index of the [reddit-based wiki](/r/selfhosted/wiki)\n\n##Since You're Here...\n\nWhile you're here, take a moment to get acquainted with our few but important **[rules](/r/selfhosted/wiki/rules)**\n\nWhen posting, please apply an appropriate flair to your post. If an appropriate flair is not found, please let us know! If it suits the sub and doesn't fit in another category, we will get it added! **[Message the Mods](https://www.reddit.com/message/compose?to=%2Fr%2Fselfhosted)** to get that started.\n\nIf you're brand new to the sub, we highly recommend taking a moment to browse a couple of our awesome self-hosted and system admin tools lists.\n\n[Awesome Self-Hosted App List](https://github.com/Kickball/awesome-selfhosted)\n\n[Awesome Sys-Admin App List](https://github.com/n1trux/awesome-sysadmin)\n\n[Awesome Docker App List](https://github.com/veggiemonk/awesome-docker)\n\nIn any case, lot's to take in, lot's to learn. Don't be disappointed if you don't catch on to any given aspect of self-hosting right away. We're available to help! \n\nAs always, happy (self)hosting!",
+    "comments": [
+        {
+            "author": "TentacleSenpai69",
+            "body": "Really nice introductory post, thanks!",
+            "score": 118,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "Thank you! Glad that I can help, and happy to be able to contribute.",
+                    "score": 42,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "DaftBlazer",
+            "body": "Hello, I'm new to the whole self-hosting scene, I have an ubuntu server with php, mysql, and apache2, and bookstack installed on it. I'm not really sure how to go about installing other applications alongside of it, does anyone have any tips or could point me in a direction of where I can learn more about this?",
+            "score": 34,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "Look into Apache virtual hosts. \n\nIf it\u2019s an app that doesn\u2019t rely on php, such as node or python, look into Nginx as a reverse proxy. \n\nLots of good information out there. \n\nWe also have a getting started guide available, always a work in progress.",
+                    "score": 24,
+                    "replies": []
+                },
+                {
+                    "author": "No-Explanation-5566",
+                    "body": "UPDATE: use docker and use each application and structure with its own container",
+                    "score": 15,
+                    "replies": []
+                },
+                {
+                    "author": "dalinxz",
+                    "body": "Look into cyberpanel and litespeed, you a achieve virtual hosts so multiple hosts on one ip and reverse proxy",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": 25,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "It took me a minute of thought to determine why this subreddit is so active in policing grammar. \n\nThen, I realized that one misplaced letter in a server config file can break the entire thing. \n\nAnd thus, I am ok with this correction. <3",
+                    "score": 85,
+                    "replies": [
+                        {
+                            "author": "None",
+                            "body": "[deleted]",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "kmisterk",
+                                    "body": "One of them, yes! Hoping to help guide and cater to the growing needs of the sub!",
+                                    "score": 11,
+                                    "replies": [
+                                        {
+                                            "author": "tsammons",
+                                            "body": "Hah, small world! Congrats.",
+                                            "score": 6,
+                                            "replies": [
+                                                {
+                                                    "author": "kmisterk",
+                                                    "body": "Thanks! But I don\u2019t quite catch the small world thing.\n\n**edit** got it.",
+                                                    "score": 3,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "port53",
+                            "body": "One typo and it's game over,",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "kmisterk",
+                                    "body": "> one typo and there\u2019s no game\n\nFTFY",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": 22,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "Thanks! And yes, of course. There are any number of alternatives to a self-hosted blogging platform. Just using the same samples as were in the side-bar. \n\nLooking forwards to helping the sub evolve and grow. :)",
+                    "score": 7,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "JaFakeItTillYouJaMak",
+            "body": "new welcome message? what did we do to deserve this spot of loveliness",
+            "score": 23,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "The community here has done a lot of amazing things over the years. Just working on following up on many amazing suggestions we've received over time.",
+                    "score": 14,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "rednreditit",
+            "body": "Moderators, how can new services be added to the list?",
+            "score": 12,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "Are you referring to the list of awesome-self-hosted services and apps?",
+                    "score": 10,
+                    "replies": [
+                        {
+                            "author": "rednreditit",
+                            "body": "Yes",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "kmisterk",
+                                    "body": "If you\u2019re familiar with git, you can submit a pull request. Otherwise I would recommend making an \u201cissue\u201d with your idea.",
+                                    "score": 13,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Hommage825",
+            "body": "Why do I have to look at this face everday?",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "That\u2019s how reddit mobile handles link thumbnails and github links always show a profile picture. \u00af\\\\\\_(\u30c4)\\_/\u00af",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Hommage825",
+                            "body": "OK. Wasn't meant to be offensive. Just seemed odd...",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "kmisterk",
+                                    "body": "Lol I\u2019m sorry if what I said in response sounded offensive. It was meant to answer your question and simply that.",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "Hommage825",
+                                            "body": "Lol, I meant my initial comment wasn't meant to be offensive.",
+                                            "score": 6,
+                                            "replies": [
+                                                {
+                                                    "author": "kmisterk",
+                                                    "body": "Understood. Strange how hard it is to demonstrate tone in text-based communications.",
+                                                    "score": 8,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "zozo147",
+            "body": "Great stuff, thanks",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "Glad it was useful for you :)",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "b-vivek",
+            "body": "Is there any post which talks about how to get started with self-hosting and what hardware to use for a beginner?",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "Not that I am immediately aware of. Not directly affiliated with /r/selfhosted at least. \n\nSounds like something we should create.",
+                    "score": 8,
+                    "replies": [
+                        {
+                            "author": "thatgoddamnedcyclist",
+                            "body": "Where will we find r/selfhosted after the API change?",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "kmisterk",
+                                    "body": "There\u2019s a discourse officially. Same as a discord and a matrix. The currently pinned post has more options for other locations curated by other members of the selfhosted community at large.",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Quin452",
+            "body": "Do you know what I find funny?  \nI was about to post here \"does anyone know of \\[version of an app I want to self-host\\].  \nThen I thought, \"wait, that's probably been asked a million times!\"  \nThen, I was like \"oh, perhaps I'll ask if there is a comprehensive list\".\n\nThen I \"read this first\" :-D",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "Haha. Glad it worked out for ya!",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "timeister",
+            "body": "This community has helped me a lot going from a few docker containers to know a proxmox server, pfsense, a 256TB unraid server, a matrix server that our whole family uses, and self hosting over 80% of the data I create and consume. I only have one gold award left ever so I figure I'll leave it here. Not sure if I will be staying on reddit in the future given what is happening but if I leave I know I'll see you guys on one of the self hosted alternatives coming up.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "lvlint67",
+            "body": "> Taking away the \"unknown\" factor in how your data is managed and stored \n\n...eh...... Unpopular opinion..but.. If that was TRULY the case docker would be less recommended around here.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "Ha, well. Docker is an entirely different category of debate, in which the concept is sound, the goal is sound, but the user-base is skewed. The problem with docker is how \"easy\" Docker makes getting something setup, where it basically turns \"being a script kiddie\" into now being a \"docker script kiddie.\" Again, aligning with that aforementioned \"unpopular opinion,\" but unfortunately that's the way the cookie crumbles, I guess. \n\nBlah.",
+                    "score": 9,
+                    "replies": [
+                        {
+                            "author": "kenanderson11",
+                            "body": "baha",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "kmisterk",
+                                    "body": "Uhh. Is this a positive Baha? Lol.",
+                                    "score": 5,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "SJINSG",
+            "body": "Is there a way to search posts within SelfHosted! using keywords?",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "Yes. Although, Reddit search is one of the big underdeveloped tools reddit offers, it still is at least functional. Lot's of good syntax info [here](https://www.reddit.com/wiki/search)",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "What's the difference between this sub and r/homelab",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "/r/homelab features literal servers and hardware hooked up, networked, and supported from within a users/owners home or place of residence. Much bigger focus on hardware and clean looking network closets. \n\n/r/selfhosted is about the software that one is able to control fully, preferably at the application/data level, if not at the operating system level. It's more focused on the *what* is being hosted, rather than the *where* it's being hosted, so long as you have control over the data and the application it resides in.",
+                    "score": 17,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "Thanks",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "Okay.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "karim_khelouiati",
+            "body": "thanks",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "Happy to help.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Snoo53903",
+            "body": "Im surprised n8n is not there",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "stappersg",
+                    "body": "_Needs citation_",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "kmisterk",
+                    "body": "Not in where?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "NerdLevelTech",
+            "body": "Summed it up nice!",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "Thank you!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "djemyjenab",
+            "body": "Currently I hosted for wordpress, and want to built forum for my running \ud83c\udfc3 community",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Barrett_M82",
+            "body": "Thanks",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "Happy to help.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "hello-jpeg",
+            "body": "the reddit-based wiki link is dead ;-;",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "I\u2019ve been on vacation. I have plans to rejuvenate some things when I get back into the thick of things this week.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "hello-jpeg",
+                            "body": "thank u for your service \ud83d\ude4f\ud83d\ude4f\ud83d\ude4f\ud83d\ude4f\ud83d\ude4f\ud83d\ude4f",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Splitternew",
+            "body": "lots\\* lots\\*",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Perfomance_Tester",
+            "body": "Great Thread and Moderators. Thanks for your informations",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "hevinjose7",
+            "body": "Really Great post, Best Introduction ever compare to all communities",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "Thank you\u00a0",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "Happy to help.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "DyslexicFcuker",
+            "body": "Thank you!!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "starkformachines",
+            "body": "Thanks for the rules, app lists, and discord!\n\n3 more upvotes and it'll read 1337, which is pretty leet. \ud83d\ude01",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "gk_2000",
+            "body": "Hi, as a new joinee, I think this is a good place for my question which is, who are the most successful self hosters here, in terms of moneys earned. Well that comes out wrong. Let me ask - is there any place here where people discuss ways of profiting from their self hosting endeavors?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "Nope. Self hosting isn\u2019t about profit or making money. It\u2019s about separating your data from big data hoarders like Google and Amazon.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "throwswswawayaya123",
+            "body": "Mods, how do I add new services to the list?",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "Thank you for your kind words.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "KnowledgeHot2022",
+            "body": "I am so happy this subreddit exists. It should be popular than it really is. I am like a kid in a candy store. \ud83e\udd79",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "Haha I\u2019m glad.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Sea_Bid_606",
+            "body": "This is great",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "Glad you found it useful.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Worried_Target_9403",
+            "body": "Great introductory post.\nI am just looking for a  social media management tool that has only functionality of bulk posting videos and it is completely open source, free cause I am a student and my mid term exams are coming I want to focus on my exams.\nThanks.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "Glad that you found it useful.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Worried_Target_9403",
+                            "body": "I am looking for , not found it yet on YouTube or GitHub",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "kmisterk",
+                                    "body": "Yes, I was referring to the intro post appreciation. \n\nI wouldn't even really know what to search for in regard to what you're looking for. \"Bulk posting of videos\" doesn't really sound like something you'd need to \"self-host,\" rather it would be some kind of local tool that interfaces with the various uploads.\n\nAnd even then... \"Mass uploads/bulk uploads\" seems...odd. I'm sure you have a perfectly valid use-case, but I can't think of one, and it seems like a fairly niche requirement for there to be an entire open-to-the-public tool specifically for it.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ankokudaishogun",
+            "body": "Hello, everybody. I have a couple questions.\n\nContext: I realized I did end up accumulating half a dozen or so of disks, between mechanical and SSDs.  \n\nI thus though \"Why, I should use them for a NAS\" which evolved into \"why not a full-on self-host system? I already have my own domain!\"\n\nCurrently plan is to self-host(behind a VPN):\n\n* a PiHole instance\n* a RSS server\n* something to share\\access files and directories between devices\n* IMAP\\SMTP mail server(s)\n* Newsgroup server\n* IRC server\n* some ActivityPub instance(mastodon or pleroma?) meant for single-user use\n* probably a Matrix\\Element server  \n* most likely a bittorrent client\n* perhaps a emule one as well?\n* a Nextcloud instance(might or might not replace other services), \n* the VPN manager, I guess   \n* probably other stuff to see what I use\\can use\\just to play with it.\n\nSo the question:\n\nWhat would be the cheapest way to do this? I was thinking either buy a pre-made NAS, possibly with enough disk bays, or use a Raspberry Pi4 or 5, though I'm not 100% a raspberry would keep up with all this stuff which, I guess, would end up running on docker\n\nOh, yeah: suggestions on the software setup? I was thinking TrueNAS Scale for now.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "Old dell ultra small form factor PC\u2019s are cheap. 6 drives? Are they the same size? Multi-drive is typically best with raid. Raid is typically best with identical drives.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "mo_with_the_floof",
+            "body": "Nice intro",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "Thank you.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Interesting_Drag489",
+            "body": "Hello everyone, I just joined this group 1 minute ago. I read the welcome post and didn\u2019t see much for rules so I\u2019m hoping it\u2019s ok that I post this here. I\u2019m desperate for some answers.\u00a0\nI\u2019ve been in a 2 year long battle to find out what is going on in my life as far as technology goes. I\u2019m looking for someone willing to answer some questions for me that\u2019s willing to break things down into terms for a regular civilian who doesn\u2019t have much knowledge of open source software or coding and how it all works. I have specific questions that I need answered. If anyone is willing. Please just comment on my post. Due to my phone being completely bogged down on memory, I can\u2019t download the Reddit app so it won\u2019t let me personal message people on the safari browser.\u00a0\nWhen I say I\u2019ve been in a 2 year long battle I mean my life has been turned upside down and I\u2019ve been in severe depression as well as massive anxiety do to some things that have happened and ultimately it led to me attempting suicide a year and a half ago. I\u2019m no closer to answers today than I was a year and a half ago. I feel like a dog chasing her own tail endlessly.\u00a0\nThank you in advance!\u00a0",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "South-Steak-7810",
+                    "body": "Newbie here. If I have questions about whatever I often use ChatGPT. So far it has explained everything in a way that I understand. For more privacy related questions I use Jan.ai locally on my 2016 MacBook Pro (16gb). They have plenty of LLM\u2019s to choose from plus you can use other LLM\u2019s that they don\u2019t have. Jan.ai only needs to know the location on your HD. No coding involved. Just install and ask questions. Open source and you can run it offline. It is much slower than ChatGPT of course because it only uses your computer. Good luck.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ankokudaishogun",
+            "body": "So, I was planning to self-host my own email server.   \nWhich is a *terribad* idea, I know... but from what I have read, that's mostly for **outgoing** mail.   \nI don't recall having read of problems about *receiving* mail(aside the usual issues of actually be online of course)\n\nWould relying on third-party SMTP relays solve that issue?   \n(especially given I might have sent something like 10 mails in the whole 2024 that were not for some kind of test or on the work account)\n\nAlso: would there be issues if I were to use\\switch between multiple SMTP relays(just to make sure everything is working correctly and I'm not being blocked)?\n\nAny pointer is appreciated.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "I\u2019d never really thought about using a third party mailer service to send transactional emails. \n\nIn theory it should work, but if you\u2019re relying on a third party for sending, not sure why you wouldn\u2019t just rely on a third party for receiving as well.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "ankokudaishogun",
+                            "body": "Because a thid party for receiving would *keep* my stuff out of my reach should anything happen, while a third party sender would only have the occasional mail I might send and, if I'm right in my hypothesis, I can switch to a different one should the one I use go under or have any kind of issue.\n\nUsing a third-party SMTP seems the best way to minimize hassle, at least initially, while keeping most of the perks of being self-hosted.   \n\nBut I'm no expert so why I'm asking here",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "kmisterk",
+                                    "body": "Fair enough! I forget to think about bigger pictures sometimes when I\u2019m caught up in figuring out the \u201chow\u201d at the functional level.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "ankokudaishogun",
+                                            "body": "yeah, I recently revised my initial approach o self-hosting because I was too fixed on making it work in a certain way instead of just making it *work*.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "kmisterk",
+                                                    "body": "Ha. Big lesson here. Can\u2019t even count how many projects never left the bootstrap phase cause of over complicated execution.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "cris-crispy",
+            "body": "Great thank you!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "chaos_anarchy_hell",
+            "body": "Hello, I am new to self hosting and am looking for some guidance. I am looking to set up a few services, and understand I need a reverse proxy in order to give one unified front end for everything to launch from, but can this reverse proxy be the same computer I run the services from?\n\nI took a look at the github, and saw some great projects, but I am a little lost, so am wondering if anyone has any personal experiences they can offer regarding the following self-hosting projects.\n\nI am looking to run a mail server for myself. I know it is not a great idea as google and microsoft block your outgoing messages. I was wondering if there is any possibility I can still do it?\n\n  \nI also want to run a password manager. Any strong recommendations for security and self-hosting? I dont particularly care if my manager allows me to access the information from any other device, but if it does, I still want the service hosted on my device. ie, if my hosting device is turned off, the password manager stops working until the host is working again.\n\n  \nFinally, I want essentially a custom google drive. I want to store all the live data changes on one computer. But back-up to 1 or 2 other computers at set time periods. I would love if it could support a version history of files too. The most crucial aspect I want, is the ability to create multiple users who can share files with each other. As the admin, I want to be able to set size limits for the users. Most importantly, the service should handle pictures specially and allow albums. Essentially google photos self hosted with support for other files. Bonus if it can automatically backup from users phones.\n\n  \nOnce again, I am inexperienced with a lot of this stuff. I know how to read documentation. I am mainly looking for users personal experiences with similar projects so I know what I am getting myself into. The github looks amazing and I will be spending the next couple of days looking at the document management and photo galleries sections.\n\n  \nFinally, I really care about privacy, so any recommendations for keeping data secure while I all this would be appreciated.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Sad_Statement7399",
+            "body": "Probably a dumb question, but does selfhosted include topics on services I run myself but on a cloud server, for example, hosting and administrating an email or web server that runs on a cloud vps? Or do we only discuss services ran on our own home network? Or am I confusing that with r/homelab?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "Naw, the rules specify that the server space just has to be wholly occupied at the Operating System level by you. VPS and cloud service providers are fine for this.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Sad_Statement7399",
+                            "body": "Cool, and thanks! I wanted to make a post about how I set up my first mail server, but am operating off of a fedora linode.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "kmisterk",
+                                    "body": "You\u2019ll get some loudmouths who claim self hosting mail is dumb. But it\u2019s always fun to learn. Post away.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Sad_Statement7399",
+                                            "body": "Sounds great, thank you!",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Pretty_Situation_811",
+            "body": "Perfect!!!!!!!!!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Pretty_Situation_811",
+            "body": "Nice!!!!!!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ak1111198",
+            "body": "I am new to self hosting and for the learning I have started building a NAS using a raspberry pi and openvault. \n\nCan I get some good device to setup my NAS and for learning to create different servers.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "A good device?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "ak1111198",
+                            "body": "Good device like getting some good CPU s ,other than raspberry pi.\n\nSuggestions to get started with building a better performing device",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "kmisterk",
+                                    "body": "This ultimately depends on personal needs, such as power consumption, supported apps, etc \n\nRetired business-tier desktops are always a cheap way to start.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Past-Team-9643",
+            "body": "W \u215e mi 6\u207645uu6",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "IGrekTek",
+            "body": "Had no idea this existed, then again Im discovering a whole new world learning DevOps. Thank you.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Friendly-Violinist50",
+            "body": "Hello, I would like to build a free open-source ai coding assistant that runs locally in my computer with the following features. Any help is welcome \nProject Features:\nCore Functionality:\n- Multi-model AI integration (Ollama + LM Studio)\n- Local processing (no cloud dependencies)\n- Code generation from natural language\n- Image-to-code conversion (UI mockups, hand-drawn wireframes)\n- Real-time code completion\n- Project scaffolding\n\nAdvanced Features:\n- Multiple AI models for different tasks:\n  * CodeLlama for code generation\n  * Llava for image understanding\n  * Mistral/DeepSeek for explanations\n- Best practices checking\n- Code verification system\n- Security scanning\n- Docker containerization\n\nTech Stack:\n- Backend: Python (FastAPI/Flask)\n- Frontend: React/Next.js\n- AI: Ollama & LM Studio\n- Containerization: Docker\n\nLooking for:\n1. Implementation advice for multi-model orchestration\n2. Best practices for local LLM integration\n3. Experience with image-to-code conversion\n4. Tips on model selection for different tasks\n5. Performance optimiz",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "sasaki804",
+            "body": "Hi, I'm a green as one can be when it comes to self hosting, been watching \"Someordinarygamers\" and he mentioned it...a lot lol. I'm interested in learning and seeing what self hosting is really about. Like I said, I'm as green a one can be...where can I start?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "\u201cWhere to start\u201d is a REALLY open-ended question \n\nDo you have any needs to fulfill? Online services you hope to emulate?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "sasaki804",
+                            "body": "Hadn't thought of that. But what comes to mind at the moment is probably cloud storage. Google drive, Dropbox",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "kmisterk",
+                                    "body": "Might try something like Nextcloud or Immich, then.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "danwanjora",
+            "body": "Team, just setup my instance on an Ubuntu server but cannot access over the browser and yet my firewall is set to allow port 3000. Any idea what I need to do?",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "AnasQiblawi",
+            "body": "\ud83d\udc4d",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "yowpark",
+            "body": "Thanks for making this sub",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "I did not make it. Just happy to help keep it functioning as best I can.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Special_Rhubarb8387",
+            "body": "Hey, can anyone help me. My server crashed and I can only mount the SDDs via grml.\nCan anyone help me to make an mysqldump or at the best to bring the Server online?\nThanky",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Significant_Grade879",
+            "body": "amazing group, great stuff",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "EnArvy",
+            "body": "The discord link on wiki is not working. Can I get an invite?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "kmisterk",
+                    "body": "This invite should still be active: https://discord.com/invite/UrZKzYZfcS",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "imacomputanerd",
+            "body": "Great intro, happy to join in!",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Big_Anything_6667",
+                    "body": "I'm new to redis, have it configured so I created a public discord text channel here [https://discord.gg/KpFkcaz5](https://discord.gg/KpFkcaz5)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,189 @@
+{
+    "title": "Is there any reasons why?",
+    "author": "lemuriakai_lankanizd",
+    "subreddit": "iphone",
+    "rank": 13,
+    "score": 28,
+    "upvote_ratio": 0.85,
+    "num_comments (reported by reddit)": 28,
+    "url": "https://i.redd.it/6y5u13q5ffpe1.jpeg",
+    "id": "1je1xrd",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "dailybantam",
+            "body": "Is the storage size on your new iPhone the same or larger than your old phone?",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "lemuriakai_lankanizd",
+                    "body": "I currently use an iPhone XS 64 gb and this one is 500gb",
+                    "score": 6,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "WildChildex",
+            "body": "If there\u2019s no storage left on the old iphone that could be it. They need a little breathing room when transferring on wi fi because it creates a temporary file to transfer. If there is not enough space it wont be able to",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "ThisIsNotTokyo",
+            "body": "Do the iCloud route instead",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "flavicent",
+            "body": "Transfer using backup restore on iTunes or mac.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Wolf873",
+            "body": "Perhaps try backing up to iTunes or cloud then restoring it on the new phone, if the above issue stems from side by side transfer. In my readings I found that iTunes or cloud restore is better if you wish to copy all your apps because the side by side method doesn\u2019t transfer them over, you\u2019ve to redownload them all manually.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Acalthu",
+                    "body": "This. iTunes is the safest and most robust.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Zjivneviftig",
+            "body": "Install the new phone without data transfer, update the phone. Factory reset and should work",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Whole-Signature-4306",
+            "body": "Oh yea this happened to me when trying to transfer 127 gigs from my iPhone 11 to 16e. Ended up having to move 60 gb of photos to an external hard drive, delete them off iPhone along with 6-10gb of apps and then it worked.\n\n\nTHEN Had to sync my iPhone 16e with the external hard drive folder once again to put the 60gn photos back on which took another hour. \n\n\nShouldn\u2019t be that hard and time consuming in 2025 but it was\n\n\nI think they are basically forcing u to use iCloud which is crazy not everyone wants to use that.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "blitzmallersda",
+            "body": "How much do you transfer?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "lemuriakai_lankanizd",
+                    "body": "64gb?",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "MirrorsEdges",
+            "body": "Try do it from iCloud backup this time, if you don't have storage in your iCloud there's a way to get free temp backups for 3 weeks.\n\nFor temp iCloud Backup:\nSettings > General > Transfer or Reset > Get Started\n\nThen reset the new device and go through the process again and do Transfer from iCloud Backup, it'll do another backup but it should work this time",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "akidel",
+            "body": "Skip the photos, this happens all the time. Transfer photos later via mac or pc if possible or backup somewhere",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Iamsexyandiknowit",
+            "body": "I had this issue when I was transferring from newer iOS to a older iOS - maybe it\u2019s that?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "UneagerBeaver69",
+            "body": "Cloud backup is best. Even if you have to pay the 3 bucks one time to get 200gb of cloud storage. Back up your old phone to cloud, choose cloud restore on new phone set up. \n\nThis is one of the things Apple is really good at.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MaiNeimIsPizza",
+            "body": "The last time I tried this, the problem was the software on the new iPhone. \nYou may need to set it up manually, update iOS, reset and do everything all over again.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "CommandFamiliar3274",
+            "body": "I think you should update the old phone to time latest one",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "deep_baba",
+            "body": "It will work. Don't worry. Use wire to do the transfer. Alao ensure both of your phones are sufficiently charged. Wireless transfer sometimes fails, its cool tho. Hope it helps",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "makeshiftballer",
+            "body": "Just restart both phones and do it again. \n\nI've never not had it work the 2nd time. Unless you don't have sufficient storage on the new phone like some other comments said.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Civil_Steak_9495",
+            "body": "You Using E-Sim? When I\u2019m transferring Data, be same problem. Reason, do not transfer E-Sim",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "WindsRequiem",
+            "body": "If you are running out of space, on your old iPhone, go to Settings > General > Transfer or Reset iPhone and under Prepare for a new iPhone tap Get  Started. This will allow you to temporarily bypass the 5GB iCloud limit if you don\u2019t have a subscription to back up your phone and restore it on the new one. \n\nIf space is not the issue, ensure that both your old iPhone AND the new one are up to date on iOS. You may need to set up the phone normally, update it, and then factory reset it. You cannot restore from a backup once the phone is set up. \n\nIf you decide to go the iTunes route, if you check off encrypted backups and set a password, MAKE SURE TO REMEMBER IT. Forgetting it and needing it reset makes any older backups inaccessible.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "paulstelian97",
+            "body": "What transfer mode? Wi-Fi? Cable? Using an intermediate Mac/PC with iTunes?",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "lemuriakai_lankanizd",
+                    "body": "I use wifi",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "paulstelian97",
+                            "body": "Fair. I\u2019d advise you try some other way.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "Goodoflife",
+                                    "body": "Try iCloud Backup (Free for users getting new phone for up to 30 days) under Settings > General > Transfer or Reset iPhone > Click 'Get Started' and wait till the iCloud backup completes and on new phone instead of transferring from another iPhone, do 'iCloud Backup' and it should work.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "SpacefoxSNES",
+            "body": "It basically doesn\u2019t work. That\u2019s the long story short. Like the other person said\u201dApple wants you to pay for iCloud\u201d plain and simple. It\u2019s trash because it\u2019s free. Just like Apple intelligence right now. It\u2019s trash because it\u2019s free. A paid version will drop in the near future, at which point the completed version will be released.",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "WindsRequiem",
+                    "body": "What are you talking about? Apple has offered an option under the Transfer or Reset settings to temporarily bypass the 5GB iCloud limit for those transferring to a new iPhone. It\u2019s kept in the cloud for 30 days. I agree that their transfer over wifi or side by side is hot doo doo, but they aren\u2019t forcing a subscription.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "L0rdLogan",
+            "body": "Your guess is as good as mine",
+            "score": -1,
+            "replies": []
+        }
+    ]
+}

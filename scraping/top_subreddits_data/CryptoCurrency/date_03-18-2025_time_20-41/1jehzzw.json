@@ -1,0 +1,680 @@
+{
+    "title": "Microsoft has discovered a new trojan, StilachiRAT, targeting cryptocurrency wallets in the Google Chrome browser. The malware attacks 20 different extensions, including MetaMask, Coinbase Wallet, Trust Wallet, OKX Wallet, Bitget Wallet, Phantom and more",
+    "author": "Silver-Maximum9190",
+    "subreddit": "CryptoCurrency",
+    "rank": 2,
+    "score": 594,
+    "upvote_ratio": 0.98,
+    "num_comments (reported by reddit)": 106,
+    "url": "https://i.redd.it/2352nx48zipe1.jpeg",
+    "id": "1jehzzw",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "entropydust",
+            "body": "Does this impact Brave being that it's built on the Chromium engine?",
+            "score": 41,
+            "replies": [
+                {
+                    "author": "kaidonkaisen",
+                    "body": "If microsoft discovers a Trojan, it probably means it's on the OS level. From the architecture Chrome and Brave are quite similar, and extensions are compatible. They store their data in a \"typical\" folder hidden within your home folder. \n\nSo, I strongly assume yes, including all other chromium/webkit-based browsers supporting this format of extensions.",
+                    "score": 31,
+                    "replies": [
+                        {
+                            "author": "emelbard",
+                            "body": "So Brave on Linux is probably unaffected?",
+                            "score": 11,
+                            "replies": [
+                                {
+                                    "author": "PureClass247",
+                                    "body": "hopefully so... but waiting for more details from Microsoft",
+                                    "score": 3,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Every_Hunt_160",
+                                    "body": "Even if it's unaffected today, could be a matter of time before all browsers eventually gets affected tbh",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "HSuke",
+                    "body": "It affects Windows. It's a RAT that requires a malicious DLL.\n\nIt takes over the entire computer. The browser extension part is just one thing mentioned.\n\nhttps://www.microsoft.com/en-us/security/blog/2025/03/17/stilachirat-analysis-from-system-reconnaissance-to-cryptocurrency-theft/",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Cptn_BenjaminWillard",
+            "body": "Perhaps this may be associated with a lot of the mysterious disappearances of funds that we were seeing here 9-12 months ago, where people couldn't figure out where they had been compromised.\n\nNo matter how good you feel, there's always another zero-day waiting.\n\n*Edit:  MS notes, \" ... various methods to steal information from the target system, such as credentials stored in the browser, digital wallet information, data stored in the clipboard, as well as system information.\"*\n\n*This is really nasty.  Decrypts chrome credentials, persistence through SCM, RCE, and more.*",
+            "score": 81,
+            "replies": [
+                {
+                    "author": "Rey_Mezcalero",
+                    "body": "I never have the browser store anything. \n\nAlways a matter of time before someone figures out how to crack it.",
+                    "score": 32,
+                    "replies": [
+                        {
+                            "author": "Every_Hunt_160",
+                            "body": "Anything that is not in a cold wallet is an open game to lose",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "sunfrost",
+                            "body": "Go to passwords.google.com and see if you are correct about this assertion. You\u2019d be surprised",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "akanaan5",
+                    "body": "what about chrome on mac",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Every_Hunt_160",
+                    "body": "This malware affected 20 wallets but I think the hack 9-12 months ago only affected one particular type of wallet",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "mattriver",
+                    "body": "\n__How to stay safe from StilachiRAT__\n\nIn order to avoid infection from this RAT, Microsoft\u2019s advice is pretty simple: Make sure to only download software from official websites and use security software that can block malicious domains and email attachments.\n\nThat means you should install the best antivirus software on your PC and make sure you\u2019re keeping it up to date. You also want to know the common signs of phishing attacks such as misspelled domain names or email signatures, attachments from unknown senders, or messages that contain a sense of urgency or even threats of a legal nature that encourage you to click or download something.\n\nNever click on something that you aren\u2019t expecting or don\u2019t know what it is or who sent it and when in doubt, contact the sender in a separate message or email. If a domain name or URL seems suspicious then go to it directly by typing it into the browser window instead of by clicking on a link. You can also use a VPN to protect your privacy further and a password manager to keep your passwords safe.\n\nNew malware strains like this one are created everyday but by practicing good cyber hygiene and staying up to date on the latest attack methods, you can avoid falling victim to StilachiRAT and other online threats.\n\nhttps://www.tomsguide.com/computing/malware-adware/dangerous-new-password-stealing-trojan-automatically-reinstalls-itself-on-infected-pcs",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "iceteka",
+                            "body": "So is Microsoft advising users to install 3rd party antivirus? Or by \"install the best antivirus software\" they just mean windows defender/security?",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "InclineDumbbellPress",
+            "body": "Excuse me what the fuck",
+            "score": 50,
+            "replies": [
+                {
+                    "author": "Satoshiman256",
+                    "body": "What the fuck?",
+                    "score": 11,
+                    "replies": [
+                        {
+                            "author": "OTGbling",
+                            "body": "WTF?",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "murakami213",
+                                    "body": "?",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "FetoSlayer",
+                    "body": "Typical microsux wintrash",
+                    "score": -2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Stepup2themike",
+            "body": "So is the answer to just NOT use browser extension wallets?",
+            "score": 28,
+            "replies": [
+                {
+                    "author": "Alatarlhun",
+                    "body": "Use a hardware wallet and verify the tx on the hardware.  \ud83d\ude05",
+                    "score": 20,
+                    "replies": [
+                        {
+                            "author": "Every_Hunt_160",
+                            "body": "You might accidentally approve a malicious contract on the hardware which eventually drains the funds in the cold wallet ..",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Alatarlhun",
+                                    "body": "> verify the tx on the hardware",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Every_Hunt_160",
+                                            "body": "You need to verify every transaction on a hot wallet as well, point is you don't know if a malicious contract may be one or not\n\nSometimes you can be doing your typical swap on your DEX and a malicious hacker suddenly plants a contract. How do you spot that?",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Rey_Mezcalero",
+                    "body": "Pretty much. And not have it or OS save your passwords",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "whatislove_official",
+                    "body": "No the answer is never do anything financial related in windows. Do it on your bootloader locked mobile phone. Bonus points of you never even log in to anything on windows",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "whiskeyriver_",
+                            "body": "This isn\u2019t a windows exclusive problem though? It\u2019s chrome browser extensions which can run on any number of OSes",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "SkyMarshal",
+                                    "body": "Yes but how does it propagate?  Through email with a fake windows executable attachment?  Or is there some new Chrome-to-Chrome direct vector that bypasses the underlying OS entirely?",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "ThiccMangoMon",
+                            "body": "It effects chrome not just windows",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "SkyMarshal",
+                                    "body": "Yes but how does it propagate?  Through email with a fake windows executable attachment?  Or is there some new Chrome-to-Chrome direct vector that bypasses the underlying OS entirely?",
+                                    "score": 0,
+                                    "replies": [
+                                        {
+                                            "author": "ThiccMangoMon",
+                                            "body": "Don't think there's enough info to know, could be something much bigger than we expect not just targeting crypto. We wont know till more info comes out",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Hugh_Mongous_Richard",
+                            "body": "Ah yes, the future\u2026.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "intelw1zard",
+                    "body": "no.\n\nthe answer is to use browser ext. wallets but have them tied to your hardware wallet.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "trufin2038",
+                    "body": "The answer is not to use windows.\n\n\nThis should be dreadfully obvious by now.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Fishherr",
+            "body": "Hilarious that 2 people I saw report these type of day 0 exploits to both phantom and Jupiter months ago and they brushed it off like nothing, I\u2019m 90% sure this is what it\u2019s about \ud83d\ude2d\ud83e\udd23",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "CriticalCobraz",
+            "body": "For those wondering if you are affected and want to check, here are some steps (Instructed by AI):\n\n* Run a full system scan using up-to-date antivirus software. Some antivirus programs have specific detection names for StilachiRAT, such as Avast (Win64:MalwareX-gen \\[Trj\\]), Kaspersky (Backdoor.Win64.Agent.kxj), and Microsoft (TrojanSpy:Win64/Stilachi.A)\n* Monitor for unusual system behavior, including unexpected system reboots, suspicious outbound network connections, or unexplained changes to Windows registry values\n* Check for the presence of unfamiliar processes or services, particularly those with names similar to \"WWStartupCtrl64.dll\"\n* Look for unexpected cryptocurrency wallet extensions in your Chrome browser, as StilachiRAT targets 20 different wallet extensions\n* Be alert for any signs of credential theft, such as unexpected logins to your accounts or changes to saved passwords in Chrome\n* Use network monitoring tools to check for suspicious connections, especially on TCP ports 53, 443, or 16000, which StilachiRAT uses for communication\n* Examine your system and security logs for any signs of tampering or clearing, as StilachiRAT has the ability to clear event logs",
+            "score": 23,
+            "replies": [
+                {
+                    "author": "TheSource777",
+                    "body": "That\u2019s crazy. This is C why \u201cnot your keys\u201d is never gonna be mainstream.\u00a0",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "dylanbg",
+                    "body": "Can someone recommend a good antivirus scan for this specific thing? I'm pretty sure I got my wallet drained by that trojan",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "No_Adhesiveness_3550",
+            "body": "Common firefox W",
+            "score": 20,
+            "replies": [
+                {
+                    "author": "Every_Hunt_160",
+                    "body": "Maybe firefox is winning because it's not commonly used and hackers don't spend time on it?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "andys811",
+            "body": "I'm convinced the reason I've had no issues is because I'm too broke I've been using all these \ud83d\ude2d\ud83d\ude02",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "crypto_grandma",
+                    "body": "The scammers saw our shitcoins and were like \n\n*Nah, you can keep those*",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Volgrand",
+            "body": "Hah! And they called me crazy for using EDGE!!",
+            "score": 21,
+            "replies": [
+                {
+                    "author": "Tumifaigirar",
+                    "body": "Which is Chromium still, bravo!",
+                    "score": 56,
+                    "replies": [
+                        {
+                            "author": "Volgrand",
+                            "body": "....I hate you, random stranger, for making me aware of this...\n\nOh well. Another threat of internet scams, robberys and hacks. Call it tuesday.",
+                            "score": 16,
+                            "replies": [
+                                {
+                                    "author": "ThiccMangoMon",
+                                    "body": "Only popular non chrome based Browser is Firefox",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Every_Hunt_160",
+                            "body": "Only OG Internet Explorer can save us now ?!",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "pibbleberrier",
+                    "body": "They call me an elitist snob for using a Mac. Another Windows exploit avoided",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "cH3x",
+                            "body": "People run Chrome on Macs.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "pibbleberrier",
+                                    "body": "As far as we know it didn\u2019t affect Mac user. \n\nMicrosoft\u2019s own analysis of StilachiRat involve looking at the virus\u2019s WWStartupCtrl64.dll file\n\nMac do no use .dll files",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "HSuke",
+                            "body": "Not really. We just think you're basic and inefficient. \n\nI like having customizability, decent keyboard shortcuts, and being more productive.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "pibbleberrier",
+                                    "body": "Just admit it you want to play games \ud83d\ude02 yea Mac can\u2019t compete there.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Cadenca",
+            "body": "Are users only really affected if you try to restore a hot wallet on a PC connected to the internet, or how does this work? HW is fine, and password for the hot wallets safe too?",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "Incredibly_Based",
+            "body": "just having the app version of these is ok then?",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "thebaldmaniac",
+            "body": "If you are going to keep your own wallet, ensure that it's never on your desktop. Too much malware floating around. iPhones and Android wallets are more secure, but still not 100%. Cold wallet is what you need for any serious amounts of money. \n\nAnd the key phrase should never, ever, be digitized. Keep multiple copies in multiple places but keep it offline!",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "wsdmrtst",
+            "body": "Good thing we have all our BTC in cold storage, right?",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Every_Hunt_160",
+                    "body": "BTC in cold wallet, shitcoins in hot wallet",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "CastroIRL",
+            "body": "How does one protect themselves from this",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "joshuawakefield",
+                    "body": "Hardware wallet? Or are they fucked too",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "exmachinalibertas",
+                            "body": "No, hardware wallet is the answer. Although you need to be able to verify what you're signing with it (cough cough ByBit)",
+                            "score": 8,
+                            "replies": [
+                                {
+                                    "author": "joshuawakefield",
+                                    "body": "How do you typically verify what you're signing with a hardware wallet",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "slykethephoxenix",
+                                            "body": "The hardware wallet will show it on its screen.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "joshuawakefield",
+                                                    "body": "Ah, thank you",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "exmachinalibertas",
+                                            "body": "Well on mine, for most coins and most transactions, it just shows the recipient address, amount, and fee. Under rare circumstances when I am doing smart contract things that don't just have typical inputs/outputs to display, it shows the hex hash to be signed. This is more difficult to validate, (and why ByBit got hacked), but it is possible.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Every_Hunt_160",
+                                    "body": "But the thing about needing to verify signatures would defeat the whole point about hardware wallets (which is just to store funds, interact with 0 contracts and be fully safe from the outside)",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "iceteka",
+                                    "body": "As long as you're not cheaping out and buying it on eBay or even Amazon and get a hw wallet preloaded with shit a reset won't wipe.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "_st4rlight_",
+                            "body": "Hardware wallets are 99.999% not fucked",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "AsbestosDude",
+                    "body": "Have cold wallets",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "frozengrandmatetris",
+                    "body": "don't download weird things on the same device where your private keys are located. this includes things like programs from dodgy websites or any kind of executable from a pirate site.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "pibbleberrier",
+                    "body": "Use a Mac",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "the_far_yard",
+            "body": "Hardware wallet is gonna be essential from this day moving forward, if it hasn't already.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "GreedVault",
+            "body": "How are we supposed to protect ourselves if we are still going to use browser extension wallets?",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Sanizore05",
+            "body": "This is why I never kept my coins on PC, too much vulnerabilities.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "monkyseemonkeydo",
+                    "body": "Your tokens are on a blockchain my guy:)",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "sugarshark666",
+                            "body": "seems to be a lot of folks that don't even have a basic understanding of something theyll invest their life savings in.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Rey_Mezcalero",
+                    "body": "I don\u2019t store passwords either on a browser.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "jgroshak",
+            "body": "Go ahead and take my Jeo Boden coin \ud83d\ude0e\ud83d\ude05",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Rey_Mezcalero",
+            "body": "I take it there isn\u2019t a fix yet for this",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "infinit9",
+            "body": "Thanks a bunch for the news.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "helmetdeep805",
+            "body": "Trezors as in plural packed deep in. Safe and seed phrases memorized,bring it Nigerian prince",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "itzdivz",
+            "body": "My 10cents are not safu anymore",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Hungry-Ad7987",
+            "body": "This is not something new, has being going on since 2016 where hackers inject malicious malware into Chrome extensions. Some of these extensions install themselves without you even noticing. \n\nEspecially if you are some one who downloads games, sheddy sports app, modded programs etc from various websites.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SkyMarshal",
+            "body": "Chrome on Windows, or Chrome on any OS?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Zibbi-Abkar",
+            "body": "TIL people still use chrome. \n\nEven weirder is crypto people using chrome.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Obsidianram",
+            "body": "*Pikachu Face*...oh no!  Not Goog Chrome?!!!\n\nBahahahaha...",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "mienhmario",
+            "body": "CIA bot created \ud83d\udcaf",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SoulSlaysTV",
+            "body": "I'm so scared to open my wallet now!!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "dylanbg",
+            "body": "Ah.....this is what happened to my metamask, I never figured out how I got all my funds stolen on a fresh Wallet",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "CrustyBus77",
+            "body": "Stop using Windows for crypto related tasks.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": -1,
+            "replies": [
+                {
+                    "author": "MineETH",
+                    "body": "Is this a bait comment?\n\nTons of other browsers that are built on chromium like Opera or Brave are affected and Chrome alone has over 65% of all browser maket share",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "DarthBen_in_Chicago",
+            "body": "Play with fire, get burned.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "Intelligent_Tune_675",
+            "body": "Time to move to Brave",
+            "score": -2,
+            "replies": [
+                {
+                    "author": "scormegatron",
+                    "body": "Brave runs on Chromium. Seems Firefox is the safest bet.",
+                    "score": 19,
+                    "replies": [
+                        {
+                            "author": "DisorientedPanda",
+                            "body": "Opera gx an option too?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "ThiccMangoMon",
+                                    "body": "Firefox",
+                                    "score": 3,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "scormegatron",
+                                    "body": "Opera runs on Chromium as well.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "DisorientedPanda",
+                                            "body": "Oh snap !",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "fiftyshadesofcry",
+                            "body": "Naah i take the risk with brave, thank you",
+                            "score": -6,
+                            "replies": [
+                                {
+                                    "author": "scormegatron",
+                                    "body": "Bravery is knowing it might hurt, and doing it anyway. Stupidity is the same. And that\u2019s why life is hard.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "fiftyshadesofcry",
+                                            "body": "So you tell me you change browser now? Nt tho hahaahh",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "UnknownEars8675",
+            "body": "Tell me again how centralized updatable databases are terribly risky but decentralized databases are safe, please.",
+            "score": -3,
+            "replies": []
+        },
+        {
+            "author": "southbound858",
+            "body": "HAHAHAHA crypto is soooo fucking stupid. BTC going to ZERO!",
+            "score": -14,
+            "replies": [
+                {
+                    "author": "Rey_Mezcalero",
+                    "body": "Well..think it will require a little more then this for BTC to zero out \ud83d\ude02",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

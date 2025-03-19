@@ -1,0 +1,597 @@
+{
+    "title": "Weekly Recap | March 13, 2025",
+    "author": "TheOpusCroakus",
+    "subreddit": "help",
+    "rank": 1,
+    "score": 70,
+    "upvote_ratio": 0.96,
+    "num_comments (reported by reddit)": 89,
+    "url": "https://www.reddit.com/r/help/comments/1jah355/weekly_recap_march_13_2025/",
+    "id": "1jah355",
+    "selftext": "Welcome back to another Weekly Recap, where I recap the week that was and boy, was that a week! Let's see what happened! (I wonder if it would be shorter if I went over what didn't happen. Hmmm)\n\n**NEWS AND ISSUES**\n\n* In the [changelog](https://support.reddithelp.com/hc/en-us/articles/35343974642452-Changelog-March-6-2025) from last week, it stated that the sorting bug had been fixed. Turns out, yes and no! I followed up with the team in charge of that and they got to work on deploying a fix. Shout out to u/domonono for bringing this up and for providing a screen recording!\n\n* There was an issue with low resolution images in comments. We replied [here](https://www.reddit.com/r/bugs/comments/1j7ol3z/android_why_are_all_the_images_in_comments/mh0p1cr/?share_id=QPyC_6gJuePFa7x4MAs5c&context=3) when there was a fix!\n\n* Also had an issue on Android with profile pages not loading. There was a post [here](https://www.reddit.com/r/bugs/comments/1j86z05/unable_to_view_profile_pageandroid/) that a dev replied to and this got worked on. Thanks to all who reported!\n\n* Comment deletion was broken for a hot minute on Friday. That got fixed right on up.  \n\n* Level Ten Helper u/jgoja mentioned that you can add subreddits to custom feeds from the iOS app again, so that's also fixed! Thanks so much for pointing that out!\n\n* Annnnddddd the subreddit sorting not sticking was fixed, right up until you made a post and then it unstuck itself and went back to something else. Say it with me: ARRRGGGHHH. But the team is working on this and I'm hopeful that it will be fixed before the end of next week. Apologies that this is still a frustrating experience. \n\n* **EDIT**: In a late development, Reddit announced [here](https://www.reddit.com/r/RedditSafety/comments/1jalkya/introducing_hide_an_ad/) that starting this week, users will be able to HIDE AN AD even if they don't have Premium! This has been asked for since the beginning of time and now it's a thing! \n\n**FOLLOW UP ON PREVIOUS ISSUES**\n\n* Turning off Autoplay on Android does not apply to Community Highlights. This finally got looked at and is on their radar, but unfortunately, there is a bit of a backlog, so this is on the back burner for a little while. No estimate as to when it might be fixed, but I'll keep checking on it. Many apologies to u/ChimpyChompies who initially brought this to my attention! \n\n**BUGS ROUND UP - COMPLIMENTS OF ME (which is why it's a little short this week lol)**\n\n* [Android] Can't view custom feed - This is known and should be fixed up soon \n\n* [Android] Flair not updating - Should be fixed in the current version\n\n* [iOS] Posts not showing up when sorted by new - Under continued investigation. Sneaky bug! \n\n* [Desktop] Three dot menu on comments broken - This was reported Wednesday and ~~a fix was on the way~~ is fixed!  (Thank you, Rostingu2!) \n\n**ONGOING ISSUES**\n\n* If your account gets the \"server error\" banner or you can't update your profile, I can fix that sometimes! **I cannot fix accounts where you are receiving the \"server error\" message and are unable to view content from that account when logged out.** In those instances, you will need to file an appeal. Just let me know and I'll take a look and get you all taken care of! Please note that I cannot give any information or assist with any account unless contacted directly from that account.\n\n* If no one else can see your posts or comments across Reddit (not just in one sub) and you are unable to post here in r/help, you can file an appeal [here](https://support.reddithelp.com/hc/en-us/requests/new?ticket_form_id=360000600232). \n\n* Please check the [Help Center](https://www.reddithelp.com/) to see if you can find the answer to your question there. Also, check this sub for stickied posts regarding outages and downtime. \n\n* If your account is marked as NSFW and it is not NSFW, you can check out [this Help Center article](https://support.reddithelp.com/hc/en-us/articles/360043471131-Why-was-my-profile-marked-as-Not-Safe-for-Work-NSFW-and-how-can-I-change-it) for information on how to change it back. If you're unable to change it back, feel free to make a post and one of the best helpers on Reddit will help me help you!\n\n**WEEKLY STATISTICS**\n\nMy tool for calculating how many posts and comments has broken! I am upset! I'm going to try and figure that out today and I can update this part if I get it working soon. Sorry about that! (It's kinda become one of my favorite parts of this thing.) But there were still over 1.3 million views, which is up about 57k from last week. Our sweet spot had been about 1.2 million, but here we are at 1.3 million! People know that this is the place! \n\n**TOP ISSUES**\n\n* **[Why did I receive a warning for \"Upvoting content encouraging violence\"?](https://www.reddit.com/r/help/comments/1j6gh0q/why_did_i_receive_a_reddit_warning_for_upvoting/)**\n\nA user received a warning for upvoting content that encouraged violence and they were wondering why. Reddit posted about a new policy over in r/redditsafety [here](https://www.reddit.com/r/RedditSafety/comments/1j4cd53/warning_users_that_upvote_violent_content/). From that post \"*users who, within a certain timeframe, upvote several pieces of content banned for violating our policies will begin to receive a warning. We have done this in the past for quarantined communities and found that it did help to reduce exposure to bad content, so we are experimenting with this sitewide.*\"\n\nI know there are strong opinions about this and it would be great if you could leave constructive feedback and criticism in that post that is still being monitored! As always, I'm happy to pass along constructive feedback to the correct team, but having everything all in one place like that post would be ideal. \n\n* **[Why won't Reddit stop showing me India subs?](https://www.reddit.com/r/help/comments/1j79vtv/why_wont_reddit_stop_showing_me_india_subs/)**\n\nA user was repeatedly seeing content that was related to India. This can happen sometimes and while it's not intentional, it can be frustrating. There was some good advice in that post. Helpingest Helper u/Rostingu2 suggested [muting the communities](https://www.reddit.com/r/help/comments/1j79vtv/why_wont_reddit_stop_showing_me_india_subs/mgv3wy1/). u/starrae [suggested turning off home feed recommendations](https://www.reddit.com/r/help/comments/1j79vtv/why_wont_reddit_stop_showing_me_india_subs/mgv9ogu/). Resident mod and pro helper u/ChimpyChompies directed the user to make sure the [location sort](https://www.reddit.com/r/help/comments/1j79vtv/why_wont_reddit_stop_showing_me_india_subs/mgx0qow/) is set to 'everywhere'.  And u/FreeChickenDinner chimed in with a suggestion to check your [localization settings](https://www.reddit.com/r/help/comments/1j79vtv/why_wont_reddit_stop_showing_me_india_subs/mgwjgn4/). \n\n* **[Post restrictions wouldn't allow me to post](https://www.reddit.com/r/help/comments/1j8uzg0/my_work_was_wasted_because_of_post_restrictions/)**\n\nA user spent a lot of time on a post and then was unable to post it in the sub that they were in because they did not meet the posting requirements. Some subreddits will have minimum karma or account age requirements as a way of combating spam and trolls. You can message the mods of the sub and ask them if they will approve your content, though they are not obligated to do so. You can also participate in subreddits that do not have those requirements to gain some karma. r/casualconversation is great for that! And if you\u2019re looking for a subreddit on a particular topic and aren\u2019t quite sure what it would be, you can try posting in r/findareddit and someone there may have a suggestion for you.\n\n**WEEKLY HELPINGEST HELPERS HELPING R/HELP**\n\n1. **Rostingu2** - Congratulations! I have seen you everywhere and not just in r/help! It's awesome that you're sharing all of your Reddit knowledge amongst various helping subs (but please don't ever leave us lol)! \n\n2.  **Dhanish04**- Congrats on second place this week! Still crushing it all over the place! Much appreciated Thank you! \n\n3. **Tarnisher** - Third place again! You're definitely a regular at this point! Thank you so much for all of your help! Congrats! \n\n4. **Old_One_I** - Thank you for the help! Always love seeing you dive right in to an issue! Top notch troubleshooting skills! I'm so appreciative of those! (So are the users! They talk! lol)\n\n5.  **tadashi4** - A solid presence! Very helpful! Appreciate you so much! Thank you! \n\n6.  **ChimpyChompies** - Pulling double-duty again as a top helper and an awesome mod! LOVE everything that you do around here! Thank you so much! \n\n7. **Collectiondue3026** - Back for more and I love it so much! Thank you for all of your help! You're definitely a familiar face in these parts now! You're closing in on Level Six! That'll be fun! \n\n8. **erinyesmusaimoira** - Welcome to the show! Thank you so much for helping! You are now a Level Three helper and have a really nice trophy to show for it! You are welcome here any time!\n\n9. **notthegoatseguy** - Back? BACK! Whew! What a relief! Because you are super helpful and the users love it! Thank you for being here! \n\n10.  **mamengo142** - Another new face! Welcome! Thank you for helping! You're off to a great start and already have the Level One Trophy! Level Two is easily within your reach! \n\nThank you to everyone who has helped out another user in r/help and even in the other help subs on Reddit! The knowledge that y'all have and so willingly share with others who truly need assistance is amazing. I love seeing all of you, day after day (some hour after hour! lol), just helping out and making things a little bit easier and a little bit better overall. It's so appreciated! \n\nAnd that takes care of another week. A little bumpy again, but we got seatbelts! And I am buckled up! I'll see everyone right here next week! And I'll be in the comments. I live in the comments! lol  Let's gooooooooooo!",
+    "comments": [
+        {
+            "author": "ansyhrrian",
+            "body": ">TOP ISSUES\n\n>[**Why did I receive a warning for \"Upvoting content encouraging violence\"?**](https://www.reddit.com/r/help/comments/1j6gh0q/why_did_i_receive_a_reddit_warning_for_upvoting/)\n\n>A user received a warning for upvoting content that encouraged violence and they were wondering why. Reddit posted about a new policy over in\u00a0[r/redditsafety](https://www.reddit.com/r/redditsafety/)\u00a0[here](https://www.reddit.com/r/RedditSafety/comments/1j4cd53/warning_users_that_upvote_violent_content/). From that post \"users who, within a certain timeframe, upvote several pieces of content banned for violating our policies will begin to receive a warning. We have done this in the past for quarantined communities and found that it did help to reduce exposure to bad content, so we are experimenting with this sitewide.\"\n\nRespectfully, truly respectfully, Reddit needs to respond to this.",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "jgoja",
+                    "body": "Reddit partially did here.\n\nhttps://www.reddit.com/r/ModSupport/comments/1j7lwa8/please_advise_us_on_reddits_expectations_for/",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "ansyhrrian",
+                            "body": "It's not addressing the core issue, which is why won't reddit link to the content that is offending.",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "TheOpusCroakus",
+                                    "body": "Hi! I get where you're coming from and I've shared this message with the team that's in charge of this feature.",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "ansyhrrian",
+                                            "body": "Thank you!  I appreciate what you're doing.  :)",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "TheOpusCroakus",
+                                                    "body": "And I appreciate your measured feedback! It really helps! Thank you!",
+                                                    "score": 3,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "TheOpusCroakus",
+                            "body": "Thank you.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "mstermind",
+            "body": "Thanks for these updates!",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "TheOpusCroakus",
+                    "body": "Thank you for helping! And for reading! <3",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "jgoja",
+            "body": "Weekly Recap Comment 3/13/25\n\nThank you for the report.\n\n**Note for the Helpers:**  it is great seeing everyone going up levels every week.  Don\u2019t get discouraged if you\u2019re gaining levels more slowly as you get higher.  The first 5 levels come very quickly.  However when you get there, level 8 to 9 is like climbing Everest.  If you stick with helping you will get there and after that going 9-10 is a breeze.\n\n**Intro:**  I would say that it has been a fairly normal week.  Not bumps too big but not smooth sailing either.  I got a long one for you today.  A Two Parter is back again.  Some issues, some annoyances, one because the proper channels are ignoring me (They don't know that I don't just drop things.  They will learn).  Sorry for the delay, was talking to people, in person.  I know. \n\n**From Your Report;**  I got nothing to add or question.  I do have feelings about the first top post, but I gave it its own issues entry.\n\nEdit:  The new post guidance should help with the third of the top posts.\n\n**In old business.**\u00a0I have seen a couple reports this week about issues going in and out of dark mode again.  Example [post](https://www.reddit.com/r/bugs/comments/1j9xzmk/dark_mode_not_working_on_desktop_web/)  from yesterday.\n\n**Brought back from last week.**\u00a0  With everything else in my \"short\" comment, this was missed last week.  These upvote notifications seem to be a complete mess right now based on the reports and what I am seeing. Some people have them off and are getting them. Some people have them on and want them but are not getting them. Personally I don\u2019t care if I get them or not, but I do have them on. It seems completely random which ones I get and which I don\u2019t.\n\n**Brought back from last week.**  This second half of this comment on the status of achievement notifications was also missed last week.  I may be the only one seeing this but I doubt it.  I still have never got an insight notification even though I have had multiple posts over 1,000 upvotes including one over 3,000 in the last week and even more with 500+ upvotes. Yet Flag Planter, which I have gotten 66 times, always gives a notification. Additionally, Reddit kindly keeps turning back on the 4 Recommendation notifications when I turn them off, but it doesn\u2019t matter since I don\u2019t get them anyway. And not that I necessarily want it, but I still don\u2019t get new followers notifications. That is nearing on 2 years since I got it.\n\n**Issues**: From the post insights post on r/reddit last week, I noticed that % Upvote Rate is not on their list.  I also don\u2019t have them on the app.  I do have it on the browser.  This is a much requested thing.  I asked on that post about it but there are a ton of comments on that post.  I would like to provide feedback and request if that can be added back in to the app in a future update to it.\n\n**Issue:**  There have been a number of posts here and in bugs starting later yesterday about some desktop users not being able to send DMs in chat.  It does not appear to be an established account issue and an actual bug.  Here are some posts.  [Post](https://www.reddit.com/r/help/comments/1ja546l/comment/mhitu9w/?context=3). [Post](https://www.reddit.com/r/help/comments/1ja3j5y/cant_initiate_new_chats_desktop/). [Post](https://www.reddit.com/r/help/comments/1ja422g/cant_send_dms/). [Post](https://www.reddit.com/r/help/comments/1ja56u1/cannot_send_any_dms_i_see_a_blue_arrow_next_to_my/).\n\n**Issues**.  When trying to view the people following you on the app, at least the iOS app, you can only see the most recent 25.  None of the pages load after the first.\n\n**Issue**:  We both know my thoughts on how safety operates and how it has zero concerns for the users and what I think about this new upvote punishing.  Here is a [post](https://www.reddit.com/r/help/comments/1jaa09s/i_got_a_warning_for_upvoting_something/) today about it and the confusion it causes since they do not tell people what they upvoted in violation of their secret rules.  I am throwing this out there knowing there is nothing you can say or do except possibly say that you will pass the feedback along.  How does upvoting violent content that leads to the warning  \"Break The Site\", Violate Rule 8.  Are they catagorizing it wrong or poorly or are they completely devaluing rule 8? It was probably the most serious rule of them all.  What safety itself is doing could be categorized as a violation of rule 8 as it interferes with the core function of voting on content when no violation of the rules has been made. Or a rule 2 violation for vote manipulation.  What's next?  If users try to organize some form of protest against Reddit again, warn and ban everybody who upvotes those posts.  That is breaking the site.\n\n**Issue:**. With the new chat UI that is being rolled out, a user [posted](https://www.reddit.com/r/bugs/comments/1j3b6gs/reddit_chat_for_ios_changed_yesterday_cant_view/) that they could not view the profile of the person making the chat request from the chat UI itself.  I have the new chat UI myself and verified that they are correct.  I am hoping that this is a bug and not a design decision.  Though the new UI gives a partial view of the profile, it can still be helpful to be able to see the whole thing.  Adding the step of closing chat or opening the mobile browser and remembering the spelling of their username just to look it up seems excessive.  I can try to provide screen shots or a screen recording if needed but will need someome who has not chatted with me to send a request.  Here is a post from this morning I can link on the subject.  [Post](https://www.reddit.com/r/help/comments/1ja9k2k/unable_to_view_users_profiles_from_chat_requests/).  I did reach out to the developers over this via two proper channels and have been ignored for over a week.  I am hoping you have better luck.\n\n**Issue:**  I have seen quite a few similar posts to this [post](https://www.reddit.com/r/bugs/comments/1j99g0e/on_both_chrome_and_android_i_am_able_to_check/).  For some unknown reason some of some peoples posts do not even have an insight button.  I noticed I was missing one on a removed post, but these posts were up and normal.  These are not necessarily new posts either.  I have seen days or older posts missing it while posts they have made before and after that post have them normally.  From the ones I have seen, it is not subreddit related as they will have other posts from the same subreddit with insights. For those posts it is affecting, it affects both the app and desktop.\n\n**Issue**; In the last couple of days I have seen several reports, like this [post](https://www.reddit.com/r/help/comments/1j99jx6/android_i_cant_open_my_previous_post_and_in/), from people who can no longer access their own subreddit.  When I try to access it from desktop I have no issues.  They are all on the app but I can't remember if it is just Android or iOS as well\n\n**Issue:**  I saw a post earlier this week on an issue that comes up from time to time.  It is not possible to removed blocked accounts that have been delete via the app.  You get a message that they Can't be unblocked.  I tested it on the iOS app and got the same results.  I could remove them via desktop though.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "maybe-pablo",
+                    "body": "Hey! Jumping in to reply about post insights: \n\n>**Issues**: From the post insights post on\u00a0[r/reddit](https://www.reddit.com/r/reddit/)\u00a0last week, I noticed that % Upvote Rate is not on their list. I also don\u2019t have them on the app. I do have it on the browser. This is a much requested thing. I asked on that post about it but there are a ton of comments on that post. I would like to provide feedback and request if that can be added back in to the app in a future update to it.\n\nWe are adding % upvote rate to mobile soon in the next update (along with other stats)! Stay tuned. That stat should be available on web already.  \n\n\n>**Issue:**\u00a0I have seen quite a few similar posts to this\u00a0[post](https://www.reddit.com/r/bugs/comments/1j99g0e/on_both_chrome_and_android_i_am_able_to_check/). For some unknown reason some of some peoples posts do not even have an insight button. I noticed I was missing one on a removed post, but these posts were up and normal. These are not necessarily new posts either. I have seen days or older posts missing it while posts they have made before and after that post have them normally. From the ones I have seen, it is not subreddit related as they will have other posts from the same subreddit with insights. For those posts it is affecting, it affects both the app and desktop.\n\nThanks for reporting -- we got one other report that someone wasn't seeing post stats on a post. We are actively investigating this rn. There are a small % of users in a control group for this feature, but if it's happening frequently it may be a bug. Would be really helpful if you can share any links to posts where you're experiencing this so we can see if there are any patterns.",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "jgoja",
+                            "body": "Thank you for coming over and providing that information.  It is appreciated.",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "jgoja",
+                            "body": "You work incredibly quickly.  I have the percentage on iOS now and another helper confirmed they have it on android.  Thank you",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "TheOpusCroakus",
+                                    "body": "Aren't they great?? =D",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "jgoja",
+                    "body": "**Question/Issue?**:  I don't know if this has been like this because I really can't remember as I have been on desktop the last couple weeks or is a new issue.  I think I could in the past but am not positive.  I went to share a post I made on one of my subreddits, r/Kale10sroundup , via the iOS app and noticed that there was no share button.  I also could not find anyway to share the url of the post through any of the user or mod menues.  With some checking this is the case with all of my subreddits. Share is there as normal on both desktop and the mobile web for the same subreddits.  It is also there for posts I made in other subreddits.  It seems to be a mod thing but it does not affect posts made to profile.  Also, because I cannot turn off mod mode on the app I cannot test it.  I did try to uninstall and reinstall the app and that didn't help.  I did check a different account of mine and they could not share posts from my subreddits they are a mod on.  Even if that account did not make the posts .  It was the same on sfw and nsfw subreddits.\n\n**Question?**  If an account is permanently banned and disabled so they can\u2019t log in to appeal,  should they submit this [form](https://support.reddithelp.com/hc/en-us/requests/new?ticket_form_id=360000600232) with account status, my account was wrongly suspended to try to get back in?  Or should they submit the form with password problems, password reset isn\u2019t working to clear the disabled?  I recommended the first one and am checking to make sure it was the right advice.\n\n**Annoyance**:  Those newish [color coded awards](https://imgur.com/a/Si2RzSi) to give from the app are simplistic and juvenile.  While I have to much better [original awards](https://imgur.com/a/Hyee9nG) on desktop and mobile browser?  I know that the answer to the following question is no because there never is for anything, but Is there a place to provide feedback?\n\n**Conclusion**:  I have rambled on enough.  Communication\u2026Character Count\u2026Reddit Safety hates users and is authoritarian\u2026 yada yada yada.\n\nThank you for reading my ramblings.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "TheOpusCroakus",
+                            "body": "* I can reproduce this, but I'm not sure what's up. I see that some content still has a share button, so I don't know why some wouldn't. I'll see if I can track that down. \n\n* Yes, that is the correct form if they can't log in. \n\n* Thanks for the feedback about the awards! I'll let the team know. This is a good place for feedback, though. I always pass it along! \n\nGood ramblings, as always, this week! =)",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "TheOpusCroakus",
+                    "body": "Hi! Thank you for your \"ramblings\"! Love to see it! \n\nAnd thank you for the words of encouragements to other users and fellow helpers! I know they look to you for guidance and knowledge, so that is just awesome of you! \n\n* I have flagged the dark mode issue to the team and they said it  can happen if your theme was set to dark mode while you were accepting non-essential cookies, and then something changes and you no longer accept non-essential cookies and then the site can't  update your theme cookie. Clearing cookies should solve the issue in the meantime! Let me know if that doesn't work for people! \n\n* These notifications are going to be the bane of my existence. When you didn't get the Achievement notifications for the upvotes, did you get any additional Achievements for those posts? They notifications stack, so you may only receive the first one if a post/comment earns multiple Achievements.\n\n* I'm following up on the followers! (The one team moved it to another team. I think they're avoiding me!)\n\n* Thanks for the feedback about the upvote warnings! I'm pretty sure you shared it in the post last week, so thank you for that! \n\n* For the % upvote rate, I have asked that team, and they said it should still be there, but it's under \"engagement\"\n\n* For the chat issue with not being able to view the profile, the team said that should be fixed in the next iOS release. Not that I need to say this, but let me know if it doesn't! lol Thanks for bringing it up! =)\n\n* For the insights not being available on some posts, those users may be in a control group. It's a very small percentage, though. If you're seeing a ton of those, something might be broken.\n\n* For the users who are unable to access their own sub on the app, uninstalling and reinstalling seems to fix it? It's being worked on, though. \n\n* I remember that issue about removing deleted accounts. I'll see if someone knows where that's at. My guess is it's a low priority, but it can't hurt to bring it up again!",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "jgoja",
+                            "body": ">I have flagged the dark mode issue to the team and they said it can happen if your theme was set to dark mode while you were accepting non-essential cookies, and then something changes and you no longer accept non-essential cookies and then the site can't update your theme cookie. Clearing cookies should solve the issue in the meantime! Let me know if that doesn't work for people!\n\nThank you for the potential fix.  I will follow up if I hear more on the issue and that does not work.\n\n>These notifications are going to be the bane of my existence. When you didn't get the Achievement notifications for the upvotes, did you get any additional Achievements for those posts? They notifications stack, so you may only receive the first one if a post/comment earns multiple Achievements.\n\nNope.  No notifications at all.\n\n>I'm following up on the followers! (The one team moved it to another team. I think they're avoiding me!)\n\nAs it should be, strike fear in my enemies.\n\n>Thanks for the feedback about the upvote warnings! I'm pretty sure you shared it in the post last week, so thank you for that!\n\nYes, I mentioned it last week.  It may (probably will) come up again in the future.  I will simplify my comment.  How is that not vote manipulation?\n\n>For the % upvote rate, I have asked that team, and they said it should still be there, but it's under \"engagement\"\n\nIt is there for desktop.  I am very grateful that they came over here and gave an answer also.  Most teams wouldn't do that.  That extra direct communication goes a long way.  Also not down playing what you every week, it is also very much appreciated.\n\n>For the chat issue with not being able to view the profile, the team said that should be fixed in the next iOS release. Not that I need to say this, but let me know if it doesn't! lol Thanks for bringing it up! =)\n\nWho, me??? Bringing things back.  Not letting it go.  No, not me!!! Weren't we talking about character counts? lol",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "TheOpusCroakus",
+                                    "body": "> How is that not vote manipulation?\n\nI'm not sure what you mean? \n\n> I am very grateful that they came over here and gave an answer also. Most teams wouldn't do that. That extra direct communication goes a long way. Also not down playing what you every week, it is also very much appreciated.\n\nI love it when that happens, too! And they do care! They don't like it when things don't work any more than we do. \n\n>Who, me??? Bringing things back. Not letting it go. No, not me!!! \n\nLOLOLOLOLLLLL Yeah, I don't know what I was thinking! XD \n\n>Weren't we talking about character counts? lol\n\ndead  (But seriously, for that one, I need to wait for CorrectScale to get back. They were making some headway on that, but I don't know where. Not deflecting! I'll still ask around, though!)",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "jgoja",
+                                            "body": ">I'm not sure what you mean?\n\nBy putting this out there, especially with vague information, the goal is to reduce upvotes.  Manipulating the voting on certain groups of content they are problematic or just potentially problematic even if it is not.  As well as potentially manipulating voting on a wide variety of content out of fear of repercussions.  See this modsupport [post](https://www.reddit.com/r/ModSupport/comments/1j7lwa8/please_advise_us_on_reddits_expectations_for/).\n\n\n\nOf the examples given, which are not all inclusive:\n\n* **Soliciting votes:**\u00a0Requesting or **encouraging people** to upvote or **downvote specific posts**, either on Reddit or through social networks, messaging, etc. for personal gain.\n* **Participating in Group Voting:**\u00a0Joining or forming groups **that coordinate votes**, either on a specific post, a user's posts, content from a domain, etc.\u00a0\n\nThose are not perfect and are a bit of a reach, but vote manipulation is more than the three examples.",
+                                            "score": 4,
+                                            "replies": [
+                                                {
+                                                    "author": "TheOpusCroakus",
+                                                    "body": "Thanks for that clarification! I'll pass that along for sure! Thank you!",
+                                                    "score": 5,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Old_One_I",
+                                    "body": "Hey I have the % upvote rate on android.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "jgoja",
+                                            "body": "Thanks for mentioning it.  I just checked and have it on iOS app as well now",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "Old_One_I",
+                                                    "body": "Welcome",
+                                                    "score": 3,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "jgoja",
+                            "body": "\n> For the chat issue with not being able to view the profile, the team said that should be fixed in the next iOS release. Not that I need to say this, but let me know if it doesn\u2019t! lol Thanks for bringing it up! =)\n\nWell, I have good news.  It was fixed for me as of last night anyway.  I could view the full profile by tapping the avatar at the top of the request again.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "TheOpusCroakus",
+                                    "body": "That is good news! Thanks for letting me know!",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Old_One_I",
+            "body": "Thanks for the recap! It's always the highlight of the week!",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "TheOpusCroakus",
+                    "body": "Awwww! <3 I love hearing that! I'm so glad that people enjoy it and hopefully find it at least informative! =D",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "SolariaHues",
+            "body": ">My tool for calculating how many posts and comments has broken!\n\nYou can get that from insights? On the reports and removals page, it shows how many posts or comments published and how many removed at least. Not sure if that's the same as what your tool does.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "TheOpusCroakus",
+                    "body": "Hi! I think that's slightly different than what I have been using, but I might be able to make it work in some fashion. Thanks for pointing that out!",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "SolariaHues",
+                            "body": "NP. \n\nThere is also a dev plat app for stats, but I don't think it has those specific stats [https://developers.reddit.com/apps/sub-stats-bot](https://developers.reddit.com/apps/sub-stats-bot)",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "fireskull8",
+            "body": "I am having trouble seeing views and insights on some of my posts this is not an issue with all of them though this is most likely a bug.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "TheOpusCroakus",
+                    "body": "Hi! This may be an intentional experiment. I'll pass your feedback along to the team that's in charge of that feature.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "skibik1964",
+            "body": "Shout out to the Reddit team for somewhat fixing the sort issue on desktop. It seems to be working on the subreddit to where earlier this week I selected to sort topics by new on the subreddits I visit and went back later in the day and they were still new by default. The main feed and/or custom feed does not stick on desktop though but that I don't care about. It is nice to keep what setting I want for sort now on topics. I have not tried to change the sort feature within a topic in a subreddit to see if that sticks but I don't mind best for that.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "UnprofessionalCook",
+            "body": "\\*sends cookies to make Opus feel better about the broken calculator\\*",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "TheOpusCroakus",
+                    "body": "I love cookies! Made a batch of chocolate chip cookies last week. Hot take: There are too many chocolate chips in the standard toll house recipe! They want you to put that whole bag in there and it's just too much! 9-10 ounces is where it's at! =)",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "UnprofessionalCook",
+                            "body": "I'm not sure my cookie monster husband would agree about chips reduction, but I might give it a try sometime! (That is indeed a hot take!)",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Unique-Public-8594",
+            "body": "Thank you for this amazing effort and great communication! \u00a0Cookies for you! \ud83c\udf6a\n\nOur biggest pain point atm is that 50% of our content is not on our New Sort so not getting traction. (*Refresh does not fix.*)\n\nAs a workaround, we\u2019ve been using old.reddit.com to approve every post - also upvoting and saving when approving - then tracking posts on a spreadsheet since there are reports of posts appearing then disappearing later, requiring a repeat of the initial \u00a0workaround process.\n\nWe\u2019re throttling in order to keep up with the extra work.\u00a0\n\nModmail complaints are\u00a0up, momentum is down, Insights stats are all down. It\u2019s been rough.\u00a0\n\n\u00a0[more info](https://www.reddit.com/r/bugs/comments/1j7qamn/desktop_web_new_sort_is_broken_not_populating/) - includes links to 8 previous posts on the topic.\n\nBut would like to repeat here, we\u2019re still very grateful for your good work.\u00a0",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "TheOpusCroakus",
+                    "body": "Hi! Thank you! I love cookies! \n\nI'm sorry that you're still having trouble with that. thank you for that link. That list is horrifically long. What sub is this? I've just shared it with the team that's working on this.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Unique-Public-8594",
+                            "body": "Hi!  Thank you so much for responding!!\n\nr/MinimalistPhotography. (We think of ourselves as a beautiful and friendly corner of reddit.)\n\nTrying not to be a pia - I *really* am - but we\u2019ve been limping for 18 days and now we\u2019re headed into the weekend.  Still today 50% of our New sort is not showing.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "TheOpusCroakus",
+                                    "body": "What a great sub! (I joined!)\n\nDefinitely not being any trouble here! I know it's rough the way it is and I am committed to continuing to make this visible to get it fixed!",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Unique-Public-8594",
+                                            "body": "Great news! \u00a0Thank you! \u00a0I\u2019ll be sharing this my team. They\u2019ll be happy to knoe a rescue bost is on the way! \u00a0\ud83d\udea2",
+                                            "score": 1,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Unique-Public-8594",
+                                            "body": "Any update?  We\u2019ve been struggling with this for 3 weeks now. Still today 60% of our posts are not on our New Sort.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "TheOpusCroakus",
+                                                    "body": "Hi. It's still the weekend, so I won't be able to get it in front of the correct team until Monday. I'm sorry!",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Unique-Public-8594",
+                                                            "body": "\ud83e\udd74 thought it was Monday. Lol. (*pours second cup of coffee*)\n\n\ud83e\udd26",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "TheOpusCroakus",
+                                                                    "body": "Not yet! Lol",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                },
+                                                                {
+                                                                    "author": "TheOpusCroakus",
+                                                                    "body": "Morning! NOW it's Monday! lol \n\nI just heard from that team and they have an idea of what might be happening, so they're going to check the posts that you linked to in your other comment and see if they're on the right track. I'll update you when I know more! Thanks for your patience!",
+                                                                    "score": 1,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Unique-Public-8594",
+                                                                            "body": "Lol. Appreciate the update.",
+                                                                            "score": 1,
+                                                                            "replies": []
+                                                                        },
+                                                                        {
+                                                                            "author": "Unique-Public-8594",
+                                                                            "body": "If needed, here are the posts from yesterday that were not on New Sort (I've seen comments that it can come and go, checked just now, using iphone/Safari/Shreddit). They represent 30% of our content.  They were approved using old.reddit.com:  [Frosty Cover](https://old.reddit.com/r/minimalistphotography/comments/1jcj8k7/a_frosty_cover/), [Spring Berlin](https://old.reddit.com/r/minimalistphotography/comments/1jckntf/spring_in_berlin/), [Blue Building](https://old.reddit.com/r/minimalistphotography/comments/1jckqjn/blue_building/), [Foggy Mountain](https://old.reddit.com/r/minimalistphotography/comments/1jclalk/foggy_mountain_road/), [Watcher](https://old.reddit.com/r/minimalistphotography/comments/1jcmkgc/watcher/), [Happiness](https://old.reddit.com/r/minimalistphotography/comments/1jcnonk/happiness_iphone_13/), [Solitude](https://old.reddit.com/r/minimalistphotography/comments/1jcl286/solitude_in_motion/), and [Defeat Gravity](https://old.reddit.com/r/minimalistphotography/comments/1jcpipe/defeat_gravity/)",
+                                                                            "score": 1,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "_LiarLiarpantsonfir3",
+            "body": "(iOS) whenever I open comments I get \u201coops something went wrong\u201d beyond frustrating",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "TheOpusCroakus",
+                    "body": "Hi there. Have you tried uninstalling and reinstalling the app?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "_Lucille_",
+            "body": "When will we once again be able to change default sort from best to hot on desktop?\n\nI can get it if Reddit wants to force people.to use best for a while, but this has been going on for a few weeks, and wasn't an issue in the past.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "TheOpusCroakus",
+                    "body": "The desktop home feed currently defaults to Best. I don't know if that will change in the future, but I'll pass along your feedback. \n\nIn the meantime, as a workaround, you can create a custom feed of all of your subreddits and view that instead and change the sort however you'd like.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "AlertZookeepergame58",
+            "body": "Is anyone experiencing the typing\u2026 from another user not working? I\u2019ve had solid conversations for nearly 9 months, everyday, and this is the first time it\u2019s happened to us?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "TheOpusCroakus",
+                    "body": "Can you explain a bit more about the issue that you're having?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "AlertZookeepergame58",
+                            "body": "Thank you for reaching out! In Direct Chats when the myself or the other user was writing, the was a a small banner at the lower part of the screen that gave their/my user name and would say \u201cis typing\u2026\u201d. We\u2019ve chatted for nearly 9 months and there\u2019s never been an issue. Yesterday, mid day, it just disappeared\u2026?  We both reset the app.. And  nothing\u2026",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "TheOpusCroakus",
+                                    "body": "Thanks for that clarification! I'll check with the chat team and see if anything changed!",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "AlertZookeepergame58",
+                                            "body": "Thank you! VERY MUCH APPRECIATED!",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "TheOpusCroakus",
+                                                    "body": "I'm back! Looks like one of the members of that team replied to you in a different comment to say that it has been moved a little bit!",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "AlertZookeepergame58",
+                                                            "body": "Is there any chance the Reddit team will make this an option for users to use?? We both very much appreciate it and it really helps our experience!",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        },
+                                                        {
+                                                            "author": "AlertZookeepergame58",
+                                                            "body": "PLEASE!!! Bring it back?! \ud83d\ude4f",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        },
+                                                        {
+                                                            "author": "AlertZookeepergame58",
+                                                            "body": "Thanks for getting back to me btw!! The function that was mentioning that it was moved doesn\u2019t show up on mobile. Will that be coming soon?",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "TheOpusCroakus",
+                                                                    "body": "I don't know! But if you ask in the other comment, that admin should have more info since they're working on it.",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Courwes",
+            "body": "iOS app. I cannot click on links in comments. This has been happening for about 3 days now. It was working properly briefly yesterday and is back to being non functional. You tap a link and nothing happens at all.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "sarcastr0naut",
+            "body": "Please give us a toggle to disable the \"Additional Requests\" feature of incoming chat requests. I can decide for myself which ones are low-effort and which are not, thank you. The \"additional\" ones don't trigger notifications and just stay there until you notice them, which is insanely user-unfriendly.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Beautiful_Fee_9632",
+            "body": "My primary account was wrongfully banned yesterday based on false reports. I've filled out forms and messaged r/ModSupport but I'm getting no assistance. It's very disheartening that an account can be banned based on other users reporting me and speculation. Please help",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "TheOpusCroakus",
+                    "body": "Did you try turning off that setting in your profile [here](https://www.reddit.com/settings/profile)?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "None",
+                            "body": "[deleted]",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "TheOpusCroakus",
+                                    "body": "Can you try it from the desktop site?",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "exilesaugust",
+            "body": "there is a subreddit me and others have reported for being hateful and bullying and also because the two moderators aren\u2019t active on reddit anymore (and when they were active they also took part in the hate and bullying towards her they made the subreddit for that exact reason) and that subreddit still hasn\u2019t been banned it\u2019s gross that it hasn\u2019t been banned they\u2019ve been harassing and bullying a pregnant woman this includes people from the subreddit commenting hateful things on her ig posts recently and over the years too these kinds of subreddits should not be allowed to exist",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Rostingu2",
+            "body": ">desktop 3 dots menu\n\nThis was fixed opus.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "TheOpusCroakus",
+                    "body": "See why I don't do the bug reports?? lol \n\nFixed and accredited! =)",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "Rostingu2",
+                            "body": "About bugs, did you figure out of mods are ment to be able to ban the mod team account?",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "TheOpusCroakus",
+                                    "body": "Not yet! Thanks for the reminder! I'll track someone down!",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "Rostingu2",
+                                            "body": "[Hiding ads coming soon](https://www.reddit.com/r/RedditSafety/comments/1jalkya/introducing_hide_an_ad/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)\n\n  \ncan you please put this in the recap?\n\n  \nIts beautiful.\n\nHelper ability: hide ads from specific advertisers\n\nWe had 2 announcements one for users and one for mods. I am eating good tonight.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "TheOpusCroakus",
+                                                    "body": "It is beautiful! I could add it! Thanks!",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Rostingu2",
+                                                            "body": "About that on the announcement post I saw a few unanswered questions\n\nWhat is the daily limit?\n\nWhat is the limit?\n[source](https://www.reddit.com/r/RedditSafety/s/pQr9j9SGLp)\n\nWhen we reach the limit will be somewhere see what advertisers We block to unblock them? [source](https://www.reddit.com/r/RedditSafety/s/coj1TAS4kN)",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "TheOpusCroakus",
+                                                                    "body": "There is a limit on the number of ads that a user can block each day. We are unable to disclose that limit. I don't know if there is a viewable list of advertisers that have been blocked.",
+                                                                    "score": 2,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Rostingu2",
+                                                                            "body": "Is there a total limit?\n\nI know how much reddit likes the number 1k.\n\nI assume when you said you can't disclose that you refrance the daily limit?",
+                                                                            "score": 1,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "TheOpusCroakus",
+                                                                                    "body": "I'm actually not sure if there's a total total, but there is a daily. I'll see if there is in fact a total.",
+                                                                                    "score": 1,
+                                                                                    "replies": []
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "SeaLard22",
+            "body": "Any update on bringing back swipe to collapse a thread for mobile?",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "Rostingu2",
+            "body": "Opus reddit is bugging out right now for a whoole lot of people",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "TheOpusCroakus",
+                    "body": "Yep! The team is on it! Thanks for the heads up!",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "Rostingu2",
+                            "body": "The masses shall know of your comment",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "tadashi4",
+                            "body": "The old one called it \"the coffee incident\". I found it a good name",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "TheOpusCroakus",
+                                    "body": "I WAS ASLEEP!!!  I mean, not this time, but it still wasn't me!!! XD",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

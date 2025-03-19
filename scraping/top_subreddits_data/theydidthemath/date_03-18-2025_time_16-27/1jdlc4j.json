@@ -1,0 +1,59 @@
+{
+    "title": "[Request] If you wrote \"99.9....%\" on a bar like this of completely pure gold, how many 9s would be needed to express that the only impurity is the ink you just added to it?",
+    "author": "MrTrick",
+    "subreddit": "theydidthemath",
+    "rank": 6,
+    "score": 255,
+    "upvote_ratio": 0.98,
+    "num_comments (reported by reddit)": 8,
+    "url": "https://v.redd.it/wlbqs7ldi4pe1",
+    "id": "1jdlc4j",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "AutoModerator",
+            "body": "###General Discussion Thread\n\n---\n\nThis is a [Request] post. If you would like to submit a comment that does not either attempt to answer the question, ask for clarification, or explain why it would be infeasible to answer, you *must* post your comment as a reply to this one. Top level (directly replying to the OP) comments that do not do one of those things will be removed.\n\n---\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/theydidthemath) if you have any questions or concerns.*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Shadows-6",
+            "body": "He says it's a 12.5kg bar.\n\nWhile we don't know the exact pen used I found [this one](https://www.queenstarmarker.com/marker-pen/jumbo-size-permanent-marker.html) which claims to have 17g (0.017kg) of ink.\n\nIf we assume that one of these markers can write T=10000 letters (this is a random guess; it could be wildly off), then each letter uses 0.0000017kg of ink.\n\nWe write 99, a dot, a percentage sign, and suppose k is the number of decimal places we write. After writing (k+2) digits plus the % sign (and ignoring the dot), the weight of the bar is W = 12.5 + 0.0000017 * (k+3) kg.\n\nFor 99.9...9% of the mass to be the gold with k decimal places, we must have (10^(-k) x W) in *just* the ink. \nSo, set 0.0000017 * (k+3) = 10^-k * W. \nSolving via Wolfram alpha, we get one real solution at k \u2248 4.965, so we'll say 5 decimal places are needed.\n\nI.e. you have to write 99.99999%\n\nIf you increase T (the duration of the pen) by a factor of 10 but keep the capacity the same, then the number of decimal places increases by 1, so if the same pen can write 100,000 letters, then we'd need 6dp.",
+            "score": 90,
+            "replies": [
+                {
+                    "author": "MrTrick",
+                    "body": "Nice! \nFew enough digits that it might still fit on the bar.",
+                    "score": 16,
+                    "replies": [
+                        {
+                            "author": "CipherWrites",
+                            "body": "I'd like to note that the ink on the outside the bar should not count as impurities.\n\nThe % of gold isn't the weight. \n\nSo. You're still getting 100% gold. Just a little less than the weight they say it is. \n\nSpecifically if we take the 0.0000017kg per letter weight \n\n100% written in ink is 4 x 0.0000017kg = 0.0000068kg\nSo 12.5kg bar - 0.0000068kg ink = 12.4999932kgs of gold\n\nAt 97.08 USD per gram. It's $97,080 per kg. \nYou're losing $97080x0.0000068 = $0.660144",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Sir_Budginton",
+            "body": "Big gold bars are typically 12.4kg (400 troy ounces)\n\nSharpie marker is about 2.5 microns thick (Courtesy of a video I found of someone testing), and for the sake of simplicity lets assume 0.5cm wide. We'll also assume that the writing is 30cm of pen strokes (since writing more will affect the answer, which will affect how much you have to write). This gives us a volume of ink of 3.75 microlitres.\n\nMarkers are generally alcohol based, so we'll assume a liquid density of 0.8kg/L, which gives us a mass of ink of 3 micrograms.\n\nSo without the ink the gold is 12.4kg. With the ink, it is 12.400003kg\n\nSo it would have a purity of 99.999976%",
+            "score": 20,
+            "replies": [
+                {
+                    "author": "the-channigan",
+                    "body": "Your point about alcohol is a good one but adds another variable. The alcohol will evaporate, leaving just the solid residue  So that means needing to figure out what proportion of the ink is solids vs alcohol.",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "angry_dingo",
+            "body": "I\u2019d argue the bar is still 100% pure.   Once melted, it\u2019s still 100% pure. It works be like adding a post it note. It doesn\u2019t change the composition and goes away once melted.",
+            "score": 2,
+            "replies": []
+        }
+    ]
+}

@@ -1,0 +1,369 @@
+{
+    "title": "genieOverflow",
+    "author": "mo_one",
+    "subreddit": "ProgrammerHumor",
+    "rank": 6,
+    "score": 1302,
+    "upvote_ratio": 0.94,
+    "num_comments (reported by reddit)": 54,
+    "url": "https://i.redd.it/8y1bfw2vwgpe1.jpeg",
+    "id": "1je7ud4",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "mttdesignz",
+            "body": "he forgot to wish that whishes were counted using an unsigned 32 bit integer.",
+            "score": 533,
+            "replies": [
+                {
+                    "author": "Alternative_Arm_8541",
+                    "body": "go big or go home, lets make that a 64bit.",
+                    "score": 191,
+                    "replies": [
+                        {
+                            "author": "Acrobatic_Click_6763",
+                            "body": "256-bit integer!",
+                            "score": 61,
+                            "replies": [
+                                {
+                                    "author": "Commercial-Lemon2361",
+                                    "body": "1gb integer",
+                                    "score": 65,
+                                    "replies": [
+                                        {
+                                            "author": "JacobStyle",
+                                            "body": "biiiiiigint",
+                                            "score": 43,
+                                            "replies": [
+                                                {
+                                                    "author": "Commercial-Lemon2361",
+                                                    "body": "fuckingsupermassivebigint",
+                                                    "score": 34,
+                                                    "replies": [
+                                                        {
+                                                            "author": "None",
+                                                            "body": "[deleted]",
+                                                            "score": -6,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "kwqve114",
+                                                                    "body": "1GB is A LOT more than 2048 bits, so better would be 2048 GB",
+                                                                    "score": 11,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Afraid-Locksmith6566",
+                                                                            "body": "65 536 PB unsinged integer",
+                                                                            "score": 5,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "author": "MathMaster85",
+                                                                    "body": "2048 bits is 2 ~~megabits~~ kilobits, not two gigabits.",
+                                                                    "score": 3,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "kwqve114",
+                                                                            "body": "2048 bits is 2 killobits, not two megabits",
+                                                                            "score": 2,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "MathMaster85",
+                                                                                    "body": "Damn, I can't believe i actually sent that lol\n\nYou are totally correct.",
+                                                                                    "score": 2,
+                                                                                    "replies": []
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Chronomechanist",
+                            "body": "Seems like a waste of memory. Just wish that all wishes come with an if statement that checks number of wishes is greater than 2, else wishes for 2 fewer wishes.",
+                            "score": 10,
+                            "replies": [
+                                {
+                                    "author": "Creepy-Ad-4832",
+                                    "body": "Genie on his way to implement that if check only every 3 if statements, since you never told him not to",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "Xasrai",
+                                            "body": "He did say ALL wishes. I'm pretty sure 1/3 isn't \"all\"",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "Creepy-Ad-4832",
+                                                    "body": "Hey, i missed the obvious word which completely invalides my hole understanding\n\n\nIsn't this basixally routine for programmers?\u00a0",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "finite_void",
+                    "body": "What'd actually happen: You have -1 wishes left.\nGenie: Now YOU have to fulfil one wish of mine. Turn around please and...",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "dracodruid2",
+            "body": "Always deduct the number of wishes _before_ granting one! :P",
+            "score": 160,
+            "replies": [
+                {
+                    "author": "suvlub",
+                    "body": "Then he could wish to have 1 wish less",
+                    "score": 15,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "AgentPaper0",
+            "body": "I feel like the joke works better if you first wish that the genie was a robot.",
+            "score": 96,
+            "replies": [
+                {
+                    "author": "MT-X_307",
+                    "body": "Or it was signed int..... jeez",
+                    "score": 36,
+                    "replies": [
+                        {
+                            "author": "Altruistic_Task_6568",
+                            "body": "That would give you minus wishes.",
+                            "score": 26,
+                            "replies": [
+                                {
+                                    "author": "Budget_Putt8393",
+                                    "body": "How to become a genie",
+                                    "score": 14,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "theoht_",
+                            "body": "no, it wouldn\u2019t work if it was signed.",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "saevon",
+                    "body": "\"wish queued up\" \u00bb \"freeing WishCounter<object0xdead0000>\" \u00bb Fulfilling wish \u00bb \"ERROR: no wish value exists, <*Access* violation: use after free>\"",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "vvokhom",
+            "body": "How it will go with signed:\n\n\\-\"Granted! Now you have -1 wish. You owe me a wish - give me your wallet!\"",
+            "score": 98,
+            "replies": [
+                {
+                    "author": "patrulheiroze",
+                    "body": "yeah... just your.. wallet... :V",
+                    "score": 8,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "badgersruse",
+            "body": "*fewer, not less. It\u2019s an integer not floating point value.",
+            "score": 34,
+            "replies": [
+                {
+                    "author": "goldfishpaws",
+                    "body": "Basically if it's enumerable, \"fewer\" if not, \"less\".\n\n*There used to be fewer pedants in this sub, with much less pedantry*",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "theoht_",
+                    "body": "english is descriptive (not prescriptive) and \u2018less\u2019 is generally acceptable for mass nouns, just not in formal, academic speech.\n\ni stand by this and i will stand by this until all pedants accept it, or i die. whichever happens first (which will be my death, undoubtedly).",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "iAmNotASnack",
+                            "body": "Out of curiosity, why the opposition to using the word that best describes the context of the situation? \n\n\u201cFewer\u201d implies countability.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "theoht_",
+                                    "body": "i\u2019m not opposed to it. i use it myself.\n\ni just don\u2019t like when people correct you on it. it\u2019s unnecessary pedantry because yes, it doesn\u2019t convey as much information when using \u2018less\u2019 for both, but really why does it matter?\n\ni don\u2019t need the quantifier to imply countability. i can see for myself whether the noun is countable or not. really there\u2019s no reason to have a different word.\n\nso no i\u2019m not opposed to it, just don\u2019t like it when people say it\u2019s wrong.\n\nout of curiosity, why the opposition to *not* using it?",
+                                    "score": 0,
+                                    "replies": [
+                                        {
+                                            "author": "goldfishpaws",
+                                            "body": "I find that mildly interesting in a discipline where we have to be incredibly pedantic about syntax!",
+                                            "score": 5,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "iAmNotASnack",
+                                            "body": "Because it provides maximum context in minimal characters. It\u2019s the correct word for the situation.\n\nI\u2019d never be able to correct someone about it without feeling a little pedantic, but I disagree that the distinction between \u201cless\u201d and \u201cfewer\u201d is observed only in academic settings.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "theoht_",
+                                                    "body": "i\u2019m not arguing that it doesn\u2019t provide enough context\u2026 rather that it provides too much.\n\n\u2018water\u2019 is uncountable.  \n\u2018blocks\u2019 is countable.\n\ni know that because i know the words.\n\nsaying \u2018less water\u2019 or \u2018less blocks\u2019, i know which is countable, just because of the words.\n\nsaying \u2018fewer blocks\u2019 doesn\u2019t provide any context to me because i already know blocks is countable. having a separate word seems unnecessary.\n\n> it provides maximum context in minimal characters\n\n\u2018less\u2019 is written with fewer(\u2026) characters than \u2018fewer\u2019, yet they both provide the same amount of context (that being the whole idea of having a smaller amount), since the countability is already demonstrated in the noun.\n\nso i\u2019d say that \u2018less\u2019 provides maximum context in minimal characters, since \u2018fewer\u2019 is only really providing redundant information.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "GfunkWarrior28",
+            "body": "^ I wish to have\nOr ^ I wish I had",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "_Shinami_",
+            "body": "it's 4'29**4**'967'295\n\nthe image says 4'29**5**'967'295",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "mousetrappen",
+            "body": "This is just a worse version of the exact same comic I saw here a month ago",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "1320300173496",
+            "body": "Ah yes, the classic integer overflow exploit.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "amlyo",
+            "body": "1. Wish to be granted wishes as long as you don't have zero remaining.\n2. Wish for four fewer wishes.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "OmegaPoint6",
+            "body": "*underflow",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "SoftwareHatesU",
+            "body": "Genie uses signed integers and now you must complete a wish for genie.\n\nAlso, genie is a horny bastard so good luck.",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "saevon",
+                    "body": "considering the comic source\u2026 that would be in line with the creator (would be depicted, and figure would eagerly bend over / do whatever act as if that was their goal all along)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Sabotaber",
+            "body": "1. I wish for my number of wishes to be subtracted by one only after a wish has been granted to my satisfaction.\n\n2. I wish for my wishes to be tracked with an unsigned 32 bit integer, with all the behaviors that would be implied by doing arithmetic with a simple 32 bit ripple adder circuit.\n\n3. I wish for 0 wishes.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "opacitizen",
+            "body": "Sounds like wishful thinking.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "SAI_Peregrinus",
+            "body": "Both signed and unsigned integers can represent 0. He'd have to wish for -1 to wrap an unsigned int, or INT_MIN - 1 for signed (assuming genies wrap signed integers instead of having Undefined Behavior like C does.).",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "HubbaMaBubba",
+                    "body": "It's because the genie is granting the wish then subtracting from the remaining number of wishes.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "not_czarbob",
+            "body": "My genie\u2019s wish list is idempotent",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "corpus_hubris",
+            "body": "Genie needs to learn sorcery casting.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Light8430",
+            "body": "wish\u2014",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MedonSirius",
+            "body": "Now you have minus wishes. You have to obey the genie to the end of time",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "myWobblySausage",
+            "body": "Genie issues CVE for fellow Genies, asking them to patch immediately.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "monsoon-man",
+            "body": "Doesn't compute!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MeanderingSquid49",
+            "body": "\"Unfortunately for you, wishes are represented as real numbers, not unsigned integers. Which means I get a wish now...\"\n\n\"*I wish to be unbound from this prison, to finally teach you pitiful apes your place in this world*.\"",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Morthem",
+            "body": "I wish op learns how unsigned overflow work",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

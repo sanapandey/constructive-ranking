@@ -1,0 +1,13 @@
+{
+    "title": "Recovering Journal Help",
+    "author": "Chuncakey21",
+    "subreddit": "homelab",
+    "rank": 19,
+    "score": 0,
+    "upvote_ratio": 0.5,
+    "num_comments (reported by reddit)": 0,
+    "url": "https://i.redd.it/0u04wpdsbjpe1.jpeg",
+    "id": "1jejkts",
+    "selftext": "G'day guys, I've recently run into an issue regarding my proxmox homelab. So I took out a hard drive to troubleshoot it with my PC, however upon re installing it into the lab without change, I'm now getting this screen upon boot.\n\nI have left it overnight to see if it would change at all however nothing has happened and I have no idea what it means.\n\nI'm just hoping anyone has any idea of how to fix it at all. The screen will not respond to keyboard input seemingly. I have tried rebooting the server multiple times also.\n\nAny help would be greatly appreciated, happy to provide more details.",
+    "comments": []
+}

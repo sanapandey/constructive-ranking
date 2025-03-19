@@ -1,0 +1,1141 @@
+{
+    "title": "What do you use for basic websites?",
+    "author": "Freer4",
+    "subreddit": "webdev",
+    "rank": 18,
+    "score": 184,
+    "upvote_ratio": 0.92,
+    "num_comments (reported by reddit)": 187,
+    "url": "https://www.reddit.com/r/webdev/comments/1jdcy8j/what_do_you_use_for_basic_websites/",
+    "id": "1jdcy8j",
+    "selftext": "I've been building web apps so long that I don't know how to build a website anymore. I've been tasked with a very basic informational website. No CMS. No forms. \n\nGitHub Pages crossed my mind? Maybe just flat HTML files? Or maybe some framework that spits out flat HTML files with a simple build? Where do I host it? \n\nWhat do you recommend? ",
+    "comments": [
+        {
+            "author": "Head-Cup-9133",
+            "body": "HTML files hosted on anything would work. Github pages or Cloudflare pages would work just fine for this to host.\n\nIf all you need is html and css then only use html and css",
+            "score": 159,
+            "replies": [
+                {
+                    "author": "Maxion",
+                    "body": "I can very highly recommend Astro + tailwind for simple static websites.",
+                    "score": 20,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "rjdredangel",
+            "body": "I use Astro. It's perfect for static content focused sites where you may still need some modularity using components but don't need a massive framework.",
+            "score": 178,
+            "replies": [
+                {
+                    "author": "prancingpeanuts",
+                    "body": "+1 for Astro, you can also use plain markdown or MDX for content pages",
+                    "score": 22,
+                    "replies": [
+                        {
+                            "author": "Maxion",
+                            "body": "I integrated PagesCMS for a friend of mine that runs a farm. It allows them to edit MDX files so that they can keep e.g. an events calendar, image gallery, and the like up-to-date.",
+                            "score": 10,
+                            "replies": [
+                                {
+                                    "author": "boru80",
+                                    "body": "PagesCMS is beautiful in its simplicity",
+                                    "score": 6,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "trophicmist0",
+                    "body": "Currently building my new portfolio / blog with this - the learning curve isn't too bad coming from React/Angular experience",
+                    "score": 8,
+                    "replies": []
+                },
+                {
+                    "author": "EmeraldCrusher",
+                    "body": "I just built an astro site and have to say I'm a little unhappy with the fact that taking form data is impossible basically. Like yeah, you can use astro actions, but it just falls on it's own face so hard it's sad.",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "CookiesAndCremation",
+                    "body": "+1 for Astro it's lightweight and does more or less what you expect and simplifies a lot of annoying stuff.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "BigBootyFool",
+                    "body": "As someone who dabbled in way too many static site generators, Astro is the ideal balance of flexibility and minimalism imo.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Stranded_In_A_Desert",
+                    "body": "I love Astro with a little Svelte sprinkled in",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Next-Combination5406",
+                    "body": "But still a massive node modules for SSR, I wish we can slim down.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "RatherNerdy",
+                    "body": "I like Astro, but I think 11ty is actually easier/smaller entry",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Gredo89",
+                    "body": "This. Combine it with tailwind (and v0/GPT maybe, If you're Not good at CSS) and you're up and running in no time.",
+                    "score": -6,
+                    "replies": []
+                },
+                {
+                    "author": "Dizzy_Damage_1350",
+                    "body": "what about server side rendering?",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "rjdredangel",
+                            "body": "Astro has built-in SSR for when you want it.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "elliasdev",
+            "body": "I host my static one on Netlify.\nJust hardcoded html, like a psychopath.",
+            "score": 15,
+            "replies": [
+                {
+                    "author": "deveritt",
+                    "body": "we need more hardcore psychopaths in webdev. It's gone all decaf latte syrup buttermilk crazy. I always taught students the three core languages. After that, you can go wherever you want with any framework. If that's what you really, really, really need to do the job.\n\nValid HTML5, JS with use strict, CSS done properly for responsive. Full effin stop. Forms? Use a spam-filtering third party service.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "debwesign",
+            "body": "Cloudflare Pages is a great host. Netlify is an option.\n\nGitHub Pages is not for commercial use, according to the TOS.",
+            "score": 11,
+            "replies": [
+                {
+                    "author": "aviation_expert",
+                    "body": "Can cloud flare pages support contact form , I mean will it require some database and php backend for example to support it? My use case is that user writes their email and message for me to see?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "brock0124",
+                            "body": "You could probably use a CloudFlare worker or throw the form data to an API to handle the processing/sending.",
+                            "score": 5,
+                            "replies": []
+                        },
+                        {
+                            "author": "mrcruton",
+                            "body": "Netlify has built in form detection",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "aviation_expert",
+                                    "body": "I was more concerned with how can i get the data of each user who entered their email in my form on my basic html, js site",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "mrcruton",
+                                            "body": "Not really sure what your saying but netlify will automatically detect an html form on your site and email you what filled out on the form. And also let you look and export all form submissions",
+                                            "score": 5,
+                                            "replies": [
+                                                {
+                                                    "author": "aviation_expert",
+                                                    "body": "That was exactly what I wanted to do. Thanks",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "EduRJBR",
+                            "body": "I can only be a lurker here, but in this case I can say that you can put the HTML files in Pages, and the contact form will be JavaScript in the frontend and a Worker in the backend, and you can use Turnstile for a captcha. For Workers to actually send the e-mail I personally use Mailjet's API (a different company), free for 200 messages per day, but you can check if some third-party add on on Cloudflare can do it (I haven't dealt with it for a long time).\n\nChatGPT and Copilot can help you to do that.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "debwesign",
+                            "body": "Formspree, or similar. It will cost a monthly fee, though",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "mq2thez",
+            "body": "Astro or Eleventy, deploy on Netlify free tier. Netlify\u2019s github actions will make staging servers for every PR automatically and automatically deploy on every push to main. You just give it a build script and it goes brrr.\n\nI can make content edits in GitHub\u2019s UI on my phone on the go, make code tweaks in the UI with my iPad, or go to my actual computer if I need to make real changes. Works great.",
+            "score": 22,
+            "replies": [
+                {
+                    "author": "politeCanadaPlatypus",
+                    "body": "Just be careful with [Netlify](https://cybernews.com/news/ddos-attack-104k-bill-from-hosting-provider/)",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "mq2thez",
+                            "body": "Yep! I don\u2019t have my card with them, just all free tier. I think they\u2019ve maybe added billing limits since then, but\u2026 not something I\u2019ve needed.",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "JustaDevOnTheMove",
+                            "body": "What issues have you had with Netlify? I've had a couple of small sites with them on free tier without any issues for years, so genuinely interested in hearing other peoples experiences, \"just to be prepared\"",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "borii0066",
+                            "body": "As long as your on free tier there is nothing to worry about.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Critical_Bee9791",
+            "body": "vite + vanilla js is great  \nastro (which is also vite based) if you want a personal site with consistent things like a header/footer  \nyou're confusing deployment with developing the site, github pages\u00a0/ cloudflare / vercel are vendors who can host your site",
+            "score": 11,
+            "replies": []
+        },
+        {
+            "author": "FalseRegister",
+            "body": "Astro and deploy to Cloudflare Pages\n\nIf it is for client work, then any free CMS, depending on requirements",
+            "score": 26,
+            "replies": [
+                {
+                    "author": "DaringAlpaca",
+                    "body": "Have you used Sanity? I heard it is difficult to setup a CMS, how difficult is it to set one up with Astro? If it's let's say just for a few sections of the website and not everything.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "FalseRegister",
+                            "body": "It did take me quite a lot of time to setup, but it ended up working well. \n\nIt is the only CMS with an awesome visual editor, as far as i know. Not my favorite developer experience, but by far the best user experience for a non techy client who needs to manage content of their website.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "DaringAlpaca",
+                                    "body": "Okay thanks, I'll look into using it for my next client that needs a way to edit their content!",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "EmeraldCrusher",
+                    "body": "How do you handle form submissions, cause I find that is a HUGE pain point?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "FalseRegister",
+                            "body": "Well it depends what it is for\n\nSometimes a form service, sometimes a serverless function which appends a record in a google sheet, just depends on the need. \n\nI could imagine triggering an workflow on a marketing automation service, like ActiveCampaign",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "emmzeex",
+            "body": "I used AstroJS for my personal site recently and it wasn't too difficult to learn and worked well for  a basic information site.",
+            "score": 19,
+            "replies": []
+        },
+        {
+            "author": "kaidonkaisen",
+            "body": "If it's really about a simple piece of static content, I go for a html boilerplate, or some design framework that gives me a good headstart, like foundation or bootstrap.\n\nMy experience, especially on single page websites is, that setting up a dynamic system like wordpress, and maintaining it will quickly outgrow the cost of a \"fully manual coding\" of a static content.",
+            "score": 17,
+            "replies": []
+        },
+        {
+            "author": "Better-Avocado-8818",
+            "body": "If it\u2019s a bespoke design and I don\u2019t need a CMS I\u2019ll use Sveltekit. Built it to static pages and then publish on github pages for free. Or Vercel\u2019s free tier.\n\nThat way it\u2019s just static pages in the end. But it feels like an SPA because of the navigation from Sveltekit. And I can anyways upgrade it to have back end logic or an SSR page in the future if it needs it.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "g0dSamnit",
+            "body": "Cloudflare Pages. Raw HTML/CSS/JS and minimal libraries if needed, no frameworks. JS itself isn't even necessary for really static stuff, as responsive design can\u00a0be done entirely in CSS. But it's nice to have if you need to load HTML partials and perhaps support other behavior.",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "EduRJBR",
+                    "body": "You said that responsive design can be done entirely in CSS: can you point me to some recent developments in CSS on this? Like, if I want a horizontal navbar to turn vertical at the exact right point, not only using a media query based on an estimated width: can it be done with CSS now?",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "deveritt",
+                            "body": "the responsive design movement *started* with CSS. It's just a case of knowing it well enough. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design",
+                            "score": 0,
+                            "replies": [
+                                {
+                                    "author": "EduRJBR",
+                                    "body": "Let's go back some years in the past and use only CSS, no JavaScript, to determine that a horizontal navbar turns into a vertical navbar with a hamburger icon at the exact point where the sum of all the widths and possible margins of the individual elements becomes one pixel larger then the width of their container (you know, *that* relevant container, not necessarily their parent), or maybe instead when the height of *that* container becomes larger than the height of the tallest individual element and its margins (meaning that a line break took place).\n\nYou need to imagine someone reducing the width of the browser window progressively, at tiny increments, and not simply jumping from computer to tablet to smartphone: I'm not talking about using a media query to determine changes at some estimated screen width or something like that. And of course the width and quantity of those elements is unknown to the developer: there may exist any number of elements (huge differences in quantity might lead to a change on the entire structure of the thing, out the point here), with unknown text contents, with an unknown font with whatever size and style.\n\nAnd talking about right now: how can that be done using only CSS, without JavaScript? I don't know if CSS calculations use JavaScript to begin with, but in case they do, well, I guess you know what I'm talking about, and things like \"calc()\" would be acceptable, just to make it clear.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "JustaDevOnTheMove",
+                                            "body": "For width issues, CSS handles that with breakpoints. Look into CSS media queries.",
+                                            "score": 0,
+                                            "replies": [
+                                                {
+                                                    "author": "EduRJBR",
+                                                    "body": "You are pretty much saying that the thing I just said can totally be done with CSS alone, although it definitely cannot be done with CSS alone.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "JustaDevOnTheMove",
+                                                            "body": "Ok, if you say so",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Swoo413",
+            "body": "Kind insane to me how many people are recommending Astro. If you really just need a basic informational site just use html and css. Host on cloudflare pages or something similar. All you need really.",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "Friendly-Win-9375",
+                    "body": "you can use astro, build a ssg  and host on cloudflare. it's plain easy and fast.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "deveritt",
+                    "body": "Yep! Seconded and thirded! It's miserable to see how many framework-devs are pretty ignorant about the three core web languages. Or accessibility, Information Architecture, validity, localstorage, APIs, JSON\u2026 etc.\n\nMakes me weep to read everyone suggesting a jump onto the latest framewagon with little or no core language expertise. Even worse when they call \"full stack dev\" on themselves!",
+                    "score": -1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Darthsr",
+            "body": "Php with includes has been my go-to for years",
+            "score": 10,
+            "replies": []
+        },
+        {
+            "author": "hellalosses",
+            "body": "My entire frontend stack consists of html, css, js, bootstrap.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "m6io",
+                    "body": "Rare bootstrap mention in 2025, respect",
+                    "score": 8,
+                    "replies": [
+                        {
+                            "author": "---x__x---",
+                            "body": "It's been years since I did any webdev and this thread had me very curious if bootstrap was still used.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "stewtech3",
+                    "body": "Same",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "armahillo",
+            "body": "Jekyll",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "pat_trick",
+                    "body": "Glad to see Jekyll here.  Generates single pages and is lightweight and straightforward.",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "deveritt",
+                    "body": "or the excellent [Nanoc](https://nanoc.app). With a seamless simple edit markdown->SSH deploy workflow.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "onur24zn",
+            "body": "You can use react or next js and deploy on vercel or netlify for free. Nextjs allows Your Client to see everything on the first rendering even without javascript and it automatically updates your site by every git push command.\n\nVanilla Js and Html are good when its a really simple website but even simple websites have things that can be recycled and repeated. I mean a faq accordion, do you just want to pass props to an reacg accordion component or copy paste every accordion 10x.\n\nThem i would use tailwind and scss (sass), react icons, and typescript.\n\nAnd with next js you still have the option to make more out of the website, you dont know maybe in the future the client wants to add this and that then youll damned to vanilla js and have a hard time.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "DevGin",
+            "body": "look up Quarto sites. I've been enjoying using it. I use RStudio to build basically using Markdown and push to Github and host through Netlify.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Greyzdev",
+            "body": "Nuxt 3. Super simple with built in directory routes. Auto imports for components and composables make my life easier. I can just section out my pages into components and easily maintain my site as it grows. Nuxt content/studio also makes quick work of managing any content. Especially if a client wants some control over their site.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Tridop",
+            "body": "For a very basic website, like a few pages (less than 10) with no database, you can have some fun. If the server supports PHP:\n- create templates files (two should be fine);\n- create a php file for each page, with its config and content;\n- general config in a .inc file you'll include at top of each page;\n- require the template and generate the page.\n\nAnother method I used in a (personal) small project is to have all php in the /admin/ with these templates and parts that generate the page by overwriting static HTML files each time I upload a new part (yep, straight FTP from my PC where I have local version control). If you care, you can make it better with prettyURLs and adding other small improvements.\n\nIf you need more complex things like user management or other people editing the content I would go with a basic CMS, you'll save time.\n\nYou can have many variations, with a minimalistic website you don't need any framework or bloated code. You can use add a framework to deal with CSS if you don't want to spend time on it.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "LoredCast",
+            "body": "Svelte or SvelteKit, takes like 1s to get running, full fledge app if it need to be. Usually like this:\n1. Rent or Create VPS\n2. Create Svelte App with node adapter\n2a. Optionally start node with Processmanager like pm2\n3. Caddy reverse Proxy with auto LetsEncrypt SSL\n\n\nNew site with ssl and auto restart in like 10 minutes total, can spend more time on designing and programming, svelte is almost as fast as just plain html but with all the nice programming benefits.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "hashtaggoatlife",
+                    "body": "Why do you prefer VPS for stuff like this when there's so many $0 options? eg cloudlfare pages",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "spacemanguitar",
+            "body": "For basic, Laravel with blade with little to no packages added.  Why?  If there's any scope creep *at all*, down the road you're 100% poised to modify and do literally anything without having to refactor.  Auth with 2 factor, easy to bring in, any front end swap you want (react, vue, whatever), any level of database management, forms, payment, etc.  Don't need to bring in any of those packages at all up front, just a tiny initial deployment with blade html / css / Tail, any basic front end you want, it'll all be filed under laravel file structure ready to upgrade later if needed.  All your projects are the same structure, easily organized to go in and know where everything is or make any modifications big or small instead of having 10 kinds of deployed projects for 10 kinds of people.  People wrongly assume laravel is some kind of giant bloated monolith, I have basic brochure sites loaded on simple web hosts and with modern php 8.0+ everything loads very snappy even on cheap hosts, only difference is in a short period of time the site could radically bloom to whatever they want without having to rebuild the prior work.  If this isn't your wheelhouse already, then it wont make sense, but when you're used to building back to front, having the baseline structure in place is nice.  Odds are they'll change their mind and want more and you'll have any chance to upsell when they know how easy it is to bring in different things if they want them.  They won't have to redo anything from scratch.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Tux-Lector",
+            "body": "Write one php script that will respond to all ajax calls that are coming from vanilla js function *(or two) also made by you, that you created while you were writing php response script, then .. eventually make one more php script that will respond to dunno .. post requests .. and for the rest you'll figure out (assuming you are good at making apps). \n\nYou can also use php `require|include_(once)` to avoid html code block repeating .. and yeah. That would be it. Raw html is fine. Or some markdown parser, instead of raw html. \n\nHosting ? For goofing around and testing purposes, I believe these ppl >> `infinityfree.com` << provide all you need (hence, sub.domain maybe wont fit) but definitely, you should try.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "legendofchin97",
+            "body": "Neocities is pretty great.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "HerrPotatis",
+                    "body": "I love the N stack.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "qwartet",
+            "body": "[Automad](https://github.com/marcantondahmen/automad) might work well for you",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "designerwhocodes",
+            "body": "If you want something lightweight and easy to maintain, I\u2019d recommend Astro. In my opinion, it is perfect for informational sites. Also, if you ever need interactivity, you can bring in React, Vue, or Svelte, but only where needed. For hosting, you can use Netlify, Vercel, or Cloudflare. I use Netlify for my projects.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "YourLictorAndChef",
+            "body": "I use the SSG plugin for SvelteKit because I still like having reusable components in my basic websites.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "KaiAusBerlin",
+            "body": "Svelte. If you have anything repeating it's easier to change. And it's fast as fuck especially when you do no fancy shit",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Willing-Ad-8520",
+            "body": "Astro + tailwind + netlify free tier anytime",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Willing-Ad-8520",
+                    "body": "Add View transitions API + MDX + aceternity ui to go further",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "da-kicks-87",
+            "body": "I use Next.js and Tailwind. \n\nAnd no it's not overkill if you create yourself a starting codebase of common layouts.\n\nReusable components for the win.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Fine-Train8342",
+                    "body": "> Reusable components for the win.\n\nI just use Astro. Much more pleasant experience.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "HerrPotatis",
+                            "body": "I've never used Astro, but a lot of Next.js. Always open to trying something new. What do not like about Next.js that Astro does better?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Fine-Train8342",
+                                    "body": "Mostly React. OP says it's a basic informational website with no interactivity. Astro pre-renders everything to static HTML and sends zero JavaScript to the client by default while having the ability to pull data from APIs at build time, have layouts, components with scoped CSS, content collections, etc. And if they really need interactivity on some of the pages in the future, Astro supports using React, Vue, and Svelte components.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "HerrPotatis",
+                                            "body": "Good point, that makes sense in OP's scope. I don\u2019t really build sites like this, so I hadn\u2019t thought about it that way.\n\nThinking about it tho, if you're only writing static HTML in your components, you're using no more React in Next.js than you would in Astro. So it's a little bit funny to hear you say that you don\u2019t like the React part.\n\nBut if I ever need a static website, I think I might give it a go!",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Joyride0",
+            "body": "Go back and learn HTML and CSS. If it's simple use GPT for the JS you need. Host free with Netlify.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "deveritt",
+                    "body": "YES! That.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "FinancialEconomist62",
+            "body": "Cloudflare Pages is best, For geo, I use my own system.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "oh_jaimito",
+            "body": "Another vote for Astro+ Cloudflare or Netlify.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "collimarco",
+            "body": "Use static site generators or plain html and then deploy to Netlify or Cloudflare pages",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "robdasi",
+            "body": "Cloudflare pages for just basic pages.. If it's a proper app, I'll use Render with next js node and docker",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "beenpresence",
+            "body": "Just straight html. CSS or Astro with a headless cms",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "_flamesofblue",
+            "body": "SvelteKit + cloudflare is what I use. Works for me.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Nemosaurus",
+            "body": "nginx docker container that serves html css and js files",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Nemosaurus",
+                    "body": "\\`\\`\\`  \nFROM nginx:alpine\n\n\n\n\\# Copy website files\n\nCOPY \\*.html \\*.css favicon.ico og-image.png robots.txt sitemap.xml /usr/share/nginx/html/\n\n\n\n\\# Copy 404 page\n\nCOPY 404.html /usr/share/nginx/html/\n\n\n\nCOPY public /usr/share/nginx/html/public\n\n\n\n\\# Copy favicon (make sure you have this file in your project directory)\n\nCOPY favicon.ico /usr/share/nginx/html/\n\n\n\n\\# Copy Nginx configuration\n\nCOPY default.conf /etc/nginx/conf.d/default.conf\n\n\n\nEXPOSE 80\n\n\n\nCMD \\[\"nginx\", \"-g\", \"daemon off;\"\\]  \n\\`\\`\\`",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "dyyyeeezzz",
+            "body": "Vanilla HTML, CSS, JS with some Tailwind CSS,  ShadCN, or some Headless CMS if needed, dumped on Digital Ocean.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "KonradFreeman",
+            "body": "I just created my first real next.js website and host it using the free option from Netlify. Then you just have to pay for the domain. Setting up Netlfiy is fairly easy.\n\nFor SEO it seems to do really well.\n\nIt was a great learning experience and I hope to make more things with next.js in the future.\n\nCreating the animations seemed to be fairly intuitive and I could create a lot of functionality for such a basic site.\n\nI am just self taught so these people probably have better advice.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Thin-Goat3654",
+            "body": "Lovable, bolt",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "typhona",
+            "body": "I really like aatro, it has a smallish learning curve. But it's great for static sites.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Signal_Raspberry_315",
+            "body": "You can use cloudflare as well",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Schtefanz",
+            "body": "I would recommend to give Hugo a try, you write your content in Markdown and then it transforms it to html.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "guitarmek",
+            "body": "beyond hardcoded static files\u2026\n\neleventy is my favorite SSG, but astro is a good choice too.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "adiian",
+            "body": "I recently started to use nextjs for frontend, before I was using bootstrap of some lite css libraries and javascript(expressjs) or python(django) for backend.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "_qqg",
+            "body": "vite, js, sass. Live development with hot module replacement, so preview while working on mobile as well -- upload to server when done, Bob's your uncle.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "celda_maester",
+            "body": "use nextjs and generate static pages and deploy it on cloudflare free version which is more than sufficient.  \nif you've any dynamic page deploy it on netlify it's free version is more than sufficient for intiallly.  \nVercel or github doesn't allow for commercial use.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BorinGaems",
+            "body": "vite, tailwind. maybe ts if you have many interaction or scope creep in some way.\n\nnpm run build, then throw the dist on whatever server or service you have.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "godwink2",
+            "body": "Jekyll or others which can just build your .md files into a website with search and other features.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Compizfox",
+            "body": "If you don't need any interactivity, I'd go with a static site generator like Jekyll or Hugo. It's, like you said, \"a framework that spits out flat HTML files with a simple build\". Then you can serve those with any webserver like nginx, Apache, or Caddy.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Fidodo",
+            "body": "I use react with static props and no fetch requests. IMO react is underrated as a static site builder. When you strip out any async react is really simple. It's just pure functions that return templated html with amazing tooling available. It's pretty much as simple as a templating language can get. Generate the html at build time and there's no performance difference.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Commercial-Heat5350",
+            "body": "astro or react; or nextjs",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SponsoredByMLGMtnDew",
+            "body": "A series of crayons I found outside of a preschool but was too nervous to turn in for a reward.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "captain_obvious_here",
+            "body": "Astro. It's awesome.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ImpactGlad2280",
+            "body": "Think about how it needs to be maintained over time. If separate from the web apps you will be building, you might not wanted to be pulled back in to support it. And on the flipside, marketing (or whoever actually does own this new site) will wants some ability to update it and basically understand where it actually 'exists'. Something like Framer or Squarespace might make sense if something more technical puts it out of reach of marketing.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "am0x",
+            "body": "Astro + AI. If you have an image of a design of a page, you can that up in a day",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "JiovanniTheGREAT",
+            "body": "I would just run with GitHub pages. Free, easy, reliable.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Philastan",
+            "body": "I built a github repo with a super basic boilerplate. Its using vite, automatic image optimiziation, automatic sitemap generation and much more, but you use plain html and css/tailwind to style everything. \n\n[https://github.com/AgathaCrystal/BASIC-Boilerplate](https://github.com/AgathaCrystal/BASIC-Boilerplate)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "_icarium_",
+            "body": "Have you tried jekyll? It\u2019s quite simple to work with and it builds to just static file which you can host on netlify or github pages.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "UXUIDD",
+            "body": "well, i would start with the basics: can center a div with vanilla only ..",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "CommunicationTop7620",
+            "body": "Github + DeployHQ + VPS",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "console5000",
+            "body": "You could try parcelJS. Takes away some of the weird things tailwindCSS or other libs needs, but not more",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "inkubot",
+            "body": "Hugo",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "rebane2001",
+            "body": "just vanilla html/css, no frameworks or build tools - gives low filesizes, easy to host, and really good performance\n\ncss has had lots of quality of life stuff added recently (such as nesting), so it's possible to comfortably use without a preprocessor\n\nif you're making a blog or similar i recommend generating a static site with a generator such as hugo",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "astr0bleme",
+            "body": "FYI, W3 has some free responsive html/css templates that are a super easy base: https://www.w3schools.com/w3css/w3css_templates.asp\n\nIve been using one to build a very basic information website using html/css only and it has been a breeze.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "webdevdavid",
+            "body": "I wouldn't do it from scratch. Check out UltimateWB. It is very sleek and makes the process a lot faster and easier. Very customizable and you can add your own coding to it if you want.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "n8udd",
+            "body": "I just wrote a single HTML page, pulled in Tailwind from a CDN and wrote raw JS in a script tag. \n\nHost it on Netlify.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "GoranVucicevic",
+            "body": "Sitejet Builder - free on Control Panel hosting packages",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "GoranVucicevic",
+                    "body": "You can move from one hosting to another with only knowing the code for export/import in just a few seconds",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Soren_Professor",
+            "body": "I was about to recommend Astro then noticed that many had beat me to it",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "onlypodcasts",
+            "body": "I just write plain HTML, benefit is that it has superfast response",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "1hamcakes",
+            "body": "I have a project template for this. It uses Node for development and composes everything with pug and sass. Then it spits out the html, stylesheets, and any client side JS that's needed into static files. Then I just dump hand all that over to the web server and call it a day.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Savings-Panic5189",
+            "body": "html + css + lit (library) + netlify",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "EmilianoTalamo",
+            "body": "Vite with whichever framework you want, or NextJS. Hosted in netlify.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "soringuzun",
+            "body": "Last project , liked it very much , astro + alpine + tailwind + pagescms + github + cloudflare pages",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "716green",
+            "body": "[Petite Vue](https://github.com/vuejs/petite-vue)\n\n\nYou can learn it in an afternoon and it more or less gives you the DX of a SPA framework",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "lulcasalves",
+            "body": "I am an astro guy just because I can make components with it. But pure HTML work too",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "FrontBackAndSideDev",
+            "body": "Uh... what happened to this thread? Everything is deleted...",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "NomadicShaman",
+            "body": "I built my static site blog with Hugo and hosting it on Sourcehut.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "sachitatious",
+            "body": "Carrd works great for a basic page",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "angrynoah",
+            "body": "S3 static site. Upload files and you're done. It's not free but it doesn't cost enough to register on my bill.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "mycall",
+            "body": "index.htm, that's all",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "CongressionalBattery",
+            "body": "You use Jekyll.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ats_1999",
+            "body": "Very basic website, use chat gpt. It's good for very basic.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Formal_Ad_8000",
+            "body": "React",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ssmsp",
+            "body": "PicoCMS - markdown, no database, static fast pages.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "kilkil",
+            "body": "vanilla html/css, plus htmx if I need interactivity",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "lnaoedelixo42",
+            "body": "Github pages has nothing to do with the techonologies????\n\nI normally use flat HTML and CSS, published to vercel for speedy speed.  \nBut since today is so easy to do a `npm create vite@latest`, I just do that and install tailwindcss, and it's done.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Wise_Concentrate_182",
+            "body": "Wordpress turned to static pages.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ed_sanz",
+            "body": "Amazon AWS S3 is perfect for hosting static html. You just make the whole bucket public. AWS has a guide on how to do it and connect it to a dns server",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "GhostofAlgernon",
+            "body": "Nobody codes from scratch any more?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Weekly-Offer-4172",
+            "body": "My two cents: vitejs or react without an SSR capable framework like Next, Next or Astro means dynamic DOM, which means poor SEO.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "chocoboxx",
+            "body": "A HTML is enough. You can use github pages or cloudflare page.\n\nAdd some CSS to make it up, Javascript for better effect. Put some images here and there. Find a good color for the background.\n\nWell, it is good to go now.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "KoalaFiftyFour",
+            "body": "Astro.js is perfect for this. It generates static HTML, has zero JS by default, and deployment is dead simple.\n\nBeen using it for small business sites. Build times are fast and the DX is great. Plus free hosting on Netlify/Vercel.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Shot-Contest-5224",
+            "body": "Basic wordpress site is free but very limited",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "RevocableBasher",
+            "body": "Don't write js. Write Elm or just do vanilla html and css.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "chrootxvx",
+            "body": "Hugo + cloudflare pages for my simple static resume site",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "1GOTP1NK8C1DBOOTSON_",
+            "body": "I used to use Gatsby just because its so performant and used to integrate really well with things like contentful and stripe. I've now switched to Astro as it is better supported, and more or less as performant",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "bram_chi",
+            "body": "I still love using WordPress, even if the job doesn't require a CMS. It's a great framework to help with includes, asset loading/scaling, templating, search, custom posts, queries, the works. Batteries included, use as much or as little as you like. Hosting is cheap and rock solid.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "asdharrison",
+            "body": "You can make pretty nice basic websites by using ChatGPT or Claude to create the HTML and CSS. You have to guide it a bit, share some example images but I have been impressed with the output. For hosting html files, you can use something like [htmlfolio.com](http://htmlfolio.com) which is free for small websites.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "pxlchk1",
+            "body": "TBH, I do layouts & dev exports in Figma.\nAny hosting service should be fine.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "sittingonac0rnflake",
+            "body": "Sveltekit, Vercel, and a component library - just do a google and pick the one you like best, and bingo bango bongo - you got your basic website. Seriously though - sveltekit is insanely easy to set up and fun to use. Vercel is pretty mindless and has been free for me for years - just push to GitHub and it updates the site. And most component libraries either have templates you can copy for entire pages, or you can find page templates using those components after to quick google.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "deveritt",
+            "body": "An SSG, FFS!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "pixelchemist",
+            "body": "I default to Sveltekit for everything these days. It's fantastic. If you do adapter-static, you can run it just about anywhere. Depends on what your needs are.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "throwawaydrey",
+            "body": "How has no one mentioned low/no-code? Webflow? Framer?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Kankatruama",
+            "body": "I go with Astro+Tailwind, hosted on Cloudflare Pages.\n\nSimple, easy to mantain, and free.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "meliseo",
+            "body": "I recently built a flask app and sent it to google cloud run for the free tier + future scalability. somehow, my site is not being indexed by google although their search console says everything looks ok. Is this a good combo? Would you migrate elsewhere?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Disastrous-Stretch72",
+            "body": "I'm using cf pages free tier, but Varcel and Netlify have a free tier I don't know whats better, but my site is very simple like 4 or 5 pages. all TS, CSS and JS.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "FeliusSeptimus",
+            "body": "You might enjoy the recent [Vanilla Web: You Don't Need That Library](https://www.youtube.com/watch?v=Sumaf5NdCp4) presentation from Goto Conference.\n\nIt's not really a deep dive but it can definitely give you some good ideas. He touches on using a generator to output HTML files.\n\nI'm in the same boat as you, between C#, React, and Angular with rich component libraries and CSS utilities I feel like I've completely lost touch with the power of raw HTML, CSS, and Javascript.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Mammoth_Log7688",
+            "body": "**1 Tools**\n\n* **Pure HTML/CSS**: Perfect if the site is tiny and static.\n* **Static Site Generators**\u00a0(Recommended):\n   * **Jekyll**: Integrates with GitHub Pages + Markdown support.\n   * **Hugo**: Blazing-fast for content-heavy sites.\n   * **Eleventy (11ty)**: Minimal config, maximum flexibility.\n\n**. Hosting**\n\n* **GitHub Pages**: Free, custom domains, built-in Jekyll support.\n* **Netlify**: Auto-deploy, free HTTPS, Git integration.\n* **Vercel**: Super simple for static/lightweight frameworks.\n\n**Pro Tips**\n\n* **Templates**: Grab free responsive templates from HTML5 UP.\n* **SEO Basics**: Add meta tags, submit to Google Search Console.\n\n**Workflow Example**:\n\n1. Code in VS Code (or generate with Jekyll).\n2. Push to a GitHub repo.\n3. Deploy via GitHub Pages/Netlify. Add a domain if needed.\n\nZero cost, minimal maintenance! Feel free to ask more details! \ud83d\ude0a",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "wordsaretaken",
+            "body": "I type up the html file and then distribute it to my friends by handing them the usb I saved it on",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "tettoffensive",
+            "body": "11ty if you want something beyond just coding html/css/js which might be valid if it\u2019s very simple",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "a_kulk_007",
+            "body": "HTML and CSS are the easiest way to get started with baseline level websites. I'd suggest that for any beginners.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "joshasbury",
+            "body": "I use Hugo, so I recommend Hugo.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Wonderful_Biscotti69",
+            "body": "If it really is just easy stuff go with wordpress",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "qverb",
+                    "body": "You're getting downvoted due to this being a more dev-oriented group, but Wordpress, Wix, SquareSpace and other page builder-type services are easy, fast, and definitely have their place for such sites.  You just need to be well aware of the negatives and limitations.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "Tridop",
+                            "body": "That bloated beast of Wordpress for a very basic website with no forms and no need for advanced content management? Why, why?",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "IsABot",
+                                    "body": "It's only really bloated when you do extra shit to it it wasn't meant to do. Just as a basic blog/informational template it's totally fine, especially if you are properly utilizing caching. When you add a ton of plugins then yes, it can easily run like hot garbage. But there are even static site generators for it, if you want to go from WP to static instead. The thing that is going to matter is how often does the site need to be updated? If it's more than 2-3 times a year, it's almost better to have the CMS because you can update the site from your phone anywhere in the world at the drop of a hat. WP at this point takes less than 1 hour to finish a generic brochure style site. If you are never going to update it, then sure just going full static makes more sense.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Western-King-6386",
+                    "body": "I was confused by the downvotes, but OP said \"no CMS\".\n\nWP is the answer if you want to include a CMS.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "wahh",
+                            "body": "The issue OP is probably going to run into is that when no CMS is used that means that OP is the CMS. On top of that the scope of the website is probably going to expand over time, and it will probably eventually require a CMS and forms. Then OP gets to have fun migrating the site into something like Wordpress and dealing with remapping URLs for SEO purposes when they could have started with something like Wordpress in the first place.\n\nWe obviously don't know the nature of the project, but I have been doing development for a long time. In my experience the majority of those those \"simple, quick, and dirty\" websites end up turning into something more more complicated pretty quickly. The client asks for static and basic because they are impatient and/or don't have the money for anything beyond a static website. Then when they realize they can't really \"do anything\" with the site they ask for forms, newsletter signups, scheduled posts, etc.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "pet_zulrah",
+            "body": "I'm not a fan of plain html css for any project with more than one route. The amount of repeated code grosses me out and leaves too much room for error. Using something like next will leave room for improvements down the line without having to refactor. And it's still very lightweight",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "AvatarTheLastOG",
+            "body": "Why is nobody mentioning react?",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "enricojr",
+            "body": "Are you ok with WYSIWYG editors? How about something like Pinegrow or Bootstrap Studio that generates regular HTML with Bootstrap classes? (pinegrow can do Tailwind too I think)",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "BigEquivalent2789",
+            "body": "Gatsby, Cloudflare, AWS S3",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "m6io",
+            "body": "Just good ol client side react",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "rguptan",
+            "body": "Check the source of this site I had built sometime back. https://sstripthy.com\nIt looks multipage but it is a single html file that uses vue3 and vue-router from cdn. Uses bootstrap5 as UI library. \nFree hosting on cloudflare pages. \n\nYou don't have to go full primal to build a simple site! :)",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "nycsavage",
+            "body": "For basic, just use ChatGPT.  Simple",
+            "score": -5,
+            "replies": []
+        }
+    ]
+}

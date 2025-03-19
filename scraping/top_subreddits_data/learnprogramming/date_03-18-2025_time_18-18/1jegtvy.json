@@ -1,0 +1,13 @@
+{
+    "title": "Please help me create a workflow in power automate to delete all files of a specific file type?",
+    "author": "Wide_Efficiency_8526",
+    "subreddit": "learnprogramming",
+    "rank": 17,
+    "score": 0,
+    "upvote_ratio": 0.5,
+    "num_comments (reported by reddit)": 1,
+    "url": "https://www.reddit.com/r/learnprogramming/comments/1jegtvy/please_help_me_create_a_workflow_in_power/",
+    "id": "1jegtvy",
+    "selftext": "Hi!!!! I\u2019m trying to create a flow that finds all files that are .txt files in folders and sub folders within a sharepoint site and delete them. I wouldn\u2019t mind having to do folder by folder. From my understanding I\u2019ll have to probably run the flow multiple times and look through 5000 at a time. \n\nWe recently switch to salesforce and when we uploaded all of our data to this sharepoint site a .txt copy of each pdf was created there\u2019s no need for a bunch of duplicates and is taking up a ton of space. There is a large quantity of sub folders and files. Please help I keep getting an error or the output for error array is blank. \n\nI am clearly a beginner and need help any suggestions would be appreciated. ",
+    "comments": []
+}

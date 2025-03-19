@@ -1,0 +1,450 @@
+{
+    "title": "Dutch parliament calls for end to dependence on US software companies - Reuters",
+    "author": "ExtremeOccident",
+    "subreddit": "europe",
+    "rank": 15,
+    "score": 732,
+    "upvote_ratio": 0.99,
+    "num_comments (reported by reddit)": 69,
+    "url": "https://www.reuters.com/world/europe/dutch-parliament-calls-end-reliance-us-software-2025-03-18/",
+    "id": "1jec19n",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "SvalbardCats",
+            "body": "Software boycott should be one of the toughest boycotts.",
+            "score": 96,
+            "replies": [
+                {
+                    "author": "Agitated-Donkey1265",
+                    "body": "And one of the most important ones, considering how the data software companies collect can and will be used against you\n\nI guess we\u2019re all using Linux Mint now?",
+                    "score": 56,
+                    "replies": [
+                        {
+                            "author": "YellowAsterisk",
+                            "body": "And one of the most difficult ones. Windows and Office are just the most obvious examples of software that is difficult to replace, but the iceberg goes much deeper than that.",
+                            "score": 18,
+                            "replies": [
+                                {
+                                    "author": "vkstu",
+                                    "body": "Neither of those is really hard to replace, there's Linux and LibreOffice for example. The bigger issue is Azure/AWS and their entire ecosystem.",
+                                    "score": 17,
+                                    "replies": [
+                                        {
+                                            "author": "GrizzledFart",
+                                            "body": "The issue with Linux is the lack of acceptable analogues to Active Directory - which is pretty much a requirement for any large org. I wish there was a *nix alternative, but there really isn't one that does what AD does as well as AD does it.",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "vkstu",
+                                                    "body": "That's fair, but to be also fair, AD is slowly becoming legacy due to the shift to Cloud-Based Identity Solutions.",
+                                                    "score": 0,
+                                                    "replies": [
+                                                        {
+                                                            "author": "GrizzledFart",
+                                                            "body": "...which are basically all wrappers around AD, at least in my experience. I get the convenience of using the cloud, but I'm one of those who has always viewed the cloud as \"someone else's server\".",
+                                                            "score": 4,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "vkstu",
+                                                                    "body": "Not really lol. Many of them are fully independent identity providers (IdPs) that don\u2019t require AD at all, heck even Azure doesn't use AD, but can integrate with it if you prefer.",
+                                                                    "score": 2,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "GrizzledFart",
+                                                                            "body": "Good. More is better.",
+                                                                            "score": 1,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "author": "finn4life",
+                                                            "body": "EU could still enact that one rule they added as a measure against tariffs.\n\n- Remove the OP protections. Any software company can then found create and sell Microsoft office in the EU XD.\n\nOr force a split from Microsoft US.\n\nWon't happen but imagine that.",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "tejanaqkilica",
+                                            "body": "There is also pen and paper for that matter, but that's hardly a decent replacement.\n\nAzure and AWS is also complex as a topic, not because of them (after all we used to run businesses for decades without Azure and AWS) but because with what do you replace it? European Cloud providers aren't even close to the same level and on premise ones (which we used for so long) are still US based (VMware or HyperV).\n\nHonorable mention, even amazing software that started in Europe (Veeam, Saint Petersburg) is now headquartered in the US.",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "vkstu",
+                                                    "body": "Not sure why you responded with pen and paper. You're simply sidestepping having to accept that Linux and LibreOffice are the tools with which you can replace Windows and Office, especially Office.\n\nAnd yes, as I said, cloud ecosystems aren't easily replaceable, not to the extent that Azure and AWS offer. Going back to on premise is just going back in time.\n\nVeeam has a lot of alternatives and also European ones, so not sure why you mentioned them specifically.",
+                                                    "score": 2,
+                                                    "replies": [
+                                                        {
+                                                            "author": "tejanaqkilica",
+                                                            "body": "Because LibreOffice and Linux aren't close to the quality that Windows and Office offers. It's not even a contest.\n\nGoing back to on premise is going back in time? This tells me you don't know anything about this topic.\n\nBecause backups are an integral part in any infra, and Veeam offers hand down the best backup solution out there (for a cheap price nevertheless). But you wouldn't know that, since you don't know anything about these topics.",
+                                                            "score": -2,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "vkstu",
+                                                                    "body": "What are you on about. Linux is far superior to Windows, Windows simply has the market as it's the casual consumer thing and household name. \n\n>Going back to on premise is going back in time? This tells me you don't know anything about this topic.\n\nGood luck offering speedy interconnected services across the world at low cost. I'm not arguing you put your data and security critical services in the cloud. I'm arguing for most casual endeavours it's going back in time.\n\n>Because backups are an integral part in any infra, and Veeam offers hand down the best backup solution out there (for a cheap price nevertheless). But you wouldn't know that, since you don't know anything about these topics.\n\nAh yes, Veeam, the one and only backup solution. Because why consider alternatives when marketing tells you it\u2019s the best? While Veeam is popular, it\u2019s far from the only game in town. If you actually explored beyond the usual vendor hype, you\u2019d know that European solutions like Acronis, Bacula, or SEP sesam offer excellent backup and recovery options, often with stronger data sovereignty and compliance benefits. But hey, if \u2018best\u2019 for you just means \u2018widely advertised,\u2019 who am I to argue?\n\nIt's funny you yourself are showing your lack of understanding on the topic of data security by going with an US entity, where data is anything but secure due to US law.",
+                                                                    "score": 2,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "tejanaqkilica",
+                                                                            "body": "Windows is extremely popular in the business world, not only the \"casual consumer\" world. It's actually funny, Windows is still choose over Linux for workplace workstations, despite having a substantial cost associated to it. I wonder why millions of businesses have choosen that, constantly time after time after time again, when Linux is far superior. Spoiler, it's because it's not superior.\n\nWhich is what I said, going back to on promise is possible, but it's going to be a lot more expensive and chances are you can't do it without a US supplier.\n\nI've used since 2011 for personal and professional use, this isn't an opinion build on top of what a bunch of vendors say, it's based on my extensive experience and research on the topic. Data sovereignty for backups is irrelevant, since if you're going to use a cloud solution, you are always going to encrypt the backups in transfer and at rest, though depending on the capabilites, I'm a big fan of private repositories as I want full control over my backups. \n\nIrrelevant, by that logic your data is also insecure in European Data centers.",
+                                                                            "score": 1,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "vkstu",
+                                                                                    "body": ">Windows is extremely popular in the business world, not only the \"casual consumer\" world.\n\nWindows is \"extremely\" popular in the business world primarily because most workers are casual users who need familiar, user-friendly interfaces. Are you truly this short-sighted? Nearly every server, critical infrastructure, and high-performance computing system runs on Linux, while Windows dominates desktops mainly due to legacy software and ease of use.\n\n>It's actually funny, Windows is still choose over Linux for workplace workstations, despite having a substantial cost associated to it. \n\nIt\u2019s not funny, it\u2019s just inertia and convenience. Businesses stick with Windows because it\u2019s what their workforce is familiar with, and retraining costs money. Compatibility with legacy software and enterprise tools also plays a huge role. \n\n>I wonder why millions of businesses have choosen that, constantly time after time after time again, when Linux is far superior. Spoiler, it's because it's not superior.\n\nLet\u2019s not pretend that superiority is measured by market dominance, otherwise, McDonald's would be the pinnacle of dining.\n\n>Which is what I said, going back to on promise is possible, but it's going to be a lot more expensive and chances are you can't do it without a US supplier.\n\nIn other words, going back in time. Why go on premise if it's more costly and you just want to host a random website accessible quickly all over the world?\n\n>I've used since 2011 for personal and professional use, this isn't an opinion build on top of what a bunch of vendors say, it's based on my extensive experience and research on the topic.\n\nOh great, anecdotal evidence. Well, we're at an impasse then, for I've used Acronis and SEP sesam extensively and much prefer it to Veeam. Especially since their takeover and becoming an US entity.\n\n>Data sovereignty for backups is irrelevant, since if you're going to use a cloud solution, you are always going to encrypt the backups in transfer and at rest, though depending on the capabilites.\n\nAnd here we go, thanks for showing you only have the simplest of understanding on the matter. Encryption is crucial, but it's not a catch-all solution, especially when it comes to long-term data protection. While encrypting backups in transit and at rest adds a layer of security (and is expected, not sure why you are acting as if it wasn't), it doesn\u2019t address the fundamental issue of who has access to the decryption keys or jurisdiction over the data. Over time, encryption methods can also become vulnerable to advancements in computing, like quantum computing, which might render them less secure. Data sovereignty ensures that, even with encryption, you're not handing over control to jurisdictions with less stringent protections.\n\n>Irrelevant, by that logic your data is also insecure in European Data centers.\n\nIt is, but a lot less so due to data laws in the EU vs the USA. So not at all irrelevant, you just have no recourse to argue otherwise.",
+                                                                                    "score": 1,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "tejanaqkilica",
+                                                                                            "body": "Well yeah, transitioning a workforce from one system they have used all their life to something else they haven't will come with a lot of cost associated especially with loss of productivity. But it's not only that cost, there are a lot of auxiliary systems that work with Windows and don't with Linux.\n\nA lot of servers run on Linux, a lot large number, but smaller but still large, runs on Windows.\n\nYou can't easily buy knowledge that's an asset, loosing that is going to come with a hefty bill.\n\nI guess we would need to survey a lot of businesses and ask them why. Here's why my workplace choose Windows, a) we told then to, users have no input B) there's no alternative to it.\n\nPopularity doesn't necessarily translate to superior product, but one would see empirical evidence that a certain product is superior to another and with the large sample base we have, we don't see it.\n\nYou can host a random website from anywhere in the world with little to no cost. You can scale a random website to multiple place around the world with little cost. You can't build a YouTube or Netflix easily around the world though and that's what you're dependent on CDNs, but random websites? Pff, I personally have like 17 of those for 4\u20ac/month. \n\nEvery single IT professional I have ever met in my entire life in multiple European countries that I've the pleasure to work in has choose Veeam over anything else. I guess we have all been wrong. Because there are \"better products\" out there. \n\n\n\n>the fundamental issue of who has access to the decryption keys or jurisdiction over the data.\n\nErrrr, me? I'm the person who has those decryption keys?\nSomeone getting their hands on my encrypted data isn't going to worry me the slightest, it's useless to them. Your arguing that stuff \"may\" happen in the future which \"may\" compromise these setups is a reach.\n\nUS companies operating in Europe must follow European laws (either EU, or European country or both). If these companies can violate that law without issues, what's preventing European countries from doing the same?",
+                                                                                            "score": 1,
+                                                                                            "replies": []
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "pafagaukurinn",
+                                            "body": "I'd like to see how you are going to persuade long-time hardcore Windows users who are not necessarily even IT geeks to move to Linux.",
+                                            "score": 5,
+                                            "replies": [
+                                                {
+                                                    "author": "bingojed",
+                                                    "body": "So much of everything is web based now. It\u2019s not near as program centric as it used to be.",
+                                                    "score": 2,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "akossss",
+                                                    "body": "it comes down to re-creating the same UI in the end, doesn't it?",
+                                                    "score": 2,
+                                                    "replies": [
+                                                        {
+                                                            "author": "pafagaukurinn",
+                                                            "body": "Not UI, but UX. And in Linux it is very different from Windows, even if technically both may have somewhat similar window-based interface\u00a0",
+                                                            "score": 4,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "QuantumQuack0",
+                                                    "body": "Exactly. And then imagine the 50/60+ year old crowd that is not tech-savvy.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "vkstu",
+                                                    "body": "Linux has GUI distro's similar to Windows, and as the other user says, not a lot of casual user native programs around anymore, most is web based.",
+                                                    "score": 0,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "3mil3",
+                            "body": "Ubuntu, I still trust UK.",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "badabummbadabing",
+                            "body": "All government agencies have to switch to Gentoo, stat. vim motions are now mandatory.",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "jatawis",
+                            "body": "I am using Ubuntu.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "Kiwithegaylord",
+                            "body": "I\u2019ve been on fedora for years, if you wanna support European businesses SUSE is better",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Glass-North8050",
+                    "body": "Almost like there is a reason it is not happening....",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Phosquitos",
+            "body": "Public departments should push as much as possible to not rely on foreign software.",
+            "score": 23,
+            "replies": [
+                {
+                    "author": "lungben81",
+                    "body": "Best rely only on open source software",
+                    "score": 10,
+                    "replies": [
+                        {
+                            "author": "Kiwithegaylord",
+                            "body": "*free software www.gnu.org",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Liqtard",
+                                    "body": "Free software is a really poor term.",
+                                    "score": 6,
+                                    "replies": [
+                                        {
+                                            "author": "Kiwithegaylord",
+                                            "body": "I don\u2019t disagree, but that\u2019s a fault of the English language",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "SagariKatu",
+                                                    "body": "Not really. Stallman could have named it freedom sofware.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "LaserCondiment",
+            "body": "I call for an end to my dependence of reddit!",
+            "score": 9,
+            "replies": []
+        },
+        {
+            "author": "Safe-Hair-7688",
+            "body": "about time they started waking up to that",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "UnoStronzo",
+            "body": "Fuck yeah!!!!",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "areeighty",
+            "body": "This is why Germany has the Soverign Tech Agency: [Home | Sovereign Tech Agency](https://www.sovereign.tech/)",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Specific-Fig-2351",
+            "body": "This is inevitable if America keeps on isolating itself.the fact nearly all transactions happening in Europe are with American card companies is weird and gives them so much insight of spending habits etc.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Kanaiiiii",
+            "body": "Elbows up, friends \ud83c\udde8\ud83c\udde6\u2764\ufe0f\ud83c\uddf3\ud83c\uddf1",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "UnapologeticMeatball",
+            "body": "Fuck yeah! Hope that gets some traction!",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Puzzled_Scallion5392",
+            "body": "Time to pay fair wages for software developers in EU then...",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "mousepotatodoesstuff",
+            "body": "We should include basic Linux usage as part of high school education (or a little lower). It will help with this cause as well as raise computer literacy and probably other related skills, giving us a huge competitive edge.",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "gormful-brightwit",
+                    "body": "Good idea! EU should also invest into some kind of EU specific Linux fork.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "JFHermes",
+                            "body": "Just invest some money in the linux foundation. Make it easier to use by educating people with basic IT literacy. There are already a thousand forks of linux and unless you're a scientist/it worker you should probably just choose ubuntu.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "AwsumO2000",
+            "body": "cant trust america one bit so that makes sense",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "ConcernFuture7166",
+            "body": "Unless you develop your own operating system, you\u2019ll remain reliant on Microsoft and Apple.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Kageru",
+                    "body": "That's an easy one, Linux exists. The user space ecosystem is the issue (office, outlook). People are familiar with them and they are an effective monopoly.\n\nLike military gear it's been easy to standardise on the US product. It could be changed, and with all those services moving to be cloud dependent and the US a supply chain risk it is worth discussing.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Simple_Project4605",
+            "body": "Tough till we also have a european cloud solution - if all your stuff is still on aws it sorta defeats the point.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "GrizzledFart",
+                    "body": "I think people over-emphasize the importance of the cloud. You can do the same stuff that you can do in the cloud by renting datacenter space and buying actual hardware. The harder things to replace are things like Active Directory, Office type software suites (although I kinda like OpenOffice, it doesn't have some of the enterprise features that Office does), and things along those lines. Not to mention operating systems.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "Simple_Project4605",
+                            "body": "yeah but when you\u2019re starting software up, aws and all it offers is a godsend. \n\nYou\u2019re thinking of just disk hosting, not all the apis, lambdas, ai workloads, monitoring and observability tooling they\u2019ve been building for 15 years.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "GrizzledFart",
+                                    "body": "> yeah but when you\u2019re starting software up, aws and all it offers is a godsend.\n\nI get that it's convenient. You pay for that convenience. And it is absolutely replaceable.\n\n> You\u2019re thinking of just disk hosting, not all the apis, lambdas, ai workloads, monitoring and observability tooling they\u2019ve been building for 15 years.\n\nNo. I am very much thinking of those things. If my team used AWS to host our servers, the charges would run into the tens of millions of dollars per year. They are not offering their servers for you to use out of generosity.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Glass-North8050",
+            "body": "We failed to do that for past years but sure lets do it.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "classicjuice",
+            "body": "First steps should be to decouple from american cloud hosting services like aws and azure since just those 2 control over half of the cloud infrastructure market. Having reliable European alternative in place would allow us to have a solid foundation on which to build our data and software independence. \n\n\nNo matter what you do, if we don\u2019t fully control our cloud infrastructure, anything that we develop on the software front doesn\u2019t matter as much if we really want to take data management of EU users into our own hands 100%",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "OD32",
+            "body": "Dutch government is notoriously bad at IT projects sadly.\n\nNot sure how easy/hard it is to replace cloud services like aws and azure. Cloud services for plain file storage is fairly easy to transfer I guess.\n\nThere is a few critical software pieces that make it hard to move away from google/microsoft/apple as of today:\n- android and ios are very hard to replace at this point without a good alternative\n- The whole world runs on microsofts proprietary office document formats, that is not very linux compattible\n- None of the professional CAD and engineering programs run on anything not windows or mac\n- professional photo editors are mostly windows/mac based",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "bingojed",
+                    "body": "Android is open source so it\u2019s not hard to make a de-googled version, and fork it like Lineage.\n\nLibreOffice and others can open and edit any Microsoft office docs.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "OD32",
+                            "body": "Yes android should be fairly doable, but at the moment android is rather dependent on google and stuff like lineage is not very mainstream. Also lots of apps use play store/services in some way.\n\nLibreoffice is great when everyone uses it. But opening and editing docx/xlsx or pptx always screws with the formatting in my experience. Libreoffice would work, but only if we all move to it or get better at opening these microsoft formats",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "bingojed",
+                                    "body": "Ya gotta start somewhere. Steam started off making Half Life, which was made from a modified Quake engine. Now they\u2019re the biggest name in games. Microsoft got big making Basic for home computers and CPM cards for Apple IIs, which led them to copy it to make DOS for PCs. \n\nMy point is you don\u2019t need to start from scratch - nearly no one does. You just need to start.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Chairman-Mia0",
+                    "body": ">Not sure how easy/hard it is to replace cloud services like aws and azure\n\nI don't think there are any alternatives at all at the moment. Perhaps some of the Chinese providers but I'll just assume we're not talking about those.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Violence_0f_Action",
+            "body": "Anything to not talk about the dependence on Russian oil and gas.",
+            "score": -4,
+            "replies": [
+                {
+                    "author": "MootRevolution",
+                    "body": "That takes time to change, especially without blowing up your own economy. The same goes for American software, cloud solutions etc.\u00a0it will take time to leave those products without causing damage to your economy and it infrastructure. \u00a0",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "Violence_0f_Action",
+                            "body": "It takes time to change is interesting justification to continue funding the Russian war machine.  This war has been going on for over 10 years.  How much more time do you need?",
+                            "score": -1,
+                            "replies": [
+                                {
+                                    "author": "MootRevolution",
+                                    "body": "No, the 'not killing your own economy' was the interesting part. Voters will not accept a major economical downturn or a quadrupling of energy prices as a result of cutting of energy from Russia in a short period. That would mean handing over the keys of the country to populist, fascist, fans of Putin. And that would mean Russia would win eventually.\u00a0",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "FreeTendies865",
+                                    "body": "Don\u2019t remind them that trump with all his faults which are numerous actually pointed out the dependency on Russian energy to Germany and the EU and they laughed. They are unserious they\u2019ll need a meeting about when to schedule the next meeting to discuss which meeting they\u2019ll discuss making a different plan.",
+                                    "score": 0,
+                                    "replies": [
+                                        {
+                                            "author": "Violence_0f_Action",
+                                            "body": "They are not only unserious, they are complicit.  Countries like Germany took steps to guaranty the dependence for decades to come when the decommissioned all nuclear power",
+                                            "score": 0,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "halee1",
+                                            "body": "The Trump admin is right now trying to force Germany to become dependent on Russian energy again. Maybe those statements from the 1st presidency were about shitting on Europe after all?",
+                                            "score": 0,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Pro-wiser",
+            "body": "Simple..... force all software(paid, free...anything) to also be released on Linux...including games.\n\nFirstly OS market would collapse(Windows,mac) since everything would work on opeb source and free OS-s\n\nFor software some governments are already using opensource alternatives, but to support lical software companies....simply buy local. Just like US only buys local military products.\n\nFor hardware EU needs our own Nvidia, Intel, AMD....somerhing similar.",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}

@@ -1,0 +1,570 @@
+{
+    "title": "ELI5: How does WiFi actually send information through the air",
+    "author": "HelpingHand_123",
+    "subreddit": "explainlikeimfive",
+    "rank": 15,
+    "score": 426,
+    "upvote_ratio": 0.88,
+    "num_comments (reported by reddit)": 89,
+    "url": "https://www.reddit.com/r/explainlikeimfive/comments/1jdgohx/eli5_how_does_wifi_actually_send_information/",
+    "id": "1jdgohx",
+    "selftext": "I get that WiFi connects devices without wires, but how is it actually sending all that data? How do things like videos, messages, and games travel through the air and show up perfectly on my phone or computer? It seems kind of like magic, how does the router know where to send everything?",
+    "comments": [
+        {
+            "author": "g0del",
+            "body": "It doesn't know *where* to send it, it sends the data (using radio waves) *everywhere*. But it does know *who* it is sending the data too, and encrypts the data so that only that device can read it.",
+            "score": 622,
+            "replies": [
+                {
+                    "author": "TheJeeronian",
+                    "body": "Modern wifi can use beamforming, so data actually is sent in a particular direction.",
+                    "score": 210,
+                    "replies": [
+                        {
+                            "author": "amakai",
+                            "body": "To be more precise - in a particular **general** direction.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "orrocos",
+                                    "body": "It farts data in my general direction?",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "therealsn",
+                                            "body": "NI!",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Posiedon22",
+                                                    "body": "We demand a shrubbery!",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "bcatrek",
+                                            "body": "Yup. It\u2019s an old technique. Much like the French knnn-igts back in the King Arthur days\u2026",
+                                            "score": 1,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "burrbro235",
+                                            "body": "Your transmitter was a hamster, and your receiver smelt like elderberries!",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "CptBartender",
+                                                    "body": "*Did you know...*\n\nSome time ago, I read that dack in a day, elderberries were used to ferment cheap \"wine\", and hamsters were known for shagging a lot. So really, what that insult means is, '* your mither is a whore, and your father is a drunken bum*'",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "takeahike89",
+                                            "body": "Fetchez  la cache!",
+                                            "score": 1,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "TazzyKC",
+                                            "body": "And it smelt of elderberry.",
+                                            "score": 1,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "HalfSoul30",
+                                            "body": "*beep poop*\n\n\"Oh! Excuse me.\"",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "3percentinvisible",
+                                    "body": "So, to be _less_ precise",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "amakai",
+                                            "body": "Let's compromise on \"to be reasonably precise\".",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "dravik",
+                                                    "body": "Spoken like a true engineer.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "samanime",
+                                    "body": "Yeah. If nornal wifi transmits as a sphere, in all directions, beamshaping is more like a cone in the general direction. But it still spreads out and isn't like a laser beam or anything direct.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "meneldal2",
+                            "body": "And even on older routers, you had this thing called antennas you could move around to increase the signal quality by pointing them at your computer.\n\nBeam forming is just a more fancy antenna that doesn't need to move physical parts.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "paulstelian97",
+                    "body": "Is there a proper P2P for this? I expect there to be some session key shared between all currently authenticated devices on the access point (so that broadcast packets work fine)",
+                    "score": 11,
+                    "replies": [
+                        {
+                            "author": "Skusci",
+                            "body": "Mesh networks can work like that, but mostly this isn't used for WiFi. \n\nAnd even then often the broadcast part is just negotiations for main nodes.\n\nTrue broadcasting just risks collisions too frequently, instead it's much better to let one node handle all the timing concerns and everyone gets their data just the same.",
+                            "score": 20,
+                            "replies": [
+                                {
+                                    "author": "paulstelian97",
+                                    "body": "So you\u2019re telling me that for broadcasting 2MB of data to 5 hosts the sender must send 10MB worth of data? That\u2019s inefficient as fuck.\n\nOr is it not because you don\u2019t tend to broadcast that much data in the first place?",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "Skusci",
+                                            "body": "Probably just cause it mirrors how wired switches work, and broadcasts are meant to be able to be filtered to only go to intended recipients.",
+                                            "score": 10,
+                                            "replies": [
+                                                {
+                                                    "author": "paulstelian97",
+                                                    "body": "I mean Wi-Fi was made to be wireless Ethernet\u2026",
+                                                    "score": 4,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Skusci",
+                                                            "body": "Some other things that come to mind:\n\nIt also makes sure that two devices connected to the same AP but out of range of each other can communicate.\n\nAlso wifi since the wireless N days does beamforming as well so a true broadcast would just reduce the range.\n\nIt's just the wrong communication protocol if you are doing primarily broadcasting really.",
+                                                            "score": 7,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "paulstelian97",
+                                                                    "body": "Yeah I guess you don\u2019t do primarily broadcast, other than stuff like ARP or DHCP or NDP, none of which are the bulk of traffic.",
+                                                                    "score": 2,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "mintaroo",
+                                            "body": "Yes, this is exactly how it works. On the other hand, does it ever happen that 5 WiFi devices want the same piece of information at the same time?",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Obsidian_monkey",
+                                                    "body": "I remember reading about tech to multicast instant replays to personal devices at sports games so it's not unheard of.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "mule_roany_mare",
+                                            "body": "How often to 5 users want the same exact 5mb of data at the same moment? And on that rare occasion you'd still need to retransmit lost packets. I think there is something approaching multicast in the wifi spec, but no one ever bothers with it.\n\nBluetooth 5 has some type of multicast in the spec & it might actually prove useful IRL if implemented. A movie theater/drive in may want to transmit the same 2 or 3 audio tracks to a dozen people each & BT doesn't have the bandwidth for all of them to be unique streams.\n\nOr a TV in a gym might broadcast BT audio to anyone who can connect.",
+                                            "score": 1,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "webtroter",
+                                            "body": "Most network traffic is unicast (1:1).\n\nSometimes, you can find broadcast (1:All) and also multicast (1:many).\n\nMulticast is often used for IPTV.\n\nBut those are at the layer 3. The underlying signal is at layer 1 (wifi, Ethernet, coax), which doesn't necessarily connect in the way I describe. (the wifi signal is broadcast everywhere, but the network packets that are sent over those waves might be unicast. Any client receive everything, but discards packets which are not addressed to itself.)",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "nickjohnson",
+                                    "body": "I think the two of you are talking at cross purposes. He's not asking if clients can talk directly to each other; he's asking if broadcast packets can be read by all clients of an AP, despite being encrypted.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "nickjohnson",
+                            "body": "Yes. Each client has a secret key shared with the AP for their own data, and there's another one that they all know for encrypting broadcast packets.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "paulstelian97",
+                                    "body": "Hm interesting, fair enough! I knew some stuff but always curious to learn more.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Alis451",
+                            "body": "> In WPA2-protected WLANs, secure communication is established through a multi-step process. Initially, devices associate with the Access Point (AP) via an association request. This is followed by a 4-way handshake, a crucial step ensuring both the client and AP have the correct Pre-Shared Key (PSK) without actually transmitting it. During this handshake, a Pairwise Transient Key (PTK) is generated for secure data exchange.  \nWPA2 employs the Advanced Encryption Standard (AES) with a 128-bit key, enhancing security through the Counter-Mode/CBC-Mac Protocol CCMP. This protocol ensures robust encryption and data integrity, using different Initialization Vectors (IVs) for encryption and authentication purposes.\n\n>The 4-way handshake involves:\n\n>- The AP sending a random number (ANonce) to the client.  \n>- The client responding with its random number (SNonce).  \n>- The AP calculating the PTK from these numbers and sending an encrypted message to the client.  \n>- The client decrypting this message with the PTK, confirming successful authentication.  \n>- Post-handshake, the established PTK is used for encrypting **unicast traffic**, and the Group Temporal Key (GTK) is used for **broadcast traffic**. This comprehensive authentication and encryption mechanism is what makes WPA2 a robust security standard for wireless networks.\n\nboth of those temporal keys(PTK/GTK) follow the [TKIP](https://en.wikipedia.org/wiki/Temporal_Key_Integrity_Protocol) standard",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "paulstelian97",
+                                    "body": "Sounds like an encrypted channel between the client and access point. Other replies had a discussion on how to efficiently implement broadcast and multicast, if it\u2019s even needed (and consensus was that\u2026 no real need, the access point just individually sends those packets to each client in turn)",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "InfamousLegend",
+                    "body": "You didn't explain how.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "RegalBeagleKegels",
+                            "body": ">(using radio waves)",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "InfamousLegend",
+                                    "body": "And how are those waves created?",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "RegalBeagleKegels",
+                                            "body": "I dunno, how are trains created?",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "fizzlefist",
+                                                    "body": "\u201cHow do wifi communicate?\u201d\n\nThe answer is radios instead of wires.\n\nThat\u2019s as eli5 as it gets. They talk to each other using the same \u201clanguage\u201d (TCP or UDP for example) for the actual data moving around, they just use a different means to do it.\n\nThink of if you\u2019re on an age-of-sail ship. To communicate to a nearby ship, you could shout at them with a megaphone. But if they\u2019re a couple miles away you can use predefined light-signals, flag-signals, or even patterns of cannon fire. So long as everyone involved has the same instruction set on how to package, send, receive, and read the radio signal that carries the data, and *that\u2019s* what the WiFi specification defines.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "ezfrag",
+                                                    "body": "How do magnets work?",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "Alis451",
+                                            "body": "electricity, same as most other radio waves.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "demanbmore",
+            "body": "When you turn on a light bulb, how does the light know where to go?  It doesn't - it just spreads out uniformly in all directions until something blocks it.  Visible light is just one example of an electromagnetic wave, one that encodes information about the filament or LED that emitted it.  If you had the equipment to decode that information, you'd be able to extract information about the bulb from that electromagnetic wave.\n\nWiFi works the same way - the router sends out electromagnetic waves in all directions that spreads until something blocks it.  The router encodes information into the wave, and if you have the equipment to detect and decode that information (like a WiFi receiver and software in your phone or computer), you can use it for all sorts of things.\n\nJust like visible light can be blocked by a wall but not a clear window, WiFi signals are blocked by some things (metal especially) but not by others (so they can travel through thin walls easily).  And just like visible light fades with distance (as it spreads out), so too do WiFi signals (which is why the signal is lost as you move farther and farther away from the router).\n\nThe signal doesn't know where to go - it's not directed at your phone or aimed anywhere - it just spreads out uniformly and if you're close enough to receive it, a clever bit of hardware and software knows how to extract the information encoded in the signal.",
+            "score": 254,
+            "replies": [
+                {
+                    "author": "phatlynx",
+                    "body": "It blows my mind that a generic place like a hospital, for example, can have hundreds of routers emitting thousands of electromagnetic waves in all directions, overlapping each other, does the data not get scrambled with every wave going everywhere? Won\u2019t we run out of frequency bands one day as everything becomes more connected? Any day now, my socks will be transmitting signals everywhere.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Max-P",
+                            "body": "Usually larger systems like this are carefully planned to avoid the interference. So in the 2.4 GHz band for example, they'd use maybe channel 1, then further the hallway they'll use channel 6, then further away they'll use channel 11, and then circle back to channel 1 for the next one with the hope that the other AP on channel 1 is far away enough the noise is negligible. Those APs also tend to be somewhat directional or their power levels tweaked to make sure it works out.\n\nNewer systems are also able to collaborate using their wired network, and take turns transmitting plus the channel slicing WiFi 6. There's also beamforming tech that allows the AP to transmit the signal roughly in the direction of the client such that it can serve another client at the same time.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "perfectusur",
+                            "body": "\"Does the data not get scrambled with every wave going everywhere? Won\u2019t we run out of frequency bands one day as everything becomes more connected?\"  It does and we already do.  Have you ever listened to the radio as you're driving between cities, and 2 stations start overlapping each other?  WiFi has the same problem but the distance is much shorter.  There are many channels (aka, stations), but more people setting up routers fills up available channels, and they start talking over each other.\n\nThis is why if you want consistent and reliable connection, wired is still king.\n\n  \n\"Any day now, my socks will be transmitting signals everywhere.\"  don't look up NFC...",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "culturerush",
+                    "body": "Great explanation, can you just elaborate on it how it works the other way to?\n\nLike, using your lightbulb analogy, the bulb shoots the light out in all directions and hits stuff which makes sense. But when I'm playing video games online I push the stick and my dude moves for everyone playing some there must be something going from the playstation back. Does the playstation have a WiFi router type thing in it or does it answer back some other way?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "moxo23",
+                            "body": "Yes, the playstation also has an antenna to send signals back to the router.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "synapse187",
+            "body": "Same way as FM radio. The transmitter send outs tiny pulses into the electromagnetic field. These pulses cause the proper receiver to vibrate like two tuning forks at the same frequency. The signal causes the receiving antenna's internal elections to vibrate. This vibration is translated into ones and zeroes by the internal hardware then outputs a usable signal to the system.",
+            "score": 80,
+            "replies": [
+                {
+                    "author": "capt_pantsless",
+                    "body": "To add a little bit of extra explainy of the low level mechanics: \n\nIf you apply an electrical current to a metal wire, it'll generate an electromagnetic field.   Another nearby, but not connected wire will absorb that EM energy and that wire will have a \\*little bit\\* of electricity conducting through it.  The greater the current in the transmitter side, the greater the current in the receiver side, and the farther it will reach.\n\nIt's an experiment you can actually try with a couple wires, a battery, and a small light bulb.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "synapse187",
+                            "body": "Nikola be praised!",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "Ginevod2023",
+                            "body": "Is that how transformers work?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "capt_pantsless",
+                                    "body": "Yes, coils of wires get more current transfer from this effect.\n\nAlso transformers are very 'noisy' in terms of Electromagnetic interference.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "rupertavery",
+                    "body": "Things tend to get hot during internal elections \n\n:)",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "liberal_texan",
+                            "body": "Also since most of the internet\u2019s traffic is porn, the world around you is filled with porn permeating the ether. It fills the air, it\u2019s in your walls, it\u2019s penetrating your body constantly.",
+                            "score": 13,
+                            "replies": [
+                                {
+                                    "author": "EmirFassad",
+                                    "body": "That would explain my renewed libido.\n\n\ud83d\udc7d\ud83e\udd21",
+                                    "score": 7,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "-Knul-",
+                                    "body": "It used to be bird songs that provided that service :P",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "shrimpcest",
+                                    "body": "I think this is what Yoda was getting at when he explained the force.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "synapse187",
+                            "body": "Well the electrons do all elect to move together...",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Senshado",
+            "body": "Well, do you know how a classic AM-FM radio sends sound over the air, using radio waves that are controlled in frequency (speed) and amplitude (strength)?\n\n\nStart from there, and then think about transmitting a number within the sound.\u00a0 Instead of a human voice reading the number out loud, which is very slow, it can represent the number with a short pattern of sound, like maybe a few fast clicks. It might sound like Morse code, dot dot dash, but very fast so only a computer can keep up with it.\u00a0\n\n\nSending a sequence of numbers allows transmitting any data file from your computer / phone, which are also a bunch of numbers when stored in RAM / hard drive. So pictures, text, and video can go that way.\u00a0\n\n\nOne more tidbit: how does the correct phone receive the data meant for it? Well, each phone, laptop, or network chip has an id number stored on it at the factory, different from every other network chip built so far.\u00a0 At the start of any chunk of data you transmit over wifi, is the ID number (address) of the phone that's meant to receive it.\u00a0 Any other phone will see that the first number doesn't match its own ID and ignore it (unless the user is trying to spy)\u00a0",
+            "score": 13,
+            "replies": [
+                {
+                    "author": "Askefyr",
+                    "body": ">stored on it at the factory, different from every other network chip built so far.\u00a0\n\nThis actually isn't entirely true anymore. Nowadays, while your network controller has a \"true\" MAC address, this often isn't broadcast unless you actively choose to do so. Instead, your device will generate a new address when it connects to a network, and remember that going forward. \n\nThe reason is privacy. If I know the MAC address of your device, I can theoretically follow you across public wifi networks and attempt to intercept your traffic.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "alirastafari",
+                    "body": "Thank you, you are a good explainer",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Alis451",
+                    "body": "> frequency (speed)\n\nwave interval speed(waves per second) not propagation speed, propagation speed is light speed.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "rupertavery",
+            "body": "Waves.\n\nWhen you make ripples in a pond, the waves travel everywhere. If you are in a place that the waves can reach, and you measure the height of the wave as it passes, you can get the change in the wave height over time.\n\nIf you could change how fast the wave height changes according to some data, you could record it at the reciever and decode it back into the data.\n\nRadio Frequency communication is basically the same idea, but with electromagnetic waves.\n\nAntennas (with all the transmitter hardware) can cause disturbances in the electromagnetic field, which then emanate (propagate) as waves which can travel quite far. An antenna tuned to the right frequency (along with reciever hardware) can pick up the waves and decode them back into data.\n\nAs for how they \"perfectly\" show up? Data is stored and transmitted as 1's and 0's. Think of it like morse code. This is called digital encoding, encoding as numbers, instead of analog encoding, where the signal itself is used, the way broadcast radio and TV used to work, where if the signal was bad, then the image or music sounded bad as well.\n\nIn Digital encoding, we take the original signal, which could be audio or video, and convert it into numbers. The images you see on a computer are all just numbers. \n\nDigital encoding allows us to add a bit more information to the data, like information that lets us know whether the recieved data was correct.  Since it's 1's and 0's we can use math to check whether the data was corrupted somehow and either reconstruct the data, or ask for it to be sent again.",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "TextDeletd",
+                    "body": "How on earth does the air store what must be terabytes of data sailing around the Earth? Like is every atom floating around just perfectly vibrating to transmit all the information that just hit the particle? Do the waves not interfere at all?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "rupertavery",
+                            "body": "Music and voices are made of several frequencies superimposed over each other, and yet each one exists in the sound wave.\n\nAs long as the frquencies don't overlap, several hundred signals can co exist in an area without interfering.\n\nThe \"air\" does not \"store\" anything.\n\nMore correctly, the electromagnetic field at any instant has a certain \"strengrh\", i.e. it affects electrons in a certain way, producing a measurable voltage or current. \"Information\" in the form of an an \"instantanrous\" wave moves at the speed of light.\n\nHow mich data you can send on a channel (one path/method of a single series of measurable changes) is called bandwidth, and has a time factor, say 9.6 gigabits per second. (the transfer speed of WiFi 6)\n\nThat means the channel contains a signal that can transfer a theoretical practical maximim of 9.6Gbps.\n\nIn your house, several devices communicate with the WiFi router and negotiate which channels they can use to transmit data.\n\nAside from different frequencies, there may be other ways such as sharing a channel and alternating sending data.\n\nWiFi has a relatively short range, so the same channel could be reused in a house a few doors away.\n\nModern electronics works at billions of operations per second, enough to decode the inifitesimally small signal changes that are being recieved faster than real time, usually buffering megabytes of data (video, audio) before displaying it on screen.\n\nCompression methods make it so you don't send entire frames of data. In short  your Netflix video is being reconstructed on the fly from keyframes and delta frames in between.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "Alis451",
+                            "body": ">  Do the waves not interfere at all?\n\nAll the time they interfere, but generally only waves on the same frequency you are tuned to, as you can ignore all the other noise(other frequencies you don't use). The 2.4 GHz band(Specific Frequency your WiFi router uses) is open and Public(anyone can use this band), and it is also what Microwaves use, so a leaky Microwave can cause WiFi Interference. Also remember the Pi* r^2 rule, intensity drops off rather quickly the further you are from a source, so you either need a VERY powerful source, or be really close; your WiFi likely doesn't go any further than your house and generally won't interfere with your neighbors.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Plinio540",
+            "body": "It's like a lightbulb that someone is turning on and off to send Morse code.\n\nIf you crank up the speed, and use radiowaves instead of light, you can transmit any information. That's the principle of WiFi.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "PckMan",
+            "body": "It's just radio waves. In fact pretty much all wireless technology is just radio waves but we just don't make the connection because popular wireless protocols have catchy names like Bluetooth or Wifi but it's really just radio waves. \n\nOther than that it's pretty simple the router sends a signal and your device picks it up and they just communicate with each other. It's fairly fast because your device has close proximity to the router. The protocols that handle the routing of the data is also fairly straightforward since it's basically as simple as every device having an \"ID\" so that the router can differentiate between devices.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "AppleWithGravy",
+            "body": "Give your friend a flash light and tell him to blink it once for no and two times for Yes. Now you can yell Yes/no questions to him and he can answer you with blinka of his light. \n\nNow lets do it one step further and give him the ability to answer with words.\n\nThat means we need to be able to spell out letters with the light so lets pretend that a Yes is a 1 and a no is a 0, with a short pause in between each Yes/no.\n\nNow we can say that the orders of 1 and 0s are a letter. \n\nLets say: \n\n01000001 is a A\n01000010 is a B\n01000011 is a C\n\nAnd so on. \n\nNow he can send you full sentences by blinkning his light. \n\nThis is how wifi communicates in simple terms, the computer will send pulses of a specific light that is invisible to us that the router can see with its antenna to send specific strings of letters back the same way.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "tolomea",
+            "body": "It's a color of light you can't see. Also you know how glass is solid but light can get through. Well that's true of walls for some of these colors you can't see.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TheTarragonFarmer",
+            "body": "Like everyone else said: Radio waves.\n\nBonus: Doesn't even need air! Works in vacuum too!",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "LazyDynamite",
+                    "body": "Interesting, what about other appliances? Would it work in say my blender or washing machine?",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "TheTarragonFarmer",
+                            "body": "No, nature abhors a blender :-)",
+                            "score": 4,
+                            "replies": []
+                        },
+                        {
+                            "author": "Far_Dragonfruit_1829",
+                            "body": "2.4 and 5 GHz do not penetrate metal well, so probably not.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "meneldal2",
+                    "body": "You can even get more range with a waveguide, also known as a tube that reflects the waves.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "MeepleMerson",
+            "body": "WiFi is just FM radio. Your WiFi hotspot listens to the channels that Wifi is allowed to use, and picks a channel that's pretty quiet. Your devices send out a radio signal. They send a message that says \"who's out there on each of the channels, and listens for a response -- that's the list of WiFi access points you see.\n\nOnce you've picked an access point and a channel, your device starts talking to the access point: Device: \"I want to connect.\" AP: \"You need a password.\" Device: \"Cool. Can we swap secret codes so that we can swap messages in code? Here's mine.\" AP: \"Awesome. Got it. Here's mine. What's the password, in code, please?\" Device (in code): \"It's 'truknutz1!'. Isn't that clever.\" AP (in code): \"You're in man.\"  \\*sends encded emails\\*\n\nThe radios are digital radios, so instead pulses of radio waves representing noises, they represent on/off of binary computer data.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Sea_Site_4280",
+            "body": "Are we physically walking through a bunch of ones and zeroes?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "zedkyuu",
+            "body": "There are some aspects not covered in comments here that are worthy of mini-ELI5s all their own:\n\n**Modulation and spectral efficiency:** Wifi devices don't just \"send digital pulses through the air\". I'll leave out all the math, but basically, if a wifi device did that, it would run over just about everything else trying to use the airwaves, and consume way more power than necessary in the process. Instead, in order to share the spectrum well, wifi devices re-encode the digital data into other waveforms that play better with other users of the spectrum and also are engineered to be intelligible at the receiver even in the face of distortions. This raises the amusing idea that to send digital data, you have to go analog again, but, well, we've been there since the days of dialup modems. As you might expect, receivers have gotten extremely sophisticated with their strategies for recovering the original transmitted data.\n\n**Integrity check and retries:** Even with all the engineering involved, data does get corrupted in transit. I believe there are general theorems out there relating data rates and capacity to error probabilities, and suggesting that you can get a significant increase in both data rate and capacity in exchange for a tolerable increase in error. To make sure data makes it, there are integrity checks performed at multiple levels, and depending on the application, corrupted data may be resent, or it may be simply dropped and compensated for.\n\n**Multiple access:** Even if wifi devices play well with other types of devices by way of efficient use of the spectrum, they also have to play well with each other. Earlier wifi standards employ a \"collision avoidance\" scheme where they make sure nothing else is transmitting before they attempt to transmit, and then wait for acknowledgement from the access point that the packet was received, retrying appropriately if needed. This is obviously possibly terribly inefficient, so there's also RTS/CTS where devices request an exclusive transmission time window from the access point. Later standards introduce the ability for multiple devices to actually send and receive transmissions simultaneously (beamforming, multiple radios, OFDMA).",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MusicalAnomaly",
+            "body": "All your videos and messages and whatnot are translated into sequences of yesses and nos. Trillions of \u2018em. Then we translate those yes/no sequences into little wiggles in electromagnetic fields. Kind of like if you have a compass pointing north, and then you bring a magnet near it to make it point south. Put a wall in between the compass and the magnet, and now you and a friend can send secret messages to one another wirelessly by having your friend put the magnet near the wall and take it away once per second in a predetermined sequence; then you can look at the compass\u2019s sequence of pointing north and south and decode the message.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Bregirn",
+            "body": "When you talk with someone across the room, you don't necessarily have to be facing them directly, you just need to be loud enough that they can hear you anywhere in the same room.\n\nFundamentally Wi-Fi is similar but instead of ordinary sound, it's using radio frequency (RF). RF sorta needs its own ELI5 so I won't explain it here. Your Wi-Fi device and the Wi-Fi router are both broadcasting in all directions and listening for each other. Every other device nearby can hear it too but they will ignore the messages that aren't meant for them.\n\nMultiple devices on the same network take turns talking so they don't speak over each other, much the same that multiple people in a conversation take turns to talk too. \n\n(You can then expand this out to include modern technologies like MIMO, encryption, etc, etc)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Thick_Parsley_7120",
+            "body": "WiFi sends digital information (bits) in \u201cpackets\u201d of information with a flag, an address, sequence number and the data.  At the other end it is decoded and the bits reassembled to be sent over cable or whatever.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Several-College-584",
+            "body": "Imagine you have agreed to send Morse code ( data) to a friend across the road by blinking your porch light on and off.\u00a0\nNow use light ( radio waves) that are invisible. \u00a0Simple.\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "bjornery",
+            "body": "ELI5: Your Wi-fi devices are expensive walkie-talkie radios. Instead of audio, they broadcast packets of data. Each packet names its destination, and other radios ignore it.   \n  \nELI A little older: There are many layers of technology enabling wi-fi, but fundamentally they are two-way packet radios, usually operating in the 2.4GHz or 5.0GHz frequency bands. Data is cut up into packets, modulated onto their carrier frequency, and broadcast. Intended receivers pick up their packets, demodulate them, and route them.    \n  \nA little deeper and trying to ignore the details of TCP/IP and focusing on the physical layer follows. \n\nFirst, think of traditional, AM/FM analog radio. This is a one way system\u2014your receiver can't transmit back. A transmitter sends audio that is modulated onto a carrier wave at a specific frequency (98.7FM Q-98 Always Rockin' or KFGO The Mighty 790). The M in AM and FM stands for Modulation. Your receiver demodulates that signal and turns it back into audio that eventually comes out of a speaker. It's a quick leap from that to two-way radios like CB, walkie-talkies or cop radios. They do the same thing, but each station can both send and receive. \n\nSecond, think of old-school modems. Modem is short for modulator/demodulator, and is basically the same principle as radio transmission, but over copper phone lines. They took data and converted into packets and modulated it onto the carrier\u2014in this case, audio frequency waves transmitted over regular analog phone lines (POTS\u2014plain old telephone service). \n\nFinally, smash them together. The wi-fi radio in your router and the wi-fi radios in all of your devices have unique IDs called MAC addresses. When a radio transmits a packet, it specifies the destination, and other radios ignore it if it's not addressed to them. \n\nThere are several layers of error correction, but basically, each packet also contains a checksum, which is a value calculated from its contents. If the receiver's checksum doesn't match the sender's, the receiver asks for the packet to be sent again (depending on the protocol).",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ammonkeywall",
+            "body": "It is light that you can't see. It works almost the same way. Just like light goes everywhere but can be blocked and makes shadows, WiFi goes everywhere but can also be blocked by certain things.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "K_Boloney",
+            "body": "All of these comments feel like they\u2019re explaining it to a 12 year old. I need it further dumbed please.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "sjogerst",
+            "body": "Imagine the universe is filled with jello. A radio antenna is like a fork stuck in the jello. A radio grabs the fork and wiggles it. The wiggles propagate through the jello. A fork stuck in the jello at the other end of the room wiggles a little bit. Interpret the wiggles on the 2nd fork and you've just received a radio signal. \n\nWiFi is a fancy name for a radio signal.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Lythinari",
+            "body": "You could probably imagine wireless technology like a group of people(computers, phones etc)who are talking with each other through an organiser(router).\n\nTo answer \u201chow does the wifi router know where to send\u201d One person yells to the organiser who then relays that to the correct person the yelling was for. Other people might hear but they just ignore it.\n\nFor how stuff appears on your computer this has to do with instructions every computer follows for networking; \n\nSometimes the organiser or the destination person doesn\u2019t hear so the person has to yell again.\n\nOn the other end the person might know there is a message for him, he can do two things - he can wait for all the information to be yelled at him and do something with it(tcp) or he can try make out what is being said(udp).\n\nThe organiser and original person knows whether the information is important(tcp) or whether it\u2019s okay to miss a few words(udp)\n\n\n\nTo get more complex; TCP guarantees(back and fourth between clients) that packets have arrived.\n\nUDP guarantee\u2019s that the data will always continue to flow and generally old data is obsolete pretty quickly.\n\n\n\nFor UDP and videos(probably game networking too); this works by sending dedicated frames along with smaller updated frames.\nThe dedicated frames are sent frequently(not the same frame);\nSort of like a message saying\u2026 \n\u201cmeet me at the cinema\u201d(key frame)\nFollowed by \u201cat cinema door 2\u201d(additive frame)\n\u201cWe\u2019ll be at seats\u201d(additive)\n\u201cAt row 6 in seat A\u201d (additive)\n\u201cWe\u2019re at the cinema in 6A\u201d(key frame)\n\u201cBefore you get here\u201d(additive)\n\u201cGet popcorn\u201d(additive)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "IMTDb",
+            "body": "You probably know about morse code.\nYou also probably know that there are colors Beyond what our eyes can see.\n\nA WiFi antenna is like a lightbulb using morse code in colors we don\u2019t see to send data. Your computer just looks at the lightbulb and prints whatever is sent on screen.\n\nIt works through wall and stuff because to these colors; concrete is like tainted glass; you can still see through so it works even if it\u2019s not as clear as before. But if you are very far away and there are many layers you can\u2019t see the lightbulb anymore so it stops working.",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}

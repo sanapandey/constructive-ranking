@@ -1,0 +1,204 @@
+{
+    "title": "But... It really is just Linux ISOs...",
+    "author": "albrugsch",
+    "subreddit": "homelab",
+    "rank": 2,
+    "score": 102,
+    "upvote_ratio": 0.94,
+    "num_comments (reported by reddit)": 30,
+    "url": "https://i.redd.it/9c8itmsr5jpe1.jpeg",
+    "id": "1jeiun6",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "Zacho_3379",
+            "body": "![gif](giphy|rGx9QYRXNCj3W|downsized)",
+            "score": 42,
+            "replies": [
+                {
+                    "author": "Beginning-Syllabub92",
+                    "body": "![gif](giphy|HxMhuDg7O4pKOhhcRC)",
+                    "score": 21,
+                    "replies": [
+                        {
+                            "author": "Obsession5496",
+                            "body": "[https://i.redd.it/vov3noeuptk61.png](https://i.redd.it/vov3noeuptk61.png)",
+                            "score": 4,
+                            "replies": []
+                        },
+                        {
+                            "author": "Zacho_3379",
+                            "body": "![gif](giphy|JhncGNdBoyeKk)",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "cyproyt",
+                    "body": "12\u201d PowerBook G4 spotted",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Tony_TNT",
+            "body": "You can also put Medicat on it, it won't be just Linux ISOs anymore",
+            "score": 10,
+            "replies": [
+                {
+                    "author": "albrugsch",
+                    "body": "Well that's a new one on me. Just been to check it out. Anything with cat pics and Gameboy icons on the homepage must be good \ud83d\udc4d",
+                    "score": 8,
+                    "replies": [
+                        {
+                            "author": "Obsession5496",
+                            "body": "Note to self:\n\n*Add Kitty images into next malware... Kitty playing Gameboy, when done.*",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "albrugsch",
+                                    "body": "I mean if your intended hit quota is for this malware is exactly 1, then suuuure",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "kevin28115",
+                    "body": "So many programs... So much... POWER in my hands.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "LittleCovenousWings",
+                    "body": "The installer for it fucking sucks though I'll give it that. \n\nI like the USB stick, but multiple file parts via drive or pushing like 50gigs through cmd is....a choice.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Tony_TNT",
+                            "body": "Yeah, the cmd is rough. The split file install on the other hand isn't half bad if your hands are tied by the means of distribution but it absolutely slams the CPU.\n\nPaid for the whole core clock, gonna use it all.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "NoobPCGaming",
+                    "body": "Medicat is the best! I use it all the time.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Mathisbuilder75",
+                    "body": "I always keep a USB stick with it in my bag in case of emergencies",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Acceptable-Rise8783",
+            "body": "I like how \u201cLinux ISOs\u201d and \u201c*really* Linux ISOs\u201d are two completely different things",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "albrugsch",
+                    "body": "I'm leaning into the meme hard. My media folders on my NAS are all \"Movie Linux ISOs\", \"TV Linux ISOs\" \"Anime Linux ISOs\" etc",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "zachflem",
+            "body": "Ventoy is the goat.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ExtensionVersion8561",
+            "body": "Hmmmmm",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "CraftyCat3",
+            "body": "Has the drama over the Chinese (blob?) stuff cleared up yet, one way or the other?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MEPSY84",
+            "body": "Funny way to spell 'Arch' ...",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "albrugsch",
+                    "body": "I'm planning on trying a lot of flavours. I ran Manjaro on my L450 ThinkPad for most of its life (it really flew) and on my new installs I want to try out more of the landscape. Not *just* arch based distros...",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Rantu93",
+            "body": "I have an SSD Ventoy that I also use as a regular flash drive. It works really well for both booting iso and storing deployment files. I made another one for work and the guys are jealous. It makes vanilla Windows deployments a breeze. Would recommend.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BeachOtherwise5165",
+            "body": "Ventoy is not safe.",
+            "score": -24,
+            "replies": [
+                {
+                    "author": "msanangelo",
+                    "body": "you're gonna have to elaborate on that, dawg.",
+                    "score": 14,
+                    "replies": []
+                },
+                {
+                    "author": "PaulBag4",
+                    "body": "Why\u2019s that? Not arguing, just curious as have used ventoy before!",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "CiroGarcia",
+                    "body": "How so?",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "albrugsch",
+                            "body": "I'm wondering the same...",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "danny6690",
+                    "body": "Ragebait",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "PM_ME_YOUR_GREENERY",
+                    "body": "[I'm not sure either ](https://discuss.privacyguides.net/t/should-ventoy-users-be-concerned-what-remediations-could-users-take/21593/8)",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "BeachOtherwise5165",
+                    "body": "Lol what's with the downvotes, for pointing out that it likely contains malware.\n\nIt's anecdotal, but one guy commented on how his installer failed the checksum check, suggesting that Ventoy had manipulated the files.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

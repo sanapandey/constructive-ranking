@@ -1,0 +1,353 @@
+{
+    "title": "The Half-Life 2 RTX demo is out on Steam. Is there any chance we could get it working with the VR mod?",
+    "author": "Blake_Thundercock",
+    "subreddit": "virtualreality",
+    "rank": 2,
+    "score": 103,
+    "upvote_ratio": 0.92,
+    "num_comments (reported by reddit)": 53,
+    "url": "https://store.steampowered.com/app/2477290/HalfLife_2_RTX/",
+    "id": "1je7krn",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "YAOMTC",
+            "body": "Ray tracing in VR? What sort of beastly machine would you need for acceptable frame rates? Does it even exist?",
+            "score": 123,
+            "replies": [
+                {
+                    "author": "Equivalent-Web-1084",
+                    "body": "Tbh I have a 2080 super and I couldn\u2019t do half the shit it was capable of but I was getting 60 fps",
+                    "score": 14,
+                    "replies": []
+                },
+                {
+                    "author": "A_Happy_Human",
+                    "body": "Ray tracing is not the only improvement in this version. Better models and textures are enough to make it worth it in VR compared to the original mod, even if ray tracing has to be turned off.",
+                    "score": 39,
+                    "replies": []
+                },
+                {
+                    "author": "arislaan",
+                    "body": "FWIW I spent the last week prototyping VR with Ray Tracing (Note: NOT Path Tracing) in Unity. Their implementation is both inferior and outdated compared to more sophisticated implementations such as Unreal, and their DLSS is still on V1 IIRC.\n\nUsing a Quest 3, the only way to get 90 fps stable in this environment (https://assetstore.unity.com/packages/3d/environments/fantasy/polygon-fantasy-kingdom-low-poly-3d-art-by-synty-164532) was to force DLSS to be at 50% on an overclocked 5090. Note: I also tried creating a low poly terrain with instanced grass & trees (to approximate the kind of foliage coverage you'd expect in a lush, outdoor Ghosts of Tsushima scene), and that crapped performance even more than the millions of polys in the aforementioned kingdom scene (presumably due to overdraw).\n\nI tried all the standard optimization techniques, and they helped a bit, but the moment you try to use Global Illumination (which IMO is the only time Ray Tracing starts to really shine), it's a nightmare.\n\nI suspect running the same test on Unreal might yield slightly better results performance-wise, but I doubt we could use High Quality, for example. Would probably be stuck on DLSS performance mode.\n\nThat being said, I've been running these sorts of tests with every high end card since NVidia started with their RTX branding, and at the rate they're going, I wouldn't be surprised if either 60 or 70 series might be the first to make it feasible at the highest tier of cards, so in the long run we're not that far out.",
+                    "score": 22,
+                    "replies": []
+                },
+                {
+                    "author": "jayvaidy",
+                    "body": "They're not asking if they should, but rather if they could.",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "Devatator_",
+                    "body": "Minecraft Java edition with Sodium + Iris (for shaders) and SEUS PTGI HRR2.1 (the lightest path tracing shader to my knowledge). Teardown (known for using ray/path tracing for rendering everything) too had a VR mod in the works but idk if it got abandoned or is still being worked on",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Blake_Thundercock",
+                    "body": "Outside of the performance hit there's no technical reason why ray tracing couldn't work in VR. In fact it already does for games like F1 24 and a ton of UEVR mods. \n\nBesides, what I'm really more interested in the remastered textures and assets they made for this. Half-Life 2 VR with a Half-Life: Alyx level of fidelity would be the best VR game we've seen so far.",
+                    "score": 8,
+                    "replies": [
+                        {
+                            "author": "YAOMTC",
+                            "body": "The performance hit is the problem. Too low of frame rates makes an awful experience for VR, tends to induce nausea. If you could disable the ray tracing feature though, yeah, that could work great.",
+                            "score": 22,
+                            "replies": [
+                                {
+                                    "author": "cactus22minus1",
+                                    "body": "All you need is 40-45fps if you\u2019re willing to use SSW, which is quite acceptable in many games when using virtual desktop.\n\nI play No Man\u2019s Sky and MS Flight Simulator this way all the time.",
+                                    "score": 9,
+                                    "replies": [
+                                        {
+                                            "author": "Virtual_Happiness",
+                                            "body": "This is one of those super subjective things. Some people can handle reprojection/spacewarp without issue. Others get very nauseated by it.",
+                                            "score": 5,
+                                            "replies": [
+                                                {
+                                                    "author": "cactus22minus1",
+                                                    "body": "Oh for sure. I will say the implementation on VD works a lot better for me than versions implemented in Steam VR or the old decrepit Meta PCVR app.\n\nI don\u2019t recommend \u201cauto\u201d SSW though- the switching into it when your frames drop just adds a very annoying added stutter. So I\u2019ve just identified which games I want to use it and leave it forced on. And then I get to crank my in game settings since I only need to target 45 fps for 90hz playback.",
+                                                    "score": 3,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "WVY",
+                                                    "body": "I think VR glasses need more fps than a monitor for a good experience. I think 120fps would be perfect. If you look at the new VR hardware they keep incre4asing the resolution. We wont be able to keep up with gpu's.",
+                                                    "score": 2,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "Fuck0254",
+                                                    "body": "I don't get physically bothered by it but it looks like shit and isn't immersive at all.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Rob_Cram",
+                    "body": "Kinda works with a 4090 and CP2077 VR mod. Get acceptable frame rates too.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "sonoffi87",
+            "body": "This was discussed in Steam:\n\n\n\"I'd love to try and make HL2:VR:RTX a thing, but thats just a pipe dream for the foreseeable future\u2014Currently RTX Remix is not compatible with HL2VR, since they both hook into the rendering pipeline and abuse it in different and incompatible ways.\n\n\nHaving said that, we are going to be working with other members of this new super-team, on back-porting as much of the shiny new HD content as we can to the old source engine, and putting that into our HL2VR graphics update.\"\n\n\n- WormSlayer (team lead of VR mod)\u00a0",
+            "score": 47,
+            "replies": [
+                {
+                    "author": "MrEfficacious",
+                    "body": "Sounds promising",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "Michelangel0s",
+                    "body": "Niceeeeee !!! will certainly check it out, and this would be massive news in gaming.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "Fuck0254",
+                    "body": "> WormSlayer (team lead of VR mod) \n\nAnd on the RTX team as well, so when he says it's not possible, believe him",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "c94",
+                            "body": "He said it\u2019s not possible to just flip a switch and have it immediately work.  Not that it\u2019s never happening.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "enzo69",
+                    "body": "You guys rock! \u2764\ufe0f",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "evertec",
+            "body": "The team has already said they're planning to backport as much as they can to the VR version. But it could take a while since they wouldn't start till after RTX is fully released.",
+            "score": 26,
+            "replies": []
+        },
+        {
+            "author": "TGB_Skeletor",
+            "body": "5 frames per whatever",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "WVY",
+                    "body": "eye",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "xaduha",
+            "body": "https://www.reddit.com/r/hlvr/comments/15y8xg1/hl2_rtx_viable_in_vr/mhl6y2m/?context=3",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "camatthew88",
+            "body": "Sure. We can have rtx in vr when the 20090 series is announced by nvodia",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "arashi256",
+                    "body": "But you'll need to sell your house to afford it!",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Virtual_Happiness",
+                            "body": "Just live in the GPU. It should be big enough.",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "camatthew88",
+                                    "body": "Comes with free heating too. Fire up crysis when you are cold.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "RepostSleuthBot",
+            "body": "This link has been shared 8 times.\n\nFirst Seen [Here](https://redd.it/1gr58pg) on 2024-11-14. Last Seen [Here](https://redd.it/1je5s6p) on 2025-03-18\n\n---\n\n**Scope:** Reddit | **Check Title:** False | **Max Age:** None | **Searched Links:** 0 | **Search Time:** 0.00666s",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "mrcachorro",
+            "body": "Standalone probably can run it \n\n-quest kids",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "fdruid",
+                    "body": "Or rather, similar to those kids who say they  run VR off their Steam Deck",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "mrcachorro",
+                            "body": "... Idk man, this actually sounds way more viable.\n\nLike not running pcvr games but, but im sure the SD would have and easier time handling lobotomized questified games, IF the hardware could handle the .apks\n\n\nLast i checked the hardware was more powerful in the SD, but not as well optimized for vr(?) like the quests or something like that.\n\nIn any case ive seen Alyx VR running off a steam deck so...",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "fdruid",
+                                    "body": "Wait, no APKs, I mean they run SteamVR games. Emulating Android for VR sounds even worse. \n\nBut yeah, some people are going for trying VR on a Steam Deck, they don't know better or are ultra broke, dunno.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "fdruid",
+            "body": "RTX does not go well with VR...Or good fps rates for that matter.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Seaweed-Electronic",
+            "body": "My 5090 is ready!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "maddix30",
+            "body": "Dude I cant even get the game to go past the menu without crashing",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "CrossroadsMafia",
+            "body": "Pretty sure it's the full release, does not say Demo anywhere that I can see?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Vapormonkey",
+            "body": "Resident evil 4 mod with dlss4 on performance works with ray tracing enabled on my 4070 super. Def playable. I turn it off tho cus less latency the better but id imagine a more powerful computer could handle it. Didn\u2019t find ray tracing in re4 all that impressive even on flat screen so it is what it is",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DamianKilsby",
+            "body": "Maybe in a decade",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "hobyvh",
+            "body": "Yeah, I think not without some astonishing efficiency improvement but man, that suit energy dispenser would certainly look amazing in VR.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Fluffy-Anybody-8668",
+            "body": "I've been using cyberpunk 2077 overdrive in VR so I guess it will be possible soon",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "kuItur",
+            "body": "Half-Life 2 VR devs have said it's not feasible due to performance issues.\u00a0 Possibly only the 5090 could hack it, at a push maybe the 4090 but for everyone else the performance with RT-on just won't be there.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Equivalent-Web-1084",
+                    "body": "Debatable. DLSS 4 ai could split the difference.",
+                    "score": -2,
+                    "replies": [
+                        {
+                            "author": "kuItur",
+                            "body": "HL2-RTX at 4K-Ultra with DLSS-Performance with my 4080S/5800x3D gives me 40fps average.\n\n\nVR would require more than 4k resolution.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "WVY",
+                                    "body": "Thats the bottom line, if you want a good PC VR experience you need a 6090Ti",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "MultiverseRedditor",
+                    "body": "Why are we rendering everything twice, when we could just use 1 viewport with 1 or even 2 with some sort of play back? scan the screen and add a buffer, do not count the polys for the second version.  Then surely we could have RTX no?  might be missing something like depth perception, but I find it weird (maybe Im missing knowledge) why we do that with no work arounds.",
+                    "score": -4,
+                    "replies": [
+                        {
+                            "author": "maddix30",
+                            "body": "its the same as 3D glasses in the way that the 3D affect is achieved through 2 different perspectives. Sure you could figure out a post process pipeline to sort of \"clone\" 1 perspective but that would add extra time to render each frame meaning best case theres a delay between what you do and when you see it and worst case you get stutters as it cant keep up with the 90+fps. Its more of a headache because the 2 perspectives also have to be somewhat different (you can experiment with this by closing 1 eye and then the other and observing the difference in what you can see) so basically it would be a mess if not implemented properly and a ballache to get a good and authentic experience out of it.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "MultiverseRedditor",
+                                    "body": "Fair enough, I thought we'd atleast by now have working solutions especially given 5090 itself uses AI to generate and maintain frames, you'd think they'd incorporate that into the headsets themselves, but targetted towards the rendering process, which Im sure it does on some levels, but yeah I guess it is a pretty big issue.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "maddix30",
+                                            "body": "Oh yeah I am sure that it will become a thing eventually but as frame gen exists today I dont think it would be good enough for it to be comfortable. It depends I guess some people are sensitive to input delay (I am anyway) so I dont use frame-gen but yeah who knows the next quest might have a solution using AI that doesnt feel ass",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "FolkSong",
+                            "body": "I'm not sure how commonly it's used but there is an optimization technique called [Single Pass Stereo](https://developer.nvidia.com/vrworks/graphics/singlepassstereo). It's available in Unreal Engine and Unity at least.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "MultiverseRedditor",
+                                    "body": "Well, there you go Nivida have done it haha I think its literally them just pushing the two views together overlapping, but doing it programmatically would mean its more efficient because they're wasting the space behind the overlap, instead it blends with no waste-age. \n\nThey're also in that as you can see from the diagram actually incorporating the capability for two eye perspectives to be rendered, so no need to copy, to what gets captured is captured with also no wastage.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "scytherman96",
+            "body": "I mean, it's theoretically possible, but if you wanted it to run with the actual Path Tracing you're probably gonna have to wait like several GPU generations for good quality still lol.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "kuksthedefiled",
+            "body": "This barely works on 3060/4060 in 1080p",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}

@@ -1,0 +1,894 @@
+{
+    "title": "[TDM] Taigam, Master Opportunist (WeeklyMTG)",
+    "author": "mweepinc",
+    "subreddit": "magicTCG",
+    "rank": 15,
+    "score": 725,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 136,
+    "url": "https://i.redd.it/do4j2e2jfhpe1.png",
+    "id": "1jeadr8",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "RealityPalace",
+            "body": "Wow, Suspend as a cameo mechanic? That's a lot of extra complexity.",
+            "score": 288,
+            "replies": [
+                {
+                    "author": "thewend",
+                    "body": "4 full lines of extra text to explain the spaghetti that suspend is",
+                    "score": 96,
+                    "replies": [
+                        {
+                            "author": "Thatdamnnoise",
+                            "body": "Apparently needed it, I had no idea that suspended creatures gain haste.",
+                            "score": 65,
+                            "replies": [
+                                {
+                                    "author": "ep29",
+                                    "body": "Yup. And that's because in playtesting ***EVERYONE*** assumed you could attack with a creature the turn it comes in even though the OG mechanic as written in design/development didn't have that clause.",
+                                    "score": 52,
+                                    "replies": [
+                                        {
+                                            "author": "TheRealArtemisFowl",
+                                            "body": "Woah really? Interesting, that sounds so counter-intuitive to me, I wonder why that is. Would you have a link to a source by any chance?",
+                                            "score": 4,
+                                            "replies": [
+                                                {
+                                                    "author": "ep29",
+                                                    "body": "I know Rosewater has talked about it in a few episodes of Drive To Work. \n\nBut to paraphrase what I remember, basically Suspend gives creatures haste for 3 main reasons:\n\n1) The original suspend cards were costed in an on-curve way and that simply suspending them wasn't diverse enough mechanically.\n\n2) The Suspend spells already had haste in a sense in that they're sorceries being played at instant speed when they come off suspend and they felt this cohesion was a good idea.\n\n3) Everyone was playing them like they had haste and it wasn't a battle worth fighting.",
+                                                    "score": 16,
+                                                    "replies": [
+                                                        {
+                                                            "author": "zehamberglar",
+                                                            "body": "I think people at the time were basically playing it like reverse-vanishing/fading. Funnily enough, that's basically what Impending is.",
+                                                            "score": 2,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Breaking-Away",
+                                                                    "body": "Impending triggering at EOT sidesteps the whole problem, since its after combat anyway.",
+                                                                    "score": 2,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "ii_V_I_iv",
+                                                    "body": "MaRo said on his podcast that people were like \u201cI just waited three turns for this thing to come out and I STILL can\u2019t attack with it?\u201d and wizards felt like yeah, it makes sense that you should be able to do whatever the turn it comes in so they changed it to include haste",
+                                                    "score": 6,
+                                                    "replies": [
+                                                        {
+                                                            "author": "torrinage",
+                                                            "body": "Yeah it even makes sense flavorwise with summoning sickness, since it wouldnt have summoning sick as it was \u2018summoned\u2019 quite a while ago",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "babatazyah",
+                                                    "body": "I don't have a link handy but I remember it being in one of Maro's convention seminars. It might have been the \"20 Worst Mechanics\" one?",
+                                                    "score": 2,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "No-Chapter-779",
+                                                    "body": "Here is one retelling at lesson # 1 \n\n[https://magic.wizards.com/en/news/making-magic/twenty-years-twenty-lessons-part-1-2016-05-30](https://magic.wizards.com/en/news/making-magic/twenty-years-twenty-lessons-part-1-2016-05-30)\n\n  \n\\>My first lesson begins back in October of 2006 with the set\u00a0*Time Spiral*. In it, we had a mechanic called suspend.\n\n\\>Suspend was a mechanic that let you trade time for money\u2014or mana, in\u00a0*Magic*'s case. Normally when you play a spell it resolves right away; with suspend, you got to pay much less for it, but in exchange you had to wait some number of turns before it got cast. Let's take the card\u00a0\\[\\[[Errant Ephemeron](https://gatherer.wizards.com/Pages/Card/Details.aspx?name=Errant+Ephemeron)\\]\\]\u00a0as an example.\n\n\\>If you want to cast this card normally, it takes seven mana\u2014but if you cast it with suspend, it only takes two mana. The catch is that you have to wait four turns before it enters the battlefield. So, here was the problem. In playtesting, we found that players kept wanting to attack with the suspended creatures as soon as they were cast. But the\u00a0*Magic*\u00a0rules don't normally allow creatures to attack the turn you cast them unless they have the ability haste, which lets you override this rule.\n\n\\>When we explored the issue, what we found was that because they had waited so long to get the suspended creature, players associated the creatures finally getting cast with them mattering, so it felt appropriate to attack with them right away.\n\n\\>We tried rewriting the cards to remind the players that they weren't allowed to attack. We tried visual cues. We considered having the creatures enter the battlefield after combat so they wouldn't be able to attack. In the end, the solution was actually a simple one\u2014let the players attack. We gave all suspended creatures haste so that the players could just do what they expected. This leads us to my first lesson:\n\n**>Lesson #1\u2014Fighting against human nature is a losing battle**\n\n\\>In game design (and most things where you interact with an audience), there's a saying: \"Know your audience.\" Well, guess what? Your audience for game design is humans. They come with a complex operating system. It's quirky at times, but it can be understood. Just remember that humans are quite stubborn. They like to do things the way they like to do them and it's hard to change their behavior.\n\n\\>What I've learned over the years is that you shouldn't change your players to match your game; you should change your game to match your players. Don't get yourself into a fight you're probably not going to win. Human behavior is a powerful force. We are creatures of habit and instinctually fear change. Yes, there are things that come along\u2014like the cell phone\u2014that humans change their behavior around, but don't assume your game is going to be one of those revolutionary things.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "geoffreygoodman",
+                                    "body": "This reminder text is how I just now learned the suspend rules changed. Apparently in Feb 2024 they made it so you *may* cast the suspended spell. You are no longer required to.\n\n\nThat it was required to cast the card was relevant with [[Phthisis]] in Time Spiral. There's also a [cool story](https://www.reddit.com/r/magicTCG/comments/4ilb0c/comment/d2zcncx/?utm_source=share&utm_medium=mweb3x&utm_name=mweb3xcss&utm_term=1&utm_content=share_button) of a neat play someone made involving that fact.",
+                                    "score": 15,
+                                    "replies": [
+                                        {
+                                            "author": "MTGCardFetcher",
+                                            "body": "[Phthisis](https://cards.scryfall.io/normal/front/9/8/98b84356-fa97-4f61-bd84-e8efd7f46e38.jpg?1631586724) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Phthisis) [(SF)](https://scryfall.com/card/afc/105/phthisis?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/98b84356-fa97-4f61-bd84-e8efd7f46e38?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                                            "score": 2,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "eggmaniac13",
+                                            "body": "Yeah, they had some feels-bads with the [[David Tennant]] deck in playtesting due to it so they decided to change the rule. Oh well",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "MTGCardFetcher",
+                                                    "body": "[David Tennant](https://cards.scryfall.io/normal/front/b/3/b3ccc905-bd43-4925-8eb9-fb9abcc81e29.jpg?1712354654) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Void%20Attendant) [(SF)](https://scryfall.com/card/otc/212/void-attendant?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/b3ccc905-bd43-4925-8eb9-fb9abcc81e29?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "eggmaniac13",
+                                                            "body": "[Damn, almost had 'em](https://scryfall.com/card/who/3/the-tenth-doctor)",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "WyrmWatcher",
+                                    "body": "Oh wow, only now I realized he does this for EVERY spell, not just non-creature spells.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "ZenEngineer",
+                            "body": "When you \"Play\" it, that would mean cast right? So it would count for this creature to look for a second cast?",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "Athildur",
+                                    "body": "'Play' means to either play a land card or cast a spell. In this case, it would mean casting the spell, yes.",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "ZircoSan",
+                            "body": "on the upside, it's pretty intuitive what the card is trying to do, only the haste on the creature sounds obscure.\n\nThe bigger issue is that it generates a lot of copies of different permanents so it's hard to track logistically, as well as having 3 different cards with different amount of time counters by turn 5 ( easy to switch them or cheat a time counter).\n\nAfter reading it twice, at least it's using the original physical card as the suspend, which makes it easier to track which is what.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "aslatts",
+                    "body": "Piggybacking for a random question, what's the rules purpose for the \"If it doesn't have suspend\" clause?\n\nI'm assuming it's something to do with the rules specifics of how counters or casting are dealt with once the card is suspended.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "apep0",
+                            "body": "Multiple instances of suspend would each trigger to remove a counter during your upkeep. They would also each trigger to cast the spell when the last counter is removed, but only the first to resolve would succeed.",
+                            "score": 13,
+                            "replies": [
+                                {
+                                    "author": "aslatts",
+                                    "body": "Ah yeah that makes sense.\n\nInteresting they choose to keep using the \"if it doesn't have suspend\" clause instead of making it so multiple instances of suspend still only remove one counter, but I guess it doesn't come up enough to really matter.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Terrietia",
+                            "body": "> what's the rules purpose for the \"If it doesn't have suspend\" clause\n\nIt's because time counters don't do anything by themselves. They're just a specific type of counter. Suspend isn't the only thing that uses time counter. Examples: vanishing mechanic, like [[Dreamtide Whale]], or cards like [[As Foretold]], [[Cursed Recording]]\n\nThe suspend keyword itself is what allows you to cast cards exiled with time counters. I also don't believe that cards are considered suspended if they don't have the suspend keyword, which is relevant for effects that can add/remove counters to suspended cards.\n\nI think [[Alaundo the Seer]] is the only card/mechanic outside of suspend that allows you to play exiled cards with time counters by removing the time counters. Though, you could technically play exiled cards like Squee, the Immortal if they got suspended.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "MTGCardFetcher",
+                                    "body": "#####&#009;\n\n######&#009;\n\n####&#009;\n\n[*All cards*](https://mtgcardfetcher.nl/redirect/miid38t)  \n[Dreamtide Whale](https://cards.scryfall.io/normal/front/f/d/fd7dc03e-2a61-482a-b7eb-6cdb7f375fd8.jpg?1717011684) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Dreamtide%20Whale) [(SF)](https://scryfall.com/card/mh3/59/dreamtide-whale?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/fd7dc03e-2a61-482a-b7eb-6cdb7f375fd8?utm_source=mtgcardfetcher&format=text)  \n[As Foretold](https://cards.scryfall.io/normal/front/c/4/c468b523-84fc-4657-adef-acc1eec6ef2e.jpg?1673147199) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=As%20Foretold) [(SF)](https://scryfall.com/card/2x2/38/as-foretold?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/c468b523-84fc-4657-adef-acc1eec6ef2e?utm_source=mtgcardfetcher&format=text)  \n[Cursed Recording](https://cards.scryfall.io/normal/front/d/1/d13a247c-c941-488a-b13b-bffb1f1f368a.jpg?1726286337) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Cursed%20Recording) [(SF)](https://scryfall.com/card/dsk/131/cursed-recording?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/d13a247c-c941-488a-b13b-bffb1f1f368a?utm_source=mtgcardfetcher&format=text)  \n[Alaundo the Seer](https://cards.scryfall.io/normal/front/b/2/b22c33bb-47fe-4334-9105-00f4b87811bd.jpg?1674137390) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Alaundo%20the%20Seer) [(SF)](https://scryfall.com/card/clb/264/alaundo-the-seer?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/b22c33bb-47fe-4334-9105-00f4b87811bd?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "None",
+                    "body": "[deleted]",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "randomdragoon",
+                            "body": "Well, impending is also one of those mechanics that's like, 4 mechanics in a trenchcoat.",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "mweepinc",
+            "body": "[Borderless clan treatment](https://i.imgur.com/lWt0h5i.png)",
+            "score": 63,
+            "replies": [
+                {
+                    "author": "willweaverrva",
+                    "body": "The borderless art is AMAZING",
+                    "score": 37,
+                    "replies": []
+                },
+                {
+                    "author": "WexAwn",
+                    "body": "oh man, if all the borderless clan treatments have a black background, consider me in",
+                    "score": 13,
+                    "replies": []
+                },
+                {
+                    "author": "Mewtwohundred",
+                    "body": "Daaaaayum",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "ThisHatRightHere",
+                    "body": "Ugh, I hate that frame design",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "Kale_Shai-Hulud",
+                            "body": "I bet they look good on the table but man, the standard art is so nicely done, the borderless just looks rough.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "SuburbanPotato",
+            "body": "The logical answer: this goes in \\[\\[Narset, Jeskai Waymaster\\]\\]\n\nMy answer: it is time for \\[\\[Obeka, Splitter of Seconds\\]\\] to pop off",
+            "score": 56,
+            "replies": [
+                {
+                    "author": "TASTY_TASTY_WAFFLES",
+                    "body": "Jank for the jank god!",
+                    "score": 8,
+                    "replies": []
+                },
+                {
+                    "author": "MTGCardFetcher",
+                    "body": "[Narset, Jeskai Waymaster](https://cards.scryfall.io/normal/front/6/b/6b77cbc1-dbc8-44d9-aa29-15cbb19afecd.jpg?1740393669) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Narset%2C%20Jeskai%20Waymaster) [(SF)](https://scryfall.com/card/tdm/209/narset-jeskai-waymaster?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/6b77cbc1-dbc8-44d9-aa29-15cbb19afecd?utm_source=mtgcardfetcher&format=text)  \n[Obeka, Splitter of Seconds](https://cards.scryfall.io/normal/front/0/3/03415c42-086e-4a2e-9be8-5cdcde83f134.jpg?1712356168) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Obeka%2C%20Splitter%20of%20Seconds) [(SF)](https://scryfall.com/card/otj/222/obeka-splitter-of-seconds?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/03415c42-086e-4a2e-9be8-5cdcde83f134?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "Jackeea",
+                    "body": "My \"aha! wait, uh, dammit\" thought was putting it in [[Ojer Pakpatiq]]",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "MTGCardFetcher",
+                            "body": "[Ojer Pakpatiq](https://cards.scryfall.io/normal/front/a/9/a9d71007-bc04-4dff-ad3f-e2c0b5b4400e.jpg?1699043854)/[Temple of Cyclical Time](https://cards.scryfall.io/normal/back/a/9/a9d71007-bc04-4dff-ad3f-e2c0b5b4400e.jpg?1699043854) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=ojer%20pakpatiq%2C%20deepest%20epoch%20//%20temple%20of%20cyclical%20time) [(SF)](https://scryfall.com/card/lci/67/ojer-pakpatiq-deepest-epoch-temple-of-cyclical-time?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/a9d71007-bc04-4dff-ad3f-e2c0b5b4400e?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                            "score": 0,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "ZenEngineer",
+                    "body": "Would [[The Tenth Doctor]]'s ability be too expensive to abuse this?\n\n\n[[Bumbleflower]] wants you to cast two spells a turn anyway.\n\nAnd of course this could be a commander.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "MTGCardFetcher",
+                            "body": "[The Tenth Doctor](https://cards.scryfall.io/normal/front/f/1/f1499f49-793b-4265-9ad0-883a431941ab.jpg?1696636503) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=The%20Tenth%20Doctor) [(SF)](https://scryfall.com/card/who/3/the-tenth-doctor?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/f1499f49-793b-4265-9ad0-883a431941ab?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "McWaffeleisen",
+                            "body": "> Would [[The Tenth Doctor]]'s ability be too expensive to abuse this?\n\nI'll definitely try it. If you manage to cast two suspended spells in the same upkeep, you can copy the better one, which is also a neat interaction in that deck.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "r4v3nh34rt",
+                            "body": "Use a white doctor's\u00a0 companion and you can put [[Zirda, the Dawnwaker]] in\n\n\nGreen companion gets you [[Biomancer's Familiar]] and [[Agatha of the Vile Cauldron]]",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "MTGCardFetcher",
+                                    "body": "#####&#009;\n\n######&#009;\n\n####&#009;\n\n[*All cards*](https://mtgcardfetcher.nl/redirect/miibps8)  \n[Zirda, the Dawnwaker](https://cards.scryfall.io/normal/front/1/b/1bd8e61c-2ee8-4243-a848-7008810db8a0.jpg?1737912361) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Zirda%2C%20the%20Dawnwaker) [(SF)](https://scryfall.com/card/iko/233/zirda-the-dawnwaker?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/1bd8e61c-2ee8-4243-a848-7008810db8a0?utm_source=mtgcardfetcher&format=text)  \n[Biomancer's Familiar](https://cards.scryfall.io/normal/front/d/3/d38c9891-36d1-4565-9c4a-1cd9dbf8c048.jpg?1584831407) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Biomancer%27s%20Familiar) [(SF)](https://scryfall.com/card/rna/158/biomancers-familiar?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/d38c9891-36d1-4565-9c4a-1cd9dbf8c048?utm_source=mtgcardfetcher&format=text)  \n[Agatha of the Vile Cauldron](https://cards.scryfall.io/normal/front/d/6/d6c48f07-63b7-4a60-8da6-ce77405abf1e.jpg?1693248393) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Agatha%20of%20the%20Vile%20Cauldron) [(SF)](https://scryfall.com/card/woe/199/agatha-of-the-vile-cauldron?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/d6c48f07-63b7-4a60-8da6-ce77405abf1e?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Outfox3D",
+                            "body": "It probably would be too expensive on its own, but the good news is that Tenth Doctor's gonna be suspending other cards and time-travel will let you mess with all your suspended cards, so it's a value multiplier in a Tenth-Doctor deck.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "pm_me_plothooks",
+                    "body": "My \\[\\[Saruman of Many Colors\\]\\] deck is also going to try this.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "MTGCardFetcher",
+                            "body": "[Saruman of Many Colors](https://cards.scryfall.io/normal/front/8/c/8cfcc7ec-87a2-4712-8d82-217bd8600891.jpg?1686969983) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Saruman%20of%20Many%20Colors) [(SF)](https://scryfall.com/card/ltr/223/saruman-of-many-colors?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/8cfcc7ec-87a2-4712-8d82-217bd8600891?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "OkPaleontologist3377",
+                    "body": "Goes strait in my Jeskai Gandalf deck, great Combo piece and Playoff\ud83d\ude0d",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Justwant-toplaycards",
+            "body": "So you cast the copy and the real one gets suspend?",
+            "score": 78,
+            "replies": [
+                {
+                    "author": "Hoferweg",
+                    "body": "It might be important to note that you don't cast the copy, it just goes on the stack",
+                    "score": 56,
+                    "replies": [
+                        {
+                            "author": "PriceVsOMGBEARS",
+                            "body": "Every time I play riku I have to constantly say COPIES ARE NOT CAST",
+                            "score": 18,
+                            "replies": [
+                                {
+                                    "author": "CardinalFool",
+                                    "body": "Unless it explicitly says you may cast it lol",
+                                    "score": 9,
+                                    "replies": [
+                                        {
+                                            "author": "r4v3nh34rt",
+                                            "body": "[[Arcane Bombardment]] my beloved",
+                                            "score": 5,
+                                            "replies": [
+                                                {
+                                                    "author": "MTGCardFetcher",
+                                                    "body": "[Arcane Bombardment](https://cards.scryfall.io/normal/front/e/f/ef7e6e2d-d984-483e-b117-b1c5d640dc23.jpg?1712354373) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Arcane%20Bombardment) [(SF)](https://scryfall.com/card/otc/154/arcane-bombardment?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/ef7e6e2d-d984-483e-b117-b1c5d640dc23?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "bleachisback",
+                                    "body": "Copies of spells aren\u2019t, but copies of cards often are.",
+                                    "score": 4,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "MajesticNoodle",
+                                    "body": "*laughs in* [[Kaervek, the Punisher]]",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "MTGCardFetcher",
+                                            "body": "[Kaervek, the Punisher](https://cards.scryfall.io/normal/front/7/f/7f3affc1-be42-48c7-89ff-b59550ff278c.jpg?1712355608) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Kaervek%2C%20the%20Punisher) [(SF)](https://scryfall.com/card/otj/92/kaervek-the-punisher?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/7f3affc1-be42-48c7-89ff-b59550ff278c?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "ZenEngineer",
+                            "body": "So you get the cast trigger of the original and the copy trigger? Do you get the cast trigger again when the suspend ends? \n\nMight be interesting with some Eldrazi",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "Zeckenschwarm",
+                                    "body": "~~Yes, if you cast an instant in response to the suspend ability triggered when you remove the last time counter, the spell coming off suspend would again be the second spell you cast in that turn and Taigam would copy/suspend it again.~~\n\nNevermind, I completely misunderstood your question. No, you do not get cast triggers when you copy a spell. You would get another cast trigger when suspend ends.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "ZenEngineer",
+                                            "body": "I meant you cast your Eldrazi, get its cast trigger (you did not manually suspend the card, you cast it), then Taigam exiles with suspend, then a copy is made (no cast trigger), a token Eldrazi enters, etc.\n\n4 turns later the original Eldrazi sheds its last time counter and you cast it, getting its cast trigger again.\n\nSo you get two triggers from the Eldrazi. More if you can chain them as you mentioned.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Zeckenschwarm",
+                                                    "body": "Yes, you're correct.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "KaptainKobb",
+                    "body": "Seems so!",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "Quartzecoatl",
+                    "body": "Probably because exiling copies generally removes them from the game.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Frank_the_Mighty",
+            "body": "Gross with extra turn cards, lol",
+            "score": 14,
+            "replies": []
+        },
+        {
+            "author": "Parking-Weather-2697",
+            "body": "[[Obeka, Splitter of Seconds]] loves this",
+            "score": 10,
+            "replies": [
+                {
+                    "author": "MTGCardFetcher",
+                    "body": "[Obeka, Splitter of Seconds](https://cards.scryfall.io/normal/front/0/3/03415c42-086e-4a2e-9be8-5cdcde83f134.jpg?1712356168) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Obeka%2C%20Splitter%20of%20Seconds) [(SF)](https://scryfall.com/card/otj/222/obeka-splitter-of-seconds?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/03415c42-086e-4a2e-9be8-5cdcde83f134?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "AporiaParadox",
+            "body": "Cameo mechanics are always fun.",
+            "score": 18,
+            "replies": []
+        },
+        {
+            "author": "JasonAnderlic",
+            "body": "So I just need a bit of clarity:\n\n1. You cast your second spell\n2. You make a copy of it\n3. You suspend the original\n\nWhen this resolves, do you get the original cast and a copy? Then in 4 turns get another cast? Or do you ONLY get the copy and the original is removed from the stack ?",
+            "score": 11,
+            "replies": [
+                {
+                    "author": "malfunktionv2",
+                    "body": "Exiling the first spell removes it from the stack, so you only get the effects of the copy.",
+                    "score": 12,
+                    "replies": []
+                },
+                {
+                    "author": "emiketts",
+                    "body": "The original does not resolve, only the copy. The original goes from the stack to exile.",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "cleverpun0",
+            "body": "Does this work with [[veyran]]? Or does the spell being suspended prevent the second copy from happening?",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "Boulderdrip",
+                    "body": "Taiga will make two copies because of veyran, but you won\u2019t get two copies of the suspended card",
+                    "score": 10,
+                    "replies": [
+                        {
+                            "author": "Stormtide_Leviathan",
+                            "body": "Which also means that casting that spell is gonna give Veyran +6/+6",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Shadethewolf0",
+                    "body": "Veryran does let the spell get copied twice. The spell will only suspend once since its already in exile. \n\nI'm actually gonna brew a clone list just to copy as many spells as humanly possible with a taigam commander. Should be fun",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "MTGCardFetcher",
+                    "body": "[veyran](https://cards.scryfall.io/normal/front/f/3/f34cd711-55b2-4802-9878-d22314c0cc9c.jpg?1712354807) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=veyran%2C%20voice%20of%20duality) [(SF)](https://scryfall.com/card/otc/248/veyran-voice-of-duality?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/f34cd711-55b2-4802-9878-d22314c0cc9c?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Zeckenschwarm",
+            "body": "Interesting that Taigam can copy *any* spell, including creature spells.",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "MooseyMcMooseface",
+                    "body": "Yeah for your big threat spells it's like a delayed insurance policy I kinda like it.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "zukomu",
+            "body": "I love how this kind of throws back to DTK's use of Rebound [[artful maneuver]] [[blessed reincarnation]]",
+            "score": 11,
+            "replies": [
+                {
+                    "author": "MTGCardFetcher",
+                    "body": "[artful maneuver](https://cards.scryfall.io/normal/front/7/f/7fcaf67e-ba97-4af9-8c47-dbca703cba35.jpg?1562788984) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=artful%20maneuver) [(SF)](https://scryfall.com/card/dtk/4/artful-maneuver?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/7fcaf67e-ba97-4af9-8c47-dbca703cba35?utm_source=mtgcardfetcher&format=text)  \n[blessed reincarnation](https://cards.scryfall.io/normal/front/4/0/401cd79d-638e-43b4-8d0c-d7af05c55a1a.jpg?1562785260) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=blessed%20reincarnation) [(SF)](https://scryfall.com/card/dtk/47/blessed-reincarnation?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/401cd79d-638e-43b4-8d0c-d7af05c55a1a?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "sad_panda91",
+            "body": "Step 1: Send a bunch of spells to the future\n\nStep 2: ???\n\nStep 3: Profit\u00a0",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "tree_warlock",
+            "body": "ooh! How cool!",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Shadethewolf0",
+            "body": "Would be a hilarious commander with a bunch of clones. Gonna copy clones for each clone I have, and have the suspended clone start it all over in a few turns. I even have [[clockspinning]] in my collection ready to go",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "MTGCardFetcher",
+                    "body": "[clockspinning](https://cards.scryfall.io/normal/front/1/3/1323d548-e2fe-47c5-8df3-f181aed537c5.jpg?1562899044) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=clockspinning) [(SF)](https://scryfall.com/card/tsp/53/clockspinning?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/1323d548-e2fe-47c5-8df3-f181aed537c5?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Enjoi_BuD",
+            "body": "[[Neera, Wild Mage]] is going to love flurry",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "MTGCardFetcher",
+                    "body": "[Neera, Wild Mage](https://cards.scryfall.io/normal/front/e/5/e5431f73-9a70-47dc-b5d4-7f43e41b878e.jpg?1674137627) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Neera%2C%20Wild%20Mage) [(SF)](https://scryfall.com/card/clb/288/neera-wild-mage?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/e5431f73-9a70-47dc-b5d4-7f43e41b878e?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Derpyologist1",
+            "body": "[[twinning staff]]",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "MTGCardFetcher",
+                    "body": "[twinning staff](https://cards.scryfall.io/normal/front/5/c/5cdcc324-1427-453c-9940-c21f5d04c997.jpg?1673485509) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=twinning%20staff) [(SF)](https://scryfall.com/card/ncc/383/twinning-staff?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/5cdcc324-1427-453c-9940-c21f5d04c997?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Lord_Snaps",
+            "body": "YEAH BOOOOY! Now I just need a Esper Taigam so I can make Treason Season Taigam commander deck",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Michauxonfire",
+            "body": "How is this fucker still around? Wasn't he even older than Narset? Heck Zurgo is also around.\nWizards can't let go of named characters.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "baked_bads",
+            "body": "As if the Domain Deck wasn't strong enough.\n\nIf an object enters as a copy of a permanent that was cast with its impending cost, it won't enter with time counters, and it will be a creature.\n(2024-09-20)",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Stormtide_Leviathan",
+                    "body": "This is copying the *spell* though, not the permanent it becomes, which is slightly different, and I believe in this case the copy will carry over that it was impended, just like how copying a kicked spell gets you the kicker effect",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Anaxamander57",
+            "body": "Taigami: \"Rebound was good but what if I personally invented a worse version of it?\"",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Kale_Shai-Hulud",
+                    "body": "How many creatures have rebound on them?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Machdame",
+            "body": "Welp, the Eunuch is back.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Kr4b5",
+            "body": "Does this set symbol mean he's not in a precon? The commander cards have a different one",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "malfunktionv2",
+                    "body": "This is the premier (standard) set symbol for Dragonstorm",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "Gierrtheviking",
+                    "body": "Correct. TDM is the main set, TDC is the commander set.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "B4R0Z",
+            "body": "Does this work with Temporal Trespass the way I think it does?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "JacobHarley",
+            "body": "All the comments in this thread gained suspend I guess.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "tocalomagirl",
+            "body": "To add or not to add to [[jhoira of the ghitu]] \ud83e\udd14",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "MTGCardFetcher",
+                    "body": "[jhoira of the ghitu](https://cards.scryfall.io/normal/front/a/a/aa6c3c8a-aa35-46b3-8769-27b4244457b0.jpg?1619404030) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=jhoira%20of%20the%20ghitu) [(SF)](https://scryfall.com/card/tsr/256/jhoira-of-the-ghitu?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/aa6c3c8a-aa35-46b3-8769-27b4244457b0?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "tocalomagirl",
+            "body": "To add or not to add to [[jhoira of the ghitu]] \ud83e\udd14",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "MTGCardFetcher",
+                    "body": "[jhoira of the ghitu](https://cards.scryfall.io/normal/front/a/a/aa6c3c8a-aa35-46b3-8769-27b4244457b0.jpg?1619404030) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=jhoira%20of%20the%20ghitu) [(SF)](https://scryfall.com/card/tsr/256/jhoira-of-the-ghitu?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/aa6c3c8a-aa35-46b3-8769-27b4244457b0?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "PlacatedPlatypus",
+            "body": "Ah, so \"Flurry\" is the newly ability-worded mechanic that has shown up a lot before from the spoiler.\n\nI really wonder what the RW draft archetype is going to be??? Seems to be very little mechanical overlap between Jeskai and Mardu mechanics, unlike some of the other combos.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Stormtide_Leviathan",
+                    "body": "A lot of the flurry cards, especially at lower rarities, are probably gonna be a simple combat reward. Getting +2/+2 or gaining a keyword until end of turn or whatever. So the overlap might just be simple aggro; aggro works somewhat well with flurry in both wanting cheap spells, as well",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "SpellslutterSprite",
+            "body": "> *If it\u2019s a creature, it has haste.*\n\nWait, has suspend always worked this way, or is this new with this card?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Stormtide_Leviathan",
+                    "body": "No it's always worked that way",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Discofunkypants",
+            "body": "That's just cool",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ChemicalExperiment",
+            "body": "Interesting that this also is a sly reference to the Rebound mechanic the Ojutai had in Dragons of Tarkir.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Stormtide_Leviathan",
+                    "body": "which especially makes sense given the previous version of this character, [[taigam ojutai master]]",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "MTGCardFetcher",
+                            "body": "[taigam ojutai master](https://cards.scryfall.io/normal/front/b/4/b47e2781-544f-442c-98d0-43b9d91bab03.jpg?1562621099) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Taigam%2C%20Ojutai%20Master) [(SF)](https://scryfall.com/card/c17/46/taigam-ojutai-master?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/b47e2781-544f-442c-98d0-43b9d91bab03?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "BlackBacon",
+            "body": "This guy would make a very fun commander.\n\nThe suspended spell is \"cast\" after all the time counters are gone so there's no reason you can't just keep suspending the same spell over & over again. (assuming you play something like cheap card draw before the suspended card is played)\n\nBy recasting [[Paradox Haze]] or [[Time Beetle]] repeatedly you can get to the point that you remove all 4 time counters every turn. You can start recasting the same handful of spells for free every single turn.\n\nIf you reach this point you can suspend something that gives you an extra turn you probably just win.\n\n\nOther notable cards: \n[[Twinning Staff]]\n[[Jhoira's Timebug]]\n[[Wibbly-wobbly, Timey-wimey]]",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "MTGCardFetcher",
+                    "body": "#####&#009;\n\n######&#009;\n\n####&#009;\n\n[*All cards*](https://mtgcardfetcher.nl/redirect/mii89l9)  \n[Paradox Haze](https://cards.scryfall.io/normal/front/a/7/a7c74def-83e5-4420-989d-2304bf4743ae.jpg?1562930370) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Paradox%20Haze) [(SF)](https://scryfall.com/card/tsp/71/paradox-haze?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/a7c74def-83e5-4420-989d-2304bf4743ae?utm_source=mtgcardfetcher&format=text)  \n[Time Beetle](https://cards.scryfall.io/normal/front/8/c/8c592af4-5470-4311-af05-761e5a9c46be.jpg?1696636590) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Time%20Beetle) [(SF)](https://scryfall.com/card/who/58/time-beetle?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/8c592af4-5470-4311-af05-761e5a9c46be?utm_source=mtgcardfetcher&format=text)  \n[Twinning Staff](https://cards.scryfall.io/normal/front/5/c/5cdcc324-1427-453c-9940-c21f5d04c997.jpg?1673485509) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Twinning%20Staff) [(SF)](https://scryfall.com/card/ncc/383/twinning-staff?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/5cdcc324-1427-453c-9940-c21f5d04c997?utm_source=mtgcardfetcher&format=text)  \n[Jhoira's Timebug](https://cards.scryfall.io/normal/front/3/5/35d14746-3b57-4f8e-8155-e578cc84850d.jpg?1619404400) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Jhoira%27s%20Timebug) [(SF)](https://scryfall.com/card/tsr/269/jhoiras-timebug?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/35d14746-3b57-4f8e-8155-e578cc84850d?utm_source=mtgcardfetcher&format=text)  \n[Wibbly-wobbly, Timey-wimey](https://cards.scryfall.io/normal/front/5/5/55412d31-fba2-46fd-b1a1-d47fb41c4b8d.jpg?1696636593) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Wibbly-wobbly%2C%20Timey-wimey) [(SF)](https://scryfall.com/card/who/62/wibbly-wobbly-timey-wimey?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/55412d31-fba2-46fd-b1a1-d47fb41c4b8d?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "masanian",
+            "body": "(Happy [[Ms. Bumbleflower]] noises)",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "MTGCardFetcher",
+                    "body": "[Ms. Bumbleflower](https://cards.scryfall.io/normal/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1721428140) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Ms.%20Bumbleflower) [(SF)](https://scryfall.com/card/blc/3/ms-bumbleflower?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "coys223",
+            "body": "whelp, welcome to rose tyler and the tenth doctor",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Stormtide_Leviathan",
+            "body": "I'm not surprised to be a suspend cameo, but I'd have expected it to be flavorfully related to the time travel. Very cool card though! I'm loving [the flood of cool time counter cards](https://scryfall.com/search?q=fo%3A%22time+counter%22+date%3Ewho+not%3Areprint+order%3Arelease&unique=cards&as=grid&order=edhrec) we've been getting ever since the doctor who deck released",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "mhfarrelly25",
+            "body": "![gif](giphy|cc2xeIKDoqXIs)\n\nI know what deck he\u2019s going in\u2026",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "radiantburrito",
+            "body": "[[Ms. Bumbleflower]] :)",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "MTGCardFetcher",
+                    "body": "[Ms. Bumbleflower](https://cards.scryfall.io/normal/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1721428140) - [(G)](http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Ms.%20Bumbleflower) [(SF)](https://scryfall.com/card/blc/3/ms-bumbleflower?utm_source=mtgcardfetcher) [(txt)](https://api.scryfall.com/cards/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87?utm_source=mtgcardfetcher&format=text)\n\n___\n\n^^^[FAQ](https://www.reddit.com/r/MTGCardFetcher/comments/3xtmbp/)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Lemonade_IceCold",
+            "body": "Ugh, this would have gone so f'n hard with prowess",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "bjcoolio27",
+            "body": "Might be my favorite artwork of the set, Joshua Raphael knocked it out of the park (again).",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Malbec47",
+            "body": "Pairs beautifully with [[Alaundo the Seer]]",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "jethawkings",
+            "body": "Kinda underwhelmed powerlevel wise. Guess Ojutai Master retains as my Comnander.\n\nI do think it's cute how this is just Taigam giving your 2nd spell a worse Rebound.\n\nWill definitely experiment with him for Standard Brawl on Arena.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "mythic_dot_rar",
+            "body": "So this guy on t3 with opt or ponder or brainstorm or whatever?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "barrinmw",
+            "body": "Modern 1/10  \nThis isn't really doing anything for you. Let's say you play this on 3 and immediately cast a 1 mana spell. 4 turns from then you get advantage? At least half the time your game won't even go that long. So it becomes just a 2/2 for 2.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "VoidZero52",
+                    "body": "Hard agree, I think the lower the power of the format, the better this gets because you can easily get more value out of the \u201c4 turns from now\u201d bonus. In commander, 4 turns can feel like an eternity.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Important-Presence-9",
+            "body": "It is actually a very funny and flavorful card since the spell will come back later and if you can cast a spell in response to the trigger  you will rebound your spell again, turning your turns into a full cascade of spells.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "mannyprojects",
+                    "body": "I don\u2019t think so, the rules of suspend is that you play the card not cast it. This guy wants you to cast your second spell not play your second spell.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Important-Presence-9",
+                            "body": "play a card = cast a spell or play a land",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "mannyprojects",
+                                    "body": "Big if true then.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "tobsecret",
+                    "body": "Yep this card seems really powerful.\u00a0",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "jwei92",
+            "body": "I could have sworn another card with this exact effect exists already",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "Spaceknight_42",
+            "body": "Can't they just simplify the templating as,\n\n...then ~~exile~~ suspend the spell you cast with four time counters on it.  ~~If it doesn't have suspend, it gains suspend.~~\n\n(with the necessary rules added to use suspend as a verb here, of course.)",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "willweaverrva",
+                    "body": "Wizards tries not to have words both be keyword actions and keyword abilities (i.e., the rules don't say you \"kick\" a spell with kicker, you cast it and pay its kicker cost and it becomes \"kicked\"). Also, there would be an additional tweak required because a card doesn't become suspended until it is in the exile zone with time counters on it.",
+                    "score": 6,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "mesa176750",
+            "body": "What happened to the comments?",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "GeneralBreadenheim",
+            "body": "Very conservative on power level here, though the idea is cool. Pretty sad.",
+            "score": -2,
+            "replies": []
+        }
+    ]
+}

@@ -1,0 +1,596 @@
+{
+    "title": "Dont bake gpus in oven especially if you dont know what youre doing",
+    "author": "moderjebac",
+    "subreddit": "LinusTechTips",
+    "rank": 17,
+    "score": 565,
+    "upvote_ratio": 0.94,
+    "num_comments (reported by reddit)": 92,
+    "url": "https://i.redd.it/6964vpbqs8pe1.png",
+    "id": "1jdbap7",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "CentralCypher",
+            "body": "Why my man, this GPUs chances of survival went from could be fixed with skilled technician to e waste.",
+            "score": 481,
+            "replies": [
+                {
+                    "author": "cyb3rofficial",
+                    "body": "it can still be fixed, but the cost to fix to buy a new one is greater. I wouldn't call it ewaste, it could still be used as a donor board in the end. Many shops will still take it at a reduced cost. I sold my old 3090ti for 600$ to a shop since the pci adapter plug on it was destroyed, they used it for donor parts as the main unit it self and parts were still in great shape.",
+                    "score": 144,
+                    "replies": [
+                        {
+                            "author": "CentralCypher",
+                            "body": "Yeah, but your 3090ti didn't get heated to 200c in an oven and have all of its parts de soldered off the board...",
+                            "score": 42,
+                            "replies": [
+                                {
+                                    "author": "Drigr",
+                                    "body": "Hey, pre desoldered parts just makes it easier to use for donor parts!",
+                                    "score": 53,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "No-Refrigerator-1672",
+                                    "body": "That's totally fine. Factories solder part by placing all of them on a cool board and then passing it through the oven. 200\\*C will do nothing to the board as long as it's not powered. The ICs wil fucntion and it could totally be used for spares.",
+                                    "score": 23,
+                                    "replies": [
+                                        {
+                                            "author": "VooDooZulu",
+                                            "body": "Are all the parts on the board done at once? Or are there some heat sensitive components that can't be done during that step?",
+                                            "score": 6,
+                                            "replies": [
+                                                {
+                                                    "author": "mlnm_falcon",
+                                                    "body": "Almost all, there may be some exceptions in some cases, especially for very large components like power connectors.",
+                                                    "score": 13,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "No-Refrigerator-1672",
+                                                    "body": "Roughly 90-95% of elecrical components are designed to withstand simultaneous heating in soldering oven. This techology is called SMT, you can google this term if you're curious. The only exceptions that can't withstand high temperatures would be connectors with plastic elements (because it'll melt) and though-hole type components. Through hole means that the pins of the components go through the board; i.e. PCI-e motherboard side connectors are trough-hole. Those usually are placed with \"wave soldering\", when a wave of molden solder is passed under the board.",
+                                                    "score": 9,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "chubbysumo",
+                                                    "body": "Wave soldering or tin waterfall soldering, look them up. They do all the surface mounted stuff at once, and the gpu and vram get done by a special machine.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Dull-Alternative-730",
+                            "body": "This is why we need more people in board repair and micro soldering. So much hardware gets ruined due to careless mistakes. Not saying OP is at fault, but in my experience buying and selling used hardware, broken parts are often a mess from rough handling.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Anatrok",
+                    "body": "\u2026to fixed by VERY skilled technician",
+                    "score": 14,
+                    "replies": []
+                },
+                {
+                    "author": "moderjebac",
+                    "body": "Yes by a skilled tehnician it could be fixed, thats why i said if you dont know what are you doing just do nothing its better to sell it or give it to somebody than do this. It had artifacts and am sure somebody who is more experienced than me could have done this.",
+                    "score": -31,
+                    "replies": [
+                        {
+                            "author": "GearWings",
+                            "body": "Surprise horrible decision = consequences",
+                            "score": 7,
+                            "replies": []
+                        },
+                        {
+                            "author": "Bensemus",
+                            "body": "Wow no shit.",
+                            "score": 8,
+                            "replies": []
+                        },
+                        {
+                            "author": "BurningEclypse",
+                            "body": "It had artefacts? You said in another comment that it didn\u2019t output at all before this. Your story isn\u2019t even consistent with itself, the only consistent part is that you wanted to resell this thing after you put it in a damn oven, don\u2019t farm empathy from people online when this is literally what you decided to sign yourself into",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Hybr1dth",
+            "body": "I think it was a 8800 GTX or something that I put in the oven. The solder was poor quality and had little cracks, and putting it in a low oven properly could temporarily fix it. I have no idea what happened to this poor thing.",
+            "score": 34,
+            "replies": [
+                {
+                    "author": "TheHeretic",
+                    "body": "Yup the solder plague of 2008-2012, took a couple years for it to start appearing but it killed so many laptops and GPU.",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "moderjebac",
+                    "body": "Too much heat too much time if id taken it out 1 minute earlier itd been fine probably",
+                    "score": -38,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "bufandatl",
+            "body": "I never understood why people actually would try that since it\u2019s only a temp fix anyways.",
+            "score": 144,
+            "replies": [
+                {
+                    "author": "Accomplished_Emu_658",
+                    "body": "Ever need your gpu to work to finish something at night on a weekend, don\u2019t have integrated graphics, and it goes out? I have. I understood it was a temp fix.",
+                    "score": 81,
+                    "replies": [
+                        {
+                            "author": "GNUGradyn",
+                            "body": "Additionally if its old and broken why not? If it works (even temporarily) cool and if not well it was already old and broken",
+                            "score": 23,
+                            "replies": [
+                                {
+                                    "author": "impy695",
+                                    "body": "And some cards aren't worth the cost to have someone fix it or you just can't afford what they'd charge.",
+                                    "score": 9,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Kuunkulta",
+                    "body": "Well it works and sometimes you just don't have the money to replace. Done it a few times myself when I was younger",
+                    "score": 21,
+                    "replies": [
+                        {
+                            "author": "MikemkPK",
+                            "body": "Do GPUs just not have warranties anymore?",
+                            "score": -12,
+                            "replies": [
+                                {
+                                    "author": "ionburger",
+                                    "body": "not ones old enough to need to be reflowed",
+                                    "score": 20,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Kuunkulta",
+                                    "body": "Well look at you always buying fancy new non-second hand cards from fancy stores and everything \ud83d\ude05 Nah when you grow up poor you make do with what scraps you can scrounge up and learn to fix them yourself",
+                                    "score": 8,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "waxstaff",
+                    "body": "Done it twice with my 2080 ti and the second time it\u2019s been working great for last 8 months. \n\nJust turn the oven off and let things cool down before you touch it.",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "imzwho",
+                    "body": "Oddly enough, I did this to a 760 that was having memory lines showing on the display. \n\nThat was in 2020 when gpus were harder to come by than someone with a gambling addiction that knew when to walk away.\n\nIt was intended to be a temp fix until I could find a new card at a decent price, but ended up working past when I found one. I lent it to a friend with the disclaimer that it could die any day, but it lasted until I found him a new card. Still had it in my test bench that I use for controlling my 3d printers until late last year when I switched to using my laptop. \n\nDoubt that is the norm, especially with newer cards, but if its already dead, it can't hurt.",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "Cr4zyPi3t",
+                    "body": "Not necessarily a temp fix. Did that to my GTX470 back in the days and it held up 3 more years until it got replaced with a GTX1070.",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "FictionFoe",
+                    "body": "Not to mention potential toxic stuff ending up in a place you prepare food.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "jmims98",
+                    "body": "Did it with a red ring xbox 360, it worked for a few more years.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "IntelArcTesting",
+                    "body": "I would still be better to use a heat gun and some flux to get solder flowing. This way you don\u2019t expose caps and plastic parts to the heat.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Ult1mateN00B",
+                    "body": "I've fixed 5 gpu's with oven so far. They are still working, you just need to do it right.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "impy695",
+                    "body": "It should be used as a temporary fix, but it can last a long time. I'm in a better financial position now, but I did it when I was a kid, and the card ended up lasting over a year. I forget how long exactly, but it was long enough that I was able to save up for a replacement.\n\nI did it after my parents went to sleep because there's no way they'd let me do it. They never did find out but I was terrified the whole time, lol",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "JNSapakoh",
+                    "body": "I feel like it used to work better when solder quality was lower",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "kastorkrieg82",
+                    "body": "It fixed my 8800 GTX.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "vistaflip",
+                    "body": "I've seen people bake their iMac GPUs for them to survive years.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Berencam",
+                    "body": "Linus made me do it",
+                    "score": -1,
+                    "replies": []
+                },
+                {
+                    "author": "steinfg",
+                    "body": "And it fills the oven with lead fumes...",
+                    "score": -14,
+                    "replies": [
+                        {
+                            "author": "mattl1698",
+                            "body": "no products that are sold in most of the world use leaded solder anymore since RoHS compliance prohibits the use of lead.\n\nit'll probably still give off some nasty fumes, just not lead.",
+                            "score": 22,
+                            "replies": [
+                                {
+                                    "author": "HowCanYouBanAJoke",
+                                    "body": "I do love the smell of eggs, bacon and capacitors in the morning.",
+                                    "score": 7,
+                                    "replies": [
+                                        {
+                                            "author": "VekeKing",
+                                            "body": "They'll charge you up in the morning \u26a1",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "DoubleOwl7777",
+                            "body": "leaded solder is illegal to use in commercial products for so long now the Chance of finding a gpu with leaded solder are very slim.",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "moderjebac",
+                    "body": "I bought it cheap and if i had fixed it i would have doubled my money but instead ill be lucky to get my money back",
+                    "score": -41,
+                    "replies": [
+                        {
+                            "author": "LegitimateCopy7",
+                            "body": "was the cost of the oven factored in?",
+                            "score": 18,
+                            "replies": [
+                                {
+                                    "author": "kiko77777",
+                                    "body": "I really hope OP realises they need to get a new oven now",
+                                    "score": 11,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "corianderjimbro",
+                            "body": "You were gonna sell it after you baked it in the oven? Thats a temporary fix, you\u2019d be reselling broken hardware. Piece of shit.",
+                            "score": 42,
+                            "replies": []
+                        },
+                        {
+                            "author": "LeMegachonk",
+                            "body": "You were going to resell a defective card as fully working after applying a temporary fix?  That's a pretty shitty thing to do and now I'm happy this happened to you.  Also, I hope for your sake you didn't use an oven you also use to cook food in to do this.  Any oven used to cook electronics this way should not be used to cook food.\n\nEDIT: I saw another comment where you claimed you would have sold it honestly, and offered a money-back guarantee, but I find that hard to reconcile with your claim you would have doubled your money.  In any case, if you don't have the tools or knowledge to do proper board repairs, maybe you shouldn't be selling \"repaired\" GPUs in the first place.",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "moderjebac",
+                                    "body": "I was gonna sell it after checking it works, i also know how it feels when you get something, it works and later on it doesnt and since im starting to go into this business of fixing gpus and similar things since there are not much people who do that in my place or even country i do also give 1 year guarantee that it works if it stops working ill either repair it to someone for free or buy it back. This might have been dumb but in some cases it works, i know a guy who did it and gpu worked for 3 years",
+                                    "score": -4,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Ok_Biscotti_514",
+            "body": "Rookie mistake OP, should've used a microwave.\n\nJokes aside, doesn't this produce nasty fumes if it's cooked to this extent?, OP needs to properly clean their oven so it's not a hazard",
+            "score": 29,
+            "replies": []
+        },
+        {
+            "author": "ThatUnfunGuy",
+            "body": "I didn't know that's something that had to be said.",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "tee_with_marie",
+            "body": "I got 3months more out of my 2070 until i was able to switch to my new graphics card because of baking \nBut i would suggest googleing first on how to do it",
+            "score": 12,
+            "replies": [
+                {
+                    "author": "DR4G0NSTEAR",
+                    "body": "That\u2019s the dream. When it dies you know you can\u2019t get a replacement today, but what if it could survive for just long enough to save for its replacement? Ah, the dream.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "diychitect",
+            "body": "I Had to do it because where I live no technician would take on fixing a gpu. Somehow they only take TVs and cellphone. I messed up and fried my gpu in the middle of the pandemic.",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "moderjebac",
+                    "body": "Where i live also there is no many tehnicians, but i didnt do it for myself, somebody commented i was a PoS for wanting to sell it after baking them an i did want to sell them but i couldnt fix it better than just baking it i dont have funds nor could i actually buy parts or tools to fix it, i always give guaranteed money back when i sell gpus and that is very rare in my country, maybe i am PoS for wanting to sell it \"broken\" but what else would i do i need money and somebody needs a gpu i make surr every gpu works well except this one this is hoing to e waste ofcourse",
+                    "score": -5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "dalaiis",
+            "body": "Every tech expert started somewhere and didnt know what he was doing.\n\nCongratulations on your first attempt at fixing stuff!",
+            "score": 15,
+            "replies": []
+        },
+        {
+            "author": "PhatOofxD",
+            "body": "So if you're going to do something like this I'd strongly recommend spending at least a minute googling how to do it first instead of just assuming you know.\n\nThat being said, breaking stuff is a natural step on the road to learning repair",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "moderjebac",
+                    "body": "Yeah i just watched 1 video and thought i could do it, another problem is i dont have like temperature regulator, i just put lots of wood in oven to get it to high temperature and then well overcooked my gpu",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "CptPickguard",
+            "body": "This is definitely the kind of thing you look up how to do so you don't mess it up.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Gardakkan",
+            "body": "And since you didn't know about it you've ruined your oven also (I hope its just a toaster oven)",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "rhythm_n_blues",
+                    "body": "To elaborate, all the fumes from the solder flux make any food you put into the same oven toxic.",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ThirdhandTaters",
+            "body": "But I like mine extra crispy.\n\n/S sorry for your loss.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "KayArrZee",
+            "body": "At least it was already dead but yes, very easy to overdo especially if it doesn\u2019t work the first time, you tend to overdo it the second time",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "moderjebac",
+                    "body": "It didnt work basically at all which is why i took the risk of baking it. It gave artifacts and later on didnt give anything on monitor",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "FFfurkandeger",
+            "body": "Well, maybe bake them but don't move them before they get back to room temp.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "iAabyss",
+            "body": "Tech here.  \nCooking a GPU with a heatgun or in a oven is NEVER an option.  \nReflows are only usefull on a chip that is freshly reballed.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "WisZan",
+            "body": "don't ever do it, use heatgun instead, cheaper and you have more control over the heat",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Rockenrooster",
+            "body": "I baked a mobile 7950GTX at least 3 times. 385 for 10 mins. Got 6 more months each time. That laptop was 10 years old at that point lol.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Jaack18",
+            "body": "Yeah too hot",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Exotic-Investment110",
+            "body": "I did that to a R9280 a few years back and it managed to survive for a whole year before dying out. It was a funny experience as well.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "BlueDragonReal",
+            "body": "You are special \ud83d\udc96",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "SilentORANGE18",
+            "body": "i have a doubt he move it while its hot while the solder still not solidified",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "MacMasore",
+            "body": "No shit Sherlock",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Ult1mateN00B",
+            "body": "Soo memory chip and one capacitor came off? Those can be very easily put back.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Ybalrid",
+            "body": "It has always been a terrible idea",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "FangoFan",
+            "body": "What temperature did you cook it at?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "moderjebac",
+                    "body": "Well i did it in alfa 90 so i dont really know what temperature it was but i think its a lot more than the \"safe\" temperature of 200\u2070C",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Empty_Vegetable_80",
+            "body": "Nah,Microwave it!",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "moderjebac",
+                    "body": "I actually thought of doing that but then i saw video arcs flying everywhere soo yeah i did not do that, problem i did with this is that i held it in oven too long and didnt/couldnt measure temperature",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Empty_Vegetable_80",
+                            "body": "You think u can fix it?hope it works out, somehow!guud luck",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "aliendude5300",
+            "body": "Never bake computer components in an oven",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "RealSacant",
+            "body": "damn, jensen must be cooked then\n\n[https://www.youtube.com/watch?v=So7TNRhIYJ8](https://www.youtube.com/watch?v=So7TNRhIYJ8)",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Jonny_vdv",
+            "body": "That GPU is cooked",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "d6cbccf39a9aed9d1968",
+            "body": "Daddy rossman is now coming after you",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "NoHonorHokaido",
+            "body": "-1GB of VRAM",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "moderjebac",
+                    "body": "Brand new rx 570 7gb",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Mobile-Breakfast8973",
+            "body": "doesn't it just run without that RAM-block anyway?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "moderjebac",
+                    "body": "Probably but there are also some capaticors that got soldwred out, they practically blew up",
+                    "score": -3,
+                    "replies": [
+                        {
+                            "author": "zidanerick",
+                            "body": "Honestly the card is probably still fixable, a handful of capacators and reseating that ram chip and it should be good!",
+                            "score": 7,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "suckinator",
+            "body": "Fuck around and find out!",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "moderjebac",
+                    "body": "And so i did",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Saunterer9",
+            "body": "Don't wash them in a washing machine either.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

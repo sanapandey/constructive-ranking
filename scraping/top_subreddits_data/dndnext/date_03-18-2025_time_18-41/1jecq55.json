@@ -1,0 +1,181 @@
+{
+    "title": "Spell sniper, and prone targets",
+    "author": "Elisterre",
+    "subreddit": "dndnext",
+    "rank": 2,
+    "score": 42,
+    "upvote_ratio": 0.9,
+    "num_comments (reported by reddit)": 23,
+    "url": "https://www.reddit.com/r/dndnext/comments/1jecq55/spell_sniper_and_prone_targets/",
+    "id": "1jecq55",
+    "selftext": "If a target is prone, attack rolls against it have advantage if the attacker is within 5 ft.\n\nSpell sniper removes disadvantage for casting spells within 5 ft of enemy.\n\nSo if I have spell sniper and the enemy is prone, I have advantage casting scorching ray on the enemy from 5 ft away, right?",
+    "comments": [
+        {
+            "author": "3athompson",
+            "body": "Correct. In both 2014 and 2024 edition, Prone grants advantage on attacks made within 5 feet, and Paralyzed/Unconscious grant auto-crit on attacks made within 5 feet.  \n\nIf you have some method to remove the ranged attacker disadvantage(such as spell sniper, crossbow expert, sharpshooter, or if the prone target is incapacitated), then the ranged attack will have advantage.  \n\nSome other notes: using a reach weapon on a prone target 10 feet away will have disadvantage.  \n\nYou also auto-crit Paralyzed and Unconscious targets as long as you are within 5 feet of them, even if you use a ranged weapon.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "NDE36",
+                    "body": "The incapacitated and reach points are very easy to miss. Not things I would be certain if I'd pick up on in the moment.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Wraith_Of_Write",
+                    "body": "What is incapacitated doing in this situation?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "3athompson",
+                            "body": "From the PHB:  \n> Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack roll with a weapon, a spell, or some other means, you have Disadvantage on the roll if you are within 5 feet of an enemy who can see you and doesn\u2019t have the Incapacitated condition  \n\nIf they're not Incapacitated (and can see you), they impose Disadvantage on you, negating the Advantage you have when attacking a prone target.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Wraith_Of_Write",
+                                    "body": "Huh, the more you know, thanks!",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Fluffy_Reply_9757",
+            "body": "2024 Prone:\n\n>***Attacks Affected.***\u00a0You have\u00a0[Disadvantage](https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Disadvantage)\u00a0on attack rolls. An attack roll against you has\u00a0[Advantage](https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Advantage)\u00a0if the attacker is within 5 feet of you. Otherwise, that attack roll has Disadvantage.\n\n2024 Spell Sniper\n\n>**Casting in Melee**. Being within 5 feet of an enemy doesn't impose Disadvantage on your attack rolls with spells.\n\nSpell Sniper removes the Disadvantage from casting in melee, and Prone gives you Advantage regardless of whether you're making a melee or ranged attack. So yes, you have Advantage if you're within 5 feet of the Prone target.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "None",
+                    "body": "[deleted]",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Fluffy_Reply_9757",
+                            "body": "That's exactly what I said, I simply did not repeat that you need to be within 5 feet to gain that Advantage because it was already included in OP's question.\n\nIf you don't have Spell Sniper and are within 5 feet when you make a ranged spell attack, the Advantage and Disadvantage cancel each other out.\n\nIf you're more than 5 feet away, you have Disadvantage regardless of whether you're making a melee or ranged attack.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "CinnamonCharles",
+            "body": "With 2024 rules it seems that way.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "NLaBruiser",
+            "body": "Assuming One D&D / 2024 Rules - Correct. (Spell sniper doesn't remove the 5 foot disadvantage in 5e / 2014)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ThisWasMe7",
+            "body": "That's how the prone condition is worded in the 2024 glossary, and is how I'd adjudicate it. I'm not sure if that's just an omission though.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SmokeyUnicycle",
+            "body": "I've never understood why you don't get advantage on a prone Target from 10 ft away with a melee weapon",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "pwnabear4",
+            "body": "Yes that is correct",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "keandelacy",
+                    "body": ">You can have different scources of disadvantage. You apply 2x DA, and cancel 1, that's still disadvantage\n\n  \nThat's not how it works in either 2014 or 2024 rules.\n\n\u201cIf circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. In such a situation, you have neither advantage nor disadvantage.\u201d\n\nPage 173 of the 2014 PHB and page 12 of the 2024 PHB",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Capnris",
+                    "body": "OP is talking about being the attacker of a prone target, not being prone while attacking.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "MR1120",
+                    "body": "In this case, OP is standing, targeting a prone target.  You have advantage on prone targets within 5ft, but you have disadvantage on ranged attacks when an enemy is within 5ft of you.  Since Spell Sniper does away with the latter half of that sentence, attacks made on a prone target within 5ft of a Spell Sniper would be made with advantage.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "homucifer666",
+            "body": "No, *melee* attacks have advantage within 5ft; ranged attacks have disadvantage at that range. Any advantage from Spell Sniper is negated by that.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "NLaBruiser",
+                    "body": "Incorrect in 2024 Rules - all attack rolls within 5 feet get advantage.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Arcane10101",
+                            "body": "The same is true of 2014 rules - the kind of attack doesn\u2019t matter, as long as it\u2019s within 5 feet.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "Elisterre",
+                            "body": "Yeah that\u2019s why I was thinking about this, reading my 2024 book gives me new caster strategy ideas, thanks for the info!",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "homucifer666",
+                            "body": "OP didn't specify 2014 or 2024. Since statistically almost no one is playing the new rules, I went with the more likely answer.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "stormstopper",
+                                    "body": "It's also not correct in 2014 rules: all that matters is that you're within 5 feet, not whether the attack is melee or ranged. A melee attack with a reach weapon from 10 feet has disadvantage, and a ranged attack from 5 feet has advantage--the latter is just normally canceled out by the disadvantage from making a ranged attack within 5 feet.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "zolthain",
+                                    "body": "The source of said statistic being that you pulled it out of your ass?",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "homucifer666",
+                                            "body": "I'm not here to do your homework for you. I don't write every post on Reddit with MLA formatted sources to prove my point, because this isn't that kind of venue.\n\nBegone, foul tormentor.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "DM-Twarlof",
+                                                    "body": "You are still wrong though, 2014 rules does not require melee...just requires within 5ft for advantage against prone. PHB p292\n\nBegone, ignorant tormentor",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

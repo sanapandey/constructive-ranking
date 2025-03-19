@@ -1,0 +1,270 @@
+{
+    "title": "Build tor Jellyfin",
+    "author": "Live-Company-5007",
+    "subreddit": "selfhosted",
+    "rank": 7,
+    "score": 11,
+    "upvote_ratio": 0.71,
+    "num_comments (reported by reddit)": 40,
+    "url": "https://i.redd.it/8mt53j2v2jpe1.jpeg",
+    "id": "1jeigh7",
+    "selftext": "Is this an upgrade from a r5 2450u + 8gigs ram and also would getting like a 256 ssd help? Cache or something tbh I have no clue",
+    "comments": [
+        {
+            "author": "Smash0573",
+            "body": "Can you even fit a 3.5\" drive in one of those things?\u00a0",
+            "score": 13,
+            "replies": [
+                {
+                    "author": "Live-Company-5007",
+                    "body": "I\u2019m a bit worried but I think you can? There\u2019s an option for 8 bucks more that comes with a hdd too",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "Smash0573",
+                            "body": "Yeah you're good. Looked small on my screen but I did the Google.\u00a0",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Smash0573",
+                    "body": "Oh yeah my bad it looked like micro form factor. Carry on\u00a0",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "ScreamingElectron",
+                    "body": "Yes.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "happzappy",
+                    "body": "My goodness... an i5 7th gen for $28!?  \nVery tempting now.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Live-Company-5007",
+                    "body": "It fits one 3.5\u2026. Thinking about getting the on with the bigger case for 8 bucks more",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "MasonBrick_",
+                            "body": "Can you link the one with the bigger case, I\u2019m looking for something similar , but I need it to hold at least 4 hdd",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "MountainGazelle6234",
+            "body": "You're going to want more than 2 TB. A lot more.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Evening_Rock5850",
+            "body": "Help, with what? What are you trying to do now, that you're not able to do, that you think this will do? What problem are you trying to solve?\n\nMedia servers need very, very little power. It's just a file server serving files very slowly over a network. That i5 is several years old and would be a downgrade over a Ryzen 5 3450u. \n\nIs transcoding something you're trying to accomplish? If so; this model would have quicksync, which is handy. It would support most modern codecs and frankly, 27 bucks is about as cheap as you're going to see for something that has some reasonable transcoding capability. \n\nAs for an SSD? Yes; one can be used as a cache. Such as in ZFS you can setup an SSD as a L2 ARC. But in a media server you won't notice a difference. Even several streams happening at the same time won't come anywhere near saturating the read speed of a spinning hard drive. Unless you're transcoding a very large number of streams to a very large number of clients (which would require a \\*\\*\\*much\\*\\*\\* more powerful machine than this), there really is no advantage to an SSD in a media server. Using an SSD as the boot drive though is a really good idea; and using this spinning HDD for media storage.",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "Live-Company-5007",
+                    "body": "Well, it\u2019s. 2450u, and yes transcoding is something I want to do. Currently the video loads slow, I\u2019d also like to be able to stream to more devices and load a pi hole on it. I don\u2019t think my laptop could handle a pi hole. + maybe a network card + expandable storage maybe",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Evening_Rock5850",
+                            "body": "Did you mean i5-2450u? You said \"r5\" so I took that to mean \"Ryzen 5\" and assumed the typo was the number. Turns out; the typo was the letter!\n\nSo yeah, this would certainly enable you to transcode and improve performance.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "Live-Company-5007",
+                                    "body": "No it\u2019s the r5 2500u I think?",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Evening_Rock5850",
+                                            "body": "Well that\u2019s different entirely. \n\nThe r5 2500u is significantly faster than the CPU in that Lenovo. But it doesn\u2019t have transcoding features that Jellyfin can use.",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "Live-Company-5007",
+                                                    "body": "So is the i5 still better?",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Live-Company-5007",
+                    "body": "+ I don\u2019t actually have a laptop and I think it\u2019d be nice to reclaim",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "usafa43tsolo",
+            "body": "Thanks for showing me this seller exists! I\u2019ve got some homelab upgrades that need hardware and these would be perfect lower-spec systems for it!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TSLARSX3",
+            "body": "Seagate external 26tb for 300 bucks at bestbuy",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Former-Pattern4719",
+            "body": "Brother you\u2019re gonna want a lot more than 2tb. I gotta 22tb and a 9tb external hdd almost full. I\u2019ve been looking at saving for a proper NAS to stuff full of 24tb seagate drives for a while now.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Live-Company-5007",
+                    "body": "Should I go for the full size?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "nitroman89",
+            "body": "You're starting small which is fine and dandy but once the hobby kicks in you will be buying more hard drives. I just bought 12 28TB drives plus my current setup with a total of 400TB+.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Uchilas",
+                    "body": "How do you manage to have so many HDD's connected? I'm planning on adding more HDD's but it is not recommended to do it using a DAS via USB and I only have 4 sata slots. I'm also afraid that if I extend the PCIe slot to have more SATA slots I don't have enough power for the disks.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "nitroman89",
+                            "body": "I bought a LSI HBA controller that would go into your PCI slot that then connects to two disk shelfs that hold 12 hard drives each. Then I have unraid running my zfs pools that share my media to 3 proxmox nodes and the *arr suite for media. Welcome down the rabbit hole!",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Wallyofdoom",
+            "body": "Didn\u2019t quick sync come out with 8th gen processors?",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "Live-Company-5007",
+                    "body": "Idk but those build cost more",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "chamwichwastaken",
+            "body": "hdd for jellyfin is crazy \ud83d\ude2d",
+            "score": -17,
+            "replies": [
+                {
+                    "author": "SUPREMACY_SAD_AI",
+                    "body": "What? a hdd is perfectly fine for a media library, good value $/gig and speed isn't going to be noticeable.  \nprobably gonna burn through 2TB awfully quick tho",
+                    "score": 8,
+                    "replies": [
+                        {
+                            "author": "Sufficient_Language7",
+                            "body": "At 2TB he is better off going just going for a 256 GB NVME and a\u00a0traditional drive for max speed or the cheap way and buy a 18+ TB drive and deal with some slowness.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "PsychologicalCake337",
+                    "body": "how\n\nWhat else are you going to store media on?",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "Live-Company-5007",
+                    "body": "It\u2019s really just cause the machine doesn\u2019t come with one and it\u2019s cheap",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "MountainGazelle6234",
+                            "body": "Ignore them, they're talking shit.\n\nMost of us Jellyfin / Plex nerds use HDD for media storage.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Live-Company-5007",
+                    "body": "+ do u know how much mass ssd storage costs? A lot i think",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "rockboxinglobster",
+                            "body": "An absolute assload. A metric fuckton. Just an obscenely unfun amount of fuckin' money.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "rockboxinglobster",
+                    "body": "Yeah man using just one? i needed 10x 10TB drives to hold all of my media :(",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Ok-Industry-2735",
+                    "body": "I'd probably RAID a few together for redundancy, but nothing wrong with using a HDD. Mine is all HDD stored on my UNAS Pro, with a read-only share accessible by my Jellyfin VM. I can't think of a situation outside of 5+ people streaming uncompressed blu-rays where you'd saturate even a 1 Gbps connection, much less the HDD read speed.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "vtKSF",
+                    "body": "ssd for storage is pretty dumb, read writes kill them albeit over a long period.. they are also more expensive for less storage, learn before type",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "ReallySubtle",
+                    "body": "This so quickly turned into ragebait\n\nBut no seriously, a hard drive has around a 125MB/s read speed. A typical HD video is 10mbps, which is 1.5MB/s\nSo a hard drive can read almost 100x faster the video file",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "MountainGazelle6234",
+                    "body": "Not at all.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "BuzzKiIIingtonne",
+                    "body": "I run my jellyfish off 16 of them in a snapraid with mergerfs, works just fine, absolutely no issues.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "HamburgerOnAStick",
+                    "body": "no i think your just crazy",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

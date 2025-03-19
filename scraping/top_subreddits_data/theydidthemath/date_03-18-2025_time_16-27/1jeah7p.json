@@ -1,0 +1,252 @@
+{
+    "title": "[Request] How many G\u2019s is this guy\u2019s brain experiencing?",
+    "author": "No-Tension6133",
+    "subreddit": "theydidthemath",
+    "rank": 1,
+    "score": 254,
+    "upvote_ratio": 0.97,
+    "num_comments (reported by reddit)": 50,
+    "url": "https://v.redd.it/dbfhibo8vgpe1",
+    "id": "1jeah7p",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "AutoModerator",
+            "body": "###General Discussion Thread\n\n---\n\nThis is a [Request] post. If you would like to submit a comment that does not either attempt to answer the question, ask for clarification, or explain why it would be infeasible to answer, you *must* post your comment as a reply to this one. Top level (directly replying to the OP) comments that do not do one of those things will be removed.\n\n---\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/theydidthemath) if you have any questions or concerns.*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "No-Tension6133",
+            "body": "There\u2019s a spirited debate in the sub about whether or not this guy sustained brain damage from this roll. But none of them did the math. \n\nHow many G\u2019s was this guy experiencing? What would be the health implications of sustained g-force like this?",
+            "score": 71,
+            "replies": [
+                {
+                    "author": "TJsName",
+                    "body": "I'm going out on a limb to suggest that these brains may have already been damaged.",
+                    "score": 142,
+                    "replies": [
+                        {
+                            "author": "Substanceoverf0rm",
+                            "body": "Was there ever damage to be done?",
+                            "score": 4,
+                            "replies": []
+                        },
+                        {
+                            "author": "frisco-frisky-dom",
+                            "body": "THIS!",
+                            "score": -3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "oSuJeff97",
+                    "body": "Others have answered the G question, seems like it\u2019s 3-5, which is going to be pretty uncomfortable but isn\u2019t going to cause any damage.\n\nThink about like fighter pilots who routinely experience that kind of a G load (and much higher) every time they fly.\n\nBlunt force trauma from the tire suddenly crashing into a tree or something while rolling really fast is gonna be a much bigger risk to this guy than experiencing 3-5 Gs of acceleration.",
+                    "score": 25,
+                    "replies": [
+                        {
+                            "author": "TrappedInVR",
+                            "body": "like the saying goes, it's not the speed or acceleration that kills you, it's the suddenly coming to a stop that usually does the trick...",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "EddieTheHead66six",
+                                    "body": "'It's not the fall that kills you; its the sudden stop at the end.' Classic quote by Douglas Adams \n\nThrough my favourite is probably: \n'There is an art, it says, or rather, a knack to flying. The knack lies in learning how to throw yourself at the ground and miss. \u2026 Clearly, it is this second part, the missing, which presents the difficulties.'",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "McEnding98",
+                                    "body": "So the high deceleration?",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "tangocera",
+                                            "body": "Yes",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "OldmanNrkpg",
+                                    "body": "Like the Swedish proverb \"Det \u00e4r inte farten som d\u00f6dar, det \u00e4r sm\u00e4llen\", jokingly translated into the Swenglish \"It's not the fart that kills, it's the smell\".",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Relative_Cricket6340",
+                                    "body": "suddenly coming to a stop is high acceleration",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "LegendofLove",
+                            "body": "They usually have some help with that extra but yeah",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Much_Tree_4505",
+                    "body": "I dont think he will get any \"brain\" damage",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Clear-Chemistry2722",
+                    "body": "Swrious debat he had any going in",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Steve_Streza",
+            "body": "Estimating 21/30 seconds per revolution based on frame counting, or about 86 RPM.\n\nHard to say for sure how big that tire is but looks bigger than a car, so I'll call that a semi truck tire which googling  suggests it's a radius of 50-56 cm. Sticking in the middle of 53cm.\n\nG-Force = (RPM\u00b2 \u00d7 Radius) / 895, or (86 \\* 86 \\* 53) / 895, or about 4 G.\n\nEDIT: Added \"a radius of\" since that was unclear",
+            "score": 41,
+            "replies": [
+                {
+                    "author": "AlarisMystique",
+                    "body": "Would that be alternating between 3g and 5g based on how the centrifugal force aligns with gravity? Not sure if that makes a difference over how long this was going though.",
+                    "score": 12,
+                    "replies": [
+                        {
+                            "author": "Steve_Streza",
+                            "body": "Probably, though this is all \"spherical cow in a vacuum\" math, so there are also other forces like the weight of the tire, compression and bounciness of the tire, etc that we aren't factoring in as well.",
+                            "score": 16,
+                            "replies": [
+                                {
+                                    "author": "AlarisMystique",
+                                    "body": "Yeah although I think that centrifugal force and gravity are the main systematic forces at play, whereas compression etc would be more random and somewhat lower in comparison.\n\nI'm mostly curious if alternating g forces would matter. I doubt anyone studied that though.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Joseph_M_034",
+                            "body": "Given the path of motion is confined within the tyre, the normal acceleration is invariable with rotation angle, however the normal reaction force from the tyre will vary. The acceleration will be more affected by the angular velocity increases as he rolls down the hill",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "Joseph_M_034",
+                            "body": "Given the path of motion is confined within the tyre, the normal acceleration is invariable with rotation angle, however the normal reaction force from the tyre will vary. The acceleration will be more affected by the angular velocity increases as he rolls down the hill.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "EndTheBS",
+                    "body": "A semi truck tire is roughly 1m in diameter.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Ashamed_Specific3082",
+                            "body": "Witch is about 50cm radius",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Gubbtratt1",
+                    "body": "The tyre is off a KrAZ 255b, size 1300x530-533, which is a Soviet sizing translating to 530/70-21, or 1300mm diameter, 530mm width on a 533mm rim. Radius would be 650mm on a new tyre. However, this is quite worn, so call it slightly over 600mm.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "marquoth_",
+                    "body": "53cm? It's more than half the height of the person standing next to it, try again.",
+                    "score": -2,
+                    "replies": [
+                        {
+                            "author": "Ashamed_Specific3082",
+                            "body": "53cm radius",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "A_Martian_Potato",
+            "body": "It's hard to count, but I think I got 12 rotations between 0:18 and 0:28\n\nSo that's 1.2 rps or 72rpm or 7.54 rad/s\n\nTo get the g-forces you need to calculate the centripetal acceleration.\n\na = r\\**\u03c9*\\^2\n\nwhere *\u03c9*= 7.54rad/s. Looking at the beginning, I'd estimate the tire is maybe  a touch bigger than 1m in diameter, so r=0.5m (Assuming worst case his head is forced to the outside wall of the tire)\n\na = 0.5m\\*(7.54rad/s)\\^2 = 28.42 m/s\\^2 = 2.9g\n\nVery survivable. He's probably quite woozy, but fine.",
+            "score": 26,
+            "replies": [
+                {
+                    "author": "BonbonUniverse42",
+                    "body": "What about gravity acceleration? Doesn\u2019t this increase and reduce the effect of the centripetal acceleration in an alternating manner? Not sure how this affects the forces he experiences.\n\nMoreover he accelerates down the hill, so we must count the top speed of the wheel, not the average.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "A_Martian_Potato",
+                            "body": "Gravity does affect him, as forces are vectors that add together, but because he's spinning the effect will average out to be the same.\n\nAcceleration down the hill is why I chose to count only the last 10 seconds or so that he's visible. By that point it seems like he's topped out and rolling friction is keeping him at about the same rotation speed.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "BonbonUniverse42",
+                                    "body": "Well I guess he explodes at the end.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Fatesurge",
+                    "body": "Hard to get the rotations from counting revolutions, due to the aliasing. Can probably work it out based on distance travelled, rolling out the circumference as it moves along.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "A_Martian_Potato",
+                            "body": "I may be wrong, but I really don't think he's rotating fast enough for aliasing to be a factor.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Gubbtratt1",
+                    "body": "The tyre is a 1300x530-533 off a KrAZ military truck. 1300mm diameter when new.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "A_Martian_Potato",
+                            "body": "Thanks for the info. So 0.65m radius, if you take into account the thickness of the tire I was probably off by maybe 10-20% but that doesn't change the answer much.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ejls2",
+            "body": "Isn\u2019t the g load going to be negative? I can\u2019t quite see how his head is positioned but it looks like the top of his head is facing outwards, which would push the blood into his head, not downwards onto him?",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Shoukatsuryou",
+            "body": "I'm mostly just eyeballing the values here, but let's say that tire has a diameter of one meter. The person's head is maybe 75% of the radius from the center, so we'll go with 0.4 meters for the distance from the center of the tire.\n\nIf the tire is rotating at a constant rate, then we can just use the equation for centripetal acceleration: a = r w\\^2, where r is the radius of the circular motion, and w is the rate of rotation of the tire. To produce one g of centripetal acceleration, the tire would be spinning at 5 radians per second or about 50 rpm. This would result in the tire traveling about 2 meters per second, a little faster than walking speed.\n\nAt the end of the video, we can see the other person jogging along side the tire, so it's not moving extremely fast, but it's probably a couple times faster than a brisk walk. Since the speed of the tire is proportional to the rate of rotation and the acceleration is proportional to the rate of rotation squared, I would guess that the person in the tire is getting between 4 and 10 gs, almost certainly less than 20 gs.\n\nBecause of the way the person is oriented in the tire, this acceleration is probably pointing along the person's frontal axis. My understanding that this direction is the one with the highest average tolerance for g-forces, and if [this graph](https://commons.wikimedia.org/wiki/File:Human_linear_acceleration_tolerance.svg#mw-jump-to-license) is to be believed, then its possible that the person in the tire may have temporarily lost consciousness, if the tire was moving on the faster end of these estimates, though the uncertainties in my estimates make it hard to say one way or another.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Gubbtratt1",
+                    "body": "The tyre is a 1300x530-533 off a KrAZ military truck. 1300mm diameter when new, probably closer to 1200 as it's quite worn.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

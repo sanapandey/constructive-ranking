@@ -1,0 +1,13 @@
+{
+    "title": "Pc flickering and Black screens",
+    "author": "Consistent-Shake2929",
+    "subreddit": "techsupport",
+    "rank": 19,
+    "score": 2,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 0,
+    "url": "https://www.reddit.com/r/techsupport/comments/1jebmfd/pc_flickering_and_black_screens/",
+    "id": "1jebmfd",
+    "selftext": "Hello, I was building my computer\u2014a Ryzen 3 3200G, 16GB 3200MHz RAM, with an MSI B550 motherboard and an MSI MAG A550. I've done my research and have helped my siblings with their computers a few times without any issues (though I'm by no means an expert).  \n\nI installed Windows without any problems, updated the BIOS (making sure it wasn\u2019t a beta version), and installed all the necessary drivers. Everything was working perfectly until, at some point, my screen started flickering. At first, it was just minor flickers, but with certain applications like Cinebench, the screen would go completely black, and the PC would crash, forcing me to turn it off.  \n\nIt wasn\u2019t a temperature issue, so I initially thought it might be a monitor problem, but that wasn\u2019t the case. Every time there was a small flicker, it would kick me out of the application I was using and bring me back to the main screen. I tried updating drivers and checked if my BIOS files were corrupted, but I didn\u2019t find anything wrong.  \n\nDoes anyone know what could be causing this issue? I also tried swapping different components to pinpoint the problem, but nothing worked. The only thing I haven\u2019t tested is the motherboard, but I\u2019m not sure if a faulty motherboard could cause this kind of issue or if it\u2019s due to a bad driver or installation.",
+    "comments": []
+}

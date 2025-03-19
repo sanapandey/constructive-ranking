@@ -1,0 +1,210 @@
+{
+    "title": "[OC] Estimated Mean and Median Distances of US Facebook Friends",
+    "author": "haydendking",
+    "subreddit": "dataisbeautiful",
+    "rank": 3,
+    "score": 179,
+    "upvote_ratio": 0.91,
+    "num_comments (reported by reddit)": 34,
+    "url": "https://www.reddit.com/gallery/1je7bla",
+    "id": "1je7bla",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "haydendking",
+            "body": "Data: [https://dataforgood.facebook.com/dfg/tools/social-connectedness-index#accessdata](https://dataforgood.facebook.com/dfg/tools/social-connectedness-index#accessdata)\n\nTools: R - Packages: ggplot2, dplyr, sf, usmap, ggfx, scales\n\nFacebook social connectedness data provides a scaled likelihood of friendship measure between each US county pair. It is calculated by dividing the total number of friendships between the counties by the number of Facebook users in each. Since I don't have the number of Facebook users by county, I used 2020 county populations, assuming that Facebook use is even throughout the country. [68% of US adults use Facebook](https://www.pewresearch.org/short-reads/2024/02/02/5-facts-about-how-americans-use-facebook-two-decades-after-its-launch/). After this assumption, I can find the proportion of each county's friends that live in each other county (including within-county) and from there calculate mean and median distances based on [county population centroids](https://www.census.gov/geographies/reference-files/time-series/geo/centers-population.html).\n\nedit:  \nFor reference, if people were equally likely to be friends with all Americans: [https://www.reddit.com/user/haydendking/comments/1je9vv3/how\\_far\\_away\\_does\\_the\\_meanmedian\\_american\\_live/](https://www.reddit.com/user/haydendking/comments/1je9vv3/how_far_away_does_the_meanmedian_american_live/)",
+            "score": 24,
+            "replies": [
+                {
+                    "author": "smirker",
+                    "body": "I really like this! While I love our brothers and sisters from Alaska and Hawaii, I wonder if focusing on just the Continental US might bring out a little more insight (as those two states currently dominate the top end of the scale).",
+                    "score": 8,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "DontTrustBenny",
+            "body": "This is essentially a map of college towns.",
+            "score": 30,
+            "replies": [
+                {
+                    "author": "Roupert4",
+                    "body": "Tracks for Wisconsin",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "Mister_Mangina",
+                    "body": "Yeah Centre County PA stood out in particular to me as a former resident of State College, and I assume that dark square in the middle of NY is where Ithaca is.",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "haydendking",
+                    "body": "Military bases stand out as well",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "Professional_Bat1777",
+                    "body": "I see a few college towns, but looks more to me highlighting cities with a lot of transplants. Central and S. Florida, desirable areas in the West.\n\nMeanwhile, the bible belt and other midwestern rural areas have very few transplants.\n\nAlso, the lists are pretty meaningless referring to top 5/10 counties. They could just list AK/HI. Nice looking through the lower 48 though.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "snmnky9490",
+                    "body": "Laid on top of a map of the [center of population](https://en.wikipedia.org/wiki/Mean_center_of_the_United_States_population)",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "The_Only_Egg",
+            "body": "Kentuckians never leave Kentucky. It\u2019s like Texas. \ud83e\udd22",
+            "score": 18,
+            "replies": [
+                {
+                    "author": "snmnky9490",
+                    "body": "It's also just close to the center of population of the US",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "Sqweaky_Clean",
+                    "body": "I'm not seeing the relation between the two in these maps... come again?",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "3DRCcatheter",
+                    "body": "Why leave something that makes you happy?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Luminter",
+                            "body": "I\u2019m pretty sure it\u2019s just poverty that\u2019s keeping them there.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "excitato",
+                                    "body": "If it were just poverty then West Virginia and Mississippi would have an equally low median distance",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "pocketdare",
+                    "body": "I seeing a center around Wheeling West Virginia. They don't want to chat with you if you're not from Wheeling",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "BearOnTwinkViolence",
+            "body": "Kentucky seems very isolationist. This is very interesting",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "DEAD_GUY34",
+            "body": "We need a comparison to the expected results if everyone's friends were randomly sampled from the population to know if there are significant deviations. The light spot in the East is over the Appalachians, but it's also not too far from the center of population of the US, i.e. the mean location of a U.S. resident, which would be the lowest number even if there were no effects from mobility, etc.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "haydendking",
+                    "body": "[https://www.reddit.com/user/haydendking/comments/1je9vv3/how\\_far\\_away\\_does\\_the\\_meanmedian\\_american\\_live/](https://www.reddit.com/user/haydendking/comments/1je9vv3/how_far_away_does_the_meanmedian_american_live/)",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "DEAD_GUY34",
+                            "body": "Ah, great, thanks for the speedy reply. So this explains the broad trends pretty well, I guess, though the distances themselves are much larger. Also these maps are very pretty without all of the noise. I suppose some of what appears to be noise is meaningful though, as others have pointed out.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ae7rua",
+            "body": "Should remove Alaska and Hawaii from the top lists. Of course they are going to be on the top.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "durakraft",
+            "body": "Nevada and the utah basin seems to have interactions and i would play the phenomenon card.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Scarveytrampson",
+                    "body": "Maybe I\u2019m misunderstanding you, but they\u2019re both part of the original Mormon settlement. Along with southern Idaho and Northern Arizona. If you\u2019re interested you can read up on what the Mormon\u2019s proposed state called Deseret.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "durakraft",
+                            "body": "Yea i dont have the theological angle or know what their take on anything onthological would be, however id say they dont exclude eachoter and to clearify im referring to unidentified anomalous pheonomenons.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "sickagail",
+            "body": "Different places will have different explanations for the causes of this, but I wonder if there are identifiable similar effects. \n\nBeing physically distant from friends would tend to make a place less satisfying to live I think? Distance might make health outcomes worse (if you don\u2019t have a friend to take you to the doctor)?\n\nMobility is probably both a cause and an effect. Because if you\u2019ve moved from somewhere far away, you\u2019re probably more likely to move somewhere far away again (because you\u2019re less connected to the place). \n\nAlso your friend groups themselves are probably more spread out? Like if your average friend lives 1,000 miles away, your friends\u2019 friends are also probably spread out from each other.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "PancakeSpatula",
+            "body": "The dark blue spot in Louisiana is Fort Polk.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "PancakeSpatula",
+            "body": "The dark blue spot in Louisiana is Fort Polk.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Rakebleed",
+            "body": "Appalachia is such a strange cultural blind spot.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": -13,
+            "replies": [
+                {
+                    "author": "Mobius_Peverell",
+                    "body": "The densest part of the country is by no means Kentucky or Alaska. It's more a measure of mobility\u2014how far people travel from the place where they grew up.",
+                    "score": 16,
+                    "replies": []
+                },
+                {
+                    "author": "somedudeonline93",
+                    "body": "Not really. Appalachia isn\u2019t the most or least populated area of the US. I think more likely this reflects the type of places where people are likely to move to (dark purple) vs places where most of the population grew up there (light).\n\nA lot of transplants in Florida and the western US who are far from their high-school friends, while not many people move to Kentucky so the people who live there are close to those they grew up with.\n\nEdit: I see someone else just said this more succinctly \ud83d\udc46",
+                    "score": 11,
+                    "replies": []
+                },
+                {
+                    "author": "easykehl",
+                    "body": "Density is probably part of it. If you live in the middle of nowhere you\u2019re very likely to have FB friends that don\u2019t live near you as a matter of necessity. \n\nPeer group mobility is a bigger thing. If you and the people near you came from other places, that\u2019ll boost your averages. Even if you don\u2019t move, how many of your friends have moved away?\n\nAnother factor is how friendly an area is. If people tend to move to town and don\u2019t make friends, they pull the average higher, but if people move to town and make a ton of friends, that\u2019ll pull the average down. That\u2019s just a small mitigation on the mobility measure though.\n\nAnother factor is Facebook prevalence. If you move from an area where everyone is on Facebook to an area where no one does, it will boost that town\u2019s average. If you move from an area where none of your friends used Facebook to a place where everyone does, it keeps the new town\u2019s average low. \n\nHonestly it\u2019d be really cool to get the full dataset and calculate how friendly every town in the world is by how many Facebook friends get made in the first few years after you move there. You\u2019d need to adjust for a lot of other factors like age (college towns getting a bunch of 18 year olds would skew a simple calculation) and Facebook use prevalence (an area with higher than average Facebook use would skew the data).",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

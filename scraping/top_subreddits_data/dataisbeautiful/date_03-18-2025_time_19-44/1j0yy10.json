@@ -1,0 +1,64 @@
+{
+    "title": "[Topic][Open] Open Discussion Thread \u2014 Anybody can post a general visualization question or start a fresh discussion!",
+    "author": "AutoModerator",
+    "subreddit": "dataisbeautiful",
+    "rank": 0,
+    "score": 5,
+    "upvote_ratio": 0.64,
+    "num_comments (reported by reddit)": 9,
+    "url": "https://www.reddit.com/r/dataisbeautiful/comments/1j0yy10/topicopen_open_discussion_thread_anybody_can_post/",
+    "id": "1j0yy10",
+    "selftext": "Anybody can post a question related to data visualization or discussion in the monthly topical threads. **Meta questions are fine too,** but if you want a more direct line to the mods, [click here](https://www.reddit.com/message/compose?to=%2Fr%2Fdataisbeautiful.)\n\nIf you have a general question you need answered, or a discussion you'd like to start, feel free to make a top-level comment.\n\n**Beginners are encouraged to ask basic questions**, so please be patient responding to people who might not know as much as yourself.\n\n---\n\nTo view all Open Discussion threads, [click here](https://www.reddit.com/r/dataisbeautiful/search?q=author%3Aautomoderator+title%3A[Open]&sort=new&restrict_sr=on).\n\nTo view all topical threads, [click here](https://www.reddit.com/r/dataisbeautiful/search?q=author%3Aautomoderator+title%3A[Topic]&sort=new&restrict_sr=on).\n\n**Want to suggest a topic?** [Click here](https://www.reddit.com/message/compose?to=%2Fr%2Fdataisbeautiful&subject=[Topic]+Topic+Suggestion&message=I+have+a+topic+suggestion+for+the+monthly+threads:+).",
+    "comments": [
+        {
+            "author": "leeksfreek",
+            "body": "Just curious is rule 8 not going to be followed or enforced anymore? Doesn\u2019t seem like it\u2019s even a rule now",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "leeksfreek",
+                    "body": "I\u2019m aware today is Thursday too but I\u2019ve seen posts about lots of stuff any day of the week and everyday has felt like a Thursday\n\n\nEdit: yeah see it\u2019s Friday and doesn\u2019t look any different than a Thursday",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "hyunion1",
+            "body": "Is there a \"standard\" tool that people use to create the visualizations on this sub? I normally use plotly but it's not nearly as good as some of the stuff I see here. Are pretty much all of the visualizations made manually?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "WeakRelationship2131",
+            "body": "If you're into data visualization tools, ditch the clunky stuff and try something lightweight like preswald for building and sharing insights easily.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "conservationalist",
+            "body": "Would anybody be interested in helping me clean up and present data on the net worth of Congress?\n\nThis is a pretty fast and loose graph but it needs work. Also getting the net worth of Congress is a hell of an undertaking. This probably took me about 17 hours.\n\nAnyway, I want to use it to encourage people to contact their representative related to Goldmen's plans to reduce corruption in Congress.\n\nhttps://preview.redd.it/kkx8ply9xsne1.jpeg?width=1600&format=pjpg&auto=webp&s=68575d2781ca3f13025d4d5150692985279ad34b",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "conservationalist",
+                    "body": "Data gathered from:\n1. https://disclosures-clerk.house.gov/FinancialDisclosure\n2. https://efdsearch.senate.gov/search/home/\n3. Quiver Quantitative\n4. Open Secrets\n5. The Federal Reserve Survey of Consumer Finances, published October 2023\n\nNet worth is difficult to determine for congressmen, but they have to fill out financial disclosure reports. Numbers come from a mix of Quiver Quantitative & Open Secrets (who did the work for me) and the 70+ financial disclosures I downloaded and analyzed from government websites. When doing so, I erred on the low end of net worth.\nAdditionally, data from Open Secrets is largely from 2018.\nI am letting it stand as is. Although there are annual variations within net worth, the fact that the OVERWHELMING majority of Congressmen are worth far more than the people they represent matters. Case in point: Good ol James Justice of WV who was once a billionaire, and lost it. He was a billionaire during his time in Congress. \nOpenSecrets really low-balled a lot of this. I'm not sure if this is because that data was from ~2018 or if it was something else. \n\nNonetheless this is a very conservative representation of who speaks for citizens of the United States.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Icy-Comedian8226",
+            "body": "Hello\u2019s beautiful people",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ZealousidealTomato74",
+            "body": "I'm building a social network of people & organization that can influence a particular business. I want people in my team to be able to add to the network, as well as display and explore it. Are there any tools you'd recommend?",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

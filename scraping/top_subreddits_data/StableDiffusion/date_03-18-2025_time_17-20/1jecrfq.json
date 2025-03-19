@@ -1,0 +1,77 @@
+{
+    "title": "Stable Virtual Camera: This multi-view diffusion model transforms 2D images into immersive 3D videos with realistic depth and perspective",
+    "author": "fruesome",
+    "subreddit": "StableDiffusion",
+    "rank": 1,
+    "score": 162,
+    "upvote_ratio": 0.99,
+    "num_comments (reported by reddit)": 10,
+    "url": "https://v.redd.it/leu89mo7whpe1",
+    "id": "1jecrfq",
+    "selftext": "Stable Virtual Camera, currently in research preview. This multi-view diffusion model transforms 2D images into immersive 3D videos with realistic depth and perspective\u2014without complex reconstruction or scene-specific optimization. We invite the research community to explore its capabilities and contribute to its development.\n\nA virtual camera is a digital tool used in filmmaking and 3D animation to capture and navigate digital scenes in real-time. Stable Virtual Camera builds upon this concept, combining the familiar control of traditional virtual cameras with the power of generative AI to offer precise, intuitive control over 3D video outputs.\n\nUnlike traditional 3D video models that rely on large sets of input images or complex preprocessing, Stable Virtual Camera generates novel views of a scene from one or more input images at user specified camera angles. The model produces consistent and smooth 3D video outputs, delivering seamless trajectory videos across dynamic camera paths.\n\nThe model is available for research use under a Non-Commercial License. You can read the paper [here](https://stability.ai/s/stable-virtual-camera-8833.pdf), download the weights on Hugging Face, and access the code on GitHub.\n\n[https://stability.ai/news/introducing-stable-virtual-camera-multi-view-video-generation-with-3d-camera-control](https://stability.ai/news/introducing-stable-virtual-camera-multi-view-video-generation-with-3d-camera-control)\n\n[https://github.com/Stability-AI/stable-virtual-camera](https://github.com/Stability-AI/stable-virtual-camera)  \n[https://huggingface.co/stabilityai/stable-virtual-camera](https://huggingface.co/stabilityai/stable-virtual-camera)  \n",
+    "comments": [
+        {
+            "author": "2roK",
+            "body": "Can we run this locally?",
+            "score": 15,
+            "replies": [
+                {
+                    "author": "WackyConundrum",
+                    "body": "Well, the code is there, linked in the post, so...",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "2roK",
+                            "body": "Been a long while since I've ran AI via the command line",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Silly_Goose6714",
+                    "body": "Since the model is small, 5gb, i believe so",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "willjoke4food",
+            "body": "Whoa. Stability is back?",
+            "score": 17,
+            "replies": []
+        },
+        {
+            "author": "Striking-Long-2960",
+            "body": "Stable Virtual Camera can theoretically take any number of input view(s).\n\nThis sounds interesting.",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "Enough-Meringue4745",
+                    "body": "Perhaps my iPhone 3d stereo camera can become a bit smarter in splat generation",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Tkins",
+            "body": "It looks like very smooth high quality gaussian splats",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "fruesome",
+            "body": "Online demo here: [https://huggingface.co/spaces/stabilityai/stable-virtual-camera](https://huggingface.co/spaces/stabilityai/stable-virtual-camera)",
+            "score": 9,
+            "replies": []
+        },
+        {
+            "author": "BokanovskifiedEgg",
+            "body": "This looks very useful",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

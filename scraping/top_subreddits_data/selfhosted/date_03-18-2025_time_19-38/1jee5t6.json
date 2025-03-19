@@ -1,0 +1,104 @@
+{
+    "title": "TrailBase 0.8: Open, sub-millisecond, single-executable FireBase alternative built with Rust, SQLite & V8 \ud83d\ude80",
+    "author": "trailbaseio",
+    "subreddit": "selfhosted",
+    "rank": 4,
+    "score": 78,
+    "upvote_ratio": 0.95,
+    "num_comments (reported by reddit)": 14,
+    "url": "https://i.redd.it/8r41b6095ipe1.png",
+    "id": "1jee5t6",
+    "selftext": "[TrailBase](https://github.com/trailbaseio/trailbase) is an easy to self-host, sub-millisecond, single-executable FireBase alternative. It provides type-safe REST and realtime APIs, a built-in JS/ES6/TS runtime, SSR, auth & admin UI, ... everything you need to focus on building your next mobile, web or desktop application with fewer moving parts. Sub-millisecond latencies completely eliminate the need for dedicated caches - nor more stale or inconsistent data.\n\nJust released v0.8 with:\n\n* A cron/time-based Job system for periodic tasks with dashboard and JS/TS integration\n* OpenID Connect (OIDC) auth integration (requested by reddit user)\n* Loosened primary-key column requirements in Admin UI for tables exported via APIs.\n* ...\n\nCheck out the [live demo](http://demo.trailbase.io) or our [website](http://trailbase.io). TrailBase is only a few months young and rapidly evolving, we'd really appreciate your feedback \ud83d\ude4f",
+    "comments": [
+        {
+            "author": "dishit79",
+            "body": "How is this compared to pocket base?",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Docccc",
+            "body": "looks good! why the choice for sqlite if i may ask?",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "trailbaseio",
+                    "body": "Thanks! SQLite is very capable (fully relational, SQL, ... as opposed to e.g. document DBs), well documented, it's very robust (likely mostly deployed DB in the world), extremely fast (since it got WAL mode), and embeddable (for the single-executable bit. Did also look at PGlite).",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "lordpuddingcup",
+                    "body": "Because SQLite is a damn amazing db there\u2019s a reason it\u2019s literally in every phone and every browser it\u2019s even more when you look at its alternate versions like rqlite and the others",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "notlongnot",
+            "body": "What framework did you use for the UI?",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "lordpuddingcup",
+                    "body": "This\u2026 that\u2019s a really clean UI",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "trailbaseio",
+                            "body": "Thanks! It's using solid with solid-ui (which is basically shadcn components)",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "d70",
+            "body": "I see Rust I upvote",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "UhhYeahMightBeWrong",
+                    "body": "Indeed. Similar to my love for coffee, Rust helps me do stupid things faster with more energy!\n\nJokes aside, I love this tool and see huge value in having a FireBase alternative that is so performant and best of all self hosted! I could see this becoming an integral part of my stack.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "d70",
+                            "body": "How are you using firebase currently in your stack?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "UhhYeahMightBeWrong",
+                                    "body": "I mainly use Firebase for analytics in my PWA projects. I was pushed into the Firebase ecosystem when Google moved their analytics under the Firebase umbrella (which, now that I look, is [dating back to 2016](https://developers.googleblog.com/en/google-io-2016-develop-grow-earn/) whoa).\n\nI've done minimal data storage experiments with Firebase, but haven't needed auth-based storage yet. For deployment, I use Vercel via GitHub Actions rather than Firebase Hosting. I like the simplicity that Vercel/Github offer and the longer time goes on the less reliant I want to be on any Alphabet product.\n\nBy the way, I've taken a look at the Trailbase docs and I'm really impressed with the quality. The specific tutorials are excellent, and I appreciate how they compare against alternatives like PocketBase and Supabase. It's clear you're prioritizing developer experience, which is refreshing. As someone still building up my skills, well-documented tools make a huge difference in my ability to implement and use them effectively.\n\nWhat analytics features are you prioritizing in your alternative? I'd be interested in something with Firebase's simplicity but offering more granular event tracking control.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Substantial-Cicada-4",
+            "body": "Small suggestions (good stuff by the way) can you make the login forms pre-filled for the demo? I hate my brain, but I had to go back 3 times for the bloody secret...  \nFilter expression builder for \"Logs\"?- ie. couldn't figure out how to filter on country code.... Actually, you know what? Filter expression builder for all pages?",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "GradesVSReddit",
+            "body": "Ooo I was just starting to work on a project that\u2019d use SQLite for fun. This might be just what i was looking for. Thanks for sharing!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Whiplashorus",
+            "body": "Great project BUT PLEASE let us use postgres as DB backend SQLite is not that good on production usecase",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

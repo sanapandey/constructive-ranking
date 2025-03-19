@@ -1,0 +1,84 @@
+{
+    "title": "Swarmkeeper Gathered Swarm Synergies",
+    "author": "19whale06",
+    "subreddit": "BG3Builds",
+    "rank": 3,
+    "score": 34,
+    "upvote_ratio": 0.95,
+    "num_comments (reported by reddit)": 11,
+    "url": "https://www.reddit.com/r/BG3Builds/comments/1jeflit/swarmkeeper_gathered_swarm_synergies/",
+    "id": "1jeflit",
+    "selftext": "Did you know [Swarmkeeper's Gathered Swarm](https://bg3.wiki/wiki/Swarmkeeper#Level%203:~:text=%C2%A0Hunter%27s%20Mark-,Gathered%20Swarm,-Choose%20the%20swarm) and [Prey's Scent ](https://bg3.wiki/wiki/Prey%27s_Scent_(Swarmkeeper))effect affects any attack rolls, not just weapon attacks?\n\nBased on one of three swarms you choose at level up, once per turn you can either:\n\n* Deal an additional 1d6 Piercing/Lightning/Psychic damage\n* Push/apply Shock/apply Blind\n* Teleport up to 5m away and gain +2 AC\n\nwhen you land an attack roll on a target, and an additional 1d6 Piercing/Lightning/Psychic damage if they are marked with Hunter's Mark.\n\nThis effect intuitively works on ranged bow/crossbow attacks, since the Swarmkeeper is a Ranger subclass after all, but it also applies to any attack roll, notably on spells that use attack rolls. This includes cantrips/spells like Eldritch blast, Shocking Grasp, Guiding Bolt, etc. The additional 1d6 damage from Prey's Scent also adds to spell attack rolls, even though Hunter's Mark does not affect spell damage.\n\n# Synergies\n\nCredits go to [Garsen Channel](https://www.youtube.com/@gar-sen) for testing these interactions on Patch 8 Stress Test.\n\nFor Eldritch Blast, the [Agonizing Blast Eldritch Invocation](https://bg3.wiki/wiki/Agonising_Blast) also applies a CHA modifier to the attack of the Gathered Swarm as Force damage, effectively working as a damage rider to the Gathered Swarm's attack ability. Not only that, [Potent Robe's Gregarious Caster](https://bg3.wiki/wiki/Gregarious_Caster) effect also applies a CHA modifier to the Gathered Swarm's attack damage roll, meaning you get (1d6 + CHA) Piercing/Lightning/Psychic damage as well. This likely also affects the Prey's Scent damage roll if Hunter's Mark is also applied (although Hex is likely a better use of concentration as it applies 1d6 Necrotic to each EB beam). This means with both Agonizing Blast and Potent Robe, you can deal up to (3 x (1d8 + 2 x CHA) + CHA) Force damage + (2d6 + 2 x CHA) Piercing/Lightning/Psychic damage with a single cast of EB, effectively netting you 9 x CHA modifier in increased damage per cast of EB. [Necklace of Elemental Augmentation](https://bg3.wiki/wiki/Necklace_of_Elemental_Augmentation) also likely functions similarly with elemental cantrips, could have some fun with wet + Shocking Grasp + Jellyfish Swarm.\n\nIt also can apply to [Circle of Stars' Luminous Arrow](https://bg3.wiki/wiki/Luminous_Arrow), which is a once-per-turn resource-less spell that uses a bonus action to deal 1d8 + WIS Radiant damage to a target. This is extremely efficient in early levels, since with just 2 levels into Stars Druid and 3 levels into Swarmkeeper Ranger, you can deal 1d8 + WIS Radiant + 1d6 Piercing/Lightning/Psychic damage with only your bonus action every turn without using any spell slots/resources. Stars Druid also gets access to 2\\~4 [resourceless Guiding Bolts](https://bg3.wiki/wiki/Star_Map:_Guiding_Bolt) per Long Rest, which is an attack roll spell so works with Gathered Swarm. [Callous Glow Ring](https://bg3.wiki/wiki/Callous_Glow_Ring) also applies 2 Radiant damage to any attack roll's damage roll, meaning you can apply up to 3 instances of Radiant damage with a single bonus action every turn, which makes Stars Druid a great user of Radiating Orb gear. Also worth noting that the spellcasting modifier is WIS for both Ranger and Druid.\n\nGathered Swarm's damage roll also gets the STR modifier with the Tavern Brawler feat when you use a thrown/unarmed attack, as well as the doubled +2 extra damage from [Path of the Giants Barbarians' Giant's Rage](https://bg3.wiki/wiki/Giant%27s_Rage). [Ring of Flinging](https://bg3.wiki/wiki/Ring_of_Flinging)'s 1d4 rider also affects this. This means you can do an additional (1d6 + 1d4 + 2 + 2 + STR) Piercing/Lightning/Psychic damage once per turn when you throw while enraged. The Lightning damage from jellyfish swarm pairs nicely with the [Elemental Cleaver (lightning)](https://bg3.wiki/wiki/Elemental_Cleaver_(lightning)) feature of Path of the Giants Barbarian subclass, as the 1d6 elemental damage from Elemental Cleaver also gets the same riders, which are then all doubled when hitting wet targets. Napkin math on 27 (+8) STR with Cloud Giant Elixir: 2 x (1d6 + 1d4 + 2 + 2 + 8) = 28 \\~ 44 additional Lightning damage on a single attack on top of your weapon damage, doubling to 56 \\~ 88 Lightning damage on wet targets (granted the Gathered Swarm's damage is only applied once per turn). These same riders likely apply to the Prey's Scent's 1d6 damage as well, though Hunter's Mark spell and Barbarian's Rage obviously conflict.\n\n# References\n\n[https://youtu.be/sCdDsMYlwls?si=44HNJQbFMSQssMag&t=604](https://youtu.be/sCdDsMYlwls?si=44HNJQbFMSQssMag&t=604)\n\n[https://youtu.be/r-wE8OoZqi8?si=3IWAeYK\\_yHgOumFL&t=739](https://youtu.be/r-wE8OoZqi8?si=3IWAeYK_yHgOumFL&t=739)\n\n[https://bg3.wiki/wiki/Swarmkeeper](https://bg3.wiki/wiki/Swarmkeeper)\n\n[https://bg3.wiki/wiki/Agonising\\_Blast](https://bg3.wiki/wiki/Agonising_Blast)\n\n[https://bg3.wiki/wiki/Potent\\_Robe](https://bg3.wiki/wiki/Potent_Robe)\n\n[https://bg3.wiki/wiki/Circle\\_of\\_the\\_Stars](https://bg3.wiki/wiki/Circle_of_the_Stars)\n\n[https://bg3.wiki/wiki/Giant\\_(barbarian\\_subclass)](https://bg3.wiki/wiki/Giant_(barbarian_subclass))",
+    "comments": [
+        {
+            "author": "GimlionTheHunter",
+            "body": "So you\u2019re saying tavern brawler throwing ranger (I\u2019ve already done this as a beast master and it fucks) \n\nAlso makes an interesting storm Gish using elemental augmentation and potent robe on a frost sorc. You\u2019re already using wet so lightning vs cold damage is whatever.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "AlphaHydri",
+            "body": "Great post! I had the idea to do a whole Fey/Psychic-themed party once Patch 8 drops, which would include an 8/4 Open Hand Monk/Swarmkeeper Ranger build. The idea would be to give this character the Resonance Stone to double both my unarmed Psychic damage and the Flurry of Moths damage, so hearing that Tavern Brawler would apply to both damage sources is *HUGE*!",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "grousedrum",
+            "body": "Wow, this is all fascinating and very promising, definitely opens new builds up for Gathering Swarm to be usable on spell attacks!  Thanks for piecing this together and sharing.\n\nThe added STR modifier and Ring of Flinging rider to the Swarm damage sounds like Swarm is acting as a classic Tactician rules DRS.  Do you know if the testing for this was done on HM rules?  I looked at the video in the linked channel a bit and it wasn't totally clear.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "19whale06",
+                    "body": "Yes, according to the tester in the video the testing was done in honor mode, and he does show gameplay/combat log. That being said, you might want to double check with the video maker, as all the information in this post is secondhand.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "grousedrum",
+                            "body": "Ok, that is very, very interesting.  Thank you!",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Shilkanni",
+                    "body": "> The added STR modifier and Ring of Flinging rider to the Swarm damage sounds like Swarm is acting as a classic Tactician rules DRS. Do you know if the testing for this was done on HM rules? I looked at the video in the linked channel a bit and it wasn't totally clear.\n\nI couldn't find the part of the video where he said it was honour mode, but if it was tactician we would see other damage riders showing up in the tests? It looks a bit like the Swarm hit specifically was not implemented consistent with Honour mode 'fixed' damage rider rules.\n\nI also wonder if that will be considered a bug and fixed.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Dub_J",
+                    "body": "Part of me is worried this will get removed in Honor, like most the DRS.   And if so, it would be a lot less compelling.\n\nHowever, it does seem logical to be different, as (I think) it's the swarm doing the damage and not the ranger?   \n\nUsing that logic, some of the riders make sense to double up (when it's an aura like shriek) but it doesn't make a lot of sense to, say, apply the potent robe bonus.  Especially since a special feature is required to allow hunter's mark to be added.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "whycantigetwhatiwant",
+            "body": "Not too often you see effect affect in a sentence.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "19whale06",
+                    "body": "English is my first language.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Shilkanni",
+            "body": "Are these tests and calculations based on honour mode or tactician?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "19whale06",
+                    "body": "According to the tester in the video the testing was done in honor mode.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

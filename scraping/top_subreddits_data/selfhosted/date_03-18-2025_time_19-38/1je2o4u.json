@@ -1,0 +1,1020 @@
+{
+    "title": "PSA - Watchtower is an unmaintained project",
+    "author": "Pravobzen",
+    "subreddit": "selfhosted",
+    "rank": 5,
+    "score": 372,
+    "upvote_ratio": 0.95,
+    "num_comments (reported by reddit)": 157,
+    "url": "https://www.reddit.com/r/selfhosted/comments/1je2o4u/psa_watchtower_is_an_unmaintained_project/",
+    "id": "1je2o4u",
+    "selftext": "Considering how popular Watchtower is for keeping Docker applications updated, I'm surprised by how few people realize it's been unmaintained for several years.\n\nThere's a limited number of actively maintained forks out there.\n\nWhat are people using these days to keep things updated? Scripts + GitOps?",
+    "comments": [
+        {
+            "author": "Morpheusoo",
+            "body": "What\u2019s Up Docker - https://github.com/getwud/wud",
+            "score": 130,
+            "replies": [
+                {
+                    "author": "usrdef",
+                    "body": "Also, there's a fork of watchtower now, and the developer has been keeping it up to date. I am running on it right now. Absolutely no issues.",
+                    "score": 28,
+                    "replies": [
+                        {
+                            "author": "Bhooter_Raja",
+                            "body": "Can you share it?",
+                            "score": 15,
+                            "replies": [
+                                {
+                                    "author": "IM_OK_AMA",
+                                    "body": "Top tip, if you go to the original repo and click the `forks` link in the right hand navigation you see a list of forks: https://github.com/containrrr/watchtower/forks\n\nThe ones with the most stars, open issues, and recent updates tend to be active. It's a good place to start at least.",
+                                    "score": 22,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "a10software",
+                                    "body": "[https://github.com/beatkind/watchtower](https://github.com/beatkind/watchtower)",
+                                    "score": 12,
+                                    "replies": [
+                                        {
+                                            "author": "TheRealBushwhack",
+                                            "body": "Can I use the same composer file and just change the branch name?",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "golfnut1221",
+                                                    "body": "That's what I did and it just ran for the first time w/o issue.",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "diazeriksen07",
+                                            "body": "Looking at the commits, they're from almost a year ago, and almost all of them seem to be unrelated, like changing version number of Gluetun in a docker compose \nhttps://github.com/containrrr/watchtower/commit/3c3749d9a799a6fee10dc4f558f56b50658a9421\n\nAm I missing something? This doesn't seem any more updated and just what does all that have to do with Watchtower",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Healzangels",
+                            "body": "Curious of the fork name. Cheers!",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "a10software",
+                                    "body": "[https://github.com/beatkind/watchtower](https://github.com/beatkind/watchtower)",
+                                    "score": 6,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Goaliedude3919",
+                    "body": "Unless I'm missing something, WUD doesn't have the ability to auto update anything though, right?",
+                    "score": 16,
+                    "replies": [
+                        {
+                            "author": "Tred27",
+                            "body": "It's within \"triggers\"\n\nhttps://getwud.github.io/wud/#/configuration/triggers/docker/",
+                            "score": 16,
+                            "replies": []
+                        },
+                        {
+                            "author": "Specific-Action-8993",
+                            "body": "It does. Just set it up with the docker trigger. You can also have it prune the old image and set up additional triggers for notifications etc.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "DeusExEagles505",
+                    "body": "That project is the greatest \u201cfine-tunable\u201d update system I have ever seen. Bit of a learning curve but once it\u2019s dialed in it is rock solid. \n\nIt needs so much more attention than watchtower. If you need a more instant solution set up diun and have fun doing way more manual shit in the long run.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "thekame",
+                    "body": "The only valid reply.",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "SeltsamerMagnet",
+                    "body": "Would love to keep using it, but somehow discord notifications are broken. Issue has been open for weeks :(",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "pretty_succinct",
+                            "body": "that seems like a pretty insignificant issue to abandon a free, open-source, community driven project.\n\nif you have to have that feature, have you tried fixing it yourself and contributing the code?",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "HittingSmoke",
+                                    "body": "Slight tangent, but the popularity of Discord for open source projects is fucking baffling. A completely closed and centralized platform that doesn't support third party clients and is terrible for searching for archived information? Yeah sure that's better than forums...",
+                                    "score": 32,
+                                    "replies": [
+                                        {
+                                            "author": "zooberwask",
+                                            "body": "God I fucking hate discord as a forum replacement.",
+                                            "score": 7,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "TMITectonic",
+                                            "body": "Discord is where documentation goes to die.",
+                                            "score": 5,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "SeltsamerMagnet",
+                                    "body": "It certainly is. For now I\u2018m mostly living with whatever version my containers are on and update them every couple of weeks/months, since I don\u2018t really have the time or need to change anything. I guess I just miss the discord notifications I got used to, lol\n\nI\u2018ve contributed to OSS before, but currently I\u2018m somewhat burned out on programming.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Dan_Wood_",
+                            "body": "Mine are still working and have been for the past year",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Friendly_Ground_51",
+                    "body": "Just tried whats up docker and maybe I done something incredibly stupid but it updated my zipline postgres container from a alpine image to a ubuntu ( I think) image and the service subsequently broke.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Mag37",
+            "body": "Yesterday I posted about my project [Dockcheck](https://github.com/mag37/dockcheck) which is a simple alternative to Watchtower that have slowly but actively evolved over the last 2 years with a bunch of extra options - while keeping it simple.   \n[Here's the post](https://www.reddit.com/r/selfhosted/s/anwAnrPt21)",
+            "score": 52,
+            "replies": [
+                {
+                    "author": "Euphoric-Future-8769",
+                    "body": "I was going to comment about Dockcheck, glad to see it already mentioned. I've been using it for 6 months now and imo its better than Watchtower. Thanks for making it!",
+                    "score": 12,
+                    "replies": [
+                        {
+                            "author": "Mag37",
+                            "body": "I was scrolling through and hoped to see someone mention it \ud83d\ude05 \nThank you kindly! It's been with much help from the community.",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "SombraBlanca",
+                    "body": "This is exactly what I'm looking for, great work! Lmk when you get a container env option\u00a0",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "adamshand",
+                            "body": "It\u2019s a cli, what do you want a container for?",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "Mag37",
+                            "body": "Thank you - a containerized option of the script? It's a bit of a puzzle but I'll look into it!",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Friendly_Ground_51",
+                    "body": "Been trying a few out, and gotta say, love it so far. Excellent work !!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Fatali",
+            "body": "Renovate + GitOps (specifically ArgoCD, but Flux is also popular)",
+            "score": 92,
+            "replies": [
+                {
+                    "author": "Lumix91",
+                    "body": "Will take a look at those after work, thanks for the recommandations",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "Fatali",
+                            "body": "So ArgoCD/Flux are probably beyond the scope of most setups that people in this sub are running since they're Kubernetes based\u00a0\n\n\nBut renovate could be run with some other git deployment methods, but i don't know the state of the art at the \"plain\" docker level\n\n\nRenovate is still great, it'll track the versioning of the tag (major/minor/patch) and can do much more than just container images. It can also automerge at a specific fidelity, so you can have it automerge patch releases of a trusted project, but require a manual merge for major/minor releases for example.",
+                            "score": 21,
+                            "replies": [
+                                {
+                                    "author": "sweepyoface",
+                                    "body": "I achieve it with [Komodo](https://komo.do), works fantastic for smaller setups.",
+                                    "score": 11,
+                                    "replies": [
+                                        {
+                                            "author": "tenekev",
+                                            "body": "Can you describe how you did it? I just migrated from Portainer and would like to start automating stuff but haven't gotten around to delving into automation docs.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "lintimes",
+                                                    "body": "For Komodo stacks you just have to turn on the auto-update flag in each stack",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "tenekev",
+                                                            "body": "Funnily enough, I had it enabled. I had the impression there is some scripting involved with actions/procedures.",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "nahhYouDont",
+                                    "body": "I think Ansible could be a viable deploy option, ran with the chosen git platform's CI for smaller setups",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "sir_ale",
+                                            "body": "can you elaborate how you do this? been struggling to get GitOps working for some time (using Gitea atm)",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "nahhYouDont",
+                                                    "body": "Unfortunately this is largely a plan for myself too, haven't had time for a homelab rework lately. Just  thinking about doing it...",
+                                                    "score": 2,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "ApartSnow1510",
+                                                    "body": "How familiar are you with Ansible? Lots of great Docker modules there. You can either use it to deploy a Compose file [with this module](https://docs.ansible.com/ansible/latest/collections/community/docker/docker_compose_v2_module.html) or you can use [any of these](https://docs.ansible.com/ansible/latest/collections/community/docker/index.html) in the collection to replace Docker Compose entirely with an Ansible playbook. That is personally the route I've gone since you don't have to first copy over a Docker compose file over to the host. Ansible is a rabbit hole, but a fun one. Jeff Geerling's Youtube channel & books may be your best starting point.\n\nAs far as it pertains to GitOps, you can have it call webhooks to something like [Semaphore UI](https://semaphoreui.com/) or Ansible AWX [(Simplified RPM Installer)](https://github.com/MrMEEE/awx-rpm-v2)[(Main Repo)](https://github.com/ansible/awx). I think Gitea is compatible with Github Actions, so you could install their runner and have it run a Docker container with Ansible to run your playbooks.\n\nI've been pretty deep into Ansible lately and I've been having a blast, honestly. I love it!",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "lmm7425",
+                    "body": "If you\u2019re not running Kubernetes, you can\u2019t use Argo or Flux. I wrote a small script to redeploy compose files for single-host Docker instances, it kind of mimics Argo/Flux.\u00a0\n\nhttps://github.com/loganmarchione/dccd\n\nCombine this with self-hosted Renovate and you have a lot of automation.\u00a0",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "IC3P3",
+                    "body": "That's what I want to do in the next few weeks, especially with Renovate to have more control over when it's updated to which version",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "Fatali",
+                            "body": "I typically have it set really fine grained.\n\n\nSome things I've set to automerge at the minor or patch level, but need a manual merge for higher level\n\n\nIf you leave a MR sit and another patch is released it'll amend the MR to update all the way to the last version. If you close the MR, renovate will ignore it until the next release",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "IC3P3",
+                                    "body": "That sounds very much like what I want to try out. Currently I have Unraid updating single Docker using the latest tag (except for Forgejo) and especially with Nextcloud it only causes problems. \n\nThen I saw WatchTowerr and WUD, but that feels like more of the same and now I have a test bench which should hopefully update using Renovate and Forgejo CI, some other external CI or maybe Ansible that gets triggered by it",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "belovedRedditor",
+                    "body": "Do you know how I can configure notifications in Renovate to know which container updated to what version?",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Fatali",
+                            "body": "Yup,\u00a0 that info will be in the merge request even if it is set to automerge. Depending on how the docs are setup on the project's side, it can often include release notes as well",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "belovedRedditor",
+                                    "body": "Yeah I do get those details on the PR created but I was looking for notifications like on my discord server with just the version details. Currently I have setup webhooks to notify on pull requests but it is not the right approach and the notification only contains the PR link",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Fatali",
+                                            "body": "Ah.i get what you're saying now. I'm not really sure, I don't see any obvious settings in renovate itself. I just use the emails from Git (Forgejo/Gitea/Gitlab/etc) for this sorta thing.",
+                                            "score": 2,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "McMaster-Bate",
+                                            "body": "This should be configurable, this is how my PRs show up in Discord for example: https://i.imgur.com/Nil9KXu.png\n\n[My .renovaterc.json5](https://hst.sh/abazuzuyiz.json)",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "belovedRedditor",
+                                                    "body": "Thanks for sharing the json. Its really helpful",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Fine-Opening-7111",
+            "body": "Podman has a build-in podman-auto-update",
+            "score": 52,
+            "replies": [
+                {
+                    "author": "house_monkey",
+                    "body": "Podman is the best man!\u00a0",
+                    "score": 16,
+                    "replies": [
+                        {
+                            "author": "behindmyscreen_again",
+                            "body": "How hard is it to migrate to podman from docker?",
+                            "score": 11,
+                            "replies": [
+                                {
+                                    "author": "rydoca",
+                                    "body": "It's a bit annoying. But once you have quadlets, which are basically a docker compose equivalent that runs a systemd service it's amazing\nIf you want to just auto pull updates you add one line to each file and turn on a timer",
+                                    "score": 14,
+                                    "replies": [
+                                        {
+                                            "author": "mrgatorarms",
+                                            "body": "Yeah podman works best when you try to approach it from the way podman does things instead of shoehorning docker composes into it. \n\nPods and quadlets are a godsend and I\u2019ll never go back to docker because of it.",
+                                            "score": 10,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "jclinux504",
+                                            "body": "You can use [podlet](https://github.com/containers/podlet) to convert run / compose commands to quadlets pretty quickly, and then just tweak the resulting files.",
+                                            "score": 6,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "InvestmentLoose5714",
+                                    "body": "Not that hard. \nThere is a few gotcha but other than that it works pretty well for me.",
+                                    "score": 6,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "ninjaroach",
+                                    "body": "As someone who is heavily invested in docker compose, I found podman to be highly annoying.",
+                                    "score": 8,
+                                    "replies": [
+                                        {
+                                            "author": "kwhali",
+                                            "body": "Anything in particular stand out that was a pain point?",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "danshat",
+                                    "body": "Idk the last time I checked it wasn't completely mature and a lot of people struggled with it. However they claim docker compose compatibility",
+                                    "score": 2,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "acdcfanbill",
+                                    "body": "I haven't tried in the last year or two, but when I tried to move to podman a couple of times before, I had great success with individual containers, but ran into issues with multi-containers with multiple networks, something like a couple of apps, a reverse proxy, database containers, and a private network for database traffic.  It may be sorted by now, I just haven't had time to try moving to podman again.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "e-spice",
+                                    "body": "I tried about a year ago. Kept running into various issues. Got annoyed and went back to Docker.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Designer_Intention98",
+                    "body": "And it can generate systemd stuff to keep your mess running! Best feature and since I discovered that, I moved everything over to Podman.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Weetile",
+            "body": "Never noticed, it still works great for me.",
+            "score": 51,
+            "replies": [
+                {
+                    "author": "grahaman27",
+                    "body": "Unaddressed vulnerabilities could be a concern\u00a0",
+                    "score": 14,
+                    "replies": [
+                        {
+                            "author": "Alfagun74",
+                            "body": "Not COULD but they ARE. ANY service that requires your docker.sock should be one that is maintained regularly, as these could potentially kill your entire system with root privileges.",
+                            "score": 24,
+                            "replies": [
+                                {
+                                    "author": "kwhali",
+                                    "body": "Or you could proxy the socket to restrict access when you're concerned about such risks :)",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Alfagun74",
+                                            "body": "Could you elaborate? Trying to learn how to maximize security :)",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "r9d2",
+            "body": "Im using diun for upgrade notifications with ntfy (and testing gotify).",
+            "score": 21,
+            "replies": [
+                {
+                    "author": "Simon-RedditAccount",
+                    "body": "Second this. DIUN, and without docker socket access. Just notifications.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "nahhYouDont",
+            "body": "Are there any glaring problems? Vulnerabilities?\n\nIt is a feature complete project as far as I know, there is no issue with not having a commit every week.",
+            "score": 50,
+            "replies": [
+                {
+                    "author": "evrial",
+                    "body": "yeah attack surface is the sum of its dependencies and it has access to docker socket insecure by design\n\n[https://github.com/containrrr/watchtower/blob/main/go.mod](https://github.com/containrrr/watchtower/blob/main/go.mod)\n\ndo you really need all this junk simply to pull the container?",
+                    "score": 57,
+                    "replies": [
+                        {
+                            "author": "shrimpdiddle",
+                            "body": "Always use trusted socket-proxy",
+                            "score": 6,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "dungeonlabit",
+            "body": "This is the natural successor: [https://github.com/nicholas-fedor/watchtower](https://github.com/nicholas-fedor/watchtower)",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "G0rd0nFr33m4n",
+                    "body": "Not the OP, but I face this bug on Raspberry Pi OS\n\nhttps://github.com/nicholas-fedor/watchtower/issues/87",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "dungeonlabit",
+                            "body": "Tried now on my Pi1 and I can't see the error. But I see the developer marked the bug as closed so maybe the fix will be included in the next release...",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "MrAffiliate1",
+            "body": "I do the old manual update. Spend every 2 weeks or so going through and updating the services. There's less chance of things breaking and for unwanting newer versions. For example a new version of pihole was released and Ive been seeing it causing problems for some people. Going to wait about 2/3months before updating.",
+            "score": 11,
+            "replies": [
+                {
+                    "author": "phillymjs",
+                    "body": "Pihole v6 was getting updated quite frequently right after release as bugs surfaced, but things have settled down now. I've got one instance running on bare metal on a Pi3 (soon to be phased out) and two more running as containers on N100 boxes, all syncing with NebulaSync, and I'm having no problems.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "steveiliop56",
+            "body": "Renovate and GitHub or for something more self hosted you could use cup (https://github.com/sergi0g/cup) which gets app updates without getting rate limited by the docker api (thanks to head requests) and you could plug that in to a bash script to auto update apps with crontab.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Popo8701",
+            "body": "Komodo. I use it for my deployments and it has an option to get and to do the updates automatically.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "instant_dreams",
+            "body": "diun for the win. Autoupdate is a risk.",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "PovilasID",
+                    "body": "I prefer to handle updates myself too. There could be a more streamlined way with syndicating all release notes and letting you one click update... There probably is way or tool that adds that step",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "0x3e4",
+            "body": "Docker Hub & Github repo monitoring + reading release notes asap and manually updating it up to the importance.  \nalso trying \"cup\" cli since a few weeks and i kinda like it and will integrate it in aboves process.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Verme",
+            "body": "CUP - Fast and easy - https://github.com/sergi0g/cup",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "epsiblivion",
+                    "body": "does this only check for updates or actually does the updates",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "magicdude4eva",
+            "body": "It works and in my use on an internal network does everything I need.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "mbecks",
+            "body": "https://komo.do can be set up to send notification when update available, or go the full way and redeploy when update is available",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Excerial",
+            "body": "I use https://github.com/AlexGustafsson/cupdate",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "MentalUproar",
+            "body": "I switched to podman and just use an auto update line in the quadlets. Close enough for me.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "kevdogger",
+            "body": "Wow I didn't know this. Bummer there isn't a great alternative",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "igmyeongui",
+                    "body": "There\u2019s clearly a better alternative and it\u2019s called flux + renovate",
+                    "score": -2,
+                    "replies": [
+                        {
+                            "author": "evrial",
+                            "body": "that's territory of CI/CD, infra as a code completely another space",
+                            "score": 12,
+                            "replies": [
+                                {
+                                    "author": "igmyeongui",
+                                    "body": "Hard disagree. Your deployment IS code. It\u2019s simple code but it is code. You\u2019re asking for fancy UI that in the end removes functionality and is tied on small third party apps that eventually gets abandoned. I wouldn\u2019t be surprised the reason the Watchtower dev flew away from it\u2019s own project is because he\u2019s now using git ops. Of course I\u2019m speaking out of my ass and this ain\u2019t true but it would be funny and would kinda prove my point. I was the dev of watchtower this is what I would\u2019ve done. \n\nBut if you think your infrastructure isn\u2019t code, you can keep this lie to yourself.",
+                                    "score": -7,
+                                    "replies": [
+                                        {
+                                            "author": "evrial",
+                                            "body": "I'm totally fine with bash and cron and git. Without UI and git ops and some other \"useful\" garbage and countless hours of reading I never asked or paid.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "UnacceptableUse",
+            "body": "Unless the docker api changes I don't see why it would need updating",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "rmusic10891",
+                    "body": "Vulnerabilities",
+                    "score": 13,
+                    "replies": [
+                        {
+                            "author": "dungeonlabit",
+                            "body": "please can you tell me how can you take advantage of them in an isolated container with only outgoing connections?",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "Simon-RedditAccount",
+                                    "body": "*> how can you take advantage of them in an isolated container with only outgoing connections*\n\nIs watchtower capable of updating itself?\n\nIf yes, then **IF** watchtower's \"mantainer's account\" is breached then ***they*** will just release a new version with, *uhm*, enhanced new capabilities that utilize everything that access to docker socket can provide.\n\nSupply chain attacks happens every now and then: [https://arstechnica.com/information-technology/2025/03/supply-chain-attack-exposing-credentials-affects-23k-users-of-tj-actions/](https://arstechnica.com/information-technology/2025/03/supply-chain-attack-exposing-credentials-affects-23k-users-of-tj-actions/) . Actually this is true for every image out there in the wild, but for unmaintained projects there's a much higher chance that the account will fall into wrong hands + won't be immediately noticed/reversed. Add \"admin capabilities\" (=docker socket access), and you have a perfect recipe for a disaster.",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "dungeonlabit",
+                                            "body": "Yes this is right buy is valid also for every non professionally mantained projects (half of the tools of and homelabber) and people here are complaining about the project because is abandoned. So let's be suspicious if there are any updates! \u263a\ufe0f",
+                                            "score": 5,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "rmusic10891",
+                                    "body": "It sends a request and gets a response with malicious code that causes remote code execution or something similar.",
+                                    "score": -9,
+                                    "replies": [
+                                        {
+                                            "author": "dungeonlabit",
+                                            "body": "How can get a response with malicious code? By DNS hijacking of hub.docker.com or man in the middle, so every pull is compromised, even the manual ones. What's the POC?",
+                                            "score": 11,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "AccidentalBirth",
+                                            "body": "But all it does it sends a the docker update command to each container, who then pulls the latest image. Or am I wrong? Trying to understand how vulnerabilities would be harmful for an isolated instance",
+                                            "score": 6,
+                                            "replies": [
+                                                {
+                                                    "author": "rmusic10891",
+                                                    "body": "If it doesn\u2019t handle certain types of vulnerabilities correctly it does whatever the attacker wants it to do. Especially problematic because most people in the home lab run their docker containers as root. I don\u2019t use watchtower but I assume it talks to the internet to know there are updates.",
+                                                    "score": -10,
+                                                    "replies": [
+                                                        {
+                                                            "author": "kwhali",
+                                                            "body": "Root in container is not equivalent to root on the host.",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "droans",
+                                            "body": "That would be a vulnerability with Docker's API, not Watchtower.",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "rmusic10891",
+                                                    "body": "It would be a vulnerability with both",
+                                                    "score": -4,
+                                                    "replies": [
+                                                        {
+                                                            "author": "droans",
+                                                            "body": "No, it wouldn't be. Watchtower just tells the Docker socket to pull new images. If someone uploaded a malicious image, that's not a Watchtower vulnerability. It doesn't scan images or do any validation as that should be done by Docker already. \n\nIf an updated image has a bug which causes it to crash immediately, would you also say that's a Watchtower bug because it pulled the updated image?",
+                                                            "score": 5,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "rmusic10891",
+                                                                    "body": "Not if the malicious code was just in the HTTP response sent back to watchtower. I assume it connects to docker hub or similar to monitor versions",
+                                                                    "score": -1,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "droans",
+                                                                            "body": "That's not how Watchtower works. I already explained above that it connects to the Docker socket and tells it to pull new images. \n\nEven if it did work like you suggest, that still wouldn't be a vulnerability in Watchtower. That would be a MITM attack and would, either be a Docker vulnerability or your network is being attacked.",
+                                                                            "score": 2,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "UnacceptableUse",
+                                            "body": "But it requests version updates for containers, so if you were able to control the output of that request then you could just push a malicious container image update and watchtower would happily download and update it",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "dungeonlabit",
+                                                    "body": "How can get a response with malicious code? By DNS hijacking of hub.docker.com or man in the middle, so every pull is compromised, even the manual ones. What's the POC?",
+                                                    "score": 2,
+                                                    "replies": [
+                                                        {
+                                                            "author": "UnacceptableUse",
+                                                            "body": "Exactly, that's what I mean. That wouldn't be a vulnerability with watchtower",
+                                                            "score": 2,
+                                                            "replies": []
+                                                        },
+                                                        {
+                                                            "author": "rmusic10891",
+                                                            "body": "Yes something along those lines.",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "drashna",
+                            "body": "which?",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Lopsided-Painter5216",
+            "body": "I moved my compose files to a private GitHub repo and I use renovate. I wish it did better on the more complex version tags, or when someone used a version tag greater than the current one (publishing a v4 and then changing their minds later on and regressing). For other stuff on latest I got Portainer doing an image refresh every 6 hours when it scans for updates to the GitHub repo.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "luki42",
+            "body": "I use gitea repo + renovate to keep my IaC\nworks great!!",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "r3fund",
+                    "body": "Going to pursue this. Any words of wisdom?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "luki42",
+                            "body": "Sure,  \nI use komodo to manage my docker containers and compose stacks. (https://komo.do/)  \nI have a IaC repo with all my compose stacks as yaml files inside.  \nOne gitea action is executed every several hours to run renovate and open pull requests when new updates are available.  \nAnother pipeline runs when new commits are added to master. (merging a pr) This pipeline triggers a komodo webhook to redeploy the stack. I use also use the hash feature of docker such that not only the fixed container version (instead of latest) is pinned but also the exact hash to make deployments reproducible.\n\nThis setup gives me the flexibility to update stuff when I want it to and see also changelogs in the corresponding pull requests from renovate.  \nupdating stuff is as easy as merging a pull-request.   \nHappy tinkering!",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "pizzacake15",
+            "body": "Komodo has an auto update feature if you only use watchtower to auto update your containers.\n\nI don't use the auto update myself but it's good for others to know there are options.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "sway_yaws",
+            "body": "Podman auto-update. Podman quadlet is not as intuitive as docker compose but it is well integrated with systemd and cockpit. If you are on a RHEL family Linux distro, the experience is a lot better than docker once you overcome the learning curve.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "viewofthelake",
+            "body": "Podman with [auto-update](https://docs.podman.io/en/latest/markdown/podman-auto-update.1.html)",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "UnicornLock",
+            "body": "Who watches the watchtower?",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "techma2019",
+            "body": "Woah, I definitely had no idea that was the case. Did the maintainer just leave or what happened? Has anyone forked it?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "BarServer",
+                    "body": "i just clicked a bit around. There are several persons associated with the GitHub Organisation. Some still commit regularly. Others haven't in quite some time if not years.  \nJudging by the commit history there were several people who applied merge requests, etc.  \n  \nSo maybe just a case of \"Life moved on, not interested anymore\"?",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "zoredache",
+                            "body": "I wonder if someone should try contacting them, and see if they want to grant access to a new maintainer, or endorse a fork in the README or something.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Jisevind",
+            "body": "Is there a solution where I can get notifications that there is an update and show me the releasenotes?",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "earlgreyhound",
+            "body": "Podman+Auto Update",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Zerebos",
+            "body": "I've not seen anyone mention [Docking Station](https://github.com/LooLzzz/docking-station) in this thread, but that's my preferred updater out of the bunch.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "RathdrumRip",
+            "body": "I use DockWatch...",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "SillyLilBear",
+            "body": "It isn't really unmaintained but not really needing maintenance.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "frozen-rainbow",
+            "body": "renovate",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "CC-5576-05",
+            "body": "You can literally write a 10 line bash script to do this, why use some bloated we app?",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "dadarkgtprince",
+            "body": "Couldn't you just do a cron job to update your images?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "drewski3420",
+            "body": "How do you know it's unmaintained? Based on the last commits? Is not having any recent commits the same as being unmaintained?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ovizii",
+            "body": "I use this https://www.reddit.com/r/selfhosted/comments/1jd7cuq/oc_dockcheck_v058_cli_tool_to_automate_docker/",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "tibodak",
+            "body": "Unrelated, is watchtower also a religious magazine?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "BarServer",
+                    "body": "Yes, it's the main propaganda magazine of the sect Jehovah's Witnesses.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "tibodak",
+                            "body": "Almost spat my coffee, time to update my containers",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "BarServer",
+                                    "body": "I found this http://www.linux-m68k.org/faq/saynotowatchtower.html and was also a little bit confused.  \n  \n> From an email I sent to a user who had installed Watchtower:\n> Using Watchtower is a fundamentally bad idea. It's non-upgradable, unmaintained, old, libc5-based, and the only way to add a new package is to compile it yourself.  \n  \nUh, ok? lic5 is pretty old. How did they manage to achieve that?  \nThen further below:  \n  \n> For the uninitiated, Watchtower was a completely ancient set of tar files that were useful in assembling a working system. Basically, it was like a non-upgradable version of the Debian base system. Well, you could upgrade it, if manually installing tar files downloaded from phil or compiling sources from Sunsite is your idea of \"upgrading.\" It was primitive, but it was better than what came before it. Don't even ask what we had to deal with with before Watchtower!  \n  \nOh, ok...",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "tibodak",
+                                            "body": "Im too sleepy at this point, better pull the plug. Maybe purge everything so I can start with casa os",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "einstein987-1",
+            "body": "Komodo has the ability to auto update but you need to convert to it. I'm sold on the ability to move the deployment (minus the volumes) to a different instance",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Capable_Hawk_1014",
+            "body": "I just use mend for updating my compose files in git and a cronjob to periodically pull git and update containers.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "UhhYeahMightBeWrong",
+            "body": "Thanks for bringing this up, I had not noticed it is unmaintained. There is an issue thread on the original repo github that discusses this: https://github.com/containrrr/watchtower/issues/2067\n\nI also noted there are a few forks mentioned, the most recent active one is this one: https://github.com/nicholas-fedor/watchtower\n\nAnnecdotally, it seems a bit of a mess in that there are several forks all with the same intention of keeping it going. To my knowledge there is not a process that exists to \"replace\" an original repo with a fork. There is also risk in that if the original repo gets deleted, the fork could be affected because they inherit from the upstream: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/what-happens-to-forks-when-a-repository-is-deleted-or-changes-visibility\n\nAll that to say, I think for a reliable solution, we need an established successor that is not just a fork of the original.\n\nAlso, there is definitely some irony in Watchtower becoming unwatched and unmaintained.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Surrogard",
+            "body": "My alternative is [shepherd](https://github.com/containrrr/shepherd) \n\nA real set and forget, you just should adjust the sleep time otherwise you run into quota limits of docker hub",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Pesoen",
+            "body": "i just manually update them every now and then. i keep track of important and security updates, but otherwise update when i notice its got a new version(most things will tell you) or just update every now and then when it's not in use.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Microbzz",
+            "body": "Renovate + GitOps gang here, admittedly not the simplest setup initially but since I already self-hosted Gitlab with CI runners I already had most of the infrastructure ready to go. I'm super happy with it but on the other hand if I didn't self-host a VCS with CI/CD, it surely would not have been my first choice.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "adamshand",
+            "body": "I update containers manually but keep up with updates with new releases.io(and recently trying cup).\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Dry_Tea9805",
+            "body": "Good to know. I was about to deploy watchtower.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "VirtualDenzel",
+            "body": "Considering i build my own docker files for all i host i kinda never have this issue. Luxery problems haha",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "condeeorl",
+            "body": "I user a small project named docker controller",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "sinofool",
+            "body": "I kept manual version upgrade for years. Habit from work.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "neutralwarmachine",
+            "body": "    function updateall() {\n    \tcd /srv/docker/uptimekuma \n    \techo \"pulling and stopping uptimekuma\"\n    \tdocker-compose pull && docker-compose stop\n    \n    \tfor d in foo bar baz quux corge grault garpl waldo fred plugh xyzzy thud; do\n    \t\techo \"pulling and bouncing ${d}\"\n    \t\tcd /srv/docker/${d}\n    \t\tdocker-compose pull && docker-compose down && sleep 1s && docker-compose up -d\n    \t\techo \"done with ${d}\"\n    \tdone\n    \n    \tcd /srv/docker/uptimekuma\n    \techo \"starting uptimekuma\"\n    \tdocker-compose up -d\n    }\nI tend to run that manually whenever the mood strikes, it would be trivial to put that into cron if I so desired.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "henry_tennenbaum",
+                    "body": "No need to `docker compose down` before the `docker compose up -d`",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "giant_bulge",
+            "body": "What up docker",
+            "score": -4,
+            "replies": []
+        },
+        {
+            "author": "dopey_se",
+            "body": "I wrote my own for Kubernetes deployment, but it's bare bones features \"works for me\". I use it to monitor and update via gitops all my deployments in my rke2 cluster\n\nIt's on GitHub and had hoped others used it but don't want to self promote so will share if asked :)",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "title": "Game devs, what are the biggest workflow headaches you deal with daily?",
+    "author": "Hot_Employ_5836",
+    "subreddit": "gamedev",
+    "rank": 11,
+    "score": 4,
+    "upvote_ratio": 0.75,
+    "num_comments (reported by reddit)": 11,
+    "url": "https://www.reddit.com/r/gamedev/comments/1jefzor/game_devs_what_are_the_biggest_workflow_headaches/",
+    "id": "1jefzor",
+    "selftext": "Hey everyone, I\u2019m doing some casual research on game development workflows and wanted to get a sense of what slows you down the most.\n\t\u2022\tAre there any repetitive tasks you wish were automated?\n\t\u2022\tDo you use AI-driven tools to speed up your pipeline, or do you prefer full control?\n\t\u2022\tFor those using Unreal/Unity, what\u2019s your biggest time sink?\n\t\u2022\tHow do you handle world-building, level design, or scene setup?\n\nI\u2019m curious if people see value in tools that automate parts of the workflow (e.g., generating environments based on a script, voice-controlled world-building, etc.). Or do you think automation would take away too much creative control?\n\nWould love to hear your thoughts\u2014especially from those who have worked on indie or AAA projects.",
+    "comments": [
+        {
+            "author": "Strict_Bench_6264",
+            "body": "The one biggest headache? Human communication, or the lack thereof.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "GraphXGames",
+            "body": "AAA - a lot of content;\n\nIndie - a lot of coding;",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "TerrorHank",
+            "body": "Lack of communication, lack of a concrete plan, and colleagues not taking 5 minutes to check their own work.  So much expensive developer time is pointlessly wasted because of these.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "secondsleeping",
+            "body": "People are the number one problem. Always.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "UnlikelyUniverse",
+            "body": "My biggest headache is how slow C++ is to compile :D",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "HQuasar",
+            "body": "> Are there any repetitive tasks you wish were automated?\n\nAll things related to texturing and UV mapping are a chore.\n\n> Do you use AI-driven tools to speed up your pipeline\n\nI use AI for generic textures like windows/doors. Also to convert generic pictures into cool paintings.\n\n> For those using Unreal/Unity, what\u2019s your biggest time sink?\n\nOptimizing code and graphics.\n\n> How do you handle world-building, level design, or scene setup?\n\nI make them in Blender then export.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BobbyThrowaway6969",
+            "body": "Meeting frequency can screw up productivity. That and also manual task tracking. (AAA)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "PiLLe1974",
+            "body": "AAA - lots of rewritten/reinvented ideas, I'd wish apart from sharing within a company there'd be lots of cool modules/packages (Unreal/Unity) that are modular, and state-of-the-art workflows (not just runtime). Maybe personally I didn't even try all the middleware out there that would help us.\n\nE.g. within WB Games and I bet EA there's shareable tech, by making them a part of the engine or a module/plugin. When I leave those companies we spend a few years again to build that stuff. :D\n\nThings that make our lives easier are e.g.\n\n* Houdini and possibly more AI tools that go that direction, creating, redoing, experimenting, and so on with geometry, animations, lighting, scattered elements like stones/foliage/trees\n* Lots of automated testing and validation  (testing more on the tech side, memory, crashes, etc, and validation in the sense of what assets we use and don't, where collision/navigation/game-flow/balancing/etc is broken\n\nAnd those Modules/packages we had:\n\n* Quest system with data-driven / scriptable conditions and actions  (mission/narrative/spawn/stats setups in a sense, simply speaking)\n* Open world navigation system including a higher level navigation / scheduling (mostly simulating both schedules and NPCs travelling / roaming so they can appear correctly timed/placed near the player)\n* State-of-the-art animation system with lots of workflow enhancements\n* Ambiant sound design tooling suite  (far beyond placing stuff, more like drawing sound)\n* ...and cool stuff like that\n\n...and yeah, the headaches as others stated, communication and clarity from mostly the \"design group\", which is sometimes fixed by a core designer/director and vision keeper or a core team (not 10+ cooks).",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Zlatcore",
+            "body": "for me it's mostly new security standards where every couple of hours I need to log into Some BS third party app that does security for you, and then use the phone to confirm it's still me. \nSecond biggest pain point is how long it takes to build a project if I want to test it on phone.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "tPRoC",
+                    "body": "The alternative to 2FA is getting ransomed and exfiltrated. Not a matter of if but when.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "destinedd",
+            "body": "Having to constantly be thinking about marketing and making things ready for marketing.",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}

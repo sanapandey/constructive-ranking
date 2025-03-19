@@ -1,0 +1,1450 @@
+{
+    "title": "Anyone switching or wanting to switch from Chrome to FireFox recently?",
+    "author": "ear2theshell",
+    "subreddit": "webdev",
+    "rank": 5,
+    "score": 253,
+    "upvote_ratio": 0.87,
+    "num_comments (reported by reddit)": 230,
+    "url": "https://www.reddit.com/r/webdev/comments/1jdu9iq/anyone_switching_or_wanting_to_switch_from_chrome/",
+    "id": "1jdu9iq",
+    "selftext": "I want to switch from Chrome to FireFox not only as my primary browser but also as my preferred dev browser primarily because of Chrome's plan to block installation of uBlockOrigin. I've found the modern web to be virtually unusable without some form of ad blocker and uBO is the only non-half-baked solution I'm aware of.\n\nHas anyone else switched because of this? If not this, then what made you switch?\n\nWhat have been some major differences you noticed?\n\nWhat has the learning curve been like?\n\nHow long did it take you to forget that you used to use Chrome?",
+    "comments": [
+        {
+            "author": "BangsKeyboards",
+            "body": "Firefox all the way.  Containers alone make it better than all the other options for a consultant like me that might have two projects with the same tooling (GitHub, outlook, figma, etc). Also, Firefox recovers from crashes without nearly the same chaos as chrome if you are like me and keep you to-do list as open tabs. \n\nPlus being able to use the mobile app and send tabs from device to device is also nice.  \n\nFYSA:  containers are not the same as spaces or workspaces in other browsers.  They segregate memory space and cookies, etc so it is like using two different browsers.  I haven't found another browser that will let me log into Outlook under two accounts within the same browser. Containers allowed me to do that side by side without any bleed over of sessions or data.\n\nEdited for typos (Firefox doesn't help with that)",
+            "score": 195,
+            "replies": [
+                {
+                    "author": "majoredinswag",
+                    "body": "Minor correction but you can also send tabs to and from your mobile device with Chrome",
+                    "score": 21,
+                    "replies": [
+                        {
+                            "author": "NoctilucousTurd",
+                            "body": "Which major browser doesn't support that?",
+                            "score": 9,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "ao_makse",
+                    "body": "Containers are MVP",
+                    "score": 17,
+                    "replies": []
+                },
+                {
+                    "author": "Hitwelve",
+                    "body": "What does a container in Firefox do that a profile in Chrome doesn\u2019t?\n\nOur app doesn\u2019t allow you to log in to two separate \u201cends\u201d (admin and main user dashboard) in the same browser due to authentication restraints, so we all just use Chrome profiles. We store auth data with cookies and haven\u2019t had any issues.",
+                    "score": 17,
+                    "replies": [
+                        {
+                            "author": "AuthenticGlitch",
+                            "body": "Profiles in other browsers require you to use a whole separate window and extensions, profile, etc. Containers are basically the same thing but you don't need to switch windows, it's just a tab and all extensions are shared and it still uses the same profile so bookmarks are shared. Super convenient, I've been using them for years and could never use another browser because of it.",
+                            "score": 38,
+                            "replies": [
+                                {
+                                    "author": "Hitwelve",
+                                    "body": "Oh yeah, that is pretty convenient. Losing all of my extensions every time I create a new profile is super annoying. Ty for the response!",
+                                    "score": 15,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "ORCANZ",
+                                    "body": "Arc does all of this with chromium.\n\nAlternative to Arc using gekko is Zen browser",
+                                    "score": 6,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "s7stM",
+                    "body": "Actually, there is spell checking too in Firefox. :) You can set up in the settings.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "BangsKeyboards",
+                            "body": "Yeah.  I had typos that passed spell checking since autocorrect chose the wrong word.  I was just really making a joke about Firefox not helping.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "mcfedr",
+                    "body": "Lack of chrome style profiles is my one blocker from switching to Firefox. So much harder to manage than separate profile windows.\n\nYou have to specifically choose to open a link with it, all the tabs are mixed together, horrible.",
+                    "score": -4,
+                    "replies": [
+                        {
+                            "author": "KrazyDrayz",
+                            "body": "That doesn't make sense. You could just open a new window if tabs mixing together is a problem for you.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "PricePerGig",
+                    "body": "Profiles in Firefox seems to do the same. It's supposed to be like this in edge too.. Firefox just made it simple. \n\nOpen Firefox... Which profile would you like sir. Thanks I'll let you get on with your day.",
+                    "score": -1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "JK33Y",
+            "body": "I personally prefer the Firefox dev tools over chrome and have been using it for years with no problems",
+            "score": 102,
+            "replies": [
+                {
+                    "author": "SunshineSeattle",
+                    "body": "Switched from part time to full time last year, zero problem and it's nice having a block on mobile (Android)",
+                    "score": 15,
+                    "replies": []
+                },
+                {
+                    "author": "Yodiddlyyo",
+                    "body": "Firefox perf profiling tool has always been waaay better than chrome's",
+                    "score": 8,
+                    "replies": []
+                },
+                {
+                    "author": "freddy090909",
+                    "body": "Does it have the ability to override HTTP responses (either built in or through an extension)? That's a feature I use a ton for testing, but I wasn't able to find a way to do it on Firefox when I'd looked previously.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "GiraffesInTheCloset",
+                            "body": "Yes, there is \"Set Network Override\" right click option in the Network panel in Beta.\n\nSee [https://www.mozilla.org/en-US/firefox/137.0beta/releasenotes/](https://www.mozilla.org/en-US/firefox/137.0beta/releasenotes/)",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "freddy090909",
+                                    "body": "Awesome! Thanks for the heads up, I know a few firefox enjoyers on my team who are gonna love this.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "StatementOrIsIt",
+                                    "body": "For a long time this was the only reason I used Chrome dev tools once in a while (other than checking browser compatibility). Very nice to see Firefox implement this.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Kailhus",
+                            "body": "Have you considered msw instead? https://mswjs.io\nI\u2019m honestly mind blown by the added value of mocking APIs to get cracking with the UI and the v2 is pretty straight forward",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "ludacris1990",
+                    "body": "Firefox dev tools are the only downside to me. Chromium\u2019s devtools are way better imo.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "CodeAndChaos",
+                            "body": "Agreed, switched from Chrome to Firefox some time ago and I much prefer Chrome's devtools.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "blahyawnblah",
+            "body": "Make the switch. I have been using firefox since the 1.0 days. \n\nWhat kept you on chrome?\n\nIt's a browser there isn't a learning curve unless you're using dev tools and even then they're basically the same. I like firefox's more anyway.",
+            "score": 65,
+            "replies": [
+                {
+                    "author": "Alexandur",
+                    "body": ">It's a browser there isn't a learning curve unless you're using dev tools \n\nLook at the sub we're in",
+                    "score": 49,
+                    "replies": [
+                        {
+                            "author": "Ok-Armadillo-5634",
+                            "body": "Even then they are 90% the same",
+                            "score": 8,
+                            "replies": [
+                                {
+                                    "author": "Alexandur",
+                                    "body": "I know, I just thought it was a funny \"if\" statement given that everyone here naturally uses browser dev tools",
+                                    "score": 14,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Zestybeef10",
+                            "body": "Yeah what?",
+                            "score": -7,
+                            "replies": [
+                                {
+                                    "author": "MatthewMob",
+                                    "body": "People on /r/WebDev probably use devtools a lot...",
+                                    "score": 11,
+                                    "replies": [
+                                        {
+                                            "author": "Zestybeef10",
+                                            "body": "I'm literally agreeing with him...",
+                                            "score": -1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "anus-the-legend",
+            "body": "For daily a browser, it shouldn't be a problem, but for development, I still find chrome's tooling to be more innovative, polished, and ahead of the curve. the majority of the tools are available for both, just a bit different. but firefox still lags behinds IME",
+            "score": 13,
+            "replies": [
+                {
+                    "author": "RubbelDieKatz94",
+                    "body": "Vivaldi with its integrated filter lists is a great best-of-both-worlds solution, IMO.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Vilhelmgg",
+            "body": "I fully made the switch a week or so ago, although I've been using Firefox on my laptop long before that. \n\nNo problems, really, importing bookmarks and passwords is quick and easy. My only complaints are that the built-in translation feature is significantly worse, some minor bugs displaying favicons for bookmarks, and that you can't set a wallpaper for new tabs without an extension.",
+            "score": 10,
+            "replies": []
+        },
+        {
+            "author": "GuilhemF",
+            "body": "I prefer Firefox's vision and strongly dislike Chrome's (Chromium monopoly, corporate control, ad blocker restrictions, etc.).\n\nHowever, I'm very accustomed to Chrome's DevTools, especially when working with flex/grid properties. Additionally, many new CSS features debut in Chrome first\u2014like scroll-driven animations and view transitions. It took Firefox nearly three years to implement the incredibly useful :has() selector, which is why I still keep Chrome around for development.",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "KingPimpCommander",
+                    "body": "The monopoly is an important point. Google uses the size of their chrome userbase to try to bully their way past web standards and embrace, extend, and extinguish them. To be honest, that alone is enough of a reason not to use any chromium based browser for me, and ought to be for anyone.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Geldan",
+            "body": "I've been using Firefox on mobile for years and have switched to Firefox for desktop now.\u00a0 Firefox is every bit as capable, I don't miss anything about chrome",
+            "score": 19,
+            "replies": [
+                {
+                    "author": "MasterBathingBear",
+                    "body": "I wish iOS had Firefox/Gecko and not a Firefox skin over Safari.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "Geldan",
+                            "body": "Yeah, that's why I refuse to use an iPhone, overpriced and no real browser option",
+                            "score": 5,
+                            "replies": []
+                        },
+                        {
+                            "author": "thekwoka",
+                            "body": "Well, soon you can\n\nWell, if Firefox had the funding to do it.",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "Zaemz",
+                            "body": "Yeah. That's Apple's deal, unfortunately. They like to keep that iron-clad grip on their platform.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "thekwoka",
+                                    "body": "But they have to change that soon.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "RubbelDieKatz94",
+                    "body": "Firefox on mobile is a horrendous experience. It's lagging behind in most features, even the nightly version.\n\nVivaldi on mobile is lacking some features too, but it's miles ahead. The integrated filter lists are wonderful too.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "megasivatherium",
+                    "body": "except for gradients",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "GiraffesInTheCloset",
+                            "body": "At least Firefox correctly supports backdrop filters, in contrast to Chromium.\n\n[https://issues.chromium.org/issues/380416865](https://issues.chromium.org/issues/380416865)",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "CircaCitadel",
+            "body": "Switched to Firefox like 3 years ago and it's been great. Not sure what learning curve you're expecting there to be though. It's nearly the same as Chrome in terms of layout and function. Why not just do it and see how it goes? Biggest thing you may run into is extensions not being available on it that were on Chrome but the most popular ones are.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "sessamekesh",
+            "body": "I switched a while back (2017 or so), similarly for moral reasons. In my case I was against a Chromium monopoly of the browser market. I have no qualms with Chrome generally and still use it a fair amount professionally. \n\n80% of the time I feel like it's only tooling differences that I occasionally notice, but require only subtle differences. \n\nIf I'm overriding control styles like input elements or scroll bars, I'll be annoyed by having to maintain two sets of similar but different CSS rules. A pain but not bad. \n\n2% of use cases are downright impossible or impractical in Firefox. That's not to say that you'll face problems 2% of the time - it's more like 2% of products will face problems 100% of the time. Most people will never need to worry about WebGPU, but those of us who do can't support Firefox in the near future.\n\nOverall I'm happy with my switch, the learning curve isn't steep enough that I even feel like it's necessary to warn people about, and I strongly encourage more developers to make Firefox a first class citizen in their development and testing workflows.",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "thekwoka",
+                    "body": ">  In my case I was against a Chromium monopoly of the browser market.\n\nWhat is interesting about this is that Google was funding all 3 major browsers development. Then the courts said Google can't do that, so now only Chrome has Google funding with Firefox having no funding, and Safari having massively reduced funding.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Rainbowlemon",
+            "body": "I made the switch a few months ago. It's alright, but the following annoy me:\n\n- Firefox autocomplete doesn't feel as accurate as chrome's, even after playing with settings\n- Firefox on android has this annoying habit of continually opening tabs when you click a favourited link on your homepage, which involves a lot of closing redundant tabs\n- Firefox can't group tabs yet; a feature i used quite a lot on chrome to group sites for my contract work\n- Firefox devtools' layout isn't as nice as chrome's IMO - i like that computed css is shown in separate tab in chrome and as far as I can tell you can't do this in firefox. Maybe i just need to fiddle with it more. Profiling tools do seem better on firefox though\n- Occasionally i try to load a url on firefox mobile and it just randomly doesn't load anything. I have to fully close out the browser and restart it to get it working.\n\nSo in short, it's usable, but not exactly a smooth experience for me. It did force me to make the switch to bitwarden though, which is definitely better than having my passwords in my google login!",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "RubbelDieKatz94",
+                    "body": "I was facing the same issues. Vivaldi on mobile is a better experience, in my opinion.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "queen-adreena",
+            "body": ">primarily because of Chrome's plan to block installation of uBlockOrigin\n\nOh honey, we long passed \"plan\". They're actively disabling the extension already.\n\nBut I've been using Firefox ever since I started dev work, same for everyone else in the office.\n\nWe keep Edge, Safari and Chrome installed for some testing and debugging.\n\nAlso keeping an eye on the Ladybird browser, but that's gonna be a couple of years before it's ready.",
+            "score": 20,
+            "replies": [
+                {
+                    "author": "BigDaddy0790",
+                    "body": "uBlock is still working fine though. They disabled it in a recent update due to it being \u201coutdated\u201d, but you can literally just switch it back on and keep using it.\n\nI hear there are/will soon be problems with its picker function, but I never use it so didn\u2019t even notice any changes.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "dns_rs",
+                            "body": "Also on the uBlock site their new extension is already available and works great it's called uBlock lite.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Euphoric-Umpire-3360",
+            "body": "I recently switched form chrome to firefox and so far I like it, except when your minimize the screen your don't see all the tabs-title in one row, I have not found any solution to that except using the drop-down menu,\n\nAlso it would be awesome if someone could tell me how to see all the tabs in one row.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "RevocableBasher",
+                    "body": "Maybe you would like vertically arranged tabs instead of the default ones. Checkout the sidebery plugin. it looks something like as [ss_ff.png](https://github.com/RaySlash/dotfiles/blob/main/docs%2Fss_ff.png)\n\nEDIT: the plugin itself is very customizable. so you might be able to make it what you want to be.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "skettyvan",
+            "body": "Just switched back to Firefox. It took me about 2 days to make the switch and now I\u2019m super happy. I like the dev tools / inspector more as well",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "tongboy",
+            "body": "Switched the first time chrome gave me a ublock message.\n\n\nOverall only big annoyance is mobile Firefox doesn't do auto fill from 1pass. Oh, and the new ai plugin junk trampled my 1pass keyboard shortcut.\n\n\nFew dev tools are in different places and the mute tab button is easy to hit on pinned or small tabs. Resume from restart doesn't return existing tabs as reliably as Chrome did.\n\n\nOtherwise smooth sailing. Other machine tabs experience is a bit better.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "ear2theshell",
+                    "body": "> Resume from restart doesn't return existing tabs as reliably as Chrome did.\n\nCan you elaborate on that please? That's a big feature I rely on",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "tongboy",
+                            "body": "I'd say it works for me 50-70% of the time compared to chrome being closer to 90%?\n\n\nThis is on windows, blended restart reasons between user initiated, auto updates, low battery shutdown, etc.\n\n\nMaybe a plugin to improve it? I haven't looked that hard at it but I guess I should. I don't restart much but when I do, I'm often sad when I start ff back up and I only get one tab and shift+t doesn't bring anymore back.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "ear2theshell",
+                                    "body": "Ok, good tip, thanks!",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "XenonOfArcticus",
+            "body": "Recently switched Chrome to Firefox on desktop.\n\n\nWorking on completing the transition and switching on mobile now.\u00a0\n\n\nNo going back.\u00a0",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "ear2theshell",
+                    "body": "\ud83d\ude4c\ud83c\udffb",
+                    "score": -1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "TheBonnomiAgency",
+            "body": "I switched to FF on my new laptop last week.\n\nThe only annoying thing is that it doesn't autocomplete my recent pages as nicely, like typing Fr.. will autocomplete to freshbooks.com, and I have to click login, versus Chrome always autocompleted directly to the dashboard when I'm already logged in. Not annoying enough to try to fix yet though.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "sstruemph",
+            "body": "I've used Firefox for several years and prefer it.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "baxxx",
+            "body": "Switched to Firefox for the same reason, ublock and other extensions not being supported anymore.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Willing-Ad-8520",
+            "body": "Do the switch, and even go for Firefox-based ones like https://zen-browser.app \n\nNote: if u care about privacy, firefox updated recently their terms and they'll be collecting data, consider switching to Ladybird once it reaches a usable state",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "fultonchain",
+            "body": "TLDR; Firefox, despite their updated terms, will allow you to run privacy focused extensions. Chrome will not.\n\nI'm old and learned HTML (we didn't have no fancy CSS) with Netscape. I mean, it was either that or Microsoft Explorer. Things got better but I've always had a preference for Netscape>Mozilla>Firefox -- it was easy to justify,  Firebug was a game changer and taught me CSS. \n\nAnd who doesn't like an underdog, especially a familiar one. \n\nBut it wasn't a well managed product and Chrome just moved on in. Hell, it was (is?) faster and more intuitive. Great UI and for devs some pretty fancy stuff. Blew Firebug and the derivative tools right out of the water. Yeah, I switched. I think we all did.\n\nNow, with current tech and tooling, I don't think it makes a lick of difference. I'm back to Firtefox and if I really care can run an extension for Lighthouse -- just like I can run any other extension. Unlike Chrome which now makes my favorite extensions useless.\n\nI don't dig the new terms and fully understand what I'm giving up, but that ship has sailed. It still has to be better than Google.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "thekwoka",
+                    "body": "> will allow you to run privacy focused extensions. Chrome will not.\n\nThat's not true.\n\nChrome has nothing against privacy focused extensions. Safari, Firefox, and Chrome all worked together on the Manifest v3 standard for extensions. Chrome just already thinks it's good enough to make the standard, while Firefox thinks it's still further off.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ShadowIcebar",
+            "body": "I've always preferred Firefox as my primary browser. Also because I prefer the UI, and it has some additional options/features that chrome hasn't/didn't want to add out of stubbornness. Also, with the firefox webdev tools you can actually always see the response of a network request, with chromium you often have the bug where it just refuses to display it which is extremely annoying during development.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "gravesisme",
+            "body": "I use both. I browse in Firefox, but I work in Chrome because 90%+ of my users are on Chrome and I prefer to see what they see when using my website.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Novel_Understanding0",
+            "body": "Developing add-ons (extensions) are a way bigger pain in the ass on Firefox than Chrome. That's the main downside for me.\n\nUsing temporary add-ons for development that don't disappear every time you restart the browser is a task. Debugging the pop-up window is not nearly as easy as just right clicking and \"inspect element\" on your popup like on Chrome.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "vootehdoo",
+            "body": "Personal opinion here.\n\nI also tried to get rid of chrome this year, made the switch to Firefox but I couldn't get used to it at all. To me, somehow Firefox felt slower and clunky if I can say so. I changed to Brave and I'm happy now. It's chrome but with uBkockOrigin. Doesn't even feel like I swapped.\n\nI also use Brave on my phone now since it has adblock by default and I'm really happy.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "CodeAndChaos",
+            "body": "I've switched from Chrome to Firefox and so far I have two nitpicks:\n\n1 - Why the hell is the private window shortcut \"Ctrl + Shift + P\" instead of \"Ctrl + Shift + N\" and why can't I change it?\n\n2 - It drives me mad that the private windows don't stay together with the other Firefox windows in the taskbar.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "GiraffesInTheCloset",
+                    "body": "2nd can be changed with turning off **browser.privateWindowSeparation.enabled** in about:config.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "CodeAndChaos",
+                            "body": "Man you're a lifesaver, thanks so much!!\n\nNow I love Firefox even more :D",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "3ds",
+            "body": "I switched and never looked back. It's a fantastic browser.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "goagod",
+            "body": "I love FireFox.  Been using it forever.",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "thekwoka",
+                    "body": "How do you feel about it's future with the fact it no longer has any funding?",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "hcdna",
+            "body": "I never left Firefox",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "jamesfy49",
+            "body": "Been a long time firefox user but I recently switched to Brave and I love it (if you disable all the crypto/AI stuff). Would recommend against firefox as they've recently updated their terms of use to include stuff like \n\n>When you upload or input information through Firefox, you hereby grant us a nonexclusive, royalty-free, worldwide license to use that information to help you navigate, experience, and interact with online content as you indicate with your use of Firefox.\n\n[https://blog.mozilla.org/en/products/firefox/firefox-news/firefox-terms-of-use/](https://blog.mozilla.org/en/products/firefox/firefox-news/firefox-terms-of-use/)\n\nNot good.",
+            "score": 17,
+            "replies": [
+                {
+                    "author": "IOFrame",
+                    "body": "Just use Librewolf.  \n\nI've been using the \"blue firefox\" (the dev version) for at around a decade, and recently I finally made the switch.  \nSince it supports Firefox Sync (being a fork), it's pretty painless to switch, and even easier to start fresh.  \n\nAlso, Brave is my chromium browser, where I keep a few apps that run like shot on FF (like Outlook) and Reddit open.",
+                    "score": 10,
+                    "replies": [
+                        {
+                            "author": "Magmagan",
+                            "body": "Librewolf is unusable the moment you need any proprietary codec.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "IOFrame",
+                                    "body": "> Brave is my chromium browser\n\nThat's part of the reason why.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "a8bmiles",
+                    "body": "That was because of some stuff I can't quite remember the exact details of, hopefully someone else will clarify, but that without that language they would potentially be in trouble for using your search term to provide you search results.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "SpinatMixxer",
+                    "body": "They gave an update for clarification, it's basically just about legal definitions and doesn't really change anything.\n\nhttps://blog.mozilla.org/en/products/firefox/update-on-terms-of-use/\n\nAlso, by using any Firefox based browser like Librewolf or Zen, you are skipping their terms of use.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "OutOfTuneAgain",
+                    "body": "Love brave! Doesn't play nice with some websites but it's rare. It's been nice for dev too.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "renegadellama",
+                    "body": "Brave is the way. It's really not packed full of crypto stuff like people say. There's a wallet and you can disable it. Not sure why Theo won't give it a chance...",
+                    "score": -1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "wade_wilson2120",
+            "body": "I switched to Firefox from Brave. Not good experience. Firefox was laggy as hell. Then switched back to Brave.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "inoffensiveLlama",
+            "body": "In my experience Firefox can basically do the same things, however most tutorials and stuff explain things with chrome in mind, so you might have to google a bit more than with chrome",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "scylk2",
+            "body": "Switched to Firefox as pro and personal browser.  \nI now know my credit card details by heart, which is actually useful.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "SnorklefaceDied",
+            "body": "I am in transition and almost complete. I have slowly migrated over the course of about a year. I use Firefox, Chrome, Duck Duck Go and Safari. I am done with Chrome.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "gatwell702",
+            "body": "I would use Firefox if it used view transitions",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "daftv4der",
+            "body": "I still prefer Chrome's web dev tools. But I stick with Firefox as it's far less buggy on Linux.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "chocoboxx",
+            "body": "I use both Edge and Firefox. Something work here, something better there. Nothing personal, just a web browser.\n\nAnd in the end of the day, no matter what your browser is, just turn on the incognito and watch some ~~p\\*rn~~ youtube video.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "chrootxvx",
+            "body": "I have always used Firefox and only ever use de-googled chromium occasionally mainly cos I like lighthouse",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "fgrante",
+            "body": "I\u2019ve switched to Firefox a few years ago and am not coming back. \n\nI have been missing some translation features here and there (in particular, with Japanese), but it\u2019s now native.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ExcellentCarpet8777",
+            "body": "chrome is just too buggy mahn. firefox all the way",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "rekabis",
+            "body": "I have been using the same web browser, in terms of ideology, heritage, and codebase, for the last 32 years now. Since NCSA Mosaic through Netscape to Phoenix/Firebird/Firefox, I have never left the fold.\n\nNow granted, that _doesn\u2019t_ mean that I haven\u2019t had dalliances. I was also using Opera when it first was released (and when Netscape was collapsing, prior to Phoenix), relishing in it\u2019s tabbed interface that was light years ahead of anything else.\n\nAnd recently it was Vivaldi, thanks to it\u2019s very slick vertical tabs, and more recently, workspaces.\n\nBut with Vivaldi incapable of forking Chromium to retain Manifest v2, or any desire to improve their own internal adblocking to actually _be_ a shoehorned-in copy of uBlock Origin, I am relinquishing the only non-Firefox browser I still make common use of.\n\nI will be retaining Edge on Windows and Safari on Mac OS as \u201cnaked\u201d web browsers for when a website has been built to be user-hostile and cannot operate in a truly secure web browser. And I still have Chromium on both for any Google website, like Maps or Translate. Isolating any and all Google content to just Chromium should at least give me a bit more separation from Google spyware.\n\nBut for those moving over to Firefox: consider Tab Mix Plus. It requires extra set-up to make it work, and occasionally needs to have that setup \u201crefreshed\u201d in order to continue working, but\u2026 _MULTI-ROW TABS, PEOPLE._\n\nI also have a config file for TMP if anyone wants to have an experience as close to the original early-2000s Opera tab behaviour as is possible for Firefox.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "One-Big-Giraffe",
+            "body": "I switched and ad blocker was one of reasons. Everything is pretty good. I only missed a feature to share a single tab in google meet. But now it's not a problem anymore. And containers is superior feature. I have fully separated work from personal with that. Without having a hassle with multiple windows\u00a0",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "jazzyroam",
+            "body": "having switch to Firefox for years, Firefox work quite well and fast, not missing Chrome",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Sl1mSh8dy",
+            "body": "I would definitely recommend to check out Brave browser. It takes a bit more RAM, but apart from that it has the best blocker out there and gives you a lot of freedom in your settings, which I think is required as a developer. I am using Brave for the past years and so far never wanted something else.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "troop99",
+            "body": "I just switched some months ago, and it was more or less painless. Firefox has worst performance on heavy js and webgl tasks, but that's fine since i see it as a good way to ensure good performance for all users.\n\nAnd yeah, the switch was 100% promoted by the ublockOrigin ban.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Majestic_Dress_7021",
+            "body": "I use FF for many years now, never had any issues.\n\nI do check my websites with Brave however to see if everything is displayed correctly in chromium browsers.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "kennypu",
+            "body": "Did switch for personal use, but not for work. Differences/Downsides that I have experienced VS Chrome:  \n  \n - No proper/easy way to have multiple profiles (eg. personal, work, etc.). Straight-forward and simple in Chrome.  \n  \n - No native JS overriding in dev tools, which I use extensively in Chrome.  \n  \n - Similar to above, no Snippets (small scripts you can save in dev tools to run on any page).  \n  \n - Not related to dev: I game a lot, and firefox unfortunately lags/freezes often if game is taxing, especially for videos/streams. No such issues in chrome.  \n  \nMost of the issues above I can live with, the last one is the most annoying since its a non-issue in Chrome",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "TwoRocksNorthMan",
+            "body": "Made the switch last week - easier than I thought.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Montecalm",
+            "body": "My company forced me to change. There are a few things I like better about Firefox, e.g. uBlock Origin or the Javascript debugger in DevTools. But I often can't find an addon where there is something for Chrome. Overall, I quickly got used to Firefox and don't miss Chrome.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Miltage",
+            "body": "I used Firefox from 2006 -> 2011 at which point I switched to Chrome when it was new and shiny and I had been using Chrome until late last year when they bought an ad on that giant dome in Vegas.\n\nI thought to myself \"why is a company spending millions on advertising to get you to use their free browser?\". Very fishy. Immediately switched back to Firefox.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ImpactFlaky9609",
+            "body": "Ive switched for the exact same reason!  No complaints so far.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Sea-Broccoli-8601",
+            "body": "Still using Edge Chromium because I like the performance, but that's only because I have lifetime subscription for Adguard.\n\nI do use Firefox but only when doing webdev (alongside Chrome, which I also don't use for anything else). Every once in a while I open up Firefox and contemplate switching to it as a daily driver but there's always some quirky issue with its text rendering (eg. `font-weight` is rendered differently for some font families last I tried). It is getting better though, so I might make the change some time in the future.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "DidTooMuchSpeedAgain",
+            "body": "i'm sticking with Chrome for now, only because of uBlock Origin Lite. if you set the filter to \"optimal\", I'm not noticing much difference between the two. although youtube videos take a little bit longer to load\n\nyou need to manually change the filter strength or whatever, the default one isn't very good",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Da-real-admin",
+            "body": "I switched a few months ago, for the same reason. I regret not doing so sooner. The learning curve was almost non-existent. To remember to use Firefox, I just unpinned Chrome from my taskbar and pinned Firefox instead. It also allows plugins (or addons/extensions/whatever they're called) on mobile devices, which is important to me.\n\n\nThe only things I can think of that I don't like are that there are no local overrides, on mobile you have to tell it to request desktop site every time you visit, and Firefox is lacking in cutting-edge Web APIs. For the last one, it means some sites need Chrome, and I suspect some sites just force Chrome because they want to collect your data. (For the last one you can probably like, spoof your useragent but I've never tried that)",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Necessary_Ear_1100",
+            "body": "When developing, use and test in chrome for JS features and for css features, I use FireFox Developer Edition as it has nice features for troubleshooting Grid and Flexbox IMO",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ByNetherdude_",
+            "body": "I made the switch last week. Still adjusting, but so far it\u2018s not been as cumbersome as I had anticipated.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Magmagan",
+            "body": "So, I use Firefox/Waterfox as my daily driver. But as a web dev... Not looking at my work in the most popular browser engine would be a gross error. Just yesterday I realized how fugly chrome scrollbars are and how they destroyed a component I was building.\n\nuBlock isn't a factor for me - I disable adblock on \"work\" browsers. It sucks but it makes sure nothing I use is breaking due to adBlock.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Bgtti",
+            "body": "I've switched about a month ago, albeit for other reasons. Works well.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Worldly-Bonus-8746",
+            "body": "I totally understand why you're considering switching from Chrome, which is due to the uBlock Origin issue. Firefox is a solid choice, but keep in mind Mozilla has faced some privacy concerns lately.\n\nIf privacy is key, **Brave** and **Zen** are great options. Brave has built-in ad blocking and privacy features, making it easy to transition. **Zen**, based on Firefox, offers more customization and a similar browsing experience. Both browsers are designed to enhance privacy and block ads effectively, helping you move on from Chrome quickly.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "mekmookbro",
+            "body": "I've been using firefox since like 5 years and I'm looking to switch to something else. I like to have many tabs open (between 10-20) and having a workspaces-like feature (Opera had it when I last used it) would be great to manage them.\n\nIt also goes resource-hungry whenever I play a youtube video. Like my laptop fans start going crazy as soon as the video starts playing. \n\nAnd there's also that whole thing about them removing the \"[we won't sell your data](https://arstechnica.com/tech-policy/2025/02/firefox-deletes-promise-to-never-sell-personal-data-asks-users-not-to-panic/)\" part",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "rohmish",
+            "body": "i use Firefox (zen) as my daily browser but still break our good old chrome and edge for dev work",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "UnicornBelieber",
+            "body": "Switched to LibreWolf, a privacy-focused fork of Firefox, since Google announced they would no longer support manifest v2 and thus uBlock origin would stop working. Google is an advertising company that should never been given so much reign over the web.\n\nWith more privacy/security, some webapps don't work. But I don't mind. The thought of giving up so much privacy/security as a trade for a stupid webapp to work is bonkers, really. The thought of actively keeping the biggest advertising company in the world alive, revolts me now.\n\nGlad I made the switch.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "stealth_Master01",
+            "body": "I recently switched from Brave to Firefox and I am happy. The only thing I miss is the group tab feature.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "calimio6",
+            "body": "Switched a few years ago. But then again after the policy changes currently using zen which inherits the Firefox engine. That is my main concern regarding the browser I use. Not a single engine defining what the web standard are. Chromium has become lax around edge cases.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "odd_today21v",
+            "body": "Yea I made the switch for the exact reason as you OP. I've been using chrome for 20 years, but I found the transition quite smooth. Plus chrome really bogs down the RAM.",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "eigenheckler",
+                    "body": "> I've been using chrome for 20 years\n\nChrome came out in 2008. The above comment is in 2025.\n\nThat said, Firefox is great, but some websites won't work. (Instacart comes to mind.) People may need to fall back to a second, Chrome-derived option for specific uses. Chromium, Brave, or any other webkit-based option can work.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "trevr0n",
+                            "body": "Close enough \ud83e\udd37\u200d\u2642\ufe0f",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Mediocre-Subject4867",
+            "body": "If you're planning on switching to firefox, [https://librewolf.net/](https://librewolf.net/) is also a good option. It's a fork of firefox that automatically disables any sus privacy and tracking settings that firefox has the tendency to introduce.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "chrootxvx",
+                    "body": "For web dev I would not recommend librewolf its too restrictive, also you can just harden Firefox via settings",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "RubbelDieKatz94",
+            "body": "I personally prefer the electron based Vivaldi browser. It's highly configurable and the integrated filter lists are wonderful. This means I don't need UBO and I'm unaffected by the extension changes.\n\nFirefox is fundamentally broken. Fonts don't work. Shaders don't work. The devtools lack several essential features. T3 has listed everything before and these issues have been going on for a decade.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "ShawnyMcKnight",
+            "body": "Nope. I just like chromium based browsers so I would sooner go to edge than I would Firefox.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "renegadellama",
+                    "body": "Switching to Firefox is the \"I use NeoVim\" of 2025",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "ShawnyMcKnight",
+                            "body": "Yeah, most of the time when I see new up and coming CSS, it's on Chromium before I ever see it on Firefox. Of course nothing is worse than Safari; I swear that's become the new IE.",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "riz_",
+                            "body": "Well I do use NeoVim, so joke\u2018s on you",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "RubbelDieKatz94",
+                    "body": "Try Vivaldi. It has integrated filter lists, so you're unaffected by those UBO shenanigans.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "ShawnyMcKnight",
+                            "body": "UBO? Unlock origin?\n\nI can\u2019t say that I care so much about ad blocking I would let it dictate my browser choice.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "RubbelDieKatz94",
+                                    "body": "Yes, UBO is uBlock Origin.\n\nVivaldi is just great in general. It's chromium, so you'll have none of Firefox's drawbacks. And with the filter lists you'll be unaffected by the new extension restrictions. It's fully configurable, so you'll have an easy time tailoring it to your liking.\n\nEdge doesn't have integrated filter lists and isn't nearly as configurable.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "vinnymcapplesauce",
+            "body": "Been using Firefox for years.\n\nI seriously don't understand why people put up with Chrome.\n\nThere is no real learning curve to speak of.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Annh1234",
+            "body": "Read the terms and conditions of Firefox... Anything you upload/visit/load into the browser they can store and use for training data or resell...\n\n\nMakes it impossible to use the browser for anything important. ( Except unlock lol)",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "GiraffesInTheCloset",
+                    "body": "Not for for training data or resell... **for the purpose of doing as you request**.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Umustbecrazy",
+            "body": "Zero doubt Firefox waited till Chrome dropped V2 support to announce the new privacy terms of service. They know they are going to get massive numbers of new users.\n\nA terms of service looks relatively much better than having to deal with ads. Holy crap I forgot how bad they were until ublock got bloc-blocked by Google. It was awful.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "SonicFlash01",
+            "body": "How new are you to this sub? This is the Firefox fanclub, and everyone acts like they're a free thinker with a hot take every time",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Firethorned_drake93",
+            "body": "With the new tos firefox came out with recently, I wouldn't switch to it. I'd switch to a firefox-based browser instead. Or switch to brave.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "meester_",
+            "body": "I downloaded the fox, still dont like it. Arc is pretty solid so far",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "TROUTBROOKE",
+            "body": "I like Edge and use FireFox too. I avoid any Google/Alphabet specific products.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "ear2theshell",
+                    "body": "Well then this thread wasn't for you",
+                    "score": -3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "joe0418",
+            "body": "Been comfy on edge for the past few years myself",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "ear2theshell",
+                    "body": "Sounds like a personal problem... and also like you probably could've saved some electrons by _not_ replying to this thread, but we're all very impressed",
+                    "score": -12,
+                    "replies": [
+                        {
+                            "author": "Umustbecrazy",
+                            "body": "Wow, you're so cool. Everyone should think just like you.",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "remsleepwagon",
+                            "body": "Haha what?",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "joe0418",
+                            "body": "Thanks for your insightful contribution. It's comments like yours that make the internet such a warm and welcoming place.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "ear2theshell",
+                                    "body": "https://www.youtube.com/watch?v=L3dxMGzt5mU",
+                                    "score": 0,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "LennyAteYourPizza",
+            "body": "Firefox forever!!! I only ever open up chrome for google meet or every 90 days when I have to update my google workspace email password. Google forces your default browser be chrome on Mac in order to change your mail app account password.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "rott",
+            "body": "I use Firefox as my personal browser and have done so for years, but for web development I think it's important to focus on Chrome because of its market share. If you only use it to test you're not going to really get acquainted to how your project works in the browser of 90% of your users.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TxTechnician",
+            "body": "I switched over to Firefox years ago because of Firefox containers.\n\nI could not imagine doing the work that I do without having containers.\n\nYears later I eventually switched over to Linux too because I just had it with Windows.\n\nEverything is just so much easier now.\n\nWe still have edge and chrome because of Microsoft administration stuff and because of Microsoft power platform development. And also the fact that I have G Suite, so I guess they call it Google Workspace now, whatever.\n\nBut 90% of the stuff that I do, I'm doing in Firefox, using containers.\n\nFirefox is my mobile browser.\n\nThe only reason I still have Chrome installed is because sometimes I just need to check and see if it's Firefox that's causing a problem with the website.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Sarke1",
+            "body": "I switched to Thorium a while back, it's basically Chrome decrapified.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "kevinlch",
+            "body": "uBOLite is still supported. you might want to switch to that instead.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "716green",
+            "body": "I use Arc and I love it",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "thekwoka",
+            "body": "I use Arc, but am entertaining switching to Zen browser.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BorinGaems",
+            "body": "I switched the moment chrome removed my ublock. I don't regret it.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "YoshiEgg23",
+            "body": "I use Arc, it as better container then firefox and its beautiful",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "___Paladin___",
+            "body": "I definitely prefer Firefox, but the lack of modern apis like view transitions, along with the terrible support for gradients makes it rough to look at for a couple of my projects.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Reelix",
+            "body": "You can still install and use uBlock Origin on Chrome.  \n  \nWorst case, you can install uBlock Origin Lite on Chrome, which does the same thing, except maybe people from Tibet browsing website from Somalia in Nepalese may still see some ads since the decreased length doesn't cover edge cases like that anymore.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "mindhaq",
+            "body": "As a webdev, I always use at least three different browsers, and each with different profiles, configured for specific needs.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Cyclonian",
+            "body": "Not to discourage use of whatever browser you want (I actively use Firefox for some things and chrome for others and I must support both and Edge so no big deal for me)... But for extensions that are no longer allowed, you can tick \"Developer Mode\" in Chrome's extension manager and then override the auto-disabling of unsupported stuff.  Of course lack of updates will eventually become a thing.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Some-Kinda-Dev",
+            "body": "Firefox isn\u2019t what it was, and it hasn\u2019t been what it was for a really long time. I try to switch back every now and again. God knows I\u2019d love to make Firefox my default browser again. But then it would have to be the best browser again and it isn\u2019t going to happen.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TheKillerScope",
+            "body": "Do people still use Chrome, Firefox etc? Why not use Brave? Why...",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Bushwazi",
+            "body": "Switched a long time ago because Google is Google.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "guillon",
+            "body": "What is the use of an ad blocker??? Block pop ups?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "scahote",
+            "body": "Use brave",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "framesofthesource",
+            "body": "Chrome was a troyan horse that came Alive from inside a Google m\u00e1ster plan, I would LOVE to switch and see a real alternative, but Firefox went from being top notch UX (tabs, nice HTML/CSS/JS implemtations...) and quality to being a clunky alternative that has almost nothing new since Firefox 3.5.\n\nThat's as a user, as a webdev things get worse, Chrome devtools are unmatched, nobody can compete, that makes It even harder to switch for a dev.\n\nAgain, Mozilla/FF fault. Firebug was also top notch as a dev tool back in the day they had all the advantage.\n\nI still have hope for a Fork of FF appear that keeps the FREE side (more than just the open source side) of software. I feel we have more free software than ever, yet at the same time is less free than ever (partial free software that really shines in a PaaS, IaaS, or similar, free software that is plain toxic like Chrome, better spyware than browser...).\n\nIt's kind of sad.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "lKrauzer",
+            "body": "I recently did the switch, sad I didn't do this earlier",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "oceanmachine14",
+            "body": "TBH I've either been using Brave or Firefox for a few years now and rarely use chrome unless I need to.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "hundo3d",
+            "body": "I use both to check for any inconsistencies in what I\u2019m developing.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SecretAgentZeroNine",
+            "body": "Lol nah. On Linux + Windows I main Brave and use Chrome only for Google products. On Android it's the same but do have Firefox focus set as my default browser just in case I ever click on a malicious link or if the link is from a site that tracks.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "LeTrav_",
+            "body": "Chrome has been running SO slow for me the past week or two. To the point I was worried I got hacked. Still not convinced I wasn't, hard not to be paranoid \ud83e\udd23.\nDefinitely considering a switch.\nI've tried disabling extensions and reinstalling blah blah.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ZeRo2160",
+            "body": "For me the blocker would be that Chromes js Debugger is far more advanced and user friendly than Firefox's. And Firefox devtools have nothing else Chrome has not in this regards.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "nathan_lesage",
+            "body": "tbh as a webdev you need at least one chromium based browser just for compatibility checks, but it doesn\u2019t have to be Chrome. Other than that, Firefox is pretty great because since they aren\u2019t a monopolist they need to tread careful with their users, so aren\u2019t likely to pull weird stunts",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Minxxey",
+            "body": "I switched to firefox about a week ago bc the shit they pulled with ublock origin. I have some chrome extensions I need for development that firefox doesn't have, so I'm a bit stuck there",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BigOnLogn",
+            "body": "Nothing beats a pi-hole for ad blocking. Totally worth every dollar and minute spent setting it up.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "a_kulk_007",
+            "body": "I feel that Chrome's features are also more up to date. I used to be an avid Firefox user but not anymore.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Cendeu",
+            "body": "Used both until recently switched to FF only. \n\nSame exact reason here.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "townpressmedia",
+            "body": "Look over OperaGX",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "diesltek710",
+            "body": "Not with Firefox no longer being privacy / security focused... Nty",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "t0ta1_physc0path3",
+            "body": "The obsession with Firefox on reddit is weird",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "mca62511",
+            "body": "~~Considered switching to Zen, but Firefox doesn't support Japanese-English translation of pages, which is something I rely on often, so it was a non-starter for me.~~\n\nJapanese language translation is now available in Firefox!",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Own-Addendum-9886",
+                    "body": "hey dude, check this out, you gonna love it! https://addons.mozilla.org/en-US/firefox/addon/immersive-translate/?",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "ear2theshell",
+                    "body": "Really? I use Japanese -> English sometimes, bummer",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "mca62511",
+                            "body": "I was about to link you to the thread where the feature was discussed and go on about how it's weird that Chinese, Korean, and Japanese are still not supported in 2025.\n\nBut! When I found the thread it turns out that Japanese support was released within the last month or so. I might give Firefox or Zen another try.",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "ear2theshell",
+                                    "body": "Right on, thanks!",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "PRNCE_CHIEFS",
+            "body": "I have been using Firefox forever",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "vAPIdTygr",
+            "body": "I switched to Firefox the moment I read about Google\u2019s scheme.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "thekwoka",
+            "body": "> primarily because of Chrome's plan to block installation of uBlockOrigin.\n\nThat's not at all what it is happening. Firefox will also eventually switch to only Manifest v3.\n\nBut Firefox has no funding anymore, since Google can't pay for it anymore.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DEMORALIZ3D",
+            "body": "I've never used an ad blocker. Most people use chromium based browsers.\n\nSeems like a silly thing. Not to mention.... All these resources usually rely on ad revenue to keep going. \n\nBut yakno whatever",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "ear2theshell",
+                    "body": "https://www.youtube.com/watch?v=L3dxMGzt5mU",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "DEMORALIZ3D",
+                            "body": "Writes a post asking for people's opinions.... Proceeds to post a YouTube video about just posting out there and not caring about people's opinions.\n\n\nOr atleast I can only assume as I'm not going to watch a 6 minute video :D have a good day",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Snelly1998",
+            "body": "Went to brave, don't like Firefox dev tools",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Architektual",
+            "body": "Never left",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Slaves2Darkness",
+            "body": "Switching? Never stopped using FireFox as my main I fucking hate Chrome.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "updatelee",
+            "body": "Nope. Never saw a need. Chrome works. It\u2019s just a web browser after all",
+            "score": -3,
+            "replies": [
+                {
+                    "author": "updatelee",
+                    "body": "Besides running adblock on the router is way better",
+                    "score": -1,
+                    "replies": [
+                        {
+                            "author": "dcg",
+                            "body": "uBlock Origin works on Firefox mobile. My router doesn't travel with me.",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "updatelee",
+                                    "body": "Are we talking about mobile? No mention of that was made. \n\nWhen I\u2019m using my laptop on untrusted wifi I use wire guard back to my LAN. So still covered by adblock on the router.",
+                                    "score": -1,
+                                    "replies": [
+                                        {
+                                            "author": "dcg",
+                                            "body": "No mention of \"desktop only\" was made either.",
+                                            "score": 5,
+                                            "replies": [
+                                                {
+                                                    "author": "updatelee",
+                                                    "body": "True I guess.",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "ear2theshell",
+                    "body": "Then I invite you to delete your comment",
+                    "score": -5,
+                    "replies": [
+                        {
+                            "author": "updatelee",
+                            "body": "Request denied. \n\nWhy?",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Xypheric",
+            "body": "Firefox is on its way out. They make absolutely no money except what Google pays them for search engine priority and to keep anti trust lawsuits away.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "E3K",
+            "body": "I haven't really found a compelling reason to switch away from Chrome.",
+            "score": -3,
+            "replies": [
+                {
+                    "author": "ear2theshell",
+                    "body": "So then u probably didn't need to chime in, kinda the whole point of the thread",
+                    "score": -8,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "AngooriBhabhi",
+            "body": "Nope. Chrome works great.",
+            "score": -5,
+            "replies": [
+                {
+                    "author": "hacker_of_Minecraft",
+                    "body": "You need to try out Netscape Naivagator, it's a must",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "bigtdaddy",
+            "body": "I've been wanting to switch off firefox lately. Tried brave and it doesn't feel quite right but going to keep trying. Honestly, I use edge at work sometimes and it's actually feels pretty good tbh",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "Rowdy5280",
+            "body": "Somewhat similar at the core level. I\u2019m in the process of switching from Arc to Zen.\n\nIf you\u2019re still using base Chrome / Firefox\u2026 wtf?!?! lol",
+            "score": -1,
+            "replies": [
+                {
+                    "author": "ear2theshell",
+                    "body": "This is a web dev forum. No client has ever created a ticket about a visitor complaining about appearance on Arc or Zen wtf?!?! lol",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "superbahbi",
+            "body": "I switched to Zen, and I am happy with it so far, except the passkey doesn't work on Mac.",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "RubbelDieKatz94",
+                    "body": "Passkey stuff is a nightmare. Some webapps like Discord are months behind on the implementation of the API spec, which used to break Bitwarden's ability to log in with passkeys. Android is struggling too. It's a mess all around. I'm waiting a year or two before migrating to passkeys.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "R941d",
+            "body": "I am currently happy with brave",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "t0o_o0rk",
+            "body": "I recently moved from Brave (chrome) to Floorp on Linux and Iceraven on Android (both Firefox based) because Bitwarden was not working on Brave for Android.\nBrave was the best browser so far but Floorp and Iceraven are doing the job. Sync works like a charm.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "mr_dudo",
+            "body": "I switched from chrome to opera gaming and then to edge and used it for a lot of years but edge became slow and ram hungry when I code, I switched to Brave not long ago and so far it has been great",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "KidOtaku1",
+            "body": "Not supporting chrome or anything, but there are like 3 uBlock extensions. I was able to install another one without issue. Is chrome planning to remove all of them?",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "trickyelf",
+            "body": "Modern web is unusable without ad blockers? Really? I hadn\u2019t noticed. Been on the web from the very start, and it\u2019s the same as it\u2019s ever been. Some sites unfortunately go over the top with the number of placements they sell, so I simply don\u2019t visit those sites. By blocking ads and visiting them anyway you are only making it worse. They don\u2019t know you\u2019ve blocked the ad, so  your traffic is a signal that 5 ads above the fold is perfectly acceptable so they keep doing it.",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "ear2theshell",
+                    "body": "> Modern web is unusable without ad blockers? Really?\n\nYes, really. This wasn't meant to be a debate. You must think we're all very impressed by how contrarian you are. Spoiler alert: >!we're not!<.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "trickyelf",
+                            "body": "I\u2019m just saying that the web has always been crammed with ads and my tack has been avoid the sites that feel it\u2019s ok to plaster them all over the page. I hate that I can\u2019t visit spacedotcom because of all the garbage ads, but putting an adblocker on my browser and visiting them is only voting for more of the same. How is that contrarian?",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "kingjia90",
+            "body": "A little OT but just use Brave Browser, it\u2019s chrome with ad block integrated",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "BjornMoren",
+            "body": "Do other Chromium browsers have the same problem? I'm using Brave and it works really well so far.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "lnaoedelixo42",
+            "body": "I couldn't help but hate chrome for it's ad policies.\n\nFirefox started doing shit on my back (selling data), so I use zen, a firefox based and really clean alternative.",
+            "score": -3,
+            "replies": []
+        },
+        {
+            "author": "dev-4_life",
+            "body": "If you haven't heard of Brave by now I think you have bigger problems",
+            "score": -2,
+            "replies": [
+                {
+                    "author": "ear2theshell",
+                    "body": "Bro relax [nobody has heard of Brave \ud83d\ude06](https://gs.statcounter.com/browser-market-share)",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "dev-4_life",
+                            "body": "/s ?",
+                            "score": -1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "MaximusDM22",
+            "body": "I dont really mind ads really. If that is how the people I watch content from make money then so be it. However, I did switch browers tho for privacy reasons. The switch has been pretty easy. The biggest thing was adding the passwords, emails, and all the other saved information I relied on.I would say go for it.",
+            "score": -2,
+            "replies": []
+        },
+        {
+            "author": "Double-Intention-741",
+            "body": "Brave browser",
+            "score": -1,
+            "replies": []
+        }
+    ]
+}

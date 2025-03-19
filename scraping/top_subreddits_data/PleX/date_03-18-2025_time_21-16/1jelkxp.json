@@ -1,0 +1,38 @@
+{
+    "title": "Twin Peaks vs. Twin Peaks Return and alternate episode versions?",
+    "author": "quit_smoking1",
+    "subreddit": "PleX",
+    "rank": 7,
+    "score": 0,
+    "upvote_ratio": 0.25,
+    "num_comments (reported by reddit)": 4,
+    "url": "https://www.reddit.com/r/PleX/comments/1jelkxp/twin_peaks_vs_twin_peaks_return_and_alternate/",
+    "id": "1jelkxp",
+    "selftext": "I'm trying to rip my Twin Peaks discs onto a drive for Plex and having trouble figuring out how to treat the original series vs. \"Twin Peaks: Return.\" Technically, \"Return\" is just a continuation of the original series (so, it would be Season 3 in this case), but it also comes with its own title that makes me think it should be treated like a separate show altogether. \n\nWould Plex accommodate for either option (ie., treat it as one TV show with 3 seasons or two separate TV shows)? \n\nAlso, the blu-ray for the original series includes an alternate international cut of the pilot episode. Is there any way to format it so both episodes will show in Plex?",
+    "comments": [
+        {
+            "author": "tequilavip",
+            "body": "For best results, almost all content has to match the database. That\u2019s it. Name your directories and files the same as found on TMDB or TVDB using the official Plex guides.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "After_shock7",
+            "body": "You need to add it as one show 3 seasons.\n\n[https://thetvdb.com/series/twin-peaks/seasons/official/0](https://thetvdb.com/series/twin-peaks/seasons/official/0)\n\n[https://www.themoviedb.org/tv/1920-twin-peaks/seasons?language=en-US](https://www.themoviedb.org/tv/1920-twin-peaks/seasons?language=en-US)\n\nThe international pilot is listed as a special.  (Season 00 folder named S00E01)  (TVDB order)\n\nIn the library advanced section you can tick the box next to \"use season titles\" and season 3 will show up as \"The Return\"",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "baldorrr",
+            "body": "I just finished ripping my Twin Peaks discs. Go to www.thetvdb.com and match how they have it. I used season 03 for the return.\n\nAs for the alternate episode, you can check if the tvdb lists it under specials. I\u2019m on my phone so I can't check now, but it will either have an enter for Season 00 Episode XX, and if not just name the file something like: Twin Peaks - s00e100 - International Pilot Cut.mkv. It will show up under a Season 00 specials section so you can watch it there.\n\nFor TV show extras, some do have episode numbers (s00e01, etc), but if not, I just make it like s00e100 or whatever. That will work to get it to show up in that season 00 folder.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MaskedBandit77",
+            "body": "I have it as season three, but I'm fairly certain that it could be a separate series. (Edit: Maybe this is wrong, based on the other comments)\n\nPut the International Pilot as an extra. It's not an alternate version of the pilot. It's not canon and has scenes from later episodes in it. You wouldn't want someone to accidentally watch it thinking that it's better to watch because it's longer. It's not really worth watching unless you're a huge fan and just need to see every little bit of Twin Peaks footage that is out there.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

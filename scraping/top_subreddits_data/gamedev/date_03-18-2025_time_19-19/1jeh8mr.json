@@ -1,0 +1,33 @@
+{
+    "title": "I made a game without any prior knowledge of game development",
+    "author": "tauqeernasir",
+    "subreddit": "gamedev",
+    "rank": 5,
+    "score": 13,
+    "upvote_ratio": 0.81,
+    "num_comments (reported by reddit)": 3,
+    "url": "https://www.reddit.com/r/gamedev/comments/1jeh8mr/i_made_a_game_without_any_prior_knowledge_of_game/",
+    "id": "1jeh8mr",
+    "selftext": "Hello everyone, I have always been amazed by some games that I have played and wondered how it was developed and what would take to build it. I am a software engineer by profession so coding is not the hard part for me. But I had no prior experience in game dev at all. I just started learning Unity a week ago and followed some tutorial and improve the game and added some extra features just to learn how Unity works. (One more thing; I have zero knowledge of c#; so I am learning that along the way).\n\nA couple weeks ago I played 2048 puzzle game and I wondered how it was built and with some research and following some tutorials to learn how to work with Unity; I was able to make a replica of the game. I faced a lot of issue while developing it but it was a rewarding experience as I learned more about new things which I never knew before.\n\nI would love to get feedback from you guys and also help me and direct me to the right direction. I want to become indie game dev and would love to know more about game dev. Any suggestions, recommendations, do's and dont's are highly appreciated.\n\nI am super excited to start a new journey and build some amazing games. :) \n\nYou can play the game here:  \n[https://2048.tauqeernasir.com](https://2048.tauqeernasir.com)\n\nPlease provide me feedback and also suggest some challenging features for me to add so that I could learn more while adding or enhancing this game.\n\n",
+    "comments": [
+        {
+            "author": "Acrobatic_Audience76",
+            "body": "I played the game, it was really cool!\n\n\n\nAbout the game development area, let me introduce you properly: This is probably one of the only areas that are extremely difficult to make money in, but it is definitely the most enjoyable! You have to prioritize creating fun things that you will enjoy, and of course, don't abandon projects!\n\n\n\n1. Create small-scale games, it is better to create something small and well-made than a large project that you will abandon.\n\n\n\n2. Don't try to create the next GTA! Focus on small projects, my recommendation is to research Roguelites. Inspiration: Vampire Survivors (Research it!).\n\n\n\n3. This is the best advice: Allow yourself to make mistakes. You will not make something perfect! Create something bad, keep improving, polishing and improving. Perfection is unlikely.\n\n\n\n4. Organization: Research what a GDD (Game Design Document) is and create a simple template for your project. This will ensure that your project is not just a tour of the Engine, but a real project!\n\n\n\n5. Audience feedback: If you plan to release it on a platform for other people to play, do some gameplay tests with the public and collect as much feedback as possible. This ensures greater acceptance.\n\n\n\n6. Marketing: If your game is going to be commercial, start working on marketing early! There are really good projects that don't sell anything on Steam simply because the developers created the game in cave mode, and on the day of release, guess what?! Nobody knows the game!\n\n\n\n7. The game creation process needs to be good. Enjoy it!",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "tauqeernasir",
+                    "body": "Thank you so much for your valuable and thoughtful feedback and suggestions. I\u2019d try my best to follow these and make some small but fun games. I have a full time job so I am gonna keep it as a hobby and slowly transition into it if things go well for me. \u270c\ufe0f",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "tauqeernasir",
+                    "body": "I just wanna have fun developing some games and try new things from what I do on day to day job. \ud83d\ude01",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

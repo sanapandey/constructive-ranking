@@ -1,0 +1,70 @@
+{
+    "title": "My Experience Using Godot for Non-Game Software",
+    "author": "Hour-Weird-2383",
+    "subreddit": "godot",
+    "rank": 6,
+    "score": 132,
+    "upvote_ratio": 0.98,
+    "num_comments (reported by reddit)": 9,
+    "url": "https://i.redd.it/kqomvlofrhpe1.png",
+    "id": "1jec2di",
+    "selftext": "I\u2019ve been working on [**Shapeify**](https://github.com/FrancoYudica/Shapeify), an image generation tool, using Godot. Even though it\u2019s mainly a game engine, I\u2019ve found it to be **pretty flexible** for certain non-game applications.  \n\n## Why Use Godot for Non-Game Software?  \n\nThere are a few key reasons why Godot worked well for this project:  \n\n### Custom Renderer with RenderingDevice  \n\nI built a **custom rendering pipeline** using Godot\u2019s `RenderingDevice` API, which gave me **direct access to the GPU**. This let me bypass Godot\u2019s built-in rendering system and create **specialized, high-performance rendering techniques** that were essential for my project.  \n\nCompute shaders also played a huge role in speeding up image generation. I developed multiple **GPU-accelerated algorithms** to process and manipulate images efficiently.  \n\nWhile this might seem like a big challenge, I would have needed to code it anyway, regardless of the development environment. The good thing is, **Godot gives me the flexibility to make it happen.**  \n\n### Fast Iteration and Development  \n\nGodot makes **prototyping super fast**. With **GDScript and hot-reloading**, I can tweak and test code **instantly**, without waiting around for long compilations. And if you already know your way around the engine, it\u2019s even better.  \n\n### Great UI Framework for Custom Tools  \n\nGodot\u2019s UI system (**Control nodes**) turned out to be **really solid** for building Shapeify\u2019s interface. Compared to other UI toolkits, it makes it easy to create **responsive, customizable** UIs with **animations and shaders** baked in.  \n\n## The Challenges: Lack of Add-Ons for Non-Game Applications  \n\nOf course, there were some challenges too\u2014**mainly the lack of add-ons** for non-game software.  \n\nDon\u2019t get me wrong\u2014there are **tons of great add-ons** out there. But since Godot is **built for games**, some tools and integrations that non-game apps need just **don\u2019t exist**. This means you\u2019ll probably have to **dive into C++** and create your own **GDExtensions**.  \n\nIn my case, the missing feature was **video export**, which I\u2019m currently working on.  \n\n## Final Thoughts  \n\nGodot might not be the go-to choice for non-game applications, but for my project, it turned out to be a **surprisingly powerful** tool. With **RenderingDevice, compute shaders, and GDExtensions**, it offers an **impressive level of flexibility**.  \n\nWould I recommend Godot for non-game development? **Yes\u2014but with caveats.** If you're already familiar with the engine, you'll be able to **prototype and iterate incredibly fast**. Just be prepared to write **custom extensions** for missing features.  \n\nThat said, I know there are **better-suited tools** for this kind of work. But in my case, Godot let me **build this project quickly**, and along the way, I gained **tons of experience** with **low-level rendering, compute shaders, and GDExtensions**\u2014knowledge that will definitely come in handy for my future Godot games.  \n",
+    "comments": [
+        {
+            "author": "Name_einfuegen_",
+            "body": "This looks awesome. Really great work. Just curious, how long did this take you? And how much time do you think you have saved in comparison to using smth else?  \nI am actually working on smth similar as well. While it isn't image generation, it is still a non-game application. I can agree to pretty much every point you made. For me, not needing to write my own 3D system probably saved me dozens if not hundreds of hours of work. Though, then their is stuff like receiving ArtNet data or creating tar archives, which Godot simply doesn't do and requires a considerable amount of work.  \nAnyways, awesome project!",
+            "score": 11,
+            "replies": [
+                {
+                    "author": "Hour-Weird-2383",
+                    "body": "Thanks! I've been working on it for about three months now as a hobby/side project while studying. It's hard to measure exactly how much time I saved by using Godot, but I\u2019d say that time is what it would have taken to learn a new tech stack like Qt and C++. The biggest advantage was being able to jump straight into development without spending too much time learning new tools, all while achieving great results.\n\nFrom what I know, one of the best things about Godot is that you can use any C++ library through GDExtension. So, if you're considering using Godot for your project, I\u2019d recommend thinking about how much time you'll need for extension implementations compared to using an alternative tech stack.",
+                    "score": 7,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "chaos_m3thod",
+            "body": "I\u2019m currently using godot for non-game development. Alternative software for what I want to do is very costly or limited and godot is a great tool.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Prudent-Bed-4497",
+            "body": "This looks very cool! Love that you try using godot for that use case. Have you tried using the C# version? In theory, that should give you easy access to the everything .NET has to offer no?",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Hour-Weird-2383",
+                    "body": "I'm not familiar with Godot's C#, but you might be right, I'll investigate it, perhaps it makes things even easier. Thanks for the suggestion!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "RoboticElfJedi",
+            "body": "I'm building a scientific application in Godot at the moment. The downside is building a lot of basic functionality from scratch, but the upside is enormous flexibility. It's also fun. What would be great is some better interoperability with python or a good Web view. But I'm managing fine.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "WaddlesTheWaffle",
+            "body": "Sounds sick",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Nejura",
+            "body": "Are you making the next GIMP?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "WittyConsideration57",
+            "body": "Video export is relevant for game replays, though pretty situational compared to free-camera replays.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

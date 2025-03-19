@@ -1,0 +1,1114 @@
+{
+    "title": "Laptop Enshittification",
+    "author": "bloody_healer",
+    "subreddit": "CuratedTumblr",
+    "rank": 17,
+    "score": 8670,
+    "upvote_ratio": 0.99,
+    "num_comments (reported by reddit)": 173,
+    "url": "https://i.redd.it/hmnfl767iape1.jpeg",
+    "id": "1jdjaaf",
+    "selftext": "The need for more USB ports increases but they keep fucking reducing them (my USB hub is malfunctioning and I'm angry).",
+    "comments": [
+        {
+            "author": "Uberninja2016",
+            "body": "cool computer tip:\n\nyou can just slap the specs you want for a laptop into newegg and get some refurbished one that was set up \"for enterprise use\" even if what you're using it for isn't anything close to business, and then wipe it and set it up however you want\n\ni love my dell latitude 4-numbers that has a aftermarket CPU and better ram and a SSD and some other IT person already scrubbed it clean of dell's software; i kiss it now muah\n\nit's got a freakin ~~internet~~ ethernet port, ok? \u00a0built in HDMI, headphone jack, and OH YEAH- A SLOT TO READ CHIP CREDIT CARDS\n\nI CAN USE IT FOR COMMERCE, SHOULD I SEE FIT; WHICH IS HUGE FOR WHEN I AM SELLING THINGS AND PEOPLE DO NOT HAVE CASH\n\nI MAY HAVE MISLEAD EARLIER, I'VE BEEN USING IT FOR BUSINESS THIS WHOLE TIME",
+            "score": 774,
+            "replies": [
+                {
+                    "author": "utopia_mycon",
+                    "body": "wait this is actually awesome and I want one",
+                    "score": 138,
+                    "replies": [
+                        {
+                            "author": "karnathe",
+                            "body": "Basically ant slightly older dell latitude on eBay is a good pick for this. Ignore anything maybe >10years old, i actually wouldn\u2019t buy anything with a cd drive.",
+                            "score": 46,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Waity5",
+                    "body": "> it's got a freakin internet port\n\n~~not~~ to be that guy, but it's an ethernet port, unless it's decades old and has an internal modem",
+                    "score": 104,
+                    "replies": [
+                        {
+                            "author": "Ldub0775",
+                            "body": "very intentionally to be That Guy\u2122, ~~it's technically not an \"Ethernet port\"~~ while not technically incorrect, \"Ethernet port\" is sort of a misnomer - Ethernet is a communication protocol, like WiFi or Bluetooth, and has a number of different competing ports and connectors, like RJ45 (copper cable) and SPF (optical). what most people are referring to when they say \"Ethernet port\" is an 8P8C connector wired for RJ45.",
+                            "score": 73,
+                            "replies": [
+                                {
+                                    "author": "Giocri",
+                                    "body": "The poor coaxial cable ethernet gets forgotten so easily",
+                                    "score": 27,
+                                    "replies": [
+                                        {
+                                            "author": "ImShyBeKind",
+                                            "body": "As it should be!",
+                                            "score": 16,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "TremenMusic",
+                                            "body": "at my old apartment we had internet through coax to the modem\u2026 we had so many problems with that provider lmao",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "b3nsn0w",
+                                    "body": "_I'd just like to interject for a moment. What you're referring to as Ethernet, is in fact, RJ45/Ethernet, or as I've recently taken to calling it, RJ45 plus Ethernet. Ethernet is not a connector unto itself, but rather another component of a fully functioning network connection made useful by the RJ45 connectors, physical specifications, and vital hardware components comprising a full layer 1 connection as defined by IEEE._",
+                                    "score": 17,
+                                    "replies": [
+                                        {
+                                            "author": "lolkaseltzer",
+                                            "body": "Programmer socks btw ahh comment",
+                                            "score": 4,
+                                            "replies": [
+                                                {
+                                                    "author": "b3nsn0w",
+                                                    "body": "the stallman probably does have programmer socks lol",
+                                                    "score": 3,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "DanteJazz",
+                                    "body": "I hereby rename the 8P8C connect wired for RJ45 as \"Ethernet Port\".",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Uberninja2016",
+                            "body": "No worries, if you were being \"that guy\" you'd say that technically the port is a\u00a0RJ-45 and know that there is (or was) also ethernet over coaxial cables since \"ethernet\" isn't a single standard and has been around for a long time.\n\nI went with \"internet\" specifically to try not getting into this while also being broadly understood. \u00a0Thought about calling\u00a0it a \"network\" port, but that's also a confusing term in the context. \u00a0It didn't work either way, lol, I hate discussing this port online.",
+                            "score": 19,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "nerdy_bisexual_mess",
+                    "body": "not to \ud83e\udd13, but i have a dell latitude e5570 and that card reader slot is for \"smart\" security cards/badges. also theres a sim card slot (for some reason) and a vga port",
+                    "score": 14,
+                    "replies": [
+                        {
+                            "author": "Uberninja2016",
+                            "body": "you can read credit cards with a smart card reader",
+                            "score": 20,
+                            "replies": []
+                        },
+                        {
+                            "author": "ApepiOfDuat",
+                            "body": ">  also theres a sim card slot (for some reason\n\nInternet access via cellular data.",
+                            "score": 9,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "tomato432",
+                    "body": "the card slot isn't for credit cards, its for smartcard ID cards such as [the US DOD common access card](https://en.wikipedia.org/wiki/Common_Access_Card) and [the personal identity verification card](https://www.idmanagement.gov/university/piv/)",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "Uberninja2016",
+                            "body": "if you have POS software on the computer that can handle chip credit cards, it can also read those because they are also based on the same format\n\nit's a smart card reader, it'll read a smart card (credit cards included) if you stick it in",
+                            "score": 17,
+                            "replies": [
+                                {
+                                    "author": "quarterto",
+                                    "body": "wow, that\u2019s cool. imagine what you could do if the software weren\u2019t a piece of shit",
+                                    "score": 7,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Giocri",
+                            "body": "Heck yeah i want one of those, perfect place to store RSA keys",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "AllahuSnackbar1000",
+                    "body": "I got a used Acer Travelmate P259 for 70 dollars with broken battery. It has I5 7th gen, 8gb Ram, 1TB HDD, Nvidia 940MX. Comes with x3 USB Ports, x1 USB Type-C, x1 Headphone Jack, 1x HDMI, x1 VGA, x1 DVD drive, Ethernet too.",
+                    "score": 8,
+                    "replies": []
+                },
+                {
+                    "author": "YadaYadaYeahMan",
+                    "body": "please give it another kiss for us aspirants",
+                    "score": 13,
+                    "replies": []
+                },
+                {
+                    "author": "mildly_asking",
+                    "body": "I've gotten one of those as a gift around a year ago. Would've probably gotten trashed otherwise. The CPU it is more than a decade old. A medium-power fourth(!) gen intel core i5. That's a CPU released in 2013/14. Made sure an SSD was in,  doubled the preinstalled 8GB of RAM. \n\nThe battery is pretty much busted dies after half an hour, replacing it is not expensive at all.\n\nI could fend off a robber with this business-brick before doing every office task I'd like to. \nThe CPU-related  needs of most people are not high at all, I've found. Sturdy as hell, more ports than Italy,  incredibly easy to take apart, extensive documentation in case I'd need to fix something, replacement parts for the 10+yr old machine readily available. I might've used the metal-reinforced parts as a hammer once, softly.\n\nAny cheap modern laptop would be more powerful. An equally well-built new laptop would cost an organ or two. I'll be using this thing until turns to dust.",
+                    "score": 11,
+                    "replies": []
+                },
+                {
+                    "author": "Felicia_Svilling",
+                    "body": "> it's got a freakin ethernet port, ok? \n\nThat is nice, but have you tried finding a laptop with two ethernet ports? I want one for work and it is hard as hell.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "lolkaseltzer",
+                    "body": "Holup...those ID card readers on business laptops can take credit cards too??",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Playchime",
+                    "body": "Oh man the old Dell latitudes are truly some of the best laptops ever made. I used one daily for over a decade and had to retire it not because it had any issues working but because it had lasted so long and recieved so much use that the key latches and ports were wearing out (keyboard keys would start shedding like scales whenever it was jostled, it was extremely funny honestly). Replaced it with the exact same model and unfortunately the ports are going on this one too now after several years but otherwise it's happy as a clam. The build quality on them is absolutely incomparable to the thin and sleek modern nonsense. I deeply dread eventually having to use a modern laptop and dealing with such a key and high-use piece of equipment being so flimsy and featureless--they feel like toys compared to the old \"business beasts\" hahaha",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "house343",
+                    "body": "It's still too small. I want a fucking monitor strapped to the side of a desktop tower that I can fucking fold in half.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Broad_Direction7112",
+            "body": "My work laptop begs for death every time I have excel, outlook, a web browser and teams open at the same time.\n\nThe things I NEED TO HAVE OPEN AT ALL TIMES IN ORDER TO DO MY JOB",
+            "score": 590,
+            "replies": [
+                {
+                    "author": "Sleepylimebounty",
+                    "body": "Used to be me, until I miraculously got a gaming  laptop for 900 bucks. If  you have the money to treat yourself and you\u2019re going the laptop route highly recommend a gaming laptop build.",
+                    "score": 194,
+                    "replies": [
+                        {
+                            "author": "FallenCorrin",
+                            "body": "This is the way. Choose the worst of the best. In this case - worst gaming keyboard is probably better than regular office one. \n\nAt least it is for me.",
+                            "score": 146,
+                            "replies": [
+                                {
+                                    "author": "Sleepylimebounty",
+                                    "body": "Yup. Exactly my approach; and you know how gamers are. As soon as the latest hardware comes out they want it so you end up getting a strong laptop to run regular tasks for fairly cheap.",
+                                    "score": 67,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "PhasmaFelis",
+                    "body": "That sucks, but I don't think that's enshittification, it's just a cheap/old laptop that isn't up to the job.",
+                    "score": 48,
+                    "replies": []
+                },
+                {
+                    "author": "bobbymoonshine",
+                    "body": "That\u2019s just a shit laptop man. I\u2019ve got a Surface Pro tablet that\u2019s thin enough to chop tomatoes with and it has no problem keeping every Office app open as well as VSCode and SSMS while also keeping twenty browser tabs up while running a bunch of scripts and also remoting into my desktop in another window. And I don\u2019t really need a laptop to do more than that?\n\nAnd that\u2019s not even an expensive laptop, it was well under a thousand bucks",
+                    "score": 16,
+                    "replies": [
+                        {
+                            "author": "RevolutionaryOwlz",
+                            "body": "Yeah, if Excel is making a laptop freak out, work way way cheaped out.",
+                            "score": 5,
+                            "replies": []
+                        },
+                        {
+                            "author": "DanteJazz",
+                            "body": "But doesn't that means you have to use Windows?!",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "bobbymoonshine",
+                                    "body": "Yeah, our whole organisation is built around Azure and Windows so it\u2019s generally more convenient to be on the same system as everything else, just means WSL and Docker sometimes",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Johnnie_Lynch",
+                    "body": "Work laptops can struggle!",
+                    "score": 10,
+                    "replies": []
+                },
+                {
+                    "author": "Quaytsar",
+                    "body": "That's gotta be ancient. I have a new laptop with integrated graphics and 16 GB of RAM and it only struggles occasionally with 3D modelling software or if excel thinks it needs to lookup all million rows and not just the thousand with data.\n\nLike, right now I have 3 spreadsheets, outlook, teams, edge, windows explorer, a PDF editor, OneNote and propietary company software open across 3 monitors with no issue.",
+                    "score": 9,
+                    "replies": []
+                },
+                {
+                    "author": "DanteJazz",
+                    "body": "No, you need to pay attention in the Teams MTG and stop playing games when you're supposed to be working (lol).",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "DroneOfDoom",
+                    "body": "I'd say \"install linux in it\" but I don't know if that would help, especially since 3 of those are Microsoft software. I guess you could run them off the web browser?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Broad_Direction7112",
+                            "body": "It belongs to the company.",
+                            "score": 9,
+                            "replies": [
+                                {
+                                    "author": "DroneOfDoom",
+                                    "body": "I might be stupid.",
+                                    "score": 8,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Ivan_Stalingrad",
+            "body": "i daily drive a Dell Latitude 14 Rugged for this reason. \n\n4.5 Kg but it has a Carry handle, two RS-232, two Ethernet ports, LTE, CD-Drive, 4 USB ports, Toolless swappable Battery, Touchscreen and for some reason a RGB keyboard",
+            "score": 85,
+            "replies": [
+                {
+                    "author": "ConstructionOwn9575",
+                    "body": "I miss swappable batteries on laptops. Had a Dell with swappable batteries about two decades ago. Great for travelling and college classes. Haven't had a laptop with that feature since.",
+                    "score": 39,
+                    "replies": []
+                },
+                {
+                    "author": "RunInRunOn",
+                    "body": "CD drive AND a touchscreen? I'm wishlisting it just as soon as I clean my pants",
+                    "score": 20,
+                    "replies": [
+                        {
+                            "author": "Ivan_Stalingrad",
+                            "body": "it also has GPS with support for external antennas",
+                            "score": 17,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Available-Damage5991",
+            "body": "I want a laptop that can withstand a fall from a third story window.",
+            "score": 43,
+            "replies": [
+                {
+                    "author": "LuminanceGayming",
+                    "body": "I want a laptop that can survive being opened more than 7 times.",
+                    "score": 38,
+                    "replies": []
+                },
+                {
+                    "author": "ShinySeb",
+                    "body": "Attach to laptop to a large flying drone. Drone sets it down softly. Problem solved.",
+                    "score": 11,
+                    "replies": []
+                },
+                {
+                    "author": "sapient_pearwood_",
+                    "body": "I want a laptop that won't threaten to snap in half in my backpack.\n\n(I also want a girl with a short skirt and a longgggg jacket)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Meows2Feline",
+            "body": "That's why I only buy business surplus think pads from eBay for under $300. I got ports for days and they even come with an expansion bay that lets you add a second battery or a CD drive or a bunch of other stuff.",
+            "score": 28,
+            "replies": []
+        },
+        {
+            "author": "Beegrene",
+            "body": "I'm on board with USB ports, but a CD drive is kinda unnecessary in a laptop given just how much extra space they take up. Also, it's generally bad to have moving parts in any portable hardware.",
+            "score": 137,
+            "replies": [
+                {
+                    "author": "Mddcat04",
+                    "body": "Pretty sure this repost is old enough that it\u2019s from the time when that was a more reasonable need. Because yeah, here in 2025, the tradeoff for a CD drive is pretty clearly not with it for the vast majority of users.",
+                    "score": 98,
+                    "replies": [
+                        {
+                            "author": "RevolutionaryOwlz",
+                            "body": "Plus if you do need an optical drive, whether CD or DVD, you can just buy one that connects as a USB device.",
+                            "score": 51,
+                            "replies": [
+                                {
+                                    "author": "Mddcat04",
+                                    "body": "Yeah, exactly.  I still have one sitting in a closet somewhere that I have not used in years.  Can't imagine the present-day user for whom that would be insufficient.  They'd have to be a roving CD archivist or something.  And laptop manufactures don't need to put CD drives into laptops to service the needs of that singular person at the expense of everyone else.",
+                                    "score": 16,
+                                    "replies": [
+                                        {
+                                            "author": "Quaytsar",
+                                            "body": "The only time recently I've *needed* my disc drive (as opposed to using it to rip movies) was to install drivers for a new wifi card I added. And I could've avoided that by running an ethernet cable to my router.",
+                                            "score": 8,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Not_Steve",
+                                    "body": "but that uses one of my *two* USB ports!!!",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "DroneOfDoom",
+                            "body": "Dunno. I've seen posts made as late as February this year complaining about not having an optical drive on their laptop, amongst other things.",
+                            "score": 6,
+                            "replies": []
+                        },
+                        {
+                            "author": "MasonP2002",
+                            "body": "I found the post, it's from September 18, 2021. At the time I still used an optical drive personally, but  only on my desktop and only because I thought it made burning retro game isos and roms cooler.\n\nhttps://www.tumblr.com/sketchdeath/662693886086479872/who-the-fuck-cares-about-the-thinness-of-a-laptop?source=share",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "RevolutionaryOwlz",
+                                    "body": "I mean okay yeah burning stuff to disk is classier than a USB stick or cloud storage",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "croizat",
+                            "body": "if only tumblr posts had the date attached to them, but no that would be ridiculous",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "ball_fondlers",
+                    "body": "Yeah, my desktop doesn\u2019t even have a cd drive lmao - still, I would like a laptop with way more ports and way more variety in ports. At minimum, HDMI, DisplayPort, Ethernet, 3.5 mm audio, a couple of USB-C\u2019s, and then USB-A\u2019s like everywhere else",
+                    "score": 12,
+                    "replies": [
+                        {
+                            "author": "Waity5",
+                            "body": "A. optical drives in PCs are great and quite useful, though sadly most modern cases don't have a 5.5\" bay for it\n\nB. Why ethernet as a requirement?",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "ball_fondlers",
+                                    "body": "A) Marginally - I don\u2019t think they even sell software in disc form anymore, it\u2019s all distributed via the Internet. Even physical games for consoles are mostly just \u201cwhatever data will fit on the disc, plus some downloaded for the rest\u201d.\n\nB) I have fiber internet",
+                                    "score": 11,
+                                    "replies": [
+                                        {
+                                            "author": "Waity5",
+                                            "body": "A. Fair enough, I find mine useful for cd ripping and burning the occasional disk, but not everyone will do that\n\nB. So do I, what could you be doing which would be limited by wifi speeds? Most stuff is bottlenecked on the server end or by your cpu speed",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "ball_fondlers",
+                                                    "body": "True - honestly, it\u2019s just nice to finish downloading a modern, 120+ GB game in an hour or two, but I could probably get speeds on the wifi that could get it done in part of an afternoon. Anything\u2019s better than leaving my computer on overnight so the games could finish downloading then",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "threetoast",
+                                                            "body": "Newer wifi is actually really fast, 5GHz can get to over 1Gbps. You'll probably only get that speed reliably if you're in LOS of the router. But you'd still get more than enough bandwidth with any wifi 6 or 6e setup--120GB at 200Mbps is still less than 90 minutes.\n\nOf course, nothing beats the reliability and value of just using a cord.",
+                                                            "score": 3,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Garlic549",
+                                    "body": "1. A physical connection will always be more stable and reliable than a wireless one. \n  \n2. If I'm ever using any WLAN/WWAN connection for any reason, I always assume that it is or at some point will be compromised. WiFi (KRACK) and mobile data (SS7, Stingray) are less secure than you think.",
+                                    "score": 4,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Hi2248",
+                    "body": "You seem to underestimate how much I desire backwards-compatibility, even if it's entirely impractical.  If I could, I'd get a computer with the ability to read punch cards.  Do I need to read punch cards? No.  Would it be an unnecessary addition that takes up a fair amount of space? Absolutely. Would I still get it? Yes.",
+                    "score": 8,
+                    "replies": [
+                        {
+                            "author": "ShinySeb",
+                            "body": "Why not just use an external punch card reader? I feel like a laptop should not have components that most people will never use or want and also take up a lot of space. That\u2019s what external accessories are for",
+                            "score": 7,
+                            "replies": [
+                                {
+                                    "author": "Hi2248",
+                                    "body": "The point isn't that it's practical, but because I desperately lust after backwards compatibility\u00a0",
+                                    "score": 5,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "h35fhur75",
+                    "body": "My USA gov mail is in CD format and a lot of my doctors bills, some of us are just blind and use CDs everyday",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "ParanoidDrone",
+                    "body": "You mean you don't want a built-in cupholder?",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "FatherDotComical",
+                    "body": "My laptop right now has a CD player and isn't much more larger than a typical laptop should be.\n\nI've been using it for years and it runs my movies and music just fine and I abuse the poor thing.\n\nIn my opinion instead of a CD drive I would love one that can also play blu-ray.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ShlomoCh",
+            "body": "I mean I bought a gaming laptop with all the ports and and bigass screen because of this, and now my back hurts when carrying it, so you win some you lose some ig",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "HuntingSquire",
+            "body": "its all fun and dandy to have a wafer thin 'portable' laptop until you fall down with it in your bag",
+            "score": 25,
+            "replies": []
+        },
+        {
+            "author": "SerenaLunalight",
+            "body": "This applies to phones too. I want as big of a battery as possible, a headphone jack, a micro sd card slot, and no protruding cameras.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "The_Sovien_Rug-37",
+            "body": "i can mostly get behind this but i also got a proper workstation laptop from a friends workplace and hauling that thing around was pretty taxing actually",
+            "score": 21,
+            "replies": [
+                {
+                    "author": "Wet_Water200",
+                    "body": "my laptop is nice and easy to carry around but omfg only having 4 usb ports is a struggle. Especially since I need to use one for my monitor since the laptop doesn't have a displayport. Hubs exist but they don't work well when you need usb 3 which I found out the hard way after buying the laptop lol.\n\n\non second thought what I said ab hubs might be entirely wrong and it could actually just meta/oculus and their stupid software being picky lol",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "PUBLIQclopAccountant",
+                    "body": "I used to be a massive laptop fan until I got the travel bug. Now, I\u2019m pissed that Apple moved away from the wedge of the M1 Air.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Fearless-Excitement1",
+            "body": "Capitalism's most insidious tactic is turning a downgrade in features into a marketable feature all of it's own",
+            "score": 18,
+            "replies": []
+        },
+        {
+            "author": "lynx2718",
+            "body": "If I wanted 10 usb ports and a cd drive I would have bought a desktop. I need to carry my laptop to uni and back without getting backpain, thanks. I got the thinnest mf I could get my hands on and I love it",
+            "score": 77,
+            "replies": [
+                {
+                    "author": "new_KRIEG",
+                    "body": "Imagine if both options could be available in the market at once!!",
+                    "score": 116,
+                    "replies": [
+                        {
+                            "author": "hagamablabla",
+                            "body": "This is how I feel about station wagons and hatchbacks. Maybe I want something with more space than a sedan that isn't a pickup truck.",
+                            "score": 33,
+                            "replies": []
+                        },
+                        {
+                            "author": "AbsolutelyHorrendous",
+                            "body": "Fucking exactly this. I don't want my laptop to be ridiculously chunky, but frankly I don't want them to remove actually useful things for the sake of making it 2mm thinner!",
+                            "score": 24,
+                            "replies": []
+                        },
+                        {
+                            "author": "Aetol",
+                            "body": "They are? Why is everybody acting like big high-performance laptops don't exist?",
+                            "score": 24,
+                            "replies": [
+                                {
+                                    "author": "Azure-April",
+                                    "body": "They absolutely are not, IO on laptops is a joke these days. Also, why should someone need to buy a stupid expensive high end laptop to have real IO??",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Aetol",
+                                            "body": "Extra IO takes up room on the sides. Bigger dimensions means more room for components. What do you expect, a huge half empty case just for those extra USB ports? Just use a hub if that's all you need.",
+                                            "score": 6,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "ThoraninC",
+                            "body": "It going to be heavy as hell, to the point that only me can wear my backpack. Every friend will complain on how heavy my backpack is. Because of big ass laptop I have in there.\n\nThis in turn become the great deterrence. As no robber would outrun me due to how heavy my backpack is.\n\nIt is not that you could not move them. But you kinda need to have strength to transport them.",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "lynx2718",
+                            "body": "I'm genuinely happy these people can buy a brick if they want to. But theres no way I'd ever be able to get one",
+                            "score": -3,
+                            "replies": []
+                        },
+                        {
+                            "author": "old_and_boring_guy",
+                            "body": "Or better yet, we could all have pet unicorns!\n\nWho the hell still wants a CD drive? I never even bothered to move the DVD drives from my old desktop to the new one, and I haven't used a CD in god knows how long. And TEN USB drives? Even three is a ridiculous amount of overkill given that you can hook nearly all your peripherals on with bluetooth.\n\nI'm surprised you guys aren't complaining about the lack of 8-track players.\n\nEdit: All these things take up space. CD/DVD? Thick laptop. No way around it. USB backplanes? You can't handle more than 2-3 without adding more processing crap. You can see this in any build. Even crap like the old 3.5mm audio jack took up 5 times as much space on the inside as you'd imagine it would and adds huge numbers of hardware challenges.\n\nSo someone makes this magical clunkbox that you think you want, and it will suck in a myriad of weird ways. No battery life, weird signal issues, etc, etc, etc. And you'll *still* complain, because it's not magically perfect.",
+                            "score": -42,
+                            "replies": [
+                                {
+                                    "author": "AkrinorNoname",
+                                    "body": "I still listen to CDs and watch DVDs. I like to own my media. But yeah, they're generally not neccessary on laptops.\n\nHowever, my work laptop has two USB-A ports, and I often wish I had more. One is taken up by my headset dongle, one by my keyboard. I'm lucky I have a bluetooth mouse unlike some colleagues. However, I can't connect any other devices. I can't charge my phone, headset, or mouse on my laptop, unless I want to type solely on the integrated keyboard or annoy everyone at the office by having meetings via speaker.",
+                                    "score": 26,
+                                    "replies": [
+                                        {
+                                            "author": "old_and_boring_guy",
+                                            "body": "Sounds old as hell. [Try and get them to score you a USB hub](https://www.walmart.com/ip/USB-3-0-Hub-7-Port-USB-Hub-Splitter-USB-Extender-Hub-with-Individual-Switches-for-Laptop-PC-Computer/14206506688?wmlspartner=wlpa&selectedSellerId=101629517&adid=22222222222000000000&wmlspartner=wmtlabs&wl0=e&wl1=s&wl2=c&wl3=10352200394&wl4=pla-1103028060075&wl5=&wl6=&wl7=&wl10=Walmart&wl11=Online&wl12=14206506688_10001648870&wl14=usb%20a%20hub&veh=sem&msclkid=cb3fccc4eb1e15b17444ab1c9b7f86f7&gclsrc=ds). For USB-A they're cheap as hell these days, since that standard is effectively dead (my work laptop has *one* USB-A port, though it does have 3 USB-C ports). \n\nAs for charging stuff via the laptop ports, yeesh. That'll take an age, since it's strictly low-voltage. You could spring for the sexy *powered* USB hub, which would allow you to charge everything, but costs a bit more. Again though, be wary because USB-A is going to be phased out pretty soon.",
+                                            "score": -20,
+                                            "replies": [
+                                                {
+                                                    "author": "Meows2Feline",
+                                                    "body": "USB A is so prevalent literally everywhere it is not going to be \"phased out\" anytime soon. Maybe in ten years you'll be right.",
+                                                    "score": 12,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "new_KRIEG",
+                                    "body": "One for an extra keyboard, one for a mouse, another 2 so we can transfer stuff from one pendrive to another one in one go, and an extra one to charge our phone while using the notebook. So make it 6 in a 3x2 grid. \n\nWhile we're here, an SD entrance would be cool, and there's no reason why we shouldn't have an entrance for CDs, where else would you have one if not in your notebook??  I'm pretty sure there's some space leftover, so one or two HDMI entrances would be cool. With all that height, you might even be able to fit a fucking fan that will make it not overheat if you ever run anything more than PowerPoint on it.\n\nAnd give me a metal exterior. I don't want that ultralight plastic shit. I want a 15 lbs monstrosity of a notebook that can survive falling down a staircase, I want to have it be sold with a gym membership so people manage to carry it around. It should be able to be used as a blunt weapon in emergency situations and have a battery so big it can be used to blow up cars in a revolution.",
+                                    "score": 13,
+                                    "replies": [
+                                        {
+                                            "author": "Meows2Feline",
+                                            "body": "Thinkpad gang rise up",
+                                            "score": 1,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "lynx2718",
+                                            "body": "Why do you need an extra keyboard and mouse? Do you have the laptop keyboard and then just put another keyboard in front of it?",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "new_KRIEG",
+                                                    "body": "What if the main keyboard breaks? What if I want to place the screen further away? It's my computer, I wanna do what I want to it, no matter how stupid it is",
+                                                    "score": 4,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "old_and_boring_guy",
+                                            "body": "[Nothing's 15 anymore, but this piece of shit is about as close as you'll get](https://connect.na.panasonic.com/toughbook/rugged-computers/toughbook-55).",
+                                            "score": -6,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "AbsolutelyHorrendous",
+                                    "body": "'No battery life' \n\nMy current laptop is the most modern one I've ever had, and it's got some of the worst battery lifes I've experienced, so I'm not sure this bullet is fully being dodged right now",
+                                    "score": 4,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Meows2Feline",
+                                    "body": "If you've never been in a situation where you need 5+ USB ports then you're just using your laptop differently than I do idk. External hard drives, peripherals like mouse or maybe a dedicated numpad or 3d mouse, multiple HDMI ports for more screens, ports to charge devices while the laptop is plugged in. Flash drives, lots of flash drives (if you're working with computers that aren't setup or networked flash drives are a godsend). I like having options. Most modern laptops have maybe 2 USB ports.",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "PlatinumAltaria",
+                    "body": "Imagine not carry a steel-cased PC tower to school every day. I'm getting gains, you're only gaining student debt.",
+                    "score": 19,
+                    "replies": [
+                        {
+                            "author": "lynx2718",
+                            "body": "Student debt? I'm european lol, I earn money just by studying.",
+                            "score": 8,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Meows2Feline",
+                    "body": "My T420s is 3.6lbs and has ports for days so you can have both. \n\nFor reference a 15in new MacBook Air is 3.3lbs.",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "Echo__227",
+                    "body": "I've had two student laptops brick because the thin layer of plastic right above the RAM can't protect it from the crucible of being carried in a backpack daily. Y'all just need to take your Vitamin D",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "ayyndrew",
+                    "body": "Same. Thin laptop + dock at home when I need more is the way for me",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "BabySpecific2843",
+                    "body": "Because that 0.25 lbs the laptop makers shaved off by making it thinner are doing wonders to stop your back pain. Choosing whether or not to carry a water bottle in your bag is doing considerably more noticable impact.",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "iWant2ChangeUsername",
+                            "body": "Exept that I _still_ need all the shit they shaved off so now I need 2 USB hubs, one of which will have shit performance because it'll be connected to the other, a SD card reader and from one to two external drives.\n\nAll this in addition to the graphic tablet, laptop charger, mouse and USB keys that I'd already be carrying around anyways.\n\nNot only does that mean that the total weight is more (can't exactly let all the additional pieces float around if you want to use them more than once) but it also means that you're gonna need half an hour just to set up everything (and to put things away once your done) and that you'll take a shit load of space.\n\nSo no, it does jackshit for your back once you start using any software requested for school.",
+                            "score": 0,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Silverr_Duck",
+            "body": "I understand wanting multiple usb port and other various i/o stuff. But a cd drive? Lol nah fuck that bulky shit. This isn't 1998.",
+            "score": 12,
+            "replies": [
+                {
+                    "author": "Giocri",
+                    "body": "I mean the need for a CD drive is falling drastically but the laptop ones can be thin and lightweight to a ridiculus extent",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "kRkthOr",
+                    "body": "The post is from 2021. Even just 4 years ago, CDs/DVDs were more in use.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Difficult-Risk3115",
+            "body": "Enshittification has a specific meaning that's not just \"things getting worse\" \n\nhttps://en.m.wikipedia.org/wiki/Enshittification",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Starchaser_WoF",
+            "body": "I don't want it to be thin, I want it to be built like a tank and powerful as hell.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Zymosan99",
+            "body": "I don\u2019t care about having a thin laptop, I just want to be able to transport it in a backpack.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "Resiideent",
+            "body": "If my laptop breaks in half immediately after I bash it over someone's head I'm gonna go find and strangle the manufacturer.\n\nI WANT MY LAPTOP TO BE ABLE TO RUN THE MOST GRAPHICS INTENSIVE GAMES ON MAXIMUM SETTINGS.\n\nI DO NOT CARE if it weights 30 pounds.",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "Giocri",
+                    "body": "I got my laptop for an absolute steal because they were offloading old stock to make space for the latest models and God was it wild to open the box and see a 400 wats power supply for it lmao that thing alone is the weight of my previous pc XD",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "Resiideent",
+                            "body": "Sweet Liberty...",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "Giocri",
+                                    "body": "Rtx 3080 is quite power hungry after all even the laptop variant add a 20 core processor and you can warm the room fairly well",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "PreviousLove1121",
+            "body": "I think it's fine to put ultra thing laptops on the market.  \nyou know, for the people who would buy and use that.\n\nI'd like my laptop to have an absolute minimum of 5 USB slots, along with various other types of ports like 3.5mm aux, VGA, DP, HDMI. and of course a DVD drive.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "catlover2011",
+            "body": "I want a laptop I can bludgeon someone with.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Stormdancer",
+            "body": "And battery life measured in days!",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Menoth22",
+            "body": "And the ability to FUCKING upgrade again",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Upbeat_Effective_342",
+            "body": "They need to realize the only people who have desktops anymore are gamers.",
+            "score": 10,
+            "replies": [
+                {
+                    "author": "Bearhobag",
+                    "body": "I work exclusively off a computer and whiteboard. The only thing I use my 3 laptops for are to connect to various desktops. The laptop doesn't need to be able to do more than open 1 single light-weight connection, and the most important spec is that it be light as a feather.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Upbeat_Effective_342",
+                            "body": "You've made me incredibly curious what you do for work.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Bearhobag",
+                                    "body": "I didn't think that was an uncommon setup. I'm at a company that does both hardware and software, so I do a bit of both. Basically everyone I know that does serious work in hardware or software does not run any programs locally. Their laptop is just there to provide a text-editor and a way to connect to desktops.\n\n\nThe only people I know that actually run things on their laptops for work are some doctors that have to deal with particularly bad EMR. Literally everyone else I know just remote-connects.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Upbeat_Effective_342",
+                                            "body": "I figured it was something in math/science/engineering. You must realize, you people are streets ahead when it comes to leveraging technology effectively.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Cyaral",
+            "body": "My Uni tablet/laptop was advertized for uni/school work. IT DOESNT HAVE ONE REGULAR USB PORT!!!!! WTH!  \nDefinitely gonna pay more attention next time, I just took USB ports as a given in any computer",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "VengefulAncient",
+                    "body": "USB-C is \"regular\" now. Get used to it, it's been out for like a decade. Buy a couple of C to A adapters if you need to, they're a few bucks each.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "MostSapphicTransfem",
+            "body": "My shitty TnL Dell bends in a stiff breeze, would explode into a million pieces after falling 2 inches onto a bed of softest cotton, and has a heart attack loading base Windows 11.\n\nI long for the days of my brutalist thinkpad that could be used to kill a small bear if needed",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "a_filing_cabinet",
+            "body": "I get where this is coming from, but oh my God swapping from my ultralight laptop to my partner's was awful. It felt like I was carrying around a brick. And theirs is still lighter than average. Mine you could pick up with two fingers, with zero strain. I really don't need oodles and oodles of power, I just need to run a few games and my stuff for work. There's toasters out there that can probably do it. So I'd much, much, much rather have something lighter than a notebook than a \"portable\" supercomputer you need two hands to pick up. It's not shittier, it's just a different purpose.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "AviaKing",
+            "body": "Bruh different ppl have different use cases. All I do on my laptop is schoolwork I want that thing to be sleek thin and LIGHTWEIGHT. If you want a portable NASA computer buy a friccin Thinkpad",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "MultiMarcus",
+            "body": "I do. I have a desktop PC, obviously I want my laptop to be thin and light. If you want to buy this type of laptop then do so and if there aren\u2019t any then that\u2019s probably because there are very few people that feel like you do. Or at least very few people that are willing to spend the extra money that a fairly bespoke product would cost. \n\nPersonally I always recommend either the MacBook Air or MacBook Pro to people because Apple has managed to get incredible battery life on powerful devices that perform equally off and on battery which is such a nice thing to not have to bother with. If someone really doesn\u2019t want to buy an Apple product or a Mac in general, I always recommend a framework laptop because I really support their moral messaging. Though I\u2019ve never actually met someone who wants to carry around a 5 kilo laptop in their bag nor anyone who actually wants a CD drive so I can\u2019t really help the person in this post, but generally I try to give the best advice I can.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "Ejigantor",
+            "body": "Just buy a USB hub for as many USB ports as you need.  The one I'm using is USB-C and has four USB ports, and HDMI port, and SD / Mini SD card slots.  It weighs practically nothing, is a quarter the size of my iPhone, and the best part is I can leave my peripherals plugged into it on my desk and just plug the hub in to the laptop.\n\nAnd an external USB CD drive is an option if you really want one.  But, do you?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Ejigantor",
+                    "body": "Seriously, though.  A CD drive?  What is even the point?  I can't imagine attaching or installing a CD drive to any of my computers (yes, I have several)\n\nMy primary desktop has a DVD drive, and that can load CDs as well, but a CD drive can't load DVDs and I just don't think there's any value.",
+                    "score": 9,
+                    "replies": [
+                        {
+                            "author": "DroneOfDoom",
+                            "body": "I'm pretty sure that people use CD drive as just a synonym for optical drive, because on computers basically all non gaming software distributed on optical media was distributed on CD because most of it didn't need 4.7 GB of data. You'd only put DVDs on a computer to install a game or to watch a movie.",
+                            "score": 9,
+                            "replies": [
+                                {
+                                    "author": "RevolutionaryOwlz",
+                                    "body": "I still remember me and my dad upgrading my desktop from CD to DVD cause my copy of Sims 2 turned out to be one DVD instead of a pile of CDs.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Giocri",
+                    "body": "I have already enough usb hubs plugged into eaach other despite having 4 usb in the laptop itself so i Will pass",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "Ejigantor",
+                            "body": "Why on earth do you need so many?",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "-sad-person-",
+            "body": "Even my desktop doesn't have a disc drive anymore. I should probably install one, but I keep forgetting.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Tiptipthebipbip",
+            "body": "exactly! \ud83d\udc4c\ud83c\udffe",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BrickAndMortor",
+            "body": "Back in Uni, 2018-2023, i had a laptop from '08 that weighed 8lbs and could do everything the other laptops could without issue. Running CAD or decent games was no worry for me. Didn't sound like it was preparing for takeoff. Had a number of ports that i wanted to figure out how to use, like FireWire. Got that bitch for free and had a new hard drive installed for cheap, like $50. Loved that thing, never stopped working but the ribbon cables for the mouse and keyboard disintegrated when i took it apart to clean it out.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "AllahuSnackbar1000",
+            "body": "I got a used Acer Travelmate P259 for 70 dollars with broken battery. It has I5 7th gen, 8gb Ram, 1TB HDD, Nvidia 940MX. Comes with x3 USB Ports, x1 USB Type-C, x1 Headphone Jack, 1x HDMI, x1 VGA, x1 DVD drive, Ethernet too.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SiggeTheCatsCheese",
+            "body": "If I can't bludgeon someone to death with my laptop, I don't want it",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "imsquaresoimnotthere",
+            "body": "i want my laptop to have a radioisotope thermoelectric generator in it. a battery with a half-life of 87.7 years would be so practical. just gotta hope i dont get fucked up by the radiation",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "AzmodeusBrownbeard",
+            "body": "Felt this in my millenial soul.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DanteJazz",
+            "body": "A battery that lasts 2 days!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "FG_1701",
+            "body": "Well, it being thin really is secondary. But when you gotta actually carry it around the weight does make a difference. If it's just sitting on a desk at all times however, it is also entirely irrelevant",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "dakedDeans",
+            "body": "Not me reading that as a cd drive you can fuck",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "WeevilWeedWizard",
+            "body": "If I can't have sex with the laptop then throw it in the fucking garbage, I want nothing to do with it.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "StormerBombshell",
+            "body": "I know right. I honestly don\u2019t get why we get pushed all the thin ones and no one is selling big ones anymore.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "VengefulAncient",
+                    "body": "There are plenty of \"big ones\" on the market - if you haven't looked, that's on you. It's just that 90% of users don't need a DTR with a dozen ports.",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "StormerBombshell",
+                            "body": "As I am in Mexico I would probably need to pay through the nose to import it and risk to be stolen at shipping -.- \n\nI have a big one and when it can no longer go on will see if I can someone to arm a new one with the shell or something -.-",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "VengefulAncient",
+                                    "body": "Or just build a desktop. There are very, *very* few use cases when someone actually needs a DTR instead of either a desktop or a normal modern laptop. That's why the market is the way it is - normal users weren't buying the oversized monstrosities.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "StormerBombshell",
+                                            "body": "I don\u2019t want a desktop. A desktop I cannot move around the house nor take into archives",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Alespic",
+            "body": "If they\u2019re still being sold apparently someone does care. Regardless, no one is stopping you from buying a specific type of laptop, to each their own according to preferences and needs",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "VengefulAncient",
+            "body": "I do. I have an MBP 16 for work and it has exactly all the ports I'd ever need on a laptop. And I haven't used a CD since like 2011. I want a laptop that's portable and light, not a desktop replacement - I already have a desktop.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "t0nik3nsa",
+            "body": "my laptop is nice sure but i\u2019m sick of having to find converters for everything.. no one uses USB-C man",
+            "score": -10,
+            "replies": [
+                {
+                    "author": "reverse_mango",
+                    "body": "USB-C is now the mandatory standard in the EU :)",
+                    "score": 20,
+                    "replies": [
+                        {
+                            "author": "t0nik3nsa",
+                            "body": "it is?? man i wish that were me, here in the US i can barely find anything for it, sorry if i came off as mean",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "FinalXenocide",
+                                    "body": "Even leaving aside USB-C is either the most or second most popular phone charging cable in the US, I'd be extremely surprised if you couldn't find a thunderbolt cable (same plug, better cable, more data/power and connect to monitors). Like unless you're off-the-grid rural I'd be surprised if there isn't a Best Buy or equivalent relatively close by. And bringing back the USB-C that would be fine just a bit rougher on the battery, you could get that at most gas stations and a decent one at most CVS/Rite Aid/Walgreens or Walmart.",
+                                    "score": 3,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Ejigantor",
+                                    "body": "Even in the US USB-C is becoming more common (in large part thanks to EU regulations)\n\nIt's still mostly on the device end of things - the end of the cable that goes into your phone or whatever is USB-C, the other end of the cable is a classic USB 2.0 rectangle for the most part, we're still probably a few years away from C to C connections becoming mainstream.  I've only ever plugged hubs or docks into the USB-C ports on my laptops.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Quadpen",
+            "body": "and the popups good GOD the popups",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "Lathari",
+            "body": "What is a CD? Is like a sd-card or c-cassette?",
+            "score": -7,
+            "replies": [
+                {
+                    "author": "ayyerr32",
+                    "body": "CDs nuts",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "DroneOfDoom",
+                    "body": "C Deez Nuts",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "Ejigantor",
+                    "body": "CD is short for Compact Disk; it's basically a lower quality, lower capacity DVD.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Lathari",
+                            "body": "So like a worse c-cassette?",
+                            "score": 0,
+                            "replies": [
+                                {
+                                    "author": "Ejigantor",
+                                    "body": "A CD is to a DVD as a c-cassette is to a VHS cassette; similar function, less capacity, lower quality.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Lathari",
+                                            "body": "Ah, an 8-track, I get it now.",
+                                            "score": 0,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Waity5",
+                    "body": "> What is a CD? Is like a sd-card\n\nkinda (not really) the other way around, there's a reason the D in the offical sd card logo looks like a disk",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Hellkyte",
+            "body": "Thanks Jobs and the rest of the Tech marketing dickheads for that",
+            "score": -4,
+            "replies": []
+        }
+    ]
+}

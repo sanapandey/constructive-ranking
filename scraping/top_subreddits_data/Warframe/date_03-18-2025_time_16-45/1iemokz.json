@@ -1,0 +1,3271 @@
+{
+    "title": "The Warframe Wiki is officially moving from Fandom to wiki.warframe.com!",
+    "author": "Finnstar7",
+    "subreddit": "Warframe",
+    "rank": 0,
+    "score": 9876,
+    "upvote_ratio": 0.98,
+    "num_comments (reported by reddit)": 525,
+    "url": "https://www.reddit.com/r/Warframe/comments/1iemokz/the_warframe_wiki_is_officially_moving_from/",
+    "id": "1iemokz",
+    "selftext": "Hello fellow Tenno,\n\nI am making this post, in conjunction with DE (https://bsky.app/profile/warframe.com/post/3lh2qvcbj2c2g), to announce to you all that the Warframe Wiki has officially migrated from Fandom to Weird Gloop! So for all your wiki needs please refer to [wiki.warframe.com](https://wiki.warframe.com) from now on!\n\n**Why did we move?**\n\nFor readers, [https://wiki.warframe.com](https://wiki.warframe.com) offers a completely ad-free experience which is something that has long been sought after by the community. The move also brings a more usable mobile interface for those that browse on secondary devices like smart phones and tablets.\n\nFor editors, our new host can grant a more personalized and tailored fit for our wiki, allowing greater control over our content and feel. This allows greater flexibility in how we edit, customize, and monitor the wiki.\n\n**What happens to the Fandom wiki?**\n\nThe Fandom wiki is now deprecated and no longer recognized by DE as the official wiki.\n\nHowever, it cannot be deleted by us. We ask that you please do not make contributions to it and instead focus your attention to [wiki.warframe.com](http://wiki.warframe.com). From here on, only the new wiki will be updated with the most up-to-date and accurate information. The old wiki will no longer be updated.\n\nWe will attempt to post announcements and notices on the old Fandom wiki to let readers and editors know about the move. If you know someone who is still using the Fandom wiki please let them know. The faster word gets out the better, as the goal is to reduce the Fandom wiki's SEO and bring up [wiki.warframe.com](http://wiki.warframe.com).\n\nYou will find that Google search results will still link to Fandom for a while. In such cases we recommend using the [Indie Wiki Buddy](https://getindie.wiki/) extension (available for most Chromium and Mozilla browsers) which will detect if Fandom links have corresponding [wiki.warframe.com](http://wiki.warframe.com) links and use those instead. This will be a huge help to us for getting the new wiki up above Fandom in Google's search results, so please consider using it.\n\n**Has Warframe Wiki team changed?**\n\nThe wiki team has not changed, all us active (and even inactive) admins and mods were a part of this process. Although most regular editors were not made aware until several days ago.\n\nFor those of you who are an editor of the Fandom wiki, you can transfer your account's contributions over at [https://wiki.warframe.com/w/Special:MigrateUserAccount](https://wiki.warframe.com/w/Special:MigrateUserAccount) to continue your work. All article edit history has also been migrated, so no contributions should be lost.\n\n**What is Weird Gloop?**\n\n[Weird Gloop](https://weirdgloop.org/) is a wiki hosting service created back in 2017 by the OSRS and RS wikis. Weird Gloop hosts the RuneScape, Minecraft, and League of Legends wikis. And now the Warframe Wiki officially joins the ranks!\n\nThis has actually been in the works since October of last year. With the help of DE (thanks especially Ronnie!), Weird Gloop's dev team, and some awesome members of our own team, the Warframe Wiki has found its new official home!\n\nIf you have questions feel free to drop us a line here or in our [Warframe Wiki Discord server](https://discord.gg/U8kPksk).\n\nI look forward to this new experience with all you potential readers and editors!",
+    "comments": [
+        {
+            "author": "Luminum__",
+            "body": "Actually LEGENDARY move. I am so thankful to never have to visit Fandom ever again.",
+            "score": 3197,
+            "replies": [
+                {
+                    "author": "WannabeWaterboy",
+                    "body": "That website was the entire reason I put add blockers on my devices.",
+                    "score": 758,
+                    "replies": [
+                        {
+                            "author": "StatementCritical116",
+                            "body": "Literally set up a raspberry pi \u201cpi-hole\u201d because of sites like fandom.",
+                            "score": 288,
+                            "replies": [
+                                {
+                                    "author": "SpartanXIII",
+                                    "body": "....\n\nD...did it hurt putting adblock up your pi hole?",
+                                    "score": 181,
+                                    "replies": [
+                                        {
+                                            "author": "Sgy157",
+                                            "body": "You could say it involves a man in the middle",
+                                            "score": 103,
+                                            "replies": [
+                                                {
+                                                    "author": "Few_Preference_5118",
+                                                    "body": "Man in the wall in the middle",
+                                                    "score": 74,
+                                                    "replies": [
+                                                        {
+                                                            "author": "pyrosive",
+                                                            "body": "Rap tap crap",
+                                                            "score": 40,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Daiomeshi",
+                                                                    "body": "Rap tap ad",
+                                                                    "score": 11,
+                                                                    "replies": []
+                                                                },
+                                                                {
+                                                                    "author": "KinseysMythicalZero",
+                                                                    "body": "More like \"tap tap no crap.\"",
+                                                                    "score": 2,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "author": "None",
+                                                            "body": "[deleted]",
+                                                            "score": 48,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "trebuchet__",
+                                                                    "body": "Well that's infinitely better than anything I could come up with",
+                                                                    "score": 2,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "xseiber",
+                                    "body": "Do you have a link to the guide that you use? Thinking of setting one up, but the guides I've watched seem either convoluted or not ELI5 friendly",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "StatementCritical116",
+                                            "body": "I followed this tutorial and it felt pretty idiot proof (I am idiot). I bought a cana kit which came with everything I needed. The hardest part was logging into my router; if you haven't ever done that it takes some googling of your ISP and hopefully they put a sticker on your router with the username and password to log into it so you can change settings. [https://youtu.be/cE21YjuaB6o?si=nTrUB7H3ctT8pgcj](https://youtu.be/cE21YjuaB6o?si=nTrUB7H3ctT8pgcj)",
+                                            "score": 4,
+                                            "replies": [
+                                                {
+                                                    "author": "xseiber",
+                                                    "body": "Hell yeah, thanks Tenno!",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Gyossaits",
+                            "body": "Courtesy reminder you all should be using uBlock Origin.",
+                            "score": 105,
+                            "replies": [
+                                {
+                                    "author": "aerothan",
+                                    "body": "Unfortunately ublock Origin is losing support on some browsers like Chrome, which I assume most people still use. On Mobile I mostly use Brave and I've never experienced any ad issues, but also Firefox is great on mobile and pc because of all the different extensions. I use uBlock, AGP, Badger, and a couple others to blacklist sites.",
+                                    "score": 9,
+                                    "replies": [
+                                        {
+                                            "author": "Niicks",
+                                            "body": "Yeah the switch over to Firefox was painless.  Import settings, log in to a few things and then scan a QR code on mobile.  Literally switched over and made myself comfortable in 20 or so minutes.",
+                                            "score": 37,
+                                            "replies": [
+                                                {
+                                                    "author": "aerothan",
+                                                    "body": "And Firefox feels like a truly open source browser. Very easy to customize. For whatever reason I still prefer Brave on mobile though I use both, I guess I'm just too lazy to change.",
+                                                    "score": 14,
+                                                    "replies": [
+                                                        {
+                                                            "author": "moonra_zk",
+                                                            "body": "I prefer Brave on mobile because it's much, much faster than FF on my crappy phone.",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "aerothan",
+                                                                    "body": "Same. FF is great for when I need extensions, but Brave is great for casual web browsing.",
+                                                                    "score": 2,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "None",
+                                            "body": "[deleted]",
+                                            "score": 27,
+                                            "replies": [
+                                                {
+                                                    "author": "aerothan",
+                                                    "body": "Way too much. I was hoping their market plummet a while back would have continued, but they are clearly to big and too well invested to fail that easily.",
+                                                    "score": 9,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "DarthGiorgi",
+                                            "body": "Been using Firefox for 10+ years (mainly started to bwcauze 60 fps videos lagged my laptop back in the day, and moved to fire fox because it didn't supprt those yet), and yeah, the thing is just gooood.\n\nAlso using it on mobile with the ublock origin extension, so i never had to worry about adds on mobile too.",
+                                            "score": 5,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "rickane58",
+                                            "body": "uBlock origin works fine on chrome with manifest v3...",
+                                            "score": -6,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Gyossaits",
+                                            "body": "A *neutered* uBlock Origin works on Manifest v3. The fully working uBO is off Chromium browsers.",
+                                            "score": 9,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "ES-Flinter",
+                            "body": "I was always too lazy to do this, but now, after testing this one out.\n\nI've easily wasted 1 minute per article to load all needed informations and now it's basically instantly.",
+                            "score": 14,
+                            "replies": []
+                        },
+                        {
+                            "author": "pres1033",
+                            "body": "Same! I was trying to read 40k lore tidbits and the ads would force scroll me up the page and block entire paragraphs with tiny exit buttons. Immediately installed an adblocker. \n\nI'm fine with ads, but when the ads prevent me from even using your site, that site is now dead to me.",
+                            "score": 10,
+                            "replies": []
+                        },
+                        {
+                            "author": "ALph4CRO",
+                            "body": "Wait, the site had ads?? \ud83d\ude02\nI've been using ad blockers for so long, I guess \ud83d\ude02",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "naufalap",
+                            "body": "I remember putting custom commands for the first time in ublock just to block their autoplaying video\n\nthankfully it has been fixed long ago",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "A_terrible_musician",
+                    "body": "If you do ever have to use fandom again, insert anti in the url before fandom (so antifandom), and any page will redirect to an ad-less mirror of the same page.",
+                    "score": 38,
+                    "replies": [
+                        {
+                            "author": "norbajusz",
+                            "body": "This should be common knowledge wtf",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Sabatat-",
+                                    "body": "I just use ad block so I don\u2019t have to think about it",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Chiatroll",
+                    "body": "Yeah. I can finally look things up on my phone without an ad taking up 95% of the screen.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "TheOnlyFallenCookie",
+                    "body": "I'm just sad that all my bookmarks with antifandom.com wiki are useless now :c",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "starkformachines",
+                    "body": "This is what Path of Exile did too, right?",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Keensworth",
+                    "body": "I thought the fandom was good, but I don't care if they got a new site",
+                    "score": -59,
+                    "replies": []
+                },
+                {
+                    "author": "zeDragonESSNCE",
+                    "body": "Fandom is good enough on PC, but god forbid if I want to close a fucking video ad that take up half my screen on mobile",
+                    "score": 89,
+                    "replies": []
+                },
+                {
+                    "author": "Keensworth",
+                    "body": "Ok, not sure why I downvoted for that though",
+                    "score": -38,
+                    "replies": []
+                },
+                {
+                    "author": "-n-k-",
+                    "body": "Because fandom is terrible and everyone hates fandom.",
+                    "score": 62,
+                    "replies": []
+                },
+                {
+                    "author": "Nebvbn",
+                    "body": "People went from downvoting only irrelevant, harmful or rude comments a decade ago, to now, where people downvote anything they don't agree with, even if it is on topic.\n\nLike come on guys, this is how you exacerbate echo chambers",
+                    "score": -22,
+                    "replies": []
+                },
+                {
+                    "author": "jjake3477",
+                    "body": "To be fair, Fandom actively attempts to monopolize entire fandom for lack of better words. They don\u2019t attempt to uphold accurate information and they have one of the worst ad models on any site.\n\nThis isn\u2019t necessarily a downvoting because the poster prefers pancakes to waffles. People downvoted because Fandom wikis as a site is predatory and engages in terrible business practices.",
+                    "score": 47,
+                    "replies": []
+                },
+                {
+                    "author": "Nebvbn",
+                    "body": "Yes I know that. I actively avoid using it because it sucks. But I'm not defending fandom, and even if I was, downvoting isn't productive. Yes, even if it's wrong. Years ago, people would just correct them and people would learn why said reason was wrong, now people just downvote them and leave. Even if there were replies, the comment is auto-closed because it was below a certain threshold and would be less likely to be shown.\n\nWhy is this bad? Well if you are less likely to see it, you are less likely to see the informative replies. A less rounded out understanding leads to misunderstandings, which is stupid as all hell.\n\nAnd I wasn't commenting just on his comment alone. I was talking about how the entirety of reddit has shifted to downvoting anything people even slightly disagree with. Every subs like that now, and it's so... Icky. So many posts the most up voted thing isn't actually factually correct, it just \"sounds right\".",
+                    "score": -4,
+                    "replies": []
+                },
+                {
+                    "author": "Liquid_Shad",
+                    "body": "They're still downvoting you lmfao, don't worry homie, I won't let these controlling freaks try to tell us what to say and do! \ud83e\udeac",
+                    "score": -2,
+                    "replies": []
+                },
+                {
+                    "author": "Firm_Conversation937",
+                    "body": "Upvoted you both solely to combat the non explainers and their down votes, carry on tenno",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Keensworth",
+                    "body": "I never saw ads since I use ublock",
+                    "score": -2,
+                    "replies": []
+                },
+                {
+                    "author": "e5x",
+                    "body": "I don't like the fandom wikis either but can you give an example of fandom as a company \"actively attempting to monopolize entire fandoms\" or examples of their predatory and terrible business practices other than putting a lot of ads on their sites and profiting from the unpaid labor of volunteer editors which is true for any wiki that runs ads or accepts donations in excess of their operating costs?",
+                    "score": -8,
+                    "replies": []
+                },
+                {
+                    "author": "Bootleg_Doomguy",
+                    "body": "They put a lot of effort into SEO to always appear at the top of search results even if far better fan wikis are available",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "e5x",
+                    "body": "That isn't predatory or monopolistic. SEO is essential for any competitive business on the web.",
+                    "score": -4,
+                    "replies": []
+                },
+                {
+                    "author": "Bootleg_Doomguy",
+                    "body": "As in they do that, and the boatload of ads over actually maintaining good wikis, as well as creating wikis for games that already have fan wikis and driving them to the bottom of search results, replacing plenty of well crafted wikis with their trash site.\n\nBottom line, their site fucking sucks and is more ads than actual info and has been for a while, Fandom doesn't give a shit about the user experience, just raking in dough and clicks at the cost of everyone else.\n\nDon't know why you're going to bat so hard for Fandom of all things, but you do you I suppose. I promise they're going to be fine, they spend the money on SEO to ensure no matter what clueless people will click them instead of good wikis for years to come, so you can sleep soundly knowing that.",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "e5x",
+                    "body": "You're right, fandom sucks and their wiki sites are unusable without an ad blocker and these are great reasons to avoid them and prop up alternative sites that aren't run by greedy corporations. We don't need fallacious arguments like calling them \"predatory\" or anti-competitive. It is possible to criticize things without making up imaginary transgressions, and calling out misinformation is not \"going to bat\" for a company. Grow up.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Bootleg_Doomguy",
+                            "body": "What else do you call ensuring they're always the number one search result even when it isn't relevant other than anti-competitive?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "e5x",
+                                    "body": "I've never had that happen so I don't call it anything. I've never seen a fandom page show up for anything that I wasn't actively searching for, which is exactly what I would expect when I search for information about a video game.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "moonra_zk",
+                    "body": "Their comment is pretty irrelevant, half of it is \"I don't care\".",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "JOSRENATO132",
+                    "body": "Yeah, downvotes are just a sign of dislike or disapproval dont act like you got insulted it is not a big deal",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "Nebvbn",
+                    "body": "Dude, I wasn't the one downvoted when I made the comment, so obviously I don't care about me getting downvoted. If I gave a single fuck, I would not point it out in the first place.\n\nWhat I do dislike is how it went from only hateful and off topic comments, to anything people disliked.\n\nLike seriously, that's how it slowly turned from a forum to... it's current state.\n\nI already made a comment why it's not good to do so, so tldr: even if the comment is wrong, as long as it is on topic you can get more info why it is wrong. Reddits design causes downvoted stuff to be less seen by everyone, so only bland, basic comments get pushed up.\n\nCan't come up with a good analogy, but I'll try. If your friend were to get a bad grade on an exam, you'd want to get the paper back to see what went wrong, instead of not seeing it at all. It's sometimes easier to understand stuff by seeing an example of doing it wrong.",
+                    "score": 0,
+                    "replies": []
+                },
+                {
+                    "author": "JOSRENATO132",
+                    "body": "Its a downvote in a social media of course it is anything you dislike. This isnt a university's philosophy forum it is a roboy game and meme sub",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "aerothan",
+                    "body": "Which web browser do you use? I've never had this issue, but I use Brave almost exclusively on mobile, but also Firefox which has many ad blocking extensions available.",
+                    "score": -2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Xamthos",
+            "body": "Good riddance Fandom, i really really miss the old Wikia man.  \n\n\nIt happened already long ago but in the spanish community it cause such an outrage, that when the obligatory change happened, i dont know how he did it but the owner of the spanish Yu Gi Oh wikia managed to change the code and pull a last \"fuck you\" to Wikia and keep the spanish Yu Gi Oh wikia with no ads and the old style too (i think it was called Monaco? idk)  until Wikia staff banned him permanently.\n\nGodspeed you beautiful bastard.",
+            "score": 853,
+            "replies": [
+                {
+                    "author": "Safaiaryu12",
+                    "body": "... I am genuinely surprised I never heard of this. I don't speak Spanish but I was deep in the Yu Gi Oh fandom and this seems like the sort of news that would have spread like wildfire. Thank you for the fandom lore, friend!",
+                    "score": 7,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Exige30499",
+            "body": "Holy shit, never thought I\u2019d see the day. Fextralife and Fandom are a plague on wikis",
+            "score": 726,
+            "replies": [
+                {
+                    "author": "XboxUser123",
+                    "body": "\u201cHow do I do \u2026 in Remnant 2?\u201d\n\nFextraLife: \u201cLol, lmao even, here take this [template] [template] [template] instead\u201d",
+                    "score": 88,
+                    "replies": [
+                        {
+                            "author": "Eatlyh",
+                            "body": "Fextralife: Isn't this a cool gun?\n\n\nRemnant 2 player: Yeah, so how do I get it?\n\n\nFextralife: Oops! This page does not exist.",
+                            "score": 19,
+                            "replies": [
+                                {
+                                    "author": "Psyduckdontgiveafuck",
+                                    "body": "Just so you know remnant has a fan wiki! https://remnant.wiki/",
+                                    "score": 7,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Psyduckdontgiveafuck",
+                            "body": "I am a bit late but remnant has a fan ran wiki! https://remnant.wiki/",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Raus-Pazazu",
+                    "body": "Fextralife started off really well, too. Now it's just the same page template with the absolute bare minimum amount filled in to show up in a search.",
+                    "score": 221,
+                    "replies": [
+                        {
+                            "author": "RTXEnabledViera",
+                            "body": "Fextralife literally and shamelessly loads up muted twitch streams on your page.",
+                            "score": 82,
+                            "replies": [
+                                {
+                                    "author": "Raus-Pazazu",
+                                    "body": "They'd get more traffic loading up Onlyfans instead, since that's really all they seem to care about.",
+                                    "score": 17,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Azure_Fang",
+                            "body": "Fextra was never good. Their \"license\" pisses all over the concept of a wiki.",
+                            "score": 150,
+                            "replies": [
+                                {
+                                    "author": "Joe579GoFkUrselfMins",
+                                    "body": "Oh, I loved the auto playing twitch channel on EVERY FUCKING WINDOW",
+                                    "score": 84,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Ridiculisk1",
+                            "body": "It's a site designed to bot twitch viewers.  They datamine games and just copy paste the content onto their site and never bother checking if it's actually correct.  It doesn't get updated or fixed in a timely manner.  It's a shit site run by shit people.",
+                            "score": 42,
+                            "replies": [
+                                {
+                                    "author": "ProneOyster",
+                                    "body": "Worse than that, they've actually reverted correct info because it was deemed worse SEO",
+                                    "score": 20,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "TechnalityPulse",
+                            "body": "Enshittification. Happens especially quickly when outsourcing work.",
+                            "score": 45,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Notsomebeans",
+                    "body": "fextra doing all they can to try to compete with the path of exile 2 wiki and trying to pretend its the same thing. very annoying. glad its not really a thing in warframe",
+                    "score": 43,
+                    "replies": []
+                },
+                {
+                    "author": "Interesting_Try8375",
+                    "body": "Fandom is terrible on mobile, especially on low spec devices. Pages crash all the time in my experience.",
+                    "score": 6,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Ninjakick666-",
+            "body": "Comments gonna migrate over in some fashion? I know a lot are out of date but there is still a load of useful information there.",
+            "score": 345,
+            "replies": [
+                {
+                    "author": "Finnstar7",
+                    "body": "The Weird Gloop team is currently working on getting comments copied over to the new wiki and estimate they should be there by next week.",
+                    "score": 440,
+                    "replies": [
+                        {
+                            "author": "ShepardXX",
+                            "body": "Thats amazing, nasty work with the migration",
+                            "score": 119,
+                            "replies": [
+                                {
+                                    "author": "t40",
+                                    "body": "all thanks to /u/cookmeplox !!",
+                                    "score": 40,
+                                    "replies": [
+                                        {
+                                            "author": "cookmeplox",
+                                            "body": "everyone else did the hard parts! I got to sit around and focus on what I do best (making bad design decisions and complaining about someone else's code)",
+                                            "score": 72,
+                                            "replies": [
+                                                {
+                                                    "author": "Depressedduke",
+                                                    "body": "I hope you enjoyed every second of that sweet complaining. Y'all did a marvellous job",
+                                                    "score": 1,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "Firm_Conversation937",
+                                                    "body": "In order to preserve the 69 likes I will comment my approval of what you do best, keep up the good work",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "Cryptographer",
+                                            "body": "I'm on a post Leagues-bender break from RS and only just picked up Warframe and to get CookMePlox and the team on board is like the craziest blessing I could imagine",
+                                            "score": 5,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "WRLD_",
+                                            "body": "shoutout cook! long standing goat",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Ralouch",
+                            "body": "Wiki editors are the hardest workers humanity has to offer",
+                            "score": 18,
+                            "replies": []
+                        },
+                        {
+                            "author": "SactownKorean",
+                            "body": "Wow that is impressive",
+                            "score": 22,
+                            "replies": []
+                        },
+                        {
+                            "author": "Sypticle",
+                            "body": "I'm sold. Was just checking out the new wiki and had a realization about the comments. \n\nGlad to see you guys are working on that. Plays a huge role imo.",
+                            "score": 7,
+                            "replies": []
+                        },
+                        {
+                            "author": "LG03",
+                            "body": ">they should be there by next week.\n\nI'm guessing this hit a speed bump of some sort.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "georgehank2nd",
+                                    "body": "A comment in another post said/claimed that the wiki software didn't have any comment system yet (and given that it's MediaWiki and that does not, last I checked, have a comment system, I believe it) and that the folks are scrambling to implement one. I guess Fandom's implementation is not freely available\u2026",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "ES-Flinter",
+                            "body": "\"Simply copy and paste\", or only choosing the relevant ones?",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "YZJay",
+                                    "body": "Choosing what comments are relevant would be significantly more time consuming than migrating every comments over.",
+                                    "score": 6,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "bonefresh",
+                            "body": "damn that is cool as shit, nice job",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "Necromancy-In-Space",
+                            "body": "This is seriously so great, and must've been a huge headache to migrate over. Thanks so much to the team for this!",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "Safaiaryu12",
+                            "body": "Thank youuuu! I noticed the missing comments and was worried they wouldn't migrate. I've learned really interesting things from them in the past, so I'm glad they're moving! \u2764\ufe0f",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "_qqq__",
+            "body": "Finally! Thank you wiki team, and thank you DE!\n\n^(Obligatory nuke fandom from orbit)",
+            "score": 337,
+            "replies": [
+                {
+                    "author": "deadeyeamtheone",
+                    "body": "What, you don't like a literal infinite number of dangerous ads, incredibly slow loading speeds, an unrelated live twitch stream on every page, and the most unintuitive and convoluted UI possible on your wiki?",
+                    "score": 186,
+                    "replies": [
+                        {
+                            "author": "Raus-Pazazu",
+                            "body": "Fandom is fine, once you close out the twitch stream, collapse the sidebar, collapse the lower related page, collapse the share toolbar, and close out the survey pop up box.",
+                            "score": 130,
+                            "replies": [
+                                {
+                                    "author": "jjake3477",
+                                    "body": "For about 2 seconds until you blink and they\u2019re all back and on max volume by default.",
+                                    "score": 91,
+                                    "replies": [
+                                        {
+                                            "author": "Raus-Pazazu",
+                                            "body": "I only saw it once when I forgot to reinstall blockers after reinstalling my browser. Screw that shit.",
+                                            "score": 12,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Hopeful-alt",
+                                    "body": "Fandom is fine once you close the tab",
+                                    "score": 11,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "YZJay",
+                                    "body": "I already had an Adblock on my iPhone so I was spared from the ads for the longest time, but the intrusive UI for stuff I seriously have to interest in, nor have any relevancy to the topic of the article let along the whole wiki, was just so annoying. The ublock Origin like feature to outright remove HTML objects in the webpage that came with a recent Safari update made life a tad bit more bearable. But only just so.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Physmatik",
+                                    "body": "I set up those filters in uBlock, so it's really wild to be reminded how awful the experience is for the rest.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Citronsaft",
+                            "body": "love it when I go to the search bar and the top suggestion is anime (sponsored)",
+                            "score": 15,
+                            "replies": [
+                                {
+                                    "author": "EXusiai99",
+                                    "body": "Warframe is my favorite anime fr",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Firm_Conversation937",
+                                            "body": "Every episode is better than the last",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Nexine",
+                            "body": "My favourite part is that the search function is so fucked on mobile that on my phone it makes my touch keyboard freeze. I've literally had to resort to using seperate search engines to navigate the fandom wiki before.\n\nI genuinely think they might be trying to use us to mine for bitcoin or something.",
+                            "score": 8,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "ijiolokae",
+                    "body": "I hope it ends up like the Deep Rock fandom.wiki getting vandalized so it stop showing up in search",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Nia-Teppelin",
+            "body": "Seeing Weird Gloop is a great sign, they run the Runescape wikis which are some of the best wikis out there. Incredibly awesome to see this happen",
+            "score": 150,
+            "replies": [
+                {
+                    "author": "zernoc56",
+                    "body": "Oh FUCK yes! We got the RSWiki dude helping with this?",
+                    "score": 39,
+                    "replies": [
+                        {
+                            "author": "ReganDryke",
+                            "body": "Pretty sure they have a special process for companies that wants to move out of fandom because this article seems really familiar when you compare it to [League of Legends moving their wiki](https://www.reddit.com/r/leagueoflegends/comments/1g020ub/the_league_wiki_is_leaving_fandom/) 3 months ago.",
+                            "score": 14,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "baalfrog",
+            "body": "Finally! If you have an apple mobile or a tablet device, the old wiki is useless, it has so many adds and so much clutter that you can\u2019t even read it. And fandom is a horrible site to begin with. Thank you!",
+            "score": 81,
+            "replies": [
+                {
+                    "author": "ElceeCiv",
+                    "body": "pulling a fandom site on mobile is basically like setting your battery on fire, you can actually feel it heat up from trying to handle the funnel of garbage they're pouring down your phone's throat\n\nsooooo glad they're doing this, Guild Wars did this with their wiki years ago and it was a fantastic move",
+                    "score": 27,
+                    "replies": []
+                },
+                {
+                    "author": "jaydenkieran",
+                    "body": "We're hoping that the new wiki's mobile site is very easy to use! Let us know :)",
+                    "score": 17,
+                    "replies": [
+                        {
+                            "author": "baalfrog",
+                            "body": "Omg I love it. Its so smooth! I can finally look at things and read instead of fighting intrusive adverts.",
+                            "score": 12,
+                            "replies": []
+                        },
+                        {
+                            "author": "severed13",
+                            "body": "Nah this shi mad beautiful on phone that's some good shi",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "marshaln",
+                    "body": "I'm on Android and it's barely useable",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "YZJay",
+                    "body": "iPhones have access to adblockers as well, I\u2019ve been browsing without seeing an ad there for years. It\u2019s the annoying UI for useless stuff and the horrible performance of the webpages that are excruciating to deal with.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "epikpepsi",
+            "body": "Thank fucking god. I always hated using Fandom.",
+            "score": 69,
+            "replies": []
+        },
+        {
+            "author": "KnossosTNC",
+            "body": "Hooray, no more Fandom.",
+            "score": 121,
+            "replies": []
+        },
+        {
+            "author": "phavia",
+            "body": "Godlike move, holy shit. So glad to see that dogshit Fandom bite the dust.",
+            "score": 34,
+            "replies": []
+        },
+        {
+            "author": "00zau",
+            "body": "https://www.reddit.com/r/pathofexile/comments/zeorvl/text_guide_how_to_block_the_outdated_poe_fandom/iz82vpy/\n\nI'll plug this every time a game moves off of fandom. Use the above to filter fandom wiki results from your google searches, so you'll only see the new wiki or other resources, to avoid having fandom wiki clutter up your searches and to avoid giving them clicks. This should work for warframe wiki (add to your ublock origin custom filters)\n\n    google.*##.g:has(a[href*=\"warframe.fandom.com\"])\n    google.*##a[href*=\"warframe.fandom.com\"]:upward(1)\n\nthough personally, with warframe moving off of fandom, I think I can finally make my fandom-wiki block a 'global'\n\n    google.*##.g:has(a[href*=\"fandom.com\"])\n    google.*##a[href*=\"fandom.com\"]:upward(1)\n\nas I don't think there are any games I play still using the platform.",
+            "score": 38,
+            "replies": [
+                {
+                    "author": "Moleculor",
+                    "body": "I'm lazy and use the plugin/add-on from https://getindie.wiki\n\nIt even gives me fancy little in-search notes if it's hidden a Fandom wiki, so I know my experience has been altered.",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "Ordinary_Paper2171",
+                            "body": "this is not working for me and warframe wiki does not show up in the list",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "Moleculor",
+                                    "body": "https://github.com/KevinPayravi/indie-wiki-buddy/issues/1018\n\nThey added it to their code 28 hours ago. I don't know if they need to go through a certification process with Firefox/Chrome/etc or what. It's not working (yet) for me either (yet), but it has worked great with other wikis, so I'm assuming it'll work here eventually.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "CieKite",
+                                            "body": "Hello! I saw your post last time and installed the plugin in Firefox right away. But even now that Warframe is added to their list, it doesn\u2019t work for me. I\u2019ve given all authorizations to the plugin, chosen to redirect everything to indie wikis, and pushed them to the top of the search lists. However, I still have the Fandom one as the first suggested result, and I\u2019m not redirected when clicking on it. I don\u2019t even have the banner meant to indicate that the other wiki exists :S",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Moleculor",
+                                                    "body": "It sounds like you may have your settings for the addon incorrect, or some other addon conflict in your browser.\n\nWhen I search for `warframe serration`, the addon works perfectly, providing me with either a warning about hiding Fandom results (if I've chosen that) OR [a button to search for the same thing on Warframe's wiki](https://imgur.com/a/NLnS8Bo).",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "CieKite",
+                                                            "body": "FFS I'm so dumb\u2026 I didn't notice the \"power-switch\" button at the top wasn't green xD\n\nIt works x)",
+                                                            "score": 2,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "TheSpartyn",
+                            "body": "oh this is a nice improvement over my current one which only redirects to wiki.gg. i assume it hasnt been updated with the new warframe wiki yet?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Moleculor",
+                                    "body": "[They've got it in the chamber, ready for an upcoming release.](https://github.com/KevinPayravi/indie-wiki-buddy/issues/1018)",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "TheSpartyn",
+                                            "body": "damn same day update, great plugin",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "survfate",
+                                                    "body": "hey I made a real simple userscript redirector until the extension pick up the new wiki, if you want to start using the new wiki now feel free to check it out https://gist.github.com/survfate/3953c3b6a8a8fc5b46768bdb37177a03",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "datstereobear",
+                    "body": "I'm using Redirector extension (https://einaregilsson.com/redirector/) instead as well as search keywords to either use the wiki search directly or do a site:wiki.warframe.com search (to let google know the site exists).",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "craidie",
+                    "body": "How do I alter this for an another search engine? (specifically duck.com)",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "00zau",
+                            "body": "It appears that you can replace 'google' in the above snippets and it'll still work.\n\n    duckduckgo.*##.g:has(a[href*=\"warframe.fandom.com\"])\n    duckduckgo.*##a[href*=\"warframe.fandom.com\"]:upward(1)\n\nworked; searching 'warframe nyx' got the fandom page as the first result, adding the filter and re-searching the fandom result was gone.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Drasius_Rift",
+                    "body": "> add to your ublock origin custom filters\n\nThanks mate, was about to go searching for this, you've saved me a lot of time.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "Kennkra",
+                    "body": "this needs to be higher.\n\nClick ublock origin -> Gears -> My Filters -> Copy paste OP Filters\n\n    google.*##.g:has(a[href*=\"warframe.fandom.com\"]) \n\n    google.*##a[href*=\"warframe.fandom.com\"]:upward(1)\n\nYou can change \"google\" with any search engine (duckduckgo, bing, yahoo, altavista)",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "BECondensateSnake",
+                    "body": "Anything like this for mobile?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "00zau",
+                            "body": "I use firefox + ublock on my phone, and I just tested and it works there (though it took a fraction of a second; the fandom-wiki result showed up momentarily before the filter removed it)",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "BECondensateSnake",
+                                    "body": "Departing from Chrome on mobile is gonna be a rough switch, I hope that the search engine picks up the new wiki fast",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "TheySaidGetAnAlt",
+                    "body": "Alternatively, there is also Breezewiki's [Antifandom](https://antifandom.com/)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "marenello1159",
+            "body": "super glad that the wiki is finally moving off of fandom (good riddance) and getting hosted on the official site",
+            "score": 44,
+            "replies": []
+        },
+        {
+            "author": "SuperTaakot",
+            "body": "May Fandom crash and burn, best of wishes to everyone on the new site \u2764\ufe0f",
+            "score": 22,
+            "replies": []
+        },
+        {
+            "author": "junkyarddogmk2",
+            "body": "Congratulations on the fork!! The new layout is beautiful; it reads very cleanly and, best of all, my poor little computer doesn't throw up loading it in. Absolutely ecstatic about not having to use Fandom anymore to look things up.\n\nBest of luck surpassing Fandom in SEO\ud83d\udd25",
+            "score": 20,
+            "replies": []
+        },
+        {
+            "author": "ElceeCiv",
+            "body": "Extremely common DE W. \n\nThank you guys, this is fucking excellent.",
+            "score": 18,
+            "replies": []
+        },
+        {
+            "author": "tommadness",
+            "body": "Hell yeah, my phone screen is no longer 50% ads.",
+            "score": 17,
+            "replies": []
+        },
+        {
+            "author": "RobleViejo",
+            "body": "Does this mean the Warframe Wiki will FINALLY be added in-game? \n\nIve said this a lot of times to new players: Without the Wiki you can not get into Warframe. Having the Wiki in-game, in a similar fashion to the News Tab (you click on it and get redirected to the website in your browser) would be HUGE!",
+            "score": 15,
+            "replies": [
+                {
+                    "author": "Reelix",
+                    "body": "In Guild Wars 2, you have `/wiki whatever` as an in-game command which then opens up the specific page in the wiki.  \n  \nHere's hoping it comes to Warframe :)",
+                    "score": 11,
+                    "replies": [
+                        {
+                            "author": "Riot_Inducer",
+                            "body": "As a GW2 player I am so excited at the thought of a similar /wiki command coming to warframe.\n\n\n\u00a0It cannot be overstated how much QoL it brings being able to search the wiki directly from the game. Also it will help ensure more players wind up at the new wiki instead of fandom.",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Virtual_Shadow",
+                    "body": "for steam players you can have a browser in steam overlay and shift+tab to open the overlay quickly. \nfor console, i think your best bet is a device next to you until this does get in-game support. \n\ni\u2019d personally be a fan of a pause menu addon",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "yarl5000",
+            "body": "HELL YEAH",
+            "score": 15,
+            "replies": []
+        },
+        {
+            "author": "Kiyodai",
+            "body": "This is awesome news. The wiki is an indispensable resource, and I'm delighted to have it migrated to a site with less cancerous ads.",
+            "score": 14,
+            "replies": []
+        },
+        {
+            "author": "Dreamwalk3r",
+            "body": "Hell yeah. Even wikigg would be a nice move, but official site link is even better.",
+            "score": 14,
+            "replies": []
+        },
+        {
+            "author": "CallumRival92",
+            "body": "This is some of the best news I\u2019ve heard regarding this game!\n\nFandom is such a plague of a website to use on anything other than PC. I can\u2019t wait to be able to look up things smoothly when I think about them out and about.",
+            "score": 14,
+            "replies": []
+        },
+        {
+            "author": "-haven",
+            "body": "> We will attempt to post announcements and notices on the old Fandom wiki to let readers and editors know about the move. \n\nHonestly good luck with that without fandom straight up removing those updates.\n\nBut on the upside HELL YEAH!\n\nAlso we totally need the mods to add the new wiki link to the sub official resource section now!\n\nFor anyone else, go to your preferred browser and set a custom search for the new wiki. You can easily set a simple keyword to type into your url bar for quick direct wiki search access. For me I set it as **wf** and all I do it his tab to start typing my search query.  \n\nChrome (*Site Search*) - https://support.google.com/chrome/answer/95426\n\nFirefox - https://support.mozilla.org/en-US/kb/add-or-remove-search-engine-firefox",
+            "score": 14,
+            "replies": [
+                {
+                    "author": "Derpogama",
+                    "body": "Yeah aren't the Fandom people fucking notorious for refusing to let an unsupported wiki die even if the developers have refused it backing because deleting it would mean they lose out on SEO? Also IIRC with the Runescape fandom wiki, they also tried to post numerous times to redirect to the new wiki but fandom, like you said, outright deleted any notices of the sort.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "Key-Boat-7519",
+                            "body": "Been there, done that with stubborn platforms\u2014it's like trying to convince a cat to accept a new litter box. When I saw RuneScape\u2019s fandom nonsense, it was like watching a soap opera. For your new wiki\u2019s search visibility, try boosting engagement with tools like Pulse for Reddit and Indie Wiki Buddy. They're like a handy toolbox on a game night for Reddit and browsers.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "Derpogama",
+                                    "body": "I think the only thing that really would get a wiki deleted is if DE themselves sued Fandom for using their IP without their permission but that's like the nuclear option on DEs part,",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Archipotrio",
+            "body": "The evil is defeated",
+            "score": 25,
+            "replies": []
+        },
+        {
+            "author": "Davajita",
+            "body": "Omg this is awesome.",
+            "score": 11,
+            "replies": []
+        },
+        {
+            "author": "brakenbonez",
+            "body": "Just visited it and it is significantly faster and smother.  Massive W!",
+            "score": 9,
+            "replies": []
+        },
+        {
+            "author": "Foreign_Piren",
+            "body": "Fabulous! Amazing news!",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "flash_baxx",
+            "body": "Thank you so much for your hard work to provide us with the best wiki experience you can offer \u2665",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "Elspin",
+            "body": "Fandom needs to die ASAP, it's absolutely unusable on mobile devices due to the sheer volume of fuckery from the ads",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "rascal6543",
+            "body": "Hell yeah, I never have to use fandom again",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "matthewami",
+            "body": "Huge massive w. Wikia hasn't been the same since they changed hands to grifters and robbers. \n\nSeriously this is massive, massive, massive.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "Fascistznik",
+            "body": "I never knew how much fandom brought the browsing experience down until now cause I always had adblock. It's so much faster, so much prettier without all that tumorous weight. Thanks for all the hard work!",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "thefullm0nty",
+            "body": "This is way too hype let's gooooooooooo",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "verdutre",
+            "body": "Good move, must have been complicated extricating yourself from that filth",
+            "score": 9,
+            "replies": []
+        },
+        {
+            "author": "Jreynold",
+            "body": "Tears in my eyes. I never thought I'd see the day.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "LiYBeL",
+            "body": "Omg thank you",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Dr_Ben",
+            "body": "Damn this is so nice to see!",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "zernoc56",
+            "body": "OH THANK THE VOID! *FINALLY!*",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "steelywing",
+            "body": "Will it support multi language?",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Erlking_Heathcliff",
+            "body": "its amazing that the fandom wiki stood this long without griefs",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "decitronal",
+                    "body": "It wasn't worth griefing yet since it was, at the time, still the best encyclopedia on Warframe no matter how anti-user Fandom was. It's much easier to grief now that DE and the wiki staff are putting all their eggs on the Weird Gloop wiki, although this is incredibly unproductive to do since Fandom's SOAP teams will clean up the messes anyway, and any edit on Fandom will nudge the it up in the search results",
+                    "score": 13,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "DuckTapeAI",
+            "body": "Amazing! Great move, thank you for all your hard work.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Avrael_Asgard",
+            "body": "Most unexpected but welcome start of the year for the game imo, huge W.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "DragonMSword",
+            "body": "Good change",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Galactic_Danger",
+            "body": "Finally. Maybe I can actually use this one on mobile.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "HoshiHanataba",
+            "body": "PRAISE BE",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Skivvy_Roll",
+            "body": "# YES!\n\nI've been waiting for this move for so long",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Fitmit_12",
+            "body": "Time to be prepared for posrs of people asking why stuff is outdated/wrong on the fandom wiki that don't know about the move, but glad it's finally been done :p",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "BardMessenger24",
+            "body": "Finally. Good god, that site was so bloated.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Swift0sword",
+            "body": "FINALLY",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "JustLeafy2003",
+            "body": "Congrats!",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "TheOldDrunkGoat",
+            "body": "Long overdue, but much better late than never. Good on DE.\n\nAnd to the wiki team, thanks for everything you do.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "TempestM",
+            "body": "Are other languages going to be ported?",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "A_terrible_musician",
+            "body": "Great move! Getting Fandom to delete anything is a major PITA and they normally refuse. Fandom sucks.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "El_Barto_227",
+                    "body": "Theoretically DE might be able to DMCA them\n\nIt probably wouldn't be worth the effort realistically.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "King_Artis",
+            "body": "I wish everything would move from fandom and its god awfulness.\n\nJust so much I dislike about that site",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Expain7",
+            "body": "Good riddance",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "MrMeltJr",
+            "body": "Thanks for the wiki buddy extension, first time I've heard of it. I was running 6 different add ons for different wiki redirects lol",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Orange-Concentrate78",
+            "body": "Fandom so ass, W move",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "ObesiusPlays",
+            "body": "I find amazing Fandom is still going is absolutely the worse website for info, i find it so amusing that so many wikis are hosted there, it autoplays shitty videos that usually got nothing to do with the topic, it will slowly load anything, and it most likely will not have any compatibility with mobile google for quick sharing reference images on group chats.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Derpogama",
+                    "body": "The reason most wikis are still hosted there is because fandom bought out a shitload of older wiki sites and just converted them to Fandom and they then try to put a stranglehold on things via SEO optimization. For example the WH40k Lexicanum has been around for years and is regularly updated, whilst the fandom wiki basically *stole* all the content from Lexicanum and via SEO manipulation now comes out as a higher result on google, despite the Lexicanum being the better wiki.\n\nIt's the same with the Darkest Dungeon, Ultrakill and several others who have forked off into their own wikis, ditching the fandom one.",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "FrozenPlan",
+            "body": "Hey, if any official person on the Warframe wants to, you can actually send a DMCA takedown request to Fandom to take down the wiki as they may be using your intellectual property without your permission. The wiki.gg discord has more info on this type of thing.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "asdf3011",
+                    "body": "Please DE do this, I have already ended up clicking into the Fandom wiki even with the new one as the new one is either under the Fandom wiki or does not even show up.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "jaydenkieran",
+                            "body": "The new one only launched today! Google takes some time to scrape and determine search rankings, so we\u2019ll have a much better idea of how it is performing in a couple of weeks :)",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Minhs2",
+            "body": "This is precisely what I've been dreaming of for months now, this makes me extremely happy!\n\nI guess the biggest question I have is if data from the third party website [Warframe Market](https://warframe.market/) belongs on the website. A large benefit of the RS3 and OSRS wikis is that market prices and history are easily accessible in the same place as other information about the item.\n\nHowever, in those games, the prices are based on the in game market. Warframe doesn't have anything like the Grand Exchange, but even as a 3rd party website not associated with DE, WF.market is generally considered as *the* trading hub like what Zybez was for Runescape before the Grand Exchange. I would understand the plethora of reasons why a 3rd party resource shouldn't be belong on a wiki. I would also expect process of getting continuous permission from the folks behind WF.market could be an issue, though I definitely think it could be something that is mutually beneficial.\n\nThat being said, if something like that is in the works I definitely would like to help. I am comfortable working with the WF.market API and used to love making contributions to the OSRS wiki when I played the game.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Mors_Umbra",
+            "body": "Hallelujah! Down with fandom.\n\nedit: Interesting browser addon, been after something like that for a long time... Configured it to hide fandom search results & redirect to proper wikis.... Aaand fandom still comes top of the search results and links arent redirected.\n\nOh well, one can dream...\n\nedit2: Ah, it doesn't appear to support the warframe wiki yet.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "TheySaidGetAnAlt",
+            "body": "Fandom can burn. Thanks a lot.\n\n  \nEdit: I wonder if DE could DMCA Fandom for all the content that remains there considering it is all protected resources from the game?",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "anotherrandomuserna",
+            "body": "This is awesome to see.\n\n\nLong term, how is the new wiki financed? Is DE picking up the tab for hosting?",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "Finnstar7",
+                    "body": "Yes, DE was generous enough to cover operating and hosting costs for the Warframe Wiki on Weird Gloop.",
+                    "score": 24,
+                    "replies": [
+                        {
+                            "author": "ANN0Y1NG1",
+                            "body": "Common DE W, goddamn.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "TensileStr3ngth",
+            "body": "God Fandom sucks so much",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Professional-Date378",
+            "body": "Hell yeah, hate fandom wikis",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Psychoray",
+            "body": "You're kidding me! That's better than all the stuff I've heard on the devstream as of yet (and a lot of the things on the devstream are great).\n\nThank you wiki team and all other contributors!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Reirai13",
+            "body": "yes! league recently did this and it's been such a blessing",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "artornia",
+            "body": "Sweet mango jam, thats awesome, happy with this, and thank you all for the work",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "anarky98",
+            "body": "Absolute Win",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Mamba8460",
+            "body": "Cool",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Hamartificer",
+            "body": "thank the 7 i hated fandom so much",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "TheRealOvenCake",
+            "body": "Happy to move if only to stick it to fandom",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Larkshade",
+            "body": "YAY",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "keithlimreddit",
+            "body": "I'm happy that we're moving from fandom to weird gloop",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "SyStEm0v3r1dE",
+            "body": "It\u2019s moving from fandom thank goodness!! Happy days.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Farwaters",
+            "body": "yessss",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "GimpyGeek",
+            "body": "Neat to see, however, admins I dunno if you can alter this enough to make it happen or if you can get DE to it do but I highly recommend that you get OpenSearch implemented, this is especially good for people until Google updates search results.\n\nOpenSearch, let's people add the search from a website to their browser's search engine list, and in the case of Firefox for me for example I have a keyword set that will force a search via a certain place instead of going through something like Google first. In the case of chrome it's usually more of a, type the site name in then hit tab and it lets you search directly from that site's search instead of going through google.\n\nI can't stress enough how useful this is on wikis you can use a lot as an ongoing online game player, and until google catches wind of what's going on with the new wiki this is a great way to not deal with them. Not sure how many people use it, though if advertised well they might.\n\nImplementing this should be fairly simple, but I don't know if the wiki admins not at DE have the power to do it. It should start with a simple element in the front page html, but there's a url in it that goes to an xml file elsewhere with a few more lines of data and I don't know if public admins can make a generic file there to handle it. All in all though implementing this is like, 5 or 6 lines of html I think.\n\nEdit: Noticing this is in the source code already huh, doesn't seem to actually work though for Firefox that's weird.\n\nEdit #2: Figured it out if this feature does interest you, here was the Firefox issue: The site name for the new and old one are the same, if one is added already it doesn't show you the add button, so it thought it was already there, so had to remove the Fandom one first.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "jaydenkieran",
+                    "body": "This is definitely supported already!\n\n> Edit: Noticing this is in the source code already huh, doesn't seem to actually work though that's weird\n\nDo you have the old Fandom wiki search engine installed to your browser already? I think because they're using the same name, you must remove that one first. :)",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "GimpyGeek",
+                            "body": "Ahh I see you caught it about when I edited my post too! Yeah who knew! Apparently a naming conflict blocks it, hmm Mozilla should probably fix that lol",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "xKnicklichtjedi",
+                    "body": "I have it as a search bookmark in Firefox.\n\nTyping \"warw <search terms>\" into my address bar automatically searches the new wiki.\n\n> You can do this with Firefox! Add a bookmark with that URL, where %s is the search query, then simply set a keyword for the bookmark. \nhttps://superuser.com/questions/7327/how-to-add-a-custom-search-engine-to-firefox#7374\n\nWhere my keyword is \"warw\" and my search url is \"https://wiki.warframe.com/?search=%s\".",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Mattarias",
+            "body": "Oh thank you so much",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "LunaticPower",
+            "body": "Fantastic move. Good riddance, Fandom.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "lawszepie",
+            "body": "Rest in piss Fandom, this is fucking great.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "cu-decurioso",
+            "body": "Thank you so much, I really hated needing to use the wiki on my phone since I play on Xbox, I can't express how happy I am",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "brash",
+            "body": "HUZZAH!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Aimela",
+            "body": "Nice, I've been waiting for this",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Shaikan_ITA",
+            "body": "Finally! This is incredible",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "splashtext",
+            "body": "Adios fandom",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "_RexDart",
+            "body": "HOLY FUCK-A-MOLEY",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "boywithearing",
+            "body": "Wooo! I was wondering why we were still on fandom",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Filleis",
+            "body": "BASED BASED BASED BASED",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "cycopl",
+            "body": "Oh man, I picked a good time to start playing Warframe it looks like.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "SirCalzone42",
+            "body": "Hell yes! Can't wait to migrate all my active wiki tabs tonight!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Fellarm",
+            "body": "Dope\u00b2",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ComPakk",
+            "body": "Amazing news. League migrated not too long ago and its so much better.\nGood riddance I wont miss fandom.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "SundayLeagueHooligan",
+            "body": "Thank god for that, Fandom is atrocious and at this point is borderline adware",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "meta-rdt",
+            "body": "HUGE!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "PigeonsOnYourBalcony",
+            "body": "Fandom is basically unusable on mobile, between all the ads you have maybe a third of the screen to actually read anything. Absolutely amazing to hear this, keep up the good work!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "mranonymous24690",
+            "body": "LETS FUCKING GOOOOOOOOOOOOO",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "M00n_Slippers",
+            "body": "Thank you, wiki team and contributors, for your work. Maybe I'll actually be able to look at the wiki on my phone now without ten million ads popping up.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "MrChangg",
+            "body": "There is a God.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "This was needed, and is very much appreciated.\n\nKudos to everyone involved.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ArgentinianJayceMain",
+            "body": "This is amazing, many thanks",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "srtdemon2018",
+            "body": "LETS GOOOOOOOO I WILL BE DONATING IF I CAN THIS IS PEAK",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "AlliedArmour",
+            "body": "Oh my god this is amazing. Thank you to all the volunteers who work on the wiki, and to DE staff. THIS IS HUGE!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Pretzel-Kingg",
+            "body": "Oh sick fuck Fandom is such an annoying website",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Acetaminofiend",
+            "body": "THIS IS THE BEST NEWS!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "SevenOhSevenOhSeven",
+            "body": "Jesus Christ finally",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "spiderman596102",
+            "body": "Years starting out nicely",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "The_Daniel_Sg",
+            "body": "AMAZING NEWS!!! THANK YOU FOR YOUR HARD WORK AND EFFORT.\n\nGenuinely anything is better than fandom, this is the best news I've got all day.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "roadrunner357",
+            "body": "This is amazing news. Great job, everyone involved \ud83e\udd0d",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "silentsixth",
+            "body": "Thanks DE!\n\nOn the first glance it looks weird, but thats probably because even with adblocker all these trash sidebars take over half of screen space on fandom wiki (plus while comparing Vauban pages I've noticed how I've subconsciouslly ignored so much blank space, again due to layout issues cause of actual contents of the page have to fit in less than half of screen width). Honestly, just because new wiki has so much more content per screen real estate I love it.\n\n(Also in search bar each frame is displayed as Ash rn)",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Erasculio",
+            "body": "Amazing news.\n\nI am going to miss the comments, though. While of course there were a few pages with trash comments (as anywhere else on the internet), often there would be interesting tips or other useful insights in the user comments at the bottom of each article. Those appear to be gone on the new wiki.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Finnstar7",
+                    "body": "They are gone at the moment, however the Weird Gloop team is working hard on installing a commenting system and then copying over all the comments from the old wiki to the new one. They estimate this process should be complete by next week, so stay tuned.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "georgehank2nd",
+                            "body": "Note to self: don't trust Weird Gloop estimates :D",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "SunnyBloop",
+            "body": "Pog! Now we just need in game integration like RS3 has in chat and that's gonna go A LONG way to making the new player experience feel so much better!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "gcr1897",
+            "body": "This is amazing!\n\nhttps://preview.redd.it/ezglnyjd6ege1.jpeg?width=1290&format=pjpg&auto=webp&s=2513cbaf7b2497871e35d9159f2a8a6f2d70df7a\n\nA few optimizations for mobile are in order but I\u2019m really excited to embrace this new journey!",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Mudscape",
+                    "body": "Hey, thanks for the report. I've fixed the issue you were having on mobile!",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "gcr1897",
+                            "body": "You\u2019re welcome, and thanks to you! I\u2019m pretty sure there\u2019s still a lot to be done and it can be overwhelming for you because so many reports are likely incoming but you\u2019ll all manage perfectly like you did for years! The Wiki is the backbone of WF and it\u2019s in excellent hands!",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Icy_Speech7362",
+            "body": "W",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Poundchan",
+            "body": "I'm going to miss the constant ads, unskippable videos and deprecated information on Fandom...",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Kazzot",
+            "body": "Get fucked, Fandom.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "MindwormIsleLocust",
+            "body": "Fuck Fandom, all my homies hate Fandom",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "AshenTao",
+            "body": "Can crawlers and such finally access the site to scrape data and make queries? I still want to create my own Discord bot for various purposes, but the old wiki blocked them, and the API wasn't too great thanks to Fandom.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Finnstar7",
+                    "body": "There should be less restriction in that regard. The new wiki is currently using the Semantic MediaWiki extension which should make querying articles and such easier for you all.\n\nSo yes, use the MediaWiki API to your heart's content. Although it would be nice if you used a descriptive user agent with an email, Discord handle, etc, so WG can contact you if your usage ends up being a problem for some reason.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Kennkra",
+            "body": "SEO is a bitch to change tho; I Just google \"primed sure footed warframe\" to see if I get any wiki.warframe results and I'm not getting any even on the 6th page. Bing shows \"Sure footed\" as the second result and duckduckgo as the 6th. This change is gonna take a bit if you guys are unable to delete fandom articles.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "jaydenkieran",
+                    "body": "The wiki only launched a few hours ago, and Google takes days to complete even an initial scrape of the wiki. We're pretty confident that in a few weeks from now, the new wiki will be showing prominently for most searches :)",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "Kennkra",
+                            "body": "Thats great news!",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Key-Boat-7519",
+                    "body": "SEO can be tricky for sure. Transitioning from one platform to another takes time, and Google can be slow to adjust. Still, there are ways to help boost visibility. For instance, tweaking keyword strategies or trying tools like Ahrefs for monitoring. I've used Semrush and even Pulse for Reddit to engage in relevant discussions, which can naturally boost SEO over time. Here's hoping things shift soon!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "AvatarOfMomus",
+            "body": "Oh thank fsk! Fandom literally bugs out right now with some ad bloclers, I've had it outright freeze with or without ad blocking, and having any tabs open makes my very beefy workstation run noticeably worse (probably hogging cpu 1 to refresh and play ads).\n\nIt's like one step away from being malware at this point.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "RedactedSpatula",
+            "body": "WEIRD GLOOP WEIRD GLOOP \n\nOsrs player here, just saw your post and am proud",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "survfate",
+            "body": "Okay anyone have browser extension to auto redirect the fandom one to this one yet? I tried Indie Wiki Buddy and its didnt have the new Wiki listed yet\n\nEDIT2: made a simple userscript myself, feel free to use this if you want (this is for Tampermonkey)\n\n>https://gist.github.com/survfate/3953c3b6a8a8fc5b46768bdb37177a03\n\nOne click install URL:\n>https://gist.github.com/survfate/3953c3b6a8a8fc5b46768bdb37177a03/raw/4abde734611a8fb7ae158bdda8045b045facc37e/warframeREALwiki.user.js",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "tantananantanan",
+                    "body": "It takes a while for indie wiki buddy to update their list but they'll eventually put the wf wiki there.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "survfate",
+                            "body": "yeah I'm aware, I just use this until it got updated",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "xKnicklichtjedi",
+            "body": "Yippie! \n\nFor me personally one of the best news of the entire Dev Stream!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "yoriaiko",
+            "body": "yes yes yes yes yes yes yes YES YES YES YES YES YES YES YES YES YES YES fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffYYYYYYYYYYYEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEESSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11111111111111111111111111111 ONEONEONEONEELEVEN11!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Kraosdada",
+            "body": "Finally. Fandom has decayed so badly that I think our wiki was one of the few big ones left.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "lillildipsy",
+            "body": "damn, love seeing that y\u2019all chose Weird Gloop, its genuinely the best wiki host out there (coming from experience as a long time runescape player)",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Melanholic7",
+            "body": "Fuck... I stopped playing Warframe for like 4 years or so. But those news are amazing and in really happy about this.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "lDWchanJRl",
+            "body": "Thank ORDIS.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "troutat",
+            "body": "Just got sucked into this amazing game, this is amazing news from an amazing community!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "BerryFilledEggs",
+            "body": "THANK THE GODS!!! FUCK FANDOM LMAO",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "VicCoca123",
+            "body": "Now my laptop doesn't want to kill itself when I open the wiki while on a mission! Hooray!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ManguitoDePlastico",
+            "body": "Massive W for the community. Special thanks to everyone who was involved in making this move possible. The less traffic fandom gets the better!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Gfdbobthe3",
+            "body": "> You will find that Google search results will still link to Fandom for a while. In such cases we recommend using the Indie Wiki Buddy extension (available for most Chromium and Mozilla browsers) which will detect if Fandom links have corresponding wiki.warframe.com links and use those instead. This will be a huge help to us for getting the new wiki up above Fandom in Google's search results, so please consider using it.\n\nI just installed the extension and see no option for the new warframe wiki. Can I fix this or do I just need to wait?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Finnstar7",
+                    "body": "Hmm, according to the IWB repo the change to support Warframe was comitted several hours ago. But it's possible the update hasn't made it to the storefront quite yet; maybe getting held back by Chrome/Mozilla verification processes.\n\nLet us know if you see this problem persist tomorrow as well. If so we will try to work a bit with the extension devs to figure things out. Thanks!",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Gfdbobthe3",
+                            "body": "To be fair, I have no idea if I'm using this properly. But, [when I search](https://imgur.com/a/uRkLY43) for \"Warframe\" nothing shows up.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "dansedemorte",
+            "body": "i've hated how fandom took over many good wikis.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "Huge W! Thank you all for making it happen!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Nukaframe",
+            "body": "LETSGOOOOO I HATE THE FANDOM LAYOUT OMG",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Exact_Depth_1320",
+            "body": "spoiling us with many qol\u2019s today",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Misicks0349",
+            "body": "holy fucking shit THANK YOU",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "trolledwolf",
+            "body": "Oh my god yes, all the wikis i'm using are moving from that god awful site, immense W.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "CrazyFanFicFan",
+            "body": "Huzzah! Now we can finally tell newbies to go to an actually decent wiki.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ThatBeeGuy12",
+            "body": "YEEEEEEEEEEEEEES",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Witty_Championship85",
+            "body": "YESSSS",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "orestesma",
+            "body": "Hell to the yeah",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Autumm_550",
+            "body": "Finally",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Brainfeed9000",
+            "body": "THANK YOU",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "idealys",
+            "body": "Based, another L for Fandom as usual",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "Thank fucking god",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "KorvasDev",
+            "body": "Thank god",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "anonkebab",
+            "body": "thank god",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "smellywizard",
+            "body": "Awesome! I tried reaching out to Weird Gloop a month or so ago about working with their system to make a wiki for Hunt Showdown, but they never got back to me. Any advice would be great!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Panzerknaben",
+            "body": "Great move. The fandom wiki was painful to use",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Z0EBZ",
+            "body": "From Terraria Calamity, I learned fandom wiki is garbage, and how so many other games are in the same boat. Glad to hear the change!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "NBSgamesAT",
+            "body": "Tiny note about Indie Wiki Buddy: The update that includes the warframe wiki has not been made public to either chrome or firefox. Tho I am pretty sure it will be released in the coming days.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Brainfeed9000",
+            "body": "1. Download uBlock  \n2. Go to dashboard/My Filters  \n3. Add to the bottom:  \n`google.*##.g:has(a[href*=\"warframe.fandom.com\"])`  \n`google.*##a[href*=\"warframe.fandom.com\"]:upward(1)`",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "One_Reference4733",
+            "body": "Thank God",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Oddveig37",
+            "body": "I hate fandom with a passion. If I have to look anything up and I can only get fandom links I just stop looking and drop the subject. I hate it. Doesn't load, ads everywhere blocking shit, and the few times ads just... Open to their website. \n\nGod move.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Shade0X",
+            "body": "i never understood the fandom hate until i turned off my ad-blocker to check it out.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "theactualwhomst_",
+            "body": "I\u2019m out of the loop, can someone tell me why fandom is such a bad site? aside from the ads? served me pretty well the past few years",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "decitronal",
+                    "body": "\\- There's more ways than ads that Fandom can be extremely intrusive to the reading experience, like adding AI-generated quizzes or poorly-produced videos in-between article sections\n\n\\- Aggressive data tracking - this is part of the reason why Fandom sometimes asks if you're a child or an adult\n\n\\- Corporate meddling can very easily overrule decisions of the a wiki's actual staff and community - the most famous case of this was the Grimace Shake incident in the McDonald's wiki, where many pages were overwritten with ads for the product. \n\nThe last point was the one that broke the straw and really cemented the need to fork for many wikis. If it wasn't clear before, then this removed all doubts that Fandom is now just a mere product, rather than a little corner of the internet full of people very passionate about the franchise they document",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "theactualwhomst_",
+                            "body": "i\u2019ve never really encountered any of those problems but evidently a lot of people have. good on DE for taking those into account, i just hope the transition is seamless and accurate and/or all info is readily available",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "decitronal",
+                                    "body": "All the information is already there, at least on the English wiki.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "czechart",
+                            "body": "Aggressive data tracking -- actually, this isn't the case. They ask you because they cannot serve targeted ads to kids. With the Fandom's structure (users going to content they are already interested in), there's very little data tracking compared to any other big website on the internet.\n\nDef. not defending fandom, but that's just a a little different",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "dwdie",
+            "body": "i wonder if we get [market.warframe.com](http://market.warframe.com) or [trade.warframe.com](http://trade.warframe.com)",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Desaltez",
+                    "body": "Probably not, Warframe devs have addressed it before and said that they have the trade chat and bazaar. \ud83d\ude44",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Valiran9",
+            "body": "Happy as I am to see the wiki leaving Fandom, I\u2019m a bit iffy on it being hosted by the official website. The two other wikis I know of that were hosted that way (*Sword of the Stars* and *EvE Online*) were eventually dropped by the developers and nearly everything on them lost. I know DE are highly unlikely to do that, but it still makes me nervous.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "decitronal",
+                    "body": "Minor correction but DE only owns the domain and supplies funding, all the actual hosting is done by Weird Gloop which is a separate company",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Valiran9",
+                            "body": "That\u2019s a relief. So long as Weird Gloop doesn\u2019t go under, at least\u2026",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Physmatik",
+            "body": "Awesome. Can you please now add light theme?",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "GlowDonk9054",
+            "body": "Fandom after realizing forcing ads and unrelated wikis into your face doesn't actually make you popular or recommended\n\nhttps://preview.redd.it/i70m1ftnkaie1.png?width=1920&format=png&auto=webp&s=82beb8c5c79a95e66878a00f47feccef5c2f837c",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "BitterCelt",
+            "body": "The waves of wikis forking from Fandom in recent years is nothing but a good thing tbh",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "mifoe",
+            "body": "It looks and feels much better, but I do miss the comments, they were often useful.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "DellSalami",
+            "body": "Wait is this hosted by DE themselves? Big if true",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Finnstar7",
+                    "body": "Weird Gloop is the new host, it is not self hosted on DE's domain. However, DE is footing the bill for us, which is great.",
+                    "score": 30,
+                    "replies": [
+                        {
+                            "author": "DellSalami",
+                            "body": "That\u2019s awesome, glad to see them stepping up!",
+                            "score": 12,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Recykill",
+            "body": "I read this backwards for a second, thinking the warframe wiki was moving to Fandom and almost shit an orokin reactor out. Good riddance to Fandom. That site gave my dog SARS.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "ArimArimWTO",
+            "body": "Best day of my life.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "samsabeeble",
+            "body": "Good job!! Very good. Glad to hear it.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Odelta",
+            "body": "This is so funny I only just started getting back into Warframe and I kept thinking how odd it was that the wiki was still stuck on Fandom, excellent timing!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "AraxTheSlayer",
+            "body": "HALLELUJAH!\n\nMods please pin this post.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Kumatora0",
+            "body": "I have heard tell that if you type \u201canti\u201d in front of fandom in the address bar it takes you to a version without any ads",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Cloud_N0ne",
+            "body": "Hell yes. Always love official wikis, they\u2019re always better than the shit Fandom has",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Bandit_Raider",
+            "body": "Tip for everyone: to avoid the old wiki popping up in google results, there is a plugin called uBlacklist that allows you to block a specific website from appearing in google search. Just put the fandom page link and there and you should only get the new wiki links.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "mikeyangelo31",
+            "body": "Massively positive change! The wiki is almost essential while playing this game and it's sooo much more usable now! Thank you!!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "synthesque",
+            "body": "This is so awesome! I\u2019ve always relied on your wiki throughout my years playing Warframe and having a better mobile version without ads is such an improvement.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Syntaire",
+            "body": "For anyone that wants to make sure they don't accidentally click on the Fandom pages while waiting for their SEO to slowly bleed out; There's an addon for both Firefox and Chrome called uBlacklist. It lets you filter out any domain you don't want appearing in your search results.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "LycanWolfGamer",
+            "body": "Very nice! Glad to see this happen :D",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ReconZ3X",
+            "body": "Thank fuck, Fandom has always been aids",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SnooChocolates4863",
+            "body": "Okay so if you guys can't delete it, is the old non-updated version just going to stay up for forever on the fandom?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Finnstar7",
+                    "body": "Unfortunately yes, at least until it receives so little traffic that Fandom decides to finally kill it. That's why we are asking you all to quickly spread the word, this will help make sure Fandom links don't show up before the new wiki in search results.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "SnooChocolates4863",
+                            "body": "Thanks for the reply. I just wanted to make sure the old site would still be up. I've got a Linux friend who uses Unlock Origin so I'm unsure if the new wiki will load for him yet. I wanted to make sure he still had access to the old wiki for awhile.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "NatsumiRin",
+            "body": "Any ETA on when a light mode/theme will be added? Dark theme is really hard on the eyes.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ostroia",
+            "body": "Amazing. I wish it was ingame also.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "RadoxFriedChicken",
+            "body": "Absolutely amazing",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Yrcrazypa",
+            "body": "Hot damn, I absolutely NEEDED some good news today, even if this is pretty small in the grand scheme of things. Very proud of y'all who are involved in this.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Seriyu",
+            "body": "oh fantastic, great to hear! Must've been a huge amount of work\n\nhonestly wonder how many large wikis are even left on fandom, though I guess the weird skeleton crews they send out to abandoned wikis might be keeping the ship afloat",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "engineeeeer7",
+            "body": "This is awesome. Fandom is awful.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MBG-BadToken",
+            "body": "rest in shit fandom",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Jason1143",
+            "body": "Thank goodness. If we are going to have a wiki instead of in game information and tutorials the wiki should at least be as good as possible and not an ad infested wasteland.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Bootleg_Doomguy",
+            "body": "Good riddance Fandom, will not be missed.\n\nThat aside, this is amazing! Reminds me of when Terraria got an official wiki, good stuff.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Guildebert",
+            "body": "Daaaamn luv that. The osrs Wiki is SOOOO good. \nCan\u2019t wait to",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Bonesaw473",
+            "body": "Thank GOD, I\u2019ll never enjoy having to use Fandom for as long as I live\u2026",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Shannontheranga",
+            "body": "Thank you!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "grevenilvec75",
+            "body": "If there are no ads, who is paying for it?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Finnstar7",
+                    "body": "DE themselves are generously paying for hosting and operating costs.",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "losteye_enthusiast",
+            "body": "Hell yeah! That\u2019s incredible. \n\n\nFuck fandom\u2019s toxic layout.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Karmakakez",
+            "body": "Weird Gloop is a massive play, I use the OSRS wiki all the time and it's so much cleaner and better to navigate than any fandom wiki. Especially bc fandom has garbage ad placements.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Simphonia",
+            "body": "FINALLY, HEROES!!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "unforgiven91",
+            "body": "Nice job, going the OSRS route of breaking free from Fandom\n\nthe OSRS wiki is thriving because of it.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Alex3627ca",
+            "body": "Man I am just rolling in the good announcements today for many of my (admittedly very scatterbrained) interests. Very good shit, Fandom needs to go out of business as soon as someone's backed up all the actually important shit they've bought out over the years.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Valtremors",
+            "body": "Genuinely, thank you.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "datesboy",
+            "body": "Out of everything that possibly could have been announced today, I think this makes me the happiest. I'm not sure because I'm watching the stream now and saw in the time cards \"Wiki News\" and got so excited I had to skip ahead and jump on reddit.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "KaldarvonLupo",
+            "body": "Based move, fandom is shit",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ynead",
+            "body": "Amazing news !\n\nWill you try to transfer comments from fandom to the new wiki ? Those are really useful for farm locations,bugged interactions,etc.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Finnstar7",
+                    "body": "Yes, comments are in the proccess of being copied over. The Weird Gloop team is estimating they'll be done by next week if all goes well.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "DanCummens11",
+            "body": "FINALLY!!!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "JoeMoMo499",
+            "body": "Absolutely incredible, kudos to y\u2019all for a move that\u2019s been long awaited!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "coragdeluna",
+            "body": "Thank GOD! I hate fandom so goddamn much",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Charnerie",
+            "body": "First guilty gear, and now this. Shits going good.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "AndrewRK",
+            "body": "LET'S GOOOOOOOOOOOOOOOOOO",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Draket78",
+            "body": "LETS GOOOOOO",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MammothFollowing9754",
+            "body": "Only problem I see with this is that unless DE takes some sort of legal action against Fandom, they'll just shell out more money to keep them SEO'd to the top of search results.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "LordDeathkeeper",
+            "body": "Thank you to everyone who helped with this move. Fandom is an absolute nightmare on mobile with all its stupid ads and bad mobile formatting. Checked the new wiki on my phone and it already looks ten times better on mobile.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "wishinghand",
+            "body": "I\u2019m not even a player of Warfrsme or a peruser of the lore. I just upvoted because Fandom wikis are trash and the more wikis move away from it, the better.\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "djsoren19",
+            "body": "SO FUCKING HUGE!\n\n\nOn top of an incredible Devstream full of promise, this has been the big dream at the top of my list. Fandom can suck a bag of Grineer dicks, and I am so happy our community is finally migrating away. DE is absolute peak developer.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "goodkitty97",
+            "body": "I'm not sure how feasible this is, but I'd love to make a suggestion\n\nIn guild wars 2, you can type /wiki and enter what you want to search, or attach a link afterwards, and it'll directly pull up the wiki page for whatever you search or link. It makes the searching process super easy. I wish every game with a wiki and /commands would add it",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "VGAPixel",
+            "body": "Awesome, Fandom is just garbage to visit, I hate it there.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TxTDiamond",
+            "body": "I am already contributing by adding placeholder icons for storage containers until we get official ones \ud83e\udee1",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "romp0m81",
+            "body": "THANK FUCK",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Fl1pSide208",
+            "body": "Hopefully it starts to look better in time because it feels way too compressed and compact right now",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "killy666",
+            "body": "You'll excuse my language, but FUCK YEAH.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "HammerSmashedHeretic",
+            "body": "Shout-out osrs wiki, always makes me sad when I have to use fandom for other games",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ass0001",
+            "body": "I just started playing properly like 2-3 weeks ago and was bitching to  my friend about the wiki being so useful but stuck on fandom, your timing is impeccable!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DullAd4475",
+            "body": "LEGENDS!!!!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ShadonicX7543",
+            "body": "A bit buggy so far but I'm very glad DE is considering even details such as these. Most developers would never even bother caring about things that \"technically work\"",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ThomasMarkov",
+            "body": "Good. Fandom is fucking cancer.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Chaincat22",
+            "body": "Thank you for finally moving off that disgrace of a website.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Two_Years_Of_Semen",
+            "body": "I have never played this game but I'm here for the Fandom hate. It always baffled me that game communites moved from stuff like gamefaqs to Fandom which was just worse in every way except having pictures.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MoltonMontro",
+            "body": "Happy to see y'all finally move to a new platform. :)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "AzoreanEve",
+            "body": "I'm digging the dark blue \"legacy\" like UI",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "--NTW--",
+            "body": "Finally! One more free from the Fandom tyranny!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "goliathusthehunter",
+            "body": "That's good, fuck fandom",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Talon6230",
+            "body": "EYYYYYYYYY",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "XboxUser123",
+            "body": "It only took like\u2026 10 years. \nBut finally, fandom always lags my machine like crazy, it\u2019s the no. 1 source of lag on chrome.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "koreth",
+            "body": "Huge improvement. This is much more usable. I do wish that more of what's in the Wiki was communicated directly in the game instead, but at least now there's an officially blessed source for the information.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ekkzzo",
+            "body": "***YEEEEESSSSSS***",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "bmorecards",
+            "body": "Wow the timers section is SO nice.  It probably existed elsewhere but was hidden behind a million ads or someones discord or something.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Evowyn",
+            "body": "Is the Indie Wiki Buddy extension not working yet for the new Warframe wiki?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Arcspider",
+            "body": "A grwat move, I remember reading a thread some weeks ago, from a runescape player saying that it was weird that warframe hadn't moved away from Fandom like them.\n\nI'm super stoked for this!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "marshaln",
+            "body": "OMFG finally",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Fastjoker1780",
+            "body": "Happy about the move to weird gloop as screw fandom and their practices. I wonder though if this going to be another DRG wiki situation where the old wiki is memed to hell and back.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "youngCashRegister444",
+            "body": "I'm praying upon the Gods, that entries are up to date or accurate in general. Going through Pax arcanes and finding out that some info is considered inaccurate is not really reassuring, considering I would need 100k to make a full Arcane for Kitguns. And I need two.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "davinzt",
+            "body": "FUCK YEAH",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "redacted363",
+            "body": "thank god, fandom is borderline malware.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "WulfbyteAlpha",
+            "body": "Warframe players just keep on winning",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Baznad",
+            "body": "FUCK. YES. STAY. WINNING!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Impudenter",
+            "body": "I know absolutely nothing about Warframe, (though I guess I know where to look if I want to learn), but I'm happy for you. Fandom sucks.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "EzPzLemon_Greezy",
+            "body": "As long as the weapon comparison table is there, I'm happy.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Necessary-Egg4883",
+            "body": "Oh praise the lord, this is the best news I've gotten today. My Corinth will be pleased.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "70monocle",
+            "body": "So much good warframe news today! At least i have something to be happy for",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ANN0Y1NG1",
+            "body": "Truly the end of an era.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BehrHuggie",
+            "body": "Is there an app for Android?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Finnstar7",
+                    "body": "No, there is no app available at this time, sorry.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Fit_Adagio_7668",
+            "body": "Okay, this is soo much better than what we had!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "xcrimsonlegendx",
+            "body": "As someone who's not knowledgeable about the situation, is this that huge of a deal? I have an adblocker and have **never** had any sort of complaint about the old wiki. Or is it a technical thing, behind the scenes?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TheMD93",
+            "body": "HUGE change. Wiki looks great on both mobile and desktop. Thank you so much for your work!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "HEYitsBIGS",
+            "body": "Finally! Awesome news!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "notethecode",
+            "body": "I think that's a good move. Though if you want to help with rankings, how about changing in the subreddit all the links pointing towards the old wiki, updating them to point to the equivalent page on the new wiki?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Smooth_McDouglette",
+            "body": "Thank god",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SwordlessFish",
+            "body": "Id really been hoping something like this would happen. The fandom wiki was really buggy and frustrating to use. Glad to see we'll eventually have quality similar to the OSRS wiki.\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Joan-ze-gobbi",
+            "body": "and bookmarked instantly",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Rice_Jap808",
+            "body": "YES!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "A_Happy_Tomato",
+            "body": "Can someone make a Firefox addon that redirects you to the Warframe wiki when you click on the fandom version? Like the one they made for the Minecraft wiki?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "lordargent",
+                    "body": "I use Redirector (works well enough for simple redirects with wildcards and parameter capturing).\n\n* https://addons.mozilla.org/en-US/firefox/addon/redirector/\n\n// Originally installed it when my cable internet provider (who I pay a stupid amount of money to each month) started putting interstitial ads for their mobile service after logging in to view usage or bills.\n\n// Also use it to force reddit to redirect to 'sort by new' instead of 'relevance'.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Thelefthead",
+            "body": "https://i.redd.it/h68szynonfge1.gif",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "crackroach",
+            "body": "Yeeeeeeeeeessssss",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Roisaine",
+            "body": "Something very worth celebrating. Goodbye and good riddance, Fandom!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Vezrien",
+            "body": "Am I crazy or does Indie Wiki Buddy not yet support wiki.warframe.com?\n\nIt doesn't appear to be doing anything to replace the links for me, or to redirect me.\n\nIt's also not listed in the settings, and I also cannot find a place in the settings to add my own replacements.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Finnstar7",
+                    "body": "Hmm, according to the IWB repo the change to support Warframe was comitted several hours ago. But it's possible the update hasn't made it to the storefront quite yet; maybe getting held back by Chrome/Mozilla verification processes.\n\nLet us know if you see this problem persist tomorrow as well. If so we will try to work a bit with the extension devs to figure things out. Thanks!",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Kayvanian",
+                            "body": "IWB dev here - it's been added but is indeed pending release in the stores. Chrome is usually within 24 hours, Firefox might take a few days.",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "Vezrien",
+                            "body": "I can confirm the change was submitted 5 hours ago, but it's not released yet. I was able to get it working with the following steps:\n\n1. I downloaded the source code .zip from github\n\n2. Extracted the contents to a folder\n\n3. Renamed manifest-chromium.json to manifest.json (if you're using firefox, rename the other json instead)\n\n4. Go into browser extension settings and enable developer mode\n\n5. Select \"Load unpacked\" and specify that folder\n\nWorking great now.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Son0fgrim",
+            "body": "Will it have the locations of all the fish?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "korphd",
+                    "body": "Already has",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Son0fgrim",
+                            "body": "oh thank god i need to get that one achievment for catching all the fish.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "bwc153",
+            "body": "A tip guys for Fandom if you have to use it for other games is you can disable the ads directly through your profile.  It's really useful if you like to read wikis through Steam Overlay where adblock isn't an option.\n\nOn your profile page you have a global.css file - found here https://community.fandom.com/wiki/Special:MyPage/global.css - you can put code in here to block ads or do other stuff.  It's not against Fandom ToS to put it on your own profile - but if you do put this code into the .css for an actual wiki they *will* ban you though.  \n\nJust copy and paste it into global.css\n\n    .wikia-ad, #wikia_overlay_ad { display: none; }\n    .top-ads-container {display: none;}\n    .bottom-ads-container {display: none;}\n    .incontent_player {display: none;}\n    .ad-slot-placeholder.incontent-leaderboard {display: none;}\n    .ac-player-ph {display: none;}",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ihateazuremountain",
+            "body": "https://preview.redd.it/ox0ezz2whgge1.jpeg?width=540&format=pjpg&auto=webp&s=4fed3677172df5c509bb6f2aad2978e3adec2e13\n\n\u00f3timas not\u00edcias",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Fit-Meal-8353",
+            "body": "Yes!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "Oh thank you so much, i was waiting for this as the PoE community did the same thing a long while ago.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Narroh",
+            "body": "God bless",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Destrustor",
+            "body": "Yet another DE win.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Grinalbi",
+            "body": "Hell yeah! Thank you to all the people that contribute to the wiki and to all the people who made this move possible.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MrHero23",
+            "body": "At last, the wiki is free from wiki hell!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Adler963",
+            "body": "Nice, fuck Fandom.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "PinkFluffyUnikorn",
+            "body": "Magnificent",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "3leNoor",
+            "body": "FINALLY",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "communist_penguins",
+            "body": "LETS GO",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Leonard_the_Brave",
+            "body": "Holy Void demons missing finger \nThats awsome",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Easy-Chair-542",
+            "body": "Okay so what's with fandom? Why is it so bad again?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "pr1aa",
+                    "body": "It's a bloated piece of shit that keeps adding more ads, autoplay video popups and other garbage while neglecting issues that have been there for years, especially on the mobile site.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "Easy-Chair-542",
+                            "body": "That makes sense, I haven't used fandom in over a year, I typically use fextralife because dark souls",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "DevinTheDisgraced",
+                                    "body": "[Fextralife is also horrible!](https://www.reddit.com/r/MonsterHunter/comments/1h0olyk/please_do_not_use_fextralife_for_wilds/)",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Easy-Chair-542",
+                                            "body": "I'll be honest Tenno, I ain't reading that. I use fextralife for dark souls and it's served me quite well",
+                                            "score": 0,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "sdebeli",
+            "body": "Thank fucking fuck.\n\nFandom is a hideously bad option for a wiki, and I'm deeply gladdened to see the move. Cheers to everyone involved in the not even remotely simple work required.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Sacciy",
+            "body": "FINALLY!!!!!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ArmpitStealer",
+            "body": "finally. The fandom wiki is decent for small games and communities but it is filled with so much ads that its better to have your own wiki especially if youre a big game",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Odd_Opposite_1495",
+            "body": "thats a relief, thank you",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Bliztle",
+            "body": "Massive W",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "L30N1337",
+            "body": "FUCK YES.\n\nI like to imagine my post did something...",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TexDoctor",
+            "body": "*Slams table* Fucking FINALLY!!!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Azertygod",
+            "body": "Woohoo!!!! this is such great news.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "NoGoodMarw",
+            "body": "Called it",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "CyberFish_",
+            "body": "Wow, launched warframe 3 days ago after a year break and went to the wiki to look at new stuff. My first thought was \u201cdamn, is fandom still the only option?\u201d What perfect timing!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "CynNex",
+            "body": "This is epic news, thanks so much",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BurningPenguin6",
+            "body": "Oh my god, finally!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Frigid-Kev",
+            "body": "\nAs someone who has done a handfull of contributions to the Fandom, I'm honestly relieved that all of my prior contributions got carried over to the new Wiki.\n\nThis is a welcome change and no more ads is a big plus! Truly a historical moment for Warframe!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "WeepiestSeeker4",
+            "body": "Now if we could get Overframe but it actually gets updated when new updates drop",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ReginaDea",
+            "body": "Oh, thank goodness! Godspeed on the move.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "207nbrown",
+            "body": "TL;dr: fuck fandom(no, not like that, you animal)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "floutsch",
+            "body": "This is such a welcome move! Thank you! Besides an Adblocker I also used User CSS to quite some extent. The new one looks so neat and clean. Love it!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "gamersince1976",
+            "body": "hooray!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "LYNXSTORMU",
+            "body": "Thank you for the move and the effort!! Will be wonderful for the newer players' experience!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "orestis360",
+            "body": "Fucking finally",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "norbajusz",
+            "body": "Thank god finally. I got so tired of nuking ad-slot sections in inspect mode on the FANDOM wiki every time I opened something.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "bothVoltairefan",
+            "body": "Oh, hey, one of the two reasons my custom extension exists is no longer there. Good.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Sabatat-",
+            "body": "Happy I won\u2019t have to deal with intrusive ads anymore, especially on mobile.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Quick_Cat_9805",
+            "body": "THANK GOD",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "dwdie",
+            "body": "the [wiki.warframe.com](http://wiki.warframe.com) is awsome.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Akoshus",
+            "body": "I was wondering when this might happen. I\u2019m so happy you guys made the move.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Captain_Darma",
+            "body": "With that info I went to the new Wiki and noticed: things are missing, maybe they got lost in the copy process? Went to the old wiki and saw: Nope they are just missing.\n\nSo it's time to edit Tenno.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MelaniaSexLife",
+            "body": "I was fine with wikia since I removed all the ads, but overall, this is a great move for most people and I hope I don't have to see other shit wikis I don't want to see.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "GlowDonk9054",
+            "body": "Me when I can finally look at the Warframe Wiki without any hiccups or ads\n\nhttps://preview.redd.it/8iialovd95ie1.png?width=1024&format=png&auto=webp&s=aa42b75d9cf85e4cdab8676669edf9b7cdfcb1f0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "professorkek",
+            "body": "FINALLY. I'm so glad it's officially moving. I just saw Indie Wiki Buddy block the fandom wiki and was surprised.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Mystic_Ervo",
+            "body": "Absolutely necessary, thank you very much for your services \ud83e\udee1",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Yuki_ika7",
+            "body": "Very Nice! i hate fandom wiki as a platform, so massive W!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "NoGround",
+            "body": "I worked with Fandom for a while under a contract for anime wikis.\n\nThey fired me for improving their SEO cuz they don't know shit about anime. Fuck them. Good shit. The new wiki has been favorited for a few weeks on my bar now. It'll take a while since Fandom is super wary about this stuff (since the Granblue wiki got wiped clean and was empty for months on their move) and pays up the ass for increased traffic on searches.\n\nI'll spread the news.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ColdKaleidoscope7303",
+            "body": "\ud83e\udd73",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Glad_Mud2975",
+            "body": "estava traduzindo uma pagina do fandom warframe do ingles para o portugu\u00eas br. O que estou fazendo ent\u00e3o ser\u00e1 jogado fora ou n\u00e3o? O wiki j\u00e1 esta em todas as linguas no site da wiki?? Porque gostaria de ajudar e contribuir na tradu\u00e7\u00e3o se possivel.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "RecentMatter3790",
+            "body": "What do you mean by \u201csecondary devices\u201d on \u201cThe move also brings a more usable mobile interface for those that browse on secondary devices like smartphones and tablets.\u201d?\n\nDo you think that everyone\u2019s primary device is a pc?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "manicdee33",
+            "body": "Thank you everyone involved. What an adventure you must have had!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "LFPaiser",
+            "body": "This sparks joy",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "GreatDig",
+            "body": "It'd be great if the Automod here linked the new wiki whenever someone posts the old one, like in r/deadcells",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ennis_1",
+            "body": "Fuck Fandom, but I understand (or actually I **heard**) that moving is not an easy move to do.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "AlfieSR",
+                    "body": "Fandom not only makes active attempts to exploit SEO to appear higher on the list than official wikis even if their wiki was made *after* the official wiki for something, they've also attempt to take legal steps against wikis for attempting to move too. For example, I believe they tried to hit both the terraria wikia and the minecraft wiki with a DMCA notice, and for a time they were regularly scraping wikia equivalent domains for information to automatically update the fandom variant with new information, including copying updated images such as those with an \"Official\" banner stuck on them to imply they were still the proper variant.\n\nIt's difficult to transfer high amounts of wiki content from one location to another because even small bits of lost information or misaligned formatting can have knock-on breaking effects, but you then risk fandom actively attacking you for it (minecraft having the backing of microsoft meant the DMCAs achieved nothing, and they were quietly dropped when redigit personally fired back to protect the terraria wikia), and even *then* you have to constantly remind people to use the new site, ignore the old site, update your bookmarks and etc to eventually, hopefully outrank the fandom wiki in search results which can still take *literal years* to drop down past the first page, invoking heavy risk that people will assume fandom is \"still official\"- paired with people that still use fandom because they just don't care to begin with that they're being exploited.\n\nRealistically, I don't think this move could even have been done without DE stepping in to assist like this.",
+                    "score": 8,
+                    "replies": [
+                        {
+                            "author": "Californ1a",
+                            "body": "Credit where it's due, the one thing fandom does *really, really well* is SEO.\n\nBut also, Weird Gloop was born out of sheer desire to out-SEO fandom, and they've been winning, so they're definitely the top choice to fork to.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "AlfieSR",
+                                    "body": "It's not just optimisation, it's outright exploitation. Half the reason they spam unrelated fandom wikis at you is because it partially enables them to \"link\" them together. A search on something like the old TBOI wiki throwing a warframe link at you that enough people click means links on the TBOI wiki and warframe wiki can contribute a small percent of clicks to *each other*, artificially bolstering their weight on results despite the content being unrelated. Sure, it takes enough clicks on those shoddy adverts and trending shite to even work and even then contributes only a small sub-percent of clicks from one to the other, but when a network is as large as Fandom is then it typically more often than not meets the minimums from unaware users just browsing for \"fun and interest\" rather than to actually persue information- the same kind that regularly take personality quizzes, for example- then it starts feeding itself as the increased search weight brings more users providing a greater daily probability of it occuring. This isn't the only thing they do, but it's the only one I can wrap my head around it- there are video essays on the matter and naturally they tend to be upwards of an hour because youtube has its own algorithm in need of scraping and exploiting to see any growth whatsoever.\n\nThis is, technically, against google's own terms and guidelines on \"appropriate\" SEO and should get it delisted, but google is long past actually giving a shit about running their own services correctly. Can't speak of whether other search engines have similar guidelines with similar rulesets or not.  \nBut, it also means as fandom increasingly dies out then so too will its \"SEO\". Weird Gloop outperforming literal cheaters is also all the more impressive, too.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Nepenthii_",
+            "body": "Might've missed it in the FAQ but is there a way to support the new wiki, like donations or volunteering on the site?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "decitronal",
+                    "body": "Digital Extremes covers the expenses. No direct way to support the wiki financially. You could probably just buy packs or plat and pretend that money is being used on the wiki haha\n\nVolunteering is much easier to do, it's quite literally just clicking the edit button at the top of the page and adding missing information, paraphrasing text, or fixing mistakes. It's a much better way of helping the new wiki prosper since it directly contributes to SEO, and ensures that the new wiki stays up-to-date and well-written",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Nepenthii_",
+                            "body": "Oh no way that's so cool of DE! I'll have to look into what needs editing, tysm!",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Finnstar7",
+                    "body": "As always the wiki is open to any and all editors. If you find an article or topic you would like to contribute to please feel free.\n\nAs for donations, the wiki team is non-profit and DE themselves are paying WG for operting costs. However, feel free to donate to WG. They are a very small and capable team and I'm sure any donations would be greatly appreciated by them!",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "CatalystSword",
+            "body": "fandom is so annoying bc there are so many ad java script slows until the website has to refresh and i lose what i\u2019m looking at\ud83d\ude2d\ud83d\ude2d",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "CatalystSword",
+                    "body": "loaded up the site and fell to my knees that is clean!!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "NFX45",
+            "body": "I don't play Warframe, but this is super awesome for everyone!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "IJN-Atago",
+            "body": "Honestly I've never had a bad experience with the wiki before the change.",
+            "score": -3,
+            "replies": [
+                {
+                    "author": "frankster",
+                    "body": "Do you by any chance use an ad blocker?",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "lordofmmo",
+                            "body": "I have ublock and it still blows, none of the interactive elements like tabbed sections within a page work properly",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "matthewami",
+            "body": "Also as a question, I like both options, but why not wiki.gg? It seems the soul frame wiki is hosted there and a lot of other games made their way there when fandom began going hard on ads ~6yrs ago.",
+            "score": -1,
+            "replies": [
+                {
+                    "author": "tenno-gravy",
+                    "body": "wiki.gg has been getting worse over the last year, and they have like 4 ads on every page now. It's also owned by the guy that sold Gamepedia to Fandom, so...",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "matthewami",
+                    "body": "Oooffff, guess my Adblock works well then",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "decitronal",
+                    "body": "I've worked on both Weird Gloop and wiki.gg wikis before. WG has a smaller catalog but from my experience, the wikis there feel way more responsive. And frankly, *they're really good at UI design*",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "matthewami",
+                    "body": "I've only used it for my brief return to osrs about 2 years ago and haven't seen much of it. I'm liking what I'm seeing thus far, super clean, very responsive .",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Shitconnect",
+            "body": "Who is gonna edit stuff in the real wiki then?",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "decitronal",
+            "body": "Editing the wiki is still in the hands of the community. That's always the case for any wiki",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Spike_Rose",
+            "body": "I'm surprised folks feel this is worth the effort. I mean I'm open to being given the layman on why all this is being done.\n\n\nLike, just use an adblocker? It's actually really easy and worked out of the box for me even. Everyone should be using one when they browse any website at this point.",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "deadly_love3",
+            "body": "The site is still clunky, slow, and there is a ton of wasted space, it also sucks on mobile.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Substantial_Ad_3063",
+            "body": "Literally wasn\u2019t that bad from a user side, and contributing wasn\u2019t horrendous either. Why move site if people have been used to it for years?",
+            "score": -30,
+            "replies": []
+        },
+        {
+            "author": "decitronal",
+            "body": "\\> Why move site if people have been used to it for years?\n\nWhy settle for adequate when you can go for really-fuckin-good?\n\nAs someone who regularly browses and edits wikis both from Weird Gloop and Fandom, the contrast in quality and responsiveness literally does not compare. Some pages on Fandom will almost crash your browser. The same pages on Weird Gloop will load in seconds with no issue.\n\nWeird Gloop themselves also goes over on why they're starting to help more wikis migrate away from Fandom: [https://weirdgloop.org/blog/why-were-helping-more-wikis-move-away-from-fandom](https://weirdgloop.org/blog/why-were-helping-more-wikis-move-away-from-fandom)\n\nImportant points:\n\n\\- Fandom is very exploitative and anti-consumer (insane amount of ad space, AI slop, poorly-produced videos and content being prioritized over the actual page contents, etc)\n\n\\- Migration has been proven to improve editor morale and traffic\n\n\\- Fandom wikis are limited by what tech they can use in their pages, many being straight up impossible to implement. Weird Gloop offers a lot more flexibility. Because of this, theoretically, the new Warframe Wiki could have a monopoly on WF fan sites and even integrate sites like Overframe and [Warframe.market](http://Warframe.market) under the same domain if they wanted to\n\nAlso, the RAM usage says quite a bit!\n\nhttps://preview.redd.it/68w4bbvl3ege1.png?width=373&format=png&auto=webp&s=b234229b01ce543c2fdf82624d42320f892d4b78",
+            "score": 10,
+            "replies": []
+        },
+        {
+            "author": "Aangerz",
+            "body": "TIL there's two Warframe wiki's...",
+            "score": -4,
+            "replies": []
+        },
+        {
+            "author": "VengefulAncient",
+            "body": "No OpenSearch on the new wiki, which instantly makes it annoying to use for me. Didn't care for the ads or whatever on Fandom, uBlock Origin exists.",
+            "score": -4,
+            "replies": []
+        },
+        {
+            "author": "jaydenkieran",
+            "body": "Opensearch does exist, but your browser will not prompt you to install it as a search engine if you have the old wiki installed already, because they have the same name. Try deleting the old one first",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "VengefulAncient",
+            "body": "That solved it, thank you very much. What a stupid implementation, never ran into this before - why would it care about the name instead of the URL? \ud83e\udd26\u200d\u2640\ufe0f\n\nAnyway, *now* the new wiki is an actual upgrade, because unlike the Fandom one, it sends me directly to the article if I search for something that is an exact article title match.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "jaydenkieran",
+            "body": "It\u2019s a weird one. I think we\u2019ll probably update the name that browsers see to be different to avoid people having to figure this stuff out themselves. Glad it worked!",
+            "score": 3,
+            "replies": []
+        }
+    ]
+}

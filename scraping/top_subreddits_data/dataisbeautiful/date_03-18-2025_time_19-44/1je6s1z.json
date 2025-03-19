@@ -1,0 +1,228 @@
+{
+    "title": "Boeing and Airbus revenue has been steadily recovering since 2020 [OC]",
+    "author": "hashpigeon",
+    "subreddit": "dataisbeautiful",
+    "rank": 7,
+    "score": 25,
+    "upvote_ratio": 0.69,
+    "num_comments (reported by reddit)": 31,
+    "url": "https://i.redd.it/akoq8vriogpe1.jpeg",
+    "id": "1je6s1z",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "Optimoprimo",
+            "body": "It helps when you are basically the only two options for most of your customers.",
+            "score": 54,
+            "replies": [
+                {
+                    "author": "AdolphNibbler",
+                    "body": "Comac is sad with this statement",
+                    "score": -4,
+                    "replies": [
+                        {
+                            "author": "fromYYZtoSEA",
+                            "body": "COMAC is currently not an option. Its only product came out years too late and it\u2019s currently behind the competition. No western airline would buy it knowing it\u2019s less performant than Boeing/Airbus, and being from a different company requires completely new training, maintenance, procedures, etc.\n\nIt\u2019s also not certified by the FAA (so not an option at all in the US), and still undergoing certification in Europe. Current customers are Chinese state-owned airlines, which were forced to buy the jet to support the domestic manufacturer.\n\nThis is not to say that it isn\u2019t a tangible threat to the Airbus/Boeing duopoly. On the contrary, China\u2019s strategy may pay off sooner than we\u2019d think, and in a decade it may very well be a real competitor. Their next planes will be a lot better for sure.\n\nAlas, as of today there\u2019s really no viable alternative.",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "curious-bonsai",
+            "body": "Looks like Airbus recovered a bit faster than Boeing, it probably has something to do with the 737 MAX issues that Boeing had right before the pandemic. The aviation industry has really been through a rollercoaster these past few years.",
+            "score": 15,
+            "replies": [
+                {
+                    "author": "cobrachickenwing",
+                    "body": "We don't even know if the 777x Boeing is building will have the same problems as the 737Max.",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "None",
+                            "body": "[deleted]",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "024emanresu96",
+                                    "body": "Yes, that one specific issue will be resolved. Will the general QC have improved? Highly doubtful. Boeing staff won't  set foot on the products they make, and their low safety ratings, as with American cars, are the only thing keeping the costs low enough to keep the company afloat.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "None",
+                                            "body": "[deleted]",
+                                            "score": 5,
+                                            "replies": [
+                                                {
+                                                    "author": "024emanresu96",
+                                                    "body": ">but you don't have to fabricate stuff.\n\nhttps://youtu.be/jTK-5gIK52A?si=7RqSZ8nofO7JJNmf\n\nhttps://youtu.be/rvkEpstd9os?si=afRHxC8xaimEnLx0\n\nEducate yourself before making a fool of yourself.\n\n\"Boeing bad\" he says, when Boeing staff won't  get on a Boeing aircraft.\n\nEdit: as is always the way on reddit, I got blocked when I present someone with facts. And then he proceeds to call me the clown. \n\nIdiots gonna stupid I suppose.",
+                                                    "score": -1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "None",
+                                                            "body": "[deleted]",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "BerDwi",
+                                                                    "body": ">Call me a fool but I'm not the clown here.\n\nImpressive bravado, if it weren't for you simultaneously blocking your supposed antagonist.",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "InadvisablyApplied",
+            "body": "Why do they go both down before the covid outbreak, and start recovering directly after?",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "alancito10t",
+                    "body": "I think because it's based on annual reports that OP plotted in a continuous line, even if they don't have the data between points. A scatter or bar plot would more accurately represent the numbers.",
+                    "score": 23,
+                    "replies": [
+                        {
+                            "author": "PG908",
+                            "body": "Yeah, especially since airplanes are often a money up front, high capital product that was perhaps the first thing impacted (nobody\u2019s ordering planes when flights start getting banned), while other industries might need a quarter to a year to show impacts.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "7FOOT7",
+                    "body": "COVID didn't cause it",
+                    "score": -4,
+                    "replies": [
+                        {
+                            "author": "outm",
+                            "body": "Yes it did. Look at Airbus  going up in 2019.\n\nOP just plotted yearly points with a line, that\u2019s the problem",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "7FOOT7",
+                                    "body": "right, make the covid bubble start at 2019 as everything after that is 2020",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "gjt1337",
+            "body": "Why revenue dropped when they have orders for many years ahead?",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "bucket13",
+                    "body": "Have to deliver the planes to get the revenue.",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "024emanresu96",
+                    "body": "Number of orders drops when demand drops. Clever companies like ryaniar who actually huy their planes buy on the dip, but most planes are bought by leasing companies who reduce or stop orders during a world event due to depreciation.",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "ballimi",
+                            "body": "They get paid on delivery",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "wolftick",
+            "body": "While both have recovered from Covid at a similar rate, it seems like Boeing hasn't recovered at all from it's individual issues. The gap caused by the damage it sustained following the MAX issues has been maintained.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "hashpigeon",
+            "body": "I was reading up on Airbus the other day and I was curious to see what their performance has been over the last few years. I decided to include Being in that for comparison.\n\nSources: Airbus and Boeing annual reports from 2014 - 2023\n\nTools: PowerPoint",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "AdolphNibbler",
+                    "body": "That left me curious about Embraer vs Bombardier during this period.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Throwawayiea",
+            "body": "Trump's tariffs will ruin this for Boeing",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "eze6793",
+            "body": "Faster implies rate, which implies slope. They\u2019ve both increased at the same rate, but Boeing just lost more during the pandemic.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DegenerateWaves",
+            "body": "I'm really looking forward to reading whatever definitive book on Boeing's mismanagement comes out ala *The Smartest Guys in the Room*.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "randomtask",
+            "body": "It\u2019ll be interesting to see how the dip in demand right now will affect revenue going forward. Consumers are getting tighter fisted and lot of carriers are preparing for an economic recession, so I imagine that will mean a decrease in orders this year.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "EccentricPayload",
+            "body": "I think it's kinda funny we said \"no monopolies\" and then immediately proceeded to consolidate every industry to a maximum of 4 conglomerates that are probably all controlled by 2 even bigger things. At least there's 2!!!!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "fzwo",
+            "body": "This is really not beautiful at all.\n\nThe choice of chart makes it look like things are happening before they actually happened. This should be individual points or bars per year, and both the 737 MAX grounding as well as COVID outbreak should show with more accuracy as well.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DubioserKerl",
+            "body": "So, how was Boeing doing in 2024 then?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "JeromesNiece",
+            "body": "If the goal is to compare to the pre-pandemic baseline, then 2019 should have been used as the base year, not 2014.\n\nFurthermore, it should be kept in mind that we've had ~25% cumulative inflation over this timeframe, so returning to 2019 levels in nominal terms is still 25% away from returning to the prior level in real terms. \n\nAnd there's a note at the bottom explaining what CAGR is, but that term isn't found anywhere on the chart?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ToadBoehly",
+            "body": "I don\u2019t get how people have horrendous experiences with Airbnb. Do they not look at the photos/location/reviews and charges before booking\u2026?\u00a0",
+            "score": -3,
+            "replies": []
+        }
+    ]
+}

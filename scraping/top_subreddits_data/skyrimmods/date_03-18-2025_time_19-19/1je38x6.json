@@ -1,0 +1,38 @@
+{
+    "title": "Weird Crashes that makes me sheogorath insane",
+    "author": "Top-Consideration383",
+    "subreddit": "skyrimmods",
+    "rank": 14,
+    "score": 10,
+    "upvote_ratio": 0.86,
+    "num_comments (reported by reddit)": 4,
+    "url": "https://www.reddit.com/r/skyrimmods/comments/1je38x6/weird_crashes_that_makes_me_sheogorath_insane/",
+    "id": "1je38x6",
+    "selftext": "Very embarrassed posting this considering my modlist but this has been bugging me a little so\n\nBasically, the game is fine im pretty sure, played for 3 hours straight all fine no crashes but then when the SDA dialogue option for serana where she suggests to do some intimate things and wanting to look for a place (especially if the dialogue happened if i fast traveled to a hold or something) one of two things happen\n\n  \neither the game just crashes mid dialogue or i agree to her do an ostim scene. it ends, I fast travel to a city and then it crashes. \n\n  \ni havent been even able to actually recreate it since if i try to actively retry it then the game works fine for some reason until a few hours in where she will say the dialogue again, i have no idea if this is a problem with my mods or just my ram running out though \n\n[https://pastebin.com/cgPrSMSH](https://pastebin.com/cgPrSMSH) (this crash log is the one im talking about, where i went through with the scene and then it crashes) \n\n[https://pastebin.com/MzVCyyVw](https://pastebin.com/MzVCyyVw) (This one is just it decides to crash after serana tried to talk to me in windhelm, i think this was after i finished the bandit camp on the winter war ship)",
+    "comments": [
+        {
+            "author": "bachmanis",
+            "body": "You have NiPointer in the register and precision.dll in the probable stack. I'd start by verifying that precision is up to date, compatible with your Skyrim version, and that you aren't running anything that's incompatible with it.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "RomatebitegeL",
+            "body": "Crash references that are NSFW makes me belive some NSFW mod is causing this crash, so maybe start to disable them until you localize the crashing cause.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "AutoModerator",
+            "body": "If Skyrim Special Edition crashes immediately after you launch it \u2014 particularly if your crash log lists memory address `0198090` address (version 1.6.640 address) or `05E1F22` (1.5.97 address) \u2014 then you are experiencing one of the following issues:\n\n* You are missing a master file. That is: you have some Mod A that relies on Mod B, but you only installed Mod A and not Mod B.\n\n* More likely: one of your installed mods (or an official content file) may have file format version 1.71, meaning it was made for game version 1.6.1130 or higher. This format is not fully backwards compatible; if you're running an older version of the game, then these files can cause crashes on startup. Installing [Backported Extended ESL Support](https://www.nexusmods.com/skyrimspecialedition/mods/106441?tab=files) will allow older versions of the game to load these files safely.\n\nMake sure to check the [troubleshooting guide](https://www.reddit.com/r/skyrimmods/wiki/troubleshooting_guide) for help with crashes and other problems!\n \n* If you are on Skyrim version 1.5 (SE), the [.NET Script Framework](https://www.nexusmods.com/skyrimspecialedition/mods/21294) can also help in diagnosing crashes.\n\n* If you are on Skyrim Version 1.6 (AE) or Skyrim VR, [Crash Logger](https://www.nexusmods.com/skyrimspecialedition/mods/59818) can also help in diagnosing crashes. If you also use MO2, you can use [this plugin](https://www.nexusmods.com/skyrimspecialedition/mods/66743) for improved functionality!\n \nDO NOT post an analyzed crash log. It strips all the useful information.\n\nDon't use trainwreck. The log it produces is less informative than other options linked above. \n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/skyrimmods) if you have any questions or concerns.*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Anathemautomaton",
+            "body": "The first crash log mentions tbbmalloc.dll, which is from Engine Fixes and deals with memory-allocation, right at the top. So I would suggest making sure you have Engine Fixes installed correctly.\n\nThe second log is less clear, but it seems like it might be a papyrus issue? So make sure all that is working right. EDIT: Looking at it more, I think you need to download {{Papyrus Ini Manipulator}}. Dylbill's Papyrus Functions won't work properly without it.\n\nAlso, maybe try turning off your virtual machine while playing Skyrim? I'm not actually sure if that would help, but it probably doesn't hurt to try.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

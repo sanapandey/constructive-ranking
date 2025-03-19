@@ -1,0 +1,459 @@
+{
+    "title": "AI Engineers right now",
+    "author": "SaberHaven",
+    "subreddit": "pcmasterrace",
+    "rank": 10,
+    "score": 2577,
+    "upvote_ratio": 0.98,
+    "num_comments (reported by reddit)": 70,
+    "url": "https://i.redd.it/bgqvwlkvkepe1.png",
+    "id": "1jdzpyl",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "gurugabrielpradipaka",
+            "body": "Yes, that's my main problem with the 5090, aside from the horrendous price. 575W is just insanity.",
+            "score": 505,
+            "replies": [
+                {
+                    "author": "karmazynowy_piekarz",
+                    "body": "Insanity is to run it at 575W. Anyone with a brain undervolts to 450W\n\nThe performance loss is so small you wont ever notice it",
+                    "score": 199,
+                    "replies": [
+                        {
+                            "author": "HeywoodJablowme_343",
+                            "body": "true, you can run 84% TDP easy at 99% of the performance.",
+                            "score": 97,
+                            "replies": [
+                                {
+                                    "author": "comelickmyarmpits",
+                                    "body": "If it's true then why 575w is even a TDP? Couldn't nvidia just set TDP to 450 with 1% performance loss?\n\n5090 iirc is 25-30%  faster than 4090, 1% wouldn't hurt anybody\n\nEdit: thanks for explanation guys",
+                                    "score": 82,
+                                    "replies": [
+                                        {
+                                            "author": "Scar1203",
+                                            "body": "Probably because a small percentage of the yield they deem viable isn't stable undervolted. They're not paying the electric bill so if they can ship more GPUs by having them use more power but still meet spec that's pure profit for them.",
+                                            "score": 122,
+                                            "replies": [
+                                                {
+                                                    "author": "Icy_Effort7907",
+                                                    "body": "Or to keep it stable after overclocking ?",
+                                                    "score": 6,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "Seraphine_KDA",
+                                            "body": "That is a big undervolt and unstable. On the other hand remember that partners will charge you 300 to 800 more for 1to 3%mpre performance. And run at 600",
+                                            "score": 17,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "crocolligator",
+                                            "body": "not all silicon are fabricated equal and voltage provides stability.. \n\nto account for silicon quality variance, board designers add a hefty voltage headroom. if they dont do this and set tdp too low, they will be dealing with a lot of RMA's from gpu's crashing in use",
+                                            "score": 7,
+                                            "replies": [
+                                                {
+                                                    "author": "ArmedWithBars",
+                                                    "body": "This is actually why any gaming laptop owner should undervolt the first thing they do. CPUs especially are overfed power for mass production consistency reasons, but it leads to unnecessary heat in a package that commonly has cooling issues.. \n\nDepending on cpu and cooling design it can commonly cause a lack of boost clocking and sometimes even straight thermal throttling.\n\nSome undervolt I've done in gaming laptops lead to temp drops I wouldn't believe if I didn't see it myself. I remember doing a i7 9750h laptop that went from 90c+ throttling to 76c maxed out in a stress test. -125mv UV with no stability issues.",
+                                                    "score": 7,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "DrKrFfXx",
+                                            "body": "Yields.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "vkucukemre",
+                                    "body": "4090 is the same. I always use it at %85. \n\n5090 tho might still burn lol. I hope they make a double 12v connector version at some point. Maybe TI?",
+                                    "score": 8,
+                                    "replies": [
+                                        {
+                                            "author": "LAHurricane",
+                                            "body": "Galax makes a version of their HOF 5090 with two 12v-2x6 cables. It also has a dual bios with a 1200w power limit mode lololol",
+                                            "score": 11,
+                                            "replies": [
+                                                {
+                                                    "author": "vkucukemre",
+                                                    "body": "Guaranteed to spontaneously combust XD",
+                                                    "score": 3,
+                                                    "replies": [
+                                                        {
+                                                            "author": "LAHurricane",
+                                                            "body": "To be fair, the only time you would ever be pushing 1200w is during extreme LN2 overclocking.\n\nBut it does make you wonder what type of real-world gaming stable overclocks you can get with a hand binned 5090 with essentially unlimited power.\n\nEither way, having 2 cables is badass.",
+                                                            "score": 7,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Housing_Ideas_Party",
+                                    "body": "Can I run it even lower? I don't care if I get even less performance. \"Though thinking of a 4090\"",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "DansSpamJavelin",
+                            "body": ">Anyone with a brain undervolts to 450w\n\nNot everyone is as tech savvy as us, though",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "QuantumUtility",
+                            "body": "I got really unlucky with the silicon lottery. Undervolting mine leads to all sorts of instability when actually gaming. (Can get through benchmarks though.)",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "alancousteau",
+                            "body": "Also that it seems to go through 2 tiny cables and connectors.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "crocolligator",
+                            "body": "undervolting has always been a performance increase over stock",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Dudi4PoLFr",
+                    "body": "Running my FE at 460W with minimal performance drop. This is how it should come stock, with option to OC up to 600W.",
+                    "score": 16,
+                    "replies": []
+                },
+                {
+                    "author": "Kagmajn",
+                    "body": "1st thing I did was to undervolt it to ~450 watt.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "slycannon",
+            "body": "What",
+            "score": 75,
+            "replies": [
+                {
+                    "author": "UltraX76",
+                    "body": "Probably talking about the 5090",
+                    "score": 125,
+                    "replies": []
+                },
+                {
+                    "author": "JohnSnowHenry",
+                    "body": "RTX 5090 is the only one with 32gb vram (and cudas) so it\u2019s a dream to use for AI image and video generation. \n\nThe problem is that it runs a little hot \ud83e\udd75",
+                    "score": 78,
+                    "replies": [
+                        {
+                            "author": "WorldLove_Gaming",
+                            "body": "Honestly with the 5090 prices it might just be worth it to instead get an M4 Max Mac Studio with 64 GB unified memory for $2700.",
+                            "score": 14,
+                            "replies": [
+                                {
+                                    "author": "JohnSnowHenry",
+                                    "body": "No cudas so it\u2019s useless\u2026",
+                                    "score": 27,
+                                    "replies": [
+                                        {
+                                            "author": "Just_Maintenance",
+                                            "body": "Honestly most AI software has great support for metal",
+                                            "score": 3,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "abbbbbcccccddddd",
+                                            "body": "So far everything involving diffusion models that I needed worked just fine for me with ROCm in Linux. If AMD works I doubt that Apple with its market share doesn't, may not be easy to set up but it's nowhere near useless. CUDA is a monopoly for the most part",
+                                            "score": 1,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "WorldLove_Gaming",
+                                            "body": "Probably depends on the AI model then but makes sense",
+                                            "score": -3,
+                                            "replies": [
+                                                {
+                                                    "author": "JohnSnowHenry",
+                                                    "body": "All image and video generation that I\u2019ve tested so far (stable difusion, wan, Hunyuan, flux, etc etc)\n\nTo be honest I don\u2019t know of a single one running locally that works ok without cudas\u2026 (some work but with severe limitations)",
+                                                    "score": 13,
+                                                    "replies": [
+                                                        {
+                                                            "author": "WorldLove_Gaming",
+                                                            "body": "Interesting, didn't know about that.",
+                                                            "score": 2,
+                                                            "replies": []
+                                                        },
+                                                        {
+                                                            "author": "MichaelMJTH",
+                                                            "body": "Open source image generation (SD, wan, hunyan, on a1111 or comfyui) is CUDA all the way basically. LLMs though seem to be a lot more hardware agnostic, via Ollama with deepseek. Mac Studios and Mac Minis in particular seem to be the consumer device of choice for this use case when spec\u2019d up with high RAM amounts.",
+                                                            "score": 2,
+                                                            "replies": []
+                                                        },
+                                                        {
+                                                            "author": "Plaston_",
+                                                            "body": "I use Zluda to be able to \"use cuda\" on my AMD gpu",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "TottalyNotInspired",
+                                                                    "body": "How is the performance on that?",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "Theio666",
+                                            "body": "That's simply a lie. Llama.cpp supports metal to run on mac, so ollama is a same as windows few-commands setup. Also, there's MLX as backend. Llama.cpp also supports vulcan, rocm, and even some libraries like vLLM have support for apple/amd/intel nowadays. Idk about image/video gen, but for LLMs (which is the hottest AI thing nowadays) macs have great support.",
+                                            "score": -7,
+                                            "replies": [
+                                                {
+                                                    "author": "JohnSnowHenry",
+                                                    "body": "You my friend need to learn how to read\u2026 I specifically told that it\u2019s the reality for image and video generation (and I\u2019ve actually said the names of the models), all the ones that I mentioned do work in GPUs without cudas but they are close to unusable since the generations times are huge without cudas (and in many cases they don\u2019t even run).\n\nBefore calling someone a liar please take your time to understand what is written\u2026",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "DataGOGO",
+                                    "body": "worthless for any AI engineer.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "barracuda415",
+                            "body": "There are plenty other options with more than 32 GB RAM (RTX 6000 Ada, A6000, modded Chinese 4090, L40 or even the upcoming RTX Pro 6000 X). However, they all have in common that they're *much* more expensive than a 5090 even at scalper prices.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "JohnSnowHenry",
+                                    "body": "And\u2026 They are professional cards and actually not that adequate for several other activities like gaming.\n\nBut since the cost is like 5x more it\u2019s even more unrealistic for enthusiasts",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "DataGOGO",
+                            "body": "not if you water cool them.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "karmazynowy_piekarz",
+                            "body": "5090 running little hot? My suprim liquid is always between 50 and 58 during stress, it never reached 60. You call that hot ?\n\nOnly FE runs super hot because of 2 fans. Its beautiful card, but trash design temp wise",
+                            "score": 0,
+                            "replies": [
+                                {
+                                    "author": "SaberHaven",
+                                    "body": "They moved the hotspot to the cables",
+                                    "score": 16,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "DrKrFfXx",
+                                    "body": "Is not the core running hot that's the issue mate.",
+                                    "score": 5,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Exodus2791",
+                            "body": "\\>RTX 5090 is the only one with 32gb vram (and cudas) so it\u2019s a dream to use for AI image and video generation.\n\nHopefully they all burn then and take the AI \"artists\" with them.",
+                            "score": -16,
+                            "replies": [
+                                {
+                                    "author": "tO_ott",
+                                    "body": "You're a mean little bitch, eh?",
+                                    "score": 9,
+                                    "replies": [
+                                        {
+                                            "author": "whatisrofl",
+                                            "body": "Dude takes someone's passion and escape from reality, and just wipes it's boots with it. Is it ok to hate the haters?",
+                                            "score": 1,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Exodus2791",
+                                            "body": "Yep. fuck AI \"art\".",
+                                            "score": -4,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "TheBoobSpecialist",
+            "body": "People living dangerously with OC'd 5090's running at 850W \ud83e\uddef\ud83d\udca8\ud83d\udd25",
+            "score": 20,
+            "replies": [
+                {
+                    "author": "TerribleNameAmirite",
+                    "body": "That\u2019s the same as a microwave on high lmao",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "marvin",
+                            "body": "Well, not quite, the microwave is generally only used for 3 minutes at a time.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "SaberHaven",
+                    "body": "\ud83d\ude31",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "HumonculusJaeger",
+            "body": "Dude If amd would release a 9080xt or 9090xt and undervolt to get 5090 performance for less wattage.",
+            "score": 12,
+            "replies": [
+                {
+                    "author": "Seraphine_KDA",
+                    "body": "Bigger dies have lower yields and more error chance.\n\nThat is why AMD cannot do a 9090xt since they won't recover the money for it with their much lower share of the pie.\n\nThe 7900 cards where a financially bad for AMD.\nMeanwhile Nvidia has no pressure and can just charge stupid price to make the 5090 viable and people will buy it.\n\nAlso the 5090 is not a full die card is a cut card. Nvidia saving those full dies they are getting to announce a titan later.",
+                    "score": 19,
+                    "replies": []
+                },
+                {
+                    "author": "TSG-AYAN",
+                    "body": "Unfortunately AMD is a very sub-par experience for ML/AI. ROCm is still no where even close to CUDA, and since CUDA is like 95% of the market all the major tools (like flash attention, demos, even llama.cpp) don't properly support AMD. Inference PP is about 50% slower on my 6950XT than a 2060m.",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "HumonculusJaeger",
+                            "body": "There are people that use workstation cards for their ai instead of gaming cards but yeah, Nvidia sadly is the software King. But one cool thing would be that amd brings rocm and other technologies to Linux. I guess the market is to small",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "AnEagleisnotme",
+                                    "body": "ROCm is available on linux",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "HumonculusJaeger",
+                                            "body": "At least it does not work with mesa and my card. Maybe i do something wrong",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "kebench",
+                            "body": "I agree. Tested CUDA and ROCm for training a CNN woth large dataset. CUDA beats ROCm in training performance (much faster to train) than ROCm.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Homewra",
+            "body": "The so called \"AI Engineers\" Aka: Chatbot trainers and AI image generators, heh.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "TheGreatWhiteRat",
+            "body": "Basebull, huh",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "bleh333333",
+            "body": "if this is the absolute limit of what's considered a consumer-grade card, what's the immediate next card that's used by AI companies?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "FreewayPineapple",
+                    "body": "A lot of 5090s, or older nvidia workstation cards, or new nvidia workstation cards if rich",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "TheSilverSmith47",
+            "body": "Wouldn't it be awesome if AMD and Intel pooled their talent and fab capacity together to make a GPU that competes on the high end?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DataGOGO",
+            "body": "Yep, If I could buy 4 of them right now to put in my workstation, I would.\n\nNo, the power and heat doesn't scare me at all. I am used to running multiple power supplies and custom loops.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ohaiibuzzle",
+            "body": "Makes the Apple M3 Ultra with 512GB of unified RAM looks downright reasonable",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "DataGOGO",
+                    "body": "no cuda...",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "ohaiibuzzle",
+                            "body": "True, but for inference only tasks it\u2019s fine. It\u2019s only training that needed CUDA. Metal can accelerate inference.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "DataGOGO",
+                                    "body": "True enough",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "SlowSlyFox",
+            "body": "Why the f ai \"engineers\" get consumers card when there is still affordable for them dedicated ai cards that perform much better in their field?",
+            "score": -2,
+            "replies": []
+        }
+    ]
+}

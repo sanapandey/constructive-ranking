@@ -1,0 +1,1792 @@
+{
+    "title": "Fuck ASS (Auto Start-Stop)",
+    "author": "lewisbv",
+    "subreddit": "3Dprinting",
+    "rank": 19,
+    "score": 580,
+    "upvote_ratio": 0.81,
+    "num_comments (reported by reddit)": 273,
+    "url": "https://www.reddit.com/r/3Dprinting/comments/1jdux75/fuck_ass_auto_startstop/",
+    "id": "1jdux75",
+    "selftext": "I hate that my VW Tiguan automatically enables auto start-stop (ASS) every time I turn on my vehicle. There is no software option to disable this. \n\nPermanently (and non-destructively) depress the ASS button with this press-fit print.\n\nhttps://preview.redd.it/83j77ooj0dpe1.png?width=1960&format=png&auto=webp&s=e30c1994f15be913fd47b8b674d40b08e6d0df5f\n\nhttps://preview.redd.it/mnc3jn4m0dpe1.jpg?width=4032&format=pjpg&auto=webp&s=33a6879b285a9e87e8184d81b9e5b46fcc1bf32e\n\nhttps://preview.redd.it/l6xwmcvm0dpe1.jpg?width=3024&format=pjpg&auto=webp&s=5b0b58ead7a9dc99b7a4364f5fb425d7f4621960\n\n",
+    "comments": [
+        {
+            "author": "topknottyler",
+            "body": "Probably no permanent disable because of EPA ratings.",
+            "score": 626,
+            "replies": [
+                {
+                    "author": "Imatopsider",
+                    "body": "If you own a BMW you can code the car to have it disabled completely or choose to have the button retain its memory of last selection when turned off and copy that when the car is started. Very convenient with Bimmercode",
+                    "score": 256,
+                    "replies": [
+                        {
+                            "author": "kjgjk",
+                            "body": "Vagcom/obd11 for VW/Audi as well!",
+                            "score": 86,
+                            "replies": [
+                                {
+                                    "author": "Macho_Chad",
+                                    "body": "Same for Mercedes. I had to turn mine off because it wasn\u2019t quick starting dependably.",
+                                    "score": 9,
+                                    "replies": [
+                                        {
+                                            "author": "Rubiksfish",
+                                            "body": "Some of the post office vans have them, and boy was I confused the first time it happened",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "light24bulbs",
+                                    "body": "Nice. Time to get an $8 OBD2 Bluetooth adapter, OP",
+                                    "score": 20,
+                                    "replies": [
+                                        {
+                                            "author": "Aminalcrackers",
+                                            "body": "$8 isn't even remotely close.\u00a0 \u00a0To change features like this on VAG cars you need like VCDS or Obdeleven. Not only are they an order of magnitude more expensive than that,\u00a0 they also charge a subscription fee.\n\n\nYou can't reprogram VAG cars with a basic obd2 dongle. I've used VCDS and obdEleven and it's so much more annoying and expensive than I feel like it should be.\u00a0 Just give it a god damn USB port",
+                                            "score": 43,
+                                            "replies": [
+                                                {
+                                                    "author": "imnota_",
+                                                    "body": "BMW ftw. 5$ enet cable and sketchy cracked esys lol. Tbf you can get vcds and hexcan cable for like 40$",
+                                                    "score": 17,
+                                                    "replies": [
+                                                        {
+                                                            "author": "thesnake87",
+                                                            "body": "The original Hexcan cables are no longer working properly with the latest generation Audi\u2019s. You need the V2 or Hexnet cables. Just making sure that is out there.\n\nDifferent communication rates that the old cables don\u2019t support. My old Hexcan cable collects dust in my toolbox now.",
+                                                            "score": 5,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "imnota_",
+                                                                    "body": "Hexnet is what I meant I myself have the v2, yeah sorry not a big VAG guy",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "FractalParadigm",
+                                                    "body": "There's an app on Android called Carista (which is annoyingly expensive tbh, I pay for it as I need it) that can change a surprising amount of stuff with those cheap $8 dongles, I've reprogrammed a ton of cars with a crappy VeePeak adapter - windows to operate with keyfobs, enabling the RLS for auto-wipers and auto-closing windows/roof, cluster sweeps/celebrations on startup, disabling hill-hold assist, fuel filter primimg - a lot of the basic/popular BCM mods and maintenance items that people actually need/use/want. It'll also read fault codes out of things like the ABS module that 'normal' scanners/apps can't or won't find. You don't get any long coding, and options for other modules is limited/non-existant (like if you buy an RCD330 and have a 'fancy' factory sound system with amplifier, you can't re-code that amplifier to tell it the radio is sending a different signal, you still need VCDS for that), but for a solid 85% of owners it's more than sufficient.",
+                                                    "score": 2,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Aminalcrackers",
+                                                            "body": "Oh yeah carista is what I have now, but I bought there $50 dongle in addition to paying whenever I need to use it.\u00a0 Didn't realize I could have used a cheaper one :/",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "mikenolte",
+                                                    "body": "OBD as in ISO 9141: Road vehicles \u2013 Diagnostic systems. International Organization for Standardization, has been around since 1989.\n\nUSB since 1996.\n\nThe industry standard for road vehicle diagnostic systems is unlikely to change just so you no longer have to buy an interface that costs 3 orders of magnitude less than the car you're trying to operate on.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "AOCsMommyMilkers",
+                            "body": "I'm going to have to look into this. Mine shuts off when I come to a stop at a light and goes into park for some reason. It's not the worst thing in the world, but man, do you look stupid when you floor it when the light turns green and you just sit there in park with a dumb look on your face as you remember about the auto start thing.",
+                            "score": 13,
+                            "replies": []
+                        },
+                        {
+                            "author": "StarWolf64dx",
+                            "body": "on hondas they sell this little thing that plugs into the wire harness of the button. whenever the button gets power, it has a delay and then signals a \u201cpress\u201d. \n\nso every time you turn the car on it just deactivates it for you.",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "NGinuity",
+                                    "body": "I have this for my F-150.  Just remembers the state between presses and issues a press on your behalf when the vehicle is turned on again if you keep it on.  Also allows you to re-enable it if you're somehow newly liking pain.",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Historical-Flow-1820",
+                            "body": "You can do the same with fords using forscan",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "strangr_legnd_martyr",
+                                    "body": "Side note, whoever named Forscan either got away with the biggest corporate troll in history or should never be allowed to name anything ever again.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "TheIronSoldier2",
+                                            "body": "I think it's a Russian dude, so they aren't too concerned about trademark infringement suits from an American company",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "patjeduhde",
+                            "body": "Yrah in my country i have to op for the memory variant, otherwise it will not pass its yearly inspection.",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "Zilli341",
+                            "body": "You can do the same thing with FORScan in Fords.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Hugoslav457",
+                    "body": "On quite a few cars it can be softblocked by raising its enable voltage above your battery voltage, thus it wont trigger... Ever",
+                    "score": 15,
+                    "replies": []
+                },
+                {
+                    "author": "pint_of_brew",
+                    "body": "Automotive engineer here. Every regulation in the world prohibits us from making safety and emission critical technology disabled by default.",
+                    "score": 21,
+                    "replies": [
+                        {
+                            "author": "topknottyler",
+                            "body": "I am also an automotive engineer, but nowhere near emissions. But I assumed.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "Revolting-Westcoast",
+                            "body": "Cringe.",
+                            "score": -18,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Luna_Wolfxvi",
+                    "body": "ASS is actually worse for emissions despite getting better mileage",
+                    "score": -39,
+                    "replies": [
+                        {
+                            "author": "GuySmiley369",
+                            "body": "Source? Or is this just \u201ctrust me, bro?\u201d",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "kn33",
+                                    "body": "Source: /u/Luna_Wolfxvi's ASS.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "None",
+                                            "body": "[removed]",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "AutoModerator",
+                                                    "body": "This comment was removed as a part of our spam prevention mechanisms because you are posting from either a very new account or an account with negative karma (comment karma, post karma or both). Please read the guidelines on [reddiquette](https://www.reddit.com/wiki/reddiquette), [self promotion](https://www.reddit.com/wiki/selfpromotion), and [spam](https://www.reddit.com/wiki/faq#wiki_what_constitutes_spam.3F). After your account is older than 2 hours or if you obtain positive comment and post karma, your comments will no longer be auto-removed.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/3Dprinting) if you have any questions or concerns.*",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "None",
+                                    "body": "[removed]",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "AutoModerator",
+                                            "body": "This comment was removed as a part of our spam prevention mechanisms because you are posting from either a very new account or an account with negative karma (comment karma, post karma or both). Please read the guidelines on [reddiquette](https://www.reddit.com/wiki/reddiquette), [self promotion](https://www.reddit.com/wiki/selfpromotion), and [spam](https://www.reddit.com/wiki/faq#wiki_what_constitutes_spam.3F). After your account is older than 2 hours or if you obtain positive comment and post karma, your comments will no longer be auto-removed.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/3Dprinting) if you have any questions or concerns.*",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Revolting-Westcoast",
+                    "body": "Cringe epa.",
+                    "score": -16,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "I_like_the_stonks",
+            "body": "I would consider printing it with Ironing enabled",
+            "score": 82,
+            "replies": [
+                {
+                    "author": "PG67AW",
+                    "body": "Plot twist: they used one of those 3d printer pens and that\u2019s actually really good work.",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Santa_009",
+            "body": "OBDEleven can set this, you can merely set the battery voltage threshold to higher than possible and it just never actually turns off the engine.\n\nIve done it on 5+ cars now and the product is infinitely more useful than just that, search OBDEleven Long Coding to find much more!",
+            "score": 177,
+            "replies": [
+                {
+                    "author": "Matraxia",
+                    "body": "You can also reverse the logic of the button in VCDS/OBDEleven etc without permanently disabling.  It defaults as ASS off, and you can hit the button to turn it on.",
+                    "score": 52,
+                    "replies": [
+                        {
+                            "author": "twistsouth",
+                            "body": "This is the best way. It\u2019s still a useful feature in certain circumstances but I want to be in control of which circumstances. I turn it on in traffic jams.\n\nThe most annoying thing for me is that it restarts the engine if the car in front moves so inevitably you get that dildo that crawls forward every few seconds in standstill traffic. I wish you could code that part out.",
+                            "score": 18,
+                            "replies": [
+                                {
+                                    "author": "ImpetuousWombat",
+                                    "body": "You could just leave a gap",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "TheReal8",
+                            "body": "Do you have somewhere to point me, or instructions as to how to get this done? I've gone the battery route, but your way is much more elegant.\nMk7 GTI, and obdeleven pro here.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "ForgotHowToGiveAShit",
+                    "body": "came here to say this, I have moved to the bmw world from my vw days and one thing that's always stayed the same is coding stupid bullshit out",
+                    "score": 9,
+                    "replies": []
+                },
+                {
+                    "author": "Rich-Remote-6115",
+                    "body": "Would this work on a 2014 Highlander?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "ajnozari",
+                            "body": "I know on newer models it retains the last setting set, however I don\u2019t mind it so to each their own I guess",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "allawd",
+                    "body": "I need to do this on my wife's car. Thanks!",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "brafwursigehaeck",
+                    "body": "i am also quite sure you can disable it in that car. it\u2019s a 2minute fix. and it\u2019s also no permanent disable but a \"disable from start\" which means it\u2019s deactivated when the car starts and you can enable it when you want.",
+                    "score": -4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "lewisbv",
+            "body": "Update: most of my motivation behind making this part was the funny acronym. I also really do find ASS annoying though and would prefer to have it off all the time. In my testing, I only held the ASS button long enough to turn the car on and off. Turns out after about a minute of being continually depressed ASS just fuckin turns on again. Looks like I'll have to pursue other solutions - thank you comments for the ideas",
+            "score": 23,
+            "replies": [
+                {
+                    "author": "bfit70",
+                    "body": "damn, and here i thought it was a boondock saints reference......",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "RX-XR",
+                    "body": "Get [this](https://burteq.com/collections/memory-module-kits/vw), it's easy to install and does not affect warranty. It works flawlessly in my cupra.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "LetterheadCurious658",
+            "body": "https://preview.redd.it/3k1wxga8hdpe1.jpeg?width=1280&format=pjpg&auto=webp&s=7ba40546cd283cd60570ff4e07bde426ec5c2539",
+            "score": 17,
+            "replies": []
+        },
+        {
+            "author": "stupefy100",
+            "body": "Sorry, but what exactly is the issue with Auto start-stop? i thought it saved fuel?",
+            "score": 139,
+            "replies": [
+                {
+                    "author": "firestar268",
+                    "body": "It does. But also requires a more heavy duty starter and battery to compensate at a much higher price. Not to mention that most manufacturers do a terrible job of blending in when the engine is stopped and restarted",
+                    "score": 125,
+                    "replies": [
+                        {
+                            "author": "DakorZ",
+                            "body": "Though at the point you own the car, you already paid for that heavy duty starter and battery, so it's not costing you any extra",
+                            "score": 61,
+                            "replies": [
+                                {
+                                    "author": "I_Need_A_Fork",
+                                    "body": "They\u2019ll need to be replaced at some point presumably at a much higher cost?",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "DirtyYogurt",
+                            "body": "FYI, these systems have been moving away from using the starter for a while now",
+                            "score": 36,
+                            "replies": [
+                                {
+                                    "author": "firestar268",
+                                    "body": "For hybrid type vehicles I'd believe it. But doubt it for regular ICE cars with no hybrid systems",
+                                    "score": 15,
+                                    "replies": [
+                                        {
+                                            "author": "Justin2478",
+                                            "body": "In my 2014 mazda3 there's no hybrid component, but it still doesn't utilize the starter. It uses combustion to restart the engine rather than a starter.\n\n[Link](https://www.passportmazda.com/blogs/1766/save-fuel-your-vehicle-uses-with-mazdas-idling-stop-technology/#:~:text=i%2Dstop%20is%20a%20smart,the%20vehicle%20returns%20to%20motion.)\n\n>While conventional idling stop systems rely on a starter motor to restart the engine, Mazda\u2019s i-stop restarts the engine through combustion; fuel is directly injected into a cylinder while the engine is stopped and ignited to generate downward piston force.",
+                                            "score": 19,
+                                            "replies": [
+                                                {
+                                                    "author": "firestar268",
+                                                    "body": "That's cool. Do the newer ones still do that?",
+                                                    "score": 3,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Justin2478",
+                                                            "body": "Yep it's all done through the engine, however the usdm Mazdas don't have the system. Only the European and JDM cars got it since it's mandated",
+                                                            "score": 7,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "b_call",
+                                                                    "body": "That not true, Mazdas in the US have this same exact setup. My CX-50 does this and doesn't use the starter.",
+                                                                    "score": 2,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Justin2478",
+                                                                            "body": "I was talking about the Mazda 3",
+                                                                            "score": 1,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "author": "firestar268",
+                                                                    "body": "Figures. I've never heard of it in the US",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "DirtyYogurt",
+                                            "body": "I'm not asking you to believe it, just stating reality.\n\nedit: Not surprised the 3d printing sub thinks stopping the engine at tdc on the compression stroke is unique to hybrids \ud83e\udd23",
+                                            "score": -30,
+                                            "replies": [
+                                                {
+                                                    "author": "Fake_Answers",
+                                                    "body": "As per your edit, arrogant much?",
+                                                    "score": 21,
+                                                    "replies": [
+                                                        {
+                                                            "author": "DirtyYogurt",
+                                                            "body": "Not at all, this stuff is incredibly simple to know and learn about. Judging people for their confidence in spite of their ignorance does not require me to think anything about myself, let alone be arrogant.",
+                                                            "score": -34,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Fake_Answers",
+                                                                    "body": "That may well be. But calling down an entire sub with a statement as you did *is* arrogant.",
+                                                                    "score": 23,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "DirtyYogurt",
+                                                                            "body": "Again, making a statement about others does not require me to think anything in particular about myself, but if you need this to recover emotionally then you can have it.",
+                                                                            "score": -34,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "Deses",
+                                                                                    "body": "Keep digging in.",
+                                                                                    "score": 16,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "DirtyYogurt",
+                                                                                            "body": "I mean I know I'm right. It's y'all's loss to keep living like technology hasn't advanced in the last decade, which is wild for a 3d printing enthusiast. Doesn't bother me either way though.",
+                                                                                            "score": -2,
+                                                                                            "replies": [
+                                                                                                {
+                                                                                                    "author": "Deses",
+                                                                                                    "body": "You are arguing with yourself, do you realize that?",
+                                                                                                    "score": 3,
+                                                                                                    "replies": [
+                                                                                                        {
+                                                                                                            "author": "DirtyYogurt",
+                                                                                                            "body": "What a weird thing to need to convince yourself of.",
+                                                                                                            "score": -2,
+                                                                                                            "replies": [
+                                                                                                                {
+                                                                                                                    "author": "Deses",
+                                                                                                                    "body": "Who are you talking to?",
+                                                                                                                    "score": 2,
+                                                                                                                    "replies": [
+                                                                                                                        {
+                                                                                                                            "author": "DirtyYogurt",
+                                                                                                                            "body": "You",
+                                                                                                                            "score": -1,
+                                                                                                                            "replies": [
+                                                                                                                                {
+                                                                                                                                    "author": "Deses",
+                                                                                                                                    "body": "Really? It felt like you are screaming at the void.",
+                                                                                                                                    "score": 1,
+                                                                                                                                    "replies": [
+                                                                                                                                        {
+                                                                                                                                            "author": "DirtyYogurt",
+                                                                                                                                            "body": "Honestly, describing the people here as \"the void\" would be charitable.",
+                                                                                                                                            "score": 0,
+                                                                                                                                            "replies": []
+                                                                                                                                        }
+                                                                                                                                    ]
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "DTO69",
+                                                    "body": "You stated your reality, now move along and be confidently wrong somewhere else",
+                                                    "score": 7,
+                                                    "replies": [
+                                                        {
+                                                            "author": "sevenofnineftw",
+                                                            "body": "He\u2019s not wrong though, I work in automotive engineering",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        },
+                                                        {
+                                                            "author": "DirtyYogurt",
+                                                            "body": "\ud83e\udd23 love it. Big \"I know you are but what am I\" energy.",
+                                                            "score": -4,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "DTO69",
+                                                                    "body": "First Gen LLM makes more sense than you",
+                                                                    "score": 0,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "DirtyYogurt",
+                                                                            "body": "Absolutely not surprised you're struggling to follow like 12 words.",
+                                                                            "score": 0,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "DTO69",
+                                                                                    "body": "Not even slightly amusing.",
+                                                                                    "score": 2,
+                                                                                    "replies": []
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "firestar268",
+                                                    "body": "Sure. For hybrids. Not regular traditional ICE",
+                                                    "score": -13,
+                                                    "replies": [
+                                                        {
+                                                            "author": "DirtyYogurt",
+                                                            "body": "What are you basing that on? Do you even know what the other methods are? Hint: being a hybrid has nothing to do with it.",
+                                                            "score": 9,
+                                                            "replies": []
+                                                        },
+                                                        {
+                                                            "author": "SonicKiwi123",
+                                                            "body": "Was about to say it depends on the manufacturer. BMW and Audi both have excellent start stop systems that wouldn't annoy me to use. Unfortunately my wallet forces me to use Chevrolet and Subaru, who have horrible start stop systems and are not hybrid in any capacity.\n\nBut then I realized, both of those German automakers pretty much exclusively make at least mild hybrids, not just pure ICE cars anymore. So maybe your point stands",
+                                                            "score": 5,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "firestar268",
+                                                                    "body": "Yep. Downvotes don't get my point \ud83d\ude02",
+                                                                    "score": 1,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "SonicKiwi123",
+                                                                            "body": "I think most people just don't realize that there's many cars which are \"mild hybrids\" that don't really advertise that fact much, and a lot of these vehicles don't \"feel\" like hybrids. The perception of hybrids for some people is still things like the Prius. The funny thing is that these days, the 2025 Prius has some gut to it for a commuter car. I'm not calling it an enthusiast's car but it can leave a base level civic or a RAV4 or a CR-V in the dust.",
+                                                                            "score": 2,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "LeNigh",
+                            "body": "Most of your argument is stuff OP already paid for so how is it even an argument at this point?",
+                            "score": 16,
+                            "replies": []
+                        },
+                        {
+                            "author": "Synthacon",
+                            "body": "I mean\u2026 just don\u2019t buy the car if the price is too high? The car comes with the battery and starter it needs to have this feature.",
+                            "score": -37,
+                            "replies": [
+                                {
+                                    "author": "firestar268",
+                                    "body": "Car purchase price isn't the big issue. The big issue is when it comes time to replace those parts (whether for the original owner or the 2nd/3rd owner). The amount of fuel savings do not compensate for the extra expenses of having the heavy duty starter and battery in the first place. \n\nI'd rather just get a regular hybrid or a PHEV where the extra cost is actually offset mostly by the fuel efficiency",
+                                    "score": 19,
+                                    "replies": [
+                                        {
+                                            "author": "Synthacon",
+                                            "body": "Do you have a source for that?",
+                                            "score": -14,
+                                            "replies": [
+                                                {
+                                                    "author": "firestar268",
+                                                    "body": "\\>Rising fuel prices also would help slash the premium. At $3.50 a gallon and 15,000 miles a year, it would take 6.6 years on fuel savings alone to earn back the premium for a hybrid that gets 35 mpg and costs $4,000 more than a gas-only car that gets 25 mpg.\n\nhttps://www.edmunds.com/fuel-economy/the-real-costs-of-owning-a-hybrid.html#:\\~:text=At%20%243.50%20a%20gallon%20and,car%20that%20gets%2025%20mpg.\n\n[https://www.calculator.net/fuel-cost-calculator.html?tripdistance=14000&tripdistanceunit=miles&fuelefficiency=50&fuelefficiencyunit=mpg&gasprice=3&gaspriceunit=gallon&x=Calculate](https://www.calculator.net/fuel-cost-calculator.html?tripdistance=14000&tripdistanceunit=miles&fuelefficiency=50&fuelefficiencyunit=mpg&gasprice=3&gaspriceunit=gallon&x=Calculate)\n\nTheres an example above. And you don't need sources (for the most part) if you can do basic calculations with gas prices in your area and distances driven with prices of hybrid/non-hybrid cars of the same make. You can easily estimate when you will break even and or be cheaper than repair costs.\n\nObviously, if a person does not drive much, the savings will be negligible and its better to just get the cheaper car. ymmv",
+                                                    "score": 9,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Synthacon",
+                                                            "body": "Sources for the higher repair costs bud. This is the biggest old wives tale that\u2019s repeated on Reddit by people who are not mechanics.",
+                                                            "score": 2,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "firestar268",
+                                                                    "body": "Ok then, cite your counter argument sources",
+                                                                    "score": -8,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Unexplored-Games",
+                                                                            "body": "That's not how the world works bud. You need to give sources that back up your claim, the burden of proof is on you",
+                                                                            "score": 0,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "BriHecato",
+                                    "body": "+1. This post is a trash\nIs like saying that one used all the money to purchase wallet and whining that do not have any money left.\n\nWhy buying tiguan if one hate it's features? ... Could bought any A or B or C class. Not suv. That simple.",
+                                    "score": 5,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Doobage",
+                            "body": "The heavy duty starter should be in the vehicle already. It shouldn't require a more heavy duty battery. Unless you are starting and stopping every 30 or so seconds for a period of time?",
+                            "score": -1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Myriadix",
+                    "body": "I'm convinced it's because people build the bad habit of inching forward at stop lights. \n\nI have a newer Honda and it actually works as intended. The only real problem I've noted is that it isn't factored into the computer's MPG number, so it's off by 1-2 mpg when I check it at the pump.",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "MatsRivel",
+                    "body": "I drive a car with this for a bit. I can't imagine it saved much fuel in my typical traffic situation: Drive 2m, stop for 3-5 sec, repeat.\n\nSurely starting and stopping the engine repeatedly has to be less efficient? But I don't really know.\n\nNow I drive a hybrid, so I just roll along on my electric when I'm in traffic",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "deadarcher",
+                    "body": "I",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "Actually__Jesus",
+                    "body": "On the hot 110\u00b0F day, when sitting in traffic, the AC can\u2019t keep up with the engine off so much. The car turns into a sweat lodge. I\u2019m with OP, fuck that feature.",
+                    "score": 38,
+                    "replies": [
+                        {
+                            "author": "BlackCatFurry",
+                            "body": "That's just bad design on the manufacturers side.\n\nMy SEAT (Volkswagen group car) only uses auto start stop if the conditions are right, so not too cold, not too warm and the engine has sufficiently warmed up.",
+                            "score": 36,
+                            "replies": []
+                        },
+                        {
+                            "author": "marcosg_aus",
+                            "body": "Interesting my VW won't turn off the engine if the AC cannot keep up... and thats an 11 year old car.",
+                            "score": 66,
+                            "replies": [
+                                {
+                                    "author": "potatocross",
+                                    "body": "Yea I have a ford and under max heat or max ac or a few other conditions it won\u2019t turn off. The hate for the feature literally makes no sense to me personally. \n\nBut I will say some people report in some cars it\u2019s rough restarting. For me I hardly notice anymore when it stops and starts. I start letting off the brake before it\u2019s time to go so it\u2019s already restarted before I get close to the gas.",
+                                    "score": 18,
+                                    "replies": [
+                                        {
+                                            "author": "marcosg_aus",
+                                            "body": "Yeah and I need to put my foot down all the way on the brake for it to kick in.\n\nSo I can come to a complete stop without activating it",
+                                            "score": 6,
+                                            "replies": [
+                                                {
+                                                    "author": "potatocross",
+                                                    "body": "Mine will kick in even if I\u2019m hardly on the brake, but the second I press harder, release slightly or turn the wheel at all, it restarts.",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Salamandar3500",
+                                    "body": "Same here. It looks like european cars are way smarter than american cars when it comes to start and go...",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "ZestyPotatoSoup",
+                                            "body": "I live in America and our car won\u2019t auto stop in extreme temperatures. If it\u2019s hot in the car it will not auto stop. Honestly think some people just hate the idea of the feature without actually having a new enough car with it and just make up shit.",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "cat_prophecy",
+                            "body": "I've never had an issue with it in my Volvo. If it's too hot or too cold it simply doesn't use the auto stop/start.",
+                            "score": 29,
+                            "replies": []
+                        },
+                        {
+                            "author": "lscarneiro",
+                            "body": "For those days, there's the button.",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "Actually__Jesus",
+                                    "body": "Then I have to push the button for 2/3 of the summer. I\u2019d rather it not do it at all. At least let the user opt out to default off in the settings.",
+                                    "score": 4,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Knicklas",
+                            "body": "If thats the case my car will just start automatically again...\n\nI drove a 99 Honda Prelude which didn't have ASS and always hated it aswell when i drove a company car that did, but i had to get a new car last october and it really isnt that bad of a feature when implemented nicely",
+                            "score": 4,
+                            "replies": []
+                        },
+                        {
+                            "author": "ajnozari",
+                            "body": "My Highlander won\u2019t turn off if the climate won\u2019t keep up.\n\nNever even thought that wasn\u2019t standard until now.",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "jayrady",
+                            "body": "So when it's 110, click it off. Easy",
+                            "score": 0,
+                            "replies": []
+                        },
+                        {
+                            "author": "Glass-Manager9232",
+                            "body": "There\u2019s no way your system is turning off the AC in that kind of heat. \n\nIf it turns off, it\u2019s not more than a few seconds. A minute maybe tops. \n\n\nget your AC checked.",
+                            "score": -2,
+                            "replies": [
+                                {
+                                    "author": "Actually__Jesus",
+                                    "body": "When I\u2019m sitting there for more than a minute or two it turns into a warm, humid box of gross. It\u2019s one of the reasons we sold the car.",
+                                    "score": 4,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Benwa_Ballz",
+                    "body": "Come to a full stop at a stop sign. Cars turns off. Press the peddle and have to wait for my car to turn on and move. Doesn\u2019t feel safe at all.",
+                    "score": 18,
+                    "replies": [
+                        {
+                            "author": "centenary",
+                            "body": "I dislike the feature too, but on my car it at least restarts the engine when you lift off the brake so that the engine is ready sooner.  It doesn\u2019t even require you to fully release the brake, just a partial release, so you can restart the engine even while remaining stationary.",
+                            "score": 27,
+                            "replies": [
+                                {
+                                    "author": "IridiumIO",
+                                    "body": "Yeah mine won\u2019t even engage the auto stop unless I\u2019ve firmly depressed the brake. If I come to a soft stop the car remains running, and it\u2019s only if I firmly apply the brake (like halfway to the floor) then it switches off the engine.",
+                                    "score": 6,
+                                    "replies": [
+                                        {
+                                            "author": "Benwa_Ballz",
+                                            "body": "Looking to trade in sometime next year. Whatcha driving?",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Benwa_Ballz",
+                                    "body": "Staying away from Hyundai for the next car. Too many silly issues. What are you driving? Would you recommend it?",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "centenary",
+                                            "body": "2020 Volkswagen GTI.  I only recommend it if you\u2019re into performance on a budget.  It kills me how much the interior rattles \ud83d\udc80",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Benwa_Ballz",
+                                                    "body": "I\u2019ve always had a soft spot for GTIs. Good to know. Cheers!",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "LockpickNic",
+                            "body": "You have to hit the gas to start it back up?",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "dogfud26",
+                                    "body": "No - it starts back up immediately after relieving brake pressure. Idk what the op comment was about.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Benwa_Ballz",
+                                            "body": "Test drive a Kona and find out. I shut off the start stop because it\u2019s too intrusive for me. And I tend to be light on the brake and gas when possible. I avoid rolling stops like the plague due to tickets in the past so maybe that\u2019s the issue? The hood rises up from momentum stopping and so does the engine",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "jossser",
+                            "body": "It's same or even more time for manual / clutch",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Benwa_Ballz",
+                                    "body": "Dear lord \ud83e\udd74",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "ZestyPotatoSoup",
+                            "body": "You can full stop without putting the pedal to the floor. Most of these things won\u2019t kick on with a 30% pedal press.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Benwa_Ballz",
+                                    "body": "Right. Most. Not here though sadly. Once the hood lifts up from the full stop, no matter where the brake is. It shuts off. The time it takes me to go from the brake to the gas. The car still hasn\u2019t started up and stutters back to life.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "TomatoTheToolMan",
+                    "body": "It saves relatively little fuel for the miserable experience that it can provide.\n\nIn a hybrid, it often works very well because with the gas engine stopped at a light you can press the gas pedal and start moving immediately under the power of the electric motor, while the second electric motor starts up the engine.\n\nIn a fully gas car, it often takes a half second from when you press the pedal to actually start moving forward.  \n\nThat delay can be downright dangerous if you're trying to turn onto a major road from a side street, and you need to slip in between cars.\n\nSure, you can learn the car to work around it by just pressing the gas pedal earlier, but if someone less experienced in THAT particular car tries to drive it, they can run into issues.\n\nBasically,  wel-executed ESS in a hybrid wotks amazingly and leads to a smooth and seamless experience, but poorly executed ESS is horrendous.",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "Kiiidd",
+                    "body": "Saves a little amount of fuel at the cost of maintenance on multiple different parts of your car that the dealership will happily empty your wallet out fixing",
+                    "score": 12,
+                    "replies": [
+                        {
+                            "author": "splitlikeasea",
+                            "body": "1. Saves a lot on fuel\n2. Cars that have ass, have components that are designed for ass so they don't require additional maintenance.  They add a cost when buying and part change but they make it up and more in fuel. \n\nAss suffered from a rocky enforcement that pushed a not-production ready system to every car in the name of regulation but almost all the issues were ironed out in just a few years. \n\nIt still suffers from the bad rep. \n\nLike EVs. People still say EVs don't have the range, network or serviceability ( those people also often refer to EVs as Teslas )  for a fucking 10 mile commute and occasional 300 mile road trip.",
+                            "score": 20,
+                            "replies": [
+                                {
+                                    "author": "acemandrs",
+                                    "body": "It does not save a lot on fuel. My car tracks it and I have saved all of 2 gallons after 40,000 miles. Granted I am not in a big city with long lights or traffic jams.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "RSTONE_ADMIN",
+                    "body": "Damage to the engine and overall feel of it seem to be the things people don't like.",
+                    "score": -7,
+                    "replies": [
+                        {
+                            "author": "Sinister_Mr_19",
+                            "body": "There's no damage to the engine. If anything having it turned off saves tiny amounts of wear.",
+                            "score": 11,
+                            "replies": [
+                                {
+                                    "author": "somewherearound2023",
+                                    "body": "I've got a 2010 honda with 270,000 miles on it.\u00a0 Auto start still works the same as the day I bought it.\u00a0",
+                                    "score": 11,
+                                    "replies": [
+                                        {
+                                            "author": "Sinister_Mr_19",
+                                            "body": "Exactly because automotive engineers are smart and beef up the starter to compensate. If they didn't we'd all be hearing about starters going bad at abnormal rates.",
+                                            "score": 10,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "carrottread",
+                                    "body": "Those additional starts after stops are done with every part already heated to operating temperatures and everything lubricated by oil. It should be \"easy mode\" for every part involved compared not only to cold start but even to regular idling.",
+                                    "score": 4,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "None",
+                            "body": "[deleted]",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "Sinister_Mr_19",
+                                    "body": "The starter is beefier to compensate.",
+                                    "score": 8,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "tharilian",
+                                    "body": "I mean, to be honest, can\u2019t see how the tear and wear can be refuted.\n\n\nIf you use your started 400 times in a year vs 4000 times, how can that the tear and wear be refuted?",
+                                    "score": -5,
+                                    "replies": [
+                                        {
+                                            "author": "everburn_blade_619",
+                                            "body": "The starter isn't part of the engine. Starters on engines with auto start-stop technology aren't designed the same as a starter from a 30 year old Honda Civic. They're designed to be significantly heavier-duty and handle hundreds of thousands of starts before being replaced. For reference, Toyota sends a fault code to the ECU at **384,000** starts.",
+                                            "score": 17,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "None",
+                                            "body": "[deleted]",
+                                            "score": 13,
+                                            "replies": [
+                                                {
+                                                    "author": "jcforbes",
+                                                    "body": "As an owner of a car shop: No. Starter replacements have *drastically* declined since the early 2000s. Even correcting for vehicle age (ie in 2014 I was replacing starters on 2004+ cars but in 2024 I didn't replace *not even one* starter on a 2014+ car).",
+                                                    "score": 15,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "tharilian",
+                                                    "body": "How do you expect me to have those statistics?\n\nI\u2019m just going by basic logic here.\n\nAll machineries have a limited number of use before something eventually breaks.",
+                                                    "score": -12,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Sinister_Mr_19",
+                                                            "body": "Basic logic would also tell you that engineers have thought of that and use beefier starters to compensate. Come on man, use your brain.",
+                                                            "score": 12,
+                                                            "replies": []
+                                                        },
+                                                        {
+                                                            "author": "rust-module",
+                                                            "body": "> How do you expect me to have those statistics?\n> \n> I\u2019m just going by basic logic here.\n\nProbably by looking things up instead of making things up.",
+                                                            "score": 13,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "tharilian",
+                                                                    "body": "Guess logic is not your fort\u00e9.\n\nWhether you like it or not, my last point still stands.",
+                                                                    "score": -20,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "author": "cat_prophecy",
+                                                            "body": "So you're saying that you're willing to argue that it causes premature failure but have no data to back it up?",
+                                                            "score": 9,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "tharilian",
+                                                                    "body": "Simple logic:\n\nTwo switches: one is pressed once a day, one is pressed 100 times a day.\n\nWhich one will fail sooner?",
+                                                                    "score": -5,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "lowlevelgoblin",
+                                                                            "body": "this assumes both switches are the same so it's already false equivalency",
+                                                                            "score": 10,
+                                                                            "replies": []
+                                                                        },
+                                                                        {
+                                                                            "author": "cat_prophecy",
+                                                                            "body": "So your data is \"this feels right\"?",
+                                                                            "score": 11,
+                                                                            "replies": []
+                                                                        },
+                                                                        {
+                                                                            "author": "ZestyPotatoSoup",
+                                                                            "body": "Are they the same switch? Or is one an optical switch vs mechanical? Who compares 2 things and just doesn\u2019t do any further research and assumes they\u2019re identical?",
+                                                                            "score": 1,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "author": "AbsurdKangaroo",
+                                                            "body": "Unless they used a higher rated one to start with in which case no change",
+                                                            "score": 8,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Wivi2013",
+                                    "body": "And also the natural slight heat cycling the metal gets. Even if it is in brief periods, it helps a little... even tho it is hard to say with certainty.",
+                                    "score": -1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Skysr70",
+                                    "body": "what studies, this contradicts common sense",
+                                    "score": -12,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "user975A3G",
+                    "body": "Saves fuel, but repeated starts and stops wear out the engine faster",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "ZestyPotatoSoup",
+                            "body": "Source? These things are designed to turn off at the optimal time to reduce ware from idling and save gas.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "user975A3G",
+                                    "body": "It's to lower emissions, not to reduce wear\n\nIdling for a long time can be bad for a car, but idling for a minute at a red light is no problem\n\nMost wear in engines occurs when starting the engine due to low oil pressure before the oil pump gets going, low oil pressure -> not enough lubrication -> more wear\n\nAlso more use of starter motor, so more wear on that and also on battery\n\nStart and stop engines use oils designed to minimize it, but it can't be fully avoided\n\nIf it was combined with an electric oil pump, then why not\n\nHybrid cars face similar issues, but even more prominent as when the combustion engine is off there is much less heat -> colder oil -> colder oil is thicker -> less lubrication -> more wear\n\nAnd yes it does save gas, but only if you stop for longer than 10-20 seconds, if less then fuel usage during start will be more than would idling for that time would be",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Taracair",
+                    "body": "After I almost ran into car accident because it didn't work (didn't trigger after gently pressing clutch while being on roundabout) when it should, I'll always disable it.",
+                    "score": -3,
+                    "replies": [
+                        {
+                            "author": "Tal_Vez_Autismo",
+                            "body": "I'm confused. Your car was running and it didn't engage? Or it wasn't running and slightly pressing the clutch should have made it turn on? How would slightly pressing the clutch allow you to do something to avoid an accident? On mine if I push the clutch enough to get it in gear, which I'd obviously have to do to maneuver away from an accident, it always turns on. Yours just didn't? Even when you had it in gear?",
+                            "score": 10,
+                            "replies": [
+                                {
+                                    "author": "Taracair",
+                                    "body": "I was in neutral, the car was barely moving because I was going down (gravity). Like when you break after reaching the roundabout, and then you want to engage the engine and move - and it was like \"I'm dead mate\".\n\nDacia.\n\nAnyway! I just don't use this system.",
+                                    "score": -4,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "apocketfullofpocket",
+                    "body": "It sucks.",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "stupefy100",
+                            "body": "thank you for the insightful explanation",
+                            "score": 0,
+                            "replies": [
+                                {
+                                    "author": "apocketfullofpocket",
+                                    "body": "No problem",
+                                    "score": 0,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "sogwatchman",
+            "body": "\"Hey Fuck Ass, get me a beer.\"",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "Advocate_For_Death",
+                    "body": "Came looking for this comment! I once pissed off a bartender friend and got tossed out until I apologized when sober by drunkenly quoting this one night.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "sogwatchman",
+                            "body": "A penny saved is worth two in the bush, innit?  \nAnd don't cross the road if you can't get out of the kitchen.\n\nLove that movie.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "Advocate_For_Death",
+                                    "body": "Same. It aged like fine milk though\u2026 they\u2019re basically jihadists. lol",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "IrnBroski",
+            "body": "What\u2019s a fuckass?",
+            "score": 10,
+            "replies": [
+                {
+                    "author": "GinTectonics",
+                    "body": "How exactly does one suck a fuck?",
+                    "score": 9,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Inertpyro",
+            "body": "You can buy a $12 cable to disable it, no programming needed, plug and play.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "joestradamus_one",
+            "body": "Auto stop start is such a minuscule no big deal thing that everyone massively blows out of proportion. I mean truly first world problems.",
+            "score": 23,
+            "replies": [
+                {
+                    "author": "YadaYadaYeahMan",
+                    "body": "thanks for saying it",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "MaterCityMadMan",
+            "body": "I bought my mother a chevy Malibu that does that crap. No button and no option to disable it. However, it takes 7 lbs of pressure on the brake pedal to activate it. She and I have both learned to only put enough pressure to keep it from rolling.",
+            "score": 18,
+            "replies": [
+                {
+                    "author": "Comprehensive_Car287",
+                    "body": "The 2024 has a button on the Malibu if that makes you feel any better. It also has a habit of stalling with auto start stop enabled.",
+                    "score": 8,
+                    "replies": [
+                        {
+                            "author": "MaterCityMadMan",
+                            "body": "Sadly, mom's is a 2014. But it only has 49,000 miles!",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "Comprehensive_Car287",
+                                    "body": "That year is the better one. 2020 to 2024 has a habit of melting the pistons at 80k. Chevy still can't figure out how to tune a turbo l4",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "KhausTO",
+                    "body": "You'll want to check that this supports your year https://www.rangetechnology.com/platform/chevrolet/malibu/products/start-stop_disabler/",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Yars__Revenge",
+            "body": "It's amusing to see all of the commenters just blindly assuming that manufacturers have built better systems to account for this. In a perfect world I'm sure the engineers get to take their time and design and test the best components for auto stop start.\u00a0\n\n\nIn the real world they are squeezing money from every part that they can. They aren't targeting the best part or implementation. They're targeting one that just sneaks past whatever warranty they have.\u00a0",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "LetJesusFuckU",
+            "body": "People in glass houses,  sink ships.",
+            "score": 11,
+            "replies": [
+                {
+                    "author": "stkyrice",
+                    "body": "I got to buy you a proverb book or something, because this mix \u2018n\u2019 match shit\u2019s got to go.",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "Virtike",
+                    "body": "It can be genuinely frustrating and annoying. My Subaru will occasionally wait until juuust the last second before the light changes, and ***then*** kill the engine, just as the light goes green.",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "LetJesusFuckU",
+                            "body": "This is a boondock saints reference, no more no less.",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "Virtike",
+                                    "body": "Ahh",
+                                    "score": 0,
+                                    "replies": [
+                                        {
+                                            "author": "LetJesusFuckU",
+                                            "body": "https://youtu.be/a78mC5n5EqY?feature=shared",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Selenthys",
+                            "body": "So you lose one whole second stopped at the light ? Infuriating indeed !",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "Deses",
+                            "body": "It's so annoying. I've grown used to just disabling it as one of the steps before start driving. It's only useful when there's a traffic jam.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "mbb1989",
+            "body": "Ali express has a cable. B2bfab has a cable too. Been using it from 20k to 68k miles on my 2021 sel",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "terrorhai",
+            "body": "I like how you can code it in an A4 B8, so that it works the other way around and you have to actively activate the button.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "a-aron087",
+            "body": "FYI B2B Fab sells a kit that \"presses\" the button as soon as the car starts. Still allows you to enable it if needed too.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Hexx-Bombastus",
+            "body": "My 09 honda fit's Cruise Control button has a mechanical latching switch to keep CC turned on. The latch gave up the ghost and afaik the only way to fix it is to replace the whole damn wheel. I literally tied some parachord around a binderclip with a wooden dowel in it to effectively tie the button down. CC still works and all I have to do to stop the car from maintaining speed is tap the breaks once to disable it.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Geek_Verve",
+            "body": "Not sure that means what you think it means.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "h0lz",
+            "body": "Yeah. \nStupid environment regulations.  \nThey make you save money _and_ the environment.\nWho would really want that?",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "Capt_Rex_CT-7567",
+                    "body": "Does Taylor Swift's jet turn off its engines while waiting on the tarmac?",
+                    "score": -3,
+                    "replies": [
+                        {
+                            "author": "moenke",
+                            "body": "Planes switch off engines on taxi, yes",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "NedDarb",
+            "body": "Had an Atlas and Audi A5 with it. Found it pretty easy to just twitch the steering wheel a little to start it without letting off the brake pedal.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "SonicKiwi123",
+            "body": "At least you have a button to disable it. Hahaha... *Laughs in gen 3 Chevy Equinox*\n\nI had to wire my hood latch switch backwards. Somehow, if you do this, every other part of the car still sees the hood as being closed, it shows as open when I open it... BUT whatever module decides whether or not A.S.S. can be initiated sees the hood as being open and since the hood must be closed in order for start stop to trigger, it never does\n\nOn my friend's Subaru Forester, we put a little circuit inline with the start stop toggle button that detects when the car starts, waits ten seconds, then simulates a button press on the start stop button. They make these to be bought off the shelf or you can do it with an Arduino zero. Works great.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "biztactix",
+            "body": "Was the same with Subaru... However I found that when you have a trailer attached it doesn't ass...\n\nSo in the trailer hitch plug there's a reed switch and magnet... Pulled the magnet... Now it thinks there is always a trailer attached... But it doesn't stop anymore",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "IranticBehaviour",
+            "body": "My Rav4 has it. Hate it. I get that it theoretically saves gas, but in practice it's so annoying. It'll turn off at a light, but if you so much as shift your foot, it'll roar back to life. It'll turn off when you stop to park, but as soon as you put it into park, it turns back on. It at least pays attention to the outside temperature and self-disables if it decides you really need climate controls to be working.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Kafshak",
+            "body": "Turn on ironing mode to make it smooth.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "adrutu",
+            "body": "There are software ways to.disable. look into long coding with a canbus/obd Bluetooth adapter",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "VeskMechanic",
+            "body": "I'm from r/ElectricVehicles and what is this?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "kdegraaf",
+                    "body": "Yup.\n\nPeople have been bullshat into believing that EVs are only about the environment/climate. And yes, they're better per mile on carbon over their lifespan, but there are so many more reasons to switch.\n\nThe combination of instant torque and one-pedal-drive is a huge one for me. I could never go back to ICE, especially with this auto-start/stop crap.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "NerfSingularity",
+            "body": "I\u2019m sorry I\u2019m drunk and can\u2019t take this post seriously I keep cracking up",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Billionaire649",
+            "body": "I fuck with this. Nice job. Community service",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ajw2285",
+            "body": "Just buy the VW plug off aliexpress. I have one installed in my atlas and it is amazing. It was like $12.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "GingerVitisBread",
+            "body": "I have always hated this new trend since I live in MN, when it's -40 and I have to get to work, I DO NOT want to press a button every time I start my car or risk having it shut off and not start again at a stoplight. This is not how we make progress.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "sevenofnineftw",
+                    "body": "It only works when the battery is sufficiently charged and the engine is at temp. There is no risk of this happening",
+                    "score": -1,
+                    "replies": [
+                        {
+                            "author": "GingerVitisBread",
+                            "body": "\"sufficiently charged\" the alternator charges at over 14V, how would any point in the system know what the battery will be at after 30 seconds in -40./, especially if the lights are on and the heat is blasting.",
+                            "score": -1,
+                            "replies": [
+                                {
+                                    "author": "sevenofnineftw",
+                                    "body": "All of the ECUs know how charged the battery is because they get their voltage from the 12v battery. It\u2019s not true that the alternator only charges over 14v. A low battery is usually something like 11.5v at idle, while it will be more like 12.1-12.4V on a high charge when the engine is off. The battery does not rapidly discharge in the cold. It takes quite a while of parasitic drain to lower it significantly, and once that happens the engine turns back on again before the battery gets too low.\n\nStart stop systems also monitor the engine temperature and won\u2019t work if the engine is cold. It takes MUCH less energy and fuel to start a warm engine than a cold one, because the stoichiometric ratio required is much leaner.\n\nFinally, LED lights use virtually no energy. The heat for the cabin comes from residual heat from the radiator, the car is just running a fan because your engine is already hot. Very little is being drawn from the battery",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "GingerVitisBread",
+                                            "body": "My coworker's 2021 ford would shut off at the stop sign 1 minute after leaving work, so obviously it doesnt know when it should or should not ASS",
+                                            "score": -1,
+                                            "replies": [
+                                                {
+                                                    "author": "sevenofnineftw",
+                                                    "body": "It definitely does, I work in automotive engineering. I\u2019m guessing it was some combination of: warm outside, battery is new so it was already quite charged, it\u2019s a hybrid or mild hybrid system with a HV battery just for start stop, the engine had already been warm from driving earlier that day. They use all of these variables from the engine and battery state to make this decision. It will NOT leave you in a situation where it can\u2019t start",
+                                                    "score": 2,
+                                                    "replies": [
+                                                        {
+                                                            "author": "GingerVitisBread",
+                                                            "body": "You may work in the automotive industry, but when is the last time you had to get a jump start? When is the last time you were out in the woods at night after a fishing trip? How new of a car do you drive right now? In 10-15 years and 150,000 miles will that system still work like it did when it was new? Don't tell me about how your designs will never leave you stranded. I will never put my faith in anything that was designed by an engineer who's life didn't depend on it.",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "sevenofnineftw",
+                                                                    "body": "lol, so I\u2019m just telling you the facts, not sure why this is so controversial. These systems are very sensitive to battery conditions, and ALL cars have battery management systems that monitor not just the charge of the battery but the health of the battery. It WON\u2019T work on an old battery that isn\u2019t able to hold a sufficient charge or is worn out. Engineers have a duty to protect human life and in the automotive industry this is taken especially seriously. I\u2019ve boosted tons of cars, almost never on cars newer than 2018 with these systems because they have smarter battery management systems. Things happen if it\u2019s been sitting by for a while in the cold, but it won\u2019t just stop working at a stop light because it won\u2019t turn off due to start stop in the first place.\n\nI live in Canada with the same conditions as Minnesota or other northern states. I promise you, you can put your mind at ease that these systems are designed with all of your concerns in mind",
+                                                                    "score": 2,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "GingerVitisBread",
+                                                                            "body": "I guess I just hated that my 2017 VW Tiguan left me stranded more than once with less than 100,000 miles and it had a new battery and <6000 mile oil in it at all times. I never felt so much relief with a vehicle as when I traded that POS in for a 2013 Silverado with more miles on it. Only thing I need to do on that is disable the cylinder shut off. If nothing else, I can work on that without triple square and torx bits of every shape and size.",
+                                                                            "score": 1,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "sevenofnineftw",
+                                                                                    "body": "I\u2019m sorry that happened. There\u2019s so many variables that can contribute to a car not starting, I definitely agree with you that VWs suck lol. I\u2019m still firmly on the side that start stop as a concept had nothing to do with that issue due to the reasons I outlined above, and more likely that you had a lemon/your average VW",
+                                                                                    "score": 3,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "GingerVitisBread",
+                                                                                            "body": "It didn't have start stop, but that definitely doesn't make me trust ASS any more. I would back vehicle manufacturers designs more if their business model wasn't purely built on profit. You buy any vehicle newer than 2020 and headlight assemblies cost $2000, injectors aren't standardized, changing the oil has to be done at a shop because the subframe has to be lowered, the list goes on and on.",
+                                                                                            "score": 1,
+                                                                                            "replies": []
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Capt_Crunchy_Nut",
+            "body": "My GTI did the same thing so I built a relay to \"press\" the button on ignition start every time. Essentially I was able to retain functionality but have it off by default. All hidden away.\n\nConsider an OBD programming change. It'll permanently disable it.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Luthais327",
+            "body": "You can take it to the dealer and ask them to disable it.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Telewubby",
+            "body": "You can use a Arduino nano or some ic to activate a relay for a second  when it senses a 12v input taken from accessory power to simulate a button press",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Kazer67",
+            "body": "Look how your battery is hooked, there should be an additional, smaller cable that you can unplug physically and it will not stop/start at red light / stopped and stay on.\n\nThat's how I disabled it on my Renault Clio IV.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "PrintedIt",
+            "body": "Peugeots don\u2019t have a button. It\u2019s in the settings menu via a screen. Rip",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Lasers_Z",
+            "body": "There's a thing you can buy for it probably. I know other cars have a thing you can install that let's you leave it off.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Pleasant_Mobile_1063",
+            "body": "In Ford f150's you can just unplug the fuse that goes to the trailer lights, if your not hauling a trailer you would never know the difference, it disables ass as well. Super easy to switch back if you need to haul a trailer",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "JeyFK",
+            "body": "You can disable it with ODB",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ordinary-Depth-7835",
+            "body": "Yeah its annoying I used OBDEleven on my S3",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "_mrOnion",
+            "body": "This is the funniest post",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TheXypris",
+            "body": "What's auto start stop?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Hexx-Bombastus",
+                    "body": "Modern fuel powered cars will literally turn the engine off when you're stopped at a red light to save fuel. It also stops the AC as well. And then starts the car again when you let off the breaks. This puts tons of wear and tear on the starter as well to save a few ounces of fuel a day. It's a bad solution to a minor problem.",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "audeus",
+            "body": "I have the same thing on a Chrysler Pacifica. I was able to find a bypass electronic device designed specifically for this purpose. It was life-changing for me. God I hate that auto stop start feature",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "adrasx",
+            "body": "From an electronics and software perspective it seems to be a nightmare to have a button constantly pressed. I hope I'm wrong and wish you the best of luck.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "jsunjones",
+            "body": "out of curiosity, do you have a towing package/hitch?  I know on my wife's ford edge i just put a small light tester into the electrical connection for the trailer and it will think it's in tow mode and disable ASS",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MrHasuu",
+            "body": "Does this actually works? I'm gonna hold down the button next time I start my car. If it works I'm printing one too. (I have a Hyundai)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "foremi",
+            "body": "you could easily change the button to remember it's setting with vcds or obdeleven.\n\n  \nConsidering dealer tech's probably have a 25% success rate on proper coding for replacement modules, it will never be a warranty issue.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Regular_Empty",
+            "body": "Look into VCDS or an OBD11.  I have a GTI and you can code out things like this, I have mine set to permanently off.  I do agree with you though I wish you can fully disable it from the menus.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Material-Growth-7790",
+            "body": "VAG-COM can most certainly disable it.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "yoitsme_obama17",
+            "body": "What's wrong with auto start stop",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "JettaGuy83",
+            "body": "Where is the cutout picture of Fuck Ass from Boondock Saints?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "AmmoJoee",
+            "body": "I bought a cable on Amazon for $20 on the Chevy.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "xlr8_87",
+            "body": "Hey at least you've got a button. On my new Amarok you have to go through the touch screen to disable every time you get in the car.\n\nIt's only a few clicks through menus but would still prefer it stays off until I tell it to stay on.\n\nI'm not worried about the wear and tear on the battery/starter - it's just annoying in an Aussie summer when it auto switches off and the AC goes to about 10%",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "mastawyrm",
+            "body": "Obd eleven or vcds. Set the minimum voltage for start stop way high.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Chuuno",
+            "body": "Lots of comments saying you can disable via software, I like your solution best.\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "iluvhalo",
+            "body": "I have a Tazer in my Jeep made by Z automotive which does a variety of things, including disabling ASS. You might see if there's something out there for VWs.\n\nEDIT: Cool, thanks for the downvote. Anyway, I did a quick search, [OBDEleven](https://obdeleven.com/) seems to be what people use for VWs. At first it looked like just an OBDII scanner, but they have things in their app that allow you to control a wide variety of settings on your car. They had ASS disable listed on their 2017-2020 Tiguan page. Not sure what year you have, I just picked one.",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "cassiuscjohnson",
+            "body": "Thanks for the boondock saints reference!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ill-Vehicle-6810",
+            "body": "Put a time time delay relay in so it signals the button at a set time after every start up",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Capt_Rex_CT-7567",
+            "body": "I hate when I am waiting to make a left turn where I only need to stop for a second or two and it decides to shut off right as I'm going to go again and then it lurches back to life. Fortunately on our Forester there is a cheap fix on amazon which seems to just default the feature to off at startup.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "PadreSJ",
+            "body": "I've got that on the little Fiat Punto that we have at our house in Rome. I HATE it with a passion. I grew up driving crappy, run-down cars that I constantly needed to repair to keep running, so when I forget to turn off ASS and the engine shuts down when i come to a stop, I always have a moment of terror that the engine has just died in the middle of traffic.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "rust-module",
+            "body": "Ok, just don't want to hear you complaining about gas prices.\n\nEdit: lol the gas guzzlers are mad",
+            "score": -13,
+            "replies": [
+                {
+                    "author": "ChipSalt",
+                    "body": "He'll just make another button called Fuck Fuel And Costing Extra",
+                    "score": 7,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Causification",
+            "body": "Imagine the wear that puts on your battery and starter motor. Hell, imagine what the constant loss of oil pressure does to your piston rings. What a horrible \"feature\".\u00a0",
+            "score": -12,
+            "replies": [
+                {
+                    "author": "rust-module",
+                    "body": "The battery is designed to be fine with it. The starter motor is designed to be fine with it. The whole assembly is designed miles better than how cars were made in the 90s. The increased wear and decreased lifetimes are largely myth now.",
+                    "score": 26,
+                    "replies": [
+                        {
+                            "author": "steffanan",
+                            "body": "Agreed, people still talk about this as though it's brand new and any day now there's about to be a storm of starter replacements and electrical issues. This is so common on every vehicle out there at this point and has been for so long, people are just so old fashioned and stubborn and self certain it drives me nuts. Now the lurching that these do when they start is annoying but not damaging on anything so meh. Imagine how many hundreds of thousands of vehicles across the world are at stop lights burning gas all at once, seems like a pretty logical feature to me in the grand scheme of fuel savings to me.",
+                            "score": 12,
+                            "replies": [
+                                {
+                                    "author": "rust-module",
+                                    "body": "> Now the lurching that these do when they start is annoying\n\nThat's why a hybrid is great. The electric motor instantly starts rolling, and has much higher torque at low speeds than an ICE. There's a reason 100% of diesel locomotives generate electricity for electric motors -- it's only recently that the technology has scaled down enough for cars to be effective.",
+                                    "score": 7,
+                                    "replies": [
+                                        {
+                                            "author": "steffanan",
+                                            "body": "Agreed, my wife has a Rav 4 hybrid and it's ultra smooth and the fuel efficiency is great. I'm super on board with those.",
+                                            "score": 6,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "nitePhyyre",
+                                            "body": "I want there to be more phev options so bad. PHEV Mustang convertible or something.",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Causification",
+                            "body": "This can be true while being completely irrelevant. No matter how well the battery and starter are designed, using them this way results in a shorter lifespan than if you didn't use them that way. You're also paying more for those extra-robust components.\u00a0",
+                            "score": -4,
+                            "replies": [
+                                {
+                                    "author": "TheSlyProgeny",
+                                    "body": "If they're built to withstand it, then the lifespan hasn't changed at all. The vehicle is built to take those extra forces and last the same amount of time (on average).",
+                                    "score": 7,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "xlRadioActivelx",
+                                    "body": "That\u2019s not true. The battery will likely need replacement every couple of years even regardless of if it was driven 5k miles or 100K miles, it\u2019s chemical aging that kills batteries. It\u2019s true misuse can cause premature failure but this is not misuse. \n\nAs for the starter, properly rated it should have no problem starting a vehicle as many times as it\u2019s required to, it\u2019ll likely fail from corrosion or other factors unrelated to use.",
+                                    "score": 6,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "aldoktor",
+            "body": "100$ cable can turn it off, I\u2019m looking at doing my car.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "LegallyIncorrect",
+            "body": "For my Honda they sell a hack that disables it with each start.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "samboydh",
+            "body": "You should be able to code the Taos to turn that off via OBD\u2026 or you can just pull back on the shifter and drive in sport and be free of the auto start stop. ( that what what I experienced in my loaner)",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "Food_Goblin",
+            "body": "I'm surprised the system in general hasn't led to multiple deaths. You are at a light and it kills the engine, then you need to quickly turn so it has to start and accelerate, any hiccup or delay and you get sideswiped.\n\nI'd NEVER want to buy one of those vehicles used or even several years old. I know the battery is made to handle the constant starting amperage, but when it can't RIP.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "StoneAgeSkillz",
+            "body": "You probably could dissable it by editing EEPROM (it can be done on other cars), one bit changed and its dissabled. But it voids warranty.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "Deveak",
+            "body": "I hate ASS, imho only good in a hybrid. FYI a lot of ASS vehicles have a max start countdown where the starter stops working, mechanically sound or not.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "Tulip_King",
+            "body": "bmw has bimmercode which can disable it from turning on automatically. vw has something similar i think but i\u2019m not sure.",
+            "score": -1,
+            "replies": [
+                {
+                    "author": "tharilian",
+                    "body": "VCDS aka Vagcom probably",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "MyCool_StrawSir",
+            "body": "Auto start and stop is a great way for car manufacturers to sell more parts. I'm sure that kills the starter and the battery quickly",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "ZestyPotatoSoup",
+                    "body": "Nope, this is a myth people just came up with. It\u2019s based on just a gut feeling and no actual evidence.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "ripod_de",
+                            "body": "True. The battery and the starter engine are sized differently and the software watches the conditions to enable it or not. It can be annoying, for example while parking, but it's not bad for the car.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "VorpalWay",
+            "body": "On my car it only happens when you put the gearbox in neutral and release the clutch. So just have it in gear and press down the clutch instead? Doesn't seem like a big deal.\n\nMaybe it is worse on automatics, I don't know. Manuals are still overwhelming more common than automatics here.",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "ZestyPotatoSoup",
+                    "body": "In my auto it only turns on if you depress the break more than like 30%. If you keep a light breaking foot and only depress full when stopped for awhile it in tandem with auto hold makes traffic driving so much less annoying.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "davocn",
+            "body": "Anytime I hear someone complaining about this, I hear it in an old man's voice... \"This newfangled contraption!, trying to save fuel! I don't trust it!\"",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "Level_Dog1294",
+            "body": "Thank the EU for finding a way to ruin everything European",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "ej1030",
+            "body": "This is a great idea your starter will thank you",
+            "score": -5,
+            "replies": []
+        },
+        {
+            "author": "g0gY87",
+            "body": "On my 2019 superb, obd11 disables this. You don't directly disable it but tell car that has high consumption. You should try it. Otherwise nice ass button cover.",
+            "score": -1,
+            "replies": []
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "title": "Think I screwed up Backdoor Roth opportunities by rolling my Roth 401k into my Roth IRA",
+    "author": "XxNerdAtHeartxX",
+    "subreddit": "personalfinance",
+    "rank": 7,
+    "score": 4,
+    "upvote_ratio": 0.83,
+    "num_comments (reported by reddit)": 10,
+    "url": "https://www.reddit.com/r/personalfinance/comments/1jec3qb/think_i_screwed_up_backdoor_roth_opportunities_by/",
+    "id": "1jec3qb",
+    "selftext": "Switched jobs 2 months ago and finally sat down to consolidate all of my retirement accounts from ~3 jobs into one place at fidelity. \n\nFrom my understanding, Ive now screwed up the option for a Backdoor Roth, but I don't quite understand how to fix the issue. From what Ive gathered reading prior threads, as long as there is no money in there on Dec 31st, 2025 then Ill be eligible to do Backdoor ROTH for 2025 once 2026 starts, but Im not sure how I need to empty the account\n\nIs there a way to convert this 401k into my Traditional 401k? \n\nDo I need to just pull everything out of the Roth IRA now and eat the penalty? Or are there other steps I can take to fix this\n\n---\n\nI wrote it up backwards, but I have funds rolled into my Traditional IRA as well as the Roth IRA. I believe I should be able to roll the current Traditional 401k into my Work 401k to clear out that account, and then start converting funds from my roth 401k into a Traditional 401k each year - correct?",
+    "comments": [
+        {
+            "author": "BouncyEgg",
+            "body": "Roth 401k rollover to Roth IRA has *zero* impact on the Backdoor Roth strategy.\n\n> the rest of the 401k went into my Traditional IRA.\n\nThis is the impactful part.\n\nThe focus should be on the money in the *Traditional IRA*.\n\nSee Screwup #5 in the second link below.\n\n\n---\n\nRead this for everything you need to know about Backdoor Roth and Form 8606:\n\n* https://www.whitecoatinvestor.com/backdoor-roth-ira-tutorial/\n\nRead this list of common screwups and solutions with respect to backdoor Roth. Beware of Screwup #5.\n\n* https://www.whitecoatinvestor.com/fix-backdoor-roth-ira-screw-ups/\n\n---",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "XxNerdAtHeartxX",
+                    "body": "Thanks - I had the accounts backwards in my head when writing it up.\n\nIf my understanding is correct, I should theoretically be able to roll over my traditional IRA into my current work 401k then to clear out that account, and then do a conversion of the current Roth funds to TradIRA?",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "CoffeeNFlowers",
+                            "body": "Only if your work allows it. Not all do.",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "BouncyEgg",
+                            "body": "> I should theoretically be able to roll over my traditional IRA into my current work 401k then to clear out that account\n\nYes.  This is correct.\n\n> and then do a conversion of the current Roth funds to TradIRA?\n\nPlease take the time to review the words you're using here.  It is unclear to me if you are still having \"backwards in my head\" issues or if you truly do not understand.\n\nConversions are defined as Traditional to Roth.  One way.  Always Traditional *to* Roth.  *Never* Roth to Traditional.\n\nPlease clarify what you intend to mean.  I am happy to help you with your understanding, but we must both be using the same terminology.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "XxNerdAtHeartxX",
+                                    "body": "Thanks - I do understand the process and that it is a conversion from a Traditional IRA -> Roth IRA based on income limits. Just mixing up accounts in my mind. \n\nIve contacted my employer to see if they allow a rollover from a personal account -> Work 401k. One thing I don't quite understand is what the conversion of a Traditional IRA > RothIRA looks like outside of the backdoor process.\n\nI currently have ~14k in my Traditional IRA, so if I roll over that current fund into my Roth IRA in order to clear it out, I assume I should expect a tax hit of ~$3,800 come April? Or is this conversion not considered a taxable event? Or will I only be taxed on gains in this account before the conversion happens?",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "BouncyEgg",
+                                            "body": "> I currently have ~14k in my Traditional IRA, so if I roll over that current fund into my Roth IRA\n\nSo the term \"roll over\" isn't exactly incorrect here.\n\nBut hopefully you do recognize that this is money going from a Traditional IRA to Roth IRA.  So it is generally more accurately referred to as a *conversion*.\n\nNot trying to be nitpicky.  Just looking to enhance your understanding which will hopefully help your future research.\n\n> in order to clear it out, I assume I should expect a tax hit of ~$3,800 come April? \n\nI cannot answer this question in good faith without knowing your marginal tax bracket and the source of the funds.\n\nIf the 14K was *sourced from the Traditional 401k*, then this would stack *on top* of your taxable income.  Then tax would be applied.  Do not forget State/Local income taxes as applicable.\n\n> Or is this conversion not considered a taxable event? \n\nIf This is taxable.\n\n> Or will I only be taxed on gains in this account before the conversion happens?\n\nIf the 14K was *sourced from the non-deductible Traditional IRA contributions* and there are no other Traditional/Rollover/SEP/SIMPLE IRA dollars, then this would not be taxable.  This is the entire point of the Backdoor Roth strategy.\n\nFolks who have $0 in their Traditional IRA right now might make a 7K non-deductible Traditional IRA contribution for 2024 and a 7K non-deductible Traditional IRA contribution for 2025.  Thus, they end up with a 14K Traditional IRA that they then convert to Roth IRA.  No tax.  Just a form to fill out.  This is the Backdoor Roth strategy.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "XxNerdAtHeartxX",
+                                                    "body": "> I cannot answer this question in good faith without knowing your marginal tax bracket and the source of the funds.\n\nIm in the 24% tax bracket, and all of these funds are from a single prior employer 401k. I rolled over the funds ~1 month ago from the employer 401k -> Traditional IRA. \n\n> If the 14K was sourced from the non-deductible Traditional IRA contributions and there are no other Traditional/Rollover/SEP/SIMPLE IRA dollars, then this would not be taxable. \n\nIf I'm reading your comment correctly, then this conversion will be a taxable event since it is 100% rollover funds, meaning the best option would be to roll it into my Employer account (if possible)",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "BouncyEgg",
+                                                            "body": "> meaning the best option would be to roll it into my Employer account (if possible)\n\nYes.\n\nThis is what Screwup #5 is trying to explain.\n\nIf not possible, just convert the 14K.  You would expect to pay 14K * 24% in Federal income tax.",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "XxNerdAtHeartxX",
+                                                                    "body": "Great - Thanks for the help. Ive got a much more thorough understanding of the process now",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "pancak3d",
+            "body": "Just confirming the other comments here: yes if you roll the tIRA into your 401k, problem is solved. You can do backdoor Roth this year without issue.\n\nIf you can't do this, and you already did your backdoor Roth conversion this year, then you'll owe some taxes on the conversion (and all Roth conversions in the future)",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

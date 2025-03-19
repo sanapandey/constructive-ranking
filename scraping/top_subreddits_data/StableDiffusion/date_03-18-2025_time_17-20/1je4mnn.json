@@ -1,0 +1,118 @@
+{
+    "title": "Finally, join the Wan hype RTX 3060 12gb - more info in comment",
+    "author": "waferselamat",
+    "subreddit": "StableDiffusion",
+    "rank": 6,
+    "score": 61,
+    "upvote_ratio": 0.83,
+    "num_comments (reported by reddit)": 16,
+    "url": "https://v.redd.it/ng8ck95w5gpe1",
+    "id": "1je4mnn",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "waferselamat",
+            "body": "I am using this workflow : [https://www.youtube.com/watch?v=pqXkNC-FsTA](https://www.youtube.com/watch?v=pqXkNC-FsTA)\n\n**Prompt:** A cinematic portrait of an elegant Asian woman with fair skin and long, straight brown hair. She wears a black off-shoulder turtleneck sweater, highlighting her slender shoulders and collarbone. Her almond-shaped eyes and delicate, oval face carry a soft, subtle smile. Light makeup enhances her natural beauty. The background is a simple, light grey, with smooth camera motion gently shifting around her, capturing her serene expressions and slight movements. Soft lighting adds depth and warmth, creating a refined and stylish atmosphere.\n\nModel : [wan2.1\\_i2v\\_480p\\_14B\\_fp8\\_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/blob/main/split_files/diffusion_models/wan2.1_i2v_480p_14B_fp8_scaled.safetensors)\n\nRender time : 19 minutes\n\nLength : 49  \nDuration video : 3 sec  \nStep : 20  \nResolution : 480 x 832",
+            "score": 14,
+            "replies": [
+                {
+                    "author": "Danmoreng",
+                    "body": "Or just use: https://github.com/deepbeepmeep/Wan2GP",
+                    "score": -2,
+                    "replies": [
+                        {
+                            "author": "Inthehead35",
+                            "body": "I tried it,  still super slow",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Conscious_Start5276",
+            "body": "so 12Gb is enough??? wow",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "CharanMC",
+                    "body": "Dawg I\u2019ve been doing it on my 10GB 3080 just fine, takes around 12-15 minutes",
+                    "score": 8,
+                    "replies": [
+                        {
+                            "author": "thebaker66",
+                            "body": "Yep, got round to finally trying it out yesterday. \n\nAbout 12-15 minutes(havent counted exactly) with a 3070ti 8gb q5 gguf, teache and sage for 3 second video. \n\nWould like to get it faster if possible but cant complain, surprised it even runs and the quality is pretty damn good. \n\nThat's with a comfyui workflow, still to try the Pinokio GP version.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Vivarevo",
+                                    "body": "I tried 786x1200 or something on q8 gguf with 3070. Took 30min",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "thebaker66",
+                                            "body": "Interesting, is that with teacache/sage ?\n\nI don't have the patience for that tbh but good to know it can work.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Galenus314",
+                            "body": "Weird, for me with my 4070 it took 45 minutes with that model. But from what i can see IT did not use sage/teacache. (When running the gguf models IT uses teacache). I will may look into it again tomorrow, since the gguf models are still around 6 minutes for me.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "pit_shickle",
+                    "body": "Yup can confirm, works like a charm. It takes about 18 minutes for a 3 second video. Got a 3060 with 12 gb vram.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "physalisx",
+            "body": "Wow that robot is almost lifelike",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "NoWizards",
+            "body": "looks nice! thanks for sharing",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "malinefficient",
+            "body": "Really SD1.5 looking, but 12 GB? Impressive.",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "Orangecuppa",
+                    "body": "Yeah skin is plastic, collar bones look weird but yeah for a old 3060, this is quite impressive.",
+                    "score": -12,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Thin-Sun5910",
+            "body": "whats up with the cross-eyes, and off-centered one",
+            "score": -3,
+            "replies": [
+                {
+                    "author": "InhabitTheWound",
+                    "body": "That's just Nayeon.",
+                    "score": 9,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

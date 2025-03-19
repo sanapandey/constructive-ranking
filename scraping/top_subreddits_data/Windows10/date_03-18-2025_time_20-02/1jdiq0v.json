@@ -1,0 +1,33 @@
+{
+    "title": "How to change which folder the desktop displays",
+    "author": "EtTruciMesorem",
+    "subreddit": "Windows10",
+    "rank": 16,
+    "score": 5,
+    "upvote_ratio": 0.79,
+    "num_comments (reported by reddit)": 3,
+    "url": "https://www.reddit.com/r/Windows10/comments/1jdiq0v/how_to_change_which_folder_the_desktop_displays/",
+    "id": "1jdiq0v",
+    "selftext": "Hey, so my desktop folder path is currently set to C:\\\\Users\\\\uName\\\\OneDrive\\\\Desktop.\n\nI have created a new Desktop folder who's file path is C:\\\\Users\\\\uName\\\\Desktop.\n\nI want my desktop screen to display the second filepath(the one that isnt in OneDrive). How can I do this?",
+    "comments": [
+        {
+            "author": "KPbICMAH",
+            "body": "Disable Desktop backups in OneDrive (and optionally other folders like Documents and Pictures too; the folder location will be restored (but the files that were on the desktop or in Documents etc. will have to be moved manuafor from uName\\\\OneDrive\\\\whatever to uName\\\\whatever.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "SerotoninAddict",
+            "body": "go into the properties for the current desktop folder, there should be a fourth tab \"location\" that will allow you to change which folder is the desktop.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "EtTruciMesorem",
+                    "body": "this worked. thanks!!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

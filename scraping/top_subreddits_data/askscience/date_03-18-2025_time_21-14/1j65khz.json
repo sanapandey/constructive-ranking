@@ -1,0 +1,237 @@
+{
+    "title": "If I were on the moon and pointed a telescope towards Earth, how much detail could I see?",
+    "author": "Sora1274",
+    "subreddit": "askscience",
+    "rank": 19,
+    "score": 489,
+    "upvote_ratio": 0.93,
+    "num_comments (reported by reddit)": 61,
+    "url": "https://www.reddit.com/r/askscience/comments/1j65khz/if_i_were_on_the_moon_and_pointed_a_telescope/",
+    "id": "1j65khz",
+    "selftext": "I know there is going to be a lot of variance of telescopes, but let\u2019s say an 8 inch telescope. Would I be able to see something as thin as say the River Thames? What about the pyramid of Giza? What about a sea of Skyscrapers in Manhattan? ",
+    "comments": [
+        {
+            "author": "zekromNLR",
+            "body": "Let's assume you have a high-quality telescope, so it is operating at the diffraction limit, the best that an optical system of a certain size, operating at a certain wavelength can do. Because the Moon has no atmosphere, we don't have to worry about atmospheric distortion - it affects things looking down at Earth a lot less, because the distortion is happening at the object, rather than just before the telescope, as [this diagram by Randall Munroe of xkcd illustrates](https://what-if.xkcd.com/imgs/a/32/hubble_distortion.png)\n\nThen, the resolution R, in terms of the smallest detail you can see, depends only on three things: The wavelength of light \u03bb you are seeing, the diameter d of the telescope, and how far away D you are from what you are looking at, with the formula being R=1.22\\*D\\*\u03bb/d. Your telescope diameter is 8 inches, so about 20 cm, for the wavelength let's assume 600 nm as an average for visible light, and the distance is about 380000 km.\n\nPutting in those numbers, we get a resolution of 1.4 km. So you won't be able to make out any rivers, but you would be able to see the shapes of the continents and all the major islands and lakes, and especially if you are looking at the night side of Earth you will be able to make out major cities by their illumination.",
+            "score": 1376,
+            "replies": [
+                {
+                    "author": "Sora1274",
+                    "body": "Thank you, I really appreciate the math you did, the illustration, and the time you took to respond.",
+                    "score": 475,
+                    "replies": []
+                },
+                {
+                    "author": "PhotoJim99",
+                    "body": "> you wouldn't be able to make out any rivers\n\nYou could make out wider sections of a few - the Amazon and the St. Lawrence come to mind, and there are a lot of others.",
+                    "score": 131,
+                    "replies": [
+                        {
+                            "author": "mfb-",
+                            "body": "The Amazon sticks out so much in color (brown in green) that you can see it long before you can resolve its width. If you use Google Maps and zoom out to 10 km per pixel you can still clearly see its path. You can also see the path of the Nile (green farmland in a yellow desert) and signs of a couple of other rivers.",
+                            "score": 107,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Finchyy",
+                    "body": "Cool! Noob question: What do you mean by \"resolution of 1.4km\" here? Like, the lens of the telescope would show 1.4km area of land as I look through it?",
+                    "score": 35,
+                    "replies": [
+                        {
+                            "author": "thats_handy",
+                            "body": "It's common to wonder about this definition of resolution. Due to the wave nature of light, it's not possible to create a perfect pinpoint image of a perfect pinpoint source. And, in fact, two pinpoint sources sufficiently close together will look like a single pinpoint in the image. When OP mentioned the magic words, \"diffraction limited,\" they meant that the optics are so good, that the image created by the telescope has defects only due to the wave nature of light, which dwarf the defects due to any undulations in the surface of the telescope's focussing mirror.\n\nFor a circular mirror aperture, the angular resolution of a telescope is R = 1.22\u03bb/d in radians, where \u03bb is the wavelength and d is the diameter of the aperture (use the same units for the wavelength and the diameter). That formula is hard to derive, and there is a different for different mirror shapes.\n\nIf two point sources of light are separated by an angle of less than R radians at the telescope, then they cannot be \"resolved.\" They look like a single point. If the angle is bigger than R radians, then they can be \"resolved.\" They look like two points. Since \"resolution\" in modern times has taken the meaning of how many pixels make up an image, sometimes this attribute of optics is called \"resolving power\" instead. Roughly speaking, you can see things that have an angular size of R radians, but that's not really 100% true. You can see points of light just fine, but they'll look like disks with an angular size of R radians.\n\nTo turn the resolution back into meters on the Earth's surface, OP multiplied R by the D, the distance from the moon to the earth.\n\nWikipedia has an [article](https://en.wikipedia.org/wiki/Angular_resolution) about angular resolution.",
+                            "score": 109,
+                            "replies": []
+                        },
+                        {
+                            "author": "Hot_Egg5840",
+                            "body": "It means that anything smaller than 1.4 km would just be fuzzy blobs. The smallest fuzzy blob you would see would be 1.4 km in diameter. Field of view is what you were thinking of.",
+                            "score": 61,
+                            "replies": []
+                        },
+                        {
+                            "author": "zekromNLR",
+                            "body": "As in, if you had a point of light on the surface, it would be blurred into an apparent disk of about 1.4 km radius. [This image](https://upload.wikimedia.org/wikipedia/commons/a/ae/Airy_disk_spacing_near_Rayleigh_criterion.png) shows two points, with those diffraction disks (also called Airy disks). The middle ones are just that distance apart, and can just barely be distinguished as two separate objects.\n\nSo 1.4 km is the scale of the smallest features that telescope would be able to resolve at all, though anything smaller than a few dozen kilometers or so would likely still look noticeably blurry.",
+                            "score": 19,
+                            "replies": []
+                        },
+                        {
+                            "author": "gocougs11",
+                            "body": "Resolution is basically: how close together can two points be and still be distinguishable as two separate points?",
+                            "score": 6,
+                            "replies": []
+                        },
+                        {
+                            "author": "Druggedhippo",
+                            "body": "It means that if you had a 1.3Km long object on Earth, you wouldn't be able to see it.\n\n\nHere is a satellite image at 1KM resolution. It would be slightly worse than this.\n\n\nhttps://go.nasa.gov/3DeUpTl",
+                            "score": 22,
+                            "replies": [
+                                {
+                                    "author": "mfb-",
+                                    "body": "> It means that if you had a 1.3Km long object on Earth, you wouldn't be able to see it.\n\nThis is wrong. If it were true then you couldn't see any stars with the naked eye.\n\nIt means you cannot resolve two things 1.3 km apart as clearly separate objects.",
+                                    "score": 59,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Sora1274",
+                                    "body": "That definitely puts it into perspective a bit. I have seen some discuss that we may be able to see something like the Amazon river and feel like I can kinda visualize the visual we may see of that from the moon with such a telescope. Thank you",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "SamyMerchi",
+                    "body": "So...40cm would give a resolution of 700m...4m diameter telescope a resolution of 70m... You'd need a 40m wide telescope to resolve down to 7m and barely make out individual houses.",
+                    "score": 8,
+                    "replies": []
+                },
+                {
+                    "author": "dittybopper_05H",
+                    "body": "Actually, you could make out rivers.  Things don\u2019t just pop into view magically when they cross the resolution threshold if they are highly contrasting.   If half the resolution area is a radically different color than the rest of the area around it you will see a difference, especially for a contiguous feature like a river.  \n\nPlus, a number of rivers are wider than 1.4 kilometers for significant parts of their length, including the Amazon, Nile, St. Lawrence, Ganges, Yangtze, and Mississippi off the top of my head.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "old_at_heart",
+                            "body": "IIRC, you can pick out much smaller features if they're linear, so I'd agree with you about the rivers.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "BCMM",
+                    "body": "> Because the Moon has no atmosphere, we don't have to worry about atmospheric distortion - it affects things looking down at Earth a lot less, because the distortion is happening at the object, rather than just before the telescope, as this diagram by Randall Munroe of xkcd\u00a0illustrates.\n\n\nThis principle is also quite easy to practically observe with privacy glass windows. If you have a houseplant\u00a0on the windowsill, it can often be seen quite clearly, while objects further away from the window are progressively more obscured.",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "RainbowCrane",
+                    "body": "One surprising thing from photos from space is how obvious urban areas are, particularly at night. Even zoomed out to, say, 1 inch = 10 miles resolution, at night photos from the ISS and other sources make it pretty clear that New England, Los Angeles, Tokyo, etc have some serious light bills being incurred :-). The flip side of that is that all that light pollution has made earth-based visible light astronomy a more iffy prospect anywhere near a city. \n\nBut seriously, lighting, wildfires, deforestation and lots of other large scale phenomena are observable from space.  And like you said, there\u2019s a few geological features that are unmistakable. [The Nile River Delta](https://www.nasa.gov/image-article/nile-delta-pictured-from-international-space-station/) is pretty impressive from the ISS, which is closer than the moon, but it should be visible from the moon as well. \n\nKind of an aside, but astronaut Scott Kelly has posted a lot of photos from his trips to space for those interested in such things.",
+                    "score": 8,
+                    "replies": []
+                },
+                {
+                    "author": "gablank",
+                    "body": "Does this mean that, if I had a flat mirror at the distance of the moon that reflected the light from earth towards a gigantic projector screen at the same distance as the earth, then the image on the projector screen would be extremely blurry from up close (i.e. have the same resolution as the telescope)? So the mirror almost ends up as a lossy compression?",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "zekromNLR",
+                            "body": "If it was just a giant plane mirror with no aperture or optics, you wouldn't get an image on the screen at all, because every point on the screen can receive light from many points on Earth. To make an image, you need all the light that hits a specific point in the image plane to also come from a specific point on the object, and to do that you need to either use a very narrow aperture (a pinhole camera), or optics (mirrors or lenses) than can concentrate the light.\n\nBut yes, if you took the image made by the telescope, and projected it out to be as large as the Earth, it would look that blurry (it would also be very, very dim because the telescope captures only a tiny fraction of the light reflected by Earth).",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "sikyon",
+                    "body": "to add on, there are some ways to beat the limit. If, for example, you looked at the earth and realized it was rotating you would likely be able capture images across some time and use the continuous contrast adjustment as light is reflected differently off of every surface to beat the resolution limit via integration. \n\nSimilarly, even minor cities can be made out by their illumination since there may not be a point of light adjacent to the. You can even differentiate against the two by looking at time dependant flickering while lights are turned on or off.\n\n If you pretend your brain is the computer that normally does this and you're an alien astronomer that stares at the earth continuously, you could probably pick up some extra detail this way.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "TXOgre09",
+                    "body": "I\u2019m pretty sure you could see the shapes of the continents with the naked eye, right?",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "wilki24",
+                            "body": "Yes. Compare the size of the features that make up the man in the moon with our continents.\n\nOr, the whole moon. It's 2100 miles in diameter, while the US is about 3000 miles across.",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "None",
+                    "body": "[removed]",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "ramk13",
+                            "body": "ISS is a LOT closer. 250 miles or about 1000 times closer. That would come out to be 1.4m resolution. Making out a house seems reasonable.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "rickie-ramjet",
+            "body": "Well, other responses are more detailed in resolution\u2026. But You wouldn\u2019t have any atmospheric issues to deal with, till earth itself, then you\u2019d have clouds and whatever else is suspended in the air to deal with.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Sora1274",
+                    "body": "True, I didn\u2019t really think about the clouds or the atmosphere. I wonder what would be a better view as far as atmosphere. Imagine an earth with no atmosphere and a moon with an atmosphere. Would the view of the earth from the moon (or moon from the earth) be better than what we have now with the ideas flipped? Its more of a rhetorical question, as I don\u2019t expect you to know the answer, but something that I forgot about that would impact viewing.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "mfb-",
+                            "body": "An atmosphere close to what you want to see is better than an atmosphere close to the telescope.\n\nA 0.01 degree light deflection 10 km away from your destination is only ~1.5 meters.\n\nA 0.01 degree light deflection 400,000 km away from your destination is 67 km.",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "graboidian",
+            "body": "If you were on the Moon and pointed a telescope at Earth, you would primarily see the Earth itself, appearing in phases like the Moon does from Earth, with distinct continents, oceans, and clouds, depending on the angle of sunlight; however, you would not be able to see individual people or small structures due to the vast distance, even with a powerful telescope.",
+            "score": 21,
+            "replies": [
+                {
+                    "author": "Probable_Bot1236",
+                    "body": ">you would primarily see the Earth itself, appearing in phases like the Moon does from Earth, with distinct continents, oceans, and clouds, depending on the angle of sunlight;\n\nYeah, the Apollo program photos show that's what you'd see with the naked eye, nevermind a telescope per OP's question.",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "LordGAD",
+                    "body": "You would be able to make out cities at night due to the light. I imagine during the day you'd be able to resolve large things like hurricanes and probably even things like the Rockies, the Himalayas, The Great Lakes, etc. We can plainly see lunar craters 10-miles across from Earth, so anything that size(ish) I'd imagine could be resolved. Probably much better seeing from the moon. :)",
+                    "score": 10,
+                    "replies": []
+                },
+                {
+                    "author": "doobiedave",
+                    "body": "What's the smallest island you'd be able to make out?",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "wwarnout",
+                            "body": "If you had a duplicate of the Hubble Space Telescope, which has a resolution of 0.03 arcseconds, you could see an object that was about 60 meters across.",
+                            "score": 17,
+                            "replies": [
+                                {
+                                    "author": "doobiedave",
+                                    "body": "Wow, that's surprising. Thanks",
+                                    "score": 8,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Sora1274",
+                    "body": "Thank you for your response.",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "citybadger",
+                    "body": "You\u2019d see phases on a 28 earth day cycle, but you\u2019d see continents move in and out of the dark side every earth day, so it would be a little different.",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

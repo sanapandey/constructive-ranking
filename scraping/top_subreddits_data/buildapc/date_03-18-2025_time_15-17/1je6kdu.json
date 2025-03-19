@@ -1,0 +1,274 @@
+{
+    "title": "Is DDR5-6000 CL26 worth the premium over DDR5-6000 CL30?",
+    "author": "SyncFail_",
+    "subreddit": "buildapc",
+    "rank": 3,
+    "score": 41,
+    "upvote_ratio": 0.89,
+    "num_comments (reported by reddit)": 42,
+    "url": "https://www.reddit.com/r/buildapc/comments/1je6kdu/is_ddr56000_cl26_worth_the_premium_over_ddr56000/",
+    "id": "1je6kdu",
+    "selftext": "I'm currently picking parts for my new build, and I'm unsure whether it's worth it in the long run to choose the best RAM possible or just settle for CL30 and forget about it.",
+    "comments": [
+        {
+            "author": "birdman829",
+            "body": "On pcpartpicker the cheapest 32gb 6000 cl30 kits are $80\n\nThe cheapest 32gb 6000 cl26 kits are $180\n\nThere is absolutely no way that any miniscule performance difference between the two will be worth that price delta",
+            "score": 107,
+            "replies": []
+        },
+        {
+            "author": "fredgum",
+            "body": "On a X3D CPU it will make virtually no difference: [https://www.youtube.com/watch?v=37f2p9hhrtk&t=1272s](https://www.youtube.com/watch?v=37f2p9hhrtk&t=1272s)",
+            "score": 24,
+            "replies": [
+                {
+                    "author": "SyncFail_",
+                    "body": "Okay, that part of the video is really interesting. I didn't know the difference would be THAT insignificant. I guess the X3D cache is doing a fine job. I think I will stick with DDR5 6000 CL30 and just try to overclock it manually or whatever the DIMMS are willing to offer.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "birdman829",
+                            "body": "Just turn on EXPO and literally never think about it again",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "GNRZMC",
+            "body": "It shouldn't make any noticeable difference. Low single digit percentage points in absolute best case scenario. RAM is definitely a case where once you hit \"good enough\" you don't see much gains after",
+            "score": 10,
+            "replies": []
+        },
+        {
+            "author": "-UserRemoved-",
+            "body": "RAM is used by your CPU as fast temporary storage, it plays into CPU performance and doesn't perform on it's own. You never told us what CPU you have, and you never told us what workloads you use it for.\n\nAssuming you have AMD and this is for gaming, then CL30 would be just fine and won't make a noticeable difference.",
+            "score": 38,
+            "replies": [
+                {
+                    "author": "SyncFail_",
+                    "body": "Oh yes, I'm sorry. I will be running a 9800X3D and the purpose is primarily gaming. I read that low latency RAM affects 1% and 0.1% Lows the most so that's why asked in the first place. My current rig is ancient so I thought if I upgrade everything, I might as well pick the best RAM, but I am still debating.",
+                    "score": 11,
+                    "replies": [
+                        {
+                            "author": "-UserRemoved-",
+                            "body": "6000/CL30 is just fine, lower CL is unlikely to make a noticeable difference, and you have massive L3 cache on that CPU anyways.",
+                            "score": 41,
+                            "replies": [
+                                {
+                                    "author": "TryingHard1994",
+                                    "body": "What about something like a intel ultra 285k? Currently using cl30/6000",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Rayrleso",
+                                            "body": "Intel likes higher memory clocks better,compared to AMD. Can pretty reliably run with 8000MHz RAM",
+                                            "score": 4,
+                                            "replies": [
+                                                {
+                                                    "author": "TryingHard1994",
+                                                    "body": "Alright, just tend to see the higher MHz ones have higher CL aswell but is that okay?",
+                                                    "score": 2,
+                                                    "replies": [
+                                                        {
+                                                            "author": "beirch",
+                                                            "body": "6000MT/s CL30 is the same latency as 8000MT/s CL40: https://notkyon.moe/ram-latency.htm\n\n8000MT/s CL40 just has more bandwidth.",
+                                                            "score": 2,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Ill-Mastodon-8692",
+                            "body": "on x3d chips\u2026 ram speed is less important.  although I have a 6000cl30 kit, i was testing my old 4800cl40 with it for a bit on the 9800x3d\n\nwithin 1-2% scores and fps on benchmarks/games\n\nthe large L3 x3d cache is why this works so well\n\nso dont worry too much in the grand scheme",
+                            "score": 9,
+                            "replies": []
+                        },
+                        {
+                            "author": "Moscato359",
+                            "body": "9800x3d hides ram latency, aggressively",
+                            "score": 17,
+                            "replies": [
+                                {
+                                    "author": "breakConcentration",
+                                    "body": "I\u2019m running this CPU with a 32GB 6400/CL32 setup but I have no 6000 RAM to compare with.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Moscato359",
+                                            "body": "That's the same latency has 6000/cl30\n\nIt just has more bandwidth",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "itpointz",
+            "body": "On an X3d chip cl30 is the money spot. Can you squeeze a few fps, maybe, but you'd need to be running a 5090 to make it noticeable in benchmarks, not necessarily noticeable in gameplay",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Celcius_87",
+            "body": "I was doing that same comparison lately too and it\u2019s not worth it",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Scytian",
+            "body": "If it's 5$ premium then yes, 10$ maybe, anything more is not worth it unless like to overclock.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "ScornedSloth",
+            "body": "The short answer is no. You're talking about maybe 1-2 fps on a good day. You can actually squeeze more performance out of higher speed kits at higher latency, but again, you're talking negligible performance gains for gaming.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "TimmmyTurner",
+            "body": "if you are running any x3d cpu, then it wont matter much go for cl30",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Redddittorio",
+            "body": "Go with CL28, small price premium compared to 26",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "JakeBeezy",
+                    "body": "I can barely even find CL28 ddr5 RAM, actually I couldn't locate them at all, what am I doing wrong ?",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Redddittorio",
+                            "body": "https://www.microcenter.com/product/689351/gskill-ripjaws-m5-neo-rgb-series-32gb-(2-x-16gb)-ddr5-6000-pc5-48000-cl28-dual-channel-desktop-memory-kit-f5-6000j2836g16gx2-rm5nrkw-white",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "SyncFail_",
+                                    "body": "Those look very interesting. The price delta is big, compared to CL26, and perhaps you might even be able to OC those to CL26",
+                                    "score": 4,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Zuokula",
+            "body": "The silicon lottery will probably give much more variation than the cl26",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Homewra",
+            "body": "Meanwhile i just settled for DDR-6000 CL36 :(",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Vashelot",
+                    "body": "Not a big issue you lose like 1 or 2 percent of performance.\n\nPropably none if you have an x3d chip as the cache really makes up for the lack of speed of ram.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "Ill-Mastodon-8692",
+                    "body": "I tried 4800CL40 temporarily vs my 6000cl30 kit, on 9800x3d\n\nlike 1-2% difference tops, and most of the time not noticeable.  \n\nX3D cache makes the ram speed not really matter much",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Stargate_1",
+            "body": "It'll be a 1% difference, if even, depending on the game and how RAM sensitive it is.\n\nIf the price is not the same or almost the same, it's not worth buying the CL26, that kind of RAM is really meant for benchmark chasers who very much do care about the difference between 150 and 151 fps",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "hfcobra",
+            "body": "I read that average FPS will be nearly unaffected, but you may have noticeable improvements in 1% lows or 0.1% lows in very high FPS titles like CS2, Valorant, or R6S. \n\nI have a 6000 CL26 kit on the way and I have a ton of benchmark data from my 6000 CL30 kit already. If you want to wait I'll have some actual data for CS2 by Friday with my 6000CL26 kit.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "NeighborhoodOdd9584",
+            "body": "Yeah just depends if you want to spend double to get better 1% lows. It\u2019d better but not by that much. I have the Gskill royal Neo 6000CL26.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "basement-thug",
+            "body": "Hell I'm still running CL36 , and everything I've researched says spending money on CL30 is not worth it.\u00a0 AMD AM5 isn't really benefitting from the lower latency unless you're someone whose hobby is benchmarking and you want those 200 extra points... for typical usage it appears negligible at best.\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Old_Resident8050",
+            "body": "M/B bios have the option to train into higher bandwidth and/or timings.\nI guess for 9800x3d there is more benefit going the bandwidth way then?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "IntrepidContender",
+            "body": "I just ordered some CL26 - So I really don't know but I feel like why not get CL26 / CL28 if you're really into performance and its in your budget",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Achillies2heel",
+            "body": "It's like a sub 5% performance improvement. So no it's not worth double the price.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "artificial_me",
+            "body": "Probably not.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "CtrlAltDesolate",
+            "body": "Unless the premiums like $10-20 on a like-for-like set, no.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ecktt",
+            "body": "I cannot think of a situation where it would be worth it other than a VERY memory latency sensitive application.\n\nFor the same money as CL26 you can get a  64 GB  CL30 kit that is dual rank to make up the performance difference AND have x2 as much RAM. So not it is not worth it.\n\nIf you intend to use an X3D chip, the whole point of the extra cache is to make up for slow ram so; No it is not worth it.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Every_Gold4726",
+            "body": "The performance difference between DDR5 CL26 and CL30 RAM at 6000 MHz is minimal in real-world applications. You're looking at approximately 1.33 nanoseconds faster response time with the CL26, which translates to very modest gains of 0-5% in gaming and 1-3% in productivity tasks. \n\nFor most users, this small improvement doesn't justify the $100 premium. You'd get better overall performance by investing that extra money elsewhere in your system, such as upgrading your GPU, CPU, or storage. Unless you're an extreme competitive gamer or running specialized memory-sensitive workloads, the CL30 at $80 offers significantly better value.\n\nEdit: I must add that most of the time the perceived gains are lost when you factor in other system bottlenecks. Even with the lower latency RAM, you'll likely be limited by your GPU in games, your storage speed in file operations, or your CPU in most productivity tasks.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "filthmcnasty1",
+            "body": "That 6000 cl26 is really only a good purchase if you plan on overclocking it. And even then, it's not a noticeable difference.",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}

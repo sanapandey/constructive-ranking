@@ -1,0 +1,272 @@
+{
+    "title": "Gyrocopter innate Chop Shop should automatically refund recipe cost when selling items",
+    "author": "BPyear3000",
+    "subreddit": "DotA2",
+    "rank": 4,
+    "score": 500,
+    "upvote_ratio": 0.98,
+    "num_comments (reported by reddit)": 41,
+    "url": "https://i.redd.it/iidp4qifpfpe1.jpeg",
+    "id": "1je2vza",
+    "selftext": "Gyro's new innate, *Chop Shop*, is a cool concept, but I think it could be slightly improved for a smoother experience. Right now, when you sell an item built with a recipe, you only get **half the gold from the base components like any other hero**, and the recipe cost is completely lost\u2014**unless you manually disassemble it first**.\n\nSince *Chop Shop* already lets Gyro **sell recipes for full cost**, why not extend that to automatically **refund the recipe cost when selling an item**? This would remove an unnecessary step and make the ability feel more fluid.\n\n# Example:\n\n* **Current Sell Price (Normal Hero)** \u2192 Magic Wand sells for **225 gold** (only half of the components' cost, recipe is lost).\n* **Proposed** ***Chop Shop*** **QoL Change** \u2192 Magic Wand sells for **300 gold** (same component sell price, but recipe is refunded).\n\nJust a quality of life buff that makes *Chop Shop* more intuitive  \nThanks for coming to my TED Talk",
+    "comments": [
+        {
+            "author": "yaourtoide",
+            "body": "Yeah that'd make sense.",
+            "score": 122,
+            "replies": []
+        },
+        {
+            "author": "HybridgonSherk",
+            "body": "Oh yeah i deadass forgot about his innate, i was playing him last time and i accidently dismantled wraith band. I was like confused for a whole min.",
+            "score": 37,
+            "replies": []
+        },
+        {
+            "author": "mrfoseptik",
+            "body": "they need to write some codes for each item only to work for gyro. too many chance to cause a bug.\n\n  \nPS: I am not saying it shouldn't be implemented. I am saying they won't.",
+            "score": 71,
+            "replies": [
+                {
+                    "author": "Affectionate_Seat865",
+                    "body": "this would be the most probable reason.\n\niirc Dota is so complexly coded that small changes have butterfly effects like making Midas reusable when dropped and picked back up.\n\nI think the majority of bugs happen that way.",
+                    "score": 31,
+                    "replies": [
+                        {
+                            "author": "Taelonius",
+                            "body": "I imagine that Rubick's spellsteal code has a massive \"DO NOT TOUCH\" plastered all over it and is reserved for only designated people to fuck with",
+                            "score": 12,
+                            "replies": [
+                                {
+                                    "author": "PhaseComfortable7154",
+                                    "body": "i can imagine that is the truth",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "MrDemonRush",
+                                            "body": "Probably not, but Rubick has like 100k lines of code in him alone, so at some point some dev might have considered it.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "One_Reporter9854",
+                                    "body": "\"Designated people\" As if only person coding the game isn't the janitor",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "TheZett",
+                                            "body": "Janitor is the guy handling the release of patches, the potted plant is actually doing all the coding.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "One_Reporter9854",
+                                                    "body": "Ah my bad, returning player here",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "gregw134",
+                                    "body": "Only ice frog himself, and he has to wear white gloves while coding in that section",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Environmental_Dog238",
+            "body": "gyro needs a new innate, this one is so useless and just bad design...like at most player used one or two times in a 40 minutes game....what is the point of having it if we dont use it at all? change gyro innate to no need recipe for all item, this is much more useful",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "podteod",
+                    "body": ">no need recipe for any item\n\n\nInstant fucking Dagon 5 GG",
+                    "score": 39,
+                    "replies": [
+                        {
+                            "author": "Affectionate_Seat865",
+                            "body": "1 min boots of travel 2 + dagon 5 = ez gaem",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Tobix55",
+                    "body": "> change gyro innate to no need recipe for all item, this is much more useful\n\nAnd much more powerful. He was meta with this innate, he doesn't need such a big buff. Some heroes got bad or boring innates because they didn't need a buff. And this is still better than templar for example who lost the ability to place traps in rosh pit and her innate only tells her when rosh spawns",
+                    "score": 16,
+                    "replies": [
+                        {
+                            "author": "Environmental_Dog238",
+                            "body": "how about change his innate to recipe only cost 90% price for gyro and his team...this is so fun",
+                            "score": -4,
+                            "replies": [
+                                {
+                                    "author": "HomicidalGerbil",
+                                    "body": "Honestly this sounds good. Maybe more than a 10% discount though. Maybe 5 %+ 1% per level? He'd be giving his supports a scaling buff, which is nice. Could be OP though.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "nanz735",
+                    "body": "That is so much stronger. I could see a discount for recipes but not just free",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "deljaroo",
+                    "body": "I feel like the hero is in a good place.  I think it's okay if a hero's innate doesn't do much if the rest of the hero performa",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "No-Respect5903",
+            "body": "man you just gave me a flashback. I completely forgot about that innate and I was playing gyro and there is some item I remember disassembling and then the next game I griefed myself on a different hero because I couldn't do it and it felt like a fever dream.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Time__Ghost",
+            "body": "But that's not chopping. That's just shopping",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "neezaruuu",
+            "body": "Wait it doesnt?",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "jordichin320",
+            "body": "Would be a nice qol. But really how much mileage do you get out of this as gyro? I can't see too many build paths that take advantage of this.",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "Sh4m96",
+                    "body": "Drums into SnY\n\nhttps://youtube.com/shorts/BNMoEb8kFXg",
+                    "score": 15,
+                    "replies": [
+                        {
+                            "author": "HelmetsAkimbo",
+                            "body": "Fucking hell lmao what a nightmare",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "KnivesInMyCoffee",
+                    "body": ">I can't see too many build paths that take advantage of this.\n\nYou can go Treads -> Drums -> Dragon Lance -> disassemble Dragon Lance to build Aghs (save Belt) -> disassemble Agi treads into Yasha -> use leftover Belt to reassemble Treads -> disassemble Drums into Sange to finish SnY.\n\nThere's also the ability to disassemble Falcon Blade into Crystalys.\n\nHaving Drums for the movespeed and aura enables you to farm faster and rotate through portal to take the enemy safelane tower. Dragon Lance recipe gives you 5 agility and 5 strength while farming your Aghs for the cost of having to buy the belt of strength (which gets effectively used as a band of elvenskin to build Yasha) before you finish the Aghs.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "chipawa2",
+                    "body": "This would be way better than \"quality of life\"",
+                    "score": -4,
+                    "replies": [
+                        {
+                            "author": "jordichin320",
+                            "body": "This is literally a qol feature. There is no gold gain besides saving you the click of disassembling.",
+                            "score": 12,
+                            "replies": [
+                                {
+                                    "author": "BPyear3000",
+                                    "body": "exactly you got me is just not have to click disassemble each time you want to sell so you save gold on selling the recipe separately",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "JudgementalSalt",
+            "body": "So you're saying that hand of midas is going to busted on gyro",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "TheZett",
+                    "body": "Hand of Midas and Divine Rapier cannot be disassembled, not even on Gyro.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ConversationGold2914",
+            "body": "chop shop is just straight up plain bad innate ability :(",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "guyfromsouthshore",
+            "body": "Wake up honey, future new Midas bug just dropped!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "rocketgrunt89",
+            "body": "considering the duplication bugs that occurred, id say dont fix whats not broke",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "ZenKenShin",
+            "body": "Still on beta..... \ud83e\udd17",
+            "score": -3,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": -1,
+            "replies": [
+                {
+                    "author": "AcceptableFakeLime",
+                    "body": "This is just a QoL change not a buff.",
+                    "score": 17,
+                    "replies": [
+                        {
+                            "author": "got-a-friend-in-me",
+                            "body": "right i reread again and yeah thats stupid comment hahahahaha. removed it so not to spread idiot but mainly to preserve may remaining dignity if theres still some lol",
+                            "score": 12,
+                            "replies": []
+                        },
+                        {
+                            "author": "FFMKFOREVER",
+                            "body": "He deleted that quick\u00a0",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "uwruteit",
+                                    "body": "Yea he saw he was wrong, no shame in that",
+                                    "score": 5,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

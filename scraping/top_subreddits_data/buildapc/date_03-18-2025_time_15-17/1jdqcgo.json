@@ -1,0 +1,368 @@
+{
+    "title": "My journey with the RTX 5080 and the cursed PSU: A month of hell",
+    "author": "Solaeyris",
+    "subreddit": "buildapc",
+    "rank": 19,
+    "score": 92,
+    "upvote_ratio": 0.89,
+    "num_comments (reported by reddit)": 53,
+    "url": "https://www.reddit.com/r/buildapc/comments/1jdqcgo/my_journey_with_the_rtx_5080_and_the_cursed_psu_a/",
+    "id": "1jdqcgo",
+    "selftext": "Hey everyone,\n\nI want to share one of the worst PC-building experiences I've ever had, involving a faulty PSU, a nightmare customer service experience, and an agonizing wait to finally use my RTX 5080 MSI Gaming Trio.\n\nIf you\u2019ve ever struggled with a PC build or are considering buying a RTX 5000 series GPU, this might be worth reading.\n\n\n---\n\nEverything started well\u2026 or so I thought\n\nIn November 2024, I decided to build my dream setup, including:\n\nMSI RTX 5080 Gaming Trio\n\nMSI X670E Tomahawk WiFi\n\nAMD Ryzen 7 9800X3D\n\nBe Quiet! Pure Power 12 M 1000W (ATX 3.0, 12VHPWR compatible)\n\n\nI thought everything would be fine compatibility-wise, and like any PC enthusiast, I was excited to build my system and enjoy top-tier performance.\n\nBut that\u2019s when everything went to hell.\n\n\n---\n\nThe PSU that ruined everything\n\nAs soon as I finished assembling my setup, my RTX 5080 wouldn't power on.\nThe PC booted, but there was no video signal, and the GPU remained completely unresponsive.\nAt first, I thought: \"Damn, maybe my graphics card is faulty.\"\n\nI ran every test possible:\n\nTried different PCIe slots\n\nChecked the 12VHPWR cable connection\n\nReset BIOS, CMOS\u2014nothing worked.\n\n\nEventually, I concluded: \"Okay, my GPU must be defective.\"\nSo I contacted Materiel.net\u2019s support (where I purchased the card) and sent it back for RMA on March 8th.\n\n\n---\n\nStill doubting, I bought a new motherboard\n\nWhile my RTX 5080 was being checked by the RMA team, doubt started eating away at me.\nI wondered if the issue was actually my MSI X670E Tomahawk WiFi motherboard, so I decided to buy a new one, a MSI X870E Tomahawk WiFi, in case the motherboard was the real problem.\n\nIt arrived quickly, way faster than the PSU I\u2019m still waiting for today\u2026 (but we\u2019ll get to that later).\n\nI reassembled everything full of hope, but\u2026 still nothing.\n\n\n---\n\nA few days after sending the RTX 5080, I finally get a crucial idea\u2026 too late\n\nA few days after shipping my RTX 5080 for RMA, I finally thought, \"What if I test a different graphics card and power supply?\"\nI borrowed a RX 5700 XT and another power supply from my brother, and guess what?\n\nWith his PSU, everything worked fine.\n\nWith my Be Quiet! PSU, still no PCIe power.\n\n\nSo my PSU was the problem all along!\nAnd just like that, I had wasted weeks, bought a new motherboard for no reason, and sent my RTX 5080 for RMA when it was perfectly fine.\n\n\n---\n\nThe X670E motherboard becomes useless\n\nAfter installing my MSI X870E Tomahawk WiFi, I realized it was never my motherboard\u2019s fault.\nSo now, my X670E motherboard, which I suspected for no reason, is useless.\nI\u2019ll be reselling it as second-hand gear since I strongly prefer the X870E.\n\n\n---\n\nThe battle with 1foDiscount\n\nI contacted 1foDiscount (where I bought my PSU) to request a refund, but of course, they tried every trick to get out of it.\n\nThey told me the 14-day return period was over (even though legal warranty laws cover defects for 2 years).\n\nThey asked for detailed tests (which I had already done).\n\nThey insisted that I ship back the PSU, but with no guarantee of a refund.\n\n\nI sent them detailed emails, quoted consumer protection laws, and made it clear that I was ready to report them to consumer authorities if they refused to comply.\nStill, nothing moved.\n\n\n---\n\nAnd now, the endless wait for a new PSU\n\nSince I had no working PC and 1foDiscount was stalling, I ordered a new PSU from Amazon.\nBut once again, the nightmare continued:\n\nDelivery delayed multiple times\n\nPackage stuck in a logistics warehouse since March 16th\n\nAmazon support saying it \u201cshould\u201d arrive tomorrow\u2026 but without a clear confirmation\n\n\nAt this point, I\u2019m exhausted.\nI have a brand-new RTX 5080 waiting, a beast of a system, but everything is being held up by one damn power supply.\n\n\n---\n\nWhy am I sharing this?\n\nFirst, because I need to let it out, obviously.\nBut also because I know I\u2019m not the only one struggling with RTX 5000 series builds, PSU issues, and 12VHPWR cables.\n\nIf anyone here has experienced similar PSU problems or has tips on avoiding issues with 12VHPWR, I\u2019d love to hear them.\n\nAnd most importantly, if you're building a system with an RTX 5000 GPU, always check your PSU before blaming the graphics card.\nI lost a whole month due to a problem that could have been solved in an hour\u2026\n\n\n---\n\nThanks to everyone who read this far. Hopefully, I\u2019ll be posting an update soon with my setup finally running!\n\nPS: I forgot to mention in the original post, but the issue seems to be with the PSU\u2019s PCIe rail. I\u2019m waiting for my new PSU to confirm 100%, but everything points to that.",
+    "comments": [
+        {
+            "author": "BenFloydy",
+            "body": "Half way through I badly wanted to reply 'well its because you didnt do basic diagnostics you fool!...' but by the end I realised that _was_ the lesson. \ud83d\ude01\n\n\nSo respect for your soul bearing.",
+            "score": 64,
+            "replies": [
+                {
+                    "author": "Solaeyris",
+                    "body": "Thanks \ud83d\udc4a\ud83c\udffb",
+                    "score": 12,
+                    "replies": [
+                        {
+                            "author": "BenFloydy",
+                            "body": "One thing I'm not totally clear on ... you did test it with the onboard graphics right, and that worked?\n\n\nBecause otherwise there's a whole 'nuther problem with the story ...",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "Solaeyris",
+                                    "body": "Yes, I tested with the integrated GPU, and it worked fine. The issue was with the PCIe rails on the PSU\u2014they weren\u2019t delivering power to the GPU properly",
+                                    "score": 7,
+                                    "replies": [
+                                        {
+                                            "author": "BenFloydy",
+                                            "body": "Phew. I hoped this was the case but I dont think it was explicitly mentioned. \ud83d\ude01",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "Solaeyris",
+                                                    "body": "Good point! I forgot to mention it, but yeah, the issue was with the PSU\u2019s PCIe rails not supplying power properly",
+                                                    "score": 4,
+                                                    "replies": [
+                                                        {
+                                                            "author": "ime1em",
+                                                            "body": "That's crazy, definitely makes troubleshooting harder",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Solaeyris",
+                                                                    "body": "Yeah, it was a nightmare to troubleshoot. I went through so many unnecessary steps because everything else worked fine, except the GPU. Definitely one of the hardest hardware issues I\u2019ve had to deal with",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "The_Anal_Advocate",
+                            "body": "Your other lesson was buying from places like materiel and 1foDiscount.  WTF are those honestly",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "Solaeyris",
+                                    "body": "Materiel.net is a trustworthy site in France (owned by LDLC), but 1foDiscount? Never again, not in a million years!",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Wavearsenal333",
+                                            "body": "Oh, well if LDLC is involved ... we can all sleep easy  \ud83d\ude02\ud83e\udd37",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Solaeyris",
+                                                    "body": "Haha, did you have a bad experience with them? I've always heard good things about LDLC, especially compared to other retailers. But I'm curious, what makes you say that?",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Wavearsenal333",
+                                                            "body": "Nah, I've never even heard of them. Honestly both ldlc and materiel.net have about the same name recognition for me in Canada as 1fodiscount, which is zero. I just found it funny!",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Wavearsenal333",
+                                                                    "body": "Like \"random fake sounding\u00a0 Chinese company is involved but other random fake sounding company owns them so let's fucking go!\"",
+                                                                    "score": 1,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Solaeyris",
+                                                                            "body": "I've been very satisfied with the services of materiel.net but deeply disappointed by 1foDiscount, and I mean it!",
+                                                                            "score": 1,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Ok-Secret5233",
+                    "body": "For the uninitiated, what are the \"basic diagnostics\" in this case?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "BenFloydy",
+                            "body": "Testing another psu and gpu would be basic diagnostics for me. Its what's known as the 'known good' philosophy - you always want to rule out possibilities by using components that you know work.\n\n\nI do appreciate not everyone has old spares available to use or borrow though, so it was probably harsh to say _basic_ diagnostics, especially since it did boot for OP from integrated GPU. Although since the OP did have a PSU available to borrow, by their own admission they should have done this first.\n\n\nAnother (arguably easier) first option would have been to try the GPU in another (friend or family) system. I probably would have done this first on the basis it appeared to be the new GPU not working.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Ok-Secret5233",
+                                    "body": "Yeah so this is something I've actually asked on this sub and got no response. I'm basically putting together a budget build, buying second hand parts, and at some point it occurred to me: I wouldn't even be able to tell if the things I'm buying work, unless I put everything together and it works. And if it doesn't, I wouldn't know how to diagnose the problem.\n\nI don't have any spares. At home I only have laptops, so I can't use them to test anything (and they're too valuable to play with (need for work etc)). \n\nAny other ideas?",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "BenFloydy",
+                                            "body": "So you keep it minimal to start with, but its worth starting with the approach it'll all work, and work backwards if it doesnt.\n\n\nBuy a CPU with onboard GPU. Then all you really need to get working is -\n\n\nPSU, Motherboard, CPU, RAM.\n\n\nDisks, keyboard, mouse, monitor, etc you'll know arent working seperately (or can test seperately).\n\n\nIf you really need spares and dont have friends to help and *if* it doesnt work first time then get hold of some cheap or free spares.\u00a0\n\n\nBare in mind the spares dont have to be the same spec, just *anything* that works in most cases. It might be harder to do this in your region I dont know, but most places you can pick up spares for free or next to free providing you arent really interested in their spec. Non-modular power supplies for example are thrown away every day in NA/Europe.\n\n\nYou might not have friends or family who'll let you use their good stuff, but I bet you know people who have old stuff lying around they dont want if you ask.\n\n\nOnce you have some old spares, PC diagnostics is a _much_ easier game and always your best approach.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "Ok-Secret5233",
+                                                    "body": "Thank you!",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "og_ramza",
+            "body": "Hope it gets resolved \u2026 that sounds incredibly frustrating \ud83d\ude2d",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "Solaeyris",
+                    "body": "You can\u2019t even imagine how frustrating it\u2019s been\u2026 Thanks for the support, bro! \ud83d\ude4c",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "TheTaoOfMe",
+                            "body": "I had a nightmare of a build my first time, but it turned out one of the ram chips was defective AND one of the ram slots was also defective. It was a double whammy that made troubleshooting such a nightmare for a first timer.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "Solaeyris",
+                                    "body": "Damn, all these PC building issues are brutal. If I had hair, I would have pulled it out thankfully, shoutout to baldness lmao. Wishing all of us geeks and enthusiasts the least amount of trouble possible!",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "wulfwar",
+            "body": "I went from a 3080 to a 5080 FE and similarly had no video signal after card install. I swapped the card, booted up, no video from the 5080 but the logo light on the card was on and the PC was on. I had to use the Motherboard DP slot to be able to see anything and needed to use DDU to remove Nvidia drivers just so I could restart and install Nvidia drivers again. \n\nPretty strange. I don't recall that being a problem when I went from 1070 to 3080. My previously installed Nvidia drivers were from after the 5080 released. Maybe this will help someone that googles this problem.",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "Solaeyris",
+                    "body": "Interesting! I actually tried installing the drivers too, but my GPU wasn\u2019t even detected at all. I had a white LED and the VGA debug light on when I disabled the iGPU in BIOS. Turned out the issue wasn\u2019t software-related\u2014it was my PSU\u2019s PCIe power delivery failing",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "sSTtssSTts",
+                    "body": "Major jumps in GPU generation, or for that matter any major hardware upgrade at all, can cause weird driver issues.\n\nI think lots of people got lucky in their previous upgrades and things just worked for them but now they're running into these issues and its surprising them.\n\nPersonally I'm kinda old school and don't trust any of these companies installers/uninstallers and will do fresh windows installs any time I do a major hardware update (ie. GPU or motherboard).  \n\nCan be a bit of a hassle but slipstreaming goes a long way.  That and in the long run everything just works so much better too.  \n\nSure I've had systems I've done upgrades on for family since winxp or win7 days without doing a OS reinstall and technically they run but good lord are there some weird instabilities, incomprehensible slow downs, and bugs present on them!",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "alvarkresh",
+                            "body": "I was able to DDU over from an Intel Arc A770 to an RTX 4070 Super, but I did it in Safe Mode and followed the piece of advice about double checking that some auxiliary to Intel/AMD stuff also got removed by it.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "SoccerMan94043",
+            "body": "I had something similar with a 4070 Super Card.  Just would not work on a Corsair 750e (I have two different PSUs)... the 4070s work fine but not the Super which requires a touch more power.\n\nIn the middle of diagnosing all of that, I my motherboard fried and I had to replace it as well.\n\nThis video from LTT might be worth watching... they are noting some power fluctuations that might be the real issue, on some PSUs:  https://www.youtube.com/watch?v=7h6kUNlC6cs",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "Solaeyris",
+                    "body": "Interesting! That\u2019s a rough situation, especially losing a motherboard in the process. In my case, the RTX 5080 works perfectly with another PSU, so I'm pretty sure the issue is with my current PSU's PCIe power delivery. But I\u2019ll definitely check out the video, thanks for sharing",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "alvarkresh",
+                    "body": "That does me a small concern as I have a Corsair RM850 model driving a 4070 Super, albeit not with a 12V2x6 or 12VHPWR cable - rather, using the PCI-E adapter that came with the GPU.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "holyschmidt",
+            "body": "Of course it\u2019s the same PSU I just got today for my 5080 build. \ud83e\udd1e",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "Phanthiev",
+                    "body": "I have the same psu. \n\nfunnily enough I ran into a problem regarding the psu. \n\n I connected my psu cable to the 5080, turn pc, all black, I was like hmmmm this is not good, my system did turn on but no image, after a few minutes of looking the problem i realized that the gpu didn't turn on at all, checked all the connections everything was solid, but the problem was that the cable was slightly bent downward from the gpu thus it didn't deliver the power or something like that, moved the cable into a less bent position and surely enough the gpu turned on, mind u this is my first ever pc build.\n\nAs and additional note, I'm also kinda scared since I have the mortal combo of 98003dx and 870 asrock (I had a problem regarding that, I fixed it by cleaning the cmos) i can't catch a breath....  Praying everyday that it doesn't die randomly.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Solaeyris",
+                            "body": "Damn, that must have been stressful! I totally get that feeling when the GPU just won\u2019t power on\u2014it\u2019s pure panic mode. I actually made sure all connections were solid, but I didn\u2019t test with the PSU completely outside the case. I might give it a try just to be 100% sure, but since another PSU worked perfectly with the same setup, I still suspect my unit is faulty. Glad you found a fix though, I can imagine the relief",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "YouLostTheGame",
+                                    "body": "We're the fans spinning up for you? I have a 5080 and the exact same mobo, the fans and RGB come on but also not detected at all by the pc",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Solaeyris",
+                                            "body": "No, the fans weren\u2019t spinning at all, and the card wasn\u2019t detected either. I also had a white VGA LED on the motherboard when I disabled the iGPU in the BIOS. Turned out my PSU was the issue specifically, the PCIe power rail. Maybe try testing with another PSU if you can?",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "YouLostTheGame",
+                                                    "body": "This thread got me thinking about the PSU more generally and gave me the inspiration that I needed it to fix it. I'll say it here in case anyone else in future has the same problem.\n\nI was using the 12vhpwr connector to the PSU. Fans spun, RGB on but GPU not detected. \n\nI swapped it for the 12vhpwr to 3x 8pin PCI adapter that came with the GPU, worked immediately.",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "yodaman98",
+            "body": "I just finished an upgrade over the weekend. Same model psu but 850W. No problems with it but the X670E Tomahawk I bought was faulty. \n\nPC would boot only sometimes, I could never get the same issue to repeat itself, tried with one ram stick, with my old gpu, nothing worked. Ended up returning the X670E and got a B650 Tomahawk instead and it\u2019s been smooth sailing. \n\nI feel your frustration though, trying to track down the problem when there\u2019s a lot of variables is a pain.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Solaeyris",
+                    "body": "Thanks for understanding, it really helps to be heard! And yeah, troubleshooting with so many variables is a real nightmare\u2026 I totally relate. In my case, I\u2019ve tested my brother\u2019s GPU with his PSU on my new X870E motherboard, and it worked fine. I also tested on the X670E before returning it, so that pretty much rules out everything except the PSU. So yeah, I ended up buying a new motherboard for 'nothing'\u2014even though I\u2019m happy with the upgrade, my wallet definitely took a hit! \ud83d\ude05",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "yodaman98",
+                            "body": "Hopefully some other gamer will be able to score with your \u201csecondhand\u201d motherboard! lol",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "Solaeyris",
+                                    "body": "Yeah, hopefully it finds a good home! It\u2019s still a great board, just not the one I needed in the end. May its next owner have fewer headaches than I did! \ud83d\ude06",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "athletyk",
+            "body": "That sucks man. I wanna share a similar experience with you.\n\n  \nI built my first PC in 2019. \n\n2080 Super, I9 9900K z390 ROG maximus hero. I went by the book with the setup. \n\nWhen I powered the PC, everything went fine, Except I got a strange code on the motherboard's LED. ROG's support wasn't much of help with that; I had strange issues, wherein when I would turn off the PC, it would exit windows, but it would not shut off(fans/processor would remain on). I took it to a local popular PC store over here to inspect my setup. He 'concluded' that the motherboard was faulty, he fried a motherboard too during the process. He got everything working outside the case, but as soon as he snapped into the case, it stopped working. Later it turned out to be my case! the standoff screws were pre-installed by the shop I got it from incorrectly, leading to the motherboard touching the case and shorting out. I felt bad for the shop, but to be honest, for a first built, it gave me the confidence to continue, because the supposedly skilled workers destroyed one too.\n\nAt the end, I ended up buying a new motherboard and a case from the same shop, completely defeating my saving strategy of buying items online on Blackfriday/Cyber Monday events.\n\nTough lesson, but I guess I've learnt a good one.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Solaeyris",
+                    "body": "Damn, that\u2019s rough\u2026 Having a hardware issue is already frustrating, but realizing the real cause only after so much trial and error makes it even worse. I can totally relate to that feeling\u2014I thought my GPU or motherboard was the issue, bought a new one, only to later realize my PSU was the actual culprit. At least, like you said, it\u2019s a lesson learned the hard way\u2026 but those lessons sure are expensive! \ud83d\ude05",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Blurgas",
+            "body": "I'm glad that there's a MicroCenter within reasonable driving distance to me, because I pretty much outright refuse to have PC parts shipped to me any more.  \nHell, the last 2 months or so Amazon has been a mess of getting sub-$100 orders to show up on time.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Solaeyris",
+                    "body": "I totally get that\u2026 If I had the option, I would have gone to a specialized PC store myself to buy the PSU. But I live in a small village in France, far from everything, and money doesn\u2019t flow easily\u2014I had to make big sacrifices to build this first desktop PC. So Amazon was the most convenient choice\u2026 except now I\u2019m stuck waiting, and with my luck lately, I doubt I\u2019ll even get it today. This whole setup has been nothing but problems so far",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Fredasa",
+            "body": "I am no shill for Corsair but buying a PSU branded by them gives me the peace of mind that can only come from mass ownership.  I went through the whole \"need me the quietest PSU I can get\" process and realized that as long as it was below X dB then really the top concern needed to be: Is it owned and used by a lot of people?  As in... a large proportion of the entire PC building community?\n\nAgain, not shilling.  Hell, I've had ram fail on me only twice in several decades and both times it was the only two times I bought Corsair.  I don't even think they actually make their PSUs.  But their PSUs are good enough and, more importantly, widely used.  If a problem surfaces with one of their PSUs, chances are _extremely good_ you're not going to be the guy who discovers it firsthand.  That's a philosophy I apply to any standardized PC part, too: Mass ownership is crucial.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Solaeyris",
+                    "body": "That's the reason why I chose Corsair as well, right after BeQuiet, which I don't want to hear about ever again... If only I could at least receive my Corsair PSU tomorrow \ud83d\ude4f\ud83c\udffb. In my desperation, after seeing that the status of the package I was expecting on March 16 still hasn't changed, I broke down and used my last savings to place a second order with Amazon, hoping to finally receive it tomorrow. I'll return the duplicate. I just received the notification and the pickup code...",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Iamasink",
+            "body": "is this post ai generated/assisted/translated?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Solaeyris",
+                    "body": "Nope, it's just translated. I wrote my story in French and translated it to English to share it here! English is quite tricky for me since I'm French and far from bilingual",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Ok-Secret5233",
+            "body": "> And most importantly, if you're building a system with an RTX 5000 GPU, always check your PSU before blaming the graphics card.\n\nI don't understand. If the PSU was at fault somehow, why do you say \"if you're building a system with an RTX 5000\"? If the PSU is at fault, it would be the PSU regardless of which card you have...?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DidiHD",
+            "body": "the amount of issues with the beQuiet PSUs I'm reading is shocking. I always held then for being top notch.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DidiHD",
+            "body": "the amount of issues with the beQuiet PSUs I'm reading is shocking. I always held then for being top notch.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Solaeyris",
+                    "body": "Yes, I also thought it was a reliable brand, which is why I bought one in the first place!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

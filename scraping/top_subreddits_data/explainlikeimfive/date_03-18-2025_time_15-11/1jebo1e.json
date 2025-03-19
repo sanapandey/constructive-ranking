@@ -1,0 +1,132 @@
+{
+    "title": "ELI5: Is it possible to be invisible to thermal with camo thats NIR rated?",
+    "author": "Worth-Maintenance749",
+    "subreddit": "explainlikeimfive",
+    "rank": 14,
+    "score": 5,
+    "upvote_ratio": 0.65,
+    "num_comments (reported by reddit)": 17,
+    "url": "https://www.reddit.com/r/explainlikeimfive/comments/1jebo1e/eli5_is_it_possible_to_be_invisible_to_thermal/",
+    "id": "1jebo1e",
+    "selftext": "Assuming NIR is even measureable like Lumens for example. Ie. Lower worse higher better. \n\nSimply said. Can you be more invisible with higher NIR \n\nEdit. Title is wrong due to ny limited knowledge on the matter so in this case Thermal=Night vision. (Yes not the same but its what i meant)",
+    "comments": [
+        {
+            "author": "Heath24Green",
+            "body": "Light is a spectrum it goes forever. Imagine a rainbow that never ends with new colors at ever band. We just happen to only see the little segment of this infinite rainbow. We built some tools to allow us to see these \"hidden rainbow bands\". One of them is infra-red (IR) meaning beyond red - that is continuing the rainbow past the red side of a rainbow). Our bodies and other warm objects give off light in this band. We made our tools work like a camera but only see this IR band. This tool is a thermal camera. \n\nBlack body radiation is scary sounding concept that means that as things get hotter they emit light further and thurther up the rainbow. Starting in the IR side of the rainbow. Imagine a piece of metal. At room temp/body temp it is releasing IR light. Heat it up some more it finally reached red part of the rainbow and begin glowing red. Heat it up more it will get to the other side of our light and emit blue light. This mixes with the other colors it is now emitting (blue,green, yellow, orange, red, IR) and we see it now as white light. The reason that piece of metal starts glowing as it heats up is the same reason that we are glowing.\n\nSo you can imagine your body as a light bulb to the thermal camera. How can you hide a lightbulb? You can cover it with clothes and that works until your body heats up the clothes and now the clothes are glowing just as you were.\n\nI suppose yes some clothes can block that light (hidden band) from escaping, but it would mean that no heat is escaping your clothes, meaning you will be very hot and likely uncomfortable. Perhaps make a cone to focus the light straight up that surrounds you to work like a flashlight that you can see when it is pointed at you but harder to see when it is pointed away and not bouncing off of anything.\n\nThanks for filling up my lunch break \ud83e\udd42",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Worth-Maintenance749",
+                    "body": "Thank you, yes in practice it would be hardly viable unless submerged or just not in sight. But is it possible in theory for a cloth to be invisible? Thermal camos i see in example videos from ukraine make it still standout from the enviroment just because its such a smooth surface? \n\nAppreciate the answer very easy to understand. Top tier ELI5.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Alikont",
+                            "body": "You can't beat thermodynamics. Eventually you will heat the cammo and it will start glowing.\n\nYes, good cammo can keep itself from heating up and working like a thermos. But it just slows down the process.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Heath24Green",
+                                    "body": "In a potentially sci-fi sense you could make in inefficient system in which you have an ac system to cool your body, that somehow dispenses the thermal waste energy as light indefectible by thermal cameras and just beam it off to space through the atmosphere.\n\nThat or I kinda like my cryo suit idea. Wonder how long a carry sized tank of nitrogen would conceal a body for. And electronics for measuring ambient and body temp throughout suit as well as valving and e-brain for the system to function well.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Heath24Green",
+                            "body": "I'm not sure about submerged, but maybe IR light has a hard time travelling through water. As a materials science engineer I feel like I should know this.\n\nYes materials can appear invisible, especially to a narrow wavelength of light such as IR. For UV (ultra violet, meaning the rainbow past the blue/violet end) you can look up photos of sunscreen as seen through a UV camera. It appears black. \n\nlight can pass through physical objects. Radio waves pass through your walls. X rays pass through your clothes/skin. Each material interacts with light differently. Visible light passes through glass, etc...\n\nAgain the hard part with thermal camera is it is essentially seeing the light that heat creates from black body radiation. So you would need to mask the heat somehow. Creating a heat-tight box would become an oven for a human. Like a cryo suit that would slowly bleed liquid nitrogen over a suit to cool off your external presence to ambient temperature while insulating enough to keep your body at a comfortable temperature.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Worth-Maintenance749",
+                                    "body": "Thank you again for a very informational reply! Yes when submerged you become invisible to thermal and upon surfacing very hard to notice briefly ( 1-5s) \n\nI think you have satisfied my question more than enough by now.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Heath24Green",
+                                            "body": "Gonna look that up if it's just an optical thing or thermal. That is does the IR light get attenuated by water. Or do we stop releasing noticeable IR light from black body radiation because we are now essentially the temperature of room temp water?\n\nIf imagine a hottub in a ir camera would glow.\n\nI bet if you stay still in stagnant water for long enough you may glow if it isn't an optical thing. because you would heat the water up around you.\n\nIt's an optical attenuation thing- just looked it up. Explains why the top layer of a still lake in the sun is so much hotter than below! The top layer absorbs all of the sun's infra red light.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Worth-Maintenance749",
+                                                    "body": "Falcon Claw in YouTube showcased it. I can link the video if you want.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "VerifiedMother",
+            "body": "Near infrared is not the same spectrum used for thermal cameras, so no",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Worth-Maintenance749",
+                    "body": "Okay so same but for night vision, im guessing by clothing having only NIR rating largely its impossible to be invisible to thermal without blocking view\n\nIll fix the title.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "doobied-2000",
+            "body": "ELI5: What does NIR rated mean?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "darth_sinistro",
+                    "body": "Near infrared. Infrared is a broad spectrum, so near infrared is the half of the spectrum that is next to visible light. Far infrared is further away and is used for different purposes. Near infrared night vision uses ambient infrared light or supplies its own, and amplifies it and color shifts it for the viewer. This is why infrared is monochromatic green. \nFar infrared is what is often referred to as thermal vision. These are the frequencies of light that are given off by things like humans and animals. Also referred to to as black-body radiation.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "None",
+                    "body": "[deleted]",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Worth-Maintenance749",
+                            "body": "Spectroscopy is wrong. Autocorrected and wont let me delete.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "jbs143",
+                    "body": "Near-Infrared Light.\n\n  \nAll objects with a temperature radiate light, called blackbody radiation.  Thermal cameras are cameras that are designed to measure light in the Infrared spectrum, which is most of the light emitted by objects that are at or near room temperature.  Normal cameras measure the different frequency of visible light and display that as different colors, thermal cameras measure the peak frequency of Infrared light which corresponds to that object's temperature.\n\n  \nMost living things are warmer than the surrounding environment, so it is easy to use a thermal camera to detect them, even if they are extremely well camouflaged in the visible light spectrum, or in a dark environment where there is not much visible light for a normal camera to detect.  It's possible to use insulating materials to slow the release of heat into the environment, and if you can slow that release enough the exterior of an object may eventually become close enough to the temperature of the environment that it's not easy to detect using thermal cameras.  The problem with this method is that the temperature difference still exists so it's not a permanent solution.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Worth-Maintenance749",
+                    "body": "Used in military clothes NIR stands for Near-Infrared Reflectance",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "imseeingthings",
+            "body": "No but it helps. But just about as much as any clothes it barely helps. But a naked person will stand out better than someone with clothes but you can still see them pretty clearly. Adding other layers helps this to some extent but still doesn\u2019t really help much. \n\nI\u2019ve seen tests on YouTube of people using Mylar or blankets and they do seem effective but I would question for how long. And it\u2019s not form fitting, more like a poncho which I think allows the heat to dissipate faster. \n\nCheck out falcon claw on YouTube. They\u2019re from Estonia and post a lot of tests regarding thermal and night vision detection.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Worth-Maintenance749",
+                    "body": "Falcon claw is what made me ask\ud83d\ude01 mylars in their tests still stood out largely so thats why i asked.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "title": "Cheapest way to run Wan 2.1 in the cloud?",
+    "author": "tvmaly",
+    "subreddit": "StableDiffusion",
+    "rank": 15,
+    "score": 4,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 2,
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1jefqaw/cheapest_way_to_run_wan_21_in_the_cloud/",
+    "id": "1jefqaw",
+    "selftext": "I only have 6gb of VRAM on my desktop gpu.  I am looking for the cheapest way to run a wan 2.1 in the cloud. What have you tried and how well does it work?",
+    "comments": [
+        {
+            "author": "No-Mistake8127",
+            "body": "I recommend [https://www.runpod.io/](https://www.runpod.io/) . It's pretty cheap and you pay as you go.   There are templates for Wan, Hunyuan, etc. ready to be deployed.  Most of these templates will deploy ComfyUI and provide the URL.  There's a nice Wan2.1 i2v, t2v, and v2v template that I use often.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "willwm24",
+            "body": "I use paperspace since you can pay a flat rate instead of by usage, but it is like $50/month to be able to access the free A-6000s",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

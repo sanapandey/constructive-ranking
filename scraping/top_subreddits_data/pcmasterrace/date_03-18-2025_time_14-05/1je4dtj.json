@@ -1,0 +1,95 @@
+{
+    "title": "Daily Simple Questions Thread - March 18, 2025",
+    "author": "AutoModerator",
+    "subreddit": "pcmasterrace",
+    "rank": 1,
+    "score": 2,
+    "upvote_ratio": 0.75,
+    "num_comments (reported by reddit)": 13,
+    "url": "https://www.reddit.com/r/pcmasterrace/comments/1je4dtj/daily_simple_questions_thread_march_18_2025/",
+    "id": "1je4dtj",
+    "selftext": " Got a simple question? Get a simple answer!\n\nThis thread is for all of the small and simple questions that you might have about computing that probably wouldn't work all too well as a standalone post. Software issues, build questions, game recommendations, post them here!\n\nFor the sake of helping others, please don't downvote questions! To help facilitate this, comments are sorted randomly for this post, so that anyone's question can be seen and answered.\n\nIf you're looking for help with picking parts or building, don't forget to also check out our builds at [https://www.pcmasterrace.org/](https://www.pcmasterrace.org/)\n\nWant to see more Simple Question threads? [Here's all of them for your browsing pleasure!](https://www.reddit.com/r/pcmasterrace/search?q=Simple+Questions+Thread+subreddit%3Apcmasterrace+author%3AAutoModerator&restrict_sr=on&sort=new&t=all)",
+    "comments": [
+        {
+            "author": "PCMRBot",
+            "body": "If you ask a question, and someone answers it correctly, reply with a thank you, but include this checkmark: \u2713 ( or write `!check` instead )\r\n\r\nThis will score the user whose comment you replied to a 'point'.  The points will unlock special flair that will show in all Daily Simple Questions threads.\r\n\r\nIn case you missed it, [click here for yesterday's Daily Simple Questions thread.](/r/pcmasterrace/comments/1jdc2sc/daily_simple_questions_thread_march_17_2025/)\r\nThere may be some questions still unanswered!  Below is a selection of questions with no replies.  See if you can help them out.\r\n\r\nIf you don't want to see this comment click the little [-] to the left of my username to collapse this comment.\r\n\r\n----\r\n\r\n\r\n\r\nUser | Points (365 days) | Lifetime\n-----|-------------------|----------\nLastdudealive46 | 89 | 116\n\\_j03\\_ | 70 | 171\nA\\_Neaunimes | 66 | 1198\nEidolon\\_2003 | 63 | 255\nMGsubbie | 59 | 402\nNbblX | 51 | 130\nBioshockEnthusiast | 34 | 48\nglowinghamster45 | 26 | 213\nCable\\_Salad | 23 | 63\nmister\\_newbie | 19 | 116\n\n\n----\n\n*[I am a bot](https://i.imgur.com/hfRIhMe.png)* -  This action was done automatically. Please direct any questions or concerns ( or bug reports ) to [\\/u\\/eegras](https://www.reddit.com/message/compose?to=eegras&subject=&message=) - [About /u/PCMRBot](https://pcmasterrace.org/pcmrbot_old)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "2Norn",
+            "body": "should i buy a tray cpu?\n\nit's not some rando guy selling it btw or a reseller on a website. it's the biggest electronics store in my country and also official amd/nvidia partner selling it but i still don't know wtf is tray cpu so i'm a bit hesitent.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Cable_Salad",
+                    "body": "It means no cooler and potentially no warranty. The latter depends on the vendor.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "PickledWaffle",
+                    "body": "My girlfriend got her 9800x3d in a tray version.\n\nBasically AMD sells to pc building places a big tray of CPUs so they can build stuff. Without a box or anything. I am not sure they are supposed to be resold further but it tends to happen.\n\nThe one she got arrived wrapped up in bubble wrap in an envelope. Looked sketchy af. But it works just fine so can't complain there.\n\nAs for warranty at least in EU you can submit it directly to the store.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "MartinLubeHerTingJr",
+            "body": "I'm going from a 3060 to a 5070 ti.\nmy psu is a seasonic focus px 850w 80plus platinum. \n\nWill the adapters nvidia provide be safe to use on this psu or should I buy a new psu that supports the newer connections",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Lastdudealive46",
+                    "body": "The adapters will be fine, just make sure every cable is snug and secure.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "PickledWaffle",
+                    "body": "I would say that generally they are as safe as the new cables can be.\n\nBasically try to make sure that everything is connected well and if you happen to move the case around then check if the connection is still good.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "A_Neaunimes",
+                    "body": "Adding to the other answers, which are correct, your PSU is compatible with [Seasonic\u2019s 12VHPWR cable](https://seasonic.com/12vhpwr-cable/) which would take up 2x8pins plugs from the power supply, and connect straight into the graphics card, eliminating the middleman.  \n\nIt comes in a straight (link above) or [90\u00b0 angled variant](https://seasonic.com/12v-2x6-cable-90-degrees/).",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Smeggy32",
+            "body": "I'm planning to build a new PC (first time) and so far I've chosen this build (GPU is already purchased) - [https://sk.pcpartpicker.com/list/yBTJTM](https://sk.pcpartpicker.com/list/yBTJTM)  \n  \nWould you recommend some changes or is it fine?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "mister_newbie",
+                    "body": "Cooler is excellent, but overpriced. A Thermalright variant will do the same job for half the cost.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "reckless150681",
+                    "body": "- Cheaper cooler, if possible. Dunno how SK's inventory is, but if you can find a PS120 or Frozn A620 that would be better\n\n- MB can be slightly cheaper. Gigabyte B650 Eagle AX is sufficient, most people don't need 800 series chipset\n\n- PSU overkill. If you don't think you'll be upgrading within ~5 years, don't bother leaving too much power overhead. Take PCPP's power estimate, add either 250W or 20%, whichever is lower.\n\n- No need to buy Windows right now, you can use it with a watermark for a bit and then see if it bothers you",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ducky21",
+            "body": "I have a 3080ti. I just got a confirmed order for a 5080FE from Nvidia, but I'm torn on whether to sell it to a friend or keep it. My 3080ti works great at 1440p, but it struggles with RT effects enabled on my 4K120 TV. Checking RivaTuner, it seems like 12 GB just isn't enough for stuff like Alan Wake II and CP2077 at 4K with RT.\n\nI want to play these games at 4K with RT, but I want to make sure the 5080 can handle it. I've been poring over reviews, but most seem to focus on pure raster, or situations that are useful for comparing across cards but not how I'd actually use the damn thing (i.e., Gamers Nexus' marks are all done with FSR instead of DLSS. There is no reason to use FSR instead of DLSS on my couch.)\n\nIs the 5080 going to let me play games at 4K with DLSS and most RT effects enabled, or am I going to be in the same boat as my 3080ti: one or two effects on, but mostly traditional rasterized rendering.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "trackingmyporn",
+            "body": "is be quiet pure power 12 m 850w bn344 compatible with 5070 Ti VANGUARD SOC LAUNCH ED ?",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

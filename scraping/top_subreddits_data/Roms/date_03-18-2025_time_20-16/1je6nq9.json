@@ -1,0 +1,253 @@
+{
+    "title": "How to download unavailable games from Vimm's lair",
+    "author": "theruletik",
+    "subreddit": "Roms",
+    "rank": 2,
+    "score": 255,
+    "upvote_ratio": 0.95,
+    "num_comments (reported by reddit)": 39,
+    "url": "https://www.reddit.com/r/Roms/comments/1je6nq9/how_to_download_unavailable_games_from_vimms_lair/",
+    "id": "1je6nq9",
+    "selftext": "Just simple way to download unavailable roms. Basically we will return removed \"Download\" button.  \n  \n1. Go to the page with needed game  \n2. Right Click on the page, in the dropdown menu select \"Inspect\" (it will open browser inspector)  \n3. If you on Chrome click \"Ctrl+Shift+C\" or click on the top left icon with the \"arrow\" (it will let you select visually elements on the page)\n\n[Arrow selection icon ](https://preview.redd.it/zwyqco88lgpe1.png?width=232&format=png&auto=webp&s=8ba5339c7ed4a5805d13dc79f37421815f4696c8)\n\n4. With that tool select the text \"Download unavailable at the request...\"\n\n[Selecting the block with unavailable text](https://preview.redd.it/8o76k2ojlgpe1.png?width=364&format=png&auto=webp&s=72f7f01ba3df0b489cc49283311ddcc77f22872e)\n\n5. In the inspector you will see the source code was selected for that part of the page\n\n[Source code for the unavailable game text](https://preview.redd.it/qqy3dlxqlgpe1.png?width=716&format=png&auto=webp&s=f6876a1e7b33327f41f4ce27b36c4f6d6b61c949)\n\n6. You need to click on the arrow on the left of the `<form action=\"//dl3.vimm.net/\" method=\"POST\" id=\"dl_form\" onsubmit=\"return submitDL(this, 'tooltip4')\"><input type=\"hidden\" name=\"mediaId\" value=\"6462\">`\n\n[Open the \\<form\\> block](https://preview.redd.it/v0pmq20amgpe1.png?width=704&format=png&auto=webp&s=9a4e58456c0919a953f651ca8b33604eb6e496fa)\n\n7. You will see 2 hidden inputs with mediaId value, as its a simple HTML form it's lacking the simple submit button. Right Click on the <form> code and select \"Edit as HTML\"\n\n[Edit as HTML the form code](https://preview.redd.it/hbn0ynsjmgpe1.png?width=530&format=png&auto=webp&s=bdaef33b50c93d067706c4a2912d60c87a614f0f)\n\n8. You will enter edit mode for that specific element on the page\n\n[Edit mode](https://preview.redd.it/ochzapasmgpe1.png?width=865&format=png&auto=webp&s=46f7a10c418402c9d70c9b6f73a54728b97db29f)\n\n9. IMPORTANT! Here after the second <input> paste following code `<button type=\"submit\" style=\"width:100%\">Download</button>` \n\n[That how it should look after pasting \\<button\\> code](https://preview.redd.it/h47f6ov0ngpe1.png?width=907&format=png&auto=webp&s=8e2cf167eb36507146d80f613837d760aef78d48)\n\n10. Click Ctrl+Enter to save new code. Done! You will see button \"Download\" after that \n\nhttps://preview.redd.it/tojt5vpbngpe1.png?width=375&format=png&auto=webp&s=b4a3f686f270b199577e84fd7b2ce32913035ae1\n\n11. Download your roms :) Also with that fix you will be able to download the other discs staying in that page ",
+    "comments": [
+        {
+            "author": "AutoModerator",
+            "body": "If you are looking for roms: Go to the link in https://www.reddit.com/r/Roms/comments/m59zx3/roms_megathread_40_html_edition_2021/\n\nYou can navigate by clicking on the various tabs for each company. \n\nWhen you click on the link to Github the first link you land on will be the Home tab, this tab explains how to use the Megathread.\n\nThere are Five tabs that link directly to collections based on console and publisher, these include Nintendo, Sony, Microsoft, Sega, and the PC.\n\nThere are also tabs for popular games and retro games, with retro games being defined as old arcade systems. \n\nAdditional help can be found on /r/Roms' official Matrix Server [Link](https://matrix.to/#/#romz:matrix.org)\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Roms) if you have any questions or concerns.*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "gldoorii",
+            "body": "Very cool. As much as I enjoy Vimm's, I've found the Myrient links in the megathread to be a hell of a lot faster.",
+            "score": 104,
+            "replies": [
+                {
+                    "author": "theruletik",
+                    "body": "Agree, but maybe someone need it, who knows )",
+                    "score": 33,
+                    "replies": []
+                },
+                {
+                    "author": "bemml1",
+                    "body": "Could you please post further details?",
+                    "score": -35,
+                    "replies": [
+                        {
+                            "author": "Eastern-Ad-3129",
+                            "body": "Nice try, government agent.",
+                            "score": 24,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "The_Scraggler",
+            "body": "Just use Tampermonkey and this userscript:\n\n    // ==UserScript==\n    // @name         Re-add Download Button Vimm's Lair\n    // @version      1.2\n    // @description  Grabs the mediaId and re-adds the download button only on pages that have them removed\n    // @author       anonymous\n    // @match        https://vimm.net/vault/*\n    // ==/UserScript==\n    (function() {\n        const downloadForm = document.querySelector('#dl_form');\n        const downloadButton = downloadForm?.querySelector('button[type=\"submit\"][style=\"width:100%\"]');\n    \n        if (downloadForm && !downloadButton) {\n            downloadForm.insertAdjacentHTML('beforeend', '<button type=\"submit\" style=\"width:34%\">Download</button>');\n        }\n    })();",
+            "score": 30,
+            "replies": [
+                {
+                    "author": "crazyhomie34",
+                    "body": "Ehhh how do you run this script? Or is there a handy YouTube video on how to do it?",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "MilkManEX",
+                            "body": "Video guide is massively overkill. Install Tampermonkey addon. Select \"create a new script\" in Tampermonkey UI. Delete the default template script and copy-paste the code above into the text box, then save.",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "RebootGremlin",
+            "body": "Will always be the OG site for me. History.",
+            "score": 15,
+            "replies": [
+                {
+                    "author": "876k",
+                    "body": "Real ones remember Emuparadise",
+                    "score": 15,
+                    "replies": [
+                        {
+                            "author": "Asleep-Newspaper8700",
+                            "body": "Emuparadise is an international treasure",
+                            "score": 7,
+                            "replies": []
+                        },
+                        {
+                            "author": "TheSpiralTap",
+                            "body": "Emuparadise was just a cool website. It was more than a rom site, they had a whole community.  I got reccomended quite a few retro games I ended up loving from them.\n\nThis place is pretty similar in terms of chillness, which is appreciated.",
+                            "score": 5,
+                            "replies": []
+                        },
+                        {
+                            "author": "HyperFunk_Zone",
+                            "body": "o7",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "JayRam85",
+                            "body": "Damn. Haven't heard that name in a long while.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "juggernaut911",
+                            "body": "https://media.tenor.com/DAOKihNlNOsAAAPo/anton-ego-flashback.mp4",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Which-Jury-8044",
+                    "body": "Same it had the cleanest rom uploads. Then the apple nation attacked \ud83e\udd72. I use apple but I never posted anything about using apps to play games on social media",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "amroamroamro",
+            "body": "Sounds like something easily done using a bookmarklet or a userscript.\n\nI don't use Vimm, but something along the lines of:\n\n    let btn = document.createElement('button');\n    btn.type = 'submit';\n    btn.style.width = '100%';\n    btn.append('Download');\n    \n    let form = document.getElementById('dl_form');\n    form?.append(btn);",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "theruletik",
+                    "body": "That will be even better solution yes)",
+                    "score": 7,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Depoka_YT",
+            "body": "THANK GOD YES IT TOOK ME LIKE 20 MINUTES BUT STILL BLESS YOU",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "Greedy-Carpenter7981",
+            "body": "Wow but why do this? What does that site have over MT?",
+            "score": 11,
+            "replies": [
+                {
+                    "author": "AbyssalRedemption",
+                    "body": "It's been around over 25 years, built and maintained by one guy. At the very least, it's a piece of internet heritage.",
+                    "score": 9,
+                    "replies": [
+                        {
+                            "author": "Greedy-Carpenter7981",
+                            "body": "I love the information just wondered why anybody would use it over the MT.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Danhandled",
+                    "body": "I have not found the megathread to have all the DS roms that Vimm\u2019s has",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Greedy-Carpenter7981",
+                            "body": "Really wow that's good to know then",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "theruletik",
+                    "body": "Just old habits i guess )",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "DraftLimp4264",
+            "body": "Or just go to somewhere like romspure or any one of another 100 'whack a mole' ROM sites out there.\n\n\nThere really is no need to jump through hoops to get any of this stuff.",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "theruletik",
+                    "body": "Valid point )",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Vashh420",
+            "body": "Thanks for putting your time and effort into this dude.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "SkyMaro",
+            "body": "ok cool but I've never not been able to find a game by googling \"\\[game title\\] rom\" the first result pretty much always has it.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "The_Pirate_King10",
+            "body": "WHAT?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MrWonderful_3187",
+            "body": "Very nice. Thank you",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "PeteCactus",
+            "body": "Confirmed, works. I never thought to try this. Thanks!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "NFCFOX33",
+            "body": "Im following the instructions and the download button comes back but when I click it no download!? Any help?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Mohammed1STQX",
+            "body": "That is awesome.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Gloveman6969",
+            "body": "Great info thanks!!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Captain_N1",
+            "body": "nice method but highly impractical for mass downloads. Then again Vimms is a shit site for mass downloads.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "dwago",
+            "body": "I remember there's also a plugin or similar fix for emulatorzone after they got dmc:ad from companies. \n\nBut it's good to know honestly, I enjoy vimm's lair, but the download speed sucks from it.  But still use it for some ps3 stuff and what not.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "PoopyTo0thBrush",
+            "body": "Thanks!",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}

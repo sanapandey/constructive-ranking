@@ -1,0 +1,54 @@
+{
+    "title": "Looking to fully reset a Windows Laptop?",
+    "author": "Sad_Wrongdoer_5499",
+    "subreddit": "Windows10",
+    "rank": 9,
+    "score": 2,
+    "upvote_ratio": 0.58,
+    "num_comments (reported by reddit)": 7,
+    "url": "https://www.reddit.com/r/Windows10/comments/1je5qnb/looking_to_fully_reset_a_windows_laptop/",
+    "id": "1je5qnb",
+    "selftext": "I was let go from a company but they let me keep the work laptop. However, since my work account was disabled I cannot actually log into the computer or add any new accounts to it. How can I fully reset this computer so the company doesn't have access to it and I can remove all the files and start fresh with it as a personal device?",
+    "comments": [
+        {
+            "author": "Froggypwns",
+            "body": "https://www.windowscentral.com/how-do-clean-installation-windows-10",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Sad_Wrongdoer_5499",
+                    "body": "I can't get to the main menu though, I am stuck on the login window since my account has been disabled",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Froggypwns",
+                            "body": "I'm aware. Skip to the section that says Create USB, and use another PC to do that.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Sad_Wrongdoer_5499",
+                                    "body": "Thank you. Will this require a bitlocker key or does it bypass that?",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "free_refil",
+                                            "body": "Won\u2019t need bilocker key, just remove all partitions from the hard disk and install to \u201cunallocated space\u201d and it\u2019ll be good to go",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "TheeShroom",
+            "body": "Google \"Microsoft Media Creation Tool\", on a working windows 10 / 11 computer. NOT THE ONE YOU ARE REINSTALLING WINDOWS ON........ Use a USB thats at least 8GB and you can make a new Windows OS to load onto the work PC.  The site will tell you how.  [https://support.microsoft.com/en-us/windows/create-installation-media-for-windows-99a58364-8c02-206f-aa6f-40c3b507420d](https://support.microsoft.com/en-us/windows/create-installation-media-for-windows-99a58364-8c02-206f-aa6f-40c3b507420d)",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

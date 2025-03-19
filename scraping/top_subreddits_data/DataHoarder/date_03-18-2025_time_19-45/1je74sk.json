@@ -1,0 +1,112 @@
+{
+    "title": "Extremely large old HDD. Any ideas what it is?",
+    "author": "BrailleCortex",
+    "subreddit": "DataHoarder",
+    "rank": 7,
+    "score": 21,
+    "upvote_ratio": 0.81,
+    "num_comments (reported by reddit)": 16,
+    "url": "https://www.reddit.com/r/DataHoarder/comments/1je74sk/extremely_large_old_hdd_any_ideas_what_it_is/",
+    "id": "1je74sk",
+    "selftext": "https://preview.redd.it/ecizww6tqgpe1.png?width=4080&format=png&auto=webp&s=46763133f8ef9d16c3ecc55488038887a18b3e89\n\nI have this thing sitting on a shelf. Normal 2.5inch SSD for scale.\n\nhttps://preview.redd.it/6h6nwhx0rgpe1.png?width=4080&format=png&auto=webp&s=6fa9f5c084ea4bc2700fd2fb7ed2f3ee4dbd1b30\n\nhttps://preview.redd.it/30kipls1rgpe1.png?width=4080&format=png&auto=webp&s=d923e328f6222e05db985fcd805a30683e023cae\n\nhttps://preview.redd.it/v5r6kim2rgpe1.png?width=4080&format=png&auto=webp&s=81499d42410756945abc40f03fc2050616334da4\n\nhttps://preview.redd.it/t2uf8zu3rgpe1.png?width=4080&format=png&auto=webp&s=87bdb7d0a0c704f74741ac52178bde770cf1f96d\n\n",
+    "comments": [
+        {
+            "author": "AutoModerator",
+            "body": "\nHello /u/BrailleCortex! Thank you for posting in r/DataHoarder. \n\nPlease remember to read our [Rules](https://www.reddit.com/r/DataHoarder/wiki/index/rules) and [Wiki](https://www.reddit.com/r/DataHoarder/wiki/index).\n\nPlease note that your post will be removed if you just post a box/speed/server post. Please give background information on your server pictures. \n\nThis subreddit will ***NOT*** help you find or exchange that Movie/TV show/Nuclear Launch Manual, visit r/DHExchange instead.\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/DataHoarder) if you have any questions or concerns.*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "burnitdwn",
+            "body": "Wow that is a monster.\n\nThe biggest one's i've ever played with were old Seagate 10K \"full height\" 5.25 inch drives.  They took up 2 cdrom bays and sounded like jets.\n\nIm guessing this is a 60 pin IBM Mainframe DASD drive.  Size/dimensions make me think it might be an IBM 3390.   But,  I think those usually have more heatsyncs built into them.   I dont have any experience with them.",
+            "score": 20,
+            "replies": []
+        },
+        {
+            "author": "LordGAD",
+            "body": "I bet it\u2019s 5MB.\u00a0\n\nNot a joke.\u00a0",
+            "score": 17,
+            "replies": [
+                {
+                    "author": "BassKitty305017",
+                    "body": "I bet it\u2019s reliable as hell once you figure out how to actually read/write data with it.",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "redisthemagicnumber",
+            "body": "Ask in r/vintagecomputers",
+            "score": 15,
+            "replies": []
+        },
+        {
+            "author": "MWink64",
+            "body": ">Any idea what it is?\n\nImpressive! That's what. \n\nIt certainly isn't one I've seen before. I assume powering it up involves informing your local nuclear power plant and seismologist. I still remember how those old full height drives could shake the room.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "s00mika",
+            "body": "It's this thing. An external 571MB HDD for the HP9000 workstations, made in 1988 according to the date code on the top of it.\n\nhttps://commons.wikimedia.org/wiki/Category:Hewlett-Packard_HP9000_7937_DiskDrive",
+            "score": 10,
+            "replies": [
+                {
+                    "author": "Acceptable-Rise8783",
+                    "body": "That\u2019s actually quite a lot of capacity tbh. It wouldn\u2019t have come cheap",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "tdowg1",
+            "body": "OMG I LOVE THIS",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "archibaldjleach",
+            "body": "Likely a SCSI drive.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "djliquidice",
+            "body": "These must sound awesome when spinning up and down.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Difficult-Value-3145",
+            "body": "256 bites",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "KernelFrog",
+            "body": "Try asking in r/iBM.  One of the old timers might have an idea.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "lolwutdo",
+            "body": "Damn, that looks like it belongs in an engine bay. lmao",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Zealousideal_Brush59",
+            "body": "That's sick. I want to buy one of those",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "mnpc",
+            "body": "It\u2019s a hard drive. Giant spinning platters inside.  Took one apart once. Wish I had taken pics. Pretty cool. Hand written serial numbers on the inner ring of each platter, etc.",
+            "score": -3,
+            "replies": []
+        }
+    ]
+}

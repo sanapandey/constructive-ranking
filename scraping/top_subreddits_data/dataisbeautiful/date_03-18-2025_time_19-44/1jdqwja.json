@@ -1,0 +1,302 @@
+{
+    "title": "[OC] How far you can go in an hour from any point in the United States",
+    "author": "datasnow",
+    "subreddit": "dataisbeautiful",
+    "rank": 9,
+    "score": 336,
+    "upvote_ratio": 0.94,
+    "num_comments (reported by reddit)": 48,
+    "url": "https://opentimes.org/",
+    "id": "1jdqwja",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "datasnow",
+            "body": "Hi all! Today I launched a free database of roughly 150 billion pre-computed, point-to-point travel times between United States Census geographies. In addition to letting you visualize travel isochrones, it also lets you download massive amounts of travel time data for free and with no limits.\n\nThe primary goal here is to enable research and fill a gap I noticed in the open-source spatial ecosystem. Researchers (social scientists, economists, etc.) use large travel time matrices to quantify things like access to healthcare, but they often end up paying Google or Esri for the necessary data. By pre-calculating times between commonly-used research geographies (i.e. Census) and then making those times easily accessible via SQL, I hope to make large-scale accessibility research cheaper and simpler.\n\nSome technical bits that may be of interest to folks here:\n\n- The entire OpenTimes backend is just static Parquet files on R2. There's no RDBMS or running service. The whole thing costs about $10/month to host and is free to serve.\n- All travel times were calculated by pre-building the inputs (OSM, OSRM networks) and then distributing the compute over hundreds of GitHub Actions jobs.\n- The query/SQL layer uses a setup I haven't seen before: a single DuckDB database file with views that point to static Parquet files via HTTP.\n\nFinally, the driving times are optimistic since they don't (yet) account for traffic. This is something I hope to work on in the near future. Hope this is useful to folks. Enjoy!\n\n**Data sources:**\n\n- [OpenStreetMap](https://www.openstreetmap.org/#map=5/38.01/-95.84) for street network data\n- [Census TIGER/Line](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) for Census shapefiles\n- [OpenFreeMap](https://openfreemap.org/) for basemaps\n\n**Tools:**\n\n- Python for data engineering and cleaning (GeoPandas and DVC mostly)\n- [Open Source Routing Machine](https://project-osrm.org/) for travel time calculation\n- Maplibre GL JS + hyparquet on the frontend\n\nFull source code can be found on [GitHub](https://github.com/dfsnow/opentimes).",
+            "score": 87,
+            "replies": [
+                {
+                    "author": "vagaliki",
+                    "body": "Super cool! Would be awesome if you could add train, bus also",
+                    "score": 23,
+                    "replies": []
+                },
+                {
+                    "author": "DavidWaldron",
+                    "body": "I\u2019ve always hoped someone would do this and publish it. You\u2019re right that there\u2019s been a big gap here. So many researchers would love to use this. I\u2019ve gotten by doing small parts of the country with a local graph hopper setup, but for national ones I\u2019d have to resort to [these estimates for 2010 ZCTAs](https://geonavilab.geog.ufo.edu/downloads/).",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "TheAserghui",
+                    "body": "This is awesome! By chance is there a way to increase the time and adjust increments?",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "jessecrothwaith",
+                            "body": "if you scroll out it increases time.",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "TheAserghui",
+                                    "body": "Yup, it expands up to 6 hours, but I was curious if it could extend farther",
+                                    "score": 6,
+                                    "replies": [
+                                        {
+                                            "author": "datasnow",
+                                            "body": "Unfortunately, I had to cap the max distance at around 6 hours just to keep the scale of the data feasible. I figured not too many people would be looking at multi-state or cross-country trips. I'd definitely like to expand the cutoff in a future version though.",
+                                            "score": 7,
+                                            "replies": [
+                                                {
+                                                    "author": "TheAserghui",
+                                                    "body": "Totally understandable. I was noticing deadspots Illinois and Indiana when using Saint Louis as a centerpoint.\n\nWould that be related to county size and number of counties hitting a data cap?\n\nMy interest in extending the time value was based on an 8-hour travel restriction with work and I want to play with the ranges\n\nThank you for your work and following up with me",
+                                                    "score": 4,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "sfzombie13",
+                    "body": "it's straight up wrong in wv.  no way in hell you can travel across clay county in under an hour and it shows less than 15 minutes.  seems like geography is missing, at least in wv.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "gerwen",
+                    "body": "This is fantastic.  I don't suppose you have the data to expand to Canada?",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "ilanarama",
+                    "body": "This is very cool!  What is a 'tract' and a 'block group' and how do they differ?  (Not a GIS person, obviously!)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "montymoose123",
+            "body": "...\"Finally, the driving times are optimistic since they don't (yet) account for traffic...\"\n\nOh yeah! From my home town of New Braunfels, Tx to Round Rock in an hour? Interstate 35 says, \"Hold my beer while I overturn a couple of 18 wheelers, scatter a half dozen fender benders along the route, and maybe a dead white tail deer in the speed lane.\"\n\nPardon my sass, it looks like you did a great job. Thanks.",
+            "score": 16,
+            "replies": [
+                {
+                    "author": "Mr2-1782Man",
+                    "body": "Lol, as someone from Round Rock I did the same thing and saw the super optimistic time of 15 minutes to South Austin. Even with a 17 car pileup that ain't happening.",
+                    "score": 6,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Ribbitor123",
+            "body": "I'm sorry - my European mind simply cannot comprehend this  \ud83d\ude02",
+            "score": 36,
+            "replies": [
+                {
+                    "author": "RedditBugler",
+                    "body": "I was talking to a girl in Ireland a few years ago. We traded entertainment recommendations and she suggested I watch Normal People. One of the plot points is about two of the characters having to be \"long distance\" and the strain it puts on their relationship. I told her I looked up the towns the characters were in and it was barely over an hour drive between them. I told her everyone in my family drove about that far one way on their daily commute, so it made no sense that it was a complete deal breaker for a relationship. I was astounded that such a \"short\" drive was considered insurmountable in Ireland.\u00a0",
+                    "score": 29,
+                    "replies": [
+                        {
+                            "author": "gt_ap",
+                            "body": "There are differences in perception of \"long distance\" even here in the US. Someone from Montana or Wyoming for example might think nothing of driving 2 hours one way to go shopping, while someone on the East Coast would consider that way too far. But then, there aren't many places on the East Coast you'd have to drive that far.",
+                            "score": 9,
+                            "replies": [
+                                {
+                                    "author": "dcux",
+                                    "body": "Two hours from DC puts you in Philadelphia. Two hours from Philly puts you in NYC. It WOULD be pretty crazy to drive two hours for regular shopping, because you'd pass 100 places that would fit the bill.",
+                                    "score": 9,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "f8Negative",
+                            "body": "Fr I drive an hr to the boys house to stream fight nights and its not that bad.",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "gizausername",
+                            "body": "Which towns? Sligo to Trinity college in Dublin is 2hrs 30mins by car, and 4hrs 30mins to 5hrs by public transport.\n\nIf they aren't living in Sligo itself then it's further travel, and similarly they wouldn't be living beside Trinity college so that's further again.\n\nBased on that if the two students are relying on public transport that's probably a 6 hour trip on a Friday after college, then they've to do the same again on Sunday to return.\n\nAlso it's a TV show which so some situations are \"insurmountable\" for effect.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "RedditBugler",
+                                    "body": "What's crazy to me is that public transport would exist at all. I live in a town of 150,000 people and I'm three hours by car from one of the top 10 populated cities in the US. Despite there being a train station in both cities and people traveling between the cities all the time, there is no rail connection between our cities. You would have to go halfway across the country on one train route and then switch back again. That trip is 12 hours by train. There is a private bus service that runs once a day. There are several plane flights a day. Transportation in the US is completely dependent on cars and planes.\u00a0",
+                                    "score": 5,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "gt_ap",
+                    "body": "We Americans struggle to comprehend Europe as well. \ud83d\ude0a I have rented a vehicle in Europe a few times. In general the traffic is much more congested than in the US, outside of the big US cities. In general I can make better time here in the US on a highway with a 70 MPH/115 KPH speed limit than in Germany with stretches of no speed limit.\n\nLast year my son and I drove in portions of like 5 countries in 6 hours lol. You can drive twice that long without leaving the state of Texas.",
+                    "score": 16,
+                    "replies": [
+                        {
+                            "author": "Ribbitor123",
+                            "body": "Yep, most of Europe must seem like a congested toytown to you guys.",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "MidRoundOldFashioned",
+                                    "body": "I have never experienced road rage like I have in Paris. \n\nI have never experienced automotive freedom like I have in Algeria.",
+                                    "score": 6,
+                                    "replies": [
+                                        {
+                                            "author": "Ribbitor123",
+                                            "body": "Yeah, driving around Place de l'\u00c9toile / Arc de Triomphe in a British car was a total nightmare. The Parisian drivers instantly spotted the number plate and GB sticker so they were more than willing to play chicken. It actually came as a relief to get flung off it into a random side street.\n\nThe next time I drove there it was totally different. I was in my (French) sister-in-law's car, which was a battered old Volvo, built like a tank and with a Paris number plate. I got instant respect from the other drivers. - no-one was going to play chicken with that wreck.\n\nNever driven in Algeria but rural Western China was bliss!",
+                                            "score": 5,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "BelethorsGeneralShit",
+                    "body": "I'm fond of the saying, Americans think 100 years is a long time and Europeans think 100 miles is a long distance.",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "Ribbitor123",
+                            "body": "America: too much geography; not enough history \n\nEurope: vice versa! \ud83d\ude02",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "euzie",
+            "body": "What's the phrase? In the US 100 years is a long time, in Europe 100 miles is a long distance....or something like that",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "Mr_Evil_Dr_Porkchop",
+            "body": "Depends on the time of day\u2026 an hour during rush hour is maybe 5 miles (LA)",
+            "score": 20,
+            "replies": [
+                {
+                    "author": "dcux",
+                    "body": "I had heard that it doesn't matter where you are, it takes 45 minutes to anywhere else in LA.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Mr_Evil_Dr_Porkchop",
+                            "body": "Years ago, when I first moved to LA, I decided to drive to Vegas\u2026 a normally 4-4.5 drive if you leave before traffic. I left in the early afternoon on a Friday and it took me 3 hours to drive from the West side of LA to the east side (where you get on the 15 to drive through the desert to Vegas). Turned into a 7 hour trip and I\u2019ve just flown the 45 minute flight from LAX to LAS ever since",
+                            "score": 6,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "15750hz",
+            "body": "Check out those sweet isochrones!",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Rammstonna",
+            "body": "Too bad there isn\u2019t the train option or subway for cities.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "SSLByron",
+            "body": "The Census provides data on commute times, if I'm not mistaken. Perhaps even broken down by tract. That could get you the traffic correction you need.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "datasnow",
+                    "body": "That's exactly the plan! Gather commute times then add a fudge factor for rural, suburban, urban areas, etc., the validate against actual drive times (Google, HERE, etc.).",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Mr2-1782Man",
+            "body": "Its a nice start but needs some work. You need to adjust for road conditions and traffic. I even see a few cases were there's an island of 15 minute travel times inside an ocean of 30 minute times.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "g_rocket",
+            "body": "Uh -- this claims that the channel islands are a <15m drive from Santa Barbara.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Training-Purpose802",
+                    "body": "Isle Royale from Copper Harbor, also ' and that island has no card or roads",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "xxearvinxx",
+            "body": "This is so cool. I\u2019m bookmarking this site.     \nThanks for sharing!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "foilrat",
+            "body": "First off, this is hella cool. Nicely done.\n\nThere are some issues, however, and I can't imagine how'd you account for them.\n\nI live in Seattle. \n\nWe have ferries that are technically part of the Washington State Highway system.\n\nI can get to Vashon Island without leaving my car in about 35 minutes.\n\nBainbridge Island is connected by a bridge, so I can drive there from my house. \n\nCle Elum is about 90 minutes from my house. I can't get past that city in 90 minutes.\n\nThis also doesn't take into account traffic data.\n\nI can get to Bellevue in about 20 min with no traffic. With traffic it can be up to an hour.\n\nSo, some of this can be misleading.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "jessecrothwaith",
+            "body": "I like how if you scroll out it shows longer times. All together very nice!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "viktorbir",
+            "body": "Interesting that from Youngstown to Chicago is 6 hours and from Chicago to Youngstown is about 8 to 9 hours...",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "InvitinglyImperfect",
+            "body": "I\u2019ve been looking for something like this. Thanks!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Training-Purpose802",
+            "body": "In the UP of Michigan if you set it to car and county data - it thinks you can reach Isle Royale in an hour. It's a 3 or 4 hour passenger ferry trip, no cars or even bicycles. And that's in good weather.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MordorMordorMordor",
+            "body": "Not bad. The only problem I found was that it doesn't check for ferries. You should be able to get to parts of NY from Vermont (and vise versa) within an hour using the ferry.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Heavy_Direction1547",
+            "body": "Depends on the speed of your transport: ie. a few miles on foot to hundreds by plane...",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

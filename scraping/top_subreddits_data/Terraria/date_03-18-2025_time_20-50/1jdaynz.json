@@ -1,0 +1,246 @@
+{
+    "title": "Weekly Questions Thread Mar 17, 2025",
+    "author": "AutoModerator",
+    "subreddit": "Terraria",
+    "rank": 0,
+    "score": 2,
+    "upvote_ratio": 0.75,
+    "num_comments (reported by reddit)": 36,
+    "url": "https://www.reddit.com/r/Terraria/comments/1jdaynz/weekly_questions_thread_mar_17_2025/",
+    "id": "1jdaynz",
+    "selftext": "Welcome to the Weekly Questions Thread! Feel free to ask questions such as help with the game, build advice, issues with the game, or whatever Terraria related questions you have. If you are able to help out your fellow Terrarians, feel free to lend your assistance! Please remember to include any relevant information when asking your questions.\n\nRemember to check the sidebar for general links! Additional game information available in the [wiki](https://terraria.wiki.gg/wiki/Terraria_Wiki).",
+    "comments": [
+        {
+            "author": "Syhai11",
+            "body": "Is there any way to play terraria without installing the Xna framework. I found some old posts that said to put the DLLs inside the game folder, but it doesn't seem to work for me. Thanks in advance.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Rijam35",
+                    "body": "XNA Framework is the game framework that Terraria runs on (on Windows). You must have it for Terraria to work. What is the reason that you don't want to install XNA?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Syhai11",
+                            "body": "I can't. I want to install Terraria without admin. It's supposed to work with DLLs inside of the Terraria folder. Does it still work and what can I do to make it work, that's what I want to know.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "subtra3t",
+                                    "body": "Im pretty sure that there's no simple dll fix to get Terraria since xna is literally what the game was written in (technically FNA now since xna is dead).\n\n\nSince you've already bought the game I guess it would be ethical for you to pirate a pre installed copy of it.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Syhai11",
+                                            "body": "nvm I got it. If somebody has the same issue that's what helped me:  \n[https://www.reddit.com/r/Terraria/comments/e9l6hs/portable\\_terraria\\_guide\\_gog/](https://www.reddit.com/r/Terraria/comments/e9l6hs/portable_terraria_guide_gog/)",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "HighENdv2-7",
+            "body": "Is anyone playing on switch/mobile? \nI bought terraria on switch because i like the handheld gaming but i\u2019m struggling to use the right keycombo\u2019s because there is just so much going on.\n\nAlso how do you like ranged attacks?\nI\u2019m now resorting to melee because it plays much easier on switch than ranged but i\u2019m afraid on hardcore/end game that probably won\u2019t be enough?\n\nAny switch/non-mod tips i should follow?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DankandInvincible",
+            "body": "Is there no Borderless Fullscreen mode?   \nI can see Borderless Windowed, but I don't want to play in windowed mode, I want the game in full-screen, but in a way that doesn't cause three seconds of black screen every time I alt-tab in or out.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "SpiritAevy",
+                    "body": "I was always under the impression that those two modes mean the same thing. That aside, I did some googling, and it's hard to even find a mention of borderless fullscreen. It's either fullscreen, borderless window, or window mode. So what's borderless fullscreen, and what's the difference?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "DankandInvincible",
+                            "body": "I also thought that they were the same thing, i've never actual borderless windowed mode anywhere but here, but apparently if you set it to borderless mode, it locks the game to 2560x1080 resolution (my moniter's default resolution) and if I try to reduce it (to make the in-game text and UI bigger) it shrinks down to an actual window that takes up like 1/5th of my screen.\n\nThe window doesn't have a windows border at the top of the screen, but that's obviously not what I care about, is it?\n\nStill, apparently there's a UI scale option hidden in the menu somewhere (not in the fucking interface tab, where it belongs) so I'll try that next time instead. If I can just make all of the text bigger, I don't need to mess with the resolution at all.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "SpiritAevy",
+                                    "body": "The UI scale is sitting right in front of the menu (when you press ESCAPE). I've always found the UI a bit small for my liking even though I have a smaller resolution than you, so I've always had it on 120% instead. It's definitely possible.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ExpensiveLibrary4392",
+            "body": "Hello! I think a lot of people would like the Rod of Discord hotkey to be added, wouldn't it? What do you think?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "The_Narwhal_Mage",
+                    "body": "I feel like that would be overpowered. As it is, the rod of discord is a very powerful item, and the only downsides it has are the cooldown and the fact that you can\u2019t use it while holding a weapon. If you add a hotkey, you remove that second restriction.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Dewy8790",
+            "body": "What is this game like? I saw it on Steam for sale for 50% off with overwhelmingly positive reviews, I\u2019m having troubles understanding what it is you do in this game",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "The_Narwhal_Mage",
+                    "body": "Its a sandbox game with a series of boss fights and cool weapons and equipment.\n\nIt\u2019s like if Minecraft had the weapon progression and variety of a JRPG, and a wide range of mobility equipment.  It is a very unique game, and very good. It can be a bit difficult to get into as a new player because of the vast amount of content in the game, but the wiki can be very helpful if you\u2019re lost.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Dewy8790",
+                            "body": "Interesting, is it online?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "The_Narwhal_Mage",
+                                    "body": "It can be. It can be played in single player or with up to 16 players in multiplayer. They will also be adding cross play in the next update to allow people to play together across different platforms.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Dewy8790",
+                                            "body": "I mean, for like $7 I guess I could try it lol",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "The_Gamer_1337",
+                    "body": "Dig. Build. Fight. Craft. Do you like older Minecraft, but wish it had actual fun combat and also magic and more than four types of armor and weapons? Also pixel art? Banger game. Are you a brain rotted fortnite kid? Probably won't like it as much",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Real_Leader",
+            "body": "When is the best time to buy the game? ( Like when it's the lowest) Here, in India its rn 240rs, I was hoping it would go under 150rs?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "allplaybutnowork",
+                    "body": "50% off is the lowest it\u2019s gonna be",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Real_Leader",
+                            "body": "Oh i see",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Enough-Order-2305",
+            "body": "When is Crossplay getting added? We're getting told every next update. I've had friends become uninterested in the game because of it; i recently got back into it thinking it had finally be implemented too.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "allplaybutnowork",
+                    "body": "We don\u2019t know, they say the next update but there is no date yet.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "cuttululu",
+            "body": "Hey, sorry for disturbing, I bought Terraria 2 days ago and started playing a single player world.>! I don't know anything about the game, so you can imagine my face when the housing inquiry said \"This housing is corrupted\". After trying to look online I saw that there are lots of corrupted blocks near my spawn, or at least where I built npc houses. I tried looking for ways to stop the corruption to spread to near houses and my world, but the only (fast) solution I could find is the Cleminator, and I have no clue how to get it. I saw another way is to break every block near corruption so that the adjacent blocks don't get corrupted as well, but that's taking a long time and after digging down, it doesn't seem to stop anytime soon.!<  \n  \nIf it matters, since I started I really didn't do much, not any boss, a few NPCs, no hearts and mostly forgetting controls and how stuff worked, I'd really appreciate it if someone would be so kind to give me an idea of what to do, possibly **without spoilers**.  \n  \nThanks again for taking the time to read this",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "SpiritAevy",
+                    "body": "Put down a bunch of Sunflowers, as many as you need. They will nullify the effect of the corruption near your base so your NPCs can move back in. It'll be a temporary solution until you can get access to better tools.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "cuttululu",
+                            "body": "hey thanks for the answer, how do I get sunflowers? are the seeds i get randomly connected?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "SpiritAevy",
+                                    "body": "No. Sunflowers can be found naturally growing on grass around your world. Just mine them up. In the event you don't have enough of them, a specific NPC will sell Sunflower Seeds. The requirements for this NPC to spawn is that at least one of a number of bosses must be defeated in the world. Until then, just build some temporary house away from the corrupted area for your current NPCs.\n\nEdit: fixed a misread",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "cuttululu",
+                                            "body": "I think I need to kill a boss because I haven't seen any sunflowers, again tysm for your help",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "SpiritAevy",
+                                    "body": "Also, the corruption right now can only spread via grass, so you can also just put down a bunch of non-corruptible blocks (easiest is just Wood) on the surface of your world and the corruption can't spread further.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Top_Net_395",
+            "body": "Whats the best ranger/summoner build for pre-moonlord? (calamity) Me and my buddy are trying to beat moonlord but we arent geared up enough",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "RivensPromDate",
+            "body": "It's a bit late to ask Red about it, but do you think they could/will add a pocket guide item? Maybe as a WoF drop, for remote recipe access for vanilla? Maybe it could be combined with the cell phone to become a smartphone\ud83d\ude02.\n\nI was watching Chippy and Red playing together and it bugged me that Red said to ask the guide about the flinx staff recipe and chippy elected to google it instead. It that just feels that going to the guide is a bit inconvenient for the veteran player but his function is STILL VERY useful.",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "The_Gamer_1337",
+                    "body": "Nah, I love having the guide be actually useful. Better than googling, because it shows things I'm not even aware I can craft.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "RivensPromDate",
+                            "body": "I'm not saying remove the guides function, I'm just saying add something that allows the guides function from anywhere in the map. And I agree it's better than googling.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "The_Gamer_1337",
+                                    "body": "I hear you, but I consider that the same thing. Who would ever check the guide then?",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "allplaybutnowork",
+                    "body": "I mean it\u2019s not that inconvenient, you craft stuff at your base anyways.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

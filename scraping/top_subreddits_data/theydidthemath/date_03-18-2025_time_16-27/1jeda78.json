@@ -1,0 +1,64 @@
+{
+    "title": "[Request] How many combinations are possible ?",
+    "author": "Suspicious-Yak-5398",
+    "subreddit": "theydidthemath",
+    "rank": 10,
+    "score": 2,
+    "upvote_ratio": 0.54,
+    "num_comments (reported by reddit)": 13,
+    "url": "https://www.reddit.com/gallery/1jeda78",
+    "id": "1jeda78",
+    "selftext": "Hello, this is my 5-year-old son's favorite game. We'd like to know how many combinations are possible to reconstruct this cube.\nI like math, but I admit I have no idea which mathematical concepts to use. Thank you! ",
+    "comments": [
+        {
+            "author": "AutoModerator",
+            "body": "###General Discussion Thread\n\n---\n\nThis is a [Request] post. If you would like to submit a comment that does not either attempt to answer the question, ask for clarification, or explain why it would be infeasible to answer, you *must* post your comment as a reply to this one. Top level (directly replying to the OP) comments that do not do one of those things will be removed.\n\n---\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/theydidthemath) if you have any questions or concerns.*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "LukeLJS123",
+            "body": "i couldn\u2019t give you a number, but what i do know is that i have this same thing and i think i still have the box for it that shows a number of combinations. when i get back home i can get this and see if i can reverse-engineer a solution. i probably can\u2019t because this seems like something you wouldn\u2019t do until the end of a math degree or maybe even at the graduate level, but i could be wrong since i\u2019m an engineering student and not a math student",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Butterpye",
+            "body": "Math is a bit too hard, but it's already [solved](https://en.wikipedia.org/wiki/Soma_cube), the answer is 240 distinct solutions, not including rotations and reflections. A computer can easily solve this by just brute forcing it.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Public-Eagle6992",
+            "body": "I don\u2019t think there\u2019s really any way of finding out except for just testing it. This seems like ok of these maths problems that take years for someone to solve them. But maybe there already are applicable ways of solving something like this",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "CaptBoxx",
+            "body": "AI says the following based on giving it a picture of the pieces \n\n\u201cThe number of possible combinations to form a 3\u00d73\u00d73 cube using the seven Soma cube pieces is a complex combinatorial problem. The best way to determine this number is through brute-force enumeration or algorithmic approaches rather than a direct mathematical formula. However, I\u2019ll break down the reasoning behind the possible solutions.\n\nStep 1: Understanding the Soma Cube Pieces\n\nThe Soma Cube puzzle consists of 7 polycubic pieces, each made of 3 or 4 small cubes, and together they sum up to a 3\u00d73\u00d73 = 27-unit cube volume.\n\nThe pieces are:\n\t\u2022\t1 piece of 4 cubes (T-shape)\n\t\u2022\t6 pieces of 3 cubes in various configurations\n\nThese pieces can be rotated and flipped, adding to the number of possible placements.\n\nStep 2: Counting the Arrangements\n\nEach piece can be placed in different orientations. In general:\n\t\u2022\tEach piece has multiple possible orientations in 3D space (24 for most pieces, fewer for symmetrical ones).\n\t\u2022\tNot all placements are valid, as they must fit together to form a cube.\n\nSince these calculations require checking every possible placement, it\u2019s best solved computationally.\n\nStep 3: Computational Solution\n\nMathematicians and computer scientists have used brute-force search algorithms to count the valid solutions. The final result, confirmed by exhaustive computational searches, is:\n\n\ufffc\n\nThis means there are 240 ways to assemble the 7 pieces into a perfect cube, considering unique orientations but ignoring reflections or rotations of the whole cube.\n\nStep 4: Why Not a Direct Formula?\n\nSince this is a 3D tiling problem with constraints, there\u2019s no simple combinatorial formula to derive the exact number of solutions. Instead, researchers use backtracking algorithms to systematically place pieces and count valid completions.\n\nConclusion\n\nWhile there\u2019s no single equation to determine the number of solutions, the precomputed result of 240 solutions is well-documented and verified computationally. If you\u2019re interested in solving it yourself, I can suggest strategies or even guide you through a solution!\u201d",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "EastZealousideal7352",
+                    "body": "The AI didn\u2019t even get to the start line with this one. \n\nThere are 7 pieces but 6 of them have four cubes and one 1 has 3. Even if the AI was going to make sound analysis after that (which it wasn\u2019t) it doesn\u2019t fundamentally understand the problem space, so it still would\u2019ve generated some answer with errors.\n\nLuckily this is a solved problem with a Wikipedia page and everything, so it knew the answer despite all of the explanation being fluff. \n\nThe important question is did you even read what it wrote?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Elephunk05",
+                            "body": "That was the first thing I noticed. This has me wondering if AI generated the first 2 paragraphs or if it was OP.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Butterpye",
+                    "body": "That's great, but what do you think?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

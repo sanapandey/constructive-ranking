@@ -1,0 +1,154 @@
+{
+    "title": "ELI5: How can a watch take your blood pressure and/or blood glucose?",
+    "author": "Late_Arm5956",
+    "subreddit": "explainlikeimfive",
+    "rank": 4,
+    "score": 55,
+    "upvote_ratio": 0.83,
+    "num_comments (reported by reddit)": 24,
+    "url": "https://www.reddit.com/r/explainlikeimfive/comments/1je8s5s/eli5_how_can_a_watch_take_your_blood_pressure/",
+    "id": "1je8s5s",
+    "selftext": "My dad bought his very first fancy watch that tells you your pulse, monitors your health and has all the bells and whistles. (I don\u2019t know the brand)\n\nIt claims it is monitoring your blood pressure. And your blood sugar\u2026. \n\n\nHow in the heck can it possibly know your blood pressure?? How does it know your blood sugar without a blood sample??  \n\n\nMy dad has a friend who was wearing such a watch. She kept trying to get it to read her blood sugar and it kept telling her \u201csomething is wrong; see a doctor\u201d and when she did, both she and her doctor were shocked to find she has leukemia (she had had no symptoms prior to this) HOW???? \n\n\nI am a paramedic, so I understand medical things. I don\u2019t understand technology or technological terms. ",
+    "comments": [
+        {
+            "author": "Odd_Garbage_2857",
+            "body": "Shining light pulses in different wavelengths have different responses on skin and blood. Then sensors create a spectrogram of how much oxygen in your blood, how thick is your skin etc. Microcontroller inside the smart watch then does some calculation and estimate a value. \n\nAs far as i know non-invasive glucose monitoring is not a thing nowadays. There some ongoing research about it though.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "elcaron",
+                    "body": "There is also a lot of bullshit going on with non-invasive glucose monitoring. IIRC, quite recently some university's PR gave a press release that read like a fantastic non-invasive glucose monitor, while the paper could just distinguish 2 concentrations in vitro or something like that.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "1tacoshort",
+                    "body": "I was wondering about the glucose monitoring. I worked for a pulse-ox company and glucose monitoring was the holy grail. They couldn\u2019t figure out hope to do it, though.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "homeboi808",
+                    "body": "I remember years ago an iPhone app that used the camera and the flashlight to measure your pulse. So yeah, the watches are just that on steroids. Obviously though not as accurate nor as precise as actual medical equipment.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "shakalac",
+                            "body": "My Garmin watch measures both heart rate, and blood oxygen level using optical sensors, and a combination of green/red leds. it won't be as accurate as a dedicated pulse oximeter that you put on your finger, but it's pretty close.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "thecaramelbandit",
+            "body": "They try their best. \n\nOptical blood glucose sensors exist. They don't work well and are not FDA approved. I wouldn't trust them as anything other than a curiosity. \n\nSame with blood pressure. Optical sensors that work even worse than the glucose ones. \n\nI'm a doctor and don't like these devices. They're not accurate enough to actually base any kind of decision on, and *incorrect* information can be more harmful than *no* information. \n\nIf you need to know your blood sugar, use a fingerstick or continuous device. If you need to know your blood pressure, use a cuff.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "vc-10",
+                    "body": "Absolutely. They're not reliable at all for BP/glucose. There's a reason why people with diabetes use things like Dexcom monitors!\n\nWhat I will say though is that I have had a few patients come to me saying that their watch had detected abnormal heart rhythms, who have turned out to have atrial fibrillation. For those non medical - this is a particular kind of abnormal heart rhythm which can lead to increased risk of stroke, so it's quite important to detect. Smart watches seem reasonably reliable with detecting pulse rate, and therefore can detect the arrhythmia. I think some are even FDA approved for this.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Super_saiyan_dolan",
+                            "body": "This is false. Apple did a study on something like 400,000 patients and found it was not accurate enough for rule in or rule out.\n\nhttps://www.nejm.org/doi/full/10.1056/NEJMoa1901183\n\nWhat's accurate are consumer grade ekg machines. Those are actually fda cleared.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "vc-10",
+                                    "body": "They're not diagnostic, but they tell you to go see your doctor, who can then do a proper ECG and give the diagnosis. Sorry I don't think I worded that clearly above.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Super_saiyan_dolan",
+                                            "body": "This is incorrect. Please read the study. False positives significantly exceeded true positives and false negatives were extremely common. The accuracy of the device for arrhythmia is something like 25-30%.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "vc-10",
+                                                    "body": "You're missing my point.\n\nI'm saying that patients go to their doctor, saying that their watch has told them to go to their doctor. Who can then pick up AF, if it's happening, or something else. It's not perfect, but I'm saying it does seem to happen with reasonable regularity. \n\nI've had two in the past year, both confirmed with formal ECGs. \n\nThey're not diagnosing AF, they're like the engine warning lamp on your car. It might be just because you've not quite clicked the fuel cap closed properly, it might be because you've got something horribly wrong that's going to cost you a fortune, but the warning lamp is telling you to go see your mechanic. Or, your watch is saying to go see your doctor.\n\nEdit:\n\nAlso worth pointing out that this article from the American College of Cardiology seems to think that smart watches are pretty damn effective. \n\nhttps://www.acc.org/Latest-in-Cardiology/Articles/2024/05/29/16/56/Smartwatches-and-Atrial-Fibrillation",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "DarthWoo",
+                    "body": "My GP was of the opinion that even the wrist cuff BP monitors are of poor accuracy and that I should get the traditional upper arm one. Turned out I was too lazy to bother checking on anything resembling a regular basis and just base everything on what they tell me when I donate blood. I actually end up surprisingly normal a lot of the time at donations so I wonder if they'll fudge the numbers so they don't have to defer me.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "thecaramelbandit",
+                            "body": "They absolutely don't fudge the numbers.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "DarthWoo",
+                    "body": "My GP was of the opinion that even the wrist cuff BP monitors are of poor accuracy and that I should get the traditional upper arm one. Turned out I was too lazy to bother checking on anything resembling a regular basis and just base everything on what they tell me when I donate blood. I actually end up surprisingly normal a lot of the time at donations so I wonder if they'll fudge the numbers so they don't have to defer me.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Manunancy",
+                    "body": "Are their error stable on a given user (say always + or - 'x') or is the error random (depending on factors such as ho you put on and tan) ? If stable, it's still good to teel you your values are drifting, otherwise, nope, useless beyond detecting very extreme cases.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "nkdf",
+            "body": "The lights coming out of the bottom of the watch reflects off your skin to detect changes within your veins. A sensor (think camera) reads the reflecting light, and can tell various things about your blood based on what it sees. For example, a different reflected color can tell you oxygenation (oximetry) - and that's how your pulse oximeter works, but the ones of the lifepak shines through the finger, instead of looking at reflectance. \n\nBlood pressure is similar, you can detect increased blood volume (systolic), and the lowered volume (diastolyic). Then you do a bunch of math on it, and along with frequent calibrations, you can guess the blood pressure. \n\nBlood glucose is similar, but it's math based over how your blood reflects over a longer period of time (think 10-15 minutes). Every company / manufacturer will do it differently.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "CaersethVarax",
+            "body": "I have a Samsung Smart Watch. It can tell blood oxygenation and pressure. The oxygen is the same as a finger monitor, using light absorbtion, but much less accurate.  \n\nThe blood pressure you have to calibrate first using a pressure monitor. Once it's calibrated, the pressure sensor in the plate just reads how much more it less \"push\" there is compared to the calibration. Again, not perfectly accurate but enough to notice something is off",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Alert_Scientist9374",
+            "body": "More so than measuring it's \"estimating\"\nGlucose dissolved in blood changes how it reflect light.\nAnd there is algorithms that can somewhat estimate your blood glucose levels based on that.\nBut there's a lot of limitations to it, from skin tone to oxygen saturation.\n\nSame with blood pressure measurement, it uses similar methods of measuring how much light your blood absorbs, and the changes over time.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Averagebass",
+            "body": "If the watch and band can apply the pressure and deflate enough to get a proper blood pressure reading, it still wouldn't be that accurate. Wrist BP isn't that great of a reading.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "aaaaaaaarrrrrgh",
+            "body": "Very simple: they shine a LED (usually green) at your skin.\n\nThen, a photodiode visible inside the case makes you think that the device actually uses the LED in some way to determine a value rather than making up plausible-sounding values, which is what the really cheap no-name Temu/Wish/AliExpress watches actually do.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Atypicosaurus",
+            "body": "How to sense glucose. Every chemical has something called a spectrum. Spectrum is basically the response of a material to light. Colorful things are colorful exactly because this is their response to visible light. If we extend our understanding of light to all kinds of electromagnetic radiation, we see that the spectrum (i.e. the specific response) of the material. Some materials have a very distinct response to UV light, others have response to infrared light.        \n\nThere are a number of attempts to sense glucose but the common idea behind all of them is to sense the spectrum of glucose. In short, the sensor sends some sort of light (light, in wide sense) into the skin and measures the response. It's kind of like the \"color\" of glucose except not in visible light. But the idea is the same as using a flashlight as a light source and our eyes as a sensor to decide if a glass of water has blue color mixed in, and is it only a little blue or very blue.      \n\nJust, instead of \"blue\", the \"color\" of our blood is based on glucose levels.      \n\nNow the sad thing is that glucose doesn't have a very characteristics spectrum (or, \"quasi color\"), because other molecules overlap with it. So it requires a lot of tweaking with the light source and the sensor until something valuable can be gained out of it. It's likely that your case, the leukemia caused the blood composition to be so out of calibration range that the watch could not understand it.      \n\nI don't know how optical blood pressure works but it somehow can figure out the tension of capillaries using how the light scatters.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "jaylw314",
+            "body": "They don't. \n\nThink about it--your dad is the one who bought the watch, and he's the one who told you the apocryphal story of a 'friend' who discovered they had leukemia (who also happened to have bought such a watch)?  \nThat's enough red flags to bring back the Soviet Union. \n\nTheir claim is that they can determine such parameters by using non invasive sensors using light sensors.  That is simply leveraging the lay person's experience with portable oximeters to convince them glucose monitoring could be done.  It might be--but not in a consumer product yet.\n\nThe method being researched involves shining a light through the skin, then using a sensor to detect the absence of wavelengths (usually in the IR region) associated with glucose.  This is fraught with noise and inaccuracy, and it's worth noting there has been no noninvasive portable monitor using this strategy approved by the FDA.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+{
+    "title": "Monthly Getting Started / Web Dev Career Thread",
+    "author": "AutoModerator",
+    "subreddit": "webdev",
+    "rank": 0,
+    "score": 11,
+    "upvote_ratio": 0.92,
+    "num_comments (reported by reddit)": 20,
+    "url": "https://www.reddit.com/r/webdev/comments/1j0xxxx/monthly_getting_started_web_dev_career_thread/",
+    "id": "1j0xxxx",
+    "selftext": "Due to a growing influx of questions on this topic, it has been decided to commit a monthly thread dedicated to this topic to reduce the number of repeat posts on this topic. These types of posts will no longer be allowed in the main thread.\n\nMany of these questions are also addressed in the sub FAQ or may have been asked in [previous monthly career threads](/r/webdev/search?q=flair%3AMonthlyCareerThread&restrict_sr=on&sort=new&t=all).\n\nSubs dedicated to these types of questions include [r/cscareerquestions](/r/cscareerquestions) for general and opened ended career questions and [r/learnprogramming](/r/learnprogramming) for early learning questions.\n\nA general recommendation of topics to learn to become industry ready include:\n\n- [HTML/CSS/JS Bootcamp](https://www.udemy.com/course/javascript-beginners-complete-tutorial)\n- [Version control](https://www.atlassian.com/git/tutorials/what-is-version-control)\n- [Automation](https://blog.logrocket.com/tools-and-modern-workflow-for-front-end-developers-505c7227e917/)\n- [Front End Frameworks (React/Vue/Etc)](https://www.freecodecamp.org/news/complete-guide-for-front-end-developers-javascript-frameworks-2019/)\n- [APIs and CRUD](https://www.freecodecamp.org/news/crud-operations-using-vanilla-javascript-cd6ee2feff67/)\n- [Testing (Unit and Integration)](https://raygun.com/blog/javascript-unit-testing-frameworks/)\n- [Common Design Patterns](https://www.patterns.dev/)\n\nYou will also need a portfolio of work with 4-5 personal projects you built, and a resume/CV to apply for work.\n\nPlan for 6-12 months of self study and project production for your portfolio before applying for work.",
+    "comments": [
+        {
+            "author": "GodSpeedMode",
+            "body": "Great initiative to centralize these questions! Starting a web dev career can feel overwhelming, but having resources in one place makes it way easier to navigate.\n\nOn top of the essentials you mentioned, I\u2019d suggest diving deep into JavaScript since it's the backbone of many modern web applications. Understanding async programming with Promises and async/await can be a game-changer. Also, if you\u2019re looking into front-end frameworks, React\u2019s hooks are particularly important to grasp for managing state and side-effects in your components.\n\nCreating a live project can solidify what you learn. Try building a simple CRUD app using an API; it\u2019s a great way to showcase your skills and understand how everything connects in a full stack situation. Plus, it gives you something tangible for your portfolio.\n\nDon\u2019t forget about responsive design principles with CSS! Tools like Flexbox and Grid can really elevate your projects and make them stand out.\n\nLastly, networking is crucial. Engaging in communities like this and contributing to open source projects can help you gain insights and feedback. Keep pushing through those learning curves; it really pays off in the end!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Erzengel9",
+            "body": "Hey everyone,\n\nI'm looking for some freelancers to whom I can delegate some of my work. However, I'm wondering if it's really worth it. I know it can be difficult to find reliable freelancers, and I'm starting to think that Fiverr might not be the best place to start after all. What have been your experiences with Fiverr?\n\nThanks!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "smoked___salmon",
+            "body": "Where you guys look for a job/internship as junior/entry level dev?\nI been looking for junior webdev job/internship around dfw metroplex using LinkedIn, Glassdoor, indeed and handshake, I only saw like 100 jobs and 90 of them are for senior level developers. Is it wrong time of the year or am I searching wrong way? It is kinda hard to believe what 7.5kk population metroplex has almost no webdev jobs.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "GrimSophisticate",
+            "body": "I hope this is the appropriate place for this:  \n  \nI'm less in the position of looking to \"get started\" and looking to \"get restarted\". A long time ago in college I was in a CS program and learning Rails off of the DHH tutorial. To make a long story short, I ended up working in IT/technical support, but now things have looped back around to the point where it would be useful for me in my current role to pick Rails back up again.\n\nIs there a particular tutorial that people recommend these days for getting started with Ruby/Rails that's not a paid course? I have access to Linkedin Learning through my job, but I took a look through there the other day and was kind of skeptical of the value of a lot of that content. \n\nOn top of that, I'd also like to try and formalize my knowledge of JS - I write little things to automate annoying tasks for my team semi-regularly but anything new that I make usually starts with a few minutes on Google trying to remember what's probably basic stuff for other people (e.g. iterating keys/values in a JS object). Thanks :)",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "OkHoney8831",
+                    "body": "'The Odin Project' is open source and has Ruby/Rails and JS section.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Cursed_line",
+            "body": "Hey, I've been studying React and recently moved into Next.js doing only necessary projects. Now I am about to start my internship and need to know what projects I can accomplish to fill my portfolio outside of office work. Or at least a guide",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Nice_Drummer6",
+                    "body": "Check github! And front-end mentor is also good.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "a_boy_called_sue",
+            "body": "Hi all, totally new to publishing anything online other than weebly. I've produced a ODS libre office calc spreadsheet. I'd like to host this on a website. It would allow users to use drop down on cells to produce their own numbers for the calculations. I'm having trouble finding a tool which allows me to host the sheet online. Can anyone recommend one? Preferably low cost as it's just a small personal project. Many thanks",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "AresBou",
+            "body": "Hey, I'm a Python backend developer who works in ops. I want to learn some webdev for fun, but I have a lot of questions to ask:\n\n1) There are a million different JS frameworks. How do I decide which one to practice with? Is this maybe not a question to worry about at this stage? I notice that (JS) and (Frameworks) are considered separate bullet points above, so maybe that's a premature concern.\n\n2) What is the biggest difference that I have to be aware of coming from a Python background?\n\n3) A lot of Udemy courses focus on programming fundamentals first, which is great if you're not already fluent(ish) in a language. Do you have a Udemy course you'd recommend for someone who already has their feet wet? I'd like to avoid spending money listening to someone explain what a string is.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "irritatedCarGuy",
+            "body": "# What Frameworks to use for more \"Serious\" projects?\n\nHello all, I'm currently working on a project for a \"Friend\" of mine, where I am looking to create them a Business page.\n\nNow my question is, I want to create something relatively big, something a bit more extensive using a DB and stuff.\n\nMy question is now, what should I use?\n\nI can use JavaScript and just write it plainly. The design aspect could get sore, but I enjoy working with JavaScript and I can do it relatively well.\n\nOr should I use something more \"professional\" like Angular or Ember? Where do you guys draw the line? What do you work with?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Nice_Drummer6",
+                    "body": "Hi there, I'm still in training but I've been told by my teachers that it's always best to do what you're good at. Js is widely used, if it does what your friends needs then I say go for it.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "None",
+                    "body": "Only a few years of professional experience, so please do your own research. One thing I\u2019ve learned is there is no \u201cright\u201d framework. Pick what you\u2019re good at, or try something new if you\u2019re not on a strict timeline and have interest.\n\nI work with Angular frontends and .NET backend for my job (along with AWS and Azure). For my personal projects, I just use ExpressJS and Svelte because it\u2019s fun to me.\n\nDon\u2019t let perfection be the enemy of good. It\u2019s not about the \u201cright\u201d framework, it\u2019s about solving the problem at hand. Figure out what your biggest problems will be, and research your framework from there. Hope this helps",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "leinad41",
+            "body": "If a postgres select query takes like 7s in DBeaver, 4.8s using Sequelize (using it's logging, total time is like 5.4s), but explain analyze says execution time is 1.4s aprox, is the difference just client dependent?\n\n\nThe result data from the query is 85k rows aprox, Sequelize does some stuff to transforms data, and DBeaver shows the data in the client, so it makes sense that it takes much more time in practice, right?\n\n\nThing is, if I'm trying to optimize the query, I should mainly care about that explain analyze execution time, right? Maybe try to select less fields I guess.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ajay-Pause-217",
+            "body": "# How to prepare for job interviews? Need a clear roadmap\n\nHey everyone,\n\nI\u2019m a Full Stack Web Engineer with 1+ year of experience working at an Indian product-based startup remotely. I started as an intern and after three months i was given a full-time role. Over the past several months I\u2019ve worked on multiple critical projects but I feel like my compensation and career growth haven\u2019t kept pace with my contributions (I get somewhere between 17k($195) to 20k($230) inr pm fixed, no pf, joined because at the time i prioritized gaining experience)\n\nI have worked on various major projects including 2 Next.js project from scratch, Node.js express backend refactoring, reactjs migration to nextjs, nodejs migration to Python, Golang grpc based service (solo developer managing entire SDLC)\n\nI want to transition into a better paying job and grow in my career but I\u2019m not sure how to best prepare for interviews. especially for backend-heavy roles in international companies(because of the work culture)\n\nWhat roadmap should I follow to prepare for remote job interviews?\n\nWhat types of questions should I expect?\n\nDSA? System design? Backend concepts?\n\nWhich resources are best for preparation?(there are too many options so I\u2019m confused about what to focus on);\n\nShould I focus more on LeetCode, system design, or focus on projects?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "PracticalSpecial8945",
+            "body": "Hey, I'm learning JavaScript and testing with Jasmine, but I'm stuck on an issue. When I import `orderSummary.js`, I get `Uncaught TypeError: Cannot set properties of null (setting 'innerHTML')`, even if I don't call any function from it. If I remove the import, the error disappears. I think the script might be modifying the DOM on import, but I'm not sure how to fix it. Also, I'm new to Reddit and not sure how to properly share my code here\u2014any tips? Thanks!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Doomaga",
+            "body": "WOuld it be better to start learning Web Dev with [boot.dev](http://boot.dev) or The Odin Project?  \n  \nI'm not sure which would be a better place to start. The gamification on [boot.dev](http://boot.dev) does appeal, but if people find TOP to be better for some other reasons I'm open to that as well.\n\nI am aware [boot.dev](http://boot.dev) is \u00a3240 per year, and TOP is free. But ultimately comapred to the time investment the cost is inconsequential to me in relation.\n\nSo what would people say is a better place to start with? I am a recently redundant software engineer who doesnt know how to code as I ended up in a manual test position and then into a leadership/project management role and realizing I need to know how to do some of this stuff either to find another job, or to be able to build any of my own ideas. (Not interested in just using AI to do it without understanding it first)\n\nThanks.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MCJennings",
+            "body": "I've created an \\[SVG file that I have uploaded\\](https://medlicense.com/user/pages/01.home/us.svg), but when I place it in HTML (below), it formats as an image without any of the properties I've added to it as an SVG. It does not have any hover effect, and the states do not link any longer. \n\n\n\n<img src=\"https://medlicense.com/user/pages/01.home/us.svg\" width=\"100%\" />",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "murchu27",
+            "body": "In the art world, and in particular with fine art, it's very common for people to attend portfolio preparation/development courses, with a view towards eventually using their portfolio to apply for further study or for job opportuntities. To my knowledge, these courses are usually semi-directed, where an instructor teaches different forms and techniques, but mostly assists students with whatever they're working on, giving guidance and support. The benefit of all this is that, if a student is already quite skilled, they don't need to \"start from scratch\" by attending classes that teach the basics, and can just jump straight into working on projects at their level of expertise.\n\nIs anyone aware of any such courses for webdev/software portfolios, either online or in-person? I feel like my time would be wasted in the \"fixed curriculum\" format of a traditional college/university course, given my level of experience (3 years webdev + 1 year teaching), but I would gladly pay money for the guidance and direction of a knowledgable teacher/mentor to help me build out a better portfolio.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

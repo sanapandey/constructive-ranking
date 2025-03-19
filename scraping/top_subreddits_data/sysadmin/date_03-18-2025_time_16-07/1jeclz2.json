@@ -1,0 +1,78 @@
+{
+    "title": "ESXi - Dell Customized ISO initially installed. Can I update to the latest ESXi version or do I have to wait for Dell to release theirs?",
+    "author": "Parking_Salt7971",
+    "subreddit": "sysadmin",
+    "rank": 9,
+    "score": 7,
+    "upvote_ratio": 0.82,
+    "num_comments (reported by reddit)": 10,
+    "url": "https://www.reddit.com/r/sysadmin/comments/1jeclz2/esxi_dell_customized_iso_initially_installed_can/",
+    "id": "1jeclz2",
+    "selftext": "On our PowerEdge servers we have been using the Dell Customized image for inital install and then updates and patches.\n\nWe are looking at the most recent ESXi remediated vulnerability: VMSA-2025-0004\n\nhttps://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/25390\n\nNow Dell has not release their latest ISO we are on the one last released in December. Are we able to update via the lifecycle manager only ESXi to the latest release without affecting drivers installed via the Dell image or adding unnecessary drivers?",
+    "comments": [
+        {
+            "author": "CyberWhizKid",
+            "body": "We chose the latest version of both component in LCM and everything work well so far. Updated since day 1.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "hamway22",
+            "body": "I used an HPE custom iso to setup my servers but just use the LCM patch that it pulls down to update and it works fine",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "F1x1on",
+                    "body": "I do the same thing as well. I just make sure to check if there is an updated vendor addon and let it run.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "CraftyCat3",
+            "body": "I've always used the VMware patches on the Dell ISOs and have never had an issue.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Parking_Salt7971",
+                    "body": "Have you ever went to the Dell ISO to get the latest drivers with it? Initially install Dell Custom iso > Remediate vulnerability through LCM patch > Routine update later on using Dell Custom iso again?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "CraftyCat3",
+                            "body": "I've never gone the opposite direction, no. Not sure if it'll cause you any issues.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "epsiblivion",
+                            "body": "yes back when baseline was the default. now we use image based patching for the cluster. it will import latest dell image and then vmware patches on top.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Tyrant082",
+            "body": "I did that just this weekend with the latest update for esxi but initially i used the custom hp one. No problems at all, now i am thinking about updating the  hp oem customization also.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "secret_configuration",
+            "body": "From what I heard, Dell should be dropping an updated ISO soon, as in this week.  If they don't, we will be applying the standalone patch this weekend.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Joshposh70",
+                    "body": "I'm very surprised you've waited this long for a customised ISO from Dell.\n\nWe had a emergency change raised within an hour of the alert email from Broadcom and all the Infra team deploying patches minutes later.  \n\nVirtual Machine to Hypervisor escape is a terrifying vulnerability to have on your network.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

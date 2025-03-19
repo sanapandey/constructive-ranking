@@ -1,0 +1,114 @@
+{
+    "title": "9800x3d or 9950x3d",
+    "author": "0nebgenji",
+    "subreddit": "buildapc",
+    "rank": 10,
+    "score": 3,
+    "upvote_ratio": 0.67,
+    "num_comments (reported by reddit)": 15,
+    "url": "https://www.reddit.com/r/buildapc/comments/1jec8tp/9800x3d_or_9950x3d/",
+    "id": "1jec8tp",
+    "selftext": "Currently have a 5900x for daily use. Looking for upgrade to am5 either 9800x3d or 9950x3d the mb is b650 tomahawk. \nMy question is will 9800x3d be enough for my daily use(csgo,recording using medal web discord and some small Chinese game on the side plus streaming use obs the same time) \nMy gpu is 4070s\nSorry for my grammar ",
+    "comments": [
+        {
+            "author": "frodan2348",
+            "body": "Yeah it will be fine, the same way your current 5900x is fine. Why upgrade? You have a pretty well balanced system, that cpu is fast enough to handle your gpu. \n\n9950x3d is insanely overkill for general use and gaming. It only makes sense for people who have heavy production workloads who also love gaming. That\u2019s not you. 9800x3d is enough, and overkill in your case.",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "0nebgenji",
+                    "body": "Thank you for the reply. \nI want the upgrade because the fps is not stable as 5900x. It goes 260-120 fps and currently I\u2019m using 240hz monitors and I can see the screen lag and the 9800x3d holds the fps above 400 and stable (saw it on youtube) if 5900x hold the fps high and stable above 240 then I won\u2019t think about swap it out",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "frodan2348",
+                            "body": "How much ram do you have in the system? If it\u2019s 16gb, that may be the cause. I would upgrade to 32gb and see if it helps. \n\nI\u2019m surprised you have frame dip issues. I have a very similar system - same gpu, but 5700x cpu, and have very smooth performance when gaming. I have no complaints.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "0nebgenji",
+                                    "body": "32gb.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "frodan2348",
+                                            "body": "Interesting. It could be a software issue unrelated to hardware. This is happening in CS2?",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "0nebgenji",
+                                                    "body": "Idk. Just check on yt people using same cpu have better  and stable fps than I do. Maybe I should do some research on it see if it helps",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "frodan2348",
+                                                            "body": "Yeah. That backs up that the hardware isn\u2019t the issue. I honestly don\u2019t know what the issue could be since there could be so many things that might cause your issue, but I\u2019d start with updating drivers, updating windows, making sure that Resizeable BAR (above 4g encoding) is enabled in the BIOS and monitoring cpu and gpu usage using something like msi afterburner that shows cpu and gpu utilization. Hell, it might just be settings in the game.",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "reeefur",
+            "body": "I went from a 9800x3d to a 9950x3d, luckily my shop let me trade it in for the 9950x3d even though I owned it for months. (Be nice to the people at your local shop)\n\nFor gaming, the 9800x3d is fine, for some workloads also just fine. I just got it because I am working on training videos for work and need the extra horsepower.\n\nIts the scenario you mentioned about streaming OBS + Gaming that you may want or need a 9950x3d. I'm guessing you use NVenc for the encoding of the stream but OBS will def take CPU resources so for max gaming and ability to stream I'd get the 9950x3d. You'll have to get familiar with how the different CCD's work but you should be fine. If you dont mind a lil bit of performance loss while streaming just save the money and get the 9800x3d.\n\nIf you are in NorCal let me know, there are local shops with 9950x3d in stock and OEM is $20 off.",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "0nebgenji",
+                    "body": "Too bad I live in sc\nI will go with 9800x3d just because I\u2019m not a real streamer and I have a 5900x to spare maybe in the future I can build a stream pc off it",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Illustrious_Delay_24",
+                    "body": "I don't find high core count to help in video editing anymore with GPU acceleration/NVENC for example. Even my freeware apps like Gyroflow (for action cam video stabilization) even use full GPU acceleration and the CPU just sits there like 7% usage barely doing shit even with eight windows/instances of Gyroflow rendering... High core count for video editing is a waste of time anymore when the GPU does the work... Only time I see a benefit with a 16core CPU is say shader compilation in games or unzipping a large zip file for example but video editing is pretty much 100% GPU these days...",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "kdawgnmann",
+            "body": "If you were streaming seriously (aka making decent money from it), I'd say 9950x3D. \n\nBut this sounds more hobbyist/for fun, and in that case I say save the $200+ and get the 9800x3D. It'll still be an improvement over the 5900x (roughly 18% in applications, 23% in 1080p gaming)",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "0nebgenji",
+                    "body": "Yes. Stream is just a hobbit",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "diac13",
+            "body": "For gaming there are already benchmarks showing where the 7800X3D and 9800X3D outperform the 9950X3D in gaming.\nI don't know why in detail, but it has something to do with how the cache is set up differently in that cpu and games have trouble making use of it compared to the 7800X3D and 9800X3D.\n\nBut with the games you're playing and a 4070s, you can get by with a 7600. 7800X3D would be the most expensive I would go, rest is extreme overkill.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "0nebgenji",
+                    "body": "im not worry about the performance on the 9800x3d. I\u2019m just worry about the 8 core will lose performance when I doing multiple things",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "diac13",
+                            "body": "8 cores is enough for the things you're mentioning.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

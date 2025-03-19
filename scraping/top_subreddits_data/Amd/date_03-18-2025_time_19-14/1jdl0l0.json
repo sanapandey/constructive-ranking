@@ -1,0 +1,46 @@
+{
+    "title": "CPU-Z 2.15 update brings AMD Strix Halo, Krackan, Radeon RX 9070 and RTX 5070 Ti support, Cores and ROP displays for GPUs",
+    "author": "RenatsMC",
+    "subreddit": "Amd",
+    "rank": 7,
+    "score": 155,
+    "upvote_ratio": 0.98,
+    "num_comments (reported by reddit)": 6,
+    "url": "https://videocardz.com/pixel/cpu-z-2-15-update-brings-amd-strix-halo-krackan-radeon-rx-9070-and-rtx-5070-ti-support-cores-and-rop-displays-for-gpus",
+    "id": "1jdl0l0",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "Manuel_RT",
+            "body": "LOL, ROPs counting has become a thing",
+            "score": 21,
+            "replies": []
+        },
+        {
+            "author": "pecche",
+            "body": "just wondering.. is there a way to poll the gpu-z stats to see how many cards are being used?",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "annaheim",
+            "body": "Little tangent, but what is everyone using for cpu stat monitoring now that msi afterburner is now longer supported? I don't believe it's showing power usage anymore.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Pimpmuckl",
+                    "body": "Hwinfo64 for lots of details, for more basic stuff I hat the Radeon overlay for a quick glimpse",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "annaheim",
+                            "body": "Ohhh shoot. alright i'll check hwinfo64",
+                            "score": 0,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

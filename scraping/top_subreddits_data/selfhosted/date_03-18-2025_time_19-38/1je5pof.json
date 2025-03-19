@@ -1,0 +1,46 @@
+{
+    "title": "Most energy efficient  NAS",
+    "author": "bohique_8",
+    "subreddit": "selfhosted",
+    "rank": 17,
+    "score": 14,
+    "upvote_ratio": 0.77,
+    "num_comments (reported by reddit)": 5,
+    "url": "https://i.redd.it/dupff8d7ggpe1.jpeg",
+    "id": "1je5pof",
+    "selftext": "My raspberry pi 5 running OMV uses 7 watts while watching a 1080p x265 movie. While idle it uses 3.5 watts. Is there a more energy efficient NAS server?",
+    "comments": [
+        {
+            "author": "ThreeLeggedChimp",
+            "body": "How many W/TB?\n\nI'm doing 2.4w/TB on my 10G arm nas.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "bohique_8",
+                    "body": "3.5w/TB",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "bohique_8",
+            "body": "Storage is a hat nvme so energy for storage is pulled from the raspberry pi.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Arnwalden_fr",
+                    "body": "[This case + hate ?](https://www.amazon.fr/GeeekPi-Raspberry-Tower-Cooler-Ultra-Quiet/dp/B0BRSQV68H?language=en_GB)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "terrafoxy",
+            "body": "nah. some nvme enclosure probably.  \n\nmaybe some nvme nas: https://www.aliexpress.us/item/3256808221834154.html?spm=a2g0o.productlist.main.77.33aa72ddJ4kQaP&algo_pvid=d2bdccf5-771f-47ba-bf18-797f38a3fdb6&algo_exp_id=d2bdccf5-771f-47ba-bf18-797f38a3fdb6-38&pdp_ext_f=%7B%22order%22%3A%2241%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21USD%21254.29%21167.83%21%21%21254.29%21167.83%21%402101ec1f17423074131987767eabc9%2112000045999264836%21sea%21US%21141719204%21X&curPageLogUid=7prdgG0vp6mp&utparam-url=scene%3Asearch%7Cquery_from%3A",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}

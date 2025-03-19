@@ -1,0 +1,20 @@
+{
+    "title": "NVDA: Groot N1 our foundation model for humanoid robots will be open source",
+    "author": "r2002",
+    "subreddit": "stocks",
+    "rank": 14,
+    "score": 27,
+    "upvote_ratio": 0.91,
+    "num_comments (reported by reddit)": 1,
+    "url": "https://www.reddit.com/r/stocks/comments/1jedfpt/nvda_groot_n1_our_foundation_model_for_humanoid/",
+    "id": "1jedfpt",
+    "selftext": "It was announced on stage as the last big news of Jensen's presentation.\n\n>Nvidia is releasing what it\u2019s calling an AI foundation model for humanoid robotics.\n\n> Announced at GTC 2025, the model, dubbed Groot N1, is a \u201cgeneralist\u201d model \u2014 trained on synthetic data and real data. Nvidia said that Groot N1 features a \u201cdual system architecture\u201d for \u201cthinking fast and slow,\u201d inspired by human cognitive processes.\n> \n> Groot N1\u2019s slow thinking system lets a robot perceive and reason about its environment and instructions and then plan the right actions to take, according to Nvidia. As for the fast thinking system, it translates the aforementioned plan into robotic actions, including the ability to manipulate objects and execute multi-step sequences.\n> \n> The model is available in open source, Nvidia said. Alongside the model, Nvidia is releasing simulation frameworks and blueprints for generating synthetic training data. ([Tech Crunch](https://techcrunch.com/2025/03/18/nvidia-announces-groot-n1-a-foundation-model-for-humanoid-robotics/))\n\nWhat is the implication of this for Nvdia and other robotics-driven stocks like Tesla and the growing Chinese challengers like BYD and Xpeng?",
+    "comments": [
+        {
+            "author": "DevOpsMakesMeDrink",
+            "body": "How long before we have ai robot mass shooters? Sorry to go there thats all I can think with this stuff",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

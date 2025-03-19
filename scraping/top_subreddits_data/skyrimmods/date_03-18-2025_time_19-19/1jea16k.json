@@ -1,0 +1,776 @@
+{
+    "title": "What the hell is happening to nexus ??",
+    "author": "Choubidouu",
+    "subreddit": "skyrimmods",
+    "rank": 2,
+    "score": 289,
+    "upvote_ratio": 0.87,
+    "num_comments (reported by reddit)": 123,
+    "url": "https://www.reddit.com/r/skyrimmods/comments/1jea16k/what_the_hell_is_happening_to_nexus/",
+    "id": "1jea16k",
+    "selftext": "The new design of the site is absolutely horrible, what were they thinking when creating that ?\n\n[https://imgur.com/v94KQRR](https://imgur.com/v94KQRR)\n\n[https://imgur.com/M2ljvKz](https://imgur.com/M2ljvKz)\n\n[https://imgur.com/C6sNm00](https://imgur.com/C6sNm00)\n\nEverything is just way too big, it's a real chore to use it currently.",
+    "comments": [
+        {
+            "author": "someblackk1d",
+            "body": "Use this link the old one still works [https://www.nexusmods.com/skyrimspecialedition](https://www.nexusmods.com/skyrimspecialedition)\n\nThis link has the new UI [https://www.nexusmods.com/games/skyrimspecialedition](https://www.nexusmods.com/games/skyrimspecialedition)",
+            "score": 68,
+            "replies": [
+                {
+                    "author": "Wredline",
+                    "body": "I always use a bookmark to get to the Nexus page, I thought you guys were all freaking out over nothing. Holy Crap, is the new site so much worse than I thought. I seriously hope we aren't forced to adopt this any time soon.",
+                    "score": 57,
+                    "replies": []
+                },
+                {
+                    "author": "Ok-Penalty4648",
+                    "body": "unfortunately it does not work with the search function. when searching it uses the new version and the new version search function is TERRIBLE.\n\nplus if you do a search you cannot filter by trending which is fucking annoying. ive seen endorsed results a lot, sometimes i want to see whats new and popular.\n\nthe actual trending page is still there, but not when searching. this is fucking terrible.",
+                    "score": 10,
+                    "replies": [
+                        {
+                            "author": "someblackk1d",
+                            "body": "yeah search is the only thing that's affected everything else seems like the old version.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Choubidouu",
+                    "body": "Lol, you just have to remove \"games/\" in the URL and you have the old UI.",
+                    "score": 21,
+                    "replies": []
+                },
+                {
+                    "author": "JediJosh7054",
+                    "body": "Comparing them side by side, tbh, I don't really get whats so horrible?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "twizz0r",
+            "body": "[https://github.com/LummoxJR/Nexusmods-style-fixes](https://github.com/LummoxJR/Nexusmods-style-fixes)\n\nThat's a browser based CSS to revert a lot of the design back.",
+            "score": 156,
+            "replies": [
+                {
+                    "author": "Choubidouu",
+                    "body": "So i need to mod my browser to mod skyrim, yikes.",
+                    "score": 210,
+                    "replies": [
+                        {
+                            "author": "Creative-Improvement",
+                            "body": "I heard you like modding",
+                            "score": 24,
+                            "replies": []
+                        },
+                        {
+                            "author": "twizz0r",
+                            "body": "It just works \u00af\u2060\\\u2060_\u2060(\u2060\u30c4\u2060)\u2060_\u2060/\u2060\u00af",
+                            "score": 52,
+                            "replies": []
+                        },
+                        {
+                            "author": "Thobio",
+                            "body": "Strangely fitting",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "HistoricalWincest",
+                    "body": "Doesn't do much for me. Still looks like shit, just with a little less waste of space.",
+                    "score": 8,
+                    "replies": [
+                        {
+                            "author": "chocobrobobo",
+                            "body": "CSS unfortunately doesn't typically change the actual content on the page, just the way it's displayed. So if for instance Nexus reduced search results per page from 20 to 10, this modification will not be able to bring it back to 20, but it can squeeze the 10 results closer together.",
+                            "score": 20,
+                            "replies": []
+                        },
+                        {
+                            "author": "twizz0r",
+                            "body": "Provide feedback on that git...would help the author tremendously.",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "HistoricalWincest",
+                                    "body": "Well, take 2012 Design. Copy => Paste. Win. Thats what I want. I already hated the last Design, especially since the Filters were hidden in a submenu, while before they were always visible on the side where in the new design is ...NOTHING!",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "LummoxJR",
+                                            "body": "I don't have the 2012 design to compare to, unfortunately. My CSS was built around yanking out all of the bad things from the new beta while keeping the good parts.",
+                                            "score": 7,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "TorHKU",
+                    "body": "For me at least, it makes it a lot worse. It removes the gutters on the side and makes the middle full screen, which sounds like it would be good since use more space... except then the tiles just expand to ludicrous size and I can't see more than a couple mods at a time. Goes from \"Worse website\" to \"Outright unusable\".\n\nThe cause is the section `.next-container {width: auto;}`, once I commented that out it looked usable.\n\nAuthor needs to update it, looks like that block was meant to only affect the author page.\n\nEDIT: A couple of my own tweaks too. Be warned, these may have side effects as well, I haven't tested it very thoroughly:\n\n    /* Hides the Popular Collections box */\n    .pt-20:nth-of-type(2) {display: none}\n    /* Moves the time period selector for More Mods to be next to the buttons*/\n    #headlessui-listbox-button-\\:Rdpknafkfnkpba\\: {margin-right: 600px;}",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Regular-Resort-857",
+            "body": "I just want the blue color back or I mean a dedicated color for each game instead of the orange fits all",
+            "score": 83,
+            "replies": [
+                {
+                    "author": "brakenbonez",
+                    "body": "dude yes.  It's such a minor thing but that minor thing is enough to make it look horrible now.  Color theory is deeper than I thought.",
+                    "score": 11,
+                    "replies": [
+                        {
+                            "author": "Regular-Resort-857",
+                            "body": "Literally unusable. I've been seeking refuge on LoversLab ever since.",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Admiral251",
+            "body": "It just shows less information at once than before. Modern websites are designed around principle that user is stupid. Which is pretty good approach, because people can get lost even in the easiest user interface. But nexusmods is website for power users, so they are alienating their own target audience. Casual users who barely know how to turn on PCs will just use wabbajack or collections, not the main nexus page.",
+            "score": 252,
+            "replies": [
+                {
+                    "author": "JP193",
+                    "body": "I already dislike how every site is trying to look like scrolling a photo app on a phone, even if I'm on a large monitor, but you have a really good point about this being a site for power users. Nerds don't need pretty bevelling on images, we just want things to load fast and give us what we're after. They probably think it's more readable, but I'm half blind and some other things, and I'd rather have square tabs with highlights (old way) than massive padding and small category round buttons, just to scratch the surface.  \nThere's surely more I could say but that's about all the *unique* perspective I can add.",
+                    "score": 62,
+                    "replies": [
+                        {
+                            "author": "Valdaraak",
+                            "body": "Bro, there will be thesis papers written on TikTok's effect on the internet at large. Sites copying the layout, even if it doesn't make sense. People using TikTok censorship evasion words (\"unalive\", for example) on other sites that don't have those requirements. It's insane how pervasive tiktokification is.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Specific-Judgment410",
+                    "body": "yeah modders don't need to worry about interfaces, we already use ENB and that interface is atrocious but it works",
+                    "score": 56,
+                    "replies": [
+                        {
+                            "author": "dabakos",
+                            "body": "Let's put the most recent version at the top, but add the download button all the way at the bottom. Genius!",
+                            "score": 30,
+                            "replies": [
+                                {
+                                    "author": "LasagnaLizard0",
+                                    "body": "lets make the user click on three different links, all of which are highlighted in a different way!",
+                                    "score": 18,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "ExploerTM",
+                    "body": "Bruh, people on this very sub unironically would say that MO2 is more complicated than Vortex. Coupled together with some comments I read on various mods, and I think you overestimate how much of a casual average user is",
+                    "score": 32,
+                    "replies": [
+                        {
+                            "author": "LaTeChX",
+                            "body": "Simply being aware that either program exists or that it's possible to mod your game is still far more advanced than the average phone scroller that the new web design is for. You may think that the guy yelling at you in your mod comments because he tried to install three vampire overhauls on top of each other is an idiot. But as George Carlin said, just think of how stupid the average person is and then remember that 50% of people are dumber than that.",
+                            "score": 19,
+                            "replies": []
+                        },
+                        {
+                            "author": "Left-Night-1125",
+                            "body": "And than get called a Mo2 elitist for saying Mo2 is easier and better.",
+                            "score": 8,
+                            "replies": [
+                                {
+                                    "author": "buyukaltayli",
+                                    "body": "MO2 people shut up about MO2 in any context challenge (impossible)",
+                                    "score": -5,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Ryoga84",
+                    "body": "Honestly, I wasn't annoyed by it until I discovered that from phone I can't see the size of the mods from the main view.\n\nThat's a major pain in the ass for me.",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "CompetitionSquare240",
+                    "body": "Historically, Nexus users have been the opposite of power users.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Valdaraak",
+                    "body": "> Modern websites are designed around principle that user is stupid.\n\nAnd yet they left in the \"mods requiring this file\" wording under Requirements that has confused *so* many people for years.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "_Refuge_",
+                    "body": "\"But nexusmods is website for power users\"  \n  \nSay what? Since when?",
+                    "score": -6,
+                    "replies": [
+                        {
+                            "author": "Soanfriwack",
+                            "body": "From the very beginning? Modding your video game is not something a casual user does. Only people who are invested into gaming or a particular game do this.",
+                            "score": 18,
+                            "replies": [
+                                {
+                                    "author": "_Refuge_",
+                                    "body": "\"A power user is someone who leverages a product or system's advanced features and capabilities to achieve their goals more efficiently, often having a deep understanding of the product and its limits\"\n\nThat definitely doesn't describe a lot of the modding community. I think this subreddit often thinks that adding hundreds of mods to their game is the norm, when I'm fairly certain stats that Dark0ne gave a few years ago showed that something like more than 80% of Nexus Mods users have downloaded less than 50 mods for Skyrim. I wouldn't call those users \"power users\".  \n  \nWith the advent of Steam Workshop and in-game mod systems modding definitely is not as \"niche\" or considered as \"advanced\" as it used to be.",
+                                    "score": -4,
+                                    "replies": [
+                                        {
+                                            "author": "Soanfriwack",
+                                            "body": "Huh? All modders use the advanced features and capabilities of their game (ex Skyrim) to load different modifications. \n\nAnd they do that to achieve the goal of a more beautiful game or enhanced gameplay or immersion. \n\nSo I think this does apply, even if you have only downloaded 10-20 mods. \n\nJust installing (SKSE) SkyUI, SMIM, USSEP, RaceMenu, Life another Live, Ordinator, Apocalypse and Realistic Water 2 already massively enhances the game and utilises lots of advanced features with just 7 mods downloaded from Nexus.\n\nThey might not have in-depth knowledge of how these mods do what they do, but apart from that, they do qualify by the definition you used.\n\nAlso you asked since when, and it definetly was much harder before 2015 and again much harder before 2005 and a decade before that modding had just started to become common place with games like Doom.",
+                                            "score": 9,
+                                            "replies": [
+                                                {
+                                                    "author": "_Refuge_",
+                                                    "body": "How is going into the in-game mod menu and downloading/installing mods \"advanced\"? Is installing Vortex and clicking \"download\" on Nexus advanced when millions of people, a not insubstantial portion of the players, are doing it?\n\nThe idea that Nexus Mods is for \"power users\" is antiquated considering how much more accessible and common place modding is across the gaming spectrum. Nexus Mods own mission statement is to \"make free modding easy\". No mention of power users there.\n\nWith millions of people downloading mods for Skyrim each week on Nexus, calling everyone on the site \"power users\" misses the mark by a wide margin, especially in the context of how it was originally raised, which was \"anyone using mods is a power user so the site design should be made for power users in mind\" - something I fundamentally disagree with. Modding should be accessible and not geared towards \"power users\" specifically.",
+                                                    "score": 0,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "ResidentImpression85",
+                    "body": "What the fuck is wabbajack and what are collections?",
+                    "score": -1,
+                    "replies": [
+                        {
+                            "author": "ResidentImpression85",
+                            "body": "I just been usin nexus or thunderstore for modding \n\nAlong with the occasional steam workshop",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "HistoricalWincest",
+            "body": "I will never understand why Websites do that shit. Pretty much never do they make stuff better. 2012 Nexus is still 10x superior. \n\nAll these new Layouts are Style over Usability. Shit takes like 4 more clicks compared to the 2012 Design. Why the fuck would you design a PC Modding Website and focus on Mobile? This shit looks like a fucking Mobile-Phone Website!",
+            "score": 54,
+            "replies": []
+        },
+        {
+            "author": "Butefluko",
+            "body": "Oh my god it looks atrocious",
+            "score": 35,
+            "replies": []
+        },
+        {
+            "author": "DJ-Pedro",
+            "body": "It's evolving, just backwards.",
+            "score": 23,
+            "replies": [
+                {
+                    "author": "Practical-Pen-8844",
+                    "body": "Devolving.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Mr-Zero-Fucks",
+            "body": "There's nothing more frustrating than a UI designer who thinks all computers have the resolution of their retina display.",
+            "score": 25,
+            "replies": []
+        },
+        {
+            "author": "Loose-Donut3133",
+            "body": "Really annoying watching website designers never learn the lesson of user experience(UX) is more important that user interface(UI) appeal.\n\nYeah, sure, looks neat but the experience is offers is damaged. It's more difficult to parse things were moved arbitrarily, it's generally more cluttered, people still don't tag shit properly.\n\nDoes Nexus even have a table of dog brained investors to appease with lackluster site updates? Whats the point of doing something so poorly thought out at best?",
+            "score": 31,
+            "replies": [
+                {
+                    "author": "Ugly_Slut-Wannabe",
+                    "body": "Maybe Nexus just hired someone whose whole resume is \"UI/UX design is my passion\" and thinks that every single website should look like a mobile app.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Capable-Silver-7436",
+            "body": "its been redesigned for phones",
+            "score": 20,
+            "replies": [
+                {
+                    "author": "superseriouskittycat",
+                    "body": "Which is absolutely stupid because people don't mod games on phones. lol",
+                    "score": 21,
+                    "replies": [
+                        {
+                            "author": "Capable-Silver-7436",
+                            "body": "agreed",
+                            "score": 9,
+                            "replies": []
+                        },
+                        {
+                            "author": "FakestAccountHere",
+                            "body": "I look up most mods on my phone tbh\u00a0",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "superseriouskittycat",
+                                    "body": "Truthfully so do I, but only to bookmark and look at them on my computer later on. Anything else is already a PITA on a phone.",
+                                    "score": 5,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Specific-Judgment410",
+            "body": "yeah they are going downhill, they don't know how to keep it simple",
+            "score": 14,
+            "replies": []
+        },
+        {
+            "author": "VRHobbit",
+            "body": "I can't believe they removed the 'tracked contents updates' tab.\n\nThey obviously have no idea what they're doing.",
+            "score": 9,
+            "replies": []
+        },
+        {
+            "author": "ScaredDarkMoon",
+            "body": "And the comment search function is broken again...",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "beneaththeradar",
+            "body": "yeah, it's ass.",
+            "score": 9,
+            "replies": []
+        },
+        {
+            "author": "iLLGT3",
+            "body": "Shithole has been falling apart since 2011",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "Xilvereight",
+            "body": "I don't understand why they had to change it yet again. They're compltely out of touch with their user base.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "Ok-Penalty4648",
+            "body": "They fucking removed searching by trending when running a search. Assholes",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "Starblast16",
+            "body": "Is there a way to tell the people in charge of Nexus that we collectively hate this redesign?",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "_Refuge_",
+                    "body": "They provided stats from the survey that was run during the beta process (the survey was available to everyone who visited the pages during the beta) and the results were:\n\nGame listing pages scored 4.4/5 (113 responses)\n\nMod listing pages scored 4.3/5 (756 responses)\n\nGame home pages scored 4.0/5 (1,219 responses)\n\nEssentially, what you're seeing in this post is all the negative people coming to share their opinions which is not indicative of the average Nexus Mods user. The people who don't care or who like it simply won't comment or are fine so aren't looking for a place to vent, thus this thread is only full of negative people, which makes you think that everyone hates it when the truth is these changes were fairly well liked according to their surveys.\n\nSource: [https://forums.nexusmods.com/topic/13507498-mod-browsing-overhaul-discussion/page/36/#comment-130495434](https://forums.nexusmods.com/topic/13507498-mod-browsing-overhaul-discussion/page/36/#comment-130495434)",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Calfurious",
+                            "body": "Biggest flaw in the data is that people who hate the redesign would just opt out of doing it. Like what I did. I hated the redesign, opted out, and therefore didn't take any survey.\n\nAnybody opting into the redesign likes it, therefore would be given the option of doing the survey.\n\nSample surveys only work if people cannot self select themselves out the data set. Otherwise it's just going to be overly skewed.\n\nOnly way to get valuable data for something like this is to make the redesign mandatory for all users, then after a week or two, conduct a survey to see what people think about it.",
+                            "score": 27,
+                            "replies": []
+                        },
+                        {
+                            "author": "Choubidouu",
+                            "body": ">Game listing pages scored 4.4/5 (113 responses)\n\n>Mod listing pages scored 4.3/5 (756 responses)\n\n>Game home pages scored 4.0/5 (1,219 responses)\n\nYou do realize that these score are even less representative ? The number of people that participate to it is insignificant.",
+                            "score": 12,
+                            "replies": [
+                                {
+                                    "author": "_Refuge_",
+                                    "body": "How so? All statistics are representative of the people who bother to respond to the survey. What else are they supposed to go off?",
+                                    "score": -1,
+                                    "replies": [
+                                        {
+                                            "author": "Choubidouu",
+                                            "body": "Because the amount of people participating it is not enough to be representative of the community. And most people didn't even hear about the beta.",
+                                            "score": 10,
+                                            "replies": [
+                                                {
+                                                    "author": "Valdaraak",
+                                                    "body": "> Because the amount of people participating it is not enough to be representative of the community.\n\nStatistics is weird in that a sample of 1000 people can very accurately scale up to a population of tens of millions. Doesn't sound like it would, but it provably does. I do agree that the 113 is probably too small to be accurate at scale, but apparently even 30 people can give an accurate result.\n\nThe caveat, which is very much worth pointing out here, is that those 1000 people need to be proportionally accurate in representation to the full population being sampled. A two week self opt-in study does not check that box.",
+                                                    "score": 2,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "_Refuge_",
+                                                    "body": "There was a big blue banner at the top of the site mentioning it for 2+ weeks. If people didn't notice that then they've got bigger problems than this UI change, they didn't use the site during that time or they didn't want to try it.",
+                                                    "score": -3,
+                                                    "replies": [
+                                                        {
+                                                            "author": "JJakaRebel",
+                                                            "body": "I had no such banner and I've been building a list and using this site every day for the last 2 months.",
+                                                            "score": 9,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Valdaraak",
+                    "body": "They're on this sub. They comment from time to time. They'll see this post.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Choubidouu",
+                    "body": "Yep, not use their site anymore.",
+                    "score": -4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "mangotango781",
+            "body": "Netflix updated their UI on my Chromecast recently and it's the same mess -- giant icons for every movie and now you see a lot less per screen.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "urbonx",
+            "body": "Gonna be downvoted as hell but the old design was horrible. Isn't the 2010 anymore.   \nNow seems more focused and less distracted. More solid tones. There is still a lot of empty space tho.\n\nBut I don't like this:\n\nhttps://preview.redd.it/nzlrgozjfhpe1.png?width=639&format=png&auto=webp&s=40595b69c47cab15221fa5112f9e107397c7bd1b\n\nToo fucking big. I know where I'm bro...chill out,...you're already telling me on the nav...again.",
+            "score": 15,
+            "replies": [
+                {
+                    "author": "Choubidouu",
+                    "body": "The interface is fine, but everything is so big, it makes no sense.",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "WorthSleep69",
+                    "body": "Yeah but the problem is that 2010 ui design ws better. Modern simplistic round colorful UI with other fancy bullshit like transitions and hover delays sucks ass. 2010 was just simplistic and straight to the point.",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "JP193",
+                    "body": "Upvoted just for honesty. (Redditors when upvote/downvote is intended for contribution to a discussion.)  \nWhile I dislike the new one on useability and accessibility basis, so I do agree I think modernising it *in some way* is fine, and there are strange aspects to the old layout that we got stubbornly used to like every game having a low-res Skyrim png as page background, which is funny to realise.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "jamesmand",
+            "body": "[https://en.wikipedia.org/wiki/Enshittification](https://en.wikipedia.org/wiki/Enshittification)",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "ChillAhriman",
+                    "body": "This doesn't seem to be enshittification, since enshittification requires the goal of selling the website to investors and shareholders, yet NM is moving away from an ads-based income model to rely more on user donations, presumably to ensure their own independence.\n\nIt's just poorly thought decisions, based on the assumption that the new design will increase their userbase.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "SomeoneNotFamous",
+            "body": "I... Like it ?\nI don't know nothing seems \"harder\" to find imo.",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "AnnualReplacement216",
+                    "body": "My main issue is the new search function which seems to not show you everything you would want it to but just the specific things that match what it thinks you\u2019re trying to search. Like I looked for \u201cArcher\u201d and got some mods, then changed it to \u201cArchery\u201d and got an entirely different selection of mods instead of it just showing all the mods that had the word \u201cArcher\u201d in them when I wanted it to.\n\nEDIT: I was wrong, the search results between \u201cArcher\u201d and \u201cArchery\u201d are not \u201centirely different\u201d there is slight variation. While this is still frustrating, my specific example is not a good communicator of the issue.\n\nAlso the color to differentiate between games is gone and that\u2019s stupid, there are still times when I accidentally somehow stumble into Skyrim LE Nexus and this makes it harder to tell the difference than it needs to be.\n\nOutside of that I don\u2019t think it\u2019s necessarily bad, just different.\n\nEDIT: the issue I originally had in this edit is actually not an issue and better implemented now than it was before!",
+                    "score": 8,
+                    "replies": [
+                        {
+                            "author": "JediJosh7054",
+                            "body": "They simply copacted the tabs, instead of having \u201cPopular (30 days)\u201d and \u201cPopular (All time)\u201d you now have a Popular tab and can change the time frame for all the tabs on the top right, including trending.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "AnnualReplacement216",
+                                    "body": "Wow I\u2019m blind LMFAO, thanks for pointing out the date tab thingy.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "ElitistJerk_",
+                    "body": "People will inevitably start hating everything new at some point, its free karma. I think its fine as well.",
+                    "score": -1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "GamerOC",
+            "body": "Weirdly if you take out the /games part of the url it goes back, unless me having bookmarked that page has lead to me using the site differently than everyone else for longer than I realized.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Scarecro0w",
+            "body": "I tried the beta of the site, it was horrible, idk why they would push this change",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "XarisZ2",
+            "body": "Go to their discord and complain at site-support. Maybe if we make our voices heard these deaf-tone ppl will actually listen to ppl not liking their changes",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Blabulus",
+            "body": "wtf do they think people are modding Skyrim on their phones??",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "brakenbonez",
+            "body": "What baffles me is that they ignore the things people have been asking for years to be added and instead make changes no one asked for.  Comment delete option?  Nah.  Let's instead zoom in on everything and change the colors.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "El3ktroHexe",
+                    "body": "Also they removed the very useful comment search option (a while ago, I think)... That had technical reasons, but I really hope, that they bring this back asap.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Pariell",
+            "body": "The nexus owner has a reddit account, maybe ping him and see if he responds.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "superseriouskittycat",
+            "body": "It's much more tolerable if you zap the massive ad/premium containers with a few custom adblock rules. Everything else is still needlessly huge though.\n\n    www.nexusmods.com##.premium-block\n    www.nexusmods.com###mainContent > div:first-child\n    www.nexusmods.com###mainContent > div:nth-child(2) > div:nth-child(3) > div:nth-child(2) > div:has-text(No ads)\n    www.nexusmods.com###mainContent > div:last-child\n\nJust keep in mind these kind of rules are likely to break if the page layout changes enough.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Sjap_Gaming",
+            "body": "This new interface is horrid, it changed suddenly while I was in the middle of modding, I\u2019ve got it going through a 40in tv which this is not helping with.\nI\u2019ve been building a pack these last few weeks, I\u2019m currently at 807 mods with a fair bit left to add yet",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Valdaraak",
+            "body": "While I agree, I'll also point out that people said the same things about the current layout when it came out.\n\nAnd apparently, according to Nexus, most of their site views come from mobile. Certainly explains the mobile layout with lots of wasted space.\n\nThat said, after a stare and compare of both, it seems all they really did was chop off a column in the \"more mods\" and cut down the \"hot mods\" by one mod. I can navigate it just fine, and the mod pages themselves look basically the same.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "JavierLoustaunau",
+            "body": "I used it in the Beta and I thought they took the beta away to fix things... but the things that bugged me are not fixed.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "thatHecklerOverThere",
+            "body": "I still have no earthly clue what the problem is. All I know is that now I can delete my comments.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Advon",
+            "body": "The front page is clearly designed for Portrait mode. Resize your browser to take up half the width, or better yet a third, but the full height, and it scales more evenly. Not great, but better.\n\nThen go down to more mods, full screen your browser again and find out they made the dedicated search page even better than it was before. This is the page they expect power users to use instead of the main page, it feels like.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "_vsoco",
+            "body": "Woah, this takes me back. I remember similar posts from... How many years ago?\n\nEdit: it looks really bad",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TheAccursedHamster",
+            "body": "nexusmods has made the same mistake so many other sites make; the belief that form is more important than function.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "skyrimmods-ModTeam",
+                    "body": "Harassment, insults, bigotry and other attacks will not be tolerated. Attempts at trolling, instigating arguments or knowingly sharing misinformation will not be tolerated either. Behave decently and treat others the way they want to be treated. If someone is rude or harassing you, report their comment/post and move on. Do not respond in the same way or you will both be warned/banned.\n\nYour post/comment has been removed because it featured content deemed too offensive or inappropriate for the subreddit. If you have questions, contact the moderators through Modmail.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Tyrthemis",
+            "body": "I\u2019m not usually someone that hates change just cause it\u2019s different than what I\u2019m used to, but I have to agree. The new Nexus layout isn\u2019t as useful or informative.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "gurilagarden",
+            "body": "It's fine, just typical end users needing something to complain about.  The site barely changed.  Way too big?  \"ctrl -\" exists.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Dovahkin-vahin",
+            "body": "Modding at work near my coworker just became more hectic lmao, search smth normal and body parts show full screen, \ud83d\ude02 im now just coming to work early and alt tab everytime i see a kid nearby.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ghost-99x",
+            "body": "They messed up the media section so bad",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Salt_Jaguar4509",
+            "body": "I guess it's time to play the game now. It's painful to go thru the pages for newer mods.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Doodlegoat",
+            "body": "https://preview.redd.it/09vs9uigwhpe1.png?width=395&format=png&auto=webp&s=29d6fbdc517a7bc8cfe465d2e0d0a2248739b86c\n\nmfw the staff of the modding website failed to correctly modify their website's design\n\n\n\n(Jokes aside, it seems like it's not scaling properly yet. Window size affects the tiles. Odd stuff. Hope they fix it. Not against an update, it just looks incomplete and a bit clumsy atm.)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Marmodre",
+            "body": "I will always recommend, when facing big changes, to give it some time. See if we get used to it. I don't like change very much, and already am annoyed that i now have to scroll down to use the entire filter menu as far as i can tell, but maybe in time it will be as natural as things used to be. I will say, they have added some nifty new filters too, and maybe they felt there were too many people not really using the filters (resulting in complaints about translation mods and the like, which is easily removable from one's feed with minimal effort)",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "KikiPolaski",
+                    "body": "It just needs a list option imo, most of the issue is how much vertical real estate it takes",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "guking_",
+            "body": "I think the goal was to make the website more... \"mobile friendly\" because the older version's design is not thaaaaat optimized for mobile. Or maybe they just wanted to have a modernized look and we are just complaining because we like to complain about change. (I liked the new design tho, but it has less personality)",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Choubidouu",
+                    "body": "Because they think people are modding their game with their phones ?",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "guking_",
+                            "body": "I don't know what they are thinking. But, as someone that works with digital design and media, it's a common practice to make websites \"mobile first\". Is that the best idea for this? Not sure. I don't have their numbers on how many people use the website on their phones. Rarely website changes comes from whims and vanity. They also sell a service, the nexus premium thing, so they don't just have the website because they like, which points towards a less \"on a whim\" reason for the change. In my original comment I just pointed A possible reason for the change, A fact about change in services and products and how consumers behave, and my hot take opinion saying that I liked the new design but I think it is devoid of a personality.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "KikiPolaski",
+            "body": "Hot take, i think it's better than the horrible modern/old hybrid we had before, but still worse than the old school nexus design before the redesigns happened.\n\nI think having a list option rather than these cards would go a looooong way",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Whole_Sign_4633",
+            "body": "Seems fine to me, no issues",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Brilliant_Demand_695",
+            "body": "I actually love it, I think it\u2019s a huge improvement. The old one was weird and clunky",
+            "score": -2,
+            "replies": []
+        },
+        {
+            "author": "Pretty-Tale-1904",
+            "body": "Nothing bad with evolution, you\u2019ll get use to it lol",
+            "score": -5,
+            "replies": []
+        },
+        {
+            "author": "Left-Night-1125",
+            "body": "I actually like it, i can click what i want to see and dont want to see pretty easily. And i get the idea the site loads faster.",
+            "score": -4,
+            "replies": []
+        },
+        {
+            "author": "xqx-RAMPAGE-xpx",
+            "body": "womp womp",
+            "score": -9,
+            "replies": []
+        },
+        {
+            "author": "Yharnam1066",
+            "body": "Man speak for yourself this update is wonderful",
+            "score": -9,
+            "replies": [
+                {
+                    "author": "Choubidouu",
+                    "body": "Well, the interface looks fine, but everything is way too big, you have less information on screen for nothing, it's an anti-userfriendly update.",
+                    "score": 7,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Desperate-Contact-70",
+            "body": "I don't get it? the layout is fundamentally the same. if the elements are too big use the zoom function on your browser\n\nhttps://preview.redd.it/1fjxbe4kbipe1.jpeg?width=1080&format=pjpg&auto=webp&s=ad4f8746631899327edff4683c205bf2d644d3e3",
+            "score": -5,
+            "replies": []
+        },
+        {
+            "author": "JLJFan9499",
+            "body": "I think it's okay, things change from time to time, it's natural. Imagine if we stayed in early 2000's web design instead of what we have now",
+            "score": -7,
+            "replies": []
+        }
+    ]
+}

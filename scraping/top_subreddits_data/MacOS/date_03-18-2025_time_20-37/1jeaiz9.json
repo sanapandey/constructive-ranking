@@ -1,0 +1,107 @@
+{
+    "title": "How can I stop this popup when having a video meeting?",
+    "author": "Savings-Sand-6861",
+    "subreddit": "MacOS",
+    "rank": 3,
+    "score": 16,
+    "upvote_ratio": 0.94,
+    "num_comments (reported by reddit)": 14,
+    "url": "https://i.redd.it/vi1oalgcghpe1.png",
+    "id": "1jeaiz9",
+    "selftext": "How can I stop this popup when having a video meeting? I have been reading it is a MAC thing, and it's super annoying. ",
+    "comments": [
+        {
+            "author": "rickrobles",
+            "body": "Also, Why are they doing that without asking. I know it's because some people do not like them, but no software should control what I can or cannot do with my goddamn reactions.",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "GibbsfromNCIS",
+                    "body": "The main reason they turn them off automatically is because of all those mass-layoff Zoom calls from a year or so ago where the giant \ud83d\udc4e would appear onscreen at inopportune times in high-stress situations.\n\nMost notably in Zoom Rooms (Zoom\u2019s conference room solution that can run on MacOS), the interface takes over the entire screen and does not allow access to the menu bar, so there was no way to disable the setting for Zoom Rooms since the reactions setting is per-app and not global (i.e. disabling reactions in Photo Booth does not disable reactions in Zoom since the setting is per-app).  This required Apple to create a way to disable them on app launch instead of manually by a user.\n\nMost videoconferencing software (Zoom/Teams/etc.) also have their own built-in reactions, so the Apple ones were often a redundant feature that was often turned on by default when it was unnecessary.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "rickrobles",
+                            "body": "They should ask, not force.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "GibbsfromNCIS",
+                                    "body": "\n\nI'd agree that the choice should ultimately be up to the user, and the poor design of the feature is what currently makes it necessary for them to force the reactions to turn off at app launch.  They could have added a page of \"reactions on/off\" toggle switches somewhere in System Settings (similar to how privacy settings work) that would give users far more granular control and simultaneously fix the Zoom Room issue I mentioned previously.  \n\nThe way they designed it with the super annoying pop-up menubar notification is probably the least user-friendly way they could have implemented a fix.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "RoastedScorn",
+            "body": "Haven\u2019t found a way to permanently turn them off but I also noticed that click the X doesn\u2019t close it. You have to click on the green camera icon at the top for it to close.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Savings-Sand-6861",
+                    "body": "If I hit ESC, it will go away, but distracting to have to do when presenting, it's always pops up over the toolbar location where I have shortcut links, too...super annoying!",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "RoastedScorn",
+                            "body": "Suggestions are to toggle them on then off and restarting the app. Others suggest turning off FaceTime notifications and restarting",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Savings-Sand-6861",
+                                    "body": "Ya, I tried those from my initial research with no luck. Don't use FaceTime from my laptop.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Savings-Sand-6861",
+                                    "body": "Though I don't use FaceTime on my Computer, I just tried, and no Pop-up using that Video tool, so it seems only Google Meet & Zoom trigger it. Ugh",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "powerpitchera",
+            "body": "Turn off notifications for the \"Tips\" app, this will perm fix it.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Savings-Sand-6861",
+                    "body": "I was excited to try this, but it did not work Chrome notifications I already turned off, too!",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "powerpitchera",
+                            "body": "You'll need to reboot after...",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "whizzard",
+            "body": "Dump Chrome",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Savings-Sand-6861",
+                    "body": "Not my choice to, but what browser do you use instead?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

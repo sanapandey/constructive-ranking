@@ -1,0 +1,20 @@
+{
+    "title": "Extended my previous work",
+    "author": "Deep_World_4378",
+    "subreddit": "StableDiffusion",
+    "rank": 12,
+    "score": 35,
+    "upvote_ratio": 0.91,
+    "num_comments (reported by reddit)": 1,
+    "url": "https://v.redd.it/6th4xdqwifpe1",
+    "id": "1je2908",
+    "selftext": "6 years back I made a block crafting application, where we can tap on blocks and make a 3D model (search for AmeytWorld). I shelved the project after one month of intensive dev and design in Unity . Last year I repurposed it to make AI images of #architecture using #stablediffusion . Today I extended it to make flyby videos using Luma Labs AI  and generating 3D models for #VirtualReality and #augmentedreality. \n\nP.S: Forgive the low quality of the 3d model as this is a first attempt. \n",
+    "comments": [
+        {
+            "author": "Roy_Elroy",
+            "body": "I think a sketch and using controlnet would be more practical",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

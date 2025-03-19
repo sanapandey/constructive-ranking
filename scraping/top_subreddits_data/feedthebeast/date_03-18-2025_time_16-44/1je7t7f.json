@@ -1,0 +1,52 @@
+{
+    "title": "Hi! I managed to upload my first mod ever, so I'm asking if someone wanna play it?",
+    "author": "baicu12096",
+    "subreddit": "feedthebeast",
+    "rank": 13,
+    "score": 11,
+    "upvote_ratio": 0.72,
+    "num_comments (reported by reddit)": 6,
+    "url": "https://i.redd.it/3zwyuy5kwgpe1.png",
+    "id": "1je7t7f",
+    "selftext": "So, recently I uploaded my first mod, Strongest Blocks. It turns the game a lot harder, but adds very OP stuff (kinda like Titans Mod). More information [here](https://www.curseforge.com/minecraft/mc-mods/strongest-blocks) (curseforge page). I hope you guys enjoy!",
+    "comments": [
+        {
+            "author": "Leclowndu9315",
+            "body": "That's MCreator isn't it",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "baicu12096",
+                    "body": "Yes\n\nAny problems with it..?\n\nEdit: Thanks for the recommendations!",
+                    "score": -3,
+                    "replies": [
+                        {
+                            "author": "Calm-Substance4579",
+                            "body": "Mcreator is pretty horribly unoptimized in the code and tends to cause problems. Just a mod from the platform isn't bad but if you want to use it in a pack it can cause issues with lag.\n\nNewer versions are better but it still isn't great.\n\nThe platform isn't horrible for learning how MC code works though.",
+                            "score": 13,
+                            "replies": []
+                        },
+                        {
+                            "author": "pitbox46",
+                            "body": "I'd recommend taking the time to learn Java. There's a lot to the language, but the things you will be able to mod will be limitless. \n\nImo the best way to learn is trying to make some simple programs or even some simple mods. I started by trying to make some wireless redstone mod that didn't end up working very well, but I learned a lot about Java and Minecraft/Forge systems.\n\nAnd remember the Internet is your friend. If you have a question about Java, a Google search will point you in the right direction. If you have a question about Minecraft, the Minecraft Modding Discord can help you out",
+                            "score": 8,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "TahoeBennie",
+            "body": "It\u2019s nice that you\u2019re making a first mod, but you shouldn\u2019t expect people to be actually interested in it, due to lack of experience (first mod) and lack of longevity (mcreator), which is nothing against you, that\u2019s just how it is. The more stuff you make, the more you learn and the better your stuff starts becoming, which isn\u2019t in the slightest limited to Minecraft mods, you simply can\u2019t expect a masterpiece out of the gate. And as already mentioned, you really should move away from mcreator. It\u2019s a laggy and unoptimized code generator where you may get to take a couple of shortcuts in mod dev but ultimately learn less and can do less with the result: serious mods beyond the scope of one\u2019s first mod should not be related to mcreator.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "baicu12096",
+            "body": "I recommend playing with JEI, and taking a look at the items on creative first. Some mechanics are confusing, so I will try to reply to any question!",
+            "score": -2,
+            "replies": []
+        }
+    ]
+}

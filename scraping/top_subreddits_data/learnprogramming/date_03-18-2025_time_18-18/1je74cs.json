@@ -1,0 +1,185 @@
+{
+    "title": "How many of you want to learn programming, but for some reason or another have put it off or get stuck?",
+    "author": "InformalTown3679",
+    "subreddit": "learnprogramming",
+    "rank": 6,
+    "score": 14,
+    "upvote_ratio": 0.85,
+    "num_comments (reported by reddit)": 29,
+    "url": "https://www.reddit.com/r/learnprogramming/comments/1je74cs/how_many_of_you_want_to_learn_programming_but_for/",
+    "id": "1je74cs",
+    "selftext": "I've been writing software my whole life, since I was a kid. I was obsessively passionate about it, and still am. I see a lot of people online and in real life who seem to get stuck, or have some reason stopping them.\n\nI personally believe a strong explanation for this occurrence is the lack of good teaching material. Well, there's plenty of teaching material, and a lot of it is good. But i think, a lot of assumptions are made about where the person is coming from, and it's really hard to meet people on their level.\n\nDoes anyone need help? Consider this thread a space to talk about the barrier to entry for software engineering in its current state.",
+    "comments": [
+        {
+            "author": "tamil_random_rant",
+            "body": "When I was in 12th std I was perfectly executed hello world program in c++ that time all of my friends were getting errors. So I thought this was suitable for me. The same thing goes for college also. Then I decided to become a software engineer. \nI can't believe that I am also good at solving and logical programs even sometimes teacher struggles. \nWhen corona came it caused severe damage in my house income. I lost my dad also. \nI work parallelly daily wages and searching for developer jobs. I had incomplete knowledge of all studies and skills. Successfully wasted 3 years after completing college and even my family financial wealth.\nNow I have ended my IT career. But I can't leave doing programming so for my satisfaction I automate my daily routines with python. It's kind of fun and enjoyable. Still I follow tech news and updates. Now I shift slowly to foss community. To work with open source softwares like libre office instead MS office. Now I am barely living and doing some useless hobbies. Like typing this comment \ud83d\ude05...",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "InformalTown3679",
+                    "body": "I think about that scenario a lot, i see a lot of kids in the universities that learn compsci but they really don't know how to \"develop software\" because it's a really hands-on thing. \nIm sorry to see your situation, do you ever think you'll try again at a software career?",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "tamil_random_rant",
+                            "body": "I can't even imagine restarting my software career. Now  I am interested in foss. So I want to contribute it. But I don't know where to start. Recently I roam around Gsoc projects. But they are very big for me. Now I am totally confused about what I should do. First I focus on my family to settle down. Maybe After 40+ I have some time to sit. Then I am thinking about contributing. Until I read reddit posts to engage myself \ud83d\ude02",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "bottleofmtdew",
+            "body": "I\u2019ve tried learning and have somewhat of an understanding for a few different programs. I mainly deal with powershell, but have yet to find a really good resource for it.\n\nEverytime I find a course, it starts well, goes over the same stuff as other courses, then starts to implement syntax that was not explained, which is my biggest hurdle, what does each syntax mean?\n\nBiggest example when first starting was $_.\n\nIt would be used, but never actually explained what it is.\nI prefer detail on what each thing does, I don\u2019t need the history of powershell for the 6th time \n\nSo, syntax explanation I find is lackluster often",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Mr_Lymbo",
+                    "body": "This. I have been learning powershell for a while and use very simple commands just about everyday for work. However, I want to drill down more. Like many I learn by doing but I can't find a good project or use case to actually learn by doing. Ive seen projects others have done, but they are significantly more complex than I am ready for. \n\nMaybe I just don't understand it to a deep enough level, but like you, I find many \"guides\" and teachings to be lack luster in explanation of how and why it works. Its kinda just like oo look at this it works.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "bigtexasrob",
+            "body": "I need to learn Python but every time I would, it\u2019s immediately so far over my head that I lose interest. It\u2019s like trying to take a sip from a fire hydrant, or if you googled \u201chello in French\u201d and all the results were how to apply for French citizenship.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "MonochromeDinosaur",
+            "body": "I think it\u2019s fear of failing/being bad at it, and inability/not having learned to think critically and looking for solutions.\n\nIt takes a certain mindset of tolerating repeatedly failing and fixing to succeed at programming.\n\nA lot of people I know hit a single road block and just give up. This is for most activities not just programming.\n\nLearning material won\u2019t solve unexpected bugs, only the persistent mindset will. Materials can give you the tools to find the solution but without the mindset they\u2019ll be useless.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ffrkAnonymous",
+            "body": "Based on this subreddit, these are the barriers, none of which is lack of good teaching material.  \n\n- I dunno where to start.  \n- OK, I read the FAQ but my situation is different.\n- But is it worth it?\n- What about AI?\n- OK, I'll use the suggested teaching material but which is BEST?\n- I don't have a laptop, can I program on my toaster?\n- I upgraded to a bleeding-edge toaster.  Should I use vim or neovim?\n- I used AI and I don't know anything.\n- I stopped using AI but I'm not cut out for programming because my classmates are getting A+ and youtube says I should have been able to get a remote job  in one month.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "InformalTown3679",
+                    "body": "That to me seems like a description of the people who get into programming just for the money because they think its straightforward.\n\nI have met a lot of people in compsci college, who want to learn programming at various levels, some are complete beginners, i never see them think these things you listed.\n\ni always see them trying to follow their class curriculum, or learning something online, but they aren't being taught correctly. \n\nI definitely see these thoughts come from older people who are looking to get into it because they think its easier than it really is to make a quick buck.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ziqezi",
+            "body": "Being someone who failed at learning how to program after trying between the years 2020 - 2022, I have made basically every mistake a beginner programmer can make. For example:\n\n*  Switching programming language before learning one. I remember when I tried learning how to program, I would switch programming language basically every month instead of sticking with one due to feeling demoralized after I had watched weeks of tutorials and not seemingly learnt how to do anything on my own. So, I would switch to something I heard was easier. \n*  When I used websites that give you coding challenges along side learning, I would mindlessly do the challenges and not really get much out of it. I would not really understand or try to understand how it could be used.\n* When I watched these very long tutorials that are 10+ hours long I would do maybe one third of the full course and think to myself \"it feels like I am only learning how to do this thing specifically\" which led me to quitting books and tutorials. \n\nI have started trying again this year, but this time it feels like I am actually making progress, probably because I am actually trying to build stuff which I barely tried last time. The reason why I started trying again is because I found videos from programmers explaining how they think which has given me the confidence to try again. The videos were very good at giving me an idea of how programmers think. Videos from Andrzej Gieralt creative [\"can't learn game programming? try this.\"](https://www.youtube.com/watch?v=zTeJ9yGFORw) and videos from Rachelftech [\"I made minecraft in godot\"](https://www.youtube.com/watch?v=eE4WiK9BSgE) where they show how they think. \n\nI think it is a bit unfortunate how I had heard genuine good advice I didn't take to heart more when I was trying those two years. Advice from gamemakerstoolkit on [\"How I learned Unity without following tutorials (Developing 1)\"](https://www.youtube.com/watch?v=vFjXKOXdgGo) and[ ](https://www.youtube.com/watch?v=S8wkqEZi-cw)Tren blacks video [\"How I Learned Game Development in 30 Days\"](https://www.youtube.com/watch?v=S8wkqEZi-cw). I think I just needed to hear how programmers think for their advice to really work. I am still in the beginner phase, but it really feels like I am learning this time.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "RashRenegade",
+            "body": "I have ADHD and extremely bad executive dysfunction. I procrastinate learning because Im predisposed to believe I'm terrible at it. When I think of projects and all the little things I have to get right or it won't work I get cold sweats and panic attacks. \n\nI'm in school for programming. Python 1 my professor was impressed at how good I was for how little I knew coming in. Now in Python 2 I freeze so hard and can hardly even begin writing the code (and it's the same professor). I feel like I understand almost everything I'm shown, but I feel like I don't \"know\" it. I know it long enough to pass a test. I want to make something to practice, but I once again think about all the little moving pieces and get sweaty and panic again. I keep thinking I'm so stupid when I don't understand something immediately and completely. I feel like I'm drowning but still somehow staying afloat.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "mierecat",
+            "body": "I agree that poor teaching makes people quit when they really don\u2019t need to. It\u2019s been a huge pet peeve of mine for a long time now. Even something as simple as *not using single letter variables in your code examples* makes a world of difference to a beginner, but so many sources just don\u2019t consider that.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "maratnugmanov",
+            "body": "Yes. 25 years ago I was interested in programming but could only find a book for C++ of one version, then a copy of C++ of another version and localization. Then I tried to install the package on a pirated version of Windows I had as my only option. And at some point the whole operation failed.\n\nToday when you have an AI mentor that can solve almost any problem standing between you and your learning it's night and day difference. Just don't use it for coding, but for explaining. A game changer.\n\nI'm giving myself another chance. I've completed Helsinki Python MOOC 100/100, took both exams, should probably be the highest grade. Now learning Django and all that surrounds it.\n\nOn the other hand it's not like I'm the only one doing it and it's just easy for anyone else and it's a bit depressing to realize I might get drowned in the candidate pool.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Stock-Chemistry-351",
+            "body": "What you said is a very common theme among newbies. We just cannot force them to start though. This is something they have to overcome on their own. That's the only solution really. If someone is committed/determined to do something they will do it.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "AppState1981",
+            "body": "I think the problem is expectations and motivation. People have this weird idea that US companies are desperate to offer remote workers with no experience a $$$ job. Or that they can get an unpaid internship to get experience. Or that there are programmer trainee positions. That stopped in the 1980's. \n\nIf they are motivated by the money, they won't be making that money for a long time so it's not really a motivation. I learned 14 languages in my career. My motivation was \"I have to use this language so I better learn it\". I only learned it deeply enough to be able to use it. I didn't have to know how it allocated memory. \n\nIronically, programming is one of the few careers you can learn without paying money. If you have a laptop, everything else is free. Databases, languages, IDE's. Windows even comes with VBScript and JScript. This may not be true of all countries. You can sit down today and learn VBScript or JScript. It's pretty simple. We all started in college with BASIC which is VBScript. It was the first one you learned.  You can't get a job with it but you can't get a job if you quit learning Python either. The point is to decide if this is what you really want to do.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Vihud",
+            "body": "I learn well by reading and the documentation from which I've tried to learn Python and C++ has been extremely frustrating.  Even those tutorials intended for complete beginners make broad assumptions about vocabulary knowledge, syntax familiarity, and the roles of functions and variables.  The frequent backtracking to find definitions or further examples breaks my momentum and destroys my focus to learn.\n\nWay back in the day I taught myself Robotic in MegaZeux, I was decent with ClickTeam software, I wrote WinAmp visualizers, and I maintained my WoW guild's website using nothin but Notepad.  \n\nI've recently started learning more moden HTML and CSS, and those guides are far more beginner-friendly than any program language guide I've found.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Sohamgon2001",
+            "body": "Started learning python to get a junior level job but heard DSA is mandatory for software roles. And DSA is kinda hard for me. \n\nSo, I started learning Data analysis. Because it is \"less code\" than SD. \n\nBut I am bad at trigonometry and linear algebra bcz math was not my fav since childhood. And for I ignored it.  \n\nNow I am in a situation of giving up. I just can't find what should I do? although I want to continue in either field. \n\nCan you help me here? Since you told you can to help, thats why I asked. I know coding or programming is not for everyone.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "InformalTown3679",
+                    "body": "Yeah I can help.\nI would say, scrap DSA and learn software.\nIn order to learn software, you must find something you want to create, something you want to use, something about software you can get obsessed about.\n\nIf you cannot do that, then i cannot help you.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Sohamgon2001",
+                            "body": "I agree to a certain point of yours. But without DSA I won't be able pass interview rounds and also DSA helps big time in solving problems. This is where I got trapped, although I really love your approach.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "InformalTown3679",
+                                    "body": "You got trapped because you're trying to think about interviews before you can even begin to learn.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Unhappy_Context_9785",
+            "body": "I spent a lot of time learning it and I am a decent Junior Dev now I guess.\nBut the pay was so bad during my working students job that I completely lost motivation to further learn. It seems I am setting myself up for eternal abuse pursuing it. Also I like talking about the problems and code, but this is not what I experienced... it's always just sitting in the corner alone.\n\n\nAlso the university assignment which were basically just learning a framework but very rarely go deep just broke my spirit.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "CodeTinkerer",
+            "body": "My feeling is not so much the quality of teaching. After all, at some point, you'll have to teach yourself (though LLMs could assist with this). Some get stuck because they lack, for lack of a better phrase, mathematical maturity. There are those who dislike math, can't recall terminology--the stuff just doesn't stick. This happens with programmers too.\n\nSome want to program. That is, they like the idea of programming, but in the same way some people want to have a \"perfect body\", but the eating and exercise is too much work (in their minds) to make that effort. It becomes a chore because they want programming to feel exciting. Some do find it exciting, but some love deep mathematics when most of the world does not. Again, to me, it's the same for programmers. What excites a programmer about programming may not excite a beginner trying to learn programming.\n\nAs an analogy, some work out in the hopes of building up muscle, but many quit not because they get results quickly, but because it takes time (and proper eating and sleep) to see results. It's slow!\n\nTo those that program for a living, they often think \"What I'm doing is not that hard, so whatever is causing people to get stuck must be easy to fix\". A few years ago, this guy posted about trying to teach his wife programming. She really wanted to learn, but he would explain concepts. She'd say the right things one day. The next day, couldn't remember anything she had done the day before. He would do it again, and the same thing happened. She just couldn't recall anything. It was there for the briefest time in short-term memory.\n\nSome people are really good at recalling details, and it can help. It can depend on those details. For example, some people have an encyclopedic memory of sports stats, can tell you details of a game played 10 years ago, the players involved, the critical parts of that game. Some have a great memory for songs, remembering hundreds of lyrics. Yet, those same people can barely keep a technical thought in their head.\n\nHaving said all that, I do think some people just need better material, but I think it is not universally true. Clearly, it's not because some people are developmentally disabled, and struggle just to live their lives.\n\nOh, I should mention it's tough to have a thread in Reddit because of the very nature of Reddit. You get part of a day to get recognized, but within a day or two, a post you made is long gone. You post this today, and in another day, someone will have missed this post and never see it again. That's why it's tough to have an ongoing thread.\n\nOther forums lets you keep threads going for years, but not Reddit.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "InformalTown3679",
+                    "body": "i agree that it's not universally an issue of teaching material. I guess what triggered me to post was the thought of myself as a younger teenager, i stopped coding almost completely for 3 years. i was really good but not professional. i couldn't bridge the gap in my mind, there's so much complexity in software it's really hard to see a clear path when you're thinking about it.\n\nYou're right, its like gym and exercise. The difference, in my opinion,lies here:\nThe gym is hard because its hard to stay consistent and put in the effort, just like coding. however, with coding there is another lane of difficulty, because each step is never clear and there seems to be impossible to \"visualize\" the progress in the future.\nWhat i mean is, each rep in the gym is a clear next step, then the next set, the next exercise. Very rarely is there actually a hard moment where you have to solve a complex problem. it's more about pushing past the discomfort physically, which is very very hard, for some/most people. In coding, its not like you see the clear obvious next step is just go press another key on your keyboard, it doesn't work like that. Oftentimes we get stuck and just have to dig and dig and dig and find nothing for hours, days, or weeks. Its an absurd cycle.\n\nSo, i can't just imagine myself slowly \"getting more muscle\" over a few months of time. You can look at someone in the gym and guarantee them they'll get better if they put effort into each rep/set/workout.\nWith software, you can't explain what you'll gain. Some people take months to learn the same concept that others take weeks. Then everyone compares themselves, and people get stuck. \n\nI wanna help people who don't intend on quitting, and want to speed up their progression.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "intoholybattle",
+            "body": "For me confidence is a real problem. I consistently excel but can't speak confidently about what I know. It's also very difficult for me to ask for help, which results in me spending days on simple bugs that a disinterested pair of eyes would notice immediately. There aren't a lot of people like me in CS. I'm easily discouraged by the curt responses of senior programmers to novices seeking help on sites like StackOverflow (and sometimes my own professors, though not as often fortunately). Sometimes you read the documentation and still don't get it. But I guess because it's a competitive industry--and increasingly so--there's not as much of a sense of community. So not really reasons you personally can help with, but that's where I'm at. I think it's very kind of you to offer to help junior programmers rather than sneering at them.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "notislant",
+            "body": "If anyone is really struggling, the odin project is the best resource imo.\n\nIts web dev, but you get a massive discord for in depth support for everything related to it. It teaches you everything to build full stack projects. Easy to make something with a GUI and make full little web projects. Exposes you to documentation and how to search for solutions.\n\nThen once you do the basics and some of DSA you could probably learn any other language much easiwr.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "butcher638",
+            "body": "I would love to learn some programming unfortunately my job as a software engineer is getting in the way, what with the new CEOs frequent all hands meetings and ticket refinements and re- refinements then reviewing support articles and doing tickets about package updates and configs and then ofc there are the p1 investigating customer issues tickets. One day I'll get some time to learn some programming though.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "InformalTown3679",
+                    "body": "real shit.\ntrue asf",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

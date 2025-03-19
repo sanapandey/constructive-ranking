@@ -1,0 +1,20 @@
+{
+    "title": "High-Power Computer Exceptionally Slow?",
+    "author": "Ecstatic_Put_8795",
+    "subreddit": "techsupport",
+    "rank": 5,
+    "score": 2,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 2,
+    "url": "https://www.reddit.com/r/techsupport/comments/1jeg24g/highpower_computer_exceptionally_slow/",
+    "id": "1jeg24g",
+    "selftext": "Hello,\n\nTwo years ago, my team purchased a high-power analysis workstation computer. Recently, I\u2019ve been having issues with the system randomly restarting, desktop icons disappearing, and Windows file explorer failing to load despite no heavy tasks being run.\n\nFor reference, this system has:\n1024 GB of DDR4 RAM\n2 Intel Xenon Gold 6334 Processor 22.5M Cache\n2 TB Solid State Drive \nQuadro RTX A6000 Graphics Card\nCurrently running Windows 10\n\nOur IT team has recommended upgrading to Windows 11.\n\nDo you have any suggestions what may be causing the slowness or how we might be able to fix it?\n\nWe appreciate the help!",
+    "comments": [
+        {
+            "author": "AutoModerator",
+            "body": "Making changes to your system BIOS settings or disk setup can cause you to lose data. Always test your data backups before making changes to your PC. \n\nFor more information please see our FAQ thread: https://www.reddit.com/r/techsupport/comments/q2rns5/windows_11_faq_read_this_first/           \n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/techsupport) if you have any questions or concerns.*",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

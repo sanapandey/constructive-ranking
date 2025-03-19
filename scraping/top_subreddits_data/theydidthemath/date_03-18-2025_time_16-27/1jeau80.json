@@ -1,0 +1,33 @@
+{
+    "title": "[Request] What are the actual odds?",
+    "author": "DatTrashPanda",
+    "subreddit": "theydidthemath",
+    "rank": 16,
+    "score": 0,
+    "upvote_ratio": 0.5,
+    "num_comments (reported by reddit)": 3,
+    "url": "https://i.redd.it/vqtfo2gshhpe1.png",
+    "id": "1jeau80",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "AutoModerator",
+            "body": "###General Discussion Thread\n\n---\n\nThis is a [Request] post. If you would like to submit a comment that does not either attempt to answer the question, ask for clarification, or explain why it would be infeasible to answer, you *must* post your comment as a reply to this one. Top level (directly replying to the OP) comments that do not do one of those things will be removed.\n\n---\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/theydidthemath) if you have any questions or concerns.*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "meepPlayz11",
+            "body": "Let's make some random assumptions. First, let's assume that the GeoGuesser images are randomly spread across all of earth's land area. Second, let's assume that all humans are randomly spread across all of earth's land area. Third, let's assume that you have to get within 100m of someone to be able to zoom in on them and recognise them. \n\nNow what's the probability that you get a GeoGuesser where you can see any given person? \n\nThis would be (pi \\* 10000m\\^2)/(Earth's land area)\n\nOr 1 in 4740907444. \n\nOf course the actual probability would be a lot lower because humans tend to be concentrated in areas which tend to be farther away from the camera.",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "Doophie",
+                    "body": "And humans tend to be inside a lot which also wouldn't show on geoguesser",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

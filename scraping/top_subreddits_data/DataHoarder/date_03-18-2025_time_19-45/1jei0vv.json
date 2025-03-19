@@ -1,0 +1,97 @@
+{
+    "title": "Are Seagate recertified drives any good?",
+    "author": "dheera",
+    "subreddit": "DataHoarder",
+    "rank": 10,
+    "score": 0,
+    "upvote_ratio": 0.5,
+    "num_comments (reported by reddit)": 13,
+    "url": "https://www.reddit.com/r/DataHoarder/comments/1jei0vv/are_seagate_recertified_drives_any_good/",
+    "id": "1jei0vv",
+    "selftext": "Are these recertified drives any good? [https://www.amazon.com/Seagate-Recertified-Exos-Internal-Drive/dp/B0DTSVC7H7](https://www.amazon.com/Seagate-Recertified-Exos-Internal-Drive/dp/B0DTSVC7H7)\n\nI'm using it for financial data that can be re-downloaded so data loss wouldn't be that critical.",
+    "comments": [
+        {
+            "author": "AutoModerator",
+            "body": "\nHello /u/dheera! Thank you for posting in r/DataHoarder. \n\nPlease remember to read our [Rules](https://www.reddit.com/r/DataHoarder/wiki/index/rules) and [Wiki](https://www.reddit.com/r/DataHoarder/wiki/index).\n\nPlease note that your post will be removed if you just post a box/speed/server post. Please give background information on your server pictures. \n\nThis subreddit will ***NOT*** help you find or exchange that Movie/TV show/Nuclear Launch Manual, visit r/DHExchange instead.\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/DataHoarder) if you have any questions or concerns.*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ZettyGreen",
+            "body": "Probably. Just know Amazon has occasionally screwed the pooch and not given you the actual drive you ordered, but something else instead. \n\nYou should also know this is not re-certified by Seagate, but by Amazon.  That may be OK or not OK in your books, that's your decision to make.\n\nIf you want HDD's certified by Seagate, you can buy them here: https://serverpartdeals.com/collections/manufacturer-recertified-drives\n\nI'm not affiliated with them except being a happy customer.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "dheera",
+                    "body": "Thank you! Yes I would prefer recertified by Seagate. It seems disingenuous of Amazon to put \"Factory recertified\" on the picture if it isn't recertified by Seagate ...",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "TheWoodser",
+                    "body": "I just placed order number three in the last six months from SPD.  My drives get here tomorrow.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Far_Marsupial6303",
+                    "body": "Seagate also has their own eBay store. Don't know how it compares to SPD prices. https://www.ebay.com/str/stxrecerthdd",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Far_Marsupial6303",
+            "body": "If they're truly recetified by Seagate and come with the Seagate warranty, they're good quality that meets their requirements.\n\nHowever the seller doesn't have solid ratings.\n\nCheck out Serverpartdeals which has a good reputation here.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "dheera",
+                    "body": "Thanks!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Constant-Yard8562",
+            "body": "Haven't had any concerns with 4 20tb recertified I got from server part deals. I tend to avoid Amazon on principle, since they recertify rather than Seagate doing it themselves.\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "s00mika",
+            "body": "Yes, but I wouldn't get them from Amazon.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "72Pantagruel",
+            "body": "I'd steer clear of Seagate for now. There is an ongoing scandal with regards to  'resetting' usage hours/smart data on drives. The SMART tools will claim a very low amount of run hours. But in reality the drives have run far more hours and aren't new at all. When pulling the FARM data the real usage hours come to the surface. You think you are buying a new drive, but it's actually a pre-owned one.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "s00mika",
+                    "body": "It affects all manufacturers, and with Seagate you can at least check if you got an used drive while you're in the dark with WD or Toshiba.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "72Pantagruel",
+                            "body": "True, but in a simular fashion to WD/Toshiba, seagate will not reward a warranty claim as these drives are marked as 'sold in bulk'. This means the warranty, goes through the vendor and may be less than the 3 or 5 yrs for nas/server drives. \n\nOverall, very nasty behavior from the spinning rust producers.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "s00mika",
+                                    "body": "Isn't that normal for OEM/bulk drives in general?",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

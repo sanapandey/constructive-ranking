@@ -1,0 +1,784 @@
+{
+    "title": "Why is every vendor is trying to be an MSP?",
+    "author": "Nik_Tesla",
+    "subreddit": "sysadmin",
+    "rank": 7,
+    "score": 380,
+    "upvote_ratio": 0.96,
+    "num_comments (reported by reddit)": 121,
+    "url": "https://www.reddit.com/r/sysadmin/comments/1jdq0go/why_is_every_vendor_is_trying_to_be_an_msp/",
+    "id": "1jdq0go",
+    "selftext": "Every single meeting we have with a vendor begins with \"hey, so we also manage 365 now, as well as all your internet and phone circuits, and we'll manage your wifi and security cameras too.\"\n\nI just need to buy some desktop computers...\n\nStop it. Do the thing you're good at, and stop pitching all this other stuff we're already fine with. Kudos to the vendors that just have their one service and don't try adding all this other crap that they aren't good at. I know it must make them money, but they're losing my business by doing this.",
+    "comments": [
+        {
+            "author": "byteme4188",
+            "body": "Because money. There is no money in selling you desktops. There is money in selling you a management service.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "OutsideTech",
+                    "body": "Capture as much of the IT spend as possible, by providing the easiest deliverable, with the smallest scope of service as possible.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "iceyone444",
+                            "body": "To as many clients as possible - I worked for an msp for 12 months and had 14 clients.\n\nI was working 80 hour weeks as 3 other consultants left and got in trouble when some clients said I looked exhausted.\n\nI don't recommend msp's because when an outage like cloud strike happens you will be waiting a while as msp's have so many clients.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "elkab0ng",
+                                    "body": "From the customer side, and it pains me to say it, there\u2019s some benefit to having an MSP, even one that isn\u2019t terrific: it gives me a disposable corpse to throw under the bus when there\u2019s a fuckup. \n\nAlso been on the MSP side, and made it clear to customers that part of the value was that anytime they needed someone to take the heat, I came with handles attached to my back to make throwing me under that bus easier. Hell, for the right MRC, I\u2019d scream and flail extra loud.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "PaulTheMerc",
+                                            "body": "> MRC\n\nWhat does MRC stand for in this context?",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "elkab0ng",
+                                                    "body": "Monthly recurring cost",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "PaulTheMerc",
+                                                            "body": "Thank you.",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "Windows95GOAT",
+                                            "body": "> there\u2019s some benefit to having an MSP\n\nWe have a sorta construction with an MSP for a few services that they manage since before my time here. And i will say, it's nice to have backup that can instantly scale to a big team if we need it.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "CyrielTrasdal",
+                                                    "body": "\"And i will say, it's nice to have backup that can instantly scale to a big team if we need it.\"\n\nAs someone that has been on both sides, customer of multiple MSP then worker of one, that's a very good way to put it in practicle point of view.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "Neither-Cup564",
+                                                    "body": "As long as they actually bring those people when needed and they aren\u2019t just CVs on a tender that you never see again.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Lukage",
+                                    "body": "MSP work has changed a lot. 6 years ago I worked for one and I supported like 2500 clients. A lot \"what do you mean you dont know our special process?\" Dude, by the end of the day, I'll work in 10 other environments. You're all equally unimportant.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "6-mana-6-6-trampler",
+                                    "body": ">I worked for an msp for 12 months and had 14 clients.\n\nI only lasted 6. Trained for 2 clients, was taking calls and emails from 4. Repeatedly told management I didn't know how to support the other 2, only ever got updated usernames and passwords for them, but never the where I go in their or employer's system to support them. Then fired...",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "steveatari",
+                                            "body": "I was managing 14 after being told at 8 i'd likely never get to 10 and certainly not more. They were huge businesses too that overrelied on us to do tasks rather than just maintain their stuff and provide support. We were literally doing their actual work like publishing site updates, doing weekly or even triweekly prod/test checks. \n\nIt was absurd.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "cookerz30",
+                            "body": "It's such a sad world we live in.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "West_Walk1001",
+                            "body": "Sell you the cheapest thing to support, which just so happens to be the cheapest thing you'll support too.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Barbarian_818",
+                    "body": "Yup. Selling you a bunch of desktops is good for sales commission and this quarter gains. But it's a super competitive and hence low margin business. \n\nNice fat annual returns come from subscriptions. It's even better if you can achieve vendor lock in. After that, you can arbitrarily raise fees whenever the C suite wants a bonus. Just keep raising fees until you start losing customers. Then back off a bit.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "vNerdNeck",
+                            "body": "Nobody makes commission on Desktops / laptops / chrome books.  The margins are too thin.  For the manufactures it's all about top line revenue.  For resellers it's all about getting credit for the top line revenue with the manufacture (usually at negative margins once labor is factored in).",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "irrision",
+                    "body": "Deep returns when you convince the org to fire IT and put your MSP in charge of the entire server and desktop equipment spend too.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "byteme4188",
+                            "body": "Absolutely, I used to work for an MSP and that's all we had to do. If we can convince that we were better we used to charge a killing.\n\n3 technicians, 2 L1s and 1 L2 was about 1.2 million. 700k for the L2 and 300k each for the L1",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "PaulTheMerc",
+                                    "body": "I think I just threw up a little.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "byteme4188",
+                                            "body": "When I found out I got a bit sick too. Especially since I was making 90k and was told their is no money left for me. It would cut too much into their profits",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Sushigami",
+                                    "body": "The level 2 getting 60k and l1s getting 40 I'm guessing",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "byteme4188",
+                                            "body": "1000% on the money. I was making 90k and got told that 90k was the max because it would cut into their profit margins. L1s were making 50k.\n\nThis is NY BTW",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "zSprawl",
+                    "body": "They want subscription reoccurring revenue.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "rvarichado",
+                    "body": "This is the correct answer.  There is next to no markup in hardware anymore, and almost no need for on-prem infrastructure.  Recurring service revenue is pretty much all there is.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "MisakoKobayashi",
+                    "body": "Exactly. In fact OP kinda limits themselves by saying vendors are trying to be MSPs, the preferred term is \"solution provider\". Like we buy servers from Gigabyte and we're satisfied, and maybe we wouldn't mind looking at their AI server cluster they call the GIGAPOD (actually kind of a cool concept, 32 interconnected servers turned into a cluster www.gigabyte.com/Industry-Solutions/giga-pod-as-a-service?lan=en but I digress) but the next thing you know they're telling you they can build the whole data center for you to house your clusters, from finding the land to hiring constructors to build the facility to managing the data center for you afterwards. Like dude we just bought some rackmounts from you, there's a limit to how much you can upsell.\u00a0",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Different-Hyena-8724",
+                    "body": "Actually there is money in selling desktops.  We all live in these hyper charged economies though where just getting 15% per sale is not gonna buy the yacht and insta-fluencer checklist of items of what a successful person should own, afford, etc.   Take away 9-figure bonuses and I guarantee BU's can operate efficiently.   It's just that we have too many people making poor decisions these days and getting way too much for their poor advice that has led to a feeling of circling the drain for a while. I feel like tech lost control of holding the torch and making decisions and so that's why all these ideas of MSP, and stuff like that aren't really technically related or has anything to do with learning the next up and coming rfc's.   It's basically overselling a support package these days that generally doesn't cover much leaving the customer in some form of discontent.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Kindly_Revert",
+            "body": "Alternative revenue streams. The big guys like Softchoice and Insight have been providing professional services for years.    \n\nWhat baffles me is when they have the nerve to ask the sysadmin, who obviously manages the infrastructure, if they can basically take your job.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "jpStormcrow",
+                    "body": "My favorite part!",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "jbsensol",
+                    "body": "In our situation they go over our heads to the CEO. Who is immediately pissed off that they're wasting his time and a result is a support call asking us to block their numbers and emails.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "dritmike",
+                    "body": "We just want to help make everything better. The Bobs, they control the hiring and the firings",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "iamtechspence",
+            "body": "RRM recurring revenue model",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "LokeCanada",
+                    "body": "Exactly.\n\nI sell you a PC and see you again in a few years. \n\nI support your hardware and I am in your office with a renewing contact and get to upsell you on everything.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Barbarian_818",
+                            "body": "And let's not forget vendor lock-in. Once the vendor has all the documentation and is the only single point that knows all the different systems, replacing them becomes both expensive and painful.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "iamtechspence",
+                                    "body": "There\u2019s also a race to the bottom with pricing happening. I see it with pentest firms (which is what I do day to day now). Who can offer the lowest and in result offer the lowest quality unfortunately",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "PursuitOfLegendary",
+                                            "body": "Just descope everything and charge slightly less",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "RetroHipsterGaming",
+            "body": "Honestly, I just fucking hate every sales person at this point. I know it's not fair because they haven't singularly brought me to the edge of cerebral hemorrhaging, but I feel like I'm to the point where I now engauged with sales people *too little.* I have been ruined by 1000 pitches about every product under the son and now, if they start to distract from what we are there to do, I say \"If you don't move back to the product I'm trying to purchase I am going to stop using your company entirely. I'm here for X, not for these other products you are clearly probing me on. I don't have time and have already gotten 1000 other vendors trying to sell it to me.\"",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "PMmeyourITspend",
+                    "body": "Its super hard if you're a very small shop, but if you like 100+ people, find a good rep at a decent enough VAR and have them manage the manufacturers for you. A competent VAR rep will tell the manufacturers the scope of the project, the competition and the budget before the call to really narrow down pitch ahead of time. Its not perfect but its much better than letting the manufacturers run amok. Just set aside some time quarterly to plan with the VAR rep what projects are coming up, let them tell you what trends they are seeing, and aire any grievances you have with the current manufactures.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "RetroHipsterGaming",
+                            "body": "Yeah, I do have a good couple of reps, but even then if it's something like, say, a mircosoft licensing thing and they bring in their Microsoft person, it just becomes essentially a mini audit so that Microsoft guys can try to give you more than you are asking for. Still, it is way way better than just dealing with sales people in general. If I can, I just tell them to stop calling. It's just that there is no end to these companies and reps.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ITrCool",
+            "body": "All I know is, I work at an MSP and I\u2019m trying to get out of here as quickly as possible. MSPs suck and now I know why.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "dirtyredog",
+                    "body": "thank you for your service\u00a0",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "massive_poo",
+            "body": "Hey I know you came on reddit to vent and commiserate, but did you know that I can also offer Microsoft 365 support, as well as support for your internet and phone circuits, WiFi and CCTV!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ok-Juggernaut-4698",
+            "body": "It's annoying, I get it all the time.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Man-e-questions",
+            "body": "We have slowly evolved into a subscription economy where you will never own anything again and just pay monthly payments for the rest of your life to use it",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "whatsforsupa",
+            "body": "These guys are charging 150..250\u2026. 300+ per user for management. Sure, you usually get a lot of value for that money, but a well organized and efficient MSP makes money hand over fist. \n\nI hate MSPs - there are great people in them, but they have effectively destroyed the small business IT person. Business owners realize they can have a \u201cteam of 10\u201d to replace 2 IT people for about the same salary\u2026 without the environment knowledge, culture, and even the instant response time, and just go for it",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "BadadvicefromIT",
+                    "body": "It\u2019s all about that sales pitch and promises. \u201cSeamless\u201d \u201cQuick Response\u201d \u201c24 hour coverage\u201d\n\nThen they sign the contract and find out it takes 1-3 business days to get anyone to look at a user\u2019s Outlook being down. MSP\u2019s could be great when combined with an on-site IT person, but trying to outsource basic functionality always hurts.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "RyeGiggs",
+            "body": "There is a lot of backlash in the MSP space.  We are pissed.  All of a sudden every vendor from Microsoft to ISP's  to random VAR's we can no longer trust with client engagement.  You pointed out the big issue.  They are not good at it.  What they have done is bought out some decently sized MSP's and are farming them like crazy for remote only support.  You basically get licensing and shitty T1 support.  This is great if they were targeting mom and pop, sub 10 users.  But they are trying and some are succeeding at pulling enterprise level clients. It's a real shit show. \n\nMy only hope is that this push will cause the crappy MSP's to go out of business.  If your MSP was built on being the lowest bidder, well, the Wal-Mart of MSP's just opened up and their gonna shutter your business.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "MidnightAdmin",
+                    "body": "My dad helpded their neighbour out with their house, he is a civil engineer, and what he saw there was a decent house that had no unifying maintenance ever done on it, everything was done to code, but there was no cohesion to anything.\n\nI started my current work at a decades old company that had never had a proper IT team before, there is no cohesion, no one has had the time to form a single stratergy to administrate the systems.\n\nIt works, but damn, it is a mess to clear out.\n\nAny company NEEDs an internal IT team, even if it is just one or two people who deal with an MSP, this is so they can have cohesion and overview over their systems.\n\nA proper IT team will cost money, it will be expensive, but they will save way more money in time and efficiencies than they cost.\n\nA company is like a gearbox, allmost all of the departments are the gears, except IT, we are the oil keeping the gearbox running.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Single-Macaron",
+            "body": "My company specializes in phones and contact center. I compete with a lot of MSP's who say they do this too but they typically don't understand the first thing about my business. Very easy to displace",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "HeavyBagel",
+                    "body": "Amen brother.\n\nLove,\nAnother telephony guy.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Single-Macaron",
+                            "body": "Cheers!",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "johnvoipcom",
+                    "body": "Same here man. I run into IT guys saying they sell 3cx and think they're the same as me but have no idea what they are doing",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Single-Macaron",
+                            "body": "Oh yeah, they make a boatload off conning their clients into 3cx",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "PaulTheMerc",
+                            "body": "> 3cx\n\nhttps://www.3cx.com/ ?  Why does the page look worse the more I scroll?",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Mr_ToDo",
+                    "body": "Having done my best to never sell phones but have to tell people we technically sell phones I understand\n\nThese cheap VOIP systems that are targeting MSP's are just awful. The more time that passes the more I think the \"overpriced\" lines are worth the cost\n\nYour phones are one of your biggest lifelines into and out of your business. If it's just a money issues then you should really consider if your business is doing well since even the most expensive phones are a fraction of a persons pay, and what's it worth if they can or can't make calls well\n\nOn the other side. How have we not made more simplified and reliable VOIP? I mean you hang around /r/sysadmin and you see no end of people frustration with every vendor under the sun. It seems like it should be a solved problem, and MSP's shouldn't even have anything to sell since the companies should have put their own in place years ago. We almost seems have more reliable tech for streaming catgirls then phones. Ya, not quite the same but it does feel weird that we can stream live to tens of thousands of people without much of a hitch but one on one in slightly more real time is a problem",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Single-Macaron",
+                            "body": "I hate giving out this advice as it's my bread and butter but just install Meraki firewalls and RingCentral for VoIP.\n\nRing gets a lot of slack in this and the VoIP subs but it honestly works great, most people just don't have proper admin training for it.\n\nThey also are very willing to negotiate on price, it doesn't have to be much more expensive than the \"cheap local\" cloud providers. Less margin for resellers though, so I get why the cheap stuff still gets put in place",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "theoreoman",
+            "body": "Why get paid once when you get paid every single month for every single user",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "skywatcher2022",
+            "body": "Remember most of these guys are not really msps they're just rather rebranding one of the 10 big msps of service and selling it as their own. Pretty easy to get a d i d number and have the MSP answer the phone as their name.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "illarionds",
+            "body": "Because it's an excuse to make lots of money for very little work.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "nelly2929",
+            "body": "Because they will starve if they just sell you pcs laptops and printers\u2026. Companies like to make money and upselling a device for $50 isn\u2019t a way to keep the lights on\u2026.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "NoNamesLeft600",
+                    "body": "Then don't fake your way in the door by pretending you're just here to sell me computers.  Then, when we sit down to discuss the price of the computer, you hit me with proposals to take over my entire shop.  If I ask you for a quote on this, don't send me a quote for this, that and the other thing.  If you can't make money selling PCs, don't pretend to sell PCs.  It's called bait-and-switch and has been unethical for a long time.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "vNerdNeck",
+                            "body": "lol... then why are you talking to folks.  Just go to hp / dell / lenovo .com and order your shit.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "NoNamesLeft600",
+                                    "body": "Stop being anal.  \"Buying computers\" is just an example.  It happens with everything.  My ISP is trying to sell me endpoint management.  Let me guess, you work for an MSP?",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "vNerdNeck",
+                                            "body": "No, a reseller that also does MSP (sales engineer). \n\nYou are talking to a sales person and then bitching that they are trying to actually sell.  It's like riding a horse and complaining you got dust on you. \n\nI get your just a grumpy admin that wants the world and everyone around them adhere to your view of the world and \"only do what you say.\"  But.. your just setting yourself up for an aneurism by frustration. \n\nAlso, nobody is \"faking\" their way into the door. Two things can be true at once, they are good at doing A and are also building out B.  If they don't take the opportunity in front of you, how are you ever gonna know they can also do that . via google and osmoses? \n\nit still amazes me how many admin think they fully know the scope of all the players in the game and who/what to ask for, when 90% of your time is spent in operations not paying attention to the market, vs folks that spend all day everyday....paying attention the market / sector.  Sure they are a few exceptions, but there is typical a large lag time. \n\nIt's not bait and switch, nor is it unethical.  The only way you are going to get what you want, is to stop talking to folks.. and order from websites or over email.   You'll pay more, but at least they wont try to actually sell / inform you on other things they can do.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "OurManInHavana",
+            "body": "Every business wants a way for you to keep paying them. Selling one-off is hard: it's way easier if you've subscribed to something that's billed recurringly.\n\nIt doesn't matter if you like it: it makes money. Enough more they can afford to lose your business.\n\nIt's not good or bad. Just \"is\".",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Prestigious_Line6725",
+                    "body": "> Every business wants a way for you to keep paying them. Selling one-off is hard: it's way easier if you've subscribed to something that's billed recurringly.\n\nTo expand on this, they start strong with a good price, replace internal IT, management gets a big win under their belt. Then the price goes up and they backburner your support until someday a new manager arrives and identifies the bad MSP support, pushes for in-house IT, replaces MSP, and gets a big win under their belt.\n\nIn the end people suffer from volatile job market while leadership at the company and MSP both eat well and have nice stuff for their resumes.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Tight_Replacement771",
+                    "body": "Im done with that kind of \"i'm above all that\" philosophy nonsense. The truth of it is, it is bad.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Helpjuice",
+            "body": "They reason they ask is because other customers have asked them if they do it and have been onboarded from that ask.  So in good sales spirit they have more than likely been required by the upper echilon in the company to push the service to non-managed customers and get those sales up before the next quarter.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "vNerdNeck",
+                    "body": "honestly.. the reason they ask is because selling just desktops / laptops is a waste of time and net negative margin.  In addition to the fact that they wouldn't be asking if the strategy hasn't worked with other customers.  \n\n  \nAlso, what is or isn't important to you isn't the same as with your c-suite.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "bofh",
+            "body": ">  Why is every vendor is trying to be an MSP?\n\nBecause people like the other guy ranting about being a lone IT person are probably grateful for the opportunity to offload some of their grunt work.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ah-cho_Cthulhu",
+            "body": "MSP is the worst. The word makes me ill",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "None",
+                    "body": "[deleted]",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "ah-cho_Cthulhu",
+                            "body": "Lol. Sure, there are good ones. I think the model should be different tbh. For instance, instead of MSP doing the 5% of everything not that great.. why not specialize and do that one or two things really great. The of course leads to their being a need for a proxy agent to manage various MSP projects, but long term I think this would lead to a better offering.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "recordedparadox",
+            "body": "They want part of the monthly recurring revenue",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "daze24",
+            "body": "Worst thing is my cto constantly pushes these on us, large companies selling everything and their support is absolutely atrocious every time. Call up and they have no idea who you are and offer first line useless agents you have to fight through.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DontTakePeopleSrsly",
+            "body": "![gif](giphy|CldlBxUBsXQGY)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "NoNamesLeft600",
+            "body": "It's friggin' ridiculous.  They're basically saying, \"hey let us make your IT dept. irrelevant by letting us do all the work.\"\n\nI'm in the process of renewing fiber contracts and they're trying to sell me end point management.  STOP IT!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "HeavyBagel",
+            "body": "We are a small family owned company stayed in our lane offering hosted VoIP and on-prem PBX and have hardly grown since opening in 1985. Very good working relationship with every IT firm in the area referring customers back and forth no problem with us referring IT firms and they would recommend us to all their customers for voice services. To start all of our guys were just old Central Office engineers and plain old \"phone guys\" and cablers. Having worked with them for multiple years, we started getting called in to consult and fix problems for our mutual customers a lot more purely just off of having common sense and a surface level knowledge of IP. Like it was ridiculous how little real-world knowledge some of the guys fresh out of college or their certification courses were. Well, for some reason a few years back it seems like the referrals were slowing down or not getting calls back. Turns out it was because more and more MSPs started pushing Teams (not their fault, I blame Microsoft) thinking they know everything about telephony \"because I can just do direct routing through Teams\" \ud83d\ude02. So we didn't feel bad when our mutuals started ASKING US to take over their networks to consolidate since we have had most of our customers since the 80s or 90s long before real IT budgets were even a thing (your telephone system and PBX maintenance pretty much WAS your IT budget). Now we are on the other side of the equation and feel like absolutely shit with how we have to cover all of our bases because a vendor can come in with something we don't offer for cheap and hit our customer with \"oh by the way, we do all this other stuff too\" \n\nUnfortunately with how Microsoft is trying to snuff out independent telecom providers, we are kind of forced to play the MSP game with Teams or else we will get swallowed up by any of the one stop shop MSP giants. Tons of VoIP providers are doing fine with other hosted solutions at the moment, but if Microsoft has their way the commercial telecom industry will be gone and consolidated under them in about 10-15 years. Ultimately, we let our service speak for itself. Yes we are pretty pricey all around, but once we get customers we generally keep them. Customers that do leave for cheaper telephone service and worse service leave us more time to maintain our quality relationship with our other customers.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "borgy95a",
+            "body": "It for the sweet sweet ARR",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "PawnF4",
+            "body": "MrKrabsMoneyMeme.gif",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Weary_Patience_7778",
+            "body": "Why are you buying your desktops from an MSP?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Nik_Tesla",
+                    "body": "It's just one of many examples. Today I met with a prospective vendor for getting a new phone system, and of course they also try pitching us on all of this other stuff that we're already happy with *and* locked into contracts for years. They're already going to be getting recurring $ from us for the phone system if we go with them, but they want recurring for being our ISP, and SD-WAN, and security, and 365, and everything else.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "RyeGiggs",
+                    "body": "MSP's used to get special SKU's and pricing and could beat out retail pretty easy.  That's only changed in the last year or so. Unless your org is big enough you couldn't come close.  \n\nNow retail is getting as good if not better pricing.  Not that MSP's care to much on that front.  The markup was super low on hardware, basically just covering the cost of having a procurement team buy the thing.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "jpStormcrow",
+                    "body": "Good question. I never understand when these companies try to cold call me or hunt me down at conferences. Your regional computer sales cannot be dealing with the OEM in bulk.\n\nI did it one time and the guy f***** me over by selling me computers was home licenses. Took me months for him to fix it.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "lamark80",
+            "body": "i did not ask you about any of those things, i asked about desktops... NEXT PLEASE.  \nThis is the same shit all over, tell them to fuck off if they are not professional about the sale.  \nBeen in IT over 20 years now and i feel you!!! i do!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Fallingdamage",
+            "body": "Im getting irritated at all the 'v*IO' pitches companies are pushing at us and the C suite.  \n  \nvCISO, vCIO, vCISSP, vCSO, etc...",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Site-Staff",
+            "body": "MSPs killed our earnings.  This used to be a decent gig.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "krajani786",
+            "body": "We don't... but we do charge each time we have to do the discovery to figure everything out. We also don't record and write it all down, because the KB tools are only for managed customers. But the option is there.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ok-Section-7172",
+            "body": "We do Identity only. That's it. If it's identity adjacent, you can find someone else. The amount of stress removed is amazing.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TheMangusKhan",
+            "body": "This is loosely related at best but it\u2019s kinda funny. I wanted to leave the MSP world and landed a spot in internal IT. I get promoted up to senior manager. Two of our company\u2019s divisions broke off into their own separate companies and they are separate legal entities. My team supported them during the transition while they could source their own IT. We even met with a few vendors on their behalf and got them quotes. We were ready to hand everything over. Turns out, they love our support and asked if they could pay us to keep supporting them. So effectively we are both internal IT and an MSP for these new companies.\n\nI can\u2019t get away from the MSP world\u2026 \n\nTo answer OPs question. There is some value in a vendor also managing the service. Our hardware vendor / reseller where we buy all our IT equipment from also provides depot services. They take care of our inventory, pre-provision computers, ship in and out, and interact with our end users to provide shipping details and schedule pick ups. They freaking rock. It makes my life easier and they get an additional revenue stream.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Nik_Tesla",
+                    "body": "I'm not saying having a vendor manage things is always terrible, we do it plenty, but when a company that has historically had bad support (basically all ISPs) suddenly says they want to manage our 365, and keeps bringing it up, I just laugh in pain.\n\nJust provide the service you're good at, and stop trying to pitch me on stuff that you're bad at. Someone else is already better and cheaper than you, and we don't want to switch.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Manymuchm00s3n",
+            "body": "Because to an Owners/Managers an MSP stands for Monthly Service Profits in their minds, and they see $$$, and they want their share.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TheMediaBear",
+            "body": "Diversify or Die!\n\nSimple as that, many see it as the more you do the better your chance of surviving",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "realhawker77",
+            "body": "Recurring revenue is the best way to improve your company\u2019s $ value/evaluation.  Investors and Wall St love ARR/Recurring Revenue (and subscriptions).   A few million in recurring revenue can be worth more to the company than selling $15m deal.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Affectionate_Bed2750",
+                    "body": "Yup, Microsoft has figured it out early on with Software Assurance and others soon followed. Auto Desk, Adobe, Intuit turned to software as a service. Subscribe, subscribe, subscribe. Even better if you can as MSP do both, charge subscription and hourly for on-site/remote service.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "FortheredditLOLz",
+            "body": "MSP \u2014- MRCs (monthly reoccurring charges) which means nearly guaranteed revenue stream versus \u2018possible\u2019 sales",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "dunnage1",
+            "body": "moneyyyyyyyyyyyyyyyy",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ABotelho23",
+            "body": "Services make money. Everybody and everyone would rather sell you a service than hardware or software.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MetaVulture",
+            "body": "Managed Slave Providers are profitable.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TxTechnician",
+            "body": "Kyocera, the printer company, talked about doing this too.\n\nNope.  Fuck off.  Stick to printers.\n\nIMO, if you are getting MSP services from a large corp.  You deserve the Headache.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "excitedsolutions",
+            "body": "All vendors like this are trying to establish themselves as nice little acquisitions\u2026for Kaseya to snatch up.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Kingkong29",
+            "body": "Reoccurring revenue.  Same reason why everything is a subscription these days.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "vNerdNeck",
+            "body": "lol... you do realize that most desktops have like \\~3-5% margin (at most) from the manufacture and maybe the reseller is getting another \\~1%... assuming it's not chrome books which are typically sold under water and pass through. \n\n  \nNet-net, folks lose money (once you factor in order processing / etc) on desktops.  It's just a loss leader service we provider to help out our customers.  Nobody actually makes money.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "pertexted",
+            "body": "If you already have personnel, capital expense, infrastructure...and then you cross that with ambition, greed or whatever entices people to think MSP means Manipulate Suckers Program...ta daaaaaa",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Millkstake",
+            "body": "Because that's where the money is at and it's going to grow considerably once all IT employees are terminated from government jobs",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "NightOfTheLivingHam",
+            "body": "Because they can get you to agree to contracts they will never service and collect money on.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Panda-Maximus",
+            "body": "Reoccuring revenue stream",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "stupv",
+            "body": "Same as every subscription service - they want continuous income. Hardware sales is a once-off event every x *years*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DiligentlySpent",
+            "body": "I worked in the MSP space for 10 years and it\u2019s enough of a grift on its own but vendors take it to a while other level. Even the printer company in town was an \u201cMSP\u201d.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SanguineJim",
+            "body": "![gif](giphy|SOmjomEnNHsrK)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Old_Acanthaceae5198",
+            "body": "I couldn't give any shits. A simple no works.\n\nReselling alone offers little to no value.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "jamblia",
+            "body": "I first saw this around 2015 with printer companies upselling tech services.  No Riccoh, I dont even want your MFDs, let alone more of your hooks in the business!  They also dressed and talked like mobsters!  It has gotten much worse since and the MSP I work at was bought by a large tech company trying to diversify into markets that make them money.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "GhoastTypist",
+            "body": "Are you old enough to remember that companies made their money on extended warrantee's, its the same concept today. Companies make their money on support when they're a smaller company trying to grow. We had a company approach us a few weeks ago tell us they were a consulting company, we told them nah we're good. They came back with, we can act as a reseller for you, but ultimately they want to push equipment and software solutions that require their team to support it. Making our internal IT department work parallel to them.\n\nI tried looking at a company to handle our computer replacements so I didn't have to keep buying, secure wiping, and recycling the devices which eats up a lot of my time every few years. One company told us they'd sell us computers but they had to have their support desk numbers labeled on them, and our staff had to call them for support not our helpdesk. They tried to convince me that removing work for 3 helpdesk techs was good for us.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Emergency_Trick_4930",
+            "body": "because we are tired of small customers the servicedesk use more worktime on than they give the company in the moneybox",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TCB13sQuotes",
+            "body": "Because it\u2019s all about creating dependency and making sure the customer is hostage of the MSP services. do as much IT as possible for the customer and do it in a way said customer can\u2019t hire any other IT companies.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "dracotrapnet",
+            "body": "It's because they are frequently in contact with office managers, not IT people. Office managers just want one stop shop to get everything done. One contract/credit account, one AR statement a month if at all possible.\n\nThe sellers to small businesses have learned to answer sure, let me get back to you instead of turning down possible labor/services work. They just have to find somebody to subcontract the work so they can tack on their admin fees and markup.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DarkAlman",
+            "body": "There's way more money in maintenance and consulting than selling licensing.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "kerrwashere",
+            "body": "I managed one client onsite while 5 others remotely but they didnt tell the client on site that we supported other clients so they treated us like onsite support for just them. They would get upset if I answered calls too much or wasn\u2019t always immediately available before and after hours. I have no clue how they are doing now but the onsite client went through 3 MSP\u2019s in 5 years probs for similar reasons",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "caustic_banana",
+            "body": "Other posters have said it in fewer words, but the simple truth is that the margins on hardware are 5-10%, and the costs are one-time and you may not have a customer repeat their transaction for several months or years.\n\nOn Services, the margins are more like 30-40%, and costs can recur monthly. It's a huge difference in recurring revenue, and stable revenue is what investors and creditors like to see.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "UniversityNo5092",
+            "body": "Don't worry until the vendor says, \"we'll manage your wife and security cameras too\".",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "hudsoncress",
+            "body": "IBM showed everyone the secret to success is long term 3 year or better service contracts.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "InformationOk3060",
+            "body": "They're doing it to make money.  They can afford to lose your business by offering services, if you're really that petty to do so.  It means you're a small shop which makes petty emotional decisions, not logical financial choices which are best for the business.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

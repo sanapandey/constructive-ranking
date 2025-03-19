@@ -1,0 +1,111 @@
+{
+    "title": "2026 992.2 Turbo spotted with GTS hybrid-like bodywork sporting twin-turbo 3.6, e-turbo, and e-motor",
+    "author": "willneverstopgoingin",
+    "subreddit": "cars",
+    "rank": 9,
+    "score": 13,
+    "upvote_ratio": 0.81,
+    "num_comments (reported by reddit)": 15,
+    "url": "https://www.roadandtrack.com/news/a64070965/992-2-generation-porsche-911-turbo-spied/",
+    "id": "1jejzy1",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "yvery",
+            "body": "So much for the rumor of manual transmission in the turbo",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "CaptainPickACard",
+                    "body": "I mean the rumor was that the Turbo S would get the hybrid stuff and the non-S would get a manual option iirc so there's still a bit of hope maybe",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "HOONIGAN-",
+                    "body": "This doesn't kill that rumour. The manual rumour was for the 'base' Turbo to get a manual option, thanks to Sport Classic, and the Turbo S would remain PDK-only.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "goaelephant",
+                    "body": "Why would they bring it back? Ever since the 997TTS it's been dropped from Turbo-badged cars. I'm sure the demand is there but I'm sure the demand is *much* stronger for N/A models and/or RWD models (GT3, 4.0, S/T, etc).\n\nI'd love a manual Turbo but I don't think they'll make one. That being said, I'd love if they'd make a GT2 with a manual transmission. Especially if they made a very strong one (e.g. some overbuilt G96/88) that can handle 700+ hp & RWD. Would be awesome.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "HOONIGAN-",
+                            "body": "The rumour exists because of the 992.1 Sport Classic and Porsche somewhat having a history of taking limited-production models and spinning them into regular production models come .2 time.",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "DeTomato_",
+                            "body": "Porsche actually offered the 911 Turbo manual recently, it\u2019s called the 911 Sport Classic. So yeah, the idea of a regular 992 Turbo manual isn\u2019t that far-fetched.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "rugbyfiend",
+            "body": "Based on the limited info in the article, it suggests the Turbo will essentially be a GTS in a body kit and a tune? I really hope there\u2019s more than that going on.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "BWFTW",
+                    "body": "The current gts hybrid is single turbo. This rumor alledges it'll be twin turbo for the turbo.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "MGPS",
+            "body": "What is e-turbo precious",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "aquatone61",
+                    "body": "Look up the new GTS engine.  Basically half of the turbo is an electric motor that can spool the turbo up or harvest energy to charge the \u201chybrid\u201d system.  The new GTS engine runs at lambda 1, which is perfect stoichiometric ratio all the time regardless of load.",
+                    "score": 10,
+                    "replies": [
+                        {
+                            "author": "MGPS",
+                            "body": "Thanks! That sounds stoichiorific",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "willneverstopgoingin",
+                    "body": "e-turbo is electric turbo, basically an electric turbo + generator unit that sits on the turbo axis between the turbine and the impeller.\n\n* On throttle tip-in, the e-turbo draws power from a small lithium battery to spool the impeller to reduce turbo lag.\n* On continuous heavy throttle, the same e-turbo draws power from the turbine to recharge the lithium battery.\n\nThis setup obviates the need for a blow-off valve, but the e-turbo must be tuned careful to avoid compressor surge.\n\nBasically, the e-turbo builds boost faster than a traditional mechanical turbo and harvests energy from otherwise-wasted exhaust gas.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "goaelephant",
+                            "body": "I wonder how much each eTurbo assembly will cost from Porsche dealer",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "ScipioAfricanvs",
+                                    "body": "morethanyoucanaffordpal.gif",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "MGPS",
+                            "body": "Thanks. I remember first thinking about turbo lag and I wondered if you could mitigate it by spooling it up first with an electric motor like a drill etc. I guess this is kinda like that idea.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

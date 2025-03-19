@@ -1,0 +1,20 @@
+{
+    "title": "Which of the 2 Kubernetes domains is a better career choice?",
+    "author": "jijoon",
+    "subreddit": "cscareerquestions",
+    "rank": 14,
+    "score": 3,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 1,
+    "url": "https://www.reddit.com/r/cscareerquestions/comments/1jed0nr/which_of_the_2_kubernetes_domains_is_a_better/",
+    "id": "1jed0nr",
+    "selftext": "I am in the midst of an internal transfer and have the choice between two squads. \n\nWhich of the 2 Kubernetes domains is a better career choice in terms of developing useful skills externally and pay?\n\n1. Cluster operations (OTEL, FinOps, pipelines, net-new clusters, etc)\n\n2. Public cloud platforms (developing our own internal versions of AKS, EKS with added Discovery, Security & Compliance, Observability & FinOps, Scaling & Resiliency, etc)\n\n2 seems more like a dev role while 1 seems more so ops (making assumptions here, may or may not be true). There will be no salary adjustment with the transfer, but SWE definitely pays more long term so I'm leaning towards option 2.",
+    "comments": [
+        {
+            "author": "No-Issue-9136",
+            "body": "Fuck devops. I hate it. I'm having to entirely refactor my application because kubernetes. And I'm tired of doing devops bs when I just want to code but I'm full stack.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

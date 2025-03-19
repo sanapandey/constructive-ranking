@@ -1,0 +1,13 @@
+{
+    "title": "Unsupported resolution",
+    "author": "211774310",
+    "subreddit": "mac",
+    "rank": 16,
+    "score": 1,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 0,
+    "url": "https://www.reddit.com/r/mac/comments/1jelw6c/unsupported_resolution/",
+    "id": "1jelw6c",
+    "selftext": "I have a 2018 Mac mini that I recently moved to a different monitor that\u2019s an odd size, so I tried a few different resolutions until I unfortunately chose one that isn\u2019t supported by my monitor. Now every time I start up, it remembers that setting and the monitor goes dark. I tried booting into safe mode, but after about fifteen attempts, I have given up. I discovered that if I attach a second monitor, the resolution switches to something I can see, but as soon as I remove the second monitor the problem returns. I feel like I should be able to set a default resolution or clear some sort of setting that will fix this, but I\u2019m baffled. I\u2019m running the latest Sequoia. Does anyone have any ideas?\n\nThanks!",
+    "comments": []
+}

@@ -1,0 +1,498 @@
+{
+    "title": "I'm not one for dumb tests but this is a funny first impression",
+    "author": "MixtureOfAmateurs",
+    "subreddit": "LocalLLaMA",
+    "rank": 2,
+    "score": 402,
+    "upvote_ratio": 0.96,
+    "num_comments (reported by reddit)": 77,
+    "url": "https://i.redd.it/s5k3j9z70hpe1.png",
+    "id": "1je8axe",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "AppearanceHeavy6724",
+            "body": "Mississipi goes brrrrr",
+            "score": 90,
+            "replies": [
+                {
+                    "author": "-Cacique",
+                    "body": "brrrr*",
+                    "score": 15,
+                    "replies": [
+                        {
+                            "author": "AppearanceHeavy6724",
+                            "body": "\\boxed{brrr*}",
+                            "score": 8,
+                            "replies": [
+                                {
+                                    "author": "nderstand2grow",
+                                    "body": "R1 :)",
+                                    "score": 0,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "nderstand2grow",
+                    "body": "how many Rs are there in brrrr?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "AppearanceHeavy6724",
+                            "body": "There is no \"R\"s in \"brrrr\".\n\n\\boxed{0}",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "Substantial-Ebb-584",
+                            "body": "A10",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Nullsummenspieler",
+            "body": "Let's all take a brief moment to mourn the missing fourth \u201cr\u201d.",
+            "score": 56,
+            "replies": [
+                {
+                    "author": "MixtureOfAmateurs",
+                    "body": "It will be mrssed",
+                    "score": 45,
+                    "replies": []
+                },
+                {
+                    "author": "JamaiKen",
+                    "body": "R",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Content_Trouble_",
+                    "body": "And also the AI using an apostrophe to signal plural form: `R's`. The AI uses grammar at the level of the average American, of course it's dumb",
+                    "score": -2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "mitirki",
+            "body": "https://preview.redd.it/64lnus5x3hpe1.png?width=908&format=png&auto=webp&s=c65ad2fac52bc80f2b462f08c825bfb32b68f9f5\n\nMistral-Small-24B-Instruct-2501-Q4\\_K\\_L in llama.cpp",
+            "score": 42,
+            "replies": [
+                {
+                    "author": "martinerous",
+                    "body": "It's so unhumanly chatty. Why do they train LLMs to be nicer and more talkative than humans?",
+                    "score": 35,
+                    "replies": [
+                        {
+                            "author": "Eitarris",
+                            "body": "I want an open model that talks like GPT 4.5. It cuts the fat and is just genuinely easier to talk to. It's often adapted how it explains things to me as well based on the current session pretty well",
+                            "score": 8,
+                            "replies": []
+                        },
+                        {
+                            "author": "linuzel",
+                            "body": "You probably can fix it using System Prompt, I use this : \"Try to match the tone and register of the user including the length and complexity of the phrasing.\" It gave me a straight answer : \"There are four 'r's in Mississippi.\" using mistral-small-3.1-24b-instruct-textonly-mlx",
+                            "score": 21,
+                            "replies": [
+                                {
+                                    "author": "danielv123",
+                                    "body": "Straight in the wrong direction",
+                                    "score": 25,
+                                    "replies": [
+                                        {
+                                            "author": "linuzel",
+                                            "body": "Yes, and I tried to make it correct it and it keeps getting it wrong\u00a0",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "NeverLookBothWays",
+                            "body": "It's all those recipe blog pages they used for training....15 pages later, \"And here is the recipe...(Subscribe to read more)\"",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "AyraWinla",
+                                    "body": "! That makes perfect sense! It's so hard to get recipes from personal sites without having to read their entire life story first. It does explain a lot if those are part of the training data...",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Normal-Ad-7114",
+                            "body": "I had success with the system prompt \"You're assisting a user with a very slow connection, so keep the answers as short as possible\"",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "crispyfrybits",
+                    "body": "What's your instructions for every prompt to get this thing so chatty?",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "mitirki",
+                            "body": "I think it was something like \"act as my friend\" etc.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Affectionate-Cap-600",
+                    "body": "is it always so chatty or do you have a custom system prompt?",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "mitirki",
+                            "body": "Yeah, custom prompt, but its reply was a bit unusual nevertheless.",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "dqUu3QlS",
+            "body": "ermahgerd, mrssrssrppr!",
+            "score": 38,
+            "replies": [
+                {
+                    "author": "NihilisticAssHat",
+                    "body": "mrssrppr*",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "tengo_harambe",
+            "body": "Mrstral Small",
+            "score": 17,
+            "replies": []
+        },
+        {
+            "author": "PigOfFire",
+            "body": "bro if you run IQ1\\_XS no wonder",
+            "score": 26,
+            "replies": [
+                {
+                    "author": "Delicious-Car1831",
+                    "body": "As long as that 'test' isn't done via mistral's own web interface results like that are pretty much meaningless.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "-TV-Stand-",
+                            "body": "Not really, if you state the model, quantization and parameters.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "Delicious-Car1831",
+                                    "body": "I for one like to go to the source so that would still not work for me.",
+                                    "score": 0,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "mehyay76",
+                            "body": "https://old.reddit.com/r/LocalLLaMA/comments/1je8axe/im_not_one_for_dumb_tests_but_this_is_a_funny/migy1ba/",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "PigOfFire",
+                            "body": "Agreed.",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "mehyay76",
+                    "body": "https://chat.mistral.ai/chat/2b13f208-65c9-4d0e-acca-3746f9b7b1b6",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "PigOfFire",
+                            "body": "Oops, thanks for that. Well.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "LegendarySoulSword",
+            "body": "internlm3-8b-instruct\n\nTo determine how many \"R\"s are in the word \"Mississippi,\" let's break it down:\n\n1. **Spell Out the Word**: The full spelling of \"Mississippi\" is: M-I-S-S-I-S-S-I-P-P-I.\n2. **Count Each Letter**: Now, we will identify and count each \"R.\"\n   * M-I-S-S-I-S-S-I-P-P-I\n\nLooking at the spelling, there are no \"R\"s in the word \"Mississippi.\" The letters that appear are:\n\n* M (1 time)\n* I (4 times)\n* S (4 times)\n* P (2 times)\n* P (2 times)\n* I (1 time)\n\n**Conclusion**: There are **0 (zero)** \"R\"s in the word \"Mississippi.\"",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "AppearanceHeavy6724",
+                    "body": "hey, do you have success with internlm3? I've tried all the different quants and it had problems with spelling in LLama.cpp. After some amount of conversation (~500-1000tok) in starts to mispronounce words. Did you experience the problem? It is a nice LLM otherwise.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "LegendarySoulSword",
+                            "body": "Hey, not really, i use LM Studio, can you provide me with an example so i can test it if you want ?",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "AppearanceHeavy6724",
+                                    "body": "I am about to go to bed now, I'll give it tomorrow, if you do not mind.\nThank you very much!",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "LegendarySoulSword",
+                                            "body": "No problem, gn",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Deux87",
+            "body": "https://preview.redd.it/u0b0bb6fghpe1.png?width=1080&format=png&auto=webp&s=b36eeee392a8da9ac4ae0a8ae276c65c785b8265\n\nThe non-local version isn't any better :D",
+            "score": 9,
+            "replies": []
+        },
+        {
+            "author": "taylorwilsdon",
+            "body": "How the heck did you get that token per sec output on open webui under the header like that?",
+            "score": 10,
+            "replies": [
+                {
+                    "author": "Healthy-Nebula-3603",
+                    "body": "Probably Q1 or Q2 ...no wonder that  version is so retarded",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "ParaboloidalCrest",
+                            "body": "He's asking about the placement. And why exactly does 7 t/s hint to Q1 or Q2?",
+                            "score": 8,
+                            "replies": [
+                                {
+                                    "author": "Healthy-Nebula-3603",
+                                    "body": "Bigger compression gives more tokens /s",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Inkbot_dev",
+                                            "body": "But 7 t/s isn't anything special. It's quite slow for a small model like this.",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "Healthy-Nebula-3603",
+                                                    "body": "7 t/s is a lot for current standard CPU interface (if you have ddt5 6000 mhz ) .\n\nFor instance I tested the CPU interface for q4km and got 4.5 t/s with Ryzen 79503d and RAM ddr5 6000 mhz.\n\n\nSo to get 7 t/s I need Q2 or Q1 ...",
+                                                    "score": 0,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Valuable-Blueberry78",
+                                                            "body": "You would get more on a GPU",
+                                                            "score": 2,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "maikuthe1",
+                    "body": "Open webui has a plugin system",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "rkk2025",
+            "body": "This is interesting. I asked several smaller LLMs (Llama, Phi, etc), and they all said zero or four. Why exactly four? I want to know! Are they trained on the same data? I feel that this four will be haunting me now in my dreams.. Illfourminati confirmed! \ud83d\ude31",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "HosonZes",
+            "body": "Based on how LLMs work right now, this cannot work. Since LLMs use tokens, which are not letters, LLMs think in tokens, most of the time they do not see words. If mistral could use tools like code, it would be more reliable to ask it to create software that counts \"r\" and copy paste the word Mississippi into it resulting in zero r. This just asks it to hallucinate.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "kovnev",
+                    "body": "Except that the most capable models can nail this and other letter or word counting Q's.\n\nAt this point - don't even release a model that can't, IMO. Unless it's for RP or something.",
+                    "score": -1,
+                    "replies": [
+                        {
+                            "author": "Dabalam",
+                            "body": "This is just a limitation of non reasoning models.\n\nTiny reasoning models can probably do this fine.\n\nReasoning models do have downsides of taking a long time for non reasoning tasks though.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "kovnev",
+                                    "body": "There's enough non-reasoning models that have decent hit rates on this and other letter counting tests, including some 7-8b's, that I don't think that excise holds up.\n\nThe Qwen ones are pretty good at it, but there's also a bunch of others. It's so common that i'm more surprised by the hyped models that can't - and those failures are the ones I end up remembering.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Dabalam",
+                                            "body": "I haven't come across any local non reasoning models who won't eventually fall for some variation of this problem. It usually only takes 3-5 variations until it says something silly even if it passes the strawberry test. Admittedly I only gone up to 32Bs, but I think people have managed to pull this off on the larger local models too.\n\nMaybe the massive proprietary ones get it right most of the time, but if you use a tiny reasoning model or system prompt a non reasoning model with CoT prompts it improves. Based on that I don't think it's just about the model quality, CoT just really helps any prompt requiring even tiny amounts of novel problem solving vs. straight recall.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "jugalator",
+                                    "body": "I think non reasoning might do it at times in case they\u2019ve been trained to list each letter individually and take it easy, as in they\u2019ve had their model trained to go down that path when the problem looks \u201dletter counting\u201d-y.\n\nBut I\u2019d still never trust them for any logic or counting/math problems as they\u2019re one-shotting them based on sheer statistics. It\u2019s super easy to go wrong for them as they \u201dtalk as they think\u201d without ever going over what they thought.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "HosonZes",
+                            "body": "Any source for this statement? I would be curious to know how they would implement this.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "kovnev",
+                                    "body": "A source? For the strawberry test?\n\nDownload a decent model and test it. \n\nOr look at someone like Digital Spaceports videos. One of his regukar tests is to count the words in a sentence and then name the 3rd letter in a certain word, etc.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "HosonZes",
+                                            "body": "This is Claude 3.7 \n\nhttps://preview.redd.it/8yw7lmm3uhpe1.png?width=785&format=png&auto=webp&s=6b7de6517362d8ba69a2b14db9866ab13e6cf28a",
+                                            "score": 2,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "HosonZes",
+                                            "body": "This is Chat GPT 4o (mini I think)\n\nhttps://preview.redd.it/rdph172buhpe1.png?width=841&format=png&auto=webp&s=12cceb1b650c38d37e9342828070b7cf264777a7",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "HosonZes",
+                            "body": "Any source for this statement? I would be curious to know how they would implement this.",
+                            "score": 0,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "s101c",
+            "body": "* Gemma 2 27B: Four R's.\n\n* Gemma 3 27B: Zero R's.\n\nBoth were tested 10 times.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "fagenorn",
+            "body": "https://preview.redd.it/4xtcrrc2qipe1.jpeg?width=1600&format=pjpg&auto=webp&s=0b9b94a35bac9bfde38fcd626d7013dabadc3522\n\nFinetuned Mistral Nemo, failed but wasn't expecting this interaction after calling them out for being dumb",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Ambitious_Subject108",
+            "body": "I seriously doubt this result. Can you at least share which quant you used?",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "xrvz",
+                    "body": "Such results are fully expected at this time. If you doubt it, you need to JTFU.",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "IbetitsBen",
+            "body": " I noticed that the recommended prompt (You are Mistral) was listed under the chat template automatically in lm studio. Would I use a system prompt as well or leave it blank? If anyone knows I would appreciate it!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Zyj",
+            "body": "Nailed it!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Cannavor",
+            "body": "I'm starting to appreciate qwq more, now I just need a gpu with enough vram to load it.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "AlternativePlum5151",
+            "body": "\ud83e\udd23 not sure if its mocking you or its genuinely dumb.. hilarious either way",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "jeffwadsworth",
+            "body": "It would have gotten immediately Shift-Deleted on my system.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "bigattichouse",
+            "body": "First old meme I was immediately reminded of:  \n\n\nhttps://preview.redd.it/4kfkywfngipe1.png?width=500&format=png&auto=webp&s=d4248c4cda48843cf52bc84194a51fe4fad7b8e5",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "misterflyer",
+            "body": "You have to tell it to be smarter...\n\nPROMPT:\n\n*Using long chain of thought thinking, how many R's are in the word 'Mississippi'?*\n\nRESPONSE:\n\n>To determine the number of 'R's in the word 'Mississippi,' I will count each letter in the word individually.\n\n>\n\n>The word 'Mississippi' is spelled as follows: M - I - S - S - I - S - S - I - P - P - I\n\n>\n\n>Now, let's count the 'R's:\n\n>\n\n>2. I - 0 'R's\n\n>3. S - 0 'R's\n\n>4. S - 0 'R's\n\n>5. I - 0 'R's\n\n>6. S - 0 'R's\n\n>7. S - 0 'R's\n\n>8. I - 0 'R's\n\n>9. P - 0 'R's\n\n>10. P - 0 'R's\n\n>11. I - 0 'R's\n\n>**After counting each letter, it is clear that there are 0 'R's in the word 'Mississippi'.**\n\nWith smaller models I typically tend to throw in the command '*Using long chain of thought thinking,'* somewhere along the way to get better responses.\n\nPeople love to blame these word counting memes on the models; while I simply look at it as a prompt engineering issue -- bc if you prompt appropriately, it can accomplish the task as it clearly does above.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Far-Celebration-470",
+            "body": "I feel like we have hit a wall with transformer architecture",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "inscrutablemike",
+            "body": "This query must have gone to the data center in Memphis.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Expensive-Apricot-25",
+            "body": "how did u get it to display the speed and tokens?",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

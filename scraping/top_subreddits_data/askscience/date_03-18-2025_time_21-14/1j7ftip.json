@@ -1,0 +1,46 @@
+{
+    "title": "Does global volcanic activity follow cycles, or are large eruptions randomly distributed?",
+    "author": "Notoriouslydishonest",
+    "subreddit": "askscience",
+    "rank": 17,
+    "score": 109,
+    "upvote_ratio": 0.93,
+    "num_comments (reported by reddit)": 7,
+    "url": "https://www.reddit.com/r/askscience/comments/1j7ftip/does_global_volcanic_activity_follow_cycles_or/",
+    "id": "1j7ftip",
+    "selftext": "I was looking at the [list of large volcanic eruptions](https://en.wikipedia.org/wiki/List_of_large_Holocene_volcanic_eruptions?wprov=sfla1) and I noticed that the 19th century stands out as being unusually active. There were five eruptions with a VEI of 6 or greater between 1815 and 1912, compared to just two in the 113 years since then and one in the 200 years prior.\n\nIs that just a random coincidence, or are there forces which affect volcanic activity on the global scale?",
+    "comments": [
+        {
+            "author": "CrustalTrudger",
+            "body": "There have been arguments that there might be cyclicity to global volcanic activity, but not at the temporal scale you're considering. I.e., there are a variety of suggestions that volcanic activity may vary in concert with [Milankovitch cycles](https://en.wikipedia.org/wiki/Milankovitch_cycles) (e.g., [Schindlbeck et al., 2018](https://www.nature.com/articles/s41598-018-22595-0), [Kutterolf et al., 2019](https://www.sciencedirect.com/science/article/pii/S0277379118301768) or the preprint from [Longman et al](https://www.researchsquare.com/article/rs-3954094/v1)), so on tens of thousands to hundreds of thousand year timescales. The argument basically is that melting of ice sheets during interglacial periods reduces loads on portions of the crust which may in turn increase magma production rates or influence magma storage in volcanic systems, leading to more and/or more productive eruptions from existing volcanic systems. There is however, at least to my knowledge, no suggestions of periodicity on shorter millennial to decadal timescales (at a global scale), and as such, the explanation for what you're seeing is simply the stochastic nature of most natural processes, i.e., yes, the differences in the record over the last few hundred years reflect randomness.",
+            "score": 51,
+            "replies": [
+                {
+                    "author": "CaterpillarJungleGym",
+                    "body": "I'm assuming plate tectonics are a large factor, and plate movement isn't cyclic. Therefore, we would not expect volcanism to be cyclic?",
+                    "score": 9,
+                    "replies": [
+                        {
+                            "author": "loki130",
+                            "body": "Over hundreds of millions of years, tectonic does seem to have some cyclical behavior in the form of the supercontinent cycle; continents break apart, move around for a while, and then reassemble into one large supercontinent, and different parts of that cycle are broadly associated with different rates and modes of volcanic activity; but it's not a terribly regular cycle, and at any rate on the much shorter timescales where Milankovitch cycles become relevant, we can treat the influence of plate motion as effectively constant; on the timescales of human lifetimes, any variation in volcanic activity is likely just random.",
+                            "score": 10,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "phdoofus",
+                    "body": "Hasn't there been some work recently on ocean loading and the generation of oceanic crust? I know it's not volcanic but it's kind of related to the point you're making and may be better constrained as they're using seismic records to get ocean crust thickness and geomag to get the local age. I remember seeing something about it but didn't really stop to read it.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ExcelsiorStatistics",
+            "body": "> There were five eruptions with a VEI of 6 or greater between 1815 and 1912\n\nNote that you have cherry-picked the dates of Tambora and Katmai in choosing your century. If you just counted by centuries the 19th and 20th centuries would look about the same. \nIf you were to randomly scatter 20 eruptions across 10 centuries (we expect about 1 big eruption per 50 years) you expect one or two centuries to get lucky and have no eruptions, and one or two centures to have four or five.",
+            "score": 10,
+            "replies": []
+        }
+    ]
+}

@@ -1,0 +1,1310 @@
+{
+    "title": "[OC] Customizable 3D printed letters that roll up to look like wax sealed Parchment scrolls!",
+    "author": "surrealsonicus",
+    "subreddit": "DnD",
+    "rank": 4,
+    "score": 485,
+    "upvote_ratio": 0.68,
+    "num_comments (reported by reddit)": 205,
+    "url": "https://i.redd.it/kuz7s8ybsfpe1.jpeg",
+    "id": "1je33mi",
+    "selftext": "I don't know how to stain paper to make it look aged, my handwriting is trash, and I dont have wax for seals. But I do know CAD! So I set out to design an equivalent product I could 3d print. I was pleased with the end result!\n\nI made the files [free to download here](https://makerworld.com/models/1207129) if you want to check them out. I designed it so that you can load up the file in your slicer (I used Bambu studio) to customize the text on the letter or add an STL for the wax seal logo. But if you wanted, DM me and I could make a custom one for you to print instead!",
+    "comments": [
+        {
+            "author": "redwashing",
+            "body": "You could just print it on a paper, roll it, and melt some red wax over it. Whatever works for you I guess but this seems like a more difficult prompt than the real thing lol.",
+            "score": 1257,
+            "replies": [
+                {
+                    "author": "potsticker17",
+                    "body": "Yeah this seems very over engineered unless you're reusing this same letter for like a hundred different things and need the durability. But even then the paper would likely last longer if you stick it in a notebook or something between uses.",
+                    "score": 346,
+                    "replies": [
+                        {
+                            "author": "Mr_Epimetheus",
+                            "body": "Or just print it again...it's a single piece of paper, vs. all this plastic waste from 3d printing something like this.",
+                            "score": 75,
+                            "replies": [
+                                {
+                                    "author": "Hi_Peeps_Its_Me",
+                                    "body": "plastic waste is only waste if its littered, right? there's no plastic thats being lost in nature during the making of this, so i dont really get what you mean.",
+                                    "score": -31,
+                                    "replies": [
+                                        {
+                                            "author": "Mr_Epimetheus",
+                                            "body": "99% of the 3D printed shit out there will be thrown in a box or a drawer for 6 months before getting thrown in the trash, either because it's broken or because the novelty wore off after 60 seconds.\n\nIt's a huge waste of plastic and is just creating a ton of garbage that won't break down for a very, very long time.",
+                                            "score": 23,
+                                            "replies": [
+                                                {
+                                                    "author": "Hi_Peeps_Its_Me",
+                                                    "body": "alright! imo your wording was misleading, but this makes sense!",
+                                                    "score": -6,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Mr_Epimetheus",
+                                                            "body": "Glad I could clarify.\n\nFor the record, I'm not against 3D printing at all, just when it's being used for pointless little knick knacks or cases like this where there's already a much better, much more economical and much more environmentally friendly option available that serves the purpose much better.\n\nObviously plastics are very useful and certainly have their place, but this just isn't it.",
+                                                            "score": 8,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "DrShocker",
+                            "body": "Or laminate it. That would still be more paper like than a 3d print lol",
+                            "score": 40,
+                            "replies": []
+                        },
+                        {
+                            "author": "Fa1nted_for_real",
+                            "body": "Or like, realize its paper and costs a few cents, yk. Doesnt matter if you need to make a few copies...",
+                            "score": 55,
+                            "replies": []
+                        },
+                        {
+                            "author": "The_oli4",
+                            "body": "The curse of being an engineer is that everything becomes over engineered, atleast op explained that he has a bad handwriting and no wax seal stamp.",
+                            "score": 9,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "badgerkingtattoo",
+                    "body": "Even with OPs explanation this is legit just a solution looking for a problem. \u201cMy hand writing sucks so I 3D printed a bunch of horrible plastic to represent something made of paper\u201d\u2026 completely ignoring that word processing software exists\u2026 My girlfriend uses wax seals in her job but before that I would do this all the time and literally all you need is a small amount of wax from a candle and a teaspoon, then use the candle to heat the wax. You telling me you don\u2019t know 1 person that owns a red candle? \n\nI was at a tattoo convention the other day and four separate stalls were just full of those crappy articulated plastic 3d-printed dragon toys. This feels like the DnD equivalent of that for a 20 second moment. It\u2019s not going to feel immersive because it looks like it\u2019s made of Lego. Like, I\u2019m actually angry that OP did this. Mother Earth is weeping.\n\nETA: as I say, my girlfriend uses sealing wax every day. I know candle wax is not the same, but for a 20 second prop moment it has worked for me in the past. Dunno what to tell you.",
+                    "score": 250,
+                    "replies": [
+                        {
+                            "author": "porqueuno",
+                            "body": "This summarizes my feelings completely. While the engineering and construction is cool... It's a very poor solution to what is a non-existent problem. \ud83d\udc80",
+                            "score": 57,
+                            "replies": [
+                                {
+                                    "author": "badgerkingtattoo",
+                                    "body": "As is so much 3D printed crap!!",
+                                    "score": 19,
+                                    "replies": [
+                                        {
+                                            "author": "Mr_Epimetheus",
+                                            "body": "I have a resin 3d printer.\n\nI use it almost exclusively for printing minis for games and gifts and I use it maybe...a few times a month if that.\n\n3D printers have got to be one of the most misused technologies out there because places like Etsy are just flooded with 3d printed garbage. For every one person making compact and customizable storage solutions there's a thousand people making those articulated dragon things or low grade statuettes of random characters of just pointless little trinkets that will be thrown into a drawer forever or into the trash within six months.\n\nWay too many people out there behaving like tech bros reinventing the train every other week...",
+                                            "score": 14,
+                                            "replies": [
+                                                {
+                                                    "author": "SpaceDomdy",
+                                                    "body": "i got a printer as a gift a while back and everything i\u2019ve ever printed is still in use (was great for a soap dish lol). i just don\u2019t see the point in printing a bunch of stuff that\u2019ll be thrown away like you mentioned.",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "SimpleMan131313",
+                                    "body": "Funnily enough, your phrasing is in turn summarizing *my* feelings.\n\nCool engineering, questionable solution.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Sharp_Iodine",
+                            "body": "Oh lol here I was thinking the words were written on it like a dry-erase board and that the letters themselves are reusable endlessly. \n\nI didn\u2019t know the words were also printed. That makes it pretty bad. As a dry-erase, reusable scroll it would have been pretty cool",
+                            "score": 26,
+                            "replies": [
+                                {
+                                    "author": "badgerkingtattoo",
+                                    "body": "I agree that dry-erase would have slightly quenched my anger but just writing or printing on a piece of paper would probably still be so much more eco-friendly for however many uses you\u2019re going to get out of a dry-erase parchment scroll.",
+                                    "score": 12,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "bizzyj93",
+                            "body": "A quick look at OP's account and it seems he just really loves 3d printing but doesn't have have much reason to do so other than \"I want to make plastic things\".",
+                            "score": 9,
+                            "replies": []
+                        },
+                        {
+                            "author": "LordJebusVII",
+                            "body": "The wax used for seals is not normal candle wax, candle wax does not work and will just stick to the seal and look awful, it leaves an oily residue and crumbles. Sealing wax is not expensive however and a single stick will last a while if all it's being used for is props.",
+                            "score": 29,
+                            "replies": [
+                                {
+                                    "author": "badgerkingtattoo",
+                                    "body": "My friend, as I say, my girlfriend uses sealing wax in her job. I assumed he just needed a bit of wax and wasn\u2019t going to put a decorative seal on it because the one in the picture just looks like a blob. The players will not care if it has an ornate signet ring in it, they\u2019ll be stoked to receive a prop. \n\nSource:  before I had an endless supply of different coloured sealing waxes in the house, I\u2019ve used candle wax in the past and for the 20 second prop moment that it\u2019s for, it\u2019s been fine and I didn\u2019t have to print out a bunch of pollutants to \u201csolve\u201d the problem.",
+                                    "score": 16,
+                                    "replies": [
+                                        {
+                                            "author": "ThisdudeisEH",
+                                            "body": "Dude it\u2019s like 9.99 for a whole wax seal kit anyways. Dude it using $5 of filament for a .35 hand out",
+                                            "score": 16,
+                                            "replies": [
+                                                {
+                                                    "author": "badgerkingtattoo",
+                                                    "body": "Exactly! But not even that, little sealing wax hexagons are pennies at our local craft store. Literally pennies. You don\u2019t need the little pouring spoon the kits come with (though it helps), just grab a tea spoon and you\u2019re done!",
+                                                    "score": 10,
+                                                    "replies": [
+                                                        {
+                                                            "author": "ThisdudeisEH",
+                                                            "body": "That\u2019s what I\u2019m saying. There are ways to cut this and it\u2019s just making something harder to do than easier",
+                                                            "score": 4,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "LordJebusVII",
+                                                    "body": "Why would you buy a whole kit? They sell individual sticks in stores and a regular spoon and lighter are used to melt it. If you're already using a 3D printer to make props then OP can print a seal",
+                                                    "score": 3,
+                                                    "replies": [
+                                                        {
+                                                            "author": "ThisdudeisEH",
+                                                            "body": "With multiple colors I don\u2019t have to go to the store again to get the thing I need for the next time I need. \n\nI wouldn\u2019t recommend hot wax on an FDM print plastic seal but that\u2019s just me. \n\nI DM multiple campaigns as well some professionally so I also have a larger need for handouts/products. \n\nThe end of the day though is there is no need for what op made no matter how cool the idea is.",
+                                                            "score": 3,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "AromaticInxkid",
+                                            "body": "He would've just make a paper was seal and with a proper piece of paper it would've looked infinitely better than the plastic monstrosity he printed",
+                                            "score": 3,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "LordJebusVII",
+                                            "body": "Anyone looking to make props for their game who reads advice like \"just use a candle\" and end ups ruining the nicely handwritten note they just spent an hour writing and and an hour staining and drying will be much better served by the advice to just buy a stick of sealing wax and save the heartache of so much wasted effort for the sake of a few pennies.",
+                                            "score": -2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Seconds_INeedAges",
+                            "body": "candle wax does not behave the same as sealing wax , but it works if you only want to seal it shut and not put a seal in it",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "badgerkingtattoo",
+                                    "body": "Yeah, as I say, my girlfriend uses sealing wax for her job but prior to having a ridiculous amount of different coloured waxes in the house, I have just used candle wax and for the 20 second prop moment it works fine and I didn\u2019t have to use excessive amounts of electricity to print out a bunch of pollutants for what could have been achieved with paper. \n\nPlayers go crazy for sealed letters whether it has a signet ring punched into it or not, and this printed one still isn\u2019t even sealed, it\u2019s secured with string which you could literally just use in the first place",
+                                    "score": 7,
+                                    "replies": [
+                                        {
+                                            "author": "Seconds_INeedAges",
+                                            "body": "thats, totally okay, I just wanted to clarify so noone is surprised that their candle wax does not work the way a sealing wax would.  \nIf anyone is in Europe and has a sostrene greene around: They often have spoons with wood handles (so you dont burn your fingers) and sealing wax beads for like 1,50\u20ac, the available colours change every once in a while. And there are small seals with generic motives too",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "thecloudkingdom",
+                            "body": "you can also use hot glue, or a crayon in a hot glue gun in a pinch",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "None",
+                            "body": "[removed]",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "AutoModerator",
+                                    "body": "Your comment has been removed for violating Rule 5. AI tools and content are banned on r/DnD.\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/DnD) if you have any questions or concerns.*",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "K-Webb-2",
+                            "body": "Howdy, nerd here.\n\nIf this was printed with PLA (likely) than this is far better for Mother Earth than standard petroleum based plastics. That being said, it\u2019ll only biodegrade in certain conditions and recycling PLA is sort of its own unique process but nonetheless Mother Earth isn\u2019t weeping, more like Mother Earth is tearing up!",
+                            "score": 0,
+                            "replies": [
+                                {
+                                    "author": "badgerkingtattoo",
+                                    "body": "Cool, I didn\u2019t know that. How long does PLA take to break down? Is that under certain conditions that aren\u2019t available to OP or in their region? Do we know if it forms microplastics that are harmful to life? How much energy is needed for a 3d printer to produce crap like this that could have just been a sheet of paper?",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "K-Webb-2",
+                                            "body": "I was mostly just excited to share the advancements and potential benefits of non-petroleum based plastics rather than justifying 3D printing the letter. Obviously paper is still the better option. \n\nBut, in general, studies are out on whether PLA breaks down into traditional microplastics or hydrolyzes into smaller molecules. It would seem the presence of moisture causes it to breakdown and degrade into tinier particles.  \n\nIn industrial composting conditions PLA can take anywhere from 30-60 days. Outside of such conditions closer to a few hundred years vs petroleum based plastics 500-1000 years. Whether or not OP is in an area where they have access to industrial composting is above my knowledge, but in general we need more sites for industrial composting.\n\nA standard desktop 3D printer used about 300 watts, which is similar pull to something like a radio or TV. Obviously there a lot more factors like filament type, enclosed vs non enclosed printers, and run time but in general a 3D printer\u2019s electricity usage is comparable to running a few incandescent lightbulbs in your home.\n\nEdit: days not years",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "SootSpriteHut",
+                    "body": "It's coffee/tea that gives it the antique look, too! Just gotta teabag the paper a bit.",
+                    "score": 67,
+                    "replies": [
+                        {
+                            "author": "floggedlog",
+                            "body": "Instructions unclear balls now have paper cuts",
+                            "score": 47,
+                            "replies": [
+                                {
+                                    "author": "caciuccoecostine",
+                                    "body": "That's why we have very few girls playing d&d",
+                                    "score": -4,
+                                    "replies": [
+                                        {
+                                            "author": "AscelyneMG",
+                                            "body": "Yeah, girls don\u2019t like getting paper cuts on their balls, either.",
+                                            "score": 6,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "porqueuno",
+                            "body": "You don't even need to stain it, you can just go pick up a ream of 200 sheets of brownish or designed cardstock at any craft store, the hardest parts are already done and cost one-hundredth the material cost in the long-run.\n\nWho tf is going to make an STL and then wait hours for a subpar and resource-expensive product to be printed? Jfc \ud83d\udc80",
+                            "score": 20,
+                            "replies": [
+                                {
+                                    "author": "SootSpriteHut",
+                                    "body": "I think OP had a cool idea and it's very creative and I appreciate the work they put in because the product looks neat and reusable. But yea seems like a lot of work & waste to me.",
+                                    "score": 10,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Mr_Epimetheus",
+                                    "body": "I got a box of 1000 sheets of that fake parchment style paper from staples on clearance like...5 years ago. I still have over 950 sheets.\n\nCan't imagine deciding to 3d print something like this. Maybe the seal part, but not the whole letter.",
+                                    "score": 8,
+                                    "replies": [
+                                        {
+                                            "author": "porqueuno",
+                                            "body": "Same bestie, I got a 500 pack and I've used maybe 20 sheets so far. Lmao",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "AlarisMystique",
+                            "body": "Can't do that with 3D print plastic.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "SootSpriteHut",
+                                    "body": "Yea I meant if you weren't going down the plastic route.",
+                                    "score": 10,
+                                    "replies": [
+                                        {
+                                            "author": "AlarisMystique",
+                                            "body": "Paper? Why cut trees if we can use plastic pollution instead? /S\n\nWe need plastic paper so that we can make plastic paper paper straws. How else can plastic straws be made?",
+                                            "score": 9,
+                                            "replies": [
+                                                {
+                                                    "author": "Longshot_45",
+                                                    "body": "It's so simple too!  We just go out to the ocean, build a floating rig, drill a mile down, extract the liquid dinosaurs, sail it back to land, distill it to separate the exploding dinosaurs from the non-exploding ones, process it into filament or resin, load it into a 3d printer, make a custom CAD file, let it print for an hour, and BOOM there you have it!",
+                                                    "score": 3,
+                                                    "replies": [
+                                                        {
+                                                            "author": "AlarisMystique",
+                                                            "body": "Woah sounds complicated. I just order it online.",
+                                                            "score": 2,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "DavidGoetta",
+                    "body": "I feel like a 3D printed seal would be fine/neat.\n\nBut a 3D printed letter? It's only supposed to have 2Ds!",
+                    "score": 17,
+                    "replies": []
+                },
+                {
+                    "author": "Pittsbirds",
+                    "body": "\"What if we took something made out of paper and, for absolutley no reason,\u00a0 made it out of plastic instead!\"",
+                    "score": 14,
+                    "replies": []
+                },
+                {
+                    "author": "FirmPython",
+                    "body": "OP's entire profile is about useless 3D-printed rubbish",
+                    "score": 24,
+                    "replies": []
+                },
+                {
+                    "author": "untakenu",
+                    "body": "Guys with 3d printers will come up with any excuse to use it",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "ThisdudeisEH",
+                    "body": "Yeah that\u2019s what I do. Cost me .35 maybe for a hand out",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "Mateking",
+                    "body": "Like I was a step behind you there I wanted to suggest you could just print the fake wax seal. But yeah.  making the seal itself probably easy. I mean you could print a negative for the seal ring/stamp. And then use that to create a real stamp from something very heat resistant. I wouls suspect printed seal stamp wouldn't hold up enough due to the heat but negative should be fine.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "JohnDoe_85",
+                    "body": "\"When all you have is a hammer, every problem looks like a nail.\"",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "warrant2k",
+                    "body": "Yea, and that looks nothing like parchment paper.  It's more like what I use to roll sushi.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "JohnDoe_85",
+                    "body": "\"When all you have is a hammer, every problem looks like a nail.\"",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "JohnDoe_85",
+                    "body": "\"When all you have is a hammer, every problem looks like a nail.\"",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "coduss",
+            "body": "Wait isn't Strahd's surname von Zarovich?",
+            "score": 156,
+            "replies": [
+                {
+                    "author": "porqueuno",
+                    "body": "Shame they can't just grab another sheet of paper and rewrite it without the spelling mistake, now they have to throw this whole thing in the trash and spend 20+ dollars on more filament and hours of their life printing a new one. \ud83d\udc40",
+                    "score": 129,
+                    "replies": [
+                        {
+                            "author": "bgaesop",
+                            "body": "To be fair, that is nowhere near $20 worth of filament",
+                            "score": 29,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Tailball",
+                    "body": "Yep. Probably mixed von Zarovich with Barovia.",
+                    "score": 52,
+                    "replies": []
+                },
+                {
+                    "author": "SpawnDnD",
+                    "body": "yup...typo here it seems from the OP",
+                    "score": 36,
+                    "replies": [
+                        {
+                            "author": "CurveWorldly4542",
+                            "body": "\"Mom, can we have Curse of Strahd?\"\n\n\"We already have Curse of Strahd at home\"\n\nCurse of Strahd at home:",
+                            "score": 13,
+                            "replies": []
+                        },
+                        {
+                            "author": "action_lawyer_comics",
+                            "body": " Not a typo, a drafting error",
+                            "score": 21,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "laces_out",
+                    "body": "Not to be confused with Brad von Zarovich",
+                    "score": 6,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Tailball",
+            "body": "Talk about overengineering :o \n\nI mean it\u2019s cool, and it\u2019s creative and all\u2026 but I\u2019d prefer some semi-burnt paper with some yarn tied around it.",
+            "score": 362,
+            "replies": [
+                {
+                    "author": "guilty_bystander",
+                    "body": "If you feel like getting extra fancy, coffee-stained looks cool",
+                    "score": 41,
+                    "replies": [
+                        {
+                            "author": "SmallLumpOGreenPutty",
+                            "body": "I remember in primary school i had to design a pirate map. I went the WHOLE way. Stained the paper, charred the edges, made the drawing look old and even got a faded bit of red ribbon to tie it with. I was so proud of it.",
+                            "score": 14,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "flex_inthemind",
+            "body": "Something something, to a hammer everything looks like a nail.\n\nBro reinvented paper",
+            "score": 220,
+            "replies": [
+                {
+                    "author": "Nemo_the_Exhalted",
+                    "body": "This is arguably much less useful than paper.",
+                    "score": 96,
+                    "replies": [
+                        {
+                            "author": "OranGiraffes",
+                            "body": "Bro uninvented paper",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Few-Requirements",
+            "body": "This is like 1'000'000 times harder than just writing or printing normally.\n\n>I dont know how to age paper\n\nYou put it in tea or coffee then just set a mug down on it to make a water ring...",
+            "score": 135,
+            "replies": [
+                {
+                    "author": "Vesprince",
+                    "body": "This plastic thing doesn't look like aged paper to begin with. Brief failed.",
+                    "score": 88,
+                    "replies": []
+                },
+                {
+                    "author": "porqueuno",
+                    "body": "You don't even need to do that, you can just buy a large stack of aged-looking paper at the craft store or online for $10. No need to mess around with coffee or whatever else.",
+                    "score": 20,
+                    "replies": []
+                },
+                {
+                    "author": "GM_Nate",
+                    "body": "man you can just go to a stationery store and buy paper that looks aged",
+                    "score": 27,
+                    "replies": []
+                },
+                {
+                    "author": "Apes_Ma",
+                    "body": "Why does it even need to be aged? Why would so much time have passed between the writing of the letter and the delivering of it that the paper had started to brown?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Damiandroid",
+            "body": "1. I don't know how to stain paper: Coffee, tea or careful application of flame\n\n2. My handwriting sucks: That's fine, just say that Strahds handwriting sucks. Or write in print for clarity or get a friend to write out the short note for you to trace.\n\n3. I don't have wax for seals: Buy a candle, light it and wait.\n\nI'd wager all of that is cheaper faster and less complex than making a 3d printed prop that looks.... OK-ish. \n\nFor the effort expended I think the results are lacking. Taking your own criteria as a guide:\n\n- the paper isn't stained (and isn't paper)\n- the handwriting is just comic sans cursive and even then isn't very clear because of the holes in the paper surface.\n- the wax seal doesn't have that snapping quality (and isn't wax).\n\nSo for all the aim to give players a tangible prop to ground them in the world, this doesn't actually do anything to immerse them because it doesn't really replicate the qualities that such a prop would have.",
+            "score": 110,
+            "replies": [
+                {
+                    "author": "Vintage_Rainbow",
+                    "body": "If they really had to 3d print something, they could have just made a fancy alphabet stencil, at least that has a use for future projects too.",
+                    "score": 50,
+                    "replies": [
+                        {
+                            "author": "Rimavelle",
+                            "body": "Or a form to press into the seal",
+                            "score": 10,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "badgerkingtattoo",
+                    "body": "And there\u2019s now more useless plastic in the world!",
+                    "score": 25,
+                    "replies": []
+                },
+                {
+                    "author": "JeiFaeKlubs",
+                    "body": "or even buy paper with a stained look and print your text on it. The waste of time and plastic is insane haha\n\nBut I guess props to the engineering, even if useless.",
+                    "score": 14,
+                    "replies": []
+                },
+                {
+                    "author": "redwashing",
+                    "body": "Nah candle won't work, you need actual letter wax. Good news is it isn't hard to find or expensive. Just buy wax is the solution.",
+                    "score": -12,
+                    "replies": [
+                        {
+                            "author": "Damiandroid",
+                            "body": "It'll do in a pinch for a little arts and crafts project that doesn't need to actually be sent by raven.\n\nSource: 10 year old me making pirate maps and royal summons",
+                            "score": 21,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "lise_yy",
+            "body": "r/DiWHY",
+            "score": 78,
+            "replies": [
+                {
+                    "author": "action_lawyer_comics",
+                    "body": "r/dndiWHY",
+                    "score": 27,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "MrTwoSack",
+            "body": "Im diagnosing you with STEM brain Im afraid.  \n\nThat letter is gonna be on earth longer you or me, i know it\u2019s scary but I promise you can learn to age paper and take joy in making something with your hands",
+            "score": 89,
+            "replies": [
+                {
+                    "author": "OrderOfMagnitude",
+                    "body": ">STEM brain\n\nWe don't want someone this wasteful",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "operath0r",
+                    "body": "I think it\u2019s gonna be broken down into many pieces long before you and I will be gone. Let\u2019s just hope it gets recycled.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "ZaunKonigin",
+                            "body": "That type of plastic is definitely not super recyclable",
+                            "score": 13,
+                            "replies": []
+                        },
+                        {
+                            "author": "ranibow____sprimkle",
+                            "body": "yes and as microplastics it will be even worse than when it was a single piece",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Xannin",
+            "body": ">I don't know how to stain paper to make it look aged\n\nSo you didn't want to google first to see if it was as simple as dipping paper in tea/coffee? Your process is like going East to get from Nevada to California.",
+            "score": 61,
+            "replies": [
+                {
+                    "author": "bizzyj93",
+                    "body": "If you keep going hard enough eventually it will work!",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "SmartAlec13",
+            "body": "Such a waste of plastic. I know you probably worked hard on it OP but this is not the right route. Learn to create crafts beyond plastic",
+            "score": 61,
+            "replies": [
+                {
+                    "author": "Krostas",
+                    "body": "And probably not even reusable. I would get it if its reusable and OP didn't want to go through the hassle of aging paper every other week (and not just make a stash like a smart person). But if I as a player were handed this, I know we would try to align the gaps in our messages in different ways to see if there is some hidden encoded meaning to decipher. But beyond that I would be less than thrilled to see (or feel) this.",
+                    "score": 27,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "zaraki93",
+            "body": "Dudes with 3D printers look for anything as an excuse to print i stg",
+            "score": 20,
+            "replies": [
+                {
+                    "author": "bizzyj93",
+                    "body": "Homie 3D printed a prop from community that was literally a construction paper goatee",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Bliitzthefox",
+            "body": "My god if only there was a way to print 2d things with a 3d printer",
+            "score": 55,
+            "replies": []
+        },
+        {
+            "author": "Beatful_chaos",
+            "body": "Looks like something I'd get from Little Alex Horne.",
+            "score": 13,
+            "replies": [
+                {
+                    "author": "Amanwithnohead",
+                    "body": "LITTLE ALEX HOOOOOOORRNE",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "quantumwalrus",
+                    "body": "I thought I was looking at an r/Taskmaster post till I read the caption.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Beatful_chaos",
+                            "body": "For your next task, roll this d20 and pray.\n\n\nYour time starts now.",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "dlshs",
+            "body": "Not a fan of the font nor the use of plastic, seems like a waste\n\nWhy not just stain, crumple and uncrumple some paper instead :'(",
+            "score": 13,
+            "replies": []
+        },
+        {
+            "author": "ZeusHatesTrees",
+            "body": "Lol he's von Zarovich, not Barovich.  Also don't regular paper printers already exist?",
+            "score": 12,
+            "replies": []
+        },
+        {
+            "author": "SatisfactionSpecial2",
+            "body": "....dude... you 3D printed...paper... xD\n\nIn any case making stained paper is very easy. You can put paper in coffee or dark tea, leave it in for a few minutes, pull it out, let it dry and repeat if you want it to be darker.\n\nA different method is using lemon juice (maybe diluted with water for lighter colored paper) and then ironing or baking (very shortly) the paper sheet.\n\nEither method will be way easier and cheaper than 3D printing paper...\n\nAs for the wax, you could just buy sealing wax and 3d print the stamp. Generally you need to put something on the stamp to avoid having it stick on the wax (oil or water or sth depending on the wax you use) but it shouldn't be too hard. 200 pieces of sealing wax cost 8$ on Amazon so it doesn't really cost much and you can also grab a melting spoon while you are at it.  \n\n\nPS you can also print the paper before staining it, but you need to be more careful to avoid smudges",
+            "score": 24,
+            "replies": []
+        },
+        {
+            "author": "BikeProblemGuy",
+            "body": "All of this seems very unlike Strahd. Why have you given him goofy handwriting? Why is MY FRIENDS so large? He's an aristocrat, he would know how to write a letter.",
+            "score": 26,
+            "replies": []
+        },
+        {
+            "author": "TheNobleHeretic",
+            "body": "Why use paper to represent paper when you can make more plastic waste /s",
+            "score": 32,
+            "replies": [
+                {
+                    "author": "Krostas",
+                    "body": "OP just read about industrial plastic waste being bad for the planet and thought \"Wait, I can do that myself! Grassrooting plastic waste will bring the plastic waste industries to a screeching halt!\"",
+                    "score": 16,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "porqueuno",
+            "body": "Seems like you'd be better off making a blank one that can be written on and reused multiple times, or just use regular paper. Real wax is also cheaper. All that you can buy at any craft store.\n\nI don't see either the benefit or the appeal of this, bur maybe someone can explain it to me and change my mind?",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "bizzyj93",
+                    "body": "The appeal is a justification of purchasing a plastic machine",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "porqueuno",
+                            "body": "I mean I'd wanna get one anyways, but most of my friends own one so I'll just borrow theirs and pay them. It's more economic that way. \ud83d\ude02",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "mynameisnickromel",
+            "body": "Round peg in a square hole with this one.",
+            "score": 9,
+            "replies": []
+        },
+        {
+            "author": "seaworks",
+            "body": "OP, I'm going to keep it real with you as other commenters have. This sucks and is stupid. however, that concept would be great for rolling up sushi.\n\nyour other good option would have been to custom print the press for the wax- it'll probably take some fooling with, given that it's being pressed onto something hot, but you could print really intricate designs with minimal effort, and really cut down on manufacturing time if it worked",
+            "score": 16,
+            "replies": []
+        },
+        {
+            "author": "Thunderous333",
+            "body": "I'm calling Ted, this is just too far.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "Dashimai",
+            "body": "Because you said you don't know how to make paper look aged, you can dip paper into a bowl of coffee until it is fully wet, then you can bake it in an oven. The will give the paper an old aged look.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "BestFeedback",
+            "body": "What a waste of plastic.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "Zerokx",
+            "body": "No offense I dont see why you would do this. Just use actual paper?\nJust why",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "SeiriusPolaris",
+            "body": "This would be cool if it was being sent by an autognome and it used a calculator-style font.\n\nBut for the purpose you\u2019ve made it for, I gotta tell ya it\u2019s fucking ugly. If you got the money to 3D print this, you gotta have the money to buy some parchment looking paper to use in a normal printer, and then melt a bit of wax to seal it.\n\nThat said, you could re-use the prop you\u2019ve made by just sticking a new paper letter onto it, then using the device as a holding tool to wrap up the letter each time. That\u2019d be nifty.",
+            "score": 24,
+            "replies": [
+                {
+                    "author": "Femmigje",
+                    "body": "Or just reuse old teabags for staining. Maybe the money spent can also go towards buying actual wax sealing items. If you\u2019re in BeNeLux or Germany, I can recommend Jessy at Sea, tons of adorable colours and shapes",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "SeiriusPolaris",
+                            "body": "Yeah for sure. There\u2019s so many ways to approach this that\u2019d be easier and cheaper than the time, electricity and plastic costs to 3D print!",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "abookfulblockhead",
+            "body": "I have been watching too much taskmaster. I saw rhis and immediately added, \u201cYour time starts now\u201d to the end.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "leonk701",
+            "body": "Who is strahd von barovich?",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "coldbrewclaire",
+            "body": "could've just looked up how to stain paper lmao.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "CurveWorldly4542",
+            "body": "Barovich?",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "balnors-son-bobby",
+            "body": "I went to school for additive manufacturing and I cannot get over my strong belief that 3d printing as a hobby is mega cringe. Yeah, what we need in this world is MORE plastic garbage. Just use paper next time lmao",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "Iximaz",
+            "body": "Lol\n\nLmao even\n\nWhat a waste of plastic OP, if your handwriting sucks that much there are a million free handwriting fonts you can download and print much faster and cheaper than this plastic crap. If a DM whipped this out at my table I'd laugh before realising they were serious. And then I'd laugh harder. Laziest overeffort I've ever seen.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "lilburblue",
+            "body": "This is why we\u2019re drowning microplastics lmfao. \n\nJust because you could doesn\u2019t mean you should and this is my new favorite example.",
+            "score": 16,
+            "replies": []
+        },
+        {
+            "author": "bootsmalone",
+            "body": "Thought I was in r/taskmaster for a second\u2026",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "BecomeEnnuisonable",
+            "body": "OK but why? Paper exists...",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "FauxGw2",
+            "body": "Or.....3D print the stamp for your wax?",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "COOPERx223x",
+                    "body": "This is the big brain play. As opposed to reinventing and making a less useful product than paper.",
+                    "score": 7,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "crieseverytime",
+            "body": "Bro could've used a 2d printer\n\nI'm pretty anti home 3d printing because they're effectively plastic waste machines, and shit like this reinforces my point more than I could ever hope to",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "BastianWeaver",
+            "body": "Strahd von Barovich. Haaaa!",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "BCSully",
+            "body": "Oof. I don't wanna trample on anyone's creativity, but that is one Rube Goldberg approach to making a very simple prop. Not gonna downvote, but in my head, I'm downvoting. Just no.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "MadWhiskeyGrin",
+            "body": "3-d printed...*Scrolls*??",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "Dantocks",
+            "body": "Ok that feels weirfd to me. I would rather show my players a picture of a parchment scroll then handing them out a 3d printed one. If i want to hand out something i would buy some paper that looks like parchment. Sorry.",
+            "score": 10,
+            "replies": []
+        },
+        {
+            "author": "HomesickAngel10",
+            "body": "You know you can just\u2026 buy aged printer paper right? I have a sheaf in my desk drawer just in case. Plus you can just find a script like font for a word processor to fill in for handwriting.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Scarvexx",
+            "body": "Cool. But that's worse than just using paper. A thing that's much cheaper and faster. Like work on that cool thing but it's not for this.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Lingroll",
+            "body": "Could this work on normal paper? The clasp itself is very cool, but the paper is a bit much.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "owlindenial",
+            "body": "I glued 2 sheets of printer paper together, dyed them with coffee but that didn't work so used watered caqui and blown paint to stain it then cut jagged edges",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Elite-Soul",
+            "body": "This looks like a waste of plastic and printing time.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Secret-Writer-1020",
+            "body": "Did this have to be plastic? Seems like over-engineering and unnecessary plastic waste coming together.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "PraxicalExperience",
+            "body": "NGL, I kinda hate it.  The gaps break the immersion; there's no way you could write on that without it being all fucked up.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "PeppermintSkeleton",
+            "body": "Why on earth would you not just use paper and wax?",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "ThePhoenixRemembers",
+            "body": "Why do I find the idea of plastic 3d printed  parchment really dystopian lmao\n\nThis is a pointless waste and bad for the environment, sorry.\n\nA simple google would have told you that tea or coffee can be used to stain paper to make it look aged. At most I could understand the wax seal being 3d printed but the rest? C'mon.....\n\nI'm not convinced the op isn't trolling tbh",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "ORINnorman",
+            "body": "\u201cI couldn\u2019t make paper look authentically old, so I made this out of plastic instead!\u201d Lolol\n\nSorry dude, but this is a bit silly. Like using lego people as minis. Which is fine. But it\u2019s silly and 3d printing a \u201cpiece of paper and wax seal\u201d just sounds like such a waste of time and resin.\n\nRespect for your CAD skills tho, that nothing to shake a stick at.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Stealfur",
+            "body": "Eh,\nGood results, but seems like a lot of effort just avoid rubbing a teabag on a printed piece of paper.\n\nI under stand the wax seal part though. I probably would have just designed that to attach to letters. Like as a reusable seal.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Negative_Bar_9734",
+            "body": "Bro 3D printed a piece of paper because they can't make paper look aged and didn't even make the model look aged either.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "imsmartiswear",
+            "body": "... And this has advantages over a normal piece of paper with printed text and a red sticker (or an actual wax seal because those are pretty cheap tbh) because...? \n\nI mean it's cool that it's so flexy for a 3D print, but I feel like this isn't a situation in DND where 3D printing is the solution. \n\nIt'd be cool if it was somehow whiteboard material so that you could reuse the same scroll and seal for different messages, but I don't think that's possible with the plastics you use for 3D printing.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Gaelenmyr",
+            "body": "Looks terrible. Just use a paper printer.",
+            "score": 10,
+            "replies": []
+        },
+        {
+            "author": "Vintage_Rainbow",
+            "body": "This feels...icky. Great job! But it's so easy to make without all that plastic crap.\n\n\nget a stencil for the lettering, buy actual parchment, buy a coloured candle and use the wax from that. Use wet tea bags to stain the paper.",
+            "score": 13,
+            "replies": []
+        },
+        {
+            "author": "whateveriguessthisis",
+            "body": "I'm sorry but this looks horrible. Why not just actually roll up some paper?",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "Curious-Marzipan-627",
+            "body": "Looks terrible",
+            "score": 16,
+            "replies": []
+        },
+        {
+            "author": "leviathanne",
+            "body": "man.... this is terrible. sorry, but this is really bad. the solutions to all the problems you listed are a quick google away.\n\nand tbh, as a player, nothing would take the immersion out the game than being handed a *plastic letter*.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "SmallLumpOGreenPutty",
+            "body": "Looks like Legoland set dressing. OP why not just watch a youtube video on how to do something and actually experience the joy in learning a new practical craft skill? I promise you that is much cooler than just making paper out of plastic.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "HarioDinio",
+            "body": "Me who got into wax seal stamping just for curse of strahd.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "EvilPandaGMan",
+            "body": "Why not paper?",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "PaleoJohnathan",
+            "body": "print paper and if you don\u2019t have a wax seal just glue or tape on the 3d printed seal?",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Jokoxa",
+            "body": "Aren't these letters dry erase? They look like they Could be used that way. If that's the case they are actually of use and definetly not deserving the hate haha, otherwise they are in fact really overengineered.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "BeGay_PetKitties",
+            "body": "Not to be mean, but this is ugly af.... It's so easy to \"age\" paper that I figured it out at home, without Google, at 10 years old. This isn't creative, this is just ass.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "GifanTheWoodElf",
+            "body": "I mean it's interesting... but like real paper would look much better if you're trying to replicate... you know paper. That could be cool as some IDK weird futuristic thing (which for some reason they use instead of sending a text), like yeah it looks interesting... buuuut yeah paper would be better.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "CheapTactics",
+            "body": "Why would you not just use a real sheet of paper?",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "obsidian_butterfly",
+            "body": "Buy vellum, print what you want on it, roll it up, tie it off with string, maybe melt a candle over it. Good God.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "lionsarered",
+            "body": "Isn\u2019t it Zarovich?",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "OrderOfMagnitude",
+            "body": "> I don't know how to stain paper\n\nGoogle\n\n> my handwriting is trash\n\nMicrosoft word\n\n> don't have wax\n\nAmazon \n\n> 3d print\n\nJust 2D print. This is ridiculous.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "imperfect_imp",
+            "body": "Gee, if only there was some kind of flexible material that you could just print text on and some website where you could Google how to stain paper with coffee or tea /s\n\nI will say I have no simple alternative to a 3d printed wax seal",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Melodic_Mulberry",
+            "body": "We just got that letter in our campaign. \"Friends\" my ass. Fucker kidnapped us for sport. We're gonna kick his ass.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "GM_Nate",
+            "body": "\\*who has brought",
+            "score": 11,
+            "replies": [
+                {
+                    "author": "ConceptualWeeb",
+                    "body": "Thank you, it\u2019s crazy that people are arguing with you lol \u201cnuhuh its whomst have broughten!\u201d",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "GM_Nate",
+                            "body": "WHOMST'D'VE",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "None",
+                    "body": "[deleted]",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "GM_Nate",
+                            "body": "Except he didn't use \"I,\" he used \"who,\" which is a third-person pronoun. Therefore, \"has.\"",
+                            "score": 9,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "BristowBailey",
+                    "body": "No",
+                    "score": -4,
+                    "replies": []
+                },
+                {
+                    "author": "surrealsonicus",
+                    "body": "The full quote is too long to fit in the area provided in order to come off very readable so I took some creative liberties in shortening it. \ud83d\ude06",
+                    "score": -41,
+                    "replies": [
+                        {
+                            "author": "OtterBoop",
+                            "body": "Creative liberties with the grammar? Has is shorter than have.",
+                            "score": 6,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "meatguyf",
+            "body": "Tea can be used to stain and age paper. Looks good too.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Not_Reptoid",
+            "body": "I'm pretty sure it's easier and looks more legit to print out a paper than print out a peace of plastic",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "wolfsraine",
+            "body": "What a ridiculous choice for a font lol",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "CathairNowhere",
+            "body": "That font is a choice.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Lizardthe_Wizard",
+            "body": "Please, touch grass",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Euthanaught",
+            "body": "I would use the fuck out of this for LARP.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "myth1cg33k",
+            "body": "I'll echo the others saying tea and fire, but with the added comment that I actually did this for a school project and it looked incredible. We grabbed a bunch of wet tea bags and rested them in various spots and also let the stained water run over the paper in places so the aging was uneven. We then very carefully burned the edges with a lighter and also let the fire burn out a few letters at the edges to be more authentic. Because irl damaged paper isn't going to miraculously stop where the writing. Just make sure you be near a sink or keep water/damp towels handy to control the fire.\n\nAnyway it looks great!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "theinspiration7",
+            "body": "This has \"I brought you into this world and I can take you out\" vibes, like when your mom gets pissed at you",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Agile-Argument56",
+            "body": "reminds me of a sushi roller",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BeGay_PetKitties",
+            "body": "Not to be mean, but this is the ugliest shit.... It's so easy to \"age\" paper that I figured it out at home, without Google at 10 years old. This isn't creative, this is just ass.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "thirtyzone",
+            "body": "I agree that 3D printing the paper is a little overkill.. but I really like the design of the wax seals + the loop that holds the paper closed. I bet if you refined the design a little, it would be easier than using wax seals (and reusable!) That way, the DM could use any paper/ink they wanted. They could even have the option to make a letter with \"invisible ink,\" etc.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "thecloudkingdom",
+            "body": "the point of handwritten props isnt to be perfect, its to have fun making them and to give your players some fun interacting with them. nobody would've cared if a paper handwritten hand-aged scroll had shitty handwriting, it would have been cool because of the effort to make it\n\nand you can just throw paper away. what are you going to do with this thing after the session? i don't believe anyone plays cos enough to make this a worthwhile effort",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "JourneymanHunt",
+            "body": "r/dndcrafting",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "JourneymanHunt",
+            "body": "r/dndcrafting",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ejigantor",
+            "body": "I saw the red seal and thought this was a Taskmaster thing until I read the text.\n\nPretty neat reusable prop.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "evlbb2",
+            "body": "Niche but neat. I can appreciate it being used as a momento of the game. Maybe at the end when the king makes the party nobles or we. \n\nFor the record, diluted soy sauce or coffee works well for aging paper.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MiniGoold",
+            "body": "Where\u2019s the poop?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DreaminginDarkness",
+            "body": "This is cool! Sometimes I feel like being a dm is so much more work than playing, whatever makes you happy and excited about the game is worthwhile.... I make quick little sculptures out of scrap wood and hot glue to represent things and they don't really have a game function but they just give me something that I am excited to present",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "twofacedcap",
+            "body": "I thought this was neat \ud83e\udd37\u200d\u2640\ufe0f",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "carlobacon",
+            "body": "Bunch of haters in here. This is cool...maybe not for everyone, maybe not super practical, but it's really cool.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "Wulfrank",
+            "body": "So many comments about this being overengineered and how word processing software exists, but in my opinion, DnD is all about experimentation and exploring \"what-ifs\". Just like a player who wanted to see what it'd be like to play an unusual multiclass, OP wanted to see what it'd be like to multiclass paper and 3D printing, and I think they pulled it off very well.",
+            "score": -7,
+            "replies": [
+                {
+                    "author": "copropnuma",
+                    "body": "Agreed... but that is a game where things are not real.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "NineAndNinetyHours",
+            "body": "I think it's cute! You don't need to justify it, OP - I think some of the negativity in here is coming from the rather contrived \"reasons\" you were giving for why you \"had\" to do it this way. But you don't need reasons! You're good at 3D modeling and wanted to play with your 3D printer, and that's all the reason you need!",
+            "score": -7,
+            "replies": []
+        },
+        {
+            "author": "alternate_geography",
+            "body": "I kinda love this, but my jam is usually handcrafting equivalents of engineered objects.",
+            "score": -2,
+            "replies": []
+        },
+        {
+            "author": "Dayne225",
+            "body": " I don\u2019t understand the hate for this. OP used the skills they have to create something that they felt comfortable making, with I assume, supplies they had on hand. Could it have been executed better with regular paper? Probably, but that\u2019s not the point. I like what you did OP and dont let the haters get you down.",
+            "score": -4,
+            "replies": []
+        },
+        {
+            "author": "Lv1Skeleton",
+            "body": "I think everyone already made good points on why not to do this. So I will add that I do think it\u2019s cool and neat",
+            "score": -5,
+            "replies": []
+        },
+        {
+            "author": "MyronMcM",
+            "body": "These comments are toxic as hell. I think this is cool, easily reusable if you wanna run the campaign again, hard to lose, half the time in this hobby we got our hands on plastic anyway so I don't think it would pull you out of immersion. I think your player will become more invested when you hand them this thing and they get to open it up.",
+            "score": -5,
+            "replies": []
+        },
+        {
+            "author": "dk_peace",
+            "body": "So, unpopular opinion, but I kinda like it. It's neat.",
+            "score": -15,
+            "replies": []
+        },
+        {
+            "author": "surrealsonicus",
+            "body": "Here is a video of some examples, and specifically the opening/closing of the wax seal: https://youtu.be/SyqqdnOE1oc\n\nAnd the link to download your own again in case you missed it in the OP description: https://makerworld.com/models/1207129\n\nThanks for checking it out!",
+            "score": -37,
+            "replies": []
+        }
+    ]
+}

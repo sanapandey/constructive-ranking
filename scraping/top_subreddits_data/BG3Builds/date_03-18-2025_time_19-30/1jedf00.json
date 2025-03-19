@@ -1,0 +1,71 @@
+{
+    "title": "Patch 8 shadow blade granting advantage to spells",
+    "author": "LeBaronKJP",
+    "subreddit": "BG3Builds",
+    "rank": 8,
+    "score": 9,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 8,
+    "url": "https://www.reddit.com/r/BG3Builds/comments/1jedf00/patch_8_shadow_blade_granting_advantage_to_spells/",
+    "id": "1jedf00",
+    "selftext": "While testing shadow blade on my bladesinger, I noticed I get advantage from shadow blade for spells with attack rolls on targets in dim light/darkness.\n\nAnyone else experiencing this? It seems too good to not be a bug. \n\nIf it\u2019s not\u2026might as well use it to our advantage",
+    "comments": [
+        {
+            "author": "Missing_Links",
+            "body": "The text of the shadow blade passive is pretty ambiguous. \n\n> You have Advantage on Attack rolls against Lightly or Heavily Obscured targets when using this blade.\n\nIt sounds like it's supposed to be just on attacks with the weapon itself, but it's not the unambiguous \"when attacking with this weapon,\" and there  are lots of cases where the game's language is imprecise or misleading otherwise. E.g.: \n\n> When the wielder attacks with Advantage, they deal an additional 1d8 Psychic.\n\nWhich clearly means \"everything\" as written but in game only means the weapon which grants that effect.\n\nIt would be very strong. It almost makes sense for casters, but the weapon is too good all on its own to also do that for spells.",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "LeBaronKJP",
+                    "body": "This makes a lot of sense, I considered the fact that a reasonable amount of in-game text is ambiguous or doesn\u2019t explain things as well. Which is why I was going off the wiki definition: \n\n> When you use the sword to attack a target that is in dim light or darkness, you make the Attack Roll with Advantage.\n\nI agree the spell is already very strong, and I think it makes for some interesting theorycrafting for casters. \n\nIs this a viable dual wield option especially in the early acts with low accuracy? A decent alternative to the Melf\u2019s staff/spellsparkler combo for casters? Idk, but worth testing maybe.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Missing_Links",
+                            "body": "Yes, it would be a good dual wield option. All game long, really, and definitely for anything with a 1 hex dip.\n\nAll the casters still want OK dex for AC and init and shadow blade is finesse and will frequently give advantage. Just put it in the offhand and it's an outstanding bonus action all game long. Any hexblade just binds it, then swaps hands for the same effect but super duper accuracy.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "OkMarsupial4959",
+            "body": "Yes, I noticed the same. It gives me advantage on spell attacks like firebolt if the targets are in dim light/darkness.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Tzilbalba",
+            "body": "This is why shadowblade is the new meta adv and 2x dmg from resonance stone nothing will hit harder when you combi that with booming blade, smite and crsterflesh gloves.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "thanerak",
+            "body": "They recently patched it so it is working at all it may be working too good.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": -2,
+            "replies": [
+                {
+                    "author": "Firm_Nectarine1255",
+                    "body": "OP said spell attack rolls not weapon attack rolls. Read the question?",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "Artorias_Erebus679",
+                    "body": "Read the post?",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+{
+    "title": "Shoutout to the comment that said add a Skateboard",
+    "author": "ElectronicsLab",
+    "subreddit": "godot",
+    "rank": 8,
+    "score": 108,
+    "upvote_ratio": 0.95,
+    "num_comments (reported by reddit)": 17,
+    "url": "https://v.redd.it/oeyv5k6v3hpe1",
+    "id": "1je8shl",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "Roucan",
+            "body": "You could also add stuff that floats by that you can grind on? For combos?",
+            "score": 10,
+            "replies": []
+        },
+        {
+            "author": "ElectronicsLab",
+            "body": "Obviously adding kickflip logic.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "insanitysqwid",
+            "body": "![gif](giphy|xT8qBczKUpwm5Iw69q)\n\nnext step: one of these bad boys\\~",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "onzelin",
+            "body": "So multiple reposts per day with the same asset flip are allowed here?\n\n@mods please do something",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "ElectronicsLab",
+                    "body": "Lol im posting progress on my game with new stuff everytime. I made all the assets....",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "onzelin",
+                            "body": "I get your point, and I'm happy to see a dev post his progress and get feedback. \n\nOn the other hand, it's been a week or so I see the same video of a guy riding the same wave, one day on a board, another day on a seagull, on a iron board and what not. At this point it feels low content and borderline spammy.",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "ElectronicsLab",
+                                    "body": "I feel it, was thinking I was posting kind of too much on here. I'll only do 2-3 posts per week max and put more effort into the videos, I'll do the spammin every bit of progress on twitter only haha.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "minimalcation",
+            "body": "Add a second wave that the player rides, but that wave is also influenced by the main so you've got multi wave surfing",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "KyotoCrank",
+            "body": "That's hilarious! I love this",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "mahakalaproductions",
+            "body": "I can imagine the soundtrack being a weird mix between Californian Surf Rock and 00s Pop Punk.\n\nRAD AF!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Riyasumi",
+            "body": "Now add tuna, other people, and shark board",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "ElectronicsLab",
+                    "body": "Yeee Shark board is goin in ! I gotta start planning these board additions to maybe one a week. Some new ones being added are: Burger, Shark, Log, Couch, Horse",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "adjgamer321",
+            "body": "I can't wait to play this when it comes out.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "ElectronicsLab",
+                    "body": "Which platform are u using ?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "adjgamer321",
+                            "body": "I have a PC/Switch. What're you developing for?",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "WingMann65",
+            "body": "Soooo... How do the waves work?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "ElectronicsLab",
+                    "body": "Just applies different forces to the surfer based on position, all the movement and physics is custom. It's simple movement logic with complex \"rules\". The wave gfx are being remade to be a much better looking animated wave",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

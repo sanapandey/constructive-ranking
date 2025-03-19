@@ -1,0 +1,1826 @@
+{
+    "title": "Mark Rober did a really great comparison of Tesla's camera based autopilot vs LIDAR based systems on a Lexus",
+    "author": "stakoverflo",
+    "subreddit": "cars",
+    "rank": 13,
+    "score": 863,
+    "upvote_ratio": 0.85,
+    "num_comments (reported by reddit)": 278,
+    "url": "https://www.reddit.com/r/cars/comments/1jdgv33/mark_rober_did_a_really_great_comparison_of/",
+    "id": "1jdgv33",
+    "selftext": "The first half of the video is irrelevant to the sub (he snuck a LIDAR detector onto Disney World's Space Mountain) so I've timestamped it for when he actually does the vehicle comparison. But if you don't know much about how LIDAR works, the whole video can be informative.\n\nhttps://youtu.be/IQJL3htsDyQ?t=493\n\nI was just really impressed with the \"simulations\" of fog, heavy rain, light pollution and more.",
+    "comments": [
+        {
+            "author": "Koraboros",
+            "body": "Let's test radar based as well.",
+            "score": 40,
+            "replies": [
+                {
+                    "author": "stakoverflo",
+                    "body": "What would be the advantages of radar instead? Are there any companies looking into using it?\n\nI do agree it'd be fun to see comparisons across all potential 'options' though",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "Koraboros",
+                            "body": "Most of the adaptive cruise control today is using radar already.",
+                            "score": 40,
+                            "replies": []
+                        },
+                        {
+                            "author": "leeta0028",
+                            "body": "Radar sees through rain and fog better because longer wavelengths scatter differently. They actually can see around cars too, though this isn't actually used in any application because shorter wavelengths provide higher resolution.\n\nIt should be said Lexus uses lidar, radar, and cameras in their level 2 system, not just one",
+                            "score": 13,
+                            "replies": []
+                        },
+                        {
+                            "author": "JayFay75",
+                            "body": "My Kia uses radar to brake automatically when it detects an obstacle",
+                            "score": 8,
+                            "replies": [
+                                {
+                                    "author": "Delanorix",
+                                    "body": "My wife's has it too.\n\nIts weird though, it doesn't pick up the trailer of the big rigs, only the engine/actual truck.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ymjcmfvaeykwxscaai",
+            "body": "Autopilot brakes for nothing and everything. It'll take a corner at 50mph, and then slam on the brakes when it sees a car pull out in front of it 150 feet ahead. It also brakes for ghosts. It honestly should be retired. \n\nFSD's significantly better, I wish he had tested that. Not a self driving car still regardless of the name. I don't know if it would have passed the Looney Toons wall but it would have definitely slowed down for the rain or fog in my experience. \n\nIt doesn't have to be either/or. The ai/camera based training is still relevant in a lidar car. Lidar plus cameras is the only way companies like Waymo have real self driving cars. Which cars in America have lidar senors? Mercedes?",
+            "score": 426,
+            "replies": [
+                {
+                    "author": "whenthewindbreathes",
+                    "body": "These cars have them:\n\n\\* Lucid Air/Gravity with optional Dream Drive Pro\n\n\\* Volvo EX90 with optional Lidar\n\n\\* MB S Class/EQS with drive pilot\n\n\\* LS500 with TeamMate driver\n\nNote: just because it has the sensor doesn\u2019t mean it\u2019s using it well or even using it at the moment.",
+                    "score": 56,
+                    "replies": [
+                        {
+                            "author": "blainestang",
+                            "body": "The EX90 Lidar is standard (from Luminar, like this video), but it doesn't DO anything, at least not yet. It is there for \"data gathering\", for now, according to Volvo.\n\nAudi also used to have LiDAR on the A8 and etron (perhaps others), but they removed it and seemingly nothing meaningfully changed, at least in the US. \n\nThe video makes it seem like you just throw LiDAR on and magically, you've got a great system, but some of the vehicles that HAVE LiDAR aren't really even using it, because sensor fusion is hard. Some of the vehicles with radar have had a similar problem: Tesla in the past and Ford, now, have radar, which, in theory, should tell you if there's a car (or wall) stopped in your lane, but they can give so many false positives, that the software just ignores the radar and occasionally, that means crashing into a stopped vehicle. NHTSA is investigating Ford, now, and says Ford's system just ignores radar above \\~60mph.",
+                            "score": 36,
+                            "replies": []
+                        },
+                        {
+                            "author": "lowstrife",
+                            "body": "> * Lucid Air/Gravity with optional Dream Drive Pro\n\n\nI drove a Lucid 18 months ago and it tried to kill me within 5 minutes of using their system. It crossed a double yellow line into oncoming in a turn and I had to take over to prevent a head-on.",
+                            "score": 9,
+                            "replies": [
+                                {
+                                    "author": "whenthewindbreathes",
+                                    "body": "Ya just because it\u2019s equipped with LIDAR doesn\u2019t mean they\u2019re doing sensor fusion correctly or even using the sensor at the moment",
+                                    "score": 5,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "eneka",
+                            "body": "saw an ex90 on the road yesteday with the lidar and it looks pretty damn cool.",
+                            "score": 7,
+                            "replies": [
+                                {
+                                    "author": "Ancient_Persimmon",
+                                    "body": "It's disabled at the moment, so it's just a roof ornament.",
+                                    "score": 10,
+                                    "replies": [
+                                        {
+                                            "author": "Banana_Leclerc12",
+                                            "body": "Incorrect, it sends road data to china",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "sioux612",
+                            "body": "Also the electric Lotuses, I think",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "FormalOperational",
+                                    "body": "Geely flagship models get the LiDAR treatment. Volvo EX90 & ES90, Polestar 3 & 5, Lotus Eletre, etc.",
+                                    "score": 4,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "yellowcroc14",
+                    "body": "Yeah autopilot kinda blows in terms of being an adaptive cruise control, pretty awesome in bumper to bumper though",
+                    "score": 141,
+                    "replies": [
+                        {
+                            "author": "fatfi23",
+                            "body": "I actually think it's the opposite. In good conditions on a free flowing highway is the only time I use it. There were some instances of phantom braking in the past but haven't had that in a long time. \n\nIn bumper to bumper traffic it's so herky jerky it's unusable for me. FSD was much better in heavy traffic conditions.",
+                            "score": 85,
+                            "replies": [
+                                {
+                                    "author": "StevenWongo",
+                                    "body": "Man the phantom braking of them fucking sucked. I had a Model Y Performance for 6 months and whenever we were on the highway we would typically use autopilot. \n\nOnce it was only us on the road and the amount of times it would just slam its brakes for no god given reason.",
+                                    "score": 10,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "yellowcroc14",
+                                    "body": "Probably, I bet it\u2019s gotten better since I got rid of mine in 2022, but where I was living at the time there was constant construction on the highways I frequented so I\u2019m sure that just mad autopilots job harder.",
+                                    "score": 15,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "burlyginger",
+                                    "body": "Which is nuts because the adaptive cruise and collision detection on my 2017 Volvo are smooth and nearly perfect in stop and go and highway driving. \n\nThe hype around this stuff on Teslas is massively overblown.",
+                                    "score": 12,
+                                    "replies": [
+                                        {
+                                            "author": "murgalurgalurggg",
+                                            "body": "I have both. \u201821 XC-90 and \u201823 Model 3. The FSD is night and day better. But autopilot is still an improvement over Volvos \u201821 Tech. Tesla FSD has gotten much better in the last 6 months. Autopilot is still lacking.",
+                                            "score": 1,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Daddyoo1386",
+                                            "body": "Yes",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "PM_ME_UR_DECOLLETAGE",
+                                    "body": "Yeah I have no issues with autopilot these days. It just works. Makes bumper to bumper traffic a much better experience.",
+                                    "score": 4,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "psaux_grep",
+                                    "body": "Most of my experiences with slowdowns these days has got to be bad map data because of how consistent it is in those places. \n\nBut the video he made could have been made 4 years ago with the same results. \n\nHe\u2019s comparing state of the art of LiDAR vs. something that was hardly state of the art four years ago. \n\nI honestly wouldn\u2019t even mind it if they brought along a car with FSD v13 as well, but as it stands it\u2019s just a well timed Luminar promotion. \n\nAt this point though it\u2019s hard to know if Tesla\u2019s efforts will amount to anything or if Elon is fully bent on pissing the company away.",
+                                    "score": 6,
+                                    "replies": [
+                                        {
+                                            "author": "BlackCatFurry",
+                                            "body": ">He\u2019s comparing state of the art of LiDAR vs. something that was hardly state of the art four years ago.\n\nI am pretty sure any car equipped with lidar sensors / adaptive cruise control would do better than the tesla with the wall...",
+                                            "score": 4,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "phdiesel_",
+                                    "body": "I\u2019ve had a similar experience with AP. I haven\u2019t gotten to test it very much but I recently started switching acceleration to Chill to help mitigate the insane throttle application in stop and go traffic. It appears to have helped.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "w0nderbrad",
+                            "body": "I go on family ski trips every winter and I\u2019ve tried many different systems. \n\nEdit: all on the same exact roads \n\nBest to worst: \n\n1. 2025 Lexus NX. 3rd gen TSS is pretty good\n\n\n2. 2015 Nissan Murano - 1st time ever using adaptive cruise and it was really really impressive. Still the most comfortable car I\u2019ve owned for road trip purposes. \n\n\n3. 2019 Toyota RAV4 - whatever gen TSS this was sucked. Lane centering was reactive not proactive so it would play pong with the lane markers \n\n\n4. 2022 Tesla Model Y - absolute dogshit autopilot. DNF since I turned it off after the 4th time it slammed on the brakes within 50 miles\u2026 absolute clear road and apparently it\u2019s affected by mirages? FSD is supposed to be a different system? Why? How can I trust \u201cfull self drive\u201d when it can\u2019t even figure out adaptive cruise?",
+                            "score": 24,
+                            "replies": [
+                                {
+                                    "author": "munche",
+                                    "body": "The \"different system\" stuff is just a distraction technique they use. If Autopilot crashes they should have been using FSD. If FSD crashes they have the wrong version of FSD. If the car crashes and kills the occupant than they will just blame them and say it's their fault for not saving the computer. \n\nTesla's autonomy is bad full stop, they just turned off all the safety features so people can pretend it works and then get blamed when they crash.",
+                                    "score": 53,
+                                    "replies": [
+                                        {
+                                            "author": "RhymeGrime",
+                                            "body": "100%, Tesla fan boys out there always saying something about how every test could have been different. We'll let me introduce you to real fucking life where it's always different and your Tesla tech isn't cutting it.",
+                                            "score": 18,
+                                            "replies": [
+                                                {
+                                                    "author": "Michelanvalo",
+                                                    "body": "Two things can be true at once. The Mark Rober video can suck shit (it does suck shit) and FSD / AutoPilot can also suck shit.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "Hugh-Jass24",
+                                                    "body": "Yeah, where are those painted Styrofoam walls randomly placed in the middle of the road in real life? It's always nice to nitpick though.",
+                                                    "score": -12,
+                                                    "replies": [
+                                                        {
+                                                            "author": "RhymeGrime",
+                                                            "body": "Did you watch the video? If it Can't handle a big ass piece of Styrofoam I wouldn't trust it with a single fucking thing.",
+                                                            "score": 9,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Hugh-Jass24",
+                                                                    "body": "So what brand beats it for the same value?",
+                                                                    "score": -12,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "scalablecory",
+                                                                            "body": "The more apt question to me seems to be \"what is the minimum acceptable safety we expect automated driving to have\". If Tesla is using using tech with safety that puts both drivers and pedestrians at risk when auto-pilot is used, then perhaps there is no 'value' point where it is appropriate.\n\nThe solution is that auto-pilot needs to make the manufacturer responsible for any crashes. It shouldn't be able to engage in scenarios it isn't equipped to handle. I'm sure the insurance companies already have a real nice idea of where the risk/reward balance is.",
+                                                                            "score": 8,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "Hugh-Jass24",
+                                                                                    "body": "If they only have to worry about painted styrofoam walls or glass standing randomly in the middle of road. I consider that a win.",
+                                                                                    "score": -4,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "Hunt3rj2",
+                                                                                            "body": "You have to worry about poorly drawn lines on the road. And white semi trucks. And reflective tanker trucks. Etc. People have absolutely died from trusting AP. It's an incredibly brittle system that works well enough to convince idiots that it's better engineered than it really is.",
+                                                                                            "score": 5,
+                                                                                            "replies": [
+                                                                                                {
+                                                                                                    "author": "None",
+                                                                                                    "body": "[deleted]",
+                                                                                                    "score": -2,
+                                                                                                    "replies": [
+                                                                                                        {
+                                                                                                            "author": "Real-Actuator-6520",
+                                                                                                            "body": "For starters, no other company calls their cruise control \"autopilot\"?\u00a0",
+                                                                                                            "score": 2,
+                                                                                                            "replies": [
+                                                                                                                {
+                                                                                                                    "author": "None",
+                                                                                                                    "body": "[deleted]",
+                                                                                                                    "score": 0,
+                                                                                                                    "replies": [
+                                                                                                                        {
+                                                                                                                            "author": "Real-Actuator-6520",
+                                                                                                                            "body": "NHTSA ain't too keen on the name too. Seems they feel it would mislead drivers into putting more faith into the system than they should.\u00a0",
+                                                                                                                            "score": 1,
+                                                                                                                            "replies": []
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "author": "Hunt3rj2",
+                                                                                                            "body": ">People have died using cruise control in other vehicles. What's your point?\n\nNobody believes cruise control is something you can trust unattended for even a moment. And even then, cruise control does exactly what it says it does. Nothing more, nothing less. And it works all the time. Even radar cruise control is very simplistic. You can easily reason about the side effects of using it. \n\nThe problem with AP and FSD has always been it works ok-ish in normal scenarios and then you constantly discover corner cases that cause phantom braking or an unexpected lane change that decapitates you against a semi or it swerves you into a broken impact attenuator at an interchange.\n\nMark Rober's video testing even shows the source of the repeated nonsense PR bullshit that Tesla throws out every time AP or FSD is responsible for a crash, which is that it was not engaged at the time of the collision. Which yes, if you detect a crash is imminent and disable it a second before the crash technically it was not engaged.",
+                                                                                                            "score": 1,
+                                                                                                            "replies": []
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "author": "scalablecory",
+                                                                                            "body": "Cool, then let them stand by their products and indemnify drivers using auto-pilot.",
+                                                                                            "score": 1,
+                                                                                            "replies": [
+                                                                                                {
+                                                                                                    "author": "Hugh-Jass24",
+                                                                                                    "body": "If there hasnt been an incident yet and it literally took an ex-NASA engineer to point out a flaw within a highly unlikely scenario. It's still a win. Do you want Lidar? Pay for it in a more expensive vehicle. For the value, it's hard to beat the tech and software for the price.",
+                                                                                                    "score": 3,
+                                                                                                    "replies": []
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "author": "Slam_Beefsteel",
+                                                            "body": "He tested five other things and it didn't do so great on at least two of those either",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "exjr_",
+                                    "body": "> Lane centering was reactive not proactive so it would play pong with the lane markers \n\nI feel the same way about Mitsubishi's MI-Pilot in my Outlander '23. I always feel like I have to be on top of the system, and the steering control assist has some very finnicky rules on when it kicks in. And when it does, I don't feel like it has confidence. \n\nI feel the opposite with Tesla's AP. I'm not saying with this that I completely trust it, but it gives me a sense of confidence. I rent out a Tesla when I travel for work and in the ~500 miles (round trip), I don't have issues with the system phantom breaking or something. The only complaint I have is that it brakes a bit too late for my liking. My Mitsubishi does it too, so I don't know if computers just know better lol.",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "TempleSquare",
+                                            "body": "I feel like TSS 2.0 is purposely ping-ponging to force me to pay attention and keep steering\n\nI felt like AP/FSD is purposely wanting me to let go of the wheel, because it deactivates if I try to steer myself\n\nBetween the two, I prefer Toyota's approach. It requires driver attention, rather than penalizing it.\n\nHonda balances the two nicely.  Excellent lane centering with aggressive reminders to keep steering\n\n\n (Oh, and Toyota/Honda also has a freaking radar plate and not just cameras!)",
+                                            "score": 3,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Vairman",
+                                            "body": "lane centering in my 2020 Subaru Outback only pongs when I try to control the steering, let it do its thing and the car is smooth. But if I do that the car yells at me to keep my hands on the wheel. we just go back and forth for a while until I get sick of this nonsense and turn lane centering off. Jesus.  \n\nLane departure works better but as far as I'm concerned just having it flash the light to tell me I'm getting too close to the edge is enough, having it steer back for me is too much.\n\nAdaptive cruise control with the Subaru Eyesight system is great though. It's the reason I bought that car. It's very good.  Most of the time.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "WingerRules",
+                                    "body": ">2019 Toyota RAV4 - whatever gen TSS this was sucked. Lane centering was reactive not proactive so it would play pong with the lane markers\n\nMy Ford Escape does the same thing. I turned off lane centering because of this. Actually, that's not even correct, what really got me to turn off lane centering is I caught the car trying to suddenly dive me off the road into the woods on the highway.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "ZannX",
+                            "body": "It's good at seeing lane lines. Terrible at all the \"extra curriculars\" that it tries to do - all that does is create more edge cases / failure modes.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "stakoverflo",
+                    "body": "> It honestly should be retired. \n\nThe video did demonstrate Teslas \"panic braking\" on the highway just because those reflectors on the side of the road would trip it up sometimes. Definitely does not seem reliable from what they demonstrated in this video",
+                    "score": 62,
+                    "replies": [
+                        {
+                            "author": "ymjcmfvaeykwxscaai",
+                            "body": "I have constant issues with AP. FSD if I'm being honest rarely doesn't \"see\" something it just has poor risk management or decision making. It's way better at understanding the context of what it sees.  \n\nWaymo has been structured around lowering risk and making actionable efforts towards achieving real self driving since it was formed. I don't think this has ever been something Tesla prioritized. Even so I don't think they'll achieve unsupervised driving with just another sensor. Wouldn't hurt though. \n\nOlder folks see way lower insurance rates even with their relative sensory impairment. But they're much better about knowing their limits (usually). They won't drive after dark when they can't see, or in bad conditions. They'll take the easier, slower route.",
+                            "score": 26,
+                            "replies": [
+                                {
+                                    "author": "lowstrife",
+                                    "body": "> FSD if I'm being honest rarely doesn't \"see\" something it just has poor risk management or decision making. It's way better at understanding the context of what it sees.\n\nI rented a brand new M3 highland with HW4, drove it 300 miles in FSD. \n\nIt didn't make a single mistake or have a single hickup. Not a single moment of lack of confidence. Not a single weird turn into the wrong lane. Not a single \"mistake\" made when it comes to traffic laws. Not a single phantom brake. And I drove it in the city, on the highway, in suburbia, in the mountains. I drove it downtown, through one-ways and construction, at night, in the rain, with pedestrians and mopeds. It didn't miss a beat. I'm blown away. I have unbelievably high standards and its shocked me. The only negative things I have to say is its lane discipline isn't quite predictive enough with how it judges traffic, and it will left lane camp illegally. And the speed control was a bit faffy, especially in parking lots it's so slow, but I'm fine with being more cautious than speedy. \n\nSo when people talk about these other issues, I know they're talking about either autopilot which is dogshit 10 year old tech, or some very old version of FSD \"oh I tried it on my old Tesla and it performed awfully\". Because the 13 dot whatever its on now is... it's game over. Them and Waymo, they've got there pretty much. It's better than 95% of drivers I know. And it's a really difficult problem because while Elong is a toolbag and quite damaging for the world, the product is shockingly good. Most people cannot disassociate the two. Which is sad because the product is simply incredible.\n\nCompare that to Lucid's system which I drove 18 months ago. It tried to kill me within 5 minutes of using their system. First it thought that exit lanes were the normal travel lane, a rookie mistake of any lanekeep system. Then it crossed a double yellow line into oncoming in a turn and I had to take over to prevent a head-on. Compare that to Chevy Super Cruze which disabled itself randomly on I-90 for no obvious reason, and was \"weaving\" in it's lane, and wouldn't adjust over to the side of the lane when passing semi trucks.",
+                                    "score": -6,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "spekt50",
+                            "body": "I think the software is not quite there yet for using cameras.  LIDAR makes its own light so it knows shadows are obstacles.  Cameras require the system to know what is an obstruction and what is not.  Only problem I see with LIDAR going forward is the potential for interference from other LIDAR operating cars.",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "pithy_pun",
+                    "body": "Volvo EX90 has a LIDAR module standard (optional on the cousin Polestar 3) - though unclear if/how it's used at the moment. And increasingly cars are coming out with it from other marques too. I believe Audi has a model in addition to Mercedes and maybe BMW too?\n\n  \nBut really this is a comparison of the vision-only Tesla approach vs cars that have radar, ultrasonic sensors, and sometimes LiDAR too. Bog standard radar that has been around on cars for decades would have seen that looney tune wall the Tesla plowed through and engaged automated braking. So while only a few consumer cars have lidar, it's more an indictment on Tesla that they removed radar and ultrasonics too, to hew to Musk's vision-only ideology.",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "aprtur",
+                    "body": "Lexus LS500, when it's equipped with Teammate, has Lidar sensors - you can identify them by the big black boxes on the front fenders that house two of the sensors.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "TempleSquare",
+                            "body": ">Teammate\n\nI love that marketing!  (First time I'm hearing it)\n\nTesla has horrible marketing (\"autopilot\" or \"full self-driving\") that imply or directly indicate the car should be driving itself \n\n\"Teammate\" is exactly what it is. A system working *with you* to pilot the car",
+                            "score": 7,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "TunakTun633",
+                    "body": "GM's Super Cruise uses both radar and a GPS / LiDAR map mapped out by precision equipment and saved to the vehicle. Between that and its driver monitoring, it's easily the best system in production. \n\nAs far as I know, no company other than Tesla offers advanced capability without some non-camera sensor suite. It's unthinkable - which is why even Tesla did it until supply chain troubles presumably forced them to go without for a bit. \n\nIf not for Musk's ego - if only they had admitted some of their cars would ship without some capability, instead of treating it like some grand innovation that they would feel like they had to stick with - they'd be able to ship much safer and more consistent software. Who knows, they might even have been able to deliver their promised feature set on the weaker Hardware 3 computers that clearly can't keep up with Tesla Vision algorithms.",
+                    "score": 26,
+                    "replies": [
+                        {
+                            "author": "Magnetoreception",
+                            "body": "Super cruise uses radar",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "TunakTun633",
+                                    "body": "Right! Just like I mention in the first sentence.",
+                                    "score": 21,
+                                    "replies": [
+                                        {
+                                            "author": "Magnetoreception",
+                                            "body": "I mean only radar no LiDAR",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "TunakTun633",
+                                                    "body": "Right. \n\nThey use radar. \n\nThey also have a data set saved to the car, collected by LiDAR scanners that are way too expensive to ship on the car - and downloaded to any car running Super Cruise. This is a LiDAR map. \n\nThe vehicle has no LiDAR sensors. It does use LiDAR data.",
+                                                    "score": 26,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Ancient_Persimmon",
+                                                            "body": "That's true for quite a few systems. Ironically, Tesla has been one of Luminar's primary clients so far. They have a small fleet doing \"ground truth\" work for FSD.",
+                                                            "score": 2,
+                                                            "replies": []
+                                                        },
+                                                        {
+                                                            "author": "Magnetoreception",
+                                                            "body": "Sure but a LiDAR map doesn\u2019t necessarily change any of the safety in regard to the scenarios shown in the video if there\u2019s no tech onboard.",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "BeingRightAmbassador",
+                                    "body": "The maps used by the car are created via lidar, so unless you want to start a philosophical debate on the word \"uses\", you're both 1/2 right.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "TunakTun633",
+                                            "body": "I dunno... I was pretty specific. I never claimed the vehicle used LiDAR sensors.",
+                                            "score": 5,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "gimpwiz",
+                    "body": "I have been in a car with \"FSD\" only once, which was fairly recent. Phantom braking on an empty highway every five to ten minutes or so. WTF.",
+                    "score": 19,
+                    "replies": [
+                        {
+                            "author": "WingerRules",
+                            "body": "I'm surprised Tesla hasn't been sued by other motorists for causing an accident from phantom braking. There's a reason why brake checking people or stopping in the middle of a highway is illegal.",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "ymjcmfvaeykwxscaai",
+                            "body": "I've got 60k miles on my relatively recently made car and never had FSD phantom brake. Plenty of other disengagements though. However AP does it all the time.",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "gimpwiz",
+                                    "body": "I never had any issues with the plenum gasket on my L67 supercharger after >200k miles despite it being a known flaw. So I totally believe you, but I can't explain away the thing just slamming the brakes on an empty highway as my imagination, so all I can say is your mileage may vary. Some cars may work fine, the specific late-model Model Y with then-current FSD that I sat in would phantom brake regularly.",
+                                    "score": 13,
+                                    "replies": [
+                                        {
+                                            "author": "ymjcmfvaeykwxscaai",
+                                            "body": "Makes sense. We wouldn't have to rely on personal anecdotes if Tesla would tell us their intervention rate, but they don't. Probably because it doesn't paint them too favorably.",
+                                            "score": 4,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Dp04",
+                                    "body": "I\u2019ve had it come to a complete stop in the middle of a corner, because a lane merged with our lane ahead and it didn\u2019t know what to do. \n\nComplete stop. Blind corner. Middle of the road.\n\nThis was only a couple months ago. \n\nTerrible system.",
+                                    "score": 4,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "spekt50",
+                    "body": "In the video, I think he had to use FSD to get it to kinda work properly, but I think he flubbed a run or two by accidently tapping the brakes instinctively when he thought the car was not going to stop.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "VergeSolitude1",
+                            "body": "He never used FSD in any part of the Video.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "spekt50",
+                                    "body": "Ok, I see he was using autopilot.  I was under the assumption FSD and autopilot was the same thing.\n\nConfusing that Tesla does not just call it adaptive cruise control like just about every other company.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "VergeSolitude1",
+                                            "body": "Oh not your fault. His title is misleading and many people made the same mistake.",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "jtbis",
+                    "body": "I\u2019ve driven several different adaptive cruise control systems and they all are hard on the brakes.  I was an MB tech for a while and people would be in for brakes every 10k miles from using the adaptive cc.\n\nMy mom\u2019s Jetta goes through rear brakes every 10k because the adaptive cc slams only the rear brakes.\n\nThey accelerate too quickly for my taste also.  There\u2019s no reason my 4Runner should be winding up to 4000rpm pulling away from a slowdown.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "AdmiralZassman",
+                    "body": "Waymo have real self driving cars because they have lots of sensors sure, but also because a lot is programmed into them and they have humans in control centers.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "xnodesirex",
+                            "body": "And if you've been near waymo cars they have lots of irrational and insane behavior.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Windows-XP-Home-NEW",
+                    "body": "TIL autopilot and FSD are two different things!",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Dragonasaur",
+                    "body": "> lidar senors\n\nDo the new Volvos?",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "IronSlanginRed",
+                    "body": "Chevy uses high definition laser based lidar in conjunction with the super accurate laser measured mapping on their supercruise system. It's much better in poor weather or for things like the looney tunes wall. But its only on certain roads that they measure regularly. Mainly freeways and interstate highways.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Brothernod",
+                    "body": "Ignorant questions, how do you know it was AP instead of FSD, because of the speed the tests were conducted at? Is that something they could have forced? I thought they single stacked to FSD years ago.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "6158675309",
+                            "body": ">how do you know it was AP instead of FSD\n\nYou can see on the screen in the video what is used.  AP and FSD have different icons, etc. on the screen.",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "ymjcmfvaeykwxscaai",
+                            "body": "Wouldn't that be nice, anyways no the software for autopilot is 6 years old with minor changes made. FSD costs money and is on an entirely different software release schedule for the car. \nthe UI on FSD is very different and it also picks it's own speed. You can turn that feature off but it chooses a speed automatically.",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "Brothernod",
+                                    "body": "So could he have run these tests on FSD?",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "ymjcmfvaeykwxscaai",
+                                            "body": "He could run them again and use FSD. It might not give them the results they want though. \n\nMy takeaway from the video is that sensors are better than not so I'm not sure how much difference it makes to the overall point. AEB didn't kick in and that has nothing to do with either software, AP or FSD. that's purely a sensor issue.",
+                                            "score": -3,
+                                            "replies": [
+                                                {
+                                                    "author": "Dp04",
+                                                    "body": "It is not the YouTube channels fault that Tesla sells a product called auto-pilot that drives at full speed through obstacles in the road. It\u2019s not the YouTube channels fault that the ceo of Tesla said cameras were good enough when removing Radar.\n\nIt\u2019s not on Rober to test FSD when autopilot is on EVERY Tesla and is dangerous.",
+                                                    "score": 10,
+                                                    "replies": [
+                                                        {
+                                                            "author": "ymjcmfvaeykwxscaai",
+                                                            "body": "Radar based cars including prior Teslas and current fords have been involved in some very high profile crashes where radar did not funtion and hit vehicles stopped in the highway. It struggles at speed. \n\nI'm not saying sensors are bad overall, that's why waymo relies on multiple sensors. But there are very few cars actually available with lidar. And the camera/radar based ones are currently dangerous, and really don't solve any issues over the camera only ones.",
+                                                            "score": -1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "Brothernod",
+                                                    "body": "Yeah I guess I was curious if the video was secretly biased in a way that wouldn\u2019t match reality.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "1988rx7T2",
+                                                            "body": "I work in this industry.  The \"Lidar vehicle\" was a demonstration car, maybe a Lexus CUV?.  It wasn't optimized for the real world.  All they had to do was pick a bunch of scenarios, tune the system to work every time on them based only on the one sensor's inputs.  Then shoot the video.\n\nIn the real world these systems operate under fusion of multiple cameras (Tesla in this case but also systems like Subaru Eyesight) and you can't just slam on the brakes because one sensor sees something.  You get way too many false positives.  The sensors are supposed to cross check each other and create a \"fused\" object that averages/combines the signals.",
+                                                            "score": 3,
+                                                            "replies": []
+                                                        },
+                                                        {
+                                                            "author": "munche",
+                                                            "body": "Tesla's have the highest accident rate on the road. You don't need to bend reality to make them fail, their driver assist suite is just bad and even worse they pretend it's the best. And people believe them, and die.",
+                                                            "score": -1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "exjr_",
+                                                                    "body": "Are you referring to the iSeeCars study?",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "WhipTheLlama",
+                    "body": "As funny as it is, the wile e coyote test is the dumbest thing I've ever seen called a real test. It does not demonstrate a real-world scenario.",
+                    "score": -4,
+                    "replies": [
+                        {
+                            "author": "ThePretzul",
+                            "body": "I mean it\u2019s a good test of whether the camera system can actually detect potentially obfuscated obstacles or not. \n\nA radar/lidar system has no issues because it has multiple ways of determining if an object is present or not. A camera-only system cannot distinguish something that looks mostly like a road from an actual road ahead, because it has no range references to verify with.",
+                            "score": 12,
+                            "replies": [
+                                {
+                                    "author": "WhipTheLlama",
+                                    "body": ">  A camera-only system cannot distinguish something that looks mostly like a road from an actual road ahead, because it has no range references to verify with.\n\nCamera systems can, and do, build a 3D model of the world. While I would like to see LIDAR used to augment and improve vision range models, it's incorrect to say that they can't do it. Camera systems have weaknesses, but outside of poor visibility conditions, the weaknesses are not impossible to overcome, although LIDAR would make some of them easier to solve.",
+                                    "score": 0,
+                                    "replies": [
+                                        {
+                                            "author": "ThePretzul",
+                                            "body": "They build a flawed and inaccurate 3D model specifically because they are inferring range information based on perspective (the difference between images from cameras located in different points on the car) and estimated/known sizes of objects such as road signs. \n\nThe only way for a camera system to pass the \u201cWile E Coyote test\u201d, for example, is if it were to notice that the apparent position of any signs present in the image of the road was not lining up when comparing the expected position across multiple cameras. As you got closer the landmarks that appear distant in the static image would have very different positions from frame to frame compared to how much you\u2019d expect it to shift within the camera\u2019s perspective for an object that was truly distant, but this effect only become noticeable through the noise in the data (because the car itself is moving and shaking) once you\u2019re far too close for a stop to be possible. \n\nObviously it\u2019s not a realistic scenario, but it is one that highlights the necessity of multiple data sources to reference against when handling safety-critical functions (such as autonomous operation). It is absolutely a \u201cworst case scenario\u201d for any kind of CV-only system, but that\u2019s because that kind of test is rather tailored towards the specific weakness of such a system. \n\nThe answer is not to use only one or the other, as lidar/radar have their own weaknesses (such as the long shadows objects can cast when observed from a point source), but instead to utilize a blend of multiple different sensor types to allow systems to overcome their individual weaknesses and map their surroundings as accurately as possible.",
+                                            "score": 5,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "PsychologicalPea3583",
+                    "body": "As somebodyu mentions below, FSD was used.",
+                    "score": -10,
+                    "replies": [
+                        {
+                            "author": "ymjcmfvaeykwxscaai",
+                            "body": "I don't see it being used in the video? It's incredibly obvious when it's in use. the entire UI is different.",
+                            "score": 14,
+                            "replies": [
+                                {
+                                    "author": "bluekkid",
+                                    "body": "Automatic Emergency braking did not work, so he was using autopilot.  Not a great endorsement of any electronic safety feature on a Tesla.\n\nWhich is sad considering the effort they put into getting extremely good Crash Test Safety scores.",
+                                    "score": 8,
+                                    "replies": [
+                                        {
+                                            "author": "munche",
+                                            "body": "The trick is, whichever Tesla automation was in use during the accident? That's the bad one. You just have to get the good one.\n\nThe good one is always a different one than the one that crashed, but also it's the driver's fault for not knowing better than using the bad one",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Topikk",
+                                    "body": "Granted I watched this days ago, but as I recall he switched to FSD after the Tesla autopilot turned the child into ground beef.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "ymjcmfvaeykwxscaai",
+                                            "body": "That's Autopilot, an L2 lane keep/TACC software included for free on every car. \"Full Self Driving\" is the name of the neural net (also l2) driving software that you have to pay for on the car. Don't blame me for the names I'm just the messenger.",
+                                            "score": 5,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "OldManBearPig",
+                    "body": "> Which cars in America have lidar senors? \n\nAnything under GM with Super Cruise",
+                    "score": -6,
+                    "replies": [
+                        {
+                            "author": "Ancient_Persimmon",
+                            "body": "No Super Cruise cars feature LiDAR. You're thinking of radar.",
+                            "score": 16,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "007meow",
+                    "body": "I got canned from ALL of the Tesla subs for saying similar - not even just the one I posted in, *all* of them",
+                    "score": 0,
+                    "replies": []
+                },
+                {
+                    "author": "zacboggz",
+                    "body": "He tested FSD after realizing autopilot was terrible.",
+                    "score": -2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "StrangeSmellz",
+            "body": "Does the lexus have a giant thing on its roof or is this a pre production thing",
+            "score": 21,
+            "replies": [
+                {
+                    "author": "Lugnuts088",
+                    "body": "I got the vibe that it was a LIDAR company's test mule and we were watching a LIDAR advertisement disguised as \"sneaking\" into Disney and playing with a Tesla.",
+                    "score": 86,
+                    "replies": [
+                        {
+                            "author": "None",
+                            "body": "[deleted]",
+                            "score": -1,
+                            "replies": [
+                                {
+                                    "author": "Oo0o8o0oO",
+                                    "body": "The organization that provided the lidar tech on the car definitely got several shout outs in the video.",
+                                    "score": 33,
+                                    "replies": [
+                                        {
+                                            "author": "munche",
+                                            "body": "You can tell how effective it was since nobody knows the org's name who watched it",
+                                            "score": 10,
+                                            "replies": [
+                                                {
+                                                    "author": "Oo0o8o0oO",
+                                                    "body": "lol for sure. they are the least important part of the video",
+                                                    "score": 4,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "BeingRightAmbassador",
+                                            "body": "So did Tesla, what's your point?",
+                                            "score": -4,
+                                            "replies": [
+                                                {
+                                                    "author": "Oo0o8o0oO",
+                                                    "body": "Were you not following the thread?\n\nOP said he thought it was an ad for a LiDAR company and a LiDAR company\u2019s test mule. Someone replied that LiDAR isn\u2019t a brand, but there are absolutely companies focusing on LiDAR for cars, as shown in the video. It was definitely their test mule and an argument could easily be made that they did this to advertise their brand.",
+                                                    "score": 3,
+                                                    "replies": [
+                                                        {
+                                                            "author": "BeingRightAmbassador",
+                                                            "body": "> It was definitely their test mule and an argument could easily be made that they did this to advertise their brand.\n\nWho cares about the advertising aspect? A test's legitimacy is dictated by the testing procedure, not who pays for stuff and loans tools (and whether or not it was a legit test is a different discussion.) A test isn't invalidated because the opposition tested it, a test gets invalidated because the procedure is flawed.\n\nE.G. Apple benchmarks their CPUs against competitors, it's not invalid because Apple did it, it would be invalid if they benchmark x86's on ARM benchmarks.",
+                                                            "score": -4,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Oo0o8o0oO",
+                                                                    "body": "Jesus Christ dude I was answering someone who said LiDAR isn\u2019t a company so it can\u2019t be advertisement to say yes it was a company providing the LiDAR control for the experiment and advertising their brand. I made no insinuations about the validity of the testing in this thread. Keep moving the goalposts, Being Right Ambassador.",
+                                                                    "score": 4,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "BeingRightAmbassador",
+                                                                            "body": "You still don't understand. Brand is pointless. The content of the testing is what actually matters. The testing could be done by LITERALLY ANYONE and if it's a proper test, it doesn't matter. It could be done by a company called 'FUCK TESLA LLC' and it doesn't matter. It could be done by 13 college students in a group called \"I hope Lexus buys us out\" and it wouldn't matter. \n\nProper testing is objective and agnostic. It doesn't know or care, the whole \"test mule advertising\" is as relevant as me bring up Cars&Bids. Might as well bring up the events of Pearl Harbor.",
+                                                                            "score": -4,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "Oo0o8o0oO",
+                                                                                    "body": "It\u2019s an advertisement for their brand regardless. This testing was far from scientific, even if I agree with the results. \n\nMy issue with you is that I replied to a guy that said there was no advertisement for a LiDAR firm, which is objectively untrue. I replied to say that, and you went off in a direction I don\u2019t care to debate. Take care dude, I\u2019m done.",
+                                                                                    "score": 5,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "BeingRightAmbassador",
+                                                                                            "body": ">It\u2019s an advertisement for their brand regardless.\n\nEqual or lesser than Tesla's advertising in it. Go ahead and count how many times it's name was brought up. But sure, feel free to pretend that this is somehow good press for a company that doesn't even get their name said instead of Tesla that is said like 25 times. \n\nI guess if it is advertising, they are the worst advertisers on earth since they don't even say the name of the brand they're advertising while they say the competitor's name way more often.",
+                                                                                            "score": -1,
+                                                                                            "replies": []
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "lowstrife",
+                                            "body": "I mean the guy driving the Lidar car is wearing the companies shirt. Mark isn't even driving it himself. There are so many little things which make it feel like an add for Luminar.",
+                                            "score": 0,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Ancient_Persimmon",
+                                    "body": "Lexus doesn't equip production cars with LiDAR; this was tested with Luminar equipment that was added to the car. The video did make mention of Luminar.",
+                                    "score": 15,
+                                    "replies": [
+                                        {
+                                            "author": "banelingsbanelings",
+                                            "body": "Oh wow, that makes the test extra shady. Maybe I was just not watching for the notes/clues, but I never got the memo, that this was not a production Lexus.\n\nBecause, if it is a test mule. It would have been clearly first coded/built to ace these 5 generic tests.  \nAnd if the current parameters have tons on unwanted/unnecessary reactions in regular city driving/beeing too strict, they would have been loosened/altered.\n\nWe don't know at which state the software is, or if it even has been rolled back to the ace the test versions, because there is clearly a motive for the Lidar company guy to make it look like the best it can be.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "1988rx7T2",
+                                                    "body": "ding ding ding.  NASCAR vehicle optimized for Daytona 500 vs some guy's Mustang at Daytona 500",
+                                                    "score": 3,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "aprtur",
+                                            "body": "Incorrect about Lexus not equipping it on production cars - the LS500 has Lidar when equipped with Teammate.\u00a0 That's what the extra black boxes on the fenders are.\n\n\nETA - down voted for....the truth?\u00a0 The LS500s with Teammate equipped are a production model with Lidar...",
+                                            "score": -1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "stakoverflo",
+                                    "body": "Lugnuts simply said \"**a** LIDAR company\", they aren't suggesting that's the name of some company.\n\nBut yea I think they're right that it is probably some random company attempting to get funding for their tech as I don't see that scoop on a single model on Lexus' website now that I go look for it.\n\nThey intentionally blacked out the badges and did not advertise it as Lexus' tech in the video. I probably could've been clearly with my title here, in hindsight. I guess I missed it when/where Mark said the name of the company that the other commentors refer to",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "1988rx7T2",
+                                            "body": "uhh the Luminar guy is wearing a T shirt that says Luminar",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "stakoverflo",
+                                                    "body": "Am I supposed to just assume that any time someone is wearing a logo on their t-shirt, thats their own company?",
+                                                    "score": 0,
+                                                    "replies": [
+                                                        {
+                                                            "author": "exjr_",
+                                                            "body": "> Am I supposed to just assume that any time someone is wearing a logo on their t-shirt, thats their own company?\n\nConsidering the car also had the name and logo on it, yes?\n\nEither way, Mark linked to them in the video description and Luminar had a banner on their website's front page promoting the video.",
+                                                            "score": 5,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "NotsoNewtoGermany",
+                                    "body": "There is only one major lidar company for automobiles.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "belvedere58",
+                    "body": "It was a LIDAR ADAS company that just used an older Lexus model as a test vehicle for their equipment.  \n\nThis test had nothing to do with any content available on current Lexus products.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "I_RAPE_CELLS",
+                    "body": "It's a modification of an existing RX. It's weird the last news of the company in the video, Luminar, partnering with Toyota was in 2017. Seems like Toyota is actually adopting a Chinese lidar company called RoboSense for their EVs instead.  But Luminar does actually supply their tech to Volvo's production ex90. I does feel a bit sponsored but still I appreciate the science from mark. Curious why they didn't just test with the ex90, maybe they needed a preproduction test vehicle to get the lidar data/graphics for the video",
+                    "score": -1,
+                    "replies": []
+                },
+                {
+                    "author": "sayf00",
+                    "body": "I have a feeling the extra LiDAR sensor on the roof was there so they could record the scan. There probably isn\u2019t a way to plug into the car\u2019s scanner and get a live feed.",
+                    "score": -2,
+                    "replies": [
+                        {
+                            "author": "Ancient_Persimmon",
+                            "body": "The car doesn't come with one, it was added by the company selling them.",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "thestigREVENGE",
+            "body": "The way he cuts the video to avoid showing the screens of both cars during the test is sketch.  Even in the original cut he posted on Twitter, why does he activate autopilot 2 seconds before the crash? The autopilot line appears to have disengaged moments before the crash too.  \n\nEven as someone who detests Tesla cars even before the Musk shenanigans, and as someone who enjoys Mark Rober's content, I dislike how the test is conducted.  Stick to two uncut videos, one inside of the car and one outside.",
+            "score": 202,
+            "replies": [
+                {
+                    "author": "The_FlatBanana",
+                    "body": "He jerked his hand right before impact which disengaged AP.",
+                    "score": 83,
+                    "replies": [
+                        {
+                            "author": "thestigREVENGE",
+                            "body": "People argue that the AEB should kick in and stop the car regardless.  Yes I agree.  Do I think this test is conducted well? Absolutely not.  Plus, I'm so used to seeing AEB tests be repeated three times to make sure you get consistent results.",
+                            "score": 58,
+                            "replies": [
+                                {
+                                    "author": "The_FlatBanana",
+                                    "body": "I think there are some things he left very open ended. \n\nWhy title the video \u201cCan you fool a self driving car?\u201d and not use FSD?\n\nThis was obviously a video conducted with Luminar giving their nod, I mean they even posted the video to their website before removing it.\n\nSomeone else made the point that this video was posted five days before Luminar earnings.",
+                                    "score": 41,
+                                    "replies": [
+                                        {
+                                            "author": "1988rx7T2",
+                                            "body": "And Luminar's stock has crashed.  It's like $5 a share when it used to be over 100.",
+                                            "score": 8,
+                                            "replies": [
+                                                {
+                                                    "author": "The_FlatBanana",
+                                                    "body": "Right. They did a 1-15 split last year.\n\nBut this video was used to benefit Luminar.",
+                                                    "score": 9,
+                                                    "replies": [
+                                                        {
+                                                            "author": "PsychologicalPen8634",
+                                                            "body": "Stock charts and price history account for splits",
+                                                            "score": 7,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "pithy_pun",
+                    "body": "Agreed the methodology here is suspect. But why didn't automated emergency braking (AEB) engage at all?  I thought AEB is a standard feature on these cars and is not dependent on whether Autopilot was on. Potentially running into an obstacle of any sort should trigger AEB well before impact.",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "themasterofbation",
+                    "body": "This...I'm sick of Musk & Tesla's stock price and calling something that is not self driving Full Self Driving. But there's many holes in Mark's \"experiment\"\n\n  \nHe should redo it on the same wall, same situations, with FSD",
+                    "score": 45,
+                    "replies": [
+                        {
+                            "author": "thestigREVENGE",
+                            "body": "- two uncut videos filming the inside and outside of the vehicle\n\n- test more cars with both systems (xpeng for vision based, a myriad of other Chinese EVs for lidar)\n\n- a run with both cars in normal driving, a run with cruise control+, and a run with FSD and equivalent on the other car\n\n- *repeat* the test at least 3 times for consistent data\n\nI can't believe I'm saying this, especially the last point, to an ex-Nasa engineer. More data sets! The video as it is is nothing but a glorified puff piece, riding on the 'hate Elon' bandwagon for an advert for that Lidar company.",
+                            "score": 40,
+                            "replies": [
+                                {
+                                    "author": "Michelanvalo",
+                                    "body": "You're asking Mark Rober to follow real scientific methods, not his pop science. That's never going to happen.",
+                                    "score": 4,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "zoglog",
+                                    "body": "yup, felt more like an ad for LIDAR. \n\nThough in real world we all know the limitations of Tesla's vision system to fulfill the promise of FSD. It's always been a longshot as much as elon fanboys will say the AI will compensate for the loss of input data somehow.",
+                                    "score": 10,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "munche",
+                            "body": "Why? \"If you want the car to not kill you you have to sub FSD, everyone knows Autopilot will kill you\" is uhhh real bad",
+                            "score": 13,
+                            "replies": [
+                                {
+                                    "author": "Logitech4873",
+                                    "body": "In real world Tesla AEB actually rates very high.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "ymjcmfvaeykwxscaai",
+                                    "body": "I don't know how much experience you have with L2 systems but they're all bad. That's why they're L2 systems. Hyundais on the 2021+ elantras in my experience is horrible specifically. \n\nArguing about whether or not L2 systems should be allowed is fair but it isn't an issue specific to tesla. Tesla had multiple high profile crashes when they were using Mobileye's radar ap. Ford has crashes now, also using radar and camera based L2 adas. All of them have the same misleading advertising for the L2 systems increasing safety. \n\nOnly google with Waymo decided that allowing users an L2 system was antithetical to making a safe self driving car, so they went the risk adverse slow rollout they've done and it's paid off.",
+                                    "score": -1,
+                                    "replies": [
+                                        {
+                                            "author": "munche",
+                                            "body": "\"everyone else is doing it, why blame Tesla\" is dishonest and incorrect. \n\nTesla's driver attention features are worse than everyone else, Tesla allows their system to be used in situations that other manufacturer's won't because of safety, and most importantly Tesla's CEO absolutely loves to imply every single one of the cars they sell is a Fully Robotaxi Capable 10,000x safer than a Human Future AI Machine. \n\nEvery other company is very aware that their cars are not actually driving themselves and designs with that intent in mind. Tesla's CEO often publicly posts things like \"The car is perfect and we only have a driver for legal reasons\" because the whole goal is Wink wink, we all know this car is fully self driving. Don't worry about that Government Nonsense. Just let it drive you to work. It's great!\n\nTesla's safety culture is that they only really care about safety as a marketing and branding point and they will 10/10 times prioritize better marketing and less safety than making a feature safer. Hence them shipping AEB that just doesn't work.",
+                                            "score": 4,
+                                            "replies": [
+                                                {
+                                                    "author": "ymjcmfvaeykwxscaai",
+                                                    "body": "Source on the driver attention features? Mine's camera based and you cannot even look away for a split second. It won't even let you use the screen lol.  The wheel nag has been gone for some time and has been replaced with the most aggressive eye tracking on the market. \n\nIf we're talking about the ceo he has a lot more issues than overpromising or lying about auto features. You won't see any fight from me on there.",
+                                                    "score": 9,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "1988rx7T2",
+                                                    "body": "it has an infrared cabin camera to monitor driver attention on the newer cars.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "munche",
+                                                            "body": "Consumer Reports ranks Tesla's driver assist suite 8th with specifically low scores on Unresponsive Driver Monitoring.",
+                                                            "score": 2,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "thestigREVENGE",
+                                            "body": "I don't know about your cars, but in mine, the AEB and the self driving are on different systems.  If the car sensors detect a dangerous situation, it will override *everything* and brake for you, regardless whether you are in the equivalent of autopilot or FSD.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "ymjcmfvaeykwxscaai",
+                            "body": "I think real tests are great for your point exactly. Safety situations or real world tests are the only ways to convince people, otherwise they're just going to base it on their own personal experience. \n\nI personally have had FSD take me from my driveway, 240 miles away to a sushi restaurant and back with no interventions, not only avoiding touching the pedals or wheel but also not having any awkward decision making or unsafe decisions for me or my passengers. In fact a lot of it's decisions (like making and closing gaps for a car in the middle turn lane while at a light) feel eerily human. \n\nShowing that to the average retail investor makes them do crazy things even though it really isn't relevant to self driving at all like a waymo would be. But you can't do that with a waymo today, and most people don't have access to them so they don't know how far they are ahead.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "End_of_Life_Space",
+                                    "body": "I used FSD to go 2000+ miles to see the solar eclipse and had very few issues. It drove through downtown in New Orleans and Dallas better than I could have. The biggest problem I had was a huge storm forced FSD to go 50mph instead of 70 since we couldn't see like 500 feet ahead of me in the storm.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "CulturalAd4117",
+                            "body": ">He should redo it on the same wall, same situations, with FSD\n\n\nDoes the software make a difference in this case? Not being able to tell if an object is a 2d representation or a real 3d thing is a hardware problem resulting from using a single camera, no software can solve that. You need either multiple lenses (like a 3d film camera) or LiDAR/radar to give a range for solid objects in front of you",
+                            "score": 0,
+                            "replies": [
+                                {
+                                    "author": "Logitech4873",
+                                    "body": "That's an assumption on your part. Software can make a lot of difference, and you get get perspective information just from moving around.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "nimama3233",
+                                            "body": "The only way software could make a difference here would be \u201cslow down to a stop because I can\u2019t see shit\u201d.\n\nNo amount of software can make a camera detect what can\u2019t be seen optically.\n\nBut yes, in theory the car might have just jammed the brakes as soon as it couldn\u2019t see anything. Then again, that\u2019s dangerous in itself while driving. But then again then again\u2026 these weren\u2019t exactly a real scenarios; they were more than extreme.",
+                                            "score": -1,
+                                            "replies": [
+                                                {
+                                                    "author": "Logitech4873",
+                                                    "body": "> The only way software could make a difference here would be \u201cslow down to a stop because I can\u2019t see shit\u201d.\n\n\nWhich is EXACTLY what you should be doing when losing vision. This is 100% the safe and valid action to take. So yes, it can do that! That's a way of making it safer!",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "airfryerfuntime",
+                    "body": "Mark Rober has kind of turned into a hack. Once he got his army of teenagers watching his videos on a loop, he just started cranking out trash.",
+                    "score": 26,
+                    "replies": []
+                },
+                {
+                    "author": "Ftpini",
+                    "body": "When you are running a test to achieve a desired outcome you will get that outcome. He was not testing autopilot. He was showing a way to break it. He enables autopilot super late as it doesn\u2019t give the system sufficient time to fully engage. If he did it might have stopped for that wall. I can\u2019t say why he chose to disengage it right before the impact.  \n\nIMO it does completely invalidate whatever point he was trying to make. I am curious how many people would have driven through that wall all on their own. I bet it\u2019s most.",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "ctzn4",
+                    "body": "I also saw on Twitter that he later released other footage of the video that captured different phones in the cabin (an iPhone vs a Pixel), plus other screenshots indicating that there were multiple takes instead of one that was implied. Granted, the poster seemed like a major Tesla fan so I'm taking it all with a huge grain of salt. But all of that combined with the LiDAR company's involvement behind the scene just puts a big question mark on the trustworthiness of the entire video as a whole.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Noobasdfjkl",
+                    "body": "This dude has been an annoying obsession of reddit for a while. His porch pirate series was being very obviously scripted after at least the first few as well.\n\nThere are so many clearly legitimate issues with Tesla to have beef with, I don't understand why it's necessary to start faking issues too.",
+                    "score": 11,
+                    "replies": [
+                        {
+                            "author": "NotADonkeyShow",
+                            "body": "no way! viral videos are popular with people on a platform that has millions of people!?!?!?!?!\n\nwhen you talk about a website likes its one person it's time to go  outside.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "Noobasdfjkl",
+                                    "body": "I dunno, I tend to think it\u2019s time to go outside when you get inexplicably furious about comments on reddit.",
+                                    "score": 4,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "munche",
+                            "body": "The car with the highest accident rate and highest fatality rate on the road which has had multiple government investigations due to it's faulty driver automation? Yeah they had to fake it to make them look bad \n\nlmao",
+                            "score": -1,
+                            "replies": [
+                                {
+                                    "author": "Noobasdfjkl",
+                                    "body": "The car with the highest fatal accident rate is the Hyundai Venue (according to the iSeeCars study using data from US FARS). The IIHS (which may have better or worse data depending on how you\u2019re looking at it) lists the Mitsubishi Mirage G4 as the car with the highest driver death rate.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "scottstedman",
+                                            "body": "I don't have a dog in this fight but if [this](https://www.iseecars.com/most-dangerous-cars-study) is the study you're referencing, I'm not entirely sure it helps your case that Tesla somehow avoided being the top of this list, seeing as the overall brand is literally number one and 50% of their lineup is on this list despite the fact that they market their cars as being the safest cars in the world.",
+                                            "score": 3,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "fyshstix",
+                                            "body": "And the **brand** with the highest fatality rate is Tesla at nearly double the industry average according to the iseecars study you sourced.",
+                                            "score": 10,
+                                            "replies": [
+                                                {
+                                                    "author": "Logitech4873",
+                                                    "body": "The study is well known for being flawed, improperly sourced and irreproducible.",
+                                                    "score": -1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "greenw40",
+                            "body": ">  I don't understand why it's necessary to start faking issues too.\n\nLike you said, he's obsessed with reddit, and \"Elon bad\" is how you get attention around here.",
+                            "score": 0,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Atompunk78",
+            "body": "Wasn\u2019t this video sponsored by a LiDAR company or something? And there were clearly (yet hidden from us) multiple takes for each challenge, showing there\u2019s at least *some* bullshittery afoot\n\nI don\u2019t like or dislike Tesla, or LiDAR, I\u2019m just saying my opinion on the video",
+            "score": 119,
+            "replies": [
+                {
+                    "author": "StanknBeans",
+                    "body": "I think those multiple takes were just different camera feeds.",
+                    "score": 21,
+                    "replies": [
+                        {
+                            "author": "Atompunk78",
+                            "body": "The speedo said different speeds at different points where it should\u2019ve been the same, according to other accounts I\u2019ve seen (I haven\u2019t verified this myself)",
+                            "score": 20,
+                            "replies": [
+                                {
+                                    "author": "wtfduud",
+                                    "body": "He posted the full uncut recording from inside the car on [twitter](https://x.com/MarkRober/status/1901449395327094898).",
+                                    "score": 7,
+                                    "replies": [
+                                        {
+                                            "author": "Michelanvalo",
+                                            "body": "It's a different take than the one in the YouTube video. A guy in the replies points out the Xwitter video is engaged at 42mph, the YT is 39mph.\n\nNot only that, but Mark says on xwitter...\n\n> Not sure why it disengages 17 frames before hitting the wall but my feet weren\u2019t touching the brake or gas.\n\nBecause you jerked the wheel, dummy",
+                                            "score": 13,
+                                            "replies": [
+                                                {
+                                                    "author": "Slam_Beefsteel",
+                                                    "body": "You call THAT jerking the wheel? He barely reacted! If that's all it takes to deactivate Autopilot in a crash situation, that's outrageous.",
+                                                    "score": 9,
+                                                    "replies": [
+                                                        {
+                                                            "author": "2fast2nick",
+                                                            "body": "Ha seriously, that is barely a movement.  You could get more than that from a bump in the road.",
+                                                            "score": 3,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "Eggonioni",
+                                                    "body": "> Because you jerked the wheel, dummy\n\nhis hands rotate the wheel like a hundredth of a degree what hallucinations are you seeing lmao, you're literally SUPPOSED to keep your hands on the fucking wheel during autopilot, how can anyone keep them completely still on a road???",
+                                                    "score": 7,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "Atompunk78",
+                                                    "body": "Yeahhh exactly, thanks for clarifying my point!",
+                                                    "score": 3,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "browsk",
+                    "body": "I think it\u2019s fair to be critical of both. I don\u2019t trust camera only no matter what, fog alone is enough of a reason it should not be legal.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "Atompunk78",
+                            "body": "Absolutely, assuming the experiments were conducted fairly of course",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "browsk",
+                                    "body": "I mean the fog one can\u2019t really be bsed, it just can\u2019t see through fog at that spectrum",
+                                    "score": 6,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "yourlocalFSDO",
+                            "body": "Do you pull over whenever it gets foggy?",
+                            "score": -1,
+                            "replies": [
+                                {
+                                    "author": "browsk",
+                                    "body": "No but I also don\u2019t get fooled by a painted bedsheet like tesler \ud83d\ude02",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "stakoverflo",
+                    "body": "He did mention the guy who created the LIDAR detector he wore inside Space Mountain was with him (and in the video), but I'm not sure how much more he was involved.\n\nI guess I didn't necessarily notice hints of multiple takes, but also I was cooking lunch while watching so \ud83e\udd37\u200d\u2642\ufe0f",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "Atompunk78",
+                            "body": "That\u2019s fair\n\nBut yeah, especially with the flack Tesla\u2019s getting at the moment (which puts everyone\u2019s guard down), the whole thing seems *really* dodgy to me",
+                            "score": 9,
+                            "replies": [
+                                {
+                                    "author": "stakoverflo",
+                                    "body": "FWIW most youtubers tend to film stuff WELL in advance of it being published online. Obviously Musk was still who he is today a year ago, but the timing feels a little bit more coincidental to me.\n\nLike, between filming the Space Mountain stuff, 3D printing and assembling the rollercoaster, editing... No way this all could've been turned around in a short time",
+                                    "score": 9,
+                                    "replies": [
+                                        {
+                                            "author": "Atompunk78",
+                                            "body": "That's a good point, though I more meant people's guard is down rather than it being something intentional on his part necessarily",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "browsk",
+                                    "body": "I think you\u2019re just a musk fanboy in disguise. You will accept his \u201cauto pilot\u201d and \u201cfull self driving\u201d titles and call question into a video critical of his technology, but also admit to not verifying anything you repeated lol",
+                                    "score": -1,
+                                    "replies": [
+                                        {
+                                            "author": "Atompunk78",
+                                            "body": "This is obviously ridiculous\n\nI haven\u2019t accepted anything about self driving, I\u2019m using those words because that\u2019s what literally everyone on this thread is doing, those are the words whether accurate or not\n\nI call anything into question that seems dodgy, I don\u2019t give a shit who it is",
+                                            "score": 6,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Snoo93079",
+                    "body": "Really good video, but how many cars actually have LiDAR? My understanding is that very few do.",
+                    "score": -2,
+                    "replies": [
+                        {
+                            "author": "blainestang",
+                            "body": "Lucid and Mercedes are the only ones that may actually be using LiDAR right now in the US market.\n\nI say \"may actually be using\" because Audi had LiDAR a while back, but removed it \\~6 years ago to basically no effect because it seemingly wasn't doing much, at least in the US market cars.\n\nVolvo EX90 has Lidar in the US, also, but they specifically state it isn't being used except for data gathering.",
+                            "score": 10,
+                            "replies": [
+                                {
+                                    "author": "1988rx7T2",
+                                    "body": "almost like the people who do this for a living don't see a value in it, except of course this Lidar startup with a crashing stock price.",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "Atompunk78",
+                                            "body": "Yeahhhhhh exactly :/",
+                                            "score": 4,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "ctzn4",
+                                            "body": "Correct me if I'm wrong, but LiDAR seems like of pointless even from an amateur perspective. It's a middle ground between camera and radar, but doesn't have the range and penetration of radar, or the capture details in images like cameras do. While it provides an accurate 3D depth map, I don't find it particularly convincing for an automotive ADAS application. Radar plus cameras should work just fine if sensor fusion is done correctly. \n\nStill can't forgive Tesla for taking away radar though. I don't think a camera-vision only approach is the way for full autonomy without driver supervision.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "1988rx7T2",
+                                                    "body": "So do you blame Subaru for not having forward radar?",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "Dragonasaur",
+                                            "body": "Yeah but everyone knows LiDAR is better for mapping and object detection in real-world scenarios (not Looney Tunes)\n\nCompanies would only use cameras for cost cutting (which we know Tesla is very prone to doing) and object/text recognition (reading street signs like Tesla does)",
+                                            "score": 0,
+                                            "replies": [
+                                                {
+                                                    "author": "1988rx7T2",
+                                                    "body": "Again if it were actually better in the real world, when operating under sensor fusion, more vehicles would have it, instead of a bunch of Waymo robo taxis that lose money on every ride.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Dragonasaur",
+                                                            "body": "Please don't use the American car market as a benchmark for anything tech/safety",
+                                                            "score": 0,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "1988rx7T2",
+                                                                    "body": "USA adopted the strictest automatic emergency braking regulation in the world, FMVSS 127.",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "nimama3233",
+                            "body": "Well not many cars have or claim FSD. The ones that do all use LiDAR, except for Tesla.\n\nCertainly the most successful, Waymo, uses LiDAR.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Snoo93079",
+                                    "body": "That's true, but many cars offer driver assists that's not too much different than autopilot.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Atompunk78",
+                            "body": "I think very few yeah, I\u2019m not sure though",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ryzenguy111",
+            "body": "I would\u2019ve liked to see another vision only system (subaru) as a comparison",
+            "score": 11,
+            "replies": [
+                {
+                    "author": "LeftysRule22",
+                    "body": "> Subaru\n\nYep I'd have been really interested to see if the stereoscopic cameras on Eyesight could have detected the wall, since they have depth perception like we do.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "animealt46",
+                    "body": "Subaru is not a tech company, they aren't even a car company that's good at tech. Nobody believes that Subaru has a particularly good vision based system, even though it's totally true.",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "14travis",
+                    "body": "IIHS just released a video about reflective clothing on pedestrians at night and showed the limitations of multiple systems. The only system to pass: Subaru\u2019s Eyesight. \n\n[Link to video](https://youtu.be/uyVk_VVr2Y8?si=Uxpu5FclbJ_890Is)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "KapitanRedbeard",
+            "body": "The Verge has a good (at least based on my read) about why the video isn't as scientific as it seems[ here](https://www.theverge.com/tesla/631308/mark-rober-tesla-youtube-autopilot-lidar-fake-claims?utm_content=buffere8061&utm_medium=social&utm_source=bsky.app&utm_campaign=verge_social).  I think it was an interesting enough watch but not sure there's any takeaway that isn't already known.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "ottrocity",
+            "body": "I have worked as a support engineer for autonomous vehicles since 2020. None of the serious players in the autonomous markets rely solely on vision systems because they are not reliable or safe. \n\nI've said for years that Tesla's system is a gimmick and if you trust your life to it, you're an idiot.",
+            "score": 14,
+            "replies": [
+                {
+                    "author": "nguyenm",
+                    "body": "It's established that other ranging equipment is needed, and on the topic of LiDAR what's the estimate for solid-state ones being affordable and mass-produced for consumer vehicles? \n\nIt's obvious not every new vehicle can be equipped like Waymo, and nor would it cost something south of USD$100k. Not to mention the active management (periodic maintenance) and stewardship of the LiDAR's accuracy over time. \n\n  \nTesla could reverse the austerity and reintroduce the radar, preferably higher resolution, that it removed years back during the COVID-19 chip shortage. However by that would it be \"enough\"?",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "ottrocity",
+                            "body": "Radar's only good for identifying an object's distance. It's not great at identifying if what it sees is a person or a tree. It's also prone to interference, and if your radar emitter gets dirty or full of snow or ice or rain, it's useless. \n\nEveryone uses lidar because of its resolution, accuracy, and reliability. It also is limited by precipitation, as seen in the video, but as seen in the video, the vehicle identifies the wall of water as an obstacle and stops. \n\nThere isn't a technology out there that can replace the human eye. We see through the glass windows of other vehicles and plan accordingly. We see the patterns of vehicles and adjust accordingly. Autonomous vehicles cannot predict. They only react. The tech isn't there yet for what people expect autonomous vehicles to be, and probably won't be for a long while. \n\nPerhaps when more vehicles have multiple sensors and we can create robust enough networks, all of the vehicles could share data and be some semblance of what people expect out of them. But that technology does not exist yet.",
+                            "score": 8,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "R_V_Z",
+                    "body": "> I've said for years that Tesla's system is a gimmick and if you trust your life to it, you're an idiot.\n\nThe problem is people trusting *other* people's lives to it.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Logitech4873",
+                    "body": "> None of the serious players in the autonomous markets rely solely on vision systems\n\n\nActually, Tesla does this and they're very serious about autonomy. You've not been paying attention.",
+                    "score": -3,
+                    "replies": [
+                        {
+                            "author": "scozzy",
+                            "body": "dawg, i\u2019m an AI engineer and published researcher in computer vision, and i\u2019ll tell you right now the same thing the other guy said. if you rely on cameras alone, you\u2019re not serious about level 4 autonomy.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Logitech4873",
+                                    "body": "They don't rely on cameras alone, they use LIDAR for ground truth gathering. But what's wrong with the camera approach, really? It's how we drive.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "xeothought",
+            "body": "I'm surprised that Mark Rober did something even approaching touching upon a controversial topic. \n\nI've sort of written off his channel because it's become full \"disney kids\" if you get what i mean. That's totally fine to do - it's just not for me.\n\nEdit: he did say \"oh fudge\" lol",
+            "score": 11,
+            "replies": []
+        },
+        {
+            "author": "Oo0o8o0oO",
+            "body": "[I watched a video showing some kind of dishonest things in the video like FSD being disabled right before the crash.](https://youtu.be/FGIiOuIzI2w?si=VHJfZnbmM7GWvmyA) I don\u2019t have and have never driven a Tesla, but wanted to add some opposing data points here for the sake of discussion.",
+            "score": 30,
+            "replies": [
+                {
+                    "author": "d87z",
+                    "body": "Mark just released the raw video on his twitter/X explaining this. The Autopilot disengaged on it's own. Mark did not disengage it himself. It can turn itself off and I know because I have a Tesla. I would argue Tesla's vision system is inferior, and Tesla should have at least stuck with the radar and ultrasonic sensors.",
+                    "score": 40,
+                    "replies": [
+                        {
+                            "author": "munche",
+                            "body": "It's also pretty notorious and has been shown in multiple places that Tesla deliberately turns off automation right before a crash. That's why Musk always posts \"FSD/Autopilot was off at the time of the crash\" because it's programmed to give control back to the driver when it detects a crash, even if there is 0 time to react. It's scummy as hell.",
+                            "score": 10,
+                            "replies": [
+                                {
+                                    "author": "Logitech4873",
+                                    "body": "> it's programmed to give control back to the driver when it detects a crash, even if there is 0 time to react. It's scummy as hell.\n\n\nTesla actually discloses that they count any crash where automation was enabled within X seconds of the crash, it was either 5 or 10 seconds - plenty of time to react.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "None",
+                                            "body": "[removed]",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Logitech4873",
+                                                    "body": "What",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Michelanvalo",
+                            "body": "> Mark just released the raw video on his twitter/X explaining this\n\nThe Xwitter video is different than the YT video. AutoPilot was engaged at different points and at different MPH.\n\n> The Autopilot disengaged on it's own. \n\nIt did not, he jerked the wheel in the Xwitter video. You can watch it with your own eyes.\n\nMark's cut together multiple takes to get his video and then declared it scientific. Whether LIDAR vs Vision is better or worse is not proved by Mark's video because it's not scientific, it's pop.",
+                            "score": 13,
+                            "replies": [
+                                {
+                                    "author": "Eggonioni",
+                                    "body": "> It did not, he jerked the wheel in the Xwitter video. You can watch it with your own eyes.\n\nYou need your eyes checked if that's called \"jerking the wheel.\"",
+                                    "score": 4,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "LLMprophet",
+                    "body": "Thanks for pointing out how Tesla's been using that \"feature\" to duck responsibility for all the crashes due to FSD.\n\nThe scam:\n\nwhen the system detected imminent crash, it disabled FSD so they can blame the driver instead of FSD.",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "Logitech4873",
+                            "body": "Tesla counts any accident within 5 seconds of Autopilot/FSD turning off as the system being involved. Regulators extend that period to 30 seconds, and Tesla must comply with that when reporting to them.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "DupeStash",
+            "body": "I\u2019m not a Tesla shill. Quite the opposite. But this video should have been done with FSD as well as autopilot and the distinction should have been made",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "belvedere58",
+            "body": "I have an issue with the headline here.  It reads like Lexus is using a superior LIDAR based system on their vehicles.  \n\nIt was a LIDAR ADAS company that just used an older Lexus model as a test vehicle for their equipment.  \n\nThis test had nothing to do with any content available on current Lexus products.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "motorboat_mcgee",
+            "body": "The Disney stuff is really fun/neat though, if you've ever been on those rides. It's cool to see how they're laid out.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "JSD2",
+            "body": "No way he doesn\u2019t get sued for this video with all the sketchy stuff he does in the video.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Trick-Ambition-1330",
+            "body": "Why did he wait till he\u2019s seconds from hitting the wall to turn on self driving. That makes it seem like he had already tried it with self driving on and it wouldn\u2019t hit.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "TheLastREOSpeedwagon",
+            "body": "Really great? Is that sarcasm?",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "G0TouchGrass420",
+            "body": "ya know from a safety pov.....id prefer lidar + camera systems for auto driving",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Orhyyx",
+            "body": "He lied. Mark Rober ruined his reputation",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "limitless__",
+            "body": "Just FYI he DID test using FSD. Listen to what he says at 10:30. Basically AEB is useless so he used FSD for every single test. So all of the results are using FSD.",
+            "score": -3,
+            "replies": [
+                {
+                    "author": "Koraboros",
+                    "body": "autopilot or fsd?",
+                    "score": 15,
+                    "replies": []
+                },
+                {
+                    "author": "bobloadmire",
+                    "body": "He literally says hes using autopilot not fsd",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "ryzenguy111",
+                    "body": "He was not using FSD. Only basic Autopilot (supposedly, there is one part where the car is in the middle of the road markings which definitely is not fsd or ap)",
+                    "score": 24,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "uber_neutrino",
+            "body": "I get that people don't like the methodology used.  Should be relatively easy for other people to do similar tests and see what happens.  I'll wait for confirmation either way.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "the_house_from_up",
+            "body": "For years I haven't understood why Tesla hasn't used LiDAR. I could see them shying away from it a decade ago when SLAM technology was somewhat in its infancy, but it's gotten so good that it seems like a no-brainer to use the tech now.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Tothepoint12",
+            "body": "I don\u2019t have any of these vehicles. I used to have a Subaru outback with eyesight and now a 3 series wagon with the front radar. Radar far better than the camera system based eyesight. \nOne friend owns a Tesla Model S and his system is better than the both above at-least when it comes to adaptive cruise control and emergency braking.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "-SUBW00FER-",
+            "body": "That Lexus had nothing to do with anything considering that\u2019s not how they are sold. It looks like an aftermarket unit installed for the LiDAR system. \n\nThe RX350 only comes with a radar. Not sure why they didn\u2019t test that",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "tibodak",
+            "body": "Damn, no wonder I see rabid Tesla fans on twitter these few days",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Fox-9920",
+            "body": "6 Arrimax 18s is absolutely wild to stare right at, massively overkill for bright light ahead. Fun on camera but that must cause some eye damage.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "AutoModerator",
+                    "body": "Policy [discussion is welcome](https://www.reddit.com/r/cars/wiki/politics). However, if your post involves politics AND CARS, please consider submitting to /r/CarsOffTopic.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cars) if you have any questions or concerns.*",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "MarinaTF",
+            "body": "Disneyland's Space Mountain*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "When_hop",
+            "body": "Isn't Mark Rober a Latter Day Saints weirdo?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "AuDHDMDD",
+            "body": "Didn't he get some flak cause it's not autopilot, just the self drive thing or whatever?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Subject_Amphibian489",
+            "body": "Great video and I can share in the issues with Tesla vision. It hasn't been a roadtrip without the Tesla trying to cause an accident.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "azarashi",
+            "body": "Ill be honest I didnt know Tesla DIDNT use LIDAR and that is insane to me they do not. I already knew their tech for 'self driving' was dangerous but relaying only on cameras makes it even crazier they do not get into more dangerous wrecks.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "stakoverflo",
+                    "body": "Really? There have been tons of articles about how easy they are to confuse and generally fuck with. Like you can just put a photo of a stop sign up and they will stop for it.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "exjr_",
+                            "body": "> There have been tons of articles about how easy they are to confuse and generally fuck with. Like you can just put a photo of a stop sign up and they will stop for it.\n\nAs will any camera-based system. [Volvo's EX90](https://www.volvocars.com/us/cars/ex90-electric/features/), which uses LiDAR developed by the same company in Mark's video, may do the same behavior you described. They also make the use of cameras for their safety features. Practically every other automaker makes the use of cameras for their ADAS. \n\nPeople aren't knocking on Tesla for using cameras. Tesla should use cameras *and* other hardware to improve their ADAS system.",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "azarashi",
+                            "body": "I knew about the photo for stops since LIDAR doesnt do anything about that obviously, I just had assumed that they had both LIDAR and Cameras and issues with obstacle detection was faults in the programming with system making decisions.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "system3601",
+            "body": "Mark lied, faked info, and is on the verge of a lawsuit. \n\nMark is getting bombed. He just destroyed his reputation. he lied about Full Self Driving. He didn't even use FSD.\n\nHe used Autopilot, which even Tesla admits is an older, not as strong technology.\n\nBut even worse, he deactivates it right before he hits the wall. In a sneaky maneuver, he moves the wheel to deactivate autopilot",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "katui",
+                    "body": "If a slight twitch of the steering wheel disables your automatic braking system then perhaps that's a design issue. If auto pilot doesn't work well by Tesla's own admission then why is it allowed on public roads?",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "system3601",
+                            "body": "It takes time to engage. He manipulated and disabled it then enabled it a second before hitting the wall. Common.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Boggie135",
+            "body": "It seems..unsafe",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "PhilipRiversCuomo",
+            "body": "Anyone who drives a car with Tesla's camera-based system in full \"auto\" mode is putting their lives at risk. Not to mention the lives of everyone else on the road.",
+            "score": -6,
+            "replies": [
+                {
+                    "author": "Confucius_said",
+                    "body": "Disagree. FSD is very good. Does 98% of my driving. Other 2% is because I want to drive for whatever random reason.",
+                    "score": -2,
+                    "replies": [
+                        {
+                            "author": "PhilipRiversCuomo",
+                            "body": "Cool. None of your personal experience relates to the unacceptably high level of fatal accidents Tesla \u201cFSD\u201d has contributed to because of its fundamentally unsafe design. \n\nLow-resolution commodity cameras are not sufficient to handle the sensor requirements for fully automated driving. This isn\u2019t conjecture, it\u2019s a fact. \n\nThere\u2019s a reason Elon is the ONLY person who has insisted this design is safe. Every other company attempting to solve L5 autonomy is tackling the really difficult problem of sensor fusion to ACTUALLY make a safe self-driving car. Elon Musk is lazy.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Confucius_said",
+                                    "body": "If you say so. Go experience new FSD and try for yourself. It\u2019s good. Till then you\u2019re just spewing nonsense",
+                                    "score": 0,
+                                    "replies": [
+                                        {
+                                            "author": "PhilipRiversCuomo",
+                                            "body": "My brother in christ, you're not listening to what I'm saying.\n\nI don't doubt FSD is perfectly capable of driving you around safely, most of the time. I'm talking about the *fundamental shortcomings* of using sub-HD, commodity grade, automotive cameras as the ONLY source of information for an autonomous driving system.\n\nYour argument basically boils down to: well MY car hasn't crashed personally, therefore this is a great system.",
+                                            "score": 2,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "GoldenState15",
+                                            "body": "I've unfortunately experienced fsd and it's terrible. No idea what you're talking about",
+                                            "score": 0,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Dudebythepool",
+            "body": "leave it to reddit to find faults in an entertaining video",
+            "score": -5,
+            "replies": [
+                {
+                    "author": "wtfduud",
+                    "body": "I'm pretty sure it's astroturfing. Weird how there are suddenly so many Mark Rober critics on a video that is bashing Tesla, calling him a hack, etc.",
+                    "score": -5,
+                    "replies": [
+                        {
+                            "author": "Michelanvalo",
+                            "body": "What if you've always thought Mark was a lame hack but he never makes videos on topics you care about so it's not worth talking about but this one time he made a video about something relevant to your interests?",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "bluekkid",
+            "body": "Are we having our Ralph Nader moment?",
+            "score": -4,
+            "replies": []
+        },
+        {
+            "author": "Secksualinnuendo",
+            "body": "People arguing that the Tesla wasn't using full self driving. But that isn't really the point. My Genesis will auto brake if it thinks I am going to hit something. Even if I don't have smart cruise control on.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "Beginning_Outside_55",
+            "body": "I didn\u2019t imagine that Tesla was that bad. It\u2019s very dangerous to drive a Tesla on autopilot",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": -15,
+            "replies": [
+                {
+                    "author": "Boggie135",
+                    "body": "?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "None",
+                            "body": "[removed]",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "AutoModerator",
+                                    "body": "Unfortunately your comment has been removed because it contains a link to a delisted domain. This is almost always due to spam from the domain. \n\nPlease use a different source. \n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cars) if you have any questions or concerns.*",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "redls1bird",
+                            "body": "[This](https://i.imgur.com/bncdMrW.mp4)",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "AutoModerator",
+                    "body": "Unfortunately your comment has been removed because it contains a link to a delisted domain. This is almost always due to spam from the domain. \n\nPlease use a different source. \n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cars) if you have any questions or concerns.*",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "title": "VALORANT 10.05 Bug Megathread",
+    "author": "ValoBot",
+    "subreddit": "VALORANT",
+    "rank": 1,
+    "score": 2,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 5,
+    "url": "https://www.reddit.com/r/VALORANT/comments/1je674y/valorant_1005_bug_megathread/",
+    "id": "1je674y",
+    "selftext": "Greetings Agents!\n\nNew patch, new Bug Megathread! To avoid bug reports cluttering the subreddit and/or going unnoticed, a Megathread is posted after every patch so users may submit reports in one place. This allows Riot to easily keep track of the bugs by providing a central hub and also allows other users to confirm that they might have encountered the issue as well.\n\n##[**View the Current VALORANT Patch Notes!**](https://playvalorant.com/en-us/news/game-updates/valorant-patch-notes-10-05/)\n\n> ###Official Sources\n\n>> #####[**Submit an Official VALORANT Support Ticket**](https://support-valorant.riotgames.com/hc/en-us/requests/new)\n\n>> #####[**Official Article on VALORANT Error Codes**](https://support-valorant.riotgames.com/hc/en-us/articles/360045619633-Error-Codes-in-VALORANT)\n\n>> #####[**VALORANT Server Status by Region**](https://status.riotgames.com/valorant?)\n\n\n> ###Community Help\n\n>> #####[**Find Additional Help on /r/ValorantTechSupport**](https://reddit.com/r/ValorantTechSupport)\n\n>> #####[**Seek Help In the /r/VALORANT Discord**](https://discord.gg/zGkN8upuf7)\n\n---\n\n# Reporting a Bug\n\n1. A bug will ideally be accompanied with a screenshot or a video. This provides credibility to your report.\n2. Steps to recreate the bugs should be submitted if possible. This helps Rioters recreate the bug and helps them find the cause behind it.\n3. Unformatted, mematic, or joke reports are automatically indexed and may be removed by moderators to reduce the effort needed from Riot to view all reports.\n\n---\n\n# Formatting\n\n[**Reddit Formatting Guide**](https://reddit.zendesk.com/hc/en-us/articles/360043033952-Formatting-Guide)\n\n######When reporting a bug, please provide as much information as you can about your computer.\n\n    - Region:\n    - Type of Bug:   \n    - Description:   \n    - Video / Screenshot:   \n    - Steps to Reproduce:   \n    - Expected Result:\n    - Observed Result:\n    - Reproduction Rate:   \n    - System Specs:\n\nCopy paste the above text as a comment below and fill in your details!\n\n---\n\n\n# Example Bug Report\n\n\u2022 **Region:** EU ^(*<The region you are playing in when you encountered the bug.>*)\n\n\u2022 **Type of Bug:** Matchmaking ^(*<Client Bug, In Game Bug, etc.>*)\n\n\u2022 **Description:** Matchmaking doesn't work properly ^(*<Describe what was the bug that occurred.>*)\n\n\u2022 **Video / Screenshot:** image/video hosting site link ^(*<Example of the bug that occurred.>*)\n\n\u2022 **Steps to Reproduce:** Try to launch a game ^(*<Provide the steps necessary if someone else had to reproduce the bug.>*)\n\n\u2022 **Expected Result:** Match starting ^(*<What should have been the result when you follow the steps mentioned above?>*)\n\n\u2022 **Observed Result:** Getting stuck in infinite queue ^(*<What was the result you obtained when you followed the steps mentioned above?>*)\n\n\u2022 **Reproduction Rate:** 10/10 (happened 10 out of 10 times) ^(*<How successful are you in causing it to occur, out of 10?>*)\n\n\u2022 **System Specs:** Intel i5 Processor, Windows 7, Nvidia Graphics card (insert model number) etc. ^(*<System specifications hardware/software details.>*)\n\n---\n\n*From this Megathread the list of bugs will not be summarized and put up in the main body of the thread. Instead, Rioters go through and log all comments -- don't worry if you submit the 1500th or 3000th comment, they will all be progressively read.*",
+    "comments": [
+        {
+            "author": "AutoModerator",
+            "body": "**Please ensure that your comment is formatted with the template above** and that you have looked to see if your bug has already been reported by another user. Sometimes common bugs have already been listed (and even solutions discussed). Un-formatted or off-topic comments will be removed.\n\n_If you would like to discuss and ask for additional technical support, please head over to /r/ValorantTechSupport!_\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/VALORANT) if you have any questions or concerns.*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "acidente-vascular",
+            "body": "* Region: BR\n* Type of Bug: In Game Bug\n* Description: spamming Chinese characters causes lag spikes to the players in the match.\n* Video / Screenshot: [https://imgur.com/a/UkdiISC](https://imgur.com/a/UkdiISC)\n* Steps to Reproduce:\n   1. start a match;\n   2. spam Chinese characters.\n* Expected Result: the text should render without performance issues or be blocked.\n* Observed Result: the rendered text causes lag spikes for players receiving the message.\n* Reproduction Rate: 10/10\n* System Specs: Windows 10 (build 19045.5608), i5 3570, GTX 550 Ti, 16 GB RAM.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "acidente-vascular",
+                    "body": "Severity update: you can affect other people's gameplay by abusing the first lag spike.\n\n[https://imgur.com/SOiESQp](https://imgur.com/SOiESQp)\n\nP.S.: these tests were done in unranked matches (Spike Rush)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "acidente-vascular",
+            "body": "- Region: BR\n- Type of Bug: In Game Bug\n- Description: disconnecting your microphone prevents you from hearing your teammates' voice in the next match.\n- Steps to Reproduce:\n  1. start a match with your microphone connected and speak to your team;\n  2. disconnect the microphone and wait for the match to end;\n  3. start another match with your microphone still disconnected;\n  4. wait for someone to speak.\n- Expected Result: you should be able to hear your teammates.\n- Observed Result: you won't be able to hear your teammates until you restart the game.\n- Reproduction Rate: 10/10\n- System Specs: Windows 10 (build 19045.5608), i5 3570, GTX 550 Ti, 16 GB RAM.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

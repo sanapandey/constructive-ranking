@@ -1,0 +1,390 @@
+{
+    "title": "Downloading question",
+    "author": "khairyx",
+    "subreddit": "SteamDeck",
+    "rank": 16,
+    "score": 41,
+    "upvote_ratio": 0.68,
+    "num_comments (reported by reddit)": 59,
+    "url": "https://i.redd.it/qqhv7a6lafpe1.jpeg",
+    "id": "1je1k3q",
+    "selftext": "Sorry for asking this, when downloading big games that required very long hours to complete, does SD have any sleep mode? Or you guys just let it be for hours? I'm just concern damaging the OLED screen.",
+    "comments": [
+        {
+            "author": "Disapager",
+            "body": "Yeah it won't download in sleep mode it's really stupid I normally switch it to desktop mode and put it on a black screen when I download stuff",
+            "score": 60,
+            "replies": [
+                {
+                    "author": "Level_Coast8005",
+                    "body": "This is probably a better sollution than what I suggested, at least if your downloads are slow. I usually download games while docked with an ethernet cable attached. Goes quite fast that way.",
+                    "score": 13,
+                    "replies": []
+                },
+                {
+                    "author": "Benzo-Kazooie",
+                    "body": "This really is unacceptable for an OLED device",
+                    "score": 9,
+                    "replies": []
+                },
+                {
+                    "author": "khairyx",
+                    "body": "I saw this on youtube too, but didn't try it yet.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "neddoge",
+                    "body": "I do this as well. Switch to Desktop mode and download an all black image to the desktop. Open steam and update all, and open the image and full screen it + turning the brightness all the way down and setting sleep to 30 minutes iirc.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "borak98",
+            "body": "There is a decky plugin for that. I think it's called magic black. It allows you to completely darken your screen without going to desktop mode.",
+            "score": 36,
+            "replies": [
+                {
+                    "author": "khairyx",
+                    "body": "Really, can show how to install that? I'm really new in this \ud83d\ude05",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "borak98",
+                            "body": "I believe all the necessary steps are written out in the github. [https://github.com/SteamDeckHomebrew/decky-loader](https://github.com/SteamDeckHomebrew/decky-loader) \n\nFairly easy to install and then you can look at the plugins from its store. You can also search the subreddit for some decky plugins that people like. I don't have my deck with me right now but I love the protonDB badges for game pages (which show how well the game runs on deck based on user feedback) and steamgriddb (which allows you to change images for game covers).",
+                            "score": 8,
+                            "replies": [
+                                {
+                                    "author": "khairyx",
+                                    "body": "Thank you!",
+                                    "score": 4,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Level_Coast8005",
+            "body": "You can manually turn the brightness all the way down and I think it even dims the screen some more after a short period",
+            "score": 13,
+            "replies": [
+                {
+                    "author": "khairyx",
+                    "body": "This is what i do now, brightness all way down.\ud83d\ude02",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "GamePil",
+                            "body": "Little tip in case you didn't know: if you hold the \"...\" button you can adjust the brightness by flicking the left stick up or down",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "jgacioch",
+                                    "body": "To piggyback, the \"STEAM\" and \"...\" buttons are interchangable for shortcuts like this. I just recently learned this after having my SD OLED for over a year. \n\n(I had been using the STEAM button exclusively)\n\nBonus tip for new users: if you hold the STEAM button long enough it will pop up with a list of all of the shortcuts you can perform!",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "GamePil",
+                                            "body": "Yeah they are interchangeable but it's a bit inconvenient to hold the Steam button and then move the left stick",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "dr_gamer1212",
+            "body": "The screen of the oled should be fine unless the deck starts to overheat with the screen brightness turned up. I've had an oled since last Christmas, and I have no screen damage. The best suggestion I can think of is the same as everyone else is saying of changing the settings to allow the deck to be on for a while and then just turn the brightness down",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "khairyx",
+                    "body": "Yeah, this what i do now, brightness all way down.\nBut in my guts still concern about damaging the screen though.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Acojonancio",
+            "body": "No downloads in sleep mode, best option would be change the sleep settings on desktop mode and download the game there.\n\nAlso if you have a dock and can connect a ethernet cable it would be at least little bit faster (depending on your Internet connection speed).",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "Efficient_Fish2436",
+            "body": "It must be awake at all time to download. \n\nAs a first buyer we learned this the hard way.  Steam deck must be awake to download everything.  \n\nSorry there is no sleep download option.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Pokedy",
+            "body": "If you download lots of large games you can get a ethernet to usb c adapter and use wired internet, might improve the download speed a little so its not burning an image quite as long",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Archius9",
+            "body": "I plug mine into my dock attached to the tv but not on the hdmi channel. It shuts the screen down but the SD stays on. I may have adjusted my power setting for this. Can\u2019t remember.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "JustReaponding",
+            "body": "theres a decky plugin called magic black",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "bustedgerbil",
+            "body": "I love my sabrent dock for things like this. When docked, my screen turns off and I can make use of gigabit Ethernet to speed up my downloads.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "PanicMode-1847",
+            "body": "\nYeah I unfortunately you can't download in gaming mode once the deck goes to sleep. Im not 100 percent sure, but I think the decky plugin ReshadeMe has a black screen option but idk if it's only for in a game or . If you can use it outside of a game itd be a game changer. I should look into that lol",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "moe_mel",
+            "body": "I use a plug in from deckyloader that makes the screen black it's called magic black very convenient",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Rickioo",
+            "body": "There's a plug-in that let's you \"turn off\" screen while downloading (or whatever), it's pretty great.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "expatlogan",
+            "body": "Hello shell buddy!",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "khairyx",
+                    "body": "Hello! I thought i'm the only one using this case\ud83d\ude02",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "TOREYNATOR",
+            "body": "I usually go to desktop mode and change the battery settings to dim the screen within 1 minute without suspending.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "LorelaiEvonne",
+            "body": "or you can go to desktop mode, go to power management, and set the screen energy saving to switch off after 1 minute for whether you're on battery or AC. and you're done! just leave it there doing its own thing",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "GamePil",
+            "body": "I usually just set my screen to the lowest brightness when downloading. It'll go to sleep mode once it's done",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "inssein2",
+            "body": "Pre downloading games isn\u2019t worth it on the deck from my experience. The decrypting time is so slow. If you have a gig internet you could download the game faster then it takes to decrypt it .",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "LakDeomt",
+            "body": "The screen will be fine. If you leave the Deck alone it will dim itself after a while. It will stay on while downloading and also put itself to sleep once all downloads are finished. Pretty neat, Valve thought about everything!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "F4BUL0N1U5",
+            "body": "Where can i get this sick Hulk Buster Model?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MountainMuffin1980",
+            "body": "Just turn the brightness all the way down. This absolutely will not damage your screen",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ZygomaticCapstone",
+            "body": "When I first got my steam deck, I left it on the lowest brightness, plugged in, and it went to sleep mode when it was done.\n\nBrightness is important. OLED is notoriously known to have a tendency to burn in",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Zangetsu630",
+            "body": "I'd love to hear how the game runs on the SD if you've had a chance to play it!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Susanooh",
+            "body": "Is that a Hot Toys Hulkbuster? :)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Euphoric_Schedule_53",
+            "body": "You are not going to damage the screen",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "hexhunter222",
+            "body": "The last I saw on this the risk of getting burn in on the oled is very low. Having the screen on while downloading a game should be no issue, just don't leave it that way for weeks.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Uncle_Bobby_Wobby",
+            "body": "I put my deck into never sleep mode for the first big game I downloaded, and after that, I just let games download in the background while I play through another one. I personally find this a good solution, but I also don't like to hop between games too often.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Alternative_West_206",
+            "body": "Bruh is downloading AC shadows \ud83d\ude02",
+            "score": -7,
+            "replies": [
+                {
+                    "author": "InsomniacSpartan",
+                    "body": "Just because you can't think for yourself doesn't mean others can't.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "LittlePeepkin",
+                            "body": "I guess all of Japan can\u2019t think for themselves either. \ud83d\udc80",
+                            "score": -4,
+                            "replies": [
+                                {
+                                    "author": "InsomniacSpartan",
+                                    "body": "It's currently a top seller in Japan lol\n\nAnd you don't speak for the entirety of a country",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Alternative_West_206",
+                            "body": "Says the sheep following a trash game",
+                            "score": -6,
+                            "replies": [
+                                {
+                                    "author": "LunaTic_P",
+                                    "body": "Bro didn't even played it",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "Alternative_West_206",
+                                            "body": "Nobodies played it silly. It\u2019s not out. But it\u2019s gonna be just as shitty as the last 3 games that\u2019s come out. Plus one of the characters can\u2019t even do assassins creed stuff like parkour. Like bruh",
+                                            "score": -4,
+                                            "replies": [
+                                                {
+                                                    "author": "IgotUBro",
+                                                    "body": "> Nobodies played it silly\n\nThere are plenty of people that are playing it. Reviewers, content creators, etc all got copies early.",
+                                                    "score": 0,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Alternative_West_206",
+                                                            "body": "Well obviously. Wasn\u2019t speaking about them. Just people like us",
+                                                            "score": -1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "InsomniacSpartan",
+                                    "body": "Only sheep here is you. Hating a game because the internet told you to.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Alternative_West_206",
+                                            "body": "And others buying it cause Ubisoft told you too. We\u2019re all sheep. I just choose not to pay money to a company who sells slop",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "IgotUBro",
+                    "body": "Whats with shaming people in playing what they like? Let OP have fun man.",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "Alternative_West_206",
+                            "body": "\ud83e\udd19\ud83c\udffc",
+                            "score": 0,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "TCSawyer",
+            "body": "This is deck compatible? \ud83d\ude0d",
+            "score": -1,
+            "replies": [
+                {
+                    "author": "IgotUBro",
+                    "body": "Yeah apparently the game is Steam Deck \"verified\".",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "TCSawyer",
+                            "body": "Apparently \ud83e\udd23",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "IgotUBro",
+                                    "body": "Yeah not sure if its Ubisoft or Valve putting the label on it but Id rather wait for user reviews before coming to a conclusion.",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "khairyx",
+                    "body": "Not sure, i'm using jseux (third party deck)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ZanderPip",
+            "body": "Can you buy shadows on ubisoft connect and connect it to steam?",
+            "score": -1,
+            "replies": []
+        }
+    ]
+}

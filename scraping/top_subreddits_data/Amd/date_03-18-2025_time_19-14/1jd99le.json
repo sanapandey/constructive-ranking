@@ -1,0 +1,212 @@
+{
+    "title": "AMD Radeon RX 9070 series distribution said to be divided among two-tier board partners",
+    "author": "RenatsMC",
+    "subreddit": "Amd",
+    "rank": 10,
+    "score": 178,
+    "upvote_ratio": 0.96,
+    "num_comments (reported by reddit)": 31,
+    "url": "https://videocardz.com/newz/amd-radeon-rx-9070-series-distribution-said-to-be-divided-among-two-tier-board-partners",
+    "id": "1jd99le",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "handsomeness",
+            "body": "This makes sense, xfx, powercolor and sapphire are all AMD only and Asus is fucking huge",
+            "score": 103,
+            "replies": [
+                {
+                    "author": "iAabyss",
+                    "body": "Asrock is also AMD only",
+                    "score": -11,
+                    "replies": [
+                        {
+                            "author": "rxc13",
+                            "body": "No, they also make intel cards.",
+                            "score": 65,
+                            "replies": [
+                                {
+                                    "author": "iAabyss",
+                                    "body": "Oh true I forgot Intel gpus.",
+                                    "score": 35,
+                                    "replies": [
+                                        {
+                                            "author": "Nuck_Chorris_Stache",
+                                            "body": "Everyone forgot Intel GPUs",
+                                            "score": 48,
+                                            "replies": [
+                                                {
+                                                    "author": "Antisocialgoaway",
+                                                    "body": "Including Intel.",
+                                                    "score": 19,
+                                                    "replies": [
+                                                        {
+                                                            "author": "AFoxGuy",
+                                                            "body": "The B500 series is shaping up to be a good value card, though AMD hasn\u2019t released a 9060 card yet so it\u2019s TBD.",
+                                                            "score": 4,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "fineri",
+                                                                    "body": "Would you recommend it to users who play random indie games, esport titles and non-AAA driving simulators? I often get requests to recommend a build below 750$ (after 27% tax), and end up suggesting some secondhand AMD.",
+                                                                    "score": 4,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "HeadlessVengarl95",
+                                                                            "body": "I would say yes but if you play Tarkov, then not. Tarkov runs like 3-5fps on B580s. Very specific, I know.",
+                                                                            "score": 3,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "fineri",
+                                                                                    "body": "They don't, but actually I do from time to time, thanks.",
+                                                                                    "score": 0,
+                                                                                    "replies": []
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "author": "AFoxGuy",
+                                                                            "body": "I have a family member who bought the B580, there still are some problems with older games but it\u2019s *nowhere near* as bad as the A-series launch. \n\nThe problem now is they only produce like 7 scalped cards a month :/",
+                                                                            "score": 2,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "NowieTends",
+                                                                                    "body": "Had to check myself. Can\u2019t believe they\u2019re still scalping the B580. That\u2019s some serious dedication to scumbaggery and makes me think we won\u2019t see them let up on the more mainstream GPUs anytime soon",
+                                                                                    "score": 3,
+                                                                                    "replies": []
+                                                                                },
+                                                                                {
+                                                                                    "author": "EternalDreams",
+                                                                                    "body": "Does the B580s performance still vary much depending on CPU? \nI\u2019ve read that it can make a big difference if you have Intel or AMD?",
+                                                                                    "score": 3,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "AFoxGuy",
+                                                                                            "body": "That I can\u2019t say, they\u2019re running a 12th Gen Intel CPU so I can\u2019t really say anything about the performance on AMD.",
+                                                                                            "score": 1,
+                                                                                            "replies": []
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Narrow_Chicken_69420",
+                            "body": "more like asrock is also asus",
+                            "score": 0,
+                            "replies": [
+                                {
+                                    "author": "iAabyss",
+                                    "body": "Asrock and Asus split in the early 2000.\nOnly tie they still have is thru Pegatron but ASRock and ASUS are 2 separate compagnies that are operated completely independently from each others",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "TurtleTreehouse",
+            "body": "Kick ASUS out of tier 1 and we're solid.",
+            "score": 69,
+            "replies": [
+                {
+                    "author": "Zaziel",
+                    "body": "As others have pointed out, they\u2019re a big laptop and mobile SoC partner too.",
+                    "score": 13,
+                    "replies": [
+                        {
+                            "author": "TurtleTreehouse",
+                            "body": "They're not using 9070s in mobile yet, are they?\n\nJust checked, ASUS doesn't have a single SKU of laptop listed on their storefront with a single AMD dGPU. Its 100% NVIDIA. Fuck 'em. This is actually a huge part of the reason why AMD dGPU market share is trash. You can't find an AMD dGPU for mobile even if you wanted one.\n\nAnd its because of these vendors, I believe, who use NVIDIA dGPUs because they're considered the prestige item in the mobile market.\n\nProbably doesn't help that \"AMD graphics\" usually means iGPU for most people, whereas when they see NVIDIA, they can be assured its discrete graphics.",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "Zaziel",
+                                    "body": "Not just for GPU I should say, but they were a big adopter of Ryzen CPUs for well built gaming laptops.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "thewind21",
+                                    "body": "Strix Halo? Z13 is the flagship product for this chip.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "J05A3",
+            "body": "Can we put Asus to second-tier? And give more stocks to the rest of the core?",
+            "score": 43,
+            "replies": [
+                {
+                    "author": "Slow_Purple_6238",
+                    "body": "asus is scourge on planet",
+                    "score": 19,
+                    "replies": []
+                },
+                {
+                    "author": "asdf4455",
+                    "body": "What you don't like getting scalped directly from the card manufacturer?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "sukeban_x",
+            "body": "Is Vastarmor like a China-specific AIB? Because I have literally never heard of them before.\n\nTiering also makes sense, though I wish that ASUS were taken down a peg. They are pretty notorious at pre-scalping their cards these days so I don't love seeing that rewarded - especially because they are not Radeon exclusive.",
+            "score": 21,
+            "replies": [
+                {
+                    "author": "Shemsu_Hor_9",
+                    "body": "I've heard that Vastarmor cards are somewhat easier to find in Russia compared to other AIBs, so maybe",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "J05A3",
+                    "body": "Mostly China-specific",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ferpecto",
+            "body": "I had no idea Acer made GPUs.",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "Smart-Potential-7520",
+                    "body": "And they are calling them nitro like sapphire",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "bojamajams",
+            "body": "baffling to me that gigabyte is 2nd tier",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "title": "\"IZ-US\" by Aphex Twin, Hunyuan+LoRA",
+    "author": "EroticManga",
+    "subreddit": "StableDiffusion",
+    "rank": 19,
+    "score": 20,
+    "upvote_ratio": 0.82,
+    "num_comments (reported by reddit)": 5,
+    "url": "https://v.redd.it/qij8xvyrefpe1",
+    "id": "1je1wt3",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "EroticManga",
+            "body": "Generated with Hunyuan + custom LoRA trained on the bloodhound character.  The source of the training images came from flux.\n\nVideos generated at 720x400 dpm\\_pp/beta 40 steps.\n\nI use the default comfyUI workflow for Hunyuan, and I load the model in fp8e4m3.\n\nThere is no post processing, up-scaling, or frame interpolation.  These videos went straight from my output directory into Final Cut.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "mission_tiefsee",
+                    "body": "what did it cost all in all? Or did you train locally? How long did training take and vid gen?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Kooky_Ice_4417",
+            "body": "Really nice man. Thanks for giving the setup!",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "rkfg_me",
+            "body": "Very nice, fits the music, has a distinct mood and a story!",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Edenoide",
+            "body": "Great epilogue for Daft Punk - Da Funk (the music video)",
+            "score": 3,
+            "replies": []
+        }
+    ]
+}

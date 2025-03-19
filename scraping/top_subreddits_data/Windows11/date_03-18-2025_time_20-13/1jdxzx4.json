@@ -1,0 +1,290 @@
+{
+    "title": "Copilot: Alt-Spacebar is a useful shortcut to open the window menu, please find another one MS",
+    "author": "loyukfai",
+    "subreddit": "Windows11",
+    "rank": 5,
+    "score": 60,
+    "upvote_ratio": 0.83,
+    "num_comments (reported by reddit)": 41,
+    "url": "https://www.reddit.com/gallery/1jdxzx4",
+    "id": "1jdxzx4",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "pmjm",
+            "body": "Oh God. I use Alt+Spacebar a dozen times an hour. On a 105-key keyboard with modifier keys, there are 26,880 shortcut-key combinations with two keys. Over 200,000 if you add a third key. But they have to go and pick one that's been a standard Windows shortcut for 40 years.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "picastchio",
+                    "body": "Inb4 Microsoft selects C+O as the shortcut.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Camzie99",
+            "body": "Oh goodness no.\nI have PowerToys Run bound to Alt+Space to quick access most of the stuff on the PC.\n\nWhat was wrong with Windows+C?\nWhy isn't it just a completely customisable shortcut where you can *choose* a key combination for this?\n\nI don't outright hate Copilot, I use it on occasion, and I think it does have some potential value to add... But the way they're handling it is so... Invasive. It's upsetting.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "EurasianTroutFiesta",
+                    "body": "My concern (aside from the general ones for AI) is that it's obviously part of a business model, where people pay for AI points, or to unlock certain features. It's a big incentive to make data harvesting even more invasive, and a disincentive for actually fixing their goddamn UI, or potentially for adding *any* GUI for new features.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Aln76467",
+                    "body": "I use super+space for pt run",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "LitheBeep",
+            "body": "Honestly, in all of my years using Windows, I have never once opened the Alt + Space menu on purpose.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "ho_merjpimpson",
+                    "body": "yeah, im all about them not stealing functinality of shortcuts away for stupid shit like AI shortcuts, but I've never used it either.  Most everything within that menu i accomplish by other means.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "waytoogo",
+                    "body": "alt+space then c, closes a window. It is easier than stretching to hit alt+f4",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "lighthawk16",
+                            "body": "Stretch? Wha?",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "PSBJ",
+                            "body": "Even easier is to flick the cursor to the top right and left click \ud83d\ude44",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "ho_merjpimpson",
+                                    "body": "keyboard shortcuts are almost always faster than a mouse \"flick\".",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "PSBJ",
+                                            "body": "I'm specifically talking about this one because, at least for me, flicking my cursor is faster than alt-space + c",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "ho_merjpimpson",
+                                                    "body": "But most importantly, you saying:\n\n>at least for me\n\none comment after you used an eye roll emoji at someone else's efficient way to do things, is quite telling.  Its not because you are quicker with a mouse.  Its because you think that everyone does things the way you do them, so your way is naturally quickest for everyone.  \n\nAs the other person said, maybe if you are someone who only runs maximized windows so the x is always in the top right of your screen and your mouse will always stop there.  Maybe you don't need to open and close and manage windows as often so you aren't worried about the efficiency of doing so.  \n\nMost power users are using multiple tiled windows, and restored windows, so finding and putting a mouse cursor on a small x is not ever going to be as quick.  Full stop.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "PSBJ",
+                                                            "body": "Dude, the original comment I replied to said alt-space + c is faster than alt-f4. I replied saying clicking the close button is faster than both. You're reading way too much into what I wrote, holy shit.\n\nIf you really want a fast way to find and close a window, just alt-tab and middle click. Guarantee that will be faster than going through all these tiled windows as you say.",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "None",
+                                                                    "body": "[deleted]",
+                                                                    "score": 1,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "PSBJ",
+                                                                            "body": "Where does middle-click while alt-tabbing fit in on this?",
+                                                                            "score": 1,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "None",
+                                                                                    "body": "[deleted]",
+                                                                                    "score": 1,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "PSBJ",
+                                                                                            "body": "Where's the funny bit?",
+                                                                                            "score": 1,
+                                                                                            "replies": []
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "picastchio",
+                                    "body": "Not everyone uses a small screen with maximized windows.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "PSBJ",
+                                            "body": "Screen size def isn't an issue, unless you mean ultrawide",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Aln76467",
+                            "body": "I rebind super+q to alt+f4",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Longjumping-Fall-784",
+                    "body": "Same here, since there's an entry point to browser task manager on browser menu, I think I haven't needed to open that menu in years, and when I did it, I just right click at the top, I think it's kinda exaggerated having a single click to open that menu at the top.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "DuplexFields",
+                    "body": "If you have a window that\u2019s offscreen but won\u2019t close, Alt+Space, M will put your cursor on its titlebar so you can use arrow keys to bring it back to the screen.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "LitheBeep",
+                            "body": "You can also shift-click the icon in the task bar to open that menu.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "AccumulatedFilth",
+            "body": "M$ will do ANYTHING to make you use AI",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "AutoModerator",
+                    "body": ">[M$](https://i.imgur.com/We4Uj04.png)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Windows11) if you have any questions or concerns.*",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "LoliLocust",
+                            "body": "bad bot",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Lenar-Hoyt",
+                    "body": "They want your data, just like the others.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Knut79",
+                    "body": "Writing MS like that is so stuck in the 90s. Good way to litmus test people's for relevance though.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "storm666_jr",
+            "body": "It's probably simply the copy from Apple/Mac, where you use \"command + space\" to open spotlight search.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "F0RCE963",
+                    "body": "That is also the default shortcut for PowerToys Run, which is the answer to Spotlight",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "storm666_jr",
+                            "body": "True. I rarely use it but I have it",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Eriiiii",
+                    "body": "i think its more them looking up what the most accidentally pressed key combo is and then using that so they can call everyone who hits it on accident an \"active user\"",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "EurasianTroutFiesta",
+            "body": "For years, starting back in the XP days, I used a tool that let you search your installed apps and such, so you could type \"excel\" and open excel. In other words, exactly the feature they eventually added to the start menu, but with some extras, like being able to index a music library. The whole time, I had it bound to alt+space. Weird to have history repeat lol.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "AbdullahMRiad",
+            "body": "Alt + Space menu for me means that I should restart PowerToys Run but I agree it's useful sometimes (that moment when I want the window to occupy some specific pixels)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SilverseeLives",
+            "body": "If you don't need or want to use Copilot you can just uninstall it, which will likely restore previous behavior.\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "JiroBibi",
+            "body": "I still prefer Windows key + C over this, and want an option to turn off Copilot run in background.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TheComradeCommissar",
+            "body": "Great! MS hijacking yet another shortcut\u2026 Was it that hard to implement a completely new keyboard key (with a unique signal, of course), instead of hijacking Alt-Space for the \"Copy-to\" key?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BrightPage",
+            "body": "Workflow XKCD",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Equivalent_Bug880",
+            "body": "I used alt space to search through my files",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "kakha_k",
+            "body": "This week, unfortunately, they will not have time to do it as you asked, but on Monday they'll rush to redo the shortcut as you ordered.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "AutoModerator",
+            "body": "Hi u/loyukfai, thanks for sharing your feedback! The proper way to suggest a change to Microsoft is to submit it in the \"Feedback Hub\" app, and then edit your post with the link, so people can upvote it. The more users vote on your feedback, the more likely it's going to be addressed in a future update! Follow these simple steps:\n\n1. Open the \"Feedback Hub\" app and try searching for your request, someone may have already submitted similar. If not, go back to the home screen and click *\"Suggest a feature\"*\n\n2. Follow the on-screen instructions and click *\"Submit\"*\n\n3. Click *\"Share my feedback\"* and open the feedback you submitted\n\n4. Click *\"Share\"* and copy the unique link\n\n5. Paste the link in the comments of [your Reddit post](https://www.reddit.com/r/Windows11/comments/1jdxzx4/copilot_altspacebar_is_a_useful_shortcut_to_open/)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Windows11) if you have any questions or concerns.*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Theory_of_Steve",
+            "body": "The only way microsoft can get people to use their shitty ai is to make them do it accidentally lmao",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

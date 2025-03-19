@@ -1,0 +1,34 @@
+{
+    "title": "AMD Ryzen 9 9900X3D Linux Performance",
+    "author": "FastDecode1",
+    "subreddit": "Amd",
+    "rank": 11,
+    "score": 54,
+    "upvote_ratio": 0.9,
+    "num_comments (reported by reddit)": 4,
+    "url": "https://www.phoronix.com/review/amd-ryzen-9-9900x3d",
+    "id": "1jdf9m7",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "LordAlfredo",
+            "body": "So given 7900X3D vs 7950X3D, 9950X vs 9950X3D, and 9900X vs 9950X about as expected and only really worth it for those planning to do manual CPU pinning. Otherwise other options make more sense out-of-the-box for the price.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "steaksoldier",
+                    "body": "As long as you\u2019re using a recent kernel they work out of the box on linux now.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "LordAlfredo",
+                            "body": "Are you thinking of the recent scheduling preference support (the 3D cache optimizer driver)? That's just general CCD priority ordering for the whole system. I'm referring to e.g. using `taskset`/`gamemoderun`/etc on a per process basis. There's another change coming in 6.14 for better preferred core scheduling but that's just dynamic refresh on CPPC per CCD, not actual CCD target optimization.\n\n9900X3D only fits in if you can get it at a good price or can do actual core pinning, not just global `AMD_3D_CACHE` flag / modifying `/sys/bus/platform/drivers/amd_x3d_vcache/AMDI0101\\:00/amd_x3d_mode`. Otherwise you can go up just slightly to 9950X MSRP (and you can find them retailing below 9900X3D's MSRP at this point anyways), grab 9800X3D as they come in stock for cheaper, or get 9900X for cheaper. And remember also on 9900X3D you're only getting 6C/12T with 3D cache.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

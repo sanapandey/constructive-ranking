@@ -1,0 +1,442 @@
+{
+    "title": "ASUS DIGITS",
+    "author": "Cane_P",
+    "subreddit": "LocalLLaMA",
+    "rank": 12,
+    "score": 97,
+    "upvote_ratio": 0.91,
+    "num_comments (reported by reddit)": 68,
+    "url": "https://i.redd.it/oidvhqtswgpe1.jpeg",
+    "id": "1je7u2e",
+    "selftext": "When we got the online presentation, a while back, and it was in collaboration with PNY, it seemed like they would manufacture them. Now it seems like there will be more, like I guessed when I saw it.\n\nSource:\nhttps://www.techpowerup.com/334249/asus-unveils-new-ascent-gx10-mini-pc-powered-nvidia-gb10-grace-blackwell-superchip?amp\n\nArchive:\nhttps://web.archive.org/web/20250318102801/https://press.asus.com/news/press-releases/asus-ascent-gx10-ai-supercomputer-nvidia-gb10/",
+    "comments": [
+        {
+            "author": "MixtureOfAmateurs",
+            "body": "Watch it be $3000 and only fast enough for 70b dense models",
+            "score": 57,
+            "replies": [
+                {
+                    "author": "Krowken",
+                    "body": "Well if power usage is significantly less than 2x 3090 i'd be fine with it running 70b at usable tps.",
+                    "score": 31,
+                    "replies": []
+                },
+                {
+                    "author": "TechNerd10191",
+                    "body": "Well, you wouldn't be able to run DeepSeek or Llama 3.1 405B with 128GB of LPDDR5x; however, if the bandwidth is \\~500Gb/s, running a dense 70B at >12tps at a mac-mini sized PC which supports the entire Nvidia software stack would be worth every buck for $3k.",
+                    "score": 19,
+                    "replies": [
+                        {
+                            "author": "coder543",
+                            "body": ">\u00a0if the bandwidth is ~500Gb/s\n\nThat is a big \u201cif\u201d.",
+                            "score": 24,
+                            "replies": [
+                                {
+                                    "author": "UltrMgns",
+                                    "body": "True... Jetson orin nano 16gb has the LPDDR5, even if the X doubles it, it'll be 200Gb/s ... in theory....",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "YearnMar10",
+                                            "body": "Jetson Orin nano 16gb? Is that a new one?\n\nEdit: just to clarify, afaik a nano has max 8gig of ram. Bandwidth wise the statement is correct btw, nano has about 100GB/s iirc",
+                                            "score": 2,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "xrvz",
+                                            "body": "> 200Gb/s\n\n\\* 200GB/s",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "coder543",
+                            "body": "Now confirmed to have half of that memory bandwidth. 273GB/s, not 500+.\n\nhttps://www.nvidia.com/en-us/products/workstations/dgx-spark/",
+                            "score": 14,
+                            "replies": [
+                                {
+                                    "author": "Background-Hour1153",
+                                    "body": "Oh, they finally released the specs, thank you for linking it!\n\nThe memory bandwidth is a shame but not unexpected.",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "YouDontSeemRight",
+                                            "body": "It also backs up the communities expectations for Nvidia's digits",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "sluuuurp",
+                    "body": "You probably don\u2019t want to use a dense model bigger than 70b, mixture of experts models are getting very good.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "this-just_in",
+                            "body": "However there is a complete absence of modern consumer-grade MoE\u2019s.",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "Dead_Internet_Theory",
+                            "body": "Which others beside DeepSeek-r1? (which isn't applicable for this, since it requires way more VRAM for the original MoE)",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Glebun",
+                    "body": "llama 3.1 70b is 141GB",
+                    "score": -3,
+                    "replies": [
+                        {
+                            "author": "nonerequired_",
+                            "body": "I believe everyone refer to quantized models.",
+                            "score": 8,
+                            "replies": []
+                        },
+                        {
+                            "author": "Zyj",
+                            "body": "But they\u2018re mostly talking about Q4\u2026",
+                            "score": 0,
+                            "replies": [
+                                {
+                                    "author": "Glebun",
+                                    "body": "If you want to throw away 75% of the model, then sure.\n\nEDIT: LOL guys, do you think that Meta or OpenAI use quantized version of their models when serving users and save 75% of compute costs? No, if it didn't make enough of a difference, then they would train and serve at FP4. But it's FP16, and they spend the money to serve it at FP16, because it does actually make a difference. The benchmarks you see are for full precision models.",
+                                    "score": -13,
+                                    "replies": [
+                                        {
+                                            "author": "Pyros-SD-Models",
+                                            "body": "Yes but the average user is not OpenAI or Meta and doesn\u2019t have to serve half the planet and is fine with throwing away 5-10% of benchmark scores for running a model with 1/4th memory as long as their waifu card still works.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Glebun",
+                                                    "body": "You'd think that people serving half the planet would jump on the opportunity to save 50% or 75% of the cost for a decrease in capability that average users wouldn't perceieve, right?",
+                                                    "score": 0,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "vertigo235",
+            "body": "These things will be obsolete by the time they deliver the first unit.",
+            "score": 74,
+            "replies": [
+                {
+                    "author": "HugoCortell",
+                    "body": "By the time they come out, hopefully there'll be mountains of e-waste macs ready to be turned into AI clusters.",
+                    "score": 21,
+                    "replies": []
+                },
+                {
+                    "author": "vorwrath",
+                    "body": "Bold of you to assume that they plan on delivering any units.",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "captain_awesomesauce",
+                    "body": "But that DGX Station with a full GB300 looks pretty sweet. 700GB of coherent memory. Just take out an extra mortgage and you're set!",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "grim-432",
+            "body": "No bandwidth numbers?",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "CKtalon",
+                    "body": ">The GB10 Superchip employs\u00a0[NVIDIA NVLink^(\u00ae)\\-C2C](https://web.archive.org/web/20250318102801/https://www.nvidia.com/en-us/data-center/nvlink-c2c/)\u00a0to provide a cohesive CPU+GPU memory model with five times the bandwidth of PCIe^(\u00ae)\u00a05.0.\n\nSo 320GB/s?",
+                    "score": 19,
+                    "replies": [
+                        {
+                            "author": "Rich_Repeat_22",
+                            "body": "273GB/s",
+                            "score": 4,
+                            "replies": []
+                        },
+                        {
+                            "author": "hrlft",
+                            "body": "That would be chip to chip bandwidth, not uram bandwith, no?",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "bick_nyers",
+                    "body": "It says on the archived page 5x the bandwidth of PCIE 5.0 which suggests \\~320GB/s. Could be more or less.",
+                    "score": 8,
+                    "replies": []
+                },
+                {
+                    "author": "Cane_P",
+                    "body": "Jensen will hold his presentation today. It wasn't meant to go live yet, so it is likely to be updated.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "y___o___y___o",
+                            "body": "Do you think they will reveal bandwidth numbers at the presentation?  Has there been any updates to the rumours about the bandwidth?  Do we know for sure that they will be slow or could we be pleasantly surprised?",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "Cane_P",
+                                    "body": "Someone have claimed that an ex Nvidia employee have revealed that it is in the 500GB/s range. But I have personally not seen the source of that claim. It would however be in line with the memory bus that Nvidia already used with Grace Hopper (546GB/s).",
+                                    "score": 5,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Krowken",
+            "body": "Let's hope GB10 will not disappoint and availability is better than with the Blackwell GPUs.  And I am still worried about the PNY presentation that said something about having to pay for software features on top.\n\n  \nEdit: Design wise I like it better than Project Digits which looks a bit tacky with the glitter and gold imo.",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "SX-Reddit",
+                    "body": "There will be a market for custom CNC machined chassis.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "phata-phat",
+            "body": "Asus tax will make this more expensive than an equivalent Mac studio. I\u2019ll stick with my Framework pre-order.",
+            "score": 10,
+            "replies": [
+                {
+                    "author": "fallingdowndizzyvr",
+                    "body": ">  I\u2019ll stick with my Framework pre-order.\n\nGMK will come out a couple of months earlier and if their current X1 pricing gives a clue, the X2 be cheaper than the Framework Desktop.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Rich_Repeat_22",
+                            "body": "Crossing fingers.... \ud83e\udd1e",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "FliesTheFlag",
+                    "body": "Dont forget the license fees, they havent mentioned what they are for or the cost yet.",
+                    "score": -1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "povedaaqui",
+            "body": "The ASUS is almost $1000 cheaper than the NVIDIA model; the only difference seems to be the storage, 1TB vs. 4TB. I don't know why people would pay extra.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "fluffy_serval",
+                    "body": "Bigger models are bigger.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Papabear3339",
+            "body": "From nvidias website:\n\n[https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/)\n\nThe 5090 does 3.3 pentaflops of AI, has 32GB of vram, and the memory runs 1792GB/s.\n\nSo...  this thing better be CHEAP if a single current gen nvidia card is 3x faster.  \n\n(Low voice...  it is not in fact, cheap. ).",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "Glebun",
+                    "body": "Different tradeoff - more VRAM",
+                    "score": 11,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "DerFreudster",
+            "body": "Theirs will be $4000 while Nvidia's $3000 ones will be a year long wait.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "spectrography",
+            "body": "273 GB/s",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "ddifof1",
+            "body": "I have just received the invitation from NVIDIA to reserve DGX for 3689 euros if I recall correctly, there was also an option for reserving ASUS Ascent GX10 for about 1000 euros cheaper. It was one or the other",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "ddifof1",
+                    "body": "https://preview.redd.it/7z4qy831xipe1.png?width=1304&format=png&auto=webp&s=2335f5cb21a7b07335e23002ce72a8c25ae30e0d\n\nNVIDIA DGX Spark - 4TB\n\n3\u202f689\u00a0\u20ac",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "ddifof1",
+                            "body": "This reservation gives you the opportunity to purchase the product when stocks become available. Detailed instructions will be emailed to you at that time. Depending on availability, you may have the option to change your selection at the time of purchase.\u00a0",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "seeker_deeplearner",
+            "body": "Where can i buy these?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "frivolousfidget",
+            "body": "Ascent\u2026 which is not powered by ascend but by nvidia. Not confusing at all.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "Deciheximal144",
+            "body": "It wasn't too long ago that we saw the brag of a 1 petaflop cabinet. How things progress.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "jacek2023",
+            "body": "why you people always ask about bandwidth when the amount of VRAM is the main bottleneck on home systems",
+            "score": -7,
+            "replies": [
+                {
+                    "author": "lkraven",
+                    "body": "First of all, there's no VRAM in this machine at all, it's unified system RAM and second of all, bandwidth is just as important.  If it wasn't important, there'd be no need for VRAM since the main advantage of VRAM *IS* the bandwidth.  If it wasn't important, it'd be trivial to put together a system with 1TB of system ram and run whatever model you like, Deepseek R1 full boat at full precision.  You could do it today, of course... but because of bandwidth, you'd be waiting an hour for it to start replying to you at .5t/s.",
+                    "score": 13,
+                    "replies": [
+                        {
+                            "author": "jacek2023",
+                            "body": "My point is that it doesn't really matter if it will be hour or half of hour, it's the amount of memory you can use for \"fast inference\", it fits or not. What's the point in discussing is it twice faster or twice slower? It changes nothing, it's still unusable if you can't fit your model into available memory.",
+                            "score": 0,
+                            "replies": [
+                                {
+                                    "author": "kali_tragus",
+                                    "body": "And for large models, if the bandwidth speed is too low it's unusable even if it fits in the available memory. So yes it matters.",
+                                    "score": 2,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "kali_tragus",
+                                    "body": "And for large models, if the bandwidth speed is too low it's unusable even if it fits in the available memory. So yes it matters.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Serprotease",
+                    "body": "Because when you have enough vram for 70b+ models, you run into bandwidth limitations.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "ElementNumber6",
+                    "body": "Because if we can't get our 1B Q0.5 models hallucinating at blistering speeds then what are we even doing here at all?",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "NickCanCode",
+                    "body": "Since the larger the model, the higher the bandwidth it is required to spit out tokens at the same speed. For a 96GB memory system, bandwidth play an important role to make it usable, esp for reasoning models that consume a lot more token.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "DerFreudster",
+            "body": "Theirs will be $4000 while Nvidia's $3000 ones will be a year long wait.",
+            "score": -3,
+            "replies": [
+                {
+                    "author": "windozeFanboi",
+                    "body": "Idk man... AMD strix halo for 2k $ has 128GB @ 256GB/s  ... \n\nI'm not sure Nvidia can price it that high. Although, to be fair, nvidia don't need it to sell widely, so they can price it whatever.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "DerFreudster",
+                            "body": "I was talking about how Nvidia's Digits is priced at $3k and will be unobtainable like the 5090. Asus will release the GX10 at more just like the Asus 5090s which are now at $3300 while Nvidia states msrp of the 5090 at $1999. Which to my mind is the current state of Nvidia right now.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "windozeFanboi",
+                                    "body": "Ahh... yeah, true, nvidia consumer market is 2nd class citizen right now...  \nIt's all about datacenter, gamers and AI@home plebs are beneath nvidia.   \n  \n:(",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "DerFreudster",
+                                            "body": "They leave us to the scalpers.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "avaxbear",
+                    "body": "Interestingly their is $3000 because it's 3tb less storage",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "DerFreudster",
+                            "body": "This was, as they say, a cynical joke for the gamer and home AI user unable to procure a card...at all, and or anywhere near msrp. Apparently, not phrased very well. I was on Nvidia's site looking up a 5090 which showed an msrp of $1999 and the only link that was there showed the Asus card at $3359. No slight on Digits/Spark or GX10.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "GreedyAdeptness7133",
+            "body": "This thing will never come out or come out as weaker than advertised. Or in very limited quantity and price out most people due to scalping.",
+            "score": -2,
+            "replies": [
+                {
+                    "author": "inagy",
+                    "body": "I'm voting for unavailability, the same way we can't buy 5xxx VGAs. They prioritizing every ounce of manufacturing capacity to the enterprise hardware production.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

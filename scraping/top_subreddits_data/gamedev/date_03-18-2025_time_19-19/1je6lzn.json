@@ -1,0 +1,450 @@
+{
+    "title": "Generative AI and Its Impact on Publishers & Studios",
+    "author": "Vanadium-I-Ching",
+    "subreddit": "gamedev",
+    "rank": 10,
+    "score": 12,
+    "upvote_ratio": 0.56,
+    "num_comments (reported by reddit)": 68,
+    "url": "https://www.reddit.com/r/gamedev/comments/1je6lzn/generative_ai_and_its_impact_on_publishers_studios/",
+    "id": "1je6lzn",
+    "selftext": "Yesterday I saw a trailer for a film that is the first AI-generated movie. This monstrosity was brought into the world by Staircase Studios AI and, if you haven't seen it - it's god-awful.\n\nI've grown increasingly concerned with the use of generative AI in this way.\n\nAs we've seen, generative AI is creeping into game development. Companies say it will save time and money. But what are we losing? Game development is a creative industry. Artists, writers, and designers shape every detail with intent. AI does not create - it scrubs, copies and rearranges existing work. It lacks originality. It lacks judgment. It lacks the human touch that makes a game worth playing.\n\nSome studios are already using AI to cut costs. That means fewer jobs, especially for junior and mid-level artists and writers. These roles are not just stepping stones. They are the foundation of a strong creative team. Without them, the industry weakens.\n\nFor job seekers, this matters. If a company is replacing human creativity with AI, what does that say about its values? Candidates should look at AI policies before accepting a job. Does the company use AI to assist teams or to replace them?\n\nPlayers also have a choice. If they accept AI-generated content, they should expect games to feel repetitive and soulless. The best games come from human passion, not algorithms.\n\nAI may have a place in development, but not at the cost of creativity and jobs. The industry needs to use it with caution and police it responsibly. The choice is simple: support studios that invest in people, or watch games become lifeless products.\n\nPersonally, I make a conscious effort to only work with studios and individuals that value the work of artists and creators and have it as a part of their development policy to not allow generative AI to be used. It may not be the future but in my opinion, where there's no heart... there's no art.\n\n",
+    "comments": [
+        {
+            "author": "burge4150",
+            "body": "I started making Erenshor before generative AI was really a thing.\n\n\"AI controlled simulated players\" was my main selling point. But by \"AI\" I meant state machines, decision trees, text parsers, etc.\n\nNow marketing my game is a minefield of telling anti AI folks it's not generative AI and telling pro AI folks it's not generative AI and holy smokes I'm so exhausted from this conversation.\n\n\nAI is not a replacement for human creativity and I wish the world would just all get on that same page. It's great as a spelling and grammar checker, a brainstorming buddy to come up with high level ideas, as a thesaurus, it's amazing for reading crash dumps or error logs... but not for creating.",
+            "score": 87,
+            "replies": [
+                {
+                    "author": "Doomgriever",
+                    "body": "That must be infuriating.. I've started calling \"enemy ai\" as \"enemy behaviour\" instead. Or \"Versus AI\" as \"Versus Computer\". The word AI has forever been tainted sadly.",
+                    "score": 30,
+                    "replies": [
+                        {
+                            "author": "TheOtherZech",
+                            "body": "I've gone all-in on 'entity behavior' as an umbrella term for traditional game AI. It gets the idea across in a genre-neutral way, condenses down to a nice `eb` prefix, and it sounds fancy in meetings with non-technical stakeholders.",
+                            "score": 13,
+                            "replies": []
+                        },
+                        {
+                            "author": "mark_likes_tabletop",
+                            "body": "\u201cDeep, algorithmic NPC Behavior\u201d",
+                            "score": 13,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Franz_Thieppel",
+                    "body": "I mean, Dwarf Fortress is still out there proving people \"hand-crafted\" AI is still much more suitable for games and can still go to unexplored lengths if people are willing to put the work in.\n\nLLMs that kinda forget what you were talking about 100 messages ago, need a long time to come up with a complete answer, have to connect to an online server for every request and worst of all are too unpredictable to write meaningful narrative around (or even let narrative generate itself without spiraling out of control) have so many issues I don't know how people don't see it.",
+                    "score": 11,
+                    "replies": []
+                },
+                {
+                    "author": "Bruoche",
+                    "body": "To be fair \"AI\" used to mean pnj behavior in gaming, and machine learning used to be just called machine learning before some dumbos decided to do some marketing propaganda to re-sell us a tech that already existed (even if at a lesser scale) for decades.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "Vanadium-I-Ching",
+                    "body": "Distinctions must be made to not throw the proverbial baby out with the bathwater. I take no issue with AI implemented in this manner. My grievance is the pervasiveness on Generated AI on the artistic content. For any concept artists out there, I fear competent prompting may push your developed skill set into obsolescence - already, if there's an inkling of AI used in a portfolio piece that can be identified, your portfolio won't be accepted.\n\nNot to mention copyright issues. When I was developing the branded elements (parody brands, posters, automobile branding, - think of all the items you see in a game with real world counterparts from Coke to McDonalds, weapons manufacturers) within a AAA franchise, the legal department was working full time to ensure nothing violated international copyright and trademarks. We had to provide documentation to show process, where we drew our inspiration from, title searches, etc. - where does the practicality of a publishers legal liability draw the line with AI? A publisher could easily open themselves up to trademark violations.\n\nAnd again, this is more of a point for discussion. My opinion was made clear in the initial post. I do see it as a useful tool but it;'s reliance is unsettling - especially with the young people I see trying to crack into an already overly-saturated job market.",
+                    "score": 0,
+                    "replies": []
+                },
+                {
+                    "author": "kettlebot141",
+                    "body": "you know, for your specific game, i feel like ai would actually be pretty cool.... like generating dialogue for your mmo characters. project is super cool, why limit yourself that way?",
+                    "score": -5,
+                    "replies": [
+                        {
+                            "author": "burge4150",
+                            "body": "AI isn't ready to be the main feature in a game yet.\n\nToo expensive / hardware intensive to scale, the cheaper solutions generate drivel, and ultimately I'm responsible for the game content and last thing I want is players tricking my game into saying awful things and taking screenshots - or worse, having that happen accidentally.",
+                            "score": 5,
+                            "replies": []
+                        },
+                        {
+                            "author": "ghostwilliz",
+                            "body": ">like generating dialogue\n\nIt would be so boring. \n\nA small amount of good human made content is infinitely better than the infinite slop hose",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "TheOtherZech",
+            "body": "The thing that frustrates me the most with generative AI is how the excessive focus on prompt-based workflows completely overshadows the small, boring, ethically cleaner ways machine learning can be used in creative work. \n\nWe've been using ML-based tools built with cleanly licensed datasets for performance capture, motion matching, masking, iterative simulation approximation, image segmentation, and so on, for *years.* Tools that are integrated into existing workflows, that provide tight feedback loops, that have a consistent and predictable user experience. \n\nMeanwhile, the majority of prompt-based tools I've seen are so focused on the part that looks good in meetings (words in, pixels out) that the controls artists actually need (in this context usually controlnets using pose/depth/surface segmentation inputs) are treated as an afterthought and the DCC integrations, if any, are half-baked at best. If the compute resources devoted to these large prompt-focused models that barely run on consumer hardware and rely on questionably sourced data were instead aimed at producing small, incremental, artist-focused tools built with clean datasets, we'd see more of the promised upsides without the current, costly, downsides. It would simply be boring, practical, technology.",
+            "score": 28,
+            "replies": [
+                {
+                    "author": "SuspecM",
+                    "body": "Heck Battlefield games have been marketing their enemy ai as a self learning ai for certain gamemodes but nope it's all generative ai now",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "dangerousbob",
+            "body": "I suspect in the near future you are going to see a new type of trash, \"the AI Flip\" game which will flood steam. \n\nIt's going to be a bunch of unplayable gimmicky trash. \n\nIt is going to suck.",
+            "score": 19,
+            "replies": [
+                {
+                    "author": "grobyls",
+                    "body": "Honestly, sadly, I think this is already starting",
+                    "score": 8,
+                    "replies": [
+                        {
+                            "author": "epeternally",
+                            "body": "Yes, this absolutely is already happening. The advent of AI coding has further lowered the barrier for rearranging purchased assets, and generated art increases the ease of creating a capsule that looks more interesting than a centered logo on a generic background.",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "RockyMullet",
+                    "body": "Yeah imo the AI crap will be the new \"asset flip\".",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "ConsistentSearch7995",
+                            "body": "I can see it now. Think Supermarket Simulator template and a Game development focused AI in which you just say. \"Switch the grocery items with \\[.....\\] instead.\" Then hundreds of people are gonna do the exact same thing. Then hundreds of AI slop clones releasing every day. Looking at how the mobile game industry works I can see a slop AI studios making 20 clones of the exact same game but using AI to just switch out the referenced assets and shipping all at once.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "reddit_MarBl",
+                    "body": "And then it will disappear because it will have no appeal to anyone, and thus won't be profitable.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "codehawk64",
+                    "body": "Theoretically, if a game is made entirely in AI, the price of that game should be 0$ and belong in the public domain. Nobody should have the right to ever sell it, because a game entirely built in AI doesn't belong to anyone.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "gingertailz",
+            "body": "AI is an inevitable and unstoppable process. It is a tool that will become increasingly present in modern society. We need to start getting used to it because complaining will only leave you behind, like the boomers.\n\nIt\u2019s simple progress\u2014it has always been around, and we always hypocritically complain about it.\n\nDo you use a train, a bus, or a car to get from one place to another? Do you buy vegetables, meat, and cheese at the supermarket or from a farmer? Do you get your water from the nearest natural spring? Do you use a computer every day?\n\nI highly doubt the Industrial Revolution would have stopped if all horse-drawn carriage owners had started saying, \"But we're losing jobs.\" People have always sought convenience and cost savings. I also doubt that those who invented digital information transmission stopped because postmen would deliver fewer letters.\n\nWe prefer to buy discounted furniture rather than from an artisan who crafts it by hand from scratch. Because it's more convenient and saves money. And there\u2019s an art to making furniture, just as there\u2019s an art to growing tomatoes or potatoes. Yet, we rarely support skill over convenience and savings.\n\nUsing AI or not isn\u2019t the point. The point is how it is used, how much of a work it actually constitutes, and how much effort has been put into the rest of it.\n\nJudging a masterpiece of a book as horrible just because it contains a single AI-generated illustration\u2014while the writer spent years crafting a literary gem\u2014is plain stupid. Imagine if Dante Alighieri had written The Divine Comedy but used an AI-generated cover because he was broke and couldn\u2019t afford an artist (and I'll tell you, even emerging artists aren't cheap). Most of you would probably claim that The Divine Comedy is trash and an insult to intellectual creativity.\n\nTry to change your mindset and embrace modernity\u2014otherwise, you'll be left behind and buried by something you will no longer be able to understand.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "ThePeoplesPoetIsDead",
+                    "body": "The Luddites were right. The mills produced worse clothing, mulched up child labourers, provided the economic basis for cotton plantation slavery, massively increased wealth disparity, reduced pay and living conditions to below the level of medieval peasants for a century and the fundamental technology that powered them, the burning of fossil fuel, seems set to cause an extinction event in our lifetime.\n\nThis is not inherent to the machinery, it is the result of the way it is used, society must force people to use new technology in a better way. Not to replace artistic endeavour with cheap slop because artistry WILL be priced out of the market and we will all miss it when it's gone.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Doomgriever",
+            "body": "Totally agree. I will forever remain an AI free dev, and support human made art. Else what's the point? Art is self-expression, and if an algo generated said expression, then I didn't express shit! \n\nAs seen in comments of generated AI books: \"If you didn't bother writing the book, why should I bother reading it?\"",
+            "score": 14,
+            "replies": [
+                {
+                    "author": "Xangis",
+                    "body": "A robot wrote it, a robot can read it. I don't need to be involved at all.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Suttonian",
+                    "body": "*IF* it's good, why not read it? I'm not reading for the people who wrote it or because of the level of human effort put in.",
+                    "score": -6,
+                    "replies": [
+                        {
+                            "author": "reddit_MarBl",
+                            "body": "Because if a human didn't make it, it has no meaning. If you can give it meaning, that's fine. But it has none. It just emulates meaning by replication of patterns. Meaning comes from recognition and manual modulation, not simple replication. That's what makes creativity, creative.",
+                            "score": 9,
+                            "replies": [
+                                {
+                                    "author": "Suttonian",
+                                    "body": "Imagine you read a book, it was great, you felt it was fascinating, emotional, artistic, inspired then you discover it was made by ai. It had meaning because of how you feel, how it made you think, and it should still have that. It might make you feel bad if you have anti ai sentiments though.\n\nOn another level I believe neural networks encode meaning. Creativity is doing things that are new, and AI can combine abstract things it has learned in new ways. I think people tend to focus on the surface level learning, e.g. a visual AI learns pixels and a textual AI learns combinations of words, but the learning gets much more abstract, that's literally what the lower layers in the neural networks represent.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "reddit_MarBl",
+                                            "body": "This is the thing. Meaning that comes from something without meaning IS still meaningful, but you are creating, not consuming. \n\nIt's not a conversation, you are the only one with the meaning. You are creating it yourself.\n\nIt's not a big deal, but in many ways, it really is. If you want to create, you should be creating, not consuming. AI suppresses that need \n\nYour dreams feel meaningful, but they are the opposite of real.",
+                                            "score": 5,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "codehawk64",
+                            "body": "Nah, reading a good book is a raw human experience. You are basically putting your trust in the author that it's going to be worth spending hours of your time reading through it. If you want to know how the Game of Thrones books end, one can just generate away the story with AI and call it a day instead of waiting for RR Martin to personally finish it, but nobody wants that.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "FuzzyDyce",
+                                    "body": "That's one of those comfortable lies artists tell themself to make themselves feel better. Sure people care about Martin, but in the vast majority of cases readers don't care about the author at all and just want to read a good/ entertaining book.\n\nYou see the same thing with AI here on reddit. Based on the subreddit you'd think putting AI in your game would be a horrible disaster, but gamers basically don't care at all.",
+                                    "score": -6,
+                                    "replies": [
+                                        {
+                                            "author": "codehawk64",
+                                            "body": "Clearly you don't read books from the sounds of it. Give me one example of an AI generated book that is doing well ? We are already in the stage of people AI generating their books and selling it for a quick buck.\n\nAs for games, that depends on the game itself and your target audience. A free braindead hyper casual game for mobile ? Sure that definitely works for AI because the target audience is little kids and that segment of the market is open to any kind of industrial low quality content that follows a certain trend. But if it's an attempt to generate an advanced game with intrinsic mechanics and narrative in it like a JRPG or baldurs gate ? That segment of the market is just going to completely ignore it. I've seen many examples of this already, and there isn't a single one that I know is doing well.\n\nThe thing is, for the foreseeable future anything complex that you make entirely in AI is going to look garbage to everyone. It's not exactly because of the AI itself, but because lazy AI enthusiasts completely isolate themselves in their basement and make something alone without collaborating with anyone competent in their field. Leading to a potentially strange low quality looking product in the end.\n\nIt's not like gamers are suffering from a lack of games. People are 100% going to notice the strangeness of the product if a dude heavily relied on generated assets for their project, and it's going to subconsciously register in their minds it's a lazy product not worth parting their money with.",
+                                            "score": 4,
+                                            "replies": [
+                                                {
+                                                    "author": "FuzzyDyce",
+                                                    "body": "Again, these are all things that make you feel better as a creator, but it doesn't match up with how companies and gamers are using and responding to AI. It's all kinds of games of all different sizes using this, and this is from a year ago:  \n[http://totallyhuman.io/blog/the-surprising-number-of-steam-games-that-use-genai](http://totallyhuman.io/blog/the-surprising-number-of-steam-games-that-use-genai)\n\nMaybe 'entirely AI'- straight prompt to final output- isn't going to be great, but that doesn't matter because the tech isn't mostly being used this way. It's all good fun to mock these 'lazy AI enthusiasts', but what they do is just as irrelevant as the majority of people on this sub, because they aren't the one's actually producing games.",
+                                                    "score": -5,
+                                                    "replies": [
+                                                        {
+                                                            "author": "codehawk64",
+                                                            "body": "Not sure why you are under the impression nobody here AI tools. Most devs are already using it, myself included. \n\nAlmost everyone uses generative coding. Coding isn\u2019t a creative process, so it\u2019s perfect to be generated to save time. We just find most other generated assets icky and not suitable for direct use in any genuine product. Only good for conception, ideas and other indirect uses. Anything beyond that is a crutch that\u2019s just going to harm you as a creator.",
+                                                            "score": 2,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "FuzzyDyce",
+                                                                    "body": "I'm not sure why you're under the impression that I think nobody here uses AI tools. The article posted wasn't about coding, it was about using AI to create other game assets.\n\nIt's totally fine to find AI icky, but you also shouldn't lie about how the state of the industry or how audiences will received.\n\nJust looks at how this is being received. Not once have I advocated for the use of AI or said it was required or anything like that. I'm just trying to get you and all your friends here to see the actual state of the industry / audience right now. Downvotes may make you feel better, but they won't change any of that.\n\nAs a side note, you're stealing from programmers just the same as you're stealing from artists; you just feel better about it because you don't have the same sorts of positive associations with programmers.",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "WartedKiller",
+            "body": "I saw a post this morning on social media that was saying:\n\nThe percentage of code written by AI over the years\n\n2024: 50%\n\n2025: 100%\n\n2026: 75%\n\n2027: 0% with a surge of junior level opening and a massive increase in pay for senior to fix the last 2 years.\n\n\nWhile those number are ridiculus, they paint a realistic view. If you\u2019re a junior and the first reflex you have today is to ask an LLM to fix your issue, you will miss the boat and might never raise the rank. This wave of AI replacing people will not last because AI can\u2019t code, it can\u2019t make you feel emotion, it can\u2019t create.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "Sycopatch",
+            "body": "Honestly, quality of your average game (even AAA) is so low, that AI wont change much.  \nHuman passion isn't something that makes good games.  \nEven if it did, it doesnt even lay dead next to video games since 2010, in 99% of cases.\n\nPassionate devs exist, but they're usually crushed under corporate deadlines, monetization schemes, and rushed releases. If anything, AI could just automate the soulless, copy-paste junk we already get, and the difference wouldn't be noticeable.\n\nAI or no AI, the industry\u2019s been running on fumes for a while. If anything, the best games still come from people who actually *know* how to design and iterate properly, not just those who \"love games.\" Passion is optional\u2014competence isn\u2019t.\n\nGive me a game made by a competent dev who leverages AI to streamline the boring parts and focus on actual *game design* over some \"passion project\" that\u2019s 90% jank and 10% excuses about how it\u2019s made with love (and why it failed only because of marketing of course)",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "None",
+                    "body": "[removed]",
+                    "score": -5,
+                    "replies": [
+                        {
+                            "author": "reddit_MarBl",
+                            "body": "He's talking about the idea of designing a game, world, story, narrative, mechanics etc. then using AI to arrange some bitmaps so they look like mud or bricks or whatever.\n\nIt's really not a big deal. I don't use AI assets because I can paint, but if I didn't want to learn how to paint and just wanted some grass for my game, there's nothing wrong with that.\n\nIf it's really important for grass to look a certain way in your particular game, then a human artists is indispensable. \n\nBut, chances are that the grass in your game looks similar to grass in the other one billion games. Because that's what grass looks like outside. The same grass the AI will generate for you.\n\nAll you need to decide is, does it fit in with the rest of your project? If it doesn't, then you'll have to make it yourself, or find / hire someone who can.",
+                            "score": 6,
+                            "replies": []
+                        },
+                        {
+                            "author": "Sycopatch",
+                            "body": "Very valid argument",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Tarc_Axiiom",
+            "body": "First, some important points.\n\n>it scrubs, copies and rearranges existing work\n\nThis is fundamentally false. We can have a debate about generative machine learning but we must do so from a position of understanding.\n\n>It lacks the human touch that makes a game worth playing.\n\nThis is an opinion and inqualifiable, but one I agree with.\n\n>Some studios are already using AI to cut costs. That means fewer jobs,\n\nThe second sentence here is not **inherently** true. Our studio is using machine learning tools now, and it has actually resulted in *more* jobs. The key is that we understand that these are **tools**, and tools are best used in the hands of artisans. A strong artist is made stronger by the computer and software they use to generate art more quickly, more effectively, and to greater detail. This is what these tools allow our artists to do. Tools do not replace artists.\n\n>If they accept AI-generated content, they should expect games to feel repetitive and soulless.\n\nThis is false and doesn't even make sense. Generative machine learning technology has been in use in games for literal decades. Not the exact same technologies we're seeing now, but still, generative machine learning (what you call \"AI\"). Many if not *literally all* of ***your*** favourite games use \"AI\" technologies. Artists and developers need these tools to make games on the scale they do, and they don't make games worse by any stretch. Again, the artists are making the art, the tools are helping them make the art. You can drive a nail with your hand but a hammer makes it a LOT easier.\n\n>AI may have a place in development, but not at the cost of creativity and jobs.\n\nThis is the key takeaway. It *obviously* has a place in development and it will become integrated across this and every other industry, just like all technological advancements. However, there are ethical ways to implement these tools into your pipeline, and unethical ways. Replacing creativity with \"AI\" is a failure, and it won't work. Using it to **assist** creativity is key.\n\nYou, in that quote, very correctly identify the nuance in the situation, that's good... But then you immediately after say this;\n\n>I make a conscious effort to only work with studios and individuals that \\[...\\] have it as a part of their development policy to not allow generative AI to be used.\n\nSo do you understand the nuance or not?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "IntrospectiveGamer",
+                    "body": "Thank fuck somebody with two grams of common sense. Idk why reddit jumped so hard in the anti ai wagon. It's just a tool! They remind me the fear people have of 6 new thing",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "di_anso",
+                            "body": "As an artist, every time I hear that genAI is just a tool, I want to fucking scream. And every time it gets compared to a camera, 3d, CG art, photobashing to feed that narrative, I want to explode.\n\nNone of these actual tools/workflows require a fuckton of stolen copyrighted data to work. Even photobashing requires a studio/an artist to have their own library of photos or a licensed pack to use in a product.\n\nCalling ai just a tool, and especially comparing it to these other things, is turning a blind eye to it's obvious copyright issues and ignoring that it should be regulated by copyright law. People are fucking stupid and greedy, so if any \"\"tool\"\" can be used to do harm, it *will* be used to do harm if it's not regulated. And, by the way, it's already the case.\n\nAnd to the topic of \"empowering artists\" with this. So far I've seen more cases that artistic abilities of artists (even seniors) that use ai start deteriorating as they rely too much on ai and stop noticing obvious nonsensical mistakes, not to mention how their artstyles shift to this mediocre ai look. Ai \"art\" lacks human intent, so when you don't build the artwork from scratch, you stop noticing when things don't make sense. I've seen an artlead approving an overpaint of ai that still had a fuckton of nonsense in it. So at least 2 professional artists that worked on that image didn't notice shit. Professional artists all over the internet post these ai images and don't notice how mediocre they are compared to what they did before. Look at Maciej Kuciara posting some ai garbage and praising it while it's the most mediocre lifeless shit ever. Or the recent situation with Ross Tran when he was just straight up lying about the use of ai but couldn't fool anyone.\n\nSo far this \"tool\" only proved to flood everything with more undoable garbage. And don't even get me started on how it's impossible to find references now. If I want to study, say, sea creatures, I have no fucking clue what's real and what's not anymore. Now every piece of image I find on the internet needs to have proof attached that it actually exists so I could grow my visual library as an artist. How fucking empowering.",
+                            "score": 9,
+                            "replies": [
+                                {
+                                    "author": "L_Belles_lettres",
+                                    "body": "Thank you! As a fellow artist and creative, I also feel like screaming every time someone (usually AI bros) say \"AI is just a tool\" \ud83d\ude2d\n\nAdding to your point about these pro-GenAI people comparing GenAI to 3D, CG art, etc., those are all just a type of medium that creatives can use to work on. Such media still requires effort, skill and most importantly *intent*. Whereas most generators that these pro-GenAI people are referring to like text/writing generators, AI image generators and AI music have you type out prompts and it spits out whatever. \n\nOf course, there is also ethical GenAI technology as seen in programs like Vocaloid and Synthesizer V, but we know AI bros aren't referring to that when they mention AI. \n\nAnd it's honestly not just the abilities of artists/creatives who start using GenAI are seen to be deteriorating. I've seen everyday people freaking out because ChatGPT's server is down and they can't write their essay or assignment or finish their work. Hell, I've seen people being too reliant on ChatGPT that they can't even write a simple e-mail.\n\nIt feels really scary and dystopian ngl.",
+                                    "score": 3,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "caboosetp",
+                                    "body": "> None of these actual tools/workflows require a fuckton of stolen copyrighted data to work.\n\n\nBelieve it or not, most generative AI doesn't either. There are really big pop culture ones right now that do. The problem is how popular they are. But a great deal of the AI currently being used and historically has been used, has been trained off in house data.\u00a0\n\n\nAI is a tool. Yes, some people abuse the shit out of some unethical ones. Many people don't.",
+                                    "score": 2,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "HQuasar",
+                                    "body": "> As an artist, every time I hear that genAI is just a tool, I want to fucking scream. And every time it gets compared to a camera, 3d, CG art, photobashing to feed that narrative, I want to explode. None of these actual tools/workflows require a fuckton of stolen copyrighted data to work.\n\nI occasionally work as a translator. Every database we use to translate is built on top of copyrighted data. It's not stolen, it's just sampled. Same with tools like Copilot for coding, which is indeed a tool, and your anger issues cannot change that fact.\nIf you thought that the artistic field would never see such a revolution, you were proven wrong, already. Artists are not a \"protected class\", if automation comes for me as a translator and a coder, it should come for everyone the same.",
+                                    "score": -1,
+                                    "replies": [
+                                        {
+                                            "author": "di_anso",
+                                            "body": "This is so ignorant it made me laugh. Thanks?\nAlso don't expect someone to take you seriously when you post in subs like r/DefendingAIArt. Making it a whole hobby to bash artists on whose work this shit is built on is on another level, my anger issues can't compare :D",
+                                            "score": 0,
+                                            "replies": [
+                                                {
+                                                    "author": "HQuasar",
+                                                    "body": "I don't bash artists, I'm an artist myself (digital and 3D). I only bash artists like yourself who put biases and feelings in front of facts and logic. In fact, you only glanced at my post history and assumed things about me.",
+                                                    "score": -1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "di_anso",
+                                                            "body": ">I'm an artist myself\n\nSo like an actual one or an ai bro that calls themself an artist sort of thing? Either way, it's a shame.\n\n\n>I only bash artists like yourself who put biases and feelings in front of facts and logic. In fact, you only glanced at my post history and assumed things about me.\n\nSays a person who ignored all my arguments and only saw that I get angry at people who either:\n1. do research on the topic and choose to ignore all it's problematic sides\n2. don't do research at all and just repeat \"it's a tool\" because yaaaay new shiny thing.\n\nSo who's biased here?\n\nI looked at your post history because sometimes it gives a better understanding of what kind of person you're talking to, which in this case made it all very clear.\nI'm not gonna waste any time debating you, you can smear yourself with ai all you want.",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "None",
+                    "body": "[deleted]",
+                    "score": -4,
+                    "replies": [
+                        {
+                            "author": "Tarc_Axiiom",
+                            "body": "No, it wouldn't, that's correct.\n\nBut it doesn't solve the problem by repeating the answer it read.\n\nWe can have this discussion, we just have to do it right. The science is out there, you can read it.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Fluid_Cup8329",
+            "body": "You're entitled to your opinion. But also, you're witnessing the nature of progress. New technology replacing old jobs is a tale as old as time. If we were to halt the progress of this technology to favor jobs it makes obsolete, it would be the first time in history we've ever done anything like that. \n\nBut the reality is, the stigma against ai will disappear over time, just like every new tech advancement(i still rememberwhen people used to say there's no such thing as electronic music, something nobody says anymore). Especially as it improves. It's up to the individual to secure their future in a changing landscape.\n\nEdit: Downvote all you want. Don't care. It's true.",
+            "score": -7,
+            "replies": [
+                {
+                    "author": "mark_likes_tabletop",
+                    "body": "I agree with you, but also blockchain in games.",
+                    "score": -9,
+                    "replies": [
+                        {
+                            "author": "Fluid_Cup8329",
+                            "body": "I'm not sure i understand the connection there.",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "mark_likes_tabletop",
+                                    "body": "Just that everyone tries to push the new technology fad of the day into every product and that those new technologies don\u2019t always fit into every scenario.\n\nGenerative AI makes sense for software development but not so much for art. Blockchain technology makes sense for some scenarios, but not much sense for games.",
+                                    "score": -2,
+                                    "replies": [
+                                        {
+                                            "author": "Fluid_Cup8329",
+                                            "body": "Generative AI does have a place in art, though. I use it to generate seamless and basic textures for my 3D models with great success. I've probably saved myself a hundred hours of work so far compared to how I use to make my textures.",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "reddit_MarBl",
+                                                    "body": "Precisely. Because the art is your game. The textures aren't the art. The game is. The textures are a component. That's what people need to understand.",
+                                                    "score": -3,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Fluid_Cup8329",
+                                                            "body": "Indeed, generative art plays a role in the art of my games because it's literally part of the workflow. And like I said, saves me a ton of time compared to how I use to make textures. It's a net positive for me in multiple ways.",
+                                                            "score": 0,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "reddit_MarBl",
+                                                                    "body": "A the point when ai writes a story, makes mechanics, arranges music and makes music, that will be an AI game. It will happen, and soon. But until then, there are only games made by humans. Keep making your art, it has immense value to everyone.",
+                                                                    "score": -1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "StardiveSoftworks",
+            "body": "It\u2019s a tool, use it or fall behind.\n\nEnd of the day, nothing matters except the game being fun, targeted to its audience and well marketed.\n\nWhether that involves ai, black magic or anything else is irrelevant, the end product is the only thing that matters.\u00a0\n\nAs far as \u2018soul\u2019 goes, I\u2019m not quite sure that\u2019s a serializable format.",
+            "score": -3,
+            "replies": []
+        },
+        {
+            "author": "soldture",
+            "body": "First things first, true AI doesn\u2019t exist yet. Neural networks are just another tool, like anything else you use to create.",
+            "score": -3,
+            "replies": []
+        },
+        {
+            "author": "neoteraflare",
+            "body": "The best AI movie will be Will Smith eating spagetthi. Period.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "HQuasar",
+            "body": "Your post is very biased and it reads like a generic boomer complaint. In fact, you could take this post, go back in time by 20 years, and it would read like someone who is upset that 3D programs are replacing the work of 2D animators.\n\n> Yesterday I saw a trailer for a film that is the first 3D animated movie. This monstrosity was brought into the world by Staircase Studios 3D Animation and, if you haven't seen it - it's god-awful.\n\n> Some studios are already using 3D animation to cut costs. That means fewer jobs, especially for junior and mid-level artists and writers. These roles are not just stepping stones. They are the foundation of a strong creative team. Without them, the industry weakens.\n\n> For job seekers, this matters. If a company is replacing traditional animation with 3D animation, what does that say about its values? Candidates should look at 3D animation policies before accepting a job. Does the company use a computer to assist traditional animators or to replace them?\n\n> 3D animation may have a place in development, but not at the cost of creativity and jobs. The industry needs to use it with caution and police it responsibly. The choice is simple: support studios that invest in people, or watch animated movies become lifeless products.",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "Zebrakiller",
+            "body": "Gamers don\u2019t care. [Activision sells AI generated skins, backgrounds, and characters.](https://youtu.be/Em_5T8Ljz_A?si=GssqFV7cmeh3xtPG).",
+            "score": -3,
+            "replies": []
+        },
+        {
+            "author": "ZeroAmusement",
+            "body": "> AI does not create - it scrubs, copies and rearranges existing work.\n\nIt's not manipulating existing work, it's utilizing the things it learned from being exposed to existing work. For me, that's a crucial distinction.\n\n> If they accept AI-generated content, they should expect games to feel repetitive and soulless\n\nA game that contained some form of AI could generate endless dynamic content. A company that uses AI could generate more content than a non-AI using company.\n\nAn AI won an art competition when people didn't realize the artist was an AI, I challenge that it would not necessarily feel soulless, but could depending on execution.",
+            "score": -8,
+            "replies": []
+        },
+        {
+            "author": "Xangis",
+            "body": "Generative AI is the modern version of snake oil. It promises much, but delivers very little.\n\nI do not feel threatened in any way.",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "ThePeoplesPoetIsDead",
+                    "body": "The question is though, how much cheaper is it? At a certain point the rubbish quality is simply acceptable, if it's cheap enough.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "EverretEvolved",
+            "body": "AI is the new gluten. Being openly against it just makes you sound like a band wagon hopping idiot.",
+            "score": -5,
+            "replies": []
+        },
+        {
+            "author": "SmallsMalone",
+            "body": "When you exclude the use of generative AI, you exclude the use of even chatbots used for quickly dissecting information, comparing something across multiple axes or looking for feedback and brainstorming help when you have no network to tap into for that sort of thing.\n\nYou're essentially gatekeeping potential devs on time, resources and connections at that point. Using advanced chatbots like we have today can fill in gaps in the process that isolated creatives wouldn't even tackle otherwise. Many would-be creatives have such an aversion to socialisation and having their work seen that they can't get off the ground because they don't have a mentor in the space they can trust. \n\nI understand the aversion to having content literally straight up spit out from questions like \"Example scene of two lovers having fun arguing\" . However, why are we stopping ourselves from asking something like \"given the themes of fate, choice and sacrifice, what are some fitting mythological figures I can draw inspiration from? Prioritize European and East Asian figures.\"? \n\nOr \"Examine this scene and highlight how it enhances or distracts from my core themes\".\n\n\"My past and present tense seem to be all over the place here, is it working or should I change something?\"\n\n\"Is my transition here too abrupt? Would a slower transition make sense?\"\n\n At that point it's a more refined Google search because it's not drowning in ads, SEO and clickbait articles. It's instant feedback that leaves the writer tons more time to focus on practicing and iterating, spending less energy on trying to parse through advice on someone else's work and see how it applies to theirs. Experienced writers don't need this but they have resources, time invested and connections. This bridges the gap in an imperfect manner, but it's better than nothing. Eventually a writer will begin to need it less and less, likely just using it for small things they shouldn't bother others with or using it as a brainstorming assistant that takes in rough dictation and spits out organized notes.\n\nChatbot AI, if used with care, transforms the ability to get productivity out of isolated creatives that lack the mental fortitude or connections to overcome some of the agency and confidence related barriers to diving into the creative process. Even some of the biggest publishers out there allow a distinction between AI generated and AI assisted works, allowing you to claim something as your own with no AI disclosure if all content in the final work is edited with care by the full attention of a human.\n\nTalk about throwing out the baby with the bathwater.",
+            "score": -4,
+            "replies": []
+        }
+    ]
+}

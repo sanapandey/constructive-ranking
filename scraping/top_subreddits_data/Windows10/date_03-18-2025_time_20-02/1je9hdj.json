@@ -1,0 +1,13 @@
+{
+    "title": "How to disable bitlocker from drives",
+    "author": "ZainO24",
+    "subreddit": "Windows10",
+    "rank": 6,
+    "score": 4,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 0,
+    "url": "https://www.reddit.com/r/Windows10/comments/1je9hdj/how_to_disable_bitlocker_from_drives/",
+    "id": "1je9hdj",
+    "selftext": "So I have a couple of drives I want to disable the bitlocker feature on after I did a recovery on the laptop but I can't find the (bitlocker manager) feature on control pannel, tried the services, cmd, installing gpedit.msc and none of them work, I used to run windows 11 then after the recovery I chose to install windows 10 home\n\n",
+    "comments": []
+}

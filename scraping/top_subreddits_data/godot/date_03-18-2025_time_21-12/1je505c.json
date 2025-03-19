@@ -1,0 +1,406 @@
+{
+    "title": "SixBit - A small physics based platformer shooter",
+    "author": "hmprf",
+    "subreddit": "godot",
+    "rank": 4,
+    "score": 576,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 61,
+    "url": "https://v.redd.it/1f97r57aagpe1",
+    "id": "1je505c",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "dueddel",
+            "body": "Such a cool idea and super well done! Looks fun! \ud83d\ude18\ud83d\udc4d",
+            "score": 44,
+            "replies": [
+                {
+                    "author": "hmprf",
+                    "body": "Thanks !",
+                    "score": 6,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "hmprf",
+            "body": "Who needs a cowboy when you can move with your own recoil? \ud83e\udd20  \n  \nI made this physics-based platformer shooter a while ago! I still have fun with it sometimes, so I\u2019ll definitely add more content one day.  \n  \nAlso, it\u2019s free on itch! \ud83c\udfae\ud83d\udc49 [goddonut.itch.io/six-bit](https://goddonut.itch.io/six-bit)",
+            "score": 30,
+            "replies": []
+        },
+        {
+            "author": "maryisdead",
+            "body": "You should absolutely expand on that game, release it on Steam. It's a really cool concept and I'd pay money for that.",
+            "score": 28,
+            "replies": [
+                {
+                    "author": "hmprf",
+                    "body": "\ud83d\ude4f\ud83d\ude4f\ud83d\ude4f thanks ! It means a lot.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "maryisdead",
+                            "body": "Btw, how are the maps created? I guess they are hand-drawn, but how did you add the physics data to it? Walls/collisions etc.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "hmprf",
+                                    "body": "Yes, I hand drawn everything in pyxeledit if I remember correctly, then added polygon collision 2d by hand as well in Godot directly. Not the fastest process I'm pretty sure ahah",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "OpexLiFT",
+                                            "body": "Not sure if you're keen to try blender, but you can append \"-col\" to a mesh in blender, then when it imports into Godot it generates the correct collision mesh that aligns with the shape.",
+                                            "score": 6,
+                                            "replies": [
+                                                {
+                                                    "author": "hmprf",
+                                                    "body": "I do that for 3d but I don't get how you would do that for some 2d assets like I the one I made. Is there some easy steps to follow ? I might watch some youtube tonight \ud83e\uddd0",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Master-_-of-_-Joy",
+            "body": "Really cool idea, just a small nitpick:\n\nIt would feel much better to finish a level if after hitting the last target score screen appeared after a 0.5-1.5 sec delay. Player could see the last seconds of level more clearly, like in Bad Pigges or Angry Birds.",
+            "score": 14,
+            "replies": [
+                {
+                    "author": "hmprf",
+                    "body": "Thanks ! I agree, I definitely will change this if I add some content. Added to the to do list \u2714\ufe0f",
+                    "score": 6,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "eskimopie910",
+            "body": "Very promising concept. Good luck and keep up the good work!",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "hmprf",
+                    "body": "Thank you, I have a big list of mechanics that could be added so that could be fun",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Skillfur",
+            "body": "I wonder how playable it will be with Steam Decks touch pads\n\n![gif](giphy|3oKIPa2TdahY8LAAxy)\n\nDefinitly going to get this one",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "hmprf",
+                    "body": "Ahah thanks, I was actually wondering if controller could be a nice addition, so i could consider thinking about touch pads but I never had a steam deck in my hand so I don't really know how they react ! Anyway, maybe if I was going for easier level, with better/reworked level design, it could go nicely with controller/touchpads. Thanks again !",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Skillfur",
+                            "body": "These touchpads can work as both analog or a mouse so they are pretty customizable\n\nIf you are used to the touchpads, you don't necessarily need to play on easier levels \ud83d\ude09\nYou really need to see what some people can do with just a controller",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "hmprf",
+                                    "body": "I regularly get wrecked by people on controller in some FPS, so I sadly know, haha. I'll see if it's easy to implement, thanks for the idea!",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "jwr410",
+            "body": "No. I can't believe it. You can't be a gun! You were at my daughter's wedding!\n\nBut seriously, it looks fun with a great art style.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "hmprf",
+                    "body": "And yet, here I am ! The wedding was fabulous \ud83d\ude01 Thanks !",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Fluid-Leg-8777",
+            "body": "Did you by any chance participated im the last pirate software (a streamer) gamejam?",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "hmprf",
+                    "body": "No I didn't ! But I was looking for the game u/Rimaka1 mentionned. Maybe that a good lead ? I'll check if I can find that.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Fluid-Leg-8777",
+                            "body": "Its just that in that gamejam there were like 8 gazillion submissions that were very similar in concept (including mine) \ud83e\udd14\n\n^(im not saying you copied them, you know how reddit is)",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "hmprf",
+                                    "body": "Yes I saw many that were very similar but this one in particular was so close to mine ! \nHonestly with this theme, I'm not surprised a lot of dev went for this concept though, I would have too :)",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "hmprf",
+                    "body": "Ha I found the game jam. I understand now. With a theme like \"You are the weapon\". :D I made this game in 2023 sadly, a year too early ahah!",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "garcezgarcez",
+            "body": "Great idea! Loved it!",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "hmprf",
+                    "body": "Thanks ! \ud83d\ude4f",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Nauta-Squid",
+            "body": "Yo that looks so satisfying. If it ever evolves to having a level editor I could see a niche forming for extremely hard kaizo style levels.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "hmprf",
+                    "body": "Thanks ! I thought about it, but it would have to become tile-based or something because, with the process I used to create this, it's impossible, haha. It would be less authentic but could definitely open up a new target audience!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ZardozTheWizard",
+            "body": "This is awesome!",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "hmprf",
+                    "body": "thanks \u263a\ufe0f",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "MechaPinguino",
+            "body": "I agree with Maryisdead! I wanna throw money your way",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "hmprf",
+                    "body": "\ud83e\udd72\ud83e\udd72 I definitely could use some, thanks for the kind comment !",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "amitbhai",
+            "body": "This is so well executed man!",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "hmprf",
+                    "body": "Thanks a lot !",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "animalonthedrums",
+            "body": "i like it",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "DaBehr",
+            "body": "Looks awesome! Nice work",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "hmprf",
+                    "body": "Thank you \ud83d\ude4f",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "torville",
+            "body": "Better than many Steam games, and I mean that as a compliment ;)",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "hmprf",
+                    "body": "Well I took it that way, thank you ! I am working on another game but the feedback I get on this game makes me hesitate now :D",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "broken_nokia",
+            "body": "Dude that second clip unlocked a core memory of linerider tracks",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "hmprf",
+                    "body": "I spent way too many hours on linerider. Such an amazing simple concept and amazing game. I never made the connection between the two ahah thank you for that. Now I wanna play again !",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Rimaka1",
+            "body": "Really weird, but I saw a really similar game (similar enough that I'm even making this comment) for a game jam a bit ago. Like almost exactly the same except it wasn't pixel art, it was a tad more realistic, and it wasn't really a puzzle game it was more of a rage bait climber game but even the music sounds the same (Edit: free music, makes sense they sound the same)\n\nCan you press spacebar to jump off the ground slightly?\n\nEdit: oops double reply",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "hmprf",
+                    "body": "I feel like it's a simple enough concept that it could have multiple doppelgangers, probably even better ones! :) I\u2019d be really interested in testing it if you remember where I can find it! It's also a really neat idea for a gamejam concept as it really simple to implement. \n\nYou can't jump without recoil in my game, but it's a nice idea (though I don't think I would like it for my game)",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "hmprf",
+                    "body": "This is the one, right ?  \n[https://kalicogames.itch.io/jump-shoot-revolver](https://kalicogames.itch.io/jump-shoot-revolver)  \nSuper fun to see a completely different take that's still so close to mine: western, music, cacti, and all, haha. Thanks for telling me about it!\n\nI also love the idea of the small jump that shuffles the barrel.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Rimaka1",
+                            "body": "Yeah thats the one, wasn't saying you were copying them or anything just had a crazy familiar feeling when watching your video lol",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "hmprf",
+                                    "body": "I understood how you were saying it, dont worry ! Thanks for telling me it's super fun to discover how other people can have the same ideas and how they implement it. I think they even did it on Godot too :)",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "graydoubt",
+            "body": "Very nice. The art style 16 seconds in reminds me of [Flashback](https://store.steampowered.com/app/961620/Flashback/).",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "hmprf",
+                    "body": "This game is one of my core memories as a gamer, so I couldn't be happier with the comparison. If I can achieve even a hundredth of what they did back then, that\u2019s a success!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "dirtyword",
+            "body": "Can the gun have a hat?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "hmprf",
+                    "body": "I mean, why couldn't it! But the hat would have to move slightly after the gun so you can see the speed of the recoil \ud83e\udd23",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "OfficerCheeto",
+            "body": "Now this is unique. Love the pun with the name",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "hmprf",
+                    "body": "Thanks !",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ConvenientOcelot",
+            "body": "I actually grinned when I saw the concept, that looks awesome!",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "hmprf",
+                    "body": "Thank you, exactly what I was looking for with this video ahah :)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ken_jammin",
+            "body": "Really cool concept, I do have some feedback. The targets feel very small, it feels like my ability to get a good run on a level feels more dependent on my ability to hit the target and less so on creating/understanding the best route. It's also very hard to adjust my velocity/angle/momentum when trying to hit such a small target.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "hmprf",
+                    "body": "Thank you for your time and feedback ! I see what you mean. It could be interesting to go easier on the target or precision in order to get more flow in the gameplay. I'll do some test for sure ! Thanks",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "mpinnegar",
+            "body": "Finally, a game where guns DO kill people.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "hmprf",
+                    "body": "ahah nooo ! Only target here !",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "vanntasy",
+            "body": "Brilliant idea, gonna wish list this one!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "RadoLuna",
+            "body": "So original love it",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

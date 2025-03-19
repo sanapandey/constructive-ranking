@@ -1,0 +1,27 @@
+{
+    "title": "Free resources for learning python",
+    "author": "Wild_Dragonfruit_806",
+    "subreddit": "learnpython",
+    "rank": 9,
+    "score": 3,
+    "upvote_ratio": 0.81,
+    "num_comments (reported by reddit)": 2,
+    "url": "https://www.reddit.com/r/learnpython/comments/1jedic5/free_resources_for_learning_python/",
+    "id": "1jedic5",
+    "selftext": "I'm not completely new to CS, I have programmed in js and react for a while, now im looking to learn python. Id love any free resources that could help me do this. Thanks in advance",
+    "comments": [
+        {
+            "author": "Ron-Erez",
+            "body": "Harvard CS50 is free on youtube but a little slow, MOOC - University of Helsinki course is a great text-based course and I also have a\u00a0[Python and Data Science](https://www.udemy.com/course/python-foundations-for-data-science-from-zero-to-data-analy/?couponCode=FEB2025-PYTHON)\u00a0course that starts from scratch and assumes no prior knowledge. The book \"Automate the boring stuff\" is free. Theres resources will have you covered. Note that everything is free except my course. I think your best choice since you have experience is the MOOC course. I'm pretty sure my course covers more especially in the direction of data science.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Wild_Dragonfruit_806",
+                    "body": "thanks a lot",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

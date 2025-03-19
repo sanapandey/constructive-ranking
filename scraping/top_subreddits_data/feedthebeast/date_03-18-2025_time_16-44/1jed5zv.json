@@ -1,0 +1,20 @@
+{
+    "title": "No more duplicate crops (Unified Crops)",
+    "author": "pitbox46",
+    "subreddit": "feedthebeast",
+    "rank": 9,
+    "score": 11,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 1,
+    "url": "https://www.reddit.com/r/feedthebeast/comments/1jed5zv/no_more_duplicate_crops_unified_crops/",
+    "id": "1jed5zv",
+    "selftext": "Hello! I was playing ATM10 the other day and I was extremely annoyed by the number of seeds and plants that you accumulate. We end up getting seeds from Pam's Harvestcraft, Farmer's Delight, Mama's Herbs and Harvest, Sushi Go, and other mods. Many of these end up being duplicates of each other. \n\nSo I did the reasonable thing and spent all of yesterday making an OreDict-like mod for plants. The mod modifies the recipes and loottables so that we only see the \"parent item\" instead of the duplicate (child). The system is data-driven and easily modifiable. The parent item and the specified children can all be changed. Without any configuration, it is set to work with PHC, FD, MHH, and Sushi Go. \n\nEach item also gets a \"morph recipe\" to convert it another version (ie. PHC -> Sushi Go). This way if you need a specific version of the item, you can easily obtain it. This mechanic also makes it almost necessary to use Polymorph. In addition to that, the parent item inherits the tags of all its children items. \n\nIt isn't perfect at the moment. In the video, I'm still getting a couple Farmer's Delight tomatoes, so I'll be working out those kinks!\n\n[Curseforge - Unified Crops](https://www.curseforge.com/minecraft/mc-mods/unified-crops), Modrinth - Pending Approval\n\nhttps://reddit.com/link/1jed5zv/video/ibv5ftx9zhpe1/player\n\n",
+    "comments": [
+        {
+            "author": "Elobomg",
+            "body": "Dude thats amazing!! Great job!!\n\nI really hope thing gets aproved soon to get in my modpacks asap",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

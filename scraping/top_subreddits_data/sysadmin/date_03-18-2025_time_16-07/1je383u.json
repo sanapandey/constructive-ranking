@@ -1,0 +1,226 @@
+{
+    "title": "IIS Mail Relay on Server 2022 - a workaround",
+    "author": "IwantToNAT-PING",
+    "subreddit": "sysadmin",
+    "rank": 15,
+    "score": 17,
+    "upvote_ratio": 0.95,
+    "num_comments (reported by reddit)": 33,
+    "url": "https://www.reddit.com/r/sysadmin/comments/1je383u/iis_mail_relay_on_server_2022_a_workaround/",
+    "id": "1je383u",
+    "selftext": "If you're in the position where you still require an on-premise mail relay for certain legacy mail applications, you may note that Server 2022 does not officially support the old IIS SMTP relay. You can add the role and required features, but if you try to configure any elements, it doesn't work, the service will fail or crash, and IIS will crash.\n\nThe unethical life pro tip is to re-use the 'MetaBase.xml' config file from an older Server such as Server 2016 IIS SMTP relay - pop it into the required location (default C:\\Windows\\System32\\inetsrv) overwriting the old metabase.xml file, and then you should find the service should start and work, providing the metabase.xml file is configured to work with the hostname/IP/DNS etc of your server/environment.\n\nAny configuration going forwards will need to be done either by editing the XML file, or by making the changes on a 2016 IIS SMTP relay server and copying the metabase.xml file.\n\nThis was not tested on Server 2025.\n\nThis is obviously not a 'good' solution, as IIS6.0 is ancient, Microsoft support of SMTP relay has been retired and is not supported in any way... but if you're in the situation I was in this may do as a good enough like-for-like stop gap until you do things the proper way by either implementing a supported form of mail relay, or doing away with the legacy requirements for such a mail relay.",
+    "comments": [
+        {
+            "author": "Syncnaptic",
+            "body": "never used it,\nbut saved the link to https://emailrelay.sourceforge.net/index.html for the next time I need something like this",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SusAdmin42",
+            "body": "Does anyone have a modern solution they recommend?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "DheeradjS",
+                    "body": "SMTP2GO is usually my go-to\n\nThe Venerable Postfix is easy to set up if all you absolutely need it to be on-prem.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "mini4x",
+                            "body": "Does it support unauthenticated SMTP ?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "tylrat93",
+                                    "body": "If you\u2019re fine with whitelisting your IP in smtp2go it\u2019ll accept unauthenticated, can also limit what senders it\u2019ll accept as well",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "mini4x",
+                                            "body": "We already NAT to a dedicated IP outbound so this could work.",
+                                            "score": 1,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "mini4x",
+                                            "body": "We already NAT to a dedicated IP outbound so this could work.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "DheeradjS",
+                                    "body": "Postfix does. SMTP2GO requires Authentication.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "WraithYourFace",
+                                            "body": "I believe you can whitelist your IP so you don't have to.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "ITGuyThrow07",
+                    "body": "postfix if you're comfortable.\n\nProxmox Mail Gateway is also really good. It's just a front-end or some Linux stuff but it's snappy, easy to configure and easily clusterable.\n\nIt's free to use or you can pay a few bucks if you want support.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "UCB1984",
+                            "body": "I just set up a few postfix servers to replace our on-prem exchange server we only kept around for relaying. It was a lot easier than I expected. I have it relay through 365 using a couple different HVE addresses and IP filtering, and it has been working great.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Nelesz",
+                    "body": "We replaced our SMTP iis for a debian postfix relay server. This also let us use DKIM with opendkim. You can build the config in any way you want unauthenticated/authenticated/whitelist etc.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "IwantToNAT-PING",
+                    "body": "Yeah, we'll likely either shortly set up a postfix server, or potentially look for a cheap paid supported option depending on the feeling of the director.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "ITGuyThrow07",
+                            "body": "Check out Proxmox Mail Gateway. It's \"cheap\" depending on what you consider cheap. It's also free to just use if you don't want support. The free version is fully featured and doesn't expire.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "IwantToNAT-PING",
+                                    "body": "Will take a look.\n\nThe attitude of the business going forwards is that if it's doing a production thing, then it should have paid support - which absolutely makes sense. That said, I don't know who they were expecting to stand up and actually help if we were to have rang Microsoft and said \"yeah, the IIS6.0 SMTP relay is down and we can't get it back up.\"",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "screampuff",
+                    "body": "Azure Communication Services",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Threep1337",
+                    "body": "Postfix works great as an mta",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "tankerkiller125real",
+            "body": ">This was not tested on Server 2025.\n\nThe IIS 6.0 Role required doesn't exist for me on 2025, so I pretty sure they removed it entirely.\n\nAs for replacements, Exchange Online has \"High Volume Email\" users as a thing now. Which as far as I can tell accepts the standard username & password combo (given you can test with powershell send-email with the username and password).\n\nWe killed our mail relay entirely a while ago much to the hatred of our dev team working with Sage 500 because they no longer had a way to send emails to real mailboxes (Sage 500 older versions have no password prompt or TLS support). However using [haravich/fake-smtp-server](https://github.com/haravich/fake-smtp-server) with the WebGUI exposed internally gave the devs someplace to test without dealing with real email garbage and mail relays.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "jcpham",
+                    "body": "O365 IP based unauthenticated relay still works if you\u2019re hitting your A record at domain.protection.mail.outlook.com on port 25\n\nThe account doing the relay doesn\u2019t need a license",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "tankerkiller125real",
+                            "body": "HVE doesn't require individual user licensing either (at least while it's in preview), and from what I've been able to find it seems like it will stay like that, just with an overall limit on number of HVE accounts based on licensed user counts.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "jcpham",
+                                    "body": "Goo to know because I\u2019ll probably eventually be forced into HVE",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "IwantToNAT-PING",
+                            "body": "Yep.\n\nThis is sadly the way.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "petarian83",
+            "body": "Correct, using the SMTP server that comes with IIS is not enough since it lacks features like DKIM and customization. We switched to Xeams, which is on-premise, free, and has many features that are missing in IIS.\n\nOf course, another alternative is to use a cloud server, but that has privacy issues and can be costly.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "EquivalentSubject638",
+            "body": "SMTP2Graph is the way to go.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "noisywing88",
+            "body": "the workaround is to use a proper solution like postfix if needed or some cloud smtp, not an unsupported hackjob because you are afraid of anything other than windows",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "IwantToNAT-PING",
+                    "body": "Lol - did you read my post? \n\nThis is not a proper solution - this is literally a temporary workaround while you find a proper solution. \n\nAs I've just said in another reply - we're going to look at either setting up postfix or look into a cheap paid option depending on the decision of the director.\n\nOur environment is largely windows, but we've also got a fair bit of Ubuntu doing various things. I've personally never span up a postfix server before, so I'd like to have a few days to a week to sort of make sure I'm a bit more au-fait with it before it becomes live production.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "WraithYourFace",
+                            "body": "SMTP2Go.  I had it up and running in minutes.  If you need unauthenticated I believe you have to use a paid subscription (their lowest is $10/mo).",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "IwantToNAT-PING",
+                                    "body": "Yeah - I think that is the competitor as unauthenticated is the main requirement... \n\nOn the plus side, the entire solution that requires this nonsense should be dying next year!",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "kilkenny99",
+            "body": "I had set up a 2022 server last year to move an internal webapp to it that had previously been on a much older Win Server and that used the IIS SMTP relay to send emails triggered by events in the application, and it didn't have any issues or require any workarounds to get it to work. Has this been a common problem?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "OinkyConfidence",
+            "body": "Brilliant!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "changework",
+            "body": "We have something like this setup. \n\nPostfix running on a Debian VM. \n\nConfigured to receive SMTP from local network unauthenticated on port 587 with TLS1.2 or higher. (We require the sender to be a specific email address and the recipients to be within our domain. Anything else is rejected)\n\nSmart host configured to relay accepted email to hosted exchange with authentication. \n\nThis creates a scan to email path for MFP\u2019s and desktop scanners that will only allow emails to our users\u2019 inboxes. \n\nIt\u2019s not what you\u2019re asking for, but postfix is infinitely configurable, and if you run it on Linux it\u2019ll be rock solid. \n\nAnother note, don\u2019t expose this to the internet. It should only be accessible to local devices, preferably with ACL\u2019s that limit it to your authorized devices.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "RCTID1975",
+            "body": "We got around this by doing an inplace upgrade from 2016 to 2022. Everything worked fine, and you could even make changes.\n\nHowever, find a more modern and better solution. There are plenty of 3rd party options that are reasonably priced.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MaxMcBurn",
+            "body": "Have a look at MailEnable or E-MailRelay\n\nhttps://emailrelay.sourceforge.net\nhttps://www.mailenable.com",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "title": "What have you been working on recently? [March 15, 2025]",
+    "author": "AutoModerator",
+    "subreddit": "learnprogramming",
+    "rank": 1,
+    "score": 2,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 6,
+    "url": "https://www.reddit.com/r/learnprogramming/comments/1jbnp6s/what_have_you_been_working_on_recently_march_15/",
+    "id": "1jbnp6s",
+    "selftext": "What have you been working on recently? Feel free to share updates on projects you're working on, brag about any major milestones you've hit, grouse about a challenge you've ran into recently... Any sort of \"progress report\" is fair game!\n\nA few requests:\n\n1. If possible, include a link to your source code when sharing a project update. That way, others can learn from your work!\n\n2. If you've shared something, try commenting on at least one other update -- ask a question, give feedback, compliment something cool... We encourage discussion!\n\n3. If you don't consider yourself to be a beginner, include about how many years of experience you have.\n\nThis thread will remained stickied over the weekend. [Link to past threads here](https://www.reddit.com/r/learnprogramming/search?q=%22What+have+you+been+working+on+recently%3F%22&sort=new&restrict_sr=on).",
+    "comments": [
+        {
+            "author": "iwouldbutiforgot",
+            "body": "I made a rock paper scissors game in C++ as I'm going through [learncpp.com](http://learncpp.com), overly simple but one of my first full personal projects I've made. Would love some feedback or even just to see someone else try it out. Thanks!  \n[https://github.com/soundabstract/RockPaperScissors.Repository.git](https://github.com/soundabstract/RockPaperScissors.Repository.git)",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Erdem_PSYCH",
+            "body": "an addon for NVDA screenreader to improve it's functionality for musescore nuzic notation program. It is very simple yet and doesn't work yet but I'm very proud of it. This is my first non-tutorial project and it solvves a personal problem. I am very excited. this might help many blind users. I will add the link later.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "V1nsm0ker",
+            "body": "recently started learning go and I am building a CHIP8 emulator in the language. Of course it's still early and I am still learning the quirks of the language but I'd say it's going well. I'm in a sort of honeymoon phase with the language. I honestly believe it is perfect lol  \n[https://github.com/Dalhatmd/CHIP8-emulator](https://github.com/Dalhatmd/CHIP8-emulator)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Lucky-Activity-7934",
+            "body": "Logo. ):/(: depends on the time of day",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "gamernewone",
+            "body": "I\u2019ve been learning golang, and am working on this small project [nuts repo](https://github.com/Fantasy-programming/nuts) i don\u2019t know if i got the structure right. I also struggle to get the auth part working with my react frontend (i lose my auth status on page refresh if my network isn\u2019t fast enough)\n\nIf anyone would take a look and explain how to fix that and also give other criticism that would be cool \ud83d\ude05",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

@@ -1,0 +1,235 @@
+{
+    "title": "Ltt screw driver is breaker panel approved",
+    "author": "benkraemer_",
+    "subreddit": "LinusTechTips",
+    "rank": 11,
+    "score": 170,
+    "upvote_ratio": 0.84,
+    "num_comments (reported by reddit)": 34,
+    "url": "https://i.redd.it/0hrovniz2dpe1.jpeg",
+    "id": "1jdv5r0",
+    "selftext": "I\u2019ve had the driver for almost 2 years now since the very start of my apprenticeship and I\u2019ve used it every single day I\u2019ve worked since. I used it just the other day to help wire up my first full electric panel. It\u2019s helped serve me well over these years and this was no exception ",
+    "comments": [
+        {
+            "author": "kecuthbertson",
+            "body": "Not trying to be negative but you should really get into the habit of using insulated tools inside a switchboard, if you ever have to work in one that's live then touching the shaft to spin it could kill you.",
+            "score": 159,
+            "replies": [
+                {
+                    "author": "ItIsYeQilinSoftware",
+                    "body": "I was just thinking he's a lucky SOB",
+                    "score": 12,
+                    "replies": []
+                },
+                {
+                    "author": "Ragnorok64",
+                    "body": "I'm so glad this is the top comment. Even though the panel pictured is turned off, for the sake of people just searching in the future and and not likely to read all comments, this post is dumb.",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "benkraemer_",
+                    "body": "It was a new panel install, the whole thing wasn\u2019t energized, otherwise I\u2019d use insulated tools",
+                    "score": 33,
+                    "replies": [
+                        {
+                            "author": "kecuthbertson",
+                            "body": "It's more about building good habits than anything else, it may not matter at all in the current job, but you can end up in weird unpredictable situations.\n\nOne example is I had a friend who was working on a lighting circuit, they isolated the circuit it was labeled as at the board, they tested the circuit, it came back as 0v, so they started working away. Towards the end of the day as they were fitting off the last couple of additional lights everything suddenly turned on. Turns out someone had added a daylight switch and fed it from a new circuit, but had forgotten to add it to the legend.\n\nThey were in the process of tightening the terminals when it switched on so the fact they were using isolated tools on a circuit they thought was completely isolated is the only reason they didn't get a shock.",
+                            "score": 42,
+                            "replies": [
+                                {
+                                    "author": "PokeT3ch",
+                                    "body": "I like this sentiment.  I've seen a few sparkies in my life that have said \"eh it's not live, it will be fine\" well they were wrong.  No one has gotten hurt but they call dont call em sparkies for nothing.",
+                                    "score": 12,
+                                    "replies": [
+                                        {
+                                            "author": "CMDR-TealZebra",
+                                            "body": "\"it's not live\" is exactly what someone told me as I cut a commercial AC unit's cable.\n\nIt was live. My snips did not survive and boy golly did it hurt.",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "CMDR-TealZebra",
+                                    "body": "People really do not understand the idea of building a safe habit.\n\nYou can see it in things as dumb as turn signals. \"No one's around why would I signal\"",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "impy695",
+                                            "body": "Damn, that's a good analogy. Not using turn signals is one of the few backseat driving things I do and I've gotten that response more than once.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "benkraemer_",
+                                    "body": "I\u2019m all for safe practice and traditionally abide by it. I gave a deeper explanation in an edit comment here but this was an instance where there was no way anything I was working with could be energized and zap me",
+                                    "score": -2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "impy695",
+                            "body": "Have you read their reply yet? I'm curious what your thoughts are.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "marcelr1801",
+            "body": "for your own safety, please do not use the LTT screw drivers for electrical applications as they are in no way insulted or compliant with relevant regulations.",
+            "score": 51,
+            "replies": [
+                {
+                    "author": "benkraemer_",
+                    "body": "It was an unenergized panel, no electricity going through it while we\u2019re installing everything in it",
+                    "score": -4,
+                    "replies": [
+                        {
+                            "author": "Macusercom",
+                            "body": "Still, especially when posting online, some DYI people read it, don't think about it and electrocute themselves. Always use insulated tools; better be safe than sorry.\n\nMaybe at some point it is not disconnected and then it might take your life",
+                            "score": 7,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Canonip",
+            "body": "Wouldn't use a non VDE approved screwdriver with electric work\n\nJust German things I guess",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "memeroniandpineapple",
+            "body": "That's a pretty clean panel! As a fellow electrical apprentice, I do like the screw driver too! You should definitely have a set of insulated tools because if you ever have to work on anything live (which you shouldnt) the habit of using the shaft to turn will make you jump from a shock at some point or another. Complacency and all.",
+            "score": 14,
+            "replies": [
+                {
+                    "author": "madhouse25",
+                    "body": "Here in NL you technically can\u2019t use an uninstalled screwdriver as an electrician.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "exonautic",
+                            "body": "Must be a pain waiting for your screw-drivers to install.",
+                            "score": 8,
+                            "replies": [
+                                {
+                                    "author": "aitacarmoney",
+                                    "body": "i\u2019m still waiting for a driver update",
+                                    "score": 5,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "FrostingWest5289",
+                            "body": "By NL do you mean Newfoundland ?",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "glizzyglide",
+            "body": "I'm not an electrician, but from what I've seen and limited knowledge that panel looks really clean! Good job.",
+            "score": 9,
+            "replies": []
+        },
+        {
+            "author": "benkraemer_",
+            "body": "Edit: I feel like I should state that the panel was not energized and under no circumstances could it be energized. The local power company(consumers energy) had taken the globe with them when they had killed power and will not come reinsert the globe until an inspector comes and approves our work, its standard practice in the area. Traditionally I\u2019d work with insulated tools but in this instance there was absolutely no way of getting shocked so I decided to use my preferred tool which was the LTT screwdriver",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Squirrelking666",
+                    "body": "Which is always fine until it isn't.\n\nNever underestimate the capacity for people to do stupid things, like back feed from a separate circuit. This is why insulated tools exist.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Psychological_Shop43",
+            "body": "I don't care if it's deenergized. Under no circumstances should you use a non electrically rated screwdriver in a breaker panel. I've seen people get zapped from circuits that were deenergized because someone came along and reconnected it between testing and the work being performed. Just don't, it's not worth losing your life. Get in the habit of using the proper tools.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "conte360",
+                    "body": "While it's completely fair for you to value your life I think you're underrating how much internet karma is worth...",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "Psychological_Shop43",
+                            "body": "I don't care. This is a matter of safety, maybe it won't happen to the op, but someone might come along and see this and think their ltt driver is safe to replace an outlet or run a new circuit and it just isn't. People lose their lives over one mistake and it happens from stupid stuff like this.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "conte360",
+                                    "body": "I agree with you I was just being sarcastic to be honest",
+                                    "score": -1,
+                                    "replies": [
+                                        {
+                                            "author": "Squirrelking666",
+                                            "body": "People on reddit don't understand sarcasm.",
+                                            "score": 2,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Psychological_Shop43",
+                                            "body": "That's fine with me, I just don't play around when it comes to saftey. I regularly deal with voltages higher than residential that will happily put you in a pine box if you're not careful, the difference between me and your DIY friend is I have the training to understand what I'm dealing with. Most people trying to do some basic electrical repairs don't. I especially hate it when I see professionals not following basic electrical safety.",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Mesnaga",
+            "body": "You\u2019re a fool. There\u2019s a reason you\u2019re posting this to LTT and not any kind of electrical sub. You know it\u2019s wrong and it\u2019ll get you or someone else hurt. Use VDE rated tools, safety regs are written in blood.\u00a0",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "SnootDoctor",
+                    "body": ">[Safety] regs are written in blood.\n\nYep. I know someone whose father died because he was wearing a metal watch working on electrical, even though it was supposed to be energized, a second source provided current and tapping a grounded part of the work caused him to be electrocuted and fall from his ladder",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "tojezota",
+            "body": "Wtf\u2026",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "saintlouisbagels",
+            "body": "Your mentor doesn't give you shit for using a driver that isn't insulated..?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "benkraemer_",
+                    "body": "It\u2019s a unenergized panel with now realistic way of it being energized while I was working in it",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

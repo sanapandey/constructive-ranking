@@ -1,0 +1,900 @@
+{
+    "title": "Destiny 2 Update 8.5.2.1",
+    "author": "DTG_Bot",
+    "subreddit": "DestinyTheGame",
+    "rank": 1,
+    "score": 196,
+    "upvote_ratio": 0.95,
+    "num_comments (reported by reddit)": 139,
+    "url": "https://www.reddit.com/r/DestinyTheGame/comments/1je9v7x/destiny_2_update_8521/",
+    "id": "1je9v7x",
+    "selftext": "Source: https://www.bungie.net/7/en/News/Article/destiny_update_8_2_5_1\n\n---\n\n##Activities\n\n\n###Crucible\n\n\n\n**Competitive**\n\n\n* Points Gains/Losses\n\n\n\n   * Increased the granularity of the performance bonus portion of the Rank rewards.\n\n\n\n      * This will allow the performance bonus to grant additional positive points more often.\n\n\n\n   * Increased the maximum amount the performance bonus can grant from +10 to +20.\n\n   * Increased the maximum amount the contribution scalar can grant from +50 to +60.\n\n\n\n* Matchmaking\n\n\n\n   * Fixed an issue where smurf protection could be erroneously applied to players who had been highly ranked in previous seasons but placed lower than expected this season.\n\n\n\n      * This was increasing the effective rank that these players were matching in, leading to the reports of lower ranked players matching against players at higher ranks.\n\n\n**Trials of Osiris**\n\n\n* Fixed an issue where the double loot modifier was being applied twice for post-game Adept weapon drops.\n\n\n###Raids and Dungeons\n\n\n\n**Sundered Doctrine**\n\n\n* Fixed an issue where the final boss could be defeated using pressure doors.\n\n\n\n   * Pyramid Ships are dangerous places...\n\n\n\n* Fixed an issue where alternate characters that completed the quest could not collect the class item.\n\n\n\n   * Alternate characters with no focus set can collect class item from focus chest.\n\n   * Alternate characters with a focus set, will need to set it to the class item to collect from focus chest.\n\n\n###Episode: Heresy\n\n\n\n**Court of Blades**\n\n\n* Fixed an issue where the Ritual of Greed armament pickups could be acquired by another player who had also purchased the armament.\n\n\n##Gameplay and Investment\n\n\n###Weapons\n\n\n* Updated Temptations Hook to match damage profiles of other modern Caster Frame Swords.\n\n\n###Exotic Weapons\n\n\n* Slayer\u2019s Fang\n\n\n\n   * Fixed an issue where Slayer's Fang would stun Overload Champions but did not stop their constant health regeneration.\n\n\n\n* Barrow Dyad\n\n\n\n   * Fixed an issue where Barrow Dyad couldn't be crafted if the player had unlocked the fourth intrinsic.\n\n\n###Weapon Perks\n\n\n* Fixed an issue where weapons with the Subjugation origin trait would not exhaust boss, miniboss, and Champion combatants.\n\n* Fixed an issue where Explosive Payload's damage was not being scaled correctly by some perks like Magnificent Howl and Master of Arms.\n\n\n###Abilities\n\n\n* Fixed an issue where players could spawn infinite orbs with no cooldown after using a Relic.\n\n\n###Artifact\n\n\n* Fixed an issue where the Piercing Sidearms perk granted by Tablet of Ruin wasn't piercing some types of shields.\n\n\n##General\n\n\n* \"Winged Victory\" Holochip has been renamed to \"Taking Flight\" so as to not be confused with the new ship with the same name.\n\n* Fixed an issue where the Triumphant ornament required Season Pass ownership to purchase.\n\n* Fixed an issue where the \u201cTaking Flight\u201d Holochip\u2019s tooltip would not indicate that it was previously purchased.",
+    "comments": [
+        {
+            "author": "jizzle12",
+            "body": "Still no salvations edge memento at the cryptarch\u2026",
+            "score": 149,
+            "replies": [
+                {
+                    "author": "Specter27",
+                    "body": "Im so glad someone else remembers this lmao. I feel so gaslit that they brought it up like twice in twabs and it still isnt there yet.",
+                    "score": 64,
+                    "replies": [
+                        {
+                            "author": "3hot5me",
+                            "body": "Did they say it would be retroactively given out?\u00a0",
+                            "score": 7,
+                            "replies": [
+                                {
+                                    "author": "Emeraldon",
+                                    "body": "Yes, for everyone who cleared the raid before... Act 1? we were supposed to be given a memento for free at the Cryptarch.",
+                                    "score": 21,
+                                    "replies": [
+                                        {
+                                            "author": "3hot5me",
+                                            "body": "Act 1 of Heresy?",
+                                            "score": 4,
+                                            "replies": [
+                                                {
+                                                    "author": "throwntosaturn",
+                                                    "body": "The raid released before act 1 of echoes did. Act 1 of echoes started like 5 days after the raid opened.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "may_or_may_not_haiku",
+                    "body": "I shoul have a dozen.\n\nI instead have zero and I've completely given up.",
+                    "score": 11,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Broseiden_04",
+            "body": "\n\n>Gameplay and Investment Weapons Updated Temptations Hook to match damage profiles of other modern Caster Frame Swords.\n\nLETS GOOO!!! I have been so upset when I saw this return with this episode. I'm glad they finally fixed this issue lol",
+            "score": 131,
+            "replies": [
+                {
+                    "author": "ResIpsaDominate",
+                    "body": "Could they now fix the fact that it doesn't drop from the Tome of Want if you focus reprisal swords????",
+                    "score": 23,
+                    "replies": [
+                        {
+                            "author": "Broseiden_04",
+                            "body": "Omg I actually forgot that was an issue. Hopefully they do fix this in time... (Happened to me too)\n\nMy work around would be to turn in the seasonal currency (the materials you earn throughout the dreadnaught) into the totem that sits in Eris's apartment. Has been the best source of seasonal loot for me so far",
+                            "score": 11,
+                            "replies": [
+                                {
+                                    "author": "ResIpsaDominate",
+                                    "body": "Yeah I know you can get it that way, but that's additional RNG standing between me and my flash counter roll for Stronghold arc titan haha. \n\n  \nAlso farming essentia is slow unless you do the reloading the nether cheese (which sounds like an unfun time, to say the least).",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "BifJackson",
+                    "body": "Same dude. Got excited for my Relentless, Whirlwind roll for unlimited ammo, along with the blight rounds weapon mod. Was gonna use it on my bolt charge build. I was super disappointed when I realized it was the lowest impact sword in the game.",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "Broseiden_04",
+                            "body": "Honestly my same reaction. I was excited when it came out originally in season of arrivals since I got Bolt Caster back in D1. Was majorly disappointed when it didn't hit the same \ud83e\udee4\n\nI'm waiting until the evening to confirm this, but right now on the app it still shows the 50 impact stat versus the 60 that other caster frames have rn. Possibly need to swing online during my lunch break to check on this",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "BifJackson",
+                                    "body": "Games still not live, so it probably wouldn't show the correct impact until it is. Hopefully, at least, lol",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Broseiden_04",
+                                            "body": "I see that as well. Fingers crossed \ud83e\udd1e",
+                                            "score": 2,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Broseiden_04",
+                                            "body": "UPDATE: IT'S BEEN FIXED!! HALLELUJAH \ud83d\ude4c",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "BifJackson",
+                                                    "body": "OUTSTANDING",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "XAL53",
+                            "body": "I haven't used caster frames for a long time, what are the rolls that are best for the archetype?",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "BifJackson",
+                                    "body": "Relentless strikes give back full ammo if every heavy shot lands. It can be a little weird where it can take a few seconds, but the ammo usually comes back. And Whirlwind blade works perfectly with it. The heavy attack hits 10 times, so one heavy will get you the full damage buff of 30%.",
+                                    "score": 6,
+                                    "replies": [
+                                        {
+                                            "author": "XAL53",
+                                            "body": "damn i didn't know it was that many hits thanks",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "mister_slim",
+                            "body": "lol, I already dismantled that roll because of the terrible impact. Just another lesson in the importance of hoarding everything.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "BifJackson",
+                                    "body": "We really need more vault space. Ergo Sum, and the class exotics did a number on my vault.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "mister_slim",
+                                            "body": "That would be nice. I'd prefer a reasonable way to reacquire gear as circumstances change, so I can test stuff easier. Optimizing a boss kill to repeat it hundreds of times is just never going to be interesting to me.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "PinkieBen",
+                    "body": "Honestly don't know how they reissued it without doing this in the first place, but thank God. Guess I can actually try to get a good one now.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "Broseiden_04",
+                            "body": "I actually held onto one that I got all the way back from season of arrivals. I actually deleted last episode because I didn't see much of a purpose to hold onto it (I assumed they were going to release a different arc sword) \n\nNeedless to say I was very surprised to see this return in Heresy, especially within the first act. But was quickly upset to see that it ran into the same issue it did in the past with the impact stat",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "TheDark0men",
+            "body": "I am once again asking for Ascension to proc class ability mods (reaper, powerful attraction, spirit of inmost light) like ensnaring slam does",
+            "score": 230,
+            "replies": [
+                {
+                    "author": "Every_4thWord",
+                    "body": "We may never get this unfortunately. I\u2019ve lost hope",
+                    "score": 38,
+                    "replies": [
+                        {
+                            "author": "Mnkke",
+                            "body": "Its a known issue finally. Its just a matter of time now.",
+                            "score": 33,
+                            "replies": [
+                                {
+                                    "author": "Crafty_Trick_7300",
+                                    "body": "Just like how they said they\u2019d fix dupes from bright engrams - should be any day now, they just put it on their known issues list back in Shadowkeep",
+                                    "score": 14,
+                                    "replies": [
+                                        {
+                                            "author": "Furiosa27",
+                                            "body": "Is that a bug? Seems like something they would want intentionally since bright engrams really only serve the purpose of getting you to scroll to the store",
+                                            "score": 9,
+                                            "replies": [
+                                                {
+                                                    "author": "Crafty_Trick_7300",
+                                                    "body": "It\u2019s a bug - back in SK they said it under their \u201cknown issues\u201d and claimed to have fixed it at some point. Obviously it\u2019s not a priority because like you said it drives attention to the store and getting dupes means you\u2019re less likely to get an ornament or something else you\u2019d want, meaning you\u2019re more likely to have to buy it as opposed to unlock it. \n\nReally scummy to have not fixed it tbh.",
+                                                    "score": 4,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Voldernnn",
+                    "body": "it was added in Episode: Heresy Known Issues!",
+                    "score": 16,
+                    "replies": []
+                },
+                {
+                    "author": "Shane_Jones",
+                    "body": "PLEASE BUNGIE",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "LightspeedFlash",
+                    "body": "All I really want is powerful attraction and reaper, it sucks the most that those 2 mods don't work with it. Everything else would be cake to me.",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "PurpleSandals",
+                            "body": "Sucking up facet of purpose orbs with gifted conviction is my dream",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "LightspeedFlash",
+                                    "body": "I mean, sure, but recuperation is the main draw there to me as well.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "TheGod_Who",
+                    "body": "Also Slice",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "heartywarry",
+                    "body": "I\u2019m pretty sure when they made the change to ascension they said that at this time they weren\u2019t going to make it activate mods but will monitor it",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "BokChoyFantasy",
+                            "body": "Bungie makes the weirdest decisions. Any action that uses up an ability charge should activate mods.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "heartywarry",
+                                    "body": "There could be 101 reasons why it doesn\u2019t it\u2019s frustrating but it is what it is",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "TheDark0men",
+                            "body": "They said the same for ensnaring slam, but that works with mods",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "AggressiveBlueberry_",
+                                    "body": "Based on their wording, it felt like the non-interaction with some of the mods are intentional? And depending on how the aspect performs maybe they'll make sure it interacts with all the mods.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "TheDark0men",
+                                            "body": "they used the same wording for both abilities. One works with mods, the other doesn't. It seems to me that they should both work with mods.\n\nespecially because its on the known issues list: [https://help.bungie.net/hc/en-us/articles/27062192032404-Destiny-2-Year-7-Known-Issues-and-Vital-Information](https://help.bungie.net/hc/en-us/articles/27062192032404-Destiny-2-Year-7-Known-Issues-and-Vital-Information)",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "heartywarry",
+                                    "body": "But it\u2019s not ascension lol",
+                                    "score": -4,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "VoliTheKing",
+                    "body": "Does ensnaring actualy proc those?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "TheDark0men",
+                            "body": "Yes, at least it did at the start of the episode when I tested it",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "TalekAetem",
+            "body": "Still no fix for the Sundered Doctrine quest line if you grabbed one too many worms???",
+            "score": 48,
+            "replies": [
+                {
+                    "author": "WileyWatusi",
+                    "body": "How the fuck is this still a thing? I'm stuck at step 2.",
+                    "score": 25,
+                    "replies": [
+                        {
+                            "author": "BansheeTwin350",
+                            "body": "Vespers host broken quest is still a thing. Good luck getting SD fixed. And they are doing the same thing to the SD problem as the VH problem. Acting like it's not an issue and telling players they just need to go on other characters.",
+                            "score": 17,
+                            "replies": []
+                        },
+                        {
+                            "author": "UltraNoahXV",
+                            "body": "Saw in a thread a while ago, but the fix for step 2 is to grab someone who hasn't done the quest AT ALL, like not inititated, not cleared, etc. Have them launch the dungeon with you in their fireteam, then enter Savathun, Enter, Pyramid.\n\nThat should fix it - LFG is your best best - ended up taking two people who hadn't done it but was on a differenr character at the time.",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "BansheeTwin350",
+                            "body": "Vespers host broken quest is still a thing. Good luck getting SD fixed. And they are doing the same thing to the SD problem as the VH problem. Acting like it's not an issue and telling players they just need to go on other characters. Which in VH does not work.",
+                            "score": 4,
+                            "replies": []
+                        },
+                        {
+                            "author": "RayS0l0",
+                            "body": "Same",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Gemgamer",
+                    "body": "If this is the bug where you grabbed worms out of order, you can go in and collect the ones you were supposed to and it should fix it. \nMay be a different issue you're talking about though.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "TalekAetem",
+                            "body": "Yeah, I think I grabbed worm 4 before worm 3, so inputing the code at the thing just won't work",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "Gemgamer",
+                                    "body": "That's fine though. Do the same code for the previous step you were on, and collect the worms you were supposed to. Don't try to move on to the next step. Even though the worms counter on the quest tracks all worms, it needs the specific 3 from that step to allow you to input the next code.",
+                                    "score": 4,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "CrotasScrota84",
+                            "body": "Probably more than one bug but also one where the Papers you collect doesn\u2019t show up",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "CrotasScrota84",
+                    "body": "If the quest was automatically giving the exotic on step 5 or something they would push out a hotfix immediately",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "APersonWhoIsNotYou",
+            "body": "Dang, no Ionic Sentry chaining fix.",
+            "score": 36,
+            "replies": []
+        },
+        {
+            "author": "VacaRexOMG777",
+            "body": "Man they finally fixed the infinite orbs\n\nGonna be missed o7",
+            "score": 11,
+            "replies": [
+                {
+                    "author": "T-Car20",
+                    "body": "I just started to have some fun with this on the moon. Happened by mistake yesterday in CoB. RIP.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "TracyJackson23",
+            "body": "Is the update on Steam yet? Just restarted Steam but didn't see any update being applied.",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "Dawg605",
+                    "body": "No. They extended the downtime by at least an hour.",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "WrathOfMySheen",
+                    "body": "steam's always a little weird with destiny updates for me",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "dkdj25",
+            "body": "I am once again asking for overload trace rifle to work with Microcosm.",
+            "score": 20,
+            "replies": [
+                {
+                    "author": "iMoo1124",
+                    "body": "Dang, it doesn't?",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "dkdj25",
+                            "body": "Not at the moment, no:(",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "IxAC3xI",
+            "body": ">Fixed an issue where alternate characters that completed the quest could not collect the class item.\n\n>Alternate characters with no focus set can collect class item from focus chest.\n\n>Alternate characters with a focus set, will need to set it to the class item to collect from focus chest.\n\nThank you Bungie I can finally finish getting all the loot from the dungeon!",
+            "score": 14,
+            "replies": [
+                {
+                    "author": "xJetStorm",
+                    "body": "My only character that completed the quest (Titan) couldn't pick up the 4th piece of paper in the base camp to be able to focus on the first place.\n\nThe others are stuck on bugged steps.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "IxAC3xI",
+                            "body": "Yea I hear that. I was able to finish the quest on 2 chars but my third is stuck on the second step. Hopefully they are moving towards a solution that will get everyone unstuck.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "BNEWZON",
+                                    "body": "do you seriously have to do the quest one each character to get the class item?",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "IxAC3xI",
+                                            "body": "Unfortunately..... yes. I have also heard that you can get it via master completion but I can neither confirm or deny since I've only done one run of master.",
+                                            "score": 0,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "el_biguso",
+            "body": "Fixed an issue where alternate characters that completed the quest could not collect the class item.\n\n   * Alternate characters with no focus set can collect class item from focus chest.\n   * Alternate characters with a focus set, will need to set it to the class item to collect from focus chest.\n\n  \nWhat does that even mean? Alternate characters need to complete the quest to collect the class item?",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "xJetStorm",
+                    "body": "As you do the quest, you get the nth-Tier Initiate buff which applies to all characters.\n\nNormally you are supposed to be able to become Fully Initiated after completing the quest and loading up the start of the dungeon to pick up the 4th piece of paper, which then allows you to interact with the symbols in the 9 worm rooms to set your focus.\n\nHowever... If you are bugged on your character that completed the quest where the 4th paper doesn't spawn, you are likely still SoL.\n\nGuess what happened to me?",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Element11S",
+            "body": "Think it\u2019s possible to include artifact choices in loadouts? I\u2019d like that.",
+            "score": 15,
+            "replies": []
+        },
+        {
+            "author": "BifJackson",
+            "body": "They fixed Temptations Hook! That bothered me so much. Good job, Bungie.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "xJetStorm",
+                    "body": "The inexplicably lower impact stat and per hit damage just made the already rocky implementation of Caster Frame even worse than it should have been received when it was initially added in Arrivals, alongside the goated Falling Guillotine. The next caster frame (Sola's Scar from Trials) had a normal impact stat and they eventually rebalanced the archetype (e.g. ammo costs) without fixing Temptation's Hook until now.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "an18ftsloth",
+            "body": "I've been a Slayer's Fang main all season, so the Overload fix is nice!",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "360GameTV",
+            "body": "Was mention ever mention in the last weeks the new div / particle reconstruction bug after they fix the more damage bug?",
+            "score": 10,
+            "replies": []
+        },
+        {
+            "author": "TheRealMe99",
+            "body": "rip orb printer",
+            "score": 12,
+            "replies": [
+                {
+                    "author": "Hollywood_Zro",
+                    "body": "Shame. It made altars of sorrow a Mayhem game mode.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "T-Car20",
+                            "body": "This was so much fun",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "manbearwall",
+            "body": "Can we pick up the charges from the Fragment of Command puzzle yet?",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Striker_Hutassa",
+            "body": "TEMPTATION'S HOOK BUFF LETS GO!",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "No-Pomegranate-5883",
+            "body": "I am once again asking Bungie to please fix Necrotic Grips and Spirit of Necrotic causing Devour to not activate/extend on melee kills. Especially now with Lightning Surge buffs.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Cruggles30",
+            "body": "Can we please address the whole Act 2 story being out of order issue?",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "RedditBansLul",
+                    "body": "It's a future look into the story structure for Frontiers \ud83d\ude02",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "NiteOwl421",
+                    "body": "What\u2019s out of order for it?",
+                    "score": 9,
+                    "replies": [
+                        {
+                            "author": "-alkymyst-",
+                            "body": "You can get the mission for the new xp level path with the seasonal vendor, which includes eris and drifter, before you find out they're back. And some of the sword fragment objectives you can do have you working with drifter, but he doesn't get involved with that process until the end of the first weeks story.",
+                            "score": 9,
+                            "replies": []
+                        },
+                        {
+                            "author": "sucobe",
+                            "body": "The voice lines/quest steps",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "YarrrMateys",
+                    "body": "It's worse than that, though, because Drifter references Act 2 stuff at the end of Act 1 in the orbit dialogue. The cue/hooks for the season are all sorts of messed up.",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "sjb81",
+            "body": "Still no fix for the Tome of Want quest not progressing?",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "FatalTortoise",
+            "body": "Trials of Osiris: Didn't fix issue of people resetting their cards to avoid the flawless pool. You know the thing they did last time you decided to segregate the populations.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Anthrophantasmus-",
+            "body": "Lockset is the new Raneiks & isn't gonna be fixed for months huh",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "uCodeSherpa",
+                    "body": "TBH I would rather not have tether than have current raneiks.",
+                    "score": 9,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "DepletedMitochondria",
+            "body": "no RDM nerf?",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "BuckaroooBanzai",
+                    "body": "Stop asking for blind nerfs",
+                    "score": -1,
+                    "replies": [
+                        {
+                            "author": "DepletedMitochondria",
+                            "body": "It was in last week's twid that it'd be today but not this note lmao",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "KingofPaladins",
+                                    "body": "Saw a comment from Mercules over in CrucibleGuidebook that it was implemented but just not put in the patch notes and that they\u2019d update them soonish.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "cbizzle14",
+                                            "body": "It's already updated. The bot just hasn't pulled information again u/RiseOfBacon",
+                                            "score": 2,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "DepletedMitochondria",
+                                            "body": "Sweet, thanks!",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Adjective_Number_420",
+            "body": "> Fixed an issue where the Ritual of Greed armament pickups could be acquired by another player who had also purchased the armament.\n\n\nI thought we were doing it as a team\n\nwhoops lmao",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Nalowale87",
+            "body": "still no steam update..",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Wafflesorbust",
+            "body": "Still no fix for the Tome of Want: Primer quest being stuck.\n\nJust auto-complete it for crying out loud.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Mrbubbles153",
+            "body": "Just got steam update 11:26AM PST",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Sandfleas1",
+            "body": "wish they would fix it so i could get a seasonal class item.  i have every armor piece for each class except the class item itself.  im not sure how many times ive run the nether now plus the tome of want for armor but ive been blesses with NOTHING",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Such-Ebb8148",
+            "body": "Huh, Sundered Doctine is not availiable to launch for some reason",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SalvoriteOnReddit",
+            "body": "Any chance this fixed Facet of Command being softlocked because you can't pick up the elemental charges? I'd love to finally get my last prismatic facet.\n\nIt's a known issue at least: https://www.bungie.net/en/Forums/Post/264654038?sort=0&page=0&path=1",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ModernAutomata",
+            "body": "What about bugged icebreaker catalyst? Access Override triumph? No mention? Did we just stop supporting previous content even though it's literally recent?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "CipherXR",
+            "body": "No fix to the Titan\u2019s GG armor with the wonky shin/foot? Cmon Bungie!! \ud83d\ude1e",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Devoidus",
+            "body": "No update on Taken Phalanx absurd block buff.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "JamboreeStevens",
+            "body": "Guess the zoetic lockset is gonna have that damage bug forever",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "turboash78",
+            "body": "Thank you for the quick Dyad fix!\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "J-Wo24601",
+            "body": "wtf is \u201cSmurf protection\u201d?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Lepidopterran",
+                    "body": "\"Smurfing\" is when good players intentionally play poorly so as to drop in rank, so they can stomp on weaker players. Also when they make fresh alts and play poorly on them, for the same reason.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Heltez",
+            "body": "I have two doubts: the first is whether it's a bug or something else that I can't get the mission from the spider with a second PG to obtain the class item of vesper's host after completing the mission on another PG. The second is if they've fixed the Golden Gun that allows you to create infinite orbs.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "KAMIQAZ3",
+            "body": "Anybody know if it\u2019s possible to move past the 15th step of rites of the deep?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "xodevin",
+            "body": "Has there been a fix to the act 2 not showing the rifts at part 2 of the quest?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "budjb",
+            "body": "But have you fixed Ikora's incessant blinking?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ThatXayahWeeb",
+            "body": "Still waiting on Recycled energy fix...",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ShigureCatto",
+            "body": "can we have Division 2-esque perk transfer system (transmutation)\uff1f\nsince craftening is not longer available for most weapons\n\nI don\u2019t mind needing to enchanted both weapons to Tier 3 to transmute one desirable perk to the same weapon, like how we can use glimmer to \u201cupgrade\u201d armor/weapons\u2019 LL",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "WorldIsFracked",
+            "body": "Is Destiny still down for everyone?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "juniorvarsity33",
+            "body": "Meow",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "Ehnes17",
+            "body": "Cat",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "BeaversBumhole",
+            "body": "119 gb for Xbox?",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "Ehnes17",
+                    "body": "Mine was 10",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "BeaversBumhole",
+                            "body": "Had to delete Cyberpunk to have enough room. I'm a little sad about it.",
+                            "score": 0,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "banzaizach",
+                    "body": "I've heard that sometimes the game sort does a whole reinstall to sort out some storage stuff. It isn't increasing the size by that",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "BeaversBumhole",
+                            "body": "I'm ok with that honestly. It was the initial shock of the size that got me.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "herbie2765",
+            "body": "Destiny servers are not available check you have applied all d2 updates ( search \u201c cat\u201d ????\nHow ???",
+            "score": -3,
+            "replies": []
+        },
+        {
+            "author": "DJ_Bliz",
+            "body": "Good to see they've spent their time updating a sword, meanwhile I'm still getting dry fisted by hunters with Tommy's... \ud83d\ude0f",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "herbie2765",
+            "body": "I cant get on \ud83d\ude21",
+            "score": -2,
+            "replies": []
+        },
+        {
+            "author": "No_Lifeguard4104",
+            "body": "I love how they fix the \"fun\" non game breaking stuff but big issues that have been around for a while still isn't fixed...",
+            "score": -15,
+            "replies": [
+                {
+                    "author": "LondonDude123",
+                    "body": "The Orb Printing absolutely IS gamebreaking.\n\nIt might gamebreak to be beneficial to the player, but its still gamebreaking......",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "No_Lifeguard4104",
+                            "body": "True but we still got stuff like the nukes in VH that will glitch out and not allow a deposit as an example of something that needs a huge fix. Has turned me off from attempting to even play that dungeon anymore. I'm sure there is others but that is the one that stands out the most",
+                            "score": -4,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "trapfishtacos",
+            "body": "They haven\u2019t updated the court of blades rewards are they nuts!",
+            "score": -3,
+            "replies": []
+        },
+        {
+            "author": "BansheeTwin350",
+            "body": "No vespers host message 4 quest fix \ud83e\udd26\u200d\u2642\ufe0f",
+            "score": -3,
+            "replies": []
+        },
+        {
+            "author": "BansheeTwin350",
+            "body": "No vespers host message 4 quest fix \ud83e\udd26\u200d\u2642\ufe0f",
+            "score": -4,
+            "replies": []
+        },
+        {
+            "author": "BansheeTwin350",
+            "body": "No vespers host message 4 quest fix \ud83e\udd26\u200d\u2642\ufe0f",
+            "score": -5,
+            "replies": []
+        }
+    ]
+}

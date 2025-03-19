@@ -1,0 +1,236 @@
+{
+    "title": "Flu shots are a product of eggs.  Is the current H5N1 epidemic going to be a huge problem for future flu shot development?",
+    "author": "uncanny_mac",
+    "subreddit": "askscience",
+    "rank": 8,
+    "score": 188,
+    "upvote_ratio": 0.82,
+    "num_comments (reported by reddit)": 76,
+    "url": "https://www.reddit.com/r/askscience/comments/1jam6a8/flu_shots_are_a_product_of_eggs_is_the_current/",
+    "id": "1jam6a8",
+    "selftext": "Obviously the egg shortage is currently a problem and it is due to the current bird flu epidemic.  If it is going to go for a lot longer, will there be issues in season flu shot production?",
+    "comments": [
+        {
+            "author": "swollennode",
+            "body": "By problem, you mean costs, then yes. But flu virus can be grown in other ways such as using cell cultures to grow them instead of eggs.\n\nAlternatively, flu vaccine can be researched to be made into an mRNA vaccine, but there\u2019s a political debate about that.",
+            "score": 190,
+            "replies": [
+                {
+                    "author": "FinndBors",
+                    "body": ">\u00a0but there\u2019s a political debate about that.\n\nIs there any scientific debate on this?",
+                    "score": 86,
+                    "replies": [
+                        {
+                            "author": "Altyrmadiken",
+                            "body": "I don\u2019t think there\u2019s much *legitimate* debate about it. All I\u2019ve seen in the last year or two has centered around whether there\u2019s any side effects. \n\nWhich is *very sort of* like asking if it\u2019s safe to eat fatty foods or are there any side effects. Like, sure, most things will have a possible side effect depending either on amount or unique biology - some people have to be very strict about eating fatty foods for weight purposes and others don\u2019t seem to notice any weight gain at all - but realistically it\u2019s a rounding error at best for any serious side effects.\n\nTo the point that I think we can probably find similar enough \u201crounding error\u201d level side effects in any medicine or vaccine we use regularly anyway. \n\nSo, yes, there\u2019s some, but no it\u2019s not really \u201crelevant.\u201d Just enough to keep the antivaxxers squawking, but not enough for reasonable minded people to worry.",
+                            "score": 79,
+                            "replies": [
+                                {
+                                    "author": "Triasmus",
+                                    "body": ">To the point that I think we can probably find similar enough \u201crounding error\u201d level side effects in any medicine or vaccine we use regularly anyway. \n\nI'm fairly certain the \"rounding error\" side effects are *worse* for normal vaccines than for mRNA, along with normal vaccines being worse at immunizing. \n\nEspecially with a potential flu mRNA vaccine. The normal flu vaccine has historically been anywhere from 8% to 80% effective, averaging 60%, while an mRNA flu vaccine would pretty much always be at least 90% effective (I don't quite remember the number. It might have been 95%).",
+                                    "score": 32,
+                                    "replies": [
+                                        {
+                                            "author": "CrateDane",
+                                            "body": "The COVID-19 vaccines also tend to support the idea that mRNA vaccines have, if anything, lower risk of serious side effects. Of the major vaccines deployed in the west, only a non-mRNA vaccine was withdrawn due to rare serious side effects (the Oxford-AstraZeneca vaccine).",
+                                            "score": 26,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "CirrusIntorus",
+                                            "body": "Do you know why an mRNA vaccine would be so much more effective than a protein-based one? Afaik, the latter are so ineffective because we cannot predict with complete accuracy which strains will be circulating the most, and that's independent of the mode of immunization. Is it just that we could stuff all conceivable mRNA antigen sequences in a single vaccine at no extra cost?",
+                                            "score": 6,
+                                            "replies": [
+                                                {
+                                                    "author": "Triasmus",
+                                                    "body": ">Afaik, the latter are so ineffective because we cannot predict with complete accuracy which strains will be circulating the most\n\nThis is why with the flu. \n\nThey determine 6 months beforehand what 3 or 4 strains are most likely to be the most common in the coming flu season, because it takes 6 months to produce enough vaccine.\n\nWith mRNA it takes a month to produce enough, and the bottleneck there is mostly production capacity, so they're able to predict sooo much better. It will even be possible for them to update the strains for every new batch. \n\nThat alone is huge, but then they're also looking at it and figuring that they can fit 10 or 15 strains in a single shot, compared to the 3 or 4 strains in the current vaccines.\n\nPfizer is currently looking for volunteers for phase 3 combined flu/covid trials, which leads to imagining a future where we get a single shot that deals with 5 or 10 or 20 separate diseases, which would be sooo much better than getting 10 different shots at once.",
+                                                    "score": 23,
+                                                    "replies": [
+                                                        {
+                                                            "author": "CirrusIntorus",
+                                                            "body": "That's what I figured, thank you! I wonder what the maximum number of different antigens is before your immune system becomes less effective. I can't imagine that starting 20 times the normal number of germinal center reactions is good for the body.",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Triasmus",
+                                                                    "body": "The amount of antigens from vaccines is a small fraction of what we encounter daily. We haven't yet seen evidence that a normal, healthy human can be overloaded by vaccines.\n\n(Not to say that I would just go ahead and get a 50 or 100-strain shot without there being lead-up research to make sure it's safe, 'cause it *does* seem like our bodies would run out of reserves at *some* point)",
+                                                                    "score": 5,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "CirrusIntorus",
+                                                                            "body": "I'm aware of that, but most of those antigens will never start a full GC reaction. The point of a vaccine is of course to generate a robust immune memory, and that does necessitate a much stronger response. And there likely is a point where the body cannot sustain that many reactions at once and efficiency starts dropping.",
+                                                                            "score": 3,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "author": "Abdiel_Kavash",
+                                                            "body": "I'm curious: when you say \"looking for volunteers\", what exactly does that look like? Is this something that any random person can just sign up for? Or is is more like, doctors are looking for patients with some very specific characteristics, if you match those you will be contacted first?\n\nI would love to one day contribute to important medical research like this; even if as just a single data point.",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Triasmus",
+                                                                    "body": "For the vaccines I think it was anyone, as long as you're willing to go to the clinic(s) the trials were run out of. The one I had looked at when I said they're looking for volunteers was only in New York.\n\nOther trials you have to have specific characteristics.\n\nhttps://www.pfizerclinicaltrials.com/",
+                                                                    "score": 3,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "LionTigerWings",
+                                            "body": "What\u2019s the hold up then? Political or just the normal slow research process?",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "atomfullerene",
+                                                    "body": "Two separate things: the normal pace of vaccine research (IE not crazy fast like for COVID) means an mRNA flu vaccine isn't rolled out yet.   The current regime in the USA is considering quashing all funding for mRNA vaccines because of politics.",
+                                                    "score": 28,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "Triasmus",
+                                                    "body": "Mostly the research process, partly political.\n\n[https://www.msm.edu/RSSFeedArticles/2023/December/mRNA\\_Vaccines.php](https://www.msm.edu/RSSFeedArticles/2023/December/mRNA_Vaccines.php)\n\n(note about the \"challenge: side effect profile\" section: I've heard plenty of people also talk about how they don't get flu shots anymore due to the side effects. \"It's like giving myself a minor flu, and then i end up getting the flu anyway. It's just not worth it.\" So I assume that traditional flu shots not being known for the side effects the mrna vaccines are known for is largely because people have self-selected themselves out of getting flu shots, and the mrna vaccines are a hot topic, so everyone has an opinion)",
+                                                    "score": 7,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "TarHeel2682",
+                            "body": "Not really. mRNA vaccines have proven as safe as all others. They are just vastly easier to make. The technology has been around more than 20 years. It was hyperpoliticized in the 2020 election as something that divided left and right politically. Now there are mountains of grifters who are playing off of this which just reaffirms the biases of gullible people. I have patients try to blame all kinds of problems on mRNA vaccines and these are conditions that they either did to themselves or are born with (long time before covid).",
+                            "score": 13,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "critterfluffy",
+                    "body": "I mean didn't they cancel the meeting where the vaccine makers coordinate data to determine the viruses they need to prepare for? So I doubt the US will even have a proper vaccine this fall based on traditional methods of development. \n\nhttps://www.cnn.com/2025/03/13/health/fda-flu-vaccine-recommendations/index.html\n\nLooks like the CDC issued their recommendation but didn't use any of their independent advisers. Guess we'll see if they are effective or not this fall.\n\nEdit: The eggs aren't an issue though. The US has a strategic chicken supply for this exact purpose. These are federally subsidized farms that have high level guards to prevent bird flu and other pathogens from getting in. I don't think that has been cut yet.",
+                    "score": 15,
+                    "replies": []
+                },
+                {
+                    "author": "kittenwolfmage",
+                    "body": "Swapping from eggs to cell cultures takes years to setup, so it\u2019s potentially possible that any plants still using eggs as a growth medium will have issues, if one of the farms that supply them end up getting infected.",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "I_Wandered_Off",
+                    "body": "mRNA flu vaccines are in Phase 3 clinical trials now. We could be seeing them on the market soon.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "swollennode",
+                            "body": "A certain state is planning to make it a criminal offense for anyone to administer the mRNA vaccine",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "dflagella",
+                    "body": "I just learned of a company here using plant cells instead for flu vaccines: https://aramisbiotechnologies.com/en/",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "LexiconDul",
+                    "body": "I don't know if it's still the case, but not too long ago, flu vaccines could only be legally incubated in chicken eggs.  There was a big to-do at the time that the worst variant of the year was more successfully grown in dog kidneys, but it wasn't allowed for human usage.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": 34,
+            "replies": [
+                {
+                    "author": "None",
+                    "body": "[removed]",
+                    "score": 9,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Yellowbug2001",
+            "body": "Oooh I know the answer to this one! So I actually just met a guy at a wedding who owns a company that raises chickens for vaccine eggs. It's a super specialized field, they raise them in sterile conditions with multiple layers of \"germproofing\" security (pressurized coops to keep outside air out, workers who wear hazmat suits and take special showers and go through other sterilization procedures before interacting with the chickens, etc.) and it's very expensive. And that's normal, it's not special procedures because of bird flu. It's just a whole separate market from regular eggs. I suspect those chickens are pretty much the least likely birds in the world to be affected, it will probably be OK.",
+            "score": 18,
+            "replies": [
+                {
+                    "author": "2Sanguine",
+                    "body": "This is correct - it's a different supply source than eggs for food.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": 11,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": 11,
+            "replies": [
+                {
+                    "author": "Gardenadventures",
+                    "body": "The meeting was cancelled, that doesn't mean they're not deciding. Meetings are helpful, but not necessary to make a decision",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "None",
+                            "body": "[removed]",
+                            "score": -3,
+                            "replies": [
+                                {
+                                    "author": "the_fungible_man",
+                                    "body": "The FDA disagrees with you:\n\n>As a result of the meeting with the federal partners, the FDA recommends that the trivalent formulation of egg-based influenza vaccines for the 2025-2026 U.S. influenza season contain the following:\n\n  * A/Victoria/4897/2022 (H1N1)pdm09-like virus;    \n  * A/Croatia/10136RV/2023 (H3N2)-like virus;   \n  * B/Austria/1359417/2021 (B/Victoria lineage)-like virus.\n\n>The FDA recommends that the trivalent formulation of cell- or recombinant-based influenza vaccines for the 2025-2026 U.S. influenza season contain the following:\n\n  * A/Wisconsin/67/2022 (H1N1)pdm09-like virus;    \n  * A/District of Columbia/27/2023 (H3N2)-like virus;    \n  * B/Austria/1359417/2021 (B/Victoria lineage)-like virus.\n\n>The FDA has informed the manufacturers of FDA-approved seasonal influenza vaccines of these recommendations. **The FDA anticipates that there will be an adequate and diverse supply of approved trivalent seasonal influenza vaccines for the 2025-2026 U.S. influenza season.**",
+                                    "score": 11,
+                                    "replies": [
+                                        {
+                                            "author": "pancakehaus",
+                                            "body": "Thank you for posting this! I had lowkey been worried, but not thought to go check the FDA website",
+                                            "score": 0,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "None",
+                    "body": "[removed]",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "None",
+                            "body": "[removed]",
+                            "score": -1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

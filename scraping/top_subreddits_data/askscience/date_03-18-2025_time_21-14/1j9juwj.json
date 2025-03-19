@@ -1,0 +1,66 @@
+{
+    "title": "How does sourdough work?",
+    "author": "Cis3hexenal",
+    "subreddit": "askscience",
+    "rank": 14,
+    "score": 33,
+    "upvote_ratio": 0.81,
+    "num_comments (reported by reddit)": 16,
+    "url": "https://www.reddit.com/r/askscience/comments/1j9juwj/how_does_sourdough_work/",
+    "id": "1j9juwj",
+    "selftext": "Question regarding sourdough...\n\nIt is my understanding that wild-type yeast strains are region-specific. So a sourdough starter created in the Bronx would have a different array of critters than a starter created in Phoenix. This difference can (does?) result in a different flavor profile across the sourdough baked goods.\n\nHypothetically, I take an established Bronx sourdough and move it to Phoenix. I then use it regularly for two years (arbitrarily). Is it now repopulated with Phoenix yeast? Does it stay a Bronx sourdough because there is such a high concentration of Bronx yeast to begin with? Is there a rate associated with the turnover? Does it become a hybrid or something?\n\nI'm very curious how this works.\nThanks!",
+    "comments": [
+        {
+            "author": "Festernd",
+            "body": "As far as I know, the wild yeast and lactobacillus is generally from where ever the grain is grown, or milled into flour... but yeast and the lactobacillus (soughdough starter is both the yeast fungi and the bacteria) have a tendency to pickup genes from whatever is added, so over time your soughdough culture will drift in taste, depending on what you are adding to it.  \nhow quick the drift is, and how much it drifts would be quite variable!",
+            "score": 28,
+            "replies": []
+        },
+        {
+            "author": "BrianMincey",
+            "body": "While it is absolutely true that sourdoughs from different locations and different flour sources have different flavor profiles, those differences are imperceptible unless you have an excellent palette and access to the breads to be able to compare them. \n\nEvery sourdough batch is a unique collective and is alive and constantly changing. These changes reflect the environment, time of year, feeding regimens, and random events.",
+            "score": 19,
+            "replies": [
+                {
+                    "author": "m4gpi",
+                    "body": "During the Covid pandemic, a group of researchers asked people from around the world to send in their starters, to [profile their microbiomes](https://pmc.ncbi.nlm.nih.gov/articles/PMC7837699/); they didn't find any significant biogeographic differences between locations the starters came from (across four continents).",
+                    "score": 33,
+                    "replies": [
+                        {
+                            "author": "BrianMincey",
+                            "body": "That\u2019s interesting! It sounds as though, like us, sourdough microbiome communities are more alike than they are different.",
+                            "score": 11,
+                            "replies": [
+                                {
+                                    "author": "None",
+                                    "body": "[removed]",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Hayred",
+                            "body": "To be fair, 16S/ITS sequencing wouldn't capture strain level diversity, so there could well be finer-grained variation within say the S. Cerevisae that just couldn't be seen",
+                            "score": 10,
+                            "replies": [
+                                {
+                                    "author": "m4gpi",
+                                    "body": "Yep, fair. Now that genomic sequencing services have become so efficient, it would be neat if the team could revisit those samples. Money, funding sources, blah blah blah.",
+                                    "score": 4,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Germanofthebored",
+            "body": "I suspect that cultivation conditions might have a bigger impact on the sourdough microbiome. Yeast is inhibited by the lactic acid produced by the lactobacilli, and lactobacillus is inhibited by the ethanol made by the yeasts. These two microorganisms also have different temperature optima - yeast prefers lower temperatures than lactobacilli. \n\nSo I would expect differences in the cultivation conditions should shift the balance in the microbiome, and with it the flavor",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "title": "Can you block a specific IP address from emailing you?",
+    "author": "Dry-Snow-6582",
+    "subreddit": "techsupport",
+    "rank": 2,
+    "score": 4,
+    "upvote_ratio": 0.84,
+    "num_comments (reported by reddit)": 15,
+    "url": "https://www.reddit.com/r/techsupport/comments/1jedllj/can_you_block_a_specific_ip_address_from_emailing/",
+    "id": "1jedllj",
+    "selftext": "Im not sure where to put this, but if somebody keeps making new emails to communicate with me when I don\u2019t want them to, is there a way to stop that from happening? ",
+    "comments": [
+        {
+            "author": "Repulsive_Dot4840",
+            "body": "Nope, only something you can do if you have your own mail server",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "TheThirdHippo",
+            "body": "Check the IP from the Whois database and you should have an email to report abuse to for that IP address. It\u2019s meant more for malware, etc. but worth trying. \n\nhttps://www.whois.com/whois/",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "mckenzie_keith",
+            "body": "It would be possible if you control your email server. But as far as I know, email clients do not support source IP filtering.\n\nIt probably wouldn't work very well anyway.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "USSHammond",
+            "body": "Generally nope but you can blacklist the entire domain if it's the same (eg gmail.com) but if it's a well known domain like Gmail such a blacklist will affect innocent people too.\n\nIf you run your own web server/mail server it might be possible but you'd have to know the actual IP (which sometimes can be found by digging through the headers) and the mail server would have to have an option to block ip's.\n\nThe problem is that if you block an IP if it's a shared mailserver, you'd block every other person using that mailserver too, even if it comes from an entirely different domain",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "dwj7738",
+            "body": "If you can access your mail servers as an administrator i.e. exchange administrator you can block it in the transport settings this will block the mail server.  I.e. block all Gmail",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "earlycustard123",
+            "body": "If your client filters allow to filter based on headers then it might be possible.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "R3D_T1G3R",
+            "body": "As someone else said, it's something that can usually just be done by the mailservers administrator(s)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "FarPossession6047",
+            "body": "Unless the person harassing you runs their own mail server blocking the IP won't help, and even then its a temporary measure. I'm assuming you're finding the IP address in the email headers, this would be the IP for whoever is hosting the mail service IE: Google, Microsoft, Yahoo etc.\n\n\nEven if you could block whatever IP you're seeing in the email headers the person can just make an account with a different email provider and evade the block\n\n\nLike others have said you can try reporting them by finding the abuse contact info for the IP through whois, but you should also report it to the police too.\n\n\nThe best way to make it stop completely, unfortunately, is to create a new email address for yourself and start migrating all your accounts to it. Or set up super aggressive spam filters on your current email, but that's not guaranteed to work and could make you miss real communications",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Xcissors280",
+            "body": "TLDR you just blocked everyone who uses gmail\n\nThe only way this would work if if someone was using their own mail server that was hosted on their own IP address which is pretty rare\n\nplus you would have to be running your own as well or using a service that allows ip blocking for some reason",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ArthurLeywinn",
+            "body": "No not possible.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "JouniFlemming",
+            "body": "It's not really possible. Also, even if it was possible to block a specific IP from sending you email, that person could easily use VPN or other networks to get a new IP address and send you email that way.\n\nIf someone is harrassing you, you should consider reporting it to the police and/or changing your email address. I'm afraid those your main options.",
+            "score": -1,
+            "replies": [
+                {
+                    "author": "R3D_T1G3R",
+                    "body": "A Mailserver can block IP addresses or IP address ranges, and no, it's not as easy as using a VPN, that would complicate it quite a lot as you'd have to adjust all the DNS records for the Mailserver to actually qualify that VPN's IP to send mails for that domain.",
+                    "score": -3,
+                    "replies": [
+                        {
+                            "author": "Due_Peak_6428",
+                            "body": "Any server can send email as any domain. Whether or not it passes their SPF records is the issue.\u00a0",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

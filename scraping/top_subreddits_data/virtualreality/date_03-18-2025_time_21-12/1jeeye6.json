@@ -1,0 +1,118 @@
+{
+    "title": "What are some good pcvr Cables with a USB-A Port?",
+    "author": "No-Lettuce-6619",
+    "subreddit": "virtualreality",
+    "rank": 15,
+    "score": 2,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 16,
+    "url": "https://www.reddit.com/r/virtualreality/comments/1jeeye6/what_are_some_good_pcvr_cables_with_a_usba_port/",
+    "id": "1jeeye6",
+    "selftext": "Yes I know about air link and it hasn't worked for me, im pretty sure it is because my router isn't directly connected to my computer and my router isn't good enough.\n\nSo, I want to use a cable to connect my computer. Preferably it should be 22-26 feet and a USB-A port, it also doesn't need to have charging capabilities. any suggestions?",
+    "comments": [
+        {
+            "author": "AutoModerator",
+            "body": "Thank you for your submission to r/virtualreality No-Lettuce-6619! \n\nIt seems you're new here, so we'd like to introduce you to some helpful community resources:\n\n**Discord Channel**: Connect with fellow VR enthusiasts in our vibrant Discord community! From events to giveaways and a dedicated support section, you'll find plenty to engage with. [Join us on Discord!](https://discord.gg/virtualreality)\n\n**Wiki & FAQs**: Have questions? Our comprehensive [Wiki](https://www.reddit.com/r/virtualreality/wiki/index/) and FAQs are here to help. \n\n**Weekly Game Discussion**: Curious about what games everyone is playing? Check out our weekly game discussion thread!\n\nWe're excited to welcome you to our community!\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/virtualreality) if you have any questions or concerns.*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "zeddyzed",
+            "body": "Reputable Link cable brands include Kiwi Designs and Anker.\n\n\nYou could also buy a 2nd router dedicated to VR and connect it directly to your PC.  It doesn't have to be expensive, just the right models.  The Virtual Desktop discord has a list of recommended routers at various prices.  I bought a gl.inet Flint 2 and it's working very well for me.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Cucumber_the_clown",
+            "body": "I have a Syntech 16' powered cable. It works great and it was only $22. You don't need anything else.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MalenfantX",
+            "body": "Why can't you buy a router for VR? It's odd to use a wireless headset with a wire on it to save maybe $40.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "No-Lettuce-6619",
+                    "body": "Won't that introduce lag via data transfer?  \nWhile i guess it is kinda weird but honestly I think a headset that just off loads the processing power to a computer and just displays images to decrease weight/size would be good.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Railgun5",
+                            "body": ">Won't that introduce lag via data transfer?\n\nIf you're using a standalone headset, there's always going to be compression and decompression latency even if you're using a wire.  And, depending on the USB cable you're using, the latency might even be *worse* than wifi.\n\n>While i guess it is kinda weird but honestly I think a headset that just off loads the processing power to a computer and just displays images to decrease weight/size would be good.\n\nThat's what dedicated non-standalone PCVR headsets are for.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "ew435890",
+                    "body": "I don\u2019t understand why people are so hesitant to buy a dedicated router. You can get a used WiFi 6 router on eBay for less than $50. And that is plenty sufficient for VR.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "No-Lettuce-6619",
+                            "body": "Because apparently I need to bring an ethernet cable from a floor below my computer all across my house just to get 2 WiFi 6 routers as I don't have even one of those",
+                            "score": 0,
+                            "replies": [
+                                {
+                                    "author": "ew435890",
+                                    "body": "DEDICATED router. \n\nBuy a router for your PC you play VR with. It does not need an internet connection. It is just for streaming VR. You still get internet over WiFi.\n\nInternet and wifi are not the same thing.\n\nI have two routers in my house. The downstairs one is for internet. The one upstairs is for VR, and is setup in repeater mode. It receives internet from the downstairs router, and distributes it via Ethernet to my two PCs up there. Before that, I just had it offline and use it just for streaming VR. I got internet from the wifi router downstairs.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "No-Lettuce-6619",
+                                            "body": "Oh I might have misunderstood, what is/does a dedicated router do? I don't quite understand, meta quest link told me i need an ethernet connection.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "ew435890",
+                                                    "body": "It streams VR from the PC to the headset. And meta is correct about Ethernet. The dedicated router needs to be wired to the PC. It is a regular router, but you use it for VR. Not internet.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Pebbles015",
+                    "body": "Especially when you're probably going to pay more than 40 for a cable",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "No-Lettuce-6619",
+                    "body": "also 100$+ routers are really expensive, im mean 70$ is a lot! thats why the 10$ price increase for AAA games was a big deal",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "bushmaster2000",
+            "body": "Generally speaking USBA ports are not as fast.  Yes there are some mobo's that do come with a USBA that is actually 'Gen2' for speed, but USBA doesnn't put out as much power as USBC potentially can.  So even if you had a Gen2 port and hooked that up to your quest, i imagine you'd see it drain the battery at a faster rate b/c it's got half the power.",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "No-Lettuce-6619",
+                    "body": "I don't know if the 1 USB-C port I have can support high speed data transfer. Is there a way to tell?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "bushmaster2000",
+                            "body": "Right you can have USBC ports also not Gen2.  You'd need to look up your motherboard specs.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

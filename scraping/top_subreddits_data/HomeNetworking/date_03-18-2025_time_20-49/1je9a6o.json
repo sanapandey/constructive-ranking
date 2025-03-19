@@ -1,0 +1,306 @@
+{
+    "title": "Complete newb here - why bother with patch panels?",
+    "author": "honkeypot",
+    "subreddit": "HomeNetworking",
+    "rank": 2,
+    "score": 51,
+    "upvote_ratio": 0.84,
+    "num_comments (reported by reddit)": 46,
+    "url": "https://www.reddit.com/r/HomeNetworking/comments/1je9a6o/complete_newb_here_why_bother_with_patch_panels/",
+    "id": "1je9a6o",
+    "selftext": "The disclaimer: I know extremely little about home networking! \n\nI'm trying to think about what I'll need to outfit our new house with in terms of ethernet wire and I think I have a decent idea of what we need. The mile high overview of the network is:\n\nONT --> switch\n\nSwitch --> PoE APs in basement/1st floor/2nd floor\n\nSwitch --> various rooms \n\nSwitch --> PoE doorbell & cameras\n\nAll in all I think I'll need about 48 runs. What I'm struggling with is how best to manage the wires. Should I use a patch panel as well as the switch? It seems redundant to me, but I don't know what I don't know. \n\nI'm also toying around with the idea of doing a single home run per floor such that each floor has its own switch. Does that make sense?\n\nThanks in advance!",
+    "comments": [
+        {
+            "author": "e60deluxe",
+            "body": "you typically want to use solid copper for long runs, but the down side is that solid copper shouldn't really be moved or bent tightly. meaning that you dont really want to be plugging it into devices directly. \n\nthe idea is that you go from solid copper to a patch panel or wall jack. and then regular, flexible stranded patch cords from there to the device. \n\nusing patch panels also creates a clear seperation between structured cabling and things you can and might remove from time to time.",
+            "score": 93,
+            "replies": [
+                {
+                    "author": "pdt9876",
+                    "body": "And while you can terminate solid core ethernet in an RJ45 plug in a way that works, it's not designed for that, the contacts are supposed to push inbetween the strands of the stranded wire when you crimp the connector down, when you do that with solid core, the contacts ends up just kind of on ones side or another of the solid conductor rather than in the middle of the strands",
+                    "score": 21,
+                    "replies": [
+                        {
+                            "author": "TheEthyr",
+                            "body": "There are RJ45 connectors with pins designed for solid core ([pic](https://satmaximum.com/images/content/Stranded_vs_solid_prong-pins-in-rj45-connector-SatMaximum.jpg)). I'm not suggesting it's a good idea to use them on in-wall cabling. A patch panel is still a best practice.",
+                            "score": 11,
+                            "replies": []
+                        },
+                        {
+                            "author": "FizzicalLayer",
+                            "body": "I can't believe I didn't figure that out from first principles. But thanks to this group, that little fact is now clear.",
+                            "score": 4,
+                            "replies": []
+                        },
+                        {
+                            "author": "nevynxxx",
+                            "body": "I\u2019ve worked in a place where half a factory was cabled on one solid core cable with an rj45 end. We didn\u2019t open that can door without pain.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Anywheels99",
+                    "body": "This is answer. I ran nearly the whole 1k box of solid copper CAT6 though my house and attic, back to the to the rack where it is nicely looped and tied, then terminated to the back of the keystone female plugs. Doesn\u2019t move unless we have an earthquake. The thin patch cables are like overcooked spaghetti compared to the CAT6 from the wall. \nThis was by first home build and it makes so much sense to me now why it\u2019s done this way.",
+                    "score": 9,
+                    "replies": [
+                        {
+                            "author": "yoortyyo",
+                            "body": "Data centers and switch rooms would have cut patch panels and keystone jacks out decades ago if it was cheaper or better.",
+                            "score": 28,
+                            "replies": [
+                                {
+                                    "author": "FizzicalLayer",
+                                    "body": "Not sure why the downvote. Here take my upvote. Watching what people who have $$$ invested consider best practice is a great way to learn.",
+                                    "score": 13,
+                                    "replies": [
+                                        {
+                                            "author": "yoortyyo",
+                                            "body": "One valid point is the capital investment versus cut a bad plug off and re terminate a new RJ45.  Cheap & easy.   Your not changing this stuff that often & with gentle handling and no sharp turns its \u2018good enough\u2019.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "FizzicalLayer",
+                                                    "body": "I did it wrong on a security camera install a few years ago. Now, I'm getting drop outs / lower resolution video as the camera reports \"intermittent network connectivity\" and down shifts. I don't -know- that it's because I crimped to solid copper at the camera end, but I don't know that it's not. And now I have to climb back up in the attic. The piece of mind that would have come from doing it right the first time...",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Ziaph",
+                    "body": "I just bought some solid copper for attic runs to set up POE cameras \ud83d\ude2c does this mean it\u2019ll be difficult to terminate my RJ45 and plug directly into my camera?",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "e60deluxe",
+                            "body": "make sure you get plugs that are compatible with solid core and you should be OK. they arent more difficult to terminate. \n\nthe main issue is that the way that RJ45 plugs work is that they have these teeth that pierce the jacket of the cable and then they kind of nestle themselves within the multiple strands of a stranded cable. when you use solid core, they have to have teeth that just sit on either side of the copper core. this isnt nearly as secure of a connection. But if you terminate, then plug in the cameras and then dont move them after that, you should be OK.",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "I_AM_NOT_A_WOMBAT",
+                            "body": "You'll be fine. I did a patch panel for the LAN cabinets, but I just ran cat5e to all the camera junction boxes. Particularly with outside walls, cameras usually come with connections that can be made waterproof against a single ethernet cable, so risking that by adding another jack in the wall is pointless. On top of that cameras don't get switched out very often, maybe every 5-10 years depending on improvements in tech and failure rates.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "WorldClassPianist",
+                    "body": "Yea but what if you need to mount ceiling APs that have no room behind them or security cameras? I would argue solid copper directly to a RJ45 in that instance is acceptable.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "e60deluxe",
+                            "body": "For APs in drop ceilings you terminate to a female jack and still use a patch cable. this is common practice. and it allows for much easier AP diagnosis, installations or swap outs as well. \n\nwhen you dont have that option, and i suppose for security cameras you can terminate to RJ45 isnt terrible.",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "WorldClassPianist",
+                                    "body": "Do you leave the keystone dangling in the ceiling or do you mount it somewhere?",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Ok-Emergency7293",
+                                            "body": "I used a recessed keystone wall plate recently. \n\nPreviously, I have just left the keystone in a gang box.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "WorldClassPianist",
+                                                    "body": "Can you link me a picture of the wall plate? I've mounted APs onto a single gang box but not with a wall plate attached.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "e60deluxe",
+                                            "body": "dangling in the ceiling. But to be clear I am not a low volt pro. but I am an IT pro and when it's done like this (again, which is common) It makes certain things so much easier. \n\nFor example if I need to diagnose why an AP may not be functioning correctly or what have you I can replace the 3 foot patch cable with a 10 fit and just bring the AP down to ground level in case it needs frequent reboots or whatever to re-adpot or whatever etc. Could I take it down and place it in a cubicle and do the same? yes. but more work. \n\ntheres just no downside if you have a drop ceiling.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "0x0MG",
+            "body": "Patch panels are certainly not required. Terminating the in-wall wiring in a patch panel secured to the structure gives a permanent installation that is less likely to be snagged and ripped out. Also, it leaves you the option to only patch the lines you're actually using.\n\nWithout a patch panel you have a bunch of wires looming to your switches that can become burdensome to manage.",
+            "score": 23,
+            "replies": []
+        },
+        {
+            "author": "honkeypot",
+            "body": "Learning a lot from these comments. Thanks, friends.",
+            "score": 14,
+            "replies": []
+        },
+        {
+            "author": "jacle2210",
+            "body": "Regarding your overview layout.\n\n\"ONT --> switch\"\n\nThis should be ONT--> Router--> Switches-->endpoint devices/Access Points, etc.",
+            "score": 10,
+            "replies": [
+                {
+                    "author": "honkeypot",
+                    "body": "\\*furiously takes notes\\*\n\nIn the spirit of explaining like I'm five, in this case I'll do:\n\nONT --> Router --> Switch --> Patch Panel --> endpoint devices\n\nBob's your uncle?",
+                    "score": 10,
+                    "replies": [
+                        {
+                            "author": "Choice_Owl8431",
+                            "body": "Geralmente a ONT j\u00e1 faz o papel de roteamento (autentica\u00e7\u00e3o da fibra, rotas pra internet, dhcp) e possui Wi-Fi embarcado. \u00c9 a ONU que somente recebe a fibra e passa para um roteador fazer a autentica\u00e7\u00e3o PPPoE (em alguns casos \u00e9 comum de ver a ONU mesmo fazendo o roteamento). ONU n\u00e3o tem apar\u00eancia similar a de um roteador dom\u00e9stico, \u00e9 um equipamento que recebe a fibra e sai um RJ45 at\u00e9 um roteador.\n\nCaso o OP continue com a ONT da operadora, n\u00e3o h\u00e1 a necessidade de colocar mais um roteador no caminho, pois isso ir\u00e1 gerar duplo NAT e o IPV6 (caso ativo) pode enfrentar algum tipo de problema.\n\nNeste caso \u00e9 apenas simplesmente plugar a ONT ao switch e a rede ir\u00e1 funcionar normalmente. Apenas recomend\u00e1vel o OP desativar a fun\u00e7\u00e3o de Wi-Fi da ONT e deixar seus pontos de acessos respons\u00e1veis por isso.\n\nCaso o OP tenha interesse em substituir o roteador da operadora por alguma outra solu\u00e7\u00e3o, como MikroTik, pfSense e etc, a\u00ed sim faria sentido o ponto apresentado, mas preferivelmente passando todas as fun\u00e7\u00f5es de autentica\u00e7\u00e3o e DHCP a nova solu\u00e7\u00e3o (ou roteador).",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "jacle2210",
+                                    "body": "Yes, having two functioning Router's in your network is not advisable, this is true.\n\nAs you can tell, I went with the assumption that OP's ONT won't be integrated into a single Broadband Gateway device.\n\nGuess I should have made note of that assumption.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "FaulteredReality",
+            "body": "You might also think about just bringing in your cables to [2 gang outlet boxes](https://www.amazon.com/Newhouse-2-Gang-PVC-Electrical-Outlet/dp/B0CWS6XV78?sr=8-3) mounted in the wall and using a [12 port keystone plate](https://www.amazon.com/Legrand-High-Impact-Retardant-Wallplate-WP3412WH/dp/B0032FXOBC?sr=8-2).  Keeps all your wiring behind the walls instead of bringing a bundle out to a patch panel. \n\nI wired a friends steel warehouse like this. Two boxes for the two zones of security cameras, one for the cat6 network and one for the IP phone system.  This was a small shop/office. \n\n** Links are not the actual products I used, just an example.",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "Bemteb",
+                    "body": ">12 port keystone plate\n\nThank you!\n\nI have searched for weeks for \"patchpanel inside wall\" and didn't find shit.\n\nAny advice on what to look for in these, how to spot good quality?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "wolfansbrother",
+            "body": "Generally you use a patch panel so you dont destroy the plugs on an expensive switch by plugging and unplugging cables.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "petg16",
+            "body": "Patch panels transition from solid core cable to stranded patch cables. Which prevents wire damage from fatigue of repeated bending when plugging into switches. It also allows labeling and strain relief.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "bradland",
+            "body": "This is in a commercial context, not home networking, but I've done nationwide VoIP rollouts to hundreds of sites in offices raging from 5 people up to >1,000 in a multi-floor building.\n\nYou *really* want a patch panel.\n\nThe type of wire you use to do your runs is going to be stiff and more difficult to work with than the kind of cable used in flexible patch cables.\n\nAlso, using your home run cables as patch cables is begging for termination failures. Termination is the word used for the point where the cable stops at a connector, whether it is a jack or a plug. When you terminate your home runs to a patch panel, the cable is generally left alone. No one is tugging on it or repeatedly unplugging/plugging it.\n\nWhen you terminate your home runs to plugs, they get tugged on and moved around every time you have to mess with your equipment. That might not be all that frequent, but it's more frequent than if you used a patch panel.\n\nTermination failures are the #1 cause of physical media failures. I've spent hours chasing down bad terminations, and in large installations, you end up with a literal list of bad terminations that you just don't have the time / budget to fix, so you simply put them out of service until you're forced to do something.\n\nAvoid these headaches by terminating all your home runs to a patch panel, and buy patch cables of the appropriate length for all of your equipment. The end result will be a tidy install that is more durable and will give you fewer issues in the long run.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "aka_mrcam",
+            "body": "In my eyes there are a few reasons.\n1. It looks more professional, less DIY looking if you ever sell the house.\n2. Keystone Jacks are way easier.\n3. You can get a small wall mount cabinet with shelves and a rack mount switch.\n4. Way easier to label and trace when things need trouble shooting in the future.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Stonewalled9999",
+            "body": "the Cat spec is stranded wires for patch panel to switch, and stranded from keystone to end station and solid for patch panel to panel or keystone.   Crimping RJ45 end on a  solid core cable will usually work but its not in spec and solid core was designed for punchdowns not crimps.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "JBDragon1",
+            "body": "When I first got my house, I did RJ45's and plugged directly into my 24-port switch.  I wasn't moving those wires around.  When I moved to a rack, I cut off all those RJ45's and installed the wires onto Keystones and then the Keystones into the Keystone patch panel.  Looks much better.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Reddit_Ninja33",
+            "body": "And I don't think anyone mentioned it, but patch panels and keystones are not expensive especially in the context of 48 drops. The $20 panels work fine, but I do prefer the ones with the support bar in the back just to reduce stress on the cable.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "HBGDawg",
+            "body": "https://preview.redd.it/e42vnmuy5ipe1.jpeg?width=3072&format=pjpg&auto=webp&s=aed81773f339f30eb2f9d4dbf438a818e6c3fb2d\n\nI have about 14 runs all over my house and terminate them all into a POE switch.  In my old house I had a patch panel, but I never swapped them out and it ended up being redundant.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "SweJob1974",
+            "body": "As a seasoned network technician my advice would be to use patch panels.\nThe simplest argument is the durability of connector. The small plastic locking piece on the male connector breaks more often than not, which makes the connection between the male and female connector at best unreliable.\nAnd to replace it would mean losing a few centimeters/inches of the cable length. That would eventually not be good with permanently routed cables. \nBut if a short patch cable between the panel and the switch breaks it's easy and inexpensive to replace. The same reason makes med advocate using female outlets through out the building as well.\n\nAnother reason - if you should do the wiring and mounting the connectors yourself is that its much easier to do the female connectors. I prefer the toolless ones my self, but the ones with punchblocks ar also simple to work with and easy to get right.\n\nThe male connectors tend to be mor tricky.\n\nThats my 5 cents to the discussio .\nGood luck with what ever solution you choose\n/Jonas \"SweJob\" Bergstedt",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "rankinrez",
+            "body": "Patch panels just keep everything neater and easier to manage.\n\nYou can maybe get away without one but it\u2019ll pay off long term to use one.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ThsGuyRightHere",
+            "body": "It's worth adding practicality to the other replies you've gotten. The two main culprits that result in cables needing to be replaced are wear-and-tear and electricity / power surges. Structured cabling puts that risk on a short cable that's easily replaced so you're less likely to take damage to a long cable in the ceiling/attic that's hard to replace.\n\nAdd to that, if you're gonna have a cable melt and potentially start a fire would you rather have it in the interior of your house where it sets off a smoke alarm, or would you rather not detect it until it catches insulation on fire and becomes an open flame?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TheRealFarmerBob",
+            "body": "I was brought up in the school of \"as few connections or breaks in a cable as possible is good\".",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Savings_Storage_4273",
+            "body": "Patch Panels are used for Centralized Cable Management, Copper patch panels allow you to neatly organize and manage multiple copper cables. Patch panels also provide a convenient point to connect and disconnect network devices. By using copper patch panels, you can maintain the integrity of the cabling and avoid physical damage or unnecessary wear and tear on the copper cables. Proper cable management also helps to minimize interference or degradation of signal quality. Best industry practice is to use a patch panel at one end and a data jack at the other.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "maxi1108",
+            "body": "Definitely use a patch field for the fixed wire in the house and the access points. \n\nI personally would not connect the access points directly to the patch field but install a socket (can be hidden). You will be more flexible in the long term.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Pookie06",
+            "body": "I was always told it's easier and cheaper to replace a 3ft cable at the patch panel, over a 200 ft in the walls",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "tmwildwood-3617",
+            "body": "Do a patch panel for all of the technical reasons already said...and do it because it'll look bad ass compared to just going straight into a switch.  \n\nColour code your cables....route and tie them nicely.  \n\nYou can get a little wall mount cage with side panels/door/and swings out from the wall to put it all into.\n\nNobody will care except other tech people and electricians but those that do see it will give you that nod for doing it nicely.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "painefultruth76",
+            "body": "Because making up connectors by hand introduces massive variables in quality, and those imperfections add up, replicating throughout the network, introducing cross talk, collisions and additional error correction transmissions for the same data.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "OttersAreCute215",
+            "body": "In my mind, the only reason to use a patch panel is if the connections are not terminated in RJ45 connectors.  Otherwise, the patch panel is redundant.  My original whole house system had a patch panel that covered four phone jacks and four ethernet ports through a hub.  The hub died, so I replaced it with a switch and we cancelled our landline years ago.  I could probably change a phone line to an ethernet port, but I don't really need to do that right now.",
+            "score": -11,
+            "replies": [
+                {
+                    "author": "dirkvonshizzle",
+                    "body": "It is not redundant:\n\n1. In many cases it\u2019s much more complicated to replace an in wall cable when damaged than just a simple patch cable. And yes, they do get damaged for many reasons. One of which is connecting a different device at some point which requires a bit of wiggling and repositioning.\n\n2. A patch panel can be properly grounded much more easily than many individual network cables. Not every installation requires it, but many do.\n\n3. The type of cable used in many in-wall installations is of the more rigid type, which makes handling the cable more problematic depending on your setup, which includes the danger mentioned in point 1.",
+                    "score": 10,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

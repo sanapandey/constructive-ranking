@@ -1,0 +1,584 @@
+{
+    "title": "Simple Questions - March 18, 2025",
+    "author": "AutoModerator",
+    "subreddit": "buildapc",
+    "rank": 0,
+    "score": 1,
+    "upvote_ratio": 0.6,
+    "num_comments (reported by reddit)": 85,
+    "url": "https://www.reddit.com/r/buildapc/comments/1jdvgfd/simple_questions_march_18_2025/",
+    "id": "1jdvgfd",
+    "selftext": "This thread is for simple questions that don't warrant their own thread (although we strongly suggest checking the sidebar and the wiki before posting!). Please don't post involved questions that are better suited to a \\[[Build Help](https://reddit.com/r/buildapc/search?q=title%3A%22build+help%22+OR+flair%3A%22build+help%22&restrict_sr=on&sort=new)\\], \\[[Build Ready](https://reddit.com/r/buildapc/search?q=title%3A%22build+ready%22+OR+flair%3A%22build+ready%22&restrict_sr=on&sort=new)\\] or \\[[Build Complete](https://reddit.com/r/buildapc/search?q=title%3A%22build+complete%22+OR+flair%3A%22build+complete%22&restrict_sr=on&sort=new)\\] post. Examples of questions suitable for here:\n\n* Is this RAM compatible with my motherboard?\n* I'm thinking of getting a \u2264$300 graphics card. Which one should I get?\n* I'm on a very tight budget and I'm looking for a case \u2264$50\n\nRemember that Discord is great places to ask quick questions as well: [http://www.reddit.com/r/buildapc/wiki/livechat](http://www.reddit.com/r/buildapc/wiki/livechat)\n\n**Important: Downvotes are strongly discouraged in this thread. Sorting by new is strongly encouraged.**\n\nHave a question about the subreddit or otherwise for [r/buildapc](https://www.reddit.com/r/buildapc/) mods? [We welcome your mod mail!](http://www.reddit.com/message/compose?to=%2Fr%2Fbuildapc)\n\nLooking for all the Simple Questions threads? Want an easy way to locate today's thread? [This link](http://www.reddit.com/r/buildapc/search?q=title%3A%22simple+questions%22+author%3A%22AutoModerator%22&restrict_sr=on&sort=new&t=all) is now in the sidebar below the yellow Rules section.",
+    "comments": [
+        {
+            "author": "adambarker9524",
+            "body": "I'm pretty sure my motherboard (Gigabyte GA-970A-D3P) can only do ddr3 memory. I'm wondering what the best option would be for upgrading just ram. I currently have G.Skill Ares 8 GB (2 x 4 GB) DDR3-1866 CL9. Would i need to ditch my current ram sticks if i bought more? Should I be aiming for 16 or 32 GB? I don't really understand speed or the two types of latency, and i heard having too many sticks could slow stuff down. My CPU is AMD FX(tm)-8350 4000 Mhz, 4 Core(s), 8 Logical Processor(s) (FD8350FRW8KHK) if that matters. I'm just not sure what to look for. Thanks for any help.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Secure_Jackfruit_303",
+                    "body": "To upgrade your ram you don't need to throw away your old sticks. You just need to make sure the new ram matches up with the old one.\n\nFor example if you have 1.5V 8gb 1600 CL9-9-9-24 ram, you need to make sure whatever ram stick you buy is also 8gb, 1600mhz, 1.5v, and has exact CL9-9-9-24 timings.\n\n>16 or 32?\n\n16 is the most you should aim for with your CPU. 32gb would be too much as your CPU is a bit old would slow down before you can fill up that capacity. In most situations the extra ram from 32gb would not help.\n\n\n>Speeds and latency?\n\nSpeed and latency are sort of tied together but generally the gist of things is more speed = more peformance. You see modern ddr5 kits having like 6400 speed but way slower CL30 latency meanwhile DDR3 is like CL9 but ends up being slower. However lower latency can help in some applications, less so in games.\n\n>Would my CPU be overwhelmed from too much ram?\n\nYes, you will probably not be able to run 1833 on 4 sticks and that will cause instability. This is simply due to a limitation on the memory controller of your CPU. But the solution is simply to try to run the ram at a lower speed and configure the speeds and timings. For example your ram is 1833, if you were to get more sticks you should downclock to 1600 or lower to see if they work at 4 sticks.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "adambarker9524",
+                            "body": "Thanks for the response. I don't know how to do any downclocking. Should I just lose the old sticks and go with 2x8GB at 1866 CL9? [GA-970A-DS3P FX (rev. 2.1) Specification | Motherboard - GIGABYTE Global](https://www.gigabyte.com/Motherboard/GA-970A-DS3P-FX-rev-21/sp#sp) It says my motherboard supports 1866 with a am3+ cpu.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Secure_Jackfruit_303",
+                                    "body": "Sure, that would be way easier. 2x8 @1833 is fine, don't go beyond 2100 you're probably going to crash all the time if you do that.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "adambarker9524",
+                                            "body": "Ok thanks. I didn\u2019t realize I was talking to the same person in both posts or else I would\u2019ve only asked that question once lol",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Secure_Jackfruit_303",
+                                                    "body": "Ah yeah I just realized that too lol. Saw the question unanswered here so I had to reply. Anyways yeah having 16gb will help you quite a bit, but i do suggest you start looking into renovating the setup if you want to get a massive performance jump.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "adambarker9524",
+                                                            "body": "Yeah, I\u2019ll definitely look into it \u2014 I\u2019m just so stingy lol. Do you think adding a stata ssd to the current setup would speed it up a decent bit as well? Some look pretty cheap",
+                                                            "score": 2,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Secure_Jackfruit_303",
+                                                                    "body": "For sure, any SSD would be of big help, just make sure it's from a known brand as those have something known as a cache. Which basically significantly speeds up peformance. Silicon power, teamgroup, Kingston, all work.\n\nAvoid some ultra cheap ssds like the Adata ones\n\nWithout a cache some ssds are nearly as slow as HDDs.",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "KaitoAJ",
+            "body": "I\u2019m looking to build my first ever PC (more like picking out the parts I want and get someone to professionally put it together for me) and need some recommendations for GPU and CPU pairing. \n\nI\u2019m currently looking at AMD 7800X3D and was wondering what is the best GPU to pair it with to get the most value out of it. \n\nMain use for the PC is to play games like CS2, COD, WOW and Football Manager. I also eventually want to start doing podcasting/live streaming with this PC. \n\nWould appreciate some recommendations for GPU that gives the most value since I\u2019m aware the GPU market is not ideal atm.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Secure_Jackfruit_303",
+                    "body": "Id say for a high end gaming cpu like the 7800, a 9070xt or better is ideal. So either a 9070xt for at most 700$ or a 5070ti if you prefer Nvidia for at most 850$.\n\nThese will not be the easiest deals to get but above these prices and you're getting ripped off. Maybe do like  at most a 150$ markup for either if push comes to shove.\n\nAlso as for the 5080, non founders edition prices are ridiculous i do not recommend getting it if you're worried about value.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Discord42",
+            "body": "Just upgraded from a GTX 970 to a 6650xt. I have an old Samsung 1080p 60hz monitor, and my budget is relatively thin after the purchase. Is it worth upgrading to something newer and more modern at this point? I'll likely still be doing most of my gaming in 1080p (MH Wilds, BG3, FF7 Rebirth), even if some of them can break 60fps on my 5600x/6650xt setup. \n\nMy desk is also relatively shallow at 18\" deep, so I'm not sure about 27\" monitors being comfortable? So I'm not sure if I should consider something like the Koorui 24E3 (for $150 CAD on Amazon) or if I should just keep what I've got and live with it for a while. (I honestly don't have any complaints with my current monitor, but I've never experienced anything better either, you know?)",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "be24ez",
+                    "body": "If you have never upgraded, a 1080p 144Hz+ is like night and day compared to 60fps. Much like going from 1080p to 2k/4k resolutions.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "will_jojo",
+            "body": "should a 4070 be idling at around 50C with dual monitors? Switched from a 6600xt that idled at around 35C so this feels kinda wrong...",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "n7_trekkie",
+                    "body": "Idle temp doesn't really matter. When it gets too warm, the fans will kick on",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "will_jojo",
+                            "body": "it's annoying the heck out of me since the fans turn on at around that temp too so it's constantly turning on and off and on and off, idk if the constant switching impacts the lifespan of the fans. And I don't think raising the zero rpm threshold above 50C is a good idea. But is 50C normal or do I need to check for problems?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "TemptedTemplar",
+                                    "body": "Don't focus on the temp, check the idle power draw.\n\nIf its getting that hot because its not drawing a ton of power and sees no reason to run the fans, thats totally normal. It does pull 40w more than the 6600xt.\n\nThe board should be rated for operation up to ~85c, so upping the fan curve a few degrees is not going to harm anything.\n\nOr perhaps adjust a internal case fan so it blows fresh air over the card? That way you have one constantly running even without the GPU fans spinning.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "will_jojo",
+                                            "body": "Yes I understand they're designed to run at much higher temps, i'm more worried about and annoyed by the fans turning on/off constantly than anything else.\n\nI just noticed my GPU basically splits the case internals into 2 volumes and only the front bottom fan is really feeding it anything, with no bottom fans to blow directly across the fins at idle. I'll see if I can rig something up to address the issue temporarily.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "GolemancerVekk",
+                                                    "body": "> only the front bottom fan is really feeding it anything, with no bottom fans to blow directly across the fins at idle\n\nFirst of all, if you want fans to blow on the GPU radiator you have the GPU fans for that. \ud83d\ude03 Having a secondary set of fans to blow at idle is just complicating things for no reason.\n\nSecondly, feeding is what front intake fans do. They can't cool the GPU themselves because their flow is not really meeting the GPU radiator much, if at all, so all they can do it put the cool air there and let the GPU fans use it.\n\nI have a shroud mod on my GPU so the radiator is completely exposed and with the GPU fans to zero the difference between front fans at idle speed (40%) and 100% is something like 1-2c. With the shroud on there'd be probably no discernible difference.\n\nIf you want to optimize things see if you can hook up your bottom front fan to a separate header and make a custom curve for it tying it to the GPU temp, so it works together with the GPU fans. Your observation that the GPU basically splits the case into its own chamber is spot on and it's logical to optimize that \"chamber\" differently from the CPU \"chamber\".",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "n7_trekkie",
+                                    "body": "Yeah that's fine",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "GolemancerVekk",
+                    "body": "Did the 6600XT idle at 35c with the fans on or off? \ud83d\ude42\n\nTemps under 60c are normal when you are doing nothing / browsing / playing video and the power draw is very low (30W or less typically for desktop activities).\n\nYou *can* if you want to set the GPU fans to blow gently (slow enough to be silent) under 60c and it will most likely keep the temp under 40c if you need that extra peace of mind but it's not worth bothering if you ask me.\n\nIf I were you I'd check what the temps are doing during regular desktop use and probably see they never go above a certain value (somewhere in the 50's), and I'd set my fan start point there.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "sanity20",
+            "body": "I got my 5090 today, out of curiosity I bought a watt meter too because I wanted to see if it would be okay to run on my rm1000e PSU since everyone is saying go 1200w.\n\nAnyways at stock I pulled 720 at the outlet, with power level at 90% I'm getting like 660 in 3d mark. I should be fine obviously right? I also just decided to go ahead and use the 16 pin Corsair cable over the adapter and everything seems fine... Might borrow the FLIR gun from work to double check but I don't really see the need to use the adapter over the 600w cable. Hopefully there's no issues but kinda is what it is I guess, I hope running it at 517 watts instead of 575 will help, but that's about all I can do I guess. Might tinker with a actual undervolt eventually.\n\nThe card runs great, was getting around 100 fps with dlss quality at 7680x2160 in MH wilds.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "n7_trekkie",
+                    "body": "Yeah, 1000W PSU is fine. Just make sure that connector is fully inserted into the card",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "peerawitppr",
+            "body": "Should I upgrade my GPU from RTX 2060 to 4060 or 4060Ti or wait?\n\nMy CPU is Ryzen 5 3600. And I'm planning to just play on FHD, no 2k.\n\nI normally don't play that many demanding games, like my last AAA was Elden Ring and now my PC struggles to run Monster Hunter Wilds smoothly.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "n7_trekkie",
+                    "body": "I'd wait for an affordable card with 16gb of vram. Like the rx6800 for $400 was really good for the time, but it's OOS now\n\nThe 4060ti-16gb is just too slow for the cost.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "peerawitppr",
+                            "body": "AMD has more vram but is Nvidia's technology like DLSS important?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "n7_trekkie",
+                                    "body": "*it depends*. DLSS 4 and fsr 4 are quite similar, so I'd say the gap is closer now",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "AbsolutelyNotWrong",
+            "body": "Is there any other GPUs that are better than 6600 with a reasonable price?\n\nBuild for reference: https://pcpartpicker.com/list/YcHKkf",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "n7_trekkie",
+                    "body": "The arc b580 is supposed to be $250usd. Might wait for it to restock.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "AbsolutelyNotWrong",
+                            "body": "Any idea when that might happen?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "n7_trekkie",
+                                    "body": "Not soon, and not often",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Mallignos",
+            "body": "Hi. RAM question here.\n\nI have a 7800x3D CPU. Together with it I have two sticks of 6000 MHz cl30 RAM. I was thinking of upgrading with 2 more sticks. However, today I learnt that the RAM I have only supports XMP, not EXPO. My understanding is that EXPO is better for my CPU, but then I will have to replace both of my sticks?\n\nIs it even worth it replacing my RAM for EXPO?\n\n[The RAM in question](https://www.corsair.com/us/en/p/memory/cmk32gx5m2b6000c30/vengeance-32gb-2x16gb-ddr5-dram-6000mt-s-c30-memory-kit-black-cmk32gx5m2b6000c30?srsltid=AfmBOooooBdoDoewyGlcKKp2bLPIltFZ1t38ENokx22nLKE5UWzqMfKi)\n\nYes. That RAM seems to come in versions that supports EXPO. Mine doesn't seem to?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "djGLCKR",
+                    "body": "If you *need* (emphasis on *NEED*) more than 32GB of RAM, sell your kit and buy a 2x32 or 2x48GB kit, your CPU's memory controller will thank you. [Running four DDR5 sticks for aesthetic reasons is not recommended](https://youtu.be/2-LqWdvoFLY?t=117).\n\nXMP and EXPO are just marketing terms for the same thing, the memory overclock profile stored in the stick. XMP is intel's and will work on AMD, EXPO is AMD's and will work on Intel. Yes, they're \"tailored\" for their respective platforms, but for day-to-day use, you won't notice the difference.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Mallignos",
+                            "body": "Thanks for clarifying that the difference between XMP and EXPO is marginal at best. My plan to upgrade was more based on \"I need the coolest PC of my friends\", and I have a tendency to run a lot of stuff in parallell, so I'll hold off on upgrading for now.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Secure_Jackfruit_303",
+                    "body": "Expo and xmp are just labels for overckocked profiles on the memory's memory. Pretty sure expo might be slightly better with some of the sub timings but you don't need to change anything, the peformance difference is basically none.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Mallignos",
+                            "body": "Thanks for clarifying that the difference between XMP and EXPO is marginal at best. Then I will stop thinking about it.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "temich512",
+            "body": "Looking for upgrade from FullHd 144hz monitor to 2k. What nice hz would be nice to aim to keep everything smooth and not too taxing for performance? I tried to find 120hz but most monitors either 60/144/165 or higher",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "ZeroPaladn",
+                    "body": "I assume you mean 1440p, since \"2K\" is a video production-specific format and I hate that sites like Newegg use it as a filter...\n\nAnyways, modern 1440p panels for gaming will _start_ at 165Hz and go all the way to 360Hz, with common breakpoints at 180Hz and 240Hz. Don't be afraid to grab a 165/180Hz panel, even if you're just trying for 120Hz - it's the exact reason why Adaptive Sync as a technology exists and it's universally available now.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "n7_trekkie",
+                    "body": "165hz-180hz tends to be the sweet spot for price",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "potanko",
+            "body": "Can I get recommendations for my CPU, currently 5600X?\n\nGPU is currently a 3080fe. I stick solely with 1440p and it hasn\u2019t failed me (yet), I don\u2019t really intend on upgrading it for the time being unless I luck into a current gen ~~CPU~~ GPU at MSRP.\n\nI was thinking a 9800x3d in a bundle deal from microcenter ($700 for included mobo and ram). Is that overkill?\n\nNot necessarily in a rush, but my CPU is definitely showing its age when playing MH wilds, would like to upgrade it sooner than later.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "ZeroPaladn",
+                    "body": "It's overkill, but also still not a bad grab from your available options. \n\n* An in-socket upgrade like a 5700X3D/5800X3D would be a bump in core count and in performance for the cache-loving games, but would be pretty lackluster if the games you're playing don't like the X3D juice. Those chips are also getting increasingly harder to find, so the used market may be your only option for them. Not ideal. \n\n* That Microcenter bundle is also pretty lackluster, as far as their bundles are concerned. They're not hurting to sell these chips so the discount works out to shaving a bit off of the motherboard price. You can [put together a similar list for the same price](https://pcpartpicker.com/list/wrJcHW) with better memory. Is it overkill? Yeah, but games like Wilds will take as much CPU as you can throw at it, and will set you up for a GPU upgrade in the future.\n\n* You can always \"do a bit now\" with a jump to a cheaper 7600X/9600X in anticipation for a GPU upgrade down the road that won't stupidly outrank your current card. Then, when you do pick up a new card then you can slot in a beefier CPU that pairs well with it - and the rumours of [new 12c CCD CPUs down the road](https://www.tomshardware.com/pc-components/cpus/amds-zen-6-based-desktop-processors-may-feature-up-to-24-cores) are enticing.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ROBO_SNAIL",
+            "body": "Does changing main components impact performance?\n\nI\u2019m planning to temporarily use an Arc B580 paired with my 9800x3D, until my RX 9070XT arrives. Do I need to do anything special to refresh or \u201creset\u201d my CPU so that it works optimally when the 9070XT gets installed?\n\nI know this is probably a silly question, but I don\u2019t know how cache or memory might be impacted.\n\nThanks!",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "ZeroPaladn",
+                    "body": "You'll want to uninstall the Intel ARC GPU drivers before doing the swap, but aside from that it's all good. Your CPU doesn't specifically care what's doing the video output.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "ROBO_SNAIL",
+                            "body": "Thanks so much! Does the same apply if I\u2019m going from a 6800 to a 9070XT?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "djGLCKR",
+                                    "body": "Different vendors (i.e. Intel to AMD, or AMD to Nvidia), DDU, \"clean and shut down\".\n\nSame vendors (6800 to 9070 XT), swap the cards, reinstall the latest driver (select clean install).",
+                                    "score": 2,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "ZeroPaladn",
+                                    "body": "Ideally, no, they're from the same vendor and both cards are new enough to be using the same unified driver. Reality doesn't always match expectations and you could need to DDU/[AMD's Driver Cleanup Utility](https://www.amd.com/en/resources/support-articles/faqs/GPU-601.html) between swaps.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "madthabest",
+            "body": "Does difference between 100hz to 120hz noticable? Im planning to get a monitor for college and play fps games but want to keep low cost",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "ZeroPaladn",
+                    "body": "What are the options you're considering? I'd say that you would want to push the FPS as far as you can reasonably get, there's a lot of 165Hz panels out there that are very reasonable.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "madthabest",
+                            "body": "i normally play battlefield 1 capped on 120 fps. would love to go higher but im worried about tempt on my laptop.  90C on cpu is just not pleasing to look at. just a good slightly larger display will help for college assignments and a little gaming",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "ZeroPaladn",
+                                    "body": "Yeah, that's fine then - and you can still look at 144 or 165Hz panels and lock your game FPS to 120. Perhaps ask in r/monitors or make a post here asking for recommendations.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "madthabest",
+                                            "body": "Thanks",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "thebadhorse",
+                    "body": "Not really. Depends on the resolution. Can your computer even push that many frames? If not, you definitely wont notice it.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "madthabest",
+                            "body": "im using a laptop with 165hz display. just looking for a nice larger display mainly for college stuff.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "thebadhorse",
+                                    "body": "I assume its a 1080p screen?\n\nConsidering you'll be using a laptop GPU, you won't notice the difference, especially if you purchase a 1440p screen.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "madthabest",
+                                            "body": "It's a 165hz 1440p screen but i didn't use it when gaming anyways. Sounds like im wasting i know",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "n7_trekkie",
+                    "body": "I'd say yeah, I could tell 100fps from 120fps. But it's not a massive difference, 100hz / fps is certainly playable",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "RoseOfSharonCassidy",
+            "body": "Is it risky to buy a monitor off of ebay?  The one I want has been included in some of the Newegg 5090 bundles and now I am seeing them pop up on ebay at a discount.  Is there a substantial risk getting a monitor like that?  I'm mostly worried about needing to return it if there's a defect.    \n\nIt's the MSI - MPG 321URXW QD-OLED 32\", if it matters.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "thebadhorse",
+                    "body": "Same risk as with every direct used product purchase.\n\nDo your research, test it / get a video of it working.\n\nIf you can get your hands on it before you buy, check for dead pixels.\n\nIf its still under warranty, find how you can transfer the warranty to your name / ask for the receipt.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "RoseOfSharonCassidy",
+                            "body": "Well it's an unopened box so most of that isn't possible.  I will see about warranty transfer though.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "thebadhorse",
+                                    "body": "Its not hard to re-tape a box and say it isnt opened.\n\nSo double check those tape lines to make sure.\n\nAnd if you are serious on the purchase, ask the seller \"lets test it before I buy it\", I'm sure he won't deny your request, there's no reason to. Saves both of you a hassle, if he is honest.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Valshir",
+            "body": "I wanna buy Lian Li Lancool 3 case. But it seems a bit narrow for 4080. Have anyone used the case with the gpu together?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "ZeroPaladn",
+                    "body": "One of my favourite things to do with PCPartPicker's website is being able to filter their Completed Builds section by parts used. \n\n[Here's a bunch of high end video cards in Lancool III builds](https://pcpartpicker.com/builds/by_part/2vJgXL#g=493,542,567,539,548).",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "ZeroPaladn",
+                    "body": "Yeah, any dual tower cooler will handle a 9800X3D without much issue - common picks right now are the Thermalright PA120 and PS120. \n\nHowever, purposeful horizontal PC cases are a rarity right now - don't let that stop you from stuffing rubber feet onto a backpanel and DIWhy'ing it yourself.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Kornbreadl",
+            "body": "I have a Gigabyte x870 Gaming Wifi 6 MOBO and 1 NVME drive already in the M2A_CPU slot. I wanna get another NVME, is my motherboard able to without sharing lanes with my GPU? I'm trying really hard to understand in the manual but I just can't wrap my head around it. Which slot should I use?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "kaje",
+                    "body": "None of the M.2 slots on that board share lanes with the top PCIe slot.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "ZeroPaladn",
+                    "body": "Sauce: https://www.gigabyte.com/Motherboard/X870-GAMING-WIFI6/sp#sp\n\n* 1 x M.2 connector (M2A_CPU), integrated in the CPU, supporting Socket 3, M key, type 25110/22110/2580/2280 SSDs\n\n* 1 x M.2 connector (M2C_SB), integrated in the Chipset, supporting Socket 3, M key, type 25110/22110/2580/2280 PCIe 4.0 x2 SSDs\n\n* 1 x M.2 connector (M2B_SB), integrated in the Chipset, supporting Socket 3, M key, type 25110/22110/2580/2280 PCIe 4.0 x4/x2 SSDs\n\n> The M2B_SB connector shares bandwidth with the M2C_SB connector. The M2C_SB connector will become unavailable when an PCIe 4.0 x4 SSD is installed in the M2B_SB connector.\n\nNone of the M.2 slots here cannibalize the GPU PCIe slot. The only consideration that you have is that using M2B with a x4 NVMe drive will disable M2C, because M2B and M2C share a single x4 connection to the chipset. You'd need to use a x2 NVMe drive in M2B, so the chipset knows that the other two lanes are free for M2C to use.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Billnis",
+            "body": "Not sure if this is relevent to this reddit page but I have a monitor arm setup. Is there a way to mount a second small monitor using the same mount? One that piggybacks onto the main mount, extends out to the side giving a second mounting option.\n\nThe result be something like this but more sturdy. https://amazon.com/dp/B07ZFYVFZG",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "TemptedTemplar",
+                    "body": "Depends on exactly how big of a second monitor you want, those magnetic mounts might be your best option.\n\nThe normal VESA bracket is only intended for a single monitor, and depending on the weight rating of your existing arm, it may not hold up to adding anything heavier than a tablet or small portable monitor. \n\nThe simpler alternative is just buy a new mount, either a dual arm mount or a second single arm for a new display and then you don't have to worry about getting something sturdy enough.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Billnis",
+                            "body": "The magnetic mounts are pushing the weight capacity required. My current monitor arm could hold additional monitors would still have 5kg left on its advertised weight limit. I guess there is not a product that allows for this. Thanks for the response.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "canadiandragon",
+            "body": "Hi everyone! Very simple question here. My fiance is a PC gamer and I am thinking of getting her a new controller for her birthday because she has a no-name one and it\u2019s a bit glitchy. Can I buy her a normal XBOX controller and will it automatically just connect and work via Bluetooth, or do I need to buy a PC specific brand? I am clueless lol thanks in advance!!",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "kaje",
+                    "body": "Yeah, standard Xbox controllers are just plug and play on PC.  They can be connected via Bluetooth.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "canadiandragon",
+                            "body": "Thank you! Helpful to know!",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "canadiandragon",
+                            "body": "Thank you! Helpful to know!",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "reckless150681",
+                    "body": "Yes you can. But the standard Xbox controllers are somewhat limited in their customizability - you might be better off picking one that's more catered towards PC gamers.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "canadiandragon",
+                            "body": "Ah, super helpful! Thank you! Is there any specific brand that I should be on the lookout for? She currently has an entry level 8bitdo (so less no-name than I thought), but doesn't seem to be thrilled with it?",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "canadiandragon",
+                            "body": "Ah, super helpful! Thank you! Is there any specific brand that I should be on the lookout for? She currently has an entry level 8bitdo (so less no-name than I thought), but doesn't seem to be thrilled with it?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "reckless150681",
+                                    "body": "Hmm 8bitdo is normally pretty good. Might want to try updating firmware or some other troubleshooting before you go for a new device.\n\nPeople seem to really like GameSir.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "canadiandragon",
+                                            "body": "Awesome, really appreciate you taking the time to reply! Thanks again!",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ObiWansTinderAccount",
+            "body": "Is there anything I can do with these parts or are they basically garbage now? Gigabyte GA-A75-UD4H mobo, AMD A8 3800 series APU. For context, I have enough old components to make a second PC, whose only purpose would be to run old games with friends. I already know the games I want to play will run on this hardware. However the A8 is not compatible with windows 11, and windows 10 support is ending right away. Is there anything to be done? Is Linux an option? I know nothing at all about Linux but always willing to try and learn.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "reckless150681",
+                    "body": "Yes Linux is an option. It's not so much \"an\" OS as it is a *family* of OSes, plus will require you to be much more involved with keeping it up to date.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "ObiWansTinderAccount",
+                            "body": "Cool, thanks! Can I DM you and pick your brain a bit about where to start? Or alternatively are there any noob resources you can link?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "reckless150681",
+                                    "body": "I don't know that much beyond what I said. My first instincts from here would be either:\n\n1) Figure out which distros are easy, or\n\n2) Figure out which distros are best to game on",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "ObiWansTinderAccount",
+                                            "body": "ty!",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Aromatic_Marzipan_46",
+            "body": "Should my pc will fine with a RM850e for a 7900xtx, 5700x and nine fans?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "TemptedTemplar",
+                    "body": "Yes.\n\nYou would even have some headroom to try and overclock the CPU and GPU if you felt like it.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Ok-Source9646",
+            "body": "what's the cheapest gpu and cpu you recommend to play WoW on ultra @ 1440p?",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

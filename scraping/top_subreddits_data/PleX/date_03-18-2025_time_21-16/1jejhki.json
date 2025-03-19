@@ -1,0 +1,65 @@
+{
+    "title": "No libraries",
+    "author": "rlindsley",
+    "subreddit": "PleX",
+    "rank": 5,
+    "score": 2,
+    "upvote_ratio": 0.67,
+    "num_comments (reported by reddit)": 8,
+    "url": "https://i.redd.it/89eheu12bjpe1.jpeg",
+    "id": "1jejhki",
+    "selftext": "Hi there,\n\nI\u2019ve been using Plex for around 12 years, and it\u2019s worked great for me! \n\nThe other day I was looking for one of my shows and I couldn\u2019t find it. After digging in I realized my libraries are gone, with no way of adding them back. When I go to the setting screen, there\u2019s no library options (picture attached). \n\nAny thoughts on what could be going on? \n\nThanks!",
+    "comments": [
+        {
+            "author": "Purple_Gas_8222",
+            "body": "Restart plexserver..",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "CHowell0411",
+            "body": "Turn it off and turn it back on again.\n\nLike I know that's a running joke in IT but seriously try that first and foremost and if that don't work then try and get your logs so you can see what went wrong and when.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "SwiftPanda16",
+            "body": "https://support.plex.tv/articles/204281528-why-am-i-locked-out-of-server-settings-and-how-do-i-get-in/",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "rlindsley",
+                    "body": "Thanks. I reinstalled the Plex Media Server and everything works fine now!",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "rlindsley",
+            "body": "SOLVED: I reinstalled Plex Media Server and it works fine. Thanks for all your help!!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "rlindsley",
+            "body": "https://preview.redd.it/y3mq58shcjpe1.jpeg?width=3024&format=pjpg&auto=webp&s=94284b49c8d420c23854c8e9090da488bf386c20\n\nHere\u2019s what I see when I \u2018open plex\u2019 from the task tray.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "catchmeonthetrain",
+                    "body": "After the :32400 replace everything else with /manage, should get you back to the self hosted server.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "catchmeonthetrain",
+                            "body": "Mine does this occasionally after a restart, and sometimes stays that way between updated.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

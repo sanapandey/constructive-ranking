@@ -1,0 +1,32 @@
+{
+    "title": "No internet connection problem in windows",
+    "author": "kaivalya__ahir",
+    "subreddit": "HomeNetworking",
+    "rank": 13,
+    "score": 2,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 3,
+    "url": "https://www.reddit.com/gallery/1jegyrv",
+    "id": "1jegyrv",
+    "selftext": "Hey there people,\n\nSo i was having gpu problem that's why i booted my windows in safe mode by mistake instead of safe mode with networking, so i restarted on safe mode with networking and since then I'm getting this no internet access issue.\n\nI have tried everything from assigning manual ip to resetting network entirely. But no luck, it's a windows thing, how do i know? Because i booted this windows on different pc and got same problem on that to vice versa for getting internet on this pc using another boot drive.\n\nI don't wanna reinstall windows again, please help me out.",
+    "comments": [
+        {
+            "author": "whostolemycatwasitu",
+            "body": "can you ping your default gateway? any other devices in your network have an IP of 192.168.1.4?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "dph-life",
+            "body": "Have you tested Ethernet with WiFi disabled?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "hspindel",
+            "body": "Your ipconfig output looks ok.  Can you ping 192.168.1.1?  I would think yes, which points to a problem with your router getting internet access rather than a problem on your PC.\n\nFirst step: reboot your router.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

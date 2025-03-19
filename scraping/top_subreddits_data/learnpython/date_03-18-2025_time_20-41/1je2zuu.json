@@ -1,0 +1,500 @@
+{
+    "title": "I\u2019m so lost in Python",
+    "author": "Optimal_Department_7",
+    "subreddit": "learnpython",
+    "rank": 2,
+    "score": 48,
+    "upvote_ratio": 0.8,
+    "num_comments (reported by reddit)": 77,
+    "url": "https://www.reddit.com/r/learnpython/comments/1je2zuu/im_so_lost_in_python/",
+    "id": "1je2zuu",
+    "selftext": "So I\u2019ve been doing python for several months and I feel like i understand majority of the code that i see and can understand AI\u2019s writing of python if i do use it for anything. But I can\u2019t write too much python by hand and make full apps completely from scratch without AI to learn more. \n\nIm sure a lot of people might suggest reading like \u201cAutomate the boring stuff in Python\u201d but I\u2019ve done majority of what\u2019s there and just seem to do it and not learn anything from it and forget majority of it as soon as im not doing the project. \n\nSo i would love if someone could share some advice on what to do further from the situation im in. ",
+    "comments": [
+        {
+            "author": "sinceJune4",
+            "body": "Ditch the AI, I think you\u2019re trying to move too fast without learning the basics. This is a very common post here.  \n\nIf I write something, I may take 50 lines to write it initially, with extra print statements to help me debug it. If I clean it all up once I have it working, my solution may then be as long as the AI version, but I\u2019ve learned how and why the code works, and probably learned a lot that will make me better for next time. Shortcutting my learning process is just hurting me.",
+            "score": 92,
+            "replies": []
+        },
+        {
+            "author": "Ron-Erez",
+            "body": "\"But I can\u2019t write too much python by hand and make full apps completely from scratch without AI to learn more.\"\n\n**So stop using AI.** If you forget something then look it up in the docs, you don't need to remember everything. You are your best teacher. Code and actually deal with problems on your own.\n\nFor more resources Harvard CS50, MOOC - University of Helsinki course and I have a\u00a0[Python and Data Science](https://www.udemy.com/course/python-foundations-for-data-science-from-zero-to-data-analy/?couponCode=FEB2025-PYTHON)\u00a0course that starts from scratch are all amazing. However if you don't actually do the homework on your own and let ChatGPT do the work for you then you will not progress.",
+            "score": 41,
+            "replies": [
+                {
+                    "author": "jacksonj04",
+                    "body": "\u201cLook it up in the docs\u201d is key here. I literally write Python professionally all day. If I went a day without checking the documentation for something I would be astonished.\n\nYou\u2019ll get better at knowing where to look over time, but remember that the documentation is *supposed* to be a resource you can use when you forget stuff.",
+                    "score": 31,
+                    "replies": [
+                        {
+                            "author": "SirGeremiah",
+                            "body": "Thank for reminding us all that we don\u2019t suck as much as we think we do!",
+                            "score": 8,
+                            "replies": []
+                        },
+                        {
+                            "author": "iBeenZoomin",
+                            "body": "Avoiding AI and using documentation is probably better for learning, but I\u2019ll be damned if I\u2019m going to read raw documentation instead of asking Copilot how to use something for my specific case. Like if I need to convert a unix timestamp to a certain date format, I\u2019m not gonna dig into the datetime docs\u2026",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "gringogr1nge",
+                                    "body": "RTFM",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "klmsa",
+                                    "body": "Can't even load up copilot at work in certain environments, due to export control restrictions/risk. I'm raw doggin docs until the biz is comfortable with the risks, I guess.\n\nPylance is helpful, though. Linting is a life-saver.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Doomtrain86",
+                    "body": "Nice resource, I\u2019ve been doing data science in sociology for ten years with R and Linux, and recently switched to python. It\u2019s hard finding a course that\u2019s not, like this seems to be, starting at level zero. I don\u2019t have time to read about how a for loop works, I know that. But classes? List comprehension? Yes please. Also pandas is a nightmare coming from data.table in R. Any recommendations for intermediate to advanced courses ? Thank you appreciate it!",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Gnaxe",
+                            "body": "Classes and comprehensions *are* beginner-level concepts in Python. Just skim the parts you already know.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Doomtrain86",
+                                    "body": "I disagree here, list comprehension perhaps but using classes in an OOP way is not beginner level. I\u2019m not talking about what it is - I mean how to utilize it in non beginner level ways.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Optimal_Department_7",
+                    "body": "I get where youre coming from, but I dont remember to the point where I dont know what im missing. I do look for the errors myself before I do go to AI.\n\nI have gone on several resources like Codedex, Automate boring stuff, and in that proximity and again no matter how many times i redo them the same result happens that I sit there and dont seem to use any of that for anything else. Put it simply everything enters my head when i need it in that moment but leaves if i dont use it again in the next 5 minutes.",
+                    "score": -14,
+                    "replies": [
+                        {
+                            "author": "crashfrog04",
+                            "body": "You're not writing enough code. You can't *read* enough code to be able to write it; you have to write it.",
+                            "score": 15,
+                            "replies": []
+                        },
+                        {
+                            "author": "Ron-Erez",
+                            "body": "Here is an exercise. Create a function:\n\ndef rect(width: int, height: int)\n\nthat create a text rectangle with the mentioned dimensions where you should use unicode characters for box drawing:\n\n[https://en.wikipedia.org/wiki/Box-drawing\\_characters](https://en.wikipedia.org/wiki/Box-drawing_characters)\n\nThis exercise requires the print statement, some kind of loop and perhaps some variables. I just wrote this exercise now. Try solving it and try to create other such exercises without even using AI to generate the questions. I agree somethings are confusing and easy to forget but everytime you look up a solution you are learning less. Have a look at [python.org](http://python.org) and even at:\n\n[https://docs.python.org/3/tutorial/index.html](https://docs.python.org/3/tutorial/index.html)\n\nand now for every section create an exercise on your own. For example if we look at:\n\n[https://docs.python.org/3/tutorial/introduction.html#numbers](https://docs.python.org/3/tutorial/introduction.html#numbers)\n\nThen a nice exercise would be to get a string as input and then print a string consisting of the characters in the even places followed by characters in the odd places. There are quite a lot of ways to solve this via loops or slices or maybe using a functional approach.",
+                            "score": 11,
+                            "replies": []
+                        },
+                        {
+                            "author": "Longjumping_Car6891",
+                            "body": ">I do look for the errors myself before I do go to AI.\n\nLet's not kid ourselves here \u2014 you turn to AI after less than 30 minutes of debugging. I have a friend like that too; he keeps saying AI is his last resort, but when I watch him work, it only takes 5 minutes before he resorts to AI ://\n\nBack when I was still learning Python, there were errors and bugs I couldn't solve even after an hour, and I\u2019d just give up and try again the next day. There were errors that took me almost a week to figure out. Was it a waste of time? No, because I actually learned _why_ it happened on my own. I spent so much time tracing back through documentation and reading Stack Overflow for it to finally click \u2014 unlike just querying AI for the answer.\n\nTL;DR: Struggling through bugs taught me more than instant AI answers ever could.",
+                            "score": 9,
+                            "replies": []
+                        },
+                        {
+                            "author": "SirGeremiah",
+                            "body": "That\u2019s how brains are. You\u2019ll have to use it many times before it sticks. Have you tried doing a full beginner\u2019s course, all the way through?",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "IndividualRaccoon152",
+            "body": "If you are fogetting things, then you are moving too fast.\n\nEverytime you learn something important like functions, loops, class and etc. you should build a project around that topic to fully understand and at least im print the important parts of that topic.\n\nDocument what you have learnt every single step of the way, on google doc or other note apps, then you can simply use the search function and search when you forget or get stuck",
+            "score": 11,
+            "replies": [
+                {
+                    "author": "Shadowhunter_15",
+                    "body": "I learned how to apply basic Python in a website called CodeCombat. It teaches you how to use the basic fundamentals and how to apply them, by using fantasy characters to make logic problems for you to solve.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Goldarr85",
+            "body": "You should be focused on what you need to do and not hung up on remembering every bit of code you\u2019ve written before. People will tell you over and over that it\u2019s impossible to remember everything. Look up the documentation if you don\u2019t remember.\n\nMost importantly, you need to start building your own projects. Come up with a problem you want to solve, map/draw it out broken down into steps, write code to complete each step.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Kevdog824_",
+            "body": "First step is to stop using AI. Think of Gen AI like power tools. In the hands of a skilled craftsman, power tools can really reduce their workload and help them to create great things faster. In the hands of a novice without fundamentals, they can really help the novice lose a few fingers. AI is great for me because it can take care of a lot of the boring part of the job for me. That\u2019s fine in my case though because I already know how to do the boring part of the job and I\u2019m just outsourcing it.\n\nWhat does doing a project look like to you? When you do projects from \u201cautomate the boring stuff\u201d do you sit down and try to understand what you\u2019ve written/copied or do you simply mark the project as done in your head and move on?",
+            "score": 10,
+            "replies": [
+                {
+                    "author": "Optimal_Department_7",
+                    "body": "I do sit down and try to understand the code before I move on and it makes sense to me so I move on throughout the project after that. I do write all the code down cause it makes me feel like im actually doing something. But the second I move on from that part I dont seem to remember it. Like I get what functions, loops etc and how they work but any work past that is beyond my writing even though i understand it.",
+                    "score": -8,
+                    "replies": [
+                        {
+                            "author": "crashfrog04",
+                            "body": "> But the second I move on from that part I dont seem to remember it.\n\nIt's because you don't, in fact, understand it.",
+                            "score": 11,
+                            "replies": [
+                                {
+                                    "author": "Optimal_Department_7",
+                                    "body": "Whether Im wrong to discuss it or not I have explained the code that Ive written to teachers perfectly fine and theyve agreed with me that its correct so I feel like I have a say that I think i understand it. As in I dont remember how i wrote it or got to the conclusion but I do understand what it does",
+                                    "score": -2,
+                                    "replies": [
+                                        {
+                                            "author": "roelschroeven",
+                                            "body": "But do you understand it enough to produce similar code by yourself? Look at the code, read it, understand what it does and how and why. Then take a break, and start writing code that does the same thing (allow yourself to use resources like tutorials or the official docs, but not AI or stackoverflow). Take your time, take one step at a time.",
+                                            "score": 7,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Kevdog824_",
+                                            "body": "Disconnect from the code at first. Take the problem as you understand it in natural language Break it down into smaller steps that you can also describe in natural language. Break those steps down into smaller steps that you can describe in natural language. Repeat this until all the steps you have are fairly trivial/simple.\n\nIt\u2019s important that you DON\u2019T think in terms of code during this process. Stick purely to describing the steps in natural language.\n\nI think the biggest issue you might be facing is that you\u2019re trying to understand the technical/code solution rather than understand the problem. This is the reason that you go \u201cuh huh that makes sense\u201d when viewing a solution but struggle to come up with a solution of your own. If you understand the problem you understand the individual steps to solve that problem. At that point it\u2019s just translating your natural language understanding of the steps into code the computer can understand\n\nNow at this point you can jump into the code. Start writing code to solve each individual step. Don\u2019t focus on the big picture stuff or you\u2019ll be overwhelmed. After you do all the individual steps (or at least all of them dealing with a larger portion of the code) start composing them together in the opposite order you broke them down earlier",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Kevdog824_",
+                            "body": "> Like I get what functions, loops etc and how they work but any work past that is beyond my writing even though i understand it.\n\nTrying to narrow down the issue here. What is beyond functions, loops, etc. that you are failing to understand.",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "Optimal_Department_7",
+                                    "body": "As where to go after learning all of that. Like I started working on a QR code generator by using the library Segno and made it go to a webapp via an API.\n\nI wrote majority of the basic parts of it alone but for example there's things in the segno library that even if I have documentation on it I can't understand how to implement it into my code and actually get it work. I had watched youtube videos about it to figure it out and idk how the youtube video got to the conclusion that they did and how can I get to that conclusion so I don't have to actually find a youtube video.\n\nThis is just an example of a project I've worked on so take it with a pinch of salt.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "ericjmorey",
+                                            "body": "Why are you so afraid of getting into a detailed explanation? No one can help you if you don't tell them what you are actually trying.",
+                                            "score": 8,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Kevdog824_",
+                                            "body": "So would you say your main challenge is \u201cintegration\u201d? I.e. you can build the individual units/components of your application but you struggle with composing them to work together? This is what it sounds like you\u2019re saying but I want to confirm.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Optimal_Department_7",
+                                                    "body": "I think yes essentially integration but also finding it difficult to learn about libraries etc, but trying. Might be just cause I've not done this for long enough.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Complex_Damage1215",
+                            "body": "You're reading the code but you're not understanding what it's doing. Add comments to the code that say WHY it's doing what it's doing. Maybe that'll help. At least then you can look back at all the AI generated code blocks and understand what they're doing.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "j0holo",
+            "body": "Don't use AI to learn Python. It spits out code of dubious quality and you don't know yet if it is any good or not. Make a small project: hangman in the terminal. Expand from there. DO NOT use AI/LLM unless you are truly stuck for an hour and tried multiple things. Take a walk, try again.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "sinceJune4",
+                    "body": "Try googling the problem instead of jumping to AI. I can almost always find answers on stackoverflow, some may be better than others, but I learn from seeing the discussions there. \n\nI don\u2019t have unique questions, someone else has always asked and gotten answers before, I can learn from those challenges. It is helpful to see what was tried and did not work, too.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "Lyriian",
+                            "body": "I get the point of your suggestion but Google at this point will just dump AI slop out at you as the first result. So yes Google but also go look for answers from stack overflow or something don't just take the initial Google vomit at face value.",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "sinceJune4",
+                                    "body": "Yes, thank you, good point!",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "patrickbrianmooney",
+                                    "body": "A fun and useful trick: if you swear at Google, it will not dump AI crap into your search results. So asking \"How the f*ck do I ...\" can be the best way to get answers from Google these days.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Lyriian",
+                                            "body": "I love this and I will be doing this. Thank you.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "patrickbrianmooney",
+                                                    "body": "Glad to be helpful!",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "TheKissWillKillYou",
+                    "body": "This, I had to learn that the hard way. I made a bot recently almost out of chatgpt but the debugging and the troubleshooting were an absolute nightmare that it made me wish I learned it from scratch.",
+                    "score": -2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "JorgiEagle",
+            "body": "The reason you\u2019re not remembering is because you\u2019re using AI,\n\nYou\u2019re using it as a crutch.\n\nWhen learning, you shouldn\u2019t be using AI to write code for you, and you should never be copy and pasting.\n\nYou need to physically write all the code yourself.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Complex_Damage1215",
+            "body": "Stop using AI and just do the coding exercises on your own. If you keep using it as a crutch you're never gonna develop the fundamental understanding of coding you need to figure things out logically.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "nerzid",
+            "body": "Turn off the AI, find a project  you want to make that is complex enough, e.g. a social media website, then start working on that project. It will be bad, but you will iterate on it and learn how to do things by stucking at difficult issues.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "humanclock",
+                    "body": "Exactly this.  I learned Perl in 1997 specifically so I could make a long distance hiking planning program.  Because I wanted to program to exist and for people to use it, it motivated me to keep at it.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "RadTechDad",
+            "body": "Doing the homework/assignments are key. I\u2019m doing the 100 days of Python class from Udemy just because it seems comprehensive going through Command-line, turtle graphics, tkinter, saving/loading json, apis, web dev, pandas, and more. Going through the assignments ARE KEY.\n\nI was Just working on one and figured it out MY way. I googled and figured out how to use the json module on my own. Finally, I looked at the teacher\u2019s solution and mine it way more complex than hers. But I learned a few thing\u2019s on the way.\n\nDid I use AI at all? Sure. Only AFTER I went through my code a couple times line by line trying to figure out what was wrong. I knew they were logic errors, but just couldn\u2019t figure out where the logic was wrong. So I copied and paste it all my code and describe the problem to AI and I told it to point out the errors in my logic. I was unable to ask questions as to why my logic didn\u2019t work. It even then suggested more changes, but I ignored that because I knew I wouldn\u2019t learn. I just took the information they gave me about the errors in my logic, and I came up with my own solution.\n\nAnd if you already know some python, you can actually skip some of the videos. I bought this course a long time ago and I\u2019ve recently passed the PCEP. So I went back to this class I was able to skip about 10 \u201cdays\u201d worth of videos.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "QueenVogonBee",
+            "body": "Stop using AI. You need to write more code. Break your task down into smaller bits then complete each bit. If you can\u2019t remember how to do something or you forget syntax, it\u2019s ok to look it up in the documentation. Nobody remembers everything.\n\nIf it\u2019s an app you\u2019re writing, start small. First just get a basic window up with a single button or whatever that doesn\u2019t do anything. And check this works. Fix any bugs. Then add some basic logic for that button, then check this works. Then add a little more functionality, then check it works. Rinse and repeat. Do not write the entire logic all in one go before you check it works. Keep a copy of a previous version in case you mess up (or better yet, use version control such as git).\n\nMake sure you write code that is *readable*. This will save your life as you write code because it avoid confusing yourself. If you litter you code with variable names such as \u201ca\u201d and \u201cv1\u201d, you will just confuse yourself. Instead write variable names like \u201ccar\u201d or \u201cperson\u201d or whatever. Divide long pieces of code into functions. Keep the top level code simple to read and put nitty gritty details inside functions. If your logic is complicated, you can even start by writing the logic using functions you haven\u2019t defined yet. This process forces you to think about the problem and what you need.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ninhaomah",
+            "body": "Learning - Don't use AI to write for you. Use it as a dictionary to look up definitions/terms. Not as a freelance author that write for you.\n\nUsing when you are pro - Up to you",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "JonJonThePurogurama",
+            "body": "Try using StackOverflow, Python Docs and RealPython instead of AI. You will start writing alot of codes because for example in StackOverflow code example, they don't fully work by just copying them and paste in your source code. Everyone has a unique way of solving a problem, you have to comprehend code examples in StackOverflow, read there explanation and try to write you own code.\n\nYou don't need to sign in and ask question yourself in StackOverflow, there is alot of existing problems that is related to your problem when you do personal projects.\n\nVisit the Python Docs for giving you a detailed  information of syntax. Real Python is more of tutorial you can find alot.\n\nThat's how i did when i learned Python and did a personal project, i was able to remember concepts. I also have book that i use as a reference to Python but not same as Python Documentation.\n\nHow about you try that yourself, this might help you with your problem",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "lowban",
+            "body": "I learned a lot from watching The Coding Train on Youtube. Trying to port his javascript code over to Python.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Fireblend",
+            "body": "Is it perhaps more of a problem solving/solution design issue than a coding issue? Are you thinking through what you have to do in terms of inputs and outputs, and decomposing the problem onto different parts that make it easier to approach? \n\nIt can feel very intimidating to tackle big problems, but if you sit down, draw a flowchart or a diagram to picture it and divide it into smaller, less intimidating chunks, it's going to be easier to figure out what to do next, it narrows down what to search for if there's something you don't know how to do, and it makes you a better solution designer overall.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "david_horton1",
+            "body": "Start small and simple then build. Repetition.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "LouNebulis",
+            "body": "Im the same. I\u2019m making scripts and I can read them debug the code. But doing from 0 is hard. You can tell me to read the python documentation but for example the docs for imaplib are horrible, a third party can make a better job than the python docs at explaining something. And maybe the problem is the people just looking up things in the python docs and AI. Start looking in stack overflow. Code examples, explanations",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BriannaBromell",
+            "body": "I agree with the ditch the AI suggestion, here is how:  \nWork with a relatively lesser known series of project packages OR something somewhat new with good documentation but hasn't been trained into any AI's.  \nAnything you've come across (pyside6, Vector databases for me) which AI routinely gets wrong is a great place to self-sabotage your inner vibe-coder/AI shortcutting.\n\nIronically enough I learned the most by writing my own AI instancing & API handling software with chain of thought, NLP, and vector based memories - it was a tremendous project and an AI was only useful to the point of asking philosophical questions about structuring. I was knee deep in documentation all day for hours on end before i realized. It was a project I was enthusiastic about enough to not care about a lack of shortcuts and it offered many small victories.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "duniyadnd",
+            "body": "Stop using AI to learn. You need a foundation first to learn honestly, and one of the things about coding is that in order to get good at it, you have to start making your own mistakes and spend time figuring out why you made your mistakes (this could be doing your own research). AI is too quick to give you responses about what is the correct answer and you'll gloss over the intricacies and just copy and paste the right solution.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DotAtom67",
+            "body": "one of the worst ways of learning something new from the start is using AI. You will get wrong information that you are unable to discern it from being true or false, and you will learn how to use the ai to do X stuff, but you wont learn how to do X stuff yourself..\n\n\nAnd there is a huge difference.\n\n\nDitch the AI and relearn everything from scratch, yourself alone. There's no other way",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Business-Technology7",
+            "body": "That looks like a symptom of passive learning. I\u2019d reflect on how many decisions you had to make from idea to implementation. If most of the decisions are already made by AI, there\u2019s the issue.\n\nIf you are working on Automate the Boring Stuff in Python, try to add new features on the existing code without adding additional 3rd party libraries. That will test your true understanding of the codebase.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "samarthrawat1",
+            "body": "Hackerrank.com is your best friend",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "bcursor",
+            "body": "You need to enjoy Python if you want to learn it. AI stuff is too difficult for a starter. Just build a simple web site or a simple card game works on terminal. After you see visual results you will start to enjoy the process and you can advance in Python.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "rinyre",
+            "body": "There's a lot of comments here with a lot of ire because of AI, and it's understandable because of the frequency of it being the source of problems on here.\n\nNow for some helpful advice: be more specific in issues. I'd say find a learning python Discord or even here where you can ask for help with specific things. People can help you better understand what's being missed when that happens, much more than the AI can.\n\nAs an example I've seen a lot of lately: AI seems to frequently output `if variable_name == \"value1\" or \"value2\":` which is syntactically incorrect*, because the \"or\" in context is reflective of the way we talk about what the code should do, and cannot consistently write it correctly knowing that \"or\" is a keyword that indicates \"if the statement on either side of me is true\". And since a string literal (\"value2\") by itself is always \"true\", it'll return true every time when when it doesn't match your intent.\n\nBut people can recognize that to help. People can evaluate code including intent in their heads in tracking to help with writing or errors you run into.\n\nIf you're struggling with finding the docs or such or you get undesired behavior when running it and don't know what's wrong, _that is okay._ It's part of learning more, and folks can help with that directly when you're struggling. It may not be immediate feedback but that's okay too -- part of programming often involves long periods of thinking about and planning the problem, even diagramming it to an extent sometimes, and often long periods of troubleshooting or learning. It's normal there, and that's okay.\n\nYou can do it, and can do this. \n\n> *As an aside, the correct way would be `if variable_name == \"value1\" or variable_name == \"value2\"` but a simplified way would be `if variable_name in (\"value1\",\"value2\")`. In the latter you're asking \"if the value of this variable is also in this list of values\", and is commonly used in other languages like JavaScript as well (albeit different syntax but same concept).",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Economy_ForWeekly105",
+            "body": "Let me know if you want to work on some projects I've made, maybe we can start up a small community.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "skyfallen7777",
+            "body": "Great discussion, guys!\nI am in the same situation.\nTrying to minimize use of ai, but after googling, reading docs , books, geeks for geeks, others nothing works. \nI look for ai\u2019s explanation. Read line by line and that doesn\u2019t stick. So the key is to understand by any means possible.\nSo frustrating. \nAlso, a lot of noobies missing ingenuity, creativity . Everything needs to be spoon fed and explained. \nIt is frustrating because even asking a right question is difficult.\nI Keep practicing and trying to understand the code.\nBreaking problem into pseudo code .\nThen coding and the circle continues.\nIs this the right way?\n\nWho knows, right?\nIf it helps with understanding and being able to repeat it . Then i hope it is the right way. \nThoughts?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "heyfeefellskee",
+            "body": "What helped me is using it on a subject matter I actually gave a shit about. For me that was fantasy football. I decided to create a scraper that would allow me to look at the weekly box scores for all players in the league. This was simple enough for me to have a goal but tough enough to be a challenge to a brand new Python user. But after working on that I worked on another project on the same subject matter; then another, and at some point everything just clicked and I started going crazy building stuff. It might have happened with just material from a book but when you have a thing you are interested in already it makes learning the language much more enjoyable.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Dry-Aioli-6138",
+            "body": "Are you happy with how lists behave in python?\nAre you really?\nWhy can I do `[1,2,3]*2` and it will understand, but I say `[1, 2] + 3` and suddenly it cannot do it?\nThry making your own list type that will have meaningful interpretation of this, and things like subtraction of primitive types, or other lists, or sets.\nIt will be hard at first, but hey, its not like theres a deadline. And after something clicks in your head it will become awesome. Just don't ask ai to do this for you. Read the docs to find answers.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MiniMages",
+            "body": "You sound like someone who's in tutorial hell. You have learned the basics but never actually built your own project.\n\nPick something you want to build and work on it. Start with simple requirements, get that done then expand. You will come across a lot of challenges, try to get it to just work. Don't bother with clean code or optimising.\n\nYou'll slowly realise the code and syntax stick longer. But you have to then move on to other projects after wards. Try different stuff, fail constantly. And suddenly you'll notice you actually can code without AI handholding.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Puzzleheaded-Lore118",
+            "body": "Just think in a project (a simple ToDo list for instance), then write down (in paper or whiteboard preferably) the required steps to achieve a functional program. If done correctly you'll realize what kind of functionality is required to do so.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "lucpet",
+            "body": "For me the biggest thing that is missing from 100% of training models is pushing people to solve problem without teaching how to think like a programmer to begin with.\n\nI understand so much better when rather than asked to solve a problem is when the problem is presented and then worked through explaining the logic of the process.\n\nI managed to solve many problems but think its quicker to begin with How To! Rather than just solve this!\n\nI follow a python programmer who works in blender who works like this and I made huge leaps in my progress from this method.\n\nLearning isn't a one method works for all and I'm convinced this method would help so many people move on to solving problems after plenty of walk trough's of problem solving in real time.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Metro_chaser",
+            "body": "It's better you don't use AI at the beginning... Get a good code interpretee like jupyter notebook or vscode with auto complete ones..start doing line by line.. figuring out the arguments in the function..going over documentation..\n\nI have seen AI writing unnecessary bigger codes for smaller problems.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Equal-Purple-4247",
+            "body": "Stop using AI. \n\nAlso, I'll let you in on a secret, but don't tell anyone - we forget most of the things we learn. I can never remember if it's `.index` or `.find`, or which one raises an exception and which one fails gracefully. I also can't remember if you can do `dict + dict`, or if it is `dict | dict`, or maybe`dict.extend(dict)`?\n\nMemorizing is never the point. You get experience from running into problems and solving them, so that the next time you run into the same problem you take less time figuring out what to do. If your solution is AI, then you're not gaining any experience.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "create_a_new-account",
+            "body": "> and can understand AI\u2019s writing of python if i do use it for anything. \n\n\nSTOP USING AI\n\nFIGURE STUFF OUT ON YOUR OWN",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "RhinoRhys",
+            "body": "Reading code is a secondary skill to googling.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Amazing_Prize_1988",
+            "body": "Why people think they can write full things with only a few months? did we lower the back for programmers? did things advance so rapidly I missed something?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "scottywottytotty",
+            "body": "\u201cseveral months\u201d lol there\u2019s your problem. it takes a long time to be productive autonomously",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "LaughingIshikawa",
+                    "body": "It takes a long time to be *productive,* but it takes hardly any time at all to be able to *build* something independently that works.  It won't be a better solution than what already exists... But it will be a program that runs and solves a problem.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "scottywottytotty",
+                            "body": "i just mean they should have realistic expectations about their capabilities given how long they\u2019ve been learning. all it does is nuke their confidence and make them feel bad about themselves. several months is still new.",
+                            "score": 0,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "IlliterateJedi",
+            "body": "I would recommend books like Clean Code or [Architecture Patterns with Python](https://www.cosmicpython.com/).  It sounds like your problem is less Python syntax and more 'Now that I know how to handle the pieces, how do I put them all together?'  And that's a much bigger question with a lot more work to be done to understand design patterns, architecture philosophies, etc.  \n\nEdit:  Head First Design Patterns is also a good book.  It's written in Java, but you can reason through how to implement the code in Python as you go.  It's a good primer on different design strategies.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "LouNebulis",
+                    "body": "I believe I need to read one of these books yes",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "IlliterateJedi",
+                            "body": "Architecture patterns is free and every change is a separate branch on their git repo. It's a work of art and I strongly recommend working through the book in detail to anyone trying to advance their understanding of software architecture.\u00a0",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "SirGeremiah",
+            "body": "Your brain learns by the struggle of doing. Using AI bypasses the bits you\u2019d learn from. Do it the hard way. He\u2019ll, do it wrong, and ask others to help you understand how to do it better. I\u2019ve written entire modules I learned later could be done much more easily- or could be entirely replaced by standard libraries. But doing that work is how I learned.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "RPZcool",
+            "body": "Don't use Ai like chatGPT or DeepSeek try using CS50.ai, you will need a github account tho. While chatGPT and DeepSeek generates a code for you, Cs50 won't write you code, but will help with ideas.\nAlso what others said.(yeah I'm lazy, my bad)",
+            "score": -1,
+            "replies": []
+        }
+    ]
+}

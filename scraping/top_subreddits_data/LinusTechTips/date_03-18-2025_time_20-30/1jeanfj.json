@@ -1,0 +1,571 @@
+{
+    "title": "Really?",
+    "author": "Prestigious-Soil-123",
+    "subreddit": "LinusTechTips",
+    "rank": 0,
+    "score": 2773,
+    "upvote_ratio": 0.85,
+    "num_comments (reported by reddit)": 91,
+    "url": "https://i.redd.it/sxj8b13dhhpe1.jpeg",
+    "id": "1jeanfj",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "3inchesOnAGoodDay",
+            "body": "??? Bro that's funny af",
+            "score": 1833,
+            "replies": [
+                {
+                    "author": "lerpo",
+                    "body": "Op must be fun at party's.\n\nEdit - ignore me. Op clearly doesn't get invited to party's.",
+                    "score": 263,
+                    "replies": [
+                        {
+                            "author": "ignite_nz",
+                            "body": "Party\u2019s what?",
+                            "score": 36,
+                            "replies": [
+                                {
+                                    "author": "Genesis2001",
+                                    "body": "Everyday you're shufflin'?",
+                                    "score": 8,
+                                    "replies": [
+                                        {
+                                            "author": "Impliedcash",
+                                            "body": "Now that's a slap in the face from my childhood haha, thank you for reminding me of such an incredible piece of music",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "Genesis2001",
+                                                    "body": "*CHILDHOOD*?! Just make me feel old why don't you! hahaha",
+                                                    "score": 2,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Impliedcash",
+                                                            "body": "Ahaha, well I'm almost 19 now so it's a long time ago for me too \ud83e\udd23",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Tripleberst",
+                                    "body": "Party's in the back",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "nikisaku",
+                                    "body": "( \u0361\u00b0 \u035c\u0296 \u0361\u00b0 )\u00a0",
+                                    "score": 0,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Dr_Ben",
+            "body": "Really what?\n\n\nthat's definitely a bot account.",
+            "score": 1259,
+            "replies": [
+                {
+                    "author": "Chancedaner",
+                    "body": "The love means to make love the pineapple is a let's screw kinda thing and I'm not sure about the other.",
+                    "score": 131,
+                    "replies": [
+                        {
+                            "author": "DiasCrimson",
+                            "body": "I thought pineapple meant swinger?",
+                            "score": 50,
+                            "replies": [
+                                {
+                                    "author": "ApocApollo",
+                                    "body": "Historically, you put a pineapple magnet on your refrigerator to signal to house guests that you're a swinging couple.\n\nHeart emoji is heart emoji.\n\nThe first one looks like chili peppers?  So it's spicy?",
+                                    "score": 21,
+                                    "replies": [
+                                        {
+                                            "author": "Jaws12",
+                                            "body": "The first emoji is for Tanabata, a Japanese festival where people hang paper wishes from trees as part of the holiday.",
+                                            "score": 3,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "comradeautismoid",
+                                            "body": "Well you have just single-handedly ruined my memories of my grandfather, thanks",
+                                            "score": 6,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "CT_Biggles",
+                                    "body": "I was told this recently. Don't tell pineapple haircut erik.",
+                                    "score": 6,
+                                    "replies": [
+                                        {
+                                            "author": "heebro",
+                                            "body": "if erik is going to bounce on a dick for hours at a time, it would stand to reason he would need access to several tumescent dicks\u2014therefore we can deduce that he already swings.  pineapple haircut just confirms it",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "BotWidow",
+                    "body": "Accounts can have every red flag in the book and people still won't believe it until you prove they're copy/pasting or have an OF link in their bio.",
+                    "score": 12,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Hero_The_Zero",
+            "body": "Pretty sure LinusTechTips are one of the YouTubers doing the pin of shame on obvious bot accounts to bring attention to the issue.",
+            "score": 487,
+            "replies": []
+        },
+        {
+            "author": "Kimorin",
+            "body": "has anyone decoded what the emojis mean yet? it's definitely a code right? like all these bot comments have it",
+            "score": 193,
+            "replies": [
+                {
+                    "author": "cyb3rofficial",
+                    "body": "Its to avoid spam filters.  Each emoji has a certain byte code length so it adds on character counts. For example \"\ud83c\udf88\ud83c\udf86\ud83c\udf87\" uses: 12 bytes, 6 character spaces while \"\u2764\ud83d\udca2\ud83d\udca5\" uses: 11 bytes and 5 character spaces. Using different length emoji help avoid spam filters. \"Hello \ud83c\udf88\ud83c\udf86\ud83c\udf87\" and \"Hello \u2764\ud83d\udca2\ud83d\udca5\" from different accounts will not trigger spam filters as emoji also carry their own unique identification codes which also bypass spam filtering. \n\nIt's a pretty common tactic, as you can also hide hidden characters too. \"Hello\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e\u200e \u2764\ud83e\udde1\ud83d\udc9b\" is 161 bytes and 59 character space despite looking like 9 or 10 chars.. (paste into any char counter and see)",
+                    "score": 284,
+                    "replies": [
+                        {
+                            "author": "9Blu",
+                            "body": "They really need to give channels the ability to turn off profile pics and emojis in comments on their videos.",
+                            "score": 78,
+                            "replies": [
+                                {
+                                    "author": "Dawnqwerty",
+                                    "body": "allowing fully anyonymizing comment sections would be good for certain free speech discussions places. Like youtube would still be able to police cause they could see all the accounts but people wouldn't be able to see each other in the comments section, just essentially comment more liberally.",
+                                    "score": 7,
+                                    "replies": [
+                                        {
+                                            "author": "DR4G0NSTEAR",
+                                            "body": "Anonymity breeds toxicity though. I remember years ago everyone thought that eventually we would all have our own personal, like an IP6 address, and that everyone on the internet would be identifiable, like you were having the conversation irl you could know you\u2019re talking to the same person cross platform and such.\n\nI don\u2019t know if that would actually help (or how you\u2019d could ever even do that), but people thought a lot of things back in the 2000\u2019s. The future of the internet was still so full of hope.",
+                                            "score": 9,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "RagingAlkohoolik",
+                            "body": "Well thats something i didnt know was a thing",
+                            "score": 24,
+                            "replies": [
+                                {
+                                    "author": "StaysAwakeAllWeek",
+                                    "body": "It's something a lot of people discovered in the early days of smartphones when twitter and SMS were both 140 characters and emojis would burn through that limit like crazy",
+                                    "score": 15,
+                                    "replies": [
+                                        {
+                                            "author": "needefsfolder",
+                                            "body": "I discovered mine because Messages app goes from 140 to 60 when inserting emojis. Not that it matters (PH has dirt cheap SMS packages) but i hate it because it can fuck Messages arrival ordering",
+                                            "score": 2,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "RagingAlkohoolik",
+                                            "body": "I never had that issue, my country was pretty liberal with SMS, my first package in 2003 was message based and not character limit and some limit for MMS/calls",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "StaysAwakeAllWeek",
+                                                    "body": "The way that works is if you go over 140 it will charge you for multiple messages and just display them as one",
+                                                    "score": 7,
+                                                    "replies": [
+                                                        {
+                                                            "author": "RagingAlkohoolik",
+                                                            "body": "Ohhh yeah that makes sense",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        },
+                                                        {
+                                                            "author": "lioncat55",
+                                                            "body": "Back in the early days, if you went over 140, the messages just got split. Phones did not recombine them.",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "insomniacpyro",
+                                    "body": "More dead internet, yay. I have to imagine a good bot is scraping the subtitles and throwing it into an AI so that the comment feels more genuine. Like it would bring up things discussed in the video.",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "RagingAlkohoolik",
+                                            "body": "What? I dont get it, are you trying to say im a bot lmao",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "insomniacpyro",
+                                                    "body": "No, I was adding on to your comment about not knowing the emoji thing because I said the same thing in my head lol",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "RagingAlkohoolik",
+                                                            "body": "Ohhh, yeah ive had a bit of a day at work today so im a bit brainbroken lol",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "g76lv6813s86x9778kk",
+                                            "body": "They definitely do something along those lines, but subtitles would probably be too resource intensive. I'd imagine they use title+description for a similar result, as long as those were at least a little detailed.\n\n(Most of them just copy real comments, but not all of em, they're getting smarter)",
+                                            "score": 0,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "iPlayViolas",
+                            "body": "I just learned something. Gotta love LTT fans.",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "Ok-Warthog2065",
+                            "body": "Bring back plain text bulletin boards!",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "No_Tax4450",
+                            "body": "TIL",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "gonzo0815",
+                            "body": "I don't get that this works. Could you not simply remove the emojis before checking?",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Chancedaner",
+                    "body": "The pineapple means my room is open for visters like sexual ones, the hearts means to make love and I'm not sure about the first one.",
+                    "score": -5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "PM_ME_YOUR_VITAMIN_D",
+            "body": "No fun allowed on the internet",
+            "score": 87,
+            "replies": []
+        },
+        {
+            "author": "pateete",
+            "body": "Really what? You bothered by the comment?",
+            "score": 158,
+            "replies": [
+                {
+                    "author": "Emperor_of_Cats",
+                    "body": "OP is mad because Linus is taking all those hot single ladies in his area \ud83d\ude24",
+                    "score": 125,
+                    "replies": []
+                },
+                {
+                    "author": "BlazedKangaroo420",
+                    "body": "He\u2019s probably neurodivergent",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "Leader-Lappen",
+                            "body": "Most likely.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "PokeT3ch",
+            "body": "What are we really'ing?",
+            "score": 73,
+            "replies": [
+                {
+                    "author": "Definitely_nota_fish",
+                    "body": "Probably the response to the bot because the person who made this post doesn't understand Tech humor and may not understand The chance of that account being a bot to be 99.9999% or greater",
+                    "score": 10,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ki1abyte",
+            "body": "me when i cant take a joke",
+            "score": 122,
+            "replies": []
+        },
+        {
+            "author": "greyXstar",
+            "body": "What's the issue? That's clearly a bot",
+            "score": 31,
+            "replies": []
+        },
+        {
+            "author": "GNUGradyn",
+            "body": "Really what? not sure what the issue is here, that is a bot and they made a joke about the bot",
+            "score": 30,
+            "replies": []
+        },
+        {
+            "author": "wgaca2",
+            "body": "Really",
+            "score": 40,
+            "replies": []
+        },
+        {
+            "author": "Due_Exam_1740",
+            "body": "Me when I hate fun:",
+            "score": 10,
+            "replies": []
+        },
+        {
+            "author": "zzparagon91",
+            "body": "are you seriously triggered by the word \u2018sexy\u2019?",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Kyderra",
+            "body": "Honest questions, \n\nWho and what are these bots for?\n\nAre they hoping to get DM's for people to scam?\n\nDoes Youtube even have a DM system",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "Chaardvark11",
+                    "body": "I believe they normally have links in the channel descriptions that users are supposed to feel enticed to enter.\n\nMy guess is that these links encourage users to enter sensitive information or are flooded with viruses and scam popups. Either way I don't imagine they get a lot of traffic, but they could potentially pull a couple of ignorant or naive people (mostly older men and younger boys) who genuinely believe there is a hot single woman ready to talk to them because the weird looking YouTube comment said so.",
+                    "score": 10,
+                    "replies": []
+                },
+                {
+                    "author": "211216819",
+                    "body": "If you click on their profile picture you will land on their YouTube page which will usually have a banner with a link\u00a0\nNo dms needed.\u00a0",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "adamantcondition",
+                    "body": "Channels also might not fight hard to report them because they are increasing engagement metrics.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "OptimalPapaya1344",
+            "body": "If this should offend anyone it\u2019s the hard working robots at dbrand.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Sudden_Impact7490",
+            "body": "You don't have to white knight for chat bots, they aren't sentient",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "MXC_Vic_Romano",
+            "body": "Engagement is engagement",
+            "score": 14,
+            "replies": []
+        },
+        {
+            "author": "brickson98",
+            "body": "Are you triggered by the word \u201csexy\u201d, or you just somehow can\u2019t clearly tell that\u2019s a bot comment? \n\nEither way, I\u2019m going to give YOU, OP, a \u201cReally?\u201d right back.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "SavvySillybug",
+            "body": "wtf u mean really.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "ViolinistCurrent8899",
+            "body": "Why not, right?",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "n1km",
+            "body": "Those bots have been wandering on youtube for years now, nothing new here. Also I find their comment funny.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Pure_System9801",
+            "body": "What's the issue?",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "AlchemyFire",
+            "body": "Thank you robot",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Fee_Sharp",
+            "body": "So op just posted it, did not explain what he meant and disappeared. Ok",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Definitely_nota_fish",
+                    "body": "Probably saw that literally everyone here was either confused by the post or just making fun of them and so decided to not respond to any comments",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "RanchDippedHotWings",
+            "body": "Based",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "swanbedbug",
+            "body": "Really what lol. That's funny af",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "dasbtaewntawneta",
+            "body": "do you hate jokes OP, what's your problem?",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ITGuy042",
+            "body": "D-Brand Robot: That should be me! I am going to send him so much more money and boxes of broken glass now to call him small!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "logicallypartial",
+            "body": "Lol. Kinda wish that they always signed their comments so we'd know which LMG employee made them.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "AwesomeFrisbee",
+            "body": "Either somebody forgot to log out of their bot account or they don't know why Olivia is a bot account.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "IAMNOTALEX12138",
+            "body": "Yes really, must be fun at party robot.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "dacoolist",
+            "body": "LinusSexTips",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Elegant-Concert-7445",
+            "body": "The pineapple \ud83c\udf4d says a lot without saying a lot.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ok_Today_475",
+            "body": "Stupid sexy robot",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Deses",
+            "body": "Why are people so prude nowadays?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "IsJaie55",
+            "body": "WHY IS EVERY COMMENT DELETED",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "EmailLinkLost",
+                    "body": "I think its a bug with reddit best sorting?",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "AmonGusSus2137",
+            "body": "What the hell happened in the comments?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "lordcoughdrop",
+            "body": "Yeah I also thought it was really weird to see this, like it's blatant engagement with bots from LTT which will only further INCREASE the bots on the channel. Thought this comment was super strange, and I hope LTT learn from this.",
+            "score": -30,
+            "replies": [
+                {
+                    "author": "parallelbarrel",
+                    "body": "![gif](giphy|G4ZNYMQVMH6us)",
+                    "score": 10,
+                    "replies": []
+                },
+                {
+                    "author": "mr_gooses_uncle",
+                    "body": "I don't think you understand. Lots of creators are pinning bot accounts to bring attention to them. That's the idea. I think what they've learned from this is that it indeed does get lots of attention on bot accs, judging by the 2k people that upvoted the op. But hey, if you like scam bots, you do you.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "sekktor01",
+                    "body": "Preparing the 1 hour video expos\u00e9",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Leader-Lappen",
+                    "body": "lol.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

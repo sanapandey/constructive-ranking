@@ -1,0 +1,34 @@
+{
+    "title": "Library that has food recipes",
+    "author": "silly_goose178",
+    "subreddit": "learnpython",
+    "rank": 14,
+    "score": 1,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 3,
+    "url": "https://www.reddit.com/r/learnpython/comments/1jejs4h/library_that_has_food_recipes/",
+    "id": "1jejs4h",
+    "selftext": "I'm making a program that helps the user pick out a recipe to cook, depending on what they're in the mood for. I don't want to enter each recipe manually, as I might not be aware of certain recipes that fit the user's criteria and because it will be a lot of unnecessary work/processing. Is there a library that has a bunch of different recipes or some way I can do this efficiently and time effectively? Here is a rough-draft of the algorithm:\n\n**Recipe picker algorithm**\n\n1. Ask user and sort recipes according to the following answers to each question:\n   1. A. breakfast, lunch, dinner, desert, or snack\n\n\t\t\t1. if input=breakfast or snack ask if they would like it to be sweet or savory\n\n\tB. How much effort/time do they want to put into preparing the meal\n\n\tC. flavor profile/ingredient\n\n\tD. cuisine\u00a0\n\n\n\n1. Output all possible recipes that the user can make in alphabetical order according to inputs to previous questions\n2. Ask user if they would like other results (these won\u2019t match the criteria as effectively)\u00a0\n3. Output helpful links to the user where they can find recipes to the dishes\n4. \\*\\*inspired by this post: [https://www.reddit.com/r/Python/comments/s5yb6m/i\\_made\\_a\\_recipe\\_creatorfinder\\_in\\_python/](https://www.reddit.com/r/Python/comments/s5yb6m/i_made_a_recipe_creatorfinder_in_python/)",
+    "comments": [
+        {
+            "author": "crazy_cookie123",
+            "body": "You might be able to use an API like [https://www.themealdb.com/api.php](https://www.themealdb.com/api.php) depending on your needs.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "silly_goose178",
+                    "body": "What is an API (I somewhat know how they work but I've never used one) and how is it used in the application?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "crazy_cookie123",
+                            "body": "It's an Application Programming Interface - basically a way for you to communicate between two applications regardless of where they are running, what languages they are using, etc. They're often used for communication between the client and server of a single application, or for communicating between your application and somebody else's application. They usually work over HTTP requests, and use standard formats like JSON for sending data back and forth.\n\n For example, if you wanted to get one seafood dish from that themealdb API, you could do something like this:\n\n    import requests\n    \n    # A GET request is used for getting data\n    # Everything after the ? is a query parameter, these are key value pairs separated by &.\n    #   In this case we have one parameter, c, which stands for category\n    # What endpoint to use, what query parameters to use, what headers to use, and what body\n    #   to use will usually be documented on the API's website. In this case we just need \n    #   the /api/json/v1/1/filter.php endpoint with the query parameter c\n    response = requests.get(\"https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood\")\n    \n    # As this API returns JSON, we can turn the response into a dictionary with the .json() method\n    json_response = response.json()\n    \n    first_seafood_dish = json_response['meals'][0]\n    print(first_seafood_dish) # {'strMeal': 'Baked salmon with fennel & tomatoes', 'strMealThumb': 'https://www.themealdb.com/images/media/meals/1548772327.jpg', 'idMeal': '52959'}",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

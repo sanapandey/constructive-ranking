@@ -1,0 +1,80 @@
+{
+    "title": "Feat or Subclass Ability?",
+    "author": "EXP_Buff",
+    "subreddit": "dndnext",
+    "rank": 12,
+    "score": 1,
+    "upvote_ratio": 0.67,
+    "num_comments (reported by reddit)": 10,
+    "url": "https://www.reddit.com/r/dndnext/comments/1jehgpi/feat_or_subclass_ability/",
+    "id": "1jehgpi",
+    "selftext": "For context, I play a 5e.14 game, and I've been working on a feat I'd possibly take at my next level. My DM lets me do a lot of homebrew shenanigans, but feat design is something I've not really delved too deeply into because they're rare enough to get and official feats are generally enough that you don't really need to homebrew more to get a desired effect.\n\nThat being said, I play a very particular kind of character, a Monk 2, Ranger 11 right now, and at level 12 ranger I'll be getting my next feat and want it to be on theme. As such I've designed this:\n\n---\n\n >**Stance Practitioner**\n    \n>You've learned how to adapt to the battlefield, and have practiced a number of stances to either defend or attack. As a bonus action on your turn, you can evoke a Battle Stance which last for one minute, or until you are incapacitated. When you evoke your Battle Stance, you can choose one of the following options and gain it's benefits for the duration.\n\n---\n>**Defensive Stance.**  While in this stance, when you are hit with a weapon attack, you reduce the damage by a number equal to your proficiency bonus.\n    \n>**Aggressive Stance.** While in this stance, the first attack you make on a turn gains a bonus to the damage roll equal to half your proficiency bonus (rounded up). \n    \n>**Mobile Stance.** While in this stance, creatures have disadvantage on Attacks of Opportunity made against you, and you can move through a creatures space so long as you do not end your turn within their space.\n    \n>**Tactical Stance.** When you enter this stance and whenever you start your turn while in this stance, you can grant one creature within 30 feet of you a bonus to their next attack roll equal to your proficiency bonus. \n    \n>**Unity Stance.** While in this stance and at least one ally is within 5 feet of you, you and every ally within range gain a bonus to their armor class equal to half your proficiency bonus (rounded up).\n    \n>**Weavers Stance.** While in this stance, you can make a special reaction when a creature you can see targets you with a spell. Make an attack roll against the creatures spell save DC. If you hit, the spell is cut, and cannot effect you. Once you've cut a spell, the stance immediately ends.\n\n---\n>Once you've evoked your Battle Stance, you can use a bonus action on subsequent turns to change which stance you're in, replacing the benefit gained with a different benefit from the list above. When your Battle Stance ends, you cannot begin a new one until you've finished a short or long rest.\n\n---\n\nI'm thinking this might be... idk... quite powerful? So I'm wondering if this would fit more into a monk subclass which I might take later... (Though realistically, it wouldn't be until 18th level. Gotta get ranger to 13 first, then take 2 levels of fighter. then it's a crapshoot what I pick next. Taking more ranger is not a good idea as it won't give me any more power in the long term. I'm just not dead set on a subclass for monk since all of them are kinda weak. I'll probably pick Caviler for my fighter subclass and only because I'm generally speaking always mounted.)",
+    "comments": [
+        {
+            "author": "Obsession5496",
+            "body": "Yeah, this feels very much like the start of a subclass. It's way to strong for a Feat.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DeathBySuplex",
+            "body": "It's got a lot going for it, but you have locked it behind \"1 time a Short Rest\" so while it has a lot of utility, it's not like you are flowing from stance to stance to stance five times a fight.\n\nIt's probably fine.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Dragonite888",
+                    "body": "Well he could flow from stance to stance ten times in one fight per short rest given it lasts for a minute. Even if he just switched his brain off and left \u2018Aggressive Stance\u2019 on he\u2019s getting up to 70 bonus damage per short rest. And that\u2019s not accounting for all the utility, or the fact that damage will continue to scale. Way too strong.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "DeathBySuplex",
+                            "body": "> Once you've evoked a stance, you cannot evoke another until you finish a short or long rest.\n\nThat limits it to once",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "EXP_Buff",
+                            "body": "Yeah aggressive stance might be a bit overtuned lol. I'll have to think of a replacement or rework.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "EXP_Buff",
+                    "body": "I mean, you literally could flow from stance to stance in a single fight. It's the next fight that you'd be down the resource if you lacked the time for a short rest.\n\nI suppose I could remove the ability to swap stances to lessen the utility.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "DeathBySuplex",
+                            "body": "> Once you've evoked a stance, you cannot evoke another until you finish a short or long rest.\n\nThat says you can only do it once",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "EXP_Buff",
+                                    "body": ">  Once you've evoked a stance, you can use a bonus action on another turn to change to another stance.\n\nthis says you can change to another. \n\nThe intent was that you'd evoke the stance and then be able to flow between available stances for a minute. if you were incapacitated though, you wouldn't be able to evoke another stance during the battle and would lose it's benefits.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "DeathBySuplex",
+                                            "body": "The wording is contradictory then, you need to change the last phrase to clarify because that last phrase negates the previous one.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "EXP_Buff",
+                                                    "body": "I updated the wording, let me know if that helps clarify.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

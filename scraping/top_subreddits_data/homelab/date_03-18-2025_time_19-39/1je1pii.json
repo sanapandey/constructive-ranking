@@ -1,0 +1,86 @@
+{
+    "title": "What do you guys use to check the Security of your exposed Services",
+    "author": "Don_Sandman",
+    "subreddit": "homelab",
+    "rank": 18,
+    "score": 16,
+    "upvote_ratio": 0.74,
+    "num_comments (reported by reddit)": 11,
+    "url": "https://www.reddit.com/r/homelab/comments/1je1pii/what_do_you_guys_use_to_check_the_security_of/",
+    "id": "1je1pii",
+    "selftext": "As the title says im looking for inspiration to check up on the security of my Exposed Websites\n\ni've tried:\n\n* [web-check.xyz](https://web-check.xyz)\n* [Mozilla Observatory](https://developer.mozilla.org/en-US/observatory)\n* [immuniweb.com](https://www.immuniweb.com/websec/)\n\nAs the Danger on the Internet is infinite i think i should try out a plethora of Vulnerability Scanners to kind of stay on top of things.\n\n  \nAny feedback and criticism is greatly appreciated\n\n  \nand yes, i know that exposing them to the wider internet is not the safest option, however i don't always have the option of a VPN and exposing them has come in handy plenty of times.",
+    "comments": [
+        {
+            "author": "mavcee",
+            "body": "uh, I try not to think about it.",
+            "score": 11,
+            "replies": []
+        },
+        {
+            "author": "K3CAN",
+            "body": "I've run [Lynis](https://cisofy.com/lynis/) on my servers to help spot potential vulnerabilities and highlight ways I could potentially harden them. The results might require a little googling to fully understand, though.",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "Don_Sandman",
+                    "body": "Thank you, i'll try that out when i get back home and have time to take a better look at it",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "MacDaddyBighorn",
+            "body": "I wake up and if I haven't been ransomwared, thats my check!",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "PristinePineapple13",
+                    "body": "i gotchu bro. give me your ip, i'll ransomware you",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "MacDaddyBighorn",
+                            "body": "[8.8.8.8](http://8.8.8.8)",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ExtensionVersion8561",
+            "body": "OWASP ZAP (Zed Attack Proxy) is a free and open-source web application security scanner",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Salt-Cantaloupe-4089",
+            "body": "You're welcome to try our hosted OWASP ZAP vulnerability scanner to check for application vulnerabilities. It'll spot things like insecure headers, cross site scripting, SQL injection, etc. Or, if you need a network vulnerability scanner, we also let you run OpenVAS scans to spot unpatched services or exposed management interfaces. Hope this helps!\n\n\nhttps://panopticscans.com",
+            "score": -28,
+            "replies": [
+                {
+                    "author": "Don_Sandman",
+                    "body": "it seems like i've gotten myself into a trial that i was not aware of.  \nMight want to put up a disclaimer in the mail you send out or even when signing up.\n\nThe UI looks good and the Scan was also in line with what i saw when i used the other tools.\n\ni like that i got the full scan report in a PDF that i could download and view later without having to keep the tab open.",
+                    "score": 9,
+                    "replies": [
+                        {
+                            "author": "Salt-Cantaloupe-4089",
+                            "body": "Ah, good point. Really appreciate the feedback, we'll get that disclaimer added today.",
+                            "score": -4,
+                            "replies": [
+                                {
+                                    "author": "Mentozzino",
+                                    "body": "you two sound as if both of you worked for this product \ud83d\ude02",
+                                    "score": 6,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

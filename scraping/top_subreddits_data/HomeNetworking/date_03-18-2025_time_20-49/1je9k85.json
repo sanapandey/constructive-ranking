@@ -1,0 +1,44 @@
+{
+    "title": "Secure Your Data at Home: Share Your Backup Tips & Win Big!",
+    "author": "topiga",
+    "subreddit": "HomeNetworking",
+    "rank": 6,
+    "score": 48,
+    "upvote_ratio": 0.94,
+    "num_comments (reported by reddit)": 5,
+    "url": "https://www.reddit.com/r/HomeNetworking/comments/1je9k85/secure_your_data_at_home_share_your_backup_tips/",
+    "id": "1je9k85",
+    "selftext": "Hey everyone! I'm a mod from r/UgreenNASync, and we've teamed up with r/HomeNetworking to kick off a discussion about something we all need\u2014reliable backups! With World Backup Day coming on March 31st, it's the perfect time to figure out how to safeguard your home network and protect your data.\n\n**Event Duration:**  \nNow through April 1 at 11:59 PM (EST).  \n\ud83c\udfc6 Winner Announcement: April 4, posted here.\n\n\ud83d\udca1 **How to Participate:**  \nEveryone is welcome! First upvote the post, then simply drop a comment and share anything backup-related:\n\n* Backup stories, experiences, or tips\n* Backup warnings or lessons learned\n* Devices you use or plan to use\n* Why backups matter for your home network\n* etc\n\n\ud83d\udd39 English preferred, but you're welcome to comment in other languages.\n\n**Prizes for 2 lucky participants of** r/HomeNetworking:  \n\ud83e\udd47 1st prize: 1\\*[NASync DXP4800 Plus](https://airreps.link/nasync-4800plus) ($600 USD value!)  \n\ud83e\udd48 2nd prize: 1\\*$50 Amazon Gift Card  \n\ud83c\udf81 Bonus Gift: All participants will also receive access to the [GitHub guide](https://guide.ugreen.community/) created by the r/UgreenNASync community: [https://guide.ugreen.community/](https://guide.ugreen.community/).\n\nLet\u2019s pool our knowledge and make our home networks more resilient! Share your best backup practices, horror stories, or go-to gear below\u2014you might just walk away with a brand-new NAS. Winners will be selected based on the most engaging and top-rated contributions. Good luck!\n\n\ud83d\udccc Terms and Conditions:\n\n1. Due to shipping and regional restrictions, the first prize, NASync DXP 4800Plus, is only available in countries where it is officially sold, currently US, DE, UK, NL, IT, ES, FR, and CA. We apologize for any inconvenience this may cause.\n2. Winners will be selected based on originality, relevance, and quality. All decisions made by Mods are final and cannot be contested.\n3. Entries must be original and free of offensive, inappropriate, or plagiarized content. Any violations may result in disqualification.\n4. Winners will be contacted via direct message (DM) and please provide accurate details, including name, address, and other necessary information for prize fulfillment.",
+    "comments": [
+        {
+            "author": "gkhouzam",
+            "body": "Been doing online backups for years, Carbonite, Backblaze and now CrashPlan.\n\nBacking up all my data, pictures and video mostly (other stuff is also replicated on OneDrive and iCloud).\n\nHad a couple of drives fail, erased one by mistake, and our house has been robbed. My online backup has always been there for me to get my data back.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "morning74660584",
+            "body": "Story time, then !\n\nIn March of 2021, some of you might recall that an OVH datacenter burned almost entirely.  \nBack then, I was working on a small Minecraft server with friends. Nothing huge, but we still held games multiple times a week.\n\nAs you can imagine, the server we were renting was in said datacenter. Although not everything was perfect in our technical approach, we had also taken the OVH backup option. Just to be extra safe. What could possibly go wrong ?  \nWell, you guessed it, the backup was lost too ! We were devastated. Most of our work was lost, and it felt so unfair ! We tried to play by the book, and still lost !\n\nAnd then, suddenly, a miracle. One of our system admin had set up a backup on an external pc. It was a weekly backup, so we didn't get everything back, but most of it was saved ! I don't know if he feared such a situation, or if it was just luck, but we learned our lesson : do not store backups in the same physical location. Even if it isn't the same server.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "H2CO3HCO3",
+            "body": "u/topiga, would've been nice if you also contacted the mod(s) at r/backup -> there I have documented in several posts the points you mentioned in yours, namely:\n\n- Backup stories, experiences, or tips\n\n- Backup warnings or lessons learned\n\n- Devices you use or plan to use\n\n- Why backups matter for your home network\n\nOne of the last examples where I basically went through the Backup type of backup model, strategy, model, recovery tests, User Acceptance Testing, etc, you can look at the following:\n\nhttps://old.reddit.com/r/Backup/comments/1it2mk5/why_backup_testing_is_a_must_and_how_to_do_it/mdlytri/?context=3\n\nIf you can, would be worth while to reach out to the mod(s) ie. i've been on that subreddit in contact with u/wells68 before.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Shigarui",
+            "body": "I wish I had some strong wisdom to share with everyone but this is somewhat new to me. I will say this, whatever amount of storage you think is going to be enough, you are wrong, lol. I started with 10tb, then added 14tb, and now am looking at having to expand further. Much like how long lost family and friends show up to your door when you win the lottery, digital files will begin to appear out of nowhere when you suddenly have tens of terabytes to use. Don't find yourself needing to upgrade the week after you first get fully set up, and make sure to include some redundancies in your NAS. This is from a first year NAS operator.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "timee_bot",
+            "body": "View in your timezone:  \n[April 1 at 11:59 PM EDT][0]  \n\n[0]: https://timee.io/20250402T0359?tl=Secure%20Your%20Data%20at%20Home%3A%20Share%20Your%20Backup%20Tips%20%26%20Win%20Big!\n\n\n^(_*Assumed EDT instead of EST because DST is observed_)",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "title": "2 Bay (NVMe) technical question - OK to add just 1?",
+    "author": "meandererai",
+    "subreddit": "DataHoarder",
+    "rank": 12,
+    "score": 0,
+    "upvote_ratio": 0.5,
+    "num_comments (reported by reddit)": 5,
+    "url": "https://www.reddit.com/r/DataHoarder/comments/1jehyzq/2_bay_nvme_technical_question_ok_to_add_just_1/",
+    "id": "1jehyzq",
+    "selftext": "I recently ordered a dual bay NVMe SSD enclosure that takes up to 8TB each for a total of 16TB, for longevity / future use.\n\nBut for now, I only need 4 TB, so I just purchased one 4TB \"drive\" (is this the right word?). I didn't do two x 2 TBs because I wanted the option to buy the second 4 TB \"drive\" when I needed it, instead of having to overhaul the whole thing.\n\nHowever, it just dawned on me that perhaps this might cause instability issues -\n\nIs it generally a bad practice to leave one bay empty in this type of enclosure, or is it safe to proceed with just one 4TB drive in the 2 bay device?\n\nThank you in advance for your generous time - Theresa",
+    "comments": [
+        {
+            "author": "AutoModerator",
+            "body": "\nHello /u/meandererai! Thank you for posting in r/DataHoarder. \n\nPlease remember to read our [Rules](https://www.reddit.com/r/DataHoarder/wiki/index/rules) and [Wiki](https://www.reddit.com/r/DataHoarder/wiki/index).\n\nPlease note that your post will be removed if you just post a box/speed/server post. Please give background information on your server pictures. \n\nThis subreddit will ***NOT*** help you find or exchange that Movie/TV show/Nuclear Launch Manual, visit r/DHExchange instead.\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/DataHoarder) if you have any questions or concerns.*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "OurManInHavana",
+            "body": "It will work fine with just one drive.\n\nThose dual-enclosures typically act like 2 completely separate devices that just happen to share a cable (i.e. the don't do onboard mirroring or striping)... so they don't care if there's an empty slot or not.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "meandererai",
+                    "body": "thank you!  \nI'm sorry, can you explain \"don't do onboard mirroring or striping\"",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "OurManInHavana",
+                            "body": "Some fancier devices (like 2-bay NAS's) offer some extra features. Like if you install two drives they can make sure both hold exactly the same data (called \"mirroring\", or RAID1) so if a single drive dies everything seamlessly keeps working from the other one. Or, they can interleave data reading/writing to both drives to make them appear as a single larger+faster drive (called \"striping\", or RAID0).\n\nI believe you *can* buy some dual-NVMe enclosures that also do RAID0 or RAID1, but they're expensive and not common. Most of them just expose both SSDs as separate drives (like different drive letters in Windows).... and if you want any extra features you need to add them yourself in software.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "meandererai",
+                                    "body": "Oh wow, I see.   \nYour explanation is super thorough and I appreciate the time you've taken to write that, so very much. I've saved your comment",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

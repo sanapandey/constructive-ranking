@@ -1,0 +1,41 @@
+{
+    "title": "Why does Messages constantly say there's an unread message",
+    "author": "JasonOnDesign",
+    "subreddit": "MacOS",
+    "rank": 18,
+    "score": 1,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 4,
+    "url": "https://www.reddit.com/r/MacOS/comments/1jeeo0v/why_does_messages_constantly_say_theres_an_unread/",
+    "id": "1jeeo0v",
+    "selftext": "On my Mac only it always shows one unread message (see below). The phone shows none. To fix this I:\n\n  \n1) Go into Terminal and type: Killall Dock\n\n2) then remove from dock\n\n3) then quit and restart\n\n  \nAnd it goes away, but within a day or so it comes back.\n\nhttps://preview.redd.it/bmvjx58x9ipe1.png?width=69&format=png&auto=webp&s=3b91bf0fd88d8861c323470a2883104cfc5b15a1\n\n  \n",
+    "comments": [
+        {
+            "author": "WishTonWish",
+            "body": "I get this, too.\n\nIt\u2019s maddening. This from a company that wants \u201cApple Intelligence\u201d to mean something.\n\nWhile we\u2019re at it, why do I have to delete texts from every device separately?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "MrsBoojiePanda",
+                    "body": "If your messages are synched in iCloud, deleting them from one device should delete them from all devices logged into that account.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "WishTonWish",
+                            "body": "That\u2019s not what is happening.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "MrsBoojiePanda",
+                                    "body": "Sounds like a bug. It works for me.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

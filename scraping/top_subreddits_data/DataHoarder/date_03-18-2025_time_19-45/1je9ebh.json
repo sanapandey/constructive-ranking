@@ -1,0 +1,65 @@
+{
+    "title": "IA Interact - Making the Internet Archive CLI tool usable for everyone.",
+    "author": "TheRealHarrypm",
+    "subreddit": "DataHoarder",
+    "rank": 4,
+    "score": 42,
+    "upvote_ratio": 0.84,
+    "num_comments (reported by reddit)": 8,
+    "url": "https://i.redd.it/y3kqcoab7hpe1.png",
+    "id": "1je9ebh",
+    "selftext": "[IA Interact](https://github.com/harrypm/IA-Interact) is a simple wrapper, that makes the pain in the ass that is [Internet Archive CLI](https://archive.org/developers/internetarchive/cli.html) Usable to a lot more people.\n\nThis cost me hours of lifespan and fighting Copilot to get everything working, but now I am no longer tied to the GUI web tool that has for 2 weeks not been reliable. \n\nBasically did all this just so I could finish the [VideoPlus](https://archive.org/details/VideoPlus_VHS_PAL_FM_RF_VHS_Decode) VHS Tape FM RF archive demo for r/vhsdecode lol.",
+    "comments": [
+        {
+            "author": "AutoModerator",
+            "body": "\nHello /u/TheRealHarrypm! Thank you for posting in r/DataHoarder. \n\nPlease remember to read our [Rules](https://www.reddit.com/r/DataHoarder/wiki/index/rules) and [Wiki](https://www.reddit.com/r/DataHoarder/wiki/index).\n\nIf you're submitting a Guide to the subreddit, please use the [Internet Archive: Wayback Machine](https://archive.org/web/) to cache and store your ***finished post***. Please let the mod team know about your post if you wish it to be reviewed and stored on our wiki and off site. \n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/DataHoarder) if you have any questions or concerns.*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "VolatileFlower",
+            "body": "This is awesome work, Harry. I have also had a very bad experience with the web interface but the command line interface is somewhat confusing to use to be honest. So this will definitely help. Thanks.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "TheRealHarrypm",
+                    "body": "Have fun! It's more of a draft then anything super polished, but it was a lot less harder then I thought to get working.\n\nI still really need to get all traffic forced though NA region IPs to get around the extreme low upload speed of 100kbps right now.\n\nMy next goal is to play around with the torrent system to see if I can get that working properly and seeding.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "VolatileFlower",
+                            "body": "So it's not only me getting bad upload speeds. I tried to upload 2GBs worth of PDFs to Archive the other day and that took literally all day. And near the end I got a warning that said I had to \"slow down\" and wait \ud83d\ude48",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "thecrispyleaf",
+            "body": "So it's not just me who has issues with the web tool GUI crashing after a day or so.",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "TheRealHarrypm",
+                    "body": "Yeah... It doesn't help my router has not been stable for more than 3 days tops either ISP pushed out a firmware update that just crashes it, so I've been losing on two fronts.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Original-Thought6889",
+            "body": "Great tool.\n\nWill you package this for distribution on Pypi? If not are you open to PRs that do so?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TimmyTR1265",
+            "body": "Every advise you give and created I have absolutely trust in you Harry",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}

@@ -1,0 +1,283 @@
+{
+    "title": "weHaveNowGotNewJobsGuys",
+    "author": "RevolutionaryPen4661",
+    "subreddit": "ProgrammerHumor",
+    "rank": 7,
+    "score": 919,
+    "upvote_ratio": 0.96,
+    "num_comments (reported by reddit)": 42,
+    "url": "https://i.redd.it/w2bkp2tebhpe1.png",
+    "id": "1je9tt4",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "precinct209",
+            "body": "The writing was on the wall right from the start of the hype train: cooked vibe code bros ending up generating jobs desperately calling someone \u2013 anyone \u2013 to unfuck their shit OpenAI wrapper garbage app.",
+            "score": 233,
+            "replies": []
+        },
+        {
+            "author": "kichien",
+            "body": "Schadenfreude!  \ud83e\udd23",
+            "score": 80,
+            "replies": []
+        },
+        {
+            "author": "HypophteticalHypatia",
+            "body": "You know, I'm seeing more examples of how AI will be creating jobs for software developers (Real ones) as opposed to eliminating them. New market trend coming, where we just get hired to look at existing project attempts, open the hood here and go \"Well, there's you're problem,\" throw it all in the trash, and rebuild. \n\n![gif](giphy|m9SULzJXS6lRhBpOXb)",
+            "score": 105,
+            "replies": [
+                {
+                    "author": "h0t_gril",
+                    "body": "NoSQL is still printing money for me, in that I'm paid to remove it.",
+                    "score": 54,
+                    "replies": [
+                        {
+                            "author": "ThierryOnRead",
+                            "body": "Lol, by curiosity what are doing ? Advising them to switch to relational and helping them to build their tables and migrate their datas ?",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "h0t_gril",
+                                    "body": "Basically, but not in a contractor/consulting way, just a full-time SWE whose job for years at multiple separate companies was mostly this. Sometimes it's not by my advice, rather they wanted to do it already. Sometimes they want to start using some custom NoSQL thing (not even Mongo) and I tell them wtf no, and instead fix whatever is wrong with their existing thing.\n\nI also have two friends who worked at small or mid size companies, and literally their entire job was moving MongoDB to Postgres. They aren't even DBAs. And I remember when DBAs were scared about NoSQL; they must have it made now.",
+                                    "score": 13,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Kataphractoi",
+                            "body": "I'm glad I never got on the NoSQL train, I'll just say that.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "h0t_gril",
+                                    "body": "I'm glad that I'm going TE Lawrence on that train",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "olssoneerz",
+                    "body": "This. When I see all these vibe coders I see security lol. Also I'm optimistic some of these are actually decent entrepreneurs who are the old schools MVP builders who would eventually need real devs to build the proper product.",
+                    "score": 7,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "_mr_betamax_",
+            "body": "I feel so bad for feeling so good about this",
+            "score": 107,
+            "replies": [
+                {
+                    "author": "Own-Gur816",
+                    "body": "I only feel good about this. Is there something wrong with me?",
+                    "score": 40,
+                    "replies": [
+                        {
+                            "author": "CamiloCeen",
+                            "body": "Nope, I feel good as well.",
+                            "score": 17,
+                            "replies": [
+                                {
+                                    "author": "octagonaldrop6",
+                                    "body": "My livelihood depends on this approach not being as good as a real programmer. Definitely only feel good.",
+                                    "score": 7,
+                                    "replies": [
+                                        {
+                                            "author": "compound-interest",
+                                            "body": "Eh even if AI were to get to the point of truly replacing the need for programmers, I\u2019m sure we\u2019d just bring value elsewhere. The world will always need capable problem solvers imo. I don\u2019t think we\u2019re anywhere near true AGI, and until then the scope of AI will always be \u201cauto complete on steroids\u201d; and therefore will be incapable of solving new problems without an expert\u2019s guidance.\n\nThe worst part about modern AI is the floor for bottom level entry jobs has been raised considerably. It will only come after actually well rounded programmers when it can think for itself imo, and if that happens the whole world will be drastically different.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "zirgiz",
+                    "body": "Why would you feel bad lmao",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Chara_VerKys",
+            "body": "repost",
+            "score": 46,
+            "replies": [
+                {
+                    "author": "SunshineSeattle",
+                    "body": "Hey now, I'm pretty sure it was my turn to repost this ..",
+                    "score": 16,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "SowTheSeeds",
+            "body": "\"Hear Ye! Hear Ye! Behold the AI-coded SAAS full of publicly exposed security holes! P.S. Please help me do QA in production using real customer data!\"\n\nAI just replaced the owner's nephew when you need shit code produced by an inexperienced nitwit.",
+            "score": 19,
+            "replies": []
+        },
+        {
+            "author": "Andrecidueye",
+            "body": "This will be really interesting. Let's hope promises of easy code will make people \"write\" tons of stuff that needs to be completely rewrited, and demand increases again.",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "Harmonic_Gear",
+                    "body": "its like the y2k problem but actually infectious and never ending",
+                    "score": 4,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "BigOnLogn",
+            "body": "\"AI Janitor,\" doesn't sound as cool as \"Software Engineer.\"",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "Thisismyredusername",
+            "body": "Who of y'all hacked this poor guy /s",
+            "score": 12,
+            "replies": []
+        },
+        {
+            "author": "Wide_Egg_5814",
+            "body": "I want to be a vibe coders manager if the pay is good, just put the keys in the env bro",
+            "score": 28,
+            "replies": []
+        },
+        {
+            "author": "Public-Eagle6992",
+            "body": "Ok but why would anyone ever employ a \"vibe coder\"? Either what they\u2019re doing doesn\u2019t work, then you shouldn\u2019t employ them because of that or it does work, then you shouldn\u2019t employ them because why would you need that person to ask an AI to do their job? You can just do that yourself",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Cube00",
+                    "body": "But the models are getting better every day /s",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "frogking",
+            "body": "Isn\u2019t that the same guy complaining that his AI can\u2019t keep track of 50 python files?",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "wasted-degrees",
+            "body": "From FA to FO with 2-day shipping.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "UnstoppableJumbo",
+            "body": "devs survived no code, I'm sure they'll survive this",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Lewis0981",
+            "body": "This guy seems to be clearly trolling.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Xevailo",
+            "body": "[Directed by Robert B. Weide](https://youtu.be/qzbtdclsJXw)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "hiddenhero94",
+            "body": "$1000/hr isn't enough for me to debug one of these nightmares",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "FlaviiFTW",
+            "body": "we are so back! \ud83d\ude2d\ud83d\ude02\ud83d\ude02",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Wide_Egg_5814",
+            "body": "I want to be a vibe coders manager if the pay is good, just put the keys in the env bro",
+            "score": -22,
+            "replies": [
+                {
+                    "author": "Tensor3",
+                    "body": "You posted this 5 times",
+                    "score": 9,
+                    "replies": [
+                        {
+                            "author": "variorum",
+                            "body": "In his defense, I have seen the app cause this when it doesn't get a timely response from reddits post API. I think it retires up 5 times",
+                            "score": 20,
+                            "replies": [
+                                {
+                                    "author": "smallangrynerd",
+                                    "body": "From the times it\u2019s happened to me, it\u2019s because it shows an error when you hit post, but it still posts anyway. It\u2019ll look like you tried to post twice and finally posted successfully to you, but other people will see three identical posts",
+                                    "score": 7,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Wide_Egg_5814",
+            "body": "I want to be a vibe coders manager if the pay is good, just put the keys in the env bro",
+            "score": -27,
+            "replies": [
+                {
+                    "author": "QuietCommon6521",
+                    "body": "Seek help",
+                    "score": -1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Wide_Egg_5814",
+            "body": "I want to be a vibe coders manager if the pay is good, just put the keys in the env bro",
+            "score": -26,
+            "replies": [
+                {
+                    "author": "Thisismyredusername",
+                    "body": "dementia",
+                    "score": 10,
+                    "replies": [
+                        {
+                            "author": "KackhansReborn",
+                            "body": "Just the reddit app being dogshit, it's happened to me before.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Wide_Egg_5814",
+            "body": "I want to be a vibe coders manager if the pay is good, just put the keys in the env bro",
+            "score": -27,
+            "replies": []
+        }
+    ]
+}

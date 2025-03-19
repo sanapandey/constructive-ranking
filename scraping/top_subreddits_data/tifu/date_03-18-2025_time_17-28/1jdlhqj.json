@@ -1,0 +1,90 @@
+{
+    "title": "TIFU by forgetting to keep my TLE's up to date",
+    "author": "olliegw",
+    "subreddit": "tifu",
+    "rank": 15,
+    "score": 1,
+    "upvote_ratio": 0.51,
+    "num_comments (reported by reddit)": 12,
+    "url": "https://www.reddit.com/r/tifu/comments/1jdlhqj/tifu_by_forgetting_to_keep_my_tles_up_to_date/",
+    "id": "1jdlhqj",
+    "selftext": "A few days ago my astronomer brother learned of the oppertunity to photograph the ISS with dragon attached, and wanted to know more details about the pass so i fired up gpredict, it's probably the best satalite tracker out there, used by radio hams all over the world, i use it mainly for tracking weather and amateur sats, such as the ISS when they announce an ARISS event, or when there will be a weather sat pass so i can grab the signal and pull the image from it.\n\nThe first red flag was that the pass he mentioned wasn't showing up in the ephemeris, there was plenty of passes, just not this one as this specific time, but i found a decent pass, and he asked where the ISS was now, just in the gulf of mexico.\n\nNext he asked me to cross check the offical ISS tracker to make sure it wasn't off, and that's where i discovered my mistake, the ISS was actually over austrailia.\n\nIt turns out gpredict uses something called TLEs to make accurate pass forecasts and to work out where the sat is, it's some numbers that describe the orbit of the sat, they need updating, but gpredict doesn't update them unless you use the software regularly, last time i used gpredict was over a month ago.\n\nI updated the TLEs and everything is nice and accurate, but the damage was done, my brother now thinks gpredict sucks, doesn't reccomend it to anyone, and uses stellarium instead.\n\nTL;DR: Wrecked an astronomers first impression of a world renowned satalite tracking software by not updating the satalite trajectory magic in over a month, leading to completely inaccurate passes and orbits",
+    "comments": [
+        {
+            "author": "ernapfz",
+            "body": "I hate when that happens! What a disaster.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "PandaNoTrash",
+            "body": "This is the first time I've ever seen two line elements come up in a TIFU. Keeping software and its data up to date is a full time job. Lesson learned. Honestly if he's a professional astronomer he should have done it himself.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "spesimen",
+            "body": "![gif](giphy|kc0kqKNFu7v35gPkwB)",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "spacemouse21",
+            "body": " YFU, but it\u2019s recoverable. Set up an Outlook or whatever calendar program reminder to update once a month. You got this.\n\nIf full time astronomer, do it daily before logging in.\n\nOnce you\u2019ve done it for a week or two, you are use to the habit.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Redditorianerierer",
+                    "body": "I think you\u2018ve got the wrong post, mate",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "incarnuim",
+            "body": "This is hilarious!! Yes the Charlie elements on TLEs go out of date after about 2 weeks. Probably earlier for the ISS due to the B-star drag term and station keeping maneuvers....\n\nOh, and sorry about the tragedy.  I hope your brother gets over it...",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "joos1986",
+                    "body": "hah, I'd totally believed this on my first pass, but am now smirking at the thought that this is all kervunderflag.\n\nI'm going to not google this and just enjoy the wool",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "jam_manty",
+            "body": "I can honestly say TLE's have caused me dozens of hours of heartache with my work.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "NestedForLoops",
+            "body": "What is a TLE?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "colto",
+                    "body": "A two-line element set. It's like GPS for things in orbit around Earth. It records the position and velocity of an object.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "NestedForLoops",
+                            "body": "Thanks!",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

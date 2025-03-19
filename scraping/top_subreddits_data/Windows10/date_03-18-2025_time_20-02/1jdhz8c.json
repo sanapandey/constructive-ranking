@@ -1,0 +1,26 @@
+{
+    "title": "cve-2022-23282 and nessus scans",
+    "author": "realslimcheney",
+    "subreddit": "Windows10",
+    "rank": 15,
+    "score": 7,
+    "upvote_ratio": 0.9,
+    "num_comments (reported by reddit)": 2,
+    "url": "/r/Windows11/comments/1jdcdop/cve202223282_and_nessus_scans/",
+    "id": "1jdhz8c",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "Aemony",
+            "body": "> Get-appxpackage command says it is not installed **for the user** though.\n\nGet-AppXPackage has a -AllUsers switch.\n\nGoogle how to forcefully uninstall AppX packages for all users/system-wide and then implement it on the clients.\n\nThis is no difference from what some users have been doing since the release of Windows 10 to be rid of Cortana, Phone, Xbox, etc otherwise enforced Microsoft app from their systems.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "realslimcheney",
+            "body": "remove-appxpackage -allusers \"app name\" seems to have solved this problem.  We will see what the scanners find.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

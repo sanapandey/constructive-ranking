@@ -1,0 +1,150 @@
+{
+    "title": "Parallax VR is impressive!",
+    "author": "Gregasy",
+    "subreddit": "OculusQuest",
+    "rank": 4,
+    "score": 54,
+    "upvote_ratio": 0.95,
+    "num_comments (reported by reddit)": 21,
+    "url": "https://www.reddit.com/r/OculusQuest/comments/1je1gu7/parallax_vr_is_impressive/",
+    "id": "1je1gu7",
+    "selftext": "Just tried Parallax VR app on Quest. It's an app that has 3d photos with limited 6dof (you can only move around a bit). Every 3D photo was created from one single 2D photo with the help of AI.\n\nLet me just say I was sceptic. I saw many of those automatic AI 2d to 3d conversions and they were all pretty disappointing.  \nBut as soon as I loaded the first photo in Parallax VR my mind was blown!\n\nI won't exaggerate if I'll say this was the closest I've ever felt to being transported to a real location inside VR.\n\nThis is much \\*much\\* better than spatial photos! The scale is incredible. Load up some of those mountain shots and be amazed.\n\nI'd say it's even more realistic than photogrammetry and splats. While those have advantage to be in 360 degrees and you're able to walk around, they still feel a bit artificial and \"gamified\" (for lack of better description).\n\nThose Parallax photos feel more real than anything I saw in VR yet (as far as virtual tourism goes).  \nYes, you can still see some AI artefacts (remember, 6dof 3D was created from one single angle), it still looks fantastic. And I'm sure it will get even better with time.\n\nI hope devs will release an app that will let us convert our own photos to 6dof 3D.\n\nGive it a try: [https://www.meta.com/en-gb/experiences/parallax/8267831776652398/?srsltid=AfmBOoorRzCK78LbvXECVh94TLKquYrf449M3eZgGH2MMyqpK4561JMx](https://www.meta.com/en-gb/experiences/parallax/8267831776652398/?srsltid=AfmBOoorRzCK78LbvXECVh94TLKquYrf449M3eZgGH2MMyqpK4561JMx)",
+    "comments": [
+        {
+            "author": "Watson_wat_son",
+            "body": "I tried Parallax two days ago and had the same experience, really well made. Some photos really felt \u2019wow\u2019. If all you need are good photos to turn them into something this cool, then we are up for a treat. I also hope there will be an option to convert your own photos or they will keep adding new photos regularly.",
+            "score": 17,
+            "replies": []
+        },
+        {
+            "author": "NotRandomseer",
+            "body": "This was what I thought apples spatial photos would be",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "Emotional-Tea607",
+            "body": "Thanks for your support, such feedback really means a lot for the team! Any suggestions here or in Parallax discord [https://discord.gg/Y89yvAEU](https://discord.gg/Y89yvAEU) are very welcome (and any reviews or ratings on Meta Store are obviously a welcome boost for our visibility)",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "Unique-Nectarine6031",
+                    "body": "Well done man I'm gonna try your app due to the rave reviews I see here!",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "RichieNRich",
+                    "body": "I tried this yesterday and was pleasantly surprised. Will be demoing to a class this afternoon.\n\nWill this support video at some point? And can we create our own content?",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Emotional-Tea607",
+                            "body": "Thanks for trying the app! We have some demos with videos too (https://www.meta.com/en-gb/experiences/cinemersive-video-player/5784242031704261) but we can create photos much easier. And yes, we'd absolutely love to launch user generated content app. The only question is whether we'll have enough resources for this. Right now, we are open to collaborating with a small number of travel photographers (pros and enthusiasts) willing contribute some amazing locations and events to Parallax",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "Watson_wat_son",
+                                    "body": "How is the processing of photos into what is presented into app like, how long does it take to do denoising, sharpening and depthmapping for an album of photos?",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Emotional-Tea607",
+                                            "body": "All in all, processing of each photo in the app took few GPU-minutes on our server, but we also have a faster version that works well under one minute.",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "JonathanCRH",
+            "body": "Yes, it's pretty decent. I do think that the image quality is somewhat variable, but the best ones are really good. It's definitely worth having a look.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "Gregasy",
+                    "body": "Yes, definitely. I guess it depends on what kind of camera you're using. The higher quality the base photo is, the better it looks in Parallax.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "taxmandan",
+            "body": "The Meta app is so stupid that if you search Paralax it can\u2019t find it. Don\u2019t forget the two L\u2019s!",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "BogNakamura",
+            "body": "I like scaniverse more. They are complementary I guess. Short 360s and long parallax for the distant views. Wish they were both implement in wooorld alongside the 360 flat imagery. Wooorld devs make it happen please.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Gregasy",
+                    "body": "I love Scaniverse as well. I use it a lot for my captures. It certainly has its pros. But I must, as far as feeling of being transported to a real place goes, Parallax is my new winner. It has been a long time I was enjoying watching random photos as much as I did in Parallax. Some are really breathtaking.\n\nAnd agree. I hope we'll eventually get a virtual tourism app that will combine all those splats, photogrammetry and 3D 6dof photos for a perfect experience.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "BogNakamura",
+                            "body": "Wooord is the best as for now, the the pricing is wierd. Do you scans show in the middle of the atlantic as well?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Gregasy",
+                                    "body": "I only share those splats privately, so they don't show on the map.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "BogNakamura",
+                                            "body": "If you test something on the map let me knkw if it shows wrong position in vr",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "millos15",
+            "body": "Agree!  had a blast going through London gallery.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "perez67",
+            "body": "Are you one of the dev's?  I don't tend to trust these glowing reviews, because I downloaded after I saw this and I must be using this wrong because everything I looked at was low quality and clipped with black borders. I found it rather underwhelming.  I've seen better images in Wander via Google Street view that provide a better sense of immersion.  Maybe I'm missing something.  Is there any particular image you can refer to that blew your mind?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Gregasy",
+                    "body": "Not a dev, of course :)\nAs for images, if you weren\u2019t impressed by what you saw so far, I doubt any specific image will change your mind. Though there are better and worse examples, naturally.\n\nI was already floored by the very first picture I loaded, to be honest. On the other hand Wander and Google Street View never did much for me. So different strokes for different folks, I guess.\n\nThe quality of depth you get in Parallax is something I never experienced in any stereoscopic photo or video. It\u2019s completely natural. Coupled with the fact that you can get such results from one single photo, it\u2019s incredibly exciting.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "relaxred",
+            "body": "can you convert mono 360 panos too?",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "relaxred",
+            "body": "if you raise render resolution with QGO to 150-200%, alias effect will be gone! :)\n\nbut how can i hide the bottom menu to fully enjoy pictures?\n\nthx",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

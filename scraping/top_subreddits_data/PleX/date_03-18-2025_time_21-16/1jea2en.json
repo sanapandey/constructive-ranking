@@ -1,0 +1,53 @@
+{
+    "title": "plex.tv not working in firefox",
+    "author": "stuntycunty",
+    "subreddit": "PleX",
+    "rank": 9,
+    "score": 4,
+    "upvote_ratio": 0.7,
+    "num_comments (reported by reddit)": 6,
+    "url": "https://i.redd.it/fi55u4v6dhpe1.png",
+    "id": "1jea2en",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "Blacktwin",
+            "body": "Were you redirected to this URL or are you manually typing it in? Does Chrome redirect you elsewhere when you use www.plex.tv? Plex.tv or App.plex.tv or watch.plex.tv are the pages you'd want to use anyways.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "stuntycunty",
+                    "body": "> App.plex.tv\n\nis working when I use that URL.\n\nthanks.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Blind_Watchman",
+            "body": "What version? Seems to work fine for me on 136.0.2: https://i.imgur.com/zNVZS58.png. Since you mentioned opening devtools to disable the cache, does the console show any errors that seem relevant?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "stuntycunty",
+            "body": "page just sits here and nothing happens.\n\nworks ok in chrome though.\n\nbut i hate chrome.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "spoils__princess",
+                    "body": "Clear your browser cache in FF. If you have any extensions active, turn them off until it starts working, and then activate one-at-a-time until you figure out what is causing the issue.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "stuntycunty",
+                            "body": "i have cleared the cache and disabled all browser extensions.\n\nit still does not load properly even with dev tools open (which disables the cache)",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

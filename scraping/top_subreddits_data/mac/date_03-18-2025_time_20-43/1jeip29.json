@@ -1,0 +1,130 @@
+{
+    "title": "help",
+    "author": "999Monkey999",
+    "subreddit": "mac",
+    "rank": 13,
+    "score": 2,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 17,
+    "url": "https://i.redd.it/7ez0165q4jpe1.jpeg",
+    "id": "1jeip29",
+    "selftext": "uhh what does this mean",
+    "comments": [
+        {
+            "author": "NormalSoftware4237",
+            "body": "your iMac\u2019s GPU is dead, what model is this by any chance? if it still boots i can teach you how to disable that GPU",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "999Monkey999",
+                    "body": "it\u2019s from 2009 27 inch",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "NormalSoftware4237",
+                            "body": "Oh, you have a core 2 duo iMac. You can\u2019t disable the GPU on that, it doesn\u2019t have integrated graphics.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "carbonbomb",
+            "body": "looks like cpu artifacts, is it booting normally with those lines or is it stuck on the apple logo?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "999Monkey999",
+                    "body": "it\u2019s normal then it happens",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "carbonbomb",
+                            "body": "doing a factory reset *may* fix it but atp considering its 16 yrs old i would but a new computer. Mac mini plus a monitor would be the most cost effective option",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "999Monkey999",
+                                    "body": "there\u2019s no way to fix this ?",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "carbonbomb",
+                                            "body": "the processor on your computer is cooked, those are unfortunately not replaceable on macs. it could be an issue with the software that talks to the processor i.e firmware but very slim chances considering the age of the processor",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "999Monkey999",
+                                                    "body": "great for some reason i can move my mouse around",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "carbonbomb",
+                                                            "body": "yeah most of the time the computer actually works and does things decently but you get those weird lines and intermittent crashes",
+                                                            "score": 2,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "999Monkey999",
+                                                                    "body": "cool",
+                                                                    "score": 1,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "carbonbomb",
+                                                                            "body": "[try this](https://www.ifixit.com/Guide/iMac+27-Inch+Late+2009+Intel+Processor+Replacement+(EMC+2374)/51223)",
+                                                                            "score": 2,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "999Monkey999",
+                                                                                    "body": "will this mess up my data ?",
+                                                                                    "score": 1,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "carbonbomb",
+                                                                                            "body": "yes thats why you need to back up your data first. if its not possible via the interface then when you open the i mac you could uninstall your harddrive and back it up to an external drive/other device but im assuming this is your only computer. if your data is on icloud or dropbox then you should be fine",
+                                                                                            "score": 2,
+                                                                                            "replies": [
+                                                                                                {
+                                                                                                    "author": "999Monkey999",
+                                                                                                    "body": "i\u2019m going to replace the thermal paste it was running pretty hot on normal applications (63\u00b0c)",
+                                                                                                    "score": 1,
+                                                                                                    "replies": [
+                                                                                                        {
+                                                                                                            "author": "carbonbomb",
+                                                                                                            "body": "you should back up your data if possible",
+                                                                                                            "score": 2,
+                                                                                                            "replies": []
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "author": "999Monkey999",
+                                                                                            "body": "it won\u2019t boot up it gets stuck there so i don\u2019t know how i will back it up",
+                                                                                            "score": 1,
+                                                                                            "replies": []
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

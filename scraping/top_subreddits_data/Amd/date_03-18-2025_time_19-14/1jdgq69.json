@@ -1,0 +1,923 @@
+{
+    "title": "AMD Ryzen\u2122 AI MAX+ 395 Processor: Breakthrough AI performance",
+    "author": "abuassar",
+    "subreddit": "Amd",
+    "rank": 8,
+    "score": 256,
+    "upvote_ratio": 0.93,
+    "num_comments (reported by reddit)": 138,
+    "url": "https://community.amd.com/t5/ai/amd-ryzen-ai-max-395-processor-breakthrough-ai-performance-in/ba-p/752960",
+    "id": "1jdgq69",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "Rich_Repeat_22",
+            "body": "I do wonder how the Framework, HP or GMKT X2 perform at 120/140W not just the laptop 55W. \ud83e\udd14\n\nAlso seems haven't used OGA Hybrid Execution compatible ONNX models, which means the NPU was asleep even if is 35% of the overall perf of those APUs.",
+            "score": 69,
+            "replies": [
+                {
+                    "author": "PsyOmega",
+                    "body": "Can the NPU access the full vram though?",
+                    "score": 13,
+                    "replies": [
+                        {
+                            "author": "Rich_Repeat_22",
+                            "body": "Yes via AMD OGA Hybrid Execution and the new XDNA2 API coming with the new Linux Kernel.",
+                            "score": 12,
+                            "replies": [
+                                {
+                                    "author": "Mickenfox",
+                                    "body": "If only we had some kind of Open Computing Language that would let existing software run on heterogenous hardware without requiring vendor-specific APIs.",
+                                    "score": 22,
+                                    "replies": [
+                                        {
+                                            "author": "inagy",
+                                            "body": "Jokes aside, why is OpenCL in such sad state in this regard? It seems to me that even with Vulkan you have a better chance of creating a performant universal interface for running AI.",
+                                            "score": 10,
+                                            "replies": [
+                                                {
+                                                    "author": "Mickenfox",
+                                                    "body": "I'm not a GPU developer so I can't say for sure.\n\nNvidia obviously had a vested interest in not supporting it since they had CUDA. AMD (and everyone else) should have had an interest in supporting OpenCL, but clearly they didn't care enough or didn't do it right.\n\nEdit: also if you want high performance you have to optimize the code for each device, regardless of API, so just having OpenCL might not be enough.",
+                                                    "score": 17,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "PsyOmega",
+                                            "body": "One good thing ive heard for directx 13 is that it'll implement a standardized AI API. I too am sick of various vendors having their matrix-math silicon behind proprietary API",
+                                            "score": 5,
+                                            "replies": [
+                                                {
+                                                    "author": "feckdespez",
+                                                    "body": "DirectX is hardly an open standard though. I'd rather see Vulkan extensions be the answer vs something in DirectX.",
+                                                    "score": 6,
+                                                    "replies": [
+                                                        {
+                                                            "author": "PsyOmega",
+                                                            "body": "Vulkan will respond to whatever directx does in time, sure. DirectX has a history of setting the stage though, and we should encourage it, as hardware vendors will have to follow it by making their matrix units standardized to *something* which, vulkan can then leverage as they are one flat standard interface.\n\nVulkan itself (Mantle) didn't take off until directx12 did.",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "vetinari",
+                                                                    "body": "This is not about gaming, though. Windows has lim(0) foothold in the ML circles, so the chances of standardizing API that is single-vendor specific has similar changes of succeeding.",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "Rich_Repeat_22",
+                                            "body": "Amen.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "SceneNo1367",
+                    "body": "[https://www.youtube.com/watch?v=xo9T8SlBUaI](https://www.youtube.com/watch?v=xo9T8SlBUaI)\n\nThe GPU clock go up to 2900MHz vs 2250 for the 70W tablet.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Razzile",
+            "body": "Truly cataclysmic naming from AMD on this one",
+            "score": 104,
+            "replies": [
+                {
+                    "author": "Prostberg",
+                    "body": "Yeah if \u00ab\u00a0MAX\u00a0\u00bb is supposed to be the maximum, what the fuck is \u00ab\u00a0MAX +\u00a0\u00bb ? \n\nIt sounds like children trying to argue about how much stuff they have \u00ab\u00a0yeah I have infinite - yeah but I have infinite + 1 million !\u00a0\u00bb",
+                    "score": 55,
+                    "replies": [
+                        {
+                            "author": "Agentfish36",
+                            "body": "Dont give them ideas, they've used pro, plus, max, THEY HAVE YET TO USE ULTRA! \n\nAI hx max plus 498 pro ultra incoming!",
+                            "score": 16,
+                            "replies": [
+                                {
+                                    "author": "Gotohellcadz",
+                                    "body": "MAX + XTX",
+                                    "score": 6,
+                                    "replies": [
+                                        {
+                                            "author": "Prostberg",
+                                            "body": "MAX XTX would be our version of Ti SUPER",
+                                            "score": 10,
+                                            "replies": [
+                                                {
+                                                    "author": "playwrightinaflower",
+                                                    "body": "More X = more better \ud83d\ude03",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "Gildarts",
+                                            "body": "PLUS WIFI",
+                                            "score": 2,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "SightUnseen1337",
+                                            "body": "It's a chip not a male stripper\n\nWhy can't we just have numeric part numbers where a higher number means more better",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "Agentfish36",
+                                                    "body": "How else would you know it's maximum ai professional ultra?",
+                                                    "score": 3,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "Captain_Phoebus",
+                                            "body": "MAX+ RAPTOR",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "noob_dragon",
+                                    "body": "AI HX Max Plus Ultra Instinct.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "mithrillium",
+                                            "body": "AI HX Max Pro Plus Ultra Instinct XTX GHz Edition",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "None",
+                            "body": "[deleted]",
+                            "score": 9,
+                            "replies": [
+                                {
+                                    "author": "mainguy",
+                                    "body": "why is it depressing? its predictable. Soon to be trillion dollar industry that tons of pros and creatives worldwide will use. Its another selling point.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Specific-Local6073",
+                            "body": "Actually there are infinities with different sizes...",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "SandOfTheEarth",
+                    "body": "I don't get why won't they just copy apples naming, like you have a max already, name it ultra",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "Low_Doubt_3556",
+                            "body": "Because apple doesn't have enough AI in the name",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Hardcorex",
+                    "body": "Just waiting for \"Alpha\" to make it into the nomenclature. \n\nAI ALPHA BRO MAX + CARNIVORE 420\n\nI'm available for contract work AMD.",
+                    "score": 6,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "996forever",
+            "body": "Hopefully breakthrough in international mainstream tier 1 vendor integration next and not just niche form factors and low volume mini pcs from no name regional vendors\u00a0",
+            "score": 16,
+            "replies": []
+        },
+        {
+            "author": "myasco42",
+            "body": "So what is the use for a regular user? Not a specialized developer, but an everyday user to justify an incurred price increase?",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "gnerfed",
+                    "body": "It's a 4060ti with 100gb of vram and a 9950x. You can run a 70b model on it and make it available online so you can get chatgpt like results out of your own hardware. That would take 3-4 3090s and tons more power to do otherwise.",
+                    "score": 20,
+                    "replies": [
+                        {
+                            "author": "myasco42",
+                            "body": "That is exactly why I asked \"for a regular user\". Surely my mom would like to run a local ChatGPT and make it available online. /s\n\nI was saying the same thing about other CPU releases recently - they all talk about AI, but do not tell us where we can use it.",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "Faranocks",
+                                    "body": "Honestly there isn't. At least at >32gb, it's really for an enthusiast crowd. Some video/CAD/photo stuff can use that much RAM, but in general, anything past that 32gb mark is just for AI enthusiasts/pros. Also, the chip isn't really that expensive if you aren't getting the highest RAM capacities.",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "myasco42",
+                                            "body": "Yea, I didn't see any application for a consumer \"AI ready\" CPU.\n\nWhat would be the cost of the same CPU without the additional NPU part? Assuming the manufacturer would not actually charge for it.",
+                                            "score": 4,
+                                            "replies": [
+                                                {
+                                                    "author": "pussyfista",
+                                                    "body": "Strix Halo is not for you then.  \n  \nthere's always desktop Ryzen 9 7950X or 9950X",
+                                                    "score": 0,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "gnerfed",
+                                    "body": "You said regular user vs specialized developer. I much much closer to a regular user than a developer but damn near anyone can boot into windows, download LM Studio and run a local model. It's a small jump from there in technical knowledge to setting up a VPN to remotely access your AI model. Very very small in the case of Unifi's WiFiman.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "playwrightinaflower",
+                            "body": "> It's a 4060ti with 100gb of vram and a 9950x. You can run a 70b model on it and make it available online\n\nIs there a way to use system memory for that instead of VRAM? I can easily shove a lot of cheap, additional DDR4 and a fast GPU into my system, but VRAM tends to be quite spendy.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Rich_Repeat_22",
+                                    "body": "You can use the memory to what ever you like, there are 32/64/128 GB models and can allocate how much you want to the GPU. \n\nIt is using quad channel LPDDR5X-8000 soldered RAM (not DDR4), which makes it twice as fast (256GB/s) even than those 10000Mhz CUDIMM DDR5 modules you see (tops 110GB/s). \n\nAnd 256GB/s is like having a 9950X in the threadripper platform with hexa (6) channel DDR5-5600. \n\nDDR4 is dead slow in compatison. \n\nThat's why also the iGPU is as fast as a 4060 desktop on gaming on the 55W laptop versions. The 120W/140W minipc versions of this are even faster :)",
+                                    "score": 4,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "floridamoron",
+                                    "body": "For llms yeah, but it will be **much** slower.",
+                                    "score": 0,
+                                    "replies": [
+                                        {
+                                            "author": "FinalBase7",
+                                            "body": "Buy strix halo doesn't use GDDR, it's LPDDR5X, maybe not DDR4 but what about DDR5?",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "Rich_Repeat_22",
+                                                    "body": "**QUAD channel LPDDR5X-8000** with 256bit width. \n\nEven 10000 CUDIMM DDR5 runs at half the bandwidth speeds than the LPDDR5X-8000 ram. \n\nThe only comparison is GPUs bandwidth speeds, or hexa-channel Threadripper using DDR5-5600.",
+                                                    "score": 3,
+                                                    "replies": [
+                                                        {
+                                                            "author": "luuuuuku",
+                                                            "body": "It's still pretty slow for vram. It's hard to compare",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Rich_Repeat_22",
+                                                                    "body": "4070M, RTX4060 desktop are on same range. 256GB/s.",
+                                                                    "score": 2,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Bulky-Hearing5706",
+                            "body": "70B model is not comparable to ChatGPT at all. It's like comparing high schooler to a PhD. Even 400B models are still considerably worse compared to ChatGPT premium.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "gnerfed",
+                                    "body": "Hmmm are both intelligent adult humans that can do research for you? Can both make mistakes?\u00a0\n\n\nYeah.\u00a0\n\n\nSo, by your own analogy I can call it \"chatgpt like\". Thanks for clearing that up.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Enverex",
+                            "body": "> It's a 4060ti with 100gb of vram and a 9950x. \n\nNot even close.\n\n>50+ peak AI TOPS\n\nA 4060 Ti is around 440 TOPS in comparison. 50 TOPS is slow for AI.",
+                            "score": 0,
+                            "replies": [
+                                {
+                                    "author": "gnerfed",
+                                    "body": "It has been\u00a0 reported as 4060ti gpu performance with 96gb of allocatable memory on Windows, more on linux. So yes.\n\n\nAlso, it's hard to take what you say seriously when you are comparing the 395's NPU TOPS to a 4060ti GPU TOPS when you haven't even factored in the the 395's GPU.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Pimpmuckl",
+            "body": "I really dislike how part of the memory have to be designated as \"GPU\" memory even though it should be unified in theory. \n\nAmazing chip, obviously. Very much needed to start getting things like that changed for the future but man is it ugly.",
+            "score": 16,
+            "replies": [
+                {
+                    "author": "JTibbs",
+                    "body": "I think thats more a windows limitation",
+                    "score": 16,
+                    "replies": [
+                        {
+                            "author": "ShadF0x",
+                            "body": "More like general OS limitation overall, since unless you're Apple\\Sony\\Nintendo, you have to aim for a reasonable average \"PC\". Easier to designate RAM as a virtual VRAM than to deal with some hard to replicate bugs.",
+                            "score": 7,
+                            "replies": []
+                        },
+                        {
+                            "author": "trololololo2137",
+                            "body": "nope, intel didn't have that issue for the past decade",
+                            "score": -3,
+                            "replies": [
+                                {
+                                    "author": "JTibbs",
+                                    "body": "Igpus reserve a portion of the ram for the gpu regardless of amd or intel. You can manually adjust the allocation though",
+                                    "score": 11,
+                                    "replies": [
+                                        {
+                                            "author": "trololololo2137",
+                                            "body": "yeah, 256mb vs 2GB for AMD (not all laptops even allow you to change that value)",
+                                            "score": -2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Ashamed-Simple-8303",
+                    "body": "good to know that means you will actually want more than the 32 gb.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "LongestNamesPossible",
+            "body": "I don't even know what \"breakthrough AI performance\" means. What specific program are people running and what instructions does it use that run faster?",
+            "score": 11,
+            "replies": [
+                {
+                    "author": "Rich_Repeat_22",
+                    "body": "Large LLMs like 70B ones. Which if you want to run on GPUs you need 4xRTX3090/4090/7900XTX or 3x5090 + EPYC/TR Zen4 setup. Sure runs slower then the latter but also costs a fraction of the money too.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "luuuuuku",
+                            "body": "You can still run it with no real loss over Strix Halo.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "LongestNamesPossible",
+                            "body": "Again though, what specific program and what instructions are being accelerated?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "zakats",
+                                    "body": "Whatever weirdos use to generate creepy ai videos.\n\nThat said, it's interesting and will probably have some use down the line, but it really feels like this is mostly another buzzword fad, not unlike big data, iot, wearables, VR, and the metaverse were- definitely potent to some extent, but undeniably overhyped until the hopium money dries up. So far, there isn't a killer app and IDK if there will be one anytime soon.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Rich_Repeat_22",
+                                            "body": "May I remind you this tiny machine, is the equivalent of a 9950X in the threadripper platform having access to 6-channel DDR5-5600 RAM, with a 4060ti desktop having unlimited VRAM at normal GPU bandwidth (around 256GB/s) not normal dekstop speeds (60/80GB/s).",
+                                            "score": 0,
+                                            "replies": [
+                                                {
+                                                    "author": "zakats",
+                                                    "body": "In the context, I'm specifically addressing ai as the target application. There's no denying that this is a very interesting APU/SOM that'd be nice to have, it's just that AI is mostly worthless to me at this point.",
+                                                    "score": 0,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Rich_Repeat_22",
+                                                            "body": "For me is an amazing product because the miniPCs or the Framework barebone board, can fit inside the chest of a 3d printed B1 Battledroid (full size, 2m tall ), having full voice/sound, vision and mini projector inside it's head, while running A0 (Agent Zero) with 70B local hosted LLM.\n\nAnd also that machine doubles as my work PC, and don't have to wear the pump on my main system, as offset AI server for things want to do without using the big AI server in the other room, and as \"projector\" to watch movies etc in the living room.   \n(I don't own TV nor watching live TV)",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "zakats",
+                                                                    "body": "That's an interesting setup.",
+                                                                    "score": 3,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Rich_Repeat_22",
+                                                                            "body": "That's why is market disrupting tech. And more affordable and useful than the Apple products.\n\nThink of having something like this, talking to you and automating stuff like answering your post, without me typing.....\n\n<edit wrong robot>",
+                                                                            "score": 1,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "zakats",
+                                                                                    "body": "I'd love to have summer glau follow me around, you know, unless she's a bad Terminator or supercharged, unstable, killing machine from the verse.",
+                                                                                    "score": 2,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "Rich_Repeat_22",
+                                                                                            "body": "Wrong robot. \ud83d\ude02\n\nReddit had crashed...That's the correct one. \n\n\n\nhttps://i.redd.it/0mc1hny78ipe1.gif",
+                                                                                            "score": 2,
+                                                                                            "replies": [
+                                                                                                {
+                                                                                                    "author": "zakats",
+                                                                                                    "body": "Roger, Roger.",
+                                                                                                    "score": 2,
+                                                                                                    "replies": [
+                                                                                                        {
+                                                                                                            "author": "Rich_Repeat_22",
+                                                                                                            "body": "Is not mine per see but how it will look like. Atm I still have another 5kg of ABS parts to print \ud83d\ude02\n\nAnd yes his name is Rogen \ud83e\udd23",
+                                                                                                            "score": 2,
+                                                                                                            "replies": [
+                                                                                                                {
+                                                                                                                    "author": "zakats",
+                                                                                                                    "body": "Very cool.",
+                                                                                                                    "score": 2,
+                                                                                                                    "replies": []
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "author": "Rich_Repeat_22",
+                                                                                            "body": "Aren't we all....",
+                                                                                            "score": 2,
+                                                                                            "replies": []
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "author": "Enverex",
+                                                                    "body": "> while running A0 (Agent Zero) with 70B local hosted LLM\n\nA 50 TOPS running a 70B LLM will be almost unusably slow.",
+                                                                    "score": 1,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Rich_Repeat_22",
+                                                                            "body": "\ud83e\udd26\u200d\u2642\ufe0f\n\nOn the iGPU is running, not the NPU.",
+                                                                            "score": 1,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "Enverex",
+                                                                                    "body": "I would be very surprised if that did any better. The fact they don't advertise the TOPS of the iGPU but make a big deal about the NPU implies it's not going to be much.",
+                                                                                    "score": 1,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "Rich_Repeat_22",
+                                                                                            "body": "120. \n\nThe iGPU is a 4060Ti desktop.",
+                                                                                            "score": 1,
+                                                                                            "replies": []
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Rich_Repeat_22",
+                                    "body": "big LLMs,\n\nAI Agents,\n\nHaving a 4060Ti desktop perf iGPU with \"unlimited\" VRAM to play games at 120W total system power, not 500W+.\n\nHaving a 9950X with access to RAM speeds found only in 6-channel 5600Mhz DDR5 ram on  the Threadripper platform.\n\n\n\nIf you don't see appliances even on the last 2 from the above list, then is not for you? :)",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "LongestNamesPossible",
+                                            "body": "I think you're not answering my question because you can't. Let's ignore that \"AI Agents\" doesn't mean anything either. \n\nI'm not asking about classes of programs that get talked about in general ways in blog articles, I'm asking what specific executable can I run that is accelerated by these CPUs and what actual CPU instructions are the programs running that now run faster? \n\nYour answer is what people always say, regurgitating tech articles and blogs with vague information, but no one can nail it down to what it actually ends up meaning on a technical level.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Enverex",
+                    "body": "\"Breakthrough\" for a CPU but still garbage compared to a GPU. It claims 50 TOPS but that's not very much. For comparison the 4060 Ti I'm running in my Linux server gets around 440 TOPS.\n\nIf you're doing AI stuff you'll be using a GPU to do it, not a CPU with a low score like this.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "Mickenfox",
+                    "body": "Look, I need to run the NSFW AI models locally because tech companies are prudes, and I need at least 70GB of RAM for a decent one.",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "LongestNamesPossible",
+                            "body": "That doesn't answer my question at all. It isn't even a coherent reply.",
+                            "score": 0,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "FineManParticles",
+            "body": "You have to hand it to Apple for allowing me to spend $11k on 512GB (488GB usable) vram in a single purchase versus the time it would take me to source and cluster 4 AI Max 395\u2019s. \n\nWe need to see if the cluster can outperform the M3 Ultra, especially on inference, then it will be competitive and a worthwhile investment.",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "inagy",
+                    "body": "I don't see how though. Most machines equipping the AMD chip have to rely on network connectivity to communicate with other cluster nodes (eg. 2.5G on the Framework desktop), which is extreme slow compared to the direct memory bandwidth of the Apple M3 Ultra. (Notice how in the last Framework video they won't show you how long it takes to run the LLM inference when it's using multiple machines.)\n\nThe only exception is when you have multiple small modells and you just transmitting the intermediate results between the machines. But when the same neural net run in a sharded way (eg. with exo, to overcome the memory limitation), the communicaton required between the nodes is immense.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Rich_Repeat_22",
+                            "body": "Don't need ethernet per se.  USB4C/TB4 MESH switches are several times faster. (FYI Framework has 5G connection, the HP machine has 2.5G ethernet.)\n\nBest option is to use 100Gbit cards to connect to the oculink or the PCIe4 4x M.2 to Oculink connector. But these are extremely expensive these days, around $300 each. (the 100G ethernet card).",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "inagy",
+                                    "body": "100Gbps is still just 12GB/s, just about approaching the 16GB/s of PCIe 4.0 x8. (not calculating with the framing and extra protocol overhead)\n\nIf you compare those to the direct 1008GB/s VRAM bandwidth of a 4090 (or the \\~800GB/s of the 512GB M3 Ultra), things doesn't look that good anymore.\n\nWe will see what can be done with these limitations in place.\n\nMod: those who down vote, care to explain which part of this is not correct?",
+                                    "score": -1,
+                                    "replies": [
+                                        {
+                                            "author": "Rich_Repeat_22",
+                                            "body": "I didn't downvote but you omitted several subjects. \n\na) 1000GB/s VRAM bandwidth is the VRAM access speeds. A 4090/7900XTX/5090 are still limited by the PCIe speeds. \n\nb) When running multi-system inference you don't load whole models on each machine via the network. Each machine loads a certain part and they exchange between each other a tiny package of the next start token, not the whole weights of Gigabytes. \n\nc) 512GB M3 Ultra, might have high RAM bandwidth but the actual processing power isn't that strong.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "inagy",
+                                                    "body": "Correct me if I'm wrong but\n\na) if the model can fit fully into the device's memory, there's no PCIe bus traffic involved\n\nb) my understanding is that when a large model is split between multiple computers, it's essentially split by it's layers. Each inference step must pass data through each layer (likely not completely true with MoE models, but let's assume a basic large LLM), so data passed on layer boundaries must go through the network in this case, which otherwise would be there in fast RAM as the next layer's input. This doesn't sound necessarily as a small amount of data, but it's very latency sensitive, for sure.\n\nc) sure, but it's still going to be faster if no slow IO is involved. We have CPU cache tiers for the same reason.",
+                                                    "score": 3,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Rich_Repeat_22",
+                                                            "body": "a) Yes. IF the dGPU  (eg 7900XTX/4090) can hold the whole model in their VRAM. If you read the article the 5080 is crushing the 395 in small models who fit in the 5080 VRAM. But gets completely stumbled when runs out of VRAM and requires the CPU to feed it with the information through the PCIe and RAM. \n\nb) More or less yes. No different than when having a multi GPU setup. The system sends to each device where to start from \"reading\". \n\nHowever instead of using PCIe to talk to the GPUs, using much slower USB4C/TB4 or Ethernet.   \n  \nc) Sure. The moment you load a 405B model on a single M3 Ultra 512GB it will be only limited to the APU ability to process the data. \n\nBut if the communication (eg USB4C/TB4 or Ethernet) line between 2 systems is not saturated, you can get better results since you double the processing power. \n\nAnd here is the question we don't have a lot of information right now.   \n\"If we can wire 2x395s, how they will perform compared to a single M3 Ultra 256GB?\"",
+                                                            "score": 2,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "FineManParticles",
+                            "body": "On Inference it can definitely provide greater performance since it has more memory bandwidth after the initial load.  Remember that there are two functions, codifying and then extrapolating.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "trololololo2137",
+                    "body": "strix halo doesn't really have enough bandwidth for dense LLMs and ram capacity for MoE",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "luuuuuku",
+                    "body": "Well, performance looks quite bad so far. Even in their data they only beat the 258V by 2.2x max in LLMs. That sounds good until you realize AMDs marketing bs that the 258v is a 17W TDP Part that boosts up to 37W. The 258v isn\u2019t really good for this type of workload but the 395 only delivers 2.2x that? That\u2019s not good",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "NookNookNook",
+            "body": "Wheres the Hunyuan and Stable Diffusion benchmarks?",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "OvulatingAnus",
+            "body": "I hate how AMD locks the best iGPU to the most expensive model. An APU with 8C/16T + 8060S iGPU would have been a perfect combo.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "INITMalcanis",
+                    "body": "The 385 is pretty close to this\u00a0",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "OvulatingAnus",
+                            "body": "Definitely should not tie the 8060S down to the 395 version only since the lower core count models can allow more power to go to the igpu.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "2literpopcorn",
+                    "body": "Equally where is the 16C with a worse iGPU for workstations that don't need gpu?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "TurtleTreehouse",
+            "body": "I really wish AI didn't exist bro",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "amd_kenobi",
+                    "body": "I love \"AI\" being used to detect tumors in scans or translate ancient tablets but most of what they're doing with it is stupid. I just wish they'd stop trying to shove it into everything.",
+                    "score": 19,
+                    "replies": [
+                        {
+                            "author": "mcoombes314",
+                            "body": "Narrow AI like tumour detection, language translation etc is cool IMO. LLMs are a neat trick and can help with stuff with the huge BUT (asterisks everywhere, can't emphasize enough) only if you already know enough on the topic to know when it hallucinates/bullshits - which it will do, because LLMs usefulness falls off a cliff if you need something specific whuch it's training data doesn't accurately cover. Unfortunately LLMs are the \"headline act\" of AI, and a lot of commwnts I've seen regarding them think that they will soon lead to AGI.... personally I'm more skeptical.",
+                            "score": 15,
+                            "replies": [
+                                {
+                                    "author": "BlackBlueBlueBlack",
+                                    "body": "Completely agree, there\u2019s so many other cool applications of AI but it sucks that LLMs are getting all the focus instead.",
+                                    "score": 5,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Rich_Repeat_22",
+                            "body": "Yep. I agree. \n\nThe Gemma3 demo on the video in the main article does just that. Identifying the organ from the CT scan and making a diagnosis which found cancer.   \n  \nAlso,  few weeks ago this was published also. \n\n[AI cracks superbug problem in two days that took scientists years](https://www.bbc.com/news/articles/clyz6e9edy3o)",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "playwrightinaflower",
+                            "body": "I bet most of the money made with AI is in the ad industry and that's almost as bad as the cancer that it should be working to detect and cure. :(",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "VeryTopGoodSensation",
+                    "body": "i dont even get what it does yet",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "RyiahTelenna",
+                            "body": "For programmers it's rubber duck debugging on steroids.",
+                            "score": 14,
+                            "replies": []
+                        },
+                        {
+                            "author": "Agentfish36",
+                            "body": "Businesses don't either but they know they want it.",
+                            "score": 7,
+                            "replies": []
+                        },
+                        {
+                            "author": "PsyOmega",
+                            "body": "It's a clarketech (sufficiently advanced to appear to be beyond human understanding) statistics engine at its core.",
+                            "score": 6,
+                            "replies": []
+                        },
+                        {
+                            "author": "vulkur",
+                            "body": "https://youtu.be/P_fHJIYENdI",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Nerina23",
+                    "body": "I love AI. Whether its in science, creative writing, as a crutch for personal relationships or even genai.\n\nIts a great technology.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "TurtleTreehouse",
+                            "body": "Every word of this reply disturbs me",
+                            "score": -3,
+                            "replies": []
+                        },
+                        {
+                            "author": "playwrightinaflower",
+                            "body": "> I love AI. Whether its in science, creative writing, as a crutch for personal relationships or even genai.\n\nLol imagine having a conversation (or sex!) and stopping mid-sentence (mid-moan!) cause you need to prompt your GPT for some common sense (hot nothings!) lmao \n\nAnd all the crap you've seen AI say... yeah that's now the average content of scientific papers that people get PhDs with. *Great* technology, truly.",
+                            "score": -1,
+                            "replies": [
+                                {
+                                    "author": "Nerina23",
+                                    "body": "I get your skepticism and you are not wrong. \n\n\nI still like the technology and at its current state its the worst it will ever be.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "playwrightinaflower",
+                                            "body": "And I do get the appeal of AI, even GenAI. It's great for getting grammer fixed or wording polished up. Not to mention scientific AI that helps with modeling weather, molecules, and all sorts of stuff (even if I have beef with data scientists ignoring 200 years of hard-learned lessons about the properties of statistical estimators... those were developed for reasons).\n\nI just think that today, most people use AI like a drunk person uses a car - they are in a state where they have no clue what they are getting into and have no business running it. But I guess that was unavoidable, for the better or worse the cat is out of the box and it ain't wanna go back in, so the best I can do is stop crying and get on the bandwagon.\n\nI have colleagues who say they don't know how they used to do their work without AI (ChatGPT etc). For now I try not to let myself get to that point, but even I gotta admit that I need to be mindful not to have (what I consider) good work done far too slowly compared to everyone else. If D's get ~~degrees~~ promotions... welp, I didn't choose the rules but I have to play the game, too.\n\nEdit: I set out to bash your initial comment, but have some upvotes! Your view of AI is just as good or bad as mine is, and it helps remind me that mine is not the only one.",
+                                            "score": 0,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Cry_Wolff",
+                                    "body": "Ok grandpa, let's get you back to sleep.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "PC509",
+            "body": "That's kind of impressive. Pricing may be a bit high on it, but for a CPU/NPU with onboard GPU, it's pretty nice. \n\nFor most people, they aren't the target segment. This is good for a AI dev box for sure.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "The_Zura",
+            "body": "Reviewers need to focus on AI performance instead of trying to hype up sub 4060 gaming performance. AMD has done a phenomenal job exposing the tech circus. First with Strix Halo, then with the 9070.\u00a0",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Ch1kuwa",
+            "body": "Breaks through my wallet too",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "gunsnammo37",
+            "body": "Not buying anything with \"AI\" in the name. Gross.",
+            "score": -4,
+            "replies": []
+        },
+        {
+            "author": "letsgoiowa",
+            "body": "Testing looks legit and these are real models you can play with right now. Actually astonishing performance.\n\nHowever...if you're serious about AI you probably want an Nvidia GPU in your laptop so I don't know if people care that much about thin and light. How does this compare to a laptop with a somewhat similarly priced Nvidia GPU?",
+            "score": -9,
+            "replies": [
+                {
+                    "author": "Rich_Repeat_22",
+                    "body": "Seems you are somewhere wrong. We do not need any more NVIDIA GPU for inference or training. A lot have been done last months with ROCm & Vulkan support, in addition to new architecture of models getting away from the NVIDIA brute force.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "letsgoiowa",
+                            "body": "Ok but that's not what I said. I wanted to know how this compares to Nvidia options that are standard in the wild and most people have.",
+                            "score": -6,
+                            "replies": [
+                                {
+                                    "author": "PsyOmega",
+                                    "body": "This platform can assign up to 96gb vram, allowing *extremely* large LLM models to run.\n\nnvidia laptops max out at 16gb vram (you can't even get them with 24 or 32gb vram) and mainstream nvidia laptops are usually 8 or 12gb vram.\n\nAI doesn't perform well out of sysram swap space so its better if you can fit it all in vram, so the more the better. The most impressive LLM models require 32gb+ memory. There are LLM's that run on 8gb vram but they're pretty boring these days.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "luuuuuku",
+                                            "body": "Realistically speaking, how useful will 128GB be? 64 should be fine but basically every test so far show it behind apples M4Pro which already struggles in performance on very large models (a 50GB LLM won\u2019t really run at usable speeds). \nAMD themselves claim it\u2019s 2.2x the performance of the 258V which is a rather slow 17W CPU. \nIt\u2019s hard to find any real world examples where you can actually use it",
+                                            "score": 0,
+                                            "replies": [
+                                                {
+                                                    "author": "PsyOmega",
+                                                    "body": "Performance will vary. But you still have to consider that you can get a 128gb strix halo system for like, $2000. 48gb nvidia stuff is like, $20,000.\n\nHaving the vram is WAY more important than having raw speed, as it's the difference between \"will run\" and \"wont run at all\". Running a bit slowly in raw compute is OK for consumer use cases.\n\nhttps://wccftech.com/amd-ryzen-ai-max-395-strix-halo-apu-over-3x-faster-rtx-5080-in-deepseek-benchmarks/\n\nr/LocalLLaMA has better discussions. It's not as simple as \"all models that use more than 16gb will run too slow on strix\". some use cases will run too slow, sure, many will run fine.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "luuuuuku",
+                                                            "body": "Obviously not. But the question remains. What will run at decent speeds that requires that much ram?",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "PsyOmega",
+                                                                    "body": "> What will run at decent speeds that requires that much ram?\n\n70B models with high inference quality at 2-3 tokens/s. As with anything AI you have to weigh output time vs output quality, and 2-3 tokens/s is beating nvidia at 70b, while still being usable to a consumer.",
+                                                                    "score": 0,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "luuuuuku",
+                                                                            "body": "But why not use CPUs then? Ampere Altra 128core CPUs do double digit t/s for 70b and still like 4t/s for 600b models. And that's not much more expensive in a desktop. A 48GB A6000 you can get for like 5k, a faster 64GB M4 Pro is similar in price. Even clustering 4x 4060 is faster than that and not that much more expensive.",
+                                                                            "score": 0,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "PsyOmega",
+                                                                                    "body": "Because strix halo is an affordable consumer platform that can also: workstation, game, etc.\n\nWhy would you pay 5k for only 48gb when 2k gets you 96gb vram? You can't even get an A6000 in a laptop.\n\nThere is no cheaper or better pathway to getting 96gb of vram for AI. If you try to match it you're in for the price of a whole new car.",
+                                                                                    "score": 2,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "luuuuuku",
+                                                                                            "body": "But what would a regular consumer use 96GB VRAM for?",
+                                                                                            "score": 1,
+                                                                                            "replies": [
+                                                                                                {
+                                                                                                    "author": "PsyOmega",
+                                                                                                    "body": "Running 70b models locally. Why are we going in circles on this?\n\nGo ask the localllama subreddit if you're really curious.\n\nPoint is, strix halo is the only affordable (even if $2000 is still hella expensive, at least its a full workstation/gaming rig too.) platform that can do this *at all*. \"consumer\" use shall be explored but we're really talking prosumer (who still can't throw down a cars worth of cash for dedicated AI processing when its so expensive).\n\nin raw consumer use i could see it being viable for maintaining privacy etc while still running a model that can produce good output for whatever you want it to do. Gets rid of the slop, etc.",
+                                                                                                    "score": 1,
+                                                                                                    "replies": []
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "letsgoiowa",
+                                            "body": "I'm aware. I know that's an advantage. I am merely curious about what workloads are being done on Nvidia laptops right now and how this compares to those 1:1.",
+                                            "score": -1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Rich_Repeat_22",
+                                    "body": "What you mean by \"Nvidia options that are standard\"? All LLMs run on AMD and NVIDIA. There isn't something special that make them \"Nvidia options\".\n\nSure AMD was bit slower but has made a lot of strides last 3 months throwing out of the window the \"if you run LLM you need CUDA and NVIDIA\". If you visit one of the LLM subreddits you will find gazillion MI50s in home servers. Clusters of 5-10 accelerators and at good prices. Something that was ridiculous few months ago because lack of support. \n\nIf by \"standard\" to mean the LLMs fitting inside 22GB VRAM, that happened because not everyone has money to buy 3-4 x 3090/4090/5090 and plug them on an EPYC 7004 server with 12channel RAM. \n\nYes running something small that fits on 22GB VRAM the 395 is slower than the 3090 etc. But we want to run more accurate and bigger models regardless the speed without requiring $20000 setup at home. \n\nSure if you have that money you have my blessing, but most of us don't.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "letsgoiowa",
+                                            "body": "Again I think you're misunderstanding. I literally just mean what does this perform like compared to a similarly priced laptop with an Nvidia GPU in it? \n\nNothing more than that. Geez you people are really rabid and jump at everything as if I'm attacking AMD. I'm not. I literally just want to see a comparison. That's it!",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "Rich_Repeat_22",
+                                                    "body": "First of all I didn't attack you, nor downvoted you. Now you mentioned about \"Nvidia laptops\". \n\nOK The iGPU found in the 395 is the equivalent of 4060 desktop / 4070 Mobile. However doesn't have the VRAM restrictions of 8GB 4070M/12GB 4080M/16GB 4090M. \n\nIt has also same bandwidth for whole unified RAM of the 4070M, 256GB/s. \n\nSo yes is faster than the 4090M if VRAM exceeds 16GB.",
+                                                    "score": -1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Bloated_Plaid",
+                    "body": "I am not sure how it became popular on social media that all that matters is VRAM for local LLMs. It\u2019s just not true.",
+                    "score": -16,
+                    "replies": [
+                        {
+                            "author": "Rich_Repeat_22",
+                            "body": "Explain to me how you plan to load a 32B or 70B model on a GPU with 16GB or 24GB VRAM?",
+                            "score": 11,
+                            "replies": [
+                                {
+                                    "author": "luuuuuku",
+                                    "body": "That\u2019s not the point. But there are other things that matter. RAM speed and compute performance are kinda more important. The 395 is only twice as fast as a 4090 when running a 70b >40GB model.\nThe 4090 has to swap to system memory and loses more than 90% of its performance but it\u2019s still more than half as fast as the 395. \nso, it still works and the 395 isn\u2019t really that much better given that they\u2019re both in single digits token per second range which is pretty much unusable. \n\nAnd all that is first party data published by AMD.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "letsgoiowa",
+                            "body": "Ok. Did you respond to the wrong person? That's not what I said",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Klinky1984",
+            "body": "If it can come w/ maxed RAM at under $1K that would be a sweet spot. Obviously can't compete with Nvidia's top offerings, but 96GB for AI with decent performance seems like great value, unless they jack the price.",
+            "score": -2,
+            "replies": []
+        }
+    ]
+}

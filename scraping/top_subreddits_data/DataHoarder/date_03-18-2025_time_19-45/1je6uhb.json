@@ -1,0 +1,33 @@
+{
+    "title": "Screen Recording and Screenshots",
+    "author": "ChaoticAstronomy",
+    "subreddit": "DataHoarder",
+    "rank": 19,
+    "score": 1,
+    "upvote_ratio": 0.6,
+    "num_comments (reported by reddit)": 3,
+    "url": "https://www.reddit.com/r/DataHoarder/comments/1je6uhb/screen_recording_and_screenshots/",
+    "id": "1je6uhb",
+    "selftext": "Would this work?: \nConnecting PC 1 to PC 2 via HDMI capture card, to stream videos from\nPC 2 web browser and capture it on PC 1.\nAlso, could it be detected by the website itself (youtube/netflix/etc), and get an IP ban?\n\nAlso, for the same reasons, can websites such as Library websites detect screenshots if you take screenshots of books, and also get an IP ban?",
+    "comments": [
+        {
+            "author": "AutoModerator",
+            "body": "\nHello /u/ChaoticAstronomy! Thank you for posting in r/DataHoarder. \n\nPlease remember to read our [Rules](https://www.reddit.com/r/DataHoarder/wiki/index/rules) and [Wiki](https://www.reddit.com/r/DataHoarder/wiki/index).\n\nPlease note that your post will be removed if you just post a box/speed/server post. Please give background information on your server pictures. \n\nThis subreddit will ***NOT*** help you find or exchange that Movie/TV show/Nuclear Launch Manual, visit r/DHExchange instead.\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/DataHoarder) if you have any questions or concerns.*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "diecastbeatdown",
+            "body": "Is there a reason you don't just have OBS running directly on PC2 to record.\n\nThere is no IP ban that would come into effect for that, at least that I know of.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "ChaoticAstronomy",
+                    "body": "I figured streaming and capturing from the same machine wouldn\u2019t work? At least may not work for everything? Just like trying to record audio from youtube for example?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

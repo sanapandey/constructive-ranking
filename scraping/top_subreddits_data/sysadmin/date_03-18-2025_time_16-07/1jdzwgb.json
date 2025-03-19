@@ -1,0 +1,596 @@
+{
+    "title": "How do you back up your sensitive data without trusting Big Tech?",
+    "author": "FreedomTechHQ",
+    "subreddit": "sysadmin",
+    "rank": 6,
+    "score": 104,
+    "upvote_ratio": 0.75,
+    "num_comments (reported by reddit)": 89,
+    "url": "https://www.reddit.com/r/sysadmin/comments/1jdzwgb/how_do_you_back_up_your_sensitive_data_without/",
+    "id": "1jdzwgb",
+    "selftext": "\u00a0I\u2019ve been thinking a lot about data backups lately. Cloud storage is convenient, but let\u2019s be real, Big Tech doesn\u2019t just \u201cstore\u201d your data, they scan, index, and monetize it. Even so-called \u201cencrypted\u201d cloud services often have access to metadata or can be forced to hand over data if pressured.\n\nLocal storage is great until your drive fails, gets stolen, or just stops working one day. RAID setups and NAS solutions help, but they still don\u2019t solve the problem of off-site backups without relying on a third party.",
+    "comments": [
+        {
+            "author": "Enough_Pattern8875",
+            "body": "They can\u2019t \u201cscan\u201d encrypted repositories.  \n\nI think you may be confusing backups with synchronized file shares. \n\nAny modern backup solution is going to encrypt your repository and send it off to wherever it\u2019s being hosted. The provider for that hosting service will not have access to the encrypted media. \n\nIf you are equating something like google drive or OneDrive to backups, that\u2019s just a misunderstanding of how either of those services conceptually work.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "None",
+                    "body": "[deleted]",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "RichardJimmy48",
+                            "body": "> Curious, do you think MSP/cloud-based solutions are the only viable option for off-site backups, or is there a way to get that same security without a third-party provider involved?\n\nOf course not. What do you think they're doing that you can't also do?",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "jkirkcaldy",
+                            "body": "> is there a way to get that security without a third party\n\nCollocation. You own the hardware and software of the data. You just stick it in someone else\u2019s data centre. No one else has access to the hardware, you can stick your own firewalls in there so all traffic is encrypted and you can have all your storage encrypted and encrypt your data. Depends on what you\u2019re storing and how secure you want/need it to be\n\nThe only real way of doing it without a single other third party would be to have a satellite data centre that you have total ownership of, but that will be wildly expensive compared to sticking it in a s3 bucket for a few \u00a3/m (unless you\u2019re storing a huge amount of data.)",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "None",
+                                    "body": "[deleted]",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "jaydizzleforshizzle",
+                                            "body": "I mean yes? Some problems are human and require contracts.",
+                                            "score": 1,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "jkirkcaldy",
+                                            "body": "I mean, unless you want to lay your own cable between multiple cities and buy your own buildings and run everything on your own LAN, you\u2019re almost always going to be relying on a third party for something. \n\nAs with everything, it\u2019s going to come down to budget. If you\u2019ve got a blank cheque, the world\u2019s your oyster. Realistically, you\u2019re going to have to model what your threat level is and what/who you need to protect your data from. \n\nWhilst I don\u2019t recommend any IT professional take their advice, you should check out the tour of equinox data centre that LTT did for a glimpse into the sort of security you can get with a colo. you can pretty much spec the security how you need it.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "OurManInHavana",
+                                                    "body": "It doesn't matter what you say: OP will move the goalposts. Soon we'll be discussing the security merits of generating our own power, and if we should be smelting our own copper or if it's safe to buy commercial :)\n\nEveryone addressed the proper concerns within the first few posts: sensitive data will always be encrypted before any external party sees it.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "PrisonMike_13",
+                                                            "body": "Feel like OP is wearing a tin foil hat. Or has some shady data.",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "agingnerds",
+                                                    "body": "I was curious about this. Seems like the only real solution is build your own data center... I dont really understand the push back on this unless its just some weird thought experiment.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "Iamgentle1122",
+                                            "body": "My company has multiple offices. Our backups gets mirrored to every office. Maybe that could be possible for you?\n\nThought we still have to use ISP provided networking.\n\nUniversity i went to had the same setup but they literally had their own cable between the cities",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "thenickdude",
+                            "body": "Metadata and access patterns are not really a concern. Any useful backup system will combine files and their metadata into chunks and encrypt the chunks. The receiving end can tell what your mutation rate per day is, but that's just about it.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "OurManInHavana",
+                            "body": "\"*it\u2019s about metadata, access patterns, and policy shifts over time*\"\n\nYou're really reaching :) . Is such metadata sensitive for a client? Like when they started and stopped something that may-of-not be a reoccurring backup - is critical? The same data their ISP can see? C'mon. The concern of a generic-user-of-cloud-storage *is not* those things.\n\n\"*they still control where the data lives, how it\u2019s stored, and who has access to the infrastructure*\"\n\nYou are paying them... for them to control those things... so they aren't your problem or concern. You give them money and they make all the decisions on how to provide the service. They could inscribe your client-side-encrypted data on stone tablets, or write ones-and-zeros on cocktail napkins: who cares if you can get your data back in perfect condition whenever you ask for it.\n\nIf your data is important enough that \"your service provider going out of business\" is a risk... you use more than one of them. Using multiple providers is what everyone does. If you ran a hotdog stand you may have multiple sources of your mystery meats ;)\n\nYour backups of \"sensitive data\" are encrypted either way. So you either pay big money to control your own offsite backups (and likely do a mediocre job of it). Or, pay small money to a couple cloud services to hold that data (and their entire business model is to be good at it).",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "Enough_Pattern8875",
+                            "body": "You can absolutely architect your own backup infrastructure with offsite repositories.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "adamphetamine",
+            "body": "1. Buy a NAS  \n2. Rent some Colo space  \n3. Backup to the NAS in the Colo",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "wewe_nou",
+                    "body": "get infected  \nnot notice for a month  \nall files and backup already encrypted with the infected key  \n....  \n\nstart a new business",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "ScreenOk6928",
+                            "body": "skill issue",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "wewe_nou",
+                                    "body": "all it takes is one curios cat",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "phobug",
+                                            "body": "And a total lack of ACLs",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "caa_admin",
+                    "body": "I do this for a client but with linux boxen not nas.\n\nThe backup server is a sync of the main(across town). The backup also runs rsnapshot on same disk. Reason was the client didn't want that but I included it anyway and didn't tell them. As far as they know they don't have versioned backups.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "AppIdentityGuy",
+            "body": "If you follow this logic chain far enough, and I'm not invalidating the question, you land building your own chips and computers.....",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Ok-Juggernaut-4698",
+                    "body": "Paranoia is a hell of a thing.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "oyarasaX",
+                            "body": "hence, linux desktop users.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "BloodFeastMan",
+                                    "body": "I use Arch, by the way",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "mini4x",
+                                            "body": "So you're the one.",
+                                            "score": 1,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "thortgot",
+                                            "body": "Couldn't your network card have embedded \"phone home software\" at the chip level? /s",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "jmbpiano",
+                    "body": "Are you sure your silicon came from a trustworthy source, though?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "DaChieftainOfThirsk",
+                            "body": "It's quantum entangled with foreign government's identical silicon that will listen in on every byte that passes through the processor.\u00a0 They have officially learned the recipe for the Colonel's fried chicken.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Sporkfortuna",
+                                    "body": "Turns out it was just a McCormack's pouch this whole time",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "AppIdentityGuy",
+                            "body": "\ud83e\udd26\ud83e\udd23\ud83e\udd23",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ElevenNotes",
+            "body": "E2E. Simply encrypt your backups before pushing them to S3. It\u2019s a standard feature of all enterprise backup apps. Should be on by default anyway. Never have unencrypted backups.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BrainWaveCC",
+            "body": "You actual wrote a post that simultaneously decries the risks of both big data *and* local storage?\n\nDo you just not want an excuse not to do backups?\n\nThe first rule of risk mitigation is to accurately catalog your risks. I don't feel that the risks articulated here are accurate, for a variety of reasons. For now, I'll just mention two:\n\n1. You seem to have a whole lot of trust in ISPs, given they don't appear in any of your risk concerns.\n\n2. What metadata do you believe that anyone is practically getting from your onsite, encrypted backups?\n\nI'm really not sure what you're trying to protect at that point, and I'm wondering if you use any cloud based services at all, since backups are not the place anyone would need to start at in order to create the risk you appear to fear.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "DevinSysAdmin",
+                    "body": "If you look at his post history he's just one of those paranoid end users that's slightly tech savvy. There's no point in trying to contribute.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "BrainWaveCC",
+                            "body": "Good point.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Visible_Witness_884",
+            "body": "We don't use \"cloud storage\" in the sense of \"big tech amazon/microsoft/google/apple\" cloud. We use cloud storage with a local provider of cloud storage for our Veeam cloud connect. \n\nPreviously we used the same company for off-site daily/hourly backups of SQL server. But through IBM Storage Protect software. This is all through an MSP, that we use only for our M365 tenant and the backup service. So that puts the backup out of everyone but the backup providers' hands. The MSP doesn't have access to it, they can assist in restoring files and troubleshoot and monitor status. But they don't have access to the backup data. That's with the backup service provider. Who we do not have any interface with. So our backups are quite secure in that respect.\n\nAre there no such providers in your area? Seems pretty common.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "mini4x",
+                    "body": "> We use cloud storage with a local provider of cloud storage for our Veeam cloud connect.\n\nWhich is probably a MS or AWS instance.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "None",
+                    "body": "[deleted]",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Visible_Witness_884",
+                            "body": "Are your own policies for internal data handling up to that level of scrutiny?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Old_Acanthaceae5198",
+                                    "body": "They never are. You get some junior guy reading every piece of \"pop security\" as I like to call it and they start wasting time with these pointless thought experiments",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "OurManInHavana",
+                                    "body": "Yeah. Lots of businesses can say they have a policy: that's easy. But is it being used, and can they prove it? Probably not. \"Trust me bro\" is pretty common between internal teams...",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Lukage",
+            "body": "May I suggest a tinfoil hat or a new career? IDK why this has so many upvotes.\n\nGiven your weird scenario, get a dedicated line to a remote location, firewall your local backup source, encrypt the data, send it to the remote site, store it there, with no WAN access. Copy that into a repository that you then POWER OFF and only have someone manually power it on physically for restore/DR purposes.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Old_Acanthaceae5198",
+            "body": "Big data isn't scanning shit unless you ask. And they certainly ain't selling your data.\n\nStop with this shit. It's ignorant fear mongering.\n\nAnd you certainly ain't telling the cops to go fuck themselves if they show up with a warrant \ud83e\udd23\n\nAt best this post is sheer ignorance.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "darklightedge",
+                    "body": "Encryption is made for situations like this. If you don't want for anybody to see your data, simply encrypt it. But don't forget about the 3-2-1 backup rule. [https://www.veeam.com/blog/server-backup-guide.html](https://www.veeam.com/blog/server-backup-guide.html)",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "darklightedge",
+                    "body": "Encryption is made for situations like this. If you don't want for anybody to see your data, simply encrypt it. But don't forget about the 3-2-1 backup rule. [https://www.veeam.com/blog/server-backup-guide.html](https://www.veeam.com/blog/server-backup-guide.html)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "RichardJimmy48",
+            "body": "> Cloud storage is convenient, but let\u2019s be real, Big Tech doesn\u2019t just \u201cstore\u201d your data, they scan, index, and monetize it. Even so-called \u201cencrypted\u201d cloud services often have access to metadata or can be forced to hand over data if pressured.\n\nCloud storage is nothing special. There's nothing any cloud provider is doing that you can't do yourself. If you're worried about them having access to your data, encrypt it yourself before you upload it\n\n> Local storage is great until your drive fails, gets stolen, or just stops working one day. RAID setups and NAS solutions help, but they still don\u2019t solve the problem of off-site backups without relying on a third party.\n\nThere's nothing stopping you from having multiple copies of your data yourself. You can get two backup servers. If you want a copy off-site, put it off-site. If you don't have two office locations, you can rent space in a colo facility, or you can start backing up to tape and send your tapes to a company like Iron Mountain or drop them off at a bank in a safe-deposit-box. This has been a solved problem for a long time.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "sed_ric",
+            "body": "Bare metal backup on-site and off-site on server you own in a space you rent on a DC or on a friend (in the sense of \"another company with legit infrastructure you trust to do that kind of trade\", not your neighbourg because you think they are neat) location.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "dustojnikhummer",
+                    "body": "Or if you have multiple offices in different cities (and have rackspace there).",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "natefrogg1",
+                            "body": "We have a couple retail stores that have room in the back to pop a small file server, bump up their internet speed a bit and it has been working pretty well as our \u201cprivate backup cloud\u201d",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "dustojnikhummer",
+                                    "body": "Yeah, if you have a big enough pipe and a lockable cabinet that is probably the best option. If the back is behind a keycard you probably don't even need to bother with encryption on the NAS itself.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "dustojnikhummer",
+            "body": "Rent your own datacenter space and encrypt there.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Scotty1928",
+            "body": "I used to run a fleet of NASes on site and have a dedicated \"off site\" location for backups. While it was not quite well suited geographically due to my customers usually having their servers less than 20km away from my office, it was somewhat disaster-proofed being high-up and in a fire resistant room.\nSoftware-wise.... Is another thing. IDK how well Altaro (or rather, Hornet Security now) works without it's CMS part, but at least locally backups were accessible and restorable back in the day.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "GhoastTypist",
+            "body": "Local storage on site, then transfer to external storage off site. Air gapped offsite backups is preferred for me.\n\nBasically air gapped offsite backups can mean transfer to an external drive then put in a fire resistant safe.\n\nA few consultant companies also suggested to me a deposit box at a bank.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Mach5vsMach5",
+            "body": "Man, you're overthinking everything. Lol.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ExceptionEX",
+            "body": "if done properly they don't actually have any access to the contents of your backups, they store and encrypted volume without the keys to unencrypt it, so no meta data scanning is going to review anything meaningful.\n\nSo you can go down the road of \"don't trust big tech\" but if you are using windows or macOS, you've already leaked your meta data.  So your backups aren't really the big tech you need to really worry about I guess.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "catherder9000",
+            "body": "I back up to seventeen different cloud spaces to ensure that not only is my data available no matter the disaster but also so the government has an easily available 18th backup of my data *for free* (if you can imagine) that I can get back with a FOI. I've been trying to get Russia or China to also take a copy of my data, but they don't seem to be interested in data from a corporate retail space. Man I wish I was working at a place making secret weapons, that way I'd get a 19th and 20th (or even more!) backup for free. \n\nFor my own personal data for tracking my 60k sq.ft. grow op, because mixing parts per million into water is a precise science and that data is extremely valuable, I have my data co-located on a power substation 5 miles away. I have a raspberry pie Velcroed to the back of one of the panels and steal the power, it connects via Cellular in which I use disposable sim cards that get changed every few days by area vagrants (cheap, only costs $10 for the new sim and a bottle of Thunderbird for each sim swap). All my hydroponic grow data gets backed up there, for free, nightly. And that's dope.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ConstructionSafe2814",
+            "body": "Tape backup",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "TheFluffiestRedditor",
+                    "body": "Do you encrypt your tapes?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "ConstructionSafe2814",
+                            "body": "We discussed it whether we wanted them encrypted or not. In the end we decided against encrypting our tapes. They are in a sealed containers and it took us a long time for the company that handles our tapes to NOT open the containers (break the seal) when they bring back our tapes. Yes it's convenient for us but we have (HAVE) to do it ourselves.\n\nAnd I don't get it. I'm being down voted for a good answer to OP ... . Tape is backup without relying on big tech.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "imnotaero",
+                                    "body": "Yeah, it's weird. You've got my upvote.\n\nI think there are a lot of places where people have good reasons for not using tapes, and a lot of people in those places (certainly not everyone) who cannot imagine that tapes might be the ideal solution in some instances.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "imthatsysadmin",
+            "body": "This all comes down to how you manage your encryption strategy and governance practices. There\u2019s plenty of tried and true methods to manage zero trust for data and metadata.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Barrerayy",
+            "body": "I understand not wanting to trust a 3rd party with critical data, but you'll obviously be encrypting it surely. \n\nI do our backups differently. We have 3 sites. Each site backs up to the other 2 via zfs replication and we use snapshots for versioning. Each site also does nightly LTO backups and we use LTOs for long term archive. I've written a frontend to monitor it in Go and HTMX",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Smh_nz",
+            "body": "Keep the data on-prem (encrypted at rest of course) or encrypt it before sending it off-site! Easy!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Icy-Maintenance7041",
+            "body": "my backup\\^system for home is as follows:\n\nPC(s) => fileserver internal drive (no raid) every 10 min. => fileserver to external HDD as secondary backup every 4 hours => External HDD to portable HDD A or B every week. This drive moves to the safe at my workplace and its counterpart moves home with me for that week.\n\nUsed to do online backups but the moment you past the 5TB mark it gets A) expensive, B) unwieldy\n\nEdit: All drives are encrypted btw. Kind of a must for offsite storage :-)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ReputationNo8889",
+            "body": "I have my nas at home running truenas scale. It backs up my VM's and my personal data to a Hetzner S3 Storage. Entryption is done before upload, so i can be sure nothing can get scanned by the cloud provider. Hetzner themselves are a german company so they have some VERY strict requirements in terms of data access, so im not worried. \n\nSince S3 is just a backup of my NAS im not worried about any \"access pattern tracking\" etc. The backup job runs at midnight. So they know i back up my stuff then. If i hear about some concerning data privacy issues at hetzner i will buy a second nas and place that at my mothers place and do a backup job to that device.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "slugshead",
+            "body": "Bought two NAS' - Chucked one in a rack in a building as far away from the server room as possible, bought the fastest transceivers that would work with our infra between the core and the NAS.\n\nChucked the second in the server room.\n\nBoth configured with RAID6 and they duplicate to each other",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "ZAFJB",
+                    "body": ">Chucked one in a rack in a building as far away from the server room as possible\n\nNot off site is not a backup.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ZAFJB",
+            "body": "Veeam + LTO tape",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Different-Hyena-8724",
+            "body": "Cloud Act is something everyone should be aware of.   I don't think people actually have the access to tell their cloud provider to not hand over private keys to people knocking on the back door with a Secret court warrant.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "joshbudde",
+            "body": "Arq + rsync.net. Or borg and rsync.net. \n\nThe pricing is good, and the most important thing is that they have non-writable snapshots, so even if your keys are compromised and used to delete your backup store, you can still recover from their snapshots.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "natefrogg1",
+            "body": "Freebsd with zfs for the backup file servers, cheap and simple and will run on most hardware available. Sftp or rsync to get files to and from, stash a box or three in different locations if possible for redundancy",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "jamesaepp",
+            "body": "What I'm about to say is more /r/homelab context. This is what I do.\n\n1. Veeam backup & replication backs up my shit with an encryption key I know and store in my keepass database. I'm not fully paranoid of Veeam (maybe I should be) so I *trust* that they're not uploading keys elsewhere. I imagine there'd be a huge shitstorm if they were doing that and got caught.\n\n2. I take very irregular large backups and throw that into a hyperscaler's archive storage. Currently Azure archive but I'm looking at and testing AWS deep glacier. I manually use rclone for these irregular backup jobs.\n\n3. I take regular backups of my small data that regularly changes (finances, records, etc) and throw that into Backblaze B2. I haven't even gotten a bill yet, most of the time I'm under the 10GB free tier. TrueNAS cloud sync tasks copy the data for me as Veeam CE limits direct backup to object storage.\n\n4. I keep a copy of my keepass database on a flash drive in a safe deposit box on the other side of town from where I live. I irregularly (about once or twice a year) refresh the contents of that flash drive.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "RunAwayFromShame",
+            "body": "SaveAServer wholesale 2u chassis  \nwholesale 4tb SSD's from aliexpress  \nFreeNAS/Truenas  \nNFS  \nZerotier  \nWhatever OSS backup soft you wanna use.  \nStick it in your closet at home. You don't even have to pop a hole in any firewalls.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "WhiskeyBeforeSunset",
+            "body": "Sounds like you are confusing backups with cloud service providers.\n\nEncrypt your backups before uploading to the cloud.\n\nIf you are concerned that the service is stealing your data, dont use cloud.\n\nIf the nsa or big tech wants to spy, they can do it in my on prem data center too. Thats about a 1% chance of catastrophic disaster. \n\nYour threat model is not my threat model.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "DaemosDaen",
+            "body": "Our process:\n\n1. pick up several NAS devices, 3 minimum.\n2. install in 2 different locations connecteed by our Elan\n   1. for us this is a secondary company owned location.\n3. set up backup software to point to one of the NAS.\n4. set that NAS to sync with the other.\n5. purchase 3 USB drives. the largest you can RESONABLY find (currently 20 TB as of this writing).\n6. set one of the NAS to push a copy of the backup share to the connected USB drive.\n7. cycle drives weekly.\n8. take the oldest drive off site.\n9. swap off-site drive when its time has come.\n10. repeat steps 7-9 until the company comes crashing around you.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "GullibleDetective",
+            "body": "Running our own private cloud and using veeam\n\nAlso Wasabi is quite trustworthy.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BloodFeastMan",
+            "body": "Synology in an offsite fire shack",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "idspispopd888",
+            "body": "Paranoia strikes deep\u2026into your life it will creep\u2026.(Buffalo Springfield)\n\nAcronis. Encrypted. No scanning, no sharing.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "wutthedblhockeystick",
+            "body": "Veeam Cloud Connect",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "malikto44",
+            "body": "In general, just slap a client-side encryption layer and call it done.  This is good enough for almost all compliance stuff outside of government.\n\nFor example, one small company I work with uses local NAS machines (QNAP boxes with Debian for that ZFS goodness).  They have backups go to a share on another NAS, with the backups being encrypted.  Then the other NAS that has the backups just syncs the backup data offline to a S3 provider.\n\nNot too difficult, provides 3-2-1 protection, although they also use a hard disk in a USB enclosure and every few weeks, swap it out offsite, so they have 3-2-1-1-0 protection (three copies, two different media, one offline, one offsite, and zero errors).\n\nThe hardest part is creating encryption keys and managing them.  That can take a ton of planning.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "cysiekw",
+            "body": "Local backup on nas as well as offsite replication. All data encryption during backup. Cloud storage is too expensive.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "phobug",
+            "body": "Tarsnap",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "thortgot",
+            "body": "Encrypt your data with your own keys. It's not rocket science. Look at the debacle that is happening in the UK regarding data privacy. They literally can't hand over the data to the government.\n\nAll the major providers have solutions that are cryptographically proven to be secure. Don't trust the words on the page, trust the crypto nerds who prove it.\n\nMeta data is always available about you. What specific components are you concerned with?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "No_Resolution_9252",
+            "body": "The very first task would be understanding how to back up sensitive data in the first place.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SH184INU",
+            "body": "NAS at home for simple redundancy and incremental backups with integrity checks stored remote on a Hetzner machine. The most important data also stored on flash drives in different locations, e.g. friends house. None of this unencrypted of course.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Generico300",
+            "body": "Build a fault-tolerant array.  Do backups to [LTO tape](https://www.lto.org/lto-9/).  Periodically cycle a set of backup tapes between use and an offsite location (storage unit, your house, whatever) with a safe.\n\nFault tolerance and offsite backups did in fact exist before the cloud.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Natfubar",
+            "body": "Duplicati + Wasabi",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Frothyleet",
+            "body": ">Big Tech doesn\u2019t just \u201cstore\u201d your data, they scan, index, and monetize it\n\nFor consumer products, sure - that's why they are cheap. For enterprise products, not on any level that would concern individual businesses. We are not worried about using Microsoft-managed encryption keys in Azure, for example - but if *you* are, you can do customer-managed keys.\n\nAs a side note, and I see this kind of thing a lot, sysadmins need to avoid conflating concerns they have as an individual consumer versus the concerns they should have on behalf of a business.\n\nAs an individual, I am (and everyone should be) extremely concerned about the status quo of megacorporations collecting enormous datasets on millions of people - sketchy enough when the info gets sold to third party, but on the longer term an opportunity for some real terrifying dystopian shit in the future.\n\nOn behalf of my company, don't really care. Our concern is that proprietary data is secured from exfiltration, our data and infra is highly available, and compliance requirements are met. I.e., things that have an impact on business functionality. Not worried so much if Jeff Bezos can figure out how quickly our org goes through coffee filters.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "LiteratureThat4566",
+            "body": "begone AD",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "EchoPhi",
+            "body": "No, keep the political propaganda the fuck out of the tech sector. Yeah there's some sketchy shit, this is just dumb.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "obviousboy",
+            "body": "Spam.  Just report this account.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "jamesaepp",
+                    "body": "Report your account? Will do.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "MidnightAdmin",
+            "body": "What is this \"back... up...\"?",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

@@ -1,0 +1,146 @@
+{
+    "title": "Tearing Down Sapphire's RX 9070 XT Pulse: Thermals, Fan Response, & Noise",
+    "author": "b-maacc",
+    "subreddit": "Amd",
+    "rank": 19,
+    "score": 72,
+    "upvote_ratio": 0.8,
+    "num_comments (reported by reddit)": 21,
+    "url": "https://youtu.be/_OGfWRTJ7w8?si=9POUTAuwm2UJjvCs",
+    "id": "1jcn073",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "pecche",
+            "body": "great card but bad fan behaviour",
+            "score": 11,
+            "replies": [
+                {
+                    "author": "SolaceInScrutiny",
+                    "body": "Every Sapphire card has horrific fan behavior. Still can't wrap my head around the praise their cards get.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Gwolf4",
+                            "body": "I concur. My first GPU ever was 5700xt pulse. To put it bluntly, fucking jet engine, at that point give me a blower design. I don't care nowadays, I use a console like case and de shroud my GPUs, 7800xt was quieter than the 5700xt but I give a damn, 3000rpm are still acoustics of such rpm, my fans didn't improve the thermals BUT even at 100% they move only a Max of 2000rpm waaaay quieter.",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "Smart-Potential-7520",
+                            "body": "Because it takes like 2 seconds to create a custom fan curve and it's something that everyone should do anyway for every fan inside a pc.\n\nLike the most MOBO sets the case Fans at like 450% speed at idle. Which is insanely loud for a 140mm fan, even a noctua/be quiet. \n\n\n.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "democracywon2024",
+                    "body": "You should be running a custom fan curve tailored to your PC's specific acoustic and performance needs.\n\nThe stock one just is there to get you started",
+                    "score": -5,
+                    "replies": [
+                        {
+                            "author": "SolaceInScrutiny",
+                            "body": "Yeah maybe in 2005. Any competent partner engineers the products cooler so that it is completely transparent to the user. No one should be having to modify fan profiles beyond quiet/performance bios toggles.",
+                            "score": 15,
+                            "replies": [
+                                {
+                                    "author": "Smart-Potential-7520",
+                                    "body": "So are you guys running the default fan curves of your mobo/cooler too? That's insane to me, they are always terrible.\n\nI aggree that a product should be better fine tuned out of the box, but I've never seen a product with a good stock fan curve.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "SolaceInScrutiny",
+                                            "body": "All of MSI's GPU's have nice fan curves. They are probably the least intrusive in terms of behavior (no start up rattle, low starting RPM, no aggressive changes, etc).",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "pecche",
+                            "body": "the problem customizing the curve is that you loose the zero fan feature that's annoying",
+                            "score": -4,
+                            "replies": [
+                                {
+                                    "author": "ChibiJr",
+                                    "body": "Not true with the 9070 xt. I've had the opportunity to tune both a powercolor reaper and sapphire pulse, both can have zero fan toggled on with a custom fan curve (in adrenaline)",
+                                    "score": 9,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "planewhisperer",
+            "body": "I have the 7900xtx, just tweak the fan curve. It was the only AIB model I tried that didn't have obnoxious coil whine.",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "r3anima",
+                    "body": "Yeah lol, like basically every other video posted here has insane coil whine, I'd literally go insane with that sound constantly piercing my head. Fan curve takes 5 minutes to tweak and you forget about it for years. Yes it's an oversight from AIB, but it's far from the worst.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Wifibees",
+            "body": "My biggest problem with this card is that Fallout 4 becomes quite unstable at 330 fps.",
+            "score": -6,
+            "replies": [
+                {
+                    "author": "Ravi_3214",
+                    "body": "That's more of a Creation Engine issue than a card issue. Creation engine games have physics tied to your fps so if you go over 60 things get a bit messy",
+                    "score": 10,
+                    "replies": [
+                        {
+                            "author": "Wifibees",
+                            "body": "Before the user Eric's suggestion, yeah, \"messy\" is how I would put it, it led to complete pc freeze then to a driver crash. Windows didn't BSOD but it wasn't pleasant to run into such issues with a brand new card.\n\nEspecially since now I have that .. I can run RDR2, Space Marine 2, etc. in full ultra settings without a single problem.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Ravi_3214",
+                                    "body": "Gotta love that Bethesda jank",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "Wifibees",
+                                            "body": "I was wondering how could FO76 possibly brick a PC or a console at its release, but I kinda get it now.",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Eric_The_Jewish_Bear",
+                    "body": "even with the high fps fix mod?",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Wifibees",
+                            "body": "That is exactly what I used and capped the fps at my monitor's max frequency in the .ini file, great results, thanks !",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "noitamrofnisim",
+            "body": "Imagine seriously comparing sapphire to evga..",
+            "score": -11,
+            "replies": []
+        }
+    ]
+}

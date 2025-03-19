@@ -1,0 +1,578 @@
+{
+    "title": "Caddy vs Traefik, Which Do You Use and Why?",
+    "author": "Laniebird91",
+    "subreddit": "selfhosted",
+    "rank": 19,
+    "score": 52,
+    "upvote_ratio": 0.87,
+    "num_comments (reported by reddit)": 87,
+    "url": "https://www.reddit.com/r/selfhosted/comments/1jdy2gn/caddy_vs_traefik_which_do_you_use_and_why/",
+    "id": "1jdy2gn",
+    "selftext": "Hi all. I'm currently using Caddy to serve my self-hosted services. I previously tried Traefik but had some trouble grasping its configuration. I'm thinking about giving it another try because of the automatic Docker service discovery and other features that sound useful, but to be honest, I think I'm a bit intimidated by it lol. For those who use Traefik or Caddy, which do you use, and why? If you use Traefik, were there any resources you found helpful when learning how to use it? Thanks.",
+    "comments": [
+        {
+            "author": "selene20",
+            "body": "I use this which utilizes traefik https://github.com/fosrl/pangolin",
+            "score": 33,
+            "replies": [
+                {
+                    "author": "Laniebird91",
+                    "body": "Checking this out now. I've heard of it but didn't know much about it.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "selene20",
+                            "body": "https://youtu.be/a-a-Xk1hXBQ\nThis is what I followed.\nWith a wildcard in my dns.",
+                            "score": 8,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "danixMCdanix",
+                    "body": "I've set up an instance of pangolin with newt and it was easy and worked very well but I've had an issue with immich and its phone app not being able to reach its endpoint because it was behind pangolin's authentication.. has any of you had this issue? do you know of any workaround?\n\nedit: spelling",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "Lopsided-Painter5216",
+                            "body": "In Cloudflare you can use service token to bypass Access using headers. Isn't there a similar system with your reverse proxy or pangolin?",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "Morticule",
+                                    "body": "Not at the moment but Pangolin is under active development and I believe I just saw a message from one of the devs that\u2019s this is on their roadmap for upcoming release",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "selene20",
+                            "body": "Go in to authentication in pangolin for that resource and turn off sso it will then say unprotected but it works.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "juvort",
+                                    "body": "This. Or set up rules for paths to your endpoints.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "tmThEMaN",
+                    "body": "Wow. So promising.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "tekken444",
+            "body": "I've been using Treafik for few months but now its Caddy and its a lot better. Simple, just work as expected. With Treafik Ive never know why its not working: its labels of the containers wrong, its configuration wrong or I need to just wait few minutes more... With Caddy no such issues and pretty straightforward for configure.",
+            "score": 14,
+            "replies": [
+                {
+                    "author": "FreedomTechHQ",
+                    "body": "I use Caddy for the simplicity, but Traefik\u2019s auto discovery is tempting.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "cmsj",
+            "body": "Traefk because it means I can keep each service\u2019s config in docker labels on the service itself.",
+            "score": 16,
+            "replies": [
+                {
+                    "author": "Trustworthy_Fartzzz",
+                    "body": "Allow me to introduce folks to caddy-docker-proxy. Two labels per container for proxy and LetsEncrypt.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "eltigre_rawr",
+                    "body": "How would one take advantage of this if they had docker services running on many different VMs?",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Dangerous-Report8517",
+                            "body": "This is actually part of why I chose Caddy, Traefik's documentation is very obtuse for anything other than the label based same host config that makes it a popular option for self hosters, so if you want to do anything other than a Traefik container on every host where each one has effectively full control over your certificates it becomes a lot harder to set up.",
+                            "score": 5,
+                            "replies": []
+                        },
+                        {
+                            "author": "Drehmini",
+                            "body": "Either docker swarm and keepalived or a traefik container on each vm",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "Trustworthy_Fartzzz",
+                            "body": "caddy-docker-proxy can do this. I just run one caddy per VM personally.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "DesertCookie_",
+            "body": "I used to use Caddy and found it to be quite intuitive. Possibly most intuitive of all configuration-based reverse proxies. However, once I discovered Nginx Proxy Manager and later NPMPlus (a fork with more features) I stuck to that and am loving it. I've heard good things about Traefik too, but the simplicity of a GUI and not having to mess with cert renewal or any of these things was really appealing to me.",
+            "score": 31,
+            "replies": [
+                {
+                    "author": "Inevitable_Ad261",
+                    "body": "My story is the reverse one. I used to have nginx for hosting and reverse proxy and after discovering caddy no going back to nginx. Long config blocks are reduced to very small ones.",
+                    "score": 19,
+                    "replies": [
+                        {
+                            "author": "Pressimize",
+                            "body": "This, but I still use nginx for enterprise scale or complicated / convoluted use cases",
+                            "score": 4,
+                            "replies": []
+                        },
+                        {
+                            "author": "DesertCookie_",
+                            "body": "That's the nice thing about Nginx Proxy Manager. No long configuration blocks since 90% of it can be done in the GUI.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "Dangerous-Report8517",
+                                    "body": "NPM might be GUI based but it actually still requires quite a bit more configuration than Caddy when running as a simple reverse proxy because Caddy does a lot of stuff automatically that you need to manually turn on in NPM",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "DesertCookie_",
+                                            "body": "Really? Maybe I've gotten lucky with my applications then. I've rarely had to so any configuration. Only Nextcloud comes to mind, but even that works now out of the box with Nextcloud-AIO.\n\nWhich applications did you have bad luck with. I might check them out to see how NPM really compares.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "Dangerous-Report8517",
+                                                    "body": "I wouldn't say bad luck, just that when I was using NPM I had to click through multiple options on multiple screens for each thing I wanted to add behind the reverse proxy, whereas on Caddy I can just copy paste like 4 lines in the config and edit a couple of parameters in one go. NPM is still a perfectly functional reverse proxy, it's just not automatically true that a GUI means easier or faster configuration.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Will-E-Coyote",
+                            "body": "Same. I tried several reverse proxy solutions and I've been using caddy since when I found about it. That was when caddy was still in 1.x version. I used nginx before caddy and since then I think I forgot how to write nginx configs.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "ludacris1990",
+                    "body": "You don\u2019t have to mess with cert renewals with caddy or traefik either but I get your point. Back when I moved to traefik, caddy didn\u2019t have a UI & the traefik UI is.. well it shows what\u2019s running and that\u2019s it.",
+                    "score": 7,
+                    "replies": []
+                },
+                {
+                    "author": "tw0bears",
+                    "body": "I\u2019m using NPM, any selling points to move me to NPM plus?",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "DesertCookie_",
+                            "body": "If you don't need the features, not really. I feel like it makes some sensible choices in the additional options it offers and had to do less fine-tuning than with NPM to get applications sich as Nextcloud working without issues. I also felt like it might be a bit faster, though it really shouldn't and this is more likely due to me moving my reverse proxy from my main unRAID Server to my PiKVM that slo runs a few Docker containers on an RPi4.\n\nIn theory, you can try it. It allows you to import certs and configs from NPM. However, going back isn't possible. So definetely keep a backup.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Gaspachocolat",
+            "body": "I use Caddy with the [caddy-docker-proxy](https://github.com/lucaslorentz/caddy-docker-proxy) and Cloudflare plugins to automatically set up a reverse proxy for my containers and handle wildcards. I find it very easy to use, but since I work directly with the compose.yml file, I don\u2019t need a GUI.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Morgennebel",
+            "body": "os-caddy Plugin on my OPNSense firewall.\n\nAdds a GUI, eliminates plenty of rules. Pretty nice.\n\nIn case I learn Kubernetes I may have to rethink my decision.",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "milliej75",
+                    "body": "Caddy on opnsense is great, but no mtls option. Immich, home assistant and paperless have mtls options.\n\nThinking of moving to either ha proxy or ngnix on opnsense as both support mtls",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Morgennebel",
+                            "body": "I am running HA OS, Immich and paperless-ngx with Caddy just fine.\n\nWhat is your understanding of mtls exactly?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "milliej75",
+                                    "body": "They work absolutely great on caddy, I would like security option of mtls on caddy. Far more mobile apps have options for certs for mtls than do have option for basic authentication.\n\nMTLS will allowed the router (opnsense) in this case to reject connection before even hitting the reverse proxy. Feel this is a more secure connection than directly to a proxy itself.\n\nMore puzzled that mtls is available on opnsense for nginx and haproxy, but not the caddy plugin, and from the opnsense forum, seems to be no interest in adding the option",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "racomaizer",
+                                            "body": "[What do you mean no?](https://caddyserver.com/docs/caddyfile/directives/tls#client_auth)\n\nOpnsense's plugin is pretty limiting ngl",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "thies226j",
+            "body": "Mostly HAProxy.\nIt\u2019s by far the most stable reverse proxy I have used. Nginx, HTTPd and Traefik were always higher latency and would at some point crash where HAProxy was still routing traffic just fine.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "whiskyfles",
+                    "body": "Yeah! HAProxy also runs fantastic on literally anything. Ansible + HAProxy is my go-to as well.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Glittering-Ad8503",
+            "body": "Nginx Proxy Manager, very easy to use and reliable",
+            "score": 9,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "DeLaVicci",
+                    "body": "PocketID you say...",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "None",
+                            "body": "[deleted]",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "Lopsided-Painter5216",
+                                    "body": "When I set it up this week-end they had one time login codes you can generate for that usage in the control panel.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Lopsided-Painter5216",
+                    "body": "Pocket ID my beloved, it's such a great tool.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "JackDeaniels",
+            "body": "I use Caddy, don\u2019t have anything complex set up yet, but I didn\u2019t quite figure out how to have Traefik\u2019s auto issued certificates be saved as files instead of within a JSON",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Wyvern-the-Dragon",
+            "body": "Pangolin reverse proxy is really cool and utilize traeffik as a backend. So you can implement traeffik plugins for this as well but the only thing I implemented was crowdsec because pangolin features is sufficient. But now you can add this via pangolin installation script",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "vsurresh",
+            "body": "Caddy - that's the first one I tried and works really well.\n\nHere is my experience - https://www.packetswitch.co.uk/caddy-reverse-proxy-with-docker/",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "moanos",
+            "body": "I use traefik, because it enables me to deploy the reverse proxy configuration with the software I run.  \nThat being said, I absolutely hate the limited debugging capabilities and the bad documentation. I hope that get's better",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ElevenNotes",
+            "body": "> Caddy vs Traefik, Which Do You Use and Why? \n\nI use Traefik, Nginx and HAproxy. I love Traefik because of its versatility of the backends I can use and because it\u2019s pure IaC. It was also the first proxy to support UDP back in the day and I still use it for UDP traffic today. I have never used Caddy, therefore I can\u2019t say Traefik is better than Caddy or what not. I just like Traefik \ud83d\ude0a.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "VasiliyEnotov",
+            "body": "For me Traefik is kinda better since I'm hosting most of things in docker, so I have integration out-of-box. The only thing that I still can't figure out is path forwarding, so instead of million subdomains my web services lie on subdomain, but different paths(like foo.example.com/torrent, foo.example.com/glance, foo.example.com/jellyfin etc.)\n\nIt's kinda easier in nginx, but setting up a config file for every service is not my solution, I'm too lazy for that",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Lopsided-Painter5216",
+            "body": "I like Traefik better, mainly because it auto-refreshes. I do not know how to word this, but when I would restart a container, I would have to restart caddy too, otherwise it would not resolve. This coupled with auto-updates made using Caddy extremely frustrating for me. Traefik does not have this problem.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "stuardbr",
+                    "body": "I didn't know about this... I never used Caddy, I learned Traffic as the first option and stickers to it.\nOpnSense has a builtin caddy, I will check if this happensb to it too",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "TheAmorphous",
+            "body": "I ran Traefik for years. It was a nightmare to set up 1.9; the documentation was... let's say not great. Then 2.X came out and I spent hours trying to migrate my configuration before giving up. After running an outdated version for over a year I switched to NPM (which took about 5 minutes to set up) and never looked back.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "2CatsOnMyKeyboard",
+            "body": "Caddy because easy.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Virtual_Ordinary_119",
+            "body": "I use traefik 'cause I used it yet on kubernetes, so I could reuse my knowledge",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "FuriousRageSE",
+            "body": "I use Cosmos-server as a reverse proxy/sso instead.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "adamshand",
+            "body": "Currently Caddy, but anything except traefik.  \n\nI've been a sysadmin since the 90s and I've never loathed a piece of software as much as I loath traefik (except maybe mod_perl, maybe).",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "ElevenNotes",
+                    "body": "What\u2019s the key point that makes you angry with Traefik? Something you would change?",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "adamshand",
+                            "body": "I found the combination of yaml configs and meh \u00a0 documentation meant that I could never figure how to configure anything. The docs would give a parameter but it was never clear where, at what l level of indentation, it was supposed to go in the configs.\u00a0\nSo I always ended up googling for working snippets and then one I had something working customising it. \u00a0\n\nThis was years ago so many things have got better.\u00a0\n\nMade me yearn for the \u201csimplicity\u201d and explicitness of Apache. \ud83e\udd23",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "ElevenNotes",
+                                    "body": "I think the biggest problem is that the documentation does not highlight what you can use. For instance you can configure everything in multiple yml files or in a Redis instance or both. That's the tricky bit. This and the concept of routers and services.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "mikemilligram0",
+            "body": "I have used both and while traefik is cool, caddy is just so simple, I don't think I'd ever go back to traefik unless I had to for some reason.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "IngwiePhoenix",
+            "body": "Traefik in Kubernetes, Caddy literally anywhere else. Need a fileserver? Boom. here is a dinit unit that I use in my devcontainer to shotput a webui for a database:\n\n```\ntype = process\noptions = shares-console\ncommand = caddy file-server --listen \":5000\" --root /opt/surrealist\n```\n\nIt's just beautifully simple. =)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "AnomalyNexus",
+            "body": "Traefik cause it comes with k3s so don\u2019t need to learn two things",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Numerous_Platypus",
+            "body": "https://github.com/yusing/godoxy",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "clintkev251",
+            "body": "Traefik, because it integrates natively with k8s",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "coderstephen",
+            "body": "Both currently. Traefik as my ingress controller for Kubernetes, and Caddy as the actual entrypoint into the system (because not all domains lead to a Kubernetes service). Caddy also currently is handling certs for me. \n\nIn the Traefik v1 days I was its biggest fanboy. When Traefik v2 came out with a different and much more verbose config structure it left a bad taste in my mouth. I still use Traefik because its incredibly powerful, but I don't love it. \n\nCaddy is OK but personally don't see the appeal. I'd use old faithful nginx instead if it had ACME support out of the box. I might move to cert-manager + nginx at some point.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Butthurtz23",
+            "body": "I have tried both and settled with Traefik. Nothing wrong with Caddy, I just feel more at home with Traefik. I recommend checking out TechnoTim on YouTube, he covers Traefik with great details and makes it feel less intimidating.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "zockman",
+            "body": "I'm using [Zoraxy](https://github.com/tobychui/zoraxy).  \n\nNginxpm kept crashing every week or so and I didn't even like it very much. So I tried Zoraxy and it hasn't let me down since.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "BelugaBilliam",
+            "body": "Caddy bc it's easy and mTLS is even easier",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "prime_1996",
+            "body": "Traefik for my docker swarm cluster.\n\nCaddy for any service outside the docker cluster as it is a lot easir to setup.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "jesjimher",
+            "body": "Tried Traefik, but I never liked how it \"dirtied\" my docker compose configuration files. I found Caddy much cleaner and easier to use, but to each their own.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "evrial",
+            "body": "whatever has less moving parts and not staying on your way, which is caddy at this time.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "boobs1987",
+            "body": "If it ain't broke, don't fix it. I use Caddy. I don't add services often so the appeal of Traefik hasn't really caught me. With Caddy, it's like 4 lines in my Caddyfile to add a new service usually.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "obleSret",
+            "body": "NPM until it broke, tried Caddy and couldn\u2019t get it to work, ended up using Traefik and really enjoyed it",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "-eschguy-",
+            "body": "Caddy because the Caddyfile is super simple and building it with extensions is pretty simple.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "mdajr",
+            "body": "Caddy\n\nI used Traefik for years and it\u2019s really powerful, just takes a bit of learning. The docker labels makes it super easy to proxy a new service. I did have issues when trying to get some services using cloudflare certs (for CF Proxy) and others using letsencrypt. I couldn\u2019t figure it out and documentation is lacking there.\n\nI realized that as my server is just a hobby, I didn\u2019t need the complexity so I switched to Caddy. It\u2019s just easier overall and I got it to work in that above scenario really easily.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Cynyr36",
+            "body": "Caddy because it was easy to get setup with let's encrypt. It's very very basic right now and only for http(s). I'm not currently trying to proxy random streams.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "AHarmles",
+            "body": "I just asked chatgpt to help me understand traefik as well lol. I like it cause it will guide me through what I need. And I can ask it without fear what questions I have. And it's instant answers. If it's doesn't work. Let it know. Rinse and repeat.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Laniebird91",
+                    "body": "Yeah, I do the same thing all the time lol.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Lemimouth",
+            "body": "Remember that, by default, Caddy and Traefik generate an Let's Encrypt certificate for every service they \"know\" (e.g., [*immich.mydomain.com*](http://immich.mydomain.com), [*paperless.mydomain.com*](http://paperless.mydomain.com), etc.). These certificates are publicly listed on [crt.sh](https://crt.sh), which can increase your attack surface",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "dbrenuk",
+            "body": "I've been using Caddy for quite a while now. I love it. The config is simple and works well with Let's Encrypt and Cloudflare via the DNS-01 challenge type. I configure everything with labels on each container using the caddy-docker-proxy plugin. I also very recently began maintaining a container image which has the Cloudflare DNS and caddy-docker-proxy plugin included; supporting amd64, arm/v7, arm/v6 and arm64 devices: [https://github.com/dbrennand/caddy-docker-proxy-cloudflare](https://github.com/dbrennand/caddy-docker-proxy-cloudflare)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "the-head78",
+            "body": "I have used traefik in the past, easy to include If you do docker from Compose files.\n\nCurrently using Cosmos Cloud which is much more than you are asking for...you should Check it Out.\n\nIf you are only looking for a proxy replacment i recently found a new Tool: *Zeroxy*. Nice Features and you can administrate it from the web Interface.\n\nAnd If you want Something with authentikation, did you know that authentik also Has a Reverse Proxy included (but without LE certs)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "No_Awareness4461",
+            "body": "I use caddy because it\u2019s extremely simple and I can version control my Caddyfile in a git repo so easily too. Honestly I tried reading through traefik\u2019a docs and couldn\u2019t understand how to replicate my caddy setup either, which is a single LXC container running caddy that proxies all my other vms/lxc containers\u2019 services - so, a distributed system",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "KremasZoe",
+            "body": "Traefik once I took the time and read the documentation",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "lesigh",
+            "body": "Traefik + aurhelia = easy  way to expose with auto https",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Mochaka",
+            "body": "I use godoxy, so much easier to config than traefik, caddy or NPM. Amazing piece of software.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "tartarsauceboi",
+            "body": "NPM anyone? No? Just me? Cool.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "stroke_999",
+            "body": "Traefik is more complicated, slower and it is arount 150mb. Caddy is as fast as nginx but with memory safe language, it is simple and it is around 50mb.\nHowever I use traefik because I'm on kubernetes and k3s ship traefik by default.\nI like caddy a lot more.",
+            "score": -4,
+            "replies": [
+                {
+                    "author": "ElevenNotes",
+                    "body": "> slower \n\n> Caddy is as fast as nginx\n\nCan you provide a benchmark?\n\n> but with memory safe language\n\nBoth are written in Go. What makes you think Caddy is more memory safe than Traefik when they both use the same programming language?",
+                    "score": 8,
+                    "replies": [
+                        {
+                            "author": "stroke_999",
+                            "body": "No sorry, it is memory safe as opposite as nginx. \nFor the performance I don't have the benchmark now, I have seen a video on YouTube. You can search for it. However for the common people they are all the same.",
+                            "score": -2,
+                            "replies": [
+                                {
+                                    "author": "ElevenNotes",
+                                    "body": "A benchmark should be a github repo with the benchmark scripts and results so anyone can run and verify it with the same settings. A Youtube video is not a benchmark but a *trust me bro*.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

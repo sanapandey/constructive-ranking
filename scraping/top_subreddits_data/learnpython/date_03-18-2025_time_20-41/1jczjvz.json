@@ -1,0 +1,38 @@
+{
+    "title": "Ask Anything Monday - Weekly Thread",
+    "author": "AutoModerator",
+    "subreddit": "learnpython",
+    "rank": 0,
+    "score": 5,
+    "upvote_ratio": 0.86,
+    "num_comments (reported by reddit)": 5,
+    "url": "https://www.reddit.com/r/learnpython/comments/1jczjvz/ask_anything_monday_weekly_thread/",
+    "id": "1jczjvz",
+    "selftext": "Welcome to another /r/learnPython weekly \"Ask Anything\\* Monday\" thread\n\nHere you can ask all the questions that you wanted to ask but didn't feel like making a new thread.\n\n\\* It's primarily intended for simple questions but as long as it's about python it's allowed.\n\nIf you have any suggestions or questions about this thread use the message the moderators button in the sidebar.\n\n**Rules:**\n\n* Don't downvote stuff - instead explain what's wrong with the comment, if it's against the rules \"report\" it and it will be dealt with.\n* Don't post stuff that doesn't have absolutely anything to do with python.\n* Don't make fun of someone for not knowing something, insult anyone etc - this will result in an immediate ban.\n\nThat's it.",
+    "comments": [
+        {
+            "author": "theobserverca",
+            "body": "Looking to learn Python to learn backtesting and algo trading. Any good resources/advice anyone can share? Thanks",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "actinium226",
+            "body": "What's the modern way to access rendered web pages with Python? I'm working on a project that uses selenium webdriver, and it works, but I wonder if there are other alternatives out there, preferably ones that don't require having Chrome installed. I heard playwright can be used for this sort of thing?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "dragon_calipiter",
+            "body": "i need help to use ai in python",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Jojofan6984760",
+            "body": "Hopefully a simple question: I'm using beautifulsoup4, and it keeps giving me a warning that I'm not specifying the parser to use, even though I am. Am I specifying the arguments incorrectly or something?\n\n    from bs4 import BeautifulSoup\n\n    with open(\"index.html\") as fp:\n        soup = BeautifulSoup(fp, \"lxml\")\n\n    soup = BeautifulSoup(\"<html>data</html>\")\n\nEDIT: It is choosing to use lxml, so I know that's installed correctly at least, I just don't want it to constantly warn me that it's selecting a parser even when I'm specifying the exact one to use.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

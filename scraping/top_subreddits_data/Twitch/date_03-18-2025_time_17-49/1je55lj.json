@@ -1,0 +1,80 @@
+{
+    "title": "Starting over with OBS?",
+    "author": "OffCamber24",
+    "subreddit": "Twitch",
+    "rank": 14,
+    "score": 1,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 10,
+    "url": "https://www.reddit.com/r/Twitch/comments/1je55lj/starting_over_with_obs/",
+    "id": "1je55lj",
+    "selftext": "Howdy friends. Long story short, my PC died and I am setting up a new one soon. Unless I somehow backed up all my OBS stuff somewhere (almost certain that I didn't), I am going to be starting from scratch. I stream for fun to basically nobody or the occasional friend or two, so my scenes setup is pretty basic and I will be working on new overlays for myself over time. I probably could pull the drive from my old computer and recover everything, but honestly I am kinda looking at this as a chance to start fresh and update my stream and workflow because I am going to be on a much much nicer and more powerful setup. Not looking to quit my day job and stream full time or anything, but still would like the streaming that I do to look and sound as good as it can.\n\nI am familiar enough with OBS because it is what I have used since I started streaming, so unless someone makes a really strong case for Streamlabs or some other software, I will probably stick with OBS.\n\nHowever, I set up OBS a few years ago and I haven't tinkered with it unless/until something broke and I had to figure out a fix.\n\nMy questions to y'all are, what sort of tips or tricks of shortcuts do you now know about/use with OBS that you wish you had known when you were first setting it up? Similarly, are there any newer plugins or features to OBS that have streamlined things like keeping music off of VODs? I remember that being a big headache for me when I first started streaming. Lastly, is there a way to test you configuration (audio levels from mic/game/discord, camera positioning, lighting, video quality, etc) without just doing a stream and watching the VOD? Is there a way to do a private stream, or do you just do a recording and watch that before you go live with a new setup?\n\n  \nThanks a lot for any advice or input you might have. If there are any suggestions or thoughts you have that I didn't ask about, feel free to chime in with them, too. I am trying to embrace this restart with a positive mental attitude rather than a chore, and learning new things about OBS and streaming that would help improve my stream would definitely make it more fun and exciting for me.\n\n",
+    "comments": [
+        {
+            "author": "StreamsOnTwitch",
+            "body": "I did the same a couple months ago - congrats on starting fresh! The biggest struggle I had was finetuning the microphone and audio filters to sound the best that they could. Other than that - It's hard to say what you should use since I'm not sure what exactly you want out of your channel. I know this isn't a profound thing to suggest, but maybe try YouTubing some addons that may reflect you needs? Just be careful in not downloading something gimmicky or malicious. \n\n  \nGood luck and have fun!",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "OffCamber24",
+                    "body": "I will definitely end up in the YouTube rabbit hole again I am sure. It's what got me through the initial setup and troubleshooting issues. I guess the general thing I am going after here are \"vibes\" rather than advice or help with something specific. OBS seems like a pretty powerful tool and because I just did a basic \"set it and forget it\" type thing I bet there's a lot of stuff I could be doing with it that I don't even know about, but because I don't know what I don't know, I don't know what I need to go learn about, which is why I was wondering if people who have more experience might have some specific ideas or input. Kinda of a niche question, I suppose.\n\nThanks!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "darkchaos916",
+            "body": "Most annoying thing for me. Getting an EQ just right for my mic. Took a couple days to get it just right so it sounds natural and clear. I\u2019m thinking of upgrading mic but I really don\u2019t wanna deal with that again. Should started with wave link software for eq long ago though. By far the easiest and real time mic audio eq and settings. I used to use reaper plugins iirc. What a hassle I had this faint hum anytime mic would become active after noise gate here find out the EQ settings the whole time. I learned some audio tricks throughout the years to bring my natural voice up as it\u2019s soft to begin with. So either way I can do it now but with a new mic I\u2019m not to sure if I would need to change it again. \n\nOverlays another thing took me hours to code on streamelements and danvici. Not as hard as I thought just had font and effect coding html/css. Which I need to redo myself as it\u2019s old now and need to upgrade to a better design at least my starting scene.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "OffCamber24",
+                    "body": "Oh thank you for the reminder on mic setup! IIRC I had my mic run to OBS for filters and gate and then run that filtered and gated mic via a virtual cable to Discord so I would have that same quality audio in Discord as I did on the stream. Discord's noise gate is pretty spartan and my mic picks up way more desk/background noise than I liked. I definitely will look into simplifying that. \n\n  \nDefinitely excited to get home and get to work on all this :)",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "darkchaos916",
+                            "body": "Good luck! It is fun. Hah. I\u2019m sure it\u2019ll be worth it. \n\nFor me I just don\u2019t think it entertaining enough. So monotone not sure if people like that. How I am though. I use VB-Cable for the discord. You know of better one?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "OffCamber24",
+                                    "body": "I will definitely check it out. Didn't realize it was out there because I don't have any Elgato products, but it looks like it will be perfect for what I need.\n\nAs a cyclist, I know all about marginal gains, so I figure I might as well apply it to my streaming. Try to get the most out of what I have. \n\nAppreciate the input!",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "squeamish_cactus",
+            "body": "Theirs tons of videos about things on Studio OBS including their website threads about plugins  and settings.  Its worth looking over. Since you noted you worked with it before, you should be aware of their website and where to look for info, instead of short cutting and asking on here on what other's use since everyone has a different experience or plugin they use that may work for them, where others it won't.  Trial and error vs shortcutting and not doing the homework.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "OffCamber24",
+                    "body": "Well, the whole point of me coming here was specifically to hear different user experiences because my only personal experience is setting it up on my own by doing the homework a few years ago.\n\nI was hoping to hear some different viewpoints and use cases and inputs from actual this time rather that just trying to rebuild it exactly as I had it before.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "squeamish_cactus",
+                            "body": "experiment. your experience will vary greatly from others. They all know the outcome. User experience varies. If it failed for you (seems like it) years ago, then don't go down the same rabbit hole. OBS has amazing plugins and other sites have dumb downed it so much compared to when I first started streaming and using obs, that's its like plugging in a tv on how easy it is to do things now.  Research and you'll be amazed what grok or google can do for you.  Having the best gear and setup doesn't mean instant success.  Trust me, I know this very personally. I've spent a ton of money on my current setup.  Since you've left streaming, literally over a million + people have started \"streaming\" and now more so then ever,  twitch is SUPER HIGHLY SATURATED with people doing what you are about to do.  Start a new journey or re do a journey on streaming.  Most will fail, some will make a little money here and there. The whales are already out in the sea as far as capturing ccv so if you thought a few years ago was a tough market, ha, you better seatbelt in. It's a whole different beast today.  GL",
+                            "score": 0,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Jaybonaut",
+            "body": "Stick with OBS.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

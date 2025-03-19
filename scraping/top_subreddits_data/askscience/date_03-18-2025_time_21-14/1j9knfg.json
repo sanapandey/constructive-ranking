@@ -1,0 +1,84 @@
+{
+    "title": "Why do MRI images of a fetus feature dark spots in the eyes, resembling pupils?",
+    "author": "Ghosttwo",
+    "subreddit": "askscience",
+    "rank": 12,
+    "score": 65,
+    "upvote_ratio": 0.77,
+    "num_comments (reported by reddit)": 18,
+    "url": "https://www.reddit.com/r/askscience/comments/1j9knfg/why_do_mri_images_of_a_fetus_feature_dark_spots/",
+    "id": "1j9knfg",
+    "selftext": "I've seen images [like this](https://i.imgur.com/tgOJvyE.jpeg), and although it superficially resembles the pupil, I don't think that's what it is.  I'm assuming it's the lens itself, or maybe the displacement of water made by said lens.  Could also be the optic nerve, or water in the cornea with the white surrounding being tissue.  An answer that explains how tissue compositions affect output color would be...illuminating.",
+    "comments": [
+        {
+            "author": "monkeyselbo",
+            "body": "The MRI image you showed is a slice in what we would call the coronal plane, which is a vertical plane parallel to the front surface of the body.  The dark area in the eye is certainly not the pupil, because of the phenomenon of volume averaging.  Each MRI slice actually has a thickness to it, and voxels (the 3D equivalent of a 2D pixel) are averaged into a 2D layer.  Since the iris around the pupil is extremely thin, although it might be dark on this type of MRI image (T2 weighted, in which water is bright), with all of the bright voxels anterior and posterior to the iris, you wouldn't even see the iris.\n\nSo what is the dark spot?  It is likely the lens, which because of a low water content would be dark on T2-weighted images.",
+            "score": 106,
+            "replies": []
+        },
+        {
+            "author": "grodon909",
+            "body": "It's just the lens of the eye. You can pull up some axial scans, and adults are pretty similar.\n\nSource: am neurologist.\u00a0\n\nEdit: sorry, I put a quick placeholder here while I was on my phone. At a computer now.\n\nLong story kinda short: like the other, more physics minded people have mentioned, MRIs work by measuring energy from the relaxation of protons or something similar, usually hydrogen (these look like T2 sequences, I think), sometimes we use contrast, some sequences measure magnetic fields produced by stuff like ferritin, hemoglobin, and calcifications; we can leave that to the physics folks to describe better though.\n\nBut more to your actual question, those are the lens of the eye. They produce a different signal that the surrounding fluid filled cornea, so you get that characteristic appearance. It looks funny because babies are small--so you get the whole face pretty easily-- and in an abdomen surrounded by mom's organs so everything lucks weird.\n\nNo need to take my word for it though. The obvious solution here is to look at it from a different angle, so we can do that.\n\n[https://radiopaedia.org/cases/normal-mri-orbits-2](https://radiopaedia.org/cases/normal-mri-orbits-2)\n\nAh, radiopedia, my beloved.\n\nThis is a series of MRI images. The first one you're looking at is a T2 axial sequence focused on the orbits (eyes). You can see those black spots surrounded by white. If you cross reference it with an anatomy text or picture, you can see that it's just the lens. Next, click on the coronal T2 sequence and scroll through it. Towards the beginning of the series, you'll see something familiar...\n\nRegarding the other hypotheses:\n\nTechnically it's not super wrong to say pupil. But the pupil is really just a hole, and you can't actually see it on the images you posted. It's not the cornea or water. The hint here is that the brain is surrounded by a water-like substance called CSF. The CSF is white here, so you know that white stuff kind of water-like, in lay terms. It's not the optic nerve, that's more towards the very back of the eye, and you would expect to see structures that you should see in the skull, like the muscles that move the eye, or the sinuses, at least in this coronal view. \n\nI hope this helps, let me know if there are other questions.",
+            "score": 38,
+            "replies": []
+        },
+        {
+            "author": "Alwayssunnyinarizona",
+            "body": "I don't understand the physics well enough, but the image is a T2 weighted MRI, where fluid appears white. The aqueous humor of the eyes then appears white, while the lens is more dense and appears darker, standing out against the whiter background.",
+            "score": 18,
+            "replies": []
+        },
+        {
+            "author": "bregus2",
+            "body": "As a chemist, I am more used to NMR spectroscopy (which is the same tech, just for chemical molecules).\n\nMRI almost exclusively measure the protons (an NMR can also do carbon or nitrogen, but you need much longer exposure times for those) in the patient's body. Depending on the chemical surrounding of protons, they will give different signals, which appear in different greyscales in an MRT (depending on other factors, like pulse techniques and how the output signals are processed).\n\nSo the black spots point at protons which have a different surrounding than the surrounding tissue. If that points at those black spots being the lens, that I don't have enough knowledge to interpret.",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "AuntieMarkovnikov",
+                    "body": "MRIs measure the difference in relaxation times, T1 or T2, not chemical shifts - just to be clear.",
+                    "score": 18,
+                    "replies": []
+                },
+                {
+                    "author": "UnamedStreamNumber9",
+                    "body": "Medical imaging expert here. MRI\u2019s measure density of atoms with odd number of protons; but the processing of the images are tuned to the resonance of specific odd number proton atoms. Almost all mri images you see are tuned to image hydrogen. Typically what you\u2019re seeing is the density of water in different tissues. Eyeballs have a larger homogeneous volume of tissue with a consistent water content - eg the aqueous humor in the eyeball.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "theproudheretic",
+                            "body": "So it's just the eyeball juice?",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "UnamedStreamNumber9",
+                                    "body": "Yep. But mris \u201cslice\u201d thru the density maps. The \u201cpupils\u201d are slices thru the forming corneas with the juice inside",
+                                    "score": 5,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Germanofthebored",
+                            "body": "Since MRI is just a record of the relaxation times of an NMR signal. The density (#nuclei per volume unit) is secondary. Also, it's not the number of protons in a nucleus, but the overall magnetic momentum of a nucleus. Hydrogen has a signal, as does tritium (H3), but not deuterium (H2). C12 doesn't have a signal, but C13 does. Same for N14 and N15. F17 has a signal",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "random-dent",
+            "body": "Why don't you think it's the pupil? It could be the pupil. The pupil is just a hole. There's nothing there. The optic nerve doesn't go to the anterior of the eye. In general MRIs show the density of protons, which roughly but doesn't exactly match the density of the stuff you're imaging. It could also be the entirety of the anterior chamber, the aqueous humor of which may have a lower density than the vitreous humor of the posterior chamber.\u00a0\n\nI will say those photos look kinda weird, and I wonder how much reconstruction is happening, because there are some things I wouldn't expect to see in the same slice - like the lips and a huge portion of the brain, but this could also just be an artifact of the random positioning of the fetus in respect to the orientation of reconstructed slices. A radiologist could obviously comment a lot more. \u00a0Or an ophthalmologist.\u00a0",
+            "score": -7,
+            "replies": [
+                {
+                    "author": "PM_ME_UR_ROUND_ASS",
+                    "body": "It's definitely the lens, not the pupil - the pupil is just a hole that wouldn't even be visible on this type of MRI due to volume averaging (the lens appears dark because of its low water content in contrast to the surrounding fluid-filled structures).",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

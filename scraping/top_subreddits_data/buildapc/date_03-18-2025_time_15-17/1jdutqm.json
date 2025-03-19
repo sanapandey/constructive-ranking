@@ -1,0 +1,931 @@
+{
+    "title": "9070XT or 5070TI for 1440P?",
+    "author": "TransOshawott",
+    "subreddit": "buildapc",
+    "rank": 6,
+    "score": 147,
+    "upvote_ratio": 0.83,
+    "num_comments (reported by reddit)": 145,
+    "url": "https://www.reddit.com/r/buildapc/comments/1jdutqm/9070xt_or_5070ti_for_1440p/",
+    "id": "1jdutqm",
+    "selftext": "I'm upgrading from a 3070ti, mostly due to the unfortunate 8GB VRAM. Budget isn't too much of a concern, so the price gap doesn't bother me much(its only about $30 usd between them here). My main concern about the 9070XT is the lack of FSR4 support, I've tried using FSR3 a bit and it just isn't enough for me, FSR4 looks good but lacks support in a lot of titles and I'm not sure how many older titles are going to update to get it. Going Nvidia seems a bit worrying to me though, from what I've read on the various PC subreddits here, I'm taking a massive gamble on having missing ROPS and the power connector is unsafe, I leave my PC idle often when I'm not home so that is a concern for me.   I'm pairing whatever I get with a R7 5800x.",
+    "comments": [
+        {
+            "author": "x3ffectz",
+            "body": "If money is no problem, 5070Ti has more features and shit that will make your life easier. Better technology. However if money doesn\u2019t grow on trees for you, the 9070xt will perform close in most scenarios for a lot less money",
+            "score": 223,
+            "replies": [
+                {
+                    "author": "RedRaptor85",
+                    "body": "He says that where he lives, the difference between them is $30. In that case, the only valid response is the 5070Ti. 99% chance the card will be fine, and if not, he can exchange it.",
+                    "score": 160,
+                    "replies": [
+                        {
+                            "author": "PCLF",
+                            "body": "If that's the case he should buy both and sell me the one he doesn't want for the price he paid for it.  There is zilch available where I live.",
+                            "score": 26,
+                            "replies": []
+                        },
+                        {
+                            "author": "Wild-Wolverine-860",
+                            "body": "5070ti is a lot quicker once ray trace comes into play also it's only 300w approx so it's not going to melt cables.",
+                            "score": 4,
+                            "replies": [
+                                {
+                                    "author": "Drumbas",
+                                    "body": "The 5070Ti at msrp really would be a banger of a card. Its so efficient for the performance it pulls off and it has almost no functional issues.",
+                                    "score": 23,
+                                    "replies": [
+                                        {
+                                            "author": "Striking-Carpet131",
+                                            "body": "Can confirm it is. I own one. Sadly the pricing just fucks it over. Got one built for me for 2300 euros, which was the cheapest option.\n\nBuilding it myself would have cost me over 2500 euros. Shits weird nowadays. I'm guessing the company that did it for me got the card at MSRP and actually didn't overprice it tremendously hard. \n\nPaired it with a 7800x3d. Runs like a goddamn dream. Nvidia tech is also just simply great.",
+                                            "score": 8,
+                                            "replies": [
+                                                {
+                                                    "author": "JChoate2",
+                                                    "body": "Exactly why I went prebuilt for my 5080 setup, crazy that it was cheaper and actually available. Getting a PNY 5080 was a plus, too, since I hear their support is great. Although there haven't been any issues.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Striking-Carpet131",
+                                                            "body": "Yeah it's insanity hahaha. Was very happy I found the website I got it at. Was about to spend the same on a 4070 super build, but i was debating between that one and the 7800xt. Then stumbled upon the pre-build i got now. \n\nMine is a Inno3d though. Not entirely sure how their support is. But I called the site to make sure they were legit, and their support is amazing too. So if there's ever any issues imma just call them haha.",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "JChoate2",
+                                                                    "body": "Exactly, I hadn't upgraded since like 2011, so I was ready to build something decent, but the more I looked at costs and availability I got the 5080, i9-14900kf with 64gb ram and more storage than I was planning on for less and within 2 weeks of ordering.",
+                                                                    "score": 0,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "Stratostheory",
+                                                    "body": "Not the first time it's been like that. 20 and 30 series were the same way for like the first year after launch because of a Crypto Bubble and Covid",
+                                                    "score": 0,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "jatet2",
+                            "body": "How do you check if it\u2019s fine out of interest?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "RedRaptor85",
+                                    "body": "Because it's not an issue for most of the cards being sold. The power cable should not be an issue in any case with its power draw, and most of the 5070Tis do not have the rops issue. And even if he gets one missing rops, he can exchange it for another one.\n\nEdit: If you want to know the actual tool, GPUz for checking the rops.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "jatet2",
+                                            "body": "Thanks, receiving my 5070 ti in a few days",
+                                            "score": 2,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "FlowJockey",
+                    "body": "Just out of curiosity, how would a 5070TI make one\u2019s life \u201ceasier\u201d compared to a 9070XT?",
+                    "score": 8,
+                    "replies": [
+                        {
+                            "author": "x3ffectz",
+                            "body": "Tech availability, such as dlss, RT.",
+                            "score": 12,
+                            "replies": [
+                                {
+                                    "author": "cool_slowbro",
+                                    "body": "Insane that this got hit with so many downvotes.",
+                                    "score": 11,
+                                    "replies": [
+                                        {
+                                            "author": "gamas",
+                                            "body": "Judging from my own experience entering the Reddit hornet next, Reddit hivemind really has a hatejerk against upscalers.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "QuantumProtector",
+                                                    "body": "unless it's FSR 4",
+                                                    "score": 1,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "Joe64x",
+                                                    "body": "It's funny cos it's insanely cool tech. It's not upscalers' fault if devs use it as a crutch and if you hate the minimal difference to native res that much, you can always turn it off 4Head. As it is, it's the closest we can get to \"free\" performance.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "x3ffectz",
+                                            "body": "This post is hilarious I say the same thing across 2 comments one gets smoked with downvotes one gets upvoted lol",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "PotusThePlant",
+                                    "body": "amd has fsr4 and they also have ray tracing...",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "LeoDaWeeb",
+                                            "body": "dlss is in more games and dlss transformer model sepicifically has better quality than fsr4 and RT is more performant on Nvidia. RTX HDR is godsend also if you have an hdr monitor.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "PotusThePlant",
+                                                    "body": "DLSS is in more games because nvidia pays developers for exclusivity. It's a scummy practice and you're shooting yourself in the foot as a consumer if you support it.\n\nRegarding the quality, FSR4 is now very close to DLSS 4. [Here's a review of the technology](https://youtu.be/H38a0vjQbJg?si=ToIjizhoKUf1Fjw6).\n\nJust like with every proprietary technology Nvidia came up with, DLSS will end up being replaced by a manufacturer agnostic alternative such as FSR or XeSS.\n\n>RT is more performant on Nvidia. RTX HDR is godsend also if you have an hdr monitor.\n\nI could not care less about ray tracing. Motion fluidity (aka fps) is far more important to me than \"realistic\" lights. The performance penalty for rt is too high and the reward too low.",
+                                                    "score": 3,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "x3ffectz",
+                                            "body": "Fully aware\u2026.. and Nvidia outperforms AMD at both of these, that\u2019s why I mentioned it",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Beginning_Cut_8325",
+                                    "body": "So FSR 4 just isn't a thing to you?",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "x3ffectz",
+                                            "body": "Who said that \ud83d\ude02 I use a 9070xt and fsr4 myself and it is great but it still falls behind DLSS. I\u2019ve tried both with my own eyes on different cards and FSR4 still has bugs",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Fredasa",
+                            "body": "In addition to the DLSS and RT already noted, there are more subtle advantages, such as the basic reality that if you find you want to mod a game in a certain way, and that certain way depends on one clever coder making the mod in his spare time, there's a near 100% chance he made it for Nvidia cards and a near 0% chance AMD was specifically supported when he slapped it together.  You can think of the existence of Nvidia Profile Inspector, and the lack of a similar app for AMD, as a microcosm of that reality.",
+                            "score": -38,
+                            "replies": [
+                                {
+                                    "author": "sSTtssSTts",
+                                    "body": "Huh??\n\nMost game mods don't care one bit out what GPU you've got.  \n\nSo long as the base game itself works with your card the mod will to pretty much all the time.  \n\nThe only games that genuinely could be said to have real issues with AMD cards these days are those that \"require\" ray tracing and even those have fall back renderers that will work just fine with cards that have slow ray tracing.",
+                                    "score": 34,
+                                    "replies": [
+                                        {
+                                            "author": "Fredasa",
+                                            "body": "Let me give you an example.  Visit [this page on Special K compatibility](https://www.pcgamingwiki.com/wiki/List_of_games_compatible_with_Special_K) and search for Nvidia.\n\nWhy is Nvidia the only option for those cases?  Is it because only Nvidia can do it?  Is it because Kaldaien doesn't have unlimited free time and decided to focus on the GPU type that 90% of people (likely including himself) own?  It doesn't matter\u2014the bottom line is that if you own AMD then you might beat your head against that lack of compatibility.\n\nIt's... _really_ kind of weird how people seem to feel this is somehow not a thing.  My brother bitches to me about it all the time because he keeps ending up with an AMD GPU for this or that reason.  Me?  I like using ENB and AA together in _Fallout New Vegas._  This is only possible if you plug in a certain AA \"compatibility bit\".  And doing so is only possible with Nvidia Profile Inspector\u2014not necessarily because it's literally something AMD can't do, but more because development on AMD's counterpart to Profile Inspector is long abandoned, due, one presumes, to the comparatively nonexistent market.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "cool_slowbro",
+                                                    "body": "A very recent example is FF7 Rebirth, where AMD users are straight up missing an AA option. Source: 6900XT user.",
+                                                    "score": 7,
+                                                    "replies": [
+                                                        {
+                                                            "author": "gamas",
+                                                            "body": "I find it really weird how these devs miss AMD support on ports of console games of all things. Given both the PS5 and Xbox Series X use RDNA... Like they surely should already have AMD's tech stacks there because they are literally using them for consoles.",
+                                                            "score": 3,
+                                                            "replies": []
+                                                        },
+                                                        {
+                                                            "author": "Fredasa",
+                                                            "body": "That's a whole new caliber of laziness, but I guess it's evidence that if a studio is going to be needlessly lazy, they may still partition that laziness and favor the majority if it's a question of GPU support.\n\nAlso, f--- TAA.",
+                                                            "score": 0,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "sSTtssSTts",
+                                                    "body": "Your example of choice is Special K?!\n\nThat thing is basically a conglomerate of half assed maintained and half assed produced attempts to modernize or modify the game engine itself and NOT what is meant typically by 'game mod'.\n\nIt also normal for it to not run properly on ANY GPU you use either.  For every person you'll find saying it works great with X you'll find another saying that its terrible.  Because its all a mess and not properly supported or done well in the first place.  And yes I've used it and other attempts to modify game engines before.  Most of them suck badly unfortunately.\n\nHeck even doing a search there were only 6 instances of NV being recommended or NV only for that!  This is out of many games too!!",
+                                                    "score": 0,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Fredasa",
+                                                            "body": "> That thing is basically a conglomerate of half assed maintained and half assed produced attempts to modernize or modify the game engine itself and NOT what is meant typically by 'game mod'.\n\nBro, I get that you don't like being proven wrong but dissing Special K is a _hell_ of a take.  If you ignore absolutely everything else about it, Special K is the only way to play a game on PC borderless and still get the lowest possible input latency.  _The only way._  The stuff it enables beyond that (Tales of Vesperia is almost unplayably stuttery without SK stepping in to fix its many rendering bugs) is absolutely legion but yeah, as a straightforward item that benefits literally everyone, that one is hard to beat.",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "sSTtssSTts",
+                                                                    "body": "Its not a hell of a take its a fact.\n\nThe thing is a well meaning attempt to improve on games that aren't being well maintained but that doesn't make it any less of a half assed hack job at best.\n\nTheir forums are FULL of complaints and people begging for help for a reason dude.\n\nAnd that is because its buggy and runs lousy on everything.  Hell look at your own link and count how many games crash with Special K or have numerous unfixed bugs or caveats necessary to make it run.\n\nSince I doubt you'll do it:  a quick count shows over 75 games on that list are blocked, have major issues, or crash no matter what with Special K.  This is ignoring the list of caveats even the \"perfect\" or \"good\" games have.  Very few mention anything about running on Nvidia only.",
+                                                                    "score": 4,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "MMGoods9865",
+                    "body": "Can you elaborate on the 'make your life easier' part?",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "x3ffectz",
+                            "body": "the availability of DLSS & FG. FSR4 is great but not in many games. And it still falls below DLSS. Ray tracing 9070xt falls behind too.",
+                            "score": 9,
+                            "replies": [
+                                {
+                                    "author": "gamas",
+                                    "body": "In AMD's defence - it's driver level solution for FG is reasonably good.",
+                                    "score": 7,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "PotusThePlant",
+                                    "body": ">FSR4 is great but not in many games\n\nSame goes for DLSS4. If you disregard the version, most games that have dlss also have fsr (and xess in many instances). Some only have dlss because nvidia paid them for that, which sucks but hey, what else can you expect?\n\n>Ray tracing 9070xt falls behind too.\n\nHow many people actually use this? For example, I'll take no frame generation and no ray tracing but 100+ fps any day of the week.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "LeoDaWeeb",
+                                            "body": "\\> Same goes for DLSS4\n\nThis is irrelevant. Historically dlss has been in more games but even if dlss4 and fsr4 end up being in the same amount of games, dlss4 is still better so for the same price they should go for Nvidia.\n\n\\> How many people actually use this? For example, I'll take no frame generation and no ray tracing but 100+ fps any day of the week.\n\nThis is also irrelevant. There are clearly people that care about it and if you can have better RT performance for the same price why not go for it?",
+                                            "score": 0,
+                                            "replies": [
+                                                {
+                                                    "author": "PotusThePlant",
+                                                    "body": ">even if dlss4 and fsr4 end up being in the same amount of games, dlss4 is still better so for the same price they should go for Nvidia.\n\nHARD disagree. One of those is completely proprietary to 1 vendor, the other one isn't. I will always support a solution for all gamers (like fsr or xess) over a prorpietary one that a monopoly has. DLSS is not even much better vs FSR4.\n\n>There are clearly people that care about it and if you can have better RT performance for the same price why not go for it?\n\nAt the same price? Sure, go for it. If these cards were at MSRP (meaning, a 25% price difference) then no. I wouldn't spend $150 for an effect that will eat up half of my frames for \"realistic\" lights in a handful of games I'll play.",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "MMGoods9865",
+                                    "body": "Ah I see. I was thinking you meant for productivity or AI etc.\nThank you.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "x3ffectz",
+                                            "body": "That too. Nvidia smoke AMD cards at productivity from memory",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Serpidon",
+                                    "body": "I saw a recent video where the new FSR4 was superirior to DLSS? I know I saw that the 5070 was much better at ray tracing though.",
+                                    "score": 0,
+                                    "replies": [
+                                        {
+                                            "author": "x3ffectz",
+                                            "body": "it\u2019s on par with dlss, picture quality still has bugs etc. I\u2019ve tried them both in person not on a video and fsr4 doesn\u2019t look as good as dlss. Don\u2019t get me wrong fsr4 is incredible upgrade from 3. And it performs very well",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "dacoozieben",
+                    "body": "I think 9070xt are all around $800-900 mark which is fairly close to 5070ti, you will barely found a 9070xt at msrp or close to it",
+                    "score": -3,
+                    "replies": [
+                        {
+                            "author": "PCLF",
+                            "body": "If you could actually find a 5070ti for MSRP, that is.  Or just ... find one.",
+                            "score": 8,
+                            "replies": [
+                                {
+                                    "author": "KarnusAuBellona",
+                                    "body": "My local computer store has a few in stock for 899\u20ac",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "schrodingersOdderon",
+                                            "body": "link?",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "RedRaptor85",
+                                                    "body": "Subbing to the thread only for this. Although I suspect it will be the non-Ti version...",
+                                                    "score": 1,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "KarnusAuBellona",
+                                                    "body": "They don't have an online store, I said local didn't I?",
+                                                    "score": -2,
+                                                    "replies": [
+                                                        {
+                                                            "author": "schrodingersOdderon",
+                                                            "body": "what IT shop doesn't have a online presence? I'm calling BS, you cant find a 5070ti for 899eur at this time",
+                                                            "score": 8,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "KarnusAuBellona",
+                                                                    "body": "Sure? Like what even are you on about? I would've bought one if I didn't get a 4080s a few months back\n\n[https://www.jimms.fi/fi/Product/Show/209110/prime-rtx5070ti-o16g/asus-geforce-rtx-5070-ti-prime-oc-edition-naytonohjain-16gb-gddr7](https://www.jimms.fi/fi/Product/Show/209110/prime-rtx5070ti-o16g/asus-geforce-rtx-5070-ti-prime-oc-edition-naytonohjain-16gb-gddr7)\n\nHere is the link to my countrys biggest computer store, bit more expensive but not far off, 930",
+                                                                    "score": 1,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Uniqalen",
+                                                                            "body": "And the one actually in stock is 1179\u20ac lmao",
+                                                                            "score": 4,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "f1rstx",
+            "body": "For 30$ don\u2019t even think - 5070ti is better card",
+            "score": 39,
+            "replies": []
+        },
+        {
+            "author": "Charrat",
+            "body": "The 9070 XT and 5070 Ti are both very capable 1440p cards.\n\nSome considerations - 9070 XT is about equal in raster performance but the 5070 Ti is about 20% better in ray tracing performance and 40% better in path tracing performance. AMD's FSR 4 is on par with Nvidia's DLSS in performance but DLSS is way more widely available. The 5070 Ti is a more energy efficient card although AMD has closed the gap this generation.\n\nIf you care only about raster performance, buy whichever card is cheaper.\n\nIf you care about ray tracing performance, buy the 5070 Ti unless you can get the 9070 XT for 20-30% less AND you can stomach 20-30% less ray tracing performance.\n\nI personally bought the 9070 XT because it was available to purchase (5070 Ti was not) and I was able to get it near MSRP leading to at least a 20% price difference.",
+            "score": 72,
+            "replies": [
+                {
+                    "author": "wiseokra483762",
+                    "body": "9070XT is at 303W constantly while playing COD at 1440p, while my 5070 ti I switched to is at 200W average, they did not close the gap",
+                    "score": 12,
+                    "replies": [
+                        {
+                            "author": "Intranetusa",
+                            "body": "AMD closed the efficency gap with the 9070 regular which has the same energy to performance efficency as the 5070 Ti. The 9070 XT is like the 5080...power hungry and relatively more inefficient than lower models.\n\n\nhttps://www.techpowerup.com/review/asus-radeon-rx-9070-tuf-oc/42.html",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "bob-",
+                                    "body": "Yet they're talking about the 9070 xt in this thread so how is it relevant that the regular 9070 closed the gap?",
+                                    "score": 8,
+                                    "replies": [
+                                        {
+                                            "author": "Intranetusa",
+                                            "body": "One of the posts in the chain I was responding to seemed like it was talking about the video card generation in general. The AMD RDNA 4 architechture is roughly as efficient as the Nvidia Blackwell architechture in general. AMD has closed the efficency gap generally speaking even though this particular card that OP is talking about is less efficent than the 5070 Ti.\u00a0",
+                                            "score": 0,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Charrat",
+                            "body": "I should have said \u201cnarrowed\u201d the gap instead of \u201cclosed\u201d the gap for more accuracy. Thanks!",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "Bhaaldukar",
+                            "body": "You should always undervolt cards regardless.  You'll lose almost no performance.",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "NearbySheepherder987",
+                                    "body": "With the new AMD cards you even gain Performance",
+                                    "score": 14,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Bombadilo_drives",
+                    "body": "Glad to see cooler heads have prevailed and the \"50 sEriEs bAd!!!11!\" memery has died down.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "mdred5",
+            "body": "Both of the gpus will provide you a great upgrade.\n\njust wait and get whichever you can find closer to msrp first",
+            "score": 10,
+            "replies": []
+        },
+        {
+            "author": "ferpecto",
+            "body": "I thought the burning power connector was only 5080 and 5090 models, due to their much higher power draw.",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "Expensive_Bottle_770",
+                    "body": "It is, and only 90 class cards at that (from what I have seen). The connector is not an issue for anything under 400 Watts.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "alc4pwned",
+                            "body": "Even on the 90 cards, it's a far less common issue than you might think based on reddit discussion.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "PotusThePlant",
+                                    "body": "Oh yeah, let's minimize this totally avoidable problem caused by a crappy connector and implementation **in a $2000 (msrp) gpu**.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "alc4pwned",
+                                            "body": "I'm not minimizing it, I'm being realistic about it.\n\nNo argument from me that the problem was avoidable and the connector is crappy. The fact remains that it's a very uncommon issue, even on the 90 cards.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "PotusThePlant",
+                                                    "body": "It's an issue that was present in the previous generation as well. This along with the missing ROPs are both unacceptable issues from a company with the capital and size Nvidia has. I don't care if it only affects a single digit % of cards. That percentage should be 0%.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "alc4pwned",
+                                                            "body": "I don't disagree. Do you think I'm arguing that this isn't a real problem or that people shouldn't be mad an Nvidia? Never said anything of the sort. I'm just pointing out that it is far less common of an issue than many on reddit believe.\n\nIf you choose to buy a 5090, the chances of running into this issue are quite low.",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "sSTtssSTts",
+                    "body": "No the new power connector can burn up on these cards too.\n\nIts not just power that matters its the connector itself and how it fits together and was built that matters too.\n\nHypothetically everything should be fine with it but that is on paper and real world matters more",
+                    "score": -6,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Expensive_Bottle_770",
+            "body": "At the same price: 5070 Ti, no brainer.\n\nThe 9070 XT is perceived well due to what you get for the price, so if that\u2019s the same, you have little to gain.\n\nOtherwise, the 5070 Ti does everything the 9070 XT can but better. The connector is not a concern for a lower wattage card like this, so I wouldn\u2019t worry about it.\n\nMissing ROPs is a legitimate grievance, but there\u2019s a simple solution; check as soon as you buy it, then return/keep accordingly.",
+            "score": 6,
+            "replies": [
+                {
+                    "author": "CrumpsRAWR",
+                    "body": "Hi, I\u2019m a tech noob when it comes to some features and stuff; what is ROPS and how do I check for it on purchase please?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Expensive_Bottle_770",
+                            "body": "ROP stands for Raster Operations Pipeline. It is a hardware unit on GPUs which, put simply, acts as one of the last points of computation before your GPU outputs a frame. If they are missing, performance will be impacted.\n\nYou can see how many ROPs you have by using software like GPU-Z. You then check this against the hardware specs for your GPU to make sure none are missing.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "CrumpsRAWR",
+                                    "body": "Thank you so much!",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ashandare",
+            "body": "If I could have bought a 5070Ti for MSRP, and with all the ROPS, it's probably the card I'd be using right now. I am however very happy so far with my 9070 XT.",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "BobLighthouse",
+            "body": "Seems to me you're a bit off base with the \"massive gamble\" thing.  \nThe 5070ti is relatively low wattage so you should have no issues with the power connector whatsoever.  \nIf it's under spec you should be able to get an exchange as well.  \nI'd go with that card all things considered.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Active-Quarter-4197",
+            "body": "5070 ti is easily the better card\n\n9070 Xt is easily the better value card(not in this case)",
+            "score": 24,
+            "replies": [
+                {
+                    "author": "Low_Definition4273",
+                    "body": "You clearly didnt read the post.",
+                    "score": -6,
+                    "replies": [
+                        {
+                            "author": "RedRaptor85",
+                            "body": "Get my upvote, I saw the previous wording before he edited his comment.",
+                            "score": 4,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "YawnY86",
+                    "body": "I don't know if I'd say it's 'easily the better card' it's more expensive than a 9070xt and the 9070xt is pretty much tired performance wise.\n\nhttps://gamersnexus.net/gpus/amd-radeon-rx-9070-xt-gpu-review-benchmarks-vs-5070-ti-5070-7900-xt-sapphire-pulse#9070-xt-benchmarks",
+                    "score": -17,
+                    "replies": [
+                        {
+                            "author": "eeuwig",
+                            "body": ">\"In rasterization performance and at 4K, AMD's 9070 XT is commonly within the range of 5-6% of the 5070 Ti, with a few break-outs like Dying Light 2 and Black Myth non-RT where the 5070 Ti has a 12% advantage over the 9070 XT.\"\n\n>\"As for ray tracing performance, NVIDIA is ahead almost universally in our testing. In Black Myth, it's not even a competition.\"\n\nFor people like me that are not interested too much in RT performance and won't play Black Myth, 5070Ti's price premium cannot be justified really... Well maybe if you play 8 hours everyday for a couple of years you'll be able to earn it back through the difference in FPS per Watt.",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "Secure_Jackfruit_303",
+                                    "body": "Unfortunately modern games are starting to force ray tracing. Games like Doom DA flat out require a 20 series card at the minimum. \n\nI'd call the 5070ti more futureproof because of this and potentially worth the premium.\n\nAlso DLSS4 looks better than FSR4 so there's that.\n\nI dislike RT too but unfortunately that's the future devs are heading to",
+                                    "score": 12,
+                                    "replies": [
+                                        {
+                                            "author": "eeuwig",
+                                            "body": "Yeah that seems to be happening more often indeed. Having said that though, the 9070XT's RT performance isn't as bad as past Radeon cards were. But yeah, you are right that the 5070Ti might be more future proof.",
+                                            "score": 0,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "shadowlid",
+            "body": "If there is only a $30 difference in price for you guessing you are not in the USA. Then 5070ti all the way.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Isha_Godzirra",
+            "body": "I upgraded from a 3080 and tried both the 9070 XT and the 5070 Ti. I decided to keep the 5070 Ti. The 5070 Ti fans were SIGNIFICANTLY quieter than the 9070 XT in the same games and at the same temps, I was averaging more fps in the same games with the 5070 Ti, I had multiple crashes with the 9070 XT, and I know it's not super important to some people but I'm a big fan of ray tracing which is undoubtedly better on the 5070 Ti. So it was a relatively easy decision for me.\n\nEdit: also should note I have the Asus TUF OC 5070 Ti, and no missing ROPS.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "SymmeTRyisEVryTHing",
+            "body": "30usd difference? Nab the 5070ti",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Primus_is_OK_I_guess",
+            "body": "People are angry at Nvidia for the pricing and availability issues. The missing ROPs and *especially* the connector issue are massively overblown. You're not drawing nearly enough power to melt the connector with a 5070ti, even heavily overclocked. The ROP issue is rare and easy to check for.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Extreme996",
+            "body": "At that price difference 5070Ti is worth it over 9070XT. Better ray tracing performance, DLSS4, Nvidia drivers, less power drawn etc.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "LemonOwl_",
+            "body": "5070 ti no contest",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Captobvious75",
+            "body": "Don\u2019t forget that the list of games for FSR4 will over double by end of 2025 to 75 per AMD. Thats quite the list.\n\nEven now, you can simply check the current list and see if any of those games interest you. I\u2019m only buying games that are part of the FSR4 list going forward.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Impressive-Level-276",
+            "body": "For the same price 5070 ti.\n\nI hope that the price isn't too much high",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "EirHc",
+            "body": "> I'm taking a massive gamble on having missing ROPS and the power connector is unsafe\n\nThose tend to be warranty issues. Additionally, the power connector is more of a 5090 issue where it draws 575W. A 5070ti's max draw is 300W. And as far as the ROPs go, if you check it out right away and it's defective, I know my local store would immediately replace it without having to go through the manufacturer warranty.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "VanWesley",
+            "body": "If both are in stock, and the price difference is only $30, then 5070TI all the way.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "KirillNek0",
+            "body": "5070 Ti",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Available_Book5027",
+            "body": "1440p?  Have you looked into the Arc B580?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "abastage",
+            "body": "At 30 usd get the 5070ti if it\u2019s actually obtainable.. where I am it\u2019s closer to 300 usd difference and still harder to get the 5070ti.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "mololabo",
+            "body": "I switched from a 3080 to the 9070XT and personally speaking? I couldn't be happier.\n\nBut it has so far only been a day, I'll see how it performs across my  game collection. But I do absolutely love the on-the-fly driver / gpu settings tweaking I can do on the 9070 XT a whole lot. I find it to be a lot better on the UX side than what I had to deal with with nvidia.\n\nObviously this is a purely subjective opinion. But it comes from someone who has for ages only bought Nvidia cards, ever since I switched from my old Radeon HD4850 GS R to an MSI GTX 970 in 2015.\n\nHard to believe that 970 only cost like 380 Euros back then. god damn, it was a journey to dig out that old amazon order.\n\nEdit: Also, personally speaking, stock for the 9070XT was much better and its price was, comparatively speaking, much closer to the MSRP compared to the option of a RTX 50 series card.\n\nEdit: various small corrections",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "LogicalExtant",
+            "body": "you basically answered your own question by stating that its only a 30 dollar difference\n\nwhen one card is only considered a better VALUE at a 150 dollar MSRP discrepancy\n\nalso a 5070ti in AB has no issues reaching those same 3.2-3.3k core boost clocks that 9070xt owners keep on harping about when trying to compare their card to a 5080",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "south_paw01",
+            "body": "I'm actually very happy with my 9070 (not xt ) for 1440p might still swap if possible but was pleasantly surprised how well it handles Ray tracing and 1440p",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "south_paw01",
+            "body": "I'm actually very happy with my 9070 (not xt ) for 1440p might still swap if possible but was pleasantly surprised how well it handles Ray tracing and 1440p.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Doozy93",
+            "body": "I went from the rtx 3060 ti to the rx 9070 xt and I'm loving it.\n\nFeatures weren't so much of a draw for me, more rasterisation and price. \n\nAt the end of the day, do what's best for you.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "diac13",
+            "body": "Once you undervolt the 9070XT it becomes a beast. Mine boosts to 3200mhz easily, matching a 5080 in raster performance. 9070XT is the better choice over a 5070ti. Even only for AMD adrenaline software. Nvidia software is ancient crap compared to that.\nEven RT performance is close. At 1440p the difference isn't that much, this card you'll run 100+ fps easily anyway, who cares about 10 fps less or more then a more expensive card.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Amak88",
+                    "body": "I haven't even undervolted and my hellhound has hit peaks of 3.4ghz. 3.2ghz sustained.\n\nPretty crazy.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "diac13",
+                            "body": "Yeah it's insane. I just have a base model pulse. It's a very efficient card.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "Amak88",
+                                    "body": " it was a great surprise to see the 'gameclock/boost clock's just an estimate.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Mysterious_Maybe320",
+                    "body": "dont speak bullshit pls",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "LeoDaWeeb",
+                            "body": "????",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "diac13",
+                            "body": "Give me some counter arguments instead of just spitting some nonsense comment. I've had Nvidia and AMD over the years. I can comfortably compare them.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "KFC_Junior",
+            "body": "5070ti shouldnt have the power issue if you plug it in properly, it doesnt draw enough power. If its $30 diffrence get the 5070ti for sure. Slight better raster + way better technologies",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Blackarm777",
+            "body": "While the power connector is a legitimate concern and poorly designed piece of trash, the power draw for the 5070ti is a lot lower than the 4090 and 5090, the main two cards where the cable has been a disaster.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "lokomotor",
+            "body": "If money is no issue, why not get a 5080.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "jb12jb",
+            "body": "You can inject FSR4 into any game with upscaling.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "nekogami87",
+            "body": "They are both very good for that, buy the one you can find at that price and is in stock.\n\nThe differences are mostly inconsequential on games, unless you have a list of specific games you have that performs extremely better or Nvidia (and I'm talking pure raster, not upscaling / framegen).",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Far_Tree_5200",
+            "body": "30$ more for nvidia is worth it \n\n400$ more is not",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Serg_da_k1ng",
+            "body": "IMHO 5070TI is the best GPU of the current generation. 9070xt is simply worse in RT and lack of the analog for DLSS (FSR 4 is good but still not on the same level as transformer model) and Frame Generation ( yes I use this option in games such as Cyberpunk or AW2 in 4k) . On the other hand 9070XT is probably the best in terms frames per dollar but cmon. If you are buying it for games getting more powerful and most probably better supported hardware is a must",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "dtamago",
+            "body": "I got downvoted to hell for saying this on another post, but man AMD sucks when it comes to drivers at launch, I've seen plenty of people having a ton of issues with their 9070 xt, from system crashes to outright bricked cards, if you don't have a budget problem, go with Nvidia, always.",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "noiserr",
+                    "body": "Nvidia has had much worse driver issues on this launch than AMD. Black screens are quite common, even on the 40xx series. I've heard of no black screen issue on AMD side.\n\nEven reviewers have had driver issues. People like Paul's hardware built two rigs and couldn't test the Nvidia card in either computer.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "XtremeCSGO",
+            "body": "By this point it\u2019s whichever one you can find in stock",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "tharussianbear",
+            "body": "Whatever one you can get your hands on for a good price.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "geoshort4",
+            "body": "The only option is AMD, don't resist, don't run, accept and embrace. AMD, is the only path to salvation.",
+            "score": -11,
+            "replies": [
+                {
+                    "author": "Secure_Jackfruit_303",
+                    "body": "AMD is guilty of the same stuff Nvidia is playing right now. Per HwUnboxed AMD are only selective making sure 9070xts are at MSRP; only some models are sold to be put at 600$, and only some retailers like microcenter are getting a good MSRP model supply. The rest are insane markups.\n\nThey at least made sure the launch wasn't paper, but as it stands the situation isn't much better. They almost did it right.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "RinkeR32",
+                            "body": "I'm sure there are a LOT more 5070 Tis at MSRP.  \ud83d\ude44\n\nAIBs and retailers are gouging because Nvidia can't supply for their demand.  That's not necessarily AMD's fault.",
+                            "score": -1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "bifowww",
+            "body": "OP already answered,  but I will leave it for people who run into the same dilemma. If 9070 XT is cheaper by at least 150$/\u20ac go for it, but in other cases 5070 Ti is better despite offering the same performance. If it's just a 100 or 50 bucks difference the majority would pay that for the availability of DLSS4, better RayTracing and PathTracing. Nowadays buying a RayTracing performance is future proofing, because  it will be mandatory someday.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "RawCheT",
+            "body": "what countries are 5070tis similar priced? I\u2019d consider one but the 9070xt is 30usd more than the regular 5070 and 311usd more for the ti here",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "ShiroFoxya",
+            "body": "I'm planning to upgrade soonish and I'm gonna go for the 9070xt mostly because I'm tired of nvidia honestly, I'm fine with having 1% worse performance or something if it means i don't have to give any more money to them until they fix their shit",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "Narrow_Chicken_69420",
+            "body": "9070 non xt",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "dragneelfps",
+            "body": "You can look at 4070 ti super as well. I recently bought it and not feeling any FOMO from 5070 ti at all.\u00a0",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "alc4pwned",
+            "body": ">Budget isn't too much of a concern\n\nGet a 5090 then?",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "reddit_kid99",
+            "body": "if you ignore ray tracing they perform the same but with raytracing the 5070ti will be a lil better.  in terms of software nvidia normally does better or has more games that actually support their features so even when they should be equal the 5070ti comes out on top just because of the nvidia feature stuff",
+            "score": -2,
+            "replies": []
+        },
+        {
+            "author": "Bhaaldukar",
+            "body": "9070XT",
+            "score": -2,
+            "replies": [
+                {
+                    "author": "RedRaptor85",
+                    "body": "Worst decision ever with a $30 difference.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Bhaaldukar",
+                            "body": "If budget isn't a concern then OP shouldn't get either card regardless",
+                            "score": 0,
+                            "replies": [
+                                {
+                                    "author": "RedRaptor85",
+                                    "body": "If he needs a GPU and both are $30 from each other, the only reasonable response is the 5070Ti. They are only (almost) tied in raster performance, with the 9070XT being more power-hungry.\n\nThe AMD one is only better value if offered at a lower price.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Bhaaldukar",
+                                            "body": "OP simply shouldn't buy either",
+                                            "score": -1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "laffer1",
+            "body": "I\u2019d buy the amd gpu without any concern. If you favor the nvidia card, wait a bit and let them get most of the bad rop cards out of circulation",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "Craniummon",
+            "body": "If price is close, go with 5070 TI. Unfortunately AMD is the best option if under 100$ less at least.",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "skipv5",
+            "body": "$30 difference? Just get the 5070 TI /s",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "Relative-Pin-9762",
+            "body": "5070ti if budget is not an issue. It's clearly the better card.",
+            "score": -1,
+            "replies": []
+        },
+        {
+            "author": "cubanohermano",
+            "body": "Buy the new GPU; learn to solder ram to your old GPU; profit ???",
+            "score": -2,
+            "replies": []
+        }
+    ]
+}

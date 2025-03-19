@@ -1,0 +1,420 @@
+{
+    "title": "We tested Assassin's Creed Shadows on Steam Deck to see if it deserves its Verified rating",
+    "author": "Dapper_Order7182",
+    "subreddit": "SteamDeck",
+    "rank": 4,
+    "score": 240,
+    "upvote_ratio": 0.91,
+    "num_comments (reported by reddit)": 65,
+    "url": "https://www.pcguide.com/news/we-tested-assassins-creed-shadows-on-steam-deck-to-see-if-it-deserves-its-verified-rating/",
+    "id": "1je9wp1",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "niwia",
+            "body": "TLDR:\n\n  \n\u2022 Assassin\u2019s Creed Shadows launches on March 20th, and it has been tested on the Steam Deck ahead of release.\n\n\u2022 The game has received Steam Deck Verified status from Valve.\n\n\u2022 Default graphics settings are locked at launch, but FSR (FidelityFX Super Resolution) can be toggled on/off.\n\n\u2022 Performance with FSR ON: Runs at 35-40 FPS smoothly, with a minor water flickering issue.\n\n\u2022 Performance with FSR OFF: Drops to 30 FPS and feels choppier.\n\n\u2022 Recommendation: Stick with FSR ON for better performance.\n\n\u2022 Overall verdict: The game runs decently on Steam Deck, but demanding scenarios remain untested.\n\n\u2022 Ubisoft might add more graphical settings in future updates.\n\n\u2022 For better performance, external software like Lossless Scaling might help.",
+            "score": 497,
+            "replies": [
+                {
+                    "author": "RKof200",
+                    "body": "legend summary",
+                    "score": 150,
+                    "replies": []
+                },
+                {
+                    "author": "EverydayFunHotS",
+                    "body": "How does FSR work on the Steam Deck?\n\n\nIs it application controlled? Or do you configure it yourself on a global or per game basis?",
+                    "score": 14,
+                    "replies": [
+                        {
+                            "author": "Total_Routine_9085",
+                            "body": "You can configure it globally or per game using the built in FSR 1.0. But if the game has it's own support for FSR or other upscale tech, then you can just use that, and usually that is better to use. I wouldn't use both anyway :-)",
+                            "score": 24,
+                            "replies": []
+                        },
+                        {
+                            "author": "ImpossibleGuardian",
+                            "body": "The global FSR in the Deck settings is still just standard FSR 1, but obviously it can be applied to any game. \n\nI\u2019d assume Shadows is using FSR 3 (I think that\u2019s the latest version?) so it\u2019s preferable to use that. Avoid FSR frame gen though, it\u2019s a mess.",
+                            "score": 6,
+                            "replies": []
+                        },
+                        {
+                            "author": "Biggapotamus",
+                            "body": "Yes\n\nEdit: Jokes aside, some games have FSR settings in their options, then if you hit the \u201c\u2026\u201d button there are systemwide FSR options as well",
+                            "score": 0,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "WJMazepas",
+                    "body": "That's really good performance for the Deck\n\nBut i wonder if will be possible to add XeSS and use it instead of FSR",
+                    "score": 13,
+                    "replies": [
+                        {
+                            "author": "SnooRecipes1114",
+                            "body": "Yea for sure I hope so, XeSS seems to look better whilst also performing better, it'd at least be great if fsr could achieve the same results as XeSS at some point.",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "LueyTheWrench",
+                                    "body": "Xess is a beast in CP2077.",
+                                    "score": 7,
+                                    "replies": [
+                                        {
+                                            "author": "SnooRecipes1114",
+                                            "body": "Yea it really is, I've noticed in death stranding it looks significantly better than fsr too. It actually makes using upscaling way more tolerable for me, fsr just looks like crap in comparison.",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "DuckCleaning",
+                    "body": "Interesting that they're locking the settings at launch, I'm sure some would love to fiddle with it to maximize performance. Probably as simple as removing/adding the keyword from the lauch options.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "niwia",
+                            "body": "Many games do this before launch. This is likely to finish final touches and optimisations as it may be too bugged in custom resolutions before launch. \n\nAt least that\u2019s my theory",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "DuckCleaning",
+                                    "body": "Mentioned by the article, Ubisoft announced they are going to have it locked at launch as well, not just prelaunch.\n\n\nhttps://store.steampowered.com/news/app/3159330/view/572625355297260282?l=english",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "niwia",
+                                            "body": "Oh I see. Thanks for clearing that",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "annaleigh13",
+                    "body": "Why are graphic settings locked at launch? That seems so weird to me, especially when I like turning off motion blur and depth of field options",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "coromd",
+                            "body": "Maybe it's to stop people from maxing out the graphics then complaining a game runs like shit? :p",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "niwia",
+                            "body": "It happens for many games lately on release. Tbh I\u2019ve no idea too",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ForgTheSlothful",
+            "body": "35-40 isent bad for handheld last minute support tbh",
+            "score": 31,
+            "replies": [
+                {
+                    "author": "AnEmbarrassedGiraffe",
+                    "body": "Especially given that (in theory) the game will be further optimized, possibly directly for the Deck. It\u2019s already better performance than I expected tbh",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "perfectevasion",
+            "body": "Pretty impressive. Might wait for some further updates but this is a promising start!",
+            "score": 49,
+            "replies": [
+                {
+                    "author": "scogin",
+                    "body": "All Ubi games are worth waiting on, you'll save 80% after a year.",
+                    "score": 26,
+                    "replies": [
+                        {
+                            "author": "apestuff",
+                            "body": "Plus I have sooooooo many AC, and Far Cry games to play through I got for dirt cheap. It honestly may take me a year to get through all that anyways.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "scogin",
+                                    "body": "Might do a replay of Odyssey, love the atmosphere of that game.",
+                                    "score": 1,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Fishiesideways10",
+                                    "body": "I just rebought Odyssey, Valhalla (my favorite), Mirage, and Origins for like $20 in this steam sale going on. So worth it for hundreds of hours of content. I am hyped on shadows because of the content subject, but I am worried about the rest. I just came into pc gaming with a new pc tower, laptop, and steam deck all this year.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Glittering_Winner569",
+            "body": "I wish fsr didn\u2019t bother me so much, but it always just ruins the image quality for me. Even on the quality settings. There is always stuff flickering or the image just looks blurry and noisy.",
+            "score": 37,
+            "replies": [
+                {
+                    "author": "iPlayViolas",
+                    "body": "Fsr is a great technology. Just not at the resolution of the steam deck. There is only so much ai can do when scaling below 720p. Input low quality, output a mess. Ai scaling is great at higher res. The truth is the deck isn\u2019t fsr target audience. It is however great for upscaling to larger screens for tv use.",
+                    "score": 19,
+                    "replies": [
+                        {
+                            "author": "NeverComments",
+                            "body": "Also there is no AI involved in any FSR versions supported on Deck (FSR4 will be the first release utilizing ML and it requires RDNA4).\u00a0",
+                            "score": 9,
+                            "replies": [
+                                {
+                                    "author": "iPlayViolas",
+                                    "body": "My apologies. I said ai but I really just meant upscaling technology",
+                                    "score": 5,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "2hurd",
+                                    "body": "That's why Steam Deck 2 will be a proper beast with an AMD APU using UDNA 1.5. Currently AI MAX+ 395 is just mindblowing in the desktop space and by the time we get a SD2 in about 2 generations, I can imagine that sort of performance in a handheld factor with lightyears better upscaling.\u00a0",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "SnooRecipes1114",
+                            "body": "It is possible to still get good results with upscaling at such low res. XeSS not only gives a way better image but also better performance and actually makes upscaling tolerable imo, fsr is just a little behind in this.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "kingkobalt",
+                            "body": "Depends on the game, FSR 2 can look decent on its quality mode. For instance in Diablo 4 I find there're tradeoffs between native TAA Vs FSR, one has worse edge stability and shimmering while the other has lower sharpness and detail.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "fuddlesworth",
+                    "body": "Same. It looks awful with all the artifacts it produces.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "ImpossibleGuardian",
+                    "body": "Yeah I\u2019d take native at 30FPS over FSR at 40-60FPS any day. \n\nIf I want higher frames I just lower other settings, at least the image quality is still cleaner than with FSR.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "mmiski",
+                    "body": "Agreed. I prioritize keeping native 800p native res and crank all my other settings down (and enable dynamic res scaling if the game supports it). If the game still performs poorly or looks like complete shit, I just pass on it and throw it into my backlog of games to play for Steam Deck 2 in the future.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "vaikunth1991",
+            "body": "when so many people play monster hunter wilds on deck why not this lol",
+            "score": 22,
+            "replies": []
+        },
+        {
+            "author": "madladchad3",
+            "body": "No ubi soft launcher bullshit?",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "DrMantisTabboggn",
+                    "body": "The Steam version has already been confirmed to not require the Ubisoft launcher",
+                    "score": 19,
+                    "replies": [
+                        {
+                            "author": "-_Xtormiken-_",
+                            "body": "Why can't they do that for the rest of them games",
+                            "score": 7,
+                            "replies": [
+                                {
+                                    "author": "Trenchman",
+                                    "body": "They will for future games maybe",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "-_Xtormiken-_",
+                                            "body": "Why not for older games too ?\n\nThe crew 2 is unplayable due to the stupid launcher\n\nWatch dogs 1 and 2 have that stupid launcher on the background\n\nEa has a stupid launcher too but not as invasive as the Ubisoft one",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "brownieman182",
+                            "body": "I presume the launcher is required for ubisoft+ ?",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "uacoop",
+            "body": "To be honest, this is much better than I was expecting.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "Mazbt",
+            "body": "Would have been nice if they tested busier areas and combat scenarios., but hopefully someone will do that soon.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "tyrenanig",
+            "body": "I know it\u2019s going to be at least like this. This sub is being too skeptical at everything lol",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Strongpillow",
+            "body": "I am still baffled at how capable of a handheld my Steam Deck is coming from the console world. For such a cost effective way to enjoy PC gaming, you have the option of experiencing some of the bigger AAA intensive games at manageable settings. I've been enjoying all sorts of older games, newer games, indies, and completely random games with almost no issues. Everything just seems to works. \n\nFor example, Kingdom Come Deliverance 2 runs almost too good to be true on Steam Deck.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "JalapenoIsLife",
+            "body": "Based on this it looks good. I'm going to play on PC, but I would like to play a little on Steam Deck laying in bed, traveling, etc. I could see going around the open world and doing some side content on the deck being a fun experience.",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "LordDinner",
+                    "body": "Stream from your PC to Deck with Remote Play or Sunshine/Moonlight.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "Technical_Sir_9588",
+                            "body": "This. After I got Wifi 6 routers I'm able to stream from my Xbox without a hitch. It makes for much better experience than doing potato quality for some newer titles.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Skeeno-TV",
+            "body": "Much better them what i was expected",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "sylinowo",
+            "body": "If you want access to settings I'd say use the \"SteamDeck=0 %command%\" command to hopefully disable the steam deck version",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Doogienguyen",
+                    "body": "If you use other commands how do you combine it with this? I usually use decky framegen which has its own command.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "sylinowo",
+                            "body": "Im unsure. Usually commands are separated with a dash",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "dromosus",
+            "body": "Here\u2019s a video of someone playing it on Steam Deck. He checks out a bandit camp and a built up area and it\u2019s a steady 30 most of the time, with occasional drops to 29 but no lower. Quite a nice surprise to be honest as I\u2019m considering playing it on my Deck instead of the Series S now.\n\n  \n[https://www.youtube.com/live/0vwe6fo0cL4?si=MQ-aG6NDpBZIq9N-](https://www.youtube.com/live/0vwe6fo0cL4?si=MQ-aG6NDpBZIq9N-)",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Dry_Ear_2221",
+            "body": "Hmm, not too bad. I might lock it at 30, but I will play it mostly through GeForce now I think, anyway.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Nnamz",
+            "body": "It would have been great if they mentioned what settings they used. Medium? Low? Lowest? Do we have headroom to improve the performance with FSR off?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "BrianBlandess",
+                    "body": "It said the settings are locked.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Nnamz",
+                            "body": "Gotcha, sorry I missed that. Kind of annoying, but at least it gives us the general knowledge that it is indeed acceptable performance.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "BrianBlandess",
+                                    "body": "Yeah that\u2019s the upside, I suppose once they release setting we can dial it down to low and get really good performance.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Doogienguyen",
+            "body": "Not bad actually. I may get it now.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Velocity_Rob",
+            "body": "Valhalla and Mirage both played and looked great on the Deck, so if this is comparable, I think I'm sold.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MuffDivers2_",
+            "body": "Lossless Scaling works on the Steamdeck now???",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": -13,
+            "replies": [
+                {
+                    "author": "richiehill",
+                    "body": "People are taking the time to comment here, so I guess some do.",
+                    "score": 7,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

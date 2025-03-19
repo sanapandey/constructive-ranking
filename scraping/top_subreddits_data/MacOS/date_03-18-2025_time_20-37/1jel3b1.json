@@ -1,0 +1,39 @@
+{
+    "title": "Moving ~Library/cache to external drive.",
+    "author": "omakad",
+    "subreddit": "MacOS",
+    "rank": 8,
+    "score": 1,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 4,
+    "url": "https://www.reddit.com/r/MacOS/comments/1jel3b1/moving_librarycache_to_external_drive/",
+    "id": "1jel3b1",
+    "selftext": "I\u2019m about to chug this thing in the garbage. Someone help. More than half of my storage 135GB is taken up by system garbage. It\u2019s filling up my whole drive and then it crashes the computer when it runs out of storage. I\u2019m clearing the cash files every other day. Is there a way to move Library/cache folders and sub folders to en external drive so I can fee up my HD? I need all caches in the future to be written to external drive. Just deleting the folder is not a solution as it will be filled back up in days. Thank you. ",
+    "comments": [
+        {
+            "author": "jwadamson",
+            "body": "I feel like you are asking the wrong question. \n\nWhat you describe, files in `~/Library/Caches` filling your storage in a matter of days or less, is not normal. That is the problem you should be trying to solve. \n\nGive some examples of the files, are they all located in a single caches subdir? Is there an indication of what program is creating them? Usually the folder of file name is the app or company name. \n\nSomething is wrong and the answer is not to symlink or otherwise try to relocate a portion of your library directory to another volume. That approach is likely to go very poorly and have unforeseen side effects.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "omakad",
+                    "body": "Something is definitely wrong but I can\u2019t figure out what or where these files even are. 30gb of over 100gb that I\u2019ve been deleting are in the Apple Cache file. They have something to do with photos face recognition and these are the ones I\u2019ve been deleting. The rest is who knows where. Tried a few of those useless Mac cleaning apps and they didn\u2019t find anything so I\u2019m stumped. I need to work and not troubleshoot this damn thing. I\u2019m guessing I should just wipe the whole thing and start off fresh? If you got better solution I\u2019m all ears?",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "jwadamson",
+                    "body": "Just an addendum. \n\n- My personal Mac Mini Library/Caches directory is 7.5 GB and over half of that is google/firefox/plex related. \n- My work MBP Library Caches is similar sized and also primarily browser cache data (Edge/mozilla/google but also a ton of JVM versions in Homebrew)\n\nThese are neither burdensome numbers nor are they growing notably on any sort of time scale.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "anderworx",
+            "body": "If your drive is full, move your documents to the external, not your caches.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

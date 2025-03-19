@@ -1,0 +1,90 @@
+{
+    "title": "A hidden in plain sight tip for performance improvement with VD",
+    "author": "Fath0m",
+    "subreddit": "virtualreality",
+    "rank": 10,
+    "score": 12,
+    "upvote_ratio": 0.88,
+    "num_comments (reported by reddit)": 12,
+    "url": "https://www.reddit.com/r/virtualreality/comments/1jea6rs/a_hidden_in_plain_sight_tip_for_performance/",
+    "id": "1jea6rs",
+    "selftext": "I just found this and I am probably late to the party. \n\nif you are a virtual desktop user (and you should be). In your desktop virtual desktop app ,  instead of \u201copenxr runtime\u201d set to automatic set this to VDXR. \n\nI was under the impression virtual desktop would pick the best settings. In this case does not seem to be true. Steamvr for me was always the default choice. VDXR was a massive performance improvement for me, decreased lag spikes and fixed a bug in breachers for me that allowed the game to even work. \n\nYou do lose steam friends and notification functionality but that seems to be it. ",
+    "comments": [
+        {
+            "author": "CorpPhoenix",
+            "body": "Isn't there only a quite small amount of games that support VDXR, or can you use it for every steam game?",
+            "score": 10,
+            "replies": [
+                {
+                    "author": "Virtual_Happiness",
+                    "body": "Pretty sure VDXR just stands for Virtual Desktop OpenXR. So it's supported by any game that supports OpenXR. Which is quite a few. Not sure how up to date this list is but, it shows a bunch. \n\nhttps://steamdb.info/tech/SDK/OpenXR/",
+                    "score": 5,
+                    "replies": []
+                },
+                {
+                    "author": "Sciencebitchs",
+                    "body": "Good question. I wonder also.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "__tyke__",
+            "body": "yep using vdxr made a game i really like run good enough whereas it was trash in air link. i thank matt bucchia and guy godin for that.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "MalenfantX",
+            "body": "Of course this improves performance. That's why we choose that setting over the one that loads Steam VR.\n\nMSFS goes from unusable due to low framerate to working well.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Fath0m",
+                    "body": "I was just surprised because unless you look it up, I think you will just assume \"automatic\" will choose the best one. \n\nsince its obvious do you know any other settings like that, that should be checked?",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "t4underbolt",
+            "body": "Disclaimer. There aren't many games that use OpenXR. Most games are still using OpenVR environment. So yes. VDXR will give better performance and stability benefits for apps that utilize openXR.\n\n  \nedit: seems like I mistaken openXR application list with openXR toolkit compatible apps list so there are plenty of openXR titles out there.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Fath0m",
+                    "body": "https://www.reddit.com/r/virtualreality/s/TxSm3QXd9P\n\nSeems to be a decent amount on here. And breachers wasn\u2019t on this list but VDXR seemed to fix for me.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "t4underbolt",
+                            "body": "seems like I mistaken openXR application list with openXR toolkit compatible apps list so there are plenty of openXR titles out there.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "VMPRocks",
+            "body": "thanks I'll definitely do that!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "__tyke__",
+            "body": "yep using vdxr made a game i really like run good enough whereas it was trash in air link. i thank matt bucchia and guy godin for that.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "fdruid",
+            "body": "Well it's OpenXR. Which has a bit better performance than SteamVR, I don't personally use it because I can't use my SteamVR addons on it (like Vrocker and Natural Locomotion). So it's not a perfect solution for everyone.",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

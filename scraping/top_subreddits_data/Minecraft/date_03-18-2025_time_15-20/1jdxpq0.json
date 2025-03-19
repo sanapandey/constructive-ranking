@@ -1,0 +1,372 @@
+{
+    "title": "Particle effects give slowness and I don't know how to remove them",
+    "author": "ChillOutCheese",
+    "subreddit": "Minecraft",
+    "rank": 2,
+    "score": 5156,
+    "upvote_ratio": 0.99,
+    "num_comments (reported by reddit)": 58,
+    "url": "https://i.redd.it/6ecz22lttdpe1.png",
+    "id": "1jdxpq0",
+    "selftext": "These particle effects you see were created by my friend who had made vanilla bosses using command blocks. The issue is, one of the bosses actually had particle effects around it which have yet to go away on their own and it's been a couples months. I need some help to find any command that can be used to remove the particles and it's effects cuz I'm honestly so tired of it.\n\nTL;DR I need help finding a command to remove these permanent visual effects on the ground that gives a slowness effect",
+    "comments": [
+        {
+            "author": "qualityvote2",
+            "body": "* Upvote this comment if this is a good quality post that fits the purpose of r/Minecraft  \n* Downvote this comment if this post is poor quality or does not fit the purpose of r/Minecraft  \n* Downvote this comment *and report the post* if it breaks the [rules](https://www.reddit.com/r/Minecraft/wiki/rules)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Beginning-Ebb8170",
+            "body": " i wish i could help. but i also wish to curse you for springing my nostalgia back out of its slumber where i now have to spend alot of time watching youtube videos from 2014",
+            "score": 2825,
+            "replies": [
+                {
+                    "author": "JoshyRB",
+                    "body": "PopularMMOs the goat",
+                    "score": 585,
+                    "replies": [
+                        {
+                            "author": "meh_telo",
+                            "body": "And then it all went wrong",
+                            "score": 214,
+                            "replies": [
+                                {
+                                    "author": "N0ob_C3nTR4L",
+                                    "body": "What even happened afterwards?",
+                                    "score": 73,
+                                    "replies": [
+                                        {
+                                            "author": "that0neBl1p",
+                                            "body": "He and Jen amicably divorced (I think they still made vids together IIRC), his new girlfriend falsified an abuse case against him.. he managed to get it dropped but things weren\u2019t the same",
+                                            "score": 227,
+                                            "replies": [
+                                                {
+                                                    "author": "Axedelic",
+                                                    "body": "he was arrested (and charged) *for drug charges like three times too.",
+                                                    "score": 123,
+                                                    "replies": [
+                                                        {
+                                                            "author": "that0neBl1p",
+                                                            "body": "Damn, I didn\u2019t hear about that",
+                                                            "score": 49,
+                                                            "replies": []
+                                                        },
+                                                        {
+                                                            "author": "Ko938AUp",
+                                                            "body": "That witch of a woman really hates him...",
+                                                            "score": 22,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Axedelic",
+                                                                    "body": "he got charged. you can\u2019t lie and get someone charged if they weren\u2019t guilty.",
+                                                                    "score": -14,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "quinn_the_potato",
+                                                                            "body": "A charge and a verdict are completely separate things.",
+                                                                            "score": 1,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "sam007mac",
+            "body": "It\u2019s probably two separate commands. One spawning the particles, one giving slowness. \n\nIf they\u2019re using command blocks you\u2019re going to have to find the command blocks and break them (in creative, you can\u2019t do anything to command blocks in survival). The command blocks are likely to be either nearby or somewhere near the world spawn / spawn chunks. I don\u2019t think command blocks function outside of loaded chunks.\n\nIf you\u2019re using a data pack and not physical command blocks then you\u2019ll possibly have to modify the data pack and reload it.",
+            "score": 641,
+            "replies": [
+                {
+                    "author": "Monckey100",
+                    "body": "This is the right answer, if you want to go nuclear you can try wipe all command blocks in the area but be ready to annoy your friend lol",
+                    "score": 140,
+                    "replies": []
+                },
+                {
+                    "author": "daWinzig",
+                    "body": "it could also be area effect clouds with the particle component set and radius on use/tick set to 0",
+                    "score": 35,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Justerfrog5557",
+            "body": "Ah, the arena of my childhood.",
+            "score": 1113,
+            "replies": [
+                {
+                    "author": "ACHARED",
+                    "body": "Came here to say this, crazy how instantly it clicked despite the arena itself being quite plain/unremarkable.",
+                    "score": 74,
+                    "replies": [
+                        {
+                            "author": "ScarMaster2303",
+                            "body": "he made a TON of vids on it, OG mob battles, challenge games, trolling games during Pat's turn, and let's not forget Jen's version of the arena with pink wool (Trolling Games or that variant of the challenge games)",
+                            "score": 35,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Enslaved_M0isture",
+                    "body": "no wet beacons",
+                    "score": 188,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Bee_boy13",
+            "body": "I wish I could help but I can't also I HATE YOU \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d I want to go back!!!!!!!!",
+            "score": 259,
+            "replies": [
+                {
+                    "author": "ChillOutCheese",
+                    "body": "I wanted to build it in my realm as like a throwback nostalgia corner sort of. I also have DanTDM's OG lab in this realm right next ti Pat and Jen's Arena",
+                    "score": 177,
+                    "replies": [
+                        {
+                            "author": "JoshyRB",
+                            "body": "The Memory Zone",
+                            "score": 53,
+                            "replies": []
+                        },
+                        {
+                            "author": "TechnicalAsk3488",
+                            "body": "World tour when?",
+                            "score": 24,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "EricIsntSmart",
+            "body": "Likely an area effect cloud. Just do /kill @n[type=area_affect_cloud] and you should be good",
+            "score": 71,
+            "replies": []
+        },
+        {
+            "author": "Grand_Big_Mac",
+            "body": "WHAT IS UP GUYS AND WELCOME BACK TO THE CHALLENGE GAMES!!!",
+            "score": 165,
+            "replies": [
+                {
+                    "author": "icyeyeddemon",
+                    "body": "Hey guys!",
+                    "score": 45,
+                    "replies": [
+                        {
+                            "author": "PredEdicius",
+                            "body": "Pat's intro is really iconic, but Jen's greeting is just a really sweet cherry on top.\n\nI miss them both. I hope they're happy, whenever they are",
+                            "score": 42,
+                            "replies": [
+                                {
+                                    "author": "Ko938AUp",
+                                    "body": "Jen is good but Pat is sadly dealing with a lot right now, false witch hunts being thrown against him and things like that..",
+                                    "score": 10,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ChillOutCheese",
+            "body": "game version and edition: Minecraft Java 1.21.4",
+            "score": 45,
+            "replies": []
+        },
+        {
+            "author": "PotatoKing241",
+            "body": "Good Lord it's been a long time since I've seen this arena",
+            "score": 70,
+            "replies": []
+        },
+        {
+            "author": "ValuablePace1904",
+            "body": "The mob battles were peak, cool to know that this Arena is still around and not lost to time",
+            "score": 29,
+            "replies": [
+                {
+                    "author": "ChillOutCheese",
+                    "body": "had to build it in realm, as a piece of my childhood",
+                    "score": 10,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "onyonyo12",
+            "body": "any source on the commands used so people can take a look?",
+            "score": 17,
+            "replies": [
+                {
+                    "author": "ChillOutCheese",
+                    "body": "unfortunately no \ud83d\ude1e",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "Howzieky",
+                            "body": "Without the commands themselves, we'll never be able to help. Maybe you could give speed to counteract it",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "ThatJudySimp",
+            "body": "Lucky block giant challenge",
+            "score": 13,
+            "replies": []
+        },
+        {
+            "author": "Natural__Power",
+            "body": "You need to ask your friend, there's hundreds of ways these could be made",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "weebman2112",
+            "body": "right in the nostalgia",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "Jacktheforkie",
+            "body": "Nostalgia overload now, shame they stopped doing all this crazy stuff",
+            "score": 11,
+            "replies": []
+        },
+        {
+            "author": "Spongypancake_",
+            "body": "Isnt it lag?",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "RedstoneSausage",
+            "body": "That floor. Neuron activation",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "kocsogkecske",
+            "body": "Omg guys emerge, its THE arena",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "BendyMine785",
+            "body": "Do you have any mod or game-changing thing installed? Also nice build",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "ChillOutCheese",
+                    "body": "no I don't and thanks bro \ud83d\ude4f",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Mango-Vibes",
+            "body": "It's been a couple MONTHS!!! \ud83d\ude02\ud83d\ude02 Crazy",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "TechnicalAsk3488",
+            "body": "Dump milk on it? lol.    \n\n(Edited)",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "ChillOutCheese",
+                    "body": "I meant get rid of the particle effects, not just the slowness effect cuz everytime I step in those particles it gives me slowness and it's slowly driving me nuts",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "TechnicalAsk3488",
+                            "body": "My bad I was joking. If you have no Mobs that  you care about could you just run a /kill @e",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Character-Debt8609",
+            "body": "Gah! Nostalgia!",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "FluffyPhoenix",
+            "body": "If all else fails, you can run another command that gives speed to counter it.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Linux765465",
+            "body": "THE GREAT AWAKENING",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "LocksmithDelicious",
+            "body": "Whoa, what a nostalgia hit.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "AMidgetinatrenchcoat",
+            "body": "That arena was my childhood",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "The_Hive_King",
+            "body": "...I think.........\n\n\nI miss my popularmmos.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "endercreeper_FX",
+            "body": "\"Hey what's up dudes, welcome to another minecraft episode! \" ...",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "UranusMc",
+            "body": "Oh my god I knew that arena looked familiar!",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "DOK10101",
+            "body": "Well if your playing modded, then I suggest getting sodium extra. You can remove particles u don't want.",
+            "score": -9,
+            "replies": []
+        }
+    ]
+}

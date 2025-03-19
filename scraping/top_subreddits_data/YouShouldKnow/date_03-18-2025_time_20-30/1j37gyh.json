@@ -1,0 +1,916 @@
+{
+    "title": "YSK: ublock origin still works in google chrome after update.",
+    "author": "Zadatta",
+    "subreddit": "YouShouldKnow",
+    "rank": 17,
+    "score": 1441,
+    "upvote_ratio": 0.93,
+    "num_comments (reported by reddit)": 143,
+    "url": "https://www.reddit.com/r/YouShouldKnow/comments/1j37gyh/ysk_ublock_origin_still_works_in_google_chrome/",
+    "id": "1j37gyh",
+    "selftext": "Why YSK: So i've been seeing a lot of posts of people saying ublock origin has been removed from their google chrome browser and that is not at all what is happening. Chrome asks if you want to remove it but you can just say no.  When chrome gives this message that it wants to remove it you can just click no. Then it wont be removed but still disabled. If you then go to your extensions page you can just activate it again. It will tell you that it is not recommended but you can just say run anyways. ",
+    "comments": [
+        {
+            "author": "xM00D",
+            "body": "Yep but you should switch to Firefox ;)",
+            "score": 676,
+            "replies": [
+                {
+                    "author": "sufferingplanet",
+                    "body": "Did back when Google started this anti-adblock nonsense.\n\nFuck google.",
+                    "score": 235,
+                    "replies": [
+                        {
+                            "author": "EnvironmentalTrust90",
+                            "body": "Switched to Firefox after that move. No regrets so far.",
+                            "score": 51,
+                            "replies": [
+                                {
+                                    "author": "idkBro021",
+                                    "body": "i also switched, you should still use ublock on firefox tho",
+                                    "score": 22,
+                                    "replies": [
+                                        {
+                                            "author": "PhthaloVonLangborste",
+                                            "body": "The problem is if you use YouTube on firefox it will run like shit because Google doesn't want you using Firefox.  There are addons that \"spoof\"  it to make you look like you are using Chrome.  The problem is I'm not smart enough to understand it and my internet is garbage enough to not know if it's working.  Also, Firefox suck ram like no other",
+                                            "score": -14,
+                                            "replies": [
+                                                {
+                                                    "author": "sufferingplanet",
+                                                    "body": "I dunno, my experiences with chrome have been far worse overall.",
+                                                    "score": 24,
+                                                    "replies": [
+                                                        {
+                                                            "author": "PhthaloVonLangborste",
+                                                            "body": "I'm not really comparing them cus I never use chrome.  Are you saying YouTube is studery there too?",
+                                                            "score": -2,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "sufferingplanet",
+                                                                    "body": "Im not sure what \"studery\" means, i assume you mean stutter-y...\n\nI dont have any meaningful issues with youtube on firefox however. I havent had any stuttering with my videos in... A long while (not including internet issues on my end).",
+                                                                    "score": 5,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "FPS_Warex",
+                                                                            "body": "Yeah having a decent cpu and connection really mask many small inefficiencies, that was a lot more evident back when we didn't",
+                                                                            "score": 3,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "author": "idkBro021",
+                                                    "body": "youtube is running fine for me on firefox, the same experience basically",
+                                                    "score": 8,
+                                                    "replies": [
+                                                        {
+                                                            "author": "PhthaloVonLangborste",
+                                                            "body": "Well, I know I'm not the only one.  There post and people seem to not want to believe that there is any flaws with Firefox cus anytime anyone mentions anything bad it gets buried.\n\nAs it pertains to youtube its not even the fault of Firefox as I have said.",
+                                                            "score": 0,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "DarKliZerPT",
+                    "body": "Google will keep making an effort to stop ad blocking, do yourself a favour and switch sooner rather than later.",
+                    "score": 63,
+                    "replies": []
+                },
+                {
+                    "author": "UpwardlyGlobal",
+                    "body": "Got a PW manager recommendation? That holds me back",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "KianosCuro",
+                            "body": "Bitwarden. Set it up to stay unlocked on your main devices, but to request a master password on new devices or on any sensitive websites of your choice (it's just a checkbox you tick for the site).",
+                            "score": 25,
+                            "replies": [
+                                {
+                                    "author": "cheezzy4ever",
+                                    "body": "Can it import passwords from Google password manager?",
+                                    "score": 5,
+                                    "replies": [
+                                        {
+                                            "author": "KianosCuro",
+                                            "body": "Yes, it takes in all sorts of formats. And GPM exports in a common format.",
+                                            "score": 5,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Ploxl",
+                            "body": "Keepassxc on Windows \n\nKeepassDX on Android\n\nProton drive to sync keepassxc file between devices",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Twatt_waffle",
+                    "body": "You mean the one that just changed it\u2019s privacy policy to allow them to sell your data",
+                    "score": 37,
+                    "replies": [
+                        {
+                            "author": "dedolent",
+                            "body": "yeah and got called out and walked back the policy to a small degree. that may not satisfy every privacy-minded user (it still bothers me!) but it's a whole universe better than Google, the company that decided to stop using their original slogan, \"Don't Be Evil\".",
+                            "score": 38,
+                            "replies": [
+                                {
+                                    "author": "Twatt_waffle",
+                                    "body": "I mean brave is much better",
+                                    "score": -23,
+                                    "replies": [
+                                        {
+                                            "author": "dedolent",
+                                            "body": "if firefox's privacy policies continue a downward trajectory i'd be interested in trying it. there was some grumbling about crypto in regards to the brave browser that seemed potentially concerning but i never gathered what that was all about.",
+                                            "score": 17,
+                                            "replies": [
+                                                {
+                                                    "author": "Twatt_waffle",
+                                                    "body": "Brave just offers a crypto wallet \n\nIt was created by the founder of Firefox and has things like built in ad block and some other great features but it\u2019s very privacy focused",
+                                                    "score": 2,
+                                                    "replies": [
+                                                        {
+                                                            "author": "dedolent",
+                                                            "body": "good to know",
+                                                            "score": 0,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "cooly1234",
+                                            "body": "hasn't brave scammed people multiple times?\n\nI just use librewolf. a fork of Firefox with privacy.",
+                                            "score": 12,
+                                            "replies": [
+                                                {
+                                                    "author": "Twatt_waffle",
+                                                    "body": "I can\u2019t find anything online about it? Do have an article? \n\nAll i can find is issues about the crypto wallet but that\u2019s not what I\u2019m recommending it for",
+                                                    "score": -4,
+                                                    "replies": [
+                                                        {
+                                                            "author": "cooly1234",
+                                                            "body": "you know the honey scandal? Brave did it first.\n\nhttps://davidgerard.co.uk/blockchain/2020/06/06/the-brave-web-browser-is-hijacking-links-and-inserting-affiliate-codes/\n\nI've heard they've done other stuff too but I don't have links.",
+                                                            "score": 15,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "trophicmist0",
+                    "body": "I like Firefox but god is their support for new standards and features awfully slow (I.e. new CSS changes etc)",
+                    "score": 24,
+                    "replies": []
+                },
+                {
+                    "author": "boxvader",
+                    "body": "I tried switching to Firefox but everything seems to load so slowly compared to chrome.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "500Rtg",
+                    "body": "I was using Firefox for a long time. But a few websites keep breaking even if I tried everything. Swittched to edge. Actually better.\n\nClutter is an issue but as of now okay.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "267aa37673a9fa659490",
+                            "body": "Just curious but what websites break on Firefox for you?",
+                            "score": 21,
+                            "replies": [
+                                {
+                                    "author": "Hydrottle",
+                                    "body": "I was going to say, I\u2019ve never had a website break for me unless one of my ad blocking extensions broke something. Which says more about the website than the extension.",
+                                    "score": 23,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "econopotamus",
+                                    "body": "Not OP, but Etrade does not work on firefox for me even with all addons disabled; repeatedly in my tests for weeks. I have to go back to chrome to use that site. Just blank on Firefox.",
+                                    "score": 6,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "According2Kelly",
+                                    "body": "I can\u2019t log into my spectrum account in Firefox",
+                                    "score": 3,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "500Rtg",
+                                    "body": "Zomato hotel links. But it didn't break for the support team. I tried a completely new bare install but still same issue.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "digitalnoise",
+                            "body": "Edge will eventually lose support for Manifest V2 extensions like uBlock as it's based on Chromium.",
+                            "score": 10,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Zadatta",
+                    "body": "Fair enough :)",
+                    "score": 0,
+                    "replies": []
+                },
+                {
+                    "author": "s0974748",
+                    "body": "https://youtu.be/32BKHhSV3II?si=OkHrC62h73EcfxZx",
+                    "score": -1,
+                    "replies": []
+                },
+                {
+                    "author": "BronnOP",
+                    "body": "Didn\u2019t they just remove the part of their policy that promised never to sell users data lol",
+                    "score": -2,
+                    "replies": [
+                        {
+                            "author": "cooly1234",
+                            "body": "they walked it back a bit.\n\nbut also that's why you use librewolf, a privacy fork of Firefox.",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "tinylittlebabyjesus",
+                            "body": "Did they? Maybe it's time to switch again. Link for others to read up: [https://adguard.com/en/blog/mozilla-deletes-promise-to-never-sell-your-data.html](https://adguard.com/en/blog/mozilla-deletes-promise-to-never-sell-your-data.html)",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "BronnOP",
+                                    "body": "They did.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "ThisIsMyFloor",
+                    "body": "I tried switching. Opened up firefox, it said I needed to update firefox to get ublock. I tried to go to the page, mozilla firefox thinks mozilla is untrusted and blocked the page. I went through google chrome to get new mozilla firefox. Then went to get ublock in updated firefox, the thing won't download and install, it just spins. I give up and use chrome again with the workaround. I don't have patience for things that just don't work.",
+                    "score": -7,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Content-Ad1884",
+            "body": "Why keeping the hassle with all those workaround? Switched to Firefox",
+            "score": 161,
+            "replies": [
+                {
+                    "author": "JAWinks",
+                    "body": "Work computers",
+                    "score": 49,
+                    "replies": [
+                        {
+                            "author": "nikhilsath",
+                            "body": "Do your part, request Mozilla as the main browser from your it department!",
+                            "score": 20,
+                            "replies": [
+                                {
+                                    "author": "incunabula001",
+                                    "body": "Not really advisable if you are a web dev in which most your users are on chrome.",
+                                    "score": 9,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "MurderMelon",
+                    "body": "Because it's not even really a \"workaround\"...\n\nAll Chrome did was turn off the extension and give you a warning about it being \"unsecure\". You just need to tell Chrome that \"yeah I want to keep this extension\" and then go turn it back on. \n\nI just did this whole process. It took *maybe* 15 seconds.",
+                    "score": 8,
+                    "replies": [
+                        {
+                            "author": "YouAreBrathering",
+                            "body": "Yeah, until June 3rd. This is your 3-month-notice for end of service on Chrome.",
+                            "score": 7,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "williamtbash",
+                    "body": "Profiles.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "dannwebb",
+                            "body": "Just bookmark the about:profiles page. Open it and click the profile you want to open. Not hard.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "williamtbash",
+                                    "body": "I need multiple open at the same time with shortcuts to each.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Far-Item-1202",
+            "body": "Ublock Origin Lite from same developer supports Manifest V3",
+            "score": 180,
+            "replies": [
+                {
+                    "author": "Party-Cake5173",
+                    "body": "Note: uBlock Origin Lite greatly differs from uBlock Origin. It has reduced capability to identify and block ads.",
+                    "score": 129,
+                    "replies": []
+                },
+                {
+                    "author": "ojuditho",
+                    "body": "Installed it yesterday and chrome has been freezing a lot. If I minimize it, it snaps out of it, but otherwise it just bricks",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "Ducky_Gamer_13",
+                    "body": "stops my youtube ads but still can't do my spotify for some reason",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "SokkaHaikuBot",
+                    "body": "^[Sokka-Haiku](https://www.reddit.com/r/SokkaHaikuBot/comments/15kyv9r/what_is_a_sokka_haiku/) ^by ^Far-Item-1202:\n\n*Ublock Origin*\n\n*Lite from save developer*\n\n*Supports Manifest V3*\n\n---\n^Remember ^that ^one ^time ^Sokka ^accidentally ^used ^an ^extra ^syllable ^in ^that ^Haiku ^Battle ^in ^Ba ^Sing ^Se? ^That ^was ^a ^Sokka ^Haiku ^and ^you ^just ^made ^one.",
+                    "score": -22,
+                    "replies": [
+                        {
+                            "author": "Cagy_Cephalopod",
+                            "body": "Bad bot",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "UnluckyMeasurement86",
+                            "body": "Good bot",
+                            "score": -7,
+                            "replies": [
+                                {
+                                    "author": "Goolsby",
+                                    "body": "Bad bot. A haiku is just putting pauses into a sentence in places they don't belong.",
+                                    "score": -7,
+                                    "replies": [
+                                        {
+                                            "author": "Demented_Crab",
+                                            "body": "That's not why people dislike it. There's a normal Haiku bot which is (relatively) liked. This one is disliked because it's a purposely incorrect haiku which is a reference to a show.",
+                                            "score": 5,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "UnluckyMeasurement86",
+                                            "body": "lol",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "cold_quinoa",
+                            "body": "Good bot",
+                            "score": -19,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Havelok",
+            "body": "Why bother? Switch to Firefox.\n\nOn Mobile too, where you can also install adblockers.",
+            "score": 11,
+            "replies": [
+                {
+                    "author": "thepulloutmethod",
+                    "body": "Unfortunately lots of people can't install Firefox on their work computers. I'm stuck with either Chrome or Edge.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "SSFTTW",
+                            "body": "Genuine question here. Why would you need adblock on a work computer?  I'm not generally browsing the web much on my work PC but maybe your work requires that you do.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "thepulloutmethod",
+                                    "body": "I like to read the news when I take breaks and a monitor is more comfortable than my phone.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "trophicmist0",
+            "body": "Is this a forever thing though? When Google fully phases out Manifest V2 a lot of the functions it uses to work will no longer exist, so the extension will break regardless surely?",
+            "score": 39,
+            "replies": [
+                {
+                    "author": "YouAreBrathering",
+                    "body": "Killing V2 was specifically targeted at killing uBlock. Every other extension is just collateral damage. Something you can only do if you have the absolute majority of users.",
+                    "score": 18,
+                    "replies": [
+                        {
+                            "author": "lexiclysm",
+                            "body": "And the whole reason they want to kill uBlock is that Google got pissed about losing the adblock war on YouTube to a bunch of amateur programmers.\n\nTalk about petty.",
+                            "score": 13,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Zadatta",
+                    "body": "I honestly don't know. Maybe it will break or maybe the devs of the extension will find another work around. We'll have to wait to find out.",
+                    "score": -17,
+                    "replies": [
+                        {
+                            "author": "davidjohnwood",
+                            "body": "Ublock Origin Lite will work once the Manifest v2 code is removed from Chrome. Ublock Origin will stop working permanently. The developers have been clear about this.\n\nIf you want to keep using Ublock Origin, switch to Firefox or a Firefox-derived browser.",
+                            "score": 24,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "InkyBendy",
+            "body": "I know I should switch from google but I've been using it for over a decade and I've become kinda attached to it.",
+            "score": 17,
+            "replies": [
+                {
+                    "author": "KatzAndShatz1996",
+                    "body": "I opened up Firefox today, just clicked settings, general, and import browser data, and all my bookmarks, passwords, etc were instantly there. I was shocked how quick it was and that my toolbar looked exactly the same. It even transferred all my extensions as well. I can barely tell it\u2019s not chrome. And if I end up hating it, well, I still have chrome.",
+                    "score": 17,
+                    "replies": [
+                        {
+                            "author": "williamtbash",
+                            "body": "If I only had one browser it would be easy. However I have 8 or so with their own profiles and email ls synced and it\u2019s just a pain and Firefox sucks for that.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "DrDezmund",
+                    "body": "Same but I switched and its pretty much identical.  It imports all of your settings too.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "dedolent",
+            "body": "related YSK: stop using Chrome. some websites don't work great on Firefox or alternative browsers because those sites are conforming to standards set by google, who are trying to change internet standards unilaterally to benefit themselves. and besides, in my experience most of the time a site doesn't work great in Chrome it's because the site's trying to do something sketchy anyways.",
+            "score": 16,
+            "replies": [
+                {
+                    "author": "DevilPandaIV",
+                    "body": "google chrome is the new IE6",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "SpxUmadBroYolo",
+            "body": "Just switched to Firefox instead way easier.",
+            "score": 43,
+            "replies": [
+                {
+                    "author": "Sure-Supermarket5097",
+                    "body": "I tried using it, but it starts slowing down way too much once I open quite a few tabs. Any potential fixes ?",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "iambiggzy",
+                    "body": "Switch to Zen instead if you go down that route",
+                    "score": -27,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Oderus_Scumdog",
+            "body": "This is not the case for all users.\n\nGoogle are rolling this out in* phases like they do with A/B testing stuff on YouTube.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Redcrux",
+            "body": "Just swap to Firefox, I won't support a browser with such a conflict of interest. Google makes money off of ads, of course they aren't interested in giving me a good ad-free internet experience.",
+            "score": 23,
+            "replies": []
+        },
+        {
+            "author": "FeatheredStylo",
+            "body": "Sorry already switched to Firefox. Too much hassle to go back. Oh wells.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "npdady",
+            "body": "It's still not working for me though. I migrated to Firefox anyway.",
+            "score": 28,
+            "replies": []
+        },
+        {
+            "author": "edparadox",
+            "body": "The actual PSA should read: Switch to Firefox.\n\nThis is the only way to aim for an healthier way to browse the Internet, and fight for your freedom instead of strengthening a monopoly.",
+            "score": 18,
+            "replies": []
+        },
+        {
+            "author": "Rhexr",
+            "body": "Use Firefox",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "ItsGotToMakeSense",
+            "body": "All the same, switching to firefox took me all of 5 minutes (including setting up account sync, migrating all my shortcuts, my password manager app, and of course uBlock Origin).\n\nIt's faster too.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Substantial_Back_865",
+            "body": "People are really out there just using Chrome? Damn, I hope you guys learn that there are other browsers out there.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "Aeroncastle",
+            "body": "Google is not only trying to make it stop working, it's also trying to make ad blocking work worse in general, stop using a browser from an ad company Firefox+ublock origin is the way to go",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Decoyx7",
+            "body": "Just use Firefox, people.",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "KH10304",
+            "body": "Thanks for this",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Primary-Airline-2272",
+            "body": "Glad you pointed this out, so many people are freaking out like it's gone for good when it's really just one click away\n\nchrome's all \"remove or not?\", just a pick \"no,\" flip it back on in extensions, and boom, still blockin' ads like a champ",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Kathalepsis",
+            "body": "You block UBlock in your browser, I block your shtty browser in my life. UBlock for life! \u2764\ufe0f",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "Th3_D00D3",
+            "body": "All you Firefox stans out here tell me how to group my tabs and how to switch user profiles in any convenient way. I want to switch, but those very basic features are missing",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "PHP0NY",
+                    "body": "You'd be delighted to try [https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) It not only allows unlimited easy accessible profiles, but also allows to use those profiles simultaneously assigning and color-coding each tab to one of the profiles.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Salty-Passenger-4801",
+                            "body": "You da real MVP",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "dannwebb",
+                    "body": "Just bookmark the about:profiles page. Open it and click the profile you want to open. Not hard.",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "n3m37h",
+            "body": "Ublock lite was made to work with manifest v3 not UBO",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "suckingalemon",
+            "body": "What\u2019s up with Brave then? I was thinking of giving that a go.",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "Oderus_Scumdog",
+                    "body": "Crypto stuff baked in, and they've been caught in the past inserting their affiliate links in to users' sessions without disclosing it or asking for permission.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "_haha_oh_wow_",
+            "body": "YSK: Firefox is better and you should switch to it.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "waterproof_diver",
+            "body": "People still use Google?",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "roboticlee",
+            "body": "Ghostery and AdBlock still work.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Schytheron",
+            "body": "I wish I read this before I removed it yesterday.... now what?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Dense_Capital_2013",
+            "body": "I honestly just gave up and went to brave. Built in ad blocks, but their search engine sucks so you have to access Google or something else through it",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "jcpham",
+            "body": "I\u2019m still using it an deploying via GPO",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "mrsauceysauce",
+            "body": "thanks! not sure if it will work the same but good to know i could just turn it back on",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "valance02",
+            "body": "This was helpful.  Thank you.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "podun",
+            "body": "YSK: Google is not friendly anymore and it\u2019s time to switch, because even a little tiny bit of data will generate some cash that won\u2019t flow to you.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "chomi3",
+            "body": "Switched to FF immediately. What a bold move on the google side. fuck them.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "dan_micsa",
+            "body": "It is still possible to enable it.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "anonymunchy",
+            "body": "Brave browser is my go-to right now. No Spotify adds, no YouTube adds, automatic cookie blocking, no other adds.\u00a0",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "AlmostFrontPage",
+                    "body": "But are there any ads?",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "Aeroncastle",
+                    "body": "Brave is crypto nonsense",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "GargamelLeNoir",
+                            "body": "How so?",
+                            "score": 0,
+                            "replies": [
+                                {
+                                    "author": "anonymunchy",
+                                    "body": "Brave has crypto rewards if you allow adds and opt-in. I never interact with it though, it's completely optional.\n\n\nPrevious commenter remark is just noise.",
+                                    "score": 11,
+                                    "replies": [
+                                        {
+                                            "author": "Oderus_Scumdog",
+                                            "body": "Is it just noise that the Brave developers were inserting their own affiliate links in to users sessions without disclosing it?",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "anonymunchy",
+                                                    "body": "That's a bit shitty, but I don't really see who gets harmed here, or how that has anything to do with what I was replying to.",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "anonymunchy",
+                            "body": "What's your point?",
+                            "score": -3,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "datNorseman",
+            "body": "Keep in mind you're using an old no-longer-supported add-on.  You can switch to uBlock origin lite if you insist on using chrome still, it supports the new Manifest v3.  Otherwise Firefox is rapidly gaining approval from users again.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "mandrack3",
+                    "body": "Not with the latest ToS changes they don't. Librewolf (privacy hardened firefox fork) is where it's at.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "datNorseman",
+                            "body": "Noted.  I'm ashamed that as a web developer I wasn't aware of this. Thanks.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "AbyssalRedemption",
+                                    "body": "It's debated and was overreacted to when it occurred. Go to the Firefox sub and decide for yourself, or watch Louis Rossman's video on the subject. A lot of people have paused and done a double-take after having it explained to them that much of this was just a technical legal maneuver. I'm personally stayong, Firefox is still far better than Chrome.",
+                                    "score": 4,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Zadatta",
+                    "body": "Thanks, will check it out",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "wrapped_in_clingfilm",
+            "body": "You're right, thanks!",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "brtomn",
+            "body": "What if I accidentally deleted it, not saying I did, but in a hypothetical situation. What do I do?",
+            "score": -2,
+            "replies": [
+                {
+                    "author": "Ieatdirt240",
+                    "body": "go into the Chrome web store page, f12, and select the greyed-out \"add to chrome\" text, open up the div class and button class, and change the \"disabled\" to \"enabled\" it'll let you download it from there.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "skrillexidk_",
+                    "body": "Enable developer mode and sideload it.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Zadatta",
+                    "body": "I do not know :(",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "iambiggzy",
+            "body": "Switch to Vivaldi and never look back",
+            "score": -1,
+            "replies": [
+                {
+                    "author": "skrillexidk_",
+                    "body": "Vivaldi doesn't support MV2, and even if you force it, it won't support uBO by june.",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Top-Egg1266",
+            "body": "YouTube premium is a few bucks a month",
+            "score": -35,
+            "replies": [
+                {
+                    "author": "DarKliZerPT",
+                    "body": "YouTube isn't the only website that exists.",
+                    "score": 19,
+                    "replies": []
+                },
+                {
+                    "author": "Zadatta",
+                    "body": "I know but I find the entirety of the Internet unpalatable without ad blocker, not just YouTube.",
+                    "score": 17,
+                    "replies": []
+                },
+                {
+                    "author": "skrillexidk_",
+                    "body": "Most pointless subscription. There's a way to remove youtube ads on almost every platform.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "Top-Egg1266",
+                            "body": "On tv, you actually can't. And oh, I forgot that ytb premium only removes ads. It's not like it has any other functions",
+                            "score": -9,
+                            "replies": [
+                                {
+                                    "author": "skrillexidk_",
+                                    "body": "You can use SmartTube on most tsv, and some tvs have ways to remove ads from the native youtube app (e.g. tizentube for samsung tvs). Plus it has more features than YT premium like Sponsorblock and Return Youtube dislikes.",
+                                    "score": 8,
+                                    "replies": [
+                                        {
+                                            "author": "Top-Egg1266",
+                                            "body": "Yeah no thanks. I'll happily pay 2 bucks a month.",
+                                            "score": -8,
+                                            "replies": [
+                                                {
+                                                    "author": "skrillexidk_",
+                                                    "body": "Your loss.",
+                                                    "score": 8,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Top-Egg1266",
+                                                            "body": "Not at all",
+                                                            "score": 0,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

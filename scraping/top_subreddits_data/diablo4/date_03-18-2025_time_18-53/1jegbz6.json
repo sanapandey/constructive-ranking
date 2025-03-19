@@ -1,0 +1,27 @@
+{
+    "title": "Continuosly crashing when launching or playing",
+    "author": "Zargon2876",
+    "subreddit": "diablo4",
+    "rank": 14,
+    "score": 3,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 2,
+    "url": "https://www.reddit.com/r/diablo4/comments/1jegbz6/continuosly_crashing_when_launching_or_playing/",
+    "id": "1jegbz6",
+    "selftext": "I have reinstalled Windows for like 5th time and this is what I get, ONLY with Diablo IV. Did some experiments and tried to use a gen3 SSD for OS and newer gen4 for games installation. I play WoW with 0 problems as well as other games. I'm really at a loss at this point...",
+    "comments": [
+        {
+            "author": "Grumpy_488",
+            "body": "Try -disableds on game startup options, that worked for me..  It disables director storage feature that doesn't work well.   I had issue with memory, but I now have 65Gig RAM and 8 gig VRAM.. It lasts for hours, but I always exit out of the game for every Infernal horde, since that seems to crash out still..",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Zargon2876",
+                    "body": "Sorry you mind telling me how?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

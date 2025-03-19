@@ -1,0 +1,523 @@
+{
+    "title": "Meta talks about us and open source source AI for over 1 Billion downloads",
+    "author": "Nunki08",
+    "subreddit": "LocalLLaMA",
+    "rank": 0,
+    "score": 949,
+    "upvote_ratio": 0.98,
+    "num_comments (reported by reddit)": 88,
+    "url": "https://i.redd.it/gcql3piongpe1.jpeg",
+    "id": "1je6ns1",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "Relevant-Draft-7780",
+            "body": "Yeah and 10,000 of those downloads was me downloading various models quants and formats and testing on different hardware.",
+            "score": 272,
+            "replies": [
+                {
+                    "author": "Zc5Gwu",
+                    "body": "I\u2019ve always wondered how huggingface can afford that.",
+                    "score": 82,
+                    "replies": [
+                        {
+                            "author": "Relevant-Draft-7780",
+                            "body": "Honestly me too, on top of the fact that they also need to pay for storage. Was doing some back of napkin maths and 100gb to store and download just that would cost around 11usd with aws. Just today I loaded Gemma 27b 8bit 6bit 13b 4b. These guys are saints.",
+                            "score": 60,
+                            "replies": [
+                                {
+                                    "author": "FastDecode1",
+                                    "body": "lol, doing this with AWS would be insanely expensive. You're not even getting a ballpark figure from that.\n\nWith R2, it's more like $1.5. Could also be lower, considering how big of a customer they are.\n\nA lot of people underestimate how much it costs to host data in bulk. Besides, I don't think hosting data makes someone a saint. HF is a business after all, and they benefit from being the HUB for ML & AI. The ROI of hosting is probably pretty decent, and I'm sure they'll let us know if that stops being the case (because even if they are saints, they don't have infinite money).",
+                                    "score": 50,
+                                    "replies": [
+                                        {
+                                            "author": "o5mfiHTNsH748KVq",
+                                            "body": "This guy clouds",
+                                            "score": 15,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "forever4never69420",
+                                            "body": "I just host all my data in free tier LLM conversations, much better.",
+                                            "score": 4,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "satireplusplus",
+                                    "body": "Hint: they aren't doing it with any over priced aws instances. For one, with that volume, you'd get better prices with aws too. Then using literally anything else to host it will be way cheaper too.\n\nIf they are clever they setup their own data center(s), they certainly are big enough so that it would make sense. Anything else and a middle man takes a cut.",
+                                    "score": 8,
+                                    "replies": [
+                                        {
+                                            "author": "mikael110",
+                                            "body": "Based on this [blog](https://huggingface.co/blog/rearchitecting-uploads-and-downloads) post from their infrastructure team they are in fact entirely AWS based currently.",
+                                            "score": 8,
+                                            "replies": [
+                                                {
+                                                    "author": "satireplusplus",
+                                                    "body": "Thanks for the link! 130.8 TB traffic per day is actually still quite manageable, but if they continue to grow exponentially (and the model sizes grow as well) it's gonna get hella expensive. \n\nI still think they'd be better off with a few racks of their own in a few data centers.",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "yur_mom",
+                                    "body": "I signed up for there $20 a month service on Hugging Face...(well my company paid for it) and they do not give you enough processing power to do heavy GPU workloads, so if you wanted to run large models or train models in their spaces you would need to pay by the hour to rent GPU time and that would cost some decent money.  I assume once you were done prototyping in their spaces you could move the code to a place where it would be cheaper to rent GPU space.\n\nI am not sure what their business model is, but if it is like any other startup right now they are trying to build up a userbase at a loss, so that they can later try to profit off the userbase or just sell the company..or maybe they are just good people trying to help out and run the service at cost.",
+                                    "score": 6,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Educational_Gap5867",
+                                    "body": "I think Huggingface prices are of course different. Economies of scale operate quite differently and no you cannot math your way through them. Some of them rely on some cryptic metrics like hype, and growth rate where the time periods are in bananas.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Relevant-Draft-7780",
+                                            "body": "Look I get it, they probably have some deals with Amazon but it still costs. And yet everyone and anyone can pull their models as often as they want. And the files aren\u2019t exactly small. I read somewhere they\u2019re in aws and aws still needs to turn a profit here. It\u2019s not so much the infrastructure but the operational costs they need to cover.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "Ansible32",
+                                                    "body": "I wouldn't be surprised if AWS's margin for some of these services is 99%, especially when we're talking about download bandwidth. It's definitely more than 60% and probably around 90%.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Delyzr",
+                                    "body": "B2+cloudflare you only pay for the storage ($5/tb/m), transfer is free via cloudflare.\n\nOr get a (few) dedicated servers with lots of storage and unlimited data at providers like ovh, hetzner, etc.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "kholejones8888",
+                            "body": "Relationships with organizations that donate the bandwidth and space. Also it\u2019s not that expensive it\u2019s a couple file servers. GCP or AWS probably just gives it to them though.\n\nIf I was them I\u2019d have something in a cabinet at the Linux foundation data center.\n\nBrb I\u2019m gonna look into it actually",
+                            "score": 7,
+                            "replies": []
+                        },
+                        {
+                            "author": "Shivacious",
+                            "body": "Honestly the only part free is bandwidth. They run on cloudflare r2 so it is the only cheapest solution",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "MrPecunius",
+                            "body": "And the delivery is stupidly fast on top of everything else. I'm getting \\~650 megabits including the wifi last link when downloading new models and my ISP connection is only 500Mb!",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "12destroyer21",
+                            "body": "Based on this article, and assuming that downloads are 100x the uploads, and they have accumulated the shown uploads for 12 months: [https://xethub.com/blog/rearchitecting-hugging-face-uploads-and-downloads](https://xethub.com/blog/rearchitecting-hugging-face-uploads-and-downloads)\n\nThen I estimate that they are burning around 9.3 million USD a month just on S3 and Cloudfront. Based on the given 130TB of upload every day accumulated of 12 months, and assuming 100x uploaded data is read in a given month. If reads are just 10x the uploads then the cost would be significantly less, just 2.1 million USD a month.\n\nS3:\n\n\\- Total bucket size: 46800 TB = 1 million USD monthly \n\n\\- S3 outbound traffic: 390000 TB = 279k USD monthly\n\nCloudfront:\n\n\\- Reads: 390000 TB pr. month = 8 million USD monthly\n\n\\- Writes: 3900 TB pr. month = 80k USD monthly",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "kmouratidis",
+                                    "body": "Are you factoring in the 50%+ discounts that most big customers get?",
+                                    "score": 4,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Lance_ward",
+                                    "body": "Read\u2019s prob a lot cheaper than 8 million.\u00a0",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "bharattrader",
+                            "body": "Often wonder, if we are too dependent on HF, not that I mind. :)",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "Everlier",
+                            "body": "It's more like how other companies can charge that much for traffic at this day and age",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "mikael110",
+                            "body": "They make a lot of money through their [Expert Support](https://huggingface.co/support) consulting service. There are a lot of companies looking to expand into AI right now so offering consulting is very profitable. On top of that they've raised hundreds of millions through various VC founding rounds. So they have a decent amount of capital to spend.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "atdrilismydad",
+                            "body": "Same as every other tech company outside of FAANG, VCs",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "marty4286",
+                            "body": "One of us is the main character and huggingface is alive because of plot armor/deus ex machina",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "barnett9",
+                            "body": "Venture capital. They are a leader in a growing market. They have raised $400M so far. That's a lot of infra. \n\nIMO it's a pretty good bet too. Imagine getting in on Github at the ground floor.\n\nEdit: Lol, their seed round came from Kevin Durant.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "clduab11",
+                    "body": "LMAO thanks to you my work phone is wearing coffee \ud83e\udd23\ud83e\udd23.\n\nDid not expect this to be most voted comment, am proud that it is",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "DinoAmino",
+                    "body": "Was gonna say Meta doesn't offer quants but they must be counting those community quants and fine-tunes because their HF stats alone don't add up.\n\nEdit: I could be wrong. The HF stats are only for the past month. 5M downloads last month for just 3.1 8B.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Relevant-Draft-7780",
+                            "body": "I wonder does deepseek r1 llama distill also count? I assume dolphin would.",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "DinoAmino",
+                                    "body": "Yeah, are they counting Ollama downloads too?",
+                                    "score": 0,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "satireplusplus",
+                    "body": "Count me in for a few 1000 as well \ud83d\ude02",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "macumazana",
+                            "body": "And my sword!",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "mrmamon",
+                    "body": "I'm doing my part",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "s101c",
+                    "body": "And me downloading horny derivatives. For research purposes.",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "pigeon57434",
+            "body": "Hasn't r1 been downloaded like 800k times (not distill but the full model 671b) and I don't think there's even that many computers on the entire planet capable of running it",
+            "score": 19,
+            "replies": [
+                {
+                    "author": "Actual-Lecture-1556",
+                    "body": "I did too. I'll never have anywhere to run it (I barely can run 12b model on an android phone) but I put it in a 1tb drive for safekeeping anyway. I don't think that the assholes who rule the world will let these open weight models rooming free for too long. So I guess many did the same, for the exact same reason: trying to save a much as we can before the corporate hammer will blow away all the free stuff on the internet.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "satireplusplus",
+                    "body": "Some people probably tried it out for the novelty and you can run it at 0.03 tokens per second off an m2 ssd. The smallest quant is the 1.56 dynamic one @ 136gb, with a recent ~5GB/s ssd you're doing about 2 tokens per minute worst case. Since its MoE it should actually get you up to 5-6 tokens per minute. So more like 0.1 tokens per second lol.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "Smile_Clown",
+                            "body": ">Some people probably tried it out for the novelty and you can run it at 0.03 tokens per second of an m2 ssd.\n\nUnless I have a fundamental misunderstanding, which is always possible, that is not how it works. (in this context of anyone just downloading and running if they have a m.2)",
+                            "score": -3,
+                            "replies": [
+                                {
+                                    "author": "satireplusplus",
+                                    "body": "Yes you can memory map your ssd and use that as RAM. Is it gonna be fast? Hell no. But will it let you run the model? yes, at a few tokens per *minute*",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "NNN_Throwaway2",
+                                            "body": "Damn, I should try this on my T705.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "satireplusplus",
+                                                    "body": "I'm running the 132GB model on 48GB VRAM + about 200GB ECC DDR4 RAM. About 2 tokens per second. Still kinda slow, but you can run Deepseek R1 on hardware with lower specs than you think.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Admirable-Star7088",
+            "body": "If Llama 4 is going to be multimodal (I think Meta said somewhere it will?), I sincerely hope Meta will help add support to llama.cpp, like Google did with Gemma 3, or Llama 4 will have 0 downloads because no one can run it anyway, lol.",
+            "score": 31,
+            "replies": [
+                {
+                    "author": "Only-Letterhead-3411",
+                    "body": "After releasing Llama 3, Zuckerberg went on an interview and there he mentioned their plans about Llama 4. He said:\n\n>You mentioned AI that can just go out and do  something for you that's multi-step. Is that a bigger model? With Llama-4 for example, will there still be a version that's 70B but you'll just train it on the right data and that will be super powerful? What does the progression look like? Is it scaling? Is it just the same size  but different banks like you were talking about?\n\n>I don't know that we know the answer to that. I  think one thing that seems to be a pattern is that you have the Llama model and then you build some  kind of other application specific code around it.  Some of it is the fine-tuning for the use case,  but some of it is, for example, logic for how  Meta AI should work with tools like Google or Bing  to bring in real-time knowledge. That's not part  of the base Llama model. For Llama-2, we had some  of that and it was a little more hand-engineered.  Part of our goal for Llama-3 was to bring more  of that into the model itself. For Llama-3,  as we start getting into more of these agent-like  behaviors, I think some of that is going to be  more hand-engineered. Our goal for Llama-4  will be to bring more of that into the model.\n\nSo they were planning to do tool use, agent like behavior for Llama 4. But a long time passed since release of Llama 3 and things have changed. Maybe they changed their plans and will focus on CoT models like R1 and QwQ mainly\n\nEdit: Fixed markdown",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "jklre",
+                            "body": "From what I know meta threw Llama 4 into the garbage bin because of deepseek wiping the floor with it. Llama 5 will be Llama 4",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "sluuuurp",
+                    "body": "Or you could use something other than llama.cpp.",
+                    "score": -11,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "WackyConundrum",
+            "body": "It's not Open Source of you don't get the source.",
+            "score": 10,
+            "replies": [
+                {
+                    "author": "ColorlessCrowfeet",
+                    "body": "If the training data is the source, I can't afford the compiler.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Blobbloblaw",
+                    "body": "Exactly, they want the \"open source\" medal without actually open sourcing their stuff.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "DamiaHeavyIndustries",
+            "body": "Please Llama 4 just publish it pls",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "ImaginaryRea1ity",
+            "body": "That seems excessive. There are only 8 billion people on the planet.",
+            "score": 29,
+            "replies": [
+                {
+                    "author": "SomeOddCodeGuy",
+                    "body": "Llama is a big family. Off the top of my head, we had...\n\n    Llama 1 - 7b, 13b, 33b, 65b\n    Llama 2 - 7b, 13b, 34b coder, 70b\n    Llama 3 - 8b, 70b\n    Llama 3.1 - 8b, 70b, 405b\n    Llama 3.2 - 3b, 11b, 90b\n    Llama 3.3 - 70b\n\nSo thats 17 models, which puts us at an average of 58 million downloads per model.\n\nI could see it, across the world.",
+                    "score": 38,
+                    "replies": [
+                        {
+                            "author": "Ok_Top9254",
+                            "body": "Exactly, also they are direct upgrades so people would naturally download new models to replace the old ones as they come.",
+                            "score": 10,
+                            "replies": []
+                        },
+                        {
+                            "author": "random-tomato",
+                            "body": "You forgot Llama 3.2 1B :)",
+                            "score": 4,
+                            "replies": []
+                        },
+                        {
+                            "author": "Emport1",
+                            "body": "no.. huggingface just has a weird counting thing, like with R1 it says also too much",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "satireplusplus",
+                    "body": "Some number between 10 and 100 downloads was just me testing out various models and quants. I can't be the only one who downloaded it multiple times.",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "ResidentPositive4122",
+                    "body": "How many instances poorly configured to always grab stuff from the hub, tho? I uhhh... have a friend that did that for about a month ... until I realised what a dum-dum I was...",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "lewd_robot",
+                    "body": "Never forget that Facebook (It'll never be Meta because the Metaverse is a concept too big and too important for a single corporation to attempt to monopolize) bankrupted companies like College Humor by inflating their stats.",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "mpasila",
+                            "body": "This isn't their platform though.. and I'm pretty sure they are also counting derivatives like finetunes/merges which there are thousands from their models. So it's definitely possible that all of those models will have that many downloads in total. Huggingface also only shows downloads for the past month and not ever since release so it could be much higher than what you see there.",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "MammothAttorney7963",
+            "body": "How did they get to 1 billion? There\u2019s no way there\u2019s that many of us trynna run these things at home",
+            "score": 13,
+            "replies": [
+                {
+                    "author": "maikuthe1",
+                    "body": "I'm assuming every quant and fine-tune counts",
+                    "score": 35,
+                    "replies": [
+                        {
+                            "author": "Relevant-Draft-7780",
+                            "body": "And remember every time you deploy to a server instance and download the model because it\u2019s not cached locally, that counts too. Every time you use google colabs and create a new notebook and it loads the model (unless google has it cached) I think that counts too.",
+                            "score": 16,
+                            "replies": [
+                                {
+                                    "author": "DinoAmino",
+                                    "body": "I'm thinking the cached hits are counted too. You hit the server and the client confirms there is nothing new to download - but the server counts it anyways.",
+                                    "score": 7,
+                                    "replies": [
+                                        {
+                                            "author": "mikew_reddit",
+                                            "body": "> I'm thinking the cached hits are counted too. \n\n+1 Meta is counting total downloads.\n\nI don't see why they'd care if it's from cache or not meaning the cache is user facing to improve the download experience for the end user. From Meta's perspective it's still a download regardless of whether it's from fast or slow storage.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "DinoAmino",
+                                                    "body": "I mean to say that the server counts it whether or not anything was downloaded. The caching is on the client side - it's already downloaded. I think this is also true for software package managers like npm and composer.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Only-Letterhead-3411",
+                    "body": "Runpods and servers downloads model each time a new instance is opened up. Probably most of that number consists of Llama 8B model being downloaded by services like google colab every time.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "AppearanceHeavy6724",
+            "body": "Llamas and Gemmas, typically for American LLMs are jacks of all trades; makes them very useful as chatbots.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "brahh85",
+            "body": "Dear  AI at Meta.\n\nWe like your kind words, but we need weapons. Short range models, medium range models, long range models, specific and smaller models for specific tasks for our poor GPU and CPU inference... anything to contain closed weight models and closed licenses.\n\nI know that your department of marketing would love to improve the general view of meta with \"winning releases\",  because that could raise your stocks in markets,  but you are forgetting that your capital is us, local inference people that you deprived of tools  for 4 months. This is like if in a war  a provider doesnt want to provide you weapons until they are SOTA... we end  changing of provider (hi qwen, hi mistral, hi deepseek) because we need solutions now, and if we keep giving llama 4 a chance because is released today, you know that we might end  suffering 4-6 months delays until a new llama model shows up.\n\nYour power is not your stocks, your power is your clients. Us.\n\nI get that is frustrating see how  the competition releases a revolver with 6 shots,  while you can only create one with 5 shots, but that revolver with 5 shots is better than the one with 3 shots you gave us 4 months ago. And **if you dont release it**, and make it easy to  train (because you screw it on purpose , for alignment reasons), **we cant help you get better**.\n\n  \nThis is a war  between  local  inference  and cloud inference, stop thinking as meta, and  start thinking as one of us. What do we need to win this war? And direct your  organization on that premise.\n\nThis is also addressed to the rest of AI companies that read this reddit, if you want to be our winner, make local inference more powerful and useful.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Terminator857",
+            "body": "Open weights , not open source.  With open source you can recreate the model.\n\nIt is refreshing to see that zuck is recommitted to open weights.  There were rumors that they were going to tighten the license.  I thank deepseek and gemma 3 for changing zucks mind.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "__JockY__",
+            "body": "Llama4 eta wen?",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Elite_Crew",
+            "body": "We did it reddit! /s Llama 3.1 is my favorite blackjack dealer LLM lol.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Spirited_Example_341",
+            "body": "but most of our actions here are just words?\n\nbut yaaay we helped",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "ObnoxiouslyVivid",
+            "body": "Java runs on 1 billion devices",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "yccheok",
+            "body": "What is the recommendation of service providers, to run Llama?",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "The_GSingh",
+            "body": "Yea cool but time for llama 4? I need another excuse to download it 50 times on all of my hardware.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ThiccStorms",
+            "body": "yay",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "floridianfisher",
+            "body": "I wonder what they count as a download, and how they measure it",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TheDreamWoken",
+            "body": "Several customers",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "TheDreamWoken",
+                    "body": "Where\u2019s llama4 and will it be better than everything that has come out",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "houseofextropy",
+            "body": "Ugh, Fuckerberg makes me want to puke. Disgusting Maga cuckold",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Hearcharted",
+            "body": "Yeah Baby \ud83d\ude0e",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

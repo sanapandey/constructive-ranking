@@ -1,0 +1,47 @@
+{
+    "title": "Plex & External HDMI Input",
+    "author": "klayanderson",
+    "subreddit": "PleX",
+    "rank": 18,
+    "score": 0,
+    "upvote_ratio": 0.5,
+    "num_comments (reported by reddit)": 5,
+    "url": "https://www.reddit.com/r/PleX/comments/1jeh8k5/plex_external_hdmi_input/",
+    "id": "1jeh8k5",
+    "selftext": "I have Plex running on my PC server. If I have an HDMI record card installed, Can I add this single input source to Plex? Maybe so it would show up as a channel for recording? As in a Firestick?",
+    "comments": [
+        {
+            "author": "Bgrngod",
+            "body": "DRM wont let you do that.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "silasmoeckel",
+            "body": "What would you use as channel info?  Just random recordings are not useful in plex, use something else and then import the output that has some metadata to match.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "klayanderson",
+                    "body": "I am grasping at straws. In an earlier post, I want to be able to record one MSNBC broadcast weekly. I have a subscription, no box. Recommendations of Threadfin and TellyTV do not appear to do this, although I am not entirely sure. The lawyers may win on this.",
+                    "score": 0,
+                    "replies": [
+                        {
+                            "author": "silasmoeckel",
+                            "body": "You can get a hdmi input as a iptv source into plex it's the channel info that will do ya in though.  I did it to get my CCTV up as channels but not DVRing that just live.\n\nThreadfin and tellytv are proxys not what you need.\n\nSo your looking for software to take the hdmi in and spit out rtsp then you can start feeding it into a playlist to make plex happy.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "klayanderson",
+                                    "body": "Thank you for this helpful response.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,289 @@
+{
+    "title": "legacySoftwareCompanies",
+    "author": "mechanic338",
+    "subreddit": "ProgrammerHumor",
+    "rank": 18,
+    "score": 7729,
+    "upvote_ratio": 0.99,
+    "num_comments (reported by reddit)": 41,
+    "url": "https://i.redd.it/1rm45atc2cpe1.jpeg",
+    "id": "1jdqxgc",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": 447,
+            "replies": [
+                {
+                    "author": "mcnello",
+                    "body": "It's a toaster... But it's *on the cloud \u2601\ufe0f*",
+                    "score": 162,
+                    "replies": [
+                        {
+                            "author": "Powerful-Internal953",
+                            "body": "It's just somebody else's toaster\ud83d\ude42\u200d\u2194\ufe0f",
+                            "score": 50,
+                            "replies": [
+                                {
+                                    "author": "SNappy_snot15",
+                                    "body": "\"toasterless toaster\"",
+                                    "score": 39,
+                                    "replies": [
+                                        {
+                                            "author": "Powerful-Internal953",
+                                            "body": "Don't let this toaster run forever... It'll cost you a fortune...",
+                                            "score": 16,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Sttocs",
+                            "body": "Someone's cooking up an appliance rental service that blows a fuse if you stop paying, I'm sure.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "SuitableDragonfly",
+                    "body": "Generative AI does actually have a tiny amount of use-cases where it makes sense, blockchain has zero use-cases, pretty much.",
+                    "score": 28,
+                    "replies": [
+                        {
+                            "author": "Nonsensebot2025",
+                            "body": "What, it's brilliant technology! It's a hugely inefficient database where a majority of users are able to lie about a transaction! What's not to like",
+                            "score": 23,
+                            "replies": [
+                                {
+                                    "author": "alvinyap510",
+                                    "body": "It's an inefficient database - yes I agree, but tell me how could a majority of nodes lying in a network possibly fake an elliptic curve signed message? Cryptographic signatures are mathematically verifiable, and it's impossible to fake unless you brute force the private key. Good luck in brute forcing 2^256 possibilities, you  need multiverses of computing power for that",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Sttocs",
+                                            "body": "The point is that it just takes a majority of nodes to lie to break the whole system. And anyone can add a node.",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "alvinyap510",
+                                                    "body": "You have a fundamentally wrong understanding. Even if you control more than 50% of the nodes, all you can do at most is halt the blockchain and deny new legit transactions to be confirmed.\n\nYou can never fake the signature of an address that you doesn't own the private key, and transfer funds out from someone's account. Elliptic Curve Digital Signature Algorithm (ECDSA) is just maths. Maths is maths.",
+                                                    "score": -2,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Sttocs",
+                                                            "body": "I mean, takeovers have already happened. You can tell the ACM your theory about \u201cmaths is maths\u201d:\n\nhttps://dl.acm.org/doi/10.1145/3576915.3623171",
+                                                            "score": 3,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "NeatYogurt9973",
+                            "body": "The use case for blockchains is tipping random people on the internet so that they can buy more cocaine on Tor forums",
+                            "score": 8,
+                            "replies": []
+                        },
+                        {
+                            "author": "91945",
+                            "body": "That's not what everyone was saying back when it was hyped up like crazy. I have no idea what they're saying to market it now. Although web3 seems to still exist somehow and some people are making good money working in the field.",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "SuitableDragonfly",
+                                    "body": "So what? Overapplying something that has an extremely narrow band of legitimate use is different than overapplying something with no use.",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "91945",
+                                            "body": "I totally agree, I just wonder what they use it for.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "SuitableDragonfly",
+                                                    "body": "The web3 guys? From what I hear they mostly use it for those kinds of NFT game where *you can totally earn lots of real money just playing the game, no really it's not a scam I promise, I'm totally not going to just disappear off the face of the earth with all of your money after I finish selling all of the NFTs during the prerelease stage*",
+                                                    "score": 5,
+                                                    "replies": [
+                                                        {
+                                                            "author": "91945",
+                                                            "body": "NFTs died down soon enough thankfully, but the amount of legitimate people peddling them was concerning. Now I still see stuff like dao, solidity, eth, smart contracts and people doing work involved in all these buzzwords. I am unaware of it but there seem to be companies working on them and developers making money by working for them.",
+                                                            "score": 2,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "SuitableDragonfly",
+                                                                    "body": "Yeah, all of that stuff is still just NFTs. DAO is some kind of NFT/crypto organization, smart contacts is IIRC some blockchain concept that is supposed to make it better or more stable, but doesn't actually, ETH is the ticker symbol of a cryptocurrency. The whole industry just boils down to minting NFTs and convincing other people to buy them using various schemes. Sort of like any other commercial industry, except that they are making and selling the emperor's new clothes.\u00a0",
+                                                                    "score": 4,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "chat-lu",
+            "body": "As if chatbots in non-legacy companies are any better.",
+            "score": 139,
+            "replies": [
+                {
+                    "author": "RadiantPumpkin",
+                    "body": "Change out the bar of soap for a shampoo bar",
+                    "score": 35,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Boris-Lip",
+            "body": "Ehhh... and i've been annoyed by everyone just adding online/cloud shit to stuff that doesn't have anything to do with cloud.",
+            "score": 39,
+            "replies": []
+        },
+        {
+            "author": "precinct209",
+            "body": "Modern spring server crudely bolted on a SOAP service",
+            "score": 25,
+            "replies": []
+        },
+        {
+            "author": "stan_frbd",
+            "body": "Wow, a well implemented SOAP-API",
+            "score": 23,
+            "replies": [
+                {
+                    "author": "FictionFoe",
+                    "body": "Omg, why didn't I think of that one. Genius. ![gif](emote|free_emotes_pack|joy)",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "SoundDr",
+            "body": "More like vibe coding",
+            "score": 41,
+            "replies": [
+                {
+                    "author": "utopiah",
+                    "body": "Hear me out... what if instead of refining our craft, learning, we would... take a spinning wheel, and call stuff randomly! You know, it'd be fun, we'd brand it with a cool name and voila, it's the \"new\" way. /s\n\nHonestly I love live coding, I love creativity in programming... this is NOT it though, it's laziness on steroid, powered by a TON of energy. So wasteful.\n\nWhat's next, drunk coding?",
+                    "score": 16,
+                    "replies": [
+                        {
+                            "author": "braindigitalis",
+                            "body": "wdym, I used to do drunk coding, the problem wasn't writing working code it was understanding it the next morning...",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "TheOriginalSmileyMan",
+            "body": "\"DevOps has a lot of people excited, maybe I can get a pay rise by adding 'Ops' to my job title?\"",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "Xywzel",
+                    "body": "So what do you go by now? \"Junior Ops\"?",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "TheOriginalSmileyMan",
+                            "body": "PlatformOps EngineeringOps",
+                            "score": 9,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Civilmakers_2005",
+            "body": "It's possible though",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Gullible_Search887",
+            "body": "Clear example of the adapter model",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SuitableDragonfly",
+            "body": "Ehh, I don't know. Pump-driven bottles are actually useful in a wide variety of contexts that aren't a bar of soap, generative AI is not really useful for anything except customer service.",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "utopiah",
+                    "body": "> generative AI is not really useful for anything except customer service\n\nPlease find me 1 person, a single one, who would prefer talk to a generative AI based chatbot versus a human, even one who follows a script. I get that it's \"useful\" for the company that doesn't want to spend, but from the customer standpoint, I don't see it, but maybe I'm wrong. It's \"customer service\" not shareholder service after all.",
+                    "score": 14,
+                    "replies": [
+                        {
+                            "author": "SuitableDragonfly",
+                            "body": "A lot of customer service issues can be dealt with by an AI, usually because they're very common issues with simple/standard known solutions. As long as your AI can quickly identify if the issue is one of those issues, quickly resolve it if it is, and page a human customer service agent if it's something else, generative AI can be great for that. People were using generative AI for this long before the GPT models were even a thing. I've had positive experiences with customer service bots as a customer when they could do this well. It also means that if, say, the customer is angry about something and the standard fix for this is to give a refund or a credit, the bot can mollify the angry customer without letting them abuse a real person.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "utopiah",
+                            "body": "Writing this reply makes me really curious about how learning lessons from customer service, via genAI or not, are collected. It feels like a lot would be usable to update the \"script\" and the knowledge base behind it all.\n\nAny information on the topic?",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "dumbasPL",
+                    "body": "> AI is not really useful for anything except customer service.\n\nr/foundthemanager\n\nSeriously, find me one person that prefers a chat bot over a human. It saves money for the company, but absolutely ruins the experience for the user.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "souley76",
+                            "body": "I renew my car registration in about 2 mins from home via a chatbot that connects to my dmv legacy system .. what\u2019s wrong with that?",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "SuitableDragonfly",
+                            "body": "Me? Not a manager either, lmao.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Xywzel",
+            "body": "Can't be true, here the old legacy product is actually still usable, and the added feature can at least be used for something else (less slippery handle to pick it up) even if it doesn't perform its intended function (portioning soap) or improve on the original primary functionality.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MoonFlower1988",
+            "body": "\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02",
+            "score": -3,
+            "replies": []
+        }
+    ]
+}

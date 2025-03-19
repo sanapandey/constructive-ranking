@@ -1,0 +1,194 @@
+{
+    "title": "It's true though [OC]",
+    "author": "rinkajimon",
+    "subreddit": "comics",
+    "rank": 14,
+    "score": 5322,
+    "upvote_ratio": 0.98,
+    "num_comments (reported by reddit)": 33,
+    "url": "https://i.redd.it/pusk0i78fepe1.jpeg",
+    "id": "1jdzc00",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "FaebyenTheFairy",
+            "body": "I love how the hands lack the detail of the rest xD",
+            "score": 449,
+            "replies": []
+        },
+        {
+            "author": "Dayvi",
+            "body": "Oh, I always thought AI just copied us, and because we found hands difficult so did AI.",
+            "score": 243,
+            "replies": [
+                {
+                    "author": "DraconicGuacamole",
+                    "body": "Like maybe a little bit, but artwork on the internet is usually finished. a lot of bad hand drawing probably isn\u2019t revealed, therefore the ai would have less of that art to impact its image creation",
+                    "score": 117,
+                    "replies": [
+                        {
+                            "author": "binhan123ad",
+                            "body": "I just think it was also because of it being over feading by so many artwork  and obviously, each artist drawn hand differently. Not only that is also the angle of the hand, the finger and palm posistion. \n\nSo if an A.I is smart enough, they could just crop out the hand in each art work and use their own hand in their imahe libary.\n\nOr...learn to draw in the first place.",
+                            "score": 20,
+                            "replies": [
+                                {
+                                    "author": "Whatsapokemon",
+                                    "body": "I know nobody will actually care, but the real reason is because generative diffusion models produce images that emerge from random noise, not from any underlying structure or 'sketch'. So when it's generating features in an image, it's basically just using a statistical model to predicting what each pixel is based on other nearby pixels at a very small level.\n\nA good way to think about it is that in pictures, fingers are usually next to other fingers, so the AI isn't thinking _\"okay I need five fingers\"_, but rather _\"okay, this pixel is part of a finger, that means another finger must be nearby so this other random pixel might also be part of a finger\"._\n\nThat explains exactly why you can get too many, or too few fingers - it's considering each pixel semi-independently. So you might generate \"parts\" of 6+ fingers before those parts are joined together into a hand shape.\n\nThis problem tends to happen more on features that have details that are close together, or which are passing behind another object in the scene, because the AI isn't considering the image as a whole but rather individual parts.",
+                                    "score": 34,
+                                    "replies": [
+                                        {
+                                            "author": "OneMonovan",
+                                            "body": "An interesting read, and something I never thought about but totally makes sense.\nAI always seems to get small details messed up, hands, hair, background details and buildings. So it's interesting to learn why that is.",
+                                            "score": 10,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "berlinbaer",
+                    "body": "pretty sure it's just because hands are so flexible, and AI just apes what it sees in images and has no inherent concept of biology or numbers. just [look at this image](https://i.imgur.com/Gi5DkxU.jpeg) and tell me how many fingers a hand has. if you didn't know better you'd say between three and five.",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "LeavesInTheRiver",
+            "body": "As a Shoebill fan, I approve.",
+            "score": 43,
+            "replies": []
+        },
+        {
+            "author": "PM_ME_YOUR_TITS80085",
+            "body": "It's amusing that people and AI find the same thing difficult for different reasons",
+            "score": 24,
+            "replies": [
+                {
+                    "author": "mugxam",
+                    "body": "it's mostly the same reason though...",
+                    "score": -9,
+                    "replies": [
+                        {
+                            "author": "Whatsapokemon",
+                            "body": "Not quite. \n\nHumans find it difficult because the structure of a hand is quite complex, and constructing that complex shape in three dimensions is quite hard considering the range of movement and the intricate details.\n\nAI finds it difficult because it generates pixels semi-independently of other pixels, so it doesn't actually think about or know how many fingers it needs to generate, it just looks at a (semi)randomly selected pixel and statistically predicts what it might be based on other nearby pixels. Fingers statistically tend to be next to other fingers, so it may generate too many fingers before it finishes generating the rest of the hand.",
+                            "score": 15,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "elhomerjas",
+            "body": "very handy thing to say indeed",
+            "score": 37,
+            "replies": []
+        },
+        {
+            "author": "Rubert0426",
+            "body": "And that is why I prefer not to draw anything humanoid.  \n  \nI mostly draw lifeless objects set in a fantasy setting",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Vugnaes_sreo381",
+            "body": "Is that Dead Cells?",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "gottagohype",
+            "body": "Just saw a shoebill in the Ueno zoo mean mugging a child. They are such awesome birds. I love them.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "RandoRedditerBoi",
+            "body": "Ai can easily do hands nowadays tho",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "WhiskeyAndKisses",
+            "body": "AI messes up basic searches, raise your standards \ud83d\ude29",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "STG_makerofskworeguy",
+            "body": "IS THAT A FREAKING DEADCELLS REFRENCE!!1",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "RadTimeWizard",
+            "body": "They're also the best and most readily available subject to practice drawing, ever, so",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Bootiluvr",
+            "body": "They\u2019re a shoebill? Neat",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Responsible-Diet-147",
+            "body": "green screen 3D models in Gmod maybe?   \n\nOther than that, that hand you drew is dope",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Sipofhydro",
+            "body": "Now watch it try to do feet",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Vinx909",
+            "body": "it's not \"even ai\". ai messes everything up, of course it messes up hands too. if can't figure out the number of legs, of course it fucks up hands, even humans mess up hands.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "QuantityHefty3791",
+            "body": "I'm better than AI",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "joadarium",
+            "body": "But at least we humans remember we have five fingers and where each is placed on the hand while A.I. messes that up SEVERELY lol",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Oknight",
+            "body": "Yeah, but AI's gotten over it while you weren't watching.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ConstantWest4643",
+            "body": "Hands are the only thing I can draw well. They speak to me...",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Dynamitesauce",
+            "body": "AI used to mess up hair and faces as well, it's only a matter of time till it gets hands right",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Gotham-Larke",
+            "body": "Nothing beats practice, not talent, not some virtual machine.  The best art will always require a full human interface.",
+            "score": -2,
+            "replies": []
+        }
+    ]
+}

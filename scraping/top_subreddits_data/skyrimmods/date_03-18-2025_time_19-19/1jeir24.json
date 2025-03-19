@@ -1,0 +1,114 @@
+{
+    "title": "crashlog pointing to skee64.dll after exiting helgen cave (dimes quickstart)",
+    "author": "Local_Force7352",
+    "subreddit": "skyrimmods",
+    "rank": 19,
+    "score": 0,
+    "upvote_ratio": 0.5,
+    "num_comments (reported by reddit)": 15,
+    "url": "https://www.reddit.com/r/skyrimmods/comments/1jeir24/crashlog_pointing_to_skee64dll_after_exiting/",
+    "id": "1jeir24",
+    "selftext": "plugins (loadorder.txt): [https://pastebin.com/kqPMuBkJ](https://pastebin.com/kqPMuBkJ)\n\nmodlist: [https://pastebin.com/AGZfGcG9](https://pastebin.com/AGZfGcG9)\n\ncrashlog: [https://pastebin.com/Bz18rFKm](https://pastebin.com/Bz18rFKm)\n\nthis has been VERY consistently happening every single time i start a new game, finish making my character and then exit the cave. i'd estimate I have tried 12 times to exit the cave and only twice has it worked and then the game crashed on the path to riverwood. i didn't actually count how many times I tried but that's what it felt like. the working two times is accurate though.\n\nit happens whenever I play as a khajiit, since I'm trying to test a few mods (I usually play as a breton)  \nother than that I have NO IDEA whats happening and I'm really close to taking like, a week long break even though I just got back to modding again.",
+    "comments": [
+        {
+            "author": "AutoModerator",
+            "body": "If Skyrim Special Edition crashes immediately after you launch it \u2014 particularly if your crash log lists memory address `0198090` address (version 1.6.640 address) or `05E1F22` (1.5.97 address) \u2014 then you are experiencing one of the following issues:\n\n* You are missing a master file. That is: you have some Mod A that relies on Mod B, but you only installed Mod A and not Mod B.\n\n* More likely: one of your installed mods (or an official content file) may have file format version 1.71, meaning it was made for game version 1.6.1130 or higher. This format is not fully backwards compatible; if you're running an older version of the game, then these files can cause crashes on startup. Installing [Backported Extended ESL Support](https://www.nexusmods.com/skyrimspecialedition/mods/106441?tab=files) will allow older versions of the game to load these files safely.\n\nMake sure to check the [troubleshooting guide](https://www.reddit.com/r/skyrimmods/wiki/troubleshooting_guide) for help with crashes and other problems!\n \n* If you are on Skyrim version 1.5 (SE), the [.NET Script Framework](https://www.nexusmods.com/skyrimspecialedition/mods/21294) can also help in diagnosing crashes.\n\n* If you are on Skyrim Version 1.6 (AE) or Skyrim VR, [Crash Logger](https://www.nexusmods.com/skyrimspecialedition/mods/59818) can also help in diagnosing crashes. If you also use MO2, you can use [this plugin](https://www.nexusmods.com/skyrimspecialedition/mods/66743) for improved functionality!\n \nDO NOT post an analyzed crash log. It strips all the useful information.\n\nDon't use trainwreck. The log it produces is less informative than other options linked above. \n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/skyrimmods) if you have any questions or concerns.*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "SieurPersil",
+            "body": "Yes, race menu is crashing. Make sure you have the correct version. You must have a mod that modifies Khajits in race menu that is possibly missing a dependency",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Local_Force7352",
+                    "body": "I have the correct version, and the only mod i have that edits khajiits that i\u2019m aware of is just textures for the body, and then the vanilla smp hairs, both of which are not missing dependencies.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Krispyroll",
+            "body": "Since you have OBody installed, try making these changes to your skee64.ini, the file from Racemenu:\n\n>\n\n>\n\n>\n\n>\n\n>",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Local_Force7352",
+                    "body": "I cant see what you said",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Krispyroll",
+                            "body": "Ah, reddit screwed it up:\n\nOpen up the Racemenu configuration file. This is found wherever you installed Racemenu to, usually in the Vortex or MO2 mods folder. Inside the Racemenu installation folder, open SKSE > Plugins, and then open the file skee64 with a text editor (like Notepad).\n\n\n\nAfterwards, make sure that these parameters are all set to 0:\n\n\n\nbEnableBodyGen\n\nbBodyMorphGPUCopy\n\nbBodyMorphRebind\n\n\n\nAfterwards, double the value that is in the parameter uBodyMorphMemoryLimit",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Local_Force7352",
+                                    "body": "i still cant see anything, can you do a pastebin link with what you're trying to say?",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Local_Force7352",
+                                            "body": "oop i can see it on my phone nvm",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Local_Force7352",
+                                                    "body": "just to clarify i was playing a male khajiit and I have no male body mods. i do have top surgery scar overlays though.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "Krispyroll",
+                                            "body": "Refresh the comment, should work now",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Local_Force7352",
+                                                    "body": "ok i did that",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Local_Force7352",
+                                                            "body": "same issue, also crashlog is pointing to skeleton.nif as well but I cant figure out that part since nothings overwriting xp32 and I'm pretty sure that's what its referencing",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Krispyroll",
+                                                                    "body": "The original log you posted is mentioning something about collision for a bandit, but doesn't what they're wearing.\n\nDo you have any mods that add armor to random bandits? Maybe try a new game, and then try again.\n\nAlso post a new log when you can.",
+                                                                    "score": 1,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "Local_Force7352",
+                                                                            "body": "This happens on a new game, like it is RIGHT after i\u2019m done making my character and then i go to exit the cave, once it looks like its done loading, the game crashes. I use dimes quickstart so i start the game right in that ending bit of the helgen cave. And maybe? Most of the ones i\u2019ve seen when my modlist was playable (i havent added any since then) have been vanilla-ish. I do have animated armoury though.",
+                                                                            "score": 1,
+                                                                            "replies": []
+                                                                        },
+                                                                        {
+                                                                            "author": "Local_Force7352",
+                                                                            "body": "[https://pastebin.com/aBrxJF6i](https://pastebin.com/aBrxJF6i)\n\nhere's a new log, i think. i keep grabbing the most recent i can find via \"date modified\" in the folder",
+                                                                            "score": 1,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
