@@ -1,0 +1,146 @@
+{
+    "title": "Should I keep my money in cash or a bank?",
+    "author": "AfraidProduct9500",
+    "subreddit": "Anarchism",
+    "rank": 41,
+    "score": 10,
+    "upvote_ratio": 0.75,
+    "num_comments (reported by reddit)": 22,
+    "url": "https://www.reddit.com/r/Anarchism/comments/1j1iaau/should_i_keep_my_money_in_cash_or_a_bank/",
+    "id": "1j1iaau",
+    "selftext": "When I search this subreddit, a lot of answers are to use credit unions. When I try and research more about credit unions, the very few that exist in my state seem to be focussed around real estate or investing. I live in Western Australia, I'm on centrelink payments, and I have less than 200 AUD in savings (emergency fund), so it's not like I'm earning a lot having this kept in a savings account. I need my bank account to receive payments, but should I just take all of my money out as cash whenever I get paid and use it this way? I feel uneasy having all my money in a bank when I'm this financially insecure.",
+    "comments": [
+        {
+            "author": "TCCogidubnus",
+            "body": "This sub might be giving you a false impression of the unreliability of personal banking, as it sounds like you think your money might be at great risk.\n\nIn many countries (you'll need to look Australia up, sorry), your money is insured by the government up to a significant value. So if the bank goes bust, the government provides you your money. The money is much safer in the bank than in cash, where it can be lost, stolen, destroyed by fire, etc.\n\nPeople here understandably dislike and distrust the global banking system. It still operates reliably for the majority of people the majority of the time, and any circumstances where it ceased to do so would almost certainly render cash money equally valueless.",
+            "score": 41,
+            "replies": [
+                {
+                    "author": "GrahminRadarin",
+                    "body": "Australia does have a government insurance for Bank deposits, it's run by apra and known as the financial claims scheme.\u00a0\nhttps://www.apra.gov.au/financial-claims-scheme-0",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "BrockenSpecter",
+                    "body": "Would you have any recommendations for learning more about this? Doesn't matter the media I'm just curious.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "TCCogidubnus",
+                            "body": "Nothing specific/one stop shop. Which bit did you mean? Government insurance of bank deposits, the global banking system, ways cash stored in the home can be lost?",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "BrockenSpecter",
+                                    "body": "Government insurance of bank deposits, and the global banking system specifically. Although now that I have a phrase for both I can probably find stuff on my own still any assistance is appreciated.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "TCCogidubnus",
+                                            "body": "Government insurance I'd hope there's a government webpage for, depending on your country of residence. Global banking...hmm, I'll have to think if I can suggest any primers. \"What exactly is up with finance under capitalism?\" isn't something I'd considered how to answer with a simple reference.",
+                                            "score": 5,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "PresumedDOA",
+                                            "body": "I can give a \"brief\" overview of insurance of bank deposits (it'll probably actually be long, but brief enough). Also, I'm the most familiar with American history in this regard, so I'm going to discuss that, but Australia does insure bank deposits for specific approved banking institutions.\n\nOk, so, in order to set up the how and why of insuring bank deposits, it's first important to understand how a bank functions. Banks take deposits, but much like everything else in capitalism, if they are a private institution, they must make a profit. What this means for a bank specifically is that the deposited money is not sitting there in a vault at all times. In fact, banks historically have had some percentage of deposited money they were required to keep on hand in order to meet the demands of withdrawals, etc., although currently in the U.S., as of 2020, they now have no minimum percentage that they need to keep in reserve.\n\nSo what are they doing with that money? They are taking it and investing it or loaning it. They make money either by giving loans to people/businesses, for houses, investments, etc. and receiving more money in the form of interest. They also take that money and invest it in various things like stocks, bonds, real estate. The specifics of what they are allowed to invest in vary country by country, and in different historical periods, but they are generally loaning the deposits out and also investing it in something that *should* hopefully grow in value.\n\nOk, so now that their general business model is set up, I can bring it back to the historical precedent for insuring deposits. I'm most familiar with why the FDIC was set up in the U.S., so I'll be using that, but I'm fairly certain (don't quote me on this) that a lot of countries also set up this type of program in the wake of the depression.\n\nSo, what ended up happening in the U.S. during The Great Depression is what are called bank runs. Basically, in order for a capitalist economy to function properly, businesses *in general*, meaning across the whole economy/GDP must continue to grow and increase in monetary value. Well, that is simply mathematically impossible to happen forever, and sometimes you have large dips in the economy. When this happens, the banks, who have been investing in assets they were expecting to appreciate, and loaning out money to people who they expected to keep being able to pay, might suddenly find that the total value of their assets is less than the total of the money that has been deposited. This is understandably pretty scary, but is *actually not impossible to recover from*. If everyone remains calm and doesn't pull all of the money they deposited out of the bank, then the bank should be able to recover on a long enough timeframe and bring the total value of their assets back up above the amount of money that has been deposited.\n\nThat leads me to explaining a bank run. This is what happens when everyone doesn't remain calm. Ok so, for a good amount of banks in this situation back then, it *was* possible, likely even, to recover from this situation. But it's simply impossible that *every* bank would recover, and most people don't want to chance that their money simply evaporates. So, everyone went out to their bank to try and withdraw every single cent they had deposited in hopes that the bank still had enough money in order to pay them so that they weren't left holding the empty bag, so to speak. So, once enough people have pulled their money out and emptied the reserve, the bank must start selling assets. Once those are emptied out, all the bank is left with is debt and they fold. If this happens across an entire economy, the recession/depression deepens dramatically, because banks are *required* under our current system in order to keep up that eternal growth. They loan the money out to businesses in order to expand. If there's no money to go around, everyone is dead in the water and monetary exchange absolutely freezes, more layoffs happen. Basically, a death spiral.\n\nThen, in order to combat this, the FDIC was eventually introduced in the United States. I'm sure it worked this way for many nations, too. What the FDIC does is insure deposits up to some specific dollar amount. For simplifying, for the average bank user, they've got one account. That one account is insured up to 250,000 dollars. You can have more accounts and be insured for more, that's not the absolute limit per person, but it works well enough here. Anyways, this strongly discourages bank runs. Now, most people don't have to worry about their bank folding. Worst that happens is now you have to go and ask the government to give you the amount of money you deposited and you move on with your life. And if enough banks fold at the same time that even the FDIC can't insure everyone, well, then we're all good and truly fucked and I don't think you have to worry about your money being gone anyways, because it's essentially valueless in this apocalyptic scenario.\n\nSorry that's so long, banks are convoluted.",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "mcchicken_deathgrip",
+            "body": "Credit unions are the best, but if there are none available check out some online banks. Many don't have balance minimums, so you could just have an account that's basically empty that you can get paid in, and then keep your 200 in cash. I believe there are online credit unions as well. But either way, putting your money in a bank doesn't lock it up and prevent you from using it unless it's a savings account. Just open a checking account and get a debit card to use your money with. Typically better than cash because you can't lose it. Also it's not like you'd be making any interest off 200 bucks in a savings account anyways. \n\nHonestly dig around the personalfinance sub to find some good online banks. They will be more helpful than here, and if you're in an unstable position you need to prioritize your own security over the morality of which bank to use.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "KelbyTheWriter",
+            "body": "This is just a status-quo type question. Like, put that shit in a trustworthy bank with good ratings in western Australia. From a search I found that CBA is considered one of the safest banks in the world. You should try them.\n\nEdit: oh wait I didn't fully gather the whole scenario. If you're going to have 200 in the bank at the end of the month, probably just keep it in your wallet. It does cost money to get a bank account BUT! Being a member of a bank sometimes comes with financial services, so I dunno what\u2019s best here. \n\nNot celebrating capitalism, but sometimes you gotta do the shit they want you to do, like get a bank account.",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "TCCogidubnus",
+                    "body": "Many countries have at least some banks that allow you to open an account with no fees involved. Googling suggests Australia is one of them.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Anarcho_Humanist",
+            "body": "Hey! I'm another Australian, just from the other side of the country. Bank Australia and Great Southern Bank are 2 nationwide credit unions that you should have easy access to. You can sign up online and get cards from them. Part of the reason they are good is that your money won't be going to fossil fuels and shit.\n\nThat being said, I don't think there's an issue with banks collapsing anytime soon.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "StreetSea9588",
+            "body": "In the U.S. police can confiscate your cash at any time for any reason and it's really difficult to get it back. Not sure about Western Australia but I believe it's very unpopulated out there, right? \n\nYou'll probably be okay keeping cash around but a checking account should be fine.\n\nI once opened a checking acct with a fake ID and used it for years but it's harder to do that now and I don't recommend.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Leettipsntricks",
+            "body": "Do whatever is most practical in the society in which you live. For most of us, that is a bank or credit union, but as you see, credit unions aren't always useful to you.\n\n\nYou can't fight if you can't eat and you can't eat ideology.\u00a0 Bail ain't free either.\n\n\nMake your money, save for retirement, get paid. Your biggest contribution might just be passing ideas to the young folks, and being a rock for your friend group. Nothing wrong with that. Our lives are short, and small, you deserve security and good things.\n\n\nDon't let some ascetic keyboard warrior shame you for the impurity of needing to eat and exist with dignity.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "the_umbrellaest_red",
+            "body": "Banks can fail, but cash can be stolen or destroyed. If you\u2019re worried about the bank you could split your savings and keep half in cash.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "whosthatsquish",
+            "body": "I use an online bank because I trust it more than credit unions and big banks, and I genuinely like the service and the way they run the bank. Just find somewhere you like.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Fickle-Ad8351",
+            "body": "It might make sense to have a little cash for emergencies, but I recommend keeping most of it in some type of banking or investment. Inflation will eat away at your cash.\n\nThe way I see it, if the banking system collapses, money will be useless anyway. Might as well earn some interest while we are still reliant on this system.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "PresumedDOA",
+            "body": "Don't get me wrong here, banks are certainly predatory, as are all capitalist institutions, but the likelihood of your cash being stolen or lost if it's not in a bank is far greater than keeping it in a bank.\n\nSay it's lost or stolen, then you have next to *zero* recourse for getting it back. If it is somehow taken from you by the bank, you can at least call someone and hopefully come to some resolution, maybe it was an error or something, I don't know, depends on the scenario.\n\nAnd if there is going to be a depression and your bank fails? Then the Australian government has a system for insuring deposits, so you should be able to get your money back as long as that bank met the requirements to be insured by Australia. I know they have this system, it just didn't seem worth it to see if they are insured because I highly, highly doubt that is some super small bank that doesn't fall under this system.\n\nAnd the absolute worst scenario of all, enough banks fail that even the government of Australia doesn't have enough money to insure your deposits? Well then there won't be a government or an Australia for very much longer and your currency will be completely worthless anyways.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "AutoModerator",
+                    "body": "Hi u/edcculus - Your comment has been automatically removed for containing either a slur or another term that violates the [AOP](https://www.reddit.com/r/Anarchism/wiki/aop). These include gendered slurs (including those referring to genitalia) ***as well as ableist insults which denigrate intelligence, neurodivergence, etc.***\n    \nIf you are confused as to what you've said that may have triggered this response, please see [this article](https://www.autistichoya.com/2014/02/violence-linguistic-ableism.html) and the associated [glossary of ableist phrases](https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html) **BEFORE** contacting the moderators.\n\nNo further action has been taken at this time. You're not banned, etc. Your comment will be reviewed by the moderators and handled accordingly. If it was removed by mistake, please reach out to the moderators to have the comment reinstated.\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Anarchism) if you have any questions or concerns.*",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "amadan_an_iarthair",
+            "body": "I'd try to move it to a building society.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "koolkeith987",
+            "body": "Gold. Money is pretend, gold is real.\u00a0",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}

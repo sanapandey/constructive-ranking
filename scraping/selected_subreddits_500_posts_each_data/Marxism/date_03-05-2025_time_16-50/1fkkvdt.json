@@ -1,0 +1,67 @@
+{
+    "title": "What was Marx\u2019s explanation for how surplus value was extracted from workers that worked under a piece-rate system rather than a flat amount per hour system?",
+    "author": "peanutist",
+    "subreddit": "Marxism",
+    "rank": 358,
+    "score": 7,
+    "upvote_ratio": 0.68,
+    "num_comments (reported by reddit)": 10,
+    "url": "https://www.reddit.com/r/Marxism/comments/1fkkvdt/what_was_marxs_explanation_for_how_surplus_value/",
+    "id": "1fkkvdt",
+    "selftext": "I have a specific example in my head that helps me visualize the theory of surplus value (as I\u2019m a very contextual learner): A worker gets paid 80 dollars per 8 hours of work, but produces these 80 dollars of value in just 4 hours, and the value of the next 4 hours is extracted by the owner who turns it into profit.\n\nI couldn\u2019t adapt this to situations where a worker receives per piece instead of per hour. Can anyone help me visualize this? Is it as simple as the worker getting paid less per piece than it\u2019s true labor-value as the owner takes a share of this money?",
+    "comments": [
+        {
+            "author": "HydrogeN3",
+            "body": "> Wages by the piece are nothing else than a converted form of wages by time, just as wages by time are a converted form of the value or price of labour-power.\n[\u2026]\n> Let the ordinary working-day contain 12 hours of which 6 are paid, 6 unpaid. Let its value-product be 6 shillings, that of one hour\u2019s labour therefore 6d. Let us suppose that, as the result of experience, a labourer who works with the average amount of intensity and skill, who, therefore, gives in fact only the time socially necessary to the production of an article, supplies in 12 hours 24 pieces, either distinct products or measurable parts of a continuous whole. Then the value of these 24 pieces, after. subtraction of the portion of constant capital contained in them, is 6 shillings, and the value of a single piece 3d. The labourer receives 1 \u00bdd. per piece, and thus earns in 12 hours 3 shillings. Just as, with time-wages, it does not matter whether we assume that the labourer works 6 hours for himself and 6 hours for the capitalist, or half of every hour for himself, and the other half for the capitalist, so here it does not matter whether we say that each individual piece is half paid, and half unpaid for, or that the price of 12 pieces is the equivalent only of the value of the labour-power, whilst in the other 12 pieces surplus-value is incorporated.\n(Capital Vol. 1, Ch. 21)\n\nIf this doesn\u2019t help, check out all of Ch. 21 of Vol. 1\u2014it\u2019s titled \u201cPiece-Wages.\u201d Hope this helps!",
+            "score": 16,
+            "replies": [
+                {
+                    "author": "peanutist",
+                    "body": "How was it calculated that the worker receives 1,5 pence per piece? Is it what I said that the owner simply pays the worker less than the labor-value of the item for each item?",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "plinkoelchako",
+                            "body": "It's not that the capitalist pays the worker less than the value of their labor, rather by the laws of commodity exchange the capitalist is paying them the actual value of their labor, ie the labor \"used up\" in producing it, so basically the combined cost of the average means of subsistence neccesary to maintain the worker (there are other factors as well but im simplifying here for time). Surplus value is extracted when the worker is made to do more labor time than is necessary to reproduce their labor power. So in this case time is abstracted into a certain amount of commodities, based on the average amount of commodities produced per hour. So if we can reliably assume the worker will produce 24 pieces within 12 hours, we make the value paid to the worker per piece 1.5d., as this adds up to 3 Shillings, the cost of labor. In one instance we have 6 paid hours and 6 unpaid hours, in the other we have 12 paid pieces vs 12 unpaid pieces, both amounting to the same rate of surplus value, 50%. If I got anything wrong here, feel free to correct me as I am still pretty new to Marxian economics myself",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "peanutist",
+                                    "body": "Ooh okay, so instead of analyzing the per-piece situation as something separate, we just transform it into per-hour by finding the average amount of pieces the worker produces in an hour and apply the same method for explaining surplus value in a per-hour based system. Very interesting, thanks for the explanation!",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "nicholsz",
+            "body": "I have an even more basic question. How does the labor theory of value deal with failure?\n\nLike if I have a hundred people in a factory making a [million copies of Atari's ET](https://en.wikipedia.org/wiki/Atari_video_game_burial), and the game bombs entirely and I get wiped out, what's the labor theory value of their work?\n\nIs it negative?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "peanutist",
+                    "body": "I think I can answer this. The failure of the game doesn\u2019t translate into negative labor-value because there was still socially necessary labor to produce the consoles. However, the raw labor-value does not necessarily translate to the possible success of a product in the market. The exchange value, which is the price of a product consumers pay for it, is the combination of it\u2019s labor-value and other forces of the market, like supply and demand (use-value), marketing manipulation, advertising, etc. The exchange value of the Atari ET was low (leading to it\u2019s failure), because it\u2019s use value was low (low desirability). This is similar to how just because a regular person spends 48 hours struggling to make a clay pot, it won\u2019t be sold for a higher price than the pot from a professional potter that makes a better quality pot in 4 hours. Their final exchange values are different.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "nicholsz",
+                            "body": "Thanks, that's helpful.\n\nI'm trying to keep track of all the kinds of value we have now:\n\n* RLV: raw labor-value (calculated from \"social necessity\"?) \n* EV: exchange value (calculated from looking at the price tag in the store)\n* Fm: market forces such as advertising or supply-and-demand\n* and finally we have an equation: EV = RLV + Fm \n\n>This is similar to how just because a regular person spends 48 hours struggling to make a clay pot, it won\u2019t be sold for a higher price than the pot from a professional potter that makes a better quality pot in 4 hours.\u00a0\n\nOK, let me walk through this example. \n\nWLOG we can peg the both pots' EVs at C. The 48-hour pot will then have a higher RLV, but lower EV? Can we just say that the RLV is measured in hours (vs a constant conversion factor to currency) to simplify?\n\nThen we get the two equations:\n\n$100 = 48h \\* conversion + Fm48\n\n$100 = 4h \\* conversion + Fm4\n\nSo the \"market forces\" are unable to be decoupled from the RLV -- as making something in a less efficient way will lower the market component while making it more efficiently will raise the market component?",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "waspMilitia",
+                    "body": "The labor theory of value works with the general value of the market economy. There is no need to consider the particulars to which it does not apply:\n\n1. I was walking along the road and found a perfect 10,000-carat diamond. Is its value zero?\n\n2. A group of workers were making a destroyer that immediately sank. They did not work?\n\n3. I decided to mine granite, digging a shaft with a tablespoon. Is its value prohibitive?\n\nAnd so on.\n\nMarx indicated that **all similar goods** of the same category are taken for evaluation.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}
