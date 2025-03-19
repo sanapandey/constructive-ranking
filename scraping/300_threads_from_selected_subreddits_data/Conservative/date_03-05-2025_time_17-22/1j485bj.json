@@ -1,0 +1,160 @@
+{
+    "title": "Trump claims age of Social Security recipients ranges between 100 to 360 years old",
+    "author": "whicky1978",
+    "subreddit": "Conservative",
+    "rank": 45,
+    "score": 61,
+    "upvote_ratio": 0.75,
+    "num_comments (reported by reddit)": 55,
+    "url": "https://www.foxbusiness.com/economy/trump-claims-age-social-security-recipients-ranges-between-100-360-years-old",
+    "id": "1j485bj",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "Kv603",
+            "body": "The oldest are **not** \"*Social Security Recipients*\"\n\nSince 2015, software for generating payments/checks will [automatically cut-off payment for any recipient with a recorded age of 115 or older](https://secure.ssa.gov/poms.nsf/lnx/0202602578).",
+            "score": 29,
+            "replies": []
+        },
+        {
+            "author": "EnderOfHope",
+            "body": "I would recommend listening to JRE podcast with Elon from a few days ago. They discuss this very topic.\u00a0\n\nThe issue is that the social security database is a check to verify life for other benefits. So it\u2019s possible that these names aren\u2019t receiving social security benefits but may be receiving benefits elsewhere that use the SS database only as a confirmation of life.\u00a0",
+            "score": 15,
+            "replies": []
+        },
+        {
+            "author": "triggernaut",
+            "body": "\"Claims\"? What a manipulative and dishonest word to use. The databases clearly have recipients listed in those age brackets. We all know there aren't people who are 360 years old, or even vampires for goodness sake, it's a figure of speech. These reporters...",
+            "score": 52,
+            "replies": [
+                {
+                    "author": "lastbastion",
+                    "body": "> recipients\n\nThis is apparently the sticking point.  \n\nThere may be entries in the database for people with old birthdays but it isn't clear how many of them are actually receiving any benefits.  \n\nOf course just having those kinds of old entries implies a pretty broken data review policy that should be corrected.",
+                    "score": 36,
+                    "replies": []
+                },
+                {
+                    "author": "OkYogurtcloset2661",
+                    "body": "The issue is they aren\u2019t all receiving SS payments like Trump is implying when he lists these stats off  \n\nDo you ppl really think the code for sending a payment is \n\nUse dbo.person\n\nIf Age > X then EXEC payment_procedure\n\nThat\u2019s moronic",
+                    "score": 69,
+                    "replies": [
+                        {
+                            "author": "Left4DayZGone",
+                            "body": "Trump has literally said in press briefings \"We need to make sure money isn't being sent out, we need to look into that.\"",
+                            "score": 5,
+                            "replies": []
+                        },
+                        {
+                            "author": "zroxx2",
+                            "body": " It highlights a real issue with data integrity and we're hearing now that persons who are alive according to the SSA database (bot who can't possibly be) *are* receiving payouts from other programs - perhaps because those programs only rely or partially rely on the SSA database telling them a given SSN is valid and then doing so from obviously incorrect data.\n\n Overall we would want to see this data cleaned up and the systems that are at risk for fraud be tightened up - better data, better validity checking across departments, etc.",
+                            "score": 29,
+                            "replies": [
+                                {
+                                    "author": "OkYogurtcloset2661",
+                                    "body": "Oh i absolutely agree on that point, i just wish Trump would be more clear when he speaks about this",
+                                    "score": 8,
+                                    "replies": [
+                                        {
+                                            "author": "indefiniteretrieval",
+                                            "body": "I didn't know why you're downvoted. If he says a 150 year old is in some database I would wait to see if checks were cut\ud83e\udd37\ud83c\udffb\u200d\u2642\ufe0f\n\nDo not infer that which hasn't been explicitly stated, because if it shakes out that they're just names, and not recipients , you look like a fool running around screaming about vampires receiving checks",
+                                            "score": 13,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "HKatzOnline",
+                            "body": "Those valid number can, and from what Musk posted, at least one was used to get other government payments.",
+                            "score": 5,
+                            "replies": []
+                        },
+                        {
+                            "author": "lolyoda",
+                            "body": "Bad data causes bad results. I don't think they are doing exactly that, but all software has their flaws. Ultimately when creating a product, you need clean data and clean code. The data is not clean therefore its problematic, and cause issues if the code doesn't account for it.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "M_i_c_K",
+                    "body": "Guess you could say... That's old news. \ud83e\udd23",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Lifeisagreatteacher",
+                    "body": "The article states one person 360 years old, not a range up to 360 years old. It\u2019s as you said, sensationalism just like the title of this post.",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Mountain_Man_88",
+                            "body": "If one person is 360 years old then it's a range up to 360 years old. That's how ranges work. The issue is implying that just because they exist in the system that they must be getting payments.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "Lifeisagreatteacher",
+                                    "body": "The assumption is there are many up to 360 years old.\n\nRead the article then argue with yourself. I stated what the article in this post said.",
+                                    "score": -3,
+                                    "replies": [
+                                        {
+                                            "author": "Mountain_Man_88",
+                                            "body": ">He also claimed one person who was allegedly 360 years old was listed in the database.\u00a0\n\n\n>Trump claims age of Social Security recipients ranges between 100 to 360 years old\n\n\nThese are the claims made by the article. Perhaps it has been edited/clarified between each of us reading it.",
+                                            "score": 3,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "indefiniteretrieval",
+            "body": "I heard there were names in a database.... Was the claim specifically made that those names currently receive money?",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "Basic_Lunch2197",
+            "body": "Its not happening <-YOU ARE HERE\n\nIts happening but very little\n\nIts happening more but why do you care\n\nPaying out this money is a good thing",
+            "score": 23,
+            "replies": []
+        },
+        {
+            "author": "Hot-Syrup-5833",
+            "body": "The same people who voted by mail for Biden in 2020 I\u2019m sure.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "HKatzOnline",
+            "body": "It is not just SSI though that is the problem - from what Musk posted on X, those \"valid and active\" SSNs were used to get other government payments. It is not JUST about SSI.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "TooHotTea",
+            "body": "last paragraph:  \n\"Of those, SSA issued payments to 266 number holders \u2014 though the IG's review indicated only 13 beneficiaries were likely age 112 or older, while in the remaining 253 cases there were discrepancies in SSA's records that indicated the beneficiary wasn't actually that old.\u00a0\"\n\nso  241 people had bad data, but why did they have bad data????",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "whicky1978",
+                    "body": "Incompetence",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "According-Activity87",
+            "body": "![gif](giphy|DYs49IwRPskNCt1Bsa)",
+            "score": 6,
+            "replies": []
+        }
+    ]
+}

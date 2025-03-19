@@ -1,0 +1,83 @@
+{
+    "title": "Google Fiber and cable regulation",
+    "author": "Wizard_bonk",
+    "subreddit": "Libertarian",
+    "rank": 165,
+    "score": 5,
+    "upvote_ratio": 0.73,
+    "num_comments (reported by reddit)": 11,
+    "url": "https://www.reddit.com/r/Libertarian/comments/1iwlcud/google_fiber_and_cable_regulation/",
+    "id": "1iwlcud",
+    "selftext": "Why wasn't Google (and by proxy the hundreds of other small ISPs) able to get congress or your city to overturn monopoly protected status on cable? They are a big public facing company, they have genuinely superior service, and the only reason you likely aren't connected through them is because your local government says no. My question is, why does congress, why do we, allow this status-quo to be upheld when it has already been proven to be bad? And do you think we'll see change on this front with the new(ish) administration?",
+    "comments": [
+        {
+            "author": "AutoModerator",
+            "body": "**New to libertarianism or have questions and want to learn more?** Be sure to check out [the sub Frequently Asked Questions](/r/Libertarian/wiki/faq) and [the massive /r/libertarian information WIKI](/r/Libertarian/wiki/index) from the sidebar, for lots of info and free resources, links, books, videos, and answers to common questions and topics. Want to know if you are a Libertarian?  [Take the worlds shortest political quiz and find out!](http://www.theadvocates.org/)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Libertarian) if you have any questions or concerns.*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TheBannedLibertarian",
+            "body": "Because they paid congress for their monopoly",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "mspgs2",
+            "body": "I'm my state it's more laughable. The cable companies have a virtual monopoly but the state considers it competitive if the majority population of an area has a choice.  The minority have no choice but one vendor. So the big population center gets fiber while the neighborhood 1 mile away has legacy cable, at best. DSL is still being sold!",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "natermer",
+            "body": "Back in the day, years ago, I closely followed Google Fiber when it\nwas new and hyped since I was hoping to take advantage of it. And in a\nfew different places they outlined exactly what the problem was.\n\nThe basic problem wasn't the cost of cabling.\n\nPrior to Worldcom getting caught in it's accounting scandal and resulting bankruptcy\nin 2002 it had thousands and thousands of miles of \"dark cable\" laid\nall over the country. This is internet fibre cable that was paid for\nand buried to connect new internet backbones and never actually got\nhooked up to anything.\n\nMost of it's 'dark cable' ended up being purchased by Google in the\nbankruptcy sales. So at this point Google essentially had its own\nprivate internet. This is one of the reasons why they were able to\nmake Youtube work... They had all the bandwidth in the world\nessentially all paid for.\n\nThis is essentially what Content Deliver Networks (CDNs) use for their\ndelivery networks and DDOS protection features. Companies like\nCloudflare and Akamai have their own vast networks separate from the\npublic intern.et\n\nSo for internet providers... the biggest problem isn't laying fiber\nacross the country or even internationally. The biggest problem is\nlocal networks that go out to each customer.\n\nThe problem Google ran into is that due to regional monopolies enjoyed\nby cable/telephone networks... things were regulated locally.  And too\nmany cities and county governments operate like fiefdoms.\n\nThey see a big company like Google coming in and wanting access to\ntens of thousands or hundreds of thousands of customers and then try\nto figure out ways to milk them.  So permitting costs are\nenormous. Getting local governments to cooperate is horrific\nsometimes. Each one needs to be negotiated independently.\n\nAnd often they want kick-backs.  They will demand deeply discounted\ninternet access for schools and government offices. Individual\nrepresentatives want their businesses and neighborhoods to be first to\nget internet and get it at a discount. etc etc.\n\nSo it ends up being death by a thousand cuts. Each new area they want\nto move into is a new nightmare.\n\nIt isn't worth it in most places.",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "natermer",
+                    "body": "This is why a lot of people, especially people involved in big\nbusiness, would love to have the Federal government take over and\nforce standards in regulations and governments onto local governments.\n\nBecause instead of negotiating with hundreds of thousands of regional\ngovernments, that are often operated by good ol' boy networks and as\nprivate fiefdoms or power hungry people... They only have to deal with\none major regulatory body.\n\nUnfortunately that doesn't solve the problem either.\n\nThere is a excellent paper from Cato Institution from 1995. It\noutlines the growth and creation of AT&T/Bell Monopoly.\n\nApparently posting a PDF link got my post removed. So you can find it by searching for: \"UNNATURAL MONOPOLY: CRITICAL MOMENTS IN THE DEVELOPMENT OF THE BELL SYSTEM MONOPOLY\"\n\nBasically:\n\nAs soon as AT&T's initial patents ran out they immediately lost their\nmonopoly. Hundreds of independent telephone companies sprung up all\nover the place.\n\nHowever through war-time corruption in the government and the FCC\nexploiting pricing regulations under \"Common Carrier\" rules they were\nable to systematically destroy all competition to AT&T and consolidate\nthe country's telephone service under it's monopoly.\n\nThis was done on purpose. The excuse, when people noticed it, was that\nit was done for 'national and strategic' reasons because it would\nallow the military to use communications easier in time of war.\n\nhowever what the monopoly actually got used for was for different\nreasons...\n\nhttps://web.archive.org/web/20190104073931/https://theintercept.com/2018/06/25/att-internet-nsa-spy-hubs/\n\nThe 1995 Cato PDF is a absolute need-to-read if you want to understand what happens\nwhen the Federal governments get its hands into national industries,\nespecially telecommunication.\n\nSimilar things happened to railroads and other key industries. Which\nis a major reason why passenger railroads are useless in the USA\noutside certain specific areas.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Wizard_bonk",
+                            "body": "I gotta stop myself from entering another schizo phase.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Wizard_bonk",
+                    "body": "Very interesting read. Did the FTC/FCC deny AT&T, Verizon, your local cable company, etc, from purchasing the cable? Or was google just the highest bidder?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "OtsoTheLumberjack",
+            "body": "Man I personally tried to get my municipality to build an open access fiber network and buddy did the State & Oligarchs pull the pitchforks out on my ass",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "anonymouswan1",
+            "body": "I work for a large ISP, and I can tell you there are no government regulated monopolies on ISPs. Anyone can build anywhere they want. All of the new build I construct is almost always with open arms from the city/state/whoever is doing my permitting. The reason you don't see competition, is due to the cost of building and what your ROI is. If we're overbuilding a competitor (building my fiber where another ISP exists) my corporate will be less likely to approve funding on that project vs building in an area that has limited or no options for internet service. \n\nISPs like Google fiber can build anywhere they want. They just don't because the ROI on overbuilding Comcast and Spectrum is very low. I know you probably hate Comcast/Spectrum, but it's unbelievably difficult to get people to switch providers when someone new builds in your area.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Son_of_Sophroniscus",
+            "body": "I never even heard of Google fiber until now",
+            "score": -1,
+            "replies": [
+                {
+                    "author": "Wizard_bonk",
+                    "body": "dude...",
+                    "score": 3,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

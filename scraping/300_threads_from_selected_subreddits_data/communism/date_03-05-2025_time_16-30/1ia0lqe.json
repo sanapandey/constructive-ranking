@@ -1,0 +1,46 @@
+{
+    "title": "Which software is your organisation using?",
+    "author": "PerryAwesome",
+    "subreddit": "communism",
+    "rank": 87,
+    "score": 14,
+    "upvote_ratio": 0.75,
+    "num_comments (reported by reddit)": 8,
+    "url": "https://www.reddit.com/r/communism/comments/1ia0lqe/which_software_is_your_organisation_using/",
+    "id": "1ia0lqe",
+    "selftext": "I'm looking to set up an internal wiki for our communist youth group. Has anyone good advice and is using something similar? What about other technical tools ",
+    "comments": [
+        {
+            "author": "AutoModerator",
+            "body": "\n*** \n\nModerating takes time. You can help us out by reporting any comments or submissions that don't follow these rules:\n\n1. **No non-marxists** - This subreddit isn't here to convert naysayers to marxism. Try r/DebateCommunism for that. If you are a member of the police, armed forces, or any other part of the repressive state apparatus of capitalist nations, you will be banned.\n\n2. **No oppressive language** - Speech that is patriarchal, white supremacist, cissupremacist, homophobic, ableist, or otherwise oppressive is banned. TERF is not a slur.\n\n3. **No low quality or off-topic posts** - Posts that are low-effort or otherwise irrelevant will be removed. This includes linking to posts on other subreddits. This is not a place to engage in meta-drama or discuss random reactionaries on reddit or anywhere else. This includes memes and circlejerking. This includes most images, such as random books or memorabilia you found. We ask that amerikan posters refrain from posting about US bourgeois politics. The rest of the world really doesn\u2019t care that much.\n\n4. **No basic questions about Marxism** - Posts asking entry-level questions will be removed. Questions like \u201cWhat is Maoism?\u201d or \u201cWhy do Stalinists believe what they do?\u201d will be removed, as they are not the focus on this forum. We ask that posters please submit these questions to /r/communism101.\n\n5. **No sectarianism** - Marxists of all tendencies are welcome here. Refrain from sectarianism, defined here as unprincipled criticism. Posts trash-talking a certain tendency or marxist figure will be removed. Circlejerking, throwing insults around, and other pettiness is unacceptable. If criticisms must be made, make them in a principled manner, applying Marxist analysis. The goal of this subreddit is the accretion of theory and knowledge and the promotion of quality discussion and criticism.\n\n6. **No trolling** - Report trolls and do not engage with them. We've mistakenly banned users due to this. If you wish to argue with fascists, you can may readily find them in every other subreddit on this website.\n\n7. **No chauvinism or settler apologism** -  Non-negotiable: https://readsettlers.org/\n\n8. **No tone-policing** -  https://old.reddit.com/r/communism101/comments/12sblev/an_amendment_to_the_rules_of_rcommunism101/\n\n***\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/communism) if you have any questions or concerns.*",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "TiredPanda69",
+            "body": "Wordpress, nextcloud (on docker in a physical server), signal, protonmail. Tried using Element (chat) but was too complex for our current needs. I have many privacy issues with signal and protonmail, but they were OK for our use.\n\nAs to your specific questions I would not have any practical examples as most of our info was on wordpress and nextcloud.\n\nBut I second u/cefalea1's comment about using a static site generator.\n\nIf you have tech savvy members/sysadmins and your needs are very large you could use the MediaWiki software which is free and open source. If your needs are quick and simple I'd go with a static site generator, they are fast, free and relatively easy.\n\n[https://themes.gohugo.io/](https://themes.gohugo.io/)\n\nThere is even a way to get a site for free if you host on [github.com](http://github.com) with github-pages, and you don't care much about your domain name and your site is small.\n\nMy portfolio site (very small) is up and running with gohugo on github, except I bought a domain, which is just 10 bucks a month.",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "oklazar",
+                    "body": "Hey, what exactly does your organization use wordpress for? \n\n  \nMine uses telegram for communicating and we also have a simple news website built with wordpress as well. I wanted to help us exapnd our influence in any way possible, building the solution out is not a problem for me it's just that i cant come up with any ideas, if you could help us out with that it would mean A LOT!",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "TiredPanda69",
+                            "body": "Just a news site analyzing the countries' politics and events from a working class perspective and reporting on working class movements and organizations. The site itself worked well, maybe a little slow for what it was (probably due to the theme and plugins), but the hard part was getting people reading. We had a good core of consistent readers, but it wasn't popular per s\u00e9. Whether this was due to how frequent we wrote, quality, writing style or interest I honestly cant say. Probably a bit of all of them.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "cefalea1",
+            "body": "Take a look at obsidian.md it has a pretty cheap option to make a kind of public blog. Alternatively maybe something like gohugo or Astro.",
+            "score": 4,
+            "replies": []
+        }
+    ]
+}

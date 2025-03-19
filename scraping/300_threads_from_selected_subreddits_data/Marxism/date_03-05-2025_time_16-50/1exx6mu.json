@@ -1,0 +1,52 @@
+{
+    "title": "Question about the value form in capital.",
+    "author": "PawysV",
+    "subreddit": "Marxism",
+    "rank": 399,
+    "score": 2,
+    "upvote_ratio": 0.75,
+    "num_comments (reported by reddit)": 6,
+    "url": "https://www.reddit.com/r/Marxism/comments/1exx6mu/question_about_the_value_form_in_capital/",
+    "id": "1exx6mu",
+    "selftext": "In capital during in the first chapter what does Marx mean when he says:\n\n>The first peculiarity that strikes us, in considering the form of the equivalent, is this: use value becomes the form of manifestation, the phenomenal form of its opposite, value.\n\nand\n\n>Two coats may therefore express the quantity of value of 40 yards of linen, but they can never express the quantity of their own value.\n\nwhile analyzing the first form of value? (A. Elementary or Accidental Form Of Value )\n\nSince x commodity A = y commodity B their values should be the same, no?\n\nWhen we say that commodity A = commodity B we are saying that their values are the same, if that's the case how are we not expressing the value of the equivalent?\n\nThis is phrased as something obvious but I'm really struggling to understand this part and it seems to me as if it's crucial to understanding the value form.",
+    "comments": [
+        {
+            "author": "C_Plot",
+            "body": "Marx is considering the value of a specific commodity A. This commodity occupies the relative pole. To express the value of A another commodity occupies the equivalent pole (commodity B) and in so doing expresses the value of A in use-value units of commodity B.\n\nChapter one is an advanced course in Hegelian metrology, which makes it so difficult as an introductory chapter. It might help to expound upon Marx\u2019s analogy to weight/mass. If you go to a merchant selling flour by weight/mass, the grocer will put some number of lead or steel nuggets (let\u2019s say 20) on one side of a balance scan and then add flour to the other side of the balance scale until it balances. In that relation, the flour occupies the relative pole and the steel nuggets the equivalent pole. The mass of the flour is thus measured in specific units (use-value units) of steel nuggets. Eventually the international standard units declared water at its maximum density (just above 0\u00b0C)as the universal equivalent. A milliliter of water thus acts as the physical use-value units that measure the mass of all objects of matter (the gram). Marx merely applies the same metrology to the magnitude of value. Gold in ounces or grams becomes the universal equivalent (occupying the equivalent pole) to measure the value of all objects of value (those objects produced by abstract human/personal labor).",
+            "score": 3,
+            "replies": [
+                {
+                    "author": "PawysV",
+                    "body": "I see how commodity B expresses the value of commodity A, but I don\u2019t see how the same doesn\u2019t happen in reverse since it\u2019s an equation.\n\nAnd as to the flour analogy, sure we meausre the weight by putting an equal amount of weight on the equivalent side, which tells us that their weight is equal. Again, how are we not expressing the weight both?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "C_Plot",
+                            "body": "The poles can be reversed. However, Marx is focusing here in the way the value of a commodity is expressed in the use-value of another commodity. You can measure a gram mass in bags of sand, but socially we far more often measured the mass of a bag of sand in grams. That requires a focus on the relative pole commodity to see how relative measure still involves an absolute common substance (many criticisms of value theory before Marx made the mistake of thinking the relativity of measure meant there was no common absolute substance; the those criticisms get parroted against Marx as if he had not addressed the issue).",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "GeologistOld1265",
+            "body": "As more simple explanation.\n\nUse value is absolutely in depended from production value.\n\nFor example, air. What is use value of air? Infinite, as we can not live more then couple minutes with out. What is production value of air? Zero so far in normal condition. We have a self replicating machine that produce it: Earth, nature. So production cost for us is zero.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "prinzplagueorange",
+            "body": "I'm not entirely sure what you find perplexing here, but it looks to me like you are unsure why a coat cannot possess value on its own. For Marx, value exists only in exchange. It is a relationship which is socially constructed between two commodities which are treated as equivalents. If you read a few sentences further (past the objection to Bailey), you get this summary:\n\n> The bodily form of the commodity becomes its value-form. But, mark well, that this quid pro quo exists in the case of any commodity B, only when some other commodity A enters into a value-relation with it, and then only within the limits of this relation. Since no commodity can stand in the relation of equivalent to itself, and thus turn its own bodily shape into the expression of its own value, every commodity is compelled to choose some other commodity for its equivalent, and to accept the use-value, that is to say, the bodily shape of that other commodity as the form of its own value.\n\nIn other words, commodity A only has value when it is placed in an exchange relationship with a different commodity (here commodity B). Considered only as thing A, it's not even a commodity at all and so has no value. It would be merely a merely a physical entity that would have a use-value. But it would not be a bearer of capitalist wealth because it is not being thought of as an equivalent, as a commodity.\n\nThat explains this: \n\n> Two coats may therefore express the quantity of value of 40 yards of linen, but they can never express the quantity of their own value.\u00a0\n\nA coat considered by itself has no value; the coat can express value only when it is placed in relation with a different commodity, linen, for example. Commodity A can express the value of commodity B and vice versa, but neither A nor B can express its own value because neither has value in and of itself. Outside of exchange, they are merely use-values.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "cylongothic",
+            "body": "This is a great question, I think. If I'm understanding you correctly!\n\nBoth coats may well have been made using the same quantity of materials and labor, but will be valued differently according to their use value, which is a personal measure. They might both be \"coats,\" but one may appeal to you more and therefore you value it more.\n\nWhen Marx is discussing concrete, quantifiable value, he usually means exchange value. But the shadow of the Use Value is always there. An ugly coat made of the same materials and labor as a beautiful coat will typically be (exchange) valued less, even though their concrete value (labor and materials) might be \"the same.\"\n\nValue form theory is probably the most rigorously discussed and debated part of Marx' analysis. I would suggest that you finish the chapter and come back to this part if you're still confused. And if it still doesn't make sense after that, then it may have to wait until you can consult some additional literature.",
+            "score": -1,
+            "replies": []
+        }
+    ]
+}

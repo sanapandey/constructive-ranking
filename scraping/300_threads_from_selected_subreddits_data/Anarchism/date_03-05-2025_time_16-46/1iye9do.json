@@ -1,0 +1,205 @@
+{
+    "title": "Regional Wi-Fi network, independently owned and operated, to bypass ISPs?",
+    "author": "OceanIsland120",
+    "subreddit": "Anarchism",
+    "rank": 76,
+    "score": 29,
+    "upvote_ratio": 0.93,
+    "num_comments (reported by reddit)": 28,
+    "url": "https://www.reddit.com/r/Anarchism/comments/1iye9do/regional_wifi_network_independently_owned_and/",
+    "id": "1iye9do",
+    "selftext": "Has anyone ever designed a large scale, ad hoc Wi-Fi network? I'm thinking of a situation where the local ISPs are either out of service because of a natural disaster, or taken over by a despotic government.  Can a neighborhood - or a nation - connect its Wi-Fi routers to each other so that the Wi-Fi system itself is the network backbone?",
+    "comments": [
+        {
+            "author": "Slg407",
+            "body": "like a wifi mesh?, i guess if you managed to set up mesh without completely destroying speeds/making every router constantly crash because of the load you could get something like yggdrasil running if you use ipv6 with SLAAC so you don't end up needing a beefy ass DHCP server to hand out ip addresses\n\nbut like, after a few hops the packet loss would be enormous, the latency would be trash and it would be nearly unusable, although there's stuff like OLSR and [B.A.T.M.A.N.](https://en.wikipedia.org/wiki/B.A.T.M.A.N) that could work in this case\n\nso i guess set up the routers to use BATMAN-adv as the mesh protocol, make sure all of them are running IPV6 with SLAAC and use yggdrasil\n\nthis could be possible with some fiddling around with openWRT",
+            "score": 10,
+            "replies": [
+                {
+                    "author": "azenpunk",
+                    "body": "Finally someone who knows more than i do lol \n\nDo you remember Commotion? Still perfectly viable idea from what I know. it just needs people to go back to developing it",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Slg407",
+                            "body": "commotion is basically a bit of a worse version than what i described, it used OLSR which is quite a bit worse than batman, it uses openBTS too which could also be implemented into the idea i put on the comment above to also allow for voip\n\ncommotion was also based on openWRT, but it uses something called serval so you don't need to use a bunch of routers and you can just use phones instead, which i think could also work, so if we are basing this on the more or less improved version it would be an openWRT distro that defaults to IPV6 with SLAAC, comes preloaded with yggdrasil and yggstack, uses  batman-adv as the mesh protocol and openBTS as the voip protocol (maybe integrate all the osmocon packages so you get fully functioning mobile provisioning with 4g base stations?), maybe a variation of serval could be used to connect between some base stations as well with mobile phones\n\ntheoretically this should work actually pretty well\n\nthere's also netsukuku which could replace batman but i'm not sure how well it would perform and given that it is basically abandonware i wouldn't stake a project this massive on it, although it could be used as a fallback network as well, netsukuku also replaces yggdrasil\n\nnetsukuku is the already made version and its theoretically the superior option but the lack of support is not good, i'd probably say that the openWRT distro should also come with netsukuku built-in in case the other protocols fail\n\nedit: okay nevermind, i'm a bit of a dummy and didn't read the yggdrasil documentation properly, turns out you don't actually even need batman-adv for it, it works as a mesh network itself, so in the end its everything i said previously minus batman-adv\n\nturns out the automod doesn't like the synonym of \"dummy\" that starts with S so i'm reposting it and replacing it\n\nedit 2: disregard the previous edit, after closer inspection yggdrasil doesnt handle the radio side of the mesh, so batman-adv would still be required, yggdrasil would however act on top of batman-adv to do all the other stuff required for internet connectivity since it acts as an overlay mesh\n\nedit 2: two: electric boogaloo: this would still run a node limit of about 200 routers, but someone is rewriting netsukuku (https://github.com/d0p1s4m4/netsukuku) and it would fix every single problem here, including all the latency and throughput issues and it automatically created the mesh network too, so no/minimal work is required for it",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "None",
+                            "body": "[removed]",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "AutoModerator",
+                                    "body": "Hi u/Slg407 - Your comment has been automatically removed for containing either a slur or another term that violates the [AOP](https://www.reddit.com/r/Anarchism/wiki/aop). These include gendered slurs (including those referring to genitalia) ***as well as ableist insults which denigrate intelligence, neurodivergence, etc.***\n    \nIf you are confused as to what you've said that may have triggered this response, please see [this article](https://www.autistichoya.com/2014/02/violence-linguistic-ableism.html) and the associated [glossary of ableist phrases](https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html) **BEFORE** contacting the moderators.\n\nNo further action has been taken at this time. You're not banned, etc. Your comment will be reviewed by the moderators and handled accordingly. If it was removed by mistake, please reach out to the moderators to have the comment reinstated.\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Anarchism) if you have any questions or concerns.*",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "DefunctFunctor",
+            "body": "Do you have any understanding of how internet infrastructure works?\n\nThe internet as it currently stands is very dependent on IP addresses and DNS, both of which would be a nightmare to coordinate over a decentralized network of WiFi routers. You would basically have to re-invent the internet. Also, as far as I know Wi-Fi routers by definition really can't do this. Such a network wouldn't really be called a Wi-Fi network. You'd basically need massive antennas to transmit information between networks, and that would be very noticeable and is subject to government regulation. Wi-Fi was really only developed for short range. Do you intend for this network to act as a LAN, with local IP addresses that can communicate within the network and also has a firewall for access to the world-wide web? Sure, there are enough local IP addresses to do that (especially with IPv6), but what about DNS within the network?\n\nAlso, the reasons you mention for creating such a network don't really make sense to me:\n\n* A natural disaster would kill power to local routers anyway. If you are talking about redundancy for not breaking the entire network apart if a single connection fails, then as far as I'm aware a lot of work has been done to ensure that redundancy.\n* A despotic government would absolutely notice this large network, especially if it's using Wi-Fi standards. (As far as I'm aware Wi-Fi networks by definition advertise themselves so they can be seen. That's how your devices give a list of Wi-Fi network names and strengths.) It's kinda hard to keep a mass of connections like this silent, and you would have to worry about infiltrators.\n\nI by no means consider myself an expert in this area, but at least in the terminology you have described I don't think this would be feasible",
+            "score": 5,
+            "replies": [
+                {
+                    "author": "azenpunk",
+                    "body": " Last year, I was at an anarchist... conference, we'll call it.  There I saw a very slow encrypted internet mesh networks \n demonstrated, completely independent of an ISP.  It's mainly good for text and voice, but you can technically do web pages it just takes forever.  Video ain't happening. Not with where the tech is now,  at least\n\nIt's not only possible, but it's being done, and I know groups investing in making them",
+                    "score": 5,
+                    "replies": [
+                        {
+                            "author": "TheIllustratedLaw",
+                            "body": "your tag is interesting to me. got any good book recommendations for the zen taoist anarchist perspective?",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "azenpunk",
+                                    "body": "That particular philosophical combo is my own construction, though I've met others that have seen the tag and expressed a strong alignment with it, I still haven't seen it anywhere else, so it's nothing \"official.\" \n\nBut I am far from the only person to recognize the anti authoritarian/anti-hierarchical themes that run through the Tao and Zen, separately. And there has been a small amount said and written about it,  but so far, I haven't found anyone that's put together a comprehensive in-depth comparative analysis or anything remotely close. There is a YouTube video I think three-parters series that analyzes the Tao and Zen from an anarchist perspective, I'll try and dig it up.\n\nHonestly, I could talk all day about it, pull out various translations, and consider the material conditions at the time while interpreting. Not everyone agrees, but only shadow understandings of these philosophies would see them as incompatible. \n\nI only began studying the Tao intensely last year, I've been a Zen Buddhist since 2006. \n\nThe Tao's most fundamental teaching is I think boiled down to non-duality. Non-duality is the understanding that apparent opposites, such as light and dark, strong and weak, action and stillness, are not separate or conflicting but interconnected aspects of the same underlying reality which is called the Tao. Rather than existing as absolute, independent forces, they arise in relation to each other and constantly transform into one another. \n\nThe Tao Te Ching, attributed to Laozi, is the foundational text of Taoism and contains strong anti-authoritarian themes. It often rejects rigid hierarchies, coercive rule, and the imposition of human will over the natural order, also called Tao. Everything is Tao lol. It instead advocates for spontaneity, harmony, and non-interference (wu wei). Interference in the sense of trying to dominate one's surroundings. So, like, non-dominating action, or action that doesn't go against harmony with your surroundings.  \n\nLaozi criticizes rulers who impose strict laws and moral codes, arguing that excessive control leads to disorder, while the least amount of governance allows people to flourish naturally. This is a very, simplified explanation.\n\nZen Buddhism, which I know much more about, was conceived as an attempt to strip away the dogma and hierarchy that had accumulated in Buddhist traditions after the Buddha's death. Emerging in China as Chan Buddhism during the Tang Dynasty, it rejected the scholasticism and rigid institutionalism of mainstream Buddhist schools, emphasizing direct experience over scripture, personal realization over religious authority, and sitting meditation (zazen) as the central practice. And then, meditation is best thought of as the attempt to observe the mind without judgment, not to empty it. Zen teaches that's impossible.\n\nZen traces its origins to the legendary \"flower sermon,\" in which the Buddha supposedly transmitted enlightenment directly to a student without words, by holding up a flower and simply turning it, symbolizing a non-doctrinal and experiential approach to understanding. \n\nD\u014dgen, founder of the Soto school of Zen in Japan, the sect I am a member of, further rejected the idea that enlightenment was something attained through institutional validation, instead teaching that practice itself was enlightenment.\n\nDespite its anti-authoritarian foundations, Zen later developed its own hierarchies, particularly in Japan, where monasteries became integrated into the feudal system. The Rinzai school, for example, was closely tied to the samurai class. Nevertheless, Zen retained its core skepticism of dogma and institutional authority, making it probably the most anti-hierarchical and anti-dogmatic branches of Buddhism.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "TheIllustratedLaw",
+                                            "body": "thank you for sharing! do you have preferred english translations of Tao or Zen writings you\u2019d recommend, even if they\u2019re not directly tied to anarchism?",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "azenpunk",
+                                                    "body": "In the case of Zen, I highly recommend to not read translations of original text. This is where people get stuck and miss the point. Buddhist teachers will tell you it's not necessary at all. \n\nI did find an author many years ago that I still read and follow mostly because he's enjoyable to read. He was a punk rocker back in the '80s in Akron Ohio, moved to Japan to draw for manga super heroes, and became a Buddhist Zen monk while he was there. His name is Brad Warner and his first book was Hardcore Zen, but my favorite one is Sit Down, Shut Up. They're fun books that don't take themselves super seriously but do provide good insight to the teachings of Buddhism generally and Zen specifically.\n\n\nIf you want to truly understand Zen, then I would suggest going to a Zen Temple or Zen Center, same thing different names, and just practice zazen with the community there. \n\nAs far as the Tao Te Ching, Kazuaki Tanahashi's translation is probably the best one I've seen, I think because he, like me, has a strong background in Zen. But I also really like Ursula Le Guin's translation a lot,  it's pretty.  And it's Ursula K. Le Guin.",
+                                                    "score": 2,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "azenpunk",
+                                                    "body": "I couldn't find the multi-part series I was thinking of but I did find this that I've listened to before and think it's a fine introduction\n\nhttps://youtu.be/gUzDGEDCnX4?si=eG9GL1hg5dxbNSqY",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Slg407",
+                    "body": "ip addresses and DNS can be easily solved with IPV6 with SLAAC and using an overlay network like yggdrasil which i pointed out in my other comment\n\nas far as networks advertising themselves you could very much just only use SSIDs when first joining the mesh and then switch to no longer broadcasing SSIDs and using multiAP to broadcast the network masquerading as just a normal router, no despotic government would completely ban wifi, since the internet is something that they can use to easily control the masses, the underlying mesh network would basically be invisible and run parallel to it",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "DefunctFunctor",
+                            "body": "Okay, this might work okay in some urban areas where houses are close enough together that you could use standard Wi-Fi routers with special software, but what about longer distance communications?\n\nAlso having a large mesh network under a despotic government still sounds risky due to what might happen if one link fails.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Slg407",
+                                    "body": "as far as long distance goes, you could use 4g towers (maybe osmocom has an implementation of an adhoc network) or parabolic antennas, to surpass limitations on existing mesh setups (so you don't end up limited to like 200 nodes) netsukuku is basically the only option, although it is basically abandonware, however there are quite a few people trying to revive it\n\nif one link fails... nothing really happens, the protocols here mean that you couldn't censor it unless you physically removed every single computer and router connected to it",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "DefunctFunctor",
+                                            "body": "My worry is about detectability... from what I read off of the yggrasil website, you need to define a connection between a few peers. Presumably there would be enough information on one router to find those peers",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Slg407",
+                                                    "body": "its not supposed to be anonymous, it just acts as a way to create a network without any centralized servers like dns providers, to anonymize it you would need to run i2p (you can run i2p through yggdrasil)",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "DefunctFunctor",
+                                                            "body": "Sure, but if peer connections are stored on a router, a government could presumably detect where those connections are coming from and take out huge swaths of the network",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Slg407",
+                                                                    "body": "wdym? in this scenario the yggdrasil network is not being routed over public internet, you could grab all mac addresses and ip addresses you want, but you would have no use for any of that info since there is no centralized pipeline that knows the location of those addresses the peer discovery would be automatic because two adjacent peers can automatically connect with each other",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "holysirsalad",
+                                    "body": "Need longer range radios. Back in the early WISP days there was a trope of using a cheap off-the-shelf D-Link with a Pringles can over the antenna. Nowadays you can buy better antennas lol, or purpose-built gear from MANY vendors. On the cheap end, Mikrotik and Ubiquiti come to mind.\u00a0\n\n>\u00a0what might happen if one link fail\n\nWell, you install than one link",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "DefunctFunctor",
+                                            "body": "To be clear, I was talking about anonymity from a government infiltration into the network, not about redundancy. If a single node has information about how to interact with other nodes, if the government gained access to a node within the network, they would be able to physically locate other nodes and take over parts of the network",
+                                            "score": 1,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Brilliant-Rise-1525",
+                                            "body": "Biquad antenna on a satellite dish... directional. but I've collected handshakes and packets from 20 miles away",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "c-02613",
+                    "body": ">what about DNS within the network?\n\ni imagine the network could have its own root server for DNS. also, afaik, onion addresses on tor don't use DNS and it's not *mandatory* for the clearnet; it's just easier to remember e.g. \"google.com\" over \"142.250.74.238\"",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "holysirsalad",
+                    "body": ">\u00a0The internet as it currently stands is very dependent on IP addresses and DNS, both of which would be a nightmare to coordinate over a decentralized network of WiFi routers.\n\nNot necessarily. Like existing networks, addressing has to come from somewhere. The folks operating it can hand out DNS easily. Providing DNS servers via DHCP is very normal. In the case of total isolation, spoofing a root DNS server or the popular ones like 8.8.8.8 or 1.1.1.1 is very simple.\u00a0\n\n>\u00a0A natural disaster would kill power to local routers anyway.\u00a0\n\nNot necessarily. Plenty of areas have the ability to island themselves for power but are reliant on a single link for communications with the outside world. This is very typical in remote communities. As well, personal solar and generators are becoming more common.\u00a0\n\n> If you are talking about redundancy for not breaking the entire network apart if a single connection fails, then as far as I'm aware a lot of work has been done to ensure that redundancy.\n\nNot at all. It\u2019s a basic feature of every dynamic routing protocol, the lighter-weight ones run on very low-end hardware.\u00a0\n\n>\u00a0A despotic government would absolutely notice this large network, especially if it's using Wi-Fi standards. (As far as I'm aware Wi-Fi networks by definition advertise themselves so they can be seen. That's how your devices give a list of Wi-Fi network names and strengths.) It's kinda hard to keep a mass of connections like this silent, and you would have to worry about infiltrators\n\nWell, yes and no. Wi-Fi itself is impossible to hide, but it\u2019s also wholly impractical as a wide-scale backhaul technology. Actual networks like this use different equipment for connecting nodes together, mixing both dedicated point-to-point radios and cables. While Wi-Fi is easy to spot with commodity hardware, anything that gets sent over the air is visible in a spectrum analyzer. The greatest vulnerabilities really are jamming or physical attacks, followed by someone hopping on *at* a node and doing Naughty Things. Encryption addresses the former, and strict policies for what sort of traffic can enter the network helps with the latter.\u00a0",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "OceanIsland120",
+                    "body": "\u201cDo you have any understanding of how internet infrastructure works?\u201d\n\n\u00a0Well, I taught various network engineering courses at colleges for 17 years before going private. Now, companies pay me $6,000/day and fly me to their locations to work with their people on solving tough problems for which they need outside help.\n\n\u00a0How about you?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "DefunctFunctor",
+                            "body": "Yeah no qualifications on my end... just a BS in math and some minimal experience and interest in computers. Like I said, I by no means consider myself an expert.\n\nMy main confusion at the time of writing was with the \"Wi-Fi network\" terminology. Some of the discussion in other comments has suggested that Wi-Fi routers could be repurposed for a similar purpose as you described, but to me \"Wi-Fi network\" means a network that advertises its SSID and potentially uses some encryption. But this is likely a case of me being too restrictive with terminology.\n\nThe other problem I still haven't really gotten a satisfactory answer is how to prevent a government infiltration of such a network, in the case of a despotic government. Yes everything's encrypted, but how do you prevent nodes of the network from being able to provide data on other nodes that can physically locate those nodes?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "OceanIsland120",
+                                    "body": "Government infiltration is a reasonable concern, and will probably be present throughout the ages. As an example, a cybersecurity research firm did a study a few years ago and concluded that one in six TOR nodes was operated by a government. That percentage has probably gone up, not down.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "holysirsalad",
+            "body": "Sort of!\n\n>\u00a0Has anyone ever designed a large scale, ad hoc Wi-Fi network?\n\nAbsolutely. This is one of the cooler projects from the hacker community. Chat about this cane up often in the newsgroup days and in zines like 2600 Magazine.\u00a0\n\nThey\u2019ve been built, too. There are likely more, but here are a couple I know about:\n\nhttps://arizonamesh.org/\n\nhttps://www.nycmesh.net/\n\n>\u00a0I'm thinking of a situation where the local ISPs are either out of service because of a natural disaster, or taken over by a despotic government.\n\nThis is a challenge because of the lead time. Once you\u2019re in that territory access to equipment and being able to move around will be 9000 times harder.\u00a0\n\n>\u00a0Can a neighborhood - or a nation - connect its Wi-Fi routers to each other so that the Wi-Fi system itself is the network backbone?\n\nNot really. Some of those devices can have appropriate software installed but most out there today cannot. Wi-Fi has serious scaling problems that get even worse in a mesh setup. The practical solution is a separate backhaul network that connects all of those nodes, with gear and an architecture for that purpose.\u00a0\n\nWireless networking isn\u2019t the only way to connect folks together. I\u2019m having a hard time finding the post at the moment but there\u2019s a post in r/homelab of a REALLY cool clandestine ISP/community network built by a couple peeps in I think NW Africa. They ran cables across roofs and stuff. Very doable in denser areas.\u00a0",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Illustrious-Yam-3777",
+            "body": "You at least need fiber.",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}

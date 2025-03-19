@@ -1,0 +1,176 @@
+{
+    "title": "The UK Made Data Privacy Illegal",
+    "author": "DontTreadOnMe96",
+    "subreddit": "Anarcho_Capitalism",
+    "rank": 149,
+    "score": 107,
+    "upvote_ratio": 1.0,
+    "num_comments (reported by reddit)": 26,
+    "url": "https://v.redd.it/8pn80ta1a3le1",
+    "id": "1ix23k3",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "None",
+            "body": "I always have this question in my head... How to fight back? You can't just simply make an army and attack, right? I wish it was this simple. But in the 21st century fighting for freedom is basically teaching statist morons on why freedom is important.",
+            "score": 17,
+            "replies": [
+                {
+                    "author": "121bphg1yup",
+                    "body": "Actually, you can \"just simply make an army and attack\".",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "bongobutt",
+                    "body": "Public Choice economics says you have two options: form or identify a special interest; or give up. As far as direct solutions go, that is pretty much it. Indirectly, you can work to influence culture and your community with ideas, because \"An idea who's time has come cannot be stopped.\" But that is the long game. In the short term? Find a specific group who is directly and financially effected, or you're probably not going to succeed.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "BasedPenguinsEnjoyer",
+            "body": "yeah that\u2019s why you store your files locally and just physically hide it",
+            "score": 16,
+            "replies": [
+                {
+                    "author": "Sammy_1141",
+                    "body": "Get door kicked in by mi5",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "StuntsMonkey",
+            "body": "This is why they can't have nice things",
+            "score": 13,
+            "replies": []
+        },
+        {
+            "author": "lone_jackyl",
+            "body": "This is what a real fascist state does",
+            "score": 31,
+            "replies": []
+        },
+        {
+            "author": "NOIRQUANTUM",
+            "body": "And they call Americans the fascists.",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "lescuer97",
+            "body": "This is also a reminder that you can't trust a company to do the right thing. Instead of opening a backdoor for the UK government the opened the front door.\n\nApple could have used it's commercial power to pressure the UK to not do this but went the easy way. There are examples of companies doing the right thing. Lavabit being one clear example\n\nlucky for us there are open source alternatives for the people",
+            "score": 12,
+            "replies": [
+                {
+                    "author": "deefop",
+                    "body": "Disagree. Apple is sending a clear message that you can't encrypt your data in the UK, because of the UK government. This gives people the awareness and option to pursue other forms of encryption, now that they know it's a requirement.",
+                    "score": 12,
+                    "replies": [
+                        {
+                            "author": "lescuer97",
+                            "body": "I know what I'm saying is that you cannot trust Apple about their privacy policies because you can clearly see that they will cave under pressure. They did the same with china. \n\nThey are doing what is best for their shareholders. My opinion is for the consumers more than the company. That people need to be aware that apple can rug their privacy at any moment",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "chinesiumjunk",
+                    "body": "I'm curious what the UK govt threatened apple with to get them to do this? \n\nThe benefit is that privacy conscious people know this has happened. An alternative would be the UK made apple give them a back door AND not disclose it.",
+                    "score": 8,
+                    "replies": [
+                        {
+                            "author": "Icy_Macaroon_1738",
+                            "body": "The head of telegram was arrested in France for not complying with this sort of request.",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "chinesiumjunk",
+                                    "body": "Damn shame what\u2019s happening in Europe.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "lescuer97",
+                            "body": "We don't know if they gave a backdoor that is the thing. They could have done both",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "bongobutt",
+            "body": "Why does the same story keep playing over and over again? The US Telecom industry just got hacked less than a year ago because of \"legal backdoors\" like this.  \n  \nhttps://en.wikipedia.org/wiki/Salt_Typhoon  \n  \n> In late 2024 U.S. officials announced that hackers affiliated with Salt Typhoon had accessed the computer systems of nine U.S. telecommunications companies, later acknowledged to include Verizon, AT&T, T-Mobile, Spectrum, Lumen, Consolidated Communications, and Windstream.[8][9][10] The attack targeted U.S. broadband networks, particularly core network components, including routers manufactured by Cisco, which route large portions of the Internet.[3][4] In October 2024, U.S. officials revealed that the group had compromised internet service provider (ISP) systems used to fulfill CALEA requests used by U.S. law enforcement and intelligence agencies to conduct court-authorized wiretapping.[9]  \n  \nIn the process of writing this I am even more engaged. Because I wanted to provide a quote, so I googled the incident by searching \"US Telecom hack,\" because it was recent news, and significant news at that. But do you know what I found? Not a single 1 of the 10 articles on  the first page of Google results mentioned the information I quoted above, which is in the first paragraph on Wikipedia. The *way that the hacked information was obtained* was by infiltrating the legal intercept system. This system was incorporated directly into the 3G spec at the request of governments like the US. Only 1 article of the 10 articles I read even mentioned that CALEA was affected, and that article conveniently worded it to imply that CALEA was just one *kind* of information that was affected, instead of being the actual source of the golden pot of data the hackers were looking for. And it completely left out that CALEA was accessed by *using the backdoor* that only \"law enforcement\" was supposed to use.  \n  \nHistory is repeating itself again in the UK, and also with Signal and Telegram. Governments keep demanding intentional backdoors. Intentional backdoors are decried by the entire cybersecurity industry, because hacks like this keep happening, and they will continue to happen. If governments actually cared about \"protecting their people,\" then they would reject this crap.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "GeneralCuster75",
+            "body": "Video source?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "DontTreadOnMe96",
+                    "body": "[Here](https://www.youtube.com/watch?v=CZ7W8AJTWbQ)",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "GeneralCuster75",
+                            "body": "Thank you!",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Rieux_n_Tarrou",
+            "body": "This is a good overview/guide video\n\nP.S. I am sooooo glad I don't live in UK lol",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "bongobutt",
+                    "body": "I hate to break it to you, but the USA already saw the opposite end of this parable play out only a couple months ago. US Telecom companies were hacked, and a \"lawful intercept\" program (exactly what the UK is asking for) was the very thing breached by the hackers.  \n  \nhttps://en.wikipedia.org/wiki/Salt_Typhoon  \n \n> In late 2024 U.S. officials announced that hackers affiliated with Salt Typhoon had accessed the computer systems of nine U.S. telecommunications companies, later acknowledged to include Verizon, AT&T, T-Mobile, Spectrum, Lumen, Consolidated Communications, and Windstream.[8][9][10] The attack targeted U.S. broadband networks, particularly core network components, including routers manufactured by Cisco, which route large portions of the Internet.[3][4] In October 2024, U.S. officials revealed that the group had compromised internet service provider (ISP) systems used to fulfill CALEA requests used by U.S. law enforcement and intelligence agencies to conduct court-authorized wiretapping.[9]",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Rieux_n_Tarrou",
+                            "body": "Have you ever watched _The Wire_ ? That show has been around for 20+ years and is all about court-authorized wire tapping (or lack thereof) to (ostensibly) catch bad guys. CALEA has been around since the 90s\n\nWhat we're talking about here is different. This is the UK govt trying to force Apple to engineer a backdoor into ADP, which is end-to-end encryption storage. CALEA, in contrast, does not require providers to decrypt data for which they hold no key.\n\nDefinitely not defending any govt surveillance program (except when to do so would catch or stop actual criminals), but the UK is completely unhinged and we haven't reached that level yet in US (not that I *know* of at least)",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "bongobutt",
+                                    "body": "Signal and Telegram are end-to-end encrypted, too. But the point I'm making is not even about the \"encryption,\" but about the backdoor. If you create a Honeypot of data, I really don't care about how you are protecting it from intrusion (whether it is encrypted, or just kept on your private server), if you are *also* punching holes in it to give access to a single point of failure (call it \"legal\" all you want).  \n  \nI know you aren't defending the US, here. I'm just not happy about it.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Rieux_n_Tarrou",
+                                            "body": "To use an simplistic analogy:\n\nA) Someone is pointing a directional mic at you while you're having a conversation with a friend in a busy restaurant\n\nB) Someone forced your landlord to give him the keys to your house, then brought in a construction crew to tear down your walls and bug your house before rebuilding the walls and leaving as if nothing ever happened. Later, your private 1-on-1 conversation with your friend in your room is recorded.\n\nThat is the difference between snooping on unencrypted channels vs building an encryption backdoor.\n\nSituation A is offensive and annoying, but really you should behave differently if you don't want it to happen.\n\nSituation B is unacceptable and a violation of an individual's data rights (which, I reckon in the 21st century, is tantamount to individual and property rights)\n\nBtw, I'm not so sure if I would trust Telegram anymore, since they arrested the CEO last year then quickly released him...",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "Lol and still the Ancap of the UK would rather stand with the liberals than the right and see their rights stolen more and more. This is why I'm trying to stay in USA, at least people here center left to right are willing to open up to ideas and stand together. In the UK it's all or nothing like the liberals of USA. Self sabotage",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}

@@ -1,0 +1,739 @@
+{
+    "title": "Never ever turn off your phone: rethinking security culture in the era of big data analysis.",
+    "author": "Odd-Quality-11",
+    "subreddit": "Anarchism",
+    "rank": 416,
+    "score": 1105,
+    "upvote_ratio": 0.99,
+    "num_comments (reported by reddit)": 112,
+    "url": "https://www.reddit.com/gallery/1icctkh",
+    "id": "1icctkh",
+    "selftext": "TLDR:\n\n1. Never turn off your phone \u2013 A sudden absence of metadata (like turning off your phone) can be more suspicious than maintaining normal activity.\n\n\n2. Stick to your usual patterns \u2013 If you're doing something sensitive, make sure your metadata (like app usage, location, and routines) looks the same as any other day.\n\n\n3. Be aware of your networks \u2013 Your connections (social media, WiFi, shared files, etc.) can be used to map your affiliations, so limit unnecessary digital ties.\n\n\n4. Keep adapting \u2013 As surveillance technology evolves (e.g., facial recognition, license plate tracking), security strategies need to change too\u2014stay informed and flexible.\n\n\n\n",
+    "comments": [
+        {
+            "author": "comix_corp",
+            "body": "Couldn't you make turning off your phone part of your \"pattern\"? Just start getting into the habit of randomly turning your phone off for an hour.",
+            "score": 295,
+            "replies": [
+                {
+                    "author": "g0ris",
+                    "body": "my constant failure to keep the thing's battery from dying is finally paying off!",
+                    "score": 229,
+                    "replies": [
+                        {
+                            "author": "Fourkoboldsinacoat",
+                            "body": "ADHD FOR THE WIN.",
+                            "score": 105,
+                            "replies": [
+                                {
+                                    "author": "PlauntieM",
+                                    "body": "Ha this was my immediate thought.\n\nBold of them to assume there's a pattern",
+                                    "score": 27,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "LostSectorLoony",
+                            "body": "Yeah, my phone dies fairly frequently because I leave it sitting somewhere and forget about it.",
+                            "score": 31,
+                            "replies": []
+                        },
+                        {
+                            "author": "No_Dance1739",
+                            "body": "That right there for sure.",
+                            "score": 10,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "truth14ful",
+                    "body": "Yeah and the metadata issue can be reduced (not completely eliminated) with a VPN.\n\nI get what they're saying; ideally you don't even want your day-to-day pattern to look like you're being secretive. But that's rarely worth doing in practice, bc 1. there's a lot more people than just anarchists/activists who take privacy seriously these days, and 2. it means you have a lot more things to keep track of (don't say certain things around your microphone etc.) and more chances to make a mistake.\n\nPlus some malware can be stopped by turning your phone off",
+                    "score": 13,
+                    "replies": [
+                        {
+                            "author": "nochinzilch",
+                            "body": "They can recognize patterns in the encrypted data even if they have no access to the payload.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "notproudortired",
+                    "body": "Yes. Or put it in airplane mode when not in use.",
+                    "score": 4,
+                    "replies": [
+                        {
+                            "author": "Moonstrife",
+                            "body": "This will only prevent it live reporting your data, not from logging your data and reporting it the next time there's a connection (a common app behavior).",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "notproudortired",
+                                    "body": "Great point.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "TCCogidubnus",
+            "body": "Even if you never plan to commit a crime (I don't), if you dislike the government having this kind of surveillance power on principle it's also worth considering how you can break your pattern sometimes just to muddy the data.\n\nTurning your phone off for a while. Taking a day off the apps you normally use. Changing what time you get up or what route you take to get to work. These things are also good for your brain (breaking with patterns helps spark creativity).",
+            "score": 304,
+            "replies": [
+                {
+                    "author": "Odd-Quality-11",
+                    "body": "So I am autistic and tend to stick to very rigid patterns for even the most mundane tasks and, ya know, it had never even occurred to me that switching up your routine was a healthy thing to do for your brain.. but it makes sense. You may have just low key changed a life today lol",
+                    "score": 185,
+                    "replies": [
+                        {
+                            "author": "Synecdochic",
+                            "body": "Mine too. Holy shit.\n\nI guess it gets called \"being in a rut\" for a reason. Overworn routines that are hard to escape.\n\nMight have to try the occasional escape and see how I go.",
+                            "score": 64,
+                            "replies": [
+                                {
+                                    "author": "wildweeds",
+                                    "body": "practicing mental flexibility will be especially good for us over these next few years.  because things are going to be unpredictable and we have to be able to adapt so we can get through it safely.",
+                                    "score": 37,
+                                    "replies": [
+                                        {
+                                            "author": "StoopSign",
+                                            "body": "Yeah I quit weed to help with that.",
+                                            "score": 6,
+                                            "replies": [
+                                                {
+                                                    "author": "wildweeds",
+                                                    "body": "same. my sleep is harder to come by, but everything else has improved.\u00a0",
+                                                    "score": 2,
+                                                    "replies": [
+                                                        {
+                                                            "author": "StoopSign",
+                                                            "body": "Yeah I've only gotten 3hrs the past two nights. Coping with extra amphetamines",
+                                                            "score": 2,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "KelbyTheWriter",
+                                                                    "body": "You should not do that if you can help it. Sleep debt is never paid back.",
+                                                                    "score": 2,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "StoopSign",
+                                                                            "body": "Yeah I've lost so much sleep over the past decades. It's what makes quitting painkillers so damn hard.  They really help you sleep. You just don't wanna risk the forever sleep.",
+                                                                            "score": 2,
+                                                                            "replies": [
+                                                                                {
+                                                                                    "author": "KelbyTheWriter",
+                                                                                    "body": "Have you tried Unisom? It\u2019s pretty decent and non-habit forming. Sorry to be an ad, but it helped me, a person with an Adrenaline disorder, get to sleep pretty consistently.",
+                                                                                    "score": 1,
+                                                                                    "replies": [
+                                                                                        {
+                                                                                            "author": "StoopSign",
+                                                                                            "body": "It looks like that's one of the ingredients in NyQuil. I tend to use Seroquel when I can't sleep. It's probably much stronger as it's an antipsychotic med.",
+                                                                                            "score": 2,
+                                                                                            "replies": [
+                                                                                                {
+                                                                                                    "author": "KelbyTheWriter",
+                                                                                                    "body": "It\u2019s such a process finding what gets you to bed, lol. It\u2019s like the most human thing is loving sleep and being rested but never getting to do it.",
+                                                                                                    "score": 1,
+                                                                                                    "replies": [
+                                                                                                        {
+                                                                                                            "author": "StoopSign",
+                                                                                                            "body": "Yeah I have the issue of not getting enough sleep then overcorrecting and falling asleep trying to watch the shows I like. It's such a hassle.",
+                                                                                                            "score": 2,
+                                                                                                            "replies": []
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "TCCogidubnus",
+                            "body": "Yep, I hear you! Varying your habits means you use different neural pathways, which allows you to think a little differently. It also creates mild dopamine hits from the novelty of the change, which can make mundane activities more rewarding than they otherwise would be.",
+                            "score": 12,
+                            "replies": []
+                        },
+                        {
+                            "author": "KelbyTheWriter",
+                            "body": "Just don't pick like a partial sea-route to work or anything and you're gonna have a good time.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "StreetSea9588",
+                    "body": "Well, the OP is saying (and he/she is not wrong) that almost nobody who owns a phone turns their phone off. I think it's way smarter to maintain your usual habits. If you're planning to commit a crime, do all the same things you usually do with your phone. Then go to your bedroom and put your phone on your bed. Then go out and do whatever it is you're going to do. No phone on you. Now all you have to worry about is showing up on the thousands of cameras that are out there. You'll have to wear clothes you ordinarily don't wear. A scarf to cover your face. Or a COVID mask. It's become more acceptable to wear those now.\n\nWhen you finish doing what you've done, cut up the clothes you wore during the commission of the crime using scissors (don't do this at home). Throw the clothes and the scissors out in different garbage cans across a wide area.\n\nIf you leave for work and get home from work at the same time every day and you go on your phone at night and there's no activity on your phone during the night because you're asleep, but on the day the crime was committed, you didn't go to work, your cell phone pinged off different towers than usual and your phone was turned off for 3 or 4 hours at night, that right there will throw you under suspicion.",
+                    "score": 30,
+                    "replies": [
+                        {
+                            "author": "TCCogidubnus",
+                            "body": "You will note I was very clear that I am not planning to commit any crimes. I am just mentioning ways to muddy the dataset by creating potential false positives if law abiding citizens break their patterns for the sake of breaking them, if those citizens believe this level of surveillance power to be inherently wrong.",
+                            "score": 19,
+                            "replies": []
+                        },
+                        {
+                            "author": "antomaa12",
+                            "body": "If you know your metadata habits, it's actually easier to fakely reproduce them rather than modifying & randomizing your whole life habits. In a short term strategy at least",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "HKJGN",
+            "body": "What about burner phones? Should we even take our phones with us? Cell tracking will put people in the range of protests or actions that the government may want to arrest people for.",
+            "score": 54,
+            "replies": [
+                {
+                    "author": "Shamoorti",
+                    "body": "Every cell phone is constantly pinging nearby towers, and that can be used to triangulate your location. Smartphones are also always scanning nearby wifi networks which can be used to find someone's location as companies like Google create and maintain wifi network maps.\n\nLet's imagine some cool shit goes down at night at some location. The authorities can get geofence warrants and obtain all the cellphones in that location when the thing happened including the burner someone used.\n\nGiven this, it would be relatively easy for the authorities to connect a burner phone to an individual or at least an approximate location based on monitoring where the cellphone is located most of the time. So depending on your threat model, you might want to power off the device and store it in a faraday bag when going home.",
+                    "score": 56,
+                    "replies": [
+                        {
+                            "author": "HKJGN",
+                            "body": "For sure. Just wouldn't take my personal phone at all, but if I needed something for contact, a cheap burner might not be a bad idea.",
+                            "score": 23,
+                            "replies": [
+                                {
+                                    "author": "Shamoorti",
+                                    "body": "I think the most important thing is to build your own threat model based on what you're doing and who you see as the primary adversaries that would want to find you then plan accordingly.",
+                                    "score": 31,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "nochinzilch",
+                                    "body": "You\u2019d have to be pretty untraceable when obtaining the phone.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "eoz",
+                    "body": "A lot of people say \"burner\" when they mean \"second phone\". A _burner_ is one you buy anonymously, never put your own SIM in, never switch on at home, never switch on when you're carrying your regular phone, and _burn_ after an action",
+                    "score": 36,
+                    "replies": [
+                        {
+                            "author": "HKJGN",
+                            "body": "Facts.",
+                            "score": 5,
+                            "replies": []
+                        },
+                        {
+                            "author": "Miserable_Relief8382",
+                            "body": "What is a better alternative when it\u2019s risky to use our own phones? Those seem hard to obtain under those circumstances",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Daringdumbass",
+                    "body": "I was just going to comment the same question",
+                    "score": 6,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "local-queer-demon",
+            "body": "Looks like it's time to buy a Nokia /s\n\nBut seriously the more I learn about technology, the more I'm turned away from it. The amount of things that this kind of data reveals about a person is truly terrifying. And to think the average consumer isn't even aware all of this is happening *literally* right under their nose...",
+            "score": 55,
+            "replies": [
+                {
+                    "author": "ApocalypsePopcorn",
+                    "body": "I'm at some sort of tipping point. I don't need most of this crap and I'm happiest when I'm out hiking and out of signal range. AI is pushing me hard towards some sort of neo-luddite life.",
+                    "score": 25,
+                    "replies": [
+                        {
+                            "author": "local-queer-demon",
+                            "body": "Same here, I'm definitely not going offline but I'm currently working on a home server to move as much of my data as possible on to private storage.\n(edited for typo)",
+                            "score": 9,
+                            "replies": []
+                        },
+                        {
+                            "author": "ilovemushiessontoast",
+                            "body": "You\u2019re not alone.",
+                            "score": 6,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "GlassAd4132",
+            "body": "You know, there\u2019s usually flying cars in the capitalist dystopia movie, I feel cheated",
+            "score": 51,
+            "replies": [
+                {
+                    "author": "sickpete1984",
+                    "body": "Right? Instead of flying cars and real hover boards. We get tracked and spied on.",
+                    "score": 23,
+                    "replies": [
+                        {
+                            "author": "GlassAd4132",
+                            "body": "I think we all knew that the spying was coming, but I expected better technology under techno fascism. I haven\u2019t seen a single fucking R2D2",
+                            "score": 24,
+                            "replies": [
+                                {
+                                    "author": "Square_Radiant",
+                                    "body": "\"Best we can offer you is more sophisticated ways of delivering advertising - no neon though, this isn't neo-tokyo\"",
+                                    "score": 15,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "sharinganuser",
+                            "body": "/r/aboringdystopia",
+                            "score": 9,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "JustAFallenAngel",
+                    "body": "The more I read this post the more I was reminded of my high school shadowrun games. Where not constantly broadcasting your metadata was treated as illegal because 'what do you have to hide?'. We're starting to get to that point.",
+                    "score": 11,
+                    "replies": [
+                        {
+                            "author": "GlassAd4132",
+                            "body": "It definitely started with Bush 2, but it\u2019s starting to get to 1984 levels.",
+                            "score": 5,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "StoopSign",
+                    "body": "China has flying cars",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "porkchopleasures",
+            "body": "Good post. Scary times. Its hard to not feel overwhelmed in the face of the rising security state;\nbut a wise man once said: Life uhh finds a way.",
+            "score": 146,
+            "replies": []
+        },
+        {
+            "author": "rutherfraud1876",
+            "body": "Joke's on them - I have no schedule!\n\n^(I have never nor will ever commit a crime)",
+            "score": 45,
+            "replies": []
+        },
+        {
+            "author": "Daringdumbass",
+            "body": "Does anyone know of any good resources or courses (preferably free) that I could take that would go more in depth of cybersecurity? My goal is to get off of these apps some time this year and prioritize safety measures because shit\u2019s getting real.",
+            "score": 30,
+            "replies": [
+                {
+                    "author": "am_az_on",
+                    "body": "\"Digital Security for Activists\" - The Riseup Collective  \n(even if they did cooperate with authorities that one time)\n\nThat's one resource. You should brush up on your basic online research skills and see what you can find, too. Being able to do this well requires initiative, it can't all be handed to you.",
+                    "score": 20,
+                    "replies": []
+                },
+                {
+                    "author": "Square_Radiant",
+                    "body": "That's kind of like asking if anyone has any free courses on nuclear physics to build your own reactor - sure you could learn some topics - you could move to linux, look into tails and tor, a privacy minded phone and os, use a vpn and you'll leave a trail for most of it still - the amount of energy you'll spend on it will barely make a dent to your privacy - your internet access is still linked to your name, presumably you're not giving up on a bank account or email address - to understand security you also have to understand networks, to understand networks you have to know hardware - it's a huge topic with a century of development behind it - every device you connect to is uniquely identifiable, every device you use has a burned in id, and most of your packets can be traced whether they're encrypted or not - the best safety measure is not using it for sensitive stuff or burner gear you buy for cash from some garage sale that doesn't come near your real devices ever, because the devices you use on a regular basis are almost impossible to protect, practice good digital hygiene with your data/accounts, but don't worry about being too paranoid with it, it's a liability no matter what you do - instead of trying to mask your devices, they just shouldn't have anything that identifies you and even then, fingerprints, hair, skin cells (not there yet, but there are advances to reading DNA from dust)",
+                    "score": 10,
+                    "replies": [
+                        {
+                            "author": "am_az_on",
+                            "body": "there are guides specifically made by anarchists for anarchists and other activists. \n\nthe post here is an example of being able to read a few screens and learn things to be better prepared. it's not nuclear science. there's a hundred years of technology that went into building the computers and devices we're using, but we don't need to learn it all to use them, do we?",
+                            "score": 16,
+                            "replies": [
+                                {
+                                    "author": "Square_Radiant",
+                                    "body": "I would argue that \"in depth cybersecurity\" is quite a different beast from using a phone - and I think most of it is a waste of time for the layman - everything leaves a trace, as long as you're basically literate and keep good password practices, that does as much as what half the guides recommend but with much less effort - you want to do something actually nefarious - misdirection is more useful to you than cyber security imo",
+                                    "score": 6,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "obiemann",
+            "body": "I guess this is why it pays off to be homeless and travel...",
+            "score": 22,
+            "replies": []
+        },
+        {
+            "author": "Hopeful_Vervain",
+            "body": "very valuable informations here, thank you for taking the time to post this.\n\nI'd like to also point out tho that turning off your phone is a terrible security measure in itself, as the second operating system in your phone probably doesn't turn off. Same thing with turning on airplane mode, it *could* be possible to still bypass it through external means such as pegasus.\n\nhttps://www.osnews.com/story/27416/the-second-operating-system-hiding-in-every-mobile-phone/ (worth noting that this is an article from 2013 tho)  \n\nhttps://en.m.wikipedia.org/wiki/Baseband_processor (see security concerns)  \n\nhttps://en.m.wikipedia.org/wiki/Pegasus_(spyware)",
+            "score": 47,
+            "replies": [
+                {
+                    "author": "Competitive_Bat_5831",
+                    "body": "Wow Pegasus is really interesting.\n\nOn an unrelated note I\u2019m rethinking having a cell phone",
+                    "score": 15,
+                    "replies": [
+                        {
+                            "author": "Hopeful_Vervain",
+                            "body": "It might be worrisome but as they say, knowledge is power. In most cases they won't find it worth it to put a spyware on your phone, it's too much trouble for most people, but knowing that this is a possibility allows you to act accordingly and take precautions, just in case you end up in that kind of risky scenario. \n\nAs far as I understand (although it changes depending on update and OS) it's possible to install Pegasus with nothing but a signal from a cellphone tower, and you would not know about it. \n\nDo not bring your phone to a manifestation or any other areas where you might share sensitive informations, turning it off doesn't protect you or anyone else. If you absolutely need a phone for some reason, please get one of those prepaid phones, and don't bring your actual phone to the store when buying it.",
+                            "score": 12,
+                            "replies": [
+                                {
+                                    "author": "Competitive_Bat_5831",
+                                    "body": "I think anyone worried about this needs to get prepaid phones now.  If I\u2019m putting on a tinfoil hat, I would expect ID to be required to buy them soon.",
+                                    "score": 9,
+                                    "replies": [
+                                        {
+                                            "author": "Hopeful_Vervain",
+                                            "body": "even if they do this, there's always a way to resist, people will find a way, it'll be okay... we can make things work out for us, not just about this.",
+                                            "score": 7,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "StoopSign",
+                                            "body": "Speaking of which, wrapping your phone in aluminum foil can block signals. So if you don't want people calling or texting or hacking, wrap it in foil.",
+                                            "score": 3,
+                                            "replies": [
+                                                {
+                                                    "author": "Hopeful_Vervain",
+                                                    "body": "interesting, I'd probably test it out to make sure it works tho, it probably depends on the foil ~~since nowadays it's usually not made of aluminium anymore~~ (edit: not clear actually, can't find informations supporting this)... I was thinking about the material they use for anti magnetic wallets too, it could work",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "StoopSign",
+                                                            "body": "TIL aluminum foil isn't made with aluminum",
+                                                            "score": 2,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Hopeful_Vervain",
+                                                                    "body": "actually I was *told* aluminium was not the main component anymore because of its neurotoxicity, but upon looking it up, it doesn't seem to be the case, maybe I was lied to. It seems like some brands do use alloy and such tho, so it's probably worth testing if it works still before assuming anything (also to make sure the wrapping is done correctly).",
+                                                                    "score": 3,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "StoopSign",
+                                                                            "body": "Yeah I read it's aluminum alloy but with filler. It does have neurotoxicity which is why people are discouraged from smoking things off foil.",
+                                                                            "score": 2,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "author": "nochinzilch",
+                                                            "body": "Tinfoil isn\u2019t made with tin.  It\u2019s aluminum.",
+                                                            "score": 2,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "StoopSign",
+                            "body": "Pretty much only state actors use Pegasus",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "SailingSpark",
+            "body": "it helps to have a gig lifestyle too. If your life lacks patterns to begin with, it makes it harder to track.",
+            "score": 13,
+            "replies": [
+                {
+                    "author": "felixamente",
+                    "body": "And suddenly my whole life makes sense.",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Legal-Alternative744",
+            "body": "A major option op didn't consider is to actually change your online/phone habits. Can't \"smelly vegetable\" browser mask what sites you visit? Been a while since I've been on there, but I'm pretty sure access to the \"normal\" web was still bueno.\nAlso probably a good idea not to refer to your potential actions as crimes or illegal lol",
+            "score": 10,
+            "replies": [
+                {
+                    "author": "orbital_one",
+                    "body": "The sites you visit may be masked, but your ISP is still aware of the fact that you're accessing the network, including the time and date. Also, the websites won't know who you are, but they know that \"somebody\" visited their site at a particular time/date. With enough traffic, an eavesdropper can correlate the times to deanonymize you.",
+                    "score": 14,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Ikxale",
+            "body": "This is why you should occasionally let your phone run out of battery every now and then.",
+            "score": 23,
+            "replies": [
+                {
+                    "author": "nochinzilch",
+                    "body": "It says it ran out of battery, but who knows how much is actually left?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Slg407",
+            "body": "except turning off your phone doesn't do shit, the TPM/TEE environment stays functioning (i.e what runs behind the OS on your phone, the same shit that was perpetuated by the DRM cartel in order to lock you out of root access to your phone/ability to customize the OS) this means your phone is pinging cell towers 24/7, it doesn't have to stay on, it just keeps functioning on a lower power state while its off, this is how you get stuff like \"find my phone\" working while the phone is off, this is true especially for iphones and for nearly all android devices (except a few extremely outdated ones from the era at the beginning of android)",
+            "score": 17,
+            "replies": [
+                {
+                    "author": "slowwwwdowwwwn",
+                    "body": "Do you know if this applies to the battery running out? I\u2019m guessing what you described uses a very small amount of power, so it would make sense if there was a slight back up in power when it dies\u2026",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "Slg407",
+                            "body": "depends on the phone, for androids generally not really, for iphones it still works when your battery runs out",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "an-anarchist",
+                    "body": "Yeah, this is a terrible post \ud83d\ude2c\n\nI\u2019m a cybersecurity engineer and there are so many red flags \ud83d\udea9 here. Has spurred me to think about doing a proper doc!",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Slg407",
+                            "body": "as a non cybersecurity non engineer, but a very nosy end user with about a decade of experience with android modding, modern android phones stay functioning on a low power state even when its off, and its even worse for iphones, hence why the police can track a powered off phone nowadays, the only way to make sure to avoid it would be physically removing the battery (which guess what? no phones let you do it nowadays), and TPM is a backdoor, the german government themselves said so back when it was being forced for windows 8, electronic devices are NOT safe against spying unless you own all the code, including the proprietary primary boot loader and all the code that runs on the TEE",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "an-anarchist",
+                                    "body": "Obviously the solution to this is to keep your ~~personal tracking and surveillance device~~ phone on at all times...",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "Slg407",
+                                            "body": "or keep an ifixit kit on you at all times so you can physically disconnect the battery lol",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "jesthere",
+            "body": "Faraday bag",
+            "score": 8,
+            "replies": []
+        },
+        {
+            "author": "xeoron",
+            "body": "You forgot to list reset your advertising ID regularly.",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "TitularClergy",
+            "body": ">\"A lot suggests they may soon be ready to do the same with face recognition\"\n\nThat's been in use for decades. As has gait analysis. As has skeletal analysis. Some of the capabilities are kept undisclosed. When the movements of someone like Luigi were determined within 5 minutes, extensive systems conjured up various options for parallel construction (where prosecutors can create a parallel chain of evidence which can be disclosed in a courtroom, so that covert surveillance capabilities remain officially undisclosed). So, for example, you can have targeted news adverts for his colleagues so that you prime them to call in a tip for something you already know, allowing you to proceed to court.",
+            "score": 13,
+            "replies": []
+        },
+        {
+            "author": "DireRaven11256",
+            "body": "On the subject of phones and muddying the waters, some people sleep with their smartwatches on to track their sleep patterns. One feature they have is your waking temperature - for persons who have menstrual cycles and are not on hormonal birth control, if you know how to interpret this graph, you can see where someone might be in their cycle. How long until that information is available upon request to some agency?",
+            "score": 4,
+            "replies": []
+        },
+        {
+            "author": "ScentedFire",
+            "body": "I feel that it's increasingly important to learn as much as possible about this kind of thing regardless of desire or w1llingness to break laws.  Surveillance is wrong.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Square_Radiant",
+            "body": "Any evidence of this actually being used - your phone being off at a time when you're usually drinking seems a bit too circumstantial to be useful to them - plus you could always just let the battery die - it tracks and it listens to you, doesn't mean you can't forget it somewhere or drop it by accident",
+            "score": 9,
+            "replies": [
+                {
+                    "author": "RosemaryPardon",
+                    "body": "This comes up all the time in murder trials. Ask any true crime girly. It's so common it almost seems like a rookie mistake in the cases I follow online now.",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "Square_Radiant",
+                            "body": "As supporting evidence at most surely? Even if your phone is inactive during a crime, there's no way that proves anything beyond reasonable doubt - any examples where it was particularly relevant?",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "ramabilia",
+                                    "body": "The Casey Anthony trial is an interesting case to consider, as internet/phone records were submitted as evidence, but she ended up being acquitted anyway.\n\n~~I haven't looked into these, but I found a few cases where cell phone records were cited as contributing significantly to a conviction: People (State of California) vs. David Westerfield and People vs. Alejandro Avila~~\n\nEdit: After reading a little about both of them, I'm pretty sure that cell phone/computer/internet data were not a significant factor in either case.",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "Square_Radiant",
+                                            "body": "I feel like cell and metadata can be used to profile you, but I'd be surprised if it was used to convict - if it is used for conviction, to me that suggests more of a problem with the justice system than your phone - I think it could be used as a very persuasive device during questioning too, but staying silent or continuously denying everything seems to have worked well enough for people",
+                                            "score": 6,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "hellure",
+            "body": "Doing suspicious stuff is not yet a crime, they still have to prove you're guilty.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Affectionate_Fee3803",
+            "body": "I have no pattern. Just ADHD. I'd LOVE to see someone try to figure out what \"deviation from the norm\" is for me. Lmaooo",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "Wheloc",
+            "body": "Does Signal tell your phone the recipient of the message?",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "StoopSign",
+            "body": "\n\nYeah I rarely if ever turn off my phone unless doing a restart. There are times I leave the phone at home while I'm out and it is most often being charged. I don't quite know how leaving my phone at home is part of my overall pattern. It could be a deviation from the pattern and that some snoop would think I'm home with my phone.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "MDesnivic",
+            "body": "Use argots and handwritten letters. This may still be subject to surveillance and interception, but less likely to be found in the current era.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Sharp_Ad_9431",
+            "body": "This why it's good to go days without using your phone.\nLeave it at home regularly.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Brilliant-Rise-1525",
+            "body": "Did I miss something? Has somebody been prosecuted for turning their phone off and a precedent been set?\n\nIf you've done anything or are associated to any anarchist group then your obviously going to be under surveillance and possible infiltration. I think we know this?\n\nAlso this is from a Russian site\n\n[https://who.is/whois/a2day.org](https://who.is/whois/a2day.org)\n\nMaybe look into security applicable to your own laws?\n\nAnd its posted by somebody whose main pastime is to take the piss out of disabled people !\n\n[https://www.reddit.com/r/wheelchair\\_rapunzel\\_/comments/1i5pqw9/comment/m86a1al/](https://www.reddit.com/r/wheelchair_rapunzel_/comments/1i5pqw9/comment/m86a1al/)\n\nIts at the top of this forum? Not very impressive people :(",
+            "score": 4,
+            "replies": [
+                {
+                    "author": "alkhdaniel",
+                    "body": "Probably not.\u00a0\n\n\nMain post is massively overthinking it. It might be a good thing to keep in mind but this kind of analysis would only be done in fictional ncis shows. Real police can't be arsed to do their job 95% of the time and even if they were they (police) do not have access to all this metadata. I doubt surveillance agencies even have this metadata and people mapped this precisely (mapping on everyone, who their friends/coworkers are, their routines etc) to be able to search \"anarchists in location x who turned their phone off at y o clock\", and if they do it wouldn't be wasted (revealed) on busting some dudes that burned down some nazis home.\u00a0",
+                    "score": 2,
+                    "replies": [
+                        {
+                            "author": "Brilliant-Rise-1525",
+                            "body": "Very naive, but in the opposite direction too the OP.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "alkhdaniel",
+                                    "body": "Nobody is going search for \"person who messages a lot of anarchists and who turned off their phone at the same time as a house burned down\" to try to find who burned it down that's straight up ncis haxx0r drama. Nobody has ever gotten caught like this, not even the Chinese with their extreme surveillance and who don't give a shit about optics catch people this.",
+                                    "score": 2,
+                                    "replies": [
+                                        {
+                                            "author": "Brilliant-Rise-1525",
+                                            "body": "Maybe not the phones being turned off but you massively underestimate police infiltration and surveillance.\n\nI'm from the UK and we've become aware of the level of infiltration in the preceding decade.\n\nHere are some links referring to the now disbanded (due to gross malpractice) Special Demonstration Squad , which are an example of how far a government, let alone a corporation, will go to infiltrate progressive movements:\n\n[https://www.spycops.co.uk/the-story/](https://www.spycops.co.uk/the-story/)\n\n[https://freedomnews.org.uk/2025/01/14/exclusive-braverman-tried-to-curtail-spycops-inquiry/](https://freedomnews.org.uk/2025/01/14/exclusive-braverman-tried-to-curtail-spycops-inquiry/)\n\n[https://policespiesoutoflives.org.uk/the-case-overview/text-of-apology-from-met-police/](https://policespiesoutoflives.org.uk/the-case-overview/text-of-apology-from-met-police/)\n\n[https://www.ucpi.org.uk/](https://www.ucpi.org.uk/)\n\nThe website the OP was taken from was Russian and it is probably relevant there.\n\nThere is an element of truth in this that does apply to us all RE metadata it boils down to how each countries government applies this tech.\n\nI am simply concerned that the OP is stimulating paranoia by applying Russian state surveillance to other countries.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Odd-Quality-11",
+                    "body": "I do be talking shit sometimes, you got me there, but I don't know what a2day.org is? That's not where I found this info.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Brilliant-Rise-1525",
+                            "body": "I'm guessing you found it on libcom ?EDIT apolagies, I meant the Anarchist Library \n https://theanarchistlibrary.org/library/anonymous-never-turn-off-the-phone?v=1661764468\n\nThe Russian site was the original.  Took me .... 30 seconds to find that out.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "[removed]",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "AutoModerator",
+                    "body": "Hi u/Fragrant_Leopard_213 - Your comment has been automatically removed for containing either a slur or another term that violates the [AOP](https://www.reddit.com/r/Anarchism/wiki/aop). These include gendered slurs (including those referring to genitalia) ***as well as ableist insults which denigrate intelligence, neurodivergence, etc.***\n    \nIf you are confused as to what you've said that may have triggered this response, please see [this article](https://www.autistichoya.com/2014/02/violence-linguistic-ableism.html) and the associated [glossary of ableist phrases](https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html) **BEFORE** contacting the moderators.\n\nNo further action has been taken at this time. You're not banned, etc. Your comment will be reviewed by the moderators and handled accordingly. If it was removed by mistake, please reach out to the moderators to have the comment reinstated.\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Anarchism) if you have any questions or concerns.*",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "notaprotist",
+            "body": "Possibly dumb question related to this: does anyone here know how effective airplane mode is? (My metadata involves using it frequently and consistently, so if it\u2019s as secure as turning off a phone that could be useful)",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "Josselin17",
+                    "body": "it doesn't do much afaik, but it's good to always leave it on as it prevents your phone from searching for the cell towers that locate it and that provide data, and it doesn't prevent using wifi",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "DiogenesD0g",
+            "body": "On orders from Lex Luthor, alter the goldfish. #fnord",
+            "score": 1,
+            "replies": []
+        }
+    ]
+}
