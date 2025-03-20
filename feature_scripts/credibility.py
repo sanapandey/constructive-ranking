@@ -196,7 +196,7 @@ def extract_references_from_comment(comment_body):
 
    return references
 
-def create_authors_reputation_df(comment_forest):
+def create_author_reputation_df(comment_forest):
    '''
    returns dictionaries references_others, is_referenced and average_vote_score
    keys of these dictionaries are authors names and 
@@ -259,11 +259,11 @@ def create_authors_reputation_df(comment_forest):
 
 def get_credibility_score(comment_forest, valid_words = VALID_WORDS):
 
-    reputation_df = create_authors_reputation_df(comment_forest)
-    investment_df = create_author_investment_df(comment_forest, valid_words)
+    if not comment_forest['comments']: 
+        return pd.NA # If there are no comments, return NA
 
-    if not len(reputation_df) == len(investment_df):
-        return pd.NA
+    reputation_df = create_author_reputation_df(comment_forest)
+    investment_df = create_author_investment_df(comment_forest, valid_words)
 
     mean_reputation = reputation_df['reputation_score'].mean()
     mean_investment = investment_df['investment_score'].mean()
