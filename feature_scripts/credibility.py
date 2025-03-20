@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import re
 import numpy as np
 
-with open('auxiliary-files/valid_words.txt') as file: # valid_words.txt downloaded from https://github.com/dwyl/english-words/blob/master/words.txt
+with open('auxiliary_files/valid_words.txt') as file: # valid_words.txt downloaded from https://github.com/dwyl/english-words/blob/master/words.txt
     # TODO this is still not including words I think it should: like SOME of the following: 
     # ['todo', 'be', 'set', 'for', 'todo', 'of', 'len', 'todo', 'hyperlinks', 'api', 'todo', 'for', 'key', 'any', 'for', 'if', 'for', 'todo', 'beginnning', 'consdires', 'etc', 'are', 'treat', 'any', 'nltk', 'will', 'false', 'for', 'if', 'len']
 
