@@ -259,8 +259,8 @@ def create_author_reputation_df(comment_forest):
 
 def get_credibility_score(comment_forest, valid_words = VALID_WORDS):
 
-    if not comment_forest['comments']: 
-        return pd.NA # If there are no comments, return NA
+    if len(comment_forest['comments']) < 2: 
+        return 'Too few comments to compute credibility score.' # If there are no comments, return message explaining
 
     reputation_df = create_author_reputation_df(comment_forest)
     investment_df = create_author_investment_df(comment_forest, valid_words)
