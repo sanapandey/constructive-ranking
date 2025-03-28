@@ -1,3 +1,6 @@
+
+import nltk
+nltk.download('punkt_tab')
 from nltk import tokenize
 
 import pandas as pd

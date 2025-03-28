@@ -180,21 +180,20 @@ def get_coalition_score(comment_forest, n_clusters: int = 3) -> float:
         float: Coalition score indicating viewpoint diversity (higher is more diverse)
                Returns 0.0 if analysis cannot be performed
     """
-    try:
-        # Extract comment texts from the forest structure
-        comment_texts = extract_comments_from_forest(comment_forest)
+     # Extract comment texts from the forest structure
+    comment_texts = extract_comments_from_forest(comment_forest)
         
-        # Check if we have enough comments to analyze
-        if len(comment_texts) < 10:  # Threshold for minimum comments
-            return 0.0
-        
-        # Initialize analyzer and run analysis
-        analyzer = CoalitionAnalyzer()
-        results = analyzer.analyze_thread(comment_texts, n_clusters=min(n_clusters, len(comment_texts)))
-        
-        # Return the overall coalition diversity as the score
-        return float(results['overall_coalition_diversity'])
-    
-    except Exception as e:
-        print(f"Error analyzing comment forest: {e}")
+    # Check if we have enough comments to analyze
+    if len(comment_texts) < 10:  # Threshold for minimum comments
         return 0.0
+        
+    # Initialize analyzer and run analysis
+    analyzer = CoalitionAnalyzer()
+    results = analyzer.analyze_thread(comment_texts, n_clusters=min(n_clusters, len(comment_texts)))
+        
+    # Return the overall coalition diversity as the score
+    return float(results['overall_coalition_diversity'])
+    
+    # except Exception as e:
+    #     print(f"Error analyzing comment forest: {e}")
+    #     return 0.0

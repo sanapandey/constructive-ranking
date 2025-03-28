@@ -13,3 +13,4 @@ dependencies:
   - pytorch
   - torchvision
   - torchaudio
+  - pytest
