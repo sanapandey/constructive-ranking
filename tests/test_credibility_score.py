@@ -23,11 +23,27 @@ def test_credibility_score_with_links_and_investment():
                 {
                     'body': 'Here\'s a detailed analysis with source: https://example.com/research',
                     'author': 'expert_user',
+                    'score': '17',
                     'replies': [
                         {
                             'body': 'Great point! And here\'s another perspective: https://another-source.org',
-                            'author': 'research_enthusiast'
-                        }
+                            'author': 'research_enthusiast', 
+                            'score': 15, 
+                            'replies': []
+
+                        }, 
+                        {
+                            'body': 'Excellent! I really liked u/research_enthusiast\'s point about this. I wonder if the article found here could be helpful: www.google.com/help',
+                            'author': 'research_fanboy', 
+                            'score': 12, 
+                            'replies': []
+                        }, 
+                        {
+                            'body': 'I totally agree!',
+                            'author': 'research_fangirl', 
+                            'score': 7,
+                            'replies': []
+                        }, 
                     ]
                 }
             ]
@@ -45,8 +61,34 @@ def test_credibility_score_low_investment():
         'selftext': 'Short initial post',
         'comments': [
             {
+                'body': 'wtf',
+                'author': 'low_effort_user_2',
+                'score': 1, 
+                'replies': [
+                      {
+                        'body': 'idk',
+                        'author': 'low_effort_user_3',
+                        'score': 1, 
+                        'replies': []
+                    }
+                ]
+            }, 
+            {
+                'body': 'idk',
+                'author': 'low_effort_user_3',
+                'score': 1, 
+                'replies': []
+            }, 
+            {
+                'body': 'F',
+                'author': 'low_effort_user_4',
+                'score': 2, 
+                'replies': []
+            }, 
+            {
                 'body': 'k',
                 'author': 'low_effort_user',
+                'score': 2, 
                 'replies': []
             }
         ]
