@@ -248,7 +248,7 @@ def create_author_reputation_df(comment_forest):
 
       comment_body = comment['body']
       comment_author = comment['author']
-      comment_vote_score  = comment['score']
+      comment_vote_score  = int(comment['score'])
       references_in_comment = extract_references_from_comment(comment_body=comment_body)
 
       total_vote_score[comment_author] = total_vote_score.get(comment_author, 0) + comment_vote_score
@@ -286,14 +286,16 @@ def create_author_reputation_df(comment_forest):
 
 def get_credibility_score(comment_forest, valid_words = VALID_WORDS): 
 
-    if len(comment_forest) < 2:  #if len(comment_forest['comments']) < 2: 
-        return pd.NA# If there are no comments, return pd.NA
+    if len(comment_forest['comments']) < 2:  #if len(comment_forest['comments']) < 2: 
+        return pd.NA
 
     reputation_df = create_author_reputation_df(comment_forest)
     investment_df = create_author_investment_df(comment_forest, valid_words)
 
     mean_reputation = reputation_df['reputation_score'].mean()
     mean_investment = investment_df['investment_score'].mean()
+    print(mean_investment)
+    print(mean_reputation)
 
     credibility_score = mean_investment + mean_reputation
 

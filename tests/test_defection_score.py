@@ -22,7 +22,8 @@ def test_defection_score_stable_conversation():
                     'replies': [
                         {
                             'body': 'Me too, very insightful',
-                            'author': 'user2'
+                            'author': 'user2', 
+                            'replies': []
                         }
                     ]
                 }
@@ -50,7 +51,8 @@ def test_defection_score_volatile_conversation():
                         'replies': [
                             {
                                 'body': 'Let\'s find common ground',
-                                'author': 'user3'
+                                'author': 'user3', 
+                                'replies': []
                             }
                         ]
                     }

@@ -13,6 +13,7 @@ class CoalitionAnalyzer:
             model_name (str): Sentence transformer model name
         """
         self.model = SentenceTransformer(model_name)
+        print("CoalitionAnalyzer initialized")  # Debugging print
     
     def get_embeddings(self, texts: List[str]) -> np.ndarray:
         """
@@ -24,7 +25,9 @@ class CoalitionAnalyzer:
         Returns:
             np.ndarray: Array of embeddings
         """
-        return self.model.encode(texts, convert_to_numpy=True)
+        embeddings = self.model.encode(texts, convert_to_numpy=True)
+        print(f"Generated Embeddings Shape: {embeddings.shape}")
+        return embeddings
     
     def cluster_comments(self, embeddings: np.ndarray, n_clusters: int = 3) -> np.ndarray:
         """
@@ -38,7 +41,9 @@ class CoalitionAnalyzer:
             np.ndarray: Cluster labels for each comment
         """
         kmeans = KMeans(n_clusters=n_clusters, random_state=42)
-        return kmeans.fit_predict(embeddings)
+        cluster_labels = kmeans.fit_predict(embeddings)
+        print(f"Cluster Labels: {cluster_labels}")  # Debugging print
+        return cluster_labels
     
     def calculate_coalition_centroids(self, embeddings: np.ndarray, cluster_labels: np.ndarray) -> np.ndarray:
         """
@@ -52,10 +57,13 @@ class CoalitionAnalyzer:
             np.ndarray: Centroids for each coalition
         """
         unique_clusters = np.unique(cluster_labels)
-        return np.array([
+        centroids = np.array([
             embeddings[cluster_labels == i].mean(axis=0) 
             for i in unique_clusters
         ])
+        print(f"Coalition Centroids Shape: {centroids.shape}")  # Debugging print
+        return centroids
+
     
     def calculate_comment_score(self, 
                               comment_embedding: np.ndarray, 
@@ -78,6 +86,8 @@ class CoalitionAnalyzer:
             coalition_centroids[comment_coalition].reshape(1, -1)
         )[0][0]
         intra_score = 1 / (intra_similarities + 1e-10)  # Prevent division by zero
+        print(f"Intra Score: {intra_score}") 
+
         
         # Inter-coalition score
         other_centroids = np.delete(coalition_centroids, comment_coalition, axis=0)
@@ -90,10 +100,13 @@ class CoalitionAnalyzer:
                 comment_embedding.reshape(1, -1), 
                 coalition_centroids[comment_coalition].reshape(1, -1)
             )[0]) - np.sum(inter_similarities)
+            print(f"Inter Score: {intra_score}") 
         else:
             inter_score = 0
-            
-        return inter_score/intra_score
+            print("Went into inter else statement.")
+        final_score = inter_score/intra_score  # Direct difference instead of division
+        print(f"Comment Score: {final_score}")  # Debugging print
+        return final_score    
     
     def analyze_thread(self, comments: List[str], n_clusters: int = 3) -> Dict[str, Any]:
         """
@@ -133,6 +146,9 @@ class CoalitionAnalyzer:
             self.calculate_comment_score(emb, coalition_centroids, cluster)
             for emb, cluster in zip(embeddings, cluster_labels)
         ]
+
+        diversity_score = np.std(comment_scores)
+        print(f"Overall Diversity Score: {diversity_score}")  # Debugging print
         
         return {
             'cluster_labels': cluster_labels,
@@ -155,15 +171,16 @@ def extract_comments_from_forest(comment_forest: List[Dict]) -> List[str]:
     comment_texts = []
     
     def extract_recursive(comments):
-        for comment in comments:
-            # Extract the comment content
-            if 'content' in comment:
-                comment_texts.append(comment['content'])
-            # Process replies if they exist
+        for comment in comments['comments']:
+            print(f"Processing comment: {comment}")  # Debugging print
+            if 'body' in comment:
+                print(f"Extracted: {comment['body']}")  # Debugging print
+                comment_texts.append(comment['body'])
             if 'replies' in comment and comment['replies']:
                 extract_recursive(comment['replies'])
     
     extract_recursive(comment_forest)
+    print(f"Final extracted comments: {comment_texts}")
     return comment_texts
 
 
@@ -181,7 +198,9 @@ def get_coalition_score(comment_forest, n_clusters: int = 3) -> float:
                Returns 0.0 if analysis cannot be performed
     """
      # Extract comment texts from the forest structure
+    print("get_coalition_score is being called")
     comment_texts = extract_comments_from_forest(comment_forest)
+    print(f"Extracted {len(comment_texts)} comments: {comment_texts}")
         
     # Check if we have enough comments to analyze
     if len(comment_texts) < 10:  # Threshold for minimum comments
