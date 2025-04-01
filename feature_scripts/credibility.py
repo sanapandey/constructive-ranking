@@ -15,15 +15,16 @@ from dotenv import load_dotenv
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
+# Create VALID_WORDS word set from auxiliary files. 
+# wikitionary_popular_words_40k.txt downloaded from https://github.com/dolph/dictionary/blob/master/popular.txt
+# valid_words.txt downloaded from https://github.com/dwyl/english-words/blob/master/words.txt
+
 script_dir = os.path.dirname(os.path.abspath(__file__))
-file_path = os.path.join(script_dir, "auxiliary_files", "valid_words.txt")
+for file_name in ["valid_words.txt", "wikitionary_popular_words_40k.txt"]:
+    file_path = os.path.join(script_dir, "auxiliary_files", file_name)
 
-
-with open(file_path, "r") as file: # valid_words.txt downloaded from https://github.com/dwyl/english-words/blob/master/words.txt
-    # TODO this is still not including words I think it should: like SOME of the following: 
-    # ['todo', 'be', 'set', 'for', 'todo', 'of', 'len', 'todo', 'hyperlinks', 'api', 'todo', 'for', 'key', 'any', 'for', 'if', 'for', 'todo', 'beginnning', 'consdires', 'etc', 'are', 'treat', 'any', 'nltk', 'will', 'false', 'for', 'if', 'len']
-
-    VALID_WORDS = set(word.strip() for word in file.readlines())
+    with open(file_path, "r") as file: 
+        VALID_WORDS = set(word.strip() for word in file.readlines())
 
 # AUTHOR INVESTMENT
 
@@ -41,7 +42,6 @@ def get_comment_has_links(comment_body):
     tokens = ['www.', '.com', 'http://', 'http://']
 
     return any(token in comment_body for token in tokens)
-
 
 def get_n_spelling_mistakes(comment_body, valid_words):
 
@@ -215,8 +215,8 @@ def extract_references_from_comment(comment_body):
    references = re.findall(r'u/([^/,.!? ]+)', comment_body) 
 
    # TODO could be improved by also checking that 
-   # 1. it is referencing some other author in the thread
-   # 2. it is not a self reference
+   # 1. it is referencing an author actually in the thread
+   # 2. it is not a self reference. 
    # (although I expect both to be hold almost always).
 
    return references
@@ -290,10 +290,18 @@ def get_credibility_score(comment_forest, valid_words = VALID_WORDS):
     reputation_df = create_author_reputation_df(comment_forest)
     investment_df = create_author_investment_df(comment_forest, valid_words)
 
+    print('reputation_df:')
+    display(reputation_df)
+    print('investment_df:')
+    display(investment_df)
+
     mean_reputation = reputation_df['reputation_score'].mean()
     mean_investment = investment_df['investment_score'].mean()
     print(mean_investment)
     print(mean_reputation)
+
+    print(mean_reputation)
+    print(mean_investment)
 
     credibility_score = mean_investment + mean_reputation
 
