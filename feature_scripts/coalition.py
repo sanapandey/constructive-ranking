@@ -3,8 +3,12 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 from sklearn.cluster import KMeans
 from sklearn.metrics.pairwise import cosine_similarity
+import os
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 class CoalitionAnalyzer:
+    min_score = float('inf')  # Global minimum score across all threads
+    max_score = float('-inf')  # Global maximum score across all threads
     def __init__(self, model_name='all-MiniLM-L6-v2'):
         """
         Initialize the coalition analyzer with a sentence transformer model
@@ -13,7 +17,6 @@ class CoalitionAnalyzer:
             model_name (str): Sentence transformer model name
         """
         self.model = SentenceTransformer(model_name)
-        print("CoalitionAnalyzer initialized")  # Debugging print
     
     def get_embeddings(self, texts: List[str]) -> np.ndarray:
         """
@@ -25,8 +28,7 @@ class CoalitionAnalyzer:
         Returns:
             np.ndarray: Array of embeddings
         """
-        embeddings = self.model.encode(texts, convert_to_numpy=True)
-        print(f"Generated Embeddings Shape: {embeddings.shape}")
+        embeddings = self.model.encode(texts, convert_to_numpy=True, is_split_into_words=True)
         return embeddings
     
     def cluster_comments(self, embeddings: np.ndarray, n_clusters: int = 3) -> np.ndarray:
@@ -42,7 +44,6 @@ class CoalitionAnalyzer:
         """
         kmeans = KMeans(n_clusters=n_clusters, random_state=42)
         cluster_labels = kmeans.fit_predict(embeddings)
-        print(f"Cluster Labels: {cluster_labels}")  # Debugging print
         return cluster_labels
     
     def calculate_coalition_centroids(self, embeddings: np.ndarray, cluster_labels: np.ndarray) -> np.ndarray:
@@ -61,7 +62,6 @@ class CoalitionAnalyzer:
             embeddings[cluster_labels == i].mean(axis=0) 
             for i in unique_clusters
         ])
-        print(f"Coalition Centroids Shape: {centroids.shape}")  # Debugging print
         return centroids
 
     
@@ -86,7 +86,6 @@ class CoalitionAnalyzer:
             coalition_centroids[comment_coalition].reshape(1, -1)
         )[0][0]
         intra_score = 1 / (intra_similarities + 1e-10)  # Prevent division by zero
-        print(f"Intra Score: {intra_score}") 
 
         
         # Inter-coalition score
@@ -123,16 +122,28 @@ class CoalitionAnalyzer:
         if len(comments) < n_clusters:
             # Adjust n_clusters if we don't have enough comments
             n_clusters = max(2, len(comments) - 1) if len(comments) > 1 else 1
-        
+
         # Generate embeddings
         embeddings = self.get_embeddings(comments)
         
         # If we have only one comment or n_clusters is 1, we can't do meaningful clustering
-        if len(comments) <= 1 or n_clusters <= 1:
+        if len(comments) < 10 or n_clusters <= 1:
             return {
                 'cluster_labels': np.zeros(len(comments), dtype=int),
                 'comment_scores': np.zeros(len(comments)),
-                'overall_coalition_diversity': 0.0
+                'overall_coalition_diversity': float('NaN') # return nan if comments are too few or clusters are too few 
+            }
+        
+        # Measure overall similarity of all comments
+        all_pairwise_similarities = cosine_similarity(embeddings)
+        avg_pairwise_similarity = np.mean(all_pairwise_similarities)
+
+        # If similarity is very high (above 0.8), force a low diversity score
+        if avg_pairwise_similarity > 0.8:  
+            return {
+                'cluster_labels': np.zeros(len(comments), dtype=int),
+                'comment_scores': np.zeros(len(comments)),
+                'overall_coalition_diversity': 0.0  # Explicitly set diversity to 0
             }
         
         # Cluster comments
@@ -147,13 +158,28 @@ class CoalitionAnalyzer:
             for emb, cluster in zip(embeddings, cluster_labels)
         ]
 
+
         diversity_score = np.std(comment_scores)
-        print(f"Overall Diversity Score: {diversity_score}")  # Debugging print
+
+        if np.std(comment_scores) < 0.05:
+            normalized_score = 0.0  # Very low diversity
+        else:
+            if not np.isnan(diversity_score):  # Avoid updating if diversity_score is NaN
+                CoalitionAnalyzer.min_score = min(CoalitionAnalyzer.min_score, diversity_score)
+                CoalitionAnalyzer.max_score = max(CoalitionAnalyzer.max_score, diversity_score)
+
+        # Normalize using Min-Max Scaling (only if min and max are different)
+            if CoalitionAnalyzer.max_score > CoalitionAnalyzer.min_score:
+                normalized_score = (diversity_score - CoalitionAnalyzer.min_score) / \
+                       (CoalitionAnalyzer.max_score - CoalitionAnalyzer.min_score)
+            else:
+                normalized_score = 0.0  # Avoid division by zero
+        print(f"Overall Diversity Score: {normalized_score}")  # Debugging print
         
         return {
             'cluster_labels': cluster_labels,
             'comment_scores': comment_scores,
-            'overall_coalition_diversity': np.std(comment_scores)
+            'overall_coalition_diversity': 1 - normalized_score #try 1-normalized_score
         }
 
 
@@ -172,15 +198,12 @@ def extract_comments_from_forest(comment_forest: List[Dict]) -> List[str]:
     
     def extract_recursive(comments):
         for comment in comments['comments']:
-            print(f"Processing comment: {comment}")  # Debugging print
             if 'body' in comment:
-                print(f"Extracted: {comment['body']}")  # Debugging print
                 comment_texts.append(comment['body'])
             if 'replies' in comment and comment['replies']:
                 extract_recursive(comment['replies'])
     
     extract_recursive(comment_forest)
-    print(f"Final extracted comments: {comment_texts}")
     return comment_texts
 
 
@@ -198,13 +221,11 @@ def get_coalition_score(comment_forest, n_clusters: int = 3) -> float:
                Returns 0.0 if analysis cannot be performed
     """
      # Extract comment texts from the forest structure
-    print("get_coalition_score is being called")
     comment_texts = extract_comments_from_forest(comment_forest)
-    print(f"Extracted {len(comment_texts)} comments: {comment_texts}")
         
     # Check if we have enough comments to analyze
     if len(comment_texts) < 10:  # Threshold for minimum comments
-        return 0.0
+        return float("NaN")
         
     # Initialize analyzer and run analysis
     analyzer = CoalitionAnalyzer()
@@ -213,6 +234,3 @@ def get_coalition_score(comment_forest, n_clusters: int = 3) -> float:
     # Return the overall coalition diversity as the score
     return float(results['overall_coalition_diversity'])
     
-    # except Exception as e:
-    #     print(f"Error analyzing comment forest: {e}")
-    #     return 0.0

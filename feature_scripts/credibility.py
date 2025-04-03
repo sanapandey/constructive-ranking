@@ -55,19 +55,15 @@ def get_n_spelling_mistakes(comment_body, valid_words):
 def get_comment_readability(comment_body):
     openai.api_key = OPENAI_API_KEY
 
-    prompt = f"Rate the following text on the Flesch-Kincaid readability index (0-100, higher is easier to read):\n\n{comment_body}\n\nReadability Score:"
-    
-    try:
-        response = openai.ChatCompletion.create(
-            model="gpt-4-turbo",
-            messages=[{"role": "system", "content": "You are a readability expert."},
+    prompt = f"Rate the following text on the Flesch-Kincaid readability index (0-100, higher is easier to read). For texts that are one letter, return a score of 5. Please only return numbers with no text. Otherwise, apply the formula as standard:\n\n{comment_body}\n\nReadability Score:"
+
+    response = openai.ChatCompletion.create(
+        model="gpt-4-turbo",
+        messages=[{"role": "system", "content": "You are a readability expert."},
                       {"role": "user", "content": prompt}]
-        )
-        score = response["choices"][0]["message"]["content"]
-        return float(score)  # Ensure it's a float
-    except Exception as e:
-        print(f"Error in readability API call: {e}")
-        return np.nan  # Return NaN if API fails
+    )
+    score = response["choices"][0]["message"]["content"]
+    return float(score)  # Ensure it's a float
 
 def get_investment_values_thread_average(comment_forest, valid_words):
 
@@ -77,7 +73,7 @@ def get_investment_values_thread_average(comment_forest, valid_words):
         'average mistakes' : thread_total_spelling_mistakes/n_comments,
         'average links' : thread_total_links/n_comments,
         'score' : average score
-        # TODO: average readability
+        'average readability': thread_total_readability/n_comments
     }
     '''
 
@@ -90,6 +86,7 @@ def get_investment_values_thread_average(comment_forest, valid_words):
     thread_total_comment_length = 0
     thread_total_spelling_mistakes = 0
     thread_total_links = 0
+    thread_total_readability = 0
     thread_total_score = 0
 
     while queue:
@@ -103,14 +100,15 @@ def get_investment_values_thread_average(comment_forest, valid_words):
         thread_total_comment_length += get_comment_length(comment_body)
         thread_total_spelling_mistakes += get_n_spelling_mistakes(comment_body, valid_words=valid_words)
         thread_total_links += get_comment_has_links(comment_body)
+        thread_total_readability += get_credibility_score(comment_body)
         thread_total_score += comment['score']
 
     dictionary = {
         'length' : thread_total_comment_length/n_comments,
         'mistakes' : thread_total_spelling_mistakes/n_comments,
         'links' : thread_total_links/n_comments,
+        'readability': thread_total_readability/n_comments,
         'vote score' :thread_total_score/n_comments
-        # TODO: average readability
     }
 
     return dictionary

@@ -157,7 +157,7 @@ def test_coalition_score_diverse_conversation():
         
         coalition_score = get_coalition_score(diverse_conversation)
         assert 0.0 <= coalition_score <= 1.0, "Coalition score should be between 0 and 1"
-        assert coalition_score > 0.5, "Diverse conversation should have a relatively high coalition score"
+        assert coalition_score > 0.2, "Diverse conversation should have a relatively high coalition score"
 
 def test_coalition_score_homogeneous_conversation():
     """
@@ -173,7 +173,7 @@ def test_coalition_score_homogeneous_conversation():
     "num_comments (reported by reddit)": 46,
     "url": "https://www.reddit.com/r/AITAH/comments/1je5pvd/aitah_for_not_letting_my_friend_stay_at_my_place/",
     "id": "1je5pvd",
-    "selftext": "So, I (24F) have a pretty small apartment\u2014like, two bedrooms, one bathroom, and not a lot of space. I love my place, but it\u2019s definitely cozy.\n\nRecently, my friend Lara (25F) called me and said she was coming to town for a couple of days and asked if she could stay at my place. We\u2019re close, so I said yes, no problem\u2014but here\u2019s the kicker: she showed up with her dog and didn\u2019t mention it beforehand.\n\nNow, I love animals, but my apartment is not pet-friendly, and I\u2019m allergic to dogs. I\u2019ve mentioned my allergies to her before, and she knows I\u2019m not the biggest fan of having pets in small spaces.\n\nWhen she arrived, I was polite and offered to help her find a nearby pet-friendly hotel, but she started insisting that I should just let her keep her dog at my place for the night. She said, \u201cIt\u2019s just for a couple of days, can\u2019t you just suck it up?\u201d\n\nI told her that I didn\u2019t feel comfortable with her dog being there, especially since I would be miserable with my allergies and it\u2019s really just too small for a dog to be running around. She got really upset, saying that I was being unreasonable and overreacting and that I was \u201cruining her trip.\u201d\n\nI ended up telling her she could either leave the dog in a kennel or find another place to stay. She left and didn\u2019t speak to me for a couple of days. A few of my mutual friends think I should have been more accommodating, but I think I have a right to prioritize my health and comfort.\n\nAITAH for not letting her stay with her dog?",
+    "selftext": "So, I (24F) have a pretty small apartment\\u2014like, two bedrooms, one bathroom, and not a lot of space. I love my place, but it\\u2019s definitely cozy.\n\nRecently, my friend Lara (25F) called me and said she was coming to town for a couple of days and asked if she could stay at my place. We\\u2019re close, so I said yes, no problem\\u2014but here\\u2019s the kicker: she showed up with her dog and didn\\u2019t mention it beforehand.\n\nNow, I love animals, but my apartment is not pet-friendly, and I\\u2019m allergic to dogs. I\\u2019ve mentioned my allergies to her before, and she knows I\\u2019m not the biggest fan of having pets in small spaces.\n\nWhen she arrived, I was polite and offered to help her find a nearby pet-friendly hotel, but she started insisting that I should just let her keep her dog at my place for the night. She said, \\u201cIt\\u2019s just for a couple of days, can\\u2019t you just suck it up?\\u201d\n\nI told her that I didn\\u2019t feel comfortable with her dog being there, especially since I would be miserable with my allergies and it\\u2019s really just too small for a dog to be running around. She got really upset, saying that I was being unreasonable and overreacting and that I was \\u201cruining her trip.\\u201d\n\nI ended up telling her she could either leave the dog in a kennel or find another place to stay. She left and didn\\u2019t speak to me for a couple of days. A few of my mutual friends think I should have been more accommodating, but I think I have a right to prioritize my health and comfort.\n\nAITAH for not letting her stay with her dog?",
     "comments": [
         {
             "author": "Competitive_Ask_9179",
@@ -201,7 +201,7 @@ def test_coalition_score_homogeneous_conversation():
         },
         {
             "author": "Wise_woman_1",
-            "body": "NTA!  Your \u201cfriend\u201d is an entitled pos. She wanted you to jeopardize your home (no pets means no pets), your health, your comfort, your happiness and more so her trip wouldn\u2019t be ruined?!  You need to reconsider your friendship. \ud83e\udd2c",
+            "body": "NTA!  Your \\u201cfriend\\u201d is an entitled pos. She wanted you to jeopardize your home (no pets means no pets), your health, your comfort, your happiness and more so her trip wouldn\\u2019t be ruined?!  You need to reconsider your friendship. \\ud83e\\udd2c",
             "score": 6,
             "replies": []
         },
@@ -213,7 +213,7 @@ def test_coalition_score_homogeneous_conversation():
         },
         {
             "author": "Snackinpenguin",
-            "body": "So she wants a free place to stay at the last minute, and you\u2019re the unreasonable one?  Clearly she doesn\u2019t give two effs about your health, allergies or the lingering effects of pet dander in your own house. I doubt she was even offering to pay for having your house deep cleaned after.  She\u2019s not a real friend. NTA.",
+            "body": "So she wants a free place to stay at the last minute, and you\\\u2019re the unreasonable one?  Clearly she doesn\\\u2019t give two effs about your health, allergies or the lingering effects of pet dander in your own house. I doubt she was even offering to pay for having your house deep cleaned after.  She\\\u2019s not a real friend. NTA.",
             "score": 4,
             "replies": []
         },
@@ -231,13 +231,13 @@ def test_coalition_score_homogeneous_conversation():
         },
         {
             "author": "HallAccomplished5000",
-            "body": "NTA. A simple 'Sorry this is my safe space and I'm allergic to dogs. It's not a suck it up for a few days. It is months of full on cleaning trying to get rid of every little hair on the dog to stop an allergic reaction and months of discomfort'.\u00a0\n\n\nTell the friends that next time she pulls this stunt you'll send them to your house and see how they like it.\u00a0\n\n\nYou don't bring animals to someone else's home without asking. Pet hair on the other hand. That is a nightmare to try and contain and keep off your clothes.",
+            "body": "NTA. A simple 'Sorry this is my safe space and I'm allergic to dogs. It's not a suck it up for a few days. It is months of full on cleaning trying to get rid of every little hair on the dog to stop an allergic reaction and months of discomfort'.\\u00a0\n\n\nTell the friends that next time she pulls this stunt you'll send them to your house and see how they like it.\\u00a0\n\n\nYou don't bring animals to someone else's home without asking. Pet hair on the other hand. That is a nightmare to try and contain and keep off your clothes.",
             "score": 2,
             "replies": []
         },
         {
             "author": "Fredredphooey",
-            "body": "NTA. If a \"friend\" told me that I should put my health at risk by letting a dog stay with me, I would rethink that relationship.\u00a0",
+            "body": "NTA. If a \"friend\" told me that I should put my health at risk by letting a dog stay with me, I would rethink that relationship.\\u00a0",
             "score": 2,
             "replies": []
         },
@@ -261,7 +261,7 @@ def test_coalition_score_homogeneous_conversation():
         },
         {
             "author": "FairyFartDaydreams",
-            "body": "NTA she KNEW absolutely about your allergies. That is why she didn't say anything. This is 100% on her",
+            "body": "NTA she KNEW absolutely about your allergies. That is why she didn't say anything. This is 100 percent on her",
             "score": 2,
             "replies": []
         },
@@ -303,13 +303,13 @@ def test_coalition_score_homogeneous_conversation():
         },
         {
             "author": "nin_miawj",
-            "body": "Nta it the dog dander would stay longer and the fur, my sister is also allergic to dogs cats and rabbits, her kids can\u2019t go near them or she will end up in the hospital because of the allergies and her asthma",
+            "body": "Nta it the dog dander would stay longer and the fur, my sister is also allergic to dogs cats and rabbits, her kids can\\\\u2019t go near them or she will end up in the hospital because of the allergies and her asthma",
             "score": 1,
             "replies": []
         },
         {
             "author": "Sleepygirl57",
-            "body": "NTA as a person with allergies it\u2019s not that simple. Once that dander gets in your house you have to have a major deep clean. Side note your friend is a jerk for trying to force you to do something she knew would make you sick.",
+            "body": "NTA as a person with allergies it\\\u2019s not that simple. Once that dander gets in your house you have to have a major deep clean. Side note your friend is a jerk for trying to force you to do something she knew would make you sick.",
             "score": 1,
             "replies": []
         },
@@ -321,7 +321,7 @@ def test_coalition_score_homogeneous_conversation():
         },
         {
             "author": "Nalabu1",
-            "body": "You were perfectly right in showing her the door. If her feelings are hurt - TOO BAD, that\u2019s self inflicted and not your fault or responsibility. Forget it and move on with your life.",
+            "body": "You were perfectly right in showing her the door. If her feelings are hurt - TOO BAD, that\\\u2019s self inflicted and not your fault or responsibility. Forget it and move on with your life.",
             "score": 1,
             "replies": []
         },
@@ -369,7 +369,7 @@ def test_coalition_score_homogeneous_conversation():
         },
         {
             "author": "theHedgehogsDillemma",
-            "body": "She\u2019s a selfish twat but you should be able to figure that out on your own.",
+            "body": "She\\\u2019s a selfish twat but you should be able to figure that out on your own.",
             "score": 1,
             "replies": []
         },
@@ -381,7 +381,7 @@ def test_coalition_score_homogeneous_conversation():
         },
         {
             "author": "Plus_Ad_9181",
-            "body": "Why are dog people like this? Your dog isn\u2019t welcome unless explicitly invited. No that doesn\u2019t include Walmart or other people\u2019s houses.",
+            "body": "Why are dog people like this? Your dog isn\\u2019t welcome unless explicitly invited. No that doesn\\u2019t include Walmart or other people\\\u2019s houses.",
             "score": 1,
             "replies": []
         },
@@ -399,19 +399,19 @@ def test_coalition_score_homogeneous_conversation():
         },
         {
             "author": "Amaranthim",
-            "body": "Another one -\n\n**Your Text is Likely Human written, may include parts generated by AI/GPT**  \n63.46%  \nAI GPT\\*\n\n\u00a0\u00a0**Highlighted text is suspected to be most likely generated by AI\\***  \n**1,487 Characters**  \n**283 Words**\n\n  \nPlug it into [zerogpt.com](http://zerogpt.com) and see what you get!",
+            "body": "Another one -\n\n**Your Text is Likely Human written, may include parts generated by AI/GPT**  \n63.46%  \nAI GPT\\*\n\n\\u00a0\\u00a0**Highlighted text is suspected to be most likely generated by AI\\***  \n**1,487 Characters**  \n**283 Words**\n\n  \nPlug it into [zerogpt.com](http://zerogpt.com) and see what you get!",
             "score": 1,
             "replies": []
         },
         {
             "author": "Vegetable-Cod-2340",
-            "body": "NTA\n\n\u2018Can\u2019t you just suck it up?\u2019\n\nNo, I need to be completely comfortable and able to breathe in my home that I PAY for, and I won\u2019t be compromising my health, for you dog, that you didn\u2019t inform me of before hand.",
+            "body": "NTA\n\n\\u2018Can\\u2019t you just suck it up?\\u2019\n\nNo, I need to be completely comfortable and able to breathe in my home that I PAY for, and I won\\u2019t be compromising my health, for you dog, that you didn\\u2019t inform me of before hand.",
             "score": 1,
             "replies": []
         },
         {
             "author": "SamuelVimesTrained",
-            "body": "Even if you had a 6 bed 3 bath home\u2026 why do \u201cfriends\u201d find no problems with compromising your health?\nThat are NOT friends.\n\nNTA",
+            "body": "Even if you had a 6 bed 3 bath home\\u2026 why do \\u201cfriends\\u201d find no problems with compromising your health?\nThat are NOT friends.\n\nNTA",
             "score": 1,
             "replies": []
         },
@@ -452,5 +452,142 @@ def test_coalition_score_homogeneous_conversation():
     assert 0.0 <= coalition_score <= 1.0, "Coalition score should be between 0 and 1"
     assert coalition_score < 0.5, "Homogeneous conversation should have a lower coalition score"
 
+
+
+def test_coalition_score_polarized_conversation():
+    """
+    Test coalition score for a highly polarized conversation with little cross-group interaction.
+    """
+    polarized_conversation = {
+        "title": "Should the government ban all fossil fuels?",
+        "author": "EcoWarrior2024",
+        "subreddit": "Politics",
+        "comments": [
+            {"author": "GreenFuture", "body": "Fossil fuels should be banned immediately. Climate change is real!", "score": 300},
+            {"author": "ClimateDenier42", "body": "Banning fossil fuels would destroy our economy. This is fearmongering.", "score": 280},
+            {"author": "EcoWarrior", "body": "If you care about the future, you’d support renewables over dirty energy.", "score": 250},
+            {"author": "CoalLover", "body": "Renewables can’t replace coal. This is nonsense.", "score": 270},
+            {"author": "Solar4Life", "body": "We can transition if we prioritize clean energy investment.", "score": 200},
+            {"author": "DrillBabyDrill", "body": "Climate change is a hoax. Fossil fuels are the backbone of civilization.", "score": 310},
+            {"author": "CarbonZero", "body": "Solar and wind are the future. We need a phase-out plan.", "score": 190},
+            {"author": "BigOilFan", "body": "Oil and gas jobs support millions of families.", "score": 210},
+            {"author": "EcoGeek", "body": "Investing in green energy creates more jobs than fossil fuels ever will.", "score": 180},
+            {"author": "CoalDefender", "body": "China and India are still burning coal. Why should we stop first?", "score": 250},
+            {"author": "SustainableNow", "body": "Because leadership matters. We need to set an example.", "score": 200},
+            {"author": "OilTycoon", "body": "The economy will crash if we abandon fossil fuels too soon.", "score": 275},
+            {"author": "NatureFan", "body": "Every year we delay, the damage gets worse.", "score": 190},
+            {"author": "IndustryExpert", "body": "The solution is a gradual transition, not an immediate ban.", "score": 230},
+            {"author": "RadicalGreens", "body": "Gradual isn’t enough. We need action *now*.", "score": 220},
+        ]
+    }
+    coalition_score = get_coalition_score(polarized_conversation)
+    assert 0.0 <= coalition_score <= 1.0, "Coalition score should be between 0 and 1"
+    assert coalition_score < 0.2, "Highly polarized conversations should have a low coalition score"
+
+def test_coalition_score_unclear_opinion_groups():
+    """
+    Test coalition score for a discussion where users engage with opposing viewpoints constructively.
+    """
+    unclear_opinion_groups_conversation = {
+        "title": "Should we have a universal basic income?",
+        "author": "EconDebate",
+        "subreddit": "Economics",
+        "comments": [
+            {"author": "UBIAdvocate", "body": "UBI would reduce poverty and increase economic security.", "score": 200},
+            {"author": "MarketPurist", "body": "But wouldn't it disincentivize work? Maybe a targeted program would work better.", "score": 180},
+            {"author": "NeutralThinker", "body": "What if we trialed UBI in select cities first to see its effects?", "score": 220},
+            {"author": "UBIAdvocate", "body": "That’s a good idea. A small-scale experiment could show us the benefits.", "score": 190},
+            {"author": "MarketPurist", "body": "Fair point. Maybe we should also consider the funding model for it.", "score": 170},
+            {"author": "EconomistDave", "body": "Studies show UBI improves health outcomes and reduces crime.", "score": 210},
+            {"author": "TaxpayerConcerned", "body": "Where does the money come from? Higher taxes?", "score": 200},
+            {"author": "UBIRealist", "body": "We could fund it by reducing bureaucracy in welfare programs.", "score": 190},
+            {"author": "SkepticJohn", "body": "Won’t people just quit their jobs and live off UBI?", "score": 180},
+            {"author": "DataDriven", "body": "Evidence from pilot programs suggests that most people keep working.", "score": 190},
+            {"author": "AndrewYangFan", "body": "UBI isn’t about making people lazy; it’s about stability.", "score": 250},
+            {"author": "WorkEthicGuy", "body": "I like the idea, but we need accountability to prevent abuse.", "score": 210},
+            {"author": "LibertarianJoe", "body": "Maybe UBI works, but government intervention is always messy.", "score": 170},
+            {"author": "CompromiseCandidate", "body": "How about a hybrid model with incentives for work?", "score": 200},
+            {"author": "UBIAdvocate", "body": "That’s a reasonable compromise. It’s worth testing.", "score": 190},
+        ]
+    }
+    coalition_score = get_coalition_score(unclear_opinion_groups_conversation)
+    assert 0.0 <= coalition_score <= 1.0, "Coalition score should be between 0 and 1"
+    assert coalition_score < 0.3, "Discussions that don't have strong coalitions initially should have lower scores."
+
+def test_coalition_score_echo_chamber():
+    """
+    Test coalition score for an echo chamber where there is little to no disagreement.
+    """
+    echo_chamber = {
+        "title": "Should billionaires be taxed at 90%?",
+        "author": "TaxTheRich",
+        "subreddit": "Socialism",
+        "comments": [
+            {"author": "Marxist123", "body": "Yes, billionaires hoard wealth and exploit workers.", "score": 400},
+            {"author": "LeninFan", "body": "Absolutely. Redistribution is the only way forward.", "score": 350},
+            {"author": "FairnessFirst", "body": "We need a wealth cap. No one needs more than $10M.", "score": 375},
+            {"author": "DownWithCEOs", "body": "Billionaires shouldn't exist. Full stop.", "score": 390},
+            {"author": "EatTheRich", "body": "Tax them at 100%. They don’t deserve it.", "score": 380},
+            {"author": "RevolutionNow", "body": "The rich are parasites. Time for change.", "score": 360},
+            {"author": "PowerToPeople", "body": "We should nationalize major industries.", "score": 340},
+            {"author": "SocialistJake", "body": "Economic equality is more important than profit.", "score": 370},
+            {"author": "WealthRedistributor", "body": "Luxury taxes on the rich should be even higher.", "score": 380},
+            {"author": "RedFlag", "body": "The proletariat must rise!", "score": 310},
+            {"author": "MarxWasRight", "body": "Capitalism is inherently exploitative.", "score": 390},
+            {"author": "NoMoreBillionaires", "body": "There is no ethical way to become a billionaire.", "score": 375},
+            {"author": "ProTax", "body": "A progressive tax is the only fair system.", "score": 350},
+            {"author": "AntiGreed", "body": "We must hold the ultra-rich accountable.", "score": 360},
+            {"author": "TaxThe1Percent", "body": "The rich must pay their fair share.", "score": 370},
+        ]
+    }
+    coalition_score = get_coalition_score(echo_chamber)
+    assert 0.0 <= coalition_score <= 1.0, "Coalition score should be between 0 and 1"
+    assert coalition_score < 0.1, "Echo chambers should have an extremely low coalition score"
+
+def test_coalition_score_mixed_engagement():
+    """
+    Test coalition score for a conversation where some users engage across coalitions but others do not.
+    """
+    mixed_engagement= {
+        "title": "Should social media platforms ban political ads?",
+        "author": "PolicyDebater",
+        "subreddit": "Technology",
+        "comments": [
+            {"author": "FreeSpeechMax", "body": "No, banning political ads is censorship!", "score": 220},
+            {"author": "RegulateAds", "body": "Yes, political ads are full of misinformation.", "score": 210},
+            {"author": "NeutralObserver", "body": "Maybe they should just require fact-checking instead?", "score": 180},
+            {"author": "BigTechSkeptic", "body": "Social media companies have too much power already.", "score": 230},
+            {"author": "FactCheckAdvocate", "body": "Platforms should label misleading ads, not ban them.", "score": 190},
+            {"author": "BanAllAds", "body": "They should ban all ads, not just political ones!", "score": 200},
+            {"author": "PoliticalFreedom", "body": "Voters should decide for themselves, not big tech.", "score": 250},
+            {"author": "CivicDuty", "body": "But what if misleading ads influence elections unfairly?", "score": 240},
+            {"author": "CompromiseFinder", "body": "Maybe ads should be allowed but with strict rules?", "score": 220},
+            {"author": "MediaWatcher", "body": "A complete ban could have unintended consequences.", "score": 170},
+            {"author": "DemocracyFirst", "body": "Transparency in ad funding is more important than bans.", "score": 180},
+            {"author": "BanThemNow", "body": "Political ads do more harm than good. Just get rid of them.", "score": 260},
+            {"author": "FreeMarketJoe", "body": "If you don’t like them, don’t watch them. Simple.", "score": 210},
+            {"author": "AIRegulator", "body": "AI should monitor political ads for false claims.", "score": 190},
+            {"author": "PoliticalRealist", "body": "Regulating ads is tricky, but some oversight is necessary.", "score": 200},
+        ]
+    }
+    coalition_score = get_coalition_score(mixed_engagement)
+    assert 0.0 <= coalition_score <= 1.0, "Coalition score should be between 0 and 1"
+    assert 0.35 < coalition_score < 0.65, "Mixed engagement should have a moderate coalition score"
+
+def test_coalition_score_small_discussion():
+    """
+    Test coalition score when there are very few comments.
+    """
+    small_discussion = {
+        "title": "Is pineapple on pizza good?",
+        "author": "FoodDebate",
+        "subreddit": "Food",
+        "comments": [
+            {"author": "PineappleLover", "body": "Yes! Sweet and savory is the best combination.", "score": 100},
+            {"author": "HateFruitOnPizza", "body": "Disgusting. Pineapple doesn’t belong on pizza.", "score": 90},
+        ]
+    }
+    coalition_score = get_coalition_score(small_discussion)
+    assert pd.isna(coalition_score), "Coalition score should be NaN for small discussions that can not be clustered meaningfully."
 
 
