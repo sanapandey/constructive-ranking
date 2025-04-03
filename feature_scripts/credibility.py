@@ -289,9 +289,7 @@ def get_credibility_score(comment_forest, valid_words = VALID_WORDS):
     reputation_df = create_author_reputation_df(comment_forest)
     investment_df = create_author_investment_df(comment_forest, valid_words)
 
-    print('reputation_df:')
     display(reputation_df)
-    print('investment_df:')
     display(investment_df)
 
     mean_reputation = reputation_df['reputation_score'].mean()
