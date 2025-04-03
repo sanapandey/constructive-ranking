@@ -1,6 +1,37 @@
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import pandas as pd
 
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+import pandas as pd
+
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+import pandas as pd
+
+def extract_comments_from_forest(comment_forest):
+    """
+    Extract comment texts from a comment forest structure
+    
+    Args:
+        comment_forest (List[Dict]): A nested comment structure where each comment
+                                     has 'content' and optionally 'replies'
+    
+    Returns:
+        List[str]: Flattened list of comment texts
+    """
+    comment_texts = []
+    
+    def extract_recursive(comments):
+        for comment in comments:
+            if 'body' in comment:  # Extract body text from each comment
+                comment_texts.append(comment['body'])
+            if 'replies' in comment and comment['replies']:  # Recursively extract replies
+                extract_recursive(comment['replies'])
+    
+    extract_recursive(comment_forest)
+    print(comment_forest)
+    return comment_texts
+
+
 def calculate_resilience(json_data, neutral_threshold=0.3):
     ''' 
     Measures resilience in a conversation thread. 
@@ -17,45 +48,77 @@ def calculate_resilience(json_data, neutral_threshold=0.3):
 
     sid = SentimentIntensityAnalyzer()
 
-    def process_node(node, parent_sentiment, found_defection, post_defection_sentiments):
-        """ Recursively traverse the thread, tracking sentiment after defection. """
-
-        comment_body = node['body']
-        raw_sentiment = sid.polarity_scores(comment_body)['compound']
+    # Extract comments from the comment forest
+    comments = extract_comments_from_forest(json_data.get("comments", []))
     
+    if not comments:  # If there are no comments, return NaN
+        return float("NaN")
+    
+    def process_node(comment_text, parent_sentiment, found_defection, sentiment_changes):
+        """ Process each comment and its replies recursively. """
+        raw_sentiment = sid.polarity_scores(comment_text)['compound']
+        
         # Inherit parent's sentiment if the comment is neutral
         if abs(raw_sentiment) < neutral_threshold:
             sentiment = parent_sentiment
         else:
             sentiment = raw_sentiment
+
         
-        # Check for defection (negative flip from positive/neutral)
-        if not found_defection and parent_sentiment >= 0 and sentiment < 0:
+        # Detect defection (negative flip from neutral/positive)
+        if not found_defection and parent_sentiment >= 0 and sentiment < -neutral_threshold:
             found_defection = True  # Mark defection point
+            print(f"Defection detected! Parent Sentiment: {parent_sentiment}, New Sentiment: {sentiment}")
         
-        # If defection has occurred, store post-defection sentiment
+        # Track sentiment after defection
         if found_defection:
-            post_defection_sentiments.append(sentiment)
+            sentiment_changes.append(sentiment)
+            print(f"Added sentiment after defection: {sentiment}")
         
-        # Recursively process replies
-        for child in node.get('replies', []):
-            process_node(child, sentiment, found_defection, post_defection_sentiments)
+        return found_defection, sentiment_changes
 
-    # Adjust keys for recursion
-    json_data['body'] = json_data.get('selftext', "")
-    json_data['replies'] = json_data.get('comments', [])
-
-    root_sentiment = sid.polarity_scores(json_data['body'])['compound']
-    post_defection_sentiments = []
+    root_sentiment = sid.polarity_scores(json_data['selftext'])['compound']
+    sentiment_changes = []
+    found_defection = False
     
-    process_node(json_data, root_sentiment, found_defection=False, post_defection_sentiments=post_defection_sentiments)
+    # Process each comment in the thread
+    for comment in comments:
+        found_defection, sentiment_changes = process_node(comment, root_sentiment, found_defection, sentiment_changes)
     
     # If no defection occurred, return NaN
-    if not post_defection_sentiments:
+    if not sentiment_changes:
+        print("No defection occurred!")
         return float("NaN")
+    
+    
+    # Calculate and return the average sentiment of post-defection comments
+    return sum(sentiment_changes) / len(sentiment_changes)
 
-    # Return average post-defection sentiment (resilience score)
-    return sum(post_defection_sentiments) / len(post_defection_sentiments)
+
+
+# def get_resilience_score(json_data, neutral_threshold=0.3):
+#     sid = SentimentIntensityAnalyzer()
+#     comments = extract_comments_from_forest(json_data.get("comments", []))
+    
+#     if not comments:
+#         return float("NaN")
+    
+#     root_sentiment = sid.polarity_scores(json_data['selftext'])['compound']
+#     sentiment_changes = []
+#     found_defection = False
+    
+#     for comment in comments:
+#         sentiment = sid.polarity_scores(comment)['compound']
+        
+#         # Only detect defection if parent was clearly positive (> threshold)
+#         if not found_defection and root_sentiment > neutral_threshold and sentiment < -neutral_threshold:
+#             found_defection = True
+        
+#         # Only track non-neutral comments after defection
+#         if found_defection and abs(sentiment) > neutral_threshold:
+#             sentiment_changes.append(sentiment)
+    
+#     return sum(sentiment_changes)/len(sentiment_changes) if sentiment_changes else float("NaN")
 
 
 def get_resilience_score(comment_forest, neutral_threshold=0.3):
@@ -70,9 +133,17 @@ def get_resilience_score(comment_forest, neutral_threshold=0.3):
     - **Average resilience score across all branches**.
     """
 
-    resilience_scores = [calculate_resilience(branch, neutral_threshold) for branch in comment_forest.get("comments", [])]
+    if "selftext" in comment_forest:
+        return calculate_resilience(comment_forest, neutral_threshold)
     
-    # Filter out NaN values (threads without defections)
+    # Otherwise process as comment forest
+    resilience_scores = [calculate_resilience({"selftext": "", "comments": [branch]}, neutral_threshold) 
+                        for branch in comment_forest.get("comments", [])]
+    
     valid_scores = [score for score in resilience_scores if not pd.isna(score)]
-    
-    return sum(valid_scores) / len(valid_scores) if valid_scores else float("NaN")
+    resilience_score = sum(valid_scores) / len(valid_scores) if valid_scores else float("NaN")
+    print("negative resilience score: " + resilience_score)
+    if resilience_score <= 0.1 and resilience_score >= -0.1: 
+        return float("NaN")
+    return resilience_score
+

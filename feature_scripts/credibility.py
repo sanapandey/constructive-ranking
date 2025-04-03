@@ -55,7 +55,7 @@ def get_n_spelling_mistakes(comment_body, valid_words):
 def get_comment_readability(comment_body):
     openai.api_key = OPENAI_API_KEY
 
-    prompt = f"Rate the following text on the Flesch-Kincaid readability index (0-100, higher is easier to read). For texts that are one letter, return a score of 5. Please only return numbers with no text. Otherwise, apply the formula as standard:\n\n{comment_body}\n\nReadability Score:"
+    prompt = f"Rate the following text on the Flesch-Kincaid readability index (0-100, higher is easier to read). There is one special case: for texts that are one letter or unable to be analyzed by the Flesch Kincaid algorithm, return a score of 5. For all other cases, please apply the formula as standard. Please only return numbers with no text:\n\n{comment_body}\n\nReadability Score:"
 
     response = openai.ChatCompletion.create(
         model="gpt-4-turbo",
@@ -63,6 +63,7 @@ def get_comment_readability(comment_body):
                       {"role": "user", "content": prompt}]
     )
     score = response["choices"][0]["message"]["content"]
+    print("Readability score test: " + score)
     return float(score)  # Ensure it's a float
 
 def get_investment_values_thread_average(comment_forest, valid_words):
