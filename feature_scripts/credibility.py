@@ -119,7 +119,6 @@ def get_author_comments_dictionaries(comment_forest):
     returns dictionary whose keys are author names and values are lists of all comments made by that author.
     (in the return object described above a "comment" is a dictionary with keys 'body' and 'vote score'.) 
     '''
-    # print(comment_forest)
 
     queue = comment_forest['comments'].copy()
 
@@ -297,11 +296,6 @@ def get_credibility_score(comment_forest, valid_words = VALID_WORDS):
 
     mean_reputation = reputation_df['reputation_score'].mean()
     mean_investment = investment_df['investment_score'].mean()
-    print(mean_investment)
-    print(mean_reputation)
-
-    print(mean_reputation)
-    print(mean_investment)
 
     credibility_score = mean_investment + mean_reputation
 
