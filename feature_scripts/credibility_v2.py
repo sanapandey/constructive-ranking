@@ -141,12 +141,12 @@ def get_credibility_subfeatures(comment_forest, valid_words = VALID_WORDS):
     total_comments = len(flattened_comment_forest)
     
     return_dictionary = {
-                        "comment_has_author_references_percentage": comments_referencing_other_authors_count / total_comments,
+                        "comment_has_author_references_proportion": comments_referencing_other_authors_count / total_comments,
                         "vote_score_mean": total_vote_score / total_comments,
                         "comments_per_author": total_comments / total_authors,
                         "comment_length_mean": total_word_count / total_comments,
-                        "comment_has_links_percentage" : comments_with_links_count / total_comments,
-                        "misspellings_mean": misspellings_count / total_word_count,
+                        "comment_has_links_proportion" : comments_with_links_count / total_comments,
+                        "misspelled_words_proportion": misspellings_count / total_word_count,
                         "readability_mean": total_readability_score / total_comments
                         }
 
