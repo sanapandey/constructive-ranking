@@ -95,32 +95,6 @@ def calculate_resilience(json_data, neutral_threshold=0.3):
     return sum(sentiment_changes) / len(sentiment_changes)
 
 
-
-# def get_resilience_score(json_data, neutral_threshold=0.3):
-#     sid = SentimentIntensityAnalyzer()
-#     comments = extract_comments_from_forest(json_data.get("comments", []))
-    
-#     if not comments:
-#         return float("NaN")
-    
-#     root_sentiment = sid.polarity_scores(json_data['selftext'])['compound']
-#     sentiment_changes = []
-#     found_defection = False
-    
-#     for comment in comments:
-#         sentiment = sid.polarity_scores(comment)['compound']
-        
-#         # Only detect defection if parent was clearly positive (> threshold)
-#         if not found_defection and root_sentiment > neutral_threshold and sentiment < -neutral_threshold:
-#             found_defection = True
-        
-#         # Only track non-neutral comments after defection
-#         if found_defection and abs(sentiment) > neutral_threshold:
-#             sentiment_changes.append(sentiment)
-    
-#     return sum(sentiment_changes)/len(sentiment_changes) if sentiment_changes else float("NaN")
-
-
 def get_resilience_score(comment_forest, neutral_threshold=0.3):
     """
     Computes the **resilience score** of a conversation thread.
