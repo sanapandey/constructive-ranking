@@ -81,39 +81,131 @@ def test_resilience_early_defection_recovery():
                                 {"body": "Yeah, you can customize it a lot!", "replies": []}
                             ]}
                         ]},
-                        {"body": "I just prefer other apps, Notion feels too complicated.", "replies": [  # A second comment with negative sentiment
-                            {"body": "I think it takes some time to get used to, but it can be great once you figure it out.", "replies": [
-                                {"body": "True, I might revisit it.", "replies": []}
-                            ]}
-                        ]}
+                        {
+  "body": "I just prefer other apps, Notion feels too complicated.",
+  "replies": [
+    {
+      "body": "I used to feel the same way, but once I spent a bit of time with it, I found it to be super powerful! It’s so customizable.",
+      "replies": [
+        {
+          "body": "Exactly! The flexibility is amazing. You can set it up exactly how you want, and the possibilities are endless. It really helps with organization!",
+          "replies": [
+            {
+              "body": "Totally! I love how you can create personalized dashboards for different needs—work, personal life, projects, etc.",
+              "replies": []
+            }
+          ]
+        },
+        {
+          "body": "It does take some time to get comfortable, but once you do, it’s a game-changer. The integrations with other tools are awesome too!",
+          "replies": [
+            {
+              "body": "Definitely! I’ve integrated it with Google Calendar and Slack, and it’s made a huge difference in staying on top of everything.",
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "body": "I’ve found Notion to be a great all-in-one tool once you get the hang of it. It's perfect for organizing all kinds of info in one place.",
+      "replies": [
+        {
+          "body": "Yes, same! I use it for everything—task management, note-taking, even budgeting. It’s a huge time-saver once you set it up to fit your needs.",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "body": "If you give it another shot, I think you’ll find it easier with a few templates or tutorials. There’s a big Notion community that shares tips and workflows.",
+      "replies": [
+        {
+          "body": "That’s a great point! The community really helps you see all the creative ways people use Notion.",
+          "replies": []
+        }
+      ]
+    }
+  ]
+}
+
                     ]}
                 ]}
             ]},
             {"body": "I personally use Todoist for productivity.", "replies": [
                 {"body": "I tried Todoist, but it wasn't flexible enough for me.", "replies": [
-                    {"body": "Yeah, I feel that. But I still like it for simple to-do lists.", "replies": []}
+                    {"body": "Yeah, I feel that. But I still like it for simple to-do lists.", "replies": [
+                        {"body": "I love the app, I think it's great!", "replies": [
+                            {"body": "Me too! I feel like it's honestly really good for planning as well.", "replies": []}
+                        ]}
+                    ]}
                 ]}
             ]},
             {"body": "I also use Trello to organize my tasks visually.", "replies": [
                 {"body": "Trello's boards are so helpful for visualizing everything!", "replies": [
-                    {"body": "Yes, I love how easy it is to move things around.", "replies": []}
+                    {"body": "Yes, I love how easy it is to move things around.", "replies": [
+                        {"body": "One of my favorite features of all time is the color coding! So good and satisfying!", "replies": []}
+                    ]}
                 ]}
             ]},
-            {"body": "Does anyone here use ClickUp?", "replies": [
-                {"body": "I've heard about it but never tried it.", "replies": [
-                    {"body": "It's pretty versatile, has lots of features like time tracking and goal setting.", "replies": []}
-                ]}
-            ]},
+            {
+  "body": "Does anyone here use ClickUp?",
+  "replies": [
+    {
+      "body": "Yes, I absolutely love it! It's been a game-changer for my team and me.",
+      "replies": [
+        {
+          "body": "Same here! The task management and automation features are a lifesaver. We’ve gotten so much more efficient.",
+          "replies": [
+            {
+              "body": "I agree! I can’t imagine going back to anything else. The ability to customize views for different team members is huge!",
+              "replies": []
+            }
+          ]
+        },
+        {
+          "body": "I’ve been using it for a few months now, and the goal setting and time tracking features really help me stay on top of everything.",
+          "replies": [
+            {
+              "body": "Yes, exactly! It’s so satisfying to see everything tracked and organized in one place. Plus, the mobile app is super handy!",
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "body": "I’ve heard great things about ClickUp, but I’ve never used it. Is it really as good as people say?",
+      "replies": [
+        {
+          "body": "Absolutely! It’s really intuitive, and there’s a ton of tutorials to get you started. Once you get the hang of it, you’ll wonder how you ever worked without it.",
+          "replies": [
+            {
+              "body": "I second that! The learning curve isn’t bad, and once you’re familiar, it really speeds up your workflow. Definitely worth the try.",
+              "replies": []
+            }
+                    ]
+        }
+                ]
+    }
+    ]
+        },
+
             {"body": "I like using Google Keep for quick notes!", "replies": [
                 {"body": "Google Keep is great for reminders, very simple to use.", "replies": [
-                    {"body": "Exactly, I love how it syncs across all devices.", "replies": []}
+                    {"body": "Exactly, I love how it syncs across all devices.", "replies": [
+                        {"body": "What do you use for task management?", "replies": [
+                            {"body": "honestly I'm a huge fan of trellio or evernote--they've helped me get my life together!", "replies": [
+                                {"body": "Thanks so much for the tip!", "replies": []}
+                            ]}
+                        ]}
+                    ]}
                 ]}
             ]}
         ]
     }
     
     resilience_score = get_resilience_score(early_defection_thread)
-    assert 0.3 <= resilience_score <= 1.0, "Thread should show strong resilience after early defection"
+    assert 0.5 <= resilience_score <= 1.0, "Thread should show strong resilience after early defection"
 
 
 def test_resilience_mixed_defections():
@@ -148,21 +240,21 @@ def test_resilience_mixed_defections():
                 ]}
             ]},
             {"body": "I loved the soundtrack!", "replies": [
-                {"body": "Yeah, the music was amazing!", "replies": [
-                    {"body": "Definitely! It made some scenes so much better.", "replies": []}  # Recovery
+                {"body": "Your opinion is beyond wrong--you must be an idiot.", "replies": [
+                    {"body": "I can't believe people this dumb are online.", "replies": []}  # Negative 
                 ]}
             ]},
             {"body": "I couldn't get into it.", "replies": [
                 {"body": "Really? Why not?", "replies": [
-                    {"body": "The storyline was weak, and the characters were flat.", "replies": [
-                        {"body": "I see your point, but I still found it enjoyable.", "replies": []}  # Partial recovery
+                    {"body": "You must have no critical thinking skills to have enjoyed that movie--are you stupid?", "replies": [
+                        {"body": "Wow, you're really aggressive. I still found it enjoyable.", "replies": []}  # Partial recovery
                     ]}
                 ]}
             ]},
             {"body": "The action scenes were fun!", "replies": [
                 {"body": "True, they were entertaining.", "replies": [
                     {"body": "But some felt unnecessary.", "replies": [
-                        {"body": "I thought they were a good balance of excitement.", "replies": []}  # Recovery here
+                        {"body": "Quality was so bad for the action, I feel like it was a waste.", "replies": []}  # Mostly negative
                     ]}
                 ]}
             ]},
@@ -175,7 +267,7 @@ def test_resilience_mixed_defections():
     }
     
     resilience_score = get_resilience_score(mixed_defection_thread)
-    assert 0.0 <= resilience_score <= 0.5, "Thread should show mixed resilience"
+    assert 0.0 <= resilience_score <= 0.5, "Thread should show low resilience, as majority defect with only one recovery."
 
 
 def test_resilience_fully_negative():

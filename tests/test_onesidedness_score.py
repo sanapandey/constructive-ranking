@@ -107,7 +107,7 @@ def test_onesidedness_reply_heavy_discussion():
 
     onesidedness_score = get_onesidedness_score(reply_heavy_conversation['comments'])
     assert 0 <= onesidedness_score <= 1, "Score should be between 0 and 1"
-    assert 0.1 < onesidedness_score < 0.5, "Reply-heavy discussions should have moderate one-sidedness"
+    assert 0.1 < onesidedness_score < 0.5, "Reply-heavy discussions should have low to moderate one-sidedness"
 
 def test_onesidedness_mixed_participation():
     """
@@ -124,5 +124,5 @@ def test_onesidedness_mixed_participation():
 
     onesidedness_score = get_onesidedness_score(mixed_conversation['comments'])
     assert 0 <= onesidedness_score <= 1, "Score should be between 0 and 1"
-    assert 0.3 < onesidedness_score < 0.6, "Mixed participation should yield moderate one-sidedness"
+    assert 0.3 < onesidedness_score < 0.6, "Mixed participation with some frequent commenters should yield moderate one-sidedness"
 

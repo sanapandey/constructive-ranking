@@ -233,4 +233,3 @@ def get_coalition_score(comment_forest, n_clusters: int = 3) -> float:
         
     # Return the overall coalition diversity as the score
     return float(results['overall_coalition_diversity'])
-    

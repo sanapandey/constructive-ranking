@@ -8,7 +8,7 @@ import os
 
 # Add the parent directory to sys.path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-from feature_scripts.coalition import get_coalition_score
+from feature_scripts.coalition import get_coalition_score, CoalitionAnalyzer
 
 def test_coalition_score_diverse_conversation():
         """
@@ -157,7 +157,7 @@ def test_coalition_score_diverse_conversation():
         
         coalition_score = get_coalition_score(diverse_conversation)
         assert 0.0 <= coalition_score <= 1.0, "Coalition score should be between 0 and 1"
-        assert coalition_score > 0.2, f"Diverse conversation should have a relatively high coalition score. Coalition score: {coalition_score}"
+        assert coalition_score > 0.5, f"Diverse conversation should have a relatively high coalition score. Coalition score: {coalition_score}"
 
 def test_coalition_score_homogeneous_conversation():
     """
@@ -450,7 +450,7 @@ def test_coalition_score_homogeneous_conversation():
         
     coalition_score = get_coalition_score(homogeneous_conversation)
     assert 0.0 <= coalition_score <= 1.0, "Coalition score should be between 0 and 1"
-    assert coalition_score < 0.5, f"Homogeneous conversation should have a lower coalition score. Coalition score: {coalition_score}"
+    assert 0.0 <= coalition_score < 0.5, f"Homogeneous conversation should have a relatively low coalition score, as there is no bridging. Coalition score: {coalition_score}"
 
 
 
@@ -482,7 +482,7 @@ def test_coalition_score_polarized_conversation():
     }
     coalition_score = get_coalition_score(polarized_conversation)
     assert 0.0 <= coalition_score <= 1.0, "Coalition score should be between 0 and 1"
-    assert coalition_score < 0.2, f"Highly polarized conversations should have a low coalition score. Coalition score: {coalition_score}"
+    assert coalition_score < 0.2, f"Highly polarized conversations with no resolution should have a low coalition score. Coalition score: {coalition_score}"
 
 def test_coalition_score_unclear_opinion_groups():
     """
@@ -589,5 +589,25 @@ def test_coalition_score_small_discussion():
     }
     coalition_score = get_coalition_score(small_discussion)
     assert pd.isna(coalition_score), f"Coalition score should be NaN for small discussions that can not be clustered meaningfully. Coalition score: {coalition_score}"
+
+#NEW TESTS HERE
+
+
+def test_coalition_score_too_few_comments():
+    """
+    Test coalition score when there are too few comments to analyze.
+    """
+    small_conversation = {
+        "title": "What’s your favorite color?",
+        "author": "ColorLover",
+        "subreddit": "CasualTalk",
+        "comments": [
+            {"author": "BlueFan", "body": "Blue is the best!", "score": 10},
+            {"author": "RedFan", "body": "Red is superior.", "score": 8},
+        ]
+    }
+    coalition_score = get_coalition_score(small_conversation)
+    assert pd.isna(coalition_score), f"Too few comments should return a score of NaN. Got: {coalition_score}"
+
 
 
