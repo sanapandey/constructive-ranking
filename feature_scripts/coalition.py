@@ -99,12 +99,12 @@ class CoalitionAnalyzer:
                 comment_embedding.reshape(1, -1), 
                 coalition_centroids[comment_coalition].reshape(1, -1)
             )[0]) - np.sum(inter_similarities)
-            print(f"Inter Score: {intra_score}") 
+            #print(f"Inter Score: {intra_score}") 
         else:
             inter_score = 0
             print("Went into inter else statement.")
         final_score = inter_score/intra_score  # Direct difference instead of division
-        print(f"Comment Score: {final_score}")  # Debugging print
+        #print(f"Comment Score: {final_score}")  # Debugging print
         return final_score    
     
     def analyze_thread(self, comments: List[str], n_clusters: int = 3) -> Dict[str, Any]:
@@ -174,7 +174,7 @@ class CoalitionAnalyzer:
                        (CoalitionAnalyzer.max_score - CoalitionAnalyzer.min_score)
             else:
                 normalized_score = 0.0  # Avoid division by zero
-        print(f"Overall Diversity Score: {normalized_score}")  # Debugging print
+        #print(f"Overall Diversity Score: {normalized_score}")  # Debugging print
         
         return {
             'cluster_labels': cluster_labels,

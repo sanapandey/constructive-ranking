@@ -28,7 +28,7 @@ def extract_comments_from_forest(comment_forest):
                 extract_recursive(comment['replies'])
     
     extract_recursive(comment_forest)
-    print(comment_forest)
+    #print(comment_forest)
     return comment_texts
 
 
@@ -68,12 +68,12 @@ def calculate_resilience(json_data, neutral_threshold=0.3):
         # Detect defection (negative flip from neutral/positive)
         if not found_defection and parent_sentiment >= 0 and sentiment < -neutral_threshold:
             found_defection = True  # Mark defection point
-            print(f"Defection detected! Parent Sentiment: {parent_sentiment}, New Sentiment: {sentiment}")
+            #print(f"Defection detected! Parent Sentiment: {parent_sentiment}, New Sentiment: {sentiment}")
         
         # Track sentiment after defection
         if found_defection:
             sentiment_changes.append(sentiment)
-            print(f"Added sentiment after defection: {sentiment}")
+            #print(f"Added sentiment after defection: {sentiment}")
         
         return found_defection, sentiment_changes
 
@@ -87,7 +87,7 @@ def calculate_resilience(json_data, neutral_threshold=0.3):
     
     # If no defection occurred, return NaN
     if not sentiment_changes:
-        print("No defection occurred!")
+        #print("No defection occurred!")
         return float("NaN")
     
     
@@ -142,7 +142,7 @@ def get_resilience_score(comment_forest, neutral_threshold=0.3):
     
     valid_scores = [score for score in resilience_scores if not pd.isna(score)]
     resilience_score = sum(valid_scores) / len(valid_scores) if valid_scores else float("NaN")
-    print("negative resilience score: " + resilience_score)
+    #print("negative resilience score: " + resilience_score)
     if resilience_score <= 0.1 and resilience_score >= -0.1: 
         return float("NaN")
     return resilience_score
