@@ -20,11 +20,11 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 # valid_words.txt downloaded from https://github.com/dwyl/english-words/blob/master/words.txt
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
+VALID_WORDS = set()
 for file_name in ["valid_words.txt", "wikitionary_popular_words_40k.txt"]:
     file_path = os.path.join(script_dir, "auxiliary_files", file_name)
-
     with open(file_path, "r") as file: 
-        VALID_WORDS = set(word.strip() for word in file.readlines())
+        VALID_WORDS.update(set(word.strip() for word in file.readlines()))
 
 def flatten_comments(comment_forest):
     flattened = []
@@ -110,7 +110,7 @@ def get_credibility_subfeatures(comment_forest, valid_words = VALID_WORDS):
 
         # Verify if comment includes links
 
-        tokens = ['www.', '.com', 'http://', 'http://']
+        tokens = ['www.', '.com', 'http://', 'https://']
         has_links = any(token in comment_body for token in tokens)
         comments_with_links_count += has_links
 
