@@ -63,7 +63,7 @@ def get_comment_readability(comment_body):
                       {"role": "user", "content": prompt}]
     )
     score = response["choices"][0]["message"]["content"]
-    print("Readability score test: " + score)
+    #print("Readability score test: " + score)
     return float(score)  # Ensure it's a float
 
 def get_investment_values_thread_average(comment_forest, valid_words):

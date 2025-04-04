@@ -157,7 +157,7 @@ def test_coalition_score_diverse_conversation():
         
         coalition_score = get_coalition_score(diverse_conversation)
         assert 0.0 <= coalition_score <= 1.0, "Coalition score should be between 0 and 1"
-        assert coalition_score > 0.2, "Diverse conversation should have a relatively high coalition score"
+        assert coalition_score > 0.2, f"Diverse conversation should have a relatively high coalition score. Coalition score: {coalition_score}"
 
 def test_coalition_score_homogeneous_conversation():
     """
@@ -450,7 +450,7 @@ def test_coalition_score_homogeneous_conversation():
         
     coalition_score = get_coalition_score(homogeneous_conversation)
     assert 0.0 <= coalition_score <= 1.0, "Coalition score should be between 0 and 1"
-    assert coalition_score < 0.5, "Homogeneous conversation should have a lower coalition score"
+    assert coalition_score < 0.5, f"Homogeneous conversation should have a lower coalition score. Coalition score: {coalition_score}"
 
 
 
@@ -482,7 +482,7 @@ def test_coalition_score_polarized_conversation():
     }
     coalition_score = get_coalition_score(polarized_conversation)
     assert 0.0 <= coalition_score <= 1.0, "Coalition score should be between 0 and 1"
-    assert coalition_score < 0.2, "Highly polarized conversations should have a low coalition score"
+    assert coalition_score < 0.2, f"Highly polarized conversations should have a low coalition score. Coalition score: {coalition_score}"
 
 def test_coalition_score_unclear_opinion_groups():
     """
@@ -512,7 +512,7 @@ def test_coalition_score_unclear_opinion_groups():
     }
     coalition_score = get_coalition_score(unclear_opinion_groups_conversation)
     assert 0.0 <= coalition_score <= 1.0, "Coalition score should be between 0 and 1"
-    assert coalition_score < 0.3, "Discussions that don't have strong coalitions initially should have lower scores."
+    assert coalition_score < 0.3, f"Discussions that don't have strong coalitions initially should have lower scores. Coalition score: {coalition_score}"
 
 def test_coalition_score_echo_chamber():
     """
@@ -542,7 +542,7 @@ def test_coalition_score_echo_chamber():
     }
     coalition_score = get_coalition_score(echo_chamber)
     assert 0.0 <= coalition_score <= 1.0, "Coalition score should be between 0 and 1"
-    assert coalition_score < 0.1, "Echo chambers should have an extremely low coalition score"
+    assert coalition_score < 0.1, f"Echo chambers should have an extremely low coalition score. Coalition score: {coalition_score}"
 
 def test_coalition_score_mixed_engagement():
     """
@@ -572,7 +572,7 @@ def test_coalition_score_mixed_engagement():
     }
     coalition_score = get_coalition_score(mixed_engagement)
     assert 0.0 <= coalition_score <= 1.0, "Coalition score should be between 0 and 1"
-    assert 0.35 < coalition_score < 0.65, "Mixed engagement should have a moderate coalition score"
+    assert 0.35 < coalition_score < 0.65, f"Mixed engagement should have a moderate coalition score. Coalition score: {coalition_score}"
 
 def test_coalition_score_small_discussion():
     """
@@ -588,6 +588,6 @@ def test_coalition_score_small_discussion():
         ]
     }
     coalition_score = get_coalition_score(small_discussion)
-    assert pd.isna(coalition_score), "Coalition score should be NaN for small discussions that can not be clustered meaningfully."
+    assert pd.isna(coalition_score), f"Coalition score should be NaN for small discussions that can not be clustered meaningfully. Coalition score: {coalition_score}"
 
 
