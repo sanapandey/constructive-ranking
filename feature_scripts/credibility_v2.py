@@ -126,16 +126,6 @@ def get_credibility_subfeatures(comment_forest, valid_words = VALID_WORDS):
 
         total_readability_score += get_comment_readability(comment_body)
 
-    # # reputation  
-    # 	get_author_references() # esto encripta is_references + references_others
-    # 	get_average_vote_score()
-    # 	# investment
-    # 	get_average_comments_per_author # simplemente total comments sobre total authors
-    # 	get_average_comment_length
-    # 	get_average_links_per_comment
-    # 	get_average_mistakes_per_comment
-    # 	get_average_comment_readability
-
     
     total_authors = len(authors_set)
     total_comments = len(flattened_comment_forest)
