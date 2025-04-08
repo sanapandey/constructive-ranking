@@ -64,3 +64,114 @@ def test_defection_score_volatile_conversation():
     defection_score = get_defection_score(volatile_conversation)
     assert not pd.isna(defection_score), "Defection score should not be NA"
     assert 0 <= defection_score <= len(volatile_conversation['comments'][0]['replies']) + 1, "Defection score should be within reasonable bounds"
+
+def test_defection_score_conversations_with_hand_calculated_defection_values_1():
+    """
+    test_json with 2 branches from same positive root node.
+    Branches: 1. pos (the root), ntr, ntr, pos, neg
+              2. pos (the root), pos, pos, pos, neg
+    Expected normalized defection score 0.8 
+    """
+
+    conversation08 = {
+    "selftext": "I love this! It is amazing.",
+    "comments": [
+        {
+        "body": "The cat sat on the mat.",
+        "replies": [
+            {
+            "body": "I love this!",
+            "replies": [
+                {
+                "body": "Absolutely wonderful!",
+                "replies": [
+                    {
+                    "body": "I hate this!",
+                    "replies": []
+                    }
+                ]
+                }
+            ]
+            }
+        ]
+        },
+        {
+        "body": "The cat sat on the mat.",
+        "replies": [
+            {
+            "body": "The cat sat on the mat.",
+            "replies": [
+                {
+                "body": "I love this!",
+                "replies": [
+                    {
+                    "body": "I hate this!",
+                    "replies": []
+                    }
+                ]
+                }
+            ]
+            }
+        ]
+        }
+    ]
+    }
+
+    defection_score = get_defection_score(conversation08)
+    assert not pd.isna(defection_score), "Defection score should not be NA"
+    assert defection_score == 0.8, "Defection score was expected to be 0.8."
+
+def test_defection_score_conversations_with_hand_calculated_defection_values_2():
+    """
+    three branches:
+    1. pos (the root), ntr, pos, neg (defection should give 0.75)
+    2. pos (the root), pos, pos      (defection should give 1)
+    3. pos (the root), pos, neg, neg (defection should give 0.5)
+    expected defection score: 0.75. 
+    """
+    conversation075 = {
+        "selftext": "I love this! It is amazing.",
+        "comments": [
+            {
+                "body": "The cat sat on the mat.",
+                "replies": [
+                    {
+                        "body": "Absolutely wonderful!",
+                        "replies": [
+                            {
+                                "body": "I hate this!",
+                                "replies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "body": "I love this!",
+                "replies": [
+                    {
+                        "body": "I really love it.",
+                        "replies": []
+                    }
+                ]
+            },
+            {
+                "body": "This is great.",
+                "replies": [
+                    {
+                        "body": "I hate this.",
+                        "replies": [
+                            {
+                                "body": "I hate this.",
+                                "replies": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+
+    defection_score = get_defection_score(conversation075)
+    assert not pd.isna(defection_score), "Defection score should not be NA"
+    assert defection_score == 0.75, "Defection score was expected to be 0.75."
