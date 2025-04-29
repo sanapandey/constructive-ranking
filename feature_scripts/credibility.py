@@ -48,7 +48,7 @@ def flatten_comments(comment_forest):
             traverse(comment)
     return flattened
 
-def get_comment_readability(comment_body):
+def get_comment_readability_old(comment_body):
     openai.api_key = OPENAI_API_KEY
 
     # prompt = f"Rate the following text on the Flesch-Kincaid readability index (0-100, higher is easier to read). There is one special case: for texts that are one letter or unable to be analyzed by the Flesch Kincaid algorithm, return a score of 5. For all other cases, please apply the formula as standard. Please only return numbers with no text. It is very important that you return only numbers with no additional context or explanation:\n\n{comment_body}\n\nReadability Score:"
@@ -69,6 +69,35 @@ def get_comment_readability(comment_body):
     score = response["choices"][0]["message"]["content"]
     
     return float(score)  # Ensure it's a float
+
+def get_comment_readability(comment_body):
+
+    if len(comment_body.split()) < 3: return pd.NA
+    openai.api_key = OPENAI_API_KEY
+
+    prompt = (
+        "Compute the Flesch–Kincaid readability score (0–100, higher = easier to read) "
+        "for the text below. Ignore any URLs or list markers. "
+        f"This is the comment body (surrounded by the symbols '<<>>'): <<{comment_body}>>."
+        "Reply with the score only, no explanation, just a single number:"
+    )
+
+
+    response = openai.ChatCompletion.create(
+        model="gpt-4-turbo",
+        messages=[{"role": "system", "content": "You are a readability expert."},
+                      {"role": "user", "content": prompt}]
+    )
+    score = response["choices"][0]["message"]["content"]
+    try:
+        return float(score)
+    except Exception as e:
+        print(f'comment body: {comment_body}')
+        print(f'score: {score}')
+        print(f'exception:')
+        print(e)
+        return pd.NA
+
 
 def get_credibility_subfeatures(comment_forest, valid_words = VALID_WORDS):
 
