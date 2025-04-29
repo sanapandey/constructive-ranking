@@ -1,0 +1,697 @@
+{
+    "title": "Private lunar lander Blue Ghost falls silent on the moon after a 2-week mission",
+    "author": "Czarben",
+    "subreddit": "space",
+    "rank": 13,
+    "score": 2211,
+    "upvote_ratio": 0.97,
+    "num_comments (reported by reddit)": 112,
+    "url": "https://phys.org/news/2025-03-private-lunar-lander-blue-ghost-1.html",
+    "id": "1jdeeov",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "peter303_",
+            "body": "Temperatures fall to -200 F during the two week lunar night. Electronics have to be fortified for that temperature or heated from batteries. All the Apollo missions arrived in lunar morning to have two to seven days of sunlight.",
+            "score": 607,
+            "replies": [
+                {
+                    "author": "Ivebeenfurthereven",
+                    "body": "What actually happens to the dormant hardware at those temperatures?\n\nIs there some physical or chemical change that permanently bricks it?",
+                    "score": 133,
+                    "replies": [
+                        {
+                            "author": "willstr1",
+                            "body": "I don't know specifics for this lander but most battery chemistries don't like extreme temperatures and at very cold temperatures they will often not output sufficient voltage and it can sometimes permanently ruin the battery",
+                            "score": 163,
+                            "replies": [
+                                {
+                                    "author": "winowmak3r",
+                                    "body": "This is definitely one reason. Anyone who lives in a cold climate dreads the noise of a car failing to start in the dead of winter.",
+                                    "score": 113,
+                                    "replies": [
+                                        {
+                                            "author": "hungrypotato19",
+                                            "body": "Alaska... Christmas... 1989... My family was stuck at the theater/community center after a Christmas party because the car battery froze. We spent the whole night inside the community center, and they had turned down the heat for the night.\n\nYup. It can suck.",
+                                            "score": 67,
+                                            "replies": [
+                                                {
+                                                    "author": "winowmak3r",
+                                                    "body": "I had mine die during the winter formal in high school. It does indeed suck. Maybe not \"I'm stuck with my family in a community center with no heat\" but man it sucked not only digging my car out while my date was waiting but then the car not starting.",
+                                                    "score": 25,
+                                                    "replies": [
+                                                        {
+                                                            "author": "riko_rikochet",
+                                                            "body": "This story comes from North Dakota, but it's something folks do all over the northern states. A colleague's husband married into a northern family and was visiting, and they went to see a movie on Christmas. He, being a gentleman, dropped them off at the door then went to park the truck. Comes back with the keys. The FIL is like \"Wait, did you turn the car off?!\" Proceeds to sprint to the car to get it started again. Folks just leave their car running when they're about town and no one messes with it because it's actually dangerous in that kind of weather.",
+                                                            "score": 17,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "skateguy1234",
+                                            "body": "Fun fact, It's not actually the cold that kills the battery, it's all the heat in the summertime. Then, when the cold comes around and the CCA(cold cranking amps) is much more critical, it suffers when cranking due to not having enough CCA. Therefore, its the winter when the problem becomes actualized, and so we associate a direct cause and effect even though it's usually a little more nuanced.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Blandbl",
+                                                    "body": "You can shield a battery from all excessive heat but it will still directly die in cold temperatures. Cold directly affects the electrode potential.",
+                                                    "score": 11,
+                                                    "replies": [
+                                                        {
+                                                            "author": "skateguy1234",
+                                                            "body": "I'm talking about earth not in space or on the moon, in response to their winter car comment.\n\nBut yeah, of course, or else the CCA of a car battery wouldn't drop in wintertime. Multiple factors, not just one thing dropping the amps, but, yep.",
+                                                            "score": 3,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "Blandbl",
+                                                                    "body": "I'm talking about earth too. Temperature linearly affects electrode potential. CCA is a mitigation not a direct variable and is calculated from the drop in electrode potential based on temperature.",
+                                                                    "score": 6,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "skateguy1234",
+                                                                            "body": "Gotcha, yeah I'm not an electrical engineer. I hang around the /r/AskMechanics sub a lot, just trying to learn, and saw someone talking about this, and so I looked into it a bit and it checked out. \n\nLooks like I have a new thing to research tonight.\nThe only other variables that came to my mind were the chemistry of the battery, and the build-up on the plates that can occur.",
+                                                                            "score": 1,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "djellison",
+                            "body": "Chemical batteries can fail in a way that renders them dead\n\nSolder joints can fracture and break so components and cables become detached and electronics don't work\n\nFlex cabling can degrade so that articulated parts ( antennas etc ) will be rendered unreliable.\n\nThere's a non zero chance this thing wakes up in 2 weeks....but it's slim.",
+                            "score": 29,
+                            "replies": [
+                                {
+                                    "author": "ResidentPositive4122",
+                                    "body": "> Chemical batteries can fail in a way that renders them dead\n\nWould \"solid state\" batteries be better at this? I know they're getting hyped for longer life cycles and are notoriously late to market despite the hype, but I don't know how they work enough to figure out if they'd be affected by extreme cold.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "RiderAnton",
+                            "body": "Materials will expand and contract at different rates with temperature change, so that can break the electronics and brick the system\n\nThats at least one thing I'd expect to be behind it",
+                            "score": 40,
+                            "replies": [
+                                {
+                                    "author": "warp99",
+                                    "body": "We regularly cool electronics to -60C with liquid nitrogen as part of accelerated life testing and nothing breaks.  \n\nBatteries on the other hand\u2026",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "ergzay",
+                                            "body": "I'd assume they're designed for that as even milspec electronics are only rated to work down to -55C (or -65C for some stuff). Commercial electronics are only designed to work down to 0C.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "None",
+                                                    "body": "[deleted]",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "ergzay",
+                                                            "body": "> In general these days products are not designed for milspec or industrial spec but everything is designed for a large temperature range and then the commercial product is the dropout that does not pass military or industrial testing. \n\nSource on that? That seems very wrong. Milspec requires a lot of other design changes to make it work. (That's why it's expensive.)",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "annoyed_NBA_referee",
+                            "body": "Relevant slide deck:\n\nPower Hibernation: Surviving the Extreme Cold Lunar Environment\n\n*Lunar Power Hibernation is an approach to dramatically extend capabilities and\nduration of low-cost robotic lunar missions by exploiting the common 18650 Li-Ion\nbattery cell\u2019s ability to tolerate and recover from extreme cold of the lunar night.*\n\nhttps://ntrs.nasa.gov/api/citations/20210026571/downloads/Lunar%20Power%20Hibernation%2022-1-11.pdf",
+                            "score": 9,
+                            "replies": []
+                        },
+                        {
+                            "author": "DrJonathanOnions",
+                            "body": "Long story, but back in the early 2000s I got to help with the pin-out of circuit boards for a NASA space mission payload - the number of redundant pins for batteries & power sources & back up etc. was eye opening. \n\nThat stuff is prohibitively expensive for reasons including multiple redundancies for situations perhaps like this. I wonder if a private (for profit) build would do that much for an unmanned mission",
+                            "score": 8,
+                            "replies": []
+                        },
+                        {
+                            "author": "youtocin",
+                            "body": "Thermal contraction and expansion would be my guess.",
+                            "score": 12,
+                            "replies": []
+                        },
+                        {
+                            "author": "rocketsocks",
+                            "body": "There are a couple main candidates. One is simply the electrical connections between parts. With the expansion and contraction over a huge temperature range it can break solder joints, it can also potentially encourage production of tin whiskers which create new unwanted electrical connections that cause shorting. Batteries are another possible failure mode, which can be worked around but it requires designing for it. Some materials lose a lot of integrity when cooled to near cryogenic temperatures, so they can shatter or fall apart.\n\nSeveral landers that weren't specifically designed to survive lunar night have managed to wake up successfully but typically there's a luck factor that just runs out eventually. It is possible to design electronics that can survive such temperature extremes but it's very expensive to do so and it's generally easier to design systems which keep the electronics warm over the two week night.",
+                            "score": 8,
+                            "replies": []
+                        },
+                        {
+                            "author": "glizzygravy",
+                            "body": "I would imagine PCBs and solder contacts would contract to a point beyond normal tolerances and possibly break. Or maybe condensed trace humidity that wasn\u2019t fully evacuated before it left earth would freeze and break things?",
+                            "score": 10,
+                            "replies": []
+                        },
+                        {
+                            "author": "thegoodtimelord",
+                            "body": "What a great question. What does actually happen?",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "Objective_Economy281",
+                            "body": "Often something just cracks because of different coefficients of thermal expansion. So a component cracks loose from a circuit board, for example. And if that was an important component, the lander doesn\u2019t wake up.\n\nThis can happen to solar panels as well.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "sinb_is_not_jessica",
+                            "body": "Besides the batteries failing at the extreme temperatures found in space, the intense radiation easily bricks processors and especially memories even in ideal environments. \n\nEvery single instruction result has to be checked over and over, you can\u2019t even trust the cpu cache. It\u2019s so alien to modern programming that you can\u2019t even use regular compilers, because their optimization assumptions would eliminate all the extraneous checks as they look completely redundant \u2014 and yet they are absolutely necessary. \n\nSpace is harsh.",
+                            "score": 1,
+                            "replies": []
+                        },
+                        {
+                            "author": "TRKlausss",
+                            "body": "Most surely thermal stress, don\u2019t forget that chips are glorified rocks, bonded with tiny wires to make them think. Plus they are built on top of very special crystals in order to withstand radiation.\n\nHaving a range of temperatures from several hundred plus degrees C if sun radiates directly vs -200 at night, your chip is ought to expand and contract\u2026",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Impossible-Lychee760",
+                    "body": "What is the effect of temperatures that low, if there is no atmosphere.  How does it lose heat and how quickly?",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "SamAzing0",
+                            "body": "It has no atmosphere, but because of the mass of the moon itself it will rapidly gain solar heat and lose it again due to that lack of atmosphere 'coddling it'. Thus you can lose heat energy because the mass of the moon essentially pulls it. (That's my non science explanation)",
+                            "score": 3,
+                            "replies": [
+                                {
+                                    "author": "Caleth",
+                                    "body": "Physical transfer down to the surface certainly can account for some of the loss, but radiation expelling it in the IR frequency has a far greater impact.\n\nMost things in space lose heat not from direct physical transmission but from their IR emissions taking the heat away.",
+                                    "score": 15,
+                                    "replies": [
+                                        {
+                                            "author": "SamAzing0",
+                                            "body": "Sorry to clarify - I didn't mean physically passing through via touch, but the object presence of the moon can facilitate IR radiation absorption moreso than if you were in an empty vacuum.",
+                                            "score": 2,
+                                            "replies": [
+                                                {
+                                                    "author": "BufloSolja",
+                                                    "body": "I didn't think IR was based on other objects (just the object you are radiating from). Since any other objects will just add the potential for them to radiate to our object.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "decrementsf",
+                                    "body": "The lunar zeppelin's trawl on. Ever over the gray grains sifting. seeking. She has no atmosphere. We brought our own.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "ergzay",
+                            "body": "It's for the same reason that deserts have hot days and cold nights. It gets cold quickly in deserts because theres no moisture in the air to absorb and re-radiate thermal radiation coming off the ground so it just escapes into space. A vacuum is an even more extreme version of that.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Tobi97l",
+                                    "body": "I would argue it is less extreme. The desert gets really cold because the atmosphere removes the heat from your body quickly. Space and the moon are colder and the temperature delta's are higher but it is harder to loose the heat.\n\nI am not 100% sure but i would guess the human body produces more heat compared to what it radiates away. So as long as you are alive you wouldn't freeze in space.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "ergzay",
+                                            "body": "> The desert gets really cold because the atmosphere removes the heat from your body quickly. \n\nThat doesn't make thermodynamic sense. The atmosphere is getting colder because it's radiating that energy out to space. You can't absorb energy with something faster than it radiates that energy back out.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "Tobi97l",
+                                                    "body": "The atmosphere itself generates next to no heat. So it always looses heat if it's not beeing heated by the sun. Your body does generate heat 24/7. The atmosphere also has a very large surface area to radiate heat. Your body doesn't. Only the outer skin radiates heat away.\n\nAnd the generation of heat is definitely faster than heat loss from thermal radiation.\n\nFor example a PC cooler wouldn't work in a vacuum. Not even in space where it is extremely cold. The iss need huge radiators for that reason. Because it would cook itself otherwise.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "mapex_139",
+                    "body": "> All the Apollo missions arrived in lunar morning\n\nI did not know this but it adds to the absolute insanity of what humans did to make those missions happen.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "Angel-0a",
+                            "body": "IIRC, the actual reason for morning landings was not daylight duration (there was more than plenty of that for what Apollo missions required) but lighting conditions. They wanted some specific sun angle at landing, something like 15 degrees, because shadows at this angle were just about right for the best surface perception. So there was literally just one day in month with these optimal conditions for every landing site.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "marcabru",
+                    "body": "That's understandable but it demonstrates how hard will be to do any kind of complex, large scale massive operations on the Moon (or Mars for that matter). Mining, permanent colonies will need to keep all their equipment warm (or cool during extreme sunlight) all the time. If they fail to do so, extreme cold (or heat) will destroy or deteriorate batteries, freeze (or evaporate) lubricants, and makes it harder to start up those equipments the next Lunar day. It's like Antarctic winter, just way worse. \n\nThese landers and rovers are precision made super expensive single use machines, but just imagine what would it take to prepare a large excavator for a period of -200F. How would you start it up after a Lunar night: batteries, bearings, hydraulics, ..., and all that maintenance performed in a pressure suite.  That's supposing it's an electric excavator and there is some sort of power source, eg. a small modular nuclear reactor. \n\nWhat I imagine, is that everything is always connected to power for heating/cooling, and if something is left outside unpowered, it's done for, or at least it needs a major checkup.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "rocketwikkit",
+            "body": "Good work, Firefly. I think a lot of people in the industry weren't sure what to think of it give the... recurring drama of the company, but from the outside the mission looked really good.\n\nNow ispace! Would be great to have two successes this year.",
+            "score": 254,
+            "replies": [
+                {
+                    "author": "Mr_meowmers00",
+                    "body": "I think the recurring drama you're referring to is that of another company, Intuitive Machines, whose lander tipped over twice.",
+                    "score": 19,
+                    "replies": [
+                        {
+                            "author": "rocketwikkit",
+                            "body": "That's lander drama, not company drama. Firefly is world class in convoluted company histories.",
+                            "score": 26,
+                            "replies": [
+                                {
+                                    "author": "ryschwith",
+                                    "body": "Is it all that convoluted? Went bankrupt, got saved by a billionaire, booted the Russian-sympathizing billionaire to get DoD clearance, booted a sex pest CEO, flew some rockets.",
+                                    "score": 6,
+                                    "replies": [
+                                        {
+                                            "author": "7fingersDeep",
+                                            "body": "Previous owner was the exact opposite of Russian sympathizer.  \n\nHe's from Ukraine and hates Russians.  The USAF started an investigation because a Firefly competitor, that has since gone bankrupt, created a false story.  USAF fully exonerated the Ukrainian owner AFTER he divested himself of Firefly.\n\nWhat you wrote is not entirely accurate- maybe this is Chris K's alt account\n\nEdit: here's a source: https://www.prnewswire.com/news-releases/max-polyakov-and-noosphere-released-by-us-from-restrictions-imposed-before-russian-invasion-of-ukraine-302192342.html",
+                                            "score": 29,
+                                            "replies": [
+                                                {
+                                                    "author": "ryschwith",
+                                                    "body": "Interesting, I hadn\u2019t heard that part of it. Good to know.",
+                                                    "score": 2,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "alle0441",
+                                            "body": "Forced the Ukranian investor to divest* and then immediately after realized Ukraine was fren",
+                                            "score": 9,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "42Franker",
+            "body": "\u201cThe end came as the sun set at the moon, no longer providing energy for the lander\u2019s solar panels.\u201d\n\nWhy won\u2019t the lander regain connection when it receives sunlight again in the next week two?",
+            "score": 77,
+            "replies": [
+                {
+                    "author": "Adeldor",
+                    "body": "Unless designed to handle it, the deep cold of the lunar night will likely break something, killing the lander.\n\nHaving said that, immediate death is not guaranteed. [The Japanese lander SLIM](https://en.wikipedia.org/wiki/Smart_Lander_for_Investigating_Moon) survived three lunar nights.",
+                    "score": 114,
+                    "replies": [
+                        {
+                            "author": "Nazamroth",
+                            "body": "I do hope they at least check on it in the morning, see if it survived and can be used for something. I dunno, make it print out nudes and start a lunar cache or something.",
+                            "score": 23,
+                            "replies": [
+                                {
+                                    "author": "Objective_Economy281",
+                                    "body": "They will check on it. You don\u2019t send something to the moon, have it working, and just give up on it because you\u2019ve got meetings to go to.",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "Eggonioni",
+                            "body": "I give this one at least one lunar night to survive.",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "photoengineer",
+                    "body": "They will likely try to contact the lander. To see if by some miracle it survives.\u00a0\n\nBut making them survive the icy cold lunar night is tough, (night is 2 weeks) and survival costs money. Which CLPS doesn\u2019t provide.\u00a0",
+                    "score": 24,
+                    "replies": []
+                },
+                {
+                    "author": "wahleofstyx",
+                    "body": "Probably because it's really, really cold",
+                    "score": 20,
+                    "replies": [
+                        {
+                            "author": "lowrads",
+                            "body": "It's a vacuum.  A simple reflecting film would make a large difference.   What would be interesting is to measure the temperature of the regolith as it cools, as that is the major source of heat at any given moment.\n\nThe sun seem intense, unfiltered, but it's still only so many watts per unit area.  Days, or perhaps hours, of exposure is what heats the rock to an ovenlike equilibrium.  Those are the real source of heat for a probe or an astronaut.  A few ropes and some mylar, and you can pretty much decide what temperature you'd like to be.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Snuffle247",
+                    "body": "I didn't read the article, so here's my two-cents.\n\nThe batteries may not survive.\n\nCold temperatures will degrade batteries. Total discharge will also degrade batteries. If they are degraded for too long, they will no longer function. There's a decent chance 2 weeks without power, 2 weeks with no power to the essential on-board heaters, will kill the batteries for good.",
+                    "score": 18,
+                    "replies": [
+                        {
+                            "author": "zion8994",
+                            "body": "Reasons why NASA has targeted using nuclear power to supply sufficient energy to survive lunar night for a permanent partly occupied lunar outpost.",
+                            "score": 20,
+                            "replies": [
+                                {
+                                    "author": "Nibb31",
+                                    "body": "Also reason why Shackleton Crater is the main focus for long term Moon exploration.",
+                                    "score": 12,
+                                    "replies": [
+                                        {
+                                            "author": "misterkocal",
+                                            "body": "What is so special about this crater?",
+                                            "score": 7,
+                                            "replies": [
+                                                {
+                                                    "author": "ac9116",
+                                                    "body": "It\u2019s on the edge of the lunar South Pole so it has permanently shadowed craters (where ice would likely live) but the crater rims are in permanent (or near permanent) daylight.",
+                                                    "score": 25,
+                                                    "replies": [
+                                                        {
+                                                            "author": "Ivebeenfurthereven",
+                                                            "body": "So 360\u00b0 of photovoltaic cells would give you power 24/7?\n\nThat's insane.",
+                                                            "score": 3,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "SirButcher",
+                                                                    "body": "Or a regular panel sloooowly turning to constantly face the Sun, the same way as they do it on the ISS.",
+                                                                    "score": 4,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "cjameshuff",
+                            "body": "Not just the batteries, differential thermal contraction can make things fracture as they cool, or as they warm up again afterwards. At very cold temperatures, even things that would normally flex might break. Precisely fitting mechanical parts might also seize or deform, leading to loss of function after warming up again.",
+                            "score": 6,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "soysauceforyou",
+                    "body": "Components have to stay within their temperature limits which requires heater power. The battery probably doesn\u2019t have enough energy capacity for the lunar night.",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "Nibb31",
+                    "body": "Because it goes so cold that it kills the electronics and batteries.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "PM_ME_UR_ROUND_ASS",
+                    "body": "The electronics and batteries likely won't survive the extreme -200\u00b0F lunar night tempratures without specialized heating systems, so even when the sun returns there'd be nothing functional left to \"wake up\".",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "HungryKing9461",
+            "body": "There's an implication in that headline that this was unexpected.\n\n\nThis was entirely expected as the sun set on the lander after the 2-week \"daytime\" on the moon.\u00a0 It now goes into 2-weeks of night, and very cold temperatures of\u00a0around -183\u00b0C (-297\u00b0F), so it's not likely to survive.\u00a0\n\n\nIt _might_ though.\u00a0 But it's expected that it won't, and thus the planned mission was only 2 weeks.",
+            "score": 74,
+            "replies": []
+        },
+        {
+            "author": "be_nice_2_ewe",
+            "body": "Wasn\u2019t ~~Firefly~~ *Blue Ghost designed to only last about this long? This was sort of a test to pave the way for future missions?",
+            "score": 124,
+            "replies": [
+                {
+                    "author": "dragonlax",
+                    "body": "Correct, they completed the full planned duration of the mission. The title is a little dramatic.",
+                    "score": 158,
+                    "replies": []
+                },
+                {
+                    "author": "ryschwith",
+                    "body": "Firefly is the company. The lander\u2019s called Blue Ghost.",
+                    "score": 36,
+                    "replies": [
+                        {
+                            "author": "be_nice_2_ewe",
+                            "body": "Corrected! Thank you for mentioning that",
+                            "score": 3,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "viliamklein",
+                    "body": "Headline is being dramatic. \"Blue Ghost successfully completes operations\" would be better.",
+                    "score": 32,
+                    "replies": [
+                        {
+                            "author": "CollegeStation17155",
+                            "body": "Of course, sometimes you get lucky (or design it right), as in the Martian rovers that were \"10 years into their 3 month mission\"...",
+                            "score": 6,
+                            "replies": [
+                                {
+                                    "author": "be_nice_2_ewe",
+                                    "body": "*Voyager I and II have entered the chat*",
+                                    "score": 3,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "DietCherrySoda",
+                    "body": "As with most science journalism, the article would have been made more accurate by adding \", as expected\" to the end.",
+                    "score": 6,
+                    "replies": []
+                },
+                {
+                    "author": "Fenastus",
+                    "body": "Correct, It was only ever intended to operate for 2ish weeks\n\nBeing in the dark on the moon is too cold for it to survive (and it wasn't designed to anyway)",
+                    "score": 11,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "enkiloki",
+            "body": "Anytime you can send something from the earth to the moon on your first attempt is a success in my book.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "Exotic_Woodpecker_59",
+            "body": "Hopefully Matt Damon can use it in the next movie where he has to get rescued from the moon. He should really stop doing space missions\u00a0",
+            "score": 16,
+            "replies": [
+                {
+                    "author": "Xenomorph555",
+                    "body": "\"Cooper, you will never understand. In the life of all great men there is a momen-\"",
+                    "score": 10,
+                    "replies": []
+                },
+                {
+                    "author": "willstr1",
+                    "body": "Matt Damon and Tom Hanks should do a movie where they are stranded together",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "HeberSeeGull",
+                            "body": "George Clooney plays Tom Hanks and Brad Pitt plays Matt Damon in \u201cMen On The Moon.\u201d Will Smith and Tommy Lee Jones are out to get them as \u201cMen In Black Attack.\u201d Elon Musk makes a cameo appearance as Alfred Hitchcock \ud83c\udfac",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "rocketsocks",
+            "body": "As expected. It's a challenge to get landers to last a long time on the Moon due to how harsh of an environment it is from the extreme thermal cycling and long periods without sunlight.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "Vile-X",
+            "body": "This is as expected. A private company isn't going to harden for lunar nights yet. Most probes that can't collect heat from the sun use plutonium or other nuclear fuel to keep warm. We aren't just going to give that to a private company and the costs to manage it is just not reasonable for a private company",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Decronym",
+            "body": "Acronyms, initialisms, abbreviations, contractions, and other phrases which expand to something larger, that I've seen in this thread:\n\n|Fewer Letters|More Letters|\n|-------|---------|---|\n|[CLPS](/r/Space/comments/1jdeeov/stub/mi9ta18 \"Last usage\")|[Commercial Lunar Payload Services](https://en.wikipedia.org/wiki/Commercial_Lunar_Payload_Services)|\n|[DoD](/r/Space/comments/1jdeeov/stub/mic59mp \"Last usage\")|US Department of Defense|\n|[USAF](/r/Space/comments/1jdeeov/stub/micm9q5 \"Last usage\")|United States Air Force|\n\n|Jargon|Definition|\n|-------|---------|---|\n|[cryogenic](/r/Space/comments/1jdeeov/stub/mibd98h \"Last usage\")|Very low temperature fluid; materials that would be gaseous at room temperature/pressure|\n| |(In re: rocket fuel) Often synonymous with hydrolox|\n|hydrolox|Portmanteau: liquid hydrogen fuel, liquid oxygen oxidizer|\n|[milspec](/r/Space/comments/1jdeeov/stub/mieuwxc \"Last usage\")|Military Specification|\n\nDecronym is now also available on Lemmy! Requests for support and new installations should be directed to the Contact address below.\n\n----------------\n^(5 acronyms in this thread; )[^(the most compressed thread commented on today)](/r/Space/comments/1jcnave)^( has 7 acronyms.)  \n^([Thread #11164 for this sub, first seen 17th Mar 2025, 19:56]) \n^[[FAQ]](http://decronym.xyz/) [^([Full list])](http://decronym.xyz/acronyms/Space) [^[Contact]](https://hachyderm.io/@Two9A) [^([Source code])](https://gistdotgithubdotcom/Two9A/1d976f9b7441694162c8)",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "Isaw11",
+            "body": "Call AAA.  Be sure to tell them that this is the lander that doesn\u2019t tip.",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": -15,
+            "replies": [
+                {
+                    "author": "SirButcher",
+                    "body": "The surface of the Moon is somewhat bigger than the surface of Africa. We sent a couple dozen landers at this point - imagine a couple dozen small probes landing in Africa. It doesn't really create a mental image of \"covering Africa with probes\".",
+                    "score": 8,
+                    "replies": []
+                },
+                {
+                    "author": "RSGator",
+                    "body": "Cover the moon, no. The surface area of the moon can fit a few billion of these landers.",
+                    "score": 7,
+                    "replies": [
+                        {
+                            "author": "seanflyon",
+                            "body": "I think the moon would fit over 3 quadrillion of these.",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "FlyingRock20",
+                    "body": "Probably not, maybe in the future if there's a base they could recycle the stuff.",
+                    "score": 3,
+                    "replies": [
+                        {
+                            "author": "willstr1",
+                            "body": "The less notable missions will probably be recycled, but I like to hope that the landmark ones will end up in museums (either on Earth or on the moon)",
+                            "score": 2,
+                            "replies": [
+                                {
+                                    "author": "FlyingRock20",
+                                    "body": "That would be cool to keep it in a museum on the moon.",
+                                    "score": 2,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "OrdinaryLatvian",
+                    "body": "How big do you think the moon is?",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "paco_dasota",
+            "body": "don\u2019t worry guys! private space is the future! i\u2019m sure they\u2019ll do everything they can to ensure science can happen and not at all worried about just profits",
+            "score": -6,
+            "replies": [
+                {
+                    "author": "Shrike99",
+                    "body": ">i\u2019m sure they\u2019ll do everything they can to ensure science can happen and not at all worried about just profits\n\nWhen you're getting paid to do science, ensuring the science happens is *part* of worrying about profits.\n\nWhich is probably why this missions successfully completed all the science it was supposed to. \n\nAny time past that was just a bonus, and it was always expected to die once lunar night hit.",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Numbersuu",
+            "body": "It\u2019s already dead? I just landed. And ai thought it was a success \ud83d\ude33",
+            "score": -12,
+            "replies": [
+                {
+                    "author": "ryschwith",
+                    "body": "It was. This was its planned lifespan. It landed successfully, did all of the science it was supposed to do, and then died during the lunar night as expected.",
+                    "score": 12,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "[deleted]",
+            "score": -21,
+            "replies": [
+                {
+                    "author": "Luv2Travel_2",
+                    "body": "They did.  What are you talking about.",
+                    "score": 13,
+                    "replies": [
+                        {
+                            "author": "IM_NOT_NOT_HORNY",
+                            "body": "Just hearing about this. My bad. That's awesome",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "KLWMotorsports",
+                                    "body": "One of the best things you can do is research something before you bash it.",
+                                    "score": 5,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "CurlPR",
+                    "body": "https://www.flickr.com/photos/fireflyspace/54387002075/in/album-72177720313239766/\n\nhttps://www.flickr.com/photos/fireflyspace/54386246629/in/album-72177720313239766/",
+                    "score": 10,
+                    "replies": []
+                },
+                {
+                    "author": "ChiefSpearInPants",
+                    "body": "They have a YouTube short showing the eclipse from the lander.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "kinglella",
+                    "body": "An extremely perfunctory Google search would've answered your question and saved you the trouble of sounding both indignant and ignorant",
+                    "score": 5,
+                    "replies": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,245 @@
+{
+    "title": "I'm an ex-ESA engineer, and I built a free database of 650+ satellite ground stations",
+    "author": "MaxAurelius_",
+    "subreddit": "space",
+    "rank": 17,
+    "score": 400,
+    "upvote_ratio": 0.95,
+    "num_comments (reported by reddit)": 38,
+    "url": "https://www.reddit.com/r/space/comments/1jdnwos/im_an_exesa_engineer_and_i_built_a_free_database/",
+    "id": "1jdnwos",
+    "selftext": "Hey r/space,\n\nI'm an ex-ESA engineer, and I've been working on a project that I thought might be of interest to this community. I often found it difficult to find reliable, consolidated information about satellite ground stations during my time there, so I decided to build a database: www.find-gs.com It currently has over 650 ground stations mapped, with locations and key details. It's completely free to use.\n\nI'd love to get your feedback! What other information would be useful to include? Are there any features you'd like to see added?\n\n[https://preview.redd.it/noa7bxh2fbpe1.png?width=1889&format=png&auto=webp&s=406e2eaa617a04ff055c83141c8f988eaa925b13]\n",
+    "comments": [
+        {
+            "author": "PE1NUT",
+            "body": "I'm curious - who is the intended audience? If I were actually in the market for this, I'd want to know: what kind of ground stations are you listing? Would they be of any use to my satellite mission? It's no real use for me to know that someone else has a station somewhere.\n\nThe site doesn't seem to list the DSN dishes, but does include the EStrack network.",
+            "score": 22,
+            "replies": [
+                {
+                    "author": "MaxAurelius_",
+                    "body": "Good questions! The main audience right now is pretty broad - anyone working with satellites, planning missions, doing research, or even just learning about the space industry. Think satellite operators, researchers, students, etc.\n\nWe're listing all sorts of ground stations: commercial networks, university stations, government ones (like ESA's ESTRACK, which you noticed!), and even some relevant amateur radio stations. It's meant to be a good starting point for finding potential stations for various mission types (LEO, GEO, Earth observation, comms, etc.). Obviously, you'd still need to contact the operators directly to check specific requirements.\n\nYou're totally right about the DSN dishes - they're not fully in there yet. It's a high priority for the next update, though. Thanks for pointing that out! Appreciate the feedback.",
+                    "score": 20,
+                    "replies": [
+                        {
+                            "author": "f0urtyfive",
+                            "body": "Since you likely know, I've always wondered if anyone puts together an open-access ground station service where all the dishes are just hooked to a software defined radio and server, and you can run whatever code you want within the band constraints of the dish?",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "MaxAurelius_",
+                                    "body": "u/f0urtyfive Cool idea! There are some projects working on that, like SatNOGS (https://satnogs.org/) - they're building a distributed, open-source ground station network. Many SatNOGS stations use SDRs for flexibility, but it's not exclusively an SDR network.\n\nfindgs is a bit broader - we're cataloging all types of ground stations (commercial, university, amateur, etc.), regardless of the specific radio hardware. Thanks for the question!",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "RhesusFactor",
+                                            "body": "SatNOGS is really cool an I'd love for it all to be so easy.",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "MaxAurelius_",
+                                                    "body": "u/RhesusFactor Totally agree - SatNOGS is a fantastic project! We're aiming for a broader scope with findgs, covering all types of stations, but the spirit of making ground station info more accessible is definitely shared.",
+                                                    "score": 1,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "RhesusFactor",
+                                    "body": "you also have to worry about the security constraints of the ground station.",
+                                    "score": 1,
+                                    "replies": [
+                                        {
+                                            "author": "MaxAurelius_",
+                                            "body": "u/RhesusFactor Good point about security - it's definitely a critical factor. Could you elaborate a bit on what specific security constraints you're thinking of? Are you primarily concerned with physical security, cybersecurity or something else? Knowing more about your specific concerns would be super helpful!",
+                                            "score": 1,
+                                            "replies": [
+                                                {
+                                                    "author": "RhesusFactor",
+                                                    "body": "If the client has concerns over Space Control then physical security will be a concern, restrictions would be placed by the client over particular suppliers or countries, or will have security frameworks you'll be working to that will list minimum physical security needs. So knowing if a site has fences, guards, cameras etc would be valuable, but also would let an adversary know your capabilities.\n\nCybersecurity is similarly client led, such as nasa doesn't let any old netrunner send stuff to ISS. But also the ground station provider will detail cybersecurity measures and policies that your ground control software will need to meet. Encoding, whitelisting, I dont profess to know all this. My DevSecOps do.",
+                                                    "score": 1,
+                                                    "replies": [
+                                                        {
+                                                            "author": "MaxAurelius_",
+                                                            "body": "u/RhesusFactor Thanks for clarifying - that makes perfect sense. You're hitting on the key areas: physical security (fences, guards, cameras, etc.), cybersecurity (protocols, encryption, whitelisting), and the fact that a lot of this is driven by specific client requirements and security frameworks.\n\nRight now, Find-gs is primarily focused on providing that initial overview - helping users identify potential ground stations and get basic information. We don't delve into detailed security assessments (and we wouldn't be in a position to certify anything). That level of due diligence always has to happen directly with the ground station operator.\n\nHowever, we are exploring ways to potentially incorporate some basic security-related indicators in the future (e.g., if a station is known to be compliant with certain common standards). But the focus will always be on making it easier to start that research process.\n\nAppreciate the detailed feedback - it's definitely something we're thinking about!",
+                                                            "score": 1,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "RhesusFactor",
+                            "body": "DSN is also a special case as if you are going out xGEO you will know you'll be speaking with the SCAN team for getting use of DSN. Its also heavily oversubscribed so I'd like to know of alternatives to DSN for xGEO.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "MaxAurelius_",
+                                    "body": "u/RhesusFactor Absolutely - DSN is oversubscribed, making alternatives for xGEO crucial.\n\nfindgs is working on that. We will list stations from ESA's ESTRACK, some commercial providers (like KSAT), and other relevant ground stations that might support deep space. Thanks!",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "PE1NUT",
+                            "body": "Thanks for your response. You may also want to include the Dwingeloo radio telescope in the Netherlands. It's a historic 25m dish which is being run by volunteers (I'm one of them). We were an official ground station for the Artemis I mission and for DSLWP-B. We have tracked all recent lunar landings, and supported (and even rescued) a number of cubesat missions.\n\nhttps://www.camras.nl/en/",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "MaxAurelius_",
+                                    "body": "u/PE1NUT This is awesome - thank you! Dwingeloo is *exactly* the kind of station we want to include. A historic 25m dish run by volunteers, supporting Artemis I and lunar landings? That's incredible!",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "HungryKing9461",
+            "body": "~~Your link is to a Google search.\u00a0 You might edit that.\u00a0 Also make the link `https` not `http`.~~\n\n\n(Fixed)",
+            "score": 16,
+            "replies": []
+        },
+        {
+            "author": "CMDR_Satsuma",
+            "body": "That's super cool! I've done some telemetry planning work, and something like this would certainly help, especially in those \"A storm just knocked out a ground station, we need to find a substitute\" situations.\n\nI played with your app a little, and one thing that stood out as a pain point is if you zoom into the map and click on a ground station (say, Miami, which is only visible if you zoom in) that doesn't have a detail page, your only option is to go back to the fully zoomed out map. It would be nice if you could go back to the map at the zoom level you left it at.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "MaxAurelius_",
+                    "body": "u/CMDR_Satsuma Thanks! That \"storm knocking out a ground station\" scenario is exactly the kind of situation I had in mind. Glad to hear it resonates.\n\nAnd you're 100% right about the zoom issue - that's definitely a pain point. Thanks for flagging it! It's on our list to fix! In the mean time you may find that ground station using the search bar, all ground stations are indexed!\n\nAppreciate you taking the time to play around with it - any other feedback is always welcome!",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "PM_ME_UR_ROUND_ASS",
+                    "body": "Great feedback about the zoom issue! It'd also be super helpful if there was a search/filter function to quickly find stations by country or frequency bands. Makes it way easier to identify backup options during those emergency situations you mentioned.",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "MaxAurelius_",
+                            "body": "u/PM_ME_UR_ROUND_ASS Thanks! And great suggestion - you can actually already filter by country and frequency band! It's in the \"Advanced Filtering\" options under the main search bar.\n\nWe've definitely heard from a few folks that the advanced filters aren't super obvious, so we're working on making that more prominent in the next update. Appreciate you pointing that out!",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "RhesusFactor",
+            "body": "Looks really good, we have an internal tool very similar linked to our mission planning and concepting tools. This looks like Tableau dash with some nicer features. Genuinely useful as a roll up dash for sheer numbers but in terms of overpass planning not super helpful unless I can get the data out of it into another tool, does it have an egress API?\n\nthe zooming is a bit sensitive when you mouse over the panels at the bottom when trying to scroll.",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "RhesusFactor",
+                    "body": "you also seem to be missing Capricorn Space ground stations. [https://www.capricornspace.com.au/](https://www.capricornspace.com.au/)",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "MaxAurelius_",
+                            "body": "Thanks for the information, we'll make sure they're included with the next update!",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "MaxAurelius_",
+                    "body": "[u/RhesusFactor](https://www.reddit.com/user/RhesusFactor/)\u00a0Thanks for the kind words! It's cool to hear you have a similar internal tool - always interesting to see how different groups tackle these problems.\n\nRegarding an API: not yet, but making the data more accessible is definitely high on our priority list. We're exploring the best way to do that (without giving too much away \ud83d\ude09).\n\nAnd yeah, the zoom sensitivity is a known issue - we're working on tweaking that. Thanks for pointing it out!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "riedochs",
+            "body": "u/MaxAurelius_ \n\nESA New Norcia is missing NNO-2 and already in construction NNO-3",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "MaxAurelius_",
+                    "body": "Thanks for pointing that out! You're right, NNO-2 and NNO-3 aren't in there yet. We'll get those added to the database ASAP. Appreciate the heads-up!",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "ljmt",
+            "body": "Any way I could get a dump of this data like in json format or some other?",
+            "score": 1,
+            "replies": [
+                {
+                    "author": "MaxAurelius_",
+                    "body": "u/ljmt Not at the moment, but making the data more accessible is a high priority for us. We're actively exploring API options for the future. Right now, the best way to access and explore the data is through the website's search and advanced filtering features. What kind of information are you hoping to extract? Knowing that will help us as we plan future development! If you're looking for specific ground stations, just let me know",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Decronym",
+            "body": "Acronyms, initialisms, abbreviations, contractions, and other phrases which expand to something larger, that I've seen in this thread:\n\n|Fewer Letters|More Letters|\n|-------|---------|---|\n|[DSN](/r/Space/comments/1jdnwos/stub/miewb0i \"Last usage\")|Deep Space Network|\n|[ESA](/r/Space/comments/1jdnwos/stub/mifm01c \"Last usage\")|European Space Agency|\n|[SSC](/r/Space/comments/1jdnwos/stub/miekaga \"Last usage\")|Stennis Space Center, Mississippi|\n\nDecronym is now also available on Lemmy! Requests for support and new installations should be directed to the Contact address below.\n\n----------------\n^(3 acronyms in this thread; )[^(the most compressed thread commented on today)](/r/Space/comments/1jehckh)^( has 2 acronyms.)  \n^([Thread #11165 for this sub, first seen 18th Mar 2025, 10:32]) \n^[[FAQ]](http://decronym.xyz/) [^([Full list])](http://decronym.xyz/acronyms/Space) [^[Contact]](https://hachyderm.io/@Two9A) [^([Source code])](https://gistdotgithubdotcom/Two9A/1d976f9b7441694162c8)",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "agoodfourteen",
+            "body": "[But why?](https://media0.giphy.com/media/s239QJIh56sRW/giphy.gif?cid=6c09b9521gi20u4dl37ja7zf29opxhoym2y8stgt0xfgmeaz&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g)",
+            "score": -6,
+            "replies": [
+                {
+                    "author": "ibhunipo",
+                    "body": "Are you asking why satellite operators would want information about ground stations ?",
+                    "score": 6,
+                    "replies": [
+                        {
+                            "author": "agoodfourteen",
+                            "body": "Yeah. Most satellite operators have that sorted way early... is this for anomalies? Just for informational purposes?",
+                            "score": -2,
+                            "replies": [
+                                {
+                                    "author": "ibhunipo",
+                                    "body": "Operators could be looking to setup GS ops for new missions or backups / changes to existing ones",
+                                    "score": 3,
+                                    "replies": [
+                                        {
+                                            "author": "agoodfourteen",
+                                            "body": "Governments (the US, ESA, China, Russia, etc...) have their own ground stations. Corporations (SpaceX, OneWeb, PlanetLabs, etc...) have their own ground stations. Then there's companies (Amazon for example) that sell ground stations as a service. Also, universities and other operators setup their own ground stations, often one-off sites. As far as I can tell, all 4 of these are all here and all mingled together even though most are completely unavailable to folks. There's not enough data here to utilize other ground stations, or even to contact who's ground station it is. What's the purpose of this database? Honestly it's just a map of where dishes are on the earth. But what would you use it for?",
+                                            "score": -4,
+                                            "replies": [
+                                                {
+                                                    "author": "MaxAurelius_",
+                                                    "body": "u/agoodfourteen and u/ibhunipo \\- good points!\n\nu/agoodfourteen You're right, big players often have their own setups. But things get tricky fast when you need something outside the usual network. I saw this at ESA - we once lost a ground station and finding a replacement (a university station, of all things!) took way longer than it should have. That's a big part of why I built this.\n\nThe space industry's changing. More players, more missions, more need for flexibility. This database is a starting point - a quick way to see what's out there, globally. Backups, research, new startups... it's for all of that.\n\nIt's a mix of stations (government, commercial, university, etc.) for comprehensiveness, but you can actually filter pretty granularly already. Check out the \"Advanced Filtering\" under the search - you can filter by institution name, and other criteria. Still improving it, of course.\n\nAnd yeah, contact info is a work in progress. Thanks for feedback!",
+                                                    "score": 3,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "ibhunipo",
+                                                    "body": "> Governments (the US, ESA, China, Russia, etc...) have their own ground stations. Corporations (SpaceX, OneWeb, PlanetLabs, etc...) have their own ground stations.\n\nThey typically don't except for stuff like deep space comms, a small part of the overall GS infrastructure. They usually rent services from various operators. Even the constellation operators usually have a mix of their own stations and various service providers. Many countries don't allow foreign owned satcomm infrastructure. \n\n> There's not enough data here to utilize other ground stations, or even to contact who's ground station it is. \n\nThat's kind of what op is asking, what else could be in the database.\n\n> What's the purpose of this database? Honestly it's just a map of where dishes are on the earth. But what would you use it for?\n\nI can think of several good uses for a map of receiving dishes around the globe if I were thinking of launching a new satellite",
+                                                    "score": 3,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1108 @@
+{
+    "title": "Your Discord friends list may soon appear directly in the games you play",
+    "author": "Turbostrider27",
+    "subreddit": "pcgaming",
+    "rank": 19,
+    "score": 532,
+    "upvote_ratio": 0.84,
+    "num_comments (reported by reddit)": 172,
+    "url": "https://www.pcgamer.com/gaming-industry/your-discord-friends-list-may-soon-appear-directly-in-the-games-you-play/",
+    "id": "1jdcfuq",
+    "selftext": "",
+    "comments": [
+        {
+            "author": "DotDemon",
+            "body": "Fellas, you can just also not connect discord to the game, I doubt Discord would be chill with any dev just getting access to a users friend list without asking the user first.\n\nIt's not like Discord automatically links to your spotify now does it?\n\nI'd be happy to have this since I have more friends on discord than on Steam",
+            "score": 605,
+            "replies": [
+                {
+                    "author": "Arkyja",
+                    "body": "Pretty much. I havent messaged anyone on steam in like 10 years.",
+                    "score": 125,
+                    "replies": [
+                        {
+                            "author": "GhostZee",
+                            "body": "Some of your friends are still waiting for your reply after your last message \"Talk to you tomorrow\" 10 years ago... /s",
+                            "score": 51,
+                            "replies": []
+                        },
+                        {
+                            "author": "TryingToBeReallyCool",
+                            "body": "The only messages I get on steam are from my friends compromised accounts trying to phish login details\n\n\"Yo sign into this suspicious link to join my CS tournament\"",
+                            "score": 23,
+                            "replies": [
+                                {
+                                    "author": "Arkyja",
+                                    "body": "Right. If a friend messaged me on steam i'd think he was hacked",
+                                    "score": 9,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "_JCM_",
+                    "body": "I mean, back in the Game SDK days any game could simply ask Discord for a list of your friends (and their online status and profile pictures). Games could (and maybe still can) even send invites (with custom messages) to any friend without user confirmation. \n\nOverall, this new Social SDK seems incredibly similar to the Game SDK features they discontinued...",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "Sjakkoo",
+                    "body": "Me to tbh. But should be optional ofc.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Nolanrocks",
+                    "body": "It does read executables you have open, without asking. It\u2019s not much of a leap for discord and the 3 major game platforms on pc to share .exe files and FTP forwarding. In fact none of the would even change what they\u2019re currently allowed to do under their Microsoft Development suite, they can already do this without updating ToS\n\nEdit : I meant API not FTP, my phones autocorrect got to it before I noticed. Discord reads your computers memory, it also has an API that allows it to interface with other companies, my whole point is that this isn\u2019t hard to imagine, this is a literal switch. Whether or not you activate the invite through discord, they\u2019ll still have the information and it\u2019ll still be bloat that\u2019s packed and constantly running on your machine. I understand the typo probably the reason for downvotes, but I assure you you don\u2019t have to make things up to understand how invasive modern programs are on your computer lmao.",
+                    "score": -7,
+                    "replies": [
+                        {
+                            "author": "Tensor3",
+                            "body": "What would \"share exe files\" do..? That wouldnt give them access to anything or allow them to do anything. Anyone who buys the game has the exe.\n\n\nI cant tell if you meant share code, share apis, share user data, share access to friends lists, or what you meant but whatever you are thinking its not \"share exe\"",
+                            "score": 32,
+                            "replies": []
+                        },
+                        {
+                            "author": "brutaldonahowdy",
+                            "body": "> FTP forwarding\n\nplease elaborate on what this means",
+                            "score": 13,
+                            "replies": [
+                                {
+                                    "author": "Nolanrocks",
+                                    "body": "Sorry on my phone autocorrect got the best of me, I meant API (endpoint) forwarding , this is common in next.js and many other servers \u2014 my whole point is that this is already possible, it just takes the companies saying \u201cyeah okay forward all requests\u201d",
+                                    "score": -5,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "door_of_doom",
+                            "body": "> share .exe files and FTP forwarding\n\nBro you are just inventing buzzword on the fly lol.",
+                            "score": 7,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "winmox",
+                    "body": "I talk to friends on Discord but barely on Steam",
+                    "score": 1,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "grachi",
+            "body": "Sounds good. As long as it\u2019s optional and I can turn it off.",
+            "score": 115,
+            "replies": [
+                {
+                    "author": "the_AIsian",
+                    "body": "That's something I'd like to know too. People make it sound like it's forced, but I feel like any games that integrate this going forward would give you the option by asking first, kind of like how TikTok does it for your contacts.\n\n...without the functionality of TikTok asking you like every 5 times you open the app, hopefully.",
+                    "score": 19,
+                    "replies": [
+                        {
+                            "author": "FryToastFrill",
+                            "body": "It\u2019d likely need you to either login or maybe if we\u2019re being stupid it could share a login token to the game. They\u2019d never do that tho because that is such a massive vulnerability.",
+                            "score": 6,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "KingofReddit12345",
+            "body": "And so the inevitable continued enshitification of Discord continues!\n\nEdit: I'll just add the definition of the word seeing as some people appear to have trouble grasping what it actually means:\n\n\"*\"Enshittification is an informal word used to criticize the degradation in the quality and experience of online platforms over time,* ***due to an increase in advertisements****,* ***costs****,* ***or features****.\"*",
+            "score": 400,
+            "replies": [
+                {
+                    "author": "Wack-A-Cloud",
+                    "body": "Entshitification?! \n\nWait until you hear that Discord wants to go public and start serve the allmighty shareholders :>",
+                    "score": 210,
+                    "replies": [
+                        {
+                            "author": "IntrinsicGiraffe",
+                            "body": "Yeah, I don't know a single good company that is public.\n\n\n*The share holder demands growth*",
+                            "score": 99,
+                            "replies": [
+                                {
+                                    "author": "DTredecim13",
+                                    "body": "My hot take is that companies use \"Shareholders\" as a scapegoat for all the bullshit they wanted to do but couldn't because they'd be to blame.",
+                                    "score": 45,
+                                    "replies": [
+                                        {
+                                            "author": "Universe_Nut",
+                                            "body": "Yes and No. You want to expand as a company, but you don't have the revenue to expand the way you want to. Maybe you need extra funding for a specific venture you want to establish under that company's direction. The easiest and fastest way to do that is to sell off ownership shares of your company. \n\nBut it's a Faustian bargain because shareholders expect returns on their investments. Typically they're impatient for these returns as well, thinking in 3 months blocks because financial quarters conditioned us and society to work that way. \n\nTack on the fiduciary obligation that CEO's and other company leaders are legally bound to. And all of a sudden that company is doing everything it can to raise profit margins by a 3 month deadline every 3 months or they can get sued by shareholders for not conducting business in the best interest of shareholders.  \n\n\nI think abolishing the fiduciary obligation would be a step in the right direction. But the capital ownership class would never allow it.",
+                                            "score": 23,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Sol33t303",
+                                            "body": "A private company can do pretty much whatever they want, as long as it's not illegal of course.\n\nOnce you go public, the company is legaly required to act in interest of it's shareholders, which typically goes against the consumer.\n\nNot to say private companies can't be anti-consumer, but they basically HAVE to be anti-consumer if they go public.",
+                                            "score": 22,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "Techhead7890",
+                                            "body": "Fuck Milton Friedman, we should name the process \"Friedmannification\" after him. He was the one who said businesses should have no interest but profit to begin with!",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "PCMachinima",
+                                    "body": "CD Projekt (GOG, Witcher, Cyberpunk) and Remedy (Control, Alan Wake, and Max Payne dev) come to mind.",
+                                    "score": -3,
+                                    "replies": [
+                                        {
+                                            "author": "bonesnaps",
+                                            "body": "Except Cyberpunk got rushed out with broken releases on certain consoles because.. of shareholders pressure.",
+                                            "score": 13,
+                                            "replies": [
+                                                {
+                                                    "author": "Crusader-of-Purple",
+                                                    "body": "> because.. of shareholders pressure.\n\nExcept that didn't happen.  CD Projekt higher ups themselves stated shareholders were not pressuring them at all.  They even got sued by shareholders because the higher ups were basically lying to them about the state of the game, the employees even stated the higher ups were not listening to them.\n\nThat debacle was the higher ups own screw up and not due to pressure from shareholders.",
+                                                    "score": 7,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "cardonator",
+                            "body": "A private company can still serve their shareholders. Discord is already a great example of a business that has continually made itself worse because of trying to satisfy the people who gave them money. Don't need to be public for that.",
+                            "score": 17,
+                            "replies": []
+                        },
+                        {
+                            "author": "wolfannoy",
+                            "body": "Wait till we get pop up ads. Both out and in-game.",
+                            "score": 8,
+                            "replies": [
+                                {
+                                    "author": "AberrantDrone",
+                                    "body": "Can't wait for non-turbo users to have to sit through a 30 second ad every time they enter a voice channel",
+                                    "score": 13,
+                                    "replies": [
+                                        {
+                                            "author": "vardoger1893",
+                                            "body": "Why would you even type that into existence?? \ud83d\ude2d\ud83d\ude2d",
+                                            "score": 10,
+                                            "replies": [
+                                                {
+                                                    "author": "AberrantDrone",
+                                                    "body": "I am the harbinger of what could come to pass. Heed my warning, we're all returning to Teamspeak one day.",
+                                                    "score": 11,
+                                                    "replies": [
+                                                        {
+                                                            "author": "vardoger1893",
+                                                            "body": "\"User joined your channel.\" I used to hear her voice in my sleep. Lol",
+                                                            "score": 3,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "AberrantDrone",
+                                                                    "body": "I used to manage a couple clan's servers. I'm not too keen on returning to that maze of permission levels.\n\nHoping discord remains user friendly",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "author": "FreshBoyPete",
+                                                            "body": "I've never left TS and I'm very glad I won't have to deal with this (hopefully)",
+                                                            "score": 2,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "kiwi_pro",
+                                            "body": "What's turbo?",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "Wack-A-Cloud",
+                                    "body": "And so we went full circle back to Battlefield 2142 and those ingame ad boards (:",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "WOF42",
+                            "body": "that is the day I delete my account and never look back.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "Wack-A-Cloud",
+                                    "body": "Start preparing then (:",
+                                    "score": 1,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "piratejit",
+                    "body": "The issue is more your comment has nothing to do with the friend list appearing directly in games.  Adding this functionality is not degrading the quality and experience of discord.",
+                    "score": 11,
+                    "replies": []
+                },
+                {
+                    "author": "DuckCleaning",
+                    "body": "I've been expecting that it's only a matter of time till they become a full social network platform with a main feed that lets people post and share content.\u00a0Also, they will charge money to unlock profile page skins and certain features. Use Nitro points to support your favourite content creators directly, rather than servers.",
+                    "score": 17,
+                    "replies": []
+                },
+                {
+                    "author": "Ciryl_Lynyard",
+                    "body": "Can explain how this would make discord worse?",
+                    "score": 38,
+                    "replies": [
+                        {
+                            "author": "KingofReddit12345",
+                            "body": "More and more ads, more features added in updates that cannot be disabled or opted out of, more features locked behind Nitro subscriptions, the shareholder news, now this,\n\nIt started as a simple chat app for, primarily, gaming purposes. It wasn't a platform for additional products. Nowadays it is even used as the only way to download certain apps by being forced to join a server if you want access to something.\n\nYou won't have to wait much longer to find out, trust me.",
+                            "score": 48,
+                            "replies": [
+                                {
+                                    "author": "Azazir",
+                                    "body": "Once free users wont be able to find and use gifs or emotes for free, you know discord is ruined completely. I always believed that once they start removing normal benefits of all users and putting it behind paywall, is when I'll leave discord.",
+                                    "score": 21,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "smulfragPL",
+                                    "body": "but how is any of this related to discord friends being viewable in the actual games",
+                                    "score": 29,
+                                    "replies": [
+                                        {
+                                            "author": "HOTDILFMOM",
+                                            "body": "It\u2019s not. Redditors just lose all mental control when the word \u201cDiscord\u201d is posted and regurgitate the same \u201censhittification\u201d line over and over as if they\u2019re making a point.",
+                                            "score": 28,
+                                            "replies": [
+                                                {
+                                                    "author": "smulfragPL",
+                                                    "body": "the usage of the word enshittification is a massive red flag to me. Not that companies don't make ux worse for profit but like using such a word just shows you don't get the issue or the topic because if you did why use it?",
+                                                    "score": -12,
+                                                    "replies": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "author": "piratejit",
+                                    "body": "How is adding discord friends lists in a game related to anything you said?\n\n>Nowadays it is even used as the only way to download certain apps by being forced to join a server if you want access to something.\n\nThis isn't even discords fault.  This is how some people choose to use discord.",
+                                    "score": 12,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "Ciryl_Lynyard",
+                                    "body": "Discord has ads?\n\nIt has tiny banners or on open ads about itself. But not interuptive ads\n\nCan you elaborate on discord being the only way to download an app?\n\nIdk any features discord currently has I'd view as making it worse or forced\n\nI also asked specifically why games integrating your discord friends list would be bad. As you implied; unless you mean discord changing at all will eventually lead to it making everything worse to make people buy nitro",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "MrTzatzik",
+                                            "body": "If we don't count ads for Nitro, ads are mostly in beta versions. They do a lot of testing but they are not that big... yet. We are talking about ads like \"Your friend is playing this game, play it too for an hour to get free skin\" and stuff like that",
+                                            "score": 12,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "VoidVer",
+                                            "body": "Quests are ads. They pop up over the \"leave / mute / deafen\" buttons for games I don't own or care to play. For example; I don't care about Monster Hunter Wilds, saying I get a \"gift\" or \"in game exclusive\" for doing something, in discord's interface, does not make the thing not an ad pushing me to buy the game.",
+                                            "score": 4,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "ifthereisnomirror",
+                                            "body": "On mobile there are full page ads that open as soon as you open the app with no way to close them other than view them.\n\nQuests are certainly ads. \n\nThe idea that you don\u2019t think something that prevents you from using an app until you close it isn\u2019t \u201cinterruptive\u201d.",
+                                            "score": 1,
+                                            "replies": []
+                                        },
+                                        {
+                                            "author": "KingofReddit12345",
+                                            "body": "Adding Discord into games as an integration opens up a whole myriad of ways they could monetize the app further and also brings Discord into the spotlight for game publishers/developers.\n\n[The way for commerical ads is already being paved.](https://arstechnica.com/gadgets/2024/04/discord-starts-down-the-dangerous-road-of-ads-this-week/)  \n[Nito pop ups are becoming more common.](https://preview.redd.it/help-i-keep-getting-an-annoying-persistent-nitro-pop-up-ad-v0-t7qjvd6n4x7a1.jpg?auto=webp&s=805bb00dd1d35b648590bff82c096e1e371b574e)  \n[Discord promotions are becoming more common.](https://preview.redd.it/if-this-is-what-discord-ads-looks-like-im-not-mad-v0-4c91joc404ad1.png?width=332&format=png&auto=webp&s=b5e53c3155cde5cdb459f9474a1d31cc64f0a2b9)  \n[This is just the beginning. ](https://www.reddit.com/r/discordapp/comments/di335p/discord_said_they_would_never_have_ads/)[ If you think it stops here then I've got a bridge to sell you.](https://external-preview.redd.it/new-discord-ads-already-live-v0-qjVEymLQUS-PGS4ruUfklMuH-BSqWV6s0lfXWaUISRs.png?auto=webp&s=0d9bd40a4405b727205a7350084d81797f6a9b66)\n\n(Pics are taken from online, but I get most of these myself at random).\n\nAs for the \"Can you elaborate on discord being the only way to download an app?\". I'm not going to bother linking any of those. You'd have to have been living under a rock to not know about this; Services like Github are often used to share apps, nowadays many of them use Discord servers without alternatives.\n\nAnd I'd like to remind you that if you compare all this to how Discord started, it has already taken massive steps away from being a chat app to becoming like a social media platform. It's all part of the process. Don't be intentionally obtuse now.",
+                                            "score": -1,
+                                            "replies": [
+                                                {
+                                                    "author": "Crusader-of-Purple",
+                                                    "body": "> nowadays many of them use Discord servers without alternatives.\n\nThat's not Discords fault, that is the choice of those who created those programs.  So why are you blaming discord for that?",
+                                                    "score": 6,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "Edonim_",
+                                                    "body": "How Is discord's fault that people are sharing apps over discord servers",
+                                                    "score": 7,
+                                                    "replies": [
+                                                        {
+                                                            "author": "KingofReddit12345",
+                                                            "body": "Lock them up! It's all their fault! \n\nThat's not the fucking point.\n\nHave you ever heard of a chat app being used to host entire programs on their servers?What consequences would that have for a chat app, do you think?",
+                                                            "score": 2,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "smulfragPL",
+                                                                    "body": "so your issue with discord is that it's popular?",
+                                                                    "score": 6,
+                                                                    "replies": [
+                                                                        {
+                                                                            "author": "MrkFrlr",
+                                                                            "body": "I think this person is trying to say Discord shouldn't have ever implemented the functionality, making it possible for people to use Discord in lousy ways. Which I can understand to a point, I hate how Discord has replaced things like public forums as sources of information on niche topics, I'd rather not have to join a discord for every little thing. \n\nBut even if Discord didn't add features which make it easy for them to use Discord that way, they still could, like even if you couldn't host apps on Discord people could host them in a cloud app and only share the link on Discord or something. So yeah this one really is still mostly on the users, even if Discord could have discouraged this behavior by not making it easier for them.",
+                                                                            "score": 1,
+                                                                            "replies": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "VoidVer",
+                            "body": "It's already happening. Even paid users are getting \"quests\" for games they don't own, which are advertisements for a game that pop up in discord's UI, covering important controls, offering \"in game exclusives\" for doing something. They try to say it's not an ad because you get a skin or something.",
+                            "score": 1,
+                            "replies": [
+                                {
+                                    "author": "F-Lambda",
+                                    "body": "where are you seeing this? because I had no idea quests even existed until I saw them mentioned *on a different website*",
+                                    "score": 4,
+                                    "replies": [
+                                        {
+                                            "author": "VoidVer",
+                                            "body": "Most times I open discord on my PC via their app, in the lower left when you\u2019ve joined a voice channel just above the controls for \u201cmute\u201d/\u201cdeafen\u201d",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Mipper",
+                    "body": "I know you got that definition from Merriam Webster, but I don't think it quite fits. It says increase in features, but a decrease or otherwise change in features would also qualify as enshittification depending on the circumstances.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "quinn50",
+                    "body": "They'll probably fuck it up but I don't think this feature would be considered under enshitfication. I could see this being very useful if you play competitive games and queue into some people you like playing with so being able to easily add the person on discord would be a nice bonus.\n\nId never use it myself but they'll probably find some dumb way to monetize it anyway",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "BlackMagic0",
+                    "body": "Slowly decaying into a near useless form.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "neathling",
+                    "body": "Stronly been considering switching to Revolt or Element tbh",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "BaconJets",
+            "body": "Can anybody help me understand why this is a bad thing? If you have 5 different PC platforms to add your friend on, I'd rather have this instead.",
+            "score": 105,
+            "replies": [
+                {
+                    "author": "LycanIndarys",
+                    "body": "Bloat, I'd assume.\n\nPeople want Discord for one specific feature (voice-chat), they don't want it to expand to doing a load of extra bits too because it'll get too unwieldly and sluggish.",
+                    "score": 75,
+                    "replies": [
+                        {
+                            "author": "BaconJets",
+                            "body": "We're past that point, with soundboards, nitro features and the shop. At least this is a feature which could make gaming more convenient.",
+                            "score": 56,
+                            "replies": [
+                                {
+                                    "author": "LycanIndarys",
+                                    "body": "Would it make it more convenient though?  Or would you just have multiple programmes for doing the same thing?\n\nWhen I want to play with one of my friends, we usually use Steam (or whatever in-game facilities there are, if it's a non-Steam game) to invite each other to the game.  What is the benefit to there being something else that does the same thing?",
+                                    "score": 0,
+                                    "replies": [
+                                        {
+                                            "author": "vodkabears",
+                                            "body": "idk about you, but for me and many-many more other people discord is always 1st step. Everything starts in discord first, its main hub to connect with other people and come up with some plans. After we decide what we want to play we just have to use steam/bnet/uplay/whatever, while still being in discord. Its just annoying additional step that i have to take to play with people im already in contact with. Even when i play something like CS/OW2/League and random people add me on those platforms, first thing they ask is my discord name, because its much more easier and convenient way to communicate. So if more developers adapt discord sdk and let us bypass obsolete systems like steam friends or bnet friends, thats a massive win in my book",
+                                            "score": 29,
+                                            "replies": [
+                                                {
+                                                    "author": "LycanIndarys",
+                                                    "body": "I only do multiplayer with friends I have in real life, so connecting to people isn't really something I care about.\n\nWe're talking on WhatsApp anyway, so Discord is just there for voice chat.",
+                                                    "score": -16,
+                                                    "replies": [
+                                                        {
+                                                            "author": "kiwi_pro",
+                                                            "body": "Then you can happily ignore this :)",
+                                                            "score": 12,
+                                                            "replies": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "author": "AUnknownVariable",
+                                            "body": "Honestly I'd find it decently convenient.",
+                                            "score": 1,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "author": "finutasamis",
+                            "body": "> People want Discord for one specific feature (voice-chat)\n\nThere are many options way better for this, 1/100 as bloated, way better quality, actually free and open.",
+                            "score": 2,
+                            "replies": []
+                        },
+                        {
+                            "author": "smulfragPL",
+                            "body": "but this wouldn't even be on discord lol",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "doublah",
+                    "body": "These things always start small and optional until they make it non-optional, and then you'll have to use discord to invite friends. Not ideal when Discord is already getting worse and looking to go public soon.",
+                    "score": -5,
+                    "replies": []
+                },
+                {
+                    "author": "Cheetawolf",
+                    "body": "Eventually they'll put ads there.",
+                    "score": -4,
+                    "replies": []
+                },
+                {
+                    "author": "shadowhunterxyz",
+                    "body": "Because let's say you have a group of friends to play with in a steam community or from consoles and you all keep in touch.\n\nYou join servers talk and make friends with people for various reasons. Commissions, mod talk, community, hobby, Terraria, call of duty, etc. but don't actually play with them. Then with this update you have a large group of individuals who may not possibly even own the game vermintide 2 when everyone you talked to on discord was for other things without your friend group",
+                    "score": -29,
+                    "replies": [
+                        {
+                            "author": "BaconJets",
+                            "body": "Failing to see how this is even an inconvenience.",
+                            "score": 31,
+                            "replies": [
+                                {
+                                    "author": "ZeldaScott_",
+                                    "body": "People will complain about anything lmao",
+                                    "score": 15,
+                                    "replies": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "Mashedpotatoebrain",
+            "body": "Jokes on them, I have no friends",
+            "score": 11,
+            "replies": []
+        },
+        {
+            "author": "FortunePaw",
+            "body": "Doesn't matter. It will still be empty.",
+            "score": 20,
+            "replies": []
+        },
+        {
+            "author": "MTPWAZ",
+            "body": "Get integrated into everything.  Become so popular everyone forgets about alternatives.  <-- You are here.\n\nUp next: IPO to become a public company then monetize EVERY LITTLE THING.",
+            "score": 9,
+            "replies": []
+        },
+        {
+            "author": "tsashinnn",
+            "body": "This is great! And the best part is, Epic and Discord could work together to try and implement this within EOS. That way, out of the box with EOS, you could get Discord friends and chat functionality that Epic lacks at the moment. \n\nIt doesn\u2019t make sense to segregate gamer friends on multiple platforms. If this means, that I add a person while playing a game on PC and then move to console, I can continue talking to that person without having to add that person again. \n\nThis is great! Take my support Discord.",
+            "score": 6,
+            "replies": []
+        },
+        {
+            "author": "colxa",
+            "body": "Does anyone actually want this? Do people actually use the friend's list feature on discord?",
+            "score": 65,
+            "replies": [
+                {
+                    "author": "UltimateWaluigi",
+                    "body": "I use Discord almost exclusively for gaming with IRL friends, so yes.",
+                    "score": 69,
+                    "replies": [
+                        {
+                            "author": "Hewkii421",
+                            "body": "Ok, but are you all actually on each other's discord friends list, or did you just make a server and everyone join it together?",
+                            "score": -13,
+                            "replies": [
+                                {
+                                    "author": "sith-710",
+                                    "body": "Both, I had to add them to my friends list to send the invite to my server, also I add people from larger communities so that I can keep up messaging them privately or invite them to my personal server.",
+                                    "score": 12,
+                                    "replies": []
+                                },
+                                {
+                                    "author": "InsideLlewynDameron",
+                                    "body": "My group started with me and one friend and then two of his friends and then a few of their friends. All through discord. I don't have any of those people as my friends on steam.",
+                                    "score": 6,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "colxa",
+                            "body": "So do I",
+                            "score": -6,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "smulfragPL",
+                    "body": "comments like this show that people on here live in a bubble",
+                    "score": 21,
+                    "replies": [
+                        {
+                            "author": "colxa",
+                            "body": "We all live in our own bubbles, you included",
+                            "score": -3,
+                            "replies": [
+                                {
+                                    "author": "smulfragPL",
+                                    "body": "yeah except you live in a clearly much more isolated bubble cause that is one of the weirdest questions i have ever seen asked",
+                                    "score": 7,
+                                    "replies": [
+                                        {
+                                            "author": "colxa",
+                                            "body": "> that is one of the weirdest questions i have ever seen asked\n\nIf that is one of the weirdest questions you have ever seen asked, that tells me you live in a chronically online extremely isolated bubble",
+                                            "score": -5,
+                                            "replies": [
+                                                {
+                                                    "author": "smulfragPL",
+                                                    "body": "i mean it's probably not the weirdest quesiton but it's definetly incredibly stupid to ask it rhetorically lol",
+                                                    "score": 4,
+                                                    "replies": []
+                                                },
+                                                {
+                                                    "author": "101415",
+                                                    "body": "Spoken like a man with no friends on discord",
+                                                    "score": 0,
+                                                    "replies": [
+                                                        {
+                                                            "author": "None",
+                                                            "body": "[removed]",
+                                                            "score": 1,
+                                                            "replies": [
+                                                                {
+                                                                    "author": "pcgaming-ModTeam",
+                                                                    "body": "Thank you for your comment! Unfortunately it has been removed for one or more of the following reasons:\n\n* No personal attacks, witch-hunts, inflammatory or hateful language. This includes calling or implying another redditor is a shill or a fanboy. More examples can be found in the [full rules page](https://www.reddit.com/r/pcgaming/wiki/postingrules#wiki_rule_0.3A_be_civil.).\n* No bigotry, racism, sexism, homophobia or transphobia.\n* No trolling or baiting.\n* No advocating violence.\n\n\n\nPlease read the [subreddit rules](https://www.reddit.com/r/pcgaming/wiki/postingrules) before continuing to post. If you have any questions [message the mods](https://www.reddit.com/message/compose/?to=/r/pcgaming).",
+                                                                    "score": 1,
+                                                                    "replies": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "Khajiit-ify",
+                    "body": "I have more friends on Discord than I have on Steam. Being friends on Discord is helpful for a lot of things including group DMs.",
+                    "score": 41,
+                    "replies": []
+                },
+                {
+                    "author": "Xeadriel",
+                    "body": "Yeah. I actually don\u2019t use servers as much xD \n\nIt\u2019s always just been a replacement for Skype for me.",
+                    "score": 11,
+                    "replies": []
+                },
+                {
+                    "author": "tsashinnn",
+                    "body": "Discord is all I use for online communication outside of work. This is a big win! Steam social chat function just unnecessarily segregates us.",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "BaconJets",
+                    "body": "I use the friends list feature, me and my girlfriend want to call 1 on 1 when we're apart and I may be playing a game on PC or PS5.",
+                    "score": 10,
+                    "replies": []
+                },
+                {
+                    "author": "Zentillion",
+                    "body": "Uh, how else do you dm your friends and see who is online? I don't understand how this is a question.",
+                    "score": 21,
+                    "replies": [
+                        {
+                            "author": "Albake21",
+                            "body": "Steam.... this must be a generational thing. Me and my friends have always used steam to see if someone is online, to message them to play, then hop in discord (Skype or TS3 before that) just for voice chat, nothing else.",
+                            "score": 5,
+                            "replies": [
+                                {
+                                    "author": "Zentillion",
+                                    "body": "You're mistaking discord as something purely for gaming when it is an entire social platform many people use from hobbies to everyday chatting.",
+                                    "score": 10,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "colxa",
+                            "body": "I look in the Discord channel that I'm in with my friends",
+                            "score": 10,
+                            "replies": [
+                                {
+                                    "author": "Zentillion",
+                                    "body": "If you have one friend group that works I guess",
+                                    "score": 15,
+                                    "replies": [
+                                        {
+                                            "author": "Certain_Quail_0",
+                                            "body": "Exciting new development: I have multiple groups of friends I voice chat with, and multiple discord servers accordingly!",
+                                            "score": 0,
+                                            "replies": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author": "necile",
+                    "body": "tbh, you and I are probably a huge minority.",
+                    "score": 14,
+                    "replies": [
+                        {
+                            "author": "Alstorp",
+                            "body": "What's a huge minority? 49%?",
+                            "score": -13,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Snowmobile2004",
+                    "body": "For sure. I have hundreds of friends on discord I dont have on steam or other platforms",
+                    "score": 8,
+                    "replies": []
+                },
+                {
+                    "author": "Wack-A-Cloud",
+                    "body": "I use it to check if someone sits in any joinable channel on some server when I am in the mood of chatting :)",
+                    "score": 12,
+                    "replies": [
+                        {
+                            "author": "GolldenFalcon",
+                            "body": "Holy extrovert energy. Could never be me.",
+                            "score": 19,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Elbludo",
+                    "body": "Yea I got two friends and my wife to send cat memes",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Hot-Software-9396",
+                    "body": "Why would you use Steam\u2019s friends list over something more platform agnostic like Discord? Do you only ever plan to game with people who use Steam? If so, why?",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "Shinonomenanorulez",
+                    "body": "I have more than enough people on discord for this to be a useful feature\n \nMy steam profile is so barren i got it described as \"it looks like a scammer's account\" by someone",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "SneakybadgerJD",
+                    "body": "Discord accounts and friends are cross-platform. A lot of games and platforms use their own-account systems so this would be great, no matter what game I'm on, I could have the same friends list.",
+                    "score": 3,
+                    "replies": []
+                },
+                {
+                    "author": "RuleSuch9878",
+                    "body": "Yes? My friends list being decentralized from whatever launcher/platform I\u2019m on would be a huge improvement.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "a3poify",
+                    "body": "At least in my experience if you\u2019re on a larger public server and you don\u2019t limit DMs to people on your friends list you get absolutely spammed with scam links from randoms, which is why it\u2019s worth keeping a friends list for me.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "shredmasterJ",
+                    "body": "People just want a voice chat program. We don\u2019t need the bells and whistles.  \n\nGive my old school ventrilo anyday.",
+                    "score": 2,
+                    "replies": []
+                },
+                {
+                    "author": "jameskond",
+                    "body": "For crossplay friends it would be pretty convenient. Beats the whole separate account per game thing.",
+                    "score": 1,
+                    "replies": []
+                },
+                {
+                    "author": "door_of_doom",
+                    "body": "> Do people actually use the friend's list feature on discord?\n\nDo people use the social features of a social communication app?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "colxa",
+                            "body": "None of my friends use the friends list. We're all in the same discord channel. It's not that unbelievable",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "RockFox2000",
+            "body": "I don't think I have a problem with that, all my friends are on Discord anyway so less friction between that and the game's fine by me",
+            "score": 11,
+            "replies": []
+        },
+        {
+            "author": "_Joats",
+            "body": "I think discord just released an IPO. So big warning signs for the future.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "iNSANELYSMART",
+            "body": "I mean tbf this does sound kinda cool... you'd have the same friendlist everywhere and good voicechat.\n\nDiscord sadly also is kinda the only real option for crossplay voicechat outside of any game that has its own voicechat.",
+            "score": 5,
+            "replies": []
+        },
+        {
+            "author": "_Joats",
+            "body": "Yes lets add more 3rd party program dependencies to games that don't need them.",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "akuhei",
+            "body": "So we are back to gamespy?",
+            "score": 7,
+            "replies": [
+                {
+                    "author": "Rolf_Dom",
+                    "body": "The longer we live the more we realize that we're stuck in an endless loop of recycling the same ideas with a fresh coat of paint. Every new generation gets milked by something they perceive as innovative, where as older folks are constantly asking themselves: \"wait, I've seen this before.\"\n\nStreaming services have re-invented cable and radio. Chatting and social media platforms keep iterating the same ideas and falling into the same pitfalls from 25 years ago.",
+                    "score": 4,
+                    "replies": []
+                },
+                {
+                    "author": "heydudejustasec",
+                    "body": "Yes just without the actual netcode.",
+                    "score": 2,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "Athezir_4",
+            "body": "That's fine. I don't have any.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "VenKitsune",
+            "body": "Omega strikers did this already. Instead of having to build their own voice chat they just hook discord in, if you want to opt in to doing so.",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "erty3125",
+            "body": "The response here is a hilarious self report from average user of this sub.\n\nSome games already had discord integration for invites via friends list and discord is integrated with consoles and agnostic of storefront",
+            "score": 7,
+            "replies": []
+        },
+        {
+            "author": "bongsoldier9000",
+            "body": "This sub is so depressing lmao. How is this a bad thing?",
+            "score": 8,
+            "replies": [
+                {
+                    "author": "poply",
+                    "body": "Discord is one of my least favorite things to happen to gaming in the last decade.\n\n\n- Closed platform, not indexed by search engines.\n\n\n- Forced account creation to access the platform.\n\n\n- Increased use of platform for documentation that should be public.\n\n\n- Online communities increasingly fractured and chats more dead than ever due to use of an external platform.\n\n\n- it's a bloated ugly fucking mess of an application.\n\n\nThe 90s and 2000s were the golden age of pc gaming for community.",
+                    "score": 30,
+                    "replies": [
+                        {
+                            "author": "AnonTwo",
+                            "body": "To be fair, point 3 is really the only reason point 1 and 2 are problematic.\n\nIf it weren't for the documentation part, discord would just be an instant message/VOIP program. You wouldn't *want* all that to be indexed and you need an account for moderation purposes of the instant messaging part.\n\nNot sure what a good answer to that is without making discord worse at one or the other.",
+                            "score": 6,
+                            "replies": []
+                        },
+                        {
+                            "author": "wickeddimension",
+                            "body": "Particularly the first 3 points are a terrible development. So many problems you can solve by looking up a 5 year old forum post with the same issue. All of that is gone since companies decide to put all their community information into the black hole that is Discord. Shielded from the outside, everything is in the form of a chat where 5 things are discussed at once and information is gone as quickly as it was typed out.\n\nAll these companies make themselves completely dependant on a third party (soon to be publicly traded) company that essentially holds their entire customer base and support history.",
+                            "score": 17,
+                            "replies": [
+                                {
+                                    "author": "Skyyblaze",
+                                    "body": "I love Discord as a MSN/AIM/Skype replacement but yeah entire communities on Discord are a gigantic mess and headache. Everything bigger than a group of 20 people becomes a clusterfuck.",
+                                    "score": 7,
+                                    "replies": []
+                                }
+                            ]
+                        },
+                        {
+                            "author": "gcburn2",
+                            "body": "I hate all those things as well, but points 1,3,4 are all the fault of the communities, not the application itself.  \n\nI'm guessing that the reason communities are adopting Discord servers as their hubs is because Discord works well on a mobile device whereas message boards were made for desktop viewing.",
+                            "score": 3,
+                            "replies": []
+                        },
+                        {
+                            "author": "GreenKumara",
+                            "body": "A huge amount of resources will vanish once discord become enshitified and people move on or it closes.",
+                            "score": 2,
+                            "replies": []
+                        }
+                    ]
+                },
+                {
+                    "author": "Shinonomenanorulez",
+                    "body": "This sub complains about pretty much everything unless is from a specific set of sources they worship",
+                    "score": -5,
+                    "replies": [
+                        {
+                            "author": "a_talking_face",
+                            "body": "Yes steam literally already has this feature yet nobody is here whining about that.",
+                            "score": -7,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "d4bn3y",
+            "body": "lol\u2026friends\u2026",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "Rat-king27",
+            "body": "Jokes on them, I don't play multiplayer games, and only have 1 friend.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Dante_SS",
+            "body": "Discord is like a stain you just can't quite wash out",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "citizen-spur",
+            "body": "Wait.. friends?",
+            "score": 2,
+            "replies": [
+                {
+                    "author": "theFrigidman",
+                    "body": "I had to ask my pal ChatGPT what that word meant ... it was very helpful in telling me that I don't need any of those, I have ChatGPT.\n\n(edit: I joke, really, I have friends... gemini, and jasper, and siri, and ... oh)",
+                    "score": 0,
+                    "replies": []
+                }
+            ]
+        },
+        {
+            "author": "None",
+            "body": "No thanks",
+            "score": 3,
+            "replies": []
+        },
+        {
+            "author": "LolcatP",
+            "body": "yea no thanks i don't want a \"login to discord\" button in the corner",
+            "score": 2,
+            "replies": []
+        },
+        {
+            "author": "bigfuzzydog",
+            "body": "No thanks",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "hevahavahan",
+            "body": "Cool, I'm mostly invisible 24/7, but still cool none the less",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "bianox07",
+            "body": "I play Supervive and I had to unlink my Discord account because it would take a trillion years to load my friend list every time i went to the main menu",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Thaun_",
+            "body": "Remember that Steam Friends is also a thing, so allowing people to invite trough discord aswell is a good feature.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "_clampgod",
+            "body": "I hate how discord only knows what game you\u2019re playing",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "penguished",
+            "body": "Why. I feel like discord is on the deep decline already. Unless you're a streamer with an actual use for huge calls, it's kind of just an annoying place where diarrhea of the mouth people never shut up. Or there's some software company that should absolutely not lock support behind a discord but did it anyway so you have to add them.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Fluid_Moose5291",
+            "body": "Ventrilo.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "ProphetoftheOnion",
+            "body": "I've used this in Pax Dei, and it's not been bad. When you use text whispers it'll appear in your discord for later, and you can use whispers to talk to people in discord in text too.\n\nYou have to link the game client to discord and request permissions. The doesn't demand you do this, it just has an icon at the top of your friends window.\n\nFriends in game seem to automatically become friends in discord.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "mezdiguida",
+            "body": "This is good, I hate when some games don't connect to your Steam friend list for some reason and you have to re-add every one of them. This seems more practical.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Lazuliv",
+            "body": "Pretty cool. May use it for some games",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "MrPanda663",
+            "body": "Annnnddd deactivate.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "tythompson",
+            "body": "It already appears in Seeker of Skyveil and Supervive",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "Kaasbek69",
+            "body": "No thanks.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "GobbyFerdango",
+            "body": "Discord is in such a discord that one can't even log in without raw dogging the internet and then it might just work to verify your email. If Discord thinks I'm installing their app they must be guzzling gas straight out of a volcano.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "spook30",
+            "body": "Here I go back to teamspeak...",
+            "score": 0,
+            "replies": [
+                {
+                    "author": "Kojak747",
+                    "body": "Any other alternatives on the horizon?",
+                    "score": 1,
+                    "replies": [
+                        {
+                            "author": "OneFunnyFart",
+                            "body": "https://revolt.chat/",
+                            "score": 1,
+                            "replies": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "author": "R1Glitzer",
+            "body": "I hope nobody who complains bout this currently have their Steam account linked to their discords. If so you\u2019re complaining about nothing the link was already established lol",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "JHMfield",
+            "body": "Everyone here discussing the pros and cons and here I am, never even having used Discord. \n\nAs long as the games don't require me to make an account and use the thing to play the games I own, I don't much care what they do.\n\nThough I can sympathize with folks wanting to minimize the bloat. Everything is so damn integrated these days.",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "p3ek",
+            "body": "Discord what is this 2010 \ud83e\udd23\ud83e\udd23",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "dribanlycan",
+            "body": "im tired man",
+            "score": 1,
+            "replies": []
+        },
+        {
+            "author": "GroundbreakingBag164",
+            "body": "People use Discord friends? Huh\n\nI just use Steam friends for everything, I'm not even sure if I have my partner as a friend on Discord",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "Druidofdespair",
+            "body": "Isn\u2019t this already in Rust ?",
+            "score": 0,
+            "replies": []
+        },
+        {
+            "author": "shadowds",
+            "body": "That neat, but it better be optional, and off by default, as I don't think anyone be happy having their friend list imported without their permission.",
+            "score": 0,
+            "replies": []
+        }
+    ]
+}
