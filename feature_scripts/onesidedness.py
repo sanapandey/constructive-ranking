@@ -23,7 +23,7 @@ def get_onesidedness_score(comment_forest):
             if 'replies' in comment and comment['replies']:
                 extract_authors(comment['replies'])
     
-    extract_authors(comment_forest) #extract_authors(comment_forest['comments'])
+    extract_authors(comment_forest['comments']) #extract_authors(comment_forest['comments'])
     
     # counting contributions by each author
     contribution_counts = defaultdict(int)
