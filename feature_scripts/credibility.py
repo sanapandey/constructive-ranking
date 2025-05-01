@@ -91,11 +91,7 @@ def get_comment_readability(comment_body):
     score = response["choices"][0]["message"]["content"]
     try:
         return float(score)
-    except Exception as e:
-        print(f'comment body: {comment_body}')
-        print(f'score: {score}')
-        print(f'exception:')
-        print(e)
+    except:
         return pd.NA
 
 
@@ -112,7 +108,8 @@ def get_credibility_subfeatures(comment_forest, valid_words = VALID_WORDS):
     total_word_count = 0
     comments_with_links_count = 0
     misspellings_count = 0
-    total_readability_score = 0 # This will be averaged over total_comments_count
+    total_readability_score = 0 # This will be averaged over total_readable_comments_count
+    total_readable_comments_count = 0
     
     for comment in flattened_comment_forest:
 
@@ -153,7 +150,11 @@ def get_credibility_subfeatures(comment_forest, valid_words = VALID_WORDS):
 
         # Add readability score for averaging later
 
-        total_readability_score += get_comment_readability(comment_body)
+        readability_score = get_comment_readability(comment_body)
+        if not pd.isna(readability_score): 
+            total_readability_score += readability_score 
+            total_readable_comments_count +=1 
+
 
     
     total_authors = len(authors_set)
@@ -166,7 +167,7 @@ def get_credibility_subfeatures(comment_forest, valid_words = VALID_WORDS):
                         "comment_length_mean": total_word_count / total_comments,
                         "comment_has_links_proportion" : comments_with_links_count / total_comments,
                         "misspelled_words_proportion": misspellings_count / total_word_count,
-                        "readability_mean": total_readability_score / total_comments
+                        "readability_mean": total_readability_score / total_readable_comments_count
                         }
 
     return return_dictionary
