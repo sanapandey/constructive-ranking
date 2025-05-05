@@ -12,6 +12,7 @@ import os
 # Add the parent directory to sys.path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from feature_scripts.credibility import *
+from feature_scripts.credibility_v2 import get_credibility_subfeatures
 
 def test_credibility_score_with_links_and_investment():
         """
@@ -49,7 +50,8 @@ def test_credibility_score_with_links_and_investment():
             ]
         }
         
-        credibility_score = get_credibility_score(link_rich_conversation)
+        credibility_features = get_credibility_subfeatures(link_rich_conversation)
+        credibility_score = get_credibility_score(link_rich_conversation) #sum(credibility_features.values()) / len(credibility_features)
         assert not pd.isna(credibility_score), "Credibility score should not be NA"
         assert credibility_score > 0, "Conversation with links and investment should have positive credibility"
 
@@ -248,7 +250,7 @@ def test_create_author_reputation_df():
     assert 'reputation_score' in df.columns
 
 def test_create_author_investment_df():
-    """Test author investment calculation"""
+    """Test author investment calculation;  readability + links - grammar/spelling mistakes"""
     test_thread = {
         'comments': [
             {
@@ -332,4 +334,4 @@ def test_full_credibility_calculation():
     assert not pd.isna(score)
     assert isinstance(score, float)
     # The actual score value will depend on the implementation details
-    assert score > 0  # This thread should have positive credibility
+    assert score > 0  # This thread should have positive credibility -- make this a fixed value for the openai bit 

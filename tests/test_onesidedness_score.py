@@ -6,6 +6,8 @@ import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from feature_scripts.onesidedness import get_onesidedness_score
 
+#calculate exactly what it should be 
+
 def test_onesidedness_balanced_conversation():
         """
         Test one-sidedness score for a balanced conversation
