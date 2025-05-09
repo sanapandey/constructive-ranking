@@ -85,26 +85,29 @@ class CoalitionAnalyzer:
             comment_embedding.reshape(1, -1), 
             coalition_centroids[comment_coalition].reshape(1, -1)
         )[0][0]
-        intra_score = 1 / (intra_similarities + 1e-10)  # Prevent division by zero
+
+        intra_score = intra_similarities
+        # intra_score = 1 / (intra_similarities + 1e-10) 
+         # Prevent division by zero-- this could cause trouble? (if this is zero, do seomthing else)
 
         
         # Inter-coalition score
         other_centroids = np.delete(coalition_centroids, comment_coalition, axis=0)
         if len(other_centroids) > 0:
-            inter_similarities = cosine_similarity(
+            inter_score = np.sum(cosine_similarity(
                 comment_embedding.reshape(1, -1), 
-                other_centroids
-            )[0]
-            inter_score = -np.max(cosine_similarity(
-                comment_embedding.reshape(1, -1), 
-                coalition_centroids[comment_coalition].reshape(1, -1)
-            )[0]) - np.sum(inter_similarities)
+                other_centroids #add a 0 here if we need to 
+            ))
+            # inter_score = - cosine_similarity(
+            #     comment_embedding.reshape(1, -1), 
+            #     coalition_centroids[comment_coalition].reshape(1, -1)
+            # )[0] - np.sum(inter_similarities)
             #print(f"Inter Score: {intra_score}") 
         else:
             inter_score = 0
             print("Went into inter else statement.")
-        final_score = inter_score/intra_score  # Direct difference instead of division
-        #print(f"Comment Score: {final_score}")  # Debugging print
+        final_score = inter_score - intra_score  # Direct difference instead of division
+        print(f"Comment Score: {final_score}")  # Debugging print
         return final_score    
     
     def analyze_thread(self, comments: List[str], n_clusters: int = 3) -> Dict[str, Any]:
@@ -153,33 +156,79 @@ class CoalitionAnalyzer:
         coalition_centroids = self.calculate_coalition_centroids(embeddings, cluster_labels)
         
         # Calculate scores for each comment
+        # comment_scores = [
+        #     self.calculate_comment_score(emb, coalition_centroids, cluster)
+        #     for emb, cluster in zip(embeddings, cluster_labels)
+        # ]
+
+
+        # diversity_score = np.std(comment_scores)
+
+        # if np.std(comment_scores) < 0.05:
+        #     normalized_score = 0.0  # Very low diversity
+        # else:
+        #     if not np.isnan(diversity_score):  # Avoid updating if diversity_score is NaN
+        #         CoalitionAnalyzer.min_score = min(CoalitionAnalyzer.min_score, diversity_score)
+        #         CoalitionAnalyzer.max_score = max(CoalitionAnalyzer.max_score, diversity_score)
+
+        # # Normalize using Min-Max Scaling (only if min and max are different)
+        #     if CoalitionAnalyzer.max_score > CoalitionAnalyzer.min_score:
+        #         normalized_score = (diversity_score - CoalitionAnalyzer.min_score) / \
+        #                (CoalitionAnalyzer.max_score - CoalitionAnalyzer.min_score)
+        #     else:
+        #         normalized_score = 0.0  # Avoid division by zero
+        # #print(f"Overall Diversity Score: {normalized_score}")  # Debugging print
+
+        # Calculate scores for each comment
         comment_scores = [
             self.calculate_comment_score(emb, coalition_centroids, cluster)
             for emb, cluster in zip(embeddings, cluster_labels)
         ]
 
+        # Debug: Check for NaN in comment scores
+        if any(np.isnan(score) for score in comment_scores):
+            print("Warning: Found NaN in comment scores")
+            return {
+                'cluster_labels': cluster_labels,
+                'comment_scores': comment_scores,
+                'overall_coalition_diversity': 0.0
+            }
 
         diversity_score = np.std(comment_scores)
-
-        if np.std(comment_scores) < 0.05:
-            normalized_score = 0.0  # Very low diversity
-        else:
-            if not np.isnan(diversity_score):  # Avoid updating if diversity_score is NaN
-                CoalitionAnalyzer.min_score = min(CoalitionAnalyzer.min_score, diversity_score)
-                CoalitionAnalyzer.max_score = max(CoalitionAnalyzer.max_score, diversity_score)
-
-        # Normalize using Min-Max Scaling (only if min and max are different)
-            if CoalitionAnalyzer.max_score > CoalitionAnalyzer.min_score:
-                normalized_score = (diversity_score - CoalitionAnalyzer.min_score) / \
-                       (CoalitionAnalyzer.max_score - CoalitionAnalyzer.min_score)
-            else:
-                normalized_score = 0.0  # Avoid division by zero
-        #print(f"Overall Diversity Score: {normalized_score}")  # Debugging print
         
+        # Debug: Check diversity score
+        if np.isnan(diversity_score):
+            print("Warning: Diversity score is NaN")
+            return {
+                'cluster_labels': cluster_labels,
+                'comment_scores': comment_scores,
+                'overall_coalition_diversity': 0.0
+            }
+
+        # Handle very low diversity case
+        if diversity_score < 0.05:
+            return {
+                'cluster_labels': cluster_labels,
+                'comment_scores': comment_scores,
+                'overall_coalition_diversity': 0.0
+            }
+
+        # Update global min/max scores
+        CoalitionAnalyzer.min_score = min(CoalitionAnalyzer.min_score, diversity_score)
+        CoalitionAnalyzer.max_score = max(CoalitionAnalyzer.max_score, diversity_score)
+
+        # Normalize score
+        if CoalitionAnalyzer.max_score > CoalitionAnalyzer.min_score:
+            normalized_score = (diversity_score - CoalitionAnalyzer.min_score) / \
+                (CoalitionAnalyzer.max_score - CoalitionAnalyzer.min_score)
+        else:
+            normalized_score = 0.0
+
+        # Final return statement (only one!)
         return {
             'cluster_labels': cluster_labels,
             'comment_scores': comment_scores,
-            'overall_coalition_diversity': 1 - normalized_score #try 1-normalized_score
+            'overall_coalition_diversity': 1 - normalized_score
         }
 
 
@@ -197,14 +246,14 @@ def extract_comments_from_forest(comment_forest: List[Dict]) -> List[str]:
     comment_texts = []
     
     def extract_recursive(comments):
-        for comment in comments['comments']:
+        for comment in comments:
             if 'body' in comment:
                 comment_texts.append(comment['body'])
             if 'replies' in comment and comment['replies']:
                 extract_recursive(comment['replies'])
-    
-    extract_recursive(comment_forest)
+    extract_recursive(comment_forest['comments'])
     return comment_texts
+    
 
 
 def get_coalition_score(comment_forest, n_clusters: int = 3) -> float:
@@ -220,11 +269,14 @@ def get_coalition_score(comment_forest, n_clusters: int = 3) -> float:
         float: Coalition score indicating viewpoint diversity (higher is more diverse)
                Returns 0.0 if analysis cannot be performed
     """
+    print("called get_coalition_score successfully.")
      # Extract comment texts from the forest structure
     comment_texts = extract_comments_from_forest(comment_forest)
+    print(f'successfully extracted {len(comment_texts)} comments.')
         
     # Check if we have enough comments to analyze
     if len(comment_texts) < 10:  # Threshold for minimum comments
+        print('entered first if case, comments < 10.')
         return float("NaN")
         
     # Initialize analyzer and run analysis
@@ -232,4 +284,6 @@ def get_coalition_score(comment_forest, n_clusters: int = 3) -> float:
     results = analyzer.analyze_thread(comment_texts, n_clusters=min(n_clusters, len(comment_texts)))
         
     # Return the overall coalition diversity as the score
-    return float(results['overall_coalition_diversity'])
+    result = float(results['overall_coalition_diversity'])
+    print(f'final value: {result}')
+    return result 
