@@ -1,4 +1,3 @@
-
 import nltk
 nltk.download('punkt_tab')
 from nltk import tokenize
@@ -48,45 +47,31 @@ def flatten_comments(comment_forest):
             traverse(comment)
     return flattened
 
-def get_comment_readability_old(comment_body):
-    openai.api_key = OPENAI_API_KEY
-
-    # prompt = f"Rate the following text on the Flesch-Kincaid readability index (0-100, higher is easier to read). There is one special case: for texts that are one letter or unable to be analyzed by the Flesch Kincaid algorithm, return a score of 5. For all other cases, please apply the formula as standard. Please only return numbers with no text. It is very important that you return only numbers with no additional context or explanation:\n\n{comment_body}\n\nReadability Score:"
-    prompt = (
-    "Rate the following text on the Flesch-Kincaid readability index (0-100, higher is easier to read). "
-    "There is one special case: for texts that are one letter or unable to be analyzed by the Flesch-Kincaid algorithm, return a score of 5. "
-    "For all other cases, please apply the formula as standard. "
-    "Please only return **a single number** (with no text, explanation, or multiple values):\n\n"
-    f"{comment_body}\n\nReadability Score:"
-    )
-
-
-    response = openai.ChatCompletion.create(
-        model="gpt-4-turbo",
-        messages=[{"role": "system", "content": "You are a readability expert."},
-                      {"role": "user", "content": prompt}]
-    )
-    score = response["choices"][0]["message"]["content"]
-    
-    return float(score)  # Ensure it's a float
-
 def get_comment_readability(comment_body):
-
-    if len(comment_body.split()) < 3: return pd.NA
+    
     openai.api_key = OPENAI_API_KEY
 
-    prompt = (
-        "Compute the Flesch–Kincaid readability score (0–100, higher = easier to read) "
-        "for the text below. Ignore any URLs or list markers. "
-        f"This is the comment body (surrounded by the symbols '<<>>'): <<{comment_body}>>."
-        "Reply with the score only, no explanation, just a single number:"
-    )
+    # prompt = (
+    #     "Compute the Flesch-Kincaid readability score (0-100, higher = easier to read) "
+    #     "for the text below, which is surrounded by the symbols '<<' and '>>'. "
+    #     "Ignore any URLs or list markers."
+    #     "To calculate the score count sentences and syllables precisely "
+    #     "and apply the formula: "
+    #     "206.835 - 1.015*(words/sentences) - 84.6*(syllables/words). "
+    #     f"This is the text: <<{comment_body}>>."
+    #     "Reply with the score only, no explanation, just a single number:"
+    # )
 
+    prompt = ("Read the text below. Then, indicate the readability of the text, on a scale from 1 (extremely challenging to understand) to 100 (very easy to read and understand). In your assessment, consider factors such as sentence structure, vocabulary complexity, and overall clarity."
+    f"This is the text: <<{comment_body}>>."
+    "It is extremely that you reply with the score only, no explanation, just a single number:"
+    )
 
     response = openai.ChatCompletion.create(
         model="gpt-4-turbo",
-        messages=[{"role": "system", "content": "You are a readability expert."},
-                      {"role": "user", "content": prompt}]
+        messages=[{"role": "system", 
+                   "content": "You are a readibility expert who can only respond in numbers."},
+                    {"role": "user", "content": prompt}]
     )
     score = response["choices"][0]["message"]["content"]
     try:
@@ -110,10 +95,17 @@ def get_credibility_subfeatures(comment_forest, valid_words = VALID_WORDS):
     misspellings_count = 0
     total_readability_score = 0 # This will be averaged over total_readable_comments_count
     total_readable_comments_count = 0
+
+    total_comments = 0
     
     for comment in flattened_comment_forest:
 
         comment_body = comment['body']
+
+        if comment_body == "[removed]" or comment_body == "[deleted]":
+            continue
+
+        total_comments += 1
 
         authors_set.add(comment['author'])
 
@@ -158,16 +150,19 @@ def get_credibility_subfeatures(comment_forest, valid_words = VALID_WORDS):
 
     
     total_authors = len(authors_set)
-    total_comments = len(flattened_comment_forest)
     
     return_dictionary = {
-                        "comment_has_author_references_proportion": comments_referencing_other_authors_count / total_comments,
-                        "vote_score_mean": total_vote_score / total_comments,
-                        "comments_per_author": total_comments / total_authors,
-                        "comment_length_mean": total_word_count / total_comments,
-                        "comment_has_links_proportion" : comments_with_links_count / total_comments,
-                        "misspelled_words_proportion": misspellings_count / total_word_count,
-                        "readability_mean": total_readability_score / total_readable_comments_count
+                        "comment_has_author_references_proportion": comments_referencing_other_authors_count / total_comments if total_comments else pd.NA,
+                        "vote_score_mean": total_vote_score / total_comments if total_comments else pd.NA,
+                        "comments_per_author": total_comments / total_authors if total_authors else pd.NA,
+                        "comment_length_mean": total_word_count / total_comments if total_comments else pd.NA,
+                        "comment_has_links_proportion" : comments_with_links_count / total_comments if total_comments else pd.NA,
+                        "misspelled_words_proportion": misspellings_count / total_word_count if total_word_count else pd.NA,
+                        "readability_mean": total_readability_score / total_readable_comments_count if total_readable_comments_count else pd.NA,
+                        # some extras for debuggin
+                        "total_word_count" : total_word_count,
+                        "total_comments" : total_comments,
+                        "total_coments_readability_scorable" : total_readable_comments_count
                         }
 
     return return_dictionary
