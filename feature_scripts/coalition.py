@@ -81,17 +81,14 @@ class CoalitionAnalyzer:
             float: Coalition-building score
         """
         # Intra-coalition score
-        intra_similarities = cosine_similarity(
+        intra_score = cosine_similarity(
             comment_embedding.reshape(1, -1), 
             coalition_centroids[comment_coalition].reshape(1, -1)
         )[0][0]
 
-        intra_score = intra_similarities
-        # intra_score = 1 / (intra_similarities + 1e-10) 
-         # Prevent division by zero-- this could cause trouble? (if this is zero, do seomthing else)
-
         
         # Inter-coalition score
+       
         other_centroids = np.delete(coalition_centroids, comment_coalition, axis=0)
         if len(other_centroids) > 0:
             inter_score = np.sum(cosine_similarity(
@@ -104,9 +101,17 @@ class CoalitionAnalyzer:
             # )[0] - np.sum(inter_similarities)
             #print(f"Inter Score: {intra_score}") 
         else:
-            inter_score = 0
-            print("Went into inter else statement.")
+            inter_score = float("NaN") #not applicable because we need multiple groups 
+            
+
+        print(f'interscore: {inter_score}')
+        print(f'intrascore: {intra_score}')
         final_score = inter_score - intra_score  # Direct difference instead of division
+        # inter pos intra neg -- diff higher + , quot neg 
+        # inter neg intra pos -- slightly -, quot neg 
+        # inter pos intra pos -- sligtly +, quot pos
+        # inter neg intra neg -- higher -, quot pos 
+
         print(f"Comment Score: {final_score}")  # Debugging print
         return final_score    
     
@@ -218,17 +223,18 @@ class CoalitionAnalyzer:
         CoalitionAnalyzer.max_score = max(CoalitionAnalyzer.max_score, diversity_score)
 
         # Normalize score
-        if CoalitionAnalyzer.max_score > CoalitionAnalyzer.min_score:
-            normalized_score = (diversity_score - CoalitionAnalyzer.min_score) / \
-                (CoalitionAnalyzer.max_score - CoalitionAnalyzer.min_score)
-        else:
-            normalized_score = 0.0
+        # if CoalitionAnalyzer.max_score > CoalitionAnalyzer.min_score:
+        #     print(f'')
+        #     normalized_score = (diversity_score - CoalitionAnalyzer.min_score) / \
+        #         (CoalitionAnalyzer.max_score - CoalitionAnalyzer.min_score)
+        # else:
+        #     normalized_score = 0.0
 
         # Final return statement (only one!)
         return {
             'cluster_labels': cluster_labels,
             'comment_scores': comment_scores,
-            'overall_coalition_diversity': 1 - normalized_score
+            'overall_coalition_diversity': np.average(comment_scores)
         }
 
 
