@@ -1,4 +1,5 @@
 from collections import defaultdict
+import pandas as pd
 
 def get_onesidedness_score(comment_forest):
     """
@@ -36,11 +37,11 @@ def get_onesidedness_score(comment_forest):
     # edge case: if there's only one author or no authors (post does not have a conversation)
     n = len(frequencies)
     if n <= 1:
-        return 0 # No inequality with only one author TODO check if this makes intuitive sense?
+        return pd.NA # No inequality with only one author TODO check if this makes intuitive sense?
     
     # calculate Gini coefficient
     numerator = sum((2 * i - n - 1) * x for i, x in enumerate(frequencies, 1))
-    denominator = (n * sum(frequencies)) + 1e-9 #prevent division by 0
+    denominator = (n * sum(frequencies)) 
         
-    gini = numerator / denominator
+    gini = numerator / denominator if denominator != 0 else pd.NA
     return gini

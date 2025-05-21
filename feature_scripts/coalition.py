@@ -273,7 +273,6 @@ def get_coalition_score(comment_forest, n_clusters: int = 3) -> float:
         
     # Check if we have enough comments to analyze
     if len(comment_texts) < 10:  # Threshold for minimum comments
-        print('entered first if case, comments < 10.')
         return float("NaN")
         
     # Initialize analyzer and run analysis
