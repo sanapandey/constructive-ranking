@@ -85,7 +85,6 @@ class CoalitionAnalyzer:
             comment_embedding.reshape(1, -1), 
             coalition_centroids[comment_coalition].reshape(1, -1)
         )[0][0]
-
         
         # Inter-coalition score
        
@@ -102,17 +101,9 @@ class CoalitionAnalyzer:
             #print(f"Inter Score: {intra_score}") 
         else:
             inter_score = float("NaN") #not applicable because we need multiple groups 
-            
 
-        print(f'interscore: {inter_score}')
-        print(f'intrascore: {intra_score}')
         final_score = inter_score - intra_score  # Direct difference instead of division
-        # inter pos intra neg -- diff higher + , quot neg 
-        # inter neg intra pos -- slightly -, quot neg 
-        # inter pos intra pos -- sligtly +, quot pos
-        # inter neg intra neg -- higher -, quot pos 
 
-        print(f"Comment Score: {final_score}")  # Debugging print
         return final_score    
     
     def analyze_thread(self, comments: List[str], n_clusters: int = 3) -> Dict[str, Any]:
@@ -275,14 +266,13 @@ def get_coalition_score(comment_forest, n_clusters: int = 3) -> float:
         float: Coalition score indicating viewpoint diversity (higher is more diverse)
                Returns 0.0 if analysis cannot be performed
     """
-    print("called get_coalition_score successfully.")
+    # print("called get_coalition_score successfully.")
      # Extract comment texts from the forest structure
     comment_texts = extract_comments_from_forest(comment_forest)
-    print(f'successfully extracted {len(comment_texts)} comments.')
+    # print(f'successfully extracted {len(comment_texts)} comments.')
         
     # Check if we have enough comments to analyze
     if len(comment_texts) < 10:  # Threshold for minimum comments
-        print('entered first if case, comments < 10.')
         return float("NaN")
         
     # Initialize analyzer and run analysis
@@ -291,5 +281,5 @@ def get_coalition_score(comment_forest, n_clusters: int = 3) -> float:
         
     # Return the overall coalition diversity as the score
     result = float(results['overall_coalition_diversity'])
-    print(f'final value: {result}')
+    # print(f'final value: {result}')
     return result 
