@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webpage Variation Loader</title>
+    <script>
+        function getQueryParam(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+        
+        function redirectToVariation() {
+            const branch = getQueryParam('branch');
+            const contentLevel = getQueryParam('contentLevel').toLowerCase(); 
+            const pageAssignment = getQueryParam('pageAssignment');
+            const tripletID = getQueryParam('tripletID');
+            const pairNumber = getQueryParam('pairNumber');
+            
+            let variationPath;
+            
+            if (branch === '0') {
+                // Individual ranking branch
+                variationPath = `individual/${contentLevel}_${pageAssignment}.html`;
+            } else {
+                // Pairwise comparison branch
+                variationPath = `pairwise/${contentLevel}/triplet_${tripletID}.html`;
+                
+                // Add pairNumber as hash for the page to handle
+                if (pairNumber) {
+                    variationPath += `#pair-${pairNumber}`;
+                }
+            }
+            
+            window.location.href = variationPath;
+        }
+        
+        window.onload = redirectToVariation;
+    </script>
+</head>
+<body>
+    <p>Loading your assigned webpage variation...</p>
+</body>
+</html>

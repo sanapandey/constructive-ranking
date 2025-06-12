@@ -390,3 +390,11 @@ def get_comment_readability_individual(comment_body):
         return float(response.choices[0].message.content)
     except:
         return pd.NA
+    
+
+def get_credibility_score(comment_forest): 
+    """Get combined credibility score."""
+    result_dict = get_credibility_subfeatures(comment_forest)
+    investment_score = result_dict.get("comment_length_mean") + result_dict.get("comment_has_links_proportion") - result_dict.get("misspelled_words_proportion") + result_dict.get("readability_mean")
+    reputation_score = result_dict.get("comment_has_author_references_proportion") + result_dict.get("vote_score_mean")
+    return investment_score + reputation_score
